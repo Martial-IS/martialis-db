@@ -25,14 +25,15 @@ example. I will do my best to translate, which given today's technology is simpl
 
 ## Licensing
 
-By submitting a database addition or correction in an issue that a maintainer turns into a database
-change, you dedicate it to the public domain under **CC0-1.0**, covering copyright and any sui
-generis database right you may hold, and you represent that it is your own statement of fact with
-citations rather than material copied from a copyrighted or database-rights-protected work. The
-database itself stays CC-BY-SA-4.0. See [LICENSING.md](LICENSING.md#inbound-licensing).
+By submitting content for the database, in a Discussion or an issue, you dedicate it to the public
+domain under **CC0-1.0**, covering copyright and any sui generis database right you may hold, and you
+represent that it is your own statement of fact with citations rather than material copied from a
+copyrighted or database-rights-protected work. Short quotations given as evidence are not part of
+that dedication: they stay with their rightsholders. The database itself stays CC-BY-SA-4.0. See
+[LICENSING.md](LICENSING.md#inbound-licensing).
 
-For a substantial donation (a whole researched lineage, scans, photographs), send a short individual
-agreement by email instead, open an issue or contact the maintainer.
+For a substantial donation (a whole researched lineage, scans, photographs), contact the maintainer
+to arrange a short individual agreement.
 
 Disagreements are settled through the debate in Discussions; when consensus fails, the project lead
 decides and states the reasoning.

@@ -471,9 +471,6 @@ def do_compute(args):
             "cone_size": len(members),
             "dominance": round(d["dominance"], 4),
             "coverage": coverage_score(person),
-            # Surfaced so `validate` can guard the "a living person can
-            # never reach 5/5" regression without needing the database.
-            "plausibly_living": plausibly_living(person),
             "arts_reached": arts_reached(members, edge_style, vparent),
             "birth_year": birth_year(person),
             "era": era_for(birth_year(person)),
@@ -501,6 +498,10 @@ def do_compute(args):
             "edge_count": len(edges),
             "dropped_edges": dropped,
             "stability_top20_retention": round(stability, 4),
+            # An aggregate, so `validate` can guard the "a living person can never reach 5/5"
+            # regression without publishing a per-person guess about who is alive.
+            "living_coverage_ceiling": max(
+                (coverage_score(p) for p in persons.values() if plausibly_living(p)), default=None),
         },
         "entries": entries,
     }
@@ -628,17 +629,12 @@ def do_validate(args):
     # Coverage regression guard: the metric once awarded an unconditional point for a death date, so
     # no living person could reach 5/5 (measured: their ceiling was 4). Freeze the fix - if the
     # death check ever becomes unconditional again, this fails.
-    living = [e for e in entries.values() if e.get("plausibly_living")]
-    if living:
-        best = max(e["coverage"] for e in living)
-        if best < 5:
-            failures.append(
-                f"FAIL: best coverage among {len(living)} plausibly-living entries "
-                f"is {best}/5, not 5 -- the living-person coverage cap has regressed"
-            )
-    else:
-        failures.append("FAIL: no entry carries plausibly_living; the coverage guard "
-                        "cannot run (was the field dropped from compute?)")
+    ceiling = art["meta"].get("living_coverage_ceiling")
+    if ceiling is None:
+        failures.append("FAIL: no living_coverage_ceiling in metadata; the coverage guard cannot run")
+    elif ceiling < 5:
+        failures.append(f"FAIL: best coverage among plausibly-living persons is {ceiling}/5, "
+                        "not 5 -- the living-person coverage cap has regressed")
 
     if failures:
         for f in failures:
@@ -646,7 +642,7 @@ def do_validate(args):
         sys.exit(1)
     print(f"OK: {len(entries)} entries, top-1={top1['name']}, "
           f"stability={stability}, no single-line teacher in top 20, "
-          f"living-coverage ceiling {max(e['coverage'] for e in living)}/5")
+          f"living-coverage ceiling {ceiling}/5")
 
 
 # CLI

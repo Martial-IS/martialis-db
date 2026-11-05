@@ -185,15 +185,16 @@ looks like. The short version:
 2. Problems with the pipeline or model itself can be reported through Issues
 3. Push Requests are not used
 
-IMPORTANT: By submitting a database addition or correction in an issue that a maintainer turns into
-a database change, you dedicate it to the public domain under **CC0-1.0**.
+IMPORTANT: By submitting content for the database, in a Discussion or an issue, you dedicate it to
+the public domain under **CC0-1.0**.
 
 ## Licence
 
 Code (`pipeline/**`, the Makefile, `.github/**`) is AGPL-3.0-or-later, data (`database/**` and the
 generated `export/**`) is CC-BY-SA-4.0, and the ontology, model and vocabulary (`ontology/**` except
 the vendored files under `ontology/imports/`, `model/**`, `schemas/**`) are CC0-1.0. The vendored
-upstream files keep their own licences. See [LICENSING.md](LICENSING.md).
+upstream files keep their own licences. Quotations from sources and linked media stay with their
+rightsholders and are not covered by these licences. See [LICENSING.md](LICENSING.md).
 
 The maker asserts the EU sui generis database right (Directive 96/9/EC Art. 7, transposed in
 Portugal by DL 122/2000) and licenses it under CC-BY-SA-4.0. See

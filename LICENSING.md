@@ -113,6 +113,31 @@ has not been evaluated, not that the item is free to use. Check the value (or
 its absence), and the linked page itself, before reusing any image or video
 found through this database.
 
+### Third-party quotations
+
+Every `quotation` is a short verbatim extract from the Source it cites, given as
+evidence for one claim. Its copyright stays with its author or publisher. None
+of the tiers above grants a licence to it: the Database tier's CC-BY-SA-4.0
+covers the claims, the citations, and the selection and arrangement of the
+database, not the quoted words.
+
+The extracts are used under the quotation exception (Directive 2001/29/EC
+Art. 5(3)(d), in Portugal Arts. 75(2)(h) and 76(1)(a) of the Código do Direito
+de Autor e dos Direitos Conexos). Each one is limited to what its claim needs and
+names its Source. One Source can be quoted many times, because it supports claims
+about many people; each quotation still stands on its own claim.
+
+If you reuse the database, keep each quotation with its citation, and check that
+the same exception covers your own use. `martialis:quotation` can be removed
+from the export without affecting anything else.
+
+A rightsholder who objects to a quotation can say so through the
+[issue tracker](https://github.com/Martial-IS/martialis-db/issues) or by email
+to the maker. Each request is assessed. If a quotation is removed, the claim and
+its citation stay. Removal applies to the current database and every release from
+that point forward. It does not alter git history already published or prior
+releases already distributed.
+
 ## Attribution request (not a license term)
 
 The ontology and JSON-LD context are dedicated to the public domain under
@@ -123,7 +148,7 @@ nonetheless ask that reusers cite the source:
 
 ## Inbound licensing
 
-Contributions are suggestions made in issues; see
+Contributions are suggestions made in Discussions or issues; see
 [CONTRIBUTING.md](CONTRIBUTING.md). Code and vocabulary changes are not
 accepted from outside the project.
 
@@ -132,8 +157,9 @@ under **CC0-1.0** on the way in, covering copyright and any sui generis
 database rights the contributor holds in the submission. The grant includes a
 representation that the contribution is not copied from a source under
 copyright or database-right protection (for example a lineage chart or table
-pasted out of a book or paid database). The database is published, on the way
-out, under **CC-BY-SA-4.0**; see
+pasted out of a book or paid database). Short quotations given as evidence are
+outside the dedication; see [Third-party quotations](#third-party-quotations).
+The database is published, on the way out, under **CC-BY-SA-4.0**; see
 [Attribution request](#attribution-request-not-a-license-term) above and the
 sui generis right asserted and licensed at the top of this document.
 
