@@ -1,0 +1,123 @@
+type: Person
+id: 01KYPR30B0C068BEA1FY08VTE0
+name:
+  en: Lance Gatling
+  ja: ランス・ガトリング
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+description:
+  en: American martial artist, researcher, and author of The Kanō Chronicles. Director of the US Embassy
+    Judo Club, Tokyo. Board Member of the Tokyo Judo Federation. Advisor to the International Martial
+    Arts Federation (IMAF). Certified judo instructor, All Japan Judo Federation. Former US Army political-military
+    affairs officer and US State Department Foreign Service officer. Direct student of Sato Shizuya in
+    Nihon Jujutsu for over 20 years. Also practices Shintō Musō ryū jōdō, Hapkidō, and Takeuchi ryū jūjutsu.
+image:
+  contentUrl: https://archive.org/download/lance_gatling/lance_gatling.png
+  imageAttribution:
+    basedOnSource: 01M3M02EJWKWX91BN21JN33FKY
+    informationType: infotype:secondary
+hasTeacherAssertion:
+- id: 01M3YH7N5G6RJ5924G6CW64TM5
+  teacher: 01KYND6715JYA1K07KHXH3FNG6
+  assertedStyle: 01KYND6715TD9KDJCJTYW3WDGX
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Explicitly refers to Sato as 'my sensei' in his own writing on The Kanō Chronicles;
+      also described as 'direct student of Sato Shizuya sensei' in independent sources
+  hasInteraction:
+  - interactionPlace: 01KYND6715CCR0GCA9FDDPVFNX
+    interactionPeriod:
+      startYear: 1990
+      endYear: 2011
+    hasEvidence:
+    - basedOnSource: 01M4N551FQ11S1AJBBW2JR69V1
+      quotation: My sensei, Satō Shizuya (1929–2011)
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KYPR7TQ34WKWT6GGWX4Y7BYK
+      quotation: My sensei was a graduate of Meiji [...] So, he taught there from 1957 until he died five
+        years ago, and at the time I was taking Judo there, Judo and Jujutsu, Nihon Jujutsu, his style.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KYPR7TQ39JG7RR54RKVMKNNG
+      quotation: I came here in 1986 and I was a member of this dojo since 1990
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://judo.forumotion.com/t727-lance-gatling-nihon-jutsu-4-may-2013
+      cite: Judo Forum - Lance Gatling Nihon Jujutsu
+      quotation: Lance Gatling was a direct student of Sato Shizuya sensei, the founder and 10dan Nihon
+        Jujutsu, Director, International Martial Arts Federation, for over 20 years.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GRM7T5F4A6QBMKGQC
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 3
+  conferredBy: 01KJJAWN29MA64W22606R3WD7X
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The US Embassy Judo Club's own bilingual rank graphic for its director names him
+      3rd dan judo; the club's page text alone does not state member ranks, so this is cited to an
+      archived snapshot of the graphic rather than the live, replaceable image URL
+  hasEvidence:
+  - basedOnSource: 01M3J0A0WFEX49MK31F54QMJ6E
+    quotation: 'Lance Gatling 3dan jūdō [...] 柔道三段'
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5GY71M0QVDKDC6XKM1
+  rankStyle: 01KYND6715TD9KDJCJTYW3WDGX
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 5
+  conferredBy: 01KYND67158B7TAT2KS5M3MK3K
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The US Embassy Judo Club's own bilingual rank graphic for its director names him
+      5th dan Nihon Jujutsu; the club's page text alone does not state member ranks, so this is cited
+      to an archived snapshot of the graphic rather than the live, replaceable image URL
+  hasEvidence:
+  - basedOnSource: 01M3J0A0WFEX49MK31F54QMJ6E
+    quotation: '5dan Nihon Jūjutsu [...] 日本柔術五段'
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M0DCY9PE27WPF24T770ND0N8
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KYPR7TQ34WKWT6GGWX4Y7BYK
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KYPR7TQ39JG7RR54RKVMKNNG
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M3M02EJWKWX91BN21JN33FKY
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://independent.academia.edu/LanceGatling
+  cite: Lance Gatling - Academia
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- researcher
+- nihon-jujutsu
+- usejc
+- judo
+- jodo

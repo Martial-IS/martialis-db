@@ -1,0 +1,63 @@
+type: Style
+id: 01M6BHSAXWBBGKCA4Z0A3K2X74
+name:
+  ja-Latn: Aisu Kage-ryū
+  ja: 愛洲陰流
+aka:
+  ja-Latn: Kage-ryū
+hasEvidence:
+- basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+  locator: 'Yagyu Shinkage-ryu Hyoho'
+  locatorLabel: section
+  quotation: 'Kamiizumi Ise-no-Kami, who had trained in both Kashima and Katori Shinto-ryu, created Shinkage-ryu based on Kage-ryu, which he learned from its founder Aisu Ikkosai.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M6BHSAXWT300MA17MW5Z0F1Y
+  quotation: '室町末期、上泉伊勢守信綱は愛洲陰流より「転」を工夫して新陰流を創始した。'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+foundedEvent:
+  founder:
+    - 01M6BHSAXW4WV4V20YZDSGCSWV
+  location:
+    countryCode: eucountry:JPN
+  hasEvidence:
+    - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+      locator: 'Yagyu Shinkage-ryu Hyoho'
+      locatorLabel: section
+      quotation: 'Kamiizumi Ise-no-Kami, who had trained in both Kashima and Katori Shinto-ryu, created Shinkage-ryu based on Kage-ryu, which he learned from its founder Aisu Ikkosai.'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+styleType: styleclass:traditional
+hasStyleRelationAssertion:
+  - id: 01M6BHSAXW0287VBXED8YT4NNH
+    relatedStyle: 01KYHNJKQDTEJ1A5MQ5JYPHDTB
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: A sword school, the source of Shinkage-ryu (Field Guide; Yagyu Shinkage-ryu page); one tradition.
+    hasEvidence:
+      - basedOnSource: 01M6BHSAXWT300MA17MW5Z0F1Y
+        quotation: '室町末期、上泉伊勢守信綱は愛洲陰流より「転」を工夫して新陰流を創始した。'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+        locator: 'Yagyu Shinkage-ryu Hyoho'
+        locatorLabel: section
+        quotation: 'Kamiizumi Ise-no-Kami, who had trained in both Kashima and Katori Shinto-ryu, created Shinkage-ryu based on Kage-ryu, which he learned from its founder Aisu Ikkosai.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Muromachi-period school of swordsmanship founded by Aisu Ikkosai, on which Kamiizumi Nobutsuna
+    based his Shinkage-ryu.
+sameAs:
+  - wd:Q915595
+tags:
+  - koryu

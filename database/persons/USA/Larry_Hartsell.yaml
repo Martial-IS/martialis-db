@@ -1,0 +1,48 @@
+type: Person
+id: 01M5HNE76PGFXKGC6ZGWTVARK1
+name:
+  en: Larry Hartsell
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+description:
+  en: Student of Bruce Lee, of the school that develops Jeet Kune Do as a concept rather than a fixed form.
+hasTeacherAssertion:
+  - id: 01M5HNE76PTEMTP9FP582GC60R
+    teacher: 01KYD5XMNMNAG3CPC17GKACPW0
+    assertedStyle: 01KYD5XSZPND9XV5FHYG9V0ZV6
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Inosanto (along with Richard Bustillo and Larry Hartsell) differs from other students of
+              Bruce Lee (such as Taky Kimura, James Lee, Jerry Poteet, and Ted Wong), who have tried
+              instead to preserve the “original form” of Jeet Kune Do.
+            locator: '481'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: '481'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q6490477
+tags:
+  - jkd
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/e/e3/TigerBill_Meligari_training_with_Larry_Hartsell.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:TigerBill_Meligari_training_with_Larry_Hartsell.jpg
+    cite: "Wkeller760, Wikimedia Commons"
+    informationType: infotype:secondary

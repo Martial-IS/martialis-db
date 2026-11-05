@@ -1,0 +1,40 @@
+type: Person
+id: 01M5HNGWYJSJR9NEVJ7A5QXZM7
+name:
+  ja-Latn: Kimura Masaji
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+description:
+  en: >-
+    Japanese martial artist (1901–2000), one of the small group of disciples to whom Takamatsu
+    Toshitsugu entrusted the transmission of his traditions; a teacher of Tanemura Shoto.
+hasTeacherAssertion:
+  - id: 01M5HNGWYJ7MT80Y8H0WX7YZY3
+    teacher: 01M5H4EE3XRVW4V7X8DV729BHS
+    assertedStyle: 01M5H4EE3XTQ71T3X541Y6MZYJ
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              he entrusted their transmission to a small group of disciples, to include Akimoto Fumio
+              (1894–1962), Ueno Takashi (1899–1976), Kimura Masaji (1901–2000)
+            locator: '170'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: '170'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - ninjutsu

@@ -1,0 +1,173 @@
+type: Person
+id: 01KYT8RX5WJXBGW45FEVYWN7WC
+name:
+  en: Mas Oyama
+  ja: 大山倍達
+  ja-Latn: Masutatsu Ōyama
+  ko: 최영의
+  ko-Latn: Choi Yeong-eui
+aka:
+  en:
+    - Masutatsu Oyama
+    - Masutatsu Ōyama
+  ja:
+    - 大山倍達
+  ko:
+    - 최영의
+nationality:
+  - countryCode: eucountry:KOR
+    wikidata: wd:Q423
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1923-07-27'
+  birthPlace:
+    label: Gimje
+    countryCode: eucountry:KOR
+    wikidata: wd:Q42123
+  hasEvidence:
+    - basedOnSource: 01KYT8RS8VNQYJZM2XGV105GA7
+      quotation: Masutatsu Ōyama (born Choi Yeong-eui; 27 July 1923 – 26 April 1994), commonly known outside Japan as Mas Oyama, was a Korean-Japanese karateka.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1994-04-26'
+  deathPlace:
+    label: Tokyo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1490
+  hasEvidence:
+    - basedOnSource: 01KYT8RS8VNQYJZM2XGV105GA7
+      quotation: Masutatsu Ōyama (born Choi Yeong-eui; 27 July 1923 – 26 April 1994), commonly known outside Japan as Mas Oyama, was a Korean-Japanese karateka.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: 'Founder of Kyokushin Karate, the first and most influential style of full contact karate. Born in Korea, Oyama trained in Shotokan under Gichin Funakoshi at Takushoku University, in Goju-ryu under Nei-chu So, and in Daito-ryu under Kotaro Yoshida. He won the first post-WWII All Japan Tournament in 1947, spent 18 months training in solitude on Mt. Kiyosumi, and opened his first dojo in 1953. He is legendary for fighting and defeating bulls bare-handed. Oyama established the International Karate Organization Kyokushinkaikan in 1964 and held the first All Japan Open Tournament in 1969 and the first World Open Tournament in 1975. He authored several books including What is Karate? (1958). He died of lung cancer in 1994.
+
+'
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/6/6f/Masutatsu_Oyama_karate.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Masutatsu_Oyama_karate.jpg
+    cite: "日本スポーツ出版社, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+  - id: 01M3YH7N5GVKGCNRCBR0KKCYC0
+    teacher: 01KJJAWN28MWKKSN4J02MVY1VB
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9S
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia confirms Oyama studied Shotokan under Gichin Funakoshi at Takushoku University for two years
+    hasInteraction:
+      - interactionPlace: 01KYYYTTW39B4XTBPMT7KZRGED
+        interactionPeriod:
+          startYear: 1946
+          endYear: 1948
+        hasEvidence:
+          - basedOnSource: 01KYT8RS8VNQYJZM2XGV105GA7
+            quotation: Oyama later attended Takushoku University in Tokyo and was accepted as a student at the dojo of Gichin Funakoshi where he trained for two years.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GQM7RXF0ASZFH94ED
+    teacher: 01M1KR4J6ERTADQBQC0YWRR5Z0
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9S
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia confirms Oyama studied Goju-ryu under Nei-chu So for several years.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KYT8RS8VNQYJZM2XGV105GA7
+            quotation: "Oyama then studied Gōjū-ryū karate for several years with Nei-chu So [...] who was a fellow Korean from Oyama's native province and a senior student of the system's founder, Chojun Miyagi."
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GQ8YMTN7TBW2Y9J6Y
+    teacher: 01KZ0Y4CF4F7BSWN3P3T4QZC5G
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9C
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Oyama called Yoshida 'the greatest of all my teachers' in 'This is Karate' (1965), and the relationship is confirmed by Yoshida's student registry and Kondo Katsuyuki's testimony (Gottner 2025). The training dates are contested between sources; the relationship itself is not.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1943
+          endYear: 1945
+        hasEvidence:
+          - basedOnSource: 01KZ0Y4CF43AF5TB7QSEDYMYKS
+            quotation: C´est Richard Kim qui présente Mas Oyama à Kotaro Yoshida en 1943. Bien que la relation entre les deux hommes ait été relativement courte (deux ans), elle n´en sera pas moins intense.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZ0Y4CF4JETJV2B5VSVY8YHZ
+            quotation: Nevertheless, there is no evidence of the connection between Ōyama and Tokimune, nor Yoshida during the war—and in the absence of circumstantial evidence, most likely it never occurred.
+            informationType: infotype:secondary
+            supports: false
+            evidenceType: evidencetype:negative
+      - interactionPeriod:
+          startYear: 1954
+          endYear: 1966
+        hasEvidence:
+          - basedOnSource: 01KZ0Y4CF4PA60ZKMC9YG7ZNQQ
+            quotation: While Tokimune sensei used the name Aikibudo when generally referring to the art, the name Aikijujutsu would always be used for densho and later koryu demonstrations held by national organizations. Most importantly, it suggests that Oyama probably practiced between 1954 and 1966.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZ0Y4CF43AF5TB7QSEDYMYKS
+            quotation: C´est Richard Kim qui présente Mas Oyama à Kotaro Yoshida en 1943.
+            informationType: infotype:secondary
+            supports: false
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYT8RS8VNQYJZM2XGV105GA7
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://www.mas-oyama.com/
+    cite: Mas Oyama - Official Website (IKO Kyokushinkaikan)
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ0Y4CF4JETJV2B5VSVY8YHZ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ0Y4CF4PA60ZKMC9YG7ZNQQ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ0Y4CF43AF5TB7QSEDYMYKS
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q294548
+tags:
+  - kyokushin
+  - founder
+  - korean
+  - japanese
+  - full-contact
+  - karate
+hasHonorAssertion:
+  - id: 01M3YH7N5G3ERMS6DWTD4XQEQH
+    honorValue: Founder
+    honorType: honortype:title
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Oyama founded Kyokushin Karate in 1953 and established the IKO in 1964 - universally recognized as the style's founder
+    hasEvidence:
+      - basedOnSource: 01KYT8RS8VNQYJZM2XGV105GA7
+        quotation: He was the founder of Kyokushin Karate, considered the first and most influential style of full contact karate.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct

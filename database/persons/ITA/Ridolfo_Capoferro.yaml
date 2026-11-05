@@ -1,0 +1,66 @@
+type: Person
+id: 01M5JSGG504S4MGZYWMBEW5TS4
+name:
+  en: Ridolfo Capoferro
+aka:
+  en:
+    - Ridolfo Capo Ferro da Cagli
+    - Rodulphus Capoferrus
+nationality:
+  - countryCode: eucountry:ITA
+    wikidata: wd:Q38
+description:
+  en: >-
+    Fencing master from Cagli living in Siena, perhaps master to the German students of its university,
+    whose rapier treatise Gran Simulacro dell'Arte e dell'Uso della Scherma (1610) uses Bolognese terms
+    and techniques, suggesting he was trained in the old Bolognese school.
+hasDocumentTransmissionAssertion:
+  - id: 01M5WKDYSR8BQJNCABA3XV8C15
+    transmissionDocument: 01M5WKDYSREXKFP6PWP1W6NPDR
+    assertedStyle: 01M5JSGG509Z4J4P08MWKM16ZW
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wiktenauer's annotation says the definitions are almost certainly taken directly from Agrippa's
+        Trattato; one secondary source, so probable rather than confirmed.
+    notes: >-
+      The definitions are taken directly from Agrippa's Trattato; this is textual borrowing, not a
+      teacher relationship.
+    hasEvidence:
+      - basedOnSource: 01M5JSGG50F9214S7XQJ5FPZND
+        quotation: >-
+          These definitions are almost certainly taken directly from Camillo Agrippa’s Trattato di
+          Scientia d’Arme, Part I, Ch. I, pp. 1 verso to 2 recto.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Technically, Capoferro seems to have been trained in the old Bolognese school, because he
+      periodically used Bolognese terminology and techniques in his book.
+    locator: '252'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5JSGG50F9214S7XQJ5FPZND
+    quotation: >-
+      Ridolfo Capo Ferro da Cagli (Ridolfo Capoferro, Rodulphus Capoferrus) was a 17th century Italian
+      fencing master.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q7333032
+tags:
+  - fencing
+  - italian-school
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/7/7f/Capoferro.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Capoferro.jpg
+    cite: "Rafael Schiamirossi, Wikimedia Commons"
+    informationType: infotype:secondary

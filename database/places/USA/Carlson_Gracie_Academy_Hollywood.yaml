@@ -1,0 +1,89 @@
+type: Place
+id: 01KYQB8J2N7T4SXEVHHDV3CPXJ
+name:
+  en: Carlson Gracie Academy
+aka:
+  en:
+    - Carlson Gracie Jiu-Jitsu Academy
+    - Carlson Gracie Team
+placeType: placeclass:academy
+hasSite:
+  - location:
+      label: West Hollywood
+      countryCode: eucountry:USA
+      wikidata: wd:Q219664
+    address: West Hollywood, Los Angeles, California, United States
+hasInstructorRole:
+  - id: 01M4R9845W1XXA4WRE4J5MJHRE
+    instructor: 01KYQB8J2NN336ZJWGQW3YH95E
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1996
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: Indirect only; the gym bore his name, and he settled in Los Angeles in 1996.
+    hasEvidence:
+      - basedOnSource: 01M5B0WSEX55P11C4KJ4A9R0KR
+        quotation: >-
+          Carlson decides to move to the North American territory, and in 1996 he settles in Los Angeles together with one of his prodigal student Vitor Belfort.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+      - basedOnSource: 01KYQB8J2NT3VVYG2HG0TGH42P
+        quotation: 'It was Carlson Gracie’s Academy, which was in Hollywood.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+  - id: 01M4R9845W3JBQTVQ6NKK9XSNH
+    instructor: 01KYQB8J2N5752Q7E1JM7PNQPG
+    instructorCapacity: instrcap:instructor
+    instructorPeriod:
+      startYear: 1995
+      endYear: 2000
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One secondary article states that Belfort confirmed teaching at the West Hollywood gym.
+    hasEvidence:
+      - basedOnSource: 01KYQB8J2NT3VVYG2HG0TGH42P
+        quotation: We had a Carlson Gracie Gym in West Hollywood, and he was training there. I was teaching him.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: 1996~
+  founder:
+    - 01KYQB8J2NN336ZJWGQW3YH95E
+  hasEvidence:
+    - basedOnSource: 01M5B0WSEX55P11C4KJ4A9R0KR
+      quotation: >-
+        Carlson decides to move to the North American territory, and in 1996 he settles in Los Angeles together with one of his prodigal student Vitor Belfort.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:indirect
+    - uri: https://www.bjjee.com/articles/joe-rogan-was-a-white-belt-under-vitor-belfort-at-carlson-gracie-bjj-gym-in-los-angeles/
+      archiveUri: http://web.archive.org/web/20251119045810/https://www.bjjee.com/articles/joe-rogan-was-a-white-belt-under-vitor-belfort-at-carlson-gracie-bjj-gym-in-los-angeles/
+      cite: Joe Rogan was a white belt at Carlson Gracie Gym (BJJEE)
+      quotation: >-
+        We had a Carlson Gracie Gym in West Hollywood
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:indirect
+description:
+  en: 'The original Carlson Gracie Jiu-Jitsu Academy in Hollywood, California. Founded by Carlson Gracie, this gym was the birthplace of the Carlson Gracie Team and produced numerous MMA fighters and BJJ champions. Joe Rogan started his BJJ training here in 1996 under the instruction of Vitor Belfort and the Carlson Gracie coaching staff.
+
+'
+hasEvidence:
+  - basedOnSource: 01KYQB8J2NT3VVYG2HG0TGH42P
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYQB8J2NB5KG4M7GYD1K1T1B
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - bjj
+  - mma
+  - carlson-gracie-team

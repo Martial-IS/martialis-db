@@ -1,0 +1,76 @@
+type: Person
+id: 01M6C1R005ZMF3A8JDBTN5B9H8
+name:
+  en: Roy Nelson
+aka:
+  en:
+    - Big Country
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1976-06-20'
+  hasEvidence:
+    - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+      quotation: 'Born: 6/20/76'
+      locator: '303'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    American mixed martial artist, IFL champion, and Brazilian jiu-jitsu black belt under Renzo
+    Gracie.
+hasTeacherAssertion:
+  - id: 01M6C1R0059KK0F0S9CJY0FPVH
+    teacher: 01KYSNKBSAAS27TBVHR0EBZ059
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              But either way, the Renzo Gracie black belt somehow ended up the ninth pick out of an undistinguished group of 16
+            locator: '304'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M6C1R0053HXZCEFJHBKH147X
+    rankStyle: 01KJJAWN29MA64W22606R3WD9J
+    rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+    rankGrade: rankgrade:bjj_black
+    grantedBy: 01KYSNKBSAAS27TBVHR0EBZ059
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+        quotation: >-
+          But either way, the Renzo Gracie black belt somehow ended up the ninth pick out of an undistinguished group of 16
+        locator: '304'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+    quotation: >-
+      Jackson nor Rashad Evans seemed to know much about Nelson’s past as an ifl champion when they were selecting their teams.
+    locator: '304'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q968275
+tags:
+  - brazilian-jiu-jitsu
+  - mma

@@ -1,0 +1,128 @@
+type: Place
+# Template only: `make schema` substitutes a throwaway ULID for the null `id`
+# below. Every record under database/ carries a real ULID.
+id: null
+name:
+  en: Venue Name
+  ja: 日本語名
+# Short/alternate names or acronyms, e.g. common nicknames for a dojo.
+aka:
+  en: Alternative Name
+# One of: placeclass:dojo, placeclass:club, placeclass:university,
+# placeclass:school, placeclass:temple, placeclass:gym, placeclass:military,
+# placeclass:academy, placeclass:team, placeclass:other.
+# NB: 'school' = a secondary/high school. A training establishment is this Place
+# class even when it has a head or employs staff; a lineage organization (ryuha)
+# is an Organization with orgclass:school.
+placeType: placeclass:dojo
+# Where the establishment is: at least one site, the only home for its
+# locality. One entry per occupied site; a move is a new dated entry, not a new
+# Place. location is required (label + country, optional wikidata and a geo
+# point finer than the wikidata gives); address, withinPlace (a Place ULID this
+# site sat within), sitePeriod and hasEvidence are optional. No sitePeriod means
+# the period is unsourced; the current site is the one with no endYear.
+hasSite:
+  - location:
+      label: Tokyo
+      countryCode: eucountry:JPN
+      wikidata: wd:Q1490
+    address: 1-16-30 Kasuga, Bunkyo
+# Organizational affiliations over time - who this venue BELONGS to or is RUN
+# by; a dojo/club typically affiliates with one or more federations or
+# governing bodies. relation is one of affrel:member_of (voluntary membership,
+# the default for a Place), affrel:branch_of (this venue IS the org's own
+# headquarters/operating structure, e.g. a federation's honbu dojo) or
+# affrel:recognised_by (a technical/grading authority over this venue).
+hasAffiliationAssertion:
+  - id: 01M3YH91AWA28X1BAGW1ECQX2Q
+    relatedOrganization: 01KJJAWN29MA64W22606R3WD7X
+    affiliationRelation: affrel:member_of
+    validDuring:
+      startYear: 1950
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:EXAMPLE
+      confidenceRationale: Why this confidence level
+    hasEvidence:
+      - uri: https://example.org/affiliation-evidence
+        cite: Where the affiliation is documented
+        informationType: infotype:secondary
+        supports: true
+# People recorded as having taught at this venue, time-bounded and sourced. A
+# venue-staff fact, NOT a lineage claim: this produces no teacher edge. Record
+# person-to-person transmission on the Person's hasTeacherAssertion instead.
+# instructorCapacity is one of instrcap:head_instructor, instrcap:instructor,
+# instrcap:technical_director, instrcap:guest. instructorPeriod is optional;
+# omit it entirely when no dates are known, or give only startYear.
+# hasInstructorRole:
+#   - id: 01M4R98V6CKJH382G90QE927EW
+#     instructor: 01KJJAWN28MWKKSN4J02MVY1S1
+#     instructorCapacity: instrcap:instructor
+#     instructorPeriod:
+#       startYear: 1950
+#       endYear: 1959
+#     hasConfidence:
+#       confidenceLevel: conflevel:probable
+#       assessedBy: agent:EXAMPLE
+#       confidenceRationale: One authored history.
+#     hasEvidence:
+#       - uri: https://example.org/instructor-evidence
+#         cite: Where the staff role is documented
+#         informationType: infotype:secondary
+#         supports: true
+#         evidenceType: evidencetype:direct
+# Administrative offices at this establishment (Principal, President, Director,
+# etc.), as distinct from its teaching staff above. A school, college or
+# university programme keeps both here and needs no Organization half.
+# officerTitle is free text, not a closed enum; officerPeriod is optional.
+# hasOfficerRole:
+#   - id: 01M4R98V6CPYNRAT9FD0974XFN
+#     officer: 01KJJAWN28MWKKSN4J02MVY1S1
+#     officerTitle: Principal
+#     officerPeriod:
+#       startYear: 1919
+#     hasConfidence:
+#       confidenceLevel: conflevel:probable
+#       assessedBy: agent:EXAMPLE
+#       confidenceRationale: One authored history.
+#     hasEvidence:
+#       - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+#         informationType: infotype:secondary
+#         supports: true
+#         evidenceType: evidencetype:direct
+# Founding carries the EDTF date (see person.yaml's birthEvent comment for the
+# syntax), the founder(s) and its own evidence.
+foundedEvent:
+  startDate: '1882'
+  founder:
+    - 01KJJAWN28MWKKSN4J02MVY1S1
+  hasEvidence:
+    - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+      supports: true
+dissolvedEvent: null
+website: null
+description:
+  en: |
+    Brief description of the venue...
+# Research notes: what is known, suspected, or still to be investigated -
+# addressed to a maintainer, not a reader.
+# notes: ...
+# rights (optional): copyright/licence status of the logo itself, e.g.
+# mediarights:public_domain_mark or mediarights:cc-by-sa-4.0. Leave it out if
+# unknown - see ontology/vocabularies.ttl's media-rights scheme.
+logo:
+  contentUrl: https://example.org/logo.png
+  imageAttribution:
+    uri: https://example.org/logo.png
+    cite: Where the logo is from
+hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+    supports: true
+# The same entity in external authorities, as CURIEs naming the entity, not a
+# web page: wd: (Wikidata), dbr: (DBpedia), viaf:, isni:, lcnaf:, ndlna:,
+# orcid:. A Wikipedia article, an official site or a profile page is not an
+# identity and does not validate here; cite it as a Source instead.
+sameAs:
+  - wd:Q1165384
+tags:
+  - headquarters

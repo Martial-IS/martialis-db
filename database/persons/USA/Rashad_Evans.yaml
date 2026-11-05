@@ -1,0 +1,63 @@
+type: Person
+id: 01M6C1ZABVJ5MJ1G4HTGYAVCJ9
+name:
+  en: Rashad Evans
+aka:
+  en:
+    - Sugar
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1979-09-25'
+  hasEvidence:
+    - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+      quotation: 'Born: 9/25/79'
+      locator: '105'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    American mixed martial artist and UFC light heavyweight champion, a student of Greg Jackson.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/1/1f/RashadEvans.png
+  rights: mediarights:cc-by-sa-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:RashadEvans.png
+    cite: "East718, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+  - id: 01M6C1ZABVPD84XFY3WRSK9V75
+    teacher: 01M6C1ZABV6FHQ2EXVCNW3NV8P
+    assertedStyle: 01KYSS3B587WR241FHHW19X24T
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - interactionPlace: 01M6C1ZABVAVTS3JGBS3HB64NB
+        hasEvidence:
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              Two of Jackson’s students, Diego Sanchez and Rashad Evans, won the grand prize in the show’s first two seasons.
+            locator: '197'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+    quotation: >-
+      Two of Jackson’s students, Diego Sanchez and Rashad Evans, won the grand prize in the show’s first two seasons.
+    locator: '197'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q508652
+tags:
+  - mma

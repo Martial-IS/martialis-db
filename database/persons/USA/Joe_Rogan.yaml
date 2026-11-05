@@ -1,0 +1,232 @@
+type: Person
+id: 01KYQB8J2NBYW60FB1QW1CZZ88
+name:
+  en: Joe Rogan
+aka:
+  en:
+    - Joseph James Rogan
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1967-08-11'
+  birthPlace:
+    label: Newark, New Jersey
+    countryCode: eucountry:USA
+    wikidata: wd:Q25395
+  hasEvidence:
+    - basedOnSource: 01KYQB8J2N1G7N2XMD7ZZG4HPN
+      quotation: >-
+        Joseph James Rogan Jr. (born August 11, 1967)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: 'American podcaster, UFC color commentator, and martial artist. Host of The Joe Rogan Experience, consistently one of the most popular podcasts worldwide. A black belt in taekwondo, Brazilian jiu-jitsu (gi under Jean Jacques Machado), and no-gi BJJ (10th Planet under Eddie Bravo). Rogan''s influential podcast and UFC commentary have made him one of the most prominent martial arts advocates and influencers in the world.
+
+'
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/2/2c/Joe_Rogan_2026_%28cropped%29.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Joe_Rogan_2026_(cropped).jpg
+    cite: "The White House, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+  - id: 01M3YH7N5GHEKV9N64BCQC0J8R
+    teacher: 01KYQB8J2N6ZQ8B1QY5K24QY9P
+    assertedStyle: 01KYQM3M5C2M9KJ36E6Q1JEWN3
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Joe Rogan explicitly credited Jae Hun Kim as his TKD teacher on Instagram
+    hasInteraction:
+      - interactionPlace: 01KYQB8J2N7QVYBNY6R229DXK7
+        interactionPeriod:
+          startYear: 1982
+          endYear: 1988
+        hasEvidence:
+          - basedOnSource: 01M3M3T743KNJ71CN2ZMC6Y3V0
+            quotation: I was very fortunate to learn Tae Kwon Do under the tutelage of the Jae Hun Kim Tae Kwon Do Institute in Boston
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GF19014BTZCRFAJMZ
+    teacher: 01KYQB8J2N2PBYQS90QCT8VS1Q
+    assertedStyle: 01KYQM3M5C2M9KJ36E6Q1JEWN3
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: Rogan Instagram post mentions O'Malley as instructor at JHK Institute
+    hasInteraction:
+      - interactionPlace: 01KYQB8J2N7QVYBNY6R229DXK7
+        interactionPeriod:
+          startYear: 1982
+          endYear: 1988
+        hasEvidence:
+          - basedOnSource: 01M3M3T743KNJ71CN2ZMC6Y3V0
+            quotation: Mr. Kim and Mr. Michael O'Malley (a multiple time national champion) emphasized a lot of heavy bag work and power in their training program.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:indirect
+  - id: 01M3YH7N5GEYWS8307QGYZ6HSN
+    teacher: 01KYQB8J2N5752Q7E1JM7PNQPG
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Vitor Belfort confirmed in interview that Rogan was his white belt student at Carlson Gracie Academy; Rogan corroborated
+    hasInteraction:
+      - interactionPlace: 01KYQB8J2N7T4SXEVHHDV3CPXJ
+        interactionPeriod:
+          startYear: 1996
+          endYear: 1997
+        hasEvidence:
+          - basedOnSource: 01KYQB8J2NT3VVYG2HG0TGH42P
+            quotation: Joe Rogan was my student, he was in no way… yeah, you trained Joe Rogan, yeah. Joe was a white belt.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G0P60SAGPFEKEKGWY
+    teacher: 01KYG003XDQ8P2KEBEWHV84NHX
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Viking BJJ and BJJ Equipment, two independent articles, both directly state Jean Jacques Machado awarded Rogan his gi black belt
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1997
+        hasEvidence:
+          - basedOnSource: 01KYQB8J2NB5KG4M7GYD1K1T1B
+            quotation: >-
+              He was awarded his black belt by Jean Jacques Machado in the gi
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M3JDG5G3K0MJNGZSQHHY1J50
+            quotation: 'In 2010, Joe received 2 black belts: his gi black belt from Jean Jacques Machado'
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GJ35WAHJ6NYDMRG6W
+    teacher: 01KYQB8J2NYN0CT40CYYXN62GK
+    assertedStyle: 01KYQB8J2N20VJ665SPN1RF325
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Viking BJJ and BJJ Equipment, two independent articles, both directly state Eddie Bravo awarded Rogan his no-gi BJJ black belt
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 2003
+        hasEvidence:
+          - basedOnSource: 01KYQB8J2NB5KG4M7GYD1K1T1B
+            quotation: Rogan also earned his black belt in no-gi BJJ from Eddie Bravo, founder of 10th Planet Jiu Jitsu
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M3JDG5G3K0MJNGZSQHHY1J50
+            quotation: and his no-gi black belt from Eddie Bravo.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GFRC7WFDAFPQJ709M
+    rankStyle: 01KYHTJXCXHYSC519CB367XXZK
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan_unspecified
+    grantedBy: 01KYQB8J2N6ZQ8B1QY5K24QY9P
+    dateConferred: 1982~
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia confirms Rogan earned TKD black belt at age 15
+    hasEvidence:
+      - basedOnSource: 01KYQB8J2N1G7N2XMD7ZZG4HPN
+        quotation: He was a Massachusetts full-contact state champion for four consecutive years and became a taekwondo instructor.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G635EPT99P4KTHJMQ
+    rankStyle: 01KJJAWN29MA64W22606R3WD9J
+    rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+    rankGrade: rankgrade:bjj_black
+    grantedBy: 01KYG003XDQ8P2KEBEWHV84NHX
+    dateConferred: '2010'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Viking BJJ and BJJ Equipment, two independent articles, both directly state Rogan's BJJ black belt was awarded by Jean Jacques Machado, in 2010 per the latter
+    hasEvidence:
+      - basedOnSource: 01KYQB8J2NB5KG4M7GYD1K1T1B
+        quotation: He was awarded his black belt by Jean Jacques Machado in the gi, a significant achievement since Machado is one of BJJ's most celebrated technical minds and instructors.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M3JDG5G3K0MJNGZSQHHY1J50
+        quotation: Joe Rogan received his gi black belt from his long-time instructor Jean Jacques Machado in 2010
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GKS2951DBWN80T6WS
+    rankStyle: 01KYQB8J2N20VJ665SPN1RF325
+    rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+    rankGrade: rankgrade:bjj_black
+    grantedBy: 01KYQB8J2NYN0CT40CYYXN62GK
+    dateConferred: '2010'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Viking BJJ and BJJ Equipment, two independent articles, both directly state Rogan's no-gi black belt was awarded by Eddie Bravo, in 2010 per the latter
+    hasEvidence:
+      - basedOnSource: 01KYQB8J2NB5KG4M7GYD1K1T1B
+        quotation: Rogan also earned his black belt in no-gi BJJ from Eddie Bravo, founder of 10th Planet Jiu Jitsu
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M3JDG5G3K0MJNGZSQHHY1J50
+        quotation: his no-gi black belt from Eddie Bravo
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYQB8J2N1G7N2XMD7ZZG4HPN
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYQB8J2NDQG5EH6JYDGB3WCX
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYQB8J2NB5KG4M7GYD1K1T1B
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYQB8J2NT3VVYG2HG0TGH42P
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYQB8J2N852G3DWESBX5WGPY
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://joerogan.com/about
+    cite: Joe Rogan official website - About page
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q2718421
+tags:
+  - podcaster
+  - comedian
+  - ufc-commentator
+  - brazilian-jiu-jitsu
+  - taekwondo
+  - mma-advocate
+  - television-host

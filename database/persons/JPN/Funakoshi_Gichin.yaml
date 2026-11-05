@@ -1,0 +1,143 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1VB
+name:
+  ja-Latn: Funakoshi Gichin
+  ja: 船越 義珍
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1868-10-11'
+  birthPlace:
+    label: Shuri, Okinawa
+    countryCode: eucountry:JPN
+    wikidata: wd:Q608415
+deathEvent:
+  deathDate: '1957-04-26'
+  deathPlace:
+    label: Tokyo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1490
+image:
+  contentUrl: https://www.skifworld.com/images/Gichin-Funakoshi.gif
+  imageAttribution:
+    basedOnSource: 01M3S8ERFBMY26SDG232FWJAG1
+    informationType: infotype:secondary
+hasTeacherAssertion:
+  - id: 01M3YH7N5GTKFDHS13QDTSWXCN
+    teacher: 01KJJAWN29MA64W22606R3WD6C
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9F
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Independent sources state it, including Funakoshi's own account.
+    role: teachrole:student
+    hasInteraction:
+      - hasEvidence:
+          - uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Asato
+            quotation: Anko Asato (安里 安恒, Asato Ankō, Azato Yasutsune in Japanese, 1827 – 1906) was a Ryūkyūan master of karate. He and Ankō Itosu were the two main karate masters who taught Gichin Funakoshi, the founder of Shotokan karate.
+            cite: Ankō Asato - Wikipedia
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+            quotation: >-
+              “When I studied under Master Azato, considered to be the greatest karate expert of his
+              time, I was his only student; and when I trained under Master Itosu, he had very few
+              students
+            locator: '34'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Asato and Itosu were among the instructors of Funakoshi Gichin (1868–1957), who in turn
+              was one of the pioneers of karate in Japan.
+            locator: '208'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G95QF7005VE436HM6
+    teacher: 01KJJAWN29MA64W22606R3WD6B
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9F
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Independent sources state it, including Funakoshi's own account.
+    role: teachrole:student
+    hasInteraction:
+      - hasEvidence:
+          - uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Asato
+            quotation: Anko Asato (安里 安恒, Asato Ankō, Azato Yasutsune in Japanese, 1827 – 1906) was a Ryūkyūan master of karate. He and Ankō Itosu were the two main karate masters who taught Gichin Funakoshi, the founder of Shotokan karate.
+            cite: Ankō Asato - Wikipedia
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+            quotation: >-
+              “When I studied under Master Azato, considered to be the greatest karate expert of his
+              time, I was his only student; and when I trained under Master Itosu, he had very few
+              students
+            locator: '34'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Asato and Itosu were among the instructors of Funakoshi Gichin (1868–1957), who in turn
+              was one of the pioneers of karate in Japan.
+            locator: '208'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M3YH7N5G8PNB3AW78CWKGQX7
+    honorValue: Renshi (錬士) in karate-jutsu, Dai Nippon Butoku Kai
+    honorType: honortype:title
+    honorGrade: honorgrade:shogo_renshi
+    conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+    dateConferred: '1939-07'
+    dateOriginal: 昭和14年7月
+    dateCalendar: datecal:japanese_nengo
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Japanese Wikipedia article cites the Butoku Kai's own register of hanshi, kyoshi and renshi holders (1941) at page 388, and names his son Gikō as co-recipient.
+    hasEvidence:
+      - basedOnSource: 01M3724KNHJ9643ADZBMDE9JGE
+        quotation: 昭和14年（1939年）7月、大日本武徳會より船越義珍と三男の船越義豪が空手術錬士の称号を受有した
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - uri: https://en.wikipedia.org/wiki/Gichin_Funakoshi
+    cite: Gichin Funakoshi - Wikipedia
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://judoinfo.com/karateranks/
+    cite: 'How the masters got their ranks: the origins of karate ranks | Judo Info'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://search.worldcat.org/title/7673297
+    cite: 'Karate-dō : my way of life | WorldCat.org'
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ7CTR70DP1JVRPPPQ8BMPGG
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ7CTR70FNC2VJR5YY4K2MYR
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q41105
+  - dbr:Gichin_Funakoshi
+notes: Funakoshi taught karate in the vicinity of Nakayama Hakudo's Yushinkan kendo dojo in Koishikawa from 1930 (Black Belt, October 1971), and Nakayama offered him the use of the dojo in Hongo-Yumi-cho when it was unoccupied (Nagamine, Tales of Okinawan Grand Masters, p. 74). This is co-location and dojo-sharing; it is not evidence of a teacher relationship between Nakayama and Funakoshi, and neither source records any such teaching.

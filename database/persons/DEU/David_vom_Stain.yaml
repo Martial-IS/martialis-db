@@ -1,0 +1,56 @@
+type: Person
+id: 01M61REWPVPP01J60NC95SXX13
+name:
+  de: David vom Stain
+nationality:
+  - countryCode: eucountry:DEU
+    wikidata: wd:Q183
+description:
+  en: >-
+    Fifteenth-century Swabian nobleman of Emerkingen who, with his brother Buppellin, was trained by
+    Hans Talhoffer in the 1450s; Talhoffer made the MS 78.A.15 for the brothers.
+hasTeacherAssertion:
+  - id: 01M61REWPV8B1XBFCAWDJ1JBT1
+    teacher: 01M5JRHX02K4F9MSBBAJP97WJB
+    assertedStyle: 01M5JRHX026EPJNQVEJDCKRNJP
+    role: teachrole:private
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Talhoffer's own manuscript for the brothers says they learned its art from him; Wiktenauer and
+        English Wikipedia say he was contracted to train them.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JRHX02KGPWARMFCJ30NGGC
+            quotation: >-
+              da stat her dauid vnd buppellin vom stain gebrueder vñ hand die kunst duy in disem büch stat
+              gelernnet von hansen dalhofer
+            locator: Königsegg Treatise (1446-59), fol. 63r
+            locatorLabel: section
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JRHX02KGPWARMFCJ30NGGC
+            quotation: >-
+              he was contracted to train the brothers David and Buppellin vom Stain
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JRHX02QPBKJQCK511K8ZKZ
+            quotation: >-
+              he was contracted to train the brothers David and Buppellin vom Stain
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JRHX02KGPWARMFCJ30NGGC
+    quotation: >-
+      He seems to have passed through Emerkingen later in the 1450s, where he was contracted to train
+      the brothers David and Buppellin vom Stain; he also produced the MS 78.A.15 for them
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - hema
+  - fencing

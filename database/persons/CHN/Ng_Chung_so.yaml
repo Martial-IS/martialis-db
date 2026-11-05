@@ -1,0 +1,54 @@
+type: Person
+id: 01M69YCGCMWM48B31AKTK503SP
+name:
+  en: Ng Chung-so
+  yue: 吳仲素
+  zh: 吳仲素
+  zh-Latn: Wu Zhongsu
+aka:
+  en:
+    - Ng Chung So
+nationality:
+  - countryCode: eucountry:CHN
+    wikidata: wd:Q148
+description:
+  en: >-
+    Wing Chun teacher in Foshan, second disciple of Chan Wah-shun. He completed Ip Man's early
+    training and was the only Wing Chun teacher who taught in public in Foshan in the late 1910s and
+    early 1920s.
+notes: >-
+  Judkins and Nielson: school on Shi Lu Tou Street, Foshan (p. 188); Leung Ting's claim that he
+  taught in the back room of an opium den is unsubstantiated (p. 188). His students included Lee
+  Shing and, in part, Yiu Choi; Yuen Kay-san and Ip Man practised at his school (p. 189). Retired
+  to the home of Yiu Choi (p. 198).
+hasTeacherAssertion:
+  - id: 01M69YCGD7WPHP95TG2Z9B8RN4
+    teacher: 01KYD74HFE49JZRNYJDXWMF02Q
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              His father was good friends with Chan Wah Shun and, when Chan began to teach, Ng immediately
+              enrolled his two sons, Ng Siu Lo (the older brother, and hence Chan’s first disciple) and Ng
+              Chung So (the younger brother and second disciple).
+            locator: '187'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: 180, 187-190
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - wing-chun
+  - chinese-martial-arts

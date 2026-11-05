@@ -1,0 +1,82 @@
+type: Person
+id: 01M377JZDNR434D3M1HPEZ26T7
+name:
+  ja-Latn: Kagawa Senjirō
+  ja: 香川善治郎
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1848'
+  hasEvidence:
+    - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+      quotation: Kagawa Senjirō (1848-1921), who became the second head of the Mutō-ryū
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1921'
+  hasEvidence:
+    - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+      quotation: Kagawa Senjirō (1848-1921), who became the second head of the Mutō-ryū
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M3YH7N5GMRQAFAKTEKF82HZ6
+    teacher: 01M2WGWA1YB5K4N6YHVVE8TG9E
+    assertedStyle: 01M377JZDN6DE97E7D3VXC8P5G
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Bennett names him first among Tesshū's influential students and has him succeed to the headship of Tesshū's own school. No period is given.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+            quotation: many of his influential students were at the vanguard. These included Kagawa Senjirō (1848-1921), who became the second head of the Mutō-ryū and held the title of hanshi in the Dai-Nippon Butokukai
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M3YH7N5GQS1FGRRSJXBHXQFJ
+    honorValue: Second head of Ittō-shōden Mutō-ryū
+    honorType: honortype:title
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Bennett states it directly. No date of succession is given.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: Kagawa Senjirō (1848-1921), who became the second head of the Mutō-ryū and held the title of hanshi in the Dai-Nippon Butokukai
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GFWYPVRRD4WN26QY6
+    honorValue: Hanshi (範士), Dai-Nippon Butokukai
+    honorType: honortype:title
+    honorGrade: honorgrade:shogo_hanshi
+    conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Bennett states it directly in the same clause. No year of award is given.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: Kagawa Senjirō (1848-1921), who became the second head of the Mutō-ryū and held the title of hanshi in the Dai-Nippon Butokukai
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: Student of Yamaoka Tesshū and second head of his Ittō-shōden Mutō-ryū. Hanshi of the Dai-Nippon Butokukai.
+hasEvidence:
+  - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+    quotation: Kagawa Senjirō (1848-1921), who became the second head of the Mutō-ryū and held the title of hanshi in the Dai-Nippon Butokukai
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - kenjutsu
+  - kendo
+  - muto-ryu
+  - butokukai

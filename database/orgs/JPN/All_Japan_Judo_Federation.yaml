@@ -1,0 +1,93 @@
+type: Organization
+id: 01KZY6FCNSB6FF9YTPN01452TZ
+name:
+  en: All Japan Judo Federation
+  ja-Latn: Zennihon Jūdō Renmei
+  ja: 全日本柔道連盟
+aka:
+  ja: 全柔連
+orgType: orgclass:federation
+hasSite:
+  - location:
+      label: Tokyo
+      countryCode: eucountry:JPN
+      wikidata: wd:Q1490
+foundedEvent:
+  startDate: '1949-05-06'
+  hasEvidence:
+    - basedOnSource: 01M3S74B286MZB0XBWR95K6NHW
+      quotation: 5月6日 全日本柔道連盟創立（初代会長・嘉納履正講道館長）「講道館有段者会」と「全日本柔道連盟結成準備委員会」が東京・丸の内工業クラブで開かれ、柔道有段者会の発展的解消並びに全柔連規約原案を承認して全日本柔道連盟が結成された
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+website: https://www.judo.or.jp/
+logo:
+  contentUrl: https://www.judo.or.jp/cms/wp-content/uploads/2020/11/img01-4.png
+  imageAttribution:
+    basedOnSource: 01M3S74B28GW5QMRHSJ15JADVH
+    informationType: infotype:secondary
+hasAffiliationAssertion:
+  - id: 01M3YH7N5FXVSHJN2S8D9ZJY5F
+    relatedOrganization: 01KJJAWN29MA64W22606R3WD83
+    affiliationRelation: affrel:member_of
+    validDuring:
+      startYear: 1952
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The federation's own history page and English Wikipedia, an independent source,
+        both directly state AJJF joined the International Judo Federation in December 1952; the exact day
+        differs by one (9th per AJJF, 10th per Wikipedia).
+    hasEvidence:
+      - basedOnSource: 01M3S74B286MZB0XBWR95K6NHW
+        quotation: 12月9日 全柔連、国際柔道連盟に加盟
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - uri: https://en.wikipedia.org/wiki/All_Japan_Judo_Federation
+        archiveUri: https://en.wikipedia.org/w/index.php?title=All_Japan_Judo_Federation&oldid=1376797598
+        cite: All Japan Judo Federation - Wikipedia
+        quotation: '1952, December 10: Member of the International Judo Federation'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M4R9845WZZ66KQRWVTY1ZK4Z
+    officer: 01KZY2QD14ZXN3V8ACHVPGGMGH
+    officerTitle: President (会長, 1st)
+    officerPeriod:
+      startYear: 1949
+      endYear: 1980
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The federation's own history and Japanese Wikipedia agree.
+    hasEvidence:
+      - basedOnSource: 01M3S74B286MZB0XBWR95K6NHW
+        quotation: 5月6日 全日本柔道連盟創立（初代会長・嘉納履正講道館長）
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M4R6M024JC96AD44CS2WBJG9
+        quotation: 1949年、全日本柔道連盟（全柔連）が組織されると、初代会長に就任（1980年まで）
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: The All Japan Judo Federation (全日本柔道連盟, Zen Nihon Jūdō Renmei) is the national governing body of judo in Japan, founded on 6 May 1949 with Risei Kano, head of the Kodokan, as its first president. It joined the International Judo Federation in 1952, and its presidents also led the Kodokan, reflecting the close institutional link between the two bodies.
+hasEvidence:
+  - basedOnSource: 01M3S74B286MZB0XBWR95K6NHW
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://www.wikidata.org/wiki/Q11390196
+    cite: All Japan Judo Federation - Wikidata
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q11390196
+tags:
+  - judo
+  - japan
+  - federation

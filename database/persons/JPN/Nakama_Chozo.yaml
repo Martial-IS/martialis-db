@@ -1,0 +1,230 @@
+type: Person
+id: 01KZEG2C4M2QAKN7Y7NHSQE8DY
+name:
+  ja-Latn: Nakama Chōzō
+  ja: 名嘉真朝増
+aka:
+  en:
+  - Nakama Chozo
+  - Chozo Nakama
+  ja:
+  - なかま ちょうぞう
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1899'
+  hasEvidence:
+  - basedOnSource: 01KZEKNEC07B3BYX3QZS6YGBT3
+    quotation: Chozo Nakama (名嘉真 朝増, Nakama Chōzō; 1899–1982) was a Kobayashi Shorin-ryu karate-do teacher.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1982'
+  hasEvidence:
+  - basedOnSource: 01KZEKNEC07B3BYX3QZS6YGBT3
+    quotation: 1899–1982
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: Okinawan Kobayashi Shorin-ryu karate-do teacher (1899-1982), primary student of Chosin Chibana who
+    also studied with Chomo Hanashiro, Chotoku Kyan, Kenwa Mabuni, Choki Motobu and Kentsu Yabu; taught
+    in Shuri from c. 1935 to 1982.
+notes: Nakama taught karate in Shuri, Okinawa, from c. 1935 to 1982. The EN Wikipedia article on Hanashiro
+  lists him among Hanashiro's most eminent disciples, stating he later became a disciple of Choshin Chibana
+  - consistent with the primary-teacher claim in his own article. Per Motobu Naoki's Motobu-ryu blog,
+  Nakama was a senior disciple of Chibana Choshin, learned kumite from Choki Motobu when Motobu briefly
+  returned to Okinawa for the 1936 Roundtable of Karate Masters, had a close post-war relationship with
+  Uehara Seikichi (exchanging techniques), and had no dojo of his own, teaching at a local community center
+  and at his home; per Nakamoto Mamoru (Bunbukan Dojo), Nakama learned the Gojushiho kata from Hanashiro
+  Chomo. Seijin Jahana's 1978 Aoi Umi article (interviewing the then 80-year-old Nakama) confirms he learned
+  karate directly from Choki Motobu, whose own dojo opened around 1940 in Nishishinmachi (Kumecho), Naha
+  after his return from Osaka, and records the story of the unpublished manuscript Nakama copied into
+  four notebooks (later burnt in an air raid). The Motobu-ryu official history confirms Nakama "had also
+  studied under Motobu Choki sensei" and was skilled at yakusoku kumite.
+hasTeacherAssertion:
+- id: 01M3YH7N5GXBVDBHMRYVHZ97QB
+  teacher: 01KZC7XZAWJNRVKWZ66A7CXENR
+  assertedStyle: 01KZDXQH2MARRZH56QT95D2964
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: EN Wikipedia states Nakama's primary teacher was Chosin Chibana, founder of Kobayashi
+      Shorin-ryu; the Motobu-ryu blog describes him as a senior disciple of Chibana Choshin
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZEKNEC07B3BYX3QZS6YGBT3
+      quotation: >-
+        His primary teacher was Chosin Chibana, founder of Kobayashi Shorin-ryu
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZGHWBBT4X64RAEV23YM5AGA
+      quotation: He is a senior disciple of Chibana Chōshin.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5G18NG861N52G6RJDE
+  teacher: 01KZC7XZATTJF9DFMT9QX0JSGY
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9F
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: EN Wikipedia states Nakama also studied with Chomo Hanashiro and the Hanashiro
+      article names him among Hanashiro's most eminent disciples; per Nakamoto Mamoru (Motobu-ryu blog)
+      Nakama learned the Gojushiho kata from Hanashiro Chomo
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZEKNEC07B3BYX3QZS6YGBT3
+      quotation: however, Nakama also studied with Chomo Hanashiro, Chōtoku Kyan, Kenwa Mabuni, Choki
+        Motobu, and Kentsu Yabu.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZGHWBBT4X64RAEV23YM5AGA
+      quotation: According to Nakamoto Sensei, Nakama Sensei learned this kata from Hanashiro Chōmo.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GWA1NN4M8C6ZX3XHW
+  teacher: 01KZC4PN01Y3PH3HRWWJPAH82A
+  assertedStyle: 01KZC8S2GE3X9V7N27WXMQEPQA
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: EN Wikipedia lists Chotoku Kyan among the teachers Nakama also studied with
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZEKNEC07B3BYX3QZS6YGBT3
+      quotation: however, Nakama also studied with Chomo Hanashiro, Chōtoku Kyan, Kenwa Mabuni, Choki
+        Motobu, and Kentsu Yabu.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GECQSNZP4T8J1C98B
+  teacher: 01KZC4PN03JMN9C9YQTKMEQE3A
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      EN Wikipedia lists Choki Motobu among the teachers Nakama also studied with; Jahana's 1978 article
+      states Nakama learned karate directly from Motobu (dojo opened around 1940); the Motobu-ryu
+      official history confirms he studied under Motobu
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1936
+    hasEvidence:
+    - basedOnSource: 01KZEKNEC07B3BYX3QZS6YGBT3
+      quotation: however, Nakama also studied with Chomo Hanashiro, Chōtoku Kyan, Kenwa Mabuni, Choki
+        Motobu, and Kentsu Yabu.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZGHWBBT4X64RAEV23YM5AGA
+      quotation: Also, when Motobu Chōki briefly returned to Okinawa to attend the "Roundtable of Karate
+        Masters" (1936), Nakama Sensei learned kumite from him.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZGHWBBT0MWNJ2E9X3Z3JA3Z
+      quotation: >-
+        He learned karate directly from Choki Motobu (1871-1944). It was about 1940 that Choki Motobu opened his own Dojo(=a training hall) in Nishishinmachi (=Kumecho now), Naha city after returning to Okinawa from Osaka
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZGHWBBT0Z52FB8JXQ11F3P9
+      quotation: That was Nakama Chozo sensei. He had also studied under Motobu Choki sensei.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GQG361K91CF8MCZEE
+  teacher: 01KYJCSK3HM7WV1EJPH94Q18T2
+  assertedStyle: 01KYFZEGYN7A9G4FSTXBPDBG8P
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: EN Wikipedia lists Kenwa Mabuni among the teachers Nakama also studied with
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZEKNEC07B3BYX3QZS6YGBT3
+      quotation: however, Nakama also studied with Chomo Hanashiro, Chōtoku Kyan, Kenwa Mabuni, Choki
+        Motobu, and Kentsu Yabu.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5G4TZT2FKJGRS7Z63B
+  teacher: 01KZ19PZ65EPNRY1Q8GQR6NEV1
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9F
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: EN Wikipedia lists Kentsu Yabu among the teachers Nakama also studied with
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZEKNEC07B3BYX3QZS6YGBT3
+      quotation: however, Nakama also studied with Chomo Hanashiro, Chōtoku Kyan, Kenwa Mabuni, Choki
+        Motobu, and Kentsu Yabu.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GHMP5KV3HRM7JDGHT
+  rankStyle: 01KZDXQH2MARRZH56QT95D2964
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 9
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Jahana's 1978 article states Nakama was awarded Hanshi, 9th dan; date unknown
+  hasEvidence:
+  - basedOnSource: 01KZGHWBBT0MWNJ2E9X3Z3JA3Z
+    quotation: Mr. Nakama was awarded "Hanshi" (the highest title), 9th Dan(=degree) black belt.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasHonorAssertion:
+- id: 01M3YH7N5GW94JARV19EAJHZ5C
+  honorValue: Hanshi 9th Dan
+  honorType: honortype:title
+  honorGrade: honorgrade:shogo_hanshi
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Jahana's 1978 article states Nakama was awarded Hanshi, 9th dan; date unknown
+  hasEvidence:
+  - basedOnSource: 01KZGHWBBT0MWNJ2E9X3Z3JA3Z
+    quotation: Mr. Nakama was awarded "Hanshi" (the highest title), 9th Dan(=degree) black belt.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZEKNEC07B3BYX3QZS6YGBT3
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZGHWBBT4X64RAEV23YM5AGA
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZGHWBBT0MWNJ2E9X3Z3JA3Z
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZGHWBBT0Z52FB8JXQ11F3P9
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q15987180
+tags:
+- karate
+- shorin-ryu

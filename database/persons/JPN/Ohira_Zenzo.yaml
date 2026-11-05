@@ -1,0 +1,41 @@
+type: Person
+id: 01M5MG468EP2DRGCMHYHJ3M5H1
+name:
+  ja-Latn: Ōhira Zenzō
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+description:
+  en: >-
+    Kyudo teacher (1874–1952), a disciple of Honda Toshizane and one of the figures in the development
+    of modern kyudo.
+hasTeacherAssertion:
+  - id: 01M5MG468ESBWKAX8JPA4SS2H9
+    teacher: 01M5MG468E770K3KSWCMBZE087
+    assertedStyle: 01M2411V8RP1A9854ERZ2NQ80P
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Younger but equally important individuals in the development of modern kyudo included
+              Ohira Zenzo (1874–1952) and Awa Kenzo (1880–1939), both of whom became disciples of Honda
+              midway through their kyudo careers.
+            locator: '156'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: '156'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - kyudo

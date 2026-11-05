@@ -1,0 +1,142 @@
+type: Person
+id: 01M6BGKGNVGJAR5SR2XVBFHR1K
+name:
+  ja-Latn: Kato Hisashi
+  ja: 加藤久
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1884-01-01'
+  hasEvidence:
+  - basedOnSource: 01M6BGKGNV4Q4ZQ20E1N303M38
+    locator: 立身流系譜 (歴代宗家)
+    locatorLabel: section
+    quotation: '明治17年(1884年)1月1日生まれ。'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1948-01-21'
+  hasEvidence:
+  - basedOnSource: 01M6BGKGNV4Q4ZQ20E1N303M38
+    locator: 立身流系譜 (歴代宗家)
+    locatorLabel: section
+    quotation: '昭和23年(1948年)1月21日死去。'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6BGKGNVNKEBSQTX26JY51AB
+    locator: Interview with Kato Takashi
+    locatorLabel: section
+    quotation: 'I began my martial arts training with Tatsumi-ryu at the age of six and continued to be taught by my father, Kato Hisashi, until 1948 when he passed away.'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:indirect
+description:
+  en: >-
+    19th headmaster of the Tatsumi-ryu and a kendo teacher in Sakura; father of the 20th and 21st headmasters.
+hasEvidence:
+- basedOnSource: 01M6BGKGNVNKEBSQTX26JY51AB
+  locator: Introduction
+  locatorLabel: section
+  quotation: 'his father, Kato Hisashi, who was a kendo teacher as well as being the 19th headmaster of the Tatsumi-ryu'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M6BGKGNVVW5EBWJRNH8TB5GX
+  teacher: 01M6BGKGNV6YC0D1KHRFVPS24B
+  assertedStyle: 01M6BGKGNVKRWZEKBYRTBWPCGS
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The ryu's own history page; one tradition.
+  hasInteraction:
+  - hasEvidence:
+      - basedOnSource: 01M6BGKGNV4Q4ZQ20E1N303M38
+        locator: 立身流系譜 (歴代宗家)
+        locatorLabel: section
+        quotation: '忍耐に忍耐を重ねて修行し、半澤成恒から免許皆伝を授けられ、宗家を譲られた'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+- id: 01M6BGKGNV7HJ8WRXER3TKEYXC
+  teacher: 01M2WGWA1YG2SSC4PASW0TXXQC
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9W
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The ryu's own history page; one tradition. Takano also gave him Itto-ryu densho.
+  hasInteraction:
+  - hasEvidence:
+      - basedOnSource: 01M6BGKGNV4Q4ZQ20E1N303M38
+        locator: 立身流系譜 (歴代宗家)
+        locatorLabel: section
+        quotation: '高野佐三郎、中山博道について学び、明治神宮大会等に出場する。'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M6BGKGNV4Q4ZQ20E1N303M38
+        locator: 立身流系譜 (歴代宗家)
+        locatorLabel: section
+        quotation: '久は高野佐三郎から一刀流の伝書を授けられている。'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+- id: 01M6BGKGNVWMCK7412EF0A8HC5
+  teacher: 01KZ6XT5DSD1RN1NG4PJKJWXAH
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9W
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The ryu's own history page; one tradition.
+  hasInteraction:
+  - hasEvidence:
+      - basedOnSource: 01M6BGKGNV4Q4ZQ20E1N303M38
+        locator: 立身流系譜 (歴代宗家)
+        locatorLabel: section
+        quotation: '高野佐三郎、中山博道について学び、明治神宮大会等に出場する。'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+- id: 01M6BGKGNVX6SQY0BDFTZHGFD6
+  teacher: 01M37HHSSMJZMQ23G7DSWVKT9V
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9W
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The ryu's own history page; one tradition. It calls Mochida his teacher and close friend.
+  hasInteraction:
+  - hasEvidence:
+      - basedOnSource: 01M6BGKGNV4Q4ZQ20E1N303M38
+        locator: 立身流系譜 (歴代宗家)
+        locatorLabel: section
+        quotation: '持田盛二は師であり親友であった。'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M6BGKGNV48H235JMFHM1J4HY
+  rankStyle: 01M6BGKGNVKRWZEKBYRTBWPCGS
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+  rankGrade: rankgrade:menkyo_kaiden
+  grantedBy: 01M6BGKGNV6YC0D1KHRFVPS24B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The ryu's own history page; one tradition. No date.
+  hasEvidence:
+  - basedOnSource: 01M6BGKGNV4Q4ZQ20E1N303M38
+    locator: 立身流系譜 (歴代宗家)
+    locatorLabel: section
+    quotation: '忍耐に忍耐を重ねて修行し、半澤成恒から免許皆伝を授けられ、宗家を譲られた'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+notes: >-
+  Held the Dai Nippon Butokukai kyoshi title in kendo and iaijutsu (立身流の歴史). Home dojo the Yatomi Kendokai (Keeley).

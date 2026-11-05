@@ -1,0 +1,108 @@
+type: Person
+id: 01M5JG4Y259ZBY4V9XPJQ111DJ
+name:
+  en: Charles Charlemont
+  fr: Charles Charlemont
+aka:
+  en:
+    - Louis Charles Pilet
+nationality:
+  - countryCode: eucountry:FRA
+    wikidata: wd:Q142
+birthEvent:
+  birthDate: '1862-11-21'
+  birthPlace:
+    label: Paris
+    countryCode: eucountry:FRA
+    wikidata: wd:Q90
+  hasEvidence:
+    - basedOnSource: 01M5JG4Y25PWNDPQYVGE1CQJQC
+      quotation: >-
+        le 21 novembre 1862
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+      quotation: >-
+        Charlemont Charles-Louis est né à Paris le 22 novembre 1862.
+      locator: '655'
+      locatorLabel: page
+      informationType: infotype:primary
+      supports: false
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1944-05-31'
+  deathPlace:
+    label: Saint-Germain-en-Laye
+    countryCode: eucountry:FRA
+  hasEvidence:
+    - basedOnSource: 01M5JG4Y25PWNDPQYVGE1CQJQC
+      quotation: >-
+        mort à Saint-Germain-en-Laye le 31 mai 1944
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    French boxing master, son and successor of Joseph Charlemont at the head of the Académie de boxe in
+    the rue des Martyrs until his death. He beat the English sailor Jerry Driscoll in Paris in 1899 and
+    trained many French boxing teachers, among them Pierre Baruzy.
+notes: >-
+  Birth date: fr Wikipedia gives 21 November 1862; his father's 1899 book gives 22 November.
+hasTeacherAssertion:
+  - id: 01M5JG4Y25WTCHNZFG1BPFS9MV
+    teacher: 01M5JG4Y25QKEKJ5K0T4KFYQW0
+    assertedStyle: 01M5KWGPRKBAFY4Z2766RHBEK5
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The teacher's own account.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+            quotation: >-
+              Charlemont Charles-Louis est né à Paris le 22 novembre 1862. Dès son plus bas âge, il prit
+              des leçons de son père
+            locator: '655'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+      - interactionPlace: 01M5JG4Y25H3040ABEHRCYZW4M
+        hasEvidence:
+          - basedOnSource: 01M5JG4Y25PWNDPQYVGE1CQJQC
+            quotation: >-
+              Il est le fils de Joseph Charlemont à qui il succédera à la tête de son club jusqu’à sa
+              mort en 1944.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      In this match, Charles Charlemont fought Jerry Driscoll.
+    locator: '259'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5JG4Y25PWNDPQYVGE1CQJQC
+    quotation: >-
+      Il a formé de nombreux professeurs de boxe dans son académie rue des Martyrs.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q2958709
+tags:
+  - savate
+  - france
+image:
+  contentUrl: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Charles_Charlemont.tiff/lossy-page1-960px-Charles_Charlemont.tiff.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Charles_Charlemont.tiff
+    cite: "Agence Rol, Wikimedia Commons"
+    informationType: infotype:secondary

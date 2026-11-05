@@ -1,0 +1,68 @@
+type: Person
+id: 01M5HN1CX5JMT6SRQ6H7VFJ45Q
+name:
+  zh-Latn: Wu Jianquan
+nationality:
+  - countryCode: eucountry:CHN
+    wikidata: wd:Q148
+birthEvent:
+  birthDate: '1870'
+  hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    quotation: >-
+      This group had originally been established by his father, Wu Jianquan (1870–1942), in 1937 after
+      he fled the Japanese onslaught in the north.
+    locator: '234'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1942'
+  hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    quotation: >-
+      This group had originally been established by his father, Wu Jianquan (1870–1942), in 1937 after
+      he fled the Japanese onslaught in the north.
+    locator: '234'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: >-
+    Taijiquan teacher (1870–1942) in Beijing and Shanghai, son of Wu Quanyou and father of Wu Gongyi and
+    Wu Gongzao.
+hasTeacherAssertion:
+  - id: 01M5HN1CX5SC3G2QTA2HY4EG76
+    teacher: 01M5HN1CX5NXDCVQ5PG7XACRGK
+    assertedStyle: 01M5HN1CX5JXNXYDMJN4V36KW6
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: Single source; it implies the relation but does not state it.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Both were grandsons of Wu Quanyou (1834–1902). [...] Their father, Wu Jianquan (1870–1942),
+              also taught taijiquan in Beijing and Shanghai.
+            locator: '100'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Their father, Wu Jianquan (1870–1942), also taught taijiquan in Beijing and Shanghai.
+    locator: '100'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q708986
+tags:
+  - taijiquan

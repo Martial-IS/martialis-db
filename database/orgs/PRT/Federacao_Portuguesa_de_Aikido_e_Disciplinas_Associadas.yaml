@@ -1,0 +1,73 @@
+type: Organization
+id: 01KZ6KZZG7EF5YKPPBB4JBV7C2
+name:
+  en: Portuguese Federation of Aikido and Associated Disciplines
+  pt: Federação Portuguesa de Aikido e Disciplinas Associadas
+aka:
+  en: FPADA
+  pt: FPADA
+orgType: orgclass:federation
+hasSite:
+  - location:
+      label: Lisbon
+      countryCode: eucountry:PRT
+      wikidata: wd:Q597
+foundedEvent:
+  startDate: '1994-10-13'
+  hasEvidence:
+    - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+      quotation: Em 1994, é constituída a Federação Portuguesa de Aikido e Disciplinas Associadas - FPADA (Diário da República, III Série, nº. 237, de 13 de Outubro de 1994 - página 18.549), como resposta ao monopólio então detido pela Federação Portuguesa de Aikido Aikikai - FPAA.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+dissolvedEvent:
+  dissolutionManner: dissmanner:merged
+  dissolutionReason: FPADA decided to dissolve itself; the FPAA (which became the FPA in 1995) negotiated the integration of the remaining Portuguese aikido associations.
+  hasEvidence:
+    - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+      quotation: Posteriormente, a FPADA decide dissolver-se e a FPAA, oferece, por iniciativa própria, uma mudança através de negociações com todas as associações de Aikido existente em Portugal.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M00J0E66YN5HQ7DQTZ0YY4CA
+      quotation: Posteriormente, a FPADA dissolve-se e a FPAA oferece uma mudança através de negociações com todas as associações de Aikido existentes em Portugal. Em 1995, a FPAA muda o seu nome para Federação Portuguesa de Aikido FPA.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M4R9845WT6D4JG872YJK3S0Q
+    officer: 01KZ6D9E8Q0V5Y8Y88RMM4W7G6
+    officerTitle: Presidente do Conselho Técnico de Aikido
+    officerPeriod:
+      startYear: 1994
+      endYear: 1998
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: His own club's page; one side only.
+    hasEvidence:
+      - basedOnSource: 01KZ6KZZG7XX70ZQMQJYWA27B7
+        quotation: Presidente do Conselho Técnico de Aikido da FPADA de 1994 até Março de 1998
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: The Federação Portuguesa de Aikido e Disciplinas Associadas (FPADA) was constituted in 1994, published in the Diário da República on 13 October 1994, as a response to the then monopoly held by the Federação Portuguesa de Aikido Aikikai (FPAA). It later dissolved itself, and the FPAA negotiated a merger with the remaining aikido associations, becoming the FPA in 1995.
+  pt: A Federação Portuguesa de Aikido e Disciplinas Associadas (FPADA) foi constituída em 1994, publicada no Diário da República a 13 de outubro de 1994, como resposta ao monopólio então detido pela Federação Portuguesa de Aikido Aikikai (FPAA). Mais tarde decidiu dissolver-se, e a FPAA negociou a integração das restantes associações de Aikido, tornando-se a FPA em 1995.
+hasEvidence:
+  - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M00J0E66YN5HQ7DQTZ0YY4CA
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ6KZZG7XX70ZQMQJYWA27B7
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - aikido
+  - fpada
+  - portugal

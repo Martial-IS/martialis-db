@@ -1,0 +1,75 @@
+type: Person
+id: 01M6C1R005QRDB2SCXJTHBKDS5
+name:
+  en: Karo Parisyan
+aka:
+  en:
+    - The Heat
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1982-08-28'
+  hasEvidence:
+    - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+      quotation: 'Born: 8/28/82'
+      locator: '327'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    American judoka and mixed martial artist trained under Gokor Chivichyan and Gene LeBell at the
+    Hayastan Academy.
+hasTeacherAssertion:
+  - id: 01M6C1R005CAXSSXXMA7M57RMZ
+    teacher: 01M6C1R005RK87H6XQWTD1ENCT
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              A junior national judo champion trained under Gokor Chivichyan and “Judo” Gene LeBell, Parisyan was the first American fighter to consistently employ the throwing techniques of judo
+            locator: '327'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M6C1R0057Z8FPA388J0FY8ZT
+    teacher: 01KJJAWN28MWKKSN4J02MVY1SS
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              A junior national judo champion trained under Gokor Chivichyan and “Judo” Gene LeBell, Parisyan was the first American fighter to consistently employ the throwing techniques of judo
+            locator: '327'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+    quotation: >-
+      A junior national judo champion trained under Gokor Chivichyan and “Judo” Gene LeBell, Parisyan was the first American fighter to consistently employ the throwing techniques of judo
+    locator: '327'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3056832
+tags:
+  - judo
+  - mma

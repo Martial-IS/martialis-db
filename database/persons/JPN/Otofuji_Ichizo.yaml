@@ -1,0 +1,46 @@
+type: Person
+id: 01M5MG468ETCC57JMW86PTZE37
+name:
+  ja-Latn: Otofuji Ichizō
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+description:
+  en: >-
+    Jodo teacher (1899–1998), a student of Shiraishi Hanjiro; chief instructor in Fukuoka City after
+    Takayama Kiroku's death in 1938, and with Shimizu Takaji the first to demonstrate the All Japan Kendo
+    Federation jodo forms (1969).
+hasTeacherAssertion:
+  - id: 01M5MG468EXFS0Q42SS49WXGSJ
+    teacher: 01M5H4HK02ARQ5SH66WDKGK4WK
+    assertedStyle: 01KZ9TQS3VCCTAXE15YF88B0T9
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              His influential students included Takayama Kiroku (ca. 1893–1938), Otofuji Ichizo
+              (1899–1998), and Shimizu Takaji (1896–1978).
+            locator: '149'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Takayama continued to devote himself to popularizing jodo until 1938, when he died suddenly at the
+      age of 46. After that, Otofuji became the chief instructor in Fukuoka City.
+    locator: '150'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q11864278
+tags:
+  - jodo

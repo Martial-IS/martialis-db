@@ -1,0 +1,96 @@
+type: Organization
+id: 01M69YRP0XPBMW04PV24ARCSVB
+name:
+  en: Ving Tsun Athletic Association
+  yue: 詠春體育會
+  zh: 詠春體育會
+aka:
+  en: VTAA
+orgType: orgclass:association
+hasSite:
+  - location:
+      label: Hong Kong
+      countryCode: eucountry:CHN
+      wikidata: wd:Q8646
+foundedEvent:
+  startDate: '1967-08-24'
+  founder:
+    - 01KYD5XMNM4DH8KAWBC1TE9BDJ
+  hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        August 24, 1967, saw the final ratification of the VTAA.
+      locator: '260'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        Yet, by the time of Lee’s death in 1973, the Ving Tsun Athletic Association, the organization
+        founded by Ip Man to carry on his legacy, was already moving in a different direction, seeking a
+        new model of social discourse and accommodation in line with the emerging reality of life in the
+        more prosperous Hong Kong of the 1970s and 1980s.
+      locator: '212'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M69YRP0SSD06TME70YH67MBQ
+    officer: 01KYD5XMNM4DH8KAWBC1TE9BDJ
+    officerTitle: President
+    officerPeriod:
+      startYear: 1967
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+        quotation: >-
+          His students bought an apartment that served as headquarters for the organization in 1966 and Ip
+          Man was finally named the new association’s president in 1967.
+        locator: '259'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M69YRP0VJV7NYDYS16QHW37R
+    officer: 01M69YKDGQV5QWC0851EBDBF8P
+    officerTitle: Treasurer
+    officerPeriod:
+      startYear: 1967
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+        quotation: >-
+          Ip Chun served as the fledgling association’s first treasurer; he was well suited to the post
+          given his professional experience as an accountant.
+        locator: '259'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Association of Ip Man's Wing Chun line in Hong Kong. Planned from 1964 and ratified in 1967 with
+    Ip Man as president, it was the first private traditional martial arts association registered
+    with and recognised by the Hong Kong government.
+notes: >-
+  Judkins and Nielson pp. 259-261. First secretary: Lee Man (no record). Police inspector Tang
+  Sang took a leading role early on; Ip Man walked out with the instructors after a dispute over
+  his monthly pay, and they returned after Tang Sang left Hong Kong in 1974 (pp. 260-261).
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: '212, 259-262'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - wing-chun
+  - chinese-martial-arts

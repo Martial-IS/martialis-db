@@ -1,0 +1,93 @@
+type: Organization
+id: 01M377JZDN8THA45FQJXJKZT8P
+name:
+  en: Dai-Nippon Butokukai Seitei Kenjutsu Kata Committee
+  ja: 大日本武徳会制定剣術形委員会
+orgType: orgclass:committee
+hasSite:
+  - location:
+      label: Kyoto
+      countryCode: eucountry:JPN
+      wikidata: wd:Q34600
+foundedEvent:
+  startDate: '1906-05-07'
+  hasEvidence:
+    - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+      quotation: The committee was appointed on May 7 and consisted of Watanabe and six other kenjutsu experts from various ryūha, all of whom were recipients of the Butokukai's honorary title of hanshi, the highest honor awarded to outstanding martial artists.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+dissolvedEvent:
+  endDate: '1906-08-13'
+  dissolutionManner: dissmanner:defunct
+  dissolutionReason: Completed its mandate when the three-form kata was presented to the Butokukai president.
+  hasEvidence:
+    - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+      quotation: The results were presented to the president of the Butokukai on August 13, 1906.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M3YH7N5FE0Y8Y4AVJ5Q1A2HN
+    relatedOrganization: 01KJJAWN29MA64W22606R3WD7Y
+    affiliationRelation: affrel:branch_of
+    validDuring:
+      startYear: 1906
+      endYear: 1906
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Constituted by the Butokukai and reporting to its president, who received the finished kata.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: In 1906, Watanabe Noboru (1838-1913) chaired the first Butokukai committee tasked with formulating a set of generic kata for disseminating standardized kenjutsu in schools nationwide.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M4R9845WV6FV88220FXRAXSH
+    officer: 01M377JZDNQKVFMBVVNAWRV64T
+    officerTitle: Chair
+    officerPeriod:
+      startYear: 1906
+      endYear: 1906
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One authored history.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: In 1906, Watanabe Noboru (1838-1913) chaired the first Butokukai committee tasked with formulating a set of generic kata for disseminating standardized kenjutsu in schools nationwide.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M4R9845W1QYAJF07QQ32EDX3
+    officer: 01M1BVV4WY6PPJN89RGFSJNA23
+    officerTitle: Committee member
+    officerPeriod:
+      startYear: 1906
+      endYear: 1906
+    notes: Bennett names him only as the committee's internal dissenter, not in a membership list.
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One authored history.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: Due to such hostility toward the kata—especially from one member of the committee itself, a somewhat sullen Negishi Shingorō (1844-1913)—they were not widely circulated.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: First Dai Nippon Butokukai committee to standardise kenjutsu kata for schools, chaired by Watanabe Noboru. Seven kenjutsu experts holding the title of hanshi were appointed on 7 May 1906, joined in July by seven younger experts holding kyōshi. It produced the three-form Dai-Nippon Butokukai Seitei Kenjutsu Kata, presented to the Butokukai president on 13 August 1906 and poorly received. The ten-form Dai-Nippon Teikoku Kenjutsu Kata of 1911-12 superseded it.
+notes: Twelve of the fourteen members are unidentified; Bennett names only Watanabe and Negishi.
+hasEvidence:
+  - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+    quotation: 'The committee had crafted a set of kata they called the Dai-Nippon Butokukai Seitei Kenjutsu Kata. It was comprised of three forms: jōdan (heaven), chūdan (earth), and gedan (man).'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - kendo
+  - kata
+  - butokukai

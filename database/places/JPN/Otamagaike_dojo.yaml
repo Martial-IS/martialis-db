@@ -1,0 +1,74 @@
+type: Place
+id: 01KJJAWN29MA64W22606R3WD8A
+name:
+  en: Otamagaike dojo
+  ja-Latn: Otamagaike dōjō
+aka:
+  en: Iso Masatomo dojo
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Kanda, Tokyo
+      countryCode: eucountry:JPN
+      wikidata: wd:Q1490
+hasInstructorRole:
+  - id: 01M5G8WR4J07T4C494JT86ZXDF
+    instructor: 01KJJAWN28MWKKSN4J02MVY1S1
+    instructorCapacity: instrcap:instructor
+    instructorPeriod:
+      startYear: 1879
+      endYear: 1881
+    notes: Assistant instructor under Iso Masatomo, who died in June 1881.
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTAV
+        quotation: >-
+          Due to Kanō's intense practice and his solid grounding in the jūjutsu taught by Fukuda,
+          Kanō became an assistant instructor at Iso's school.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+        quotation: >-
+          Because I had trained hard at the Fukuda dojo and had acquired a fair amount of experience,
+          I soon gained great benefit from their further instruction, so much so that I was
+          eventually called upon to become an assistant instructor at the Iso dojo.
+        locator: '9'
+        locatorLabel: page
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M6BEFR8FMQXGE278SVX40YEX
+    instructor: 01KJJAWN28MWKKSN4J02MVY1TY
+    instructorCapacity: instrcap:head_instructor
+    instructorStyle: 01KJJAWN29MA64W22606R3WD9Q
+    notes: Founder of the dojo; the opening date is not known.
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Kubota line's account (Skoss) and Tenyokai International, one tradition.
+    hasEvidence:
+      - basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+        locator: The Development of the Tenjin Shinyo-ryu
+        locatorLabel: section
+        quotation: Iso opened a dojo in Otamagaike, in what is now the Kanda area of Tokyo.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - uri: http://www.tenyokai.com/history.html
+        cite: TENYOKAI INTERNATIONAL - History of Tenjin Shinyo-ryu
+        quotation: Iso established a dojo at Otamagaike in Kanda, Edo, attracting practitioners from the various clans, his students numbering over 5,000.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+    locator: '9'
+    locatorLabel: page
+    quotation: The third generation master was Masatomo Iso, who was better known and had been Fukuda's teacher. Iso ran his dojo in Otamagaike, Kanda, Tokyo.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct

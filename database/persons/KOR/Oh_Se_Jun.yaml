@@ -1,0 +1,45 @@
+type: Person
+id: 01KYJ42SQPTQ1YMD4NR1P77C7C
+name:
+  en: Oh Se Jun
+  ko: 오세준
+aka:
+  en:
+  - Oh Sae Jhoon
+nationality:
+- countryCode: eucountry:KOR
+  wikidata: wd:Q884
+description:
+  en: Korean Tang Soo Do practitioner of the Moo Duk Kwan system. Originally a shoe shine boy, he was
+    invited by Hwang Kee to become a student. He became the most respected fighter in the Moo Duk Kwan,
+    known as the 'fist' of the organization, taking on all challengers during the early years of Korean
+    martial arts development.
+hasTeacherAssertion:
+- id: 01M3YH7N5GRX2SVYW4BKQJSMZT
+  teacher: 01KYHT5WPXM8YSZH28CGZ9DCA6
+  assertedStyle: 01KYFXCETR9R1BNFD5T82H1G8P
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Oh Se Jun was invited by Hwang Kee to become a student and became a leading fighter
+      of the Moo Duk Kwan
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KYJ42SQPE9AT05GKA3G4K4M6
+      cite: Segarra (2018) - Tang Soo Do History V15b
+      quotation: Oh Sae Jhoon was a young shoe shine boy, and when shining Hwang Kee's shoes he was invited
+        by Hwang to become a student
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KYJ42SQPE9AT05GKA3G4K4M6
+  cite: Segarra (2018) - Tang Soo Do History V15b
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- tang-soo-do
+- moo-duk-kwan
+- korean-martial-arts

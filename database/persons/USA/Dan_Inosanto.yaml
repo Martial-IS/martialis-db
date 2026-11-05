@@ -1,0 +1,208 @@
+type: Person
+id: 01KYDB2SWCW3RDJH3GEA666XXB
+name:
+  en: Dan Inosanto
+aka:
+  en:
+  - Daniel Arca Inosanto
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+birthEvent:
+  birthDate: '1936-07-24'
+  birthPlace:
+    label: Stockton
+    countryCode: eucountry:USA
+    wikidata: wd:Q49240
+  hasEvidence:
+  - basedOnSource: 01KYDB2SW87MK72THYCCAQYSAG
+    quotation: >-
+      Dan Inosanto (born July 24, 1936)
+    cite: Dan Inosanto (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: Dan Inosanto (born 1936) is a Filipino-American martial arts instructor and actor. He was one of
+    three people appointed to teach at the Jun Fan Gung Fu institutes under Bruce Lee, and after Lee's
+    death became the principal spokesperson and historian for Jeet Kune Do. He also holds expertise in
+    Filipino Martial Arts (Kali-Eskrima), Shooto, Muay Thai, and Brazilian Jiu-Jitsu.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/f/f9/DanInosantoOCKickboxing.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:DanInosantoOCKickboxing.jpg
+    cite: "Webtraktion, Wikimedia Commons"
+    informationType: infotype:secondary
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M3YH7N5GPGKT5R499THBX2PK
+  teacher: 01KYD5XMNMNAG3CPC17GKACPW0
+  assertedStyle: 01KYD5XSZPND9XV5FHYG9V0ZV6
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Extensively documented as Bruce Lee's student and assistant instructor at the
+      Los Angeles Jun Fan Gung Fu Institute
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1964
+      endYear: 1973
+    hasEvidence:
+    - basedOnSource: 01KYDB2SW87MK72THYCCAQYSAG
+      cite: Dan Inosanto (Wikipedia EN)
+      quotation: He was one of three people who were appointed to teach at one of the three Jun Fan Gung
+        Fu institutes under Bruce Lee
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M355209N018CY9HSZ1YH4MF4
+      quotation: Most known as Bruce Lee's training partner, confidante, and the most highly ranked by
+        Lee in his own personal art of Jeet Kune Do
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GBRQ0VHZ4FZEG1989
+  teacher: 01KYF4MPCW701CSJGGG3W9R12P
+  assertedStyle: 01KYEY02EKTWX5K8ZBVZ9SQHYS
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Independent sources state it.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KYDB2SW87MK72THYCCAQYSAG
+      cite: Dan Inosanto (Wikipedia EN)
+      quotation: Inosanto studied with different martial arts masters elsewhere in the United States,
+        Southeast Asia, and Europe, including Johnny Lacoste and Chai Sirisute
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://dogbrothers.com/our-teachers/
+      archiveUri: https://web.archive.org/web/20261017220924/https://dogbrothers.com/our-teachers/
+      cite: Our Teachers (Dog Brothers Martial Arts Association)
+      quotation: My teacher's principal teacher in the Filipino Martial Arts, Manong LaCoste
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://www.jkd.gr/daninosanto.html
+      cite: Guro Dan Inosanto (Jeet Kune Do Academy Greece)
+      quotation: Guro Dan later went to his father, who in turn introduced Guro Dan to many Escrimadors
+        in the local Filipino community [...] John Lacoste
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GEGJZY57DVZDFKSMV
+  teacher: 01KYDKY8XPAXEX469QJ82RAK14
+  assertedStyle: 01KYDKY8XR1HY4G4NQW7P8M1XC
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Inosanto studied Shooto under Yorinaga Nakamura, who taught at the Inosanto Academy
+      from 1991; Nakamura was a student of Shooto founder Satoru Sayama
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1991
+    hasEvidence:
+    - basedOnSource: 01KYDB2SW87MK72THYCCAQYSAG
+      cite: Dan Inosanto (Wikipedia EN)
+      quotation: 'He trained Shoot wrestling under Yorinaga Nakamura.'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KYDKY8XQTNBXM7TK2079K2NZ
+      cite: Shooto (Wikipedia EN)
+      quotation: Yorinaga Nakamura began teaching Shooto at the Inosanto Academy in 1991, and is the instructor
+        of [...] Dan Inosanto
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5G36VYXBQ0ER9Z4VZQ
+  teacher: 01KYDPMZ5HWFMCYGSQYAVDDNWF
+  assertedStyle: 01KYEY02EJDAF10TC75D1V8DX0
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Inosanto studied Muay Thai under Ajarn Chai Sirisute; documented on Inosanto
+      Academy curriculum and Stricklands Martial Arts article
+  hasInteraction:
+  - hasEvidence:
+    - uri: https://inosanto.com/academy-info/curriculum/
+      archiveUri: https://web.archive.org/web/20210718071238/https://inosanto.com/academy-info/curriculum/
+      cite: Inosanto Academy - Curriculum (official website)
+      quotation: Muay Thai – Thai Boxing is gaining popularity and recognition in the US thanks to the
+        dedication and perseverance of Ajarn Surachai "Chai" Sirisute, President and founder of the Thai
+        Boxing Association of the USA.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M5FJCW4H18Q03E027Q3BWE8S
+  teacher: 01M5FJCW4HY8JESPF1C61C7XBH
+  assertedStyle: 01KYEY02EKTWX5K8ZBVZ9SQHYS
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The Giron biography on Inosanto's own site states it; no independent record.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1970
+      endYear: 1973
+    hasEvidence:
+    - basedOnSource: 01M5FJCW4HDHG987GFHARF10WN
+      quotation: >-
+        Following their meeting in the summer of 1970, Dan traveled to Stockton many times
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5FJCW4HDHG987GFHARF10WN
+      quotation: >-
+        Several years later in December of 1973, Dan was the first student to graduate from the Grion [sic]
+        system.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KYDB2SW87MK72THYCCAQYSAG
+  cite: Dan Inosanto (Wikipedia EN)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://inosanto.com/academy-info/curriculum/
+  archiveUri: http://web.archive.org/web/20260106000610/https://inosanto.com/academy-info/curriculum/
+  cite: Inosanto Academy - Curriculum (official website)
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://wekafinternational.com/index.php/about/
+  archiveUri: http://web.archive.org/web/20250908063901/http://wekafinternational.com/index.php/about/
+  cite: History of WEKAF (World Eskrima Kali Arnis Federation official website)
+  quotation: >-
+    Dionisio Cañete [...] met Dan Inosanto, Richard Bustillo and Fred Bandalan. It was during this meeting that they reached an understanding to combine efforts in pushing and promoting the Filipino martial art
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://dogbrothers.com/our-teachers/
+  archiveUri: https://web.archive.org/web/20261017220924/https://dogbrothers.com/our-teachers/
+  cite: Our Teachers (Dog Brothers Martial Arts Association)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.jkd.gr/daninosanto.html
+  cite: Guro Dan Inosanto (Jeet Kune Do Academy Greece)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q550492
+- viaf:23949746
+- isni:0000000114692261
+tags:
+- jeet-kune-do
+- filipino-martial-arts
+- kali
+- instructor

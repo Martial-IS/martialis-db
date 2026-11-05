@@ -1,0 +1,76 @@
+type: Person
+id: 01M61REWPVTNKDZWRBPPYDFG2W
+name:
+  en: Frank Goodenough
+nationality:
+  - countryCode: eucountry:CAN
+    wikidata: wd:Q16
+description:
+  en: >-
+    Canadian judoka, a navy veteran who began judo under Frank Mukai at the West End YMCA in Toronto
+    and in 1949 became the first white black belt in Ontario.
+hasTeacherAssertion:
+  - id: 01M61REWPVY3QAFB3RYC05Z3VH
+    teacher: 01M5H55YBEE4Q99FQ8T9AJ5Q7F
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Leyshon (Judo Canada's history) only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              A navy veteran, Goodenough was 20 when he first encountered Judo at the West End YMCA in
+              Toronto. The instructor was Frank Mukai, assisted by Tom Kamino.
+            locator: '55'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              the first Caucasian black belt in Ontario was Frank Goodenough who achieved that exalted
+              status in 1949 under Sensei Frank Mukai.
+            locator: '43'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M61REWPVYSWZBC62FJ0115W8
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 1
+    grantedBy: 01M5H55YBEE4Q99FQ8T9AJ5Q7F
+    dateConferred: '1949'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Leyshon (Judo Canada's history) only; its photograph shows the promotion.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+        quotation: >-
+          Frank Mukai promoting Frank Goodenough to 1st Dan at the West End YMCA dojo in 1949.
+        locator: '55'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    quotation: >-
+      the first Caucasian black belt in Ontario was Frank Goodenough who achieved that exalted status
+      in 1949 under Sensei Frank Mukai.
+    locator: '43'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - canada

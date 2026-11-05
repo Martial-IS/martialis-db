@@ -1,0 +1,90 @@
+type: Person
+id: 01M5JSGG5025THYNSP5V08YN65
+name:
+  en: John Adolf, Duke of Holstein-Gottorp
+nationality:
+  - countryCode: eucountry:DEU
+    wikidata: wd:Q183
+birthEvent:
+  birthDate: '1575'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        The roster of his princely pupils included John Adolf (1575–1616, Lutheran Archbishop of Bremen,
+        1589–1596, and Duke of Holstein-Gottorp, 1590–1616)
+      locator: '252'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1616'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        The roster of his princely pupils included John Adolf (1575–1616, Lutheran Archbishop of Bremen,
+        1589–1596, and Duke of Holstein-Gottorp, 1590–1616)
+      locator: '252'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Duke of Holstein-Gottorp (1590–1616) and Lutheran archbishop of Bremen (1589–1596), named by Green and
+    Svinth as a pupil of Salvator Fabris.
+notes: >-
+  Wiktenauer and en Wikipedia place Fabris in the service of Johan Frederik of Holstein-Gottorp,
+  archbishop of Bremen (John Adolf's brother), not John Adolf; the teacher claim is kept as doubtful.
+hasTeacherAssertion:
+  - id: 01M5JSGG50DJXXEDY3EJVZE3NM
+    teacher: 01M5JSGG50F450X1DNSYHTR26M
+    assertedStyle: 01M5JSGG509Z4J4P08MWKM16ZW
+    role: teachrole:private
+    hasConfidence:
+      confidenceLevel: conflevel:doubtful
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        One source says so; two others name his brother.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              The roster of his princely pupils included John Adolf (1575–1616, Lutheran Archbishop of
+              Bremen, 1589–1596, and Duke of Holstein-Gottorp, 1590–1616)
+            locator: '252'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JSGG504P4VYRZ6KFW9P3MJ
+            quotation: >-
+              But we are on sure footing when we find Fabris in the service in Johan Frederik of
+              Schleswig-Holstein-Gottorp, archbishop of Bremen and cousin to the King of Denmark, in the
+              1590s.
+            informationType: infotype:secondary
+            supports: false
+            evidenceType: evidencetype:indirect
+          - basedOnSource: 01M5JSGG5064MNG2985B290TNW
+            quotation: >-
+              In 1601, Fabris was hired as chief rapier instructor to the court of Christianus Ⅳ, King of
+              Denmark and Duke Johan Frederik's cousin.
+            informationType: infotype:secondary
+            supports: false
+            evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q62160
+tags:
+  - fencing
+  - italian-school
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/3/3a/Johann_Adolf_von_Holstein_Gottorp.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Johann_Adolf_von_Holstein_Gottorp.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary

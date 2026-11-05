@@ -1,0 +1,48 @@
+type: Organization
+id: 01M36K93Y5NMD7FM4YBE8G0TS0
+name:
+  fr: Association Zen Internationale
+aka:
+  fr: AZI
+orgType: orgclass:association
+hasSite:
+  - location:
+      label: Paris
+      countryCode: eucountry:FRA
+      wikidata: wd:Q90
+foundedEvent:
+  startDate: '1970'
+  hasEvidence:
+    - basedOnSource: 01M36K93Y5M3VA1M0G71AFWSVZ
+      quotation: Deshimaru founded the Association Zen Internationale in 1970, and La Gendronnière in 1979.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M4R9845W8FMR1GGFJAY8R7FP
+    officer: 01KZ6KZZG7DK3DDAYW3T05NZQ0
+    officerTitle: Vice-President
+    officerPeriod:
+      endYear: 1981
+    notes: Durix resigned in April 1981. The start of his term is not established; he met Deshimaru in Paris in 1971.
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia only.
+    hasEvidence:
+      - basedOnSource: 01KZ7330AKX9TPKPX4G5S0H419
+        quotation: 'vice-président de l''Association zen internationale. Mais, insatisfait des orientations prises par l''association, il démissionne en avril 1981 de tous ses titres et fonctions pour se séparer définitivement de l''AZI'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: International Zen association founded by Taisen Deshimaru in Paris in 1970, central to the spread of Sōtō Zen Buddhism in Europe.
+hasEvidence:
+  - basedOnSource: 01M36K93Y5M3VA1M0G71AFWSVZ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - zen
+  - buddhism
+  - france

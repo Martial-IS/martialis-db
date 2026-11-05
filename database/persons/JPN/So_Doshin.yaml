@@ -1,0 +1,81 @@
+type: Person
+id: 01M5HMYWG7CNDTBQNBPKEZTXPY
+name:
+  ja-Latn: Sō Dōshin
+aka:
+  ja-Latn: Nakano Michiomi
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1911'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: Nakano Michiomi (1911–1980)
+      locator: '172'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1980'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: Nakano Michiomi (1911–1980)
+      locator: '172'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Founder of Shorinji Kempo (1947), born Nakano Michiomi in Okayama Prefecture. He trained in
+    Manchuria in aiki-jujutsu and Chinese quanfa, and set up the first dojo at Tadotsu, Shikoku. Draeger
+    saw Hakko-ryu jujutsu in the system's techniques. His daughter Nakano Yuki succeeded him in 1980.
+notes: >-
+  Green & Svinth (p. 172): his teachers in Manchuria were his grandfather (aiki-jujutsu) and the quanfa
+  masters Chen Liang, Wen Taizong and (reputedly) Huang Longbai; no records yet.
+hasTeacherAssertion:
+  - id: 01M5HMYWG7XQ4BWNC6JDA4E6ZC
+    teacher: 01M5HMYWG72A83K9C6J4XYR6GM
+    assertedStyle: 01M5HMYWG786J2TNJN462P25EE
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: Single source, and it reports the claim as alleged.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1946
+        hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Hakko ryu was a jujutsu system founded by Okuyama Yoshiji (1901–1987), based on Okuyama’s
+              training in Daito ryu aiki-jujutsu, and it was allegedly taught to So after his return from
+              China in 1946.
+            locator: '174'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      As a technical system and spiritual enterprise, Shorinji Kempo lays claim to the legacy of the
+      Shaolin Temple in China and is the creation of one man, Nakano Michiomi (1911–1980).
+    locator: '172'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q727038
+tags:
+  - shorinji-kempo
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/9/9c/Sodoushin.jpg
+  rights: mediarights:cc-by-sa-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Sodoushin.jpg
+    cite: "Momotti, Wikimedia Commons"
+    informationType: infotype:secondary

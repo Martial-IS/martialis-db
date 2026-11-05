@@ -1,0 +1,140 @@
+type: Person
+id: 01KZEEFP0KQQFY5WYCQ4TCJ0CZ
+name:
+  ja-Latn: Ueshima Sannosuke
+  ja: 上島三之助
+aka:
+  en:
+    - Kiyotada Sannosuke Ueshima
+  ja:
+    - うえしま さんのすけ きよただ
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1893-03-30'
+  birthPlace:
+    label: Akō
+    countryCode: eucountry:JPN
+    wikidata: wd:Q424813
+  hasEvidence:
+    - basedOnSource: 01KZEK9QGVS62VYGY46DGJJ9KE
+      quotation: 上島 三之助 清忠（うえしま さんのすけ きよただ、1893年3月30日 - 1987年）は、日本の武道家である。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1987'
+  deathPlace:
+    label: Osaka
+    countryCode: eucountry:JPN
+    wikidata: wd:Q35765
+  hasEvidence:
+    - basedOnSource: 01KZEK9QGVS62VYGY46DGJJ9KE
+      quotation: 1893年3月30日 - 1987年
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://commons.wikimedia.org/wiki/Special:FilePath/%E4%B8%8A%E5%B3%B6%E4%B8%89%E4%B9%8B%E5%8A%A9.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E5%B3%B6%E4%B8%89%E4%B9%8B%E5%8A%A9.jpg
+    cite: Wikimedia Commons via Wikidata
+    informationType: infotype:secondary
+description:
+  en: Japanese martial artist (1893-1987), student of Motobu Chōki, founder of Kushin-ryu karate-do in Osaka in 1932; also a Kodokan judo 8th dan.
+notes: Ueshima began learning Imma-ryu jujutsu at age 3 and karate kata (Pinan, Kusanku) from the Okinawan police officer Ueshima Suguru in Ako at age 9. He opened his Ueshima Judo dojo in Higashiyodogawa, Osaka in 1925, where several Okinawan karate teachers practiced and taught, including Motobu Choki's Shuri-te and Tomari-te, Kanegusuku Kaneshige (Shito-ryu, Kobayashi-ryu, Goju-ryu) and Chibana Choshin's Kobayashi-ryu. He helped edit Motobu's 1926 work Okinawa Kenpo Karate-jutsu Kumite-hen with Sugimoto Tokuji. He founded Kushin-ryu karate-do in 1932, developed from Imma-ryu and Goju-ryu. He was awarded a judo teaching license by the Dai Nippon Butokukai in 1933 and was the third person to receive the karate kyoshi title from it (July 1939, after Miyagi Chojun and Konishi Yasuhiro in May 1937); the Budo Japan article instead places the Kyoshi awards to Konishi, Ueshima and Miyagi together in 1937 - the JA Wikipedia date is kept, with the alternative recorded here. He performed at the Butokuden in 1935 together with his daughter. He received 8th dan in Kodokan judo in 1965. Joe Swift's article on Motobu lists Ueshima of Kushinryu among the Tokyo karate exponents sympathetic to Motobu's methods, corroborating the connection.
+hasTeacherAssertion:
+  - id: 01M3YH7N5G4STJA1DGP3W23T13
+    teacher: 01KZC4PN03JMN9C9YQTKMEQE3A
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9F
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        JA Wikipedia states Motobu Choki's Shuri-te and Tomari-te were among the karate taught at
+        Ueshima's Osaka dojo from 1925, and that Ueshima helped edit Motobu's 1926 kumite book; the EN
+        Wikipedia article on Motobu names Ueshima among his students in Osaka from 1923
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1925
+        hasEvidence:
+          - basedOnSource: 01KZEK9QGVS62VYGY46DGJJ9KE
+            quotation: 大阪市東淀川区に移り1925年（大正14年）上島柔道場を開設。また沖縄の空手教師数名がそこで空手も練習し、教えた。教授陣は以下のとおり：本部朝基の首里手と泊流。
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZC8XAP8YT2SH44FGF4WT5PY
+            quotation: In 1923, he opened a karate dojo in Osaka. Among his students at that time were Tatsuo Yamada and Sannosuke Ueshima.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZEXPW6CN7D6FV1PSDJDKCWC
+            quotation: Motobu enjoyed contact with many karate exponents in Tokyo who were sympathetic to his methods, including Otsuka Hironori of Wadoryu, Konishi Yasuhiro of Shindo Jinenryu and Ueshima Sannosuke of Kushinryu.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GYN6RBNVAP2YTVB03
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 8
+    dateConferred: '1965'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: JA Wikipedia states Ueshima was awarded 8th dan in Kodokan judo in 1965
+    hasEvidence:
+      - basedOnSource: 01KZEK9QGVS62VYGY46DGJJ9KE
+        quotation: 1965年、上島は講道館柔道で八段位を授与。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M3YH7N5GY6Q0EXKF3M2E40KA
+    honorValue: Karate kyoshi (Dai Nippon Butokukai)
+    honorType: honortype:title
+    conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+    dateConferred: 1939-07
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: JA Wikipedia states Ueshima received the third karate kyoshi title from the Dai Nippon Butokukai in July 1939; the Budo Japan article instead groups the Kyoshi awards to Konishi, Ueshima and Miyagi in 1937 (alternative date recorded in notes)
+    hasEvidence:
+      - basedOnSource: 01KZEK9QGVS62VYGY46DGJJ9KE
+        quotation: >-
+          1939年7月、上島が大日本武徳会より3番目となる空手術教士の称号を受有
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZEXPW6CSP87S44GVEJBCZHA
+        quotation: in 1937 (Shōwa 12), karate [...] was officially recognized as a "martial art certified by the Butokukai." At that time, Konishi Yasuhirō, Ueshima Sannosuke, and Miyagi Chōjun were each awarded the title of "Kyōshi" in "Karate-jutsu".
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZEK9QGVS62VYGY46DGJJ9KE
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZC8XAP8YT2SH44FGF4WT5PY
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZEXPW6CSP87S44GVEJBCZHA
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZEXPW6CN7D6FV1PSDJDKCWC
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q7418861
+tags:
+  - karate
+  - kushin-ryu
+  - shuri-te

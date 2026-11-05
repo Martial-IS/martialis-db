@@ -1,0 +1,74 @@
+type: Person
+id: 01M5H6E6RGZMENSWHA3AF7K1WV
+name:
+  pt: Wallid Ismail
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/0/01/Wallid_Ismail.jpg
+  rights: mediarights:cc-by-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Wallid_Ismail.jpg
+    cite: "Icarovigas, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    Brazilian jiu-jitsu black belt under Carlson Gracie, from Manaus; came to Carlson's gym in 1983,
+    beat Eugenio Tadeu in the 1991 jiu-jitsu versus luta-livre challenge and Royce Gracie in 1998, and
+    founded the Jungle Fight MMA promotion.
+notes: >-
+  Drysdale (interview): he trained first in Manaus with Agui Almeida (no record yet).
+hasTeacherAssertion:
+  - id: 01M5H6E6RGME497HV9RE5DNWDH
+    teacher: 01KYQB8J2NN336ZJWGQW3YH95E
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Two independent sources (Drysdale; Snowden and Shields).
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1983
+        hasEvidence:
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: >-
+              This was in 1983. Fortunately, I ended up in Copacabana and when I went around asking where
+              the Gracies taught, I was pointed to Carlson’s gym.
+            locator: Interview with Wallid Ismail (after chapter 13)
+            locatorLabel: section
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: >-
+              He is also the founder and owner of the MMA promotion Jungle-Fight, holds a rank of
+              black-belt under Carlson
+            locator: Interview with Wallid Ismail (after chapter 13)
+            locatorLabel: section
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              In 1991, during the famous Desafio Challenge, Tadeu fought Carlson Gracie student Wallid Ismail.
+            locator: '457'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+    quotation: >-
+      Wallid also went on to defeat Royce in a jiu-jitsu match in 1998.
+    locator: Interview with Wallid Ismail (after chapter 13)
+    locatorLabel: section
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q2727025
+tags:
+  - bjj
+  - mma

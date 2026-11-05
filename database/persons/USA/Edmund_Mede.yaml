@@ -1,0 +1,58 @@
+type: Person
+id: 01KYMDKKCPYDWDG932E20FNA8R
+name:
+  en: Edmund Mede
+aka:
+  en:
+  - Ed Meade
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+description:
+  en: American judoka and member of the Strategic Air Command (SAC) Judo program. He won a silver medal
+    at the US National Championships in Chicago in 1958 (over 81kg) and was a member of the 1958 US Pan-American
+    Judo Team. He was an early instructor of James Pedro Sr., who later became an Olympic alternate and
+    father/coach of World Champion Jimmy Pedro Jr.
+hasTeacherAssertion:
+- id: 01M3YH7N5G7NPKXQVPDD0V8VFK
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: AAU Wrestling Official Guide directly names Mede as a student in the SAC-ARDC
+      Combative Measures Instructor class 12 at the Kodokan in 1957.
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+    atEvent:
+    - 01M1MCG84S2YE0J9P00MCS3ND7
+    interactionPeriod:
+      startYear: 1957
+    hasEvidence:
+    - basedOnSource: 01M1MCD2PCBHZAH9Z97BDFG7J0
+      quotation: 'Airman Williams and Mede were included in the Combative Measures Intructor class #12 scheduled for advanced combative measures and judo training at the Kodokan Judo Institute'
+      locator: '74'
+      locatorLabel: page
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- uri: https://www.judoinside.com/judoka/48293/Edmund_Mede/judo-results
+  cite: Edmund Mede - JudoInside
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://alpo-astronomy.org/jbeish/USJA_HISTORY.html
+  cite: Judo in the United States Air Force (USJA History)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KYMDKKCPJKRP5KJ6ES81JY90
+  cite: Beish - Resume of Judo
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- judo
+- sac-judo
+- usaf

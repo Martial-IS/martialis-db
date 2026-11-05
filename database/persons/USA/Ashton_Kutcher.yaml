@@ -1,0 +1,91 @@
+type: Person
+id: 01M6ENVCFAZ8D9NQFNS23GZ136
+name:
+  en: Ashton Kutcher
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+birthEvent:
+  birthDate: '1978-02-07'
+  birthPlace:
+    label: Cedar Rapids, Iowa
+    countryCode: eucountry:USA
+    wikidata: wd:Q486439
+  hasEvidence:
+  - basedOnSource: 01M6ENPY5W7RSAEQ9FFEEJE7J6
+    quotation: >-
+      Kutcher was born on February 7, 1978, in Cedar Rapids, Iowa
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/2/2e/Ashton_Kutcher_-_2023_-_P060603-362041_%28cropped%29.jpg
+  rights: mediarights:cc-by-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Ashton_Kutcher_-_2023_-_P060603-362041_(cropped).jpg
+    cite: "Jennifer Jacquemart, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    American actor.
+hasTeacherAssertion:
+- id: 01M6ENVCFA344YVAPQ7VTQA22P
+  teacher: 01KYG003XD811EK3DSJRJCQHSE
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  role: teachrole:private
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Rigan's own announcement, reported by FanSided; BJJEE agrees
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M6ENPY5W3K2QX1ZBH7MBEGDJ
+      quotation: >-
+        After daily private lessons for a year, he was promoted to BJJ blue belt (2 stripes)  under Rigan Machado in February 2014.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ENPY5WHDP24ZYCFTYPE3G3
+      quotation: >-
+        On Tuesday, Brazilian Jiu-Jitsu coach (and legend) Rigan Machado announced in an Instagram post that he had awarded Ashton Kutcher his brown belt in Brazilian Jiu-Jitsu.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M6ENVCFAKWM0K36J80H68Y6W
+  rankStyle: 01KJJAWN29MA64W22606R3WD9J
+  rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+  rankGrade: rankgrade:bjj_brown
+  grantedBy: 01KYG003XD811EK3DSJRJCQHSE
+  dateConferred: '2019-10-29'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Rigan's own announcement, reported by FanSided; BJJEE agrees
+  hasEvidence:
+  - basedOnSource: 01M6ENPY5WHDP24ZYCFTYPE3G3
+    quotation: >-
+      On Tuesday, Brazilian Jiu-Jitsu coach (and legend) Rigan Machado announced in an Instagram post that he had awarded Ashton Kutcher his brown belt in Brazilian Jiu-Jitsu.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6ENPY5W3K2QX1ZBH7MBEGDJ
+    quotation: >-
+      He today received his brown belt from the hands of Rigan Machado, the BJJ instructor to the stars:
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  notes: >-
+    BJJEE published "today" on 2019-10-29; FanSided's "Tuesday" is the same day.
+hasEvidence:
+- basedOnSource: 01M6ENPY5W7RSAEQ9FFEEJE7J6
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q164782
+tags:
+- brazilian-jiu-jitsu
+- actor

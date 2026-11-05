@@ -1,0 +1,64 @@
+type: Person
+id: 01M6A2JTJ5T30HXFQWCGJFMDQC
+name:
+  pt: Mestre Cobra Mansa
+aka:
+  pt: Cinésio Feliciano Peçanha
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Capoeira Angola mestre, Mestre Moraes's top student, graduated mestre in 1984; co-founder of the
+    International Capoeira Angola Foundation (FICA) in Washington, D.C.
+birthEvent:
+  birthDate: '1960'
+  birthPlace:
+    label: Duque de Caxias, Rio de Janeiro
+    countryCode: eucountry:BRA
+    wikidata: wd:Q193021
+  hasEvidence:
+    - basedOnSource: 01M6ACM2JZNNGMFYFYGV7J1A55
+      quotation: >-
+        Mestre Cobra Mansa (born Cinézio Feliciano Peçanha, 1960 in Duque de Caxias, Brazil)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M6A2JTJK41GT0E5Q326VDXWN
+    teacher: 01M6A2JTJ4B29S1H8MXTWFG6S5
+    assertedStyle: 01M6A2JTHSG7FHK01NCS2SN3FD
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              Moraes and his top student Cobra Mansa (Cinésio Feliciano Peçanha, graduated mestre in
+              1984) moved to Salvador in 1982.
+            locator: '183'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    locator: '183-187'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q4291423
+tags:
+  - capoeira
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/f/f1/Mestre_Cobra_Mansa._3-rd_yearly_seminar_with_mestre%2C_Moscow%2C_24_april_2007.JPG
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Mestre_Cobra_Mansa._3-rd_yearly_seminar_with_mestre%2C_Moscow%2C_24_april_2007.JPG
+    cite: "Zac allan, Wikimedia Commons"
+    informationType: infotype:secondary

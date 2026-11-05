@@ -1,0 +1,81 @@
+type: Person
+id: 01M69Z4SFEF47SKR3PMKATX1FB
+name:
+  en: Cheung Lai-chuen
+  yue: 張禮泉
+  zh: 張禮泉
+  zh-Latn: Zhang Liquan
+aka:
+  en:
+    - Cheung Lai Chuen
+nationality:
+  - countryCode: eucountry:CHN
+    wikidata: wd:Q148
+birthEvent:
+  birthDate: '1880'
+  birthPlace:
+    label: Huizhou
+    countryCode: eucountry:CHN
+  hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        White Eyebrow was created by Cheung Lai Chuen (1880–1966).
+      locator: '125'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        Cheung was born in Huizhou prefecture to the most junior branch of his clan.
+      locator: '125'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1966'
+  hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        White Eyebrow was created by Cheung Lai Chuen (1880–1966).
+      locator: '125'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Creator of Bak Mei (White Eyebrow). Trained in Lee Gar and in Lam Gar under Lin He; he promoted
+    the Hakka styles in Guangzhou, was tied to the Nationalists and fled to Hong Kong in 1949.
+notes: >-
+  Judkins and Nielson pp. 125-129. Earlier teachers: Lam Sek, a doctor, and Li Mung, a Lee Gar
+  master (no records). The style's oral tradition adds a wandering monk (p. 125).
+hasTeacherAssertion:
+  - id: 01M69Z4SFV0FBD2XB9EAMXHJDH
+    teacher: 01M69Z4SFD1DJBCEXPT7GBHWVM
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              As an older teenager, Cheung became close friends with Lam Yiu Kwai (who would later found
+              Dragon style). He also joined Lin He’s school and began to study Lam Gar.
+            locator: '125'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: '125-129'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - chinese-martial-arts

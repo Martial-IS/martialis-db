@@ -1,0 +1,123 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1S5
+name:
+  pt: Hélio Gracie
+nationality:
+- countryCode: eucountry:BRA
+  wikidata: wd:Q155
+birthEvent:
+  birthDate: '1913-10-01'
+  birthPlace:
+    label: Belém, Pará
+    countryCode: eucountry:BRA
+    wikidata: wd:Q12829733
+deathEvent:
+  deathDate: '2009-01-29'
+  deathPlace:
+    label: Petrópolis
+    countryCode: eucountry:BRA
+    wikidata: wd:Q189043
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/H%C3%A9lio_Gracie_%281952%29.tif/lossy-page1-500px-H%C3%A9lio_Gracie_%281952%29.tif.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:H%C3%A9lio_Gracie_(1952).tif
+    basedOnSource: 01KJJAWN29MA64W22606R3WDAG
+    cite: "Wikimedia Commons"
+hasTeacherAssertion:
+- id: 01M3YH7N5FX9YXXXEFRWP2M1RV
+  teacher: 01KJJAWN28MWKKSN4J02MVY1TN
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Well-documented brother relationship and teaching
+  role: teachrole:student
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1925
+    hasEvidence:
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+      cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo
+        no Brasil e no mundo. 2020.'
+      locator: vol. 3, p. 165
+      quotation: 'meu Jiu Jitsu era muito diferente do dele. O meu fôra aprendido há muitos anos com
+        o meu irmão Carlos'
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://pt.wikipedia.org/wiki/H%C3%A9lio_Gracie
+      archiveUri: https://pt.wikipedia.org/w/index.php?title=H%C3%A9lio_Gracie&oldid=72748447
+      cite: 'Wikipedia: Hélio Gracie'
+      quotation: Observador, Hélio passou a acompanhar, dos seus treze aos dezesseis anos, as aulas ministradas
+        por Carlos.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5FNJJZPHPJZVA96CAA
+  teacher: 01KJJAWN28MWKKSN4J02MVY1SA
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Documented but less prominent than Carlos' teaching role
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+      cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo
+        no Brasil e no mundo. 2020.'
+      locator: vol 3, p.91
+      quotation: Hélio foi treinado por George para as suas primeiras lutas, antes deste romper com Carlos
+        em 1934
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5FEEV1BY4RRCA4WCHG
+  rankStyle: 01KJJAWN29MA64W22606R3WD9J
+  rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+  rankOrdinal: 10
+  rankGrade: rankgrade:bjj_red
+  conferredBy: 01KJJAWN29MA64W22606R3WD80
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Independent sources state it, including the IBJJF's own graduation system; the date is not
+      documented.
+  hasEvidence:
+  - uri: https://ge.globo.com/rj/serra-lagos-norte/noticia/2017/01/faixa-vermelha-lembra-ensinamentos-de-helio-gracie-oito-anos-apos-morte.html
+    cite: Faixa vermelha lembra ensinamentos de Hélio Gracie oito anos após morte (Globo)
+    quotation: Hélio Gracie foi o último condecorado com a faixa vermelha 10º grau
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M3M3HDCS5R2JPV171CKKTCET
+    locator: '10'
+    locatorLabel: page
+    quotation: 'The 10th (Tenth) Degree (Red Belt) was given only to the pioneers of Brazilian Jiu-Jitsu:
+      Carlos, Oswaldo, George, Gastão e Helio'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- uri: https://pt.wikipedia.org/wiki/H%C3%A9lio_Gracie
+  archiveUri: https://pt.wikipedia.org/w/index.php?title=H%C3%A9lio_Gracie&oldid=72748447
+  cite: 'Wikipedia: Hélio Gracie'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+  cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil
+    e no mundo. 2020.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://bjjfanatics.com.br/blogs/news/helio-gracie-o-mestre-dos-mestres
+  cite: 'Hélio Gracie: o mestre dos mestres (BJJ Fanatics)'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q455578

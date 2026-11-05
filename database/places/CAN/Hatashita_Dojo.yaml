@@ -1,0 +1,60 @@
+type: Place
+id: 01M5HP829FCME22NXYEMCTEPVW
+name:
+  en: Hatashita Dojo
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Toronto
+      countryCode: eucountry:CAN
+      wikidata: wd:Q172
+foundedEvent:
+  startDate: '1947'
+  founder:
+    - 01M5H55YBEN7F6NC9BGWTR72F4
+  hasEvidence:
+    - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+      quotation: >-
+        Typical, perhaps is the story of Frank Hatashita, a B.C. native, who founded his first postwar
+        dojo in a Toronto garage. The year was 1947.
+      locator: '40'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Frank Hatashita's Toronto dojo, started in 1947 in a garage with home-made tatami; famous in Eastern
+    Canada and the US Midwest for its five-man teams in the 1950s and 1960s.
+hasInstructorRole:
+  - id: 01M5HP829FQMNY461HEKBRSPE6
+    instructor: 01M5H55YBEN7F6NC9BGWTR72F4
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1947
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+        quotation: >-
+          The year was 1947 and the sensei was Frank Minoru Hatashita.
+        locator: '107'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    quotation: >-
+      The Toronto Hatashita Dojo became famous in Eastern Canada and the Mid-Western States for its
+      five-man Judo teams during the 1950s and 1960s, winning title after title.
+    locator: '108'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - canada

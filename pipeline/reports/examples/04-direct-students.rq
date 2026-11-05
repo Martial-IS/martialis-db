@@ -1,0 +1,11 @@
+# The students of a person, from the materialized teaches edge.
+PREFIX martialis: <https://w3id.org/martialis/ontology#>
+PREFIX schema: <https://schema.org/>
+
+SELECT DISTINCT ?student ?studentName WHERE {
+  ?teacher schema:name "Kanō Jigorō"@ja-Latn ;
+           martialis:teaches ?student .
+  ?student schema:name ?studentName .
+  FILTER(langMatches(LANG(?studentName), "ja-Latn"))
+}
+ORDER BY ?studentName

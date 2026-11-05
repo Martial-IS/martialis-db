@@ -1,0 +1,180 @@
+type: Person
+id: 01M1PEBA9E5D3T6W0728WT9E5B
+name:
+  en: Henrik Lundh
+nationality:
+  - countryCode: eucountry:NOR
+    wikidata: wd:Q20
+birthEvent:
+  birthDate: '1905-01-07'
+  birthPlace:
+    label: Oslo
+    countryCode: eucountry:NOR
+    wikidata: wd:Q585
+deathEvent:
+  deathDate: '1985-01-09'
+  deathPlace:
+    label: Oslo
+    countryCode: eucountry:NOR
+    wikidata: wd:Q585
+description:
+  en: Norwegian judo pioneer and overrettssakfører (senior public prosecutor) born January 7, 1905 in Oslo. He learned jujutsu during World War II in the Norwegian resistance movement (Milorg) and continued training after the war. He transitioned from jujutsu to judo around 1951, studying through books (Charles Yerkow's 1947 Modern Judo among them) and annual trips to Copenhagen. He co-founded the Norwegian Judo and Jiu-Jitsu Club (NJJK) on October 12, 1960, serving as its first chairman until 1964. He was among the initiators of the Norwegian Judo Federation in 1967 but declined the presidency. He was awarded 1st dan in 1956, 2nd dan in 1959, and 3rd dan in 1962, and received honorary 4th dan in 1975. He died on January 9, 1985, two days after his 80th birthday. He is often called "judoens far" (father of judo) in Norway, a simplification but one that captures his central role in establishing judo as a lasting activity.
+image:
+  contentUrl: https://wiki.judoinfo.no/images/7/73/Henrik-Lundh.jpg
+  imageAttribution:
+    uri: https://wiki.judoinfo.no/images/7/73/Henrik-Lundh.jpg
+    cite: "Hajime (NJJK), 1975, via judoinfo.no"
+    informationType: infotype:primary
+hasTeacherAssertion:
+  - id: 01M3YH7N5GZGNA6MTZ3EZP4AWV
+    teacher: 01M1PEBA9EG9XGEAJ136AF0D34
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9G
+    role: teachrole:private
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Lundh stated in a 1974 interview that he learned jujutsu in Milorg with "Ingebrikt Solem" as his instructor, very likely generalmajor Ingebrigt Solum (1919-1996) who was attached to Milorg. Name spelling varies in sources.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1940
+          endYear: 1945
+        hasEvidence:
+          - basedOnSource: 01M1PEBA9EG75YDPQWBDMQWWSV
+            quotation: I et intervju fra 1974 forteller Lundh at han lærte jujutsu i Milorg med «Ingebrikt Solem» som instruktør.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GHMJJWJAH9D3PKNVT
+    teacher: 01M1PEBA9EM0NC5597D2M6YHC1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:seminar
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Lundh described Marchant as 'hovedinstruktør i Frankrike'; Marchant visited Norway annually 1954-1964, became the central figure in early Norwegian grading history, and graded Lundh to 2nd dan (1959) and 3rd dan (1962) with himself as examiner.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1954
+          endYear: 1964
+        hasEvidence:
+          - basedOnSource: 01M1PEBA9EG75YDPQWBDMQWWSV
+            quotation: Lundh omtaler ham som hovedinstruktør i Frankrike; andre kilder gjør ham til engelskmann. Begge deler kan stemme. Han besøkte Norge årlig fra 1954 til 1964 og ble den viktigste enkeltpersonen i den tidlige graderingshistorien vår.
+            supports: true
+            informationType: infotype:secondary
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GD14V0WM7SQF9584E
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 1
+    conferredBy: 01KJJAWN29MA64W22606R3WD7X
+    grantedBy: 01KZXH2NSQMBZTRPPYAKKCFR84
+    dateConferred: '1956-08-03'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Graded 1st dan on August 3, 1956 at a training camp in Vejle, Denmark by Ichiro Abe (Kodokan representative in Europe), alongside Torkel Sauer and Per Ombustvedt. Confirmed by JudoMania article and Norwegian Judo's own jubilee article from 1980.
+    hasEvidence:
+      - basedOnSource: 01M1PEBA9EG75YDPQWBDMQWWSV
+        supports: true
+        quotation: Sommeren 1956 dro nordmennene på treningsleir i Vejle i Danmark. Der graderte Ichiro Abe, den gang 4. dan, senere 10. dan og Kodokans representant i Europa, Henrik Lundh, Torkel Sauer og Per Ombustvedt til 1. dan. Lundhs gradering er datert 3. august 1956, og er ifølge nekrologen registrert i Kodokan.
+        evidenceType: evidencetype:direct
+        informationType: infotype:secondary
+  - id: 01M3YH7N5G2FS1A5A7HJ7700TR
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 2
+    grantedBy: 01M1PEBA9EM0NC5597D2M6YHC1
+    dateConferred: '1959'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: 2nd dan in 1959 with Robert Marchant as examiner, as stated in Norwegian Judo's own jubilee article.
+    hasEvidence:
+      - basedOnSource: 01M1PEBA9EG75YDPQWBDMQWWSV
+        supports: true
+        quotation: 2. dan i 1959 og 3. dan i 1962, begge ganger med Marchant som sensor.
+        evidenceType: evidencetype:direct
+        informationType: infotype:secondary
+  - id: 01M3YH7N5GJFZ0FS442230GD9D
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 3
+    grantedBy: 01M1PEBA9EM0NC5597D2M6YHC1
+    dateConferred: '1962'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: 3rd dan in 1962 with Robert Marchant as examiner.
+    hasEvidence:
+      - basedOnSource: 01M1PEBA9EG75YDPQWBDMQWWSV
+        supports: true
+        quotation: 2. dan i 1959 og 3. dan i 1962, begge ganger med Marchant som sensor.
+        evidenceType: evidencetype:direct
+        informationType: infotype:secondary
+  - id: 01M3YH7N5GCFX8G10W3PX8CGBA
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 4
+    dateConferred: '1975'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Honorary 4th dan awarded on his 70th birthday (January 7, 1975). No specific graders named.
+    hasEvidence:
+      - basedOnSource: 01M1PEBA9EG75YDPQWBDMQWWSV
+        supports: true
+        quotation: Lundh ble Norges Judoforbunds første æresmedlem i 1974, og fikk honorær 4. dan på sin 70-årsdag 7. januar 1975.
+        evidenceType: evidencetype:direct
+        informationType: infotype:secondary
+  - id: 01M3YH7N5GY7333SNFV8WHSNPG
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 5
+    dateConferred: '1985-03-09'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Posthumous honorary 5th dan, dated March 9, 1985, awarded after his death.
+    hasEvidence:
+      - basedOnSource: 01M1PEBA9EG75YDPQWBDMQWWSV
+        supports: true
+        quotation: Etter hans død ble han posthumt tildelt honorær 5. dan, datert 9. mars 1985.
+        evidenceType: evidencetype:direct
+        informationType: infotype:secondary
+hasDocumentTransmissionAssertion:
+  - id: 01M3YH7N5GYKGS059G5JJJYXQ6
+    transmissionDocument: 01M1PBN7GAZX1RMWNQFRSC3YJM
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    validDuring:
+      startYear: 1951
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: 'Direct statement in the Solmoe article (Int. J. of the History of Sport, 2024): in 1951 Lundh''s group transitioned to judo by studying Yerkow''s 1947 Modern Judo. A single scholarly source for the book''s specific role, hence probable rather than confirmed.'
+    hasEvidence:
+      - basedOnSource: 01M1PEBA9ECCE2DVAQ973P3CV4
+        quotation: In 1951 Lundh's group transitioned to the sport of judo by studying Charles Yerkow's 1947 book Modern Judo.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M1PEBA9EG75YDPQWBDMQWWSV
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M1PEBA9ECCE2DVAQ973P3CV4
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+notes: Henrik Lundh (1905-1985) should not be confused with Henrik Julius Lundh (1894-1985), a civil servant and jurist with the same name who was a byråsjef in the Ministry of Justice, State Conciliator, and stipendiary magistrate. The civil servant Henrik Lundh received his doctorate in law, sat in the exile government, and died in February 1985. Our Henrik Lundh was an overrettssakforer who died January 9, 1985. Sam Melberg (1912-1998) was a key figure in early Norwegian judo, starting jujutsu courses in Halden in 1940 and moving to Oslo in 1941. Lundh and Melberg continued training together after the war, but there is no direct quote from Lundh about Melberg being his teacher - the relationship is described in the JudoMania article's narrative. Lundh sewed his own judogi and helped pack sawdust into mats in a basement at Bislett Bad before real mats arrived in 1961. He was also active in friluftsliv, rowing, motorcycles, veteran cars, and gardening. He was an honorary member of De Norske Studenters Roklubb.
+tags:
+  - judo
+  - norway
+  - pioneer
+  - overrettssakforer

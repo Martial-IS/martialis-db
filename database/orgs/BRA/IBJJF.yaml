@@ -1,0 +1,48 @@
+type: Organization
+id: 01KJJAWN29MA64W22606R3WD80
+name:
+  en: International Brazilian Jiu-Jitsu Federation
+  pt: Federação Internacional de Jiu-Jitsu Brasileiro
+  ja-Latn: IBJJF
+hasSite:
+  - location:
+      label: Rio de Janeiro
+      countryCode: eucountry:BRA
+      wikidata: wd:Q8678
+    hasEvidence:
+      - basedOnSource: 01M5CNY5CS9XA0YSDCP7EBG05Z
+        quotation: >-
+          Headquarters Rio de Janeiro, Brazil
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '2002'
+  hasEvidence:
+    - basedOnSource: 01M5CNY5CS9XA0YSDCP7EBG05Z
+      quotation: >-
+        Formation 2002
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+website: https://ibjjf.com
+description:
+  en: The leading organization for Brazilian Jiu-Jitsu competitions and belt ranking system worldwide.
+  pt: A principal organização para competições de Jiu-Jitsu Brasileiro e sistema de graduação de faixas em todo o mundo.
+hasEvidence:
+  - basedOnSource: 01M3M3HDCS2A3YX0NCPWY9GTSQ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5CNY5CS9XA0YSDCP7EBG05Z
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q6053660
+tags:
+  - bjj
+  - federation
+  - competition
+  - ranking
+orgType: orgclass:federation

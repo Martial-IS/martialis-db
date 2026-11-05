@@ -1,0 +1,48 @@
+type: Person
+id: 01M5H3RJVT659TN7KRV2VKP99J
+name:
+  en: Kushanku
+aka:
+  en:
+    - Kusanku
+    - Ko Shang Kun
+nationality:
+  - countryCode: eucountry:CHN
+    wikidata: wd:Q148
+description:
+  en: >-
+    Chinese envoy or official in Okinawa in the mid-18th century, remembered as an early teacher of
+    Chinese martial arts there and as the namesake of the kata Kushanku.
+hasHistoricityAssertion:
+  - id: 01M5H3RJVT5FM9HG3RKQ3MHJE5
+    historicity: hist:title
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source; it calls the name probably a title or rank.
+    hasEvidence:
+      - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+        quotation: >-
+          Kushanku was probably not his actual name; it was more likely an official title or a
+          military rank.
+        locator: '17'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+    quotation: >-
+      One example of this was a person who was referred to as Kushanku (Ko Shang Kun), who was part of
+      a diplomatic team that accompanied the Chinese envoy to the Okinawan court sometime between 1752
+      and 1794.
+    locator: '17'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q1929108
+tags:
+  - karate
+  - chinese-martial-arts

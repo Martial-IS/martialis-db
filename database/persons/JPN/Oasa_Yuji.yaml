@@ -1,0 +1,52 @@
+type: Person
+id: 01M6EFVT2TXDM0PAQV1K3K7YAC
+name:
+  ja-Latn: Oasa Yūji
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+description:
+  en: >-
+    Kendo teacher from Saga; trained at the Bujutsu Kyōin Yōseijo under Naitō Takaharu, instructor at the
+    Saga Butokukai branch 1921-1945, and the last kendo 10th dan (1962).
+hasTeacherAssertion:
+- id: 01M6EFVT2VK6885CVX527R30J4
+  teacher: 01KJJAWN29MA64W22606R3WD6H
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9W
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Single kenshi247 article.
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD99
+    hasEvidence:
+    - basedOnSource: 01M6EF6KKARYR4432BT2HR7WY5
+      quotation: to Oasa Yuji sensei. Like the other sensei mentioned above, he too studied kendo at the Bujutsu Kyoin Yoseijo directly under Naito Takaharu sensei.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M6EFVT2VQX04QXR6HSDN4MTP
+  rankStyle: 01KJJAWN29MA64W22606R3WD9W
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 10
+  dateConferred: '1962'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Single kenshi247 article.
+  hasEvidence:
+  - basedOnSource: 01M6EF6KKARYR4432BT2HR7WY5
+    quotation: '1962: Awarded 10th dan.'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M6EF6KKARYR4432BT2HR7WY5
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- kendo

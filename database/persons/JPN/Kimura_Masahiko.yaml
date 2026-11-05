@@ -1,0 +1,131 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD7G
+name:
+  ja-Latn: Kimura Masahiko
+  ja: 木村 政彦
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1917-09-10'
+  birthPlace:
+    label: Kumamoto
+    countryCode: eucountry:JPN
+    wikidata: wd:Q199889
+deathEvent:
+  deathDate: '1993-04-18'
+  deathPlace:
+    label: Tokyo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1490
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/4/4b/Masahiko_Kimura_2.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    cite: "published by 学習研究社, Wikimedia Commons"
+    uri: https://commons.wikimedia.org/wiki/File:Masahiko_Kimura_2.jpg
+    basedOnSource: 01KXTSQXW6P83R31HCRY2PRTB0
+    informationType: infotype:secondary
+notes: Kimura's own autobiography describes also studying Goju-ryu karate under a teacher named only "Master
+  So," becoming an assistant instructor in his dojo. Possibly the same Nei-chu So who taught Mas Oyama
+  Goju-ryu (see database/persons/KOR/Mas_Oyama.yaml and database/persons/JPN/So_Neichu.yaml) - both are
+  Goju-ryu teachers surnamed So, era-appropriate - but Kimura's own source does not give a first name,
+  so the identification is not confirmed and is left unlinked pending verification.
+hasTeacherAssertion:
+- id: 01M3YH7N5GSAF3BSPSYZ7HVVMG
+  teacher: 01KJJAWN29MA64W22606R3WD7J
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Documented as one of Ushijima Tatsukuma's three legendary champions, mentioned
+      in forum discussion and historical records
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+    interactionPeriod:
+      startYear: 1925
+      endYear: 1930
+    hasEvidence:
+    - uri: https://judo.forumotion.com/t1770-tatsukuma-ushijima
+      cite: Tatsukuma Ushijima (Judo Forum discussion)
+      quotation: Ushijima was a ferocious fighter with an extensive competitive record who bred at least
+        three legendary champions (Kimura, Ishikawa, Hirano).
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GE93QFYV6WWKRNQM0
+  teacher: 01KJJAWN28MWKKSN4J02MVY1VB
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9S
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Kimura's autobiography mentions studying Shorinji-ryu (Shotokan) under Funakoshi
+      Gichin for over 2 years
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - uri: https://www.bjjee.com/articles/my-judo-by-masahiko-kimura-his-story-vision-in-his-own-words-part-1/
+      cite: '''My Judo'' by Masahiko Kimura, His Story & Vision in His Own Words Part 1 (BJJ EE)'
+      quotation: 'Later on, I [ed. Kimura] got interested in karate, and learned Shorinji-ryu (Note: today’s
+        Shotokan karate) under the guidance of Master Funakoshi for a little over 2 years.'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GXEPWPQQQP4DN9KTT
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 7
+  conferredBy: 01KJJAWN29MA64W22606R3WD7X
+  dateConferred: '1947'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Promoted to 7th dan at age 30, but rank was frozen after disputes with Kodokan
+      over professional wrestling career and refusal to return championship flag
+  hasEvidence:
+  - uri: http://judoinfo.com/kimura3.htm
+    cite: 'Masahiko Kimura (1917-1993): The Man Who Defeated Helio Gracie (by Jim Chen M.D, in Judoinfo.com
+      [Archived])'
+    quotation: His shichidan rank was frozen after disputes with Kodokan over becoming a professional
+      wrestler, refusal to return the All Japan Judo Championship Flag
+    informationType: infotype:secondary
+    supports: true
+    archiveUri: https://web.archive.org/web/20120622122136/http://judoinfo.com/kimura3.htm
+    evidenceType: evidencetype:direct
+  - uri: https://en.wikipedia.org/wiki/Masahiko_Kimura
+    archiveUri: http://web.archive.org/web/20251105134331/https://en.wikipedia.org/wiki/Masahiko_Kimura
+    cite: Masahiko Kimura - Wikipedia
+    quotation: He was promoted to 7th dan at age 30
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- uri: https://en.wikipedia.org/wiki/Masahiko_Kimura
+  archiveUri: http://web.archive.org/web/20251105134331/https://en.wikipedia.org/wiki/Masahiko_Kimura
+  cite: Masahiko Kimura - Wikipedia
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.aikidosangenkai.org/blog/aikido-judo-gozo-shioda-masahiko-kimura/
+  cite: Aikido, Judo, Gozo Shioda, Masahiko Kimura (Aikido Sangenkai blog)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: http://judoinfo.com/kimura3.htm
+  cite: 'Masahiko Kimura (1917-1993): The Man Who Defeated Helio Gracie (by Jim Chen M.D, in Judoinfo.com
+    [Archived])'
+  informationType: infotype:secondary
+  supports: true
+  archiveUri: https://web.archive.org/web/20120622122136/http://judoinfo.com/kimura3.htm
+  evidenceType: evidencetype:direct
+- uri: https://www.bjjee.com/articles/my-judo-by-masahiko-kimura-his-story-vision-in-his-own-words-part-1/
+  cite: '''My Judo'' by Masahiko Kimura, His Story & Vision in His Own Words Part 1 (BJJ EE)'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q270727
+- dbr:Masahiko_Kimura

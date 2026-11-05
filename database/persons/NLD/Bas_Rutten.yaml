@@ -1,0 +1,66 @@
+type: Person
+id: 01M6C18DS7A4JT7XM8JM2ZVVDC
+name:
+  en: Bas Rutten
+aka:
+  en:
+    - El Guapo
+nationality:
+  - countryCode: eucountry:NLD
+    wikidata: wd:Q55
+birthEvent:
+  birthDate: '1965-02-24'
+  hasEvidence:
+    - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+      quotation: 'Born: 2/24/65'
+      locator: '369'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Dutch kickboxer and mixed martial artist. He learned submission fighting in Japan, with
+    Masakatsu Funaki as his chief trainer in Pancrase, became King of Pancrase, and was the UFC's fourth heavyweight champion.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/5/5b/Bas_Rutten_Strikeforce_weign_in%2C_better_resolution%2C_25_December_2009.jpg
+  rights: mediarights:cc-by-2.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Bas_Rutten_Strikeforce_weign_in,_better_resolution,_25_December_2009.jpg
+    cite: "Michael Dunn, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+  - id: 01M6C18DS72M4CA76GV9RVAT0M
+    teacher: 01M6C18DS7AZS2TNQYDBRBPXKC
+    assertedStyle: 01KYEWRMWERM1HW12W53HE9G4A
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              Funaki was the chief trainer in Japan for both Shamrock and Rutten, two fighters who both beat him in the ring.
+            locator: '126'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+    quotation: >-
+      you know Bas Rutten as a King of Pancrase and the UFC’s fourth heavyweight champion. A Dutch
+      kickboxer who soaked up the submission game like a sponge once he came to Japan
+    locator: '370'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q704832
+tags:
+  - mma
+  - kickboxing
+  - pancrase

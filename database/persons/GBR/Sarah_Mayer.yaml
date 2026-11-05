@@ -1,0 +1,281 @@
+type: Person
+id: 01M0A2FCGSR8REC4KS6X3HF1H0
+name:
+  en: Sarah Mayer
+aka:
+  en:
+    - Sarah Winifred Benedict Mayer
+    - Sarah Winifred Benedict
+    - Sarah Winifred Benedict Tapping
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+birthEvent:
+  birthDate: '1896-10-16'
+  birthPlace:
+    label: London
+    countryCode: eucountry:GBR
+    wikidata: wd:Q84
+  hasEvidence:
+    - basedOnSource: 01M0A2FCGS0RA55TNYKFSGPXWY
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+      quotation: Mayer was born as Sarah Winifred Benedict Tapping near Battersea Park in London on 16 October 1896.
+    - basedOnSource: 01M07HCGJGDPR24S4J0JWFFH68
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+      quotation: Mayer, born in Battersea, south of London in October 1896, was a British actor, playwright and theatrical entrepreneur.
+deathEvent:
+  deathDate: '1957-03-19'
+  deathPlace:
+    label: Barton-under-Needwood
+    countryCode: eucountry:GBR
+    wikidata: wd:Q4865583
+  hasEvidence:
+    - basedOnSource: 01M0A2FCGS0RA55TNYKFSGPXWY
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+      quotation: They lived together in Barton under Needwood, Staffordshire until her death, caused by alcohol dependence on 19 March 1957.
+description:
+  en: 'English actress and judoka, the first non-Japanese woman to obtain a black belt in judo. Born in London in 1896
+
+    into an acting dynasty, she worked in the West End from 1914. She trained in judo with Gunji Koizumi at the
+
+    Budokwai from 1926, where the ladies'' classes were taught by Koizumi and Yukio Tani, reaching 4th kyu by 1932. On
+
+    an around-the-world trip in 1934 she trained in Japan, first in Kobe and Kyoto, then in Tokyo under Kanō Jigorō,
+
+    who devised a training regime for her and allowed her to practise in the Kodokan main dojo with the men. After
+
+    reaching Kodokan 1st kyu she graded for shōdan at the Kyoto Butokukai in February 1935 - the first non-Japanese
+
+    woman black belt. On her return she was Honorary Secretary of the Budokwai''s ladies'' section; she is the subject of
+
+    an Oxford Dictionary of National Biography entry.
+
+'
+notes: The shōdan was presented by Prince Nashimoto on 23 February 1935, after a three-day grading under Professor Isogai (examining kime no kata, nage no kata and katame no kata); her achievement was reported across Australia, New Zealand, North America, Britain and mainland Europe. In Tokyo the Kodokan asked her to write an article for its Judo magazine (October 1934). After her return she was featured in a London Evening News article (January 1936) and wrote a Daily Mirror weekly series on women's self-defence (October 1937). Second marriage to barrister Robert John (Robin) Mayer (1924, divorced after the trip); she took the surname Ovington in 1951 from partner Warwick Parker Ovington. The Kodokan 10th dan holders she met were the first six men so awarded (Isogai Hajime and Mifune Kyuzo among them). The dan grading was conducted at the Butokukai (Dai Nippon Butokukai) in Kyoto rather than the Kodokan.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/7/7c/Mayerinjudobelt.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Mayerinjudobelt.jpg
+    cite: "Sarah Mayer, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+  - id: 01M3YH7N5GD2870M50KSK8V8HJ
+    teacher: 01KY52HE48XM1KHDGKBV98YRQ2
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia states Mayer first trained in judo by Gunji Koizumi at the Budokwai in the 1920s; Callan/Heffernan/Spenn confirm the ladies' classes were taught by Koizumi at the Budokwai, which Mayer joined in 1926.
+    hasInteraction:
+      - interactionPlace: 01KY52HE49EXT0704VAEYG0W59
+        interactionPeriod:
+          startYear: 1926
+          endYear: 1933
+        hasEvidence:
+          - basedOnSource: 01M0A2FCGS0RA55TNYKFSGPXWY
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+            quotation: Mayer first trained in judo by Gunji Koizumi at the Budokwai in the 1920s.
+          - basedOnSource: 01M07HCGJGDPR24S4J0JWFFH68
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+            quotation: >-
+              In 1926, Mayer [...] first joined the Budokwai as the thirty-first female member. [...] The ladies' classes, at that time, were taught by Koizumi, the founder, and Tani Yukio
+  - id: 01M3YH7N5G8TKKQXH1HZHQMDMG
+    teacher: 01M06K0RMZNWJ90EEQ7CXBFHGS
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Callan/Heffernan/Spenn state the Budokwai ladies' classes at the time Mayer joined (1926) were taught by Koizumi and Tani Yukio.
+    hasInteraction:
+      - interactionPlace: 01KY52HE49EXT0704VAEYG0W59
+        interactionPeriod:
+          startYear: 1926
+          endYear: 1933
+        hasEvidence:
+          - basedOnSource: 01M07HCGJGDPR24S4J0JWFFH68
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+            quotation: >-
+              The ladies' classes, at that time, were taught by Koizumi, the founder, and Tani Yukio
+  - id: 01M3YH7N5G8AQ1NJA6EHPRN5M7
+    teacher: 01KJJAWN28MWKKSN4J02MVY1S1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: In September 1934 Kanō Jigorō met with Mayer, devised a training regime for her and allowed her to practise in the Kodokan main dojo with the men, unprecedented for a woman; Wikipedia lists him as coach.
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+        interactionPeriod:
+          startYear: 1934
+          endYear: 1935
+        hasEvidence:
+          - basedOnSource: 01M07HCGJGDPR24S4J0JWFFH68
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+            quotation: he met with Mayer. According to Mayer, they discussed philosophy, and he devised a training regime for her [...] he allowed her to practise in the Kōdōkan main dojo with the men, which was unprecedented for a woman.
+  - id: 01M3YH7N5G2V3BC5Y6N8WPBYWY
+    teacher: 01KJJAWN28MWKKSN4J02MVY1VD
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Callan/Heffernan/Spenn describe Mayer taking an introduction to Isogai Hajime, head of the Kyoto Butokuden, training in Kyoto, and undertaking the three-day shōdan grading under Professor Isogai at the Butokukai.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1934
+          endYear: 1935
+        hasEvidence:
+          - basedOnSource: 01M07HCGJGDPR24S4J0JWFFH68
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+            quotation: she took an introduction to Isogai Hajime, the head of the Kyoto Butokuden [...] she was also invited to train in Kyoto whenever Yamamoto was away [...] She then returned to the Butokukai in Kyoto, and to Professor Isogai [...] she finally achieved shōdan or first dan.
+  - id: 01M3YH7N5GH2Y7S0KDASN0D35H
+    teacher: 01KJJAWN28MWKKSN4J02MVY1SD
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Hatta introduced Mayer to Mifune Kyuzo, and she followed him across Tokyo to the various dojo where he taught.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1934
+          endYear: 1934
+        hasEvidence:
+          - basedOnSource: 01M07HCGJGDPR24S4J0JWFFH68
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+            quotation: Hatta introduced her to Mifune Kyuzo, another of the legendary tenth dan holders, and she followed him across Tokyo to the various dōjō where he taught.
+  - id: 01M3YH7N5G22TZQG77X6NWFKZ2
+    teacher: 01M1KH7NTWNZSRTDAB0VRM85K1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Yamamoto Masanobu was the sensei at Kobe who invited Mayer to study with him at the Butokuden, with daily 8am lessons.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1934
+          endYear: 1934
+        hasEvidence:
+          - basedOnSource: 01M07HCGJGDPR24S4J0JWFFH68
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+            quotation: The sensei at Kobe was Yamamoto Masanobu, and he invited her to study with him at the Butokden. She began to have daily lessons at 8 am
+  - id: 01M3YH7N5GX7KG52H7J7CXGK6P
+    teacher: 01M1KH7NTWVJ4PYEE5TYG6DG5T
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Hatta Ichiro met Mayer at the station in Tokyo in July 1934, insisted she stay at his family home and took her to his training sessions in judo and wrestling at Waseda University. Wikipedia states she trained with Ichiro Hatta.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1934
+          endYear: 1935
+        hasEvidence:
+          - basedOnSource: 01M07HCGJGDPR24S4J0JWFFH68
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+            quotation: >-
+              She was met at the station by Hatta Ichiro, an ambitious young man, who she had encountered in London previously. Insisting that she stay at his family home [...] he took her sightseeing and to his training sessions in both judo and wrestling at Waseda University
+          - basedOnSource: 01M0A2FCGS0RA55TNYKFSGPXWY
+            informationType: infotype:secondary
+            supports: true
+            quotation: She trained with Ichiro Hatta and reached first kyū.
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GK17ZZXFCT2BR675R
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 1
+    dateConferred: '1935-02-23'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia and Callan/Heffernan/Spenn both record Mayer as the first non-Japanese woman awarded a shōdan (black belt) in judo on 23 February 1935, after a three-day grading at the Butokukai in Kyoto under Professor Isogai, presented by Prince Nashimoto (who is otherwise undocumented).
+    hasEvidence:
+      - basedOnSource: 01M0A2FCGS0RA55TNYKFSGPXWY
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+        quotation: She was even presented first dan by Prince Nashimoto before returning home. In doing so, she became the first non-Japanese woman to obtain a black belt in judo on 23 February 1935.
+      - basedOnSource: 01M07HCGJGDPR24S4J0JWFFH68
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+        quotation: On completion of the tests, she finally achieved shōdan or first dan.
+  - id: 01M3YH7N5G83SKVRT6DPTG8DV9
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:kyu
+    rankOrdinal: 1
+    conferredBy: 01KJJAWN29MA64W22606R3WD7X
+    dateConferred: '1935'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Callan/Heffernan/Spenn report Mayer was awarded a Kodokan first kyu after six months of training in Tokyo.
+    hasEvidence:
+      - basedOnSource: 01M07HCGJGDPR24S4J0JWFFH68
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+        quotation: following another 6 months of training in Tokyo [...] Mayer was awarded a Kōdōkan first kyu.
+  - id: 01M3YH7N5GX2FJ5N8P2BP8W5K5
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:kyu
+    rankOrdinal: 4
+    dateConferred: '1932'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Callan/Heffernan/Spenn state Mayer had only reached 4th kyu, just one grade above absolute novice, by the Budokwai ranking awards of January 1932.
+    hasEvidence:
+      - basedOnSource: 01M07HCGJGDPR24S4J0JWFFH68
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+        quotation: Mayer was by no means a leading light in the ladies' section. She had only reached 4th kyu, just one grade above absolute novice.
+hasEvidence:
+  - basedOnSource: 01M0A2FCGS0RA55TNYKFSGPXWY
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M07HCGJGDPR24S4J0JWFFH68
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q19665026
+tags:
+  - judo
+  - pioneer
+  - women-judo
+  - united-kingdom

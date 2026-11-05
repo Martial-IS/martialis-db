@@ -1,0 +1,62 @@
+# SKOS integrity conditions over ontology/vocabularies.ttl, plus one house
+# rule. Nothing else in the pipeline checks these: S13/S14 are integrity
+# CONDITIONS, not OWL axioms, so HermiT does not see them either, and the
+# structural/quality SHACL tiers target the DATA graph, not the vocabulary.
+#
+# - S13: skos:prefLabel, skos:altLabel and skos:hiddenLabel must be pairwise
+#   disjoint per concept (a label cannot be both the preferred AND an
+#   alternate/hidden rendering of the same string). Real regression: the
+#   2026-09 case-fix pass left rankgrade:menkyo_kaiden with the identical
+#   string as both prefLabel and altLabel.
+# - S14: at most one skos:prefLabel per language per concept.
+# - every concept has a skos:notation (the token its CURIE carries; the
+#   vocabulary-to-enum mirror and the enum/vocab sync guard both read it) and a
+#   skos:inScheme.
+# - every skos:inScheme value is itself a declared skos:ConceptScheme -
+#   catches a typo'd or unminted scheme IRI, which would otherwise silently
+#   orphan the concept from its scheme.
+# - no skos:prefLabel starts with a lowercase letter, in ANY locale. Not
+#   "sentence-case" - a normalisation rule would be wrong here, since proper
+#   nouns/acronyms are legitimately capitalised mid-label (Ryukyu Kingdom,
+#   IBJJF). \p{Ll} (Unicode "lowercase letter") is also naturally silent on
+#   ja/zh, which have no case distinction - no locale exception needed.
+#   skos:altLabel is deliberately NOT covered: lowercase search variants
+#   ("menkyo"@en, "hanshi"@en) are correct there.
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT ?kind ?concept ?detail WHERE {
+  {
+    { ?concept skos:prefLabel ?detail . ?concept skos:altLabel ?detail }
+    UNION
+    { ?concept skos:prefLabel ?detail . ?concept skos:hiddenLabel ?detail }
+    UNION
+    { ?concept skos:altLabel ?detail . ?concept skos:hiddenLabel ?detail }
+    BIND("S13 label overlap" AS ?kind)
+  } UNION {
+    SELECT ("S14 duplicate prefLabel language" AS ?kind) ?concept ?lang
+           (COUNT(?l) AS ?detail) WHERE {
+      ?concept a skos:Concept ; skos:prefLabel ?l .
+      BIND(LANG(?l) AS ?lang)
+    } GROUP BY ?concept ?lang
+      HAVING (COUNT(?l) > 1)
+  } UNION {
+    SELECT ("missing notation" AS ?kind) ?concept ("" AS ?detail) WHERE {
+      ?concept a skos:Concept . FILTER NOT EXISTS { ?concept skos:notation ?n }
+    }
+  } UNION {
+    SELECT ("missing inScheme" AS ?kind) ?concept ("" AS ?detail) WHERE {
+      ?concept a skos:Concept . FILTER NOT EXISTS { ?concept skos:inScheme ?s }
+    }
+  } UNION {
+    SELECT ("inScheme not a declared ConceptScheme" AS ?kind) ?concept ?detail WHERE {
+      ?concept a skos:Concept ; skos:inScheme ?detail .
+      FILTER NOT EXISTS { ?detail a skos:ConceptScheme }
+    }
+  } UNION {
+    SELECT ("lowercase-initial prefLabel" AS ?kind) ?concept ?detail WHERE {
+      ?concept a skos:Concept ; skos:prefLabel ?detail .
+      FILTER REGEX(STR(?detail), "^\\p{Ll}")
+    }
+  }
+}
+ORDER BY ?kind ?concept

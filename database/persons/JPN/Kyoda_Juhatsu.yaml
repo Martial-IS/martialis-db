@@ -1,0 +1,142 @@
+type: Person
+id: 01M5H3PSF457SXMCD5MVRJGV8A
+name:
+  ja-Latn: Kyoda Jūhatsu
+  ja: 許田重発
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1887-12-05'
+  hasEvidence:
+    - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+      quotation: Juhatsu Kyoda was born on December 5, 1887
+      locator: '115'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1968'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: His students included Kyoda Juhatsu (1887–1968), founder of the To On Ryu
+      locator: '209'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Okinawan karate teacher, senior student of Higaonna Kanryō and founder of Tōon-ryū, named after
+    his teacher. A school teacher and principal; he later taught from his home in Ōita Prefecture.
+notes: >-
+  Cramer (pp. 116-118) also has: Butokukai recognition of Tōon-ryū in 1933; chief director and head
+  instructor of the Butokukai's Naha branch; refused the Goju-ryu succession
+  after Miyagi's death unless the style were renamed Tōon Goju-ryu.
+hasTeacherAssertion:
+  - id: 01M5H67WXGGNCE8MMMBJH5ZB6D
+    teacher: 01M5H67WXGEGNMN264P9SDAH3T
+    assertedStyle: 01M5H67WXGWSD50MSH0N8H40X8
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source; it names one kata only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+            quotation: >-
+              To’on Ryu includes two kata that are not found in Goju Ryu: Jion, which Kyoda learned from
+              Yabu Kensu, and Neipai, which he learned from Wu Xiangui.
+            locator: 117-118
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5H3PSF42YBES8BT8EG78JT4
+    teacher: 01KZBS9WCMQ58J7VRHTDQJN9HE
+    assertedStyle: 01KYHF558ARZ926BRSVJNWCTGE
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Independent sources state it.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1901
+        hasEvidence:
+          - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+            quotation: >-
+              He may have had several teachers prior to becoming a devoted student of Kanryo Higaonna
+              in 1901.
+            locator: '115'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: His students included Kyoda Juhatsu (1887–1968), founder of the To On Ryu
+            locator: '209'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5H3PSF4AQKMM38JPWXKJPB1
+    teacher: 01KZ19PZ65EPNRY1Q8GQR6NEV1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9F
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source; it names only the kata Jion.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+            quotation: >-
+              To’on Ryu includes two kata that are not found in Goju Ryu: Jion, which Kyoda learned from
+              [...] Yabu Kensu
+            locator: 117-118
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M5H3PSF42HGD873HZWB6HVST
+    conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+    honorValue: Kyoshi
+    honorType: honortype:title
+    honorGrade: honorgrade:shogo_kyoshi
+    dateConferred: '1934'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+        quotation: >-
+          in 1933, Kyoda’s style of To’on Ryu karate-do was recognized by the Dai Nippon Butokukai. The
+          following year, he received his kyoshi certification from the same organization
+        locator: '117'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+    locator: 115-119
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q11631220
+tags:
+  - karate
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/1/1e/Miyagi_and_Kyoda.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Miyagi_and_Kyoda.jpg
+    cite: "Miyagi and Kyoda, Wikimedia Commons"
+    informationType: infotype:secondary

@@ -1,0 +1,119 @@
+type: Person
+id: 01M63YQ39HJ84ZDVATZEFHP8VP
+name:
+  en: Hans Medel von Salzburg
+aka:
+  en:
+    - Hans Niedel
+    - Hans Mendel
+nationality:
+  - countryCode: eucountry:DEU
+    wikidata: wd:Q183
+description:
+  en: >-
+    Fifteenth-century German fencing master of the Liechtenauer tradition from Salzburg. A long sword
+    gloss attached to his name, probably written by a student or associate, revises Sigmund ain
+    Ringeck's gloss and cites teachings of Hans Seydenfaden von Erfurt; Paulus Hector Mair acquired
+    it in 1539.
+hasTeacherAssertion:
+  - id: 01M63YQ39HAAJV1XF76PSZP3QB
+    teacher: 01M5JRHX020G4GEN2E4ZCTKV30
+    assertedStyle: 01M5JRHX026EPJNQVEJDCKRNJP
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        His gloss cites Seydenfaden's teachings; Wiktenauer says only that he may have traced his lineage
+        through him, or may have had a lost treatise of his.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M63YQ39HWWFV3XSQ8VVTWTEJ
+            quotation: >-
+              He may have traced his lineage through Hans Seydenfaden von Erfurt, a member of the
+              Fellowship of Liechtenauer, as Medel's text is the only known source that mentions
+              teachings from the earlier master.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JRHX02EBWZADQKSE3VN6VG
+            quotation: >-
+              This may indicate that Hans Medel possessed a treatise by Seydenfaden that is now lost, or
+              even that he was a direct student of Seydenfaden himself.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JRHX02EBWZADQKSE3VN6VG
+            quotation: >-
+              So dw steest in der verhangenden versatzung krump oder offen wie Seydenfaden gelert hat ist
+              auch kurtz vnd dir gut durchwechseln
+            locator: fol. 29v
+            locatorLabel: folio
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasDocumentTransmissionAssertion:
+  - id: 01M63YQ39H7ZBFQC5TTWME8WPK
+    transmissionDocument: 01M61V7JC2F277GR59FDE0DB56
+    assertedStyle: 01M5JRHX026EPJNQVEJDCKRNJP
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The gloss under his name comments on Liechtenauer's Recital, but Wiktenauer thinks a student or
+        associate wrote it.
+    hasEvidence:
+      - basedOnSource: 01M63YQ39HWWFV3XSQ8VVTWTEJ
+        quotation: >-
+          Medel's name is attached to a manuscript fencing treatise from the late 15th or early 16th
+          century, including an incomplete gloss of Liechtenauer's Recital on the long sword and an
+          addendum on fencing based on "the Seven Stances"; it seems to have been written by a student or
+          associate of Medel rather than the master himself.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M63YQ39HWWFV3XSQ8VVTWTEJ
+        quotation: >-
+          Ie hebt sich an die Zetl in der geschribenn stet die ritterliche kunst des langen schwertes die
+          geticht Vnd gemacht hat Johannes liechtenawer
+        locator: fol. 21r
+        locatorLabel: folio
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M63YQ39H1APCQRD15YE1VKE3
+    transmissionDocument: 01M63YQ39HQR5Y566K7XNXXW2K
+    assertedStyle: 01M5JRHX026EPJNQVEJDCKRNJP
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Two Wiktenauer pages say the gloss under his name quotes and revises Ringeck's; same publisher,
+        and the gloss may be a student's work.
+    hasEvidence:
+      - basedOnSource: 01M63YQ39HWWFV3XSQ8VVTWTEJ
+        quotation: >-
+          This gloss is unique in the Liechtenauer tradition in that it not only offers unique commentary
+          on the Recital, but also both quotes and occasionally criticizes or corrects the earlier glosses
+          of Sigmund ain Ringeck and Nicolaüs.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JRHX02J2XG6EA61AEX8AQJ
+        quotation: >-
+          but his text primarily takes the form of a revision and expansion of Ain ringeck's long sword
+          gloss.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M63YQ39HWWFV3XSQ8VVTWTEJ
+    quotation: >-
+      Little is known about this master, but he seems to have been associated with the tradition of
+      Johannes Liechtenauer.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - fencing
+  - kunst-des-fechtens

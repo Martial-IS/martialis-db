@@ -1,0 +1,14 @@
+# Styles with no relation in either direction, ranked by how many
+# assertions reference them - the backlog, most-referenced first.
+# Counts every assertion pointing at the style, whichever predicate it
+# uses (a teacher claim's style is assertedStyle, a rank's is rankStyle).
+PREFIX martialis: <https://w3id.org/martialis/ontology#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+SELECT ?name ?style (COUNT(DISTINCT ?ref) AS ?references) WHERE {
+  ?style a martialis:Style .
+  OPTIONAL { ?style schema:name ?name FILTER(LANGMATCHES(LANG(?name), "en")) }
+  FILTER NOT EXISTS { ?style martialis:hasStyleRelationAssertion ?a }
+  FILTER NOT EXISTS { ?o martialis:hasStyleRelationAssertion [ martialis:relatedStyle ?style ] }
+  OPTIONAL { ?ref ?p ?style . ?ref a ?c . ?c rdfs:subClassOf* martialis:Assertion }
+} GROUP BY ?name ?style ORDER BY DESC(?references)

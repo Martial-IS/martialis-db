@@ -1,0 +1,126 @@
+type: Person
+id: 01KYDKY8XPAXEX469QJ82RAK14
+name:
+  en: Yorinaga Nakamura
+  ja: 中村頼永
+  ja-Latn: Nakamura Yorinaga
+aka:
+  en:
+  - Yori Nakamura
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1963-12-19'
+  birthPlace:
+    label: Mie
+    countryCode: eucountry:JPN
+    wikidata: wd:Q128196
+  hasEvidence:
+  - basedOnSource: 01KYDKY8XN9P32ENREK9WXX86Q
+    quotation: >-
+      Born December 19, 1963
+    cite: Yorinaga Nakamura (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://ja.wikipedia.org/wiki/%E4%B8%AD%E6%9D%91%E9%A0%BC%E6%B0%B8
+    archiveUri: https://ja.wikipedia.org/w/index.php?title=%E4%B8%AD%E6%9D%91%E9%A0%BC%E6%B0%B8&oldid=98903605
+    quotation: >-
+      中村 頼永（なかむら よりなが、1963年（昭和38年）12月19日‐）
+    cite: 中村頼永 (Japanese Wikipedia)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://images.squarespace-cdn.com/content/v1/629c393279e40a670a314af3/f2b8e537-0952-444f-8630-50681cb9d100/Yori2010.jpg
+  imageAttribution:
+    uri: https://www.usashooto.com/yori-nakamura
+    cite: "USA Shooto"
+    informationType: infotype:primary
+    evidenceType: evidencetype:direct
+description:
+  en: Yorinaga Nakamura (born 1963) is a Japanese martial arts instructor and former Shooto champion.
+    He trained under Satoru Sayama at the Tiger Gym, won the first Shooto tournament in 1986, and later
+    studied under Dan Inosanto in the US. He founded the USA Shooto Association and IUMA Japan, and is
+    the highest ranked Shooto instructor worldwide certified by Sayama.
+  ja: 中村頼永（なかむら よりなが、1963年12月19日 - ）は、三重県出身の日本の武術家。佐山聡のタイガージムで修斗を学び、1986年に第1回修斗トーナメントで優勝。その後渡米しダン・イノサントに師事。USA修斗およびIUMA日本振藩國術館を設立。佐山聡公認の世界最高位修斗インストラクター。
+hasTeacherAssertion:
+- id: 01M3YH7N5G5AN65GESNYRHJJEN
+  teacher: 01KYDN1Q2THXHBSXHCS0PH4TEV
+  assertedStyle: 01KYDKY8XR1HY4G4NQW7P8M1XC
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Extensively documented; Nakamura enrolled at Satoru Sayama's Tiger Gym in 1984,
+      became full-time staff in 1985, and won the first Shooto tournament in 1986
+  hasInteraction:
+  - interactionPlace: 01M5FEYQE72RPNG2BZEAQAFQMK
+    interactionPeriod:
+      startYear: 1984
+      endYear: 1988
+    hasEvidence:
+    - basedOnSource: 01KYDKY8XN9P32ENREK9WXX86Q
+      cite: Yorinaga Nakamura (Wikipedia EN)
+      quotation: 'he enrolled at the Tiger Gym of Satoru Sayama. In November 1985, he became a full-time staff member of Sayama''s gym. He trained in Sayama''s style of Shootfighting'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://www.usashooto.com/yori-nakamura
+      cite: USA Shooto - Yori Nakamura (official website)
+      quotation: On opening day in 1984, Yorinaga enrolled at the Tiger Gym
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GQANZ77240Q29PHKY
+  teacher: 01KYDB2SWCW3RDJH3GEA666XXB
+  assertedStyle: 01KYD5XSZPND9XV5FHYG9V0ZV6
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Nakamura came to the US in January 1989 specifically to study under Dan Inosanto;
+      documented on USA Shooto official site
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1989
+    hasEvidence:
+    - basedOnSource: 01KYDKY8XN9P32ENREK9WXX86Q
+      cite: Yorinaga Nakamura (Wikipedia EN)
+      quotation: In January 1989, Nakamura went to the United States and became a student of Dan Inosanto
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://www.usashooto.com/yori-nakamura
+      cite: USA Shooto - Yori Nakamura (official website)
+      quotation: Sifu Dan invited Yori to train privately and Yori taught Dan Shooto while learning other
+        various martial arts privately from Sifu Dan
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KYDKY8XN9P32ENREK9WXX86Q
+  cite: Yorinaga Nakamura (Wikipedia EN)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.usashooto.com/yori-nakamura
+  cite: USA Shooto - Yori Nakamura (official biography)
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://ja.wikipedia.org/wiki/%E4%B8%AD%E6%9D%91%E9%A0%BC%E6%B0%B8
+  archiveUri: https://ja.wikipedia.org/w/index.php?title=%E4%B8%AD%E6%9D%91%E9%A0%BC%E6%B0%B8&oldid=98903605
+  cite: 中村頼永 (Japanese Wikipedia)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q8055330
+- viaf:254477358
+tags:
+- shooto
+- shoot-wrestling
+- jeet-kune-do
+- japanese-martial-arts

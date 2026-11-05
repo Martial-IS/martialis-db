@@ -1,0 +1,205 @@
+type: Person
+id: 01M5JG4Y25QKEKJ5K0T4KFYQW0
+name:
+  en: Joseph Charlemont
+  fr: Joseph Charlemont
+aka:
+  en:
+    - Joseph Pierre Charlemont
+nationality:
+  - countryCode: eucountry:FRA
+    wikidata: wd:Q142
+birthEvent:
+  birthDate: '1839-04-12'
+  birthPlace:
+    label: Lesdain
+    countryCode: eucountry:FRA
+  hasEvidence:
+    - basedOnSource: 01M5JG4Y25K7AEMWBE9BXZ7M1P
+      quotation: >-
+        Joseph Charlemont né le 12 avril 1839 à Lesdain (Nord) et mort le 15 septembre 1929
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1929-09-15'
+  deathPlace:
+    label: Paris
+    countryCode: eucountry:FRA
+    wikidata: wd:Q90
+  hasEvidence:
+    - basedOnSource: 01M5JG4Y25K7AEMWBE9BXZ7M1P
+      quotation: >-
+        Joseph Charlemont né le 12 avril 1839 à Lesdain (Nord) et mort le 15 septembre 1929
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Among the most famous of these clubs was one owned by Joseph Charlemont (1839–1914).
+      locator: '219'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: false
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    French boxing and canne master who codified the academic form of French boxing. He learned the
+    Joinville method in the army and taught at Arras from 1862, building on the methods of Louis
+    Vigneron, with whom he trained from 1861, and Charles Lecour. After the Commune he was in exile in Brussels, where he wrote his first
+    book (1878). Back in Paris he founded the Académie de boxe in 1887 and published L'art de la boxe
+    française et de la canne in 1899. His son Charles succeeded him.
+  fr: >-
+    Maître de boxe française et de canne qui en codifie la forme académique. Formé à la méthode de
+    Joinville, il enseigne à Arras dès 1862 une méthode fondée sur celles de Louis Vigneron, avec qui il s'entraîne
+    dès 1861, et de Charles Lecour ;
+    exilé à Bruxelles après la Commune, il fonde à Paris l'Académie de boxe en 1887. Son fils Charles lui
+    succède.
+notes: >-
+  Death year: fr Wikipedia gives 15 September 1929 and cites the Paris death record; Green and Svinth
+  give 1914. The 1929 date is used.
+hasTeacherAssertion:
+  - id: 01M5JG4Y252Z15JBFA9P48V0GQ
+    teacher: 01M5JG4Y25WZEYTQ2DBFQFW26C
+    assertedStyle: 01M5JG4Y2595PRVXFHHNZXH7SD
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:refuted
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia states it, but the statement is unsourced or its sources do not support it; more direct
+        evidence states that no relation existed.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JG4Y25K7AEMWBE9BXZ7M1P
+            quotation: >-
+              C’est là qu’il met au point une nouvelle méthode apprise de Charles Lecour et de Louis
+              Vigneron.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JG4Y2593DAA50HFR1Y326S
+            quotation: >-
+              évoquée avec pudeur par Charlemont, son élève
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              During the 1880s and 1890s, Joseph Charlemont and Louis Albert synthesized the Lecour
+              brothers’ methods and moves.
+            locator: '258'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+          - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+            quotation: >-
+              Du premier coup d’œil Vigneron avait reconnu que ce jeune chasseur, qui manquait d’école, de
+              méthode, qui, pour ainsi dire, n’avait pas eu de maître, était merveilleusement doué
+            locator: '166'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: false
+            evidenceType: evidencetype:indirect
+          - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+            quotation: >-
+              A leur arrivée dans la salle de boxe, Charles Lecour quitta aussitôt la leçon qu’il était en
+              train de donner, vint à Charlemont et l’emmena de suite dans le vestiaire. C’était peut-être
+              de peur qu’en restant dans la salle celui-ci ne surprît les secrets de sa méthode.
+            locator: '367'
+            locatorLabel: page
+            informationType: infotype:undetermined
+            supports: false
+            evidenceType: evidencetype:indirect
+          - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+            quotation: >-
+              Nous connaissions très peu Charles Lecour, nous ne l’avons jamais vu tirer.
+            locator: '368'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: false
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+            quotation: >-
+              il y a déjà longtemps que j’ai fait une méthode, dans laquelle j’ai fait un peu l’historique
+              de la boxe française ; elle n’est pas encore imprimée et ne le sera que quand je ne donnerai
+              plus de leçons
+            locator: '369'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: false
+            evidenceType: evidencetype:indirect
+  - id: 01M5JG4Y25Y1C4EYB4PN32FTHD
+    teacher: 01M5JG4Y25F6GED71TMVEE8MHJ
+    assertedStyle: 01M5JG4Y2595PRVXFHHNZXH7SD
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        His own account.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1861
+        hasEvidence:
+          - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+            quotation: >-
+              En 1861, Louis Vigneron, qui avait annoncé un assaut public dans la salle du Waux-Hall,
+              reçut, quelques jours avant la séance, la visite d’un jeune chasseur à pied, qui venait lui
+              demander de tirer dans l’assaut : C’était Charlemont.
+            locator: '166'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:indirect
+          - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+            quotation: >-
+              Cela ira, dit Vigneron, mais il faudra venir travailler tous les jours avec moi.
+            locator: '166'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+            quotation: >-
+              Charlemont, caserné au Prince Eugène, place du Château-d’Eau, fréquentait assidûment la
+              salle Vigneron, il y travaillait sérieusement, s’exerçant à donner la leçon et faire des
+              assauts avec les élèves.
+            locator: '166'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JG4Y25K7AEMWBE9BXZ7M1P
+            quotation: >-
+              C’est là qu’il met au point une nouvelle méthode apprise de Charles Lecour et de Louis
+              Vigneron.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JG4Y25K7AEMWBE9BXZ7M1P
+    informationType: infotype:secondary
+    supports: true
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Among the most famous of these clubs was one owned by Joseph Charlemont (1839–1914).
+    locator: '219'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3184742
+tags:
+  - savate
+  - canne-de-combat
+  - france
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/b/bb/Joseph_Charlemont.png
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Joseph_Charlemont.png
+    cite: "Joseph Charlemont, Wikimedia Commons"
+    informationType: infotype:secondary

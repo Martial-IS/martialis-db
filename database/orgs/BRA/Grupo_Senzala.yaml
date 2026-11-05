@@ -1,0 +1,112 @@
+type: Organization
+id: 01M6A30S3VR8G04FCCV0GG06GQ
+name:
+  pt: Grupo Senzala
+aka:
+  pt: Senzala
+orgType: orgclass:association
+hasSite:
+  - location:
+      label: Laranjeiras, Rio de Janeiro
+      countryCode: eucountry:BRA
+      wikidata: wd:Q8678
+    hasEvidence:
+      - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+        quotation: >-
+          After a trip to Bahia in 1964, where they trained with M.Bimba for some months, the urban
+          [...] professional and fazendeiro (owner of a large estate) Rafael Flores and his brother
+          Paulo decided to resume capoeira exercises on the veranda of their penthouse flat in
+          Laranjeiras.
+        locator: '169-170'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1964~'
+  location:
+    label: Laranjeiras, Rio de Janeiro
+    countryCode: eucountry:BRA
+    wikidata: wd:Q8678
+  founder:
+    - 01M6A30S3Y0X63DB219V9S93JX
+  hasEvidence:
+    - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+      quotation: >-
+        After a trip to Bahia in 1964, where they trained with M.Bimba for some months, the urban
+        [...] professional and fazendeiro (owner of a large estate) Rafael Flores and his brother
+        Paulo decided to resume capoeira exercises on the veranda of their penthouse flat in
+        Laranjeiras.
+      locator: '169-170'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+      quotation: >-
+        The group called itself Senzala (slave hut).
+      locator: '170'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasMembership:
+  - id: 01M6A30S47M9MMZ8M5D16CK855
+    member: 01M6A30S40CC4HW87WNW9RETRG
+    membershipPeriod:
+      startYear: 1968
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+        quotation: >-
+          M.Nestor Capoeira, who joined the Senzala in 1968
+        locator: '170'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M6A30S48HP0KX29RPWDD8JVN
+    member: 01M6A30S3Z81VMGWECKAAJ9P2J
+    membershipPeriod:
+      startYear: 1972
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+        quotation: >-
+          Camisa Roxa’s younger brother José Tadeu Cardoso (M. Camisa, then still called Camisinha)
+          arrived in 1972 and soon became a leading figure in the Senzala group
+        locator: '171'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Capoeira group started in Rio de Janeiro after 1964 by middle-class young men around the Flores
+    brothers, building on what Mestre Bimba had taught them. It won the Berimbau de Ouro tournament
+    in 1967-1969 and its training methods, graduation system and style became a model for many
+    groups; in 1974 it split into academies led by its red-belt teachers.
+notes: >-
+  It had no regular mestre (Assunção, p. 170). Camisa Roxa trained its members in 1966. Groups
+  founded by former members: Abadá (Camisa), Capoeira Brasil (Boneco, Paulão, Paulinho Sabiá), Jelon
+  Vieira's group in the United States (p. 172).
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    quotation: >-
+      In 1974, Senzala fragmented into individual academies directed by the senior teachers who had
+      been awarded the red belt, but they still maintained an overall link between each group.
+    locator: '172'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q122495320
+tags:
+  - capoeira

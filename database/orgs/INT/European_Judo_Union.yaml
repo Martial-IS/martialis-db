@@ -1,0 +1,107 @@
+type: Organization
+id: 01KZ45S0STZS9WKJ0JC5PPD8KP
+name:
+  en: European Judo Union
+  pt: União Europeia de Judo
+aka:
+  en: EJU
+orgType: orgclass:federation
+hasSite:
+  - location:
+      label: Vienna
+      countryCode: eucountry:AUT
+      wikidata: wd:Q1741
+foundedEvent:
+  startDate: '1948-07-28'
+  hasEvidence:
+    - basedOnSource: 01KZ45S0ST2FTM98AH1ZYFMG0R
+      quotation: >-
+        The first meeting was held on 26 July 1948, in London to form the European Judo Union (EJU). [...] On 28 July finally, Great Britain put forward the motion: "That the European Judo Union be now formed on the basis of the Constitution as approved, and that all other European countries be circulated with a copy of it and be invited to join."
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M3YH7N5FM01XYCCW6253JRQR
+    relatedOrganization: 01KJJAWN29MA64W22606R3WD83
+    affiliationRelation: affrel:branch_of
+    validDuring:
+      startYear: 1948
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The European Judo Union is recognised by the International Judo Federation as one of its five continental unions; EJU statutes hold that national judo federations are members of both their continental union and the IJF
+    hasEvidence:
+      - basedOnSource: 01KZ45S0ST2FTM98AH1ZYFMG0R
+        quotation: The European Judo Federation consists of 51 national Judo federations/associations, and is itself recognised by the International Judo Federation as one of five continental unions.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M4R9845WJYH6VHFKACAHMWES
+    officer: 01M00NPBTP18V8842XM1DP7K4Z
+    officerTitle: Secretary-General
+    officerPeriod:
+      startYear: 1948
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One journal biography; the Wikipedia passage does not name him.
+    hasEvidence:
+      - basedOnSource: 01M00NPBTPEC1QP41G4FSVJWK7
+        quotation: Paul Bonét-Maury sera le secrétaire de cette fédération et le secrétaire général de l'Union européenne de judo, fonction à laquelle il sera régulièrement réélu à l'unanimité.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZ45S0ST2FTM98AH1ZYFMG0R
+        quotation: >-
+          The first meeting was held on 26 July 1948, in London to form the European Judo Union (EJU). [...] On 28 July finally, Great Britain put forward the motion: "That the European Judo Union be now formed on the basis of the Constitution as approved, and that all other European countries be circulated with a copy of it and be invited to join."
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M4R9845WK5BVY16D94QGAJY0
+    officer: 01M0CXZHZN5A1FFADBND5Z9K70
+    officerTitle: Chairman
+    officerPeriod:
+      startYear: 1948
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: A contemporary book and Wikipedia agree.
+    hasEvidence:
+      - basedOnSource: 01M0CXZHZN8KGE9DWJF1Z507RG
+        quotation: I am greatly indebted to Mr. T. P. Legget, 5th Dan, Chairman of the European Judo Union, for critical reading of the typesceipt and his very instructive advice on the mat.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M4R8589M0V9C3XZMSYYVJ42S
+        quotation: The Budokwai's Trevor Leggett was elected the conference's chairman and a constitution drafted by the Budikwai was tabled.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+website: https://eju.net
+description:
+  en: The European Judo Union (EJU) is the continental governing body for judo in Europe, one of the five continental unions recognised by the International Judo Federation. Founded on 28 July 1948, it comprises 51 national judo federations, including the Federação Portuguesa de Judo.
+  pt: A União Europeia de Judo (EJU) é o organismo continental de governo do judo na Europa, uma das cinco uniões continentais reconhecidas pela Federação Internacional de Judo. Fundada a 28 de julho de 1948, compreende 51 federações nacionais de judo, incluindo a Federação Portuguesa de Judo.
+hasEvidence:
+  - basedOnSource: 01KZ45S0ST2FTM98AH1ZYFMG0R
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M00NPBTPEC1QP41G4FSVJWK7
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M0CXZHZN8KGE9DWJF1Z507RG
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M4R8589M0V9C3XZMSYYVJ42S
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q1058658
+tags:
+  - judo
+  - europe
+  - federation

@@ -1,0 +1,105 @@
+type: Person
+id: 01M0AAFQFZH1EVE7P1TVCPX4BE
+name:
+  en: Edward William Barton-Wright
+aka:
+  en:
+  - E.W. Barton-Wright
+  - Edward William Wright
+nationality:
+- countryCode: eucountry:GBR
+  wikidata: wd:Q145
+birthEvent:
+  birthDate: '1860-11-08'
+  birthPlace:
+    label: Bengaluru
+    countryCode: eucountry:IND
+    wikidata: wd:Q1355
+  hasEvidence:
+  - basedOnSource: 01M0AAFQFQTZ0PJP82EWGEFV2A
+    informationType: infotype:secondary
+    supports: true
+    quotation: He was born Edward William Wright on 8 November 1860 in Bangalore, Madras, India.
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1951-09-13'
+  deathPlace:
+    label: Kingston upon Thames
+    countryCode: eucountry:GBR
+    wikidata: wd:Q1447746
+  hasEvidence:
+  - basedOnSource: 01M0AAFQFQTZ0PJP82EWGEFV2A
+    informationType: infotype:secondary
+    supports: true
+    quotation: Died 13 September 1951 (aged 90) Kingston-upon-Thames, Surrey, England
+    evidenceType: evidencetype:direct
+description:
+  en: 'English entrepreneur specialising in self-defence training and physical therapy, remembered as
+    one of the first
+
+    Europeans to both learn and teach Japanese martial arts and as a pioneer of the concept of hybrid
+    martial arts.
+
+    While working in Kobe, Japan (c. 1895-1898) he studied jujutsu in at least two styles, including Shinden
+    Fudo-ryu
+
+    in Kobe and Kodokan judo in Tokyo; the BJS paper also notes he had some training in judo and taught
+    Shinden Fudo
+
+    ryu (Immovable Heart school) jujutsu techniques. Returning to England in 1898 he combined these arts
+    with British
+
+    boxing, French savate and Vigny stick fighting to form Bartitsu, and in 1900 established the Bartitsu
+    School of
+
+    Arms and Physical Culture in London. He brought over talented young jujutsuka - notably Yukio Tani
+    and Sadakazu
+
+    Uyenishi - to teach at his club, giving jujutsu its start in the U.K. Died in 1951.
+
+    '
+notes: Wikidata gives death date 26 April 1951 while English Wikipedia gives 13 September 1951; the Wikipedia
+  date is used here, with a note. The account that Barton-Wright studied jujutsu in at least two styles
+  (Shinden Fudo-ryu in Kobe and Kodokan judo in Tokyo) comes from English Wikipedia (citing Wolf, The
+  Bartitsu Compendium); note Wikipedia's Shinden Fudo-ryu article cautions that the version Barton-Wright
+  studied ("Shinden Fudo ryu Kempo") may not be the same lineage as the Shinden Fudo-ryu Dakentaijutsu
+  recorded elsewhere. The individual instructors behind his teacher edges are unnamed in the sources.
+hasTeacherAssertion:
+- id: 01M5H4QKV92PAS97G7Z6BER6PF
+  teacher: 01KJJAWN28MWKKSN4J02MVY1S1
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:possible
+    assessedBy: agent:FSM
+    confidenceRationale: His own report, given as such; "some lessons" only.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        there also may have been some influence from Kodokan judo, because Barton-Wright reported
+        having taken some lessons with its founder, Kano Jigoro (1860–1938), whose cousin lived in Kobe.
+      locator: '452'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M0AAFQFQTZ0PJP82EWGEFV2A
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0A7YYEFNNVJ1W07NHA7XJHG
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+  quotation: 'Barton-Wright had some training in judo, he was also teaching Shinden Fudo ryu (Immovable
+    Heart school) jujutsu techniques [Keegan 2019: 40].'
+sameAs:
+- wd:Q1749799
+tags:
+- jujutsu
+- judo
+- bartitsu
+- pioneer
+- united-kingdom

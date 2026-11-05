@@ -1,0 +1,67 @@
+type: Person
+id: 01M5HMKR97MPJ2TVCETKKF0W9A
+name:
+  pt: Robson Gracie
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Brazilian jiu-jitsu grandmaster, second son of Carlos Gracie and father of Renzo, Ralph, Charles and
+    Ryan Gracie; long-time president of the Guanabara jiu-jitsu federation, now FJJRio.
+hasTeacherAssertion:
+  - id: 01M61T316B5CAH9HHSPK2HG3K3
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TN
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M61T316B1DNSFGT9T8YYARKC
+            quotation: >-
+              Robson Gracie learned martial arts from his father, Carlos Gracie, and his uncle Helio Gracie.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M61T316BJ6T55XABTR3GGJT2
+    teacher: 01KJJAWN28MWKKSN4J02MVY1S5
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M61T316B1DNSFGT9T8YYARKC
+            quotation: >-
+              Robson Gracie learned martial arts from his father, Carlos Gracie, and his uncle Helio Gracie.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+    quotation: >-
+      Robson Gracie – Second son of Carlos Gracie and father to Renzo, Ralph, Charles and Ryan Gracie.
+    locator: Name index
+    locatorLabel: section
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q19666558
+tags:
+  - bjj
+  - gracie-family
+image:
+  contentUrl: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Robson_Gracie%2C_sem_data.tif/lossy-page1-960px-Robson_Gracie%2C_sem_data.tif.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Robson_Gracie,_sem_data.tif
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary

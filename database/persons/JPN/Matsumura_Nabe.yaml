@@ -1,0 +1,107 @@
+type: Person
+id: 01KZBYR5CGBSKQ0KTW1H8G8FST
+name:
+  ja-Latn: Matsumura Nabe
+  ja: 松村ナビータンメー
+aka:
+  en:
+  - Nabe Matsumura
+  - Matsumura Nabetanme
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1860'
+  birthPlace:
+    label: Shuri
+    countryCode: eucountry:JPN
+    wikidata: wd:Q608415
+  hasEvidence:
+  - basedOnSource: 01KZC8XAP8ZSA1HG0BZFD0B1SR
+    quotation: >-
+      Nabe Matsumura (松村ナビータンメー, Matsumura Nabetanme; 1860 - 1930) [...] Nabe Mastsumura, born 1860, was the grandson of Matsumura Sōkon
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1930'
+  hasEvidence:
+  - basedOnSource: 01KZC8XAP8ZSA1HG0BZFD0B1SR
+    quotation: >-
+      Upon his death in 1930, he passed his Menkyo Kaiden to Hohan Sōken
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://www.whitecraneeducation.com/academics/images/matsumuranabe.jpg
+  imageAttribution:
+    uri: https://www.whitecraneeducation.com/academics/martialarts/index.php?id=021
+    cite: "White Crane Martial Arts"
+    informationType: infotype:secondary
+description:
+  en: Okinawan martial arts master (1860-1930), grandson and student of Matsumura Sōkon who continued
+    the Matsumura family style of Shorin-ryu karate; his only student was his nephew Hohan Sōken, to whom
+    he passed his menkyo kaiden.
+notes: As Sōkon's grandson, Nabe received thorough training in the family style, including the secret
+  White Crane system taught only to immediate family members. Per Soken's own 1978 interview (primary),
+  Bushi Matsumura "left the 'hands' of his teachings" to Nabe on his death, and Nabe in turn "only learned
+  from Bushi Matsumura and only taught me what he had learned" - Soken was his uncle's only student, as
+  Nabe "would only teach or demonstrate for family members". The title "Nabe-tanmei" (tanmei = "respected
+  senior or respected old man") is attested by Soken. His training methods, per Soken, included balance
+  exercises on banana leaves, pine tree conditioning, and teaching the secret hakutsuru (white crane)
+  kata only after ten years of training. The Moerfelden lineage page likewise calls Nabe the successor
+  and "heir to the Matsumura Shorin Ryu" and Soken "probably his only long-time student".
+hasTeacherAssertion:
+- id: 01M3YH7N5GPM1GK33VZ8DPS1WT
+  teacher: 01KJJAWN29MA64W22606R3WD6A
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9F
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      EN Wikipedia states Nabe Matsumura was the grandson of Matsumura Sōkon and was privileged to
+      extremely thorough training from his grandfather in the family style; corroborated by Soken's own
+      1978 interview and the Moerfelden lineage page
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZC8XAP8ZSA1HG0BZFD0B1SR
+      quotation: Being related to Sōkon meant that Nabe was privileged to extremely thorough training
+        from his grandfather in the family's style, as well as the secret White Crane system that was
+        only taught to immediate family members.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZH9CVME98TN7Z21Q83X7MRC
+      quotation: When Bushi Matsumura died he left the "hands" of his teachings to my uncle, who was his
+        grandson, Matsumura Nabe [...] My uncle only learned from Bushi Matsumura and only taught me what
+        he had learned.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZKWYWG3Z0Q0Y5GVPB6HQ4BP
+      quotation: One of his best and closest was his grandson Nabe Matsumura (1860-1930), who is also
+        considered the successor of Bushi Matsumura and thus heir to the Matsumura Shorin Ryu [...] For that
+        reason his nephew Hohan Soken was probably his only long-time student.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZC8XAP8ZSA1HG0BZFD0B1SR
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZH9CVME98TN7Z21Q83X7MRC
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZKWYWG3Z0Q0Y5GVPB6HQ4BP
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q6956791
+tags:
+- karate
+- shorin-ryu
+- shuri-te

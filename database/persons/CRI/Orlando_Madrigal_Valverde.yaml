@@ -1,0 +1,62 @@
+type: Person
+id: 01KZMEB6EEFVGF48RPTV56HECV
+name:
+  en: Orlando Madrigal Valverde
+nationality:
+  - countryCode: eucountry:CRI
+    wikidata: wd:Q800
+birthEvent:
+  birthDate: '1921'
+  birthPlace:
+    label: San José
+    countryCode: eucountry:CRI
+    wikidata: wd:Q3070
+  hasEvidence:
+    - basedOnSource: 01KZM8EFMV2MD5F30YEK51ES15
+      quotation: su alumno costarricense Orlando Madrigal Valverde (1921-1991)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1991'
+  deathPlace:
+    label: San José
+    countryCode: eucountry:CRI
+    wikidata: wd:Q3070
+  hasEvidence:
+    - basedOnSource: 01KZM8EFMV2MD5F30YEK51ES15
+      quotation: su alumno costarricense Orlando Madrigal Valverde (1921-1991)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: 'Costa Rican judoka, a student of André Kolychkine in Cuba. In 1955 he returned to Costa Rica, where he opened the first judo and jiu-jitsu academy of the country.
+
+'
+hasTeacherAssertion:
+  - id: 01M3YH7N5GS53NGWSKCEBTF3MX
+    teacher: 01KZM8EFMVHGQA389F4WB4335V
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: EcuRed names Madrigal as Kolychkine's Costa Rican student, who returned home to open Costa Rica's first judo and jiu-jitsu academy
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KZM8EFMV2MD5F30YEK51ES15
+            quotation: En 1955, su alumno costarricense Orlando Madrigal Valverde (1921-1991) vuelve a Costa Rica, donde abrió la primera academia de judo y jiu-jitsu de ese país.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZM8EFMV2MD5F30YEK51ES15
+    quotation: su alumno costarricense Orlando Madrigal Valverde (1921-1991) vuelve a Costa Rica, donde abrió la primera academia de judo y jiu-jitsu de ese país.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q52823240
+tags:
+  - judo
+  - costa-rica

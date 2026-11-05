@@ -1,0 +1,193 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1TN
+name:
+  pt: Carlos Gracie
+nationality:
+- countryCode: eucountry:BRA
+  wikidata: wd:Q155
+birthEvent:
+  birthDate: '1902-09-14'
+  birthPlace:
+    label: Belém, Pará
+    countryCode: eucountry:BRA
+    wikidata: wd:Q12829733
+deathEvent:
+  deathDate: '1994-10-07'
+  deathPlace:
+    label: Petrópolis
+    countryCode: eucountry:BRA
+    wikidata: wd:Q189043
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Carlos_Gracie_%281951%29_%28cropped%29.tif/lossy-page1-500px-Carlos_Gracie_%281951%29_%28cropped%29.tif.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Carlos_Gracie_(1951)_(cropped).tif
+    cite: "Wikimedia Commons"
+hasTeacherAssertion:
+- id: 01M3YH7N5FAA9ZT4PCSZMC88Z6
+  teacher: 01KJJAWN28MWKKSN4J02MVY1TJ
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Independent sources state it.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1916
+    hasEvidence:
+    - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+      locator: Part 1, chapter 2 (A Hard Sell)
+      locatorLabel: chapter
+      quotation: >-
+        According to the evidence available, his real teacher was a famed sportsman of the Brazilian
+        Amazon called Jacyntho Ferro.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+      cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo
+        no Brasil e no mundo. 2020.'
+      locator: vol. 3, p. 94
+      quotation: '''Oscar'' muito provavelmente se trata do nome de Carlos grafado equivocadamente
+        [...] Na notícia, ''Oscar Gracie'' e Donato são apresentados como alunos do famoso esportista
+        paraense Jacyntho Ferro, este sim, discípulo directo de Maeda'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5FQWFGK5ZT7PAV1DXM
+  teacher: 01KJJAWN28MWKKSN4J02MVY1TH
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Carlos's own quoted account of training under Maeda; Silva et al. attribute Donato's contrary
+      statement to spite, later reversed. Drysdale names Jacyntho Ferro as his real teacher.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD8Z
+    interactionPeriod:
+      startYear: 1916
+    hasEvidence:
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+      cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo
+        no Brasil e no mundo. 2020.'
+      locator: vol 3, p.91
+      quotation: 'chefiada pelo competentissimo prof. Conde Koma. Aqui, depois de algumas demosntrações,
+        organisou um gymnasio e eu [Carlos] fui um dos primeiros alunos [...] há registos que Maeda deu
+        aulas, em 1916, no Paysandu Sport Club, em Belém, cidade onde Carlos residia com a sua família'
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+      cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo
+        no Brasil e no mundo. 2020.'
+      locator: vol 3, p.93
+      quotation: Fui aluno do célebre Conde Koma, no Pará [...] e nessa época Carlos Gracia também estava
+        aprendendo
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+      cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo
+        no Brasil e no mundo. 2020.'
+      locator: vol. 3, p. 97
+      quotation: Esclarecer a verdade, isto é, dizer que o Sr. Gracie nunca foi diplomado por Conde Koma
+        (que nem ao menos conhece)
+      informationType: infotype:secondary
+      supports: false
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+      locator: vol. 3, p. 97
+      quotation: >-
+        Pela Escola Koma, accentuou, de onde sahiram os Gracies, pretendo difundir em São Paulo o systema
+        de defesa pessoal, obedecendo a um critério especial para cada classe social
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:indirect
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+      locator: vol. 3, p. 93
+      quotation: >-
+        De alguma forma havia os irmãos Gracie. O pai deles era dono de circo e o Conde Koma era próximo
+        dele. E acontecei que os filhos se tornaram discípulos do Conde Koma e aprenderam Judô
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+      locator: Part 1, chapter 2 (A Hard Sell)
+      locatorLabel: chapter
+      quotation: >-
+        Carlos wasn’t Kano and neither was he a Kodokan graduate. In fact, he didn’t hold a black-belt
+        or even any certification under any other style. According to the evidence available, his real
+        teacher was a famed sportsman of the Brazilian Amazon called Jacyntho Ferro.
+      informationType: infotype:secondary
+      supports: false
+      evidenceType: evidencetype:indirect
+    - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+      quotation: >-
+        After four years studying under Maeda, Gracie moved with his family to Rio de Janeiro, where he later opened the first Brazilian Jiu-jitsu academy.
+      locator: '138'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+      quotation: >-
+        Gracie was hooked and became Maeda’s student until the Gracie family moved to Rio de Janeiro in 1920. Three years was hardly enough to learn all the intricacies of judo, but Gracie had the basics down.
+      locator: '271'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5F88JZMK2NDK3Y7H2D
+  rankStyle: 01KJJAWN29MA64W22606R3WD9J
+  rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+  rankOrdinal: 10
+  rankGrade: rankgrade:bjj_red
+  conferredBy: 01KJJAWN29MA64W22606R3WD80
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Well-documented IBJJF 10th dan rank, though date uncertain
+  hasEvidence:
+  - basedOnSource: 01M3M3HDCS5R2JPV171CKKTCET
+    locator: '10'
+    locatorLabel: page
+    quotation: 'The 10th (Tenth) Degree (Red Belt) was given only to the pioneers of Brazilian Jiu-Jitsu:
+      Carlos, Oswaldo, George, Gastão e Helio'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- uri: https://repositorio.ufsc.br/handle/123456789/103771
+  informationType: infotype:secondary
+  cite: 'MAÇANEIRO, Gustavo Goulart Braga, et al. Do Judô ao Gracie Jiu-Jitsu: A influência do judô Kodokan
+    na idealização e no desenvolvimento do Jiu-Jitsu brasileiro. 2012.'
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+  cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil
+    e no mundo. 2020.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/
+  informationType: infotype:secondary
+  cite: The Lost Legend of Jacyntho Ferro, One of Carlos Gracie Sr.’s Jiu-Jitsu Instructors (BJJEE)
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html
+  cite: Mitsuyo Maeda e o Judô Kodokan (Judo Tradicional Goshinjutsukan)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://pt.wikipedia.org/wiki/Carlos_Gracie
+  archiveUri: http://web.archive.org/web/20260630195759/https://pt.wikipedia.org/wiki/Carlos_Gracie
+  informationType: infotype:secondary
+  cite: Carlos Gracie (Wikipédia)
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q922415

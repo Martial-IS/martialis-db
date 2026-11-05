@@ -1,0 +1,106 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1SE
+name:
+  de: Alfred Rhode
+aka:
+  de: Alfred Werner Carl Rhode
+nationality:
+- countryCode: eucountry:DEU
+  wikidata: wd:Q183
+birthEvent:
+  birthDate: '1896-08-16'
+  birthPlace:
+    label: Wehlau
+    countryCode: eucountry:DEU
+    wikidata: wd:Q895990
+deathEvent:
+  deathDate: '1978-09-13'
+  deathPlace:
+    label: Sprendlingen
+    countryCode: eucountry:DEU
+    wikidata: wd:Q678738
+image:
+  contentUrl: https://archive.org/download/alfred_rhode/alfred_rhode.jpg
+  imageAttribution:
+    uri: https://www.bath.ac.uk/library/cabinet-of-curiosities/story/45
+    cite: "University of Bath Library"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+- id: 01M3YH7N5GMDCW6K02DTC76M6V
+  teacher: 01KJJAWN28MWKKSN4J02MVY1SC
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9G
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Multiple academic sources confirm Rhode was student of Erich Rahn
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M55M57P2RSH7CSXQ24RM410A
+      locator: '308'
+      locatorLabel: page
+      quotation: 1922 gründete der Rahn-Schüler Alfred Rohde dann den 1. Deutschen Judo-Club in Frankfurt.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M36JTZZM9SE0B8DK654EYHG5
+      locator: '91-106'
+      locatorLabel: page
+      quotation: The first German judo club was formed in 1922 in Frankfurt by Alfred Rhode, a former
+        student of Erich Rahn. For several years, jiu-jitsu and judo coexisted relatively collegially
+        in Germany, most likely because the still relatively small community of instructors and active
+        participants made cooperation necessary if either discipline was to survive
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GGAJS1FAF6RTEDNFF
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 8
+  dateConferred: '1976-08-16'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Website documents 8 dan certificate presentation in 1976
+  hasEvidence:
+  - uri: http://www.lothar-nest.de/ln0243/ddk1932.html
+    cite: 'Sportschule Lothar Nest: Judo - Sommerschule 1932 in Frankfurt a.M. aus den Unterlagen von
+      Dieter Schiemann'
+    quotation: Doris Schiemann und ihr Sohn Holger überbringen Lothar Nest mehrere Kartons aus dem Nachlaß
+      von Dieter Schiemann, - er war Schatzmeister des DDK/DJB in den 60er Jahren und überreichte Alfred
+      Rhode am 16.8.1076 die Urkunde zum 8.DAN DDK/DJB! Alfred Rhode gründete 1952 das DDK.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KXTSQXW6P83R31HCRY2PRTAG
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.judobund.de/ueber-uns/judo-und-seine-geschichte
+  cite: 'DJB: Judo Und Seine Geschichte'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M3S8ACAFDVQQR1QS9NVPTAMH
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.bath.ac.uk/library/cabinet-of-curiosities/story/45
+  cite: Yannick SCHULTZE - Die «Internationale Judo-Sommerschule»
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: http://www.lothar-nest.de/ln0243/ddk1932.html
+  cite: 'Sportschule Lothar Nest: Judo - Sommerschule 1932 in Frankfurt a.M. aus den Unterlagen von Dieter
+    Schiemann'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.1djc.de/judobilder1952.html
+  cite: 1. Deutscher Judo-Club Frankfurt am Main e. V.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct

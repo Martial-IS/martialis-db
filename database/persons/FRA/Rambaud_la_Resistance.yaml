@@ -1,0 +1,57 @@
+type: Person
+id: 01M5JG4Y25P2ATTY3C0JMDM0SH
+name:
+  en: Rambaud
+  fr: Rambaud
+aka:
+  en:
+    - la Résistance
+nationality:
+  - countryCode: eucountry:FRA
+    wikidata: wd:Q142
+description:
+  en: >-
+    French savate fighter and music-hall acrobat known as "la Résistance", a student of Charles Lecour.
+    He lost to Louis Vigneron in 1850 in a bout organised by Louis Leboucher; Green and Svinth cite a
+    poem on his win over the English boxer Dickson in 1852.
+notes: >-
+  Stub; no first name or dates. fr Wikipedia (Vigneron) gives Vigneron as winner over Dickson in 1854;
+  Green and Svinth (p. 259) give Rambaud over Dickson in 1852. Not resolved.
+hasTeacherAssertion:
+  - id: 01M5JG4Y253BQHXMGZ77JZMSAN
+    teacher: 01M5JG4Y25WZEYTQ2DBFQFW26C
+    assertedStyle: 01M5KWGPRK69RHM30T18CYDJ7H
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JG4Y2593DAA50HFR1Y326S
+            quotation: >-
+              Il formera notamment un certain Rambaud, surnommé « la résistance ».
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JG4Y255DHM9P4V4MQXM5MJ
+            quotation: >-
+              en battant un dénommé Rambaud dit "la résistance", un élève de Charles Lecour, dans une
+              rencontre organisée par Louis Leboucher
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      One style appeared in music halls, where acrobats such as Rambaud (alias la Résistance) and Louis
+      Vigneron (1827–1871) gave spectacular shows
+    locator: '257'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - savate
+  - france

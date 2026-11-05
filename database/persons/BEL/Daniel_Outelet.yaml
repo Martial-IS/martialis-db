@@ -1,0 +1,77 @@
+type: Person
+id: 01KZXKNZTB7EAY3WWFESHEM8JM
+name:
+  fr: Daniel Outelet
+nationality:
+  - countryCode: eucountry:BEL
+    wikidata: wd:Q31
+birthEvent:
+  birthDate: '1936-03-11'
+  birthPlace:
+    label: Belgium
+    countryCode: eucountry:BEL
+    wikidata: wd:Q31
+  hasEvidence:
+    - basedOnSource: 01KZXM4SW4E03A5NFS1783281G
+      quotation: >-
+        Born 11 March 1936 Belgium
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1970-01-13'
+  deathPlace:
+    label: Brussels
+    countryCode: eucountry:BEL
+    wikidata: wd:Q239
+  hasEvidence:
+    - basedOnSource: 01KZXM4SW4E03A5NFS1783281G
+      quotation: >-
+        Died January 13, 1970 (aged 33) Brussels, Belgium
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: Belgian judoka, considered together with Marcel Clause the best and most successful student of Abe Ichiro. The first Belgian to win a European judo title (1954) and the only Belgian male judoka to win four European titles (1954, 1955, 1957, 1960). The first Belgian judoka promoted to 5th dan, and after his competitive career the first judo instructor of the Poseidon-Ryu judo club in Woluwe-Saint-Lambert, Brussels. A 7-fold Belgian national champion, he died in 1970.
+hasTeacherAssertion:
+  - id: 01M3YH7N5FB0XWZV6QS7H4ZVW0
+    teacher: 01KZXH2NSQMBZTRPPYAKKCFR84
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: English Wikipedia records Outelet as considered Abe Ichiro's best and most successful judo student; Abe served as Technical Director of the Belgian Judo Federation in Brussels from 1954, where Outelet trained.
+    role: teachrole:student
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1954
+          endYear: 1969
+        hasEvidence:
+          - basedOnSource: 01KZXM4SW4E03A5NFS1783281G
+            quotation: Daniël Outelet (together with the late Marcel Clause) is considered as Abe Ichirō's best and most successful judo student.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5FMX5X0YHW5V2Z7QCY
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 5
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: English Wikipedia records Outelet as the first Belgian judoka to be promoted to the rank of 5th dan.
+    hasEvidence:
+      - basedOnSource: 01KZXM4SW4E03A5NFS1783281G
+        quotation: Outelet was the first Belgian judoka to be promoted to the rank of 5th dan.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZXM4SW4E03A5NFS1783281G
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q15138656

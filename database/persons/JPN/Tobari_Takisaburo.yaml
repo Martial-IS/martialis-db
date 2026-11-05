@@ -1,0 +1,55 @@
+type: Person
+id: 01M6BFF6ZQF1D5BN30HS6N66TS
+name:
+  ja-Latn: Tobari Takisaburo
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+description:
+  en: >-
+    Jujutsu teacher of Tenjin Shinyo-ryu and Shin no Shinto-ryu, and judoka; husband and teacher of Tobari Kazu.
+hasEvidence:
+- basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+  locator: Tenjin Shinyo-ryu Jujutsu Today
+  locatorLabel: section
+  quotation: 'Takisaburo studied with Iso Mataichiro, second son of fourth headmaster Iso Mataemon Masanobu, and Inoue Keitaro, a student of Iso Masatomo, the third head of the tradition.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M6BFF6ZQTKG333EZR7MPH5EY
+  teacher: 01M6BFF6ZQJMM6WS481D112M7G
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9Q
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Skoss (the Kubota line) states it; one account.
+  hasInteraction:
+  - hasEvidence:
+      - basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+        locator: Tenjin Shinyo-ryu Jujutsu Today
+        locatorLabel: section
+        quotation: 'Takisaburo studied with Iso Mataichiro, second son of fourth headmaster Iso Mataemon Masanobu, and Inoue Keitaro, a student of Iso Masatomo, the third head of the tradition.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+- id: 01M6BFF6ZQX1BX3F99NQD6J449
+  teacher: 01KJJAWN28MWKKSN4J02MVY1S2
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9Q
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Skoss (the Kubota line) states it; one account.
+  hasInteraction:
+  - hasEvidence:
+      - basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+        locator: Tenjin Shinyo-ryu Jujutsu Today
+        locatorLabel: section
+        quotation: 'Takisaburo studied with Iso Mataichiro, second son of fourth headmaster Iso Mataemon Masanobu, and Inoue Keitaro, a student of Iso Masatomo, the third head of the tradition.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+notes: >-
+  He fought Tanabe Mataemon in a challenge match (see Tanabe_Mataemon). Skoss does not say who taught him Shin no Shinto-ryu, which his wife learned from him.

@@ -1,0 +1,92 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD7P
+name:
+  ja-Latn: Murakami Tetsuji
+  ja: 村上 哲次
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1927-03-31'
+  birthPlace:
+    label: Shizuoka
+    countryCode: eucountry:JPN
+    wikidata: wd:Q174691
+deathEvent:
+  deathDate: '1987-01-24'
+  deathPlace:
+    label: Paris
+    countryCode: eucountry:FRA
+    wikidata: wd:Q90
+description:
+  en: Early Japanese karate representative to Europe who introduced karate to multiple European countries
+    and North Africa
+image:
+  contentUrl: https://archive.org/download/mura-4/Mura4.jpg
+  imageAttribution:
+    uri: https://karate-shotokai.blogspot.com/2014/08/mestre-tetsuji-murakami.html
+    cite: "Karate-do Shotokai (blog)"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+- id: 01M3YH7N5GRMNHAJ220879DFG3
+  teacher: 01KJJAWN29MA64W22606R3WD7N
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9S
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Shotokai Encyclopedia only.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1968
+    hasEvidence:
+    - uri: https://shotokai.com/tetsuji-murakami/
+      cite: Tetsuji Murakami Sensei (Shotokai Encyclopedia)
+      quotation: In the autumn of 1968, accompanied by Tsutomu Ohshima, Murakami traveled to Japan. During this pilgrimage, he visited the Shotokan and met Master Shigeru Egami. [...] Right then and there, he committed himself to Master Egami as a humble disciple, determined to rebuild his art from absolute scratch.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://kogenbudo.org/interview-with-master-nuno-russo-by-pedro-escudeiro/
+      cite: Interview with Master Nuno Russo of Jogo do Pau (KogenBudo)
+      quotation: ' A couple of years later, though, we had our first international seminar with a Japanese
+        karate master: Murakami Tetsuji, from Shotokai Karate, a student of Egami Shigeru sensei. After
+        this seminar, Murakami sensei became the leader of our karate group'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GNX2FC4S81CY15TY8
+  rankStyle: 01KJJAWN29MA64W22606R3WD9S
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 10
+  hasConfidence:
+    confidenceLevel: conflevel:possible
+    assessedBy: agent:FSM
+    confidenceRationale: Mentioned as '10th dan Shotokan Karate' in Wikipedia biography, but no other
+      sources confirm this rank. Shotokai sources indicate he was representative of Shotokai style, creating
+      uncertainty about the specific rank and style
+  hasEvidence:
+  - uri: https://en.wikipedia.org/wiki/Tetsuji_Murakami
+    archiveUri: http://web.archive.org/web/20251114061031/https://en.wikipedia.org/wiki/Tetsuji_Murakami
+    cite: Tetsuji Murakami - Wikipedia
+    quotation: 'Tetsuji Murakami (Japanese: 村上 哲次; March 31, 1927 – 24 January 1987) was an early Japanese
+      karate representative to Europe. Rank: 10th dan Shotokan Karate'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- uri: https://en.wikipedia.org/wiki/Tetsuji_Murakami
+  archiveUri: http://web.archive.org/web/20251114061031/https://en.wikipedia.org/wiki/Tetsuji_Murakami
+  cite: Tetsuji Murakami - Wikipedia
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://shotokai.com/tetsuji-murakami/
+  cite: Tetsuji Murakami - Shotokai Encyclopedia
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q3519204
+- dbr:Tetsuji_Murakami

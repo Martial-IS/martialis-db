@@ -1,0 +1,77 @@
+type: Person
+id: 01M6C1R005V9391TMDTC5ESGTQ
+name:
+  en: Mario Sperry
+aka:
+  en:
+    - Zen Machine
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+birthEvent:
+  birthDate: '1966-09-28'
+  hasEvidence:
+    - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+      quotation: 'Born: 9/28/66'
+      locator: '438'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Brazilian jiu-jitsu black belt under Carlson Gracie (1995), ADCC and BJJ world champion, and
+    co-founder and leader of Brazilian Top Team with Murilo Bustamante.
+hasTeacherAssertion:
+  - id: 01M6C1R00515BPXYTVFAA2VQAV
+    teacher: 01KYQB8J2NN336ZJWGQW3YH95E
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              A Carlson Gracie [...] black belt since 1995, Sperry is an ADCC and bjj world champion, but most notable as a co-founder and leader of Brazilian Top Team (btt) alongside Murilo Bustamante.
+            locator: '438–439'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M6C1R005AA6XA8GJQ3Y209C3
+    rankStyle: 01KJJAWN29MA64W22606R3WD9J
+    rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+    rankGrade: rankgrade:bjj_black
+    grantedBy: 01KYQB8J2NN336ZJWGQW3YH95E
+    dateConferred: '1995'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+        quotation: >-
+          A Carlson Gracie [...] black belt since 1995, Sperry is an ADCC and bjj world champion, but most notable as a co-founder and leader of Brazilian Top Team (btt) alongside Murilo Bustamante.
+        locator: '438–439'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+    quotation: >-
+      A Carlson Gracie [...] black belt since 1995, Sperry is an ADCC and bjj world champion, but most notable as a co-founder and leader of Brazilian Top Team (btt) alongside Murilo Bustamante.
+    locator: '438–439'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3293571
+tags:
+  - brazilian-jiu-jitsu
+  - mma

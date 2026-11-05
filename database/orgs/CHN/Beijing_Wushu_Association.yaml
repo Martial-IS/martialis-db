@@ -1,0 +1,87 @@
+type: Organization
+id: 01M0QPYHH1Y9SVXGBXC36J89Z3
+name:
+  en: Beijing Wushu Association
+  zh: 北京市武术运动协会
+aka:
+  en:
+    - Beijing Martial Arts Association
+orgType: orgclass:association
+hasSite:
+  - location:
+      label: Beijing
+      countryCode: eucountry:CHN
+      wikidata: wd:Q956
+foundedEvent:
+  hasEvidence:
+    - basedOnSource: 01M0QPYAH0VN3S9TKPDRAKDZQJ
+      quotation: 北京市武术运动协会是成立于1992年8月31日的社会团体
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:indirect
+hasAffiliationAssertion:
+  - id: 01M3YH7N5FEZEVZXK8BY3EZZ87
+    relatedOrganization: 01M0QPYHH0243TWWFVA29F8WQJ
+    affiliationRelation: affrel:member_of
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: Baidu Baike names the association a group member of the Beijing General Sports Federation and Beijing's representative in national wushu; no source states membership of the Chinese Wushu Association.
+    hasEvidence:
+      - basedOnSource: 01M0QPYAH0VN3S9TKPDRAKDZQJ
+        quotation: 协会是北京市体育总会的团体成员，是代表北京市参加全国以及国际相应的武术运动的唯一合法组织
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+hasOfficerRole:
+  - id: 01M4R9845W2P63XYCM89PX7Q80
+    officer: 01M0QCH9A4WS06N81F15MDGTY1
+    officerTitle: Vice Chairman (副主席)
+    officerPeriod:
+      startYear: 1960
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Two web pages with the same wording; not independent of each other.
+    hasEvidence:
+      - basedOnSource: 01M0SJFKG9YDQ1NQE7FWWM2ANM
+        quotation: 1960年任北京市武术协会副主席
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M0SJFKG9JR0W7SWQBQ2PC0QN
+        quotation: 1960年任北京市武术协会副主席
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M4R9845WTDGH8F122DP644DQ
+    officer: 01M0NVYZ4HBB012MEVJHZWJXYP
+    officerTitle: Special Advisor (特别顾问)
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One news report.
+    hasEvidence:
+      - basedOnSource: 01M4R6R2HYY2KWGYE63YRCZZ1H
+        quotation: 北京市武协特别顾问吴彬先生也亲临赛场并慰问全体人员
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M0QPYAH0VN3S9TKPDRAKDZQJ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M0QPYHGZ79VG8RFWGN4ED5Q5
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - wushu
+  - beijing
+  - association
+  - china
+description:
+  en: Municipal-level wushu sports association in Beijing, founded in 1962. One of the first provincial-level wushu associations established after the founding of the People's Republic. Organizes wushu competitions, training, and international exchange in the Beijing area. Currently led by President Lu Xuefeng (2025-present). Has 64 specialized committees, 21 working committees, and 93 member units. Notable officers include Vice Chairman Chang Zhenfang (from 1962) and Special Advisor Wu Bin.
+notes: Attested from 1960 (officer claim, 1960年任北京市武术协会副主席); Baidu Baike gives its registration as
+  a social organization on 1992-08-31. No source found for the original founding date.

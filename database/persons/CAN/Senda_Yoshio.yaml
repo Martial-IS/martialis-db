@@ -1,0 +1,74 @@
+type: Person
+id: 01M5H57MAGZSFYY588G2ERRYRP
+name:
+  en: Yoshio Senda
+aka:
+  en: Yosh Senda
+nationality:
+  - countryCode: eucountry:CAN
+    wikidata: wd:Q16
+description:
+  en: >-
+    Canadian judo coach in Lethbridge, Alberta, from 1952; trained national and Olympic team members
+    (Joe Meli among them) and was coach or manager of Canadian teams at the Olympic Games of 1976,
+    1980 and 1984.
+notes: >-
+  Leyshon (p. 113): his other first teachers at Mission City were Eiichi Hashizume and Chikao Kunimoto
+  (no records yet).
+hasTeacherAssertion:
+  - id: 01M5HP49HKA8FRXZFEPRKFZ80P
+    teacher: 01M5HP49HKKVGECJ8YFKRJH8XF
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              Senda started his Judo at age eight in Mission City, B.C., going to the Japanese language
+              school for instruction twice a week. The sensei were Eiichi Hashizume, Chikao Kunimoto and
+              Yoshitaka Mori.
+            locator: '113'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5H57MAGVZQTN8TJ245B8HAN
+    teacher: 01M5H57MAGMK662P3F5T0XS49T
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1943
+          endYear: 1952
+        hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              It was 1943 and the young Yosh Senda, who had recently moved from B.C. to Alberta, was
+              asked by Sensei Yoshio Katsuta to assist at his Raymond dojo. [...] But the chance to study
+              under Katsuta was strong enough to help him ignore these small inconveniences. He was there
+              until 1952.
+            locator: '112'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    locator: 112-113
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q8056249
+tags:
+  - judo
+  - canada

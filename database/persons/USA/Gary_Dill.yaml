@@ -1,0 +1,37 @@
+type: Person
+id: 01M5CTXKSP0ZBQRK73PTNNQGV9
+name:
+  en: Gary Dill
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+description:
+  en: >-
+    American jeet kune do teacher in Bartlesville, Oklahoma, and founder of the Jeet Kune Do Association; a
+    student of James Yimm Lee in Oakland after his military service in Vietnam.
+hasTeacherAssertion:
+  - id: 01M5CTXKSPAN66SKD59ZT8C3QZ
+    teacher: 01KYDB2SWEEF9ECH5JCW95ZN6B
+    assertedStyle: 01KYD5XSZPND9XV5FHYG9V0ZV6
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One magazine profile states it, from Dill's own account; no record from James Yimm
+        Lee.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5CTXKSPATSQYQ5CGMJ5GAFH
+            quotation: >-
+              Gary Dill was one of James Yimm Lee's top students, and he currently teaches jeet kune do in
+              Bartlesville, Oklahoma.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5CTXKSPATSQYQ5CGMJ5GAFH
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - jeet-kune-do

@@ -1,0 +1,61 @@
+type: Style
+id: 01KYQM3M5C2M9KJ36E6Q1JEWN3
+name:
+  en: ITF Taekwondo
+  ko: 국제태권도연맹 태권도
+aka:
+  en:
+    - International Taekwon-Do Federation Taekwondo
+    - ITF Taekwon-Do
+styleType: styleclass:modern
+foundedEvent:
+  startDate: '1966'
+  location:
+    countryCode: eucountry:KOR
+  founder:
+    - 01KYQM3M5CWFJJBA8W502KD2TP
+  hasEvidence:
+    - basedOnSource: 01KYQM3M5CJGQXCQ87MNHPKQ3Y
+      quotation: >-
+        the International Taekwon-Do Federation (ITF), the first international federation for Taekwondo, which he founded.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+      quotation: >-
+        In the case of Choi, he continued promoting his International Taekwondo Federation (established in
+        1966) from abroad
+      locator: '97'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: 'The branch of taekwondo governed by the International Taekwon-Do Federation (ITF), founded by Choi Hong-hi in 1966. ITF Taekwondo emphasizes a traditional approach with sine wave motion, patterned movements (tul), and a distinctive set of forms. It is practiced in over 120 countries and is distinct from the Olympic/WT style in its forms, terminology, and training methodology. General Choi Hong-hi is recognized by ITF organizations as the principal founder of taekwondo.
+
+'
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5GPNSZFVWFTRWC8Y98
+    relatedStyle: 01KYHTJXCXHYSC519CB367XXZK
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: ITF Taekwondo is one of the two main branches of taekwondo, sharing common origins with WT Taekwondo but diverging in forms, competition rules, and organizational structure after the 1970s split
+    hasEvidence:
+      - basedOnSource: 01KYQM3M5CJGQXCQ87MNHPKQ3Y
+        quotation: >-
+          Rank 9th dan, Grand Master, principal founder, Tae Kwon Do (ITF)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYQM3M5CJGQXCQ87MNHPKQ3Y
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - taekwondo
+  - itf
+  - korean-martial-arts
+  - traditional

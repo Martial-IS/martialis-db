@@ -1,0 +1,141 @@
+type: Person
+id: 01KZBVW8NFCS8PS3RR0PDQ1936
+name:
+  ja-Latn: Chinen Masami
+  ja: 知念正美
+aka:
+  en:
+  - Masami Chinen
+  ja:
+  - ちねん まさみ
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1898'
+  birthPlace:
+    label: Okinawa Prefecture
+    countryCode: eucountry:JPN
+    wikidata: wd:Q766445
+  hasEvidence:
+  - basedOnSource: 01KZC8XAP85VEJ4KZG8H81DH86
+    quotation: >-
+      (知念 正美, Chinen Masami; 1898-1976)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1976'
+  deathPlace:
+    label: Okinawa City
+    countryCode: eucountry:JPN
+    wikidata: wd:Q328615
+  hasEvidence:
+  - basedOnSource: 01KZC8XAP85VEJ4KZG8H81DH86
+    quotation: Masami Chinen (知念 正美, Chinen Masami; 1898-1976)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: http://www.ikkf.org/chinenM.jpg
+  imageAttribution:
+    uri: http://www.ikkf.org/ChinenM.html
+    cite: "IKKF"
+    informationType: infotype:secondary
+description:
+  en: Okinawan martial arts master (1898-1976), a former policeman who formed the Yamani-ryu bojutsu school
+    and taught bojutsu privately at his home in Tobaru, Shuri; possibly studied karate under Chōjun Miyagi;
+    students included Chōgi Kishaba and Chōkei Kishaba.
+notes: Chinen named his Yamani-ryu style after his grandfather Sanra Chinen (1842-1925; EN Wikipedia's Chinen article says father, its Yamanni-ryu article, Motobu Naoki and Ryukyu Bugei say grandson), also a teacher of bojutsu, known
+  as Yamani Usumei and Yamane Tanmei. Motobu Naoki's article "Forgotten Masters of Karate" confirms Chinen
+  Sanra as the Yamane-ryu bojutsu founder (a commoner of yago Yamanmee, hence the name) and states that
+  after the war his grandson Chinen Masami served as head of the family; Higa Seitoku of the Bugeikan
+  studied under Masami and received the only shihan license Masami ever issued, making the Bugeikan the
+  legitimate successor of the Yamane-ryu; Yabiku Moden and Oshiro Chojo also studied under Chinen Sanra.
+  The IKKF masters gallery describes him as the founder of Yamani-ryu and names Shuguro Nakazato and Seitoku
+  Higa among his top students (corroborating the EN Wikipedia article, which records his kata preserved
+  by Seitoku Higa of the Bugeikan and Shugoro Nakazato of Shorin-ryu). The Houston Karate page on Yamanni
+  Chinen Ryu states Masami Chinen was the last member of the Chinen family to teach the art, and that
+  upon his death the family passed the title of Soke to his student Chogi Kishaba, who had begun training
+  with Chinen as a teenager and remained his student until his death. During the Second World War he lived
+  with the martial arts master Horoku Ishikawa in Tainan, Taiwan; he also worked at the Shuri City Hall.
+  The Haff interview with Toshihiro Oshiro states his teacher Masami Chinen "studied Shuri style karate,
+  I believe, and also some under Sensei Miyagi to understand stances, maybe footwork" - a hedged single
+  mention, hence the Miyagi teacher edge is asserted as possible. His student
+  Chōgi Kishaba practiced Yamani-ryu alongside Goju-ryu under Chōjun Miyagi.
+hasTeacherAssertion:
+- id: 01M3YH7N5G1NX81074RSRFAC2H
+  teacher: 01M1KR4J6EAQB0ZD6G37K02TXV
+  assertedStyle: 01KYJC7J3MB81B06881FVFYGAG
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: EN Wikipedia states Chinen formed Yamani-ryu and named it after Sanra
+      Chinen, also a teacher of bojutsu - implying Sanra was his teacher; Motobu Naoki's article
+      confirms Sanra as the Yamane-ryu founder and Masami (his grandson) as head of the family after the
+      war.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZC8XAP85VEJ4KZG8H81DH86
+      quotation: Chinen named the style after his father Sanra Chinen who was also a teacher of Bōjutsu
+        and known as Yamani Usumei and Yamane Tanmei.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZH55CZVPF2CADEWKWE5HJ8J
+      quotation: 知念翁は棒術の達人として名高い知念三良（ちねんさんら）のことである。[...]知念三良の棒術流派は山根流と呼ばれている。戦後は孫の知念正美が家元を務めていた。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZH55CZVHEWVNCHN5TCEACXX
+      quotation: >-
+        Masami Chinen was the last member of the Chinen family to teach the art. Upon the death of Masami Chinen, the Chinen family passed the title of Soke [...] to his student, Chogi Kishaba
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GK3GDAGJ2HZAKR9XM
+  teacher: 01KZBRSRZ7DF87MMQPTAD4542E
+  assertedStyle: 01KZC8S2GEGBJJT9RKV5M0HJ3N
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:possible
+    assessedBy: agent:FSM
+    confidenceRationale: Single hedged mention in the Haff interview with Toshihiro Oshiro ("studied Shuri
+      style karate, I believe, and also some under Sensei Miyagi") - a step below a generic mention and
+      retractable
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZDSC7FJA4BP8GHD09XYW68Q
+      quotation: >-
+        My bo teacher was a direct student of Chojun Miyagi, the founder of Goju-Ryu. And his teacher, Masami Chinen, studied Shuri style karate, I believe, and also some under Sensei Miyagito understand stances, maybe footwork
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZC8XAP85VEJ4KZG8H81DH86
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZDSC7FJA4BP8GHD09XYW68Q
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZE1G0S8AZM1P226208REEJF
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZH55CZVPF2CADEWKWE5HJ8J
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZH55CZVHEWVNCHN5TCEACXX
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q6782517
+tags:
+- karate
+- okinawan-kobudo
+- bojutsu

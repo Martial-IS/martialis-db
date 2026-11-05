@@ -1,0 +1,62 @@
+type: Place
+id: 01KZ6654E3FA9HZXVBC0P6B5CR
+name:
+  pt: Dojo ADAS
+aka:
+  en: ADAS Hombu Dojo
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Setúbal
+      countryCode: eucountry:PRT
+      wikidata: wd:Q173699
+    address: Rua Diogo Cão Nº 20A, 2910-471 Setúbal
+hasAffiliationAssertion:
+  - id: 01M3YH7N5G6E76644CG3Y1PFAG
+    relatedOrganization: 01KZ6654E3XN0AG9T7JYAC921C
+    affiliationRelation: affrel:branch_of
+    validDuring:
+      startYear: 1998
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: This is the operating dojo and headquarters of the ADAS, the twin-entity case where the venue is how the organization occupies physical space. This is a structural fact about the org's own premises, so no independent source is expected; kept above the tradition-only ceiling deliberately.
+    hasEvidence:
+      - basedOnSource: 01KZ6654E39M0WFVGXYFGST3X7
+        quotation: ADAS - Associação Desportiva de Aikido de Setúbal - Rua Diogo Cão Nº20A, 2910-471 Setúbal
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M4R9845WJ4QEMRKPNAN1RSRQ
+    instructor: 01KZ6654E39YKF2E37Z3Z740RS
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1998
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The FPA lineage history alone states he has led ADAS since its founding in 1998.
+    hasEvidence:
+      - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+        quotation: O Prof. Orlando Pereira é Diretor Técnico da ADAS desde a sua fundação, em 23 de novembro de 1998.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+website: https://www.aikidoadas.com/
+logo:
+  contentUrl: https://archive.org/download/adas_20260804/adas.png
+  imageAttribution:
+    basedOnSource: 01KZ6654E39M0WFVGXYFGST3X7
+    informationType: infotype:secondary
+description:
+  en: The ADAS dojo and headquarters at Rua Diogo Cão 20A in Setúbal, the operating venue of the Associação Desportiva de Aikido de Setúbal (ADAS-Aikido Buikukai Portugal), where Orlando Marques serves as head instructor and Technical Director.
+  pt: O dojo e sede da ADAS na Rua Diogo Cão 20A em Setúbal, o local de funcionamento da Associação Desportiva de Aikido de Setúbal (ADAS-Aikido Buikukai Portugal), onde Orlando Marques é instrutor-chefe e Diretor Técnico.
+hasEvidence:
+  - basedOnSource: 01KZ6654E39M0WFVGXYFGST3X7
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - aikido
+  - portugal

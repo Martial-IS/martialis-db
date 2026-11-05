@@ -1,0 +1,74 @@
+type: Person
+id: 01M5H4CVGCR7QSBCRZK9FMHMP6
+name:
+  zh-Latn: Tung Ying-chieh
+aka:
+  zh-Latn: Dong Yingjie
+nationality:
+  - countryCode: eucountry:CHN
+    wikidata: wd:Q148
+birthEvent:
+  birthDate: '1886'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        A famous Yang-style taijiquan teacher, Tung Ying-chieh (1886–1961), moved to Hong Kong around
+        1945.
+      locator: '100'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1961'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        A famous Yang-style taijiquan teacher, Tung Ying-chieh (1886–1961), moved to Hong Kong around
+        1945.
+      locator: '100'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Yang-style taijiquan teacher, student of Yang Chengfu in Shanghai; moved to Hong Kong around 1945
+    and wrote Taijiquan Shiyi. Father of Tung Hu-ling.
+hasTeacherAssertion:
+  - id: 01M5H4CVGCC0ME1YWNQR0PYA15
+    teacher: 01M5H4CVGC01V1K2WHEGQ18JDN
+    assertedStyle: 01KYJ80JXEH8J0AWW86F1ATQEZ
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: Tung had been a student of Yang Chengfu (1883–1936) in Shanghai
+            locator: '100'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: '100'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3542083
+tags:
+  - taijiquan
+  - chinese-martial-arts
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/0/02/DYJ_Commencement_of_Taiji.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:DYJ_Commencement_of_Taiji.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary

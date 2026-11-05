@@ -1,0 +1,77 @@
+type: Person
+id: 01M6BFF6ZQZH48Q8WMFKPD4P53
+name:
+  en: Paul Masters
+description:
+  en: >-
+    Teacher in England of Tenjin Shinyo-ryu jujutsu, menkyo kaiden from Kubota Toshihiro, and head of Tenyokai International.
+hasEvidence:
+- uri: http://www.tenyokai.com/
+  cite: TENYOKAI INTERNATIONAL
+  quotation: 'It is headed by Paul Masters Shike, the first ever westerner to hold the Menkyo Kaiden – licence of full transmission- awarded directly from the late Kubota Toshihiro.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://en.wikipedia.org/wiki/Tenjin_Shin%27y%C5%8D-ry%C5%AB
+  archiveUri: https://en.wikipedia.org/w/index.php?title=Tenjin_Shin%27y%C5%8D-ry%C5%AB&oldid=813778759
+  cite: Tenjin Shin'yō-ryū - Wikipedia (revision of 2017-12-05)
+  quotation: 'Paul Masters (Menkyo Kaiden) has a dojo in England. Both teachers were officially certified by Kubota Shihanke.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M6BFF6ZQT64GFPQSRTDET594
+  teacher: 01M6BFF6ZQE2GG1EB3VFZ4BYZF
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9Q
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: His own organisation's site and an older English Wikipedia revision; no account from Kubota's side.
+  hasInteraction:
+  - hasEvidence:
+      - uri: http://www.tenyokai.com/
+        cite: TENYOKAI INTERNATIONAL
+        quotation: 'It is headed by Paul Masters Shike, the first ever westerner to hold the Menkyo Kaiden – licence of full transmission- awarded directly from the late Kubota Toshihiro.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+      - uri: https://en.wikipedia.org/wiki/Tenjin_Shin%27y%C5%8D-ry%C5%AB
+        archiveUri: https://en.wikipedia.org/w/index.php?title=Tenjin_Shin%27y%C5%8D-ry%C5%AB&oldid=813778759
+        cite: Tenjin Shin'yō-ryū - Wikipedia (revision of 2017-12-05)
+        quotation: 'After his promotion to Menkyo Kaiden, Masters was asked by Kubota Shihanke to head the international (i.e. non-Japanese) Tenjin community, and to this end the England dojo became the headquarters of Tenyokai International on the 1st January 2011.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+hasRankAssertion:
+- id: 01M6BFF6ZQDJ5YC66SX4DWMKEY
+  rankStyle: 01KJJAWN29MA64W22606R3WD9Q
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+  rankGrade: rankgrade:menkyo_kaiden
+  grantedBy: 01M6BFF6ZQE2GG1EB3VFZ4BYZF
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Tenyokai International (his own organisation) and an older English Wikipedia revision; the British Judo listing confirms the licence, not the grantor. No date.
+  hasEvidence:
+  - uri: http://www.tenyokai.com/
+    cite: TENYOKAI INTERNATIONAL
+    quotation: 'It is headed by Paul Masters Shike, the first ever westerner to hold the Menkyo Kaiden – licence of full transmission- awarded directly from the late Kubota Toshihiro.'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://en.wikipedia.org/wiki/Tenjin_Shin%27y%C5%8D-ry%C5%AB
+    archiveUri: https://en.wikipedia.org/w/index.php?title=Tenjin_Shin%27y%C5%8D-ry%C5%AB&oldid=813778759
+    cite: Tenjin Shin'yō-ryū - Wikipedia (revision of 2017-12-05)
+    quotation: 'Paul Masters (Menkyo Kaiden) has a dojo in England. Both teachers were officially certified by Kubota Shihanke.'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://www.britishjudo.org.uk/event/coaching-course-tenjin-shinyo-ryu-jujutsu-and-judo-basingstoke-28-jun-26/
+    cite: Coaching Course - Tenjin Shinyo-ryu Jujutsu and Judo - Basingstoke - 28 Jun 26 - British Judo Association
+    quotation: 'During the day, participants will be tutored by Paul and Lee Masters – both holders of the highest level full (master) teaching licence in the art, supported by Anthony Masters.'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+notes: >-
+  Nationality not stated in the sources; he teaches in England (Summit Judo Club, Basingstoke, per British Judo). His son Lee Masters holds a menkyo licence (older English Wikipedia revision).

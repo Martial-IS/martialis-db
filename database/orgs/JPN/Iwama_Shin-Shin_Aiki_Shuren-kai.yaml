@@ -1,0 +1,82 @@
+type: Organization
+id: 01KZ3KA57C3KJ4401TD0EYXQH4
+name:
+  en: Iwama Shin-Shin Aiki Shuren-kai
+  ja-Latn: Iwama Shin-Shin Aiki Shuren-kai
+  ja: 岩間神信合氣修練会
+aka:
+  en:
+    - ISSASK
+    - Iwama Shinshin Aiki Shurenkai
+orgType: orgclass:association
+hasSite:
+  - location:
+      label: Iwama
+      countryCode: eucountry:JPN
+      wikidata: wd:Q1011725
+foundedEvent:
+  startDate: 2004-02
+  founder:
+    - 01KZ27S9JES5Y85CE58PH0NG6M
+  hasEvidence:
+    - basedOnSource: 01KZ27S9JEK7Q5NCX65D1PVYD2
+      quotation: In November 2003, Hitohiro separated from the Aikikai. By February 2004 he had formed his own organisation (ISSASK).
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: Traditional Iwama-style aikido organization founded in February 2004 by Saito Hitohiro (Hitohira) after his separation from the Aikikai, preserving and disseminating the techniques of the Founder Morihei Ueshiba as taught at Iwama. It has affiliated dojo in about 20 countries.
+  pt: Organização de Aikido tradicional de estilo Iwama fundada em fevereiro de 2004 por Saito Hitohiro (Hitohira) após a sua separação do Aikikai, preservando e divulgando as técnicas do Fundador Morihei Ueshiba tal como ensinadas em Iwama. Tem dojos afiliados em cerca de 20 países.
+hasAffiliationAssertion:
+  - id: 01M3YH7N5FRXHT128N80CGE55S
+    relatedOrganization: 01KZ3KA57C6W6FMCWM668Y13X2
+    affiliationRelation: affrel:derived_from
+    validDuring:
+      startYear: 2004
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        ISSASK emerged from a schism within the Aikikai; before Hitohiro Saito's separation in
+        2003-2004, Iwama-style aikido and its grading were under the Aikikai, and as such those that
+        composed the ISSASK were Aikikai member the day before.
+    hasEvidence:
+      - basedOnSource: 01KZ3YGF9620JNYR4Q6Y389VV0
+        quotation: Today, Iwama-style aikido organisations can be found both within and outside of the Aikikai. The main non-Aikikai branch is Iwama Shin-Shin Aiki Shuren-kai, founded by Morihiro Saito's son Hitohiro Saito.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZ27S9JEK7Q5NCX65D1PVYD2
+        quotation: In November 2003, Hitohiro separated from the Aikikai. By February 2004 he had formed his own organisation (ISSASK).
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+website: https://iwamashinshinaikido.com/
+logo:
+  contentUrl: https://iwamashinshinaikido.com/wp-content/uploads/cropped-iwama-shin-shin-logo-512x512-180x180.jpg
+  imageAttribution:
+    basedOnSource: 01M3S8MWJE6K9FPVYE2W0AG1ST
+    informationType: infotype:secondary
+hasEvidence:
+  - basedOnSource: 01KZ27S9JEK7Q5NCX65D1PVYD2
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ27S9JEKPQVN282Z8E6KH55
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ1Y9KD1XBW3W20VGE945NZK
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ3YGF9620JNYR4Q6Y389VV0
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q14622999
+tags:
+  - aikido
+  - iwama-ryu
+  - japan

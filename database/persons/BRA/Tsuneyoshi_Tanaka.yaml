@@ -1,0 +1,36 @@
+type: Person
+id: 01M6C5JZZGF9F4BQC18EBKBZSC
+name:
+  en: Tsuneyoshi Tanaka
+description:
+  en: >-
+    Karateka in Brazil, first a Shotokan stylist, who turned to Kyokushin, studied with Mas Oyama
+    in Japan, and brought Kyokushin instructors to Brazil.
+hasTeacherAssertion:
+  - id: 01M6C5JZZGRECJ69JP4CW9KZAV
+    teacher: 01KYT8RX5WJXBGW45FEVYWN7WC
+    assertedStyle: 01KYSNKBS22MA4Z9RRDDTXWQ7H
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C5JZZGVV24N4ZFNV23BH26
+            quotation: >-
+              Meanwhile a Shotokan stylist named Tsuneyoshi Tanaka (not related to another Shotokan
+              teacher named Yasutaka Tanaka) turned to Kyokushin Kai karate. At first he learned from
+              books but later he went to Japan to study with Mas Oyama.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C5JZZGVV24N4ZFNV23BH26
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+notes: Nationality not stated; active in Brazilian karate.
+tags:
+  - karate
+  - kyokushin

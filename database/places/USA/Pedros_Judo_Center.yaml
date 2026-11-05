@@ -1,0 +1,61 @@
+type: Place
+id: 01KYMWJH24RA16DVC53FEMWR9F
+name:
+  en: Pedro's Judo Center
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Wakefield
+      countryCode: eucountry:USA
+      wikidata: wd:Q1513838
+    address: 19 New Salem Street, Wakefield, MA 01880
+    hasEvidence:
+      - basedOnSource: 01M5CNYYEQXEGJHMCQGPBGX0AS
+        quotation: >-
+          19 New Salem Street, Wakefield, MA 01880, United States
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M4R9845W72J8AC0RXEBTNKRM
+    instructor: 01KYMDKKCPXRY92G0TVA86F03N
+    instructorCapacity: instrcap:head_instructor
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia and his own site state it; no independent record.
+    hasEvidence:
+      - basedOnSource: 01KYMDKKCPXDW4BV3RPTW7G8HZ
+        quotation: >-
+          owns and operates Pedro's Judo Center in Wakefield, Massachusetts
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - uri: https://www.jimmypedrojudo.com/about-jimmy
+        archiveUri: https://web.archive.org/web/20240330111735/https://www.jimmypedrojudo.com/about-jimmy
+        cite: About Jimmy Pedro - Jimmy Pedro official website
+        quotation: >-
+          Jimmy currently owns and operates Pedro’s Judo Center in Wakefield, MA
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+logo:
+  contentUrl: https://marketmusclescdn.nyc3.digitaloceanspaces.com/wp-content/uploads/sites/61/2021/03/18232834/PedrosJudo-Small-Throw.png
+  imageAttribution:
+    uri: https://pedrosjudo.com/
+    cite: Pedro's Judo Center website
+    informationType: infotype:secondary
+    evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYMDKKCPXDW4BV3RPTW7G8HZ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5CNYYEQXEGJHMCQGPBGX0AS
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - wakefield
+  - massachusetts

@@ -1,0 +1,100 @@
+type: Style
+id: 01M5H45XTYC7KSZ5CZ9WKV4T0D
+name:
+  en: Hapkido
+aka:
+  en:
+    - Yu Sool
+    - Yu Kwon Sool
+styleType: styleclass:modern
+hasStyleRelationAssertion:
+  - id: 01M6226DXY2W9GE4KGC9N44RV3
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9C
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        English Wikipedia says the art was adapted from the Daitō-ryū Choi taught. Green and Svinth
+        report Choi's Daitō-ryū training as his own undocumented claim, so not confirmed.
+    hasEvidence:
+      - basedOnSource: 01M6226DXYFDA03A3SXHKS64VP
+        quotation: >-
+          The art was adapted from Daitō-ryū Aiki-jūjutsu as it was taught by Choi Yong-sool (최용술) when he
+          returned to Korea after World War II after having lived in Japan for 30 years.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          To date, no documentation has been found to support Choi’s statements regarding either his
+          residence with the Takeda family or his instruction in the art of Daito-ryu.
+        locator: '184'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+  - id: 01M6226DXYJDPFZ7VE2XA1PEA6
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9B
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Green and Svinth (Suh's innovations from judo) and English Wikipedia (throws and groundwork from
+        judo) both state it.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Subsequent to becoming Choi’s student, Suh introduced a variety of innovations from his judo
+          background, including the use of a ranking system for tracking the development of student skills.
+        locator: '184'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M6226DXYFDA03A3SXHKS64VP
+        quotation: >-
+          This system was later combined by Choi's disciples with kicking and striking techniques of
+          indigenous and contemporary arts such as Taekkyon and Tang Soo Do, as well as various throwing
+          techniques and ground fighting self-defense techniques from Japanese Judo.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  location:
+    countryCode: eucountry:KOR
+  founder:
+    - 01M5H45XTYZJGP4BK91872Q9E3
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        This last infusion is exemplified in the personal experiences of Choi Yong-Sul, whose
+        teachings subsequently set the foundation for much of modern Hapkido.
+      locator: '184'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Korean martial art of joint locks, throws and kicks, from the art Choi Yong-sul taught from 1948
+    as Yu Sool, renamed Yu Kwon Sool in 1954; Ji Han-jae is called the "father of modern Hapkido".
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: 183-186
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q200333
+tags:
+  - hapkido
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/f/fb/Hkd-kobaekyong.jpg
+    rights: mediarights:cc-by-sa-3.0
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:Hkd-kobaekyong.jpg
+      cite: "Kbarends, Wikimedia Commons"
+      informationType: infotype:secondary

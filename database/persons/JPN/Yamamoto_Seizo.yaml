@@ -1,0 +1,97 @@
+type: Person
+id: 01M0BCX1YBP697JSM4KH2YYYJR
+name:
+  ja-Latn: Yamamoto Seizō
+  ja: 山本 清蔵
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+description:
+  en: 'Japanese jujutsuka of the Daito-ryu jujutsu school founded by Handa Yataro in Osaka. One of the
+    first generation
+
+    of Japanese jujutsu men invited to London: per the Bartitsu accounts, Barton-Wright arranged for Kaneo
+    Tani,
+
+    Seizo Yamamoto and Yukio Tani to travel to London and serve as instructors at the Bartitsu Club; Yamamoto
+    and
+
+    Kaneo Tani soon returned to Japan. Wolf (2016) identifies "S. Yamamoto" among the Bartitsu Club principals
+    and
+
+    lists him alongside Uyenishi and Taro Miyake among the products of Handa''s Osaka dojo.
+
+    '
+  ja: '半田弥太郎が大阪で開いた大東流柔術の柔術家（四段）。バーティツ設立の際にカネオ谷・山本清蔵・谷幸雄がロンドンへ招かれ、
+
+    バーティツ学校の指導員となった最初期の日本人の一人。山本とカネオ谷は間もなく帰国した。
+
+    '
+hasTeacherAssertion:
+- id: 01M3YH7N5GQBGN4TBM7KDRAPCN
+  teacher: 01M0AZQ3TJAG1RBRXBQJCRRJX6
+  assertedStyle: 01M0AZQ3TJKDFZYF8638Y2992P
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: JA Wikipedia lists Yamamoto Seizo among Handa's Daito-ryu jujutsu students (4th
+      dan); Wolf (2016) independently places S. Yamamoto in Handa's Osaka dojo alongside Uyenishi and
+      Taro Miyake.
+  hasInteraction:
+  - interactionPlace: 01M0AZQ3TJZ2EVT8RXF3M2TVXJ
+    hasEvidence:
+    - basedOnSource: 01M0AZQ3TJ9K5V2Z20K5370P1A
+      informationType: infotype:secondary
+      supports: true
+      quotation: '半田弥太郎は大阪で多くの門人を育てた。[...]山本清蔵（大東流四段）'
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M0AJNJHSV6RHCNNKNM0Y1EHT
+      informationType: infotype:secondary
+      supports: true
+      quotation: 'Yukio Tani, Sadakazu Uyenishi, Seizo Yamamoto and Taro Miyake were all associated with the ne-waza innovations of Mataemon Tanabe and the Handa dojo [...] Yamamoto and Uyenishi also via training at the Handa dojo.'
+      evidenceType: evidencetype:indirect
+hasRankAssertion:
+- id: 01M3YH7N5GWK83WQCVPM6365BB
+  rankStyle: 01M0AZQ3TJKDFZYF8638Y2992P
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 4
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Rank attested only in the JA Wikipedia roster of Handa's students.
+  hasEvidence:
+  - basedOnSource: 01M0AZQ3TJ9K5V2Z20K5370P1A
+    informationType: infotype:secondary
+    supports: true
+    quotation: 山本清蔵（大東流四段）
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M0AZQ3TJ9K5V2Z20K5370P1A
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0AJNJHSV6RHCNNKNM0Y1EHT
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0BCX1XW7EF50ANP0G8F9JX1
+  informationType: infotype:secondary
+  supports: true
+  quotation: Barton-Wright arranged for Japanese jujutsu practitioners Kaneo Tani, Seizo Yamamoto and
+    the nineteen-year-old Yukio Tani to travel to London and serve as instructors at the Bartitsu Club.
+    Kaneo Tani and Yamamoto soon returned to Japan
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M06K0RMZV3APZVDQBBYVCKEQ
+  informationType: infotype:secondary
+  supports: true
+  quotation: In 1900, the nineteen-year old Yukio, his brother Kaneo and a fellow jujutsuka Seizo Yamamoto
+    travelled to London by invitation of Edward William Barton-Wright [...] His brother and Yamamoto soon
+    returned to Japan
+  evidenceType: evidencetype:direct
+tags:
+- jujutsu
+- daito-ryu
+- bartitsu
+- japan

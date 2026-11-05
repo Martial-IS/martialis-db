@@ -1,0 +1,97 @@
+type: Person
+id: 01KZRA7SNMVZ4732D5Z1V2GDEE
+name:
+  en: Ricardo Migliarese
+aka:
+  en:
+    - Rick Migliarese
+    - Animal
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1978-12-17'
+  hasEvidence:
+    - basedOnSource: 01KZRA7SNM80PS491Y0NFBY8NX
+      quotation: Ricardo "Animal" Migliarese (aka Rick Migliarese, born December 17, 1978)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: 'American 5th degree Relson Gracie Brazilian jiu-jitsu black belt and professional grappler,
+
+    World and Pan-Am champion, trainer and coach to UFC and MMA fighters, and co-founder, with his
+
+    brother Phil, of Balance Studios in Philadelphia, where he teaches. He received his black belt
+
+    from Relson Gracie in December 2005, one of only 28 people to receive this honor from Relson.
+
+'
+hasTeacherAssertion:
+  - id: 01M3YH7N5GW1G6H5DXTB23K141
+    teacher: 01KZRA7SNMC4RN196JC99CJ93N
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia explicitly records that Ricardo received his black belt from Relson Gracie in December 2005; the Balance Studios website names Relson Gracie as their instructor
+    hasInteraction:
+      - interactionPeriod:
+          endYear: 2005
+        hasEvidence:
+          - basedOnSource: 01KZRA7SNM80PS491Y0NFBY8NX
+            quotation: Ricardo received his black belt from Relson Gracie in December 2005 and is one of only 28 people to receive this honor from Relson
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZRA7SNMWQBSXQKEN10PXPDT
+            quotation: The Migliarese Brothers are the founders of Balance Studios and have over 30 years of experience in Gracie Jiu-Jitsu
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5G2VZXX17ABQ8P0WS8
+    rankStyle: 01KJJAWN29MA64W22606R3WD9J
+    rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+    rankGrade: rankgrade:bjj_black
+    grantedBy: 01KZRA7SNMC4RN196JC99CJ93N
+    dateConferred: 2005-12
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia explicitly records that Ricardo received his black belt from Relson Gracie in December 2005
+    hasEvidence:
+      - basedOnSource: 01KZRA7SNM80PS491Y0NFBY8NX
+        quotation: Ricardo received his black belt from Relson Gracie in December 2005 and is one of only 28 people to receive this honor from Relson who is notorious for being very hard on promotions.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GWX654RZCD77BSBVV
+    rankStyle: 01KJJAWN29MA64W22606R3WD9J
+    rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+    rankOrdinal: 5
+    rankGrade: rankgrade:bjj_black
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia describes Ricardo as a 5th degree Relson Gracie black belt; the promotion date for the degree is not given
+    hasEvidence:
+      - basedOnSource: 01KZRA7SNM80PS491Y0NFBY8NX
+        quotation: >-
+          Ricardo "Animal" Migliarese (aka Rick Migliarese, born December 17, 1978) is an American professional Brazilian Jiu Jitsu grappler and a 5th degree Relson Gracie Brazilian Jiu Jitsu Black Belt
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZRA7SNM80PS491Y0NFBY8NX
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q7322727
+tags:
+  - brazilian-jiu-jitsu
+  - balance-studios
+  - gracie-lineage
+  - coach

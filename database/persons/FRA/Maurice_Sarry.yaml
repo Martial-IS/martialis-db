@@ -1,0 +1,60 @@
+type: Person
+id: 01M5JG4Y25D6RS15RPSXHTDTAS
+name:
+  en: Maurice Sarry
+  fr: Maurice Sarry
+nationality:
+  - countryCode: eucountry:FRA
+    wikidata: wd:Q142
+birthEvent:
+  birthDate: '1935-03-27'
+  birthPlace:
+    label: Paris
+    countryCode: eucountry:FRA
+    wikidata: wd:Q90
+  hasEvidence:
+    - basedOnSource: 01M5JG4Y25RZJ8VQHDKEQEHJDD
+      quotation: >-
+        27 mars 1935 - Créteil, 4 novembre 1994
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1994-11-04'
+  deathPlace:
+    label: Créteil
+    countryCode: eucountry:FRA
+  hasEvidence:
+    - basedOnSource: 01M5JG4Y25RZJ8VQHDKEQEHJDD
+      quotation: >-
+        27 mars 1935 - Créteil, 4 novembre 1994
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    French fencing master and French boxer who wrote the competition rules of modern canne de combat,
+    dropping its most dangerous blows, and published a canne method in 1978. He led the savate
+    federation's canne and staff committee from 1977.
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Later, Maurice Sarry (1935–1994) published these methods.
+    locator: '220'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5JG4Y25RZJ8VQHDKEQEHJDD
+    quotation: >-
+      il codifie dans les années 1960 des règles pour la canne de combat adaptée à sa pratique
+      compétitive, publiant en 1978 une méthode dédiée à cette discipline.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q56226129
+tags:
+  - canne-de-combat
+  - savate
+  - france

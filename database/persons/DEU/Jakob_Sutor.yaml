@@ -1,0 +1,53 @@
+type: Person
+id: 01M5JRHX02V87G0M9Y1VFTEGNN
+name:
+  en: Jakob Sutor von Baden
+aka:
+  en:
+    - Jacob Sutor
+nationality:
+  - countryCode: eucountry:DEU
+    wikidata: wd:Q183
+description:
+  en: >-
+    Seventeenth-century German Freifechter, probably from Baden, of the Liechtenauer tradition. His
+    fencing manual, printed in Frankfurt in 1612, draws closely on Joachim Meyer's 1570 treatise and
+    Michael Hundt's of 1611.
+hasDocumentTransmissionAssertion:
+  - id: 01M5JRHX02E59P6XQDD4BZHFN5
+    transmissionDocument: 01M5JRHX02GH90F6CMD5YVWG3X
+    assertedStyle: 01M5JRHX026EPJNQVEJDCKRNJP
+    validDuring:
+      startYear: 1612
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Meyer’s manual was influential enough to be reprinted in 1600 and again in 1660, and to be
+          plagiarized in at least two seventeenth-century manuals, namely those of Jacob Sutor (1612) and
+          Theodore Verolini (1679).
+        locator: '245'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JRHX02WGZVP0YRPF8D65QB
+        quotation: >-
+          In 1612, he authored a fencing manual which shows a clear relationship to the 1570 treatise of
+          Joachim Meÿer and the 1611 treatise of Michael Hundt
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JRHX02WGZVP0YRPF8D65QB
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q6119335
+tags:
+  - fencing
+  - kunst-des-fechtens

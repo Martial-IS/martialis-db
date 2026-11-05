@@ -1,0 +1,56 @@
+type: Style
+id: 01KYFPRMG6DX1KX21NWFZRND4S
+name:
+  en: Chuck Norris System
+aka:
+  en:
+    - Chun Kuk Do
+styleType: styleclass:modern
+styleForm:
+  - styleform:hybrid
+description:
+  en: The Chuck Norris System (formerly Chun Kuk Do) is a hybrid martial art founded by Chuck Norris in 1990. It evolved from American Tang Soo Do by incorporating techniques from Brazilian Jiu-Jitsu, Arnis, Hapkido, Taekwondo, American Kenpo, Kyokushin, and other systems. It emphasizes self-defense, competition, weapons, grappling, and fitness. It is governed by the United Fighting Arts Federation (UFAF).
+foundedEvent:
+  startDate: '1990'
+  hasEvidence:
+    - basedOnSource: 01KYFPRMG2X8FAKC8QSGCYX1RA
+      quotation: >-
+        The style was formally founded in 1990 as Chun Kuk Do by Norris
+      cite: Chuck Norris (Wikipedia EN)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5G14NZ1HMZDAW28RKA
+    relatedStyle: 01KYFPRMG50ZGNF1DX2RCSCEVA
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Chuck Norris System evolved directly from American Tang Soo Do, which Norris had developed earlier
+    hasEvidence:
+      - basedOnSource: 01KYFPRMG2X8FAKC8QSGCYX1RA
+        quotation: >-
+          The style was formally founded in 1990 as Chun Kuk Do by Norris, and was originally based on Norris's Tang Soo Do training in Korea while he was in the military.
+        cite: Chuck Norris (Wikipedia EN)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01KYFPRMG2X8FAKC8QSGCYX1RA
+    cite: Chuck Norris (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://www.ufaf.org/chuck-norris-system.asp
+    cite: Chuck Norris System (UFAF official website)
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q2617509
+tags:
+  - chuck-norris-system
+  - chun-kuk-do
+  - hybrid
+  - american-martial-arts

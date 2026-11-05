@@ -1,0 +1,87 @@
+type: Organization
+id: 01M0SP452B7ZMKEX4FETRY6M9Q
+name:
+  en: Tatenokai
+  ja-Latn: Tatenokai
+  ja: 楯の会
+aka:
+  en:
+    - Shield Society
+orgType: orgclass:other
+hasSite:
+  - location:
+      label: Tokyo
+      countryCode: eucountry:JPN
+      wikidata: wd:Q1490
+foundedEvent:
+  startDate: '1968-10-05'
+  founder:
+    - 01M0R2X2ACQV39MDYRBGXZX3TY
+  hasEvidence:
+    - basedOnSource: 01M0SP452BFX8WR48355Y9X1FM
+      quotation: 隊長・三島と初代学生長・持丸博、会員約50名が制服姿で整列し、「楯の会」の正式結成式が密かに行われた。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+dissolvedEvent:
+  endDate: '1971-02-28'
+  dissolutionManner: dissmanner:defunct
+  dissolutionReason: Formally disbanded after the Ichigaya incident of 25 November 1970, in which Mishima and student president Morita Masakatsu died and the surviving members were arrested and tried.
+  hasEvidence:
+    - basedOnSource: 01M0SP452BFX8WR48355Y9X1FM
+      quotation: >-
+        廃止年月日 1971年2月28日
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M4R9845W87X7AX04DP0V6P18
+    officer: 01M0R2X2ACQV39MDYRBGXZX3TY
+    officerTitle: 隊長 (Commandant)
+    officerPeriod:
+      startYear: 1968
+      endYear: 1970
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia only.
+    hasEvidence:
+      - basedOnSource: 01M0SP452BFX8WR48355Y9X1FM
+        quotation: 隊長・三島と初代学生長・持丸博、会員約50名が制服姿で整列し、「楯の会」の正式結成式が密かに行われた。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M4R9845W1DP7YXH4EYN3AFVC
+    officer: 01M0SP452BC39YXQXP4515YNFW
+    officerTitle: 学生長 (Student President)
+    officerPeriod:
+      startYear: 1969
+      endYear: 1970
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia only.
+    hasEvidence:
+      - basedOnSource: 01M0SP452BFX8WR48355Y9X1FM
+        quotation: 持丸の代わりに森田必勝が楯の会の学生長に任命された
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: Private militia of about a hundred right-wing students founded by Yukio Mishima on 5 October 1968 (developing out of his earlier "National Guard" scheme), funded entirely from his writing royalties. Although political in purpose, its daily life was heavily martial. Members qualified through one-month GSDF experience-enlistments - chiefly at Camp Takigahara, Fuji School, including jukendo shodan testing - attended weekly karate sessions for some ten core members under Nakayama Masatoshi at the Japan Karate Association from autumn 1968, and from May 1969 an eight-man elite guard ("kesshitai", each given a nihonto) learned iai at the Itabashi police station dojo and the Imperial Palace Police's Saineikan. Guerrilla-warfare lectures, street exercises and infiltration drills were led by Colonel Yamamoto Kiyokatsu of the GSDF Intelligence School. Offices were first in Ginza (Kojaji Building), then Shinjuku. The society effectively ended with Mishima's seppuku at Camp Ichigaya on 25 November 1970 and was formally disbanded on 28 February 1971.
+logo:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/c/c3/Logo_of_the_Tatenokai.jpg
+  rights: mediarights:cc0-1.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Logo_of_the_Tatenokai.jpg
+    cite: Logo of the Tatenokai - Wikimedia Commons
+    informationType: infotype:secondary
+hasEvidence:
+  - basedOnSource: 01M0SP452BFX8WR48355Y9X1FM
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q781675
+tags:
+  - tatenokai

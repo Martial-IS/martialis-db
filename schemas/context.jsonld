@@ -1,0 +1,847 @@
+{
+  "@context": {
+    "@base": "https://martial.is/entity/",
+    "@vocab": "https://w3id.org/martialis/ontology#",
+    "AffiliationAssertion": {
+      "@id": "AffiliationAssertion"
+    },
+    "Agent": {
+      "@id": "Agent"
+    },
+    "Assertion": {
+      "@id": "Assertion"
+    },
+    "Attribution": {
+      "@id": "Attribution"
+    },
+    "BirthEvent": {
+      "@id": "BirthEvent"
+    },
+    "Confidence": {
+      "@id": "Confidence"
+    },
+    "Contributor": {
+      "@id": "Contributor"
+    },
+    "Coordinates": {
+      "@id": "Coordinates"
+    },
+    "DeathEvent": {
+      "@id": "DeathEvent"
+    },
+    "DissolutionEvent": {
+      "@id": "DissolutionEvent"
+    },
+    "DocumentTransmissionAssertion": {
+      "@id": "DocumentTransmissionAssertion"
+    },
+    "EditionOf": {
+      "@id": "EditionOf"
+    },
+    "Event": {
+      "@id": "Event"
+    },
+    "FoundingEvent": {
+      "@id": "FoundingEvent"
+    },
+    "GeoRef": {
+      "@id": "GeoRef"
+    },
+    "HistoricityAssertion": {
+      "@id": "HistoricityAssertion"
+    },
+    "HonorAssertion": {
+      "@id": "HonorAssertion"
+    },
+    "IdentityAssertion": {
+      "@id": "IdentityAssertion"
+    },
+    "InstructorRole": {
+      "@id": "InstructorRole"
+    },
+    "LanguageMap": {
+      "@id": "LanguageMap"
+    },
+    "LifeEvent": {
+      "@id": "LifeEvent"
+    },
+    "Membership": {
+      "@id": "Membership"
+    },
+    "NationalityEntry": {
+      "@id": "NationalityEntry"
+    },
+    "OfficerRole": {
+      "@id": "OfficerRole"
+    },
+    "Organization": {
+      "@id": "Organization"
+    },
+    "Participation": {
+      "@id": "Participation"
+    },
+    "Person": {
+      "@id": "Person"
+    },
+    "Photo": {
+      "@id": "Photo"
+    },
+    "Place": {
+      "@id": "Place"
+    },
+    "Publisher": {
+      "@id": "Publisher"
+    },
+    "RankAssertion": {
+      "@id": "RankAssertion"
+    },
+    "RankingSystem": {
+      "@id": "RankingSystem"
+    },
+    "Site": {
+      "@id": "Site"
+    },
+    "Source": {
+      "@id": "Source"
+    },
+    "SourceAssertionRelation": {
+      "@id": "SourceAssertionRelation"
+    },
+    "Style": {
+      "@id": "Style"
+    },
+    "StyleRelationAssertion": {
+      "@id": "StyleRelationAssertion"
+    },
+    "TeacherAssertion": {
+      "@id": "TeacherAssertion"
+    },
+    "TeacherInteraction": {
+      "@id": "TeacherInteraction"
+    },
+    "TimeInterval": {
+      "@id": "TimeInterval"
+    },
+    "Video": {
+      "@id": "Video"
+    },
+    "about": {
+      "@id": "sdo:about",
+      "@type": "@id"
+    },
+    "accessedDate": {
+      "@id": "accessed"
+    },
+    "address": {
+      "@id": "sdo:address"
+    },
+    "affiliationRelation": {
+      "@id": "affiliationRelation",
+      "@type": "@id"
+    },
+    "affrel": "https://w3id.org/martialis/vocab/affiliation-relation/",
+    "agent": "https://martial.is/agent/",
+    "aka": {
+      "@container": "@language",
+      "@id": "sdo:alternateName"
+    },
+    "archive": {
+      "@id": "archive"
+    },
+    "archiveCollection": {
+      "@id": "archiveCollection"
+    },
+    "archiveLocation": {
+      "@id": "archiveLocation"
+    },
+    "archiveOrgId": {
+      "@id": "archiveOrgId"
+    },
+    "archiveUri": {
+      "@id": "sdo:archivedAt",
+      "@type": "@id"
+    },
+    "archiveUrl": {
+      "@id": "sdo:archivedAt",
+      "@type": "@id"
+    },
+    "archivedDate": {
+      "@id": "archiveDate"
+    },
+    "assertedStyle": {
+      "@id": "assertedStyle",
+      "@type": "@id"
+    },
+    "assessedBy": {
+      "@id": "assessedBy",
+      "@type": "@id"
+    },
+    "atEvent": {
+      "@id": "atEvent",
+      "@type": "@id"
+    },
+    "basedOnSource": {
+      "@id": "basedOnSource",
+      "@type": "@id"
+    },
+    "bibo": "http://purl.org/ontology/bibo/",
+    "birthDate": {
+      "@id": "sdo:startDate"
+    },
+    "birthEvent": {
+      "@id": "birthEvent"
+    },
+    "birthPlace": {
+      "@id": "sdo:location"
+    },
+    "callNumber": {
+      "@id": "callNumber"
+    },
+    "chapterNumber": {
+      "@id": "chapterNumber"
+    },
+    "cinii": {
+      "@id": "cinii"
+    },
+    "cite": {
+      "@id": "sdo:citation"
+    },
+    "conferredBy": {
+      "@id": "conferredBy",
+      "@type": "@id"
+    },
+    "confersRank": {
+      "@id": "confersRank",
+      "@type": "xsd:boolean"
+    },
+    "confidenceLevel": {
+      "@id": "confidenceLevel",
+      "@type": "@id"
+    },
+    "confidenceRationale": {
+      "@id": "confidenceRationale"
+    },
+    "conflevel": "https://w3id.org/martialis/vocab/confidence-level/",
+    "contentUrl": {
+      "@id": "sdo:contentUrl",
+      "@type": "@id"
+    },
+    "contributorOrg": {
+      "@id": "contributorOrg",
+      "@type": "@id"
+    },
+    "contributorPerson": {
+      "@id": "contributorPerson",
+      "@type": "@id"
+    },
+    "contributorRole": {
+      "@id": "contributorRole"
+    },
+    "country": "https://w3id.org/martialis/vocab/country/",
+    "countryCode": {
+      "@id": "sdo:addressCountry",
+      "@type": "@id"
+    },
+    "dateCalendar": {
+      "@id": "dateCalendar",
+      "@type": "@id"
+    },
+    "dateConferred": {
+      "@id": "dateConferred"
+    },
+    "dateOriginal": {
+      "@id": "dateOriginal"
+    },
+    "datecal": "https://w3id.org/martialis/vocab/date-calendar/",
+    "dbr": "http://dbpedia.org/resource/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "deathDate": {
+      "@id": "sdo:startDate"
+    },
+    "deathEvent": {
+      "@id": "deathEvent"
+    },
+    "deathPlace": {
+      "@id": "sdo:location"
+    },
+    "derivedFromSystem": {
+      "@id": "derivedFromSystem",
+      "@type": "@id"
+    },
+    "description": {
+      "@container": "@language",
+      "@id": "sdo:description"
+    },
+    "dissmanner": "https://w3id.org/martialis/vocab/dissolution-manner/",
+    "dissolutionManner": {
+      "@id": "dissolutionManner",
+      "@type": "@id"
+    },
+    "dissolutionReason": {
+      "@id": "dissolutionReason"
+    },
+    "dissolvedEvent": {
+      "@id": "dissolvedEvent"
+    },
+    "doi": {
+      "@id": "doi"
+    },
+    "droppingParticle": {
+      "@id": "droppingParticle"
+    },
+    "edition": {
+      "@id": "sdo:bookEdition"
+    },
+    "editionOf": {
+      "@id": "editionOf"
+    },
+    "editionOfSource": {
+      "@id": "editionOfSource",
+      "@type": "@id"
+    },
+    "editionRelationType": {
+      "@id": "editionRelationType",
+      "@type": "@id"
+    },
+    "editrel": "https://w3id.org/martialis/vocab/edition-relation/",
+    "endDate": {
+      "@id": "sdo:endDate"
+    },
+    "endYear": {
+      "@id": "endYear",
+      "@type": "xsd:integer"
+    },
+    "eucountry": "http://publications.europa.eu/resource/authority/country/",
+    "eventDate": {
+      "@id": "sdo:startDate"
+    },
+    "eventPlace": {
+      "@id": "eventPlace",
+      "@type": "@id"
+    },
+    "eventType": {
+      "@id": "eventType",
+      "@type": "@id"
+    },
+    "eventclass": "https://w3id.org/martialis/vocab/event-classification/",
+    "eventrole": "https://w3id.org/martialis/vocab/event-role/",
+    "evidenceType": {
+      "@id": "evidenceType",
+      "@type": "@id"
+    },
+    "evidencetype": "https://w3id.org/martialis/vocab/evidence-type/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "family": {
+      "@id": "sdo:familyName"
+    },
+    "foundedEvent": {
+      "@id": "foundedEvent"
+    },
+    "founder": {
+      "@id": "founder",
+      "@type": "@id"
+    },
+    "geo": {
+      "@id": "sdo:geo"
+    },
+    "given": {
+      "@id": "sdo:givenName"
+    },
+    "gradeScheme": {
+      "@id": "gradeScheme",
+      "@type": "@id"
+    },
+    "grantedBy": {
+      "@id": "grantedBy",
+      "@type": "@id"
+    },
+    "handle": {
+      "@id": "handle"
+    },
+    "hasAffiliationAssertion": {
+      "@id": "hasAffiliationAssertion"
+    },
+    "hasConfidence": {
+      "@id": "hasConfidence"
+    },
+    "hasContributor": {
+      "@id": "hasContributor"
+    },
+    "hasDocumentTransmissionAssertion": {
+      "@id": "hasDocumentTransmissionAssertion"
+    },
+    "hasEvidence": {
+      "@id": "hasEvidence"
+    },
+    "hasHistoricityAssertion": {
+      "@id": "hasHistoricityAssertion"
+    },
+    "hasHonorAssertion": {
+      "@id": "hasHonorAssertion"
+    },
+    "hasIdentityAssertion": {
+      "@id": "hasIdentityAssertion"
+    },
+    "hasInstructorRole": {
+      "@id": "hasInstructorRole"
+    },
+    "hasInteraction": {
+      "@id": "hasInteraction"
+    },
+    "hasMembership": {
+      "@id": "hasMembership"
+    },
+    "hasOfficerRole": {
+      "@id": "hasOfficerRole"
+    },
+    "hasParticipation": {
+      "@id": "hasParticipation"
+    },
+    "hasRankAssertion": {
+      "@id": "hasRankAssertion"
+    },
+    "hasSite": {
+      "@id": "hasSite"
+    },
+    "hasStyleRelationAssertion": {
+      "@id": "hasStyleRelationAssertion"
+    },
+    "hasTeacherAssertion": {
+      "@id": "hasTeacherAssertion"
+    },
+    "hist": "https://w3id.org/martialis/vocab/historicity/",
+    "historicity": {
+      "@id": "historicity",
+      "@type": "@id"
+    },
+    "honorGrade": {
+      "@id": "honorGrade",
+      "@type": "@id"
+    },
+    "honorType": {
+      "@id": "honorType",
+      "@type": "@id"
+    },
+    "honorValue": {
+      "@id": "honorValue"
+    },
+    "honorgrade": "https://w3id.org/martialis/vocab/honor-grade/",
+    "honortype": "https://w3id.org/martialis/vocab/honor-type/",
+    "id": "@id",
+    "identityCandidate": {
+      "@id": "identityCandidate",
+      "@type": "@id"
+    },
+    "image": {
+      "@id": "primaryImage"
+    },
+    "imageAttribution": {
+      "@id": "imageAttribution"
+    },
+    "informationType": {
+      "@id": "informationType",
+      "@type": "@id"
+    },
+    "infotype": "https://w3id.org/martialis/vocab/information-type/",
+    "instrcap": "https://w3id.org/martialis/vocab/instructor-capacity/",
+    "instructor": {
+      "@id": "instructor",
+      "@type": "@id"
+    },
+    "instructorCapacity": {
+      "@id": "instructorCapacity",
+      "@type": "@id"
+    },
+    "instructorPeriod": {
+      "@id": "instructorPeriod"
+    },
+    "instructorStyle": {
+      "@id": "instructorStyle",
+      "@type": "@id"
+    },
+    "interactionPeriod": {
+      "@id": "interactionPeriod"
+    },
+    "interactionPlace": {
+      "@id": "interactionPlace",
+      "@type": "@id"
+    },
+    "isbn": {
+      "@id": "sdo:isbn"
+    },
+    "isni": "https://isni.org/isni/",
+    "issn": {
+      "@id": "sdo:issn"
+    },
+    "issue": {
+      "@id": "bibo:issue"
+    },
+    "issuedCalendar": {
+      "@id": "dateCalendar",
+      "@type": "@id"
+    },
+    "issuedDate": {
+      "@id": "sdo:datePublished"
+    },
+    "issuedOriginal": {
+      "@id": "dateOriginal"
+    },
+    "label": {
+      "@id": "sdo:name"
+    },
+    "language": {
+      "@id": "sdo:inLanguage"
+    },
+    "latitude": {
+      "@id": "sdo:latitude",
+      "@type": "xsd:double"
+    },
+    "lcnaf": "http://id.loc.gov/authorities/names/",
+    "lineageTradition": {
+      "@id": "lineageTradition",
+      "@type": "xsd:boolean"
+    },
+    "linkml": "https://w3id.org/linkml/",
+    "literal": {
+      "@id": "sdo:name"
+    },
+    "location": {
+      "@id": "sdo:location"
+    },
+    "locator": {
+      "@id": "sourceLocation"
+    },
+    "locatorLabel": {
+      "@id": "sourceLocatorLabel"
+    },
+    "logo": {
+      "@id": "sdo:logo"
+    },
+    "longitude": {
+      "@id": "sdo:longitude",
+      "@type": "xsd:double"
+    },
+    "martialis": "https://w3id.org/martialis/ontology#",
+    "maxOrdinal": {
+      "@id": "maxOrdinal",
+      "@type": "xsd:integer"
+    },
+    "mediarights": "https://w3id.org/martialis/vocab/media-rights/",
+    "member": {
+      "@id": "member",
+      "@type": "@id"
+    },
+    "membershipPeriod": {
+      "@id": "membershipPeriod"
+    },
+    "minOrdinal": {
+      "@id": "minOrdinal",
+      "@type": "xsd:integer"
+    },
+    "name": {
+      "@container": "@language",
+      "@id": "sdo:name"
+    },
+    "nationality": {
+      "@id": "sdo:nationality"
+    },
+    "nativeTitle": {
+      "@id": "sdo:alternateName"
+    },
+    "ndl": {
+      "@id": "ndl"
+    },
+    "ndlna": "http://id.ndl.go.jp/auth/ndlna/",
+    "nonDroppingParticle": {
+      "@id": "nonDroppingParticle"
+    },
+    "notes": {
+      "@id": "researchNote"
+    },
+    "oclc": {
+      "@id": "oclc"
+    },
+    "officer": {
+      "@id": "officer",
+      "@type": "@id"
+    },
+    "officerPeriod": {
+      "@id": "officerPeriod"
+    },
+    "officerTitle": {
+      "@id": "officerTitle"
+    },
+    "orcid": "https://orcid.org/",
+    "org": "http://www.w3.org/ns/org#",
+    "orgType": {
+      "@id": "orgType",
+      "@type": "@id"
+    },
+    "organizer": {
+      "@id": "sdo:organizer",
+      "@type": "@id"
+    },
+    "orgclass": "https://w3id.org/martialis/vocab/org-classification/",
+    "page": {
+      "@id": "bibo:pages"
+    },
+    "part": {
+      "@id": "partNumber"
+    },
+    "partOf": {
+      "@id": "partOf",
+      "@type": "@id"
+    },
+    "participant": {
+      "@id": "participant",
+      "@type": "@id"
+    },
+    "participantOrganization": {
+      "@id": "participantOrganization",
+      "@type": "@id"
+    },
+    "participationRole": {
+      "@id": "participationRole",
+      "@type": "@id"
+    },
+    "participationStyle": {
+      "@id": "participationStyle",
+      "@type": "@id"
+    },
+    "peerReview": {
+      "@id": "peerReview",
+      "@type": "@id"
+    },
+    "peerreview": "https://w3id.org/martialis/vocab/peer-review/",
+    "photos": {
+      "@id": "sdo:image"
+    },
+    "placeType": {
+      "@id": "placeType",
+      "@type": "@id"
+    },
+    "placeclass": "https://w3id.org/martialis/vocab/place-classification/",
+    "pmcid": {
+      "@id": "pmcid"
+    },
+    "pmid": {
+      "@id": "pmid"
+    },
+    "prov": "http://www.w3.org/ns/prov#",
+    "publisher": {
+      "@id": "sdo:publisher"
+    },
+    "publisherName": {
+      "@id": "sdo:name"
+    },
+    "publisherOrg": {
+      "@id": "publisherOrg",
+      "@type": "@id"
+    },
+    "quotation": {
+      "@id": "quotation"
+    },
+    "rankGrade": {
+      "@id": "rankGrade",
+      "@type": "@id"
+    },
+    "rankOrdinal": {
+      "@id": "rankOrdinal",
+      "@type": "xsd:integer"
+    },
+    "rankStyle": {
+      "@id": "rankStyle",
+      "@type": "@id"
+    },
+    "rankSystem": {
+      "@id": "rankSystem",
+      "@type": "@id"
+    },
+    "rankSystemKind": {
+      "@id": "rankingSystemKind"
+    },
+    "rankType": {
+      "@id": "rankType",
+      "@type": "@id"
+    },
+    "rankgrade": "https://w3id.org/martialis/vocab/rank-grade/",
+    "ranktype": "https://w3id.org/martialis/vocab/rank-type/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "relatedOrganization": {
+      "@id": "relatedOrganization",
+      "@type": "@id"
+    },
+    "relatedStyle": {
+      "@id": "relatedStyle",
+      "@type": "@id"
+    },
+    "rights": {
+      "@id": "mediaRights",
+      "@type": "@id"
+    },
+    "role": {
+      "@id": "role",
+      "@type": "@id"
+    },
+    "sameAs": {
+      "@id": "sdo:sameAs",
+      "@type": "@id"
+    },
+    "sdo": "https://schema.org/",
+    "section": {
+      "@id": "section"
+    },
+    "selfPublished": {
+      "@id": "selfPublished",
+      "@type": "xsd:boolean"
+    },
+    "sitePeriod": {
+      "@id": "sitePeriod"
+    },
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sourceClassification": {
+      "@id": "sourceClassification",
+      "@type": "@id"
+    },
+    "sourceGenre": {
+      "@id": "sourceGenre",
+      "@type": "@id"
+    },
+    "sourceType": {
+      "@id": "sourceType"
+    },
+    "specializationOf": {
+      "@id": "specializationOf",
+      "@type": "@id"
+    },
+    "srcclass": "https://w3id.org/martialis/vocab/source-classification/",
+    "srcgenre": "https://w3id.org/martialis/vocab/source-genre/",
+    "startDate": {
+      "@id": "sdo:startDate"
+    },
+    "startYear": {
+      "@id": "startYear",
+      "@type": "xsd:integer"
+    },
+    "styleForm": {
+      "@id": "styleForm",
+      "@type": "@id"
+    },
+    "styleRelationType": {
+      "@id": "styleRelationType",
+      "@type": "@id"
+    },
+    "styleType": {
+      "@id": "styleType",
+      "@type": "@id"
+    },
+    "styleclass": "https://w3id.org/martialis/vocab/style-classification/",
+    "styleform": "https://w3id.org/martialis/vocab/style-form/",
+    "stylerel": "https://w3id.org/martialis/vocab/style-relation/",
+    "suffix": {
+      "@id": "suffix"
+    },
+    "superEvent": {
+      "@id": "sdo:superEvent",
+      "@type": "@id"
+    },
+    "supports": {
+      "@id": "supports",
+      "@type": "xsd:boolean"
+    },
+    "tags": {
+      "@id": "sdo:keywords"
+    },
+    "teacher": {
+      "@id": "teacher",
+      "@type": "@id"
+    },
+    "teachrole": "https://w3id.org/martialis/vocab/teacher-role/",
+    "title": {
+      "@id": "sdo:name"
+    },
+    "transmissionDocument": {
+      "@id": "transmissionDocument",
+      "@type": "@id"
+    },
+    "type": "@type",
+    "uri": {
+      "@id": "sdo:url",
+      "@type": "@id"
+    },
+    "url": {
+      "@id": "sdo:url",
+      "@type": "@id"
+    },
+    "validDuring": {
+      "@id": "validDuring"
+    },
+    "viaf": "http://viaf.org/viaf/",
+    "videos": {
+      "@id": "sdo:video"
+    },
+    "volume": {
+      "@id": "bibo:volume"
+    },
+    "wd": "http://www.wikidata.org/entity/",
+    "website": {
+      "@id": "sdo:url",
+      "@type": "@id"
+    },
+    "wikidata": {
+      "@id": "sdo:sameAs",
+      "@type": "@id"
+    },
+    "withinPlace": {
+      "@id": "withinPlace",
+      "@type": "@id"
+    },
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "comments": {
+    "description": "GENERATED FILE - DO NOT EDIT. Built by make model from model/martialis.yaml; regenerate with `make model && make model-install`.",
+    "source": "martialis.yaml"
+  },
+  "nestedTypes": {
+    "birthEvent": "https://w3id.org/martialis/ontology#BirthEvent",
+    "birthPlace": "https://w3id.org/martialis/ontology#GeoRef",
+    "deathEvent": "https://w3id.org/martialis/ontology#DeathEvent",
+    "deathPlace": "https://w3id.org/martialis/ontology#GeoRef",
+    "dissolvedEvent": "https://w3id.org/martialis/ontology#DissolutionEvent",
+    "editionOf": "https://w3id.org/martialis/ontology#EditionOf",
+    "foundedEvent": "https://w3id.org/martialis/ontology#FoundingEvent",
+    "geo": "https://w3id.org/martialis/ontology#Coordinates",
+    "hasAffiliationAssertion": "https://w3id.org/martialis/ontology#AffiliationAssertion",
+    "hasConfidence": "https://w3id.org/martialis/ontology#Confidence",
+    "hasContributor": "https://w3id.org/martialis/ontology#Contributor",
+    "hasDocumentTransmissionAssertion": "https://w3id.org/martialis/ontology#DocumentTransmissionAssertion",
+    "hasEvidence": "https://w3id.org/martialis/ontology#SourceAssertionRelation",
+    "hasHistoricityAssertion": "https://w3id.org/martialis/ontology#HistoricityAssertion",
+    "hasHonorAssertion": "https://w3id.org/martialis/ontology#HonorAssertion",
+    "hasIdentityAssertion": "https://w3id.org/martialis/ontology#IdentityAssertion",
+    "hasInstructorRole": "https://w3id.org/martialis/ontology#InstructorRole",
+    "hasInteraction": "https://w3id.org/martialis/ontology#TeacherInteraction",
+    "hasMembership": "https://w3id.org/martialis/ontology#Membership",
+    "hasOfficerRole": "https://w3id.org/martialis/ontology#OfficerRole",
+    "hasParticipation": "https://w3id.org/martialis/ontology#Participation",
+    "hasRankAssertion": "https://w3id.org/martialis/ontology#RankAssertion",
+    "hasSite": "https://w3id.org/martialis/ontology#Site",
+    "hasStyleRelationAssertion": "https://w3id.org/martialis/ontology#StyleRelationAssertion",
+    "hasTeacherAssertion": "https://w3id.org/martialis/ontology#TeacherAssertion",
+    "image": "https://w3id.org/martialis/ontology#Photo",
+    "imageAttribution": "https://w3id.org/martialis/ontology#Attribution",
+    "instructorPeriod": "https://w3id.org/martialis/ontology#TimeInterval",
+    "interactionPeriod": "https://w3id.org/martialis/ontology#TimeInterval",
+    "location": "https://w3id.org/martialis/ontology#GeoRef",
+    "logo": "https://w3id.org/martialis/ontology#Photo",
+    "membershipPeriod": "https://w3id.org/martialis/ontology#TimeInterval",
+    "nationality": "https://w3id.org/martialis/ontology#NationalityEntry",
+    "officerPeriod": "https://w3id.org/martialis/ontology#TimeInterval",
+    "photos": "https://w3id.org/martialis/ontology#Photo",
+    "publisher": "https://w3id.org/martialis/ontology#Publisher",
+    "sitePeriod": "https://w3id.org/martialis/ontology#TimeInterval",
+    "validDuring": "https://w3id.org/martialis/ontology#TimeInterval",
+    "videos": "https://w3id.org/martialis/ontology#Video"
+  }
+}

@@ -1,0 +1,94 @@
+type: Person
+id: 01M5H5YNY2V6K3XN30HTC5KBXS
+name:
+  en: Yeiji Inouye
+aka:
+  en: Lanky Inouye
+nationality:
+  - countryCode: eucountry:CAN
+    wikidata: wd:Q16
+description:
+  en: >-
+    Canadian judo teacher and naval officer; co-founder of the Victoria Judo Club (1957). Trained at the
+    Kodokan while assistant military attaché in Tokyo (1964–1967); later chairman of the National
+    Grading Board. 7th dan.
+notes: >-
+  Leyshon (p. 133) also names Shinojima-sensei at the Kodokan (no record yet).
+hasTeacherAssertion:
+  - id: 01M5H5YNY2WW0SZAAQ3CFD0J39
+    teacher: 01M5H5WE2W99DZJG9Y362F4G2M
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              Inouye had begun Judo at age 12 under Mitani-sensei at Haney, B.C. and later under
+              Sasaki-sensei at Vancouver.
+            locator: '133'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5H5YNY2YGZ07J1J80ZR34DG
+    teacher: 01M5H3WJ4F1N0QAF3WT79KPD9Y
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              Inouye had begun Judo at age 12 under Mitani-sensei at Haney, B.C. and later under
+              Sasaki-sensei at Vancouver.
+            locator: '133'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5H5YNY2WTSWZT7T01BFRRZN
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TB
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+        interactionPeriod:
+          startYear: 1964
+          endYear: 1967
+        hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              In 1964 he was appointed assistant military attache to the Canadian Embassy in Tokyo and
+              stationed there for three years. Not only did he train daily at the Kodokan with
+              Kotani-sensei and Shinojima-sensei
+            locator: '133'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    quotation: >-
+      Back in Canada, he used that experience to advantage when, in 1957, he along with five others
+      established the Victoria Judo Club.
+    locator: '133'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q107338635
+tags:
+  - judo
+  - canada

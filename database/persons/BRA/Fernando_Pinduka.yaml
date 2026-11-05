@@ -1,0 +1,85 @@
+type: Person
+id: 01M5H40EZX2DF1P0GSAF1NGG7Z
+name:
+  pt: Fernando Pinduka
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+birthEvent:
+  birthDate: '1953'
+  hasEvidence:
+    - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+      quotation: >-
+        Pinduka was born in 1953 and was promoted to black-belt by Carlson Gracie.
+      locator: Interview with Fernando Pinduka (after chapter 7)
+      locatorLabel: section
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  pt: >-
+    Mestre de jiu-jitsu, aluno de Carlson Gracie de 1968 a 1988 e seu assistente de 1976 a 1982.
+  en: >-
+    Brazilian jiu-jitsu master, student of Carlson Gracie from 1968 to 1988 and his assistant from
+    1976 to 1982. Fought Marco Ruas in the 1984 jiu-jitsu versus luta-livre vale-tudo challenge.
+hasTeacherAssertion:
+  - id: 01M5H40EZXCHYQTPX6CYHKKTC2
+    teacher: 01KYQB8J2NN336ZJWGQW3YH95E
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Own account only.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1968
+          endYear: 1988
+        hasEvidence:
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: >-
+              As I said before, I met Carlson in 1968, starting as his student when I was only 14. I
+              trained under him for 20 years, from 1968 to 1988.
+            locator: Interview with Fernando Pinduka (after chapter 7)
+            locatorLabel: section
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M5H40EZXW3Y37B0XKFRNJ0H5
+    rankStyle: 01KJJAWN29MA64W22606R3WD9J
+    rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+    rankGrade: rankgrade:bjj_black
+    grantedBy: 01KYQB8J2NN336ZJWGQW3YH95E
+    dateConferred: '1978'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Own account; the author's introduction, from the same interview, names Carlson.
+    hasEvidence:
+      - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+        quotation: >-
+          Pinduka was born in 1953 and was promoted to black-belt by Carlson Gracie.
+        locator: Interview with Fernando Pinduka (after chapter 7)
+        locatorLabel: section
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+        quotation: >-
+          In 1976 he invited me to be his assistant where I learned how to teach. In 1978 I was awarded
+          a black-belt and continued as an assistant until 1982, the year of Rolls’ death.
+        locator: Interview with Fernando Pinduka (after chapter 7)
+        locatorLabel: section
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+    locator: Interview with Fernando Pinduka (after chapter 7)
+    locatorLabel: section
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - brazilian-jiu-jitsu

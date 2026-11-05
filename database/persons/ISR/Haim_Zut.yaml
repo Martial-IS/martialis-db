@@ -1,0 +1,46 @@
+type: Person
+id: 01M5H483CZQRGVM3XRA6DXT9TY
+name:
+  en: Haim Zut
+nationality:
+  - countryCode: eucountry:ISR
+    wikidata: wd:Q801
+description:
+  en: Imi Lichtenfeld's first civilian krav maga student; co-founded the Krav Maga Federation in 1993.
+hasTeacherAssertion:
+  - id: 01M5H483CZSCN7R0FXFE104WQZ
+    teacher: 01M5H483CZFWCT9F3F4YG4KVJH
+    assertedStyle: 01M5H483CZK87194M0J1ZNG9F8
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: Zut had been Imi Lichtenfeld’s first civilian student
+            locator: '586'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: For example, in 1993 Haim Zut and others established Krav Maga
+    locator: '585'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q27990332
+tags:
+  - krav-maga
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/a/a4/GM_Haim_Zut.png
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:GM_Haim_Zut.png
+    cite: "מני מהבד, Wikimedia Commons"
+    informationType: infotype:secondary

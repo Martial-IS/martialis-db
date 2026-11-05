@@ -1,0 +1,105 @@
+type: Style
+id: 01KYD5XMNMNXZZC2GQVFVRRSMG
+name:
+  en: Wing Chun
+  zh: 詠春
+  yue: 詠春
+  yue-Latn: Wing Chun
+  zh-Latn: Yong Chun
+aka:
+  en:
+  - Wing Tsun
+  yue:
+  - Ving Tsun
+  zh-Latn:
+  - Wing Tsun Kuen
+styleType: styleclass:traditional
+description:
+  en: Wing Chun is a concept-based martial art, a form of Southern Chinese kung fu, and a close-quarters
+    system of self-defense. It is characterized by close-quarters hand-to-hand combat, rapid-fire punches,
+    and straightforward efficiency. Its philosophy emphasizes capturing and sticking to an opponent's
+    centerline through simultaneous attack and defense, tactile sensitivity, and using an opponent's force
+    against them. There are at least eight distinct lineages, of which the Ip Man and Yuen Kay-shan lineages
+    are the most prolific. The martial art was brought to Hong Kong and then the rest of the world by
+    Ip Man, with Bruce Lee being his most famous student. The Ving Tsun Athletic Association, founded
+    in 1967 by Ip Man and his students, helped spread Wing Chun globally.
+foundedEvent:
+  startDate: 1850~
+  location:
+    label: Foshan
+    countryCode: eucountry:CHN
+    wikidata: wd:Q34412
+  hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    quotation: >-
+      This tradition emerged in the city of Foshan sometime in the mid-nineteenth century, was
+      transmitted through Chan Wah Shun to Ip Man and was then taken to Hong Kong.
+    locator: '10'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5AT1XCZD4BEWPJZKBQSSSDQ
+    quotation: >-
+      is a form of Southern Chinese hand combat first taught publicly in the Pearl River Delta region of Guangdong province during the second half of the 19th century. [...] There is no reliable documentation of its existence, or that of any practitioners, prior to the mid 19th century.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5AT1XCZ5RH6NXCA4YCJDRCR
+    quotation: >-
+      Wing Chun Kung-Fu originated in Southern China under the reign of the Kangxi Emperor (1662-1722).
+    informationType: infotype:secondary
+    supports: false
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KYD5XMNMJAAPE1B8773N3ANT
+  cite: Bruce Lee (Wikipedia EN)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KYD80165F7SZ8EACYZQSE717
+  cite: Branches of Wing Chun (Wikipedia EN)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KYHRZE602B1ACMJ26FPY4YDM
+  cite: Nanquan (Wikipedia EN)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KYD5XMNMC3D3DST96C876VKM
+  cite: 'Maeda (2022) - Like Water: A Cultural History of Bruce Lee'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q217127
+- dbr:Wing_Chun
+hasStyleRelationAssertion:
+- id: 01M3YH7N5G3BKBBAGSNVAZ1ZFN
+  relatedStyle: 01KYHRZE605BS2BGB5TX1XEWPR
+  styleRelationType: stylerel:variant_of
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Wing Chun is a form of Southern Chinese kung fu, explicitly listed as a Nanquan
+      style in both the Wing Chun and Nanquan Wikipedia articles
+  hasEvidence:
+  - basedOnSource: 01KYHRZE602B1ACMJ26FPY4YDM
+    quotation: The southern styles of Chinese martial arts [...] predominantly in southern styles such as [...]
+      Wing Chun
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+- chinese-martial-art
+- kung-fu
+- southern-chinese
+photos:
+- contentUrl: https://upload.wikimedia.org/wikipedia/commons/6/6c/Yip_Man.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Yip_Man.jpg
+    cite: "Dever, Wikimedia Commons"
+    informationType: infotype:secondary
+    evidenceType: evidencetype:direct

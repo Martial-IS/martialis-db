@@ -1,0 +1,199 @@
+type: Person
+id: 01M0CXZHZN5A1FFADBND5Z9K70
+name:
+  en: Trevor Leggett
+  fr: Trevor Leggett
+aka:
+  en:
+  - Trevor Pryce Leggett
+  - T. P. Leggett
+nationality:
+- countryCode: eucountry:GBR
+  wikidata: wd:Q145
+birthEvent:
+  birthDate: '1914-08-22'
+  birthPlace:
+    label: London
+    countryCode: eucountry:GBR
+    wikidata: wd:Q84
+  hasEvidence:
+  - uri: https://www.wikidata.org/wiki/Q7839278
+    quotation: >-
+      date of birth 22 August 1914
+    cite: 'Wikidata - Trevor Leggett: date of birth 22 August 1914, place of birth London'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M0Q8AS711PKHZ2D7B12J5XX7
+    quotation: Trevor Pryce Leggett (22 August 1914 – 2 August 2000)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2000-08-02'
+  hasEvidence:
+  - uri: https://www.wikidata.org/wiki/Q7839278
+    quotation: >-
+      date of death 2 August 2000
+    cite: 'Wikidata - Trevor Leggett: date of death 2 August 2000'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M0Q8AS711PKHZ2D7B12J5XX7
+    quotation: Trevor Pryce Leggett (22 August 1914 – 2 August 2000)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: 'British judoka, author and translator, one of the first Europeans to hold a dan rank (London Budokwai
+    shodan in 1935). He taught judo at the Budokwai from 1945 and became a senior instructor in 1954,
+    chaired the July 1948 London conference that founded the European Judo Union, and is named ''Chairman
+    of the European Judo Union'' in Moshe Feldenkrais''s preface to Higher Judo (1952), which thanks him
+    for critical reading of the typescript and advice on the mat. He held 6th dan from the Kodokan, founded
+    the competition-oriented Renshuden dojo in 1959, headed the BBC''s Japanese Service for 24 years,
+    and wrote extensively on judo, Zen and Indian philosophy, being awarded the Japanese Order of the
+    Sacred Treasure in 1984.
+
+    '
+  fr: 'Judoka, écrivain et traducteur britannique, l''un des premiers Européens à obtenir un grade dan
+    (shodan au London Budokwai en 1935). Il enseigna le judo au Budokwai à partir de 1945 et devint instructeur
+    principal en 1954, présida en juillet 1948 la conférence de Londres qui fonda l''Union européenne
+    de judo, et est nommé « président de l''Union européenne de judo » dans la préface de Moshe Feldenkrais
+    à Higher Judo (1952), qui le remercie pour la relecture du manuscrit et ses conseils sur le tapis.
+    Il détenait le 6e dan du Kodokan, fonda le dojo Renshuden en 1959, dirigea le service japonais de
+    la BBC pendant 24 ans, et écrivit abondamment sur le judo, le zen et la philosophie indienne, recevant
+    en 1984 l''Ordre japonais du Trésor sacré.
+
+    '
+notes: EJU chairmanship is recorded on the EJU officers list (start 1948); the EJU FAQ lists presidents
+  (J. Barnes 1949, A. Torti 1949-1952), suggesting 'Chairman' per Feldenkrais's 1952 preface was a distinct
+  office. The teacher edge to Yukio Tani rests on a single Wikidata statement (possible).
+hasTeacherAssertion:
+- id: 01M3YH7N5GXZBEDAHMKY71DH7T
+  teacher: 01M06K0RMZNWJ90EEQ7CXBFHGS
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Single source; Wikidata repeats it.
+  hasInteraction:
+  - interactionPlace: 01KY52HE49EXT0704VAEYG0W59
+    hasEvidence:
+    - uri: https://www.wikidata.org/wiki/Q7839278
+      cite: 'Wikidata - Trevor Leggett: student of (P1066) Yukio Tani'
+      quotation: 'student of: Yukio Tani'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+      quotation: >-
+        At the age of 16, therefore, the sport he chose was judo and he started taking lessons at the
+        London Budokwai. After training under the famous judo masters Yukio Tani and Gunji Koizumi, he
+        made swift progress
+      locator: '161'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M5G97535CD65GJGZBW01Z6WN
+  teacher: 01KY52HE48XM1KHDGKBV98YRQ2
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Single source.
+  hasInteraction:
+  - interactionPlace: 01KY52HE49EXT0704VAEYG0W59
+    hasEvidence:
+    - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+      quotation: >-
+        At the age of 16, therefore, the sport he chose was judo and he started taking lessons at the
+        London Budokwai. After training under the famous judo masters Yukio Tani and Gunji Koizumi, he
+        made swift progress
+      locator: '161'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GBBAHW66A0N87C9TD
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 1
+  dateConferred: '1935'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: de Crée lists Trevor P. Leggett as a London Budokwai shodan of 1935 among the
+      early European black belts
+  hasEvidence:
+  - basedOnSource: 01M0CXZHZN3421V49R9G0K033V
+    quotation: 'Trevor P. Leggett (London Budōkwai shodan: 1935)'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5GSGSEB74WH0RXXZV4
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 5
+  dateConferred: '1952'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Feldenkrais's preface to Higher Judo, written for the 1951/1952 edition, names
+      Leggett as 5th dan
+  hasEvidence:
+  - basedOnSource: 01M0CXZHZN8KGE9DWJF1Z507RG
+    quotation: I am greatly indebted to Mr. T. P. Legget, 5th Dan, Chairman of the European Judo Union,
+      for critical reading of the typesceipt and his very instructive advice on the mat.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5GWDGY300A8MPG1CAH
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 6
+  conferredBy: 01KJJAWN29MA64W22606R3WD7X
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: English Wikipedia states he held 6th dan from the Kodokan
+  hasEvidence:
+  - basedOnSource: 01M0Q8AS711PKHZ2D7B12J5XX7
+    quotation: He held the title of Shihan, and the rank of 6th dan in judo from the Kodokan.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M0Q8AS711PKHZ2D7B12J5XX7
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.wikidata.org/wiki/Q7839278
+  cite: 'Wikidata - Trevor Leggett: date of birth 22 August 1914, place of birth London; date of death
+    2 August 2000; student of Yukio Tani'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0CXZHZN8KGE9DWJF1Z507RG
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0CXZHZN3421V49R9G0K033V
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q7839278
+tags:
+- judo
+- united-kingdom
+- budokwai
+- eju
+- translator
+- zen

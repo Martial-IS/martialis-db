@@ -1,0 +1,78 @@
+type: Person
+id: 01M6BHSAXWCYFZCWJ3C7Y0DGM0
+name:
+  ja-Latn: Yagyu Tajima-no-Kami Munenori
+  ja: 柳生宗矩
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1571'
+  hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: '377'
+    locatorLabel: page
+    quotation: 'in the form of a personal letter to Yagyu Munenori (1571–1646).'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1646'
+  hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: '377'
+    locatorLabel: page
+    quotation: 'in the form of a personal letter to Yagyu Munenori (1571–1646).'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: >-
+    Son of Yagyu Sekishusai, fencing instructor of the Tokugawa shoguns Ieyasu, Hidetada and Iemitsu, and author of the Heiho kadensho (1632).
+hasEvidence:
+- basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+  locator: 'Yagyu Shinkage-ryu Hyoho'
+  locatorLabel: section
+  quotation: 'Together with his son Munenori, Yagyu Sekishusai introduced Yagyu Shinkage-ryu to Tokugawa Ieyasu, whereupon the school became the official school of the Tokugawa family, and Munenori became Ieyasu’s personal instructor.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M6BHSAXWT300MA17MW5Z0F1Y
+  quotation: '宗厳五男の宗矩は徳川家康に仕え、将軍秀忠、家光の兵法師範となり剣名を天下に高めた。'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M6BHSAXWAYTF31WP2TDWD77H
+  teacher: 01M6BHSAXWJRA0RQCK222BZP9C
+  assertedStyle: 01M6BHSAXW71NDAE1K8Q6W4F9S
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Green and Svinth (his Heiho kadensho lists the curriculum he learned from his father), the Field Guide and the school’s own page.
+  hasInteraction:
+  - hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        locator: '558'
+        locatorLabel: page
+        quotation: 'Heiho kadensho begins by listing the elements (i.e., names of kata) in the martial art [...] that Munenori had learned from his father.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+        locator: 'Yagyu Shinkage-ryu Hyoho'
+        locatorLabel: section
+        quotation: 'Together with his son Munenori, Yagyu Sekishusai introduced Yagyu Shinkage-ryu to Tokugawa Ieyasu, whereupon the school became the official school of the Tokugawa family, and Munenori became Ieyasu’s personal instructor.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+      - basedOnSource: 01M6BHSAXWT300MA17MW5Z0F1Y
+        quotation: '宗厳五男の宗矩は徳川家康に仕え、将軍秀忠、家光の兵法師範となり剣名を天下に高めた。'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+sameAs:
+- wd:Q631099
+notes: >-
+  Founder of the Edo Yagyu line. The Yagyu Shingan-ryu traditions name him as teacher of Araki Mataemon (Field Guide) and of Takenaga Hayato (Kobudo Kyokai page).

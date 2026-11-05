@@ -1,0 +1,88 @@
+type: Style
+id: 01KJJAWN29MA64W22606R3WD9T
+name:
+  ja-Latn: Tenshin Shōden Katori Shintō-ryū
+  ja: 天真正伝香取神道流
+aka:
+  ja-Latn: Katori Shintō-ryū
+  ja: 香取神道流
+description:
+  en: 'Tenshin Shōden Katori Shintō-ryū (天真正伝香取神道流) is one of the oldest extant Japanese martial arts, and an exemplar of bujutsu. The Tenshin Shōden Katori Shintō-ryū was founded by Iizasa Ienao, born in 1387 in Iizasa village (modern Takomachi, Chiba Prefecture), who was living near Katori Shrine (Sawara City, Chiba Prefecture) at the time. The ryū gives 1447 as the year it was founded, but some scholars state that it was about 1480. The main emphasis of the school is kenjutsu (swordsmanship), but its curriculum also includes battōjutsu (sword drawing), ryōtōjutsu (dual-wielding), bōjutsu (staff), naginatajutsu (glaive), sōjutsu (spear), shurikenjutsu (dart throwing), and jūjutsu.
+
+'
+hasEvidence:
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTE5
+    supports: true
+    evidenceType: evidencetype:direct
+    informationType: infotype:secondary
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTE6
+    supports: true
+    evidenceType: evidencetype:direct
+    informationType: infotype:secondary
+  - uri: https://www.katorishintoryu-shinbukan.org/
+    cite: Katori Shinto-ryu Shinbukan (official site)
+    archiveUri: http://web.archive.org/web/20230923210656/https://www.katorishintoryu-shinbukan.org/
+    supports: true
+    evidenceType: evidencetype:direct
+    informationType: infotype:secondary
+foundedEvent:
+  startDate: '1447'
+  location:
+    countryCode: eucountry:JPN
+  hasEvidence:
+    - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTE5
+      quotation: The ryū is purported to have been founded in 1447, but some scholars state that it was about 1480.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+styleType: styleclass:traditional
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5G37FMH2X6Z944HEE9
+    relatedStyle: 01KYHNJKQDTEJ1A5MQ5JYPHDTB
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        TSKS's Wikipedia article gives kenjutsu as the school's main emphasis, and the Kenjutsu article
+        names TSKS among the three schools of its earliest emergence; Wikipedia only.
+    hasEvidence:
+      - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTE5
+        quotation: The main emphasis of the school is kenjutsu.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KYHNJKQDBKZF8YHQ20PHPMRD
+        quotation: The oldest martial arts schools still in existence today originated during the Muromachi period (1336–1573), a time characterized by extended periods of inter-state warfare. Three major schools emerged during this period. Kage-ryū (Aisukage ryū) Chujō-ryū Tenshin Shōden Katori Shintō-ryū
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GET15V402DB213504
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9G
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Japanese Wikipedia's curriculum section explicitly lists 柔術 (jūjutsu) as a named discipline with 36 techniques alongside kenjutsu, iai, bōjutsu, etc., confirming jūjutsu is a formal component of the school.
+    hasEvidence:
+      - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTE6
+        quotation: >-
+          剣術、居合、柔術、棒術、槍術、薙刀術、手裏剣術等に加えて、築城、風水、忍術等も伝承されている総合武術である。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+sameAs:
+  - wd:Q112025
+tags:
+  - koryu
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/1/19/Kenjyutsu-2.jpg
+    rights: mediarights:cc-by-sa-4.0
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:Kenjyutsu-2.jpg
+      cite: "江戸村のとくぞう, Wikimedia Commons"
+videos:
+  - contentUrl: https://youtu.be/4EvjslbRTaA?t=120
+    imageAttribution:
+      uri: https://youtu.be/4EvjslbRTaA?t=120
+      cite: "Kiko 1968, YouTube"

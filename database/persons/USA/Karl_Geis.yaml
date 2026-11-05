@@ -1,0 +1,209 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD68
+name:
+  en: Karl Geis
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+birthEvent:
+  birthDate: '1933'
+  birthPlace:
+    label: Houston, Texas
+    countryCode: eucountry:USA
+    wikidata: wd:Q16555
+deathEvent:
+  deathDate: '2014-04-07'
+hasTeacherAssertion:
+- id: 01M3YH7N5GYWRP5GQX63FXSYP2
+  teacher: 01KJJAWN28MWKKSN4J02MVY1SR
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Based on resume listing Kobayashi Sensei as teacher with 1952 start date
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+    interactionPeriod:
+      startYear: 1952
+    hasEvidence:
+    - basedOnSource: 01KJJAWN29MA64W22606R3WD9Z
+      cite: Karl Geis Martial Arts Resume (Karl Geis Ryu homepage)
+      quotation: 'During my studies in Japan I received significant personal instruction from the following
+        Kodokan teachers: [...] Kobayashi Sensei, 8th Dan'
+      supports: true
+      evidenceType: evidencetype:direct
+      informationType: infotype:primary
+- id: 01M3YH7N5G9N4XKKJD7HHK01Y0
+  teacher: 01KJJAWN29MA64W22606R3WD69
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Based on resume listing Miyake, Tsunako Sensei as teacher
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+    hasEvidence:
+    - basedOnSource: 01KJJAWN29MA64W22606R3WD9Z
+      cite: Karl Geis Martial Arts Resume (Karl Geis Ryu homepage)
+      quotation: 'During my studies in Japan I received significant personal instruction from the following
+        Kodokan teachers: [...] Miyake, Tsunako Sensei, 7th Dan'
+      supports: true
+      evidenceType: evidencetype:direct
+      informationType: infotype:primary
+hasRankAssertion:
+- id: 01M3YH7N5G363GX3TQPDH7KETQ
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 8
+  conferredBy: 01M331J1AK559MQJ4MSG3EVDX1
+  dateConferred: '1996'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Geis's own resume states he was promoted to 8th dan in judo in 1996 by the
+      United States Judo Association and United States Judo Inc; conferredBy records the USJA half of
+      the joint grant.
+  hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WD9Z
+    quotation: In 1996 I received promotion to 8th Dan in Judo and 8th Dan Hanshi in Judo by the United
+      States Judo Association and the United States Judo Inc.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5GPHCS5HFWPPKFNN4V
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 10
+  conferredBy: 01M331J1AK559MQJ4MSG3EVDX1
+  dateConferred: '2014-03-12'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: A judo forum post gives the exact date and grants the rank to the USJA; Geis's
+      own resume corroborates only the resulting title ("10th Dan Professor of Judo"), not the date or
+      grantor.
+  hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WD9Z
+    quotation: Karl E. Geis, 10th Dan Professor of Aikido, 10th Dan Professor of Judo, and 9th Dan Professor
+      of Jodo
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://judo.forumotion.com/t1743-karl-geis-promoted-to-10-dan-by-usja
+    cite: Karl Geis Promoted to 10 Dan by USJA, judo.forumotion.com
+    quotation: The United States Judo Association promoted Karl Geis to Judan (10th degree black belt)
+      at a presentation in Houston dojo on March 12th, 2014.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5G8WMK8G48W2JBDC09
+  rankStyle: 01KJJAWN29MA64W22606R3WD9R
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 6
+  grantedBy: 01KJJAWN28MWKKSN4J02MVY1TT
+  dateConferred: '1980'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Geis's own resume states he was promoted to 6th dan in aikido in 1980 by Kenji
+      Tomiki personally in Tokyo, the first foreigner Tomiki so promoted.
+  hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WD9Z
+    quotation: My efforts were rewarded when I was promoted to 6th Dan in 1980 by Tomiki, Kenji Shihan
+      in Tokyo, Japan. With this promotion I become the first, and only, foreigner to be promoted to this
+      rank by Tomiki Sensei.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5G4RFEFGMBTZQ8H8HW
+  rankStyle: 01KJJAWN29MA64W22606R3WD9R
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 10
+  conferredBy: 01M331J1AKP3D28W593568P40P
+  dateConferred: '1997'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Geis's own resume states he was promoted to 10th dan in aikido in 1997 by the
+      Fugakukai International Association, the association he headed.
+  hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WD9Z
+    quotation: Then in 1997 I was promoted to the rank of 10th Dan Aikido by The Fugakukai International
+      Association, in recognition of my significant contribution to the art of Aikido.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5G5QDBNF5SBKNPWYS5
+  rankStyle: 01M2411V8RXE6KEGH2PF8S5E1X
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 9
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Geis's own resume titles him "9th Dan Professor of Jodo" but gives no date or
+      granting body for this rank, unlike the dated, sourced judo and aikido promotions above.
+  hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WD9Z
+    quotation: Karl E. Geis, 10th Dan Professor of Aikido, 10th Dan Professor of Judo, and 9th Dan Professor
+      of Jodo
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+hasHonorAssertion:
+- id: 01M3YH7N5G35DT18Q879Z80PJW
+  honorValue: Hanshi
+  honorType: honortype:title
+  conferredBy: 01M331J1AK559MQJ4MSG3EVDX1
+  dateConferred: '1996'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Geis's own resume states he received the Hanshi title in judo in the same 1996
+      promotion as his 8th dan, from the United States Judo Association and United States Judo Inc.
+  hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WD9Z
+    quotation: In 1996 I received promotion to 8th Dan in Judo and 8th Dan Hanshi in Judo by the United
+      States Judo Association and the United States Judo Inc.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KXTSQXW6P83R31HCRY2PRTBE
+  quotation: Karl Geis (1933 – April 7, 2014) was an American judo, aikido, and jodo instructor.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KJJAWN29MA64W22606R3WD9Z
+  cite: Karl Geis Martial Arts Resume
+  quotation: 'During my studies in Japan I received significant personal instruction from the following
+    Kodokan teachers:'
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://media.usja.net/2014/04/Karl-Geis-Bio-4-14.pdf
+  cite: USJA - Karl Geis Biography PDF
+  quotation: Karl Geis was a pioneer in American judo and aikido, founding the Fugakukai International
+    Association.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://maytt.home.blog/2020/09/09/interview-with-david-witt-judo-aikido-and-karl-geis/
+  cite: Interview with David Witt - Judo, Aikido and Karl Geis
+  quotation: Geis formed the Fugakukai International Association in 1982.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q19667503
+- dbr:Karl_Geis
+description:
+  en: American martial artist and founder of the Fugakukai International Association
+notes: Karl Geis was a pioneer in American judo and aikido, studying extensively in Japan and founding
+  the Fugakukai International Association which combined elements of judo, aikido, and jodo.

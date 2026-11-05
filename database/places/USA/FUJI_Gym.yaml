@@ -1,0 +1,46 @@
+type: Place
+id: 01KZS3PSKRDKW1AZ0401CKAM32
+name:
+  en: FUJI Gym
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Wakefield
+      countryCode: eucountry:USA
+      wikidata: wd:Q1513838
+    address: Wakefield, Massachusetts, United States
+hasInstructorRole:
+  - id: 01M4R9845WVCDYPR7C909JKK01
+    instructor: 01KZS3PSKRNV533S2F4ABNVBDV
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 2013
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One secondary source (Wikipedia) states he opened and teaches at FUJI Gym from 2013.
+    hasEvidence:
+      - basedOnSource: 01KZS3PSKQYXK9RYY0XEBAGD56
+        quotation: Stevens primarily teaches out of FUJI Gym in Wakefield, Massachusetts, which he opened on January 12, 2013.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '2013'
+  founder:
+    - 01KZS3PSKRNV533S2F4ABNVBDV
+  hasEvidence:
+    - basedOnSource: 01KZS3PSKQYXK9RYY0XEBAGD56
+      quotation: Stevens primarily teaches out of FUJI Gym in Wakefield, Massachusetts, which he opened on January 12, 2013.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZS3PSKQYXK9RYY0XEBAGD56
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - wakefield
+  - massachusetts

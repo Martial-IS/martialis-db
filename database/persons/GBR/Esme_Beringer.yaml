@@ -1,0 +1,105 @@
+type: Person
+id: 01M5KQTRGXSBQFFZB9TF683JD2
+name:
+  en: Esme Beringer
+aka:
+  en:
+    - Esmé Beringer
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+birthEvent:
+  birthDate: '1875-09-05'
+  birthPlace:
+    label: London
+    countryCode: eucountry:GBR
+    wikidata: wd:Q84
+  hasEvidence:
+    - basedOnSource: 01M5KQTRGX2JGG5SW23JDHAMR8
+      quotation: >-
+        Esme Beringer (5 September 1875 – 31 March 1972) was an English actress who was noted for her
+        fencing skills.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1972-03-31'
+  hasEvidence:
+    - basedOnSource: 01M5KQTRGX2JGG5SW23JDHAMR8
+      quotation: >-
+        Esme Beringer (5 September 1875 – 31 March 1972) was an English actress who was noted for her
+        fencing skills.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    English actress and stage fencer who studied historical swordplay with Alfred Hutton and Egerton
+    Castle, probably at the Bartitsu Club, and taught the Actresses' Foil Club during the First World War.
+hasTeacherAssertion:
+  - id: 01M5KQTRGX0Q0GRDVRJDD4VB9H
+    teacher: 01M5KQTRGX5YEF3ZQ1VS18V32G
+    assertedStyle: 01M5JRHX02FJ6XZ3X069NVX3SE
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5KQTRGX2JGG5SW23JDHAMR8
+            quotation: >-
+              Beringer was an enthusiastic fencer who studied historical swordplay with Alfred Hutton as
+              well as his colleague Egerton Castle and was likely a member of the Bartitsu Club.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5KQTRGXK5ZZT59TZGWT364N
+            quotation: >-
+              Actress and stage fencer Esmé Beringer, a student of Hutton's.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M0BCX1XW7EF50ANP0G8F9JX1
+            quotation: >-
+              It is likely that the actors Esme Beringer and Charles Sefton, as well as fencer Archibald
+              Corble, were among Hutton's historical fencing students at the Bartitsu Club.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5KQTRGXEGGXPNKW6XTWVCJ0
+    teacher: 01M5KQTRGXAZNMP4NQ4M6FC0Y1
+    assertedStyle: 01M5JRHX02FJ6XZ3X069NVX3SE
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5KQTRGX2JGG5SW23JDHAMR8
+            quotation: >-
+              Beringer was an enthusiastic fencer who studied historical swordplay with Alfred Hutton as
+              well as his colleague Egerton Castle and was likely a member of the Bartitsu Club.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5KQTRGX2JGG5SW23JDHAMR8
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q47086788
+tags:
+  - fencing
+  - women
+  - united-kingdom
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/5/58/Esme_Beringer_Saviolo.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Esme_Beringer_Saviolo.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary

@@ -1,0 +1,71 @@
+type: Organization
+id: 01M6A2JTHW1SEYHG9JVK41V6QM
+name:
+  pt: Grupo de Capoeira Angola Pelourinho
+aka:
+  pt: GCAP
+orgType: orgclass:association
+hasSite:
+  - location:
+      label: Rio de Janeiro
+      countryCode: eucountry:BRA
+      wikidata: wd:Q8678
+    sitePeriod:
+      startYear: 1980
+    hasEvidence:
+      - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+        quotation: >-
+          In October 1980, M.Moraes, now working as a security guard for the underground, founded
+          the Grupo de Capoeira Angola Pelourinho
+        locator: '183'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - location:
+      label: Salvador, Bahia
+      countryCode: eucountry:BRA
+      wikidata: wd:Q36947
+    sitePeriod:
+      startYear: 1982
+    hasEvidence:
+      - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+        quotation: >-
+          Moraes and his top student Cobra Mansa (Cinésio Feliciano Peçanha, graduated mestre in
+          1984) moved to Salvador in 1982.
+        locator: '183'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1980-10'
+  location:
+    label: Rio de Janeiro
+    countryCode: eucountry:BRA
+    wikidata: wd:Q8678
+  founder:
+    - 01M6A2JTJ4B29S1H8MXTWFG6S5
+  hasEvidence:
+    - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+      quotation: >-
+        In October 1980, M.Moraes, now working as a security guard for the underground, founded the
+        Grupo de Capoeira Angola Pelourinho
+      locator: '183'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Capoeira Angola group founded by Mestre Moraes in Rio de Janeiro in 1980 and based in Salvador
+    from 1982, central to the revival of capoeira Angola and linked to the Black Movement.
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    locator: '182-185'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - capoeira

@@ -1,0 +1,14 @@
+# Sources nothing cites, contains, supersedes, transmits or specializes. Not wrong in
+# itself - a newly added source may not be cited yet - but a growing
+# count is worth a curator's attention.
+PREFIX martialis: <https://w3id.org/martialis/ontology#>
+PREFIX schema: <https://schema.org/>
+SELECT ?title ?source WHERE {
+  ?source a martialis:Source .
+  OPTIONAL { ?source schema:name ?title }
+  FILTER NOT EXISTS { ?ev martialis:basedOnSource ?source }
+  FILTER NOT EXISTS { ?t  martialis:transmissionDocument ?source }
+  FILTER NOT EXISTS { ?e  martialis:editionOfSource ?source }
+  FILTER NOT EXISTS { ?i  martialis:partOf ?source }
+  FILTER NOT EXISTS { ?s  martialis:specializationOf ?source }
+} ORDER BY ?title

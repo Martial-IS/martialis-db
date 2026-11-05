@@ -1,0 +1,75 @@
+type: Person
+id: 01M5JVVMHM3CQNAKVH0VG9YB12
+name:
+  en: Evan Lewis
+aka:
+  en:
+    - Strangler Lewis
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1860-05-24'
+  hasEvidence:
+    - basedOnSource: 01M5JVVMHMPDWSVSTZFDW5A0NP
+      quotation: >-
+        Evan Lewis (May 24, 1860 – November 3, 1919) was an American professional wrestler who was the
+        first recognized American Heavyweight Champion
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1919-11-03'
+  hasEvidence:
+    - basedOnSource: 01M5JVVMHMPDWSVSTZFDW5A0NP
+      quotation: >-
+        Evan Lewis (May 24, 1860 – November 3, 1919) was an American professional wrestler who was the
+        first recognized American Heavyweight Champion
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    American catch wrestler, "Strangler" Lewis, the first recognised American heavyweight champion and
+    known for the stranglehold.
+hasHonorAssertion:
+  - id: 01M5JVVMHMCB4Y8S083KZTA4RP
+    honorValue: American Heavyweight Champion
+    honorType: honortype:title
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasEvidence:
+      - basedOnSource: 01M5JVVMHMPDWSVSTZFDW5A0NP
+        quotation: >-
+          Evan Lewis (May 24, 1860 – November 3, 1919) was an American professional wrestler who was the
+          first recognized American Heavyweight Champion
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      In North America, prominent turn-of-the-century wrestlers included Evan “Strangler” Lewis
+      (1860–1919), Martin “Farmer” Burns (1861–1937), Tom Jenkins (1872–1957), and Frank Gotch
+      (1878–1917).
+    locator: '492'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q5415458
+tags:
+  - wrestling
+  - catch-wrestling
+  - professional-wrestling
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/3/3b/Evan_Lewis.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Evan_Lewis.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary

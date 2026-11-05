@@ -1,0 +1,78 @@
+type: Organization
+id: 01KZ6D9E8QRMCDD00NXGBV45Z6
+name:
+  en: TenChi Aikido Clubs Association
+  pt: Associação de Clubes de Aikido TenChi
+aka:
+  en: ACAT
+  pt: ACAT
+orgType: orgclass:association
+hasSite:
+  - location:
+      label: Cascais
+      countryCode: eucountry:PRT
+      wikidata: wd:Q273059
+hasAffiliationAssertion:
+  - id: 01M3YH7N5FKDWDD4CCHGJXN2FJ
+    relatedOrganization: 01KZ4CF8P1Z2J7MW1VN5MHW4W2
+    affiliationRelation: affrel:member_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The tenchi.pt site and the FPA's own history page both state the affiliation; the FPA's live
+        dojo-by-association registry independently lists ACAT-branded dojos, confirming it from the
+        federation's administrative records rather than its own narrative history
+    hasEvidence:
+      - basedOnSource: 01KXTSQXW5H2G5FMTP0RTYT0X9
+        quotation: A ACAT - Associação de CLubes Aikido Tenchi está filiada na Federação Portuguesa de Aikido.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+        quotation: O Aikido do Mestre Stobbaerts é representado na FPA pela "Associação de Clubes de Aikido TenChi - ACAT".
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M3FJ8M0A65C32F3WR2DQ9D6C
+        quotation: ACAT-Clube de Aikido Tenchi Sintra
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5FNYMXZC98569ESN3V
+    relatedOrganization: 01KZ3KA57C6W6FMCWM668Y13X2
+    affiliationRelation: affrel:recognised_by
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The tenchi.pt site states the recognition; the Aikikai Foundation's own overseas-organization
+        list independently names Associacao Clubes Aikido TenChi under Portugal
+    hasEvidence:
+      - basedOnSource: 01KXTSQXW5H2G5FMTP0RTYT0X9
+        quotation: >-
+          A ACAT é uma organização reconhecida pela Aikikai Foundation - The Aikido World Headquarters
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M3FJ8M0AN3NW5P5PQ98N8GY2
+        quotation: Associacao Clubes Aikido TenChi
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+website: https://tenchi.pt/
+description:
+  en: The Associação de Clubes de Aikido TenChi (ACAT) is the Portuguese association representing the dojos of the TenChi school founded by Georges Stobbaerts. It is affiliated with the Federação Portuguesa de Aikido (FPA), which is the body through which Stobbaerts' aikido is represented within the federation, and is recognized by the Aikikai Foundation.
+  pt: A Associação de Clubes de Aikido TenChi (ACAT) é a associação portuguesa que representa os dojos da escola TenChi fundada por Georges Stobbaerts. Está filiada na Federação Portuguesa de Aikido (FPA), através da qual o Aikido de Stobbaerts é representado na federação, e é reconhecida pela Fundação Aikikai.
+hasEvidence:
+  - basedOnSource: 01KXTSQXW5H2G5FMTP0RTYT0X9
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - aikido
+  - tenchi
+  - portugal

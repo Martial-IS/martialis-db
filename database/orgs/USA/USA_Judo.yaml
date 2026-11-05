@@ -1,0 +1,36 @@
+type: Organization
+id: 01M4X6GT6AHJ4SX0QFGANTSB7J
+name:
+  en: USA Judo
+aka:
+  en:
+    - United States Judo, Inc.
+orgType: orgclass:federation
+hasSite:
+  - location:
+      label: Colorado Springs, Colorado
+      countryCode: eucountry:USA
+logo:
+  contentUrl: https://res.cloudinary.com/usopc-prod/image/upload/q_auto/f_auto/dpr_2.0/v1/NGB%20Judo/Logos%20and%20Icons/judo_logo?_a=DAJKG5E+ZAA0
+  imageAttribution:
+    uri: https://www.usajudo.com/
+    cite: USA Judo
+website: https://www.usajudo.com/
+description:
+  en: National governing body for judo in the United States, with its national office at the U.S. Olympic Training Center in Colorado Springs.
+hasEvidence:
+  - uri: https://en.wikipedia.org/wiki/USA_Judo
+    cite: USA Judo - Wikipedia
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://www.usajudo.com/
+    cite: USA Judo
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q17028919
+tags:
+  - judo
+  - federation

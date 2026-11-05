@@ -1,0 +1,208 @@
+type: Person
+id: 01KZBJ73N3JHCD166DR1QCC919
+name:
+  ja-Latn: Mochizuki Hiroo
+  ja: 望月 寛雄
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1936-03-21'
+  birthPlace:
+    label: Shizuoka
+    countryCode: eucountry:JPN
+    wikidata: wd:Q174691
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/8/8b/Hiroo_MOCHIZUKI.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    cite: "DREOF, Wikimedia Commons"
+    uri: https://commons.wikimedia.org/wiki/File:Hiroo_MOCHIZUKI.jpg
+    basedOnSource: 01KZBJ73N3HV8FDN2D0T08TM5Q
+    informationType: infotype:secondary
+description:
+  en: Japanese-French martial artist, son of Minoru Mochizuki and creator of Yoseikan Budo. First Japanese
+    to present karate in Europe (France, 1957) and first holder of a 10th dan of karate in France. Veterinary
+    surgeon by training (Nihon Daigaku, 1962). Received the soke title of the Yoseikan school from his
+    father in 2000.
+hasTeacherAssertion:
+- id: 01M3YH7N5GF7CBC8NNTD0ABP34
+  teacher: 01KJJAWN28MWKKSN4J02MVY1TX
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Son and principal student of Minoru Mochizuki, who taught him kendo, judo, aikido
+      and kobudo from a young age; the 1987 Karaté-Bushido interview names him as the one perpetuating
+      the teaching alongside Floquet
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KZ9TQS3VJAGB2K76GHG8FWSX
+    hasEvidence:
+    - basedOnSource: 01KZ9TQS3VNHWPHTJCAKYNERW6
+      quotation: Outre, bien sûr, mon fils, Hiroo Mochizuki, je considère Alain Floquet comme celui qui
+        perpétue mon enseignement.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZBJ73N3NAN91P9EB0427C0V
+      quotation: Hiroo Mochizuki commence le kendo, puis le judo, l'aïkido et le Kobudo avec son père.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GXB6G62DRFJSV78G9
+  teacher: 01KJJAWN28MWKKSN4J02MVY1TV
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The fr Wikipedia article states Hiroo studied directly with Ueshiba, whom he
+      considered the model of a budo master
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZBJ73N3NAN91P9EB0427C0V
+      quotation: Il étudie lui-même directement avec Ōsensei Ueshiba qu'il considère comme le modèle même
+        du maître de budō
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GEW4YR5XYRPHN1CM7
+  teacher: 01KZC19BDC541MVC7EEAMK7R0P
+  assertedStyle: 01KZC19BDCZ4W748REDE7C8R9K
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The fr Wikipedia article records Hiroo's enrichment of his practice with Wado-ryu
+      studied under Shinji Michihara and, to a lesser extent, Hironori Otsuka; the Wado-ryu Wikipedia
+      article lists Hiroo among notable practitioners
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZBJ73N3NAN91P9EB0427C0V
+      quotation: À son retour, il enrichit sa pratique avec du karaté Wado-ryu (étudié auprès des maîtres
+        Shinji Michihara et, dans une moindre mesure, Hironori Otsuka)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZC19BDCMBAKPJV1WMSVN2FA
+      quotation: Wadō-ryū [...] Notable practitioners [...] Hiroo Mochizuki
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GE1TQXZFN12ASGPNE
+  rankStyle: 01KJJAWN29MA64W22606R3WD9S
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 10
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: fr Wikipedia infobox lists 10e dan de karaté and notes he was the first to obtain
+      it in France
+  hasEvidence:
+  - basedOnSource: 01KZBJ73N3NAN91P9EB0427C0V
+    quotation: il fut le premier à obtenir le 10e dan de karaté en France
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5GNHQHV9KF8VVAPYZE
+  rankStyle: 01KJJAWN29MA64W22606R3WD9R
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 8
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Rank listed in the fr Wikipedia infobox
+  hasEvidence:
+  - basedOnSource: 01KZBJ73N3NAN91P9EB0427C0V
+    quotation: 10e dan de karaté, 8e dan d'aïkido, 8e dan de jujitsu, 7e dan de iaidō, 3e dan de judo
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5G3879YEHJY78FX0JQ
+  rankStyle: 01KJJAWN29MA64W22606R3WD9G
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 8
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Rank listed in the fr Wikipedia infobox
+  hasEvidence:
+  - basedOnSource: 01KZBJ73N3NAN91P9EB0427C0V
+    quotation: 10e dan de karaté, 8e dan d'aïkido, 8e dan de jujitsu, 7e dan de iaidō, 3e dan de judo
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5GXMRDDP64YDFQZ040
+  rankStyle: 01KZ6XT5DS0JHX51MN07878ERB
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 7
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Rank listed in the fr Wikipedia infobox
+  hasEvidence:
+  - basedOnSource: 01KZBJ73N3NAN91P9EB0427C0V
+    quotation: 10e dan de karaté, 8e dan d'aïkido, 8e dan de jujitsu, 7e dan de iaidō, 3e dan de judo
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5G2DM62DEFBVRJBA41
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 3
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Rank listed in the fr Wikipedia infobox
+  hasEvidence:
+  - basedOnSource: 01KZBJ73N3NAN91P9EB0427C0V
+    quotation: 10e dan de karaté, 8e dan d'aïkido, 8e dan de jujitsu, 7e dan de iaidō, 3e dan de judo
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZBJ73N3NAN91P9EB0427C0V
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZBJ73N380W3DH33JYQDS8QY
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZBJ73N3F4Y4BQM7KH0VK1VH
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KXTSQXW6P83R31HCRY2PRTBG
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+notes: '- Introduced karate to France in 1957, teaching Shotokan at Henry Pleé''s dojo via Jim Alcheik;
+  returned to Japan in December 1958 to finish veterinary studies (diploma 1962); sent again to France
+  by his father in 1963, where he introduced Wado-ryu and also taught aikido. - Studied Shotokan karate
+  in Tokyo and later Wado-ryu with Shinji Michihara and, to a lesser extent, Hironori Otsuka (see the
+  teachers list; Michihara has no Person entry yet). - 1964 first technical advisor of the aikido and
+  karate sections of the FFJDA; participated in the creation of the FFKAMA and of the European Karate
+  Union in 1965. - In 1965 began developing a new method initially named YOKEN, later renamed Yoseikan
+  Budo in homage to his father; the French federation was created in 1975, the Centre international du
+  Yoseikan Budo in 1978, and the World Yoseikan Federation (WYF) in 1997. - In 2000, at the WYF summer
+  stage at Saintes-Maries-de-la-Mer, received the soke title of the Yoseikan school written by his 93-year-old
+  father (non-hereditary), becoming the sole moral head of the school worldwide; opened the Hiroo Mochizuki
+  Center (HMC) in Salon-de-Provence in 2012. - His sons Mitchi-Hito and Kyoshi continue the art (6th dan each, per the fr Wikipedia Yoseikan budo article). - The UK federation
+  site gives his karate grade as 9th dan while the fr Wikipedia infobox says 10th dan; the fr Wikipedia
+  figure is used in the rank entries.'
+sameAs:
+- wd:Q1557756
+- viaf:208888894
+- isni:0000000139380344
+tags:
+- yoseikan-budo
+- karate
+- france
+- japan

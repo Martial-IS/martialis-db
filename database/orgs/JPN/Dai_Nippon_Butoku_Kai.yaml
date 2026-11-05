@@ -1,0 +1,118 @@
+type: Organization
+id: 01KJJAWN29MA64W22606R3WD7Y
+name:
+  ja-Latn: Dai Nippon Butoku Kai
+  ja: 大日本武徳会
+  en: Greater Japan Martial Virtue Society
+hasSite:
+  - location:
+      label: Kyoto
+      countryCode: eucountry:JPN
+      wikidata: wd:Q34600
+foundedEvent:
+  startDate: '1895-04-17'
+  dateOriginal: April 17, 1895 (Meiji 28)
+  dateCalendar: datecal:japanese_nengo
+  founder:
+    - 01M37HHSSM41F8Y73PPQS399Z5
+    - 01M37HHSSM1K28E1JXBN73YTJ4
+  hasEvidence:
+    - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+      quotation: The Butokukai was the brainchild of Torinoumi Koki (1849-1914), a Kyoto tax collector with a proclivity for the martial arts.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+      quotation: The men met for the first time on April 3, 1895, and a general assembly was convened shortly thereafter, on April 17
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M325EAQG9QGASTMK8JQ8ET9T
+      quotation: originally established in 1895 in Kyoto
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+dissolvedEvent:
+  endDate: '1946-11-09'
+  dateOriginal: 昭和21年11月9日
+  dateCalendar: datecal:japanese_nengo
+  dissolutionManner: dissmanner:suppressed
+  dissolutionReason: >-
+    Dissolved by order of the Allied occupation in 1946; its property was confiscated and more than 1,300 of its leaders were purged in the years that followed.
+  hasEvidence:
+    - basedOnSource: 01M325EAQG9QGASTMK8JQ8ET9T
+      quotation: In 1946, due to its association with the Japanese Military during wartime, the GHQ dissolved the DNBK.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M4R9845W6SA4ZV971B7JXFR6
+    officer: 01M37HHSSM1RK7WW2SNB28JZB7
+    officerTitle: Superintendent
+    officerPeriod:
+      startYear: 1895
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One authored history.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: The successful appointment of Prince Komatsu-no-Miya Akihito on May 28, 1895, as superintendent of the organization gave it the powerful legitimacy of imperial benefaction.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M4R9845WED3AD3NJ8DTE6XC2
+    officer: 01M377JZDNZE0QK5A178X0B9YB
+    officerTitle: Vice-president
+    officerPeriod:
+      startYear: 1919
+    notes: Bennett gives the year of appointment and has him still in post when the terminology changed from kenjutsu to kendō. He also became principal of the Bujutsu Vocational College in the same year, which is not recorded here because that college is modelled as a Place and a principal is not an instructor.
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One authored history.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: In 1919, he was assigned the position of Dai-Nippon Butokukai vice president and Bujutsu Vocational College principal.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M4R9845WWVHPXH76P1HPNA25
+    officer: 01M3788RSRSPEK54YD52RZ520J
+    officerTitle: President
+    officerPeriod:
+      endYear: 1946
+    notes: Bennett calls him the incumbent president in 1946; the start of his term is not given. The end year is the Butokukai's own dissolution in 1946, not stated in the quotation itself.
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One authored history.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: The incumbent president of the Butokukai, Fujinuma Shohei (1883-1962), sent a report to SCAP's Civil Intelligence Section
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    The Greater Japan Martial Virtue Society, the largest martial arts organization in Japan before the Second World War, established in Kyoto on 1895-04-17; its first president was Imperial Prince Komatsunomiya Akihito. By the 1930s it had been turned from a public into a private organization and had lost its authority to govern all martial arts organizations in Japan. The GHQ dissolved it in 1946, and more than 1,300 of its leaders were purged in the following years.
+  ja: >-
+    1895年（明治28年）4月17日、京都に設立された戦前日本最大の武道団体。初代会長は小松宮彰仁親王。1930年代には 公的機関から民間団体となり、武道界全体を統轄する権限を失った。1946年にGHQにより解散され、1,300人以上の 幹部が公職追放となった。
+hasEvidence:
+  - basedOnSource: 01M325EAQG9QGASTMK8JQ8ET9T
+    quotation: originally established in 1895 in Kyoto
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M325EAQG9QGASTMK8JQ8ET9T
+    quotation: In 1946, due to its association with the Japanese Military during wartime, the GHQ dissolved the DNBK.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q1158447
+tags:
+  - martial-arts
+  - organization
+  - traditional
+orgType: orgclass:governing_body

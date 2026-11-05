@@ -1,0 +1,63 @@
+type: Style
+id: 01M5JVVMHMFHYCQ6DTVZKM3Y5N
+name:
+  en: Cumberland and Westmorland wrestling
+aka:
+  en:
+    - Backhold wrestling
+    - Cumbrian wrestling
+    - North Country style
+styleType: styleclass:traditional
+hasStyleRelationAssertion:
+  - id: 01M5JVVMHMSYXCRC343E3TV3EK
+    relatedStyle: 01KYJ39BQPQ7JTTDQ3B36PZQQN
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Cumberland and Westmorland (more correctly called backhold) is an example of a folk-style
+          wrestling art that remains popular to this day.
+        locator: '471'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JVVMHMB954N3DWAPH3NNV2
+        quotation: >-
+          Cumberland and Westmorland wrestling, commonly known as Cumberland wrestling or Cumbrian
+          wrestling, is an ancient and well-practised tradition in the traditional English counties of
+          Cumberland and Westmorland.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Folk wrestling of the north of England and Scotland, begun from a locked "backhold" in which the first
+    to break his hold or touch the ground loses; trips and "hypes" are the main throws. Weight classes
+    began about 1820.
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Backhold is indigenous to Britain north of Yorkshire.
+    locator: '471'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q5193986
+tags:
+  - wrestling
+  - folk-wrestling
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/8/8b/Cumberland_Wrestling_at_the_Cumberland_Show_-_June_2017_%283%29_-_geograph.org.uk_-_5431346.jpg
+    rights: mediarights:cc-by-sa-2.0
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:Cumberland_Wrestling_at_the_Cumberland_Show_-_June_2017_(3)_-_geograph.org.uk_-_5431346.jpg
+      cite: "The Carlisle Kid, Wikimedia Commons"
+      informationType: infotype:secondary

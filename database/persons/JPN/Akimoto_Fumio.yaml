@@ -1,0 +1,41 @@
+type: Person
+id: 01M5HNGWYJKW6419ECBRAJVQV3
+name:
+  ja-Latn: Akimoto Fumio
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+description:
+  en: >-
+    Japanese martial artist (1894–1962), one of the small group of disciples to whom Takamatsu
+    Toshitsugu entrusted the transmission of his traditions.
+hasTeacherAssertion:
+  - id: 01M5HNGWYJZJ8XQ0YPJ1QM532R
+    teacher: 01M5H4EE3XRVW4V7X8DV729BHS
+    assertedStyle: 01M5H4EE3XTQ71T3X541Y6MZYJ
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Takamatsu taught the martial traditions he inherited to many others, and eventually he
+              entrusted their transmission to a small group of disciples, to include Akimoto Fumio
+              (1894–1962)
+            locator: '170'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: '170'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - ninjutsu

@@ -1,0 +1,39 @@
+type: Person
+id: 01M5H483CZZVZ5C3P6FET5CCD9
+name:
+  en: Eyal Yanilov
+nationality:
+  - countryCode: eucountry:ISR
+    wikidata: wd:Q801
+description:
+  en: Krav maga instructor, one of Eli Avikzar's earliest students; co-founded the International Krav Maga Federation in 1996.
+hasTeacherAssertion:
+  - id: 01M5H483CZ26W98J1EFB7V435X
+    teacher: 01M5H483CZB3Y23DPZY78APKY0
+    assertedStyle: 01M5H483CZK87194M0J1ZNG9F8
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: while Yanilov was among Eli Avikzar’s earliest students.
+            locator: '586'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: and in 1996 Eyal Yanilov and others established International Krav Maga Federation.
+    locator: '586'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q918922
+tags:
+  - krav-maga

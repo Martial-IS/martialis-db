@@ -1,0 +1,84 @@
+type: Place
+id: 01M39T3RX21HMXSR1QPWGJCEVH
+name:
+  fr: Judo-Club d'Angoulême
+placeType: placeclass:club
+hasSite:
+- location:
+    label: Angoulême
+    countryCode: eucountry:FRA
+    wikidata: wd:Q131600
+foundedEvent:
+  founder:
+  - 01M39T3H2EDMQ9AKZB25RVS5S0
+  hasEvidence:
+  - basedOnSource: 01M00NPBTPWWBSJZRMYXBESJ97
+    quotation: Un des premiers clubs du sud-ouest, le Judo-Club d'Angoulême, est créé par le Professeur
+      André Nocquet, élève 1er dan de Mikinosuke Kawaishi, qui anime des entraînements rassemblant une
+      dizaine de pratiquants.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasInstructorRole:
+- id: 01M4R9845WQ9N9T6CTY52JHZK7
+  instructor: 01M39T3H2EDMQ9AKZB25RVS5S0
+  instructorCapacity: instrcap:head_instructor
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: One authored thesis.
+  hasEvidence:
+  - basedOnSource: 01M00NPBTPWWBSJZRMYXBESJ97
+    quotation: Un des premiers clubs du sud-ouest, le Judo-Club d'Angoulême, est créé par le Professeur
+      André Nocquet, élève 1er dan de Mikinosuke Kawaishi, qui anime des entraînements rassemblant une
+      dizaine de pratiquants.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M4R9845WGWJ0T0Y156J399DQ
+  instructor: 01M39T3H2E9BXZ6TA5Q0GM87YA
+  instructorCapacity: instrcap:head_instructor
+  notes: Took over when Nocquet left the department; check whether he is the same Albert Marx already
+    active in French judo administration.
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: One authored thesis.
+  hasEvidence:
+  - basedOnSource: 01M00NPBTPWWBSJZRMYXBESJ97
+    quotation: Lorsqu'André Nocquet quitte le département, Albert Marx et Henri Mennessier (ceintures
+      bleues), ses élèves, prennent la direction du club et assurent son développement.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M4R9845W295Q8HEQHEWKCRR4
+  instructor: 01M39T3H2EWV64RMVKMKCD3187
+  instructorCapacity: instrcap:head_instructor
+  instructorPeriod:
+    endYear: 1948
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: One authored thesis.
+  hasEvidence:
+  - basedOnSource: 01M00NPBTPWWBSJZRMYXBESJ97
+    quotation: Lorsqu'André Nocquet quitte le département, Albert Marx et Henri Mennessier (ceintures
+      bleues), ses élèves, prennent la direction du club et assurent son développement.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  fr: Un des premiers clubs de judo du Sud-Ouest, créé par André Nocquet, 1er dan élève de Mikinosuke
+    Kawaishi. Repris par ses élèves Albert Marx et Henri Mennessier (ceintures bleues) lorsque Nocquet
+    quitta le département.
+hasEvidence:
+- basedOnSource: 01M00NPBTPWWBSJZRMYXBESJ97
+  quotation: Un des premiers clubs du sud-ouest, le Judo-Club d'Angoulême, est créé par le Professeur
+    André Nocquet, élève 1er dan de Mikinosuke Kawaishi, qui anime des entraînements rassemblant une
+    dizaine de pratiquants.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- judo
+- france

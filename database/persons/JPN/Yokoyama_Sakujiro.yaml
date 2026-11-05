@@ -1,0 +1,113 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD7H
+name:
+  ja-Latn: Yokoyama Sakujiro
+  ja: 横山 作次郎
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1864'
+  birthPlace:
+    label: Tokyo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1490
+deathEvent:
+  deathDate: '1912-09-23'
+  deathPlace:
+    label: Japan
+    countryCode: eucountry:JPN
+    wikidata: wd:Q17
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Yokoyama-Sakujiro.jpg/250px-Yokoyama-Sakujiro.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    cite: "Cesare Barioli, Wikimedia Commons"
+    uri: https://commons.wikimedia.org/wiki/File:Yokoyama-Sakujiro.jpg
+    basedOnSource: 01KXTSQXW6P83R31HCRY2PRTCH
+    informationType: infotype:secondary
+description:
+  en: Yokoyama Sakujirō was one of the earliest disciples of Kanō Jigorō and one of the Kodokan Shitennō (Four Guardians of the Kodokan). He was known as "Demon Yokoyama" for his violent fighting style and harsh training methods.
+  ja: 横山 作次郎は、嘉納治五郎の最初期の弟子の一人で、講道館四天王の一人。その荒々しい戦い方と厳しい稽古方法から「鬼横山」と呼ばれた。
+hasTeacherAssertion:
+  - id: 01M3YH7N5GMTSAEF28K373J3XV
+    teacher: 01KJJAWN28MWKKSN4J02MVY1S1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia and Kanō's own memoirs state it.
+    role: teachrole:student
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+        interactionPeriod:
+          startYear: 1886
+        hasEvidence:
+          - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTCJ
+            informationType: infotype:secondary
+            supports: true
+            quotation: Yokoyama Sakujirō [...] was one of the earliest disciples of Kanō Jigorō.
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTCK
+            informationType: infotype:secondary
+            supports: true
+            quotation: 1886年（明治19年）、23歳、4月に嘉納治五郎の講道館に入門。
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+            quotation: >-
+              Those who were specializing in judo included Shiro Saigo, Yoshitsugu Yamashita, Sakujiro Yokoyama
+            locator: '48'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GRC3N2CA9H3QJE998
+    teacher: 01KJJAWN28MWKKSN4J02MVY1S2
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9Q
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Historical records indicate Yokoyama trained in Tenjin Shin'yō-ryū jujutsu before joining Kodokan; specific teacher and dojo mentioned in reliable sources.
+    role: teachrole:student
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD88
+        hasEvidence:
+          - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTCJ
+            informationType: infotype:secondary
+            supports: true
+            quotation: >-
+              He trained in Tenjin Shin'yō-ryū jujutsu under Keitaro Inoue in the Yushima Tenjin dojo
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTCK
+            quotation: 井上敬太郎（道場は湯島天神下）に天神真楊流を学んだ。
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GSPRV23XX8YBRH6HZ
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 8
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Posthumously awarded 8th dan rank; well-documented in Japanese Wikipedia and historical records as one of the highest ranks awarded to early Kodokan practitioners.
+    hasEvidence:
+      - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTCK
+        informationType: infotype:secondary
+        supports: true
+        quotation: 段位は八段（没後追贈）
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTCK
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTCJ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3276775
+  - dbr:Yokoyama_Sakujiro

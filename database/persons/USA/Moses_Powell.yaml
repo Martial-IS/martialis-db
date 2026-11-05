@@ -1,0 +1,57 @@
+type: Person
+id: 01M5HN921C1C13E9X9EMSVSYD0
+name:
+  en: Moses Powell
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+description:
+  en: >-
+    African American martial artist (1941–2005) of New York who founded Sanuces Ryu in 1959, a street
+    self-defence system; he trained the Nation of Islam's Fruit of Islam.
+hasTeacherAssertion:
+  - id: 01M61T316BH849Z2FQ5H1NQZH3
+    teacher: 01M61T316B2V4HPXR1DTBP1D9E
+    assertedStyle: 01M61T316BBXSAAMTERKVVD7YA
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        English Wikipedia, Black America Web and Tetsunami each name Visitacion as his teacher.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M61T316BVVKZT259RK3MJA71
+            quotation: >-
+              Powell studied under Professor Florendo M. Visitacion (Professor Vee) in his Vee Jitsu
+              syncretic martial art
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M61T316BBE82DJ06DSMQPQSF
+            quotation: >-
+              While living in Harlem, New York, Powell encountered Filipino martial arts instructor
+              Florendo Visitacion, better known as Professor Vee, Powell became so adept at the fighting
+              system that he was training far more advanced students although he was just a green belt.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M61T316B6R6PY55Y584SWA1Q
+            quotation: >-
+              The Jujutsu techniques were provided by Powell's main instructor, Florendo Visitacion (known
+              as Professor V), founder of Vee-Jitsu.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: Moses Powell (1941–2005) established what would become Sanuces Ryu in 1959.
+    locator: '628'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q15987727
+tags:
+  - jujutsu

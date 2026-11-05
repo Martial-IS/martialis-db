@@ -1,0 +1,93 @@
+type: Person
+id: 01KYDB2SWD03GXNMZRTV6TP5W6
+name:
+  en: Jesse Glover
+aka:
+  en:
+  - Jesse Raymond Glover
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+birthEvent:
+  birthDate: '1935-10-15'
+  birthPlace:
+    label: United States
+    countryCode: eucountry:USA
+    wikidata: wd:Q30
+  hasEvidence:
+  - basedOnSource: 01KYDB2SW98Q66TJ6VRAE85XWW
+    quotation: >-
+      Jesse Raymond Glover (October 15, 1935 – June 27, 2012)
+    cite: Jesse Glover (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2012-06-27'
+  hasEvidence:
+  - basedOnSource: 01KYDB2SW98Q66TJ6VRAE85XWW
+    quotation: >-
+      Jesse Raymond Glover (October 15, 1935 – June 27, 2012)
+    cite: Jesse Glover (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://darkwingchun.wordpress.com/wp-content/uploads/2012/06/jesse-glover.jpg
+  imageAttribution:
+    uri: https://darkwingchun.wordpress.com/2012/06/27/death-of-a-gung-fu-master-jesse-glover/
+    cite: "Dark Wing Chun (blog)"
+    informationType: infotype:secondary
+description:
+  en: 'Jesse Glover (1935–2012) was an African-American martial artist and Bruce Lee''s first student.
+    He met Lee in 1959 at Edison Technical College in Seattle. He wrote the memoir ''Bruce Lee: Between
+    Wing Chun and Jeet Kune Do'' and was a champion judoka.'
+hasTeacherAssertion:
+- id: 01M3YH7N5GRZP341PYE34ZQTPC
+  teacher: 01KYD5XMNMNAG3CPC17GKACPW0
+  assertedStyle: 01KYD5XSZPND9XV5FHYG9V0ZV6
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Extensively documented as Bruce Lee's first student, meeting in 1959 in Seattle;
+      Glover's own memoir confirms this
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1959
+      endYear: 1963
+    hasEvidence:
+    - basedOnSource: 01KYDB2SW98Q66TJ6VRAE85XWW
+      cite: Jesse Glover (Wikipedia EN)
+      quotation: He was Bruce Lee's first student. He met Lee in 1959, as they both attended Edison Technical
+        College
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KYD5XMNMC3D3DST96C876VKM
+      cite: 'Maeda (2022) - Like Water: A Cultural History of Bruce Lee'
+      locator: '99'
+      locatorLabel: page
+      quotation: >-
+        It is understandable that when Jesse Glover approached Bruce about becoming his first student, Bruce
+        began by teaching Glover Wing Chun.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KYDB2SW98Q66TJ6VRAE85XWW
+  cite: Jesse Glover (Wikipedia EN)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KYD5XMNMC3D3DST96C876VKM
+  cite: 'Maeda (2022) - Like Water: A Cultural History of Bruce Lee'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q999092
+tags:
+- jeet-kune-do
+- jun-fan-gung-fu
+- first-student

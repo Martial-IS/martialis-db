@@ -1,0 +1,46 @@
+type: Organization
+id: 01KYMEA0X553XQW87Y65T7P0V1
+name:
+  en: Strategic Air Command
+aka:
+  en:
+    - SAC
+orgType: orgclass:other
+hasSite:
+  - location:
+      label: Offutt Air Force Base
+      countryCode: eucountry:USA
+      wikidata: wd:Q1636881
+foundedEvent:
+  startDate: '1946-03-21'
+  hasEvidence:
+    - basedOnSource: 01M5B1B0PQJ9SMHFMQMD6VEDPS
+      quotation: >-
+        Strategic Air Command was originally established in the U.S. Army Air Forces on 21 March 1946
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+dissolvedEvent:
+  endDate: '1992'
+  dissolutionManner: dissmanner:superseded
+  hasEvidence:
+    - basedOnSource: 01M5B1B0PQJ9SMHFMQMD6VEDPS
+      quotation: >-
+        In 1992, as part of an overall post-Cold War reorganization of the U.S. Air Force, SAC was disestablished as both a Specified Command and as a MAJCOM.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+  - uri: https://www.usja.net/about/ourhistory
+    cite: History of the USJA
+    quotation: >-
+      the Strategic Air Command set up a physical conditioning unit at Offutt Air Force Base in Omaha, Nebraska, home of SAC
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q646145
+tags:
+  - us-air-force
+  - military
+  - judo

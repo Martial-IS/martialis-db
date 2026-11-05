@@ -1,0 +1,121 @@
+type: Person
+id: 01M0SP452BC39YXQXP4515YNFW
+name:
+  en: Masakatsu Morita
+  ja-Latn: Morita Masakatsu
+  ja: 森田必勝
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1945-07-25'
+  birthPlace:
+    label: Yokkaichi
+    countryCode: eucountry:JPN
+    wikidata: wd:Q26410
+  hasEvidence:
+  - basedOnSource: 01M0SP452BGHMH4VPPG3KHFM9P
+    quotation: Masakatsu Morita (森田 必勝, Morita Masakatsu; 25 July 1945 – 25 November 1970) was a Japanese
+      political activist who killed himself via seppuku with Yukio Mishima in Tokyo.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1970-11-25'
+  deathPlace:
+    label: Tokyo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1490
+  hasEvidence:
+  - basedOnSource: 01M0SP452BGHMH4VPPG3KHFM9P
+    quotation: Masakatsu Morita (森田 必勝, Morita Masakatsu; 25 July 1945 – 25 November 1970) was a Japanese
+      political activist who killed himself via seppuku with Yukio Mishima in Tokyo.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: Japanese right-wing student activist, first-generation member of the Tatenokai and its second student
+    president. Born in Yokkaichi and orphaned in early childhood, he was educated at the Catholic Kaisei
+    schools and entered Waseda University in 1966, joining its karate club; he met Mishima on 19 June
+    1967 through the Nichigakudo student league and joined the Tatenokai at its establishment in October
+    1968, taking part in the first GSDF experience-enlistment camp at Takigahara. As one of the society's
+    elite nine-man "kesshitai" he learned iai from May 1969 - practising at the Itabashi police station
+    dojo and the Saineikan - and was given a nihonto by Mishima; with the society's core group he also
+    trained in karate under Nakayama Masatoshi at the Japan Karate Association. Appointed student president
+    in October 1969, he accompanied Mishima into the Ichigaya garrison on 25 November 1970 and died by
+    seppuku after him, his kaishaku performed by Hiroyasu Koga.
+hasTeacherAssertion:
+- id: 01M3YH7N5G34EEMV8VQ6HFY6A2
+  teacher: 01KYYVEV2M51X3PGZ78QFDZBRZ
+  assertedStyle: 01KYFZEGYN107JYC5K1539R8JM
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      The Tatenokai article states that from autumn 1968 about ten core members began karate under
+      Nakayama Masatoshi's instruction; Morita was a first-generation core member, but the article does
+      not itemise the ten names, hence probable rather than confirmed.
+  hasInteraction:
+  - interactionPlace: 01KYYYTTW3Y75SK72Z4J0N1DZN
+    interactionPeriod:
+      startYear: 1968
+      endYear: 1970
+    hasEvidence:
+    - basedOnSource: 01M0SP452BFX8WR48355Y9X1FM
+      quotation: この秋から主要会員約10名が中山正敏の指導で空手の稽古を始めた。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M0SP452BGHMH4VPPG3KHFM9P
+      quotation: He first met Mishima on 19 June 1967, and joined the Tatenokai at its establishment in
+        October 1968.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GE1X1QBR760HXPRDR
+  assertedStyle: 01KZ6XT5DS0JHX51MN07878ERB
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Both the Tatenokai and Morita articles state that on Mishima's instructions seven-eight senior
+      members began learning iai in May 1969 and that Morita was among the nine-man kesshitai each given
+      a sword; the individual instructor is not named.
+  hasInteraction:
+  - interactionPlace: 01M0R2X2AC5JNBDW40VFS3JW52
+    interactionPeriod:
+      startYear: 1969
+      endYear: 1970
+    hasEvidence:
+    - basedOnSource: 01M0SP452BFX8WR48355Y9X1FM
+      quotation: 幹部級の7、8名に居合を習わせ始め、板橋警察署の道場や皇宮警察の済寧館で稽古を行ない始めた。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M0SP452B5FK559YHQKQ4A2Q3
+      quotation: 同年5月頃から、三島の指示により楯の会の7、8名が居合を習い始め、9名に日本刀が渡され、持丸博、倉持清、小川正洋、小賀正義らと並んで、必勝もその「決死隊」メンバーの中にいた。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M0SP452BGHMH4VPPG3KHFM9P
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0SP452B5FK559YHQKQ4A2Q3
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0SP452BFX8WR48355Y9X1FM
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q6782434
+tags:
+- karate
+- iaido
+- japan-karate-association
+- tatenokai

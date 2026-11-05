@@ -1,0 +1,51 @@
+type: Person
+id: 01M6431FANSVMCS5EMQC56ANZ1
+name:
+  en: Hans Wilhelm Schöffer von Dietz
+nationality:
+  - countryCode: eucountry:DEU
+    wikidata: wd:Q183
+description:
+  en: >-
+    Seventeenth-century German Freifechter from Diez an der Lahn, fencing master at the University of
+    Marburg and, from 1623, at the Ritterakademie in Sorø. He was teaching assistant to Salvator Fabris,
+    and his rapier treatise (1611, printed 1620) expands Fabris's teachings.
+hasTeacherAssertion:
+  - id: 01M6431FANE1MYE8MFC5D3MSQD
+    teacher: 01M5JSGG50F450X1DNSYHTR26M
+    assertedStyle: 01M5JSGG509Z4J4P08MWKM16ZW
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Two Wiktenauer pages: teaching assistant to Fabris, and his most notable student; same
+        publisher.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6431FANVF2GEA831AXH1MK5
+            quotation: >-
+              He served as a "Mantenitore" (Vorfechter or teaching assistant) to Salvator Fabris, most
+              likely in Denmark before 1606.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JSGG5064MNG2985B290TNW
+            quotation: >-
+              through the influence of his students and their students (most notably Hans Wilhelm
+              Schöffer), he became the dominant figure in German fencing throughout the 17th century and
+              into the 18th.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6431FANVF2GEA831AXH1MK5
+    quotation: >-
+      In 1611, Schöffer wrote a two-volume treatise on fencing with the single rapier and with rapier and
+      dagger [...], based on the teachings of Salvator Fabris.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - fencing
+  - italian-school

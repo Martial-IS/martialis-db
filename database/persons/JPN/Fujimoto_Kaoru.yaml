@@ -1,0 +1,53 @@
+type: Person
+id: 01M6EFJQBC7XNH7S3PSCSC1Y0M
+name:
+  ja-Latn: Fujimoto Kaoru
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1914-01-01'
+  birthPlace:
+    label: Hiroshima
+    countryCode: eucountry:JPN
+  hasEvidence:
+  - basedOnSource: 01M6EF6KKA5RH8V7Y9M2V1D2VY
+    quotation: Fujimoto Kaoru was born on January the 1st 1914, in Hiroshima
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1942'
+  hasEvidence:
+  - basedOnSource: 01M6EF6KKA5RH8V7Y9M2V1D2VY
+    quotation: he died in 1942, at the age of 28, whilst serving as a soldier in Burma
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: >-
+    Gyaku nitō-ryū kendoka from Takamatsu, Kagawa; runner-up to Noma Hisashi at the 1934 tenran-jiai.
+    Died in the Burma campaign.
+hasTeacherAssertion:
+- id: 01M6EFJQBDJZY0AW5B8EC890ZT
+  teacher: 01KJJAWN28MWKKSN4J02MVY1V8
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9W
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Single kenshi247 article.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M6EF6KKA5RH8V7Y9M2V1D2VY
+      quotation: 'Here he would meet the biggest kendo influence in his life: Ueda Heitaro hanshi (a famous kenshi in the ranks of Mochida Seiji, Saimura Goro, and the likes).'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M6EF6KKA5RH8V7Y9M2V1D2VY
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- kendo

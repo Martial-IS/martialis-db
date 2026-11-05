@@ -1,0 +1,72 @@
+type: Person
+id: 01M5JGQAC7PJ9VKAVJ5PXQ7TD0
+name:
+  en: H. G. Lang
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+description:
+  en: >-
+    British superintendent of the Indian Police who wrote The Walking Stick Method of Self Defence
+    (1923), drawn largely from Pierre Vigny's system, which he learned from Vigny's student Percy Rolt.
+    In the 1940s the book was the basis of self-defence training for Jews in Mandatory Palestine.
+notes: >-
+  Stub; dates unknown (Green and Svinth). en Wikipedia gives the Vigny line through Percy Rolt; fr
+  Wikipedia calls Lang Vigny's own student. Both kept, the direct one at a lower level.
+hasTeacherAssertion:
+  - id: 01M5JGQAC7G8V5AY7X2FRCHZJ4
+    teacher: 01M5JGQAC7KZ63B2PQQNHW46NM
+    assertedStyle: 01M5JGQAC7V7W1GTRS53NMNXYY
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JGQAC7Y1X7WATDMAEV48N2
+            quotation: >-
+              which drew largely from the Vigny system via Lang's training with Vigny's student Percy
+              Rolt.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5JGQAC70HVFKYHMBM8K0PT4
+    teacher: 01M5JGQAC7CYFWR75P18PT4FD4
+    assertedStyle: 01M5JGQAC7V7W1GTRS53NMNXYY
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        One source says so; another gives the line through Rolt.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JGQAC7GAJ1MYQRA61R6JFW
+            quotation: >-
+              codifié en 1923 par son élève H.G. Lang pour le corps de police des scouts indiens.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JGQAC7Y1X7WATDMAEV48N2
+            quotation: >-
+              which drew largely from the Vigny system via Lang's training with Vigny's student Percy
+              Rolt.
+            informationType: infotype:secondary
+            supports: false
+            evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      In 1923, Superintendent H. G. Lang (dates unknown), a British officer of the Indian Police, wrote a
+      book entitled The Walking Stick Method of Self Defence, which drew largely from the Vigny system.
+    locator: '220'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - stick-fighting
+  - self-defence
+  - united-kingdom

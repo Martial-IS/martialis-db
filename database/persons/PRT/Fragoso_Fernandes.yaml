@@ -1,0 +1,89 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD78
+name:
+  pt: Fragoso Fernandes
+aka:
+  pt: António Luis Rivara Fragoso Fernandes
+nationality:
+- countryCode: eucountry:PRT
+  wikidata: wd:Q45
+birthEvent:
+  birthDate: '1929'
+description:
+  en: Portuguese philosophy professor and karate teacher, student of Luís Pires Martins, taught at the
+    Academia de Budo.
+  pt: Professor de filosofia português e professor de karate, aluno de Luís Pires Martins, ensinou na
+    Academia de Budo.
+hasTeacherAssertion:
+- id: 01M3YH7N5G483RX6V87H3CGXK7
+  teacher: 01KJJAWN29MA64W22606R3WD79
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9S
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Student of Luís Pires Martins from 1966, per José Araújo's essay 'A Génese do Karaté em Portugal' and his interview with Pedro Escudeiro; one informant
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD8G
+    interactionPeriod:
+      startYear: 1966
+    hasEvidence:
+    - uri: https://www.shotokai.pt/uploads/4/6/1/9/4619567/gkp_17-22.pdf
+      cite: 'ARAÚJO, José, O Dr. Pires Martins e a União Portuguesa de Budo. In: A Génese do Karaté em
+        Portugal'
+      quotation: Guardo ainda a imagem das minhas primeiras aulas de Karate-do, orientadas por essa extraordinária
+        ﬁgura que era o Doutor Fragoso Fernandes, para mim, naquela época, a incarnação das virtudes físicas,
+        técnicas e morais do Budoka [...]  Aluno desde o primeiro dia do Dr. Pires Martins, transpôs para
+        o contacto com os alunos que se iniciavam a sua visão, como tive desde então o ensejo de conﬁrmar
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDAP
+      cite: Entrevista ao Professor José Araújo (Pedro Escudeiro, 2000 - Archived)
+      quotation: O professor de Aikido era o Carlos Pereira, aluno do Mestre Stobbaerts, o de Karate era
+        o Dr. Fragoso Fernandes, aluno do Dr. Pires Martins, (o introdutor do Karate em Portugal) que
+        era o responsável pelo Karate. Professor de Filosofia, foi uma das pessoas que mais me marcou
+        nas Artes Marciais, pela sua abordagem séria, rigorosa e profundamente empenhada.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GVPMH9ZS39K3KQS1K
+  rankStyle: 01KJJAWN29MA64W22606R3WD9R
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 1
+  dateConferred: '1968-08-14'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: 1st dan rank awarded on August 14, 1968, documented in Federação Nacional de
+      Karate historical records listing early Portuguese karate practitioners
+  hasEvidence:
+  - uri: https://www.fnkp.pt/wp-content/uploads/2020/06/ProgramaForma__o2012-2015_-_Passado_e_Futuro_dos_Treinadores_de_Karate_-_Abel_Figueiredo.pdf
+    archiveUri: http://web.archive.org/web/20240216101336/https://www.fnkp.pt/wp-content/uploads/2020/06/ProgramaForma__o2012-2015_-_Passado_e_Futuro_dos_Treinadores_de_Karate_-_Abel_Figueiredo.pdf
+    cite: 50 Anos da carreira de treinador de Karate em Portugal (Federação Nacional de Karate)
+    quotation: António Luiz Rivara Fragoso Fernandes -  14-08-68 - 1º Dan
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KXTSQXW6P83R31HCRY2PRTD3
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KJJAWN29MA64W22606R3WDAP
+  cite: Entrevista ao Professor José Araújo (Pedro Escudeiro, 2000 - Archived)
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KXTSQXW6P83R31HCRY2PRTD4
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+notes: "Full name: António Luís Rivara Fragoso Fernandes. Philosophy professor at University of Lisbon\
+  \ (1976-1982). \nPhD in Philosophy from Universidade Nova de Lisboa with dissertation on Kant. \nAuthor\
+  \ of \"Da Aporia à Cisão. Uma interpretação do Opus Postumum Kantiano\" (2006). \nAssistant in Department\
+  \ of Philosophy at Faculty of Letters, University of Lisbon. \nKarate teacher at Academia de Budo, described\
+  \ by José Araújo as \"one of the people who most marked me in Martial Arts, for his serious, rigorous\
+  \ and deeply committed approach.\" \nStudent of Luís Pires Martins from the first day of his teaching.\n"

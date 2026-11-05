@@ -1,0 +1,50 @@
+type: Person
+id: 01M5JSGG50BYXEQK9TQQDA7JKZ
+name:
+  en: Giovanni dalle Bande Nere
+aka:
+  en:
+    - Giovanni delle Bande Nere
+    - Lodovico de' Medici
+nationality:
+  - countryCode: eucountry:ITA
+    wikidata: wd:Q38
+description:
+  en: >-
+    Italian condottiero of the Medici family, among the famous warriors who studied fencing under
+    Guido Antonio de Luca in Bologna.
+hasTeacherAssertion:
+  - id: 01M5JSGG500EQJ6VZ0WH6QZQQW
+    teacher: 01M5JSGG506GVV0TBXMFE76A5C
+    assertedStyle: 01M5JSGG50SFSZ8CE3WR46RWC6
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JSGG50YNQ9S1PV7P6EWNAE
+            quotation: >-
+              and Achille Marozzo, as well as such famous warriors as Giovanni dalle Bande Nere (Lodovico
+              de Medici) and the Count Guido Rangoni.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JSGG50YNQ9S1PV7P6EWNAE
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q80986
+tags:
+  - fencing
+  - bolognese-school
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/7/78/Portrait_of_Giovanni_dalle_Bande_Nere_%281498%E2%80%931526%29%2C_attributed_to_Carlo_Portelli_-_Minneapolis_Institute_of_Arts.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Portrait_of_Giovanni_dalle_Bande_Nere_(1498%E2%80%931526),_attributed_to_Carlo_Portelli_-_Minneapolis_Institute_of_Arts.jpg
+    cite: "Carlo Portelli, Wikimedia Commons"
+    informationType: infotype:secondary

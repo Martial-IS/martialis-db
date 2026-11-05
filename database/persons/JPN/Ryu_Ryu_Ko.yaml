@@ -1,0 +1,118 @@
+type: Person
+id: 01KZBTN23E1GQ0DG90P0BGPX9S
+name:
+  en: Ryū Ryū Ko
+  zh: 劉龍公
+  ja: ルールーコウ
+aka:
+  en:
+  - Ryu Ryu Ko
+  - Ryuu Ryuu Ko
+  - Liu Long Gong
+  - Xie Zhongxiang
+  - Xie Ruru
+  ja:
+  - るーるーこう
+nationality:
+- countryCode: eucountry:CHN
+  wikidata: wd:Q148
+birthEvent:
+  birthDate: 1852-07
+  birthPlace:
+    label: Fujian
+    countryCode: eucountry:CHN
+    wikidata: wd:Q41705
+  hasEvidence:
+  - uri: https://www.wikidata.org/wiki/Q954330
+    quotation: >-
+      date of birth July 1852
+    cite: Wikidata entry for Ryū Ryū Ko
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: 1930-02
+  deathPlace:
+    label: Fujian
+    countryCode: eucountry:CHN
+    wikidata: wd:Q41705
+  hasEvidence:
+  - uri: https://www.wikidata.org/wiki/Q954330
+    quotation: >-
+      date of death February 1930
+    cite: Wikidata entry for Ryū Ryū Ko
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Ry%C5%AB%20Ry%C5%AB%20Ko%20%28Xiee%20Zhongxiang%29.jpg
+  rights: mediarights:cc0-1.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Ry%C5%AB_Ry%C5%AB_Ko_(Xiee_Zhongxiang).jpg
+    cite: Wikimedia Commons via Wikidata
+    informationType: infotype:secondary
+description:
+  en: Chinese martial artist (1852-1930), probably a practitioner of Fujian White Crane kung fu, who taught
+    in Naha; his students included Higaonna Kanryō, founder of Naha-te, and Arakaki Seishō. His exact
+    identity is disputed, with some scholars identifying him with Xie Zongxiang.
+notes: Most knowledge of Ryū Ryū Ko comes from oral tradition among his students; his existence and identity
+  are disputed. Tokashiki Iken's research identifies him with Xie Zhongxiang (謝宗祥), born in Changle, Fujian - an identification the Fuzhou Wushu Association disputes — while research by Filip Konjokrad points
+  toward Liu Long Gong (劉龍公), a military officer and chief instructor at the Royal Bodyguard School who
+  visited the Ryukyu Islands in 1838 and 1866. The EN Wikipedia article gives a floruit of 1793-1882,
+  conflicting with the Wikidata-derived dates (1852-1930) used here; both are recorded under the possibly_same_as
+  entry with Xie Zongxiang. Higaonna Kanryō studied with him in Fuzhou from 1867 to 1881, and he opened
+  a public school there in 1883.
+hasIdentityAssertion:
+- id: 01M3YH7N5GMKFD7FZR36NJWC5K
+  identityCandidate: 01KZBTY2K41VVEV8RMRMRF0MT5
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Tokashiki Iken's research identifies Ryū Ryū Ko with Xie Zongxiang (謝宗祥/謝崇祥) of Changle, Fujian;
+      however the identification is disputed by the Fuzhou Wushu Association and by Konjokrad's research
+      pointing to Liu Long Gong, so this is a hypothesis, not a settled identity
+  notes: Disputed identification - see EN Wikipedia article on Ryū Ryū Ko for the Tokashiki Iken research,
+    the Fuzhou Wushu Association's dissent, and the Liu Long Gong alternative. Higaonna Kanryō's teacher
+    edge references this entry (Ryu Ryu Ko) as the primary identity.
+  hasEvidence:
+  - basedOnSource: 01KZC8XAP84R46V20056YWKJ1F
+    quotation: The research of Tokashiki Iken indicates that he also went by the name of Xie Zhongxiang
+      (謝宗祥), a man born in Changle, Fujian. Fuzhou Wushu Association has issued a statement disputing
+      the results of Tokashiki Iken's research regarding Ryu Ryu Ko.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasHistoricityAssertion:
+- id: 01M69SBF1KW7RHZC5ZWTD06X1G
+  historicity: hist:historical
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Known through his students' oral history; the source reports that critics dispute
+      his existence.
+  hasEvidence:
+  - basedOnSource: 01KZC8XAP84R46V20056YWKJ1F
+    quotation: >-
+      Because most of what is known about Ryū Ryū Ko has been passed down by his students as an oral
+      history, his exact identity, or even his very existence, has been disputed by critics.
+    informationType: infotype:secondary
+    supports: false
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZC8XAP84R46V20056YWKJ1F
+    quotation: >-
+      Since the name "Ryū Ryū Ko" really existed in Okinawan tradition through the references provided by
+      his students, any research into the identity of Ryū Ryū Ko should be based on these references.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:indirect
+hasEvidence:
+- basedOnSource: 01KZC8XAP84R46V20056YWKJ1F
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q954330
+tags:
+- karate
+- naha-te

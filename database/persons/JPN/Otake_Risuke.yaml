@@ -1,0 +1,109 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1SG
+name:
+  ja-Latn: Ōtake Risuke
+  ja: 大竹利典
+aka:
+  ja-Latn: Ōtake Risuke Minamoto no Takeyuki
+  ja: 大竹利典源健之
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1926-03-10'
+  birthPlace:
+    label: Narita, Chiba
+    countryCode: eucountry:JPN
+    wikidata: wd:Q273798
+deathEvent:
+  deathDate: '2021-06-07'
+  deathPlace:
+    countryCode: eucountry:JPN
+    wikidata: wd:Q273798
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/7/78/Risuke_%C5%8Ctake.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Risuke_%C5%8Ctake.jpg
+    cite: "KatoriVietnam, Wikimedia Commons"
+description:
+  en: Japanese martial artist, shihan (Teaching Master) of Tenshin Shōden Katori Shintō-ryū, designated
+    guardian of the tradition as Intangible Cultural Asset of Chiba Prefecture
+hasTeacherAssertion:
+- id: 01M3YH7N5GMG86JSRMF57HYGXK
+  teacher: 01KJJAWN28MWKKSN4J02MVY1SH
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9T
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Well-documented student of Hayashi Yazaemon in Katori Shinto-ryu, entered school
+      in 1942 at age 16, mentioned in multiple sources including German blog with lineage quotation
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDA0
+      cite: 'Exkurs: Die moderne Geschichte der Katori Shintô ryû (Ein Leben für die Schwertkunst)'
+      quotation: >-
+        Iisasa Morisada (sieben direkte Schüler): Yamaguchi Kumajirô Eikan Mairaku / Tamai Saidô / Noguchi Jizaemon / Ono Heishichirô Moriichi / Shiina Ichizô / Hongû Toranosuke / Kaneko Shinoshô [...] Hayashi Saiichirô – Hayashi Yazaemon – Ôtake Risuke
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZ9TQS3VNHWPHTJCAKYNERW6
+      quotation: Les 8 Shihan ont continué à enseigner ; ainsi Otake sensei, l'actuel responsable technique
+        du Katori, fut l'élève de maître Hayashi.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5G2199PTMTQDRR9BC2
+  rankStyle: 01KJJAWN29MA64W22606R3WD9T
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+  rankGrade: rankgrade:menkyo_gokui
+  grantedBy: 01KJJAWN28MWKKSN4J02MVY1SH
+  dateConferred: '1967'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Received Gokui kaiden scroll in 1967 at age 42 from Hayashi Yazaemon, documented
+      in Nippon Budokan magazine interview and Shinbukan Dojo website with quotations
+  hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WDAC
+    cite: Otake Risuke Nippon Budōkan Magazine Interview (Shobukan Dojo)
+    quotation: That year, I received the Gokui Kaiden scroll and a proof signifying that I have attained
+      Gokui Sōden from Hayashi-sensei. Sensei told me, “Call yourself Gokui Kaiden once you are 42 years
+      old.” At the time I was 32 years old, so I think it was to be in accordance with the rules of our
+      school.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KJJAWN29MA64W22606R3WDA5
+    cite: Tenshinsho-den Katori Shinto Ryu - Shinbukan Dojo
+    quotation: Shinbukan Dojo’s practice of Katori Shinto Ryu follows the teachings passed down from Hayashi
+      Sakuichiro Shihan to Hayashi Yazaemon Shihan, who was then succeeded by Otake Risuke Shihan (Shinbukan
+      Dojo founder).
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+notes: 'Japanese martial artist born in Narita, Chiba. Entered Tenshin Shōden Katori Shintō-ryū in 1942
+  at age 16 as disciple of Hayashi Yazaemon. Received gokui kaiden (highest level) in 1967 at age 42,
+  becoming the school''s teaching master. Designated guardian of the tradition when Katori Shinto-ryū
+  was recognized as Intangible Cultural Asset of Chiba Prefecture in 1960. Authored several books including
+  ''The Deity and the Sword: Katori Shinto-ryu'' and ''Strategy and the Art of Peace''. Member of Chiba
+  Prefecture Board of Registrars and Appraisers for Muskets and Swords since 1979. Provided martial arts
+  instruction for film ''The Chronicle of the Higurashi'' (蜩ノ記). Died on 7 June 2021.'
+hasEvidence:
+- basedOnSource: 01KXTSQXW6P83R31HCRY2PRTBK
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KXTSQXW6P83R31HCRY2PRTBM
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KJJAWN29MA64W22606R3WDAC
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q3433225
+- dbr:Risuke_Otake

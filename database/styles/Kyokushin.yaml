@@ -1,0 +1,62 @@
+type: Style
+id: 01KYSNKBS22MA4Z9RRDDTXWQ7H
+name:
+  en: Kyokushin
+  ja: 極真会館
+  ja-Latn: Kyokushin kaikan
+aka:
+  en:
+    - Kyokushin karate
+    - Kyokushinkai
+styleType: styleclass:modern
+foundedEvent:
+  startDate: '1953'
+  hasEvidence:
+    - basedOnSource: 01M0Q8AS71Q9DTCHMAP584MQ3Q
+      quotation: >-
+        Initially, Masutatsu Oyama opened his first official dōjō – the Oyama Dojo – in 1953, in a small
+        building behind Rikkyo University to teach Goju-ryu style of traditional Karate. Subsequently,
+        Oyama's karate theory would deviate from Goju-ryu and would form his own style.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:indirect
+description:
+  en: 'Kyokushin is a full-contact style of karate founded by Masutatsu (Mas) Oyama in 1953. Known for its emphasis on physical conditioning, bare-knuckle sparring, and powerful strikes, Kyokushin became one of the most influential karate styles worldwide. The style emphasizes kihon (fundamentals), kata (forms), and kumite (sparring), with a distinctive training regimen that includes makiwara striking, body conditioning, and tameshiwari (breaking techniques). Kyokushin kaikan is the organization that governs the style internationally.
+
+'
+sameAs:
+  - wd:Q242791
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5GC5D0XARB9TWMNC27
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9S
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Kyokushin is a full-contact style of karate - it shares the core identity, terminology, kata
+        structure, and ranking system of karate while being a distinct named style tracing to a specific
+        founder
+    hasEvidence:
+      - basedOnSource: 01M0Q8AS71Q9DTCHMAP584MQ3Q
+        quotation: Kyokushin [...] is a style of karate originated in Japan.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M0Q8AS71Q9DTCHMAP584MQ3Q
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - karate
+  - full-contact
+  - japanese
+  - gendai
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Kyokushinkai.svg/1920px-Kyokushinkai.svg.png
+    rights: mediarights:public_domain_mark
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:Kyokushinkai.svg
+      cite: Kyokushinkai logo - Wikimedia Commons
+      informationType: infotype:secondary

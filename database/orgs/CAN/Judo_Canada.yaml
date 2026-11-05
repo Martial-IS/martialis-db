@@ -1,0 +1,145 @@
+type: Organization
+id: 01M5H5N9SHCCRJQ32FXYA6BDPE
+name:
+  en: Judo Canada
+aka:
+  en: Canadian Kodokan Black Belt Association
+orgType: orgclass:governing_body
+foundedEvent:
+  startDate: '1956-10-25'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+      quotation: >-
+        They legally incorporated the existing Canada Judo Yudanshakai in order to give legitimacy to
+        their own national organization. Letters patent, for the newly formed organization, were issued
+        October 25, 1956.
+      locator: '47'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    National judo body of Canada, incorporated in 1956 as the Canadian Kodokan Black Belt Association
+    (CKBBA) from the Canada Judo Yudanshakai; member of the International Judo Federation from 1958,
+    displacing Bernard Gauthier's Canadian Judo Federation.
+hasAffiliationAssertion:
+  - id: 01M5H5N9SHB3D96PFTTYHPCBJT
+    relatedOrganization: 01KJJAWN29MA64W22606R3WD83
+    affiliationRelation: affrel:member_of
+    validDuring:
+      startYear: 1958
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+        quotation: >-
+          he, along with President Shigetaka Sasaki, appealed to the International Judo Federation to
+          grant membership status to the Canadian Kodokan Black Belt Association. This request was
+          granted.
+        locator: '107'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M5H5N9SH8S489Y7MW9NRRGRK
+    officer: 01M5H3WJ4F1N0QAF3WT79KPD9Y
+    officerTitle: President
+    officerPeriod:
+      startYear: 1956
+      endYear: 1958
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+        quotation: 1956 - 1958 Shigetaka Sasaki
+        locator: '145'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5H5N9SH68JHXZDG6C9E7GY3
+    officer: 01M5H5N9SHC3GSHWJ1MJ2N4XFR
+    officerTitle: Vice-president
+    officerPeriod:
+      startYear: 1956
+      endYear: 1958
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+        quotation: >-
+          The President was Shigetaka Sasaki, and an Executive Committee was formed that included
+          Vice-President Masatoshi Umetsu
+        locator: '47'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5H5N9SH0191YJRQ0W6HMBM0
+    officer: 01M5H5N9SHC3GSHWJ1MJ2N4XFR
+    officerTitle: President
+    officerPeriod:
+      startYear: 1958
+      endYear: 1961
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+        quotation: 1958 - 1961 Masatoshi Umetsu
+        locator: '145'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5H5N9SHVD3VFSGGJQJ164MR
+    officer: 01M5H55YBEN7F6NC9BGWTR72F4
+    officerTitle: President
+    officerPeriod:
+      startYear: 1961
+      endYear: 1978
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Judo Canada's own history only. Its profile of him says 18 years, so the end year may be 1979.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+        quotation: 1961-1978 Frank Minoru Hatashita
+        locator: '145'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+        quotation: >-
+          In 1961 he succeeded Masatoshi Umetsu, becoming the third President of the CKBBA, and served
+          in this capacity for the next 18 years.
+        locator: '108'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    quotation: >-
+      CKBBA also known as “Judo Canada” opens an office in Vanier, Ont.
+    locator: Timeline (front endpaper)
+    locatorLabel: section
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q6303803
+tags:
+  - judo
+  - canada

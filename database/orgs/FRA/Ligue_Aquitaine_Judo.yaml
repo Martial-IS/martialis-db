@@ -1,0 +1,100 @@
+type: Organization
+id: 01M39T3RX2VXZXDS338SWW1RMJ
+name:
+  fr: Ligue d'Aquitaine de judo
+orgType: orgclass:association
+hasSite:
+- location:
+    label: Lormont
+    countryCode: eucountry:FRA
+  sitePeriod:
+    startYear: 2002
+  notes: Siège du dojo fédéral des Iris, partagé avec le Comité départemental de la Gironde.
+  hasEvidence:
+  - basedOnSource: 01M00NPBTPWWBSJZRMYXBESJ97
+    quotation: >-
+      Avec la création du dojo fédéral des Iris, le siège de la Ligue d'Aquitaine et du Comité départemental de la Gironde (photo 3) furent délocalisés en septembre 2002 à Lormont, commune en périphérie de Bordeaux sur la rive droite.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- location:
+    label: Bordeaux
+    countryCode: eucountry:FRA
+    wikidata: wd:Q1479
+  address: rue Ulysse Despaux, quartier Saint-Michel
+  sitePeriod:
+    endYear: 2002
+  hasEvidence:
+  - basedOnSource: 01M00NPBTPWWBSJZRMYXBESJ97
+    quotation: Ses bureaux se trouvaient dans le quartier Saint-Michel, rue Ulysse Despaux.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1976-11'
+  hasEvidence:
+  - basedOnSource: 01M00NPBTPWWBSJZRMYXBESJ97
+    quotation: la ligue change d'appellation et devient la Ligue d'Aquitaine lors de l'assemblée générale
+      de novembre 1976
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+dissolvedEvent:
+  endDate: '2016-06-18'
+  dissolutionManner: dissmanner:merged
+  dissolutionReason: Merged with the Limousin and Poitou-Charentes ligues into the Ligue Nouvelle-Aquitaine under the 2016 territorial reform.
+  hasEvidence:
+  - basedOnSource: 01M4NFTR7JJYA96PAJNYRZTJHK
+    quotation: >-
+      Traité de fusion signé le 18 juin à Lormont par les trois anciens Présidents de ligue, Philippe Said
+      (président de la ligue d'Aquitaine), Gerard Bayle (président de la ligue du Limousin) et Jean-Pierre
+      Rault (président de la ligue Poitou- Charentes), et du Président de la FFJDA, Jean Luc Rougé,
+      officialisant ainsi la création de la nouvelle grande ligue Aquitaine-Limousin Poitou-Charentes de
+      Judo.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+- id: 01M3YH7N5FJEX2H8GD3HTGY5YY
+  relatedOrganization: 01M00414V96M7XZTQJZRZM76RZ
+  affiliationRelation: affrel:branch_of
+  validDuring:
+    endYear: 2016
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: The FFJDA's own 2016 announcement of the merger of its ligues names the ligue d'Aquitaine and its president; a thesis on judo territories in France agrees
+  hasEvidence:
+  - basedOnSource: 01M4NFTR7JJYA96PAJNYRZTJHK
+    quotation: >-
+      Traité de fusion signé le 18 juin à Lormont par les trois anciens Présidents de ligue, Philippe Said
+      (président de la ligue d'Aquitaine), Gerard Bayle (président de la ligue du Limousin) et Jean-Pierre
+      Rault (président de la ligue Poitou- Charentes), et du Président de la FFJDA, Jean Luc Rougé,
+      officialisant ainsi la création de la nouvelle grande ligue Aquitaine-Limousin Poitou-Charentes de
+      Judo.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M00NPBTPWWBSJZRMYXBESJ97
+    quotation: Depuis la création de la Ligue d'Aquitaine la croissance des licences se caractérise par
+      des diffusions territoriales et une concentration autour des grandes agglomérations.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  fr: Ligue régionale de la FFJDA en Aquitaine, issue de la réunification du judo du Sud-Ouest le 28
+    octobre 1971, renommée Ligue d'Aquitaine lors de l'assemblée générale de novembre 1976 et fusionnée
+    dans la Ligue Nouvelle-Aquitaine le 18 juin 2016.
+notes: The name the ligue carried before November 1976 is not given in this source. Not the same body
+  as database/orgs/FRA/Ligue_d_Aquitaine_Aikido.yaml, a different federation for a different sport.
+hasEvidence:
+- basedOnSource: 01M00NPBTPWWBSJZRMYXBESJ97
+  quotation: Le Sud-ouest, pourtant le plus éprouvé dans la période passée, va être le premier à œuvrer
+    dans la voie de la réunification le 28 octobre 1971. La fusion est entérinée à l'unanimité.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- judo
+- france
+- aquitaine

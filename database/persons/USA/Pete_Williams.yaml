@@ -1,0 +1,64 @@
+type: Person
+id: 01M6C1FR4A9S3S3D7H3A4TA2T7
+name:
+  en: Pete Williams
+aka:
+  en:
+    - El Duro
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1975-07-10'
+  hasEvidence:
+    - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+      quotation: 'Born: 7/10/75'
+      locator: '506'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    American mixed martial artist of Ken Shamrock's Lion's Den team.
+hasTeacherAssertion:
+  - id: 01M6C1FR4AR81SXKGAHRQGCJ32
+    teacher: 01M6C18DS7MFJMMJ2GXSZJ19SX
+    assertedStyle: 01KYSS3B587WR241FHHW19X24T
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - interactionPlace: 01M6C1FR4APSBZ84JBFRR4VHA4
+        hasEvidence:
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              Williams was a high school teammate of Jerry Bohlander and followed his friend to Ken Shamrock’s Lion’s Den.
+            locator: '506'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              The actual training in the Lion’s Den was somewhat primitive. [...] Most often the instruction consisted of Ken telling guys to “hook it up,” followed by hard-core sparring for a half an hour.
+            locator: '261'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+    quotation: >-
+      Bohlander and Williams moved into the fighters’ house, where they lived with Frank Shamrock, Mikey Burnette, and Jason DeLucia.
+    locator: '34'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q7172340
+tags:
+  - mma

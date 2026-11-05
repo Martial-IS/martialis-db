@@ -1,0 +1,51 @@
+type: Organization
+id: 01KZ6QKPB72EY3D4KYCBEJ1Y8G
+name:
+  en: Aquitaine Aikido League
+  fr: Ligue d'Aquitaine d'Aïkido
+orgType: orgclass:association
+hasSite:
+  - location:
+      label: Bordeaux
+      countryCode: eucountry:FRA
+      wikidata: wd:Q1479
+hasAffiliationAssertion:
+  - id: 01M3YH7N5FPQ2DP7BB19HWKRCF
+    relatedOrganization: 01KZ6QKPB7H6299TEHRE9ZQVBV
+    affiliationRelation: affrel:branch_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The dafina post places Obellianne as 'technicien régional de la ligue Aquitaine d'une des 2 fédérations française d'aïkido'; the league is here treated as the Aquitaine regional body of the FFAB, inferred from his FFAB affiliation, but the source does not name the federation.
+    hasEvidence:
+      - basedOnSource: 01M4R8589MBTWWA801W24KT931
+        quotation: il est maintenant le technicien régional de la ligue Aquitaine d'une des 2 fédérations française d'aïkido
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M4R9845WCKHJ3QYQZGM3YM93
+    officer: 01KZ6KZZG7HW9MSGTTWR1HBMBJ
+    officerTitle: Technicien régional
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One forum post by a named aikido teacher.
+    hasEvidence:
+      - basedOnSource: 01M4R8589MBTWWA801W24KT931
+        quotation: il est maintenant le technicien régional de la ligue Aquitaine d'une des 2 fédérations française d'aïkido
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: Regional aikido league of Aquitaine, in which Gérard Obellianne served as regional technical director according to a 2008 post by Jean-Marc Duclos. Its affiliation to the FFAB is inferred, not explicitly named by the source.
+  pt: Liga regional de aikido da Aquitânia, na qual Gérard Obellianne serviu como diretor técnico regional segundo uma publicação de 2008 de Jean-Marc Duclos. A sua afiliação à FFAB é inferida, não nomeada explicitamente pela fonte.
+hasEvidence:
+  - basedOnSource: 01M4R8589MBTWWA801W24KT931
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - aikido
+  - france
+  - aquitaine

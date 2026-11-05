@@ -1,0 +1,64 @@
+type: Person
+id: 01M6EFVT2TG7EM8SF1FRS1DHYB
+name:
+  ja-Latn: Ozawa Aijirō
+  ja: 小澤愛次郎
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1863-12-20'
+  hasEvidence:
+  - basedOnSource: 01M6EF6KKAYSQ40VPNPEY0ZJ3N
+    quotation: Born on the 20th of December 1863.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/d/d0/Ozawa_Aijiro.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Ozawa_Aijiro.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    Ono-ha Ittō-ryū kenshi and politician who worked for the addition of budo to the school curriculum;
+    author of Kendō shinan (1938) and Kōkoku kendōshi (1944).
+hasTeacherAssertion:
+- id: 01M6EFVT2VQXMDP1077KCQ4SCF
+  teacher: 01M2WGWA1YB5K4N6YHVVE8TG9E
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Single kenshi247 article, from the author biography in his own book.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M6EF6KKAYSQ40VPNPEY0ZJ3N
+      quotation: He studied under and acquired the deepest secrets of swordsmanship under famed kenshi such as Yamaoka Tesshu, Watanabe Hiroshi, and Sakakibara Kenkichi.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M6EFVT2VD94BYQQ65CB48CEG
+  teacher: 01M31VKGQF6DEE20PS7GXE8GET
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Single kenshi247 article, from the author biography in his own book.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M6EF6KKAYSQ40VPNPEY0ZJ3N
+      quotation: He studied under and acquired the deepest secrets of swordsmanship under famed kenshi such as Yamaoka Tesshu, Watanabe Hiroshi, and Sakakibara Kenkichi.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M6EF6KKAYSQ40VPNPEY0ZJ3N
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+notes: The article's 'Watanabe Hiroshi' may be Watanabe Noboru (渡辺昇); not linked.
+tags:
+- kendo

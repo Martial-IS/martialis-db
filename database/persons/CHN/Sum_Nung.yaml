@@ -1,0 +1,75 @@
+type: Person
+id: 01M69YCGD4AYQM22VQQZN3E6N7
+name:
+  en: Sum Nung
+  yue: 岑能
+  zh: 岑能
+  zh-Latn: Cen Neng
+aka:
+  en:
+    - Sum Num
+nationality:
+  - countryCode: eucountry:CHN
+    wikidata: wd:Q148
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/b/b3/Sum_Nung_1980s_%28cropped%29.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Sum_Nung_1980s_(cropped).jpg
+    cite: "Maurice Novoa, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    Wing Chun teacher, student of Cheung Bo and then sole disciple of Yuen Kay-san, whose line he
+    promoted.
+hasTeacherAssertion:
+  - id: 01M69YCGDSEP4SQGJ3A4M8YWQD
+    teacher: 01M69YCGD3RGPKKEDQC6TXQS37
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              Cheung’s memory has been preserved within the Yuen Kay San Wing Chun lineage as he was the first
+              instructor of Sum Num.
+            locator: '194'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M69YCGDV8YSCZGDNEADGJNNG
+    teacher: 01M69YCGD1ZB1C55QR6G5RBKET
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              His only known disciple was Sum Num, originally a student of Cheung Bo’s, whom he adopted as his
+              protégé later in life.
+            locator: '198'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: 194, 198-199
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q60686031
+tags:
+  - wing-chun
+  - chinese-martial-arts

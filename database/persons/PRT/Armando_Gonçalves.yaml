@@ -1,0 +1,91 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD72
+name:
+  pt: Armando Gonçalves
+description:
+  pt: Professor português de ju-jutsu, aluno de Hirano Yuzo, instrutor da Polícia de Segurança Pública
+    do Porto em 1936, autor dos livros "A Defesa na Rua" (1914), "O prazer de nadar" (1939) e "O Fraco
+    Vence o Forte" (1941, 2ª ed. 1947)
+nationality:
+- countryCode: eucountry:PRT
+  wikidata: wd:Q45
+image:
+  contentUrl: https://archive.org/download/armando_goncalves/armando_goncalves.png
+  imageAttribution:
+    uri: http://id.bnportugal.gov.pt/bib/catbnp/735884
+    cite: "Opiniões do meu amigo Fabrício (1942)"
+hasTeacherAssertion:
+- id: 01M3YH7N5GWF2QENFX8YXP3Z5Q
+  teacher: 01KJJAWN29MA64W22606R3WD73
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9G
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Well-documented student of Hirano Yuzo, mentioned in his book 'O Fraco Vence
+      o Forte' (1941) with specific quotation about being former disciple of Japanese professor Hirano
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M55X9WVTZ8W6JG8JV6K2DVJS
+      quotation: Ex-discípulo do Professor japonês, Hirano
+      locator: title page
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M55X9WVTZ8W6JG8JV6K2DVJS
+      quotation: O nosso saudoso ex-professor Hirano não tinha admiração nenhuma pelo sistema Kano
+      locator: iv-v
+      locatorLabel: page
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M06HNX8TX6HGRE945CNA86M9
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+      quotation: En sus libros, Armando Gonçalves (1914, 1936, 1941, 1942) señala que fue discípulo de
+        Hirano, y que este formó a los cuadros de la Policía de Seguridad Pública (PSP) en este sistema
+        de lucha.
+notes: Professor de ju-jutsu no Porto, aluno do primeiro professor japonês de ju-jutsu em Portugal, Hirano
+  Yuzo, que morreu afogado na praia de Santa Cruz em 1915. Foi professor de Manuel Reis, fundador do Círculo
+  de Judo do Porto.
+hasEvidence:
+- basedOnSource: 01KJJAWN29MA64W22606R3WDA9
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KJJAWN29MA64W22606R3WDAK
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KXTSQXW6P83R31HCRY2PRTCX
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KXTSQXW6P83R31HCRY2PRTCY
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KJJAWN29MA64W22606R3WDAJ
+  cite: Manual de Graduações e Regulamento de Graduações. Federação Portuguesa de Judo (Dezembro 2020)
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+hasHonorAssertion:
+- id: 01M3YH7N5GCVNQ4D4Q35BC6EEZ
+  honorValue: Professor de ju-jutsu
+  honorType: honortype:title
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Recognized as professor of ju-jutsu based on teaching Porto Police in 1936 and
+      authorship of instructional books
+  hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WDAK
+    cite: Os nossos Fundadores - Clube de Judo do Porto
+    quotation: Armando Gonçalves ministrou aulas de Técnicas de Defesa Pessoal e de JuJutsu柔術 à Polícia
+      de Segurança Pública do Porto, a convite do seu Comandante, Coronel João Nepomuceno Namorado de
+      Aguiar
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct

@@ -1,0 +1,80 @@
+type: Style
+id: 01M6BJ6H8F1NQV7365F33CG362
+name:
+  ja-Latn: Hyōhō Niten Ichi-ryū
+  ja: 兵法二天一流
+aka:
+  ja-Latn: Niten Ichi-ryū
+hasEvidence:
+- basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+  locator: 'Hyoho Niten Ichi-ryu Kenjutsu'
+  locatorLabel: section
+  quotation: 'Founder: Miyamoto Musashi Fujiwara Genshin, 1584-1645'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M6BJ6H8FZ1S4PNXF8NN6S837
+  quotation: '兵法二天一流の流祖は、宮本武蔵藤原玄信である。'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+foundedEvent:
+  founder:
+    - 01M6BJ6H8FGQVPKT3M17CVB97E
+  location:
+    countryCode: eucountry:JPN
+  hasEvidence:
+    - basedOnSource: 01M6BJ6H8FZ1S4PNXF8NN6S837
+      quotation: '兵法二天一流の流祖は、宮本武蔵藤原玄信である。'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6BJ6H8FZ1S4PNXF8NN6S837
+      quotation: 'そしてなおも深き道理を得んと朝鍛夕錬し、五十にして実相円満の兵法二天一流を創始した。'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+      locator: 'Hyoho Niten Ichi-ryu Kenjutsu'
+      locatorLabel: section
+      quotation: 'Founder: Miyamoto Musashi Fujiwara Genshin, 1584-1645'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+styleType: styleclass:traditional
+hasStyleRelationAssertion:
+  - id: 01M6BJ6H8F8F71A9438VFFC09Y
+    relatedStyle: 01KYHNJKQDTEJ1A5MQ5JYPHDTB
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: A school of swordsmanship, best known for two-sword forms (Field Guide; its own page).
+    hasEvidence:
+      - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+        locator: 'Hyoho Niten Ichi-ryu Kenjutsu'
+        locatorLabel: section
+        quotation: 'This school is most noted for its series of five two-sword techniques, but there are also twelve single sword forms and seven short sword forms.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M6BJ6H8FZ1S4PNXF8NN6S837
+        quotation: '兵法二天一流の流祖は、宮本武蔵藤原玄信である。'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    School of swordsmanship founded by Miyamoto Musashi in the first half of the seventeenth century,
+    known for its two-sword forms. Heads (its own page): Miyamoto Musashi, Terao Motomenosuke Nobuyuki,
+    Terao Goemon Katsuyuki, Yoshida Josetsu Masahiro, Santo Hikozaemon Kiyohide, Santo Hanbei Kiyoaki,
+    Santo Shinjuro Kiyotake, Aoki Kikuo Hisakatsu, Kiyonaga Tadanao Masami, Imai Masayuki Nobukatsu,
+    Iwami Toshio Harukatsu, Kajiya Takanori Kogen (12th).
+notes: >-
+  Readings of the heads' names after the founder are this record's, from the kanji on its page. Its own
+  page: Musashi founded it at fifty. Present head per the Field Guide (1997): 10th soke Imai Masayuki
+  (Oita).
+sameAs:
+  - wd:Q1550519
+tags:
+  - koryu

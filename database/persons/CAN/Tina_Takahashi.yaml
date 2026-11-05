@@ -1,0 +1,45 @@
+type: Person
+id: 01M5H64D94QSNR9HC1THWMB5C3
+name:
+  en: Tina Takahashi
+nationality:
+  - countryCode: eucountry:CAN
+    wikidata: wd:Q16
+description:
+  en: >-
+    Canadian judoka from Ottawa, daughter and pupil of Mas Takahashi; eight national titles at 48 kg,
+    the first Canadian woman to win a World University Championship gold (1984), and the first woman
+    to coach a Canadian Olympic team (1988).
+hasTeacherAssertion:
+  - id: 01M5H64D94AW9WG5C4EDNKQH4W
+    teacher: 01M5H57MAG42XDXSZKA74ZYR85
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              Sensei: Mas Takahashi
+            locator: '75'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    quotation: >-
+      Tina was the first Canadian female to win a World University Championship gold medal (1984)
+    locator: '75'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q7807969
+tags:
+  - judo
+  - canada

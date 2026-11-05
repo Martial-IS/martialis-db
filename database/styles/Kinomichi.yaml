@@ -1,0 +1,62 @@
+type: Style
+id: 01KZC8S2GE36BYCWA3TP1H63F3
+name:
+  en: Kinomichi
+  ja: 氣之道
+  ja-Latn: Kinomichi
+aka:
+  en:
+    - Ki no Michi
+styleType: styleclass:modern
+foundedEvent:
+  startDate: '1979'
+  location:
+    label: Paris
+    countryCode: eucountry:FRA
+    wikidata: wd:Q90
+  founder:
+    - 01KZBQBRS9M64Y5HZ1XRQ1T7M5
+  hasEvidence:
+    - basedOnSource: 01KZC8S2GERVTTD2ZYEVRSAF7C
+      quotation: Kinomichi (氣之道) is a martial art in the tradition of budō, developed from the Japanese art aikido by Masamichi Noro and founded in Paris, France, in 1979.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5GE2CN83KNSAE774TA
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9R
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Kinomichi was developed from aikido by Ueshiba's uchi-deshi Masamichi Noro, but it is a distinct art in its own right (with its own curriculum and organization, affiliated to the FFAAA), not a named variant of aikido - practitioners of Kinomichi are not counted as aikido practitioners
+    hasEvidence:
+      - basedOnSource: 01KZC8S2GERVTTD2ZYEVRSAF7C
+        quotation: developed from the Japanese art aikido by Masamichi Noro and founded in Paris, France, in 1979
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: 'Kinomichi (氣之道) is a martial art in the budo tradition, developed from aikido by
+
+    Masamichi Noro, one of Morihei Ueshiba''s uchi-deshi and his designated delegate for
+
+    Europe and Africa, and founded in Paris in 1979. In France it is affiliated with the
+
+    FFAAA and maintains relations with the Aikikai Foundation. It is practiced mainly in
+
+    France and other European countries.
+
+
+    Rank system note: Kinomichi does not use the aikido dan/kyu system; progression is by "stages" (niveaux) under Noro''s teaching, with no belt grades.'
+hasEvidence:
+  - basedOnSource: 01KZC8S2GERVTTD2ZYEVRSAF7C
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q748067
+tags:
+  - aikido
+  - budo
+  - gendai

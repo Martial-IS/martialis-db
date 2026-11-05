@@ -1,0 +1,153 @@
+type: Style
+id: 01KYDKY8XR1HY4G4NQW7P8M1XC
+name:
+  en: Shooto
+  ja: 修斗
+  ja-Latn: Shūto
+aka:
+  en:
+    - Shoot Wrestling
+    - Shoot Fighting
+styleType: styleclass:modern
+styleForm:
+  - styleform:hybrid
+  - styleform:sport
+description:
+  en: Shooto is a combat sport and hybrid martial art founded by Satoru Sayama in 1985, considered one of the first true mixed martial arts systems. It combines punching, kicking, throwing, and submissions, drawing techniques from Muay Thai, Catch-As-Catch-Can wrestling, Russian Sambo and Judo. Practitioners are called shooters or shootists. It was brought to the United States by Yorinaga Nakamura through the USA Shooto Association.
+  ja: 修斗（しゅうと）は、1985年に佐山聡によって創設された日本の総合格闘技。打撃・投げ・関節技を組み合わせたハイブリッド格闘技で、ムエタイ、キャッチ・アズ・キャッチ・キャン、サンボ、柔道の技術を取り入れている。総合格闘技の先駆けとされ、アメリカでは中村頼永によってUSA修斗協会が設立された。
+foundedEvent:
+  startDate: '1985'
+  founder:
+    - 01KYDN1Q2THXHBSXHCS0PH4TEV
+  hasEvidence:
+    - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+      quotation: >-
+        It began in 1986, when Satoru Sayama, formerly New Japan Pro Wrestling’s original Tiger Mask,
+        grew weary of the world of professional wrestling.
+      locator: '414'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: false
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KYDKY8XQTNBXM7TK2079K2NZ
+      quotation: >-
+        Founded 1985
+      cite: Shooto (Wikipedia EN)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5CJ39K8S3T7533CRAAHA7HD
+      quotation: >-
+        Satoru Sayama is the founder of Shoot Wrestling.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5G4H80KREXTMBCE4Y6
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9B
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia and USA Shooto's own history state it.
+    hasEvidence:
+      - basedOnSource: 01KYDKY8XQTNBXM7TK2079K2NZ
+        quotation: >-
+          Ancestor arts Shoot wrestling, Catch wrestling, Boxing, Kickboxing, Full contact karate, Muay Thai, Sambo, Judo
+        cite: Shooto (Wikipedia EN)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5CJ39K8S3T7533CRAAHA7HD
+        quotation: >-
+          The majority of throwing, grappling, and wrestling techniques in Shooto are incorporated from English Catch-As-Catch-Can Wrestling, Russian Sambo, and Japanese Judo.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G6MZ2NNFRY9MFV2W8
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9H
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia and USA Shooto's own history state it.
+    hasEvidence:
+      - basedOnSource: 01KYDKY8XQTNBXM7TK2079K2NZ
+        cite: Shooto (Wikipedia EN)
+        quotation: >-
+          Ancestor arts Shoot wrestling, Catch wrestling, Boxing, Kickboxing, Full contact karate, Muay Thai, Sambo, Judo
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5CJ39K8S3T7533CRAAHA7HD
+        quotation: >-
+          The majority of throwing, grappling, and wrestling techniques in Shooto are incorporated from English Catch-As-Catch-Can Wrestling, Russian Sambo, and Japanese Judo.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G18NC3FY5234MR99E
+    relatedStyle: 01KYEWRMWERM1HW12W53HE9G4A
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia and USA Shooto's own history state it.
+    hasEvidence:
+      - basedOnSource: 01KYDKY8XQTNBXM7TK2079K2NZ
+        quotation: >-
+          Ancestor arts Shoot wrestling, Catch wrestling, Boxing, Kickboxing, Full contact karate, Muay Thai, Sambo, Judo
+        cite: Shooto (Wikipedia EN)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5CJ39K8S3T7533CRAAHA7HD
+        quotation: >-
+          The majority of throwing, grappling, and wrestling techniques in Shooto are incorporated from English Catch-As-Catch-Can Wrestling, Russian Sambo, and Japanese Judo.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5CJ39K8R9B9E6P6DRNS9T1Z
+    relatedStyle: 01KYEY02EJDAF10TC75D1V8DX0
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: USA Shooto's own history states it; Wikipedia lists Muay Thai among its ancestor arts.
+    hasEvidence:
+      - basedOnSource: 01M5CJ39K8S3T7533CRAAHA7HD
+        quotation: >-
+          The punching and kicking ranges are primarily cultivated through modified Muay Thai (Thai Boxing) training methods.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KYDKY8XQTNBXM7TK2079K2NZ
+        quotation: >-
+          Ancestor arts Shoot wrestling, Catch wrestling, Boxing, Kickboxing, Full contact karate, Muay Thai, Sambo, Judo
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYDKY8XQTNBXM7TK2079K2NZ
+    cite: Shooto (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5CJ39K8S3T7533CRAAHA7HD
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q2117986
+tags:
+  - shooto
+  - shoot-wrestling
+  - mixed-martial-arts
+  - japanese
+  - hybrid
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/en/a/a3/Shooto.png
+    imageAttribution:
+      uri: https://en.wikipedia.org/wiki/File:Shooto.png
+      cite: "Shooto Association, English Wikipedia"
+      informationType: infotype:secondary
+      evidenceType: evidencetype:direct

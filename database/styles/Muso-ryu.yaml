@@ -1,0 +1,32 @@
+type: Style
+id: 01KJJAWN29MA64W22606R3WD9X
+name:
+  ja-Latn: Muso-ryu Shinjujutsu
+  ja: 無相流新柔術
+hasEvidence:
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTE1
+    supports: true
+    evidenceType: evidencetype:direct
+    informationType: infotype:secondary
+foundedEvent:
+  startDate: '1592'
+  location:
+    countryCode: eucountry:JPN
+styleType: styleclass:traditional
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5GCRA7CY79DQ80SSA1
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9G
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Muso-ryu's name is Muso-ryu Shinjujutsu (無相流新柔術) - "shinjujutsu" means new jujutsu - and Japanese Wikipedia categorizes it under 柔術の流派 (jujutsu schools)
+    hasEvidence:
+      - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTE1
+        quotation: >-
+          無相流新柔術（むそうりゅうしんじゅうじゅつ）とは、讃岐国（現在の香川県）で伝承されていた柔術の流派の一つ。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+tags:
+  - koryu

@@ -1,0 +1,130 @@
+type: Person
+id: 01KYDN1Q2THXHBSXHCS0PH4TEV
+name:
+  en: Satoru Sayama
+  ja: 佐山聡
+  ja-Latn: Sayama Satoru
+aka:
+  en:
+    - Tiger Mask
+    - Super Tiger
+    - Sammy Lee
+  ja: タイガーマスク
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1957-11-27'
+  birthPlace:
+    label: Tokyo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q203308
+  hasEvidence:
+    - basedOnSource: 01KYDN1Q2S38ZADTZ3Y73Z8XW8
+      quotation: >-
+        Born November 27, 1957
+      cite: Satoru Sayama (Wikipedia EN)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: Satoru Sayama (born 1957) is a Japanese professional wrestler, martial artist, and founder of Shooto, one of the first true mixed martial arts organizations. Originally trained under Antonio Inoki and Karl Gotch, he became famous as the original Tiger Mask. In 1985 he founded Shooto, creating the first MMA gloves inspired by Bruce Lee's Enter the Dragon. He trained Yorinaga Nakamura and other shootists, and promoted Vale Tudo Japan events that led to the rise of Pride FC.
+  ja: 佐山聡（さやま さとる、1957年11月27日 - ）は、日本のプロレスラー、武術家。初代タイガーマスクとして知られ、1985年に総合格闘技団体「修斗」を創設。ブルース・リーの影響で世界初のMMAグローブを開発。中村頼永らを育成し、Vale Tudo Japanを主催。アントニオ猪木、カール・ゴッチに師事。
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/2/2d/Tiger_Mask_I_high_kick_1983.png
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Tiger_Mask_I_high_kick_1983.png
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M3YH7N5G8JJ2GP7GWR5W047G
+    teacher: 01KYF2M2VA0JKJCSVHZA3ZSPYA
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Sayama trained under Antonio Inoki at New Japan Pro-Wrestling from 1976; extensively documented in wrestling history
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1976
+          endYear: 1983
+        hasEvidence:
+          - basedOnSource: 01KYDN1Q2S38ZADTZ3Y73Z8XW8
+            cite: Satoru Sayama (Wikipedia EN)
+            quotation: Primarily trained under New Japan Pro-Wrestling (NJPW) founder Antonio Inoki and his mentor Karl Gotch
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G8HD2Y66E6HM1AWMN
+    teacher: 01KYDPMZ5JJKGQ5DDGFGM8FBJN
+    assertedStyle: 01KYEWRMWERM1HW12W53HE9G4A
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Independent sources state it.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1976
+        hasEvidence:
+          - basedOnSource: 01KYDN1Q2S38ZADTZ3Y73Z8XW8
+            cite: Satoru Sayama (Wikipedia EN)
+            quotation: Primarily trained under New Japan Pro-Wrestling (NJPW) founder Antonio Inoki and his mentor Karl Gotch
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5CJ39K8S3T7533CRAAHA7HD
+            quotation: >-
+              He studied and trained in Catch-As-Catch-Can Wrestling under the great Karl Gotch, a German who is famous for applying over one-thousand submission techniques.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5CJ39K84TZXA3V0EV7QSJSG
+    teacher: 01M5CJ39K8YHQH57F6HM31DEF7
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9H
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: USA Shooto's own history states it; no record from Koga or an independent source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5CJ39K8S3T7533CRAAHA7HD
+            quotation: >-
+              Satoru learned Russian Sambo under the first Sambist from Japan, Victor Koga, who happens to be Japanese and Russian.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5CJ39K8V857P97SGYJEQ597
+    teacher: 01M5CJ39K8Y7Z8AKWYKXVSPD0T
+    assertedStyle: 01KYEY02EJDAF10TC75D1V8DX0
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: USA Shooto's own history states it; no record from Fujiwara or an independent source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5CJ39K8S3T7533CRAAHA7HD
+            quotation: >-
+              Under Toshio Fujiwara, Satoru developed his Muay Thai kickboxing skills.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYDN1Q2S38ZADTZ3Y73Z8XW8
+    cite: Satoru Sayama (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q1705780
+  - viaf:257907620
+tags:
+  - shooto
+  - shoot-wrestling
+  - professional-wrestling
+  - tiger-mask
+  - mixed-martial-arts

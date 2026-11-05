@@ -1,0 +1,98 @@
+type: Person
+id: 01M5JPY6FNPEC9P92Z9ZHEPNHF
+name:
+  en: Owen Swift
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+birthEvent:
+  birthDate: '1814'
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNFPJXHCN54E3ZSTNA
+      quotation: >-
+        Owen Swift (1814 – 9 June 1879) was a British bare-knuckle prize fighter, who killed three men in
+        boxing bouts.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1879-06-09'
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNFPJXHCN54E3ZSTNA
+      quotation: >-
+        Owen Swift (1814 – 9 June 1879) was a British bare-knuckle prize fighter, who killed three men in
+        boxing bouts.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    English lightweight prizefighter. The death of "Brighton Bill" Phelps after their 1838 bout, and
+    Swift's conviction for manslaughter, led to the London Prize Ring Rules. In 1838 he twice beat Jack
+    Adams in France; in Paris he also beat Charles Lecour in a savate-against-boxing assault. He later
+    kept a tavern in Soho.
+hasTeacherAssertion:
+  - id: 01M61VT2BRSQYG63JM8PBEZTC0
+    teacher: 01M61VT2BR7X8Y4X87XJS97Y0Z
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Miles, quoting Dowling's obituary of Curtis, calls him Curtis's early pupil; one source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M61VT2BR663F36ZZNA91DKPX
+            quotation: >-
+              Long as we have known Curtis, we never heard of his having deceived a friend, [...] among
+              whom we may rank his early pupil and protégé, Owen Swift
+            locator: '501'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M5JPY6FN8ZW1NG7PVFSXYFPS
+    honorValue: Lightweight champion
+    honorType: honortype:title
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          the result of a bout with the popular lightweight champion Owen Swift (ca. 1815–1879)
+        locator: '231'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JPY6FNFPJXHCN54E3ZSTNA
+    quotation: >-
+      Swift's last two fights were both with Jack Adams, on 5 June and 5 September 1838, both in France.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5JG4Y2593DAA50HFR1Y326S
+    quotation: >-
+      il se mesura avec le célèbre boxeur anglais Owen – Swift.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q20741197
+tags:
+  - boxing
+  - prizefighting
+  - united-kingdom
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/0/05/Owen_Swift_The_Wonder_-_A_Clark.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Owen_Swift_The_Wonder_-_A_Clark.jpg
+    cite: "A Clark, Wikimedia Commons"
+    informationType: infotype:secondary

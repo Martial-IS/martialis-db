@@ -1,0 +1,81 @@
+type: Person
+id: 01M5JPY6FNTBJ2XWNW9MGK9VR5
+name:
+  en: Tom Johnson
+aka:
+  en:
+    - Thomas Jackling
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+birthEvent:
+  birthDate: '1750~'
+  birthPlace:
+    label: Derby
+    countryCode: eucountry:GBR
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNX4HA67836Y8X41SB
+      quotation: >-
+        Tom Johnson was born in Derby, England in about 1750, although Pierce Egan, an early historian
+        of boxing, states that Johnson was born in Yorkshire.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1797-01-21'
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNX4HA67836Y8X41SB
+      quotation: >-
+        Tom Johnson (born Thomas Jackling; c. 1750 – 21 January 1797) was a bare-knuckle fighter who was
+        referred to as the Champion of England between 1784 and 1791.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    English prizefighter, born Thomas Jackling, champion of England 1784–1791 and respected for his
+    honesty and stamina. Later a second and a tutor of boxers in England and Ireland.
+hasHonorAssertion:
+  - id: 01M5JPY6FN1HDAJNS8760MZ75M
+    honorValue: Champion of England
+    honorType: honortype:title
+    dateConferred: '1784'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Jackling fought under the name Tom Johnson, and he was the champion of England from 1784 to
+          1791.
+        locator: '230'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JPY6FNX4HA67836Y8X41SB
+        quotation: >-
+          Tom Johnson (born Thomas Jackling; c. 1750 – 21 January 1797) was a bare-knuckle fighter who
+          was referred to as the Champion of England between 1784 and 1791.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JPY6FNX4HA67836Y8X41SB
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q1071970
+tags:
+  - boxing
+  - prizefighting
+  - united-kingdom
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/e/e5/Tom_Johnson_Isaac_Perrins_prizefight_Banbury_1789.png
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Tom_Johnson_Isaac_Perrins_prizefight_Banbury_1789.png
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary

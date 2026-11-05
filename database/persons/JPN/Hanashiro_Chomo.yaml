@@ -1,0 +1,123 @@
+type: Person
+id: 01KZC7XZATTJF9DFMT9QX0JSGY
+name:
+  ja-Latn: Hanashiro Chōmo
+  ja: 花城長茂
+aka:
+  en:
+  - Chomo Hanashiro
+  - Hanagusuku Chomu
+  ja:
+  - はなしろ ちょうも
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1869'
+  birthPlace:
+    label: Shuri
+    countryCode: eucountry:JPN
+    wikidata: wd:Q608415
+  hasEvidence:
+  - basedOnSource: 01KZC8XAP8WKTP3CP6APA7ACBX
+    quotation: 'Chōmo Hanashiro (花城 長茂, Hanashiro Chōmo; Okinawan: Hanagusuku Chomu; 1869–1945) [...] was
+      born in Shuri.'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1945'
+  hasEvidence:
+  - basedOnSource: 01KZC8XAP8WKTP3CP6APA7ACBX
+    quotation: Hanashiro died in 1945, during World War II bombardments by the American military on Okinawa.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Hanashiro%20Chomo.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Hanashiro_Chomo.jpg
+    cite: Wikimedia Commons
+    informationType: infotype:secondary
+description:
+  en: Okinawan martial arts master (1869-1945) of the Shuri-te tradition, student of Matsumura Sōkon and
+    assistant to Ankō Itosu; the first to formally use the kanji kara (空, "empty") for "karate" instead
+    of to/tang (唐), in writings dating from 1905.
+notes: Hanashiro started karate practice at a very young age under Sōkon Matsumura, later becoming Itosu's
+  assistant until Itosu's death in 1915. Along with Yabu Kentsu he was among the first Okinawans to enlist
+  in the Japanese military and participated in the Russo-Japanese War; his military experience influenced
+  the karate he taught at middle and normal schools, introducing formalities such as lining up by seniority,
+  bowing, and yakusoku kumite. He participated in the October 25, 1936 assembly of the "Great Masters
+  of Okinawa Karate", advocating the official adoption of the term "karate". His teaching is corroborated
+  by Charles Goodin's article (Arakaki Ankichi "studied under Gusukuma Shimpan, Hanashiro Chomo, Chibana
+  Choshin and Kyan Chotoku") and by Geoffrey Gaudion's account of Arakaki, whose "first teachers were
+  Shinpan Gusukuma and Chomo Hanashiro"; Christopher Caile's Fighting Arts essay lists him among the noted
+  karate practitioners of the "Bushi" era alongside Kentsu Yabu, Chotoku Kyan and Chojun Miyagi.
+hasTeacherAssertion:
+- id: 01M3YH7N5GW4JKZ61K1MS4ZNVQ
+  teacher: 01KJJAWN29MA64W22606R3WD6A
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9F
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: EN Wikipedia states Hanashiro became a student of Matsumura Sokon, of the Shuri-te
+      style, early in his childhood, and started karate practice under him at a very young age
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZC8XAP8WKTP3CP6APA7ACBX
+      quotation: Early in his childhood, he became a student of the renowned master Matsumura Sōkon, of
+        the Shuri-te style [...] He started karate practice at a very young age under Sōkon Matsumura.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZHA2591RH73019S4FQ5AWAH
+      quotation: Arakaki Ankichi (who studied under Gusukuma Shimpan, Hanashiro Chomo, Chibana Choshin
+        and Kyan Chotoku).
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5G0AJF8FEX0KVV96K5
+  teacher: 01KJJAWN29MA64W22606R3WD6B
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9F
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The Wikidata P1066 claim links Hanashiro to Anko Itosu, and the EN article frames
+      Hanashiro as Itosu's assistant until Itosu's death in 1915 - an assistantship that implies close
+      tutelage but is not explicitly a teacher-student relationship
+  hasInteraction:
+  - interactionPeriod:
+      endYear: 1915
+    hasEvidence:
+    - basedOnSource: 01KZC8XAP8WKTP3CP6APA7ACBX
+      quotation: Hanashiro later on became Itosu's assistant and remained so until his Itosu's death in
+        1915.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZC8XAP8WKTP3CP6APA7ACBX
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZHA2591RH73019S4FQ5AWAH
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZGMHT4PJAW67C6ZBVV6GP7J
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZKS3XCJ5V6B3XBAYVC4NM4V
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q705617
+tags:
+- karate
+- shuri-te
+- shorin-ryu

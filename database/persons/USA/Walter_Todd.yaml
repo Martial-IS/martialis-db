@@ -1,0 +1,57 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1TR
+name:
+  en: Walter Todd
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+deathEvent:
+  deathDate: '1999-11-26'
+description:
+  en: American martial artist who studied judo under Kyuzo Mifune in Japan, also trained in karate (Wado-ryu) and aikido (under Koichi Tohei), founded the International Dojo in 1958
+hasTeacherAssertion:
+  - id: 01M3YH7N5GCN6BDV3AB1YYNBVJ
+    teacher: 01KJJAWN28MWKKSN4J02MVY1SD
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: 'Interview with Walter Todd confirms he asked Mifune to be his teacher in 1946: Mifune asked if he would like him to be his teacher while he stayed in Japan.'
+    role: teachrole:student
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+        interactionPeriod:
+          startYear: 1946
+        hasEvidence:
+          - uri: https://www.koryu.com/library/mskoss10.html
+            cite: Interview with Walter Todd (Meik Skoss, Koryu.com)
+            quotation: >-
+              He [Mifune] asked if I would like him to be my teacher while I stayed in Japan.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GQSYPXXJDW2TJE7VG
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 2
+    dateConferred: '1948'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Interview mentions he got his nidan in judo around 1948-49 while training in Japan
+    hasEvidence:
+      - uri: https://www.koryu.com/library/mskoss10.html
+        cite: Interview with Walter Todd (Meik Skoss, Koryu.com)
+        quotation: After I had been in Japan for four or five months the second time they put me up for my nidan examination.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - uri: https://www.koryu.com/library/mskoss10.html
+    informationType: infotype:secondary
+    supports: true
+    cite: The martial arts world lost a wise and experienced teacher on November 26, 1999. Walter Todd left behind a wife, two children, and countless students who will miss him sorely.
+    evidenceType: evidencetype:direct
+notes: Interviewed by Meik Skoss in 1995 for Aikido Journal. Traveled to Japan multiple times (1945-46, 1948-49, 1968). Also trained in Wado-ryu karate under Otsuka and aikido under Koichi Tohei and Yoko Takahashi. Founded International Dojo in 1958.

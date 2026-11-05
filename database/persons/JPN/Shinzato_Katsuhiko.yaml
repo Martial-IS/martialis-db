@@ -1,0 +1,149 @@
+type: Person
+id: 01KZBXWS0N6Z9T5YP2TTQSVJV2
+name:
+  ja-Latn: Shinzato Katsuhiko
+  ja: 新里勝彦
+aka:
+  en:
+    - Katsuhiko Shinzato
+  ja:
+    - しんざと かつひこ
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1939-02-10'
+  birthPlace:
+    label: Manila
+    countryCode: eucountry:PHL
+    wikidata: wd:Q1461
+  hasEvidence:
+    - basedOnSource: 01KZC8XAP828CXHAR74DRM2QZG
+      quotation: Shinzato was born in Manila, in the Philippines. His father was a fisherman.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZKRQQR8DHEYY0BWE93DVMQX
+      quotation: Sensei Shinzato (新里勝彦) was born in Manila, Philippines, and his family relocated back to Okinawa during the Second World War.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEhQYJG_18QHwUcbCaN8cwiuX3WPciwywdmQ0SEL5titrDkgQqM7Y1vnvojFO-CuqGaQ6gjTiL2A6i2mRMoqjux9T_NV2fkVaKh7CGs6D5Ne5hPCtMdMdbnYKTVHw6dDoQoafplMGhKfqu/w341-h482/katsuhiko+shinzato.jpg
+  imageAttribution:
+    uri: https://isshin-concentration.blogspot.com/2019/07/an-interview-with-katsuhiko-shinzato.html
+    cite: "Isshin Concentration"
+    informationType: infotype:secondary
+description:
+  en: Okinawan martial arts master (born 1939), head of the Shorin-ryu Kishaba Juku since 2000; student of Shoshin Nagamine, Seigi Nakamura and Chokei Kishaba, and translator of Nagamine's The Essence of Okinawan Karate-Do.
+notes: Shinzato began karate in 1957 under Tsunetaka Shimabukuro while studying English literature at the University of the Ryukyus (he states in a Dnevnik newspaper interview that he entered the university and started karate in 1957), later studying applied linguistics at Indiana University - the interview confirms he continued karate at a US graduate school. He returned to Okinawa in 1967 and joined Shoshin Nagamine's dojo, and also studied under Seigi Nakamura and Chokei Kishaba, as well as Chogi Kishaba (Yamane-ryu bojutsu, per Christopher Caile's 2024 Fighting Arts article). In the Dnevnik interview he names Chokei Kishaba as "the master that has had the greatest influence on me" and explains the study circle "Kishaba Juku" is named after Kishaba's last name in honor of his unique training methods; the interview gives Kishaba's dates as 1931-2000, differing from the 1929-10-04 used here (Seinenkai memorial). He practiced most days for six hours, and was one of the contributors to the Encyclopaedia of Okinawan karate and kobudo (沖縄空手古武道事典, Kashiwashobo, Tokyo, c. 2010), whose information gathering began in 2003; the interview, conducted around 2010 during a seminar in Slovenia, gives his age as 69, slightly at odds with the Wikidata-derived birth date. He is a professor of linguistics at Okinawa International University - Caile's 2024 article confirms this and records that Shinzato explained the Okinawan meaning of "Bushi" (an honorific, unlike the Japanese warrior-class term) - and became Juko Cho (head) of the Shorin-ryu Kishaba Juku after Chokei Kishaba's death in 2000, still head per the Omine dojo history page (2023) and Caile (2024). The harvested birth date (1939-02-10) comes from Wikidata.
+hasTeacherAssertion:
+  - id: 01M3YH7N5GH6PPTRM8W0HKC13J
+    teacher: 01KZBXACW0REMTPYNSM6B5QQAQ
+    assertedStyle: 01KZC8S2GEN7P0VQFP7YGZCVKZ
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states Shinzato returned to Okinawa in 1967, joined the dojo of Shoshin Nagamine, and translated Nagamine's book into English; the Omine dojo history page confirms he became Nagamine's student in 1967
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1967
+        hasEvidence:
+          - basedOnSource: 01KZC8XAP828CXHAR74DRM2QZG
+            quotation: He returned to Okinawa in 1967 where he joined the dojo of Shoshin Nagamine. Shinzato translated Nagamine's book "The Essence of Okinawan Karate-do" into the English language.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZKRQQR8DHEYY0BWE93DVMQX
+            quotation: 'later became a student of O''Sensei Shoshin Nagamine (長嶺将真), the founder of Matsubayashi Ryu Karate, in 1967.'
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GRN8YSBF5TRSEEQGK
+    teacher: 01KZBXJZ7V5PG3GYDPT46AD1PM
+    assertedStyle: 01KZC8S2GEN7P0VQFP7YGZCVKZ
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states Shinzato studied under Seigi Nakamura, who the Nakamura article names as one of the developers of the Kishaba Juku
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KZC8XAP828CXHAR74DRM2QZG
+            quotation: Shinzato also studied under Seigi Nakamura and Chokei Kishaba.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GMNHYDA8XD7E3PRWD
+    teacher: 01KZBSVN57GV3AM5RWE4CB1WT8
+    assertedStyle: 01KZDXQH2M626BV782P1NRPA1N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Christopher Caile's 2024 Fighting Arts article (footnote 3) states Shinzato was a student of Chogi Kishaba (Yamani-Ryu Bojutsu); single secondary source, hence probable
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KZKS3XCJ5V6B3XBAYVC4NM4V
+            quotation: Katsuhiko Shinzato is the head of the Okinawan Karate-Do Shorin-Ryu Kishaba Juku. He was a student of Tsunetaka Shimabukuro, Shoshin Nagamine, Seigi Nakamura, Chokei Kishaba and Chogi Kishaba (Yamani-Ryu Bojutsu).
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GB98XKYBCTSPCQE66
+    teacher: 01KZBWDNRGXRYQHHCB1BSY6R8W
+    assertedStyle: 01KZDXQH2M13NARPG06PK203W4
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        EN Wikipedia states Shinzato studied under Chokei Kishaba and became head of the Kishaba Juku
+        after Kishaba's death in 2000; in a Dnevnik newspaper interview Shinzato himself names Kishaba
+        as "the master that has had the greatest influence on me"
+    hasInteraction:
+      - interactionPeriod:
+          endYear: 2000
+        hasEvidence:
+          - basedOnSource: 01KZC8XAP828CXHAR74DRM2QZG
+            quotation: Shinzato became the Juko Cho, i.e., the head of Shōrin-ryū Kishaba Juku, after the passing of Chokei Kishaba in the year 2000.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZC8XAP86T25W4234ZZM3CEG
+            quotation: Kishaba's senior student in Okinawa was Katsuhiko Shinzato who currently heads the Kishaba Juku.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZKRQQR8B552430QEDYSNQQQ
+            quotation: The master that has had the greatest influence on me was Chokei Kishaba (1931-2000). In honor of his unique training methods, we call our study circle "Kishaba Juku" (Kishaba private school, Ed.) after his last name.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZKRQQR8DHEYY0BWE93DVMQX
+            quotation: Sensei Shinzato is currently the head of Shorin Ryu Kishaba Juku, a focused method of study within Matsubayashi Ryu.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZC8XAP828CXHAR74DRM2QZG
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZKRQQR8B552430QEDYSNQQQ
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZKRQQR8DHEYY0BWE93DVMQX
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZKS3XCJ5V6B3XBAYVC4NM4V
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q6378081
+tags:
+  - karate
+  - shorin-ryu

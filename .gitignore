@@ -1,0 +1,42 @@
+# Emacs save files
+*~
+\#*\#
+.\#*
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Generated validation reports (CI artifacts; export/data.ttl,
+# export/sources.csl.json and export/martialis-index.json are committed)
+export/link-report.json
+export/quality-report.ttl
+export/urls.txt
+export/.*
+
+# Local docs and research
+local-docs/
+scratch.txt
+
+# Agent instructions and one-off migration scripts: internal tooling,
+# never published
+AGENTS.md
+
+# Local AI-assistant tooling (not part of the published project)
+.opencode/
+.playwright-mcp/
+opencode.json
+
+# Local rdflib debug dumps
+.DisplayPrinter-debug.xml
+
+# Generic drafts
+drafts/
+# Downloaded toolchain binaries (make tools)
+tools/
+export/reports/
+export/worklist.csv
+
+# Local Emacs directory variables (per-editor schema wiring)
+.dir-locals.el

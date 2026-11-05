@@ -1,0 +1,44 @@
+type: Person
+id: 01M5JWHXPX9MPDHE244C30HT26
+name:
+  en: Eryx
+description:
+  en: >-
+    Mythical king of Eryx in Sicily and an excellent boxer, killed by Heracles in a match; in Virgil's
+    Aeneid the brother of Entellus, whose bloodstained caestus Entellus offers to fight in.
+hasHistoricityAssertion:
+  - id: 01M5JWHXPXA5A0549P3KE8PHXT
+    historicity: hist:legendary
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        One source places him in myth; the other names him only in Virgil's story.
+    hasEvidence:
+      - basedOnSource: 01M5JWHXPX1GYRCV4W753VH3BH
+        quotation: >-
+          In Greek mythology, Eryx (Ancient Greek: Ἔρυξ) may refer to the following personages:
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          According to Virgil, a Sicilian boxer named Entellus intended to fight while wearing a pair of
+          metal-laden gloves that previously had been used by his brother Eryx.
+        locator: '237'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5JWHXPX1GYRCV4W753VH3BH
+    quotation: >-
+      Eryx was an excellent boxer but died when Heracles beat him in a match.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q138829143
+tags:
+  - legend
+  - boxing

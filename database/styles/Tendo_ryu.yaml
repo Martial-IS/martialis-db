@@ -1,0 +1,130 @@
+type: Style
+id: 01M6BGZPMB3S87S2PY9MH5CTH8
+name:
+  ja-Latn: Tendō-ryū
+  ja: 天道流
+aka:
+  ja-Latn: Ten-ryū
+  ja: 天流
+hasEvidence:
+- basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+  locator: 'Tendo-ryu Naginatajutsu'
+  locatorLabel: section
+  quotation: 'Weapons/systems: naginatajutsu, kenjutsu (odachi, kodachi, nitto, tanto, kaiken), jojutsu (broken naginata), kusarigamajutsu'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M6BGZPMBKYZ26S3QB3ZY0JCN
+  quotation: '天道流の始祖は斎藤判官伝鬼房である。'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1581'
+  dateOriginal: 天正九年十一月二十一日
+  dateCalendar: datecal:japanese_nengo
+  founder:
+    - 01M6BGZPMBE2K12P8MYK05SA8J
+  location:
+    label: Tsurugaoka Hachimangu, Kamakura
+    countryCode: eucountry:JPN
+  hasEvidence:
+    - basedOnSource: 01M6BGZPMBKYZ26S3QB3ZY0JCN
+      quotation: '大勢の門弟の中で群を抜いていたが、技の未熟を深く心に感じ、鎌倉鶴ヶ岡八幡宮に百日参篭をなし、天正九年十一月二十一日満願の夜、夢の中に捜し求めていた剣の妙技が記された一軸の巻物を天から授かり、誠の道にかなう妙技を得て一流を興してこれを天流と称し、後に天道流と改めた。'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+      locator: 'Tendo-ryu Naginatajutsu'
+      locatorLabel: section
+      quotation: 'Founder: Saito Hangan Denkibo Katsuhide'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+      locator: 'Tendo-ryu Naginatajutsu'
+      locatorLabel: section
+      quotation: 'Date founded: November 21, 1582'
+      informationType: infotype:secondary
+      supports: false
+      evidenceType: evidencetype:direct
+styleType: styleclass:traditional
+hasStyleRelationAssertion:
+  - id: 01M6BGZPMB5B1J4FTS6P8WTNW8
+    relatedStyle: 01M6BGZPMBZ2S3Y2BEN14MVYEM
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Its main art is naginata; the Field Guide lists naginatajutsu first, and Green and Svinth name it in their naginata entry as one of the main surviving traditions.
+    hasEvidence:
+      - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+        locator: 'Tendo-ryu Naginatajutsu'
+        locatorLabel: section
+        quotation: 'Weapons/systems: naginatajutsu, kenjutsu (odachi, kodachi, nitto, tanto, kaiken), jojutsu (broken naginata), kusarigamajutsu'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        locator: '159'
+        locatorLabel: page
+        quotation: 'The Tendo-ryu, one of the main surviving traditions today, is recorded in the kenjutsu (sword method) section of the 1844 text, but there is no reference to any naginata techniques.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M6BGZPMBKHGB97WVGD4GXW3S
+    relatedStyle: 01KYHNJKQDTEJ1A5MQ5JYPHDTB
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The Field Guide lists kenjutsu in its curriculum, and Green and Svinth say an 1844 record lists it under kenjutsu.
+    hasEvidence:
+      - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+        locator: 'Tendo-ryu Naginatajutsu'
+        locatorLabel: section
+        quotation: 'Weapons/systems: naginatajutsu, kenjutsu (odachi, kodachi, nitto, tanto, kaiken), jojutsu (broken naginata), kusarigamajutsu'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        locator: '159'
+        locatorLabel: page
+        quotation: 'The Tendo-ryu, one of the main surviving traditions today, is recorded in the kenjutsu (sword method) section of the 1844 text, but there is no reference to any naginata techniques.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M6BGZPMB9EQWYXA3DGZM8BYB
+    relatedStyle: 01M6BGZPMBBTGQ6TYMJF5MGFTJ
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Its founder studied under Tsukahara Bokuden (the Field Guide and the school’s own Kobudo Kyokai page; one tradition).
+    hasEvidence:
+      - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+        locator: 'Tendo-ryu Naginatajutsu'
+        locatorLabel: section
+        quotation: 'Tendo-ryu founder Denkibo was from Ibaragi, and studied Kashima Shinto-ryu under Tsukahara Bokuden.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M6BGZPMBKYZ26S3QB3ZY0JCN
+        quotation: '伝鬼は常陸国井手（茨城県）に生まれ、塚原卜傳の門に入り刀槍の術を学んだ。'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Classical school best known for its naginata, with sword, short sword, two swords, jo and
+    kusarigama, founded by Saito Denkibo after a revelation at Tsurugaoka Hachimangu in 1581 (Tensho
+    9). First called Ten-ryu. Today based at the Shubukan, Itami.
+notes: >-
+  The Field Guide gives the founding date as November 21, 1582; the school's own page gives Tensho 9
+  (1581), month 11, day 21, of the lunar calendar. Present head per the Field Guide (1997): 16th soke
+  Mitamura Takeko; Green and Svinth name Mitamura Akinori as 14th soke (Doshisha Girls' School, 1899).
+  Denkibo's son Hogen continued the line as second head (Kobudo Kyokai).
+sameAs:
+  - wd:Q4356416
+tags:
+  - koryu

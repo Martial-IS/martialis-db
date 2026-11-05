@@ -1,0 +1,80 @@
+type: Place
+id: 01KZVDNBGAWJC6PX08E16CV303
+name:
+  en: Orange County Aikikai
+  ja-Latn: Ōrenji Kaunti Aikikai
+aka:
+  en:
+    - Orange County Aiki Kai
+    - OC Aikikai
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Garden Grove
+      countryCode: eucountry:USA
+      wikidata: wd:Q50054
+hasAffiliationAssertion:
+  - id: 01M3YH7N5GP7QFCRJBEEJYNMNP
+    relatedOrganization: 01KZVDNBGATXJFQGQCGW736RR6
+    affiliationRelation: affrel:member_of
+    validDuring:
+      startYear: 1971
+      endYear: 1977
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia states the school was affiliated with the Ki Society International for a period (Ishisaka was an associate lecturer), after attending the first U.S. Ki Society organizational meeting, and later became independent
+    hasEvidence:
+      - basedOnSource: 01KZSRDXQW37KR0F7RYJ78D569
+        quotation: For a period the school was affiliated with the Ki Society International, and Ishisaka was an associate lecturer with this organization. Later Ishisaka became independent of the Ki Society.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M4R9845WXBXKQSTRH9KF519H
+    instructor: 01KZSRDXQWZTM5ZRVG0NWRWZHX
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1964
+      endYear: 1978
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One secondary source (Wikipedia) states he was chief instructor.
+    hasEvidence:
+      - basedOnSource: 01KZSRDXQW37KR0F7RYJ78D569
+        quotation: Ishisaka was the chief instructor of Orange County Aikikai for the remainder of his life
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1964'
+  founder:
+    - 01KZSRDXQWZTM5ZRVG0NWRWZHX
+  hasEvidence:
+    - basedOnSource: 01KZSRDXQW37KR0F7RYJ78D569
+      quotation: In 1964 he founded the Westminster Aikido School [...] Soon after he moved to Garden Grove, California where he launched the Orange County Aiki Kai in a larger facility.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZSRDXQW37KR0F7RYJ78D569
+      quotation: Koichi Tohei supported Ishisaka in founding the Orange County Aiki Kai dojo.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: Aikido dojo in Garden Grove, California, founded by Harry Kiyoshi Ishisaka in 1964 (first as the Westminster Aikido School, then moved to Garden Grove as the Orange County Aiki Kai). Ishisaka was its chief instructor until his death in 1978, and it was the first aikido school of Steven Seagal. The dojo was affiliated with the Ki Society International for a period before becoming independent. It hosts an annual Harry Ishisaka memorial seminar.
+hasEvidence:
+  - basedOnSource: 01KZSRDXQW37KR0F7RYJ78D569
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZSRDXQW8DH7Q2RHTX1FQKER
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - aikido
+  - dojo
+  - usa
+  - california

@@ -1,0 +1,66 @@
+type: Place
+id: 01KZDXQH2MZV48WR0RZ9GKTSN5
+name:
+  en: Oshiro Dojo San Mateo
+aka:
+  en:
+    - Oshiro Dojo
+    - RBKD World Headquarters
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: San Mateo
+      countryCode: eucountry:USA
+      wikidata: wd:Q169943
+hasAffiliationAssertion:
+  - id: 01M3YH7N5G4DS2NSVNH6R51JH1
+    relatedOrganization: 01KZDXQH2MMMES77A4TW4V7HD5
+    affiliationRelation: affrel:branch_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Oshiro Dojo San Mateo is the RBKD World Headquarters per the dojo's own website
+    hasEvidence:
+      - basedOnSource: 01KZDSC7FJ21Q5YP1KKV4HQ501
+        quotation: >-
+          Oshiro Dojo RBKD World Headquarters • Shima-Ha Shorin-Ryu Karate • Yamanni-Ryu Kobujutsu
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  founder:
+    - 01KZBVGHHA2S95DPKR6CGDPZ8W
+  hasEvidence:
+    - basedOnSource: 01KZDSC7FJKVSP8SXVXF6KBM6H
+      quotation: Shihan Toshihiro Oshiro, Chief Instructor, has studied Okinawan martial arts for over forty years [...] He has been teaching in the United States since 1978.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M4R9845WFR1WG0FVRFKDSTYH
+    instructor: 01KZBVGHHA2S95DPKR6CGDPZ8W
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1978
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The dojo's own instructor page; one side only.
+    hasEvidence:
+      - basedOnSource: 01KZDSC7FJKVSP8SXVXF6KBM6H
+        quotation: >-
+          Shihan Toshihiro Oshiro Chief Instructor, Oshiro Dojo San Mateo [...] He has been teaching in the United States since 1978.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: Oshiro Dojo San Mateo is the California dojo of Shihan Toshihiro Oshiro, serving as the RBKD World Headquarters, teaching Shima-Ha Shorin-Ryu karate and Yamanni-Ryu kobujutsu.
+hasEvidence:
+  - basedOnSource: 01KZDSC7FJKVSP8SXVXF6KBM6H
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - karate
+  - yamanni-ryu
+  - dojo

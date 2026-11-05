@@ -1,0 +1,85 @@
+type: Person
+id: 01M6C18DS79PA13C3EF1PRFPS5
+name:
+  en: Lyoto Machida
+aka:
+  en:
+    - The Dragon
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+birthEvent:
+  birthDate: '1978-05-30'
+  hasEvidence:
+    - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+      quotation: 'Born: 5/30/78'
+      locator: '267'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Brazilian mixed martial artist and UFC light heavyweight champion (2009). Trained in Shotokan
+    karate by his father Yoshizo Machida from the age of three; Antonio Inoki later took him under
+    his wing.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/7/7d/Lyoto_Machida_by_Marcos_Joel_Reis.jpg
+  rights: mediarights:cc-by-2.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Lyoto_Machida_by_Marcos_Joel_Reis.jpg
+    cite: "Marcos Joel Reis, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+  - id: 01M6C18DS7E779TRSJQM6Y7QN6
+    teacher: 01M6C18DS78MZH961E4QQGHKV5
+    assertedStyle: 01KYFZEGYN107JYC5K1539R8JM
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              Machida, trained by his father Yoshizo in shotokan karate since the age of three
+            locator: '267'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M6C18DS7Q44DM2M7YFK1MJQT
+    teacher: 01KYF2M2VA0JKJCSVHZA3ZSPYA
+    assertedStyle: 01KYSS3B587WR241FHHW19X24T
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              When Japanese professional wrestling legend Antonio Inoki took him under his wing, Machida added Muay Thai and wrestling to his repertoire.
+            locator: '268'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+    quotation: >-
+      “Karate is back,” Lyoto Machida announced after he knocked Rashad Evans out cold in the second
+      round of their UFC title fight. As he strapped the light heavyweight championship belt over his
+      paper-thin gi
+    locator: '267'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q369167
+tags:
+  - mma
+  - karate

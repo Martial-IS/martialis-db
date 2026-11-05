@@ -1,0 +1,42 @@
+type: Person
+id: 01KZ6D9E8QBD5XH7ACTGYHSF2E
+name:
+  pt: Jaime Salazar Sampaio
+nationality:
+- countryCode: eucountry:PRT
+  wikidata: wd:Q45
+hasTeacherAssertion:
+- id: 01M3YH7N5G7KS9DJFEA6BBCE0Q
+  teacher: 01KJJAWN29MA64W22606R3WD7B
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Stobbaerts states in his 2001 interview that Jaime Salazar Sampaio, a playwright,
+      was one of the first students of Carlos Manuel Pereira and became the first Portuguese aikido black
+      belt.
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZ6D9E8QSENEZ3VQSXK7KX1E
+      quotation: Um dos seus primeiros alunos foi o Jaime Salazar Sampaio, que é dramaturgo, que foi o
+        primeiro cinto negro português de Aikido. E isso para mim é que é importante, porque ele ainda
+        pratica.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZ6D9E8QSENEZ3VQSXK7KX1E
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+description:
+  en: Portuguese playwright and aikido practitioner, one of the first students of Carlos Manuel Pereira
+    at the Academia de Budo and the first Portuguese aikido black belt.
+  pt: Dramaturgo e praticante de aikido português, um dos primeiros alunos de Carlos Manuel Pereira na
+    Academia de Budo e o primeiro cinto negro português de Aikido.
+notes: Stobbaerts noted in his 2001 interview that Sampaio still practised aikido at the time.
+tags:
+- aikido
+- portugal
+- playwright

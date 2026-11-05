@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <!-- Every owl:imports IRI the ontology declares, resolved to a file on
+             disk so ROBOT never dereferences it over the network.  PROV-O,
+             ORG and BIBO are imported as the STAR modules `make imports` extracts from
+             the vendored upstream files, not as the whole files, which are not
+             OWL 2 DL.  The evidence and MAon alignments are imported by
+             model/ontology-overlay.ttl. -->
+        <uri name="https://w3id.org/martialis/ontology/imports/bibo" uri="imports/bibo-module.ttl"/>
+        <uri name="https://w3id.org/martialis/ontology/imports/org" uri="imports/org-module.ttl"/>
+        <uri name="https://w3id.org/martialis/ontology/imports/prov" uri="imports/prov-module.ttl"/>
+        <uri name="https://w3id.org/martialis/ontology/alignments/evidence" uri="alignments/evidence.ttl"/>
+        <uri name="https://w3id.org/martialis/ontology/alignments/maon" uri="alignments/maon.ttl"/>
+    </group>
+</catalog>

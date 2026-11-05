@@ -1,0 +1,77 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1SX
+name:
+  ja-Latn: Oda Tsunetane
+  ja: 田常胤
+aka:
+  ja-Latn: Join Oda
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1892-03-10'
+  birthPlace:
+    label: Yamanashi Prefecture
+    countryCode: eucountry:JPN
+    wikidata: wd:Q132720
+deathEvent:
+  deathDate: '1955-02-11'
+  deathPlace:
+    label: Shinjuku
+    countryCode: eucountry:JPN
+    wikidata: wd:Q179645
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/b/b7/J%C5%8Din_Oda.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:J%C5%8Din_Oda.jpg
+    archiveUri: http://web.archive.org/web/20250114182832/https://en.wikipedia.org/wiki/Tsunetane_Oda
+    cite: "Nanbokusha（南北社）, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: Japanese judoka influential in the development of Kosen judo, known for emphasizing groundwork (ne-waza)
+    and credited with developing sankaku-jime (triangle choke). Author of several judo books including
+    "Judo Taikan" and "Judo wa Kakushite Susume".
+notes: Teacher unidentified; references found so far were not convincing enough to record.
+hasRankAssertion:
+- id: 01M3YH7N5GADY130YTNX1ANS41
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 9
+  conferredBy: 01KJJAWN29MA64W22606R3WD7X
+  dateConferred: '1948'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Officially awarded 9th dan in 1948; JudoInfo and English Wikipedia, two independent
+      sources, both directly state the rank and year
+  hasEvidence:
+  - uri: https://judoinfo.com/oda/
+    cite: Master Tsunetane Oda - JudoInfo
+    quotation: Many years later in 1948, on the occasion of his promotion to 9th Dan, Master Oda published
+      his third edition of Koshita Judo Wa Sushume
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://en.wikipedia.org/wiki/Tsunetane_Oda
+    archiveUri: https://en.wikipedia.org/w/index.php?title=Tsunetane_Oda&oldid=1378330672
+    cite: Tsunetane Oda - Wikipedia
+    quotation: Oda was awarded the rank of 9th dan in judo in 1948
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+- wd:Q17627102
+hasEvidence:
+- uri: https://judoinfo.com/oda/
+  cite: Master Tsunetane Oda - JudoInfo
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://en.wikipedia.org/wiki/Tsunetane_Oda
+  archiveUri: http://web.archive.org/web/20250114182832/https://en.wikipedia.org/wiki/Tsunetane_Oda
+  cite: Tsunetane Oda - Wikipedia
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct

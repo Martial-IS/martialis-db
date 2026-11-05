@@ -1,0 +1,39 @@
+type: Place
+id: 01KJJAWN29MA64W22606R3WD85
+name:
+  en: Iwama Dojo
+  ja-Latn: Iwama Dōjō
+  ja: 岩間道場
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Iwama
+      countryCode: eucountry:JPN
+      wikidata: wd:Q1011725
+hasAffiliationAssertion:
+  - id: 01M3YH7N5G3YY063XKVNMW0CDK
+    relatedOrganization: 01KZ3KA57C6W6FMCWM668Y13X2
+    affiliationRelation: affrel:recognised_by
+    validDuring:
+      startYear: 1942
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Iwama dojo was founded by Morihei Ueshiba in 1942 and has been governed within the Aikikai system, which manages the Founder's dojo as a satellite; after Hitohiro Saito separated from the Aikikai in 2003-2004 the venue reverted to Aikikai governance
+    hasEvidence:
+      - basedOnSource: 01KZ3KA57BWN2RR1B2Z04WCG2T
+        quotation: The Aikikai Foundation also currently manages one satellite dojo, the historical Iwama dojo in Ibaraki (about 100 km northeast of Tokyo).
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZ27S9JEK7Q5NCX65D1PVYD2
+        quotation: With the passing of Morihiro Saito in May 2002, Hitohiro Saito initially continued to govern the Founder's dojo and the Shrine of Aikido, Aikijinja. He also prepared to surrender these roles to the Aikikai, which owns those properties.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZ3KA57BWN2RR1B2Z04WCG2T
+    quotation: The Aikikai Foundation also currently manages one satellite dojo, the historical Iwama dojo in Ibaraki (about 100 km northeast of Tokyo).
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct

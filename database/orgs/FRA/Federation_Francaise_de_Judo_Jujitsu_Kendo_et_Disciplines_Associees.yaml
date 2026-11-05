@@ -1,0 +1,87 @@
+type: Organization
+id: 01M00414V96M7XZTQJZRZM76RZ
+name:
+  en: French Judo, Jiu-Jitsu, Kendo and Associated Disciplines Federation
+  fr: Fédération française de judo, jujitsu, kendo et disciplines associées
+aka:
+  fr:
+    - FFJDA
+    - Fédération française de judo et disciplines associées
+orgType: orgclass:federation
+hasSite:
+  - location:
+      label: Paris
+      countryCode: eucountry:FRA
+      wikidata: wd:Q90
+foundedEvent:
+  startDate: '1956-02-29'
+  hasEvidence:
+    - basedOnSource: 01M00414V96M7XZTQJZRZM76S1
+      quotation: >-
+        1956年 2 月29日、さらにFFJJ理事会の提案に よりフランスレーシングクラブで会合が行われ、 統合のための合意協定が両連盟の代表によって 結ばれた。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+website: https://www.ffjudo.com/
+hasAffiliationAssertion:
+  - id: 01M3YH7N5F9GV5DYDX69NZYWKP
+    relatedOrganization: 01KZYBPHEFDQWJV578KM4WJHP7
+    affiliationRelation: affrel:merged_from
+    validDuring:
+      startYear: 1956
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The FFJJ and the Kodokan-tendance federation unified under the agreement of 29 February 1956,
+        with the new federation's president coming from the FFJJ side; fr-wiki's continuous presidents
+        list from Bonét-Maury (1946-1956) onwards corroborates the institutional continuity between the
+        two bodies
+    hasEvidence:
+      - basedOnSource: 01M00414V96M7XZTQJZRZM76S1
+        quotation: A new federation, la Fédération Française de Judo et Disciplines Assimilées（FFJDA）was established in 1956.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5FFEXE7EBBPYQK87YT
+    relatedOrganization: 01M00414V96M7XZTQJZRZM76S0
+    affiliationRelation: affrel:merged_from
+    validDuring:
+      startYear: 1956
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Kodokan-tendance federation (UAK, renamed FATK in early 1955) ceased to exist separately when it unified with the FFJJ dating from the agreement of 29 February 1956; the identity and history of this short-lived federation rest on Hoshino (2018) alone, a single peer-reviewed account based on period sources
+    hasEvidence:
+      - basedOnSource: 01M00414V96M7XZTQJZRZM76S1
+        quotation: >-
+          1954年10月 8 日に「講道館派」の柔道家が 結集して講道館アマチュア連盟Union Fédérale Fran aise d Amateurs du Judo Kodokan（以 下、UAK）を発足させた。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: 'The Fédération française de judo, jujitsu, kendo et disciplines associées (FFJDA, "France Judo"), the current French judo federation, established in 1956 through the unification of the Fédération française de judo et de jiu-jitsu (FFJJ) and the Kodokan-tendance federation UAK/FATK, under an agreement concluded on 29 February 1956 with representatives of the Direction des Sports and the Ministère de l''Éducation Nationale present. The first post-unification presidents were Paul de Rocca-Serra (1956) and Jean Pimentel (1956-1961). Its modern name adds jujitsu, kendo and associated disciplines; in 1956 it was named Fédération française de judo et disciplines associées. Wikipedia (fr) instead treats the FFJDA as one continuous institution since 1946 (see the merger recorded under affiliations).
+
+'
+  fr: 'La Fédération française de judo, jujitsu, kendo et disciplines associées (FFJDA, « France Judo »), fédération française de judo actuelle, est issue de la réunion en 1956 de la Fédération française de judo et de jiu-jitsu (FFJJ) et de la fédération « tendance Kodokan » (UAK/FATK), par un accord conclu le 29 février 1956 en présence de représentants de la direction des Sports et du ministère de l''Éducation nationale. Les premiers présidents après l''unification furent Paul de Rocca-Serra (1956) puis Jean Pimentel (1956-1961). Son nom actuel y adjoint le jujitsu, le kendo et les disciplines associées ; en 1956, elle se nommait Fédération française de judo et disciplines associées. Wikipédia (fr) considère pour sa part la FFJDA comme une institution continue depuis 1946 (fusion enregistrée sous affiliations).
+
+'
+hasEvidence:
+  - basedOnSource: 01M00414V96M7XZTQJZRZM76S1
+    quotation: A new federation, la Fédération Française de Judo et Disciplines Assimilées（FFJDA）was established in 1956.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_fran%C3%A7aise_de_judo,_jujitsu,_kendo_et_disciplines_associ%C3%A9es
+    archiveUri: https://fr.wikipedia.org/w/index.php?title=F%C3%A9d%C3%A9ration_fran%C3%A7aise_de_judo%2C_jujitsu%2C_kendo_et_disciplines_associ%C3%A9es&oldid=237729115
+    cite: Fédération française de judo, jujitsu, kendo et disciplines associées - Wikipédia (fr)
+    quotation: Créée le 5 décembre 1946 sous le nom de Fédération française de judo et de jiu-jitsu (FFJJJ), son premier président est Paul Bonét-Maury de 1946 à 1956.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - france
+  - federation
+sameAs:
+  - wd:Q3091809

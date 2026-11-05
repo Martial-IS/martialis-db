@@ -1,0 +1,148 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1T3
+name:
+  ja-Latn: Kawaishi Mikinosuke
+  ja: 川石 酒造之助
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1899-08-13'
+  birthPlace:
+    label: Himeji
+    countryCode: eucountry:JPN
+    wikidata: wd:Q209801
+deathEvent:
+  deathDate: '1969-01-30'
+  deathPlace:
+    label: Paris
+    countryCode: eucountry:FRA
+    wikidata: wd:Q90
+description:
+  en: Mikinosuke Kawaishi (川石 酒造之助, Kawaishi Mikinosuke, born 13 August 1899 – 30 January 1969) was a
+    Japanese master of jujutsu and judo who achieved the rank of 7th Dan. He led the development of Judo
+    in France, with Shozo Awazu, and much of Europe and is credited with introducing the colored belt
+    system for differentiating early grades. However, written accounts from the archives of London's Budokwai
+    judo club, founded in 1918, record the use of colored judo belts at the 1926 9th annual Budokwai Display,
+    and a list of ranked colored judokas appears in the Budokwai Committee Minutes of June 1927. Kawaishi
+    visited London and the Budokwai in 1928, and was probably inspired to bring the colored belt system
+    to France. The Fédération Française posthumously awarded him 10th Dan in judo and jujutsu.
+hasTeacherAssertion:
+- id: 01M3YH7N5G3XS87KDQEE2A2B66
+  teacher: 01KJJAWN28MWKKSN4J02MVY1TD
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: According to Kawaishi Norikazu, eldest son of Kawaishi Mikinosuke, his father
+      identified Takahashi as one of his teachers at Waseda University
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD97
+    hasEvidence:
+    - uri: https://www.researchgate.net/publication/277665808_Kodokan_Judo's_three_orphaned_forms_of_counter_techniques_-_Part_1_The_gonosen-no-kata_-_Forms_of_post-attack_initiative_counter_throws
+      cite: 'Kodokan Judo''s Three Orphaned Forms of Counter Techniques - Part 1: The Gonosen-no-kata
+        (ResearchGate)'
+      quotation: According to Kawaishi Norikazu15, eldest son of Kawaishi Mikinosuke, the teachers identified
+        by his father as those from whom his father had learnt jūdō at Waseda University were Takahashi
+        and Miyakawa.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5G6306MSEZPDVB6B6V
+  teacher: 01M1KSV6WRG8Z2AM9KV5X85B8K
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: According to Kawaishi Norikazu, eldest son of Kawaishi Mikinosuke, his father
+      identified Miyakawa as one of his teachers at Waseda University
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD97
+    hasEvidence:
+    - uri: https://www.researchgate.net/publication/277665808_Kodokan_Judo's_three_orphaned_forms_of_counter_techniques_-_Part_1_The_gonosen-no-kata_-_Forms_of_post-attack_initiative_counter_throws
+      cite: 'Kodokan Judo''s Three Orphaned Forms of Counter Techniques - Part 1: The Gonosen-no-kata
+        (ResearchGate)'
+      quotation: According to Kawaishi Norikazu15, eldest son of Kawaishi Mikinosuke, the teachers identified
+        by his father as those from whom his father had learnt jūdō at Waseda University were Takahashi
+        and Miyakawa.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GE8TZCMJDF7RH3B02
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 7
+  conferredBy: 01KJJAWN29MA64W22606R3WD7X
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Independent sources state it, including Feldenkrais in 1952.
+  hasEvidence:
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTAZ
+    quotation: His system of Judo is fully described in his book My Method of Judo written when he was
+      a 7th dan and published in English in 1955
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M0CXZHZN8KGE9DWJF1Z507RG
+    quotation: I wish to express my gratitude to my friend and teacher of many years, Mr. Mikinosuke Kawaishi,
+      7th Dan.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5G46MT3J71JVDJS6J0
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 10
+  conferredBy: 01M00414V96M7XZTQJZRZM76RZ
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Posthumously awarded 10th dan by the French Judo Federation (FFJDA)
+  hasEvidence:
+  - basedOnSource: 01M34Y5WSXHMQPHMKGAK44Y2ST
+    quotation: Several years after his death, the French Jūdō Federation, in recognition of his achievements
+      and out of gratitude for his contributions to the sport, bestowed on him the highest rank of tenth
+      dan.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- uri: https://www.researchgate.net/publication/277665808_Kodokan_Judo's_three_orphaned_forms_of_counter_techniques_-_Part_1_The_gonosen-no-kata_-_Forms_of_post-attack_initiative_counter_throws
+  cite: 'DE CRÉE, Carl. Kodokan Judo''s three orphaned forms of counter techniques - Part 1: The gonosen-no-kata
+    - Forms of post-attack initiative counter throws. ResearchGate, 2015.'
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://doi.org/10.4471/hse.2013.15
+  cite: 'Groenen, H. (2013). Aux origines de la méthode française d’enseignement du judo (1936-1967):
+    acculturation, enjeux sportifs internationaux et gaullisme. Social and Education History, 2(3), 235–260.'
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://judoinfo.com/kawaishi/
+  cite: Kawaishi Mikinosuke. JudoInfo.com.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://ja.wikipedia.org/wiki/%E5%B7%9D%E7%9F%B3%E9%85%92%E9%80%A0%E4%B9%8B%E5%8A%A9
+  archiveUri: http://web.archive.org/web/20260420093809/https://ja.wikipedia.org/wiki/%E5%B7%9D%E7%9F%B3%E9%85%92%E9%80%A0%E4%B9%8B%E5%8A%A9
+  cite: 川石酒造之助. (2025, October 13). In Wikipedia. Retrieved from https://ja.wikipedia.org/wiki/%E5%B7%9D%E7%9F%B3%E9%85%92%E9%80%A0%E4%B9%8B%E5%8A%A9
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M36JXD2E86THVD07XB90Q3K6
+  quotation: According to oral reports, the only Judo Club existing in the San Diego area prior to World
+    War II was one located upstairs in Taiikukai Hall [...] The first Sensei was Mikonosake Kawaishi (unable
+    to discover his grade at that time) who instructed there for two years (sic).
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q3090191
+- dbr:Mikinosuke_Kawaishi

@@ -1,0 +1,73 @@
+type: Person
+id: 01M5MFWQ6HB26CQ1Y65ARQ372N
+name:
+  pt: Royce Gracie
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+birthEvent:
+  birthDate: '1966'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        the winner of the first UFC contest (and several subsequent competitions) was Rorion’s younger
+        brother Royce (1966–).
+      locator: '35'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Brazilian jiu-jitsu fighter, son of Hélio Gracie and younger brother of Rorion; chosen by Rorion to
+    represent Gracie Jiu-Jitsu at the first UFC (Denver, 1993), which he won, as he did several of the
+    early UFCs.
+hasTeacherAssertion:
+  - id: 01M5MFWQ6HQ0Q34RX9Z6C3K4MN
+    teacher: 01KJJAWN28MWKKSN4J02MVY1S5
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: Two sources imply it; neither states it.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: Royce Gracie – Helio’s son and the star of the early UFCs.
+            locator: Name index
+            locatorLabel: section
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Rickson Gracie (1958–) was the logical choice to represent the family style, but after
+              Rorion discovered Rickson teaching students outside Rorion’s Gracie Academy, Rorion instead
+              chose another brother, Royce (1966–), to showcase Gracie Jiu-Jitsu in this event
+            locator: '486'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+    quotation: 1993 - Royce Gracie and the UFC make their debut.
+    locator: Timeline (1993)
+    locatorLabel: section
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q553469
+tags:
+  - bjj
+  - gracie-family
+  - mma
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/b/b3/With_Royce_Gracie_%28cropped%29.jpg
+  rights: mediarights:cc-by-2.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:With_Royce_Gracie_(cropped).jpg
+    cite: "MartialArtsNomad.com, Wikimedia Commons"
+    informationType: infotype:secondary

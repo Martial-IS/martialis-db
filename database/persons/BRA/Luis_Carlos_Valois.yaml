@@ -1,0 +1,42 @@
+type: Person
+id: 01M5H6JAFSHCCB2TN41S5RKB8Z
+name:
+  pt: Luis Carlos Valois
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Brazilian jiu-jitsu black belt and judge in Amazonas, a long-time student and friend of Carlson
+    Gracie; introduced to jiu-jitsu by Arthur Virgílio, who sent him to Carlson with a letter when he
+    moved to Rio at 17.
+hasTeacherAssertion:
+  - id: 01M5H6JAFS14FGMJ47VWJ60GP8
+    teacher: 01KYQB8J2NN336ZJWGQW3YH95E
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: >-
+              Valois is a [...] black-belt and long-time student and friend of Carlson.
+            locator: Interview with Luis Carlos Valois (after chapter 13)
+            locatorLabel: section
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+    quotation: >-
+      He also holds a doctorate in law and is a judge in the Amazon state.
+    locator: Interview with Luis Carlos Valois (after chapter 13)
+    locatorLabel: section
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - bjj

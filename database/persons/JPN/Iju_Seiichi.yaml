@@ -1,0 +1,86 @@
+type: Person
+id: 01KZEF1AS2QCJJQHW4G9TTQQHP
+name:
+  ja-Latn: Iju Seiichi
+  ja: 伊集盛一
+aka:
+  en:
+  - Seiichi Iju
+  - Selichl Ishu
+  ja:
+  - いじゅ せいいち
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+description:
+  en: Okinawan martial artist, Shito-ryu karate student of Shinpan Gusukuma, dojo owner in Osaka, and
+    first teacher of Shūgorō Nakazato (1935-1940).
+notes: 'Iju studied Shito-ryu karate as a student of Shinpan Gusukuma and had a dojo in Osaka, Japan.
+  He was the first teacher of Shugoro Nakazato (1935-1940), who then became a student of Chosin Chibana.
+  The version of the Gojushiho kata practiced in Shorin-ryu Shorinkan is credited to Iju and his lineage,
+  known as "Iju Gojushiho": the Piemonte study states Gusukuma handed down two versions of the kata, the
+  longer one transmitted by Iju and similar to the version of Chozo Nakama; the Iha article on Gusukuma
+  confirms Iju taught Nakazato the kata Gojushiho. Birth/death dates are unknown; the Gojushiho lineage
+  article estimates Iju was not born before 1900 (he was a student of Gusukuma, b. 1890, and is never
+  mentioned as a student of Anko Itosu).'
+hasTeacherAssertion:
+- id: 01M3YH7N5G3HATB2X6QXNY93ER
+  teacher: 01KZC7XZAR5RWRTRZP0T6R1YG4
+  assertedStyle: 01KYFZEGYN7A9G4FSTXBPDBG8P
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: EN Wikipedia states Iju studied Shito-ryu karate as a student of Shinpan Gusukuma;
+      corroborated by the Iha article on Gusukuma (listing Iju among his students) and the Gojushiho lineage
+      and Piemonte studies (Iju learned Gojushiho from Gusukuma)
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZEN5CZW8B9CKX47V060TJ47
+      quotation: He studied Shitō-ryū karate as a student of Shinpan Gusukuma.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZF1F5JRRK8YSMSS4RK2CKWF
+      quotation: Among his students were Yoki Uema (1920 - 2011, founder of Shorin-Ryu Shubukan), Seiichi
+        Iju (who was the first teacher of Shuguro Nakazato, the founder of Shorin-Ryu Shorinkan, and who
+        taught the latter the kata Gojushiho), Seitoku Ishikawa (1925 - 2013) and Seikichi Iha (born in
+        1932).
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZF1F5JRAYP2MP8NZSAA5Z6N
+      quotation: And Seiichi Iju learned Gojushiho from Shinpan Gusukuma.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZF1F5JRWBBFKXGEZQNTJYJ7
+      quotation: Another Gusukuma student, Seiichi Iju, handed down a longer version instead. This version
+        is similar, and corresponds in enbusen and other typical details, to that transmitted by Chozo
+        Nakama, and is now practiced in the Shorinkan Shorin-ryu school under the name of Iju Gojushiho.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZEN5CZW8B9CKX47V060TJ47
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZF1F5JRAYP2MP8NZSAA5Z6N
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZF1F5JRRK8YSMSS4RK2CKWF
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZF1F5JRWBBFKXGEZQNTJYJ7
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q7446703
+tags:
+- karate
+- shito-ryu
+- shorin-ryu

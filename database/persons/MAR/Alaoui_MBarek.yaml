@@ -1,0 +1,148 @@
+type: Person
+id: 01KZ6D9E8QG11KQ7ZXBSTFAY2D
+name:
+  fr: M'barek Alaoui
+  ar-Latn: M'Barek Alaoui
+nationality:
+- countryCode: eucountry:MAR
+  wikidata: wd:Q1028
+deathEvent:
+  deathDate: '2014'
+  deathPlace:
+    label: Morocco
+    countryCode: eucountry:MAR
+    wikidata: wd:Q1028
+  hasEvidence:
+  - basedOnSource: 01KZ6V67A5SKMYNZHHY6H9NA9D
+    quotation: M'barek Alaoui, décédé en 2014, premier 8e dan d'aïkido en Afrique du Nord
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M3YH7N5G3NMKEZ3HA3RY4RTB
+  teacher: 01KJJAWN29MA64W22606R3WD7D
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Alaoui states in his 2011 Aikido Journal interview that he began aikido in 1957 with European
+      teachers including Georges Stobbaerts in Morocco; Stobbaerts likewise called him one of his
+      students in his 2001 interview. The student-teacher relationship is confirmed from both sides.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KZ6D9E8Q3F78F13SS130W679
+    interactionPeriod:
+      startYear: 1957
+    hasEvidence:
+    - basedOnSource: 01KZ6V67A5JH2GFJJBACQ4E739
+      quotation: Ich begann im Jahre 1957. [...] Ja, da war ein Monsieur Naessens aus Brüssel, sowie Georg
+        Stobbaerts, ebenfalls aus Belgien.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZ6D9E8QSENEZ3VQSXK7KX1E
+      quotation: Um dos meus alunos em Marrocos, M'Barek Alaoui é, por exemplo, o Director Técnico da
+        Federação de Aikido de Marrocos e é sétimo dan Aikikai.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GAFMJDGNTKNV4K4BT
+  teacher: 01KZ4T6J7DEM2P2C0XMBSJ4CZD
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Alaoui received his shodan from Nobuyoshi Tamura in 1964, the first shodan in
+      Morocco, and is listed among Tamura's former students in the French Wikipedia article. From the
+      split of 1970 the Syu do kan, which Alaoui co-founded, followed the Tamura (Aikikai) line.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1964
+    hasEvidence:
+    - basedOnSource: 01KZ6V67A5JH2GFJJBACQ4E739
+      quotation: 1964 habe ich von Tamura Sensei den Sho-dan des Aikikai erhalten. Ich war der erst Sho-dan
+        in Marokko.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZ6V67A5SKMYNZHHY6H9NA9D
+      quotation: M'barek Alaoui, décédé en 2014, premier 8e dan d'aïkido en Afrique du Nord
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5G3YAF9T0QJBGAJPH2
+  rankStyle: 01KJJAWN29MA64W22606R3WD9R
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 7
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: 7th dan Aikikai stated by Stobbaerts in the 2001 interview; date of the grade
+      not given.
+  hasEvidence:
+  - basedOnSource: 01KZ6D9E8QSENEZ3VQSXK7KX1E
+    quotation: M'Barek Alaoui é, por exemplo, o Director Técnico da Federação de Aikido de Marrocos e
+      é sétimo dan Aikikai.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5GQ9ZDQS8V4WAD0BRW
+  rankStyle: 01KJJAWN29MA64W22606R3WD9R
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 8
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Described in the French Wikipedia article on Tamura as the first 8th dan of aikido
+      in North Africa, attained before his death in 2014; exact date not given.
+  hasEvidence:
+  - basedOnSource: 01KZ6V67A5SKMYNZHHY6H9NA9D
+    quotation: M'barek Alaoui, décédé en 2014, premier 8e dan d'aïkido en Afrique du Nord
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: Moroccan aikido practitioner (died 2014), the first shodan of aikido in Morocco (awarded by Nobuyoshi
+    Tamura in 1964) and the first 8th dan of aikido in North Africa. He began aikido in 1957 with European
+    teachers including Georges Stobbaerts, and after the 1970 split followed the Tamura (Aikikai) line,
+    founding the Syu do kan with Emile Metzinger. He served as technical director of the Aikido Federation
+    of Morocco and trained thousands of students.
+  pt: Praticante de aikido marroquino (morto em 2014), o primeiro shodan de Aikido em Marrocos (atribuído
+    por Nobuyoshi Tamura em 1964) e o primeiro 8º dan de Aikido no Norte de África. Começou o Aikido em
+    1957 com professores europeus incluindo Georges Stobbaerts, e após a cisão de 1970 seguiu a linha
+    de Tamura (Aikikai), fundando o Syu do kan com Emile Metzinger. Foi diretor técnico da Federação de
+    Aikido de Marrocos e formou milhares de alunos.
+notes: Alaoui began aikido in 1957 with European teachers in Morocco (among them Georges Stobbaerts and
+  Julien Naessens). He received his shodan from Nobuyoshi Tamura in 1964 as the first shodan in Morocco.
+  In 1970 he and Emile Metzinger left Stobbaerts to create the Syu do kan, which followed Tamura's Aikikai
+  line; the falling-out between Stobbaerts and Tamura at the Budo Club du Maroc in 1970 is documented
+  in Gérard Obellianne's Aikido Journal interview. He stayed in Morocco when other teachers left, trained
+  thousands of aikidoka, and was technical director of the Aikido Federation of Morocco. He died in 2014,
+  described as the first 8th dan of aikido in North Africa.
+hasEvidence:
+- basedOnSource: 01KZ6V67A5JH2GFJJBACQ4E739
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ6V67A5SKMYNZHHY6H9NA9D
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ6D9E8QSENEZ3VQSXK7KX1E
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ6QKPB7XV7VR5F4AATW2XEC
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- aikido
+- aikikai
+- morocco
+- syu-do-kan

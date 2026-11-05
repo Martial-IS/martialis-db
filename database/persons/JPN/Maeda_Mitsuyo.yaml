@@ -1,0 +1,97 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1TH
+name:
+  ja-Latn: Maeda Mitsuyo
+  ja: 前田 光世
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/1/1a/Maeda_Mituyo.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Maeda_Mituyo.jpg
+    cite: "島津書房, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: Japanese judoka known as 'Conde Koma' who played a pivotal role in bringing judo to Brazil and influencing
+    the development of Brazilian Jiu-Jitsu. Student of Yokoyama Sakujiro at the Kodokan.
+aka:
+  ja-Latn:
+  - Otávio Maeda
+  - Conde Koma
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+- countryCode: eucountry:BRA
+  wikidata: wd:Q155
+birthEvent:
+  birthDate: '1878-11-18'
+  birthPlace:
+    label: Hirosaki
+    countryCode: eucountry:JPN
+    wikidata: wd:Q194087
+deathEvent:
+  deathDate: '1941-11-28'
+  deathPlace:
+    label: Belém, Pará
+    countryCode: eucountry:BRA
+    wikidata: wd:Q12829733
+notes: Trained under an unidentified teacher from 1895 to 1896, before joining the Kodokan in 1897 and
+  studying under Yokoyama Sakujiro.
+hasTeacherAssertion:
+- id: 01M3YH7N5G8EJ88D0AFQ67YG92
+  teacher: 01KJJAWN29MA64W22606R3WD7H
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: JA Wikipedia on Yokoyama names Maeda as his student; a BJJ blog that likely draws on it agrees; not independent
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+    interactionPeriod:
+      startYear: 1897
+    hasEvidence:
+    - uri: https://ja.wikipedia.org/wiki/%E6%A8%AA%E5%B1%B1%E4%BD%9C%E6%AC%A1%E9%83%8E
+      archiveUri: https://ja.wikipedia.org/w/index.php?title=%E6%A8%AA%E5%B1%B1%E4%BD%9C%E6%AC%A1%E9%83%8E&oldid=111091309
+      cite: 横山作次郎 (ウィキペディア)
+      quotation: また、三船久蔵や前田光世の師匠としても知られる
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://simonbjj.com/satake
+      cite: The Sumo wrestle who taught BJJ, Soshiro Satake
+      quotation: At some point later, probably in the late 1890’s, he joined the Kodokan and would become
+        peers of Mitsuyo Maeda. The two judoka trained together under Sakujiro Yokoyama, who was known
+        as one of the Four Guardians of the Kodokan
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GZ5XB9RW7NBW1RBSV
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 7
+  conferredBy: 01KJJAWN29MA64W22606R3WD7X
+  dateConferred: '1941-11-27'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Wikipedia only.
+  hasEvidence:
+  - uri: https://en.wikipedia.org/wiki/Mitsuyo_Maeda
+    archiveUri: https://en.wikipedia.org/w/index.php?title=Mitsuyo_Maeda&oldid=1371573365
+    quotation: the Kodokan promoted him to 6th dan, and on November 27, 1941, to 7th dan.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+    cite: 'Wikipedia: Mitsuyo Maeda'
+hasEvidence:
+- uri: https://en.wikipedia.org/wiki/Mitsuyo_Maeda
+  archiveUri: https://en.wikipedia.org/w/index.php?title=Mitsuyo_Maeda&oldid=1371573365
+  cite: 'Wikipedia: Mitsuyo Maeda'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q2456537
+- dbr:Mitsuyo_Maeda

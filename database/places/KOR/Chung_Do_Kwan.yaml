@@ -1,0 +1,94 @@
+type: Place
+id: 01M6BQSYG61TZF4ZMP5QZ2GW08
+name:
+  en: Chung Do Kwan
+  ko: 청도관
+aka:
+  en:
+    - Ch’ŏng-Do Kwan
+    - Chungdohwe
+    - Chungdokwan
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Korea
+      countryCode: eucountry:KOR
+foundedEvent:
+  startDate: '1944'
+  founder:
+    - 01M5CM3YFSZZQ2V5RFX27JCRDX
+  hasEvidence:
+    - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+      quotation: >-
+        Of these three, Yi Wŏn’ Guk founded the first tangsu-do or karate school in Korea in 1944
+      locator: '53'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+      quotation: >-
+        Yi Wŏn’ Guk (the founder of Ch’ŏng-Do Kwan), No Pyŏng Jik (Song-Mu Kwan) and Chŏn Sang Sŏp
+      locator: '52'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Chungdohwe (Blue Way System) was organized in 1944. It was reorganized and renamed Chundokwan [sic] in
+        1953.
+      locator: '199'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KYJ42SQPE9AT05GKA3G4K4M6
+      quotation: >-
+        founded by Lee Won Kuk whom later fled to Japan as a communist sympathizer turning over the kwan to
+        his student Sohn Duk Son.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M6BQSYG6GNNAGEF97NKJQW6J
+    instructor: 01M6BQSYG6P8QZSB7WQ06F6PBB
+    instructorCapacity: instrcap:head_instructor
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Two independent histories state it.
+    hasEvidence:
+      - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+        quotation: >-
+          Son Duk Sung (the successor of Yi Wŏn’ Guk at Ch’ŏng-Do Kwan)
+        locator: '80'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KYJ42SQPE9AT05GKA3G4K4M6
+        quotation: >-
+          turning over the kwan to his student Sohn Duk Son.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    The first tangsu-do (karate) school in Korea, founded by Lee Won-kuk in 1944; one of the five original
+    kwan of taekwondo. Son Duk-sung succeeded Lee as its head. The Korean army's taekwondo of the late
+    1950s was based on it.
+notes: >-
+  No source gives the city, so the site is country-level. Green & Svinth date the renaming to 1953; Mönig's
+  Table 5.4 gives 1951 for Son's succession (table, not quotable).
+hasEvidence:
+  - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q5116284
+tags:
+  - taekwondo
+  - tang-soo-do
+  - kwan

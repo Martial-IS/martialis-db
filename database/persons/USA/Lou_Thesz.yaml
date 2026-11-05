@@ -1,0 +1,111 @@
+type: Person
+id: 01M5JVVMHMRCP2RGBQV64GA0MA
+name:
+  en: Lou Thesz
+aka:
+  en:
+    - Aloysius Martin Thesz
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1916-04-24'
+  hasEvidence:
+    - basedOnSource: 01M5JVVMHMC97RN82GJ3MYZ88E
+      quotation: >-
+        Aloysius Martin Thesz (April 24, 1916 – April 28, 2002), known by the ring name Lou Thesz, was an
+        American professional wrestler and wrestling coach.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2002-04-28'
+  hasEvidence:
+    - basedOnSource: 01M5JVVMHMC97RN82GJ3MYZ88E
+      quotation: >-
+        Aloysius Martin Thesz (April 24, 1916 – April 28, 2002), known by the ring name Lou Thesz, was an
+        American professional wrestler and wrestling coach.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    American professional wrestler and coach, several times world heavyweight champion. After
+    Greco-Roman wrestling with his father he trained nearly four years under George Tragos, then under Ed
+    "Strangler" Lewis, his trainer and manager. He was a hand-to-hand combat instructor at Fort Lewis in
+    the Second World War and late in life head coach of the CACC Snake Pit Japan.
+hasTeacherAssertion:
+  - id: 01M5JVVMHM61EJW6XDT9GNJZC6
+    teacher: 01M5JVVMHMZ5ESY5ZXSJKHH8G2
+    assertedStyle: 01KYEWRMWERM1HW12W53HE9G4A
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JVVMHMC97RN82GJ3MYZ88E
+            quotation: >-
+              George Tragos trained Thesz for nearly four years at the National Gym in St.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JVVMHM8N7NJV7V0M8CDC2A
+            quotation: >-
+              Tragos notably trained three-time NWA World Heavyweight Champion Lou Thesz
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5JVVMHM4Z1X75XV3Y3TSRCC
+    teacher: 01M5JVVMHM2S2WCRYFM2D56Q1H
+    assertedStyle: 01KYEWRMWERM1HW12W53HE9G4A
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JVVMHMC97RN82GJ3MYZ88E
+            quotation: >-
+              Although Thesz lost the 15-minute contest, Lewis was impressed by Thesz's skills and later
+              became his manager and trainer.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JVVMHMD48HVW8HQM5VRGK3
+            quotation: >-
+              Lewis was known for his catch wrestling prowess and trained many future champions, most
+              notably Lou Thesz, Danny Hodge, Dick Hutton and Gene LeBell.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      while instructors at Fort Lewis, Washington, included professional wrestler Aloysius “Lou” Thesz
+      (1916–2002).
+    locator: '493'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5JVVMHMC97RN82GJ3MYZ88E
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q466053
+tags:
+  - wrestling
+  - catch-wrestling
+  - professional-wrestling
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/8/8d/1953_St.Paul_Armory_Wrestling_Program_-_Lou_Thesz.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:1953_St.Paul_Armory_Wrestling_Program_-_Lou_Thesz.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary

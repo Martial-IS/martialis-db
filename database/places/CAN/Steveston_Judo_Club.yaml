@@ -1,0 +1,79 @@
+type: Place
+id: 01M5HP66GEED4494MJXWMYAJKA
+name:
+  en: Steveston Judo Club
+aka:
+  en: Steveston Dojo
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Steveston, Richmond, British Columbia
+      countryCode: eucountry:CAN
+      wikidata: wd:Q996469
+foundedEvent:
+  startDate: '1927'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+      quotation: >-
+        Another club sprang up in Steveston, B.C. in 1927.
+      locator: '21'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Judo dojo at Steveston, British Columbia, opened in 1927 as a branch of Shigetaka Sasaki's Tai Iku
+    Dojo, with Sasaki teaching there twice a week; closed by the wartime expulsion and revived in 1953 by
+    Tomoaki Doi and Frank Sakai.
+hasInstructorRole:
+  - id: 01M5HP66GEQYPW3X3DBTV01R64
+    instructor: 01M5HP66GE1YMWGX0M6GVQHC06
+    instructorCapacity: instrcap:instructor
+    instructorPeriod:
+      startYear: 1927
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+        quotation: >-
+          Another club sprang up in Steveston, B.C. in 1927. Tomoaki Doi, the director of the youth
+          program and Judo instructor, and Mr. Takeshi Yamamoto asked for Sasaki’s help.
+        locator: '21'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5HP66GE0MGFYZZKK0WW4TM6
+    instructor: 01M5H3WJ4F1N0QAF3WT79KPD9Y
+    instructorCapacity: instrcap:instructor
+    instructorPeriod:
+      startYear: 1927
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+        quotation: >-
+          As busy as he was running a business and operating his fledgling organization, Sasaki went to
+          Steveston twice a week. The Steveston Dojo became a branch of the Tai Iku Dojo of Vancouver.
+        locator: '21'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    quotation: >-
+      Two years later, Tomoaki Doi and Frank Sakai, with others black belts, revived the Steveston club.
+    locator: '43'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - canada

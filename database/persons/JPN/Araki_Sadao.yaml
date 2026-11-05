@@ -1,0 +1,59 @@
+type: Person
+id: 01M5HPCT49SKZTHK45GDDGAAAH
+name:
+  ja-Latn: Araki Sadao
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+description:
+  en: >-
+    Japanese army general and politician (1877–1966), Minister for War from 1931; a student and close
+    acquaintance of Ueshiba Morihei.
+hasTeacherAssertion:
+  - id: 01M5HPCT49BBJMJAD8NYZVM5D3
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TV
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source; it reports Ueshiba Kisshomaru's account.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              According to Ueshiba’s son Kisshomaru (1921–1999), one of his father’s students (and “a
+              close acquaintance”) was General Araki Sadao, who from 1931 was Deputy Inspector-General
+              of Military Training and Minister for War.
+            locator: '639'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Among his students were Admiral Yamamoto Eisuke (1876–1962), Baron General Araki Sadao
+              (1877–1966)
+            locator: '638'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: 638-639
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q353244
+tags:
+  - aikido
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/f/f0/Araki_Sadao_%28full%29.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Araki_Sadao_(full).jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary

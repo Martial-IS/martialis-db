@@ -1,0 +1,44 @@
+type: Person
+id: 01M5JSGG50EQ0XJ5170C0MXSKR
+name:
+  en: Johane dicto Suveno
+aka:
+  en:
+    - Johane dicto Suueno
+    - master John called Suvenus
+description:
+  en: >-
+    Fencing master named by Fiore dei Liberi as the foremost of his teachers; a disciple of Nicholai de
+    Toblem. Known only from Fiore's prologue, in Latin, so his origin is unknown.
+hasTeacherAssertion:
+  - id: 01M5JSGG50EKX56WWXD2M0FMFW
+    teacher: 01M5JSGG50H6EY849HTDKW26TH
+    assertedStyle: 01M5JRHX02FJ6XZ3X069NVX3SE
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JSGG505YWQZSX677VBVJXR
+            quotation: >-
+              and mostly from master John, called Suvenus, who was a student of master Nicholas of
+              Toblem in the Mexinensian diocese
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JSGG5081ZEGH8JTM4FRCAV
+            quotation: >-
+              He stated that foremost among the masters who trained him was one Johane dicto Suueno, who
+              he notes was a disciple of Nicholai de Toblem
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JSGG5081ZEGH8JTM4FRCAV
+    informationType: infotype:secondary
+    supports: true
+tags:
+  - fencing

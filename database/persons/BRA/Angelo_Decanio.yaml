@@ -1,0 +1,41 @@
+type: Person
+id: 01M6A2A5Z442ZVSK12QQPJ4NHA
+name:
+  pt: Angelo Decânio
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Doctor and capoeira writer from Salvador, a student of Mestre Bimba at his academy and later
+    editor of Mestre Pastinha's main manuscript.
+hasTeacherAssertion:
+  - id: 01M6A2A5Z2TZ46ZPDF2ZF2Z6MH
+    teacher: 01M5H4AFG2ZHJ3H82H0DPJQJ1V
+    assertedStyle: 01M6A2A5YR5THAAVA3A61JRZ1H
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - interactionPlace: 01M6A2A5YS7KPFM0AKG4N1TEP1
+        hasEvidence:
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              Soon other students showed up at Bimba’s academy, among which many future doctors,
+              such as Angelo Decânio.
+            locator: '136'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    locator: '136'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - capoeira

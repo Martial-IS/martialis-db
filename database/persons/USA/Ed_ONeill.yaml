@@ -1,0 +1,103 @@
+type: Person
+id: 01M6ENVCFADXAKZ3HJ66HJA3YA
+name:
+  en: Ed O'Neill
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+birthEvent:
+  birthDate: '1946-04-12'
+  birthPlace:
+    label: Youngstown, Ohio
+    countryCode: eucountry:USA
+    wikidata: wd:Q216820
+  hasEvidence:
+  - basedOnSource: 01M6ENPY5WK1XCC3WV1QHVN44Z
+    quotation: >-
+      Ed O'Neill was born into an Irish-American Catholic family in Youngstown, Ohio, on April 12, 1946.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/c/c1/Ed_O%27Neill_at_2015_PaleyFest.jpg
+  rights: mediarights:cc-by-sa-2.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Ed_O%27Neill_at_2015_PaleyFest.jpg
+    cite: "iDominick, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    American actor.
+hasTeacherAssertion:
+- id: 01M6ENVCFAAA7SC69G7RPNDNDC
+  teacher: 01KZ1TRSW0VJJTMCJ7NK8WWRF0
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      O'Neill's own account; BJJEE and MixedMartialArts.com agree
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1991
+    hasEvidence:
+    - basedOnSource: 01M6ENPY5WEKF5MA40AX99YY8E
+      quotation: >-
+        So they finish and John introduced me to Rorion…
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ENPY5WEKF5MA40AX99YY8E
+      quotation: >-
+        starting his training in 1991
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ENPY5W83KV0EXZGJZ5TSF0
+      quotation: >-
+        At a Gracie Academy Instructor Certification Program, in Torrance, CA, Gracie Jiu-Jitsu Black Belt, Ed O’Neill makes a surprise appearance before his weekly private lesson with Rorion Gracie.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ENPY5WXX3WPMFFC4CYD1J9
+      quotation: >-
+        Years later, he earned his black belt under Rorion himself.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M6ENVCFAPYZ24R33WPHCCN2X
+  rankStyle: 01KJJAWN29MA64W22606R3WD9J
+  rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+  rankGrade: rankgrade:bjj_black
+  grantedBy: 01KZ1TRSW0VJJTMCJ7NK8WWRF0
+  dateConferred: 2007-12
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Date from one BJJEE paragraph, repeated by MixedMartialArts.com; giver from BJJEE 2026
+  hasEvidence:
+  - basedOnSource: 01M6ENPY5WP1V1H5T69YTBY0VF
+    quotation: >-
+      In December 2007, O’Neill received his black belt.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6ENPY5WXX3WPMFFC4CYD1J9
+    quotation: >-
+      Years later, he earned his black belt under Rorion himself.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M6ENPY5WK1XCC3WV1QHVN44Z
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q16758
+tags:
+- brazilian-jiu-jitsu
+- actor

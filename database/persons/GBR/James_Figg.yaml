@@ -1,0 +1,114 @@
+type: Person
+id: 01M5JPY6FNBQZ36WZ4QDD1ZST8
+name:
+  en: James Figg
+aka:
+  en:
+    - James Fig
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+birthEvent:
+  birthDate: '1695~'
+  birthPlace:
+    label: Thame
+    countryCode: eucountry:GBR
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Pugilism’s first popular champion was James Figg (ca. 1695–1734). Figg, from Thame in
+        Oxfordshire, was considered champion of England from 1719 to his retirement in 1730.
+      locator: '228'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1734-12-08'
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNB90T86PJZ87EVMAA
+      quotation: >-
+        James Figg (before 1700 – 8 December 1734; also spelt James Fig) was an English prizefighter and
+        instructor in historical European martial arts.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    English prizefighter and teacher of boxing, backsword, quarterstaff and cudgel, from Thame. In 1719
+    he opened an amphitheatre and fighting school in London; he is counted as the first champion of
+    England, 1719–1730. His pupils included Jack Broughton, George Taylor and Thomas Sibblis.
+hasTeacherAssertion:
+  - id: 01M5JTMYPERG8M89P8A1XNNH1C
+    teacher: 01M5JTMYPE2VE6M82N3B2ZEKD6
+    assertedStyle: 01M5JTMYPEMGBV9VR1FNNPYP8R
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source.
+    hasInteraction:
+      - interactionPeriod:
+          endYear: 1714
+        hasEvidence:
+          - basedOnSource: 01M5JPY6FNB90T86PJZ87EVMAA
+            quotation: >-
+              Little is certain about his early life before 1714, by which time he was a student of the
+              defence instructor Timothy Buck of Clare Market.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M5JPY6FN4R5AV0HSDTREXYH3
+    honorValue: Champion of England
+    honorType: honortype:title
+    dateConferred: '1719'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Pugilism’s first popular champion was James Figg (ca. 1695–1734). Figg, from Thame in
+          Oxfordshire, was considered champion of England from 1719 to his retirement in 1730.
+        locator: '228'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JPY6FNB90T86PJZ87EVMAA
+        quotation: >-
+          He claimed to have won more than 200 matches during his career, and was posthumously
+          considered the first boxing champion.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Moreover, Figg taught his pupils the use not only of the fist but also of the sword, broadsword,
+      and cudgel.
+    locator: '228'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5JPY6FNB90T86PJZ87EVMAA
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q1323803
+tags:
+  - boxing
+  - prizefighting
+  - united-kingdom
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/c/cd/James_Figg.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:James_Figg.jpg
+    cite: "John Faber Jr, after John Ellys, Wikimedia Commons"
+    informationType: infotype:secondary

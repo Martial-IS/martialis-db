@@ -1,0 +1,50 @@
+type: Person
+id: 01M5H6E6RGGWSYGN4TSG88HHJE
+name:
+  pt: Ignácio Aragão
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Brazilian jiu-jitsu coral belt from Rio, one of Carlson Gracie's early black belts; he began in
+    1977 under Alvaro Barreto before moving to Carlson's school.
+notes: >-
+  Drysdale (interview): his first coach was Alvaro Barreto, João Alberto Barreto's brother (no record
+  yet).
+hasTeacherAssertion:
+  - id: 01M5H6E6RG0PSVQ4KEB0HCTVS4
+    teacher: 01KYQB8J2NN336ZJWGQW3YH95E
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: >-
+              My coach, Alvaro Barreto, was an outstanding teacher but after a while there weren’t too
+              many guys to train with so I went over to Carlson’s school.
+            locator: Interview with Ignácio Aragão (after chapter 13)
+            locatorLabel: section
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: Aragão is one of Carlson’s old time black-belts
+            locator: Interview with Ignácio Aragão (after chapter 13)
+            locatorLabel: section
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+    locator: Interview with Ignácio Aragão (after chapter 13)
+    locatorLabel: section
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - bjj

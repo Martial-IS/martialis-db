@@ -1,0 +1,63 @@
+type: Person
+id: 01M5JVVMHM1HCY148KJQ2VP9H6
+name:
+  en: Stanislaus Zbyszko
+aka:
+  en:
+    - Stanisław Cyganiewicz
+    - Stanley Zbyszko
+nationality:
+  - countryCode: eucountry:POL
+    wikidata: wd:Q36
+description:
+  en: >-
+    Polish professional wrestler, brought into wrestling by his mentor Władysław Pytlasiński, a leading
+    European champion around 1900 and later world champion in America; with his brother he trained
+    wrestlers on their Missouri farm.
+notes: >-
+  Dates differ: en Wikipedia 1880 birth; Green and Svinth 1879–1967. None recorded. His students Johnny
+  Valentine and Harley Race (en Wikipedia) are not recorded.
+hasTeacherAssertion:
+  - id: 01M5JVVMHMQJ7254MT9MHJX5ND
+    teacher: 01M5JVVMHMR3S1YCGFGXFZ7E44
+    assertedStyle: 01KYJ39BQPQ7JTTDQ3B36PZQQN
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JVVMHMPSGZZJ8N87SQ2CTG
+            quotation: >-
+              He was introduced to professional wrestling by the Polish grappler Władysław Pytlasiński,
+              who became his mentor.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Popular turn-of-the-century European wrestling champions included George Hackenschmidt (1878–1968)
+      and Stanley Zbyszko (Stanislaw Cyganiewicz, 1879–1967).
+    locator: '492'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5JVVMHMPSGZZJ8N87SQ2CTG
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q377051
+tags:
+  - wrestling
+  - professional-wrestling
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/5/5b/Zbysko_%28lutteur_polonais%29_-_btv1b53223347b.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Zbysko_(lutteur_polonais)_-_btv1b53223347b.jpg
+    cite: "Agence Rol, Wikimedia Commons"
+    informationType: infotype:secondary

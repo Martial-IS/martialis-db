@@ -1,0 +1,73 @@
+type: Person
+id: 01M5JPY6FNC1T9SS05Z5ZHK37V
+name:
+  en: John Gully
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+birthEvent:
+  birthDate: '1783-08-21'
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNBJFPMEXF6S55F3NN
+      quotation: >-
+        John Gully (21 August 1783 – 9 March 1863) was an English champion prizefighter who became a
+        racehorse owner and, from 1832 to 1837, a Member of Parliament.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1863-03-09'
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNBJFPMEXF6S55F3NN
+      quotation: >-
+        John Gully (21 August 1783 – 9 March 1863) was an English champion prizefighter who became a
+        racehorse owner and, from 1832 to 1837, a Member of Parliament.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    English champion prizefighter of the Regency ring who retired in 1807, then became a racehorse
+    owner with four Derby winners and a Member of Parliament (1832–1837).
+hasHonorAssertion:
+  - id: 01M5JPY6FN8BK8XJFG8XTCXVJY
+    honorValue: Champion of England
+    honorType: honortype:title
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        One source states it; the other implies it.
+    hasEvidence:
+      - basedOnSource: 01M5JPY6FNBJFPMEXF6S55F3NN
+        quotation: >-
+          John Gully (21 August 1783 – 9 March 1863) was an English champion prizefighter who became a
+          racehorse owner and, from 1832 to 1837, a Member of Parliament.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Upon Gully’s retirement from the ring in 1807, Tom Cribb (1781–1848) was declared champion.
+        locator: '230'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5JPY6FNBJFPMEXF6S55F3NN
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q3181650
+tags:
+  - boxing
+  - prizefighting
+  - united-kingdom
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/c/cd/John_Gully.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:John_Gully.jpg
+    cite: "Joseph Brown, Wikimedia Commons"
+    informationType: infotype:secondary

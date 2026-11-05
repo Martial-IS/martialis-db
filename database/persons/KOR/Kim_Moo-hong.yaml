@@ -1,0 +1,43 @@
+type: Person
+id: 01M5HN449VY9PG3G56Q8XWXPWP
+name:
+  ko-Latn: Kim Moo-hong
+nationality:
+  - countryCode: eucountry:KOR
+    wikidata: wd:Q884
+description:
+  en: >-
+    Korean hapkido teacher, a fellow student of Ji Han-jae under Choi Yong-sul; with Ji he organised the
+    kicking repertoire of Yu Kwon Sool, reportedly drawn from taekkyon and su bahk.
+hasTeacherAssertion:
+  - id: 01M5HN449V0QBVBW0AA4A17N37
+    teacher: 01M5H45XTYZJGP4BK91872Q9E3
+    assertedStyle: 01M5H45XTYC7KSZ5CZ9WKV4T0D
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Ji Han-Jae (1936–) began to train with Choi in 1953. Working with a fellow student, Kim Moo
+              Hong (dates unknown), Ji organized the kicking repertoire that came to be identified with Yu
+              Kwon Sool.
+            locator: '184'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: '184'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q6409178
+tags:
+  - hapkido

@@ -1,0 +1,107 @@
+type: Person
+id: 01M5JPY6FNJXZJZQ5DD59T1XWQ
+name:
+  en: Daniel Mendoza
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+birthEvent:
+  birthDate: '1765-07-05'
+  birthPlace:
+    label: London
+    countryCode: eucountry:GBR
+    wikidata: wd:Q84
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNWFEV6TVW8N3FT1GE
+      quotation: >-
+        Daniel Mendoza (5 July 1765 – 3 September 1836) was an English bare-knuckle boxer and the first
+        Jewish English heavyweight champion
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Another charismatic figure of the age was Daniel Mendoza (1764–1836).
+      locator: '230'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: false
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1836-09-03'
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNWFEV6TVW8N3FT1GE
+      quotation: >-
+        Daniel Mendoza (5 July 1765 – 3 September 1836) was an English bare-knuckle boxer and the first
+        Jewish English heavyweight champion
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    English Jewish prizefighter from the East End of London whose scientific, defensive style and
+    books (The Art of Boxing) shaped boxing technique. Richard Humphries was his early mentor and second
+    and then his rival in three bouts (1788–1790). He ran a boxing school in Capel Court and lost to John
+    Jackson in 1795.
+hasTeacherAssertion:
+  - id: 01M5JPY6FN3640DF3MYZYSMA2Q
+    teacher: 01M5JPY6FN12XN53MHGVXKM5JE
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JPY6FNWFEV6TVW8N3FT1GE
+            quotation: >-
+              The next phase of Mendoza's career was defined by a series of bouts with his former
+              mentor and second Richard Humphries between 1787 and 1790.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M5JPY6FNK75DDR885FN07C61
+    honorValue: Champion of England
+    honorType: honortype:title
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source; contemporary usage questioned.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          While Mendoza’s reign as champion was short, his three bouts against Richard “The Gentleman”
+          Humphries (dates unknown) between 1788 and 1790 generated huge publicity
+        locator: '230'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JPY6FNKS2Y2073W314FSDW
+        quotation: >-
+          However, sources from the 1790s and subsequent decades never describe either Jackson or
+          Mendoza as having been champions of England.
+        informationType: infotype:secondary
+        supports: false
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JPY6FNWFEV6TVW8N3FT1GE
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q1161746
+tags:
+  - boxing
+  - prizefighting
+  - united-kingdom
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/c/c6/Mendoza_Boxer.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Mendoza_Boxer.jpg
+    cite: "G. Smeeton, St. Martins Lane, Wikimedia Commons"
+    informationType: infotype:secondary

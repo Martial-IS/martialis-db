@@ -1,0 +1,117 @@
+type: Person
+id: 01KYZFG5QVJD0573TSS37AH5ZK
+name:
+  en: Hikari Kurachi
+  pt: Hikari Kurachi
+  ja: 倉地光
+  ja-Latn: Kurachi Hikari
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1927-04-09'
+  birthPlace:
+    label: Fukuoka
+    countryCode: eucountry:JPN
+    wikidata: wd:Q130290
+  hasEvidence:
+    - basedOnSource: 01KYZFG5QVKMHWYD7GV9QF40AZ
+      quotation: O mais velho dos irmãos Kurachi, o Mestre Hikari Kurachi, nasceu em 09 de abril de 1927, na Ilha de Fukuoka-Japão, próximo a Nagasaki.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1982-07-22'
+  deathPlace:
+    label: Santos
+    countryCode: eucountry:BRA
+    wikidata: wd:Q84094
+  hasEvidence:
+    - basedOnSource: 01KYZFG5QVKMHWYD7GV9QF40AZ
+      quotation: Hikari Kurachi (*09/04/1927 + 22/07/1982)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M3YH7N5GFBB7GGR7VE1Z7HVW
+    teacher: 01KYZFG5QV0EY69PGJYN0NA0TG
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Santos judo history book states Kurachi began judo training at age 10 under Yuiti Hashizume
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1937
+          endYear: 1943
+        hasEvidence:
+          - basedOnSource: 01KYZFG5QVKMHWYD7GV9QF40AZ
+            quotation: Aos 10 anos de idade, Hikari Kurachi iniciou os treinos do Judô com o Sensei Yuiti Hasshizume que também lecionava japonês, Sumô e corridas em uma escola da colônia japonesa.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GZS6KR76RY4EY2Z82
+    teacher: 01KJJAWN28MWKKSN4J02MVY1SZ
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Santos judo history book states Kurachi became a student of Ryuzo Ogawa at the Academia Ogawa in São Paulo after earning his nidan
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1946
+          endYear: 1947
+        hasEvidence:
+          - basedOnSource: 01KYZFG5QVKMHWYD7GV9QF40AZ
+            quotation: Após a aquisição do título de Nidan, tornou-se aluno do lendário Mestre Ryuzo Ogawa na Academia Ogawa em São Paulo.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+description:
+  en: 'Japanese-Brazilian judo master known as the "Father of Judo in Santos", who introduced judo to the city in 1947 and founded the Academia Santista de Judô in 1949, the 7th branch of Ryuzo Ogawa''s Budokan network. He was a Pan American judo champion (4th dan, 1956) and was Osvaldo Alves''s first judo teacher.
+
+'
+  pt: 'Mestre de judô nipo-brasileiro conhecido como o "Pai do Judô em Santos", que introduziu o judô na cidade em 1947 e fundou a Academia Santista de Judô em 1949, a 7ª filial da rede Budokan de Ryuzo Ogawa. Foi campeão pan-americano de judô (4º dan, 1956) e o primeiro professor de judô de Osvaldo Alves.
+
+'
+image:
+  contentUrl: https://archive.org/download/hikari-kurashi/Hikari_Kurashi.png
+  imageAttribution:
+    uri: https://archive.org/details/hikari-kurashi
+    cite: "Memórias do Judô em Santos"
+    informationType: infotype:secondary
+hasRankAssertion:
+  - id: 01M3YH7N5GTFWG7GBZT701ZXFD
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 4
+    dateConferred: '1956'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Santos judo history book records Kurachi as Pan American champion at 4th dan in 1956
+    hasEvidence:
+      - basedOnSource: 01KYZFG5QVKMHWYD7GV9QF40AZ
+        quotation: No Pan americano de 1956 ocorrido na cidade de Havana em Cuba Hikari Kurachi disputava a medalha de ouro na categoria faixa-preta 4 DAN com o americano Kenzo Uyeno.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYZFG5QVKMHWYD7GV9QF40AZ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYZFG5QV3KVA94WEJ35NZAE7
+    quotation: In Judo it was Shikaru Kurashiin of São Paulo
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - santos
+  - japanese
+  - brazilian
+  - founder

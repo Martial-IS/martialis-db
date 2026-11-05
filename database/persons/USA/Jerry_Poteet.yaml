@@ -1,0 +1,41 @@
+type: Person
+id: 01M5H51WJ0S5QYFDAZ92BSR0G6
+name:
+  en: Jerry Poteet
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+description:
+  en: Student of Bruce Lee, of the school that keeps the "original form" of Jeet Kune Do.
+hasTeacherAssertion:
+  - id: 01M5H51WJ0EN0WE01QZ9WRF5JP
+    teacher: 01KYD5XMNMNAG3CPC17GKACPW0
+    assertedStyle: 01KYD5XSZPND9XV5FHYG9V0ZV6
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Inosanto (along with Richard Bustillo and Larry Hartsell) differs from other students of
+              Bruce Lee (such as Taky Kimura, James Lee, Jerry Poteet, and Ted Wong), who have tried
+              instead to preserve the “original form” of Jeet Kune Do.
+            locator: '481'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: '481'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q6184259
+tags:
+  - jeet-kune-do

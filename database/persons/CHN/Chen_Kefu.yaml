@@ -1,0 +1,54 @@
+type: Person
+id: 01M69ZB9CKPYJ52BXB40YKR2PH
+name:
+  en: Chen Kefu
+  zh: 陳克夫
+  zh-Latn: Chen Kefu
+  yue-Latn: Chan Hak-fu
+aka:
+  en:
+    - Chan Hak Fu
+description:
+  en: >-
+    Tibetan White Crane teacher in Macau, student of Wu Zhaozhong. He led the Taishan Fitness
+    Academy, fought Wu Gongyi in the 1954 Macau charity match, and later opened schools in many
+    countries.
+notes: >-
+  Judkins and Nielson pp. 234-236: 35 years old in 1954; also studied judo and Western boxing.
+  Schools abroad and the International White Crane Association: en-wiki.
+hasTeacherAssertion:
+  - id: 01M69ZB9CNDRC7CJ7H8QSANN1A
+    teacher: 01M69ZB9CH22ZDC49Z7FK9AHW1
+    assertedStyle: 01M69ZB9CGJAWE17NZQK6Q3ZZV
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Two sources.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              Chen was a student of the much better known Wu Zhaozhong (1896–1967).
+            locator: '234'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M69ZB9CEPEEZBWGA1PDRF4K1
+            cite: Tibetan White Crane (Wikipedia EN)
+            quotation: >-
+              In martial arts circles his most famous disciple was Chan Hak Fu (陳克夫), whom we shall discuss in
+              more detail below.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: '234-236'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - chinese-martial-arts

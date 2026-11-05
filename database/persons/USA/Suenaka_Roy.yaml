@@ -1,0 +1,287 @@
+type: Person
+id: 01KZBZ509FN2PBWZZQRGXGRA72
+name:
+  en: Roy Y. Suenaka
+aka:
+  en:
+    - Roy Yukio Suenaka
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1940-06-25'
+  birthPlace:
+    label: Honolulu
+    countryCode: eucountry:USA
+    wikidata: wd:Q18094
+  hasEvidence:
+    - basedOnSource: 01KZC8XAP860JTX4GZG84AM8QR
+      quotation: Roy Yukio Suenaka (June 25, 1940 in Honolulu – February 8, 2020) was an American martial arts practitioner, author, and founder of the Wadokai Aikido.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2020-02-08'
+  hasEvidence:
+    - basedOnSource: 01KZC8XAP860JTX4GZG84AM8QR
+      quotation: June 25, 1940 in Honolulu – February 8, 2020
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://www.suenaka.com/images/suenaka_portrait.jpg
+  imageAttribution:
+    uri: https://www.suenaka.com/biography.html
+    cite: "Wadokai Aikido"
+    informationType: infotype:secondary
+description:
+  en: American martial arts practitioner and author (1940-2020), 1st generation student of aikido founder Morihei Ueshiba and student of Hohan Soken in Matsumura Seito Hakutsuru Shorin-ryu; founder of Wadokai Aikido in 1975.
+notes: 'Suenaka began martial arts training with his father Warren Suenaka (family jiujitsu and kenjitsu) and also studied under Henry Okazaki and James Mitose. He attended Koichi Tohei''s aikido demonstrations in 1953 and took up kendo in 1955. Transferred to Tachikawa Air Base, Japan in 1961, he trained directly under Morihei Ueshiba at the Hombu dojo and also trained at the Kodokan under Kyuzo Mifune. He was transferred to Naha, Okinawa in 1961 where he set up his own dojo. His official biography adds further dated instructors: Goju-ryu under Eiichi Miyazato (1967-1972), Kyokushin karate under Masutatsu Oyama (1961-1963) and Kobayashi karate under Chosin Chibana (1962), plus masanobu Shinjo/Kinjo Goju-ryu study (1964-1965) and aikido under Koichi Tohei (1953-1976). He founded Wadokai Aikido in 1975 in Charleston, South Carolina.'
+hasTeacherAssertion:
+  - id: 01M3YH7N5GPV1ZT25CABVE596W
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TV
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:uchi_deshi
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states Suenaka was a 1st generation student of aikido founder Morihei Ueshiba and studied directly under him at the Hombu dojo in Tokyo from 1961; his official biography confirms menkyo kaiden from Ueshiba in 1961
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1961
+          endYear: 1969
+        hasEvidence:
+          - basedOnSource: 01KZC8XAP860JTX4GZG84AM8QR
+            quotation: At his request, he was transferred in 1961 to Tachikawa Air Base in Japan, which enabled him to study directly under Morihei Ueshiba at the Hombu dojo in Tokyo [...] Suenaka was a 1st generation student of aikido founder Morihei Ueshiba.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZE1G0S86JTXD8267RQWJJH5
+            quotation: Suenaka Sensei began his aikido study upon Koichi Tohei's 1953 visit to Hawaii, and continued his study directly under Founder Morihei Ueshiba O'Sensei at the Aikikai Hombu for eight years, beginning in 1961.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GDCPS3F3CA63HRPT3
+    teacher: 01KZBWQ0AJ1CS0CYD84258VKTE
+    assertedStyle: 01KZC8S2GE3X9V7N27WXMQEPQA
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states Suenaka was awarded rokudan in Matsumura Seito Hakutsuru Shorin Ryu by its founder Hokan Soken in 1972; his official biography records 11 years of private study with Soken (1961-1972); the Soken EN Wikipedia article lists Suenaka among his senior students
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1961
+          endYear: 1972
+        hasEvidence:
+          - basedOnSource: 01KZC8XAP860JTX4GZG84AM8QR
+            quotation: >-
+              Rokudan (6th degree black belt) in Matsumura Seito Hakutsuru Shorin Ryu Karatedo & Kobudo, awarded by Hakutsuru Shorin Ryu founder Hokan Soken, in 1972
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZE1G0S86JTXD8267RQWJJH5
+            quotation: He also commenced 11 years of private study with renowned Matsumura Seito and Hakutsuru Shorin-ryu Karate-do Grandmaster Hohan Soken, receiving from him the rank of rokudan (6th degree black belt).
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZC8XAP8C0KB4ATDTWXGA6PY
+            quotation: >-
+              His senior students included Seiki Arakaki, Mitsuo Inoue, Hideo Nakazato, Kohama, Kohatsu, Yonashiro Masaya Kyan, Nishihira Kosei, Isao Toma, Yoshimatsu Akamine, Seijun Kina, Seizen Kinjo, Yuichi Kuda, Fusei Kise, Takaya Yabiku, Roy Suenaka, James Coffman, Thomas Hunnicutt, Vincent C.Wiegand, Ted Lange, Rick Rose, David Lukasiak, Charles Garrett, David Mauk, Gary Bunk, and Norman Small
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GYV9C2HHETPQPYBNN
+    teacher: 01KZBT3HG4JKJHVB8DAA0N0XT9
+    assertedStyle: 01KZC8S2GEGBJJT9RKV5M0HJ3N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Suenaka's official biography lists Goju-ryu karate training under Eiichi Miyazato, 1967-1972
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1967
+          endYear: 1972
+        hasEvidence:
+          - basedOnSource: 01KZE1G0S86JTXD8267RQWJJH5
+            quotation: >-
+              1967-1972 Eiichi Miyazato: Goju Ryu Karate
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GCBR4RWFNM00SE66B
+    teacher: 01KYT8RX5WJXBGW45FEVYWN7WC
+    assertedStyle: 01KYSNKBS22MA4Z9RRDDTXWQ7H
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Suenaka's official biography lists Kyokushinkai karate training under Masutatsu Oyama, 1961-1963
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1961
+          endYear: 1963
+        hasEvidence:
+          - basedOnSource: 01KZE1G0S86JTXD8267RQWJJH5
+            quotation: >-
+              1961-1963 Masutatsu Oyama, founder: Kyokushinkai Karate
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GK6NEEHSX5BCNRDX9
+    teacher: 01KZC7XZAWJNRVKWZ66A7CXENR
+    assertedStyle: 01KZDXQH2MARRZH56QT95D2964
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Suenaka's official biography lists Kobayashi karate training under Chosin Chibana in 1962
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1962
+          endYear: 1962
+        hasEvidence:
+          - basedOnSource: 01KZE1G0S86JTXD8267RQWJJH5
+            quotation: >-
+              1962-1962 Chosin Chibana: Kobayashi Karate
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M6C5MBP301X84QRG951SDXAM
+    teacher: 01M6C5JZZGF497JRQVEXBY4CAZ
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C5JZZGFC3JVM9PPSCR85EX
+            quotation: >-
+              Examples of his postwar judo students include Al Dacascos, Victor “Sonny” Gascon, Bobby
+              Lowe, Roy Suenaka, and Tony Troche, all of whom subsequently became well-known teachers of
+              assorted Asian martial arts.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GRZMZ6KWAQHSXAS82
+    rankStyle: 01KJJAWN29MA64W22606R3WD9R
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+    rankGrade: rankgrade:menkyo_kaiden
+    grantedBy: 01KJJAWN28MWKKSN4J02MVY1TV
+    dateConferred: '1961'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Suenaka's official biography states he received an aikido menkyo kaiden (teaching license) from Morihei Ueshiba in 1961
+    hasEvidence:
+      - basedOnSource: 01KZE1G0S86JTXD8267RQWJJH5
+        quotation: >-
+          That same year, Suenaka Sensei received an aikido menkyo kaiden (master-level proficiency) teaching certificate from O'Sensei
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G02PEDYFGF5XNS857
+    rankStyle: 01KJJAWN29MA64W22606R3WD9R
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 8
+    dateConferred: '1977'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states Suenaka was awarded hachidan (8th degree black belt) in aikido in 1977
+    hasEvidence:
+      - basedOnSource: 01KZC8XAP860JTX4GZG84AM8QR
+        quotation: Hachidan (8th degree black belt) in Aikido awarded 1977
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GXME5CYW73CGK23S0
+    rankStyle: 01KZC8S2GE3X9V7N27WXMQEPQA
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 8
+    dateConferred: '1977'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states Suenaka was awarded hachidan (8th degree black belt) in Matsumura Seito Hakutsuru Shorin Ryu karatedo and kobudo in 1977
+    hasEvidence:
+      - basedOnSource: 01KZC8XAP860JTX4GZG84AM8QR
+        quotation: Hachidan (8th degree black belt) in Matsumura Seito Hakutsuru Shorin Ryu Karatedo & Kobudo awarded 1977
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G0PDWGV6FJT2XKHMS
+    rankStyle: 01KZC8S2GE3X9V7N27WXMQEPQA
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 6
+    grantedBy: 01KZBWQ0AJ1CS0CYD84258VKTE
+    dateConferred: '1972'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states Suenaka was awarded rokudan in Matsumura Seito Hakutsuru Shorin Ryu by founder Hokan Soken in 1972
+    hasEvidence:
+      - basedOnSource: 01KZC8XAP860JTX4GZG84AM8QR
+        quotation: >-
+          Rokudan (6th degree black belt) in Matsumura Seito Hakutsuru Shorin Ryu Karatedo & Kobudo, awarded by Hakutsuru Shorin Ryu founder Hokan Soken, in 1972
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GBXYY6SNZE8JJ4MKF
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 3
+    dateConferred: '1970'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states Suenaka held sandan in Kodokan judo and jiu jitsu, awarded by Kazuo Ito and Risei Kano in 1970
+    hasEvidence:
+      - basedOnSource: 01KZC8XAP860JTX4GZG84AM8QR
+        quotation: Sandan (3rd degree black belt) in Kodokan Judo and Jiu Jitsu (dual certificate), awarded by Kazuo Ito and Risei Kano, son of judo founder Jigoro Kano, in 1970
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G2AZN53Z3DBPG7E1M
+    rankStyle: 01KJJAWN29MA64W22606R3WD9W
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 2
+    dateConferred: '1958'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states Suenaka held nidan in kendo, awarded by Shuji Mikami in 1958
+    hasEvidence:
+      - basedOnSource: 01KZC8XAP860JTX4GZG84AM8QR
+        quotation: Nidan (2nd degree black belt) in Kendo, awarded by Shuji Mikami in 1958
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZC8XAP860JTX4GZG84AM8QR
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZE1G0S86JTXD8267RQWJJH5
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZC8XAP8C0KB4ATDTWXGA6PY
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q7373534
+tags:
+  - aikido
+  - shorin-ryu
+  - wadokai

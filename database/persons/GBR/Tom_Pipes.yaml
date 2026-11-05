@@ -1,0 +1,53 @@
+type: Person
+id: 01M5JPY6FN0PYJ9172G3FDCCQX
+name:
+  en: Tom Pipes
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+birthEvent:
+  birthDate: '1702'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Upon Figg’s retirement in 1730, Tom Pipes (1702–?) was deemed champion of England.
+      locator: '228'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    English prizefighter, deemed champion of England on James Figg's retirement in 1730 and for five
+    years after, until George Taylor replaced him.
+notes: >-
+  Stub; known here only from Green and Svinth.
+hasHonorAssertion:
+  - id: 01M5JPY6FNJ7AV2B4J6A4ATTVJ
+    honorValue: Champion of England
+    honorType: honortype:title
+    dateConferred: '1730'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Upon Figg’s retirement in 1730, Tom Pipes (1702–?) was deemed champion of England. Pipes
+          remained champion for five years until George “The Barber” Taylor (1716–?) replaced him for
+          the next three years.
+        locator: '228'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    informationType: infotype:secondary
+    supports: true
+tags:
+  - boxing
+  - prizefighting
+  - united-kingdom

@@ -1,0 +1,47 @@
+type: Person
+id: 01M6C5JZZGMGB4KWEY3722R5PD
+name:
+  en: Såzen Larsen Kusano
+aka:
+  en:
+    - Sozen Larsen Kusano
+description:
+  en: >-
+    Katori Shinto Ryu teacher of the Sugino branch, who trained at the Sugino Dojo under Yoshio
+    Sugino and also studied aikido under him; earlier a student of Wally Jay (jujutsu) and Ernesto
+    Presas (arnis).
+hasTeacherAssertion:
+  - id: 01M6C5MBP39PTHR5BC9G5JFDH3
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TZ
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source; an interview with him.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C5JZZGEDZ1Y9BPX0MNM79D
+            quotation: Såzen Sensei studied aikido under Sugino Sensei.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6C5JZZGEDZ1Y9BPX0MNM79D
+            quotation: >-
+              You couldn’t imagine my surprise when we showed up at Sugino Dojo and the first person to
+              greet me was the old master himself! That is how I first came into contact with Sugino
+              Sensei.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C5JZZGEDZ1Y9BPX0MNM79D
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+notes: >-
+  Nationality and country of residence not stated in the interview; filed under JPN, where the Sugino
+  Dojo is. The interview took place in Toronto during a seminar visit.
+tags:
+  - koryu
+  - aikido

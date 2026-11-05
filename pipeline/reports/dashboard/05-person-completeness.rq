@@ -1,0 +1,16 @@
+PREFIX martialis: <https://w3id.org/martialis/ontology#>
+PREFIX schema: <https://schema.org/>
+SELECT (COUNT(DISTINCT ?p) AS ?persons)
+       (COUNT(DISTINCT ?birth) AS ?withBirthDate)
+       (COUNT(DISTINCT ?death) AS ?withDeathDate)
+       (COUNT(DISTINCT ?teach) AS ?withTeachers)
+       (COUNT(DISTINCT ?rank)  AS ?withRanks)
+       (COUNT(DISTINCT ?desc)  AS ?withDescription)
+WHERE {
+  ?p a martialis:Person .
+  OPTIONAL { ?p martialis:birthEvent/schema:startDate ?b . BIND(?p AS ?birth) }
+  OPTIONAL { ?p martialis:deathEvent/schema:startDate ?d . BIND(?p AS ?death) }
+  OPTIONAL { ?p martialis:hasTeacherAssertion ?t . BIND(?p AS ?teach) }
+  OPTIONAL { ?p martialis:hasRankAssertion ?r . BIND(?p AS ?rank) }
+  OPTIONAL { ?p schema:description ?dd . BIND(?p AS ?desc) }
+}

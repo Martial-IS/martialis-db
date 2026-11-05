@@ -1,0 +1,99 @@
+type: Person
+id: 01M5KV9GA7FP985CZA362G37WW
+name:
+  en: Helen Crawfurd
+aka:
+  en:
+    - Helen Jack
+    - Helen Anderson
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+birthEvent:
+  birthDate: '1877-11-09'
+  birthPlace:
+    label: Glasgow
+    countryCode: eucountry:GBR
+  hasEvidence:
+    - basedOnSource: 01M5KV9GA7C3992BB540A1GQE2
+      quotation: >-
+        Helen Crawfurd (née Jack, later Anderson; 9 November 1877 – 18 April 1954) was a Scottish
+        suffragette, rent strike organiser, Communist activist and politician.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1954-04-18'
+  deathPlace:
+    label: Dunoon
+    countryCode: eucountry:GBR
+  hasEvidence:
+    - basedOnSource: 01M5KV9GA7C3992BB540A1GQE2
+      quotation: >-
+        Helen Crawfurd (née Jack, later Anderson; 9 November 1877 – 18 April 1954) was a Scottish
+        suffragette, rent strike organiser, Communist activist and politician.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        the Scottish socialist Helen Crawfurd (1877–1974)
+      locator: '636'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: false
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Scottish suffragette, rent strike organiser, Communist activist and politician, named by Green and
+    Svinth among the members of the Bodyguard that Edith Garrud trained in jujitsu.
+notes: >-
+  Death year: en Wikipedia gives 1954; Green and Svinth give 1974. en Wikipedia does not mention the
+  Bodyguard.
+hasTeacherAssertion:
+  - id: 01M5KV9GA7YSFZKFMXH5ZSDJCX
+    teacher: 01M07J1EESSEPR2TSJWV1FWBG5
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9G
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Implied: named as a member of the Bodyguard that Garrud trained.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1913
+          endYear: 1914
+        hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              the Scottish socialist Helen Crawfurd (1877–1974), and the English hunger-striker Lillian
+              Mary Dove-Wilcox (1875–1963).
+            locator: '636'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Between 1910 and 1913, Edith Garrud’s involvement with the suffragette movement deepened, and
+      eventually she became the trainer for Emmeline Pankhurst’s bodyguards.
+    locator: '635'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:indirect
+sameAs:
+  - wd:Q18756744
+tags:
+  - jujutsu
+  - suffragettes
+  - women
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/d/d7/Helen_Crawfurd_%28cropped%29.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Helen_Crawfurd_(cropped).jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary

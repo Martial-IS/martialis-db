@@ -1,0 +1,122 @@
+type: Person
+id: 01KYMSJAD9QGRF97NBVP2KP9S2
+name:
+  en: Roy Moore Sr.
+aka:
+  en:
+  - Roy H. Moore
+  - Pop Moore
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+birthEvent:
+  birthDate: '1893'
+  hasEvidence:
+  - basedOnSource: 01KYMSJAD9BEF7N9ZSAGG971Y4
+    quotation: >-
+      Roy Moore (1893–1980)
+    cite: Roy Moore (wrestler) - Wikipedia EN
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1980'
+  hasEvidence:
+  - basedOnSource: 01KYMSJAD9BEF7N9ZSAGG971Y4
+    quotation: >-
+      Roy Moore (1893–1980)
+    cite: Roy Moore (wrestler) - Wikipedia EN
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: American wrestling and judo coach, known as 'Pop' Moore. Trained by Frank Gotch in wrestling and
+    by Manjiro Matsuda in judo. He became a world wrestling champion and later a 5th degree judo black
+    belt. At Jigoro Kano's request, he implemented the weight class system in judo. He coached the Japanese
+    Olympic wrestling team in 1932 and was the foster father and judo instructor of Emilio 'Mel' Bruno.
+hasTeacherAssertion:
+- id: 01M3YH7N5GX92TDF232SYKTYJ6
+  teacher: 01KYMTYN1R6BJW843MFKX1XQHB
+  assertedStyle: 01KYEWRMWERM1HW12W53HE9G4A
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Moore was trained by professional wrestler Frank Gotch, documented in Black Belt
+      Magazine (May 1971)
+  hasInteraction:
+  - hasEvidence:
+    - uri: https://books.google.pt/books?id=HtcDAAAAMBAJ&pg=PA30
+      cite: Black Belt Magazine (May 1971)
+      locator: '28'
+      locatorLabel: page
+      quotation: Moore was fortunate to have been taught by one of the greatest wrestlers of all time,
+        Frank Gotch
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GNSEH4WXQ0P49CFBC
+  teacher: 01KYMTYN1RAJ0Z9MCM40TE2RVG
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Moore learned judo from Manjiro Matsuda after wrestling him for the world title;
+      documented in Black Belt Magazine (May 1971)
+  hasInteraction:
+  - hasEvidence:
+    - uri: https://books.google.pt/books?id=HtcDAAAAMBAJ&pg=PA30
+      cite: Black Belt Magazine (May 1971)
+      locator: '28'
+      locatorLabel: page
+      quotation: I beat Mattie for the wrestling title, but he became my judo sensei
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GDREQY9ZC6KF0W98P
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 5
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Documented in Wikipedia and Black Belt Magazine
+  hasEvidence:
+  - basedOnSource: 01KYMSJAD9BEF7N9ZSAGG971Y4
+    cite: Roy Moore (wrestler) - Wikipedia EN
+    quotation: Moore went on to earn a fifth-degree black belt in judo.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KYMSJAD9BEF7N9ZSAGG971Y4
+  cite: Roy Moore (wrestler) - Wikipedia EN
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://books.google.pt/books?id=HtcDAAAAMBAJ&pg=PA30
+  cite: Black Belt Magazine (May 1971)
+  locator: 30-31
+  locatorLabel: page
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KYMTYN1REZC0W5BP1SVP8E43
+  cite: Frank Gotch (Wikipedia EN)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KYMTYN1RVRBY31FZQJ78XYN3
+  cite: Matty Matsuda (Wikipedia EN)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q27924997
+tags:
+- judo
+- wrestling
+- catch-wrestling

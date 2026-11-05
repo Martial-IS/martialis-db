@@ -1,0 +1,69 @@
+type: Place
+id: 01M0E9KP2B4WB7PVYXKQ0ECTMF
+name:
+  es: Club Bushidokwai
+aka:
+  es: Asociación Española de Judo y Jiu-jitsu
+placeType: placeclass:club
+hasSite:
+  - location:
+      label: Madrid
+      countryCode: eucountry:ESP
+      wikidata: wd:Q2807
+    address: Calle Donoso Cortés 53, Madrid
+hasInstructorRole:
+  - id: 01M4R9845WNKGA1QGM1KFG715K
+    instructor: 01M0E9KP2BGMP4PAC4AYTHWFX7
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1950
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Two authored secondary sources name him as teacher at the 1950 club; the second gives only a fragment.
+    hasEvidence:
+      - basedOnSource: 01M0E9KP2B0B7SG02329SASBA4
+        quotation: en mayo de 1950 constituyen la Asociación Española de Judo y Jiu-jitsu, primer club de judo de España, trasladándose al bajo nº 4 de la calle Recoletos de Madrid.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M0E9KP2B5S4F3WFN83SJF7FW
+        quotation: San Bartolomé como profesor.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: 1950-05
+  founder:
+    - 01M0E9KP2BGMP4PAC4AYTHWFX7
+  hasEvidence:
+    - basedOnSource: 01M0E9KP2B0B7SG02329SASBA4
+      quotation: en mayo de 1950 constituyen la Asociación Española de Judo y Jiu-jitsu, primer club de judo de España
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M0E9KP2BX2WXX8VRCNZPD7XJ
+      quotation: En 1947 un grupo de aficionados contacta con un 2º dan peruano, Alfredo San Bartolomé y nace en Madrid el primer club de Judo bajo el nombre de «Asociación Española de Judo y Jiu-jutsu» que más tarde se llamaría Club Bushidokwai.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+website: https://www.bushidokwai.com/
+description:
+  en: The first judo club in Spain, founded in Madrid in May 1950 as the Asociación Española de Judo y Jiu-jitsu by Alfredo San Bartolomé with Fernando Franco de Sarabia and Antonio Burrieza Jiménez, and renamed Club Bushidokwai shortly after. It moved from Calle Recoletos 4 to Calle Donoso Cortés 53 in 1954 and is still operating, making it the oldest Spanish judo club.
+hasEvidence:
+  - basedOnSource: 01M0E9KP2B0B7SG02329SASBA4
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M0E9KP2B5S4F3WFN83SJF7FW
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M0E9KP2BX2WXX8VRCNZPD7XJ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - spain
+  - first-club

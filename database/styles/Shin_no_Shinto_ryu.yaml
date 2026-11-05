@@ -1,0 +1,74 @@
+type: Style
+id: 01M6BFF6ZQ0BNGCP33B8FA8QHH
+name:
+  ja-Latn: Shin no Shintō-ryū
+  ja: 真之神道流
+hasEvidence:
+- basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+  locator: The Development of the Tenjin Shinyo-ryu
+  locatorLabel: section
+  quotation: 'Shin no Shinto-ryu was the creation of Yamamoto Tamizaemon Hidehaya, a guard at Osaka Castle.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://ja.wikipedia.org/wiki/%E7%A3%AF%E5%8F%88%E5%8F%B3%E8%A1%9B%E9%96%80
+  archiveUri: https://ja.wikipedia.org/w/index.php?title=%E7%A3%AF%E5%8F%88%E5%8F%B3%E8%A1%9B%E9%96%80&oldid=109443459
+  cite: 磯又右衛門 - 日本語版ウィキペディア
+  quotation: '一柳織部が死死去[sic]したため、本間丈右衛門環山正遠について真之神道流を六年学んで奥義を極めた。'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+foundedEvent:
+  founder:
+    - 01M6BFF6ZQPQ5M60EZ8VWQP6QN
+  location:
+    countryCode: eucountry:JPN
+  hasEvidence:
+    - basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+      locator: The Development of the Tenjin Shinyo-ryu
+      locatorLabel: section
+      quotation: 'Shin no Shinto-ryu was the creation of Yamamoto Tamizaemon Hidehaya, a guard at Osaka Castle.'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+styleType: styleclass:traditional
+hasStyleRelationAssertion:
+  - id: 01M6BFF6ZQNYH2ZPVNHSBMJ5AZ
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9G
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Skoss calls it a classical jujutsu tradition; one account.
+    hasEvidence:
+      - basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+        locator: The Development of the Tenjin Shinyo-ryu
+        locatorLabel: section
+        quotation: 'Tenjin Shinyo-ryu, in turn, was based on the techniques of two other classical jujutsu traditions, the Yoshin-ryu and Shin no Shinto-ryu.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M6BFF6ZQD52W2BT338V0CC1K
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9V
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Its founder studied Yoshin-ryu before founding it, per the Kubota line (Skoss); one account.
+    hasEvidence:
+      - basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+        locator: The Development of the Tenjin Shinyo-ryu
+        locatorLabel: section
+        quotation: 'He had studied Yoshin-ryu jujutsu, attaining quite a high degree of skill, before going on to found his own system.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Edo-period school of jujutsu founded by Yamamoto Tamizaemon Hidehaya, a guard at Osaka Castle
+    trained in Yoshin-ryu, with sixty-eight techniques in three graded levels. One of the two parent
+    schools of Tenjin Shinyo-ryu.
+sameAs:
+  - wd:Q11582844
+tags:
+  - koryu

@@ -1,0 +1,76 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1TJ
+name:
+  pt: Jacinto Ferro
+nationality:
+- countryCode: eucountry:BRA
+  wikidata: wd:Q155
+birthEvent:
+  birthDate: '1881'
+  birthPlace:
+    label: Brazil
+    countryCode: eucountry:BRA
+    wikidata: wd:Q155
+deathEvent:
+  deathDate: '1929'
+image:
+  contentUrl: https://archive.org/download/jacinto_ferro/jacinto_ferro.png
+  imageAttribution:
+    uri: https://simonbjj.com/ferro
+    cite: "Simon BJJ"
+hasTeacherAssertion:
+- id: 01M3YH7N5FHJVJ463MDFS5Q10J
+  teacher: 01KJJAWN28MWKKSN4J02MVY1TH
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Multiple sources confirm Jacinto Ferro was Mitsuyo Maeda's student and helped
+      teach Carlos Gracie
+  role: teachrole:student
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1915
+    hasEvidence:
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+      cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo
+        no Brasil e no mundo. 2020.'
+      locator: vol. 3, p. 89
+      quotation: 'Tenho [Maeda] os seguintes alunos aos quais deposito inteira confiança [...] Jacintho
+        Ferro, Dr. Matheus Pereira, Guilherm de La Rocque, Raphael Gomes e Waldermar Gomes'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html
+      cite: Mitsuyo Maeda e o Judô Kodokan (Judo Tradicional Goshinjutsukan)
+      quotation: as aulas eram dadas em uma academia que Maeda abriu em 1916,nos salões do Cine Teatro
+        Moderno, localizado ao lado da Igreja de Nazaré, hoje uma praça, as aulas eram amplamente divulgadas
+        nos ornais para quem quisesse aprender pagando.O primeiro aluno de Maeda foi o estivador Jacinto
+        Ferro, ex-lutador de greco-romana, Jacinto foi instrutor de Maeda e ajudou a dar aulas para o
+        Carlos Gracie.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- uri: https://repositorio.ufsc.br/handle/123456789/103771
+  cite: 'MAÇANEIRO, Gustavo Goulart Braga, et al. Do Judô ao Gracie Jiu-Jitsu: A influência do judô Kodokan
+    na idealização e no desenvolvimento do Jiu-Jitsu brasileiro. 2012.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+  cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil
+    e no mundo. 2020.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/
+  cite: The Lost Legend of Jacyntho Ferro, One of Carlos Gracie Sr Jiu-Jitsu Instructors (BJJEE)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html
+  cite: Mitsuyo Maeda e o Judô Kodokan (Judo Tradicional Goshinjutsukan)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct

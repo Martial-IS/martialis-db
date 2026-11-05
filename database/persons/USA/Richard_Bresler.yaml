@@ -1,0 +1,51 @@
+type: Person
+id: 01M5HMHN7XG9WA0DDFYE8WG8YB
+name:
+  en: Richard Bresler
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+description:
+  en: >-
+    American jiu-jitsu black belt under Rorion Gracie, one of the first Americans to train Gracie
+    jiu-jitsu (from 1979, Redondo Beach); author of "Worth Defending" and a self-defence teacher in Los
+    Angeles.
+hasTeacherAssertion:
+  - id: 01M5HMHN7XK6NV9KVP8XWB3ASK
+    teacher: 01KZ1TRSW0VJJTMCJ7NK8WWRF0
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1979
+        hasEvidence:
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: I started training in July 1979 in Redondo Beach.
+            locator: Interview with Richard Bresler (after chapter 13)
+            locatorLabel: section
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: is a sixth degree black-belt under Rorion
+            locator: Interview with Richard Bresler (after chapter 13)
+            locatorLabel: section
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+    quotation: >-
+      Richard Bresler is arguably the first American jiu-jitsu practitioner and one of the few Americans
+      belonging to the second-wave.
+    locator: Interview with Richard Bresler (after chapter 13)
+    locatorLabel: section
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - bjj

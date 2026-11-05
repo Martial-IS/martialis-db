@@ -1,0 +1,100 @@
+type: Person
+id: 01M6A2JTJ4B29S1H8MXTWFG6S5
+name:
+  pt: Mestre Moraes
+aka:
+  pt: Pedro Moraes Trindade
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Capoeira Angola mestre born on the island of Maré and raised in Salvador, who trained at Mestre
+    Pastinha's academy under João Grande and João Pequeno, founded the Grupo de Capoeira Angola
+    Pelourinho in Rio de Janeiro in 1980 and led the revival of capoeira Angola from Salvador after
+    1982.
+notes: >-
+  A marine, transferred to Rio de Janeiro in the early 1970s; teaching capoeira Angola in Belford
+  Roxo by 1974 (Assunção, p. 182).
+birthEvent:
+  birthDate: '1950-02-09'
+  birthPlace:
+    label: Ilha de Maré, Salvador, Bahia
+    countryCode: eucountry:BRA
+    wikidata: wd:Q36947
+  hasEvidence:
+    - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+      quotation: >-
+        Mestre Moraes (Pedro Moraes Trindade, 1950-) and the GCAP played a crucial role in this
+        process. Moraes was born on the island of Maré in the Bay of All The Saints
+      locator: '182'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ACM2JZBBC3DMY9YWE0H4YK
+      quotation: >-
+        Pedro Moraes Trindade, commonly known as Mestre Moraes, (born February 9, 1950, in Ilha de
+        Maré in Salvador, Brazil)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M6A2JTJH6Y43DNMT58K5MMRS
+    teacher: 01M5H4AFG2HW78GX30TX4CCST3
+    assertedStyle: 01M6A2JTHSG7FHK01NCS2SN3FD
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - interactionPlace: 01M6A2JTHV4ENW9PDEMG8XWRM2
+        hasEvidence:
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              At the age of eight a neighbour took him to the CECA, where he started to train under
+              the direction of João Grande and João Pequeno.
+            locator: '182'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M6A2JTJJQDWDGM41H93HRX5W
+    teacher: 01M5H4AFG2ZHX81G1GRWSGGQWM
+    assertedStyle: 01M6A2JTHSG7FHK01NCS2SN3FD
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - interactionPlace: 01M6A2JTHV4ENW9PDEMG8XWRM2
+        hasEvidence:
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              At the age of eight a neighbour took him to the CECA, where he started to train under
+              the direction of João Grande and João Pequeno.
+            locator: '182'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    locator: '182-184'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q4291424
+tags:
+  - capoeira
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/3/3d/Mestre_Moraes_visita_a_Escola_Tombo_da_Ladeira_%281997%29.png
+  rights: mediarights:cc-by-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Mestre_Moraes_visita_a_Escola_Tombo_da_Ladeira_%281997%29.png
+    cite: "Escola de Capoeira Angola do Laborarte, Wikimedia Commons"
+    informationType: infotype:secondary

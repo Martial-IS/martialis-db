@@ -1,0 +1,112 @@
+type: Place
+id: 01KZSRDXQWKC9HR8T7M5HDGDFJ
+name:
+  en: Tenshin Dojo
+  ja: 天心道場
+aka:
+  en: Tenshin Aikido Dojo
+  ja: 天心合気道道場
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Jūsō, Yodogawa-ku, Osaka
+      countryCode: eucountry:JPN
+      wikidata: wd:Q81771018
+    address: 大阪府大阪市淀川区十三東1-10-8
+hasAffiliationAssertion:
+  - id: 01M3YH7N5GJ157WR8CRKH3A08T
+    relatedOrganization: 01KZ3KA57C6W6FMCWM668Y13X2
+    affiliationRelation: affrel:recognised_by
+    validDuring:
+      startYear: 1976
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Aikido Journal describes the dojo as Aikikai-hombu affiliated; the dojo runs Aikikai gradings
+    hasEvidence:
+      - basedOnSource: 01KZSRDXQWEYXA6T7659AZPCWJ
+        quotation: assumed direction of the AIKIKAI-HOMBU-affiliated Tenshin Aikido Dojo in Osaka
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M4R9845WK2QVVM88SE1C6DB5
+    instructor: 01KZSRDXQWMW7159NW1MGS7XJ5
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1976
+      endYear: 1982
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Aikido Journal and Wikipedia agree.
+    hasEvidence:
+      - basedOnSource: 01KZSRDXQWEYXA6T7659AZPCWJ
+        quotation: >-
+          Seagal separated from Tohei’s organization and assumed direction of the AIKIKAI-HOMBU-affiliated Tenshin Aikido Dojo in Osaka which was owned by his Japanese wife’s parents.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZSRDXQWRTSSQ3VB91WA43H0
+        quotation: >-
+          Seagal taught at the school owned by Miyako's family and earned his aikido black belt in 1978. While there, he ran the Fujitani family dojo on behalf of Miyako's retired father, making him the first westerner to operate an Aikido dojo.
+        cite: Seagal taught at the school owned by Miyako's family and ran the Fujitani family dojo on behalf of Miyako's retired father, making him the first westerner to operate an Aikido dojo
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M4R9845WXBSENV6EXH9FG47P
+    instructor: 01KZSRDXQWN4PX74TDZWBRY8G8
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1982
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The dojo's own page; one side only.
+    hasEvidence:
+      - basedOnSource: 01M35DXD9HFMZYVHDGGF7947AM
+        quotation: セガール氏が帰国後、女手ひとつで二人の子供を育てながら合気道道場を切り盛りする
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1976'
+  founder:
+    - 01KZSRDXQWN4PX74TDZWBRY8G8
+    - 01KZSRDXQWMW7159NW1MGS7XJ5
+  hasEvidence:
+    - basedOnSource: 01KZSRDXQW7MKZ8EDQ9ECVMFHX
+      quotation: 1976年 武徳館道場を天心道場として再建
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZSRDXQWRTSSQ3VB91WA43H0
+      quotation: Seagal taught at the school owned by Miyako's family
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+website: https://aitenshin.com/
+description:
+  en: Aikido dojo in Jūsō, Yodogawa-ku, Osaka, currently headed by Miyako Fujitani. Its origins go back to a dojo (武徳館道場) founded in Kobe in 1969 by the father of the Jūsō aikido master, moved to Jūsō, Osaka in 1972, and rebuilt as the Tenshin Dojo in 1976. In the same period it was run by Steven Seagal, making him the first non-Japanese to operate an aikido dojo in Japan.
+  ja: 大阪市淀川区十三にある合氣道道場で、現道場長は藤谷美也子。1969年に神戸で創設された武徳館道場を前身とし、1972年に十三へ移設、1976年に天心道場として再建された。スティーヴン・セガールが一時道場を運営し、外国人として初めて日本で合氣道道場を主宰した人物となった。
+hasEvidence:
+  - basedOnSource: 01KZSRDXQW7MKZ8EDQ9ECVMFHX
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M35DXD9HFMZYVHDGGF7947AM
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZSRDXQWEYXA6T7659AZPCWJ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZSRDXQWRTSSQ3VB91WA43H0
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - aikido
+  - dojo
+  - osaka

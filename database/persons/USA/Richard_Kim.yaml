@@ -1,0 +1,313 @@
+type: Person
+id: 01KZ0ZT8VBPHFXAD3JS8ZRYQWG
+name:
+  en: Richard Kim
+aka:
+  en:
+    - Richard Sun Sung Kim
+    - Biggie Kim
+    - O'Sensei Kim
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1917-11-17'
+  birthPlace:
+    label: Honolulu
+    countryCode: eucountry:USA
+    wikidata: wd:Q18094
+  hasEvidence:
+    - basedOnSource: 01KZ0ZT8VBGFQREFNE6Y0XNQ8W
+      quotation: Richard Kim (November 17, 1917 – November 8, 2001) was an American martial artist.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZ0ZT8VBE0SPQ15SKE2H7Q29
+      quotation: 'OSensei Richard Kim was born in Hawaii on November 17, 1919 (Warrener 1982: 91) of a Korean father and Japanese mother.'
+      informationType: infotype:secondary
+      supports: false
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2001-11-08'
+  deathPlace:
+    label: Sacramento
+    countryCode: eucountry:USA
+    wikidata: wd:Q18013
+  hasEvidence:
+    - basedOnSource: 01KZ0ZT8VBGFQREFNE6Y0XNQ8W
+      quotation: Richard Kim (November 17, 1917 – November 8, 2001) was an American martial artist.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M3YH7N5GQRWFR9V7ZC8WH8G3
+    teacher: 01M36K42AM05YPNNB1QKPQ8SB5
+    assertedStyle: 01M36K42AMDQY62VYJHY3247DJ
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Two sources have Kim continuing under Sawai in 1939. Neither says when the training started, how long it ran, or what it covered.
+    hasInteraction:
+      - interactionPeriod:
+          endYear: 1939
+        hasEvidence:
+          - basedOnSource: 01KZ0ZT8VBGFQREFNE6Y0XNQ8W
+            quotation: In 1939, in addition to continuing to train under Sawai, Kim began studying Daito-ryu aikijujutsu, and Japanese and Okinawan weaponry under Kotaro Yoshida, who he came to regard as his primary Sensei.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZ0ZT8VBZWGZK8KN9YK226NJ
+            quotation: 1939 He traveled to Japan, where he continued training under Nabu Kentsu and Kenichi Sawai. At the same time he began his lessons in Kobudo Toyama Kanken.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GSBNNE91C5F3KX9MY
+    teacher: 01KZ0Y4CF4F7BSWN3P3T4QZC5G
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9C
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia, the Zen Bei Butoku Kai biography, and the Kokusai Butokukai timeline all identify Kotaro Yoshida as Richard Kim's principal teacher in Daito-ryu, who granted him the menkyo kaiden
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1939
+        hasEvidence:
+          - basedOnSource: 01KZ0ZT8VBGFQREFNE6Y0XNQ8W
+            quotation: In 1939, in addition to continuing to train under Sawai, Kim began studying Daito-ryu aikijujutsu, and Japanese and Okinawan weaponry under Kotaro Yoshida, who he came to regard as his primary Sensei.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZ0ZT8VBE0SPQ15SKE2H7Q29
+            quotation: Richard Kim continued his martial arts training while in Japan with Yoshida Kotaro, this time in daito ryu.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZ0ZT8VBZWGZK8KN9YK226NJ
+            quotation: 1945 Richard Kim started studying Daito Ryu and Kobudo under his principal teacher Yoshida Kotaro. From Kotaro he received the award Menkyo Kaiden.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GKKH0STCDYDB55JP2
+    teacher: 01M1KSJ12QB2MS2RB0QJ0S0CHZ
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9S
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia states Kim began studying karate under Sadao Arakaki after seeing Yabu Kentsu's 1927 demonstration.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1927
+        hasEvidence:
+          - basedOnSource: 01KZ0ZT8VBGFQREFNE6Y0XNQ8W
+            quotation: >-
+              After seeing a demonstration by Kentsū Yabu, who spent most of 1927 in Hawaii, Kim began studying karate under Arakaki Sadao [...], who represented Yabu in Hawaii.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GKZWZZ0VFR8Z9G69K
+    teacher: 01KZ19PZ65EPNRY1Q8GQR6NEV1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9S
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia and the Zen Bei Butoku Kai biography both document that Kim trained with Okinawan karate master Yabu Kentsu, whom he met again in Japan in the 1930s
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KZ0ZT8VBE0SPQ15SKE2H7Q29
+            quotation: >-
+              Later, in the 1930s, OSensei Kim met Yabu Kentsu again in Japan and continued his training with him there
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GZVA60PS0BS0TVMTM
+    teacher: 01M1KSJ12QF7MHXYFK8GNKJKFR
+    assertedStyle: 01KYJC7J3MB81B06881FVFYGAG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Kokusai Butokukai timeline states Kim began lessons in kobudo under Toyama Kanken in 1939.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1939
+        hasEvidence:
+          - basedOnSource: 01KZ0ZT8VBZWGZK8KN9YK226NJ
+            quotation: 1939 He traveled to Japan, where he continued training under Nabu Kentsu and Kenichi Sawai. At the same time he began his lessons in Kobudo Toyama Kanken.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+image:
+  contentUrl: https://zenbei.org/richard_kim/images/kim_pictures/2.jpg
+  imageAttribution:
+    uri: https://zenbei.org/richard_kim/richard_kim.htm
+    cite: "Zen Bei Butoku Kai"
+    informationType: infotype:secondary
+description:
+  en: 'American martial artist and founder of the Zen Bei Butoku Kai. A student of Daito-ryu master Kotaro Yoshida, from whom he received the menkyo kaiden, Kim introduced Masutatsu Oyama to Yoshida and was widely regarded as the foremost martial arts historian in the US.
+
+'
+hasRankAssertion:
+  - id: 01M3YH7N5GB3939K97642HVJT0
+    rankStyle: 01KJJAWN29MA64W22606R3WD9C
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+    rankGrade: rankgrade:menkyo_kaiden
+    grantedBy: 01KZ0Y4CF4F7BSWN3P3T4QZC5G
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia, the Zen Bei Butoku Kai biography, and the Kokusai Butokukai timeline all state Kim received the Daito-ryu menkyo kaiden from Yoshida Kotaro; Wikipedia notes it was confirmed in 2024 by the Zen Bei Butoku Kai archives
+    hasEvidence:
+      - basedOnSource: 01KZ0ZT8VBGFQREFNE6Y0XNQ8W
+        quotation: >-
+          Kim stated that he had Daito-ryu scrolls in his possession, and had been granted a Daito-ryu menkyo kaiden [...] by Yoshida. This claim had been questioned by some in the martial arts community until it was confirmed in 2024 by the Zen Bei Butoku Kai
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZ0ZT8VBE0SPQ15SKE2H7Q29
+        quotation: >-
+          OSensei Richard Kim became an apprentice under Kotaro and eventually was given the menkyo kaiden for daito ryu
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GNH8H4SGKD949ZQFP
+    rankStyle: 01KJJAWN29MA64W22606R3WD9S
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 10
+    conferredBy: 01KZ10H3Q9GF8HANZHD1HB66NH
+    dateConferred: '1999'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The Kokusai Butokukai timeline dates Kim's 10th dan to 1999 from the ITKF. Wikipedia notes the ITKF Judan was also presented posthumously at Kim's memorial service by ITKF's Hidetaka Nishiyama.
+    hasEvidence:
+      - basedOnSource: 01KZ0ZT8VBZWGZK8KN9YK226NJ
+        quotation: 1999 Appointment to Ju Dan (10th Dan) from I.T.K.F.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZ0ZT8VBGFQREFNE6Y0XNQ8W
+        quotation: At his memorial service, Hidetaka Nishiyama of the ITKF presented Kim with the rank of Judan (10th degree black belt) posthumously.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GFT3K1JJ9J7XY6BA4
+    rankStyle: 01KJJAWN29MA64W22606R3WD9S
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 10
+    conferredBy: 01KZ10H3Q9ZGH1S3MSJMACBNJM
+    dateConferred: '2000'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia states the Hawaii Karate Kodanshakai presented Kim with the rank of Judan (10th degree black belt) in 2000
+    hasEvidence:
+      - basedOnSource: 01KZ0ZT8VBGFQREFNE6Y0XNQ8W
+        quotation: In 2000, the Hawaii Karate Kodanshakai, a multi-style karate association of senior instructors, presented Kim with the rank of Judan (10th degree black belt).
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GH34MNG01XY260MHY
+    rankStyle: 01KJJAWN29MA64W22606R3WD9S
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 9
+    conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+    dateConferred: '1969-12-01'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Kokusai Butokukai certificate record dates Kim's 9th dan from the Dai Nippon Butoku Kai on December 1, 1969
+    hasEvidence:
+      - basedOnSource: 01KZ0ZT8VBZWGZK8KN9YK226NJ
+        quotation: 1969 On December, Richard Kim receives the Ku Dan (9th Dan) from the Dai Nippon Butoku Kai.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M3YH7N5G4FRNETKSVBKKWF6W
+    honorValue: Black Belt Magazine Karate Sensei of the Year
+    honorType: honortype:title
+    dateConferred: '1967'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia states Kim was named Black Belt Magazine's Karate Sensei of the Year in 1967
+    hasEvidence:
+      - basedOnSource: 01KZ0ZT8VBGFQREFNE6Y0XNQ8W
+        quotation: >-
+          Kim was named Black Belt Magazine's "Karate Sensei of the Year", in 1967, and was later inducted into the Black Belt Magazine Hall of Fame.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GR4K68PX64KS11TEC
+    honorValue: Black Belt Magazine Hall of Fame inductee
+    honorType: honortype:title
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia states Kim was inducted into the Black Belt Magazine Hall of Fame; the Kokusai Butokukai timeline dates it to 1973
+    hasEvidence:
+      - basedOnSource: 01KZ0ZT8VBGFQREFNE6Y0XNQ8W
+        quotation: and was later inducted into the Black Belt Magazine Hall of Fame.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZ0ZT8VBZWGZK8KN9YK226NJ
+        quotation: 1973 He is named Man of the Year in the Black Belt Hall Of Fame.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G9NEH7R7ZMQJ2G8MR
+    honorValue: Hanshi
+    honorType: honortype:title
+    honorGrade: honorgrade:shogo_hanshi
+    conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+    dateConferred: '1973-07-15'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Kokusai Butokukai certificate record dates Kim's Hanshi appointment from the Dai Nippon Butoku Kai on July 15, 1973
+    hasEvidence:
+      - basedOnSource: 01KZ0ZT8VBZWGZK8KN9YK226NJ
+        quotation: 1973 [...] On July, Richard Kim is appointed Hanshi by Dai Nippon Butoku Kai.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZ0ZT8VBGFQREFNE6Y0XNQ8W
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ0ZT8VB1WFP3JCHDG7TVHTJ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ0ZT8VBXARS9SW5QQ62SRP9
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ0ZT8VBE0SPQ15SKE2H7Q29
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ0ZT8VBZWGZK8KN9YK226NJ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q2149940
+  - viaf:81617691
+  - isni:0000000121414921
+tags:
+  - karate
+  - shorinji-ryu
+  - daito-ryu
+  - founder
+  - american
+  - instructor

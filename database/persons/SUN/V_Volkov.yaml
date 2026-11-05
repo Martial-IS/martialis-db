@@ -1,0 +1,64 @@
+type: Person
+id: 01M5HN78FDNBABVCEDGH77DX56
+name:
+  ru-Latn: V. Volkov
+nationality:
+  - countryCode: eucountry:RUS
+    wikidata: wd:Q159
+description:
+  en: >-
+    Soviet self-defence instructor, a student of both Viktor Spiridonov and Vasili Oshchepkov, whose
+    1940 NKVD manual, The Course of Self-Defense without Weapons—"Sambo", was the first to use the
+    abbreviation Sambo in its title.
+notes: >-
+  Green & Svinth give only the initial "V."; first name not established.
+hasTeacherAssertion:
+  - id: 01M5HN78FDJHYFPT54DP8R3P9S
+    teacher: 01M5HN78FDAK4Z7WNQ4Y4E2VGB
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9H
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              In 1940, V. Volkov, a student of both Spiridonov and Oshchepkov, published a manual for
+              NKVD schools titled The Course of Self-Defense without Weapons—“Sambo” (1940).
+            locator: '510'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5HN78FD05HNP8S4JGSQ5T0G
+    teacher: 01KJJAWN29MA64W22606R3WD7S
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9H
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              In 1940, V. Volkov, a student of both Spiridonov and Oshchepkov, published a manual for
+              NKVD schools titled The Course of Self-Defense without Weapons—“Sambo” (1940).
+            locator: '510'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      In the title of the book, the abbreviation Sambo was used for the first time.
+    locator: '510'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - sambo

@@ -1,0 +1,81 @@
+type: Person
+id: 01M69YKDGDJ1FYS23HDAVSWJWT
+name:
+  en: Leung Sheung
+  yue: 梁相
+  zh: 梁相
+  zh-Latn: Liang Xiang
+birthEvent:
+  birthDate: '1918'
+  hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        Leung Sheung (1918—1978) was already an experienced martial artist, having studied a variety of
+        southern styles including Choy Li Fut, White Eyebrow, and Dragon.
+      locator: '227'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1978'
+  hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        Leung Sheung (1918—1978) was already an experienced martial artist, having studied a variety of
+        southern styles including Choy Li Fut, White Eyebrow, and Dragon.
+      locator: '227'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/6/65/Leungsheung.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Leungsheung.jpg
+    cite: "Adam Williss, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    Wing Chun teacher in Hong Kong and staff member of the Restaurant Workers Union, Ip Man's first
+    official student in Hong Kong (1950). He opened his own school in the mid-1950s with his
+    teacher's blessing.
+notes: >-
+  Judkins and Nielson pp. 227-231, 244. Before Wing Chun he studied Choy Li Fut, White Eyebrow and
+  Dragon (teachers not named). Lost the union election in 1953 and regained office in 1954 (pp.
+  229, 237).
+hasTeacherAssertion:
+  - id: 01M69YKDGXRT8E0QA9VKH6K11C
+    teacher: 01KYD5XMNM4DH8KAWBC1TE9BDJ
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1950
+        hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              The group was impressed enough with Ip Man that they asked him to teach a course at the union,
+              and Leung Sheung became Ip Man’s first official student in Hong Kong.
+            locator: '227'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: '227-231, 237, 244'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3237116
+tags:
+  - wing-chun
+  - chinese-martial-arts

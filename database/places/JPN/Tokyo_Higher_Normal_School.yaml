@@ -1,0 +1,111 @@
+type: Place
+id: 01M3788RSRDWP4JKB5FKZZAQSC
+name:
+  en: Tokyo Higher Normal School
+  ja-Latn: Tōkyō Kōtō Shihan Gakkō
+  ja: 東京高等師範学校
+placeType: placeclass:university
+hasSite:
+  - location:
+      label: Tokyo
+      countryCode: eucountry:JPN
+      wikidata: wd:Q1490
+hasInstructorRole:
+  - id: 01M5H3ESYG0MEVX1XJPG7H88F2
+    instructor: 01M5H3ESYG2FNYVYCDVRWHQZDB
+    instructorCapacity: instrcap:instructor
+    instructorPeriod:
+      startYear: 1894
+    notes: Kano dates the invitation "around 1894". Judo was first taught in a spare classroom, later in the gymnasium Kano named Ushokan.
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Kano's own account only.
+    hasEvidence:
+      - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+        quotation: >-
+          Norifumi Machida, the principal of the junior high school affiliated to our college,
+          suggested to me that Kodokan instructor Itsuro Munakata be invited to teach judo at the
+          college. As I recall, this was around 1894. I agreed to his suggestion
+        locator: '66'
+        locatorLabel: page
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M4R9845WB95MGZC4MSGTQ466
+    instructor: 01M3788RSRM157A65AF4KFNFBH
+    instructorCapacity: instrcap:head_instructor
+    notes: Appointed to revive the gekiken club founded by Kanō in 1896; no dates are given for his tenure.
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One authored history.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: the gekiken club was invigorated by the appointment of Kimura Nobuhide (1855-1924) of the Jikishin Kage-ryū as the head teacher
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M4R9845W5QYMT9CMJS02G4HY
+    instructor: 01M2WGWA1YG2SSC4PASW0TXXQC
+    instructorCapacity: instrcap:technical_director
+    instructorPeriod:
+      startYear: 1908
+    notes: Bennett dates the dan and kyū responsibility to 1908 but not the appointment itself, which came after a number of staff changes.
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One authored history.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: Takano Sasaburō was eventually named supervising instructor of the club and made responsible for implementing the dan and kyu system of ranking in 1908
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M4R9845WK93MEMYAB0873M6K
+    instructor: 01M37AZCSCQZ9C7Y1T8HWTND17
+    instructorCapacity: instrcap:instructor
+    notes: Bennett names him a professor at the school without dates.
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One authored history; it names him a professor at the school, not a kendo instructor.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: Satō Ukichi (1895-1975) was a leading kendo master and professor at the Tokyo Higher Normal School.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M4R9845W3BGYFVR9B6HN64QW
+    officer: 01KJJAWN28MWKKSN4J02MVY1S1
+    officerTitle: President
+    officerPeriod:
+      startYear: 1893
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One authored history.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: The highly influential educator and martial artist Kanō Jigorō became the school's president in 1893
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: Teacher-training college in Tokyo, now the University of Tsukuba, and the rival of the Butokukai's Bujutsu Vocational College in producing specialist martial arts instructors. Kanō Jigorō became its president in 1893 and founded its gekiken club in 1896; judo, kendo and calisthenics became regular subjects in 1906, and from 1913 its three martial arts courses granted a nationally recognised teaching licence. The dan and kyū system was first used in kendo here, under Takano Sasaburō in 1908.
+hasEvidence:
+  - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+    quotation: The highly influential educator and martial artist Kanō Jigorō became the school's president in 1893
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+    quotation: Kano successfully elevated judo, kendo, and calisthenics to regular subjects of study at the Tokyo Higher Normal School in 1906.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - kendo
+  - judo
+  - education

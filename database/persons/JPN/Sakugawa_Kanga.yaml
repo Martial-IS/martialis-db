@@ -1,0 +1,99 @@
+type: Person
+id: 01M5H3RJVTNJN00FNZZSNF8W9D
+name:
+  ja-Latn: Sakugawa Kanga
+  ja: 佐久川寛賀
+aka:
+  en:
+    - Tode Sakugawa
+    - Sakugawa Todi
+    - Sakugawa Satunuku
+nationality:
+  - countryCode: country:XRY
+    wikidata: wd:Q28025
+birthEvent:
+  birthDate: '1733~'
+  hasEvidence:
+    - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+      quotation: 佐久川(唐手)寛賀, 1733–1815?
+      locator: '65'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1815?'
+  hasEvidence:
+    - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+      quotation: 佐久川(唐手)寛賀, 1733–1815?
+      locator: '65'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Okinawan pioneer of the Shuri lineage of karate, known as "Tode" (Chinese hand) Sakugawa. Sources
+    disagree on whether he learned from Kushanku in Okinawa or in China.
+notes: >-
+  Cramer (p. 66): his dates vary by up to thirty years between authors; "some researchers" give an
+  earlier teacher, Takahara Pechin. Green & Svinth (p. 207) say Sakugawa and Matsumura trained in
+  Jigen-ryu kenjutsu in Satsuma.
+hasTeacherAssertion:
+  - id: 01M5H3RJVTM9J8BAV0YAEDPCSM
+    teacher: 01M5H3RJVT659TN7KRV2VKP99J
+    assertedStyle: 01KYHQNWJF0CZFH1SXM9J40XEJ
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Tradition, reported as such. Funakoshi and Nagamine hold instead that Sakugawa learned in
+        China.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1756
+        hasEvidence:
+          - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+            quotation: >-
+              Then, around 1756, when Kushanku arrived in Okinawa from China, Sakugawa began to learn the
+              Chinese martial arts from him.
+            locator: '66'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: Tradition states that Sakugawa Todi was a student of Kusanku.
+            locator: '208'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+            quotation: >-
+              However, both Gichin Funakoshi and Shoshin Nagamine content that Tode Sakugawa did not
+              study under Kushanku.
+            locator: '66'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: false
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+    locator: 65-67
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q921673
+tags:
+  - karate
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/7/7a/Satunuku_Sakugawa.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Satunuku_Sakugawa.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary

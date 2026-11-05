@@ -1,0 +1,39 @@
+type: Person
+id: 01M6A2A5Z6F8864V7TEDJ3B2RY
+name:
+  pt: Jair Moura
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Capoeira historian from Salvador who trained with Mestre Bimba in the 1950s.
+hasTeacherAssertion:
+  - id: 01M6A2A5Z55FAFSWKT3TA7TKE1
+    teacher: 01M5H4AFG2ZHJ3H82H0DPJQJ1V
+    assertedStyle: 01M6A2A5YR5THAAVA3A61JRZ1H
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              Jair Moura, son of lawyer, PCB leader and deputy Jaime Alves Moura, trained with Bimba
+              during the 1950s.
+            locator: '138'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    locator: '138'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - capoeira

@@ -1,0 +1,88 @@
+type: Person
+id: 01M6EFJQBC5ZT7TSHD6H4DH797
+name:
+  ja-Latn: Nakajima Gorōzō
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: 1908-05
+  hasEvidence:
+  - basedOnSource: 01M6EF6KKAARB6K35CE2P9KTQQ
+    quotation: Born May 1908, died in 1993 (85 years old)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1993'
+  hasEvidence:
+  - basedOnSource: 01M6EF6KKAARB6K35CE2P9KTQQ
+    quotation: Born May 1908, died in 1993 (85 years old)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: >-
+    Kendo and iaido teacher; live-in student of Nakayama Hakudō at the Yūshinkan from 1924, kendo
+    instructor at the Keishichō from 1929 to 1970, hanshi 9th dan. One of the 'three crows of Yūshinkan'.
+hasTeacherAssertion:
+- id: 01M6EFJQBD331ER4SHGW4Q10NC
+  teacher: 01KZ6XT5DSD1RN1NG4PJKJWXAH
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9W
+  role: teachrole:uchi_deshi
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Single kenshi247 article.
+  hasInteraction:
+  - interactionPlace: 01KZ9TV15DAKTA2KEF6NFKDJD3
+    interactionPeriod:
+      startYear: 1924
+    hasEvidence:
+    - basedOnSource: 01M6EF6KKAARB6K35CE2P9KTQQ
+      quotation: I teach kendo at keishicho and before that I lived in this dojo and studied under Nakayama sensei for years.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M6EFJQBDRJQZG8EMNV343E49
+  rankStyle: 01KJJAWN29MA64W22606R3WD9W
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 9
+  dateConferred: '1987'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Single kenshi247 article.
+  hasEvidence:
+  - basedOnSource: 01M6EF6KKAARB6K35CE2P9KTQQ
+    quotation: awarded kyudan in kendo and iaido in 1987
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasHonorAssertion:
+- id: 01M6EFJQBDDX1YQ7DSMNCPFW1Y
+  honorValue: Hanshi
+  honorType: honortype:title
+  honorGrade: honorgrade:shogo_hanshi
+  conferredBy: 01M0R2X2ACBZDHS6JXQ7CTAMC8
+  dateConferred: '1979'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Single kenshi247 article.
+  hasEvidence:
+  - basedOnSource: 01M6EF6KKAARB6K35CE2P9KTQQ
+    quotation: became kendo hanshi in 1979
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M6EF6KKAARB6K35CE2P9KTQQ
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- kendo
+- iaido

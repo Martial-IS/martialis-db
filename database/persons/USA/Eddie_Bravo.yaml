@@ -1,0 +1,81 @@
+type: Person
+id: 01KYQB8J2NYN0CT40CYYXN62GK
+name:
+  en: Eddie Bravo
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1970-05-15'
+  birthPlace:
+    label: Santa Ana, California
+    countryCode: eucountry:USA
+    wikidata: wd:Q49244
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/7/79/EddieBravoRubber.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:EddieBravoRubber.jpg
+    cite: "Phil192, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: 'American martial artist, founder of 10th Planet Jiu-Jitsu, a no-gi variant of Brazilian jiu-jitsu. Known for his innovations in rubber guard, lockdown half guard, and the twister submission. He is a black belt under Jean Jacques Machado and awarded Joe Rogan his no-gi black belt in Brazilian jiu-jitsu.
+
+'
+hasTeacherAssertion:
+  - id: 01M3YH7N5GGS0CRBN8FM94H4B1
+    teacher: 01KYG003XDQ8P2KEBEWHV84NHX
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Eddie Bravo earned his black belt under Jean Jacques Machado, well-documented in multiple sources
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1995
+          endYear: 2003
+        hasEvidence:
+          - uri: https://en.wikipedia.org/wiki/Eddie_Bravo
+            archiveUri: https://en.wikipedia.org/w/index.php?title=Eddie_Bravo&oldid=1379514604
+            cite: Eddie Bravo (Wikipedia EN)
+            quotation: 4th degree black belt in BJJ under Jean Jacques Machado
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5G66Y852C4W4M6FV34
+    rankStyle: 01KJJAWN29MA64W22606R3WD9J
+    rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+    rankGrade: rankgrade:bjj_black
+    grantedBy: 01KYG003XDQ8P2KEBEWHV84NHX
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Rank referenced in Wikipedia article
+    hasEvidence:
+      - uri: https://en.wikipedia.org/wiki/Eddie_Bravo
+        archiveUri: https://en.wikipedia.org/w/index.php?title=Eddie_Bravo&oldid=1379514604
+        cite: Eddie Bravo (Wikipedia EN)
+        quotation: 4th degree black belt in BJJ under Jean Jacques Machado
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - uri: https://en.wikipedia.org/wiki/Eddie_Bravo
+    archiveUri: https://en.wikipedia.org/w/index.php?title=Eddie_Bravo&oldid=1379514604
+    cite: Eddie Bravo (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYQB8J2NB5KG4M7GYD1K1T1B
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q5335870
+tags:
+  - brazilian-jiu-jitsu
+  - 10th-planet
+  - no-gi
+  - founder

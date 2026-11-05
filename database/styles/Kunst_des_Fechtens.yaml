@@ -1,0 +1,129 @@
+type: Style
+id: 01M5JRHX026EPJNQVEJDCKRNJP
+name:
+  en: Kunst des Fechtens
+  de: Kunst des Fechtens
+aka:
+  en:
+    - German school of fencing
+    - Liechtenauer tradition
+    - Art of Fencing
+styleType: styleclass:traditional
+foundedEvent:
+  startDate: '13XX'
+  founder:
+    - 01M5JRHX024QXCGWZYKC82GA3W
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Tradition has it that he gathered a circle of students, to whom he taught his art, simply known
+        as Kunst des Fechtens (Art of Fencing), and from whom derives nearly the entire record of German
+        martial arts for the next two centuries.
+      locator: '244'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Hans Liechtenauer, the fourteenth-century founder of the most extensively documented school of
+        medieval martial arts, built his art of swordsmanship around four principal guards or stances
+        from which the swordsman could launch any attack or defense.
+      locator: '352'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5JRHX02KHCTP1FVW5GKKDEP
+      quotation: >-
+        Master Liechtenauer learnt and mastered [the art of the sword] in a thorough and rightful way,
+        but he did not invent it or make it up himself
+      informationType: infotype:secondary
+      supports: false
+      evidenceType: evidencetype:direct
+hasStyleRelationAssertion:
+  - id: 01M5JRHX02ACK2THSZ3WRA274V
+    relatedStyle: 01M5JRHX02FJ6XZ3X069NVX3SE
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01M5JRHX02AB9DNYMNMM6MYWT1
+        quotation: >-
+          The German school of fencing (Deutsche Schule; Kunst des Fechtens) is a system of combat taught
+          in the Holy Roman Empire during the Late Medieval, German Renaissance, and early modern periods.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Tradition has it that he gathered a circle of students, to whom he taught his art, simply known
+          as Kunst des Fechtens (Art of Fencing), and from whom derives nearly the entire record of German
+          martial arts for the next two centuries.
+        locator: '244'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5WKDYSR3CXAA5Q3XK06TKGQ
+    relatedStyle: 01M5JSGG509Z4J4P08MWKM16ZW
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Green and Svinth state that Mair's compendia copied Marozzo's techniques and that Italian rapier,
+        especially Fabris, dominated German fencing in the seventeenth century; one secondary source, so
+        probable.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          the innovations of the Italian masters were beginning to cross into German lands.
+        locator: '253'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Nevertheless, it was the mainline of Italian rapier fencing, particularly the school of Salvatore
+          Fabris, that would dominate German fencing in the seventeenth century.
+        locator: '253'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    The German school of the longsword and related weapons, wrestling and dagger, in and out of armour,
+    taught in the Holy Roman Empire from the late fourteenth to the seventeenth century in the tradition
+    of Johannes Liechtenauer. His students kept his teaching in cryptic verses (the Zettel), which later
+    masters glossed; Paulus Kal listed seventeen masters of the "Society of Liechtenauer". The guilds of
+    the Marxbrüder and Federfechter examined masters, and Joachim Meyer's 1570 book is its last great
+    summary.
+notes: >-
+  The founder entry follows Green and Svinth. The Pol Hausbuch (quoted in en Wikipedia) says Liechtenauer
+  did not invent the art; Green and Svinth say he synthesised the teachings of the masters he trained
+  with into a new method.
+hasEvidence:
+  - basedOnSource: 01M5JRHX02AB9DNYMNMM6MYWT1
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q941446
+tags:
+  - fencing
+  - longsword
+  - kunst-des-fechtens
+  - historical-european-martial-arts
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/2/2b/Cod_Winob_10825.jpg
+    rights: mediarights:public_domain_mark
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:Cod_Winob_10825.jpg
+      cite: "Dbachmann, Wikimedia Commons"
+      informationType: infotype:secondary

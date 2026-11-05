@@ -1,0 +1,71 @@
+type: Person
+id: 01M6A35T5EAVFWNWXV9GXJHMY4
+name:
+  pt: Mestre Brasília
+aka:
+  pt:
+    - Antônio Cardoso Andrade
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Capoeira mestre from Bahia, a student of Mestre Canjiquinha, who settled in São Paulo in the
+    1960s and founded the Cordão de Ouro group with Mestre Suassuna.
+notes: >-
+  Toured Maranhão with Canjiquinha's group in 1966 (Assunção, p. 178).
+birthEvent:
+  birthDate: '1942-05-29'
+  birthPlace:
+    label: Alagoinhas, Bahia
+    countryCode: eucountry:BRA
+    wikidata: wd:Q22050101
+  hasEvidence:
+    - basedOnSource: 01M6ACM2JZ5H4ABVQVWSY410ZF
+      quotation: >-
+        Antônio Cardoso Andrade, mais conhecido como Mestre Brasília (Alagoinhas, 29 de maio de
+        1942)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M6A35T5J3FHXYHR55FSXWK0C
+    teacher: 01M6A2JTJ28XDRCXA95W4J01H8
+    assertedStyle: 01M6A2JTHSG7FHK01NCS2SN3FD
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              M.Suassuna, formed by Regional and M.Brasília, a student of Canjiquinha, joined
+              efforts in the group ‘Cordão de Ouro’ (golden chain, a reference to the famous Besouro
+              Mangangá, see Chapter 4), which became one of the most successful capoeira
+              associations in the country.
+            locator: '174'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              Some had been pupils of the famous angoleiros Canjiquinha (Brasília, Ananias)
+            locator: '174'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    locator: '174, 178, 193'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q10329011
+tags:
+  - capoeira

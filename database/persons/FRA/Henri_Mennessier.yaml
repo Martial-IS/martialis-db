@@ -1,0 +1,34 @@
+type: Person
+id: 01M39T3H2EWV64RMVKMKCD3187
+name:
+  fr: Henri Mennessier
+nationality:
+  - countryCode: eucountry:FRA
+hasTeacherAssertion:
+  - id: 01M3YH7N5GM503C7PD2MEGK4P4
+    teacher: 01M39T3H2EDMQ9AKZB25RVS5S0
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Martin names him directly as Nocquet's student, ceinture bleue at the time.
+    hasInteraction:
+      - interactionPeriod:
+          endYear: 1948
+        hasEvidence:
+          - basedOnSource: 01M00NPBTPWWBSJZRMYXBESJ97
+            quotation: Lorsqu'André Nocquet quitte le département, Albert Marx et Henri Mennessier (ceintures bleues), ses élèves, prennent la direction du club et assurent son développement.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+description:
+  fr: Ceinture bleue, élève d'André Nocquet, codirecteur du Judo-Club d'Angoulême avec Albert Marx avant de quitter la Charente en 1948 pour fonder le premier club de judo de Nancy.
+hasEvidence:
+  - basedOnSource: 01M00NPBTPWWBSJZRMYXBESJ97
+    quotation: En 1948, Henri Mennessier quitte la Charente pour fonder le premier club de judo de Nancy.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - france

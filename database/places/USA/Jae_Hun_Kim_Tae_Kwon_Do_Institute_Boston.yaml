@@ -1,0 +1,58 @@
+type: Place
+id: 01KYQB8J2N7QVYBNY6R229DXK7
+name:
+  en: Jae Hun Kim Tae Kwon Do Institute
+aka:
+  en:
+    - JHK TKD Institute
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Boston
+      countryCode: eucountry:USA
+      wikidata: wd:Q100
+    address: Boston, Massachusetts, United States
+hasInstructorRole:
+  - id: 01M4R9845WPVV6CY14FYE246T2
+    instructor: 01KYQB8J2N6ZQ8B1QY5K24QY9P
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1980
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One first-hand account by a student.
+    hasEvidence:
+      - basedOnSource: 01M3M3T743KNJ71CN2ZMC6Y3V0
+        quotation: 'Mr. Kim and Mr. Michael O''Malley (a multiple time national champion) emphasized a lot of heavy bag work and power in their training program.'
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M4R9845W0N5S7DVCTMFGDP27
+    instructor: 01KYQB8J2N2PBYQS90QCT8VS1Q
+    instructorCapacity: instrcap:instructor
+    instructorPeriod:
+      startYear: 1980
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One first-hand account by a student.
+    hasEvidence:
+      - basedOnSource: 01M3M3T743KNJ71CN2ZMC6Y3V0
+        quotation: 'Mr. Kim and Mr. Michael O''Malley (a multiple time national champion) emphasized a lot of heavy bag work and power in their training program.'
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: 'Jae Hun Kim Tae Kwon Do Institute in Boston, Massachusetts. An ITF-style taekwondo school where Joe Rogan trained under Grandmaster Jae Hun Kim and Michael O''Malley. Rogan earned his black belt here at age 15 and later became an instructor.
+
+'
+hasEvidence:
+  - basedOnSource: 01M3M3T743KNJ71CN2ZMC6Y3V0
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - taekwondo
+  - itf
+  - boston

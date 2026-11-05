@@ -1,0 +1,61 @@
+type: Person
+id: 01M6C1R0051SHWDNBK2HK0Y893
+name:
+  en: Matt Serra
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1974-06-02'
+  hasEvidence:
+    - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+      quotation: 'Born: 6/2/74'
+      locator: '395'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    American mixed martial artist and Brazilian jiu-jitsu teacher, Renzo Gracie's top American
+    student; he runs two academies in New York.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/c/c9/Matt_Serra_2007.png
+  rights: mediarights:cc-by-2.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Matt_Serra_2007.png
+    cite: "Tom Nguyen, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+  - id: 01M6C1R00544AGT9R4VEHP95E0
+    teacher: 01KYSNKBSAAS27TBVHR0EBZ059
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              Hughes had beaten Renzo’s cousin Royce Gracie and engaged in a bitter rivalry with Renzo’s top American student, Matt Serra.
+            locator: '147'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+    quotation: >-
+      and his two successful Brazilian Jiu-jitsu academies in New York
+    locator: '397–398'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q968201
+tags:
+  - brazilian-jiu-jitsu
+  - mma

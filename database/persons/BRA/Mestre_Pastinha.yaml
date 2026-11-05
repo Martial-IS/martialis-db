@@ -1,0 +1,126 @@
+type: Person
+id: 01M5H4AFG2ZRRQ0T4STJDTFRAR
+name:
+  pt: Mestre Pastinha
+aka:
+  pt: Vicente Ferreira Pastinha
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+birthEvent:
+  birthDate: '1889-04-05'
+  birthPlace:
+    label: Salvador, Bahia
+    countryCode: eucountry:BRA
+    wikidata: wd:Q36947
+  hasEvidence:
+    - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+      quotation: >-
+        Mestre Pastinha was born as Vicente Ferreira Pastiña in Salvador, 5 April 1889.
+      locator: '149'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: Mestre Pastinha (born Vicente Ferreira Pastinha, 1889–1981) learned capoeira while still a child.
+      locator: '40'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1981-11-13'
+  deathPlace:
+    label: Abrigo Dom Pedro II, Salvador, Bahia
+    countryCode: eucountry:BRA
+    wikidata: wd:Q36947
+  hasEvidence:
+    - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+      quotation: >-
+        he spent his last months in a shelter for old people without resources, the Abrigo Dom Pedro
+        II, where he died 13 November 1981, aged 93.
+      locator: '163'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: Mestre Pastinha (born Vicente Ferreira Pastinha, 1889–1981) learned capoeira while still a child.
+      locator: '40'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Capoeira Angola master from Salvador; opened a capoeira school in 1910 and opposed borrowing from
+    other martial arts. Most capoeira Angola lineages pass through his students.
+notes: >-
+  By his own manuscripts he withdrew from capoeira from 1912 until 1941 (Assunção, p. 150). Civil
+  name spelled Pastiña in Assunção (p. 149). He trained with Benedito from the age of ten, for some
+  months or, per Kay Shaffer, two years (pp. 149-150).
+hasTeacherAssertion:
+  - id: 01M6A2JTJ8DJ2X22S7DDDKN3WN
+    teacher: 01M6A2JTJ0TK7AMPMSCMPBVFXX
+    assertedStyle: 01M6A2JTHSG7FHK01NCS2SN3FD
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source; Green and Svinth repeat it from Assunção.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              One day, Benedito, an elderly African living in the same street who had been watching
+              his plight, offered to teach him a means of self-defence
+            locator: '149'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              According to some accounts, Benedito was a native of Angola.
+            locator: '149'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    quotation: >-
+      He quit the Navy at the age of 20, in 1910. [...] He opened his first capoeira school in a
+      bicycle workshop on the Campo da Pólvora.
+    locator: '150'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    locator: '147-166'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      After first teaching capoeira to his fellow students at the Escola de Asprirantes da Marinha,
+      Pastinha opened a capoeira school in 1910.
+    locator: '40'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q928687
+tags:
+  - capoeira
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/pt/0/0d/Mestre_Pastinha.jpg
+  rights: mediarights:in_copyright
+  imageAttribution:
+    uri: https://pt.wikipedia.org/wiki/Ficheiro:Mestre_Pastinha.jpg
+    cite: "Portuguese Wikipedia, non-free file"
+    informationType: infotype:secondary

@@ -1,0 +1,91 @@
+type: Person
+id: 01M69YCGD04PY1727N652A12RZ
+name:
+  en: Yiu Choi
+  yue: 姚才
+  zh: 姚才
+  zh-Latn: Yao Cai
+nationality:
+  - countryCode: eucountry:CHN
+    wikidata: wd:Q148
+birthEvent:
+  birthDate: '1890'
+  hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        The third hero of Wing Chun was Yiu Choi (1890–1956).
+      locator: '198'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1956'
+  hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        The third hero of Wing Chun was Yiu Choi (1890–1956).
+      locator: '198'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Wing Chun practitioner in Foshan, son of a pharmacy owner, student of Yuen Chai-wan and Ng
+    Chung-so. He did not teach in public; with his brother he opened the club where Ng Chung-so
+    taught.
+notes: >-
+  Judkins and Nielson p. 198: native of Bao'an County; one son and five other disciples. The
+  'Three Heroes of Wing Chun' title (with Ip Man and Yuen Kay-san) is a later invention (pp.
+  198-199).
+hasTeacherAssertion:
+  - id: 01M69YCGDN2TQSET7XBPSVQNTF
+    teacher: 01M69YCGCZF85RGK7FTYFVXKKW
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              He began his study of Wing Chun under Yuen Chai Wan, the older brother of Yuen Kay San.
+            locator: '198'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M69YCGDQFQWW01DMAHVTKBBG
+    teacher: 01M69YCGCMWM48B31AKTK503SP
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              Before leaving he recommended his young student to Ng Chung So who completed his training at his
+              own school.
+            locator: '198'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: 188, 198-199
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q10943329
+tags:
+  - wing-chun
+  - chinese-martial-arts

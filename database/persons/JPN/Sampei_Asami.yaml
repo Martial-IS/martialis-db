@@ -1,0 +1,39 @@
+type: Person
+id: 01KZW2JNB8BQJ607PTE6XAJ44A
+name:
+  ja-Latn: Asami Sanpei
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+description:
+  en: Japanese Kodokan judo instructor, 8th dan in 1961, who gave Anton Geesink private lessons at the
+    Tokyo Metropolitan Police (Keishicho) dojo during Geesink's training visit in early 1961. Romanized
+    by Geesink as 'Sampei Asami'.
+notes: Identity as Sampei Asami '8th dan' rests on Geesink's own 1961 Utrechtsch Nieuwsblad article; Asami
+  Sempei (7th dan) appears in contemporary Kodokan Review technique features, suggesting they may be the
+  same person. Exact kanji and full biography not yet established, so no links or Wikidata entry and a
+  low-confidence cover.
+hasRankAssertion:
+- id: 01M3YH7N5GY4SN4W09TF3T7AMY
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 8
+  dateConferred: '1961'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Geesink calls Asami an 8th dan in his own 1961 article; corroborated by the contemporary
+      Kodokan Review (Asami Sempei), but the exact grade and date rest on a single primary source.
+  hasEvidence:
+  - basedOnSource: 01KZW2JNB80ZSKM1C374WV92SG
+    informationType: infotype:secondary
+    supports: true
+    quotation: Want in de politiedojo krijg ik les van Sampei Asami, een achste dan en één van de beste
+      leraren die er is.
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZW2JNB80ZSKM1C374WV92SG
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct

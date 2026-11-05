@@ -1,0 +1,49 @@
+type: Person
+id: 01M0BCX1Y90GQJ65ZHHHSRE0ND
+name:
+  ja-Latn: Fushimi Tatsusaburō
+  ja: 伏見 辰三郎
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+description:
+  en: 'Japanese jujutsu master of the Fusen-ryu school, a student of Mataemon Tanabe. On Handa Yataro''s
+    death he
+
+    succeeded Handa as head of the Seibukan dojo in Osaka, carrying on the Daito-ryu jujutsu that Handa
+    had founded
+
+    there and that Tanabe''s ne-waza teaching had shaped.
+
+    '
+  ja: '不遷流の柔術家で、田辺又右衛門の門人。半田弥太郎の没後に大阪の盛武館を継ぎ、半田が開いた大東流柔術の道統を担った。
+
+    '
+hasTeacherAssertion:
+- id: 01M3YH7N5GM8EK85NCRCEV83XN
+  teacher: 01M0AAFQFXZ7G2JDEFZY8M5AKF
+  assertedStyle: 01M0AAFQFSD0PC83N17N4J3JXN
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: JA Wikipedia records Fushimi as a Fusen-ryu man who succeeded Handa at the Seibukan;
+      the teacher-student relationship with Tanabe is implied by his Fusen-ryu affiliation and by the
+      style's known line from Tanabe, but is not stated verbatim in any consulted source.
+  hasInteraction:
+  - interactionPlace: 01M0AZQ3TJZ2EVT8RXF3M2TVXJ
+    hasEvidence:
+    - basedOnSource: 01M0AZQ3TJ9K5V2Z20K5370P1A
+      informationType: infotype:secondary
+      supports: true
+      quotation: 半田の盛武館には不遷流の田辺又右衛門が出稽古に来ており、田辺の弟子の伏見辰三郎が半田の後を継いだ。
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M0AZQ3TJ9K5V2Z20K5370P1A
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- jujutsu
+- fusen-ryu
+- japan

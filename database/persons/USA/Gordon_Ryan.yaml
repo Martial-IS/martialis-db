@@ -1,0 +1,102 @@
+type: Person
+id: 01M6ENVCFA4XFTH3ZXM1474A5B
+name:
+  en: Gordon Ryan
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+birthEvent:
+  birthDate: '1995-07-08'
+  birthPlace:
+    label: Monroe Township, New Jersey
+    countryCode: eucountry:USA
+    wikidata: wd:Q224781
+  hasEvidence:
+  - basedOnSource: 01M6ENPY5WAVM9MAN5CGCM1GY6
+    quotation: >-
+      Gordon Ryan was born on July 8, 1995, in Monroe, New Jersey
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/2/21/ADCC_King_Gordon_Ryan_Gritty_Path_To_Glory_-_YouTube_-_10_12_%28cropped%29.jpg
+  rights: mediarights:cc-by-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:ADCC_King_Gordon_Ryan_Gritty_Path_To_Glory_-_YouTube_-_10_12_(cropped).jpg
+    cite: "Derek Moneyberg, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    American submission grappler; multiple ADCC world champion.
+hasTeacherAssertion:
+- id: 01M6ENVCFA3YJCVEJ05SBX9JG2
+  teacher: 01KYSNKBS820Y33CQFDDFKQ3EZ
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Danaher's own words; Fighters Only and BJJ Heroes agree
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M6ENPY5WWD8ATQ65KQX46G5E
+      quotation: >-
+        “At some point, you want to overtake your mentors. You want to get to a point where you’re better than the previous people.”
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ENPY5WWD8ATQ65KQX46G5E
+      quotation: >-
+        Ryan discussed the evolution of his work with Danaher over time
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ENPY5WZJV6YTQA6F17T186
+      quotation: >-
+        A 1st degree Brazilian Jiu Jitsu black belt under Garry Tonon and John Danaher
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ENPY5WQQHAQQ8Y4XH2K7T5
+      quotation: >-
+        as a purple belt, Ryan started traveling to New York regularly to train with another one of Garry’s mentors – John Danaher.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M6ENVCFA8Q45533QAMEVBJ4Y
+  rankStyle: 01KJJAWN29MA64W22606R3WD9J
+  rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+  rankGrade: rankgrade:bjj_black
+  grantedBy: 01M6ENVCFA8EVKD3T3X7M6R3SM
+  dateConferred: 2016-02
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Giver and date from BJJ Heroes only; Fighters Only names Tonon and Danaher
+  hasEvidence:
+  - basedOnSource: 01M6ENPY5WQQHAQQ8Y4XH2K7T5
+    quotation: >-
+      Gordon was awarded his black belt by Garry Tonon (February 2016) in a ceremony supported by the presence of Tom deBlass, Ricardo Almeida. and Danaher – who shared the responsibility of the new belt rank.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6ENPY5WZJV6YTQA6F17T186
+    quotation: >-
+      A 1st degree Brazilian Jiu Jitsu black belt under Garry Tonon and John Danaher
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M6ENPY5WAVM9MAN5CGCM1GY6
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q40875419
+tags:
+- brazilian-jiu-jitsu
+- submission-grappling
+- danaher-death-squad

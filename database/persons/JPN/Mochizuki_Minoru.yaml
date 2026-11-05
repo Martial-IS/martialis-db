@@ -1,0 +1,774 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1TX
+name:
+  ja-Latn: Mochizuki Minoru
+  ja: 望月 稔
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1907-04-07'
+  birthPlace:
+    label: Shizuoka
+    countryCode: eucountry:JPN
+    wikidata: wd:Q174691
+deathEvent:
+  deathDate: '2003-05-30'
+  deathPlace:
+    label: Aix-en-Provence
+    countryCode: eucountry:FRA
+    wikidata: wd:Q47465
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/9/97/Minoru_Mochizuki_c1930.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    cite: "Wikimedia Commons"
+    uri: https://commons.wikimedia.org/wiki/File:Minoru_Mochizuki_c1930.jpg
+    basedOnSource: 01KZ9XPHRDM9WXTXQNMZKBK72N
+    informationType: infotype:secondary
+description:
+  en: Japanese martial artist who founded Yoseikan dojo. Direct student of judo founder Jigoro Kano, aikido founder Morihei Ueshiba, and karate founder Gichin Funakoshi, and of swordsman Hakudo Nakayama. First to teach aikido in the West (France 1951-1953). Holder of high dan ranks in multiple martial arts including 10th dan in Aikido, 9th dan in Jujutsu, and 8th dan in Judo.
+hasTeacherAssertion:
+  - id: 01M3YH7N5G7ZRW7NM2CX13NNGQ
+    teacher: 01KJJAWN28MWKKSN4J02MVY1S1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Explicitly mentioned in the Dragon Magazine interview as the judo master who enrolled him at the
+        Kodokan in 1926 and later sent him to study with Ueshiba, Shimizu and Nakayama; two other
+        sources corroborate it
+    role: teachrole:student
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+        interactionPeriod:
+          startYear: 1926
+          endYear: 1930
+        hasEvidence:
+          - basedOnSource: 01KZ9TQS3VGPBASF3Z1Q0AVHJF
+            quotation: Je me suis inscrit au Centre Mondial du Judo de Jigoro Kano sensei en 1926.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZBXVRR52RAP98GM0M14Q7VM
+            quotation: 1929年（昭和4年）、嘉納治五郎の直接指導を受け始める。
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - uri: https://en.wikipedia.org/wiki/Minoru_Mochizuki
+            quotation: >-
+              Mochizuki was one of the direct students of Judo founder Jigoro Kano, Aikido founder Morihei Ueshiba and Gichin Funakoshi, founder of Shotokan Karate.
+            archiveUri: https://en.wikipedia.org/w/index.php?title=Minoru_Mochizuki&oldid=1334922622
+            cite: Minoru Mochizuki - Wikipedia
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - uri: https://aikidojournal.com/2002/11/18/interview-with-minoru-mochizuki-1/
+            quotation: >-
+              after I started to take part in training in the classical arts I came to the attention of Kano Sensei. "You have the makings of a leader," he told me. After that I was to report to him once or twice a month on the progress of my training.
+            cite: 'Interview with Minoru Mochizuki: Part 1, Aikido Journal, November 2002'
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G4403753XEJCCZ03F
+    teacher: 01KJJAWN28MWKKSN4J02MVY1SD
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Mentioned in the Dragon Magazine interview as becoming his live-in student after the famous well anecdote at the Kodokan, with detailed anecdotes about their relationship; the Karaté-Bushido interview records Mifune choosing him as assistant
+    role: teachrole:student
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+        interactionPeriod:
+          startYear: 1926
+          endYear: 1930
+        hasEvidence:
+          - basedOnSource: 01KZ9TQS3VGPBASF3Z1Q0AVHJF
+            quotation: A partir de ce jour, j'ai habité chez Maître Mifune.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZBXVRR52RAP98GM0M14Q7VM
+            quotation: 1927年（昭和2年）、三船久蔵の内弟子となる。
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - uri: https://aikidojournal.com/2002/11/18/interview-with-minoru-mochizuki-1/
+            quotation: >-
+              From that day on I stayed at Mifune Sensei's house. In essence I became one of his dependents. At that time, there were hundreds of students who lived at his expense in order to learn judo
+            cite: 'Interview with Minoru Mochizuki: Part 1, Aikido Journal, November 2002'
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G28S7QWHRSBHXG4F9
+    teacher: 01KZ9TQS3VWBPTDPR59EH06R58
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: 'First-person accounts in both interviews name Sampo Toku as his judo teacher in Komatsugawa before the Kodokan; Kruyning lists Toku among his judo teachers. The interviews disagree on the start year (Karaté-Bushido and Kruyning: 1924; Dragon Magazine: ''the year before'' 1926)'
+    role: teachrole:student
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1924
+          endYear: 1926
+        hasEvidence:
+          - basedOnSource: 01KZ9TQS3VNHWPHTJCAKYNERW6
+            quotation: à 17 ans je me suis inscrit au Kendokan, le dojo du grand maître de judo Sanbo Toku.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZ9TQS3VGPBASF3Z1Q0AVHJF
+            quotation: « Pour la technique c'est Mifune mais le démon du Kodokan c'est Sanpo Toku »
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZ9TQS3VAWWWZRSQE53DB0DS
+            quotation: >-
+              In 1924, while living with his sister in Tokyo, he started his training in judo at the dojo of Sampo Toku Sensei
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZBXVRR52RAP98GM0M14Q7VM
+            quotation: 1924年（大正13年）、徳三宝より柔道を学ぶ。
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GGCZY22RJ8AJE8XKC
+    teacher: 01KZ9TQS3VVK7CET0NDZSDFFR2
+    assertedStyle: 01KZ9TQS3VCJQV8BNQ6TR7M8W1
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: First-person account in the Dragon Magazine interview names Sanjuro Oshima as his Gyokushin-ryu teacher and describes how Oshima insisted he study so the art would not die with him; corroborated by Kruyning
+    role: teachrole:student
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1924
+        hasEvidence:
+          - basedOnSource: 01KZ9TQS3VGPBASF3Z1Q0AVHJF
+            quotation: Le professeur de cette école, Sanjuro Oshima se désolait de constater que les styles classiques de Jujutsu disparaissaient. Il insista pour que je l'étudie avec lui afin que l'art qu'il enseignait ne meure pas avec lui.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZ9TQS3VAWWWZRSQE53DB0DS
+            quotation: While training at Sampo Toku's dojo, Mochizuki also began training in an old style of ju-jutsu called gyokushin ryu.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G3NSZQ09VR6Y5FDH1
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TV
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Sent by Kano to study aikijujutsu with Ueshiba in 1930, became uchi-deshi and supervisor of the other students, received the Daito-ryu transmission manuscripts in 1932 and the Okuden Inka diploma in 1933; mentioned as direct student in multiple sources
+    role: teachrole:student
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD86
+        interactionPeriod:
+          startYear: 1930
+        hasEvidence:
+          - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTBF
+            quotation: That was back in 1930 when Ueshiba Sensei still didn’t have a place of his own and was teaching in the living room of a regular private house in the Mejiro area of Tokyo. But just after we started going there, we all moved to the newly finished Ushigome dojo (site of the present Hombu Dojo)
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZ9TQS3VGPBASF3Z1Q0AVHJF
+            quotation: C'était en 1930, Maître Ueshiba n'avait pas encore de dojo à lui et il enseignait dans le salon d'une maison privée du quartier de Mejiro à Tokyo.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZBXVRR52RAP98GM0M14Q7VM
+            quotation: 1930年（昭和5年）、講道館の四段位を授けられる。嘉納治五郎の指示により、植芝盛平に入門。合気道の修行を始める。
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G7XR1KA105W7WFFTY
+    teacher: 01KZ6XT5DSD1RN1NG4PJKJWXAH
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9W
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Both interviews state he studied kendo (and iaido) with Hakudo Nakayama during his Kodokan years; the period is not dated (start estimated from the 1926 Kodokan enrollment, end at his 1931 departure for Shizuoka); own account only
+    role: teachrole:student
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1926
+          endYear: 1931
+        hasEvidence:
+          - basedOnSource: 01KZ9TQS3VGPBASF3Z1Q0AVHJF
+            quotation: En parallèle, j'ai commencé à étudier également le Iaido et le Kendo avec Maître Hakudo Nakayama.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZ9TQS3VNHWPHTJCAKYNERW6
+            quotation: De la même façon, il m'a fait étudié le Shindo Muso Ryu Mo Jutsu auprès de Shimizu sensei, et l'art du sabre avec le maître Hakudo Nakayama.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GQM4S7QNQAYRTDX16
+    teacher: 01KZ6XT5DSD1RN1NG4PJKJWXAH
+    assertedStyle: 01KZ6XT5DS0JHX51MN07878ERB
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The interviews state he studied 'Iaido' with Nakayama Hakudo in the late 1920s, before Muso Shinden Ryu was formalised in 1933, hence the generic Iaido style; own account only
+    role: teachrole:student
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1926
+          endYear: 1931
+        hasEvidence:
+          - basedOnSource: 01KZ9TQS3VGPBASF3Z1Q0AVHJF
+            quotation: En parallèle, j'ai commencé à étudier également le Iaido et le Kendo avec Maître Hakudo Nakayama.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZ9TQS3VNHWPHTJCAKYNERW6
+            quotation: De la même façon, il m'a fait étudié le Shindo Muso Ryu Mo Jutsu auprès de Shimizu sensei, et l'art du sabre avec le maître Hakudo Nakayama.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G3B189PFH9GJT2B2A
+    teacher: 01KZ9TQS3VCE0D7V65S6JVC5JD
+    assertedStyle: 01KZ9TQS3VCCTAXE15YF88B0T9
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Both interviews state that Jigoro Kano arranged his study of Shindo Muso-ryu jojutsu with
+        Shimizu; the Japanese Wikipedia article confirms the teacher as Shimizu Takaji (the interviews'
+        'Koji' is a misrendering) and dates the study to 1930; the period end is estimated from his 1931
+        departure for Shizuoka
+    role: teachrole:student
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1930
+          endYear: 1931
+        hasEvidence:
+          - basedOnSource: 01KZ9TQS3VGPBASF3Z1Q0AVHJF
+            quotation: C'est Maître Jigoro Kano qui m'a choisi pour aller étudier l'Aïkijujutsu avec Maître Morihei Ueshiba, et le Shindo Muso ryu Ju jutsu auprès de Maître Koji Shimizu.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZ9TQS3VNHWPHTJCAKYNERW6
+            quotation: De la même façon, il m'a fait étudié le Shindo Muso Ryu Mo Jutsu auprès de Shimizu sensei, et l'art du sabre avec le maître Hakudo Nakayama.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZBXVRR52RAP98GM0M14Q7VM
+            quotation: 清水隆次にも入門し、神道夢想流杖術の修行を始める。
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G03Q8CKF51SJ9H3J8
+    teacher: 01KJJAWN28MWKKSN4J02MVY1V1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9T
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: First-person account in the Karaté-Bushido interview names Tamai (70 years old) among the four Katori Shinto-ryu shihan who taught the Kobudo Kenkyukai at the Kodokan; Kruyning lists the four shihan as his Katori teachers
+    role: teachrole:student
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+        interactionPeriod:
+          startYear: 1928
+          endYear: 1931
+        hasEvidence:
+          - basedOnSource: 01KZ9TQS3VNHWPHTJCAKYNERW6
+            quotation: Des 4 experts venus au Kodokan, Tamai sensei, 70 ans, Kuboki sensei, 50 ans, Ito sensei, 45 ans, et Shiina sensei, 38 ans, chacun avait une technique différente.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZ9TQS3VAWWWZRSQE53DB0DS
+            quotation: His teachers in various sword styles included Hakudo Nakayama, Kuro Daicho and katori shinto ryu master teachers Tamai, Kuboki, Ito and Shiina.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GVGN22X004Z8M9JDZ
+    teacher: 01KJJAWN28MWKKSN4J02MVY1V2
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9T
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: First-person account in the Karaté-Bushido interview names Kuboki (50 years old) among the four Katori Shinto-ryu shihan who taught the Kobudo Kenkyukai at the Kodokan; Kruyning lists the four shihan as his Katori teachers
+    role: teachrole:student
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+        interactionPeriod:
+          startYear: 1928
+          endYear: 1931
+        hasEvidence:
+          - basedOnSource: 01KZ9TQS3VNHWPHTJCAKYNERW6
+            quotation: Des 4 experts venus au Kodokan, Tamai sensei, 70 ans, Kuboki sensei, 50 ans, Ito sensei, 45 ans, et Shiina sensei, 38 ans, chacun avait une technique différente.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZ9TQS3VAWWWZRSQE53DB0DS
+            quotation: His teachers in various sword styles included Hakudo Nakayama, Kuro Daicho and katori shinto ryu master teachers Tamai, Kuboki, Ito and Shiina.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GKZ2YYW2P5HBKRCPR
+    teacher: 01KJJAWN28MWKKSN4J02MVY1V3
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9T
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: First-person account in the Karaté-Bushido interview names Ito (45 years old) among the four Katori Shinto-ryu shihan who taught the Kobudo Kenkyukai at the Kodokan; Kruyning lists the four shihan as his Katori teachers
+    role: teachrole:student
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+        interactionPeriod:
+          startYear: 1928
+          endYear: 1931
+        hasEvidence:
+          - basedOnSource: 01KZ9TQS3VNHWPHTJCAKYNERW6
+            quotation: Des 4 experts venus au Kodokan, Tamai sensei, 70 ans, Kuboki sensei, 50 ans, Ito sensei, 45 ans, et Shiina sensei, 38 ans, chacun avait une technique différente.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZ9TQS3VAWWWZRSQE53DB0DS
+            quotation: His teachers in various sword styles included Hakudo Nakayama, Kuro Daicho and katori shinto ryu master teachers Tamai, Kuboki, Ito and Shiina.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GXBPJQ5RR1JY91Q5V
+    teacher: 01KJJAWN28MWKKSN4J02MVY1V4
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9T
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: First-person account in the Karaté-Bushido interview names Shiina (38 years old) among the four Katori Shinto-ryu shihan who taught the Kobudo Kenkyukai at the Kodokan; Kruyning lists the four shihan as his Katori teachers
+    role: teachrole:student
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+        interactionPeriod:
+          startYear: 1928
+          endYear: 1931
+        hasEvidence:
+          - basedOnSource: 01KZ9TQS3VNHWPHTJCAKYNERW6
+            quotation: Des 4 experts venus au Kodokan, Tamai sensei, 70 ans, Kuboki sensei, 50 ans, Ito sensei, 45 ans, et Shiina sensei, 38 ans, chacun avait une technique différente.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZ9TQS3VAWWWZRSQE53DB0DS
+            quotation: His teachers in various sword styles included Hakudo Nakayama, Kuro Daicho and katori shinto ryu master teachers Tamai, Kuboki, Ito and Shiina.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GYYC4WBS7EVW1CP09
+    teacher: 01KZ9TQS3V9T7H2P7XY87EYJDB
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9F
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: 'First-person account in the Karaté-Bushido interview: Mochizuki became Kudaka''s student in Mongolia and based the Happoken kata on his method; the style is recorded as close to Shuri-te'
+    role: teachrole:student
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1938
+          endYear: 1945
+        hasEvidence:
+          - basedOnSource: 01KZ9TQS3VNHWPHTJCAKYNERW6
+            quotation: Je suis devenu son élève, et c'est lui qui m'a enseigné le karaté. Il pratiquait un style proche du Shurite. Je me suis basé sur sa méthode pour créer le kata Happoken
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GN8TKV8F598KTAMP7
+    teacher: 01KJJAWN28MWKKSN4J02MVY1VB
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9S
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: 'First-person account in the Karaté-Bushido interview: three months of Gichin Funakoshi''s courses in Tokyo, though Mochizuki adds he does not really consider himself Funakoshi''s student; corroborated by the Hiroo Mochizuki interview and Black Belt magazine'
+    role: teachrole:student
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KZ9TQS3VNHWPHTJCAKYNERW6
+            quotation: à Tokyo, j'ai suivi pendant 3 mois les cours de Gichin Funakoshi sensei, mais je ne me considère pas réellement comme son élève.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTBG
+            quotation: Elève de Jigoro Kano, qui l'avait envoyé apprendre l'aïkido auprès de Morihei Ueshiba, Minoru Mochizuki avait aussi travaillé avec Gichin Funakoshi. [...] Mais il se trouvait un peu faible du point de vue des atémis, qu'il avait pourtant étudié avec Funakoshi
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - uri: https://books.google.pt/books?id=SdYDAAAAMBAJ&pg=PA34#v=onepage&q&f=false
+            cite: A Man of Many Budo (interview with Minoru Mochizuki), Black Belt, Aug 1989.
+            quotation: 'Minoru Mochizuki holds the distinction of being the only living man to have studied with aikido founder Morihei Uyeshiba, judo founder Jigoro Kano, and "the father of Japanese karate," Gichin Funakoshi.'
+            locator: '34'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GJB0Y5CVTS85V4YNX
+    teacher: 01KZ9TV15D4HRGHSS02JE1R54Z
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: 'First-person account in the Karaté-Bushido interview: began judo at Takebe''s dojo in Tokyo in 1912 at age five; the Dragon Magazine interview adds that he interrupted after about two years when the family moved again'
+    role: teachrole:student
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1912
+          endYear: 1914
+        hasEvidence:
+          - basedOnSource: 01KZ9TQS3VNHWPHTJCAKYNERW6
+            quotation: 'C''est là que j''ai commencé à pratiquer le judo en 1912, chez maître Takebe : j''avais 5 ans.'
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GR6462V5M1AE0M5CS
+    teacher: 01KZBXVRR5GKBJXCDYHNFXDXHH
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9W
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The Japanese Wikipedia article records Mochizuki entering the Bushukan dojo of Onaga Kuro
+        (Rikishin-ryu) in 1918 to begin kendo; the Shizuoka Kendo Federation history confirms the master
+        and dojo. The Dragon Magazine interview instead places his kendo start in 1924 at Komatsugawa
+        with an unnamed teacher
+    role: teachrole:student
+    hasInteraction:
+      - interactionPlace: 01KZBXVRR5RPNVM6SREDJRC72K
+        interactionPeriod:
+          startYear: 1918
+        hasEvidence:
+          - basedOnSource: 01KZBXVRR52RAP98GM0M14Q7VM
+            quotation: 1918年（大正7年）、大長九郎（力信流）の道場・武修館に入門し、剣道を習い始める。
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZBXVRR5A1F8X0FQPFX8SKK2
+            quotation: 大長九郎は、静岡市富士見横町に武修館道場を創設し、剣道を含め力信流居合の指導を行う。
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5G822SXNEB5KYCHXA6
+    rankStyle: 01KZ9TQS3VCJQV8BNQ6TR7M8W1
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+    rankGrade: rankgrade:menkyo_shoden
+    grantedBy: 01KZ9TQS3VVK7CET0NDZSDFFR2
+    dateConferred: '1926'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The Dragon Magazine interview says the license came 'at 19' (i.e. 1926); the Aikido Journal
+        interview says after about six months of study with Oshima; the Japanese Wikipedia chronology
+        dates the Gyokushin-ryu study and the kirigami to 1925.
+    hasEvidence:
+      - basedOnSource: 01KZ9TQS3VGPBASF3Z1Q0AVHJF
+        quotation: A 19 ans, j'ai reçu un diplôme appelé le Shoden Kirigami Mokuroku, équivalent à une ceinture noire premier dan de judo. Ce fut la fin de mes relations avec Sampo Toku
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZBXVRR52RAP98GM0M14Q7VM
+        quotation: 1925年（大正14年）、玉心流柔術を修行し、切紙を授けられる。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - uri: https://aikidojournal.com/2002/11/18/interview-with-minoru-mochizuki-1/
+        cite: 'Interview with Minoru Mochizuki: Part 1, Aikido Journal, November 2002'
+        quotation: After about six months I received a license called the Shoden Kirishi Mokuroku which would be roughly equal to a first degree black belt in judo.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GY28D8GNWGM424S8Q
+    rankStyle: 01KJJAWN29MA64W22606R3WD9C
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+    rankGrade: rankgrade:menkyo_okuden
+    grantedBy: 01KJJAWN28MWKKSN4J02MVY1TV
+    dateConferred: '1933'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The Karaté-Bushido interview records the 1933 Daito-ryu Okuden Inka diploma with teaching
+        authorization; the Dragon Magazine interview and Kruyning describe the two transmission
+        manuscripts given in 1932 - the same event described differently
+    hasEvidence:
+      - basedOnSource: 01KZ9TQS3VNHWPHTJCAKYNERW6
+        quotation: En 1933, Ueshiba sensei m'a remis un diplôme, le Daïto Ryu Aïki Ju Jutsu Okuden Inka, la plus haute distinction de cette école; et m'a donné l'autorisation d'enseigner.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZ9TQS3VGPBASF3Z1Q0AVHJF
+        quotation: C'était en 1932, il me donna deux manuscrits de transmission de sa méthode [...] Le plus grand était intitulé Goshinyo no te et l'autre portait l'inscription Hiden ogi no Koto. Je ne pense pas qu'une autre personne au monde ait reçu du Maître ce genre de certificat. Tomiki Sensei avait reçu son manuscrit un peu avant moi.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZ9TQS3VAWWWZRSQE53DB0DS
+        quotation: Apart from Tomiki Sensei (founder of Tomiki aikido and also a close student of Jigoro Kano) no one else received such certificates from Ueshiba.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - uri: https://aikidojournal.com/2002/11/18/interview-with-minoru-mochizuki-1/
+        cite: 'Interview with Minoru Mochizuki: Part 1, Aikido Journal, November 2002'
+        quotation: It was about that time that he gave me the scrolls for the menkyo kaiden (master teacher's license). One of them is about two meters long and the other about three meters in length. The longer one is entitled 'The Self-defense of Daito-ryu Aiki Jujutsu' while the other has 'The Innermost Teachings of Daito-ryu Aiki Jujutsu' written on it.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G53M5YHA5NSGZKYVQ
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 1
+    conferredBy: 01KJJAWN29MA64W22606R3WD7X
+    dateConferred: 1926-06
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: First-person account in the Karaté-Bushido interview dates his first judo dan to June 1926 at age 19
+    hasEvidence:
+      - basedOnSource: 01KZ9TQS3VNHWPHTJCAKYNERW6
+        quotation: J'y ai obtenu mon 1° dan en juin 1926, à 19 ans.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GHQA3Y6BHVXY9CYHT
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 2
+    conferredBy: 01KJJAWN29MA64W22606R3WD7X
+    dateConferred: 1927-01
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: First-person account in the Dragon Magazine interview dates the second dan to January 1927
+    hasEvidence:
+      - basedOnSource: 01KZ9TQS3VGPBASF3Z1Q0AVHJF
+        quotation: je reçus le 2ème dan de Judo, exactement en janvier 1927.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GJFAW58S9RSBR48A8
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 4
+    conferredBy: 01KJJAWN29MA64W22606R3WD7X
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Japanese Wikipedia chronology records the Kodokan 4th dan in 1930, the year he entered Ueshiba's dojo
+    hasEvidence:
+      - basedOnSource: 01KZBXVRR52RAP98GM0M14Q7VM
+        quotation: 1930年（昭和5年）、講道館の四段位を授けられる。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GQKTRMGTK7ZHQNPHN
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 7
+    conferredBy: 01KJJAWN29MA64W22606R3WD7X
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Japanese Wikipedia chronology records the Kodokan 7th dan in 1959 on the recommendation of Mifune and others
+    hasEvidence:
+      - basedOnSource: 01KZBXVRR52RAP98GM0M14Q7VM
+        quotation: 1959年（昭和34年）、三船久蔵らの推薦により、講道館より柔道七段位を授与される。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GE9SF3RTPD3NTCE8M
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 8
+    conferredBy: 01KJJAWN29MA64W22606R3WD7X
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: 8th dan in Kodokan Judo mentioned in Wikipedia biography along with multiple other high dan ranks in various martial arts
+    hasEvidence:
+      - uri: https://en.wikipedia.org/wiki/Minoru_Mochizuki
+        archiveUri: https://en.wikipedia.org/w/index.php?title=Minoru_Mochizuki&oldid=1334922622
+        cite: Minoru Mochizuki - Wikipedia
+        quotation: Minoru Mochizuki (望月 稔, Mochizuki Minoru; April 7, 1907 – May 30, 2003) was a Japanese martial artist who founded the dojo Yoseikan. He was a 10th dan in Aikido, 9th dan in Jujutsu, 8th dan in Iaido, 8th dan in Judo, 8th dan in Kobudo, 5th dan in Kendo, 5th dan in Karate, and a 5th dan in Jojutsu.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G1G7K5XJ7S461ZGF2
+    rankStyle: 01KJJAWN29MA64W22606R3WD9G
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 9
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Rank listed in the ranks sidebar of the Dragon Magazine interview (self-reported)
+    hasEvidence:
+      - basedOnSource: 01KZ9TQS3VGPBASF3Z1Q0AVHJF
+        quotation: >-
+          9° Dan de Jujitsu 8° Dan de Judo 8° Dan de Iaïdo 8° Dan de Katori Shinto Ryu 5° Dan de Karaté 5° Dan de Kendo
+        locator: N°9, ranks sidebar, p. 61
+        locatorLabel: title-locator
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G1FK5GVQMB2A63DA6
+    rankStyle: 01KZ6XT5DS0JHX51MN07878ERB
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 8
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Rank listed in the ranks sidebar of the Dragon Magazine interview (self-reported)
+    hasEvidence:
+      - basedOnSource: 01KZ9TQS3VGPBASF3Z1Q0AVHJF
+        quotation: >-
+          9° Dan de Jujitsu 8° Dan de Judo 8° Dan de Iaïdo 8° Dan de Katori Shinto Ryu 5° Dan de Karaté 5° Dan de Kendo
+        locator: N°9, ranks sidebar, p. 61
+        locatorLabel: title-locator
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GX1A91MJN0AN9A0PW
+    rankStyle: 01KJJAWN29MA64W22606R3WD9T
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 8
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Rank listed in the ranks sidebar of the Dragon Magazine interview (self-reported)
+    hasEvidence:
+      - basedOnSource: 01KZ9TQS3VGPBASF3Z1Q0AVHJF
+        quotation: >-
+          9° Dan de Jujitsu 8° Dan de Judo 8° Dan de Iaïdo 8° Dan de Katori Shinto Ryu 5° Dan de Karaté 5° Dan de Kendo
+        locator: N°9, ranks sidebar, p. 61
+        locatorLabel: title-locator
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GNWPYDCJZ3J0YVMM9
+    rankStyle: 01KJJAWN29MA64W22606R3WD9S
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 5
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Rank listed in the ranks sidebar of the Dragon Magazine interview (self-reported)
+    hasEvidence:
+      - basedOnSource: 01KZ9TQS3VGPBASF3Z1Q0AVHJF
+        quotation: >-
+          9° Dan de Jujitsu 8° Dan de Judo 8° Dan de Iaïdo 8° Dan de Katori Shinto Ryu 5° Dan de Karaté 5° Dan de Kendo
+        locator: N°9, ranks sidebar, p. 61
+        locatorLabel: title-locator
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GPG73CXJZBBA0FWKX
+    rankStyle: 01KJJAWN29MA64W22606R3WD9W
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 5
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Rank listed in the ranks sidebar of the Dragon Magazine interview (self-reported); the Japanese Wikipedia chronology records kendo 5th dan in 1956
+    hasEvidence:
+      - basedOnSource: 01KZ9TQS3VGPBASF3Z1Q0AVHJF
+        quotation: >-
+          9° Dan de Jujitsu 8° Dan de Judo 8° Dan de Iaïdo 8° Dan de Katori Shinto Ryu 5° Dan de Karaté 5° Dan de Kendo
+        locator: N°9, ranks sidebar, p. 61
+        locatorLabel: title-locator
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZBXVRR52RAP98GM0M14Q7VM
+        quotation: 1956年（昭和31年）、剣道五段位、杖道五段位を授与される。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GADS8QPBAVGQQDGYP
+    rankStyle: 01KZ9TQS3VCCTAXE15YF88B0T9
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 5
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Japanese Wikipedia chronology records jodo (杖道) 5th dan in 1956, alongside the kendo 5th dan
+    hasEvidence:
+      - basedOnSource: 01KZBXVRR52RAP98GM0M14Q7VM
+        quotation: 1956年（昭和31年）、剣道五段位、杖道五段位を授与される。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZ9TQS3VGPBASF3Z1Q0AVHJF
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ9TQS3VNHWPHTJCAKYNERW6
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZBXVRR52RAP98GM0M14Q7VM
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ9TQS3VAWWWZRSQE53DB0DS
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTBF
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTBH
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+notes: '- Sent by Jigoro Kano to study aikijujutsu with Morihei Ueshiba (1930), Shindo Muso-ryu jojutsu with Shimizu Takaji (清水隆次; the interviews render the name ''Koji Shimizu'', a misrendering per the Japanese Wikipedia), and the sword with Hakudo Nakayama; the stated purpose was to report Ueshiba''s techniques back to Kano (''espionner'' - monthly technical reports)
+
+  - Member of the Kodokan''s Kobudo Kenkyukai (created by Kano in 1928, about thirty members, all judo champions). The four Katori Shinto-ryu shihan (Tamai, Kuboki, Ito Tanekichi, Shiina) came from Narita twice a month, paid by Kano; after three months only Mochizuki remained, and Kano asked him to form a new section, which he did with ten small-statured judoka
+
+  - Refused three marriage/succession proposals: the Katori Shinto-ryu 19th Soke-ship, adoption as Morihei Ueshiba''s son-in-law (conveyed by Admiral Takeshita), and a pharmaceutical company president
+
+  - Received two Daito-ryu transmission manuscripts from Ueshiba in 1932 (Goshinyo no te, Hiden ogi no koto); Tomiki received his slightly before. The Karaté-Bushido interview records the 1933 Okuden Inka diploma as the highest distinction of the school, with authorization to teach
+
+  - Sokaku Takeda visited Ueshiba once while Mochizuki was in charge of the dojo; the Dragon Magazine interview places the visit at the end of the Ushigome dojo construction (c. 1931), the 1987 Karaté-Bushido interview dates it 1935 (discrepancy recorded, no assertion made)
+
+  - Opened the Yoseikan dojo in Shizuoka in November 1931 during convalescence from pleurisy and tuberculosis (hospital and convalescence costs covered by Kano); Ueshiba attended the opening along with Admiral Takeshita, General Miura, Harunosuke Enomoto and Yasuhiro Konishi
+
+  - The sutemi waza of his teaching were his own creation combining judo and aiki-jujutsu, with the inspiration drawn from Gyokushin-ryu
+
+  - 1938-1945 in Mongolia: director of the Pao-To school (2 years), then sous-prefect of the Chinese department of Sei Sui Ga under the Mongolian government; organized the defense of his town when besieged in 1941; developed irrigation canals on the Yellow River (70 to 200 km) and built a school and two 200-meter bridges; received the highest decoration of the Mongolian government
+
+  - Karate: taught by Kudaka in Mongolia (a style close to Shuri-te), basis for the kata Happoken; separately followed three months of Gichin Funakoshi''s courses in Tokyo, not considering himself really his student
+
+  - After the war, visited the Iwama dojo to greet Ueshiba and there met Tadashi Abe, who challenged him and was knocked down with a kick (Abe is not the same person as Abbe Kenshiro)
+
+  - Rebuilt the Yoseikan dojo in 1947; 1951-1953 in France, sent by the Association des Universités Japonaises; claims to have been the first qualified karate teacher in France; also took up English and French boxing
+
+  - Tomiki and his brother were born the same day of the same year and became close friends
+
+  - In 2000 transferred the direction of the Yoseikan dojo to his son Hiroo, founder of Yoseikan Budo
+
+  - Age-five discrepancy: Kruyning says jujutsu from the grandfather; both interviews say judo at Takebe''s dojo in Tokyo (1912). The grandfather, per the 1987 interview, was a sword master (maitre d''armes) of a Tokaido samurai lineage; Mochizuki''s father Miozo practiced kenjutsu of the Itto-ryu school (一刀流; the Dragon Magazine OCR renders the school name as ''Ttto Ryu'', the corrected reading per the interview text ''de l''école Itto Ryu'') - see the Itto_ryu style entry
+
+  - Kendo timeline: the Japanese Wikipedia dates the start of kendo to 1918 at the Bushukan dojo of Onaga Kuro (大長九郎, also romanized Daicho Kuro), a Rikishin-ryu master; the Dragon Magazine interview instead places it in 1924 at Komatsugawa with an unnamed teacher. Both are recorded; the divergence is not resolved. Kruyning''s ''Kuro Daicho'' (given-name-first) is the same Onaga/Daicho Kuro
+
+  - The Shizuoka Kendo Federation history records that in 1924 Mochizuki and Murai Kyoichi spread Tenshin Shoden Katori Shinto-ryu at the Eishinkan dojo of Oka Fumio in Shizuoka City, before his Kodokan-era study of the school
+
+  - Birth-date discrepancy: the Japanese Wikipedia gives 1907-04-11 while the English Wikipedia and Mochizuki''s own interviews give 1907-04-07; the first-person date is kept'
+sameAs:
+  - wd:Q1937662
+  - dbr:Minoru_Mochizuki

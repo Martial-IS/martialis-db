@@ -1,0 +1,52 @@
+type: Person
+id: 01M5H5TCKZW50M5WFGCD2KCNR1
+name:
+  ja-Latn: Nakamura Hiroshi
+aka:
+  en: Hiroshi Nakamura
+description:
+  en: >-
+    Japanese judoka (winner of the 1967 Japanese trials at 80 kg) who came to Montreal in 1968 as a
+    5th dan; sensei of the Shidokan Dojo, Canadian national coach in 1973–1976 and 1984–1989, and
+    teacher of Kevin Doherty and Nicolas Gill. 8th dan.
+hasRankAssertion:
+  - id: 01M5H5TCKZ14EFKGTFE0JMSVTB
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 8
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+        quotation: Hiroshi Nakamura, builder of Canadian champions, is an 8th Dan.
+        locator: '132'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    quotation: >-
+      Sponsored into Canada in 1968 by Terry Farnsworth, Hiroshi arrived in Montreal without a
+      knowledge of French or English, and with only a few yen in his pocket.
+    locator: '131'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    quotation: >-
+      Nakamura was the national coach from 1973 to 1976 and again from 1984 to 1989
+    locator: '132'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q107462820
+tags:
+  - judo
+  - canada

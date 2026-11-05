@@ -1,0 +1,56 @@
+type: Organization
+id: 01M6A2JTHXC2YQ90S4BACNGDZ5
+name:
+  pt: Associação Brasileira de Capoeira Angola
+  en: Brazilian Association of Capoeira Angola
+aka:
+  pt: ABCA
+orgType: orgclass:association
+hasSite:
+  - location:
+      label: Salvador, Bahia
+      countryCode: eucountry:BRA
+      wikidata: wd:Q36947
+foundedEvent:
+  startDate: '1993'
+  hasEvidence:
+    - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+      quotation: >-
+        In 1993 surviving old mestres united to found the Brazilian Association of Capoeira
+        Angola—ABCA, the first umbrella organization exclusively for angoleiros.
+      locator: '185'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M6A2JTJVM0GRBK0WJ76J83CE
+    officer: 01M5H4AFG2ZHX81G1GRWSGGQWM
+    officerTitle: President
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+        quotation: >-
+          João Pequeno became the first president of ABCA, followed by M.Curió and Mala.
+        locator: '185'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Association of capoeira Angola mestres in Salvador, founded in 1993, the first umbrella body for
+    angoleiros alone; the Bahian government gave it a colonial townhouse in the historic centre.
+notes: First president João Pequeno, then Curió and Mala (no records).
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    locator: '185'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - capoeira

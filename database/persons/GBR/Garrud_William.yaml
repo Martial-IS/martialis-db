@@ -1,0 +1,142 @@
+type: Person
+id: 01M06K0RMZQGVPYVTGDGGGQX17
+name:
+  en: William Garrud
+aka:
+  en: William Herbert Garrud
+nationality:
+- countryCode: eucountry:GBR
+  wikidata: wd:Q174193
+birthEvent:
+  birthDate: '1873'
+  hasEvidence:
+  - basedOnSource: 01M06K0RMZYC32DVA53QG3BAJQ
+    informationType: infotype:secondary
+    supports: true
+    quotation: William H. Garrud was born in 1873.
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1960'
+  hasEvidence:
+  - basedOnSource: 01M06K0RMZYC32DVA53QG3BAJQ
+    informationType: infotype:secondary
+    supports: true
+    quotation: William Garrud died in 1960 at the age of 87.
+    evidenceType: evidencetype:direct
+description:
+  en: 'British physical culture instructor (specialised in boxing and wrestling) who became a pioneering
+    jujutsu
+
+    instructor. Introduced to jujutsu in 1899 alongside his wife Edith, he studied under Yukio Tani and
+    Sadakazu
+
+    Uyenishi, first at the Bartitsu School of Arms and then at the Golden Square dojo, and also trained
+    with Taro
+
+    Miyake, Mitsuyo Maeda, Gunji Koizumi and Akitaro Ohno there. When Uyenishi left for Japan in 1908,
+    Garrud took over
+
+    the Golden Square dojo, running it with Edith until their retirement in 1925. Wrote "The Complete
+    Jujitsuan" (1914),
+
+    dedicated to "Professor S.K. Uyenishi ''Raku''", which became a standard jujitsu/judo text republished
+    at least seven
+
+    times. During the First World War he trained the Volunteer Civil Force in jujutsu.
+
+    '
+notes: Birth/death years per English Wikipedia and Royal Armouries (1873-1960); Wikidata gives 1871-1936
+  - discrepancy noted, Wikipedia cited as the more detailed source. Wife Edith Garrud, trainer of the
+  suffragette Bodyguard unit, is covered separately. Miyake, Maeda, Koizumi and Ohno are named as training
+  companions at the Golden Square Dojo (Brough 2020, Wikipedia) but no teacher edge is asserted - only
+  Tani and Uyenishi are attested as his teachers.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/e/e5/William_H._Garrud.png
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:William_H._Garrud.png
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+- id: 01M3YH7N5GJ7X7G8WK3ZZM24KA
+  teacher: 01M06K0RMZNWJ90EEQ7CXBFHGS
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9G
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: English Wikipedia states explicitly that the Garruds studied under Japanese jujutsu
+      masters Yukio Tani and Sadakazu Uyenishi; corroborated by Brough (2020).
+  hasInteraction:
+  - interactionPlace: 01M06FKBQ1K6KP86BRFQR0JB7G
+    interactionPeriod:
+      startYear: 1903
+      endYear: 1908
+    hasEvidence:
+    - basedOnSource: 01M06K0RMZYC32DVA53QG3BAJQ
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+      quotation: They studied under Japanese jujutsu masters Yukio Tani and Sadakazu Uyenishi and later
+        opened their own London dojo.
+    - basedOnSource: 01M06FKBQ1CNG96GF3Q7N5CGT6
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+      quotation: >-
+        While training at the Golden Square Dojo the Garruds trained with the best instructors of the time including Uyenishi, Tani, Taro Miyake, Mitsuyo Maeda, and Akitaro Ohno
+- id: 01M3YH7N5GKQP3BFSH7YJAF0GD
+  teacher: 01M06FKBQ1AB6FKXQBFBFKKDRH
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9G
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Garrud was Uyenishi's senior student, took over the Golden Square dojo on his
+      departure, and dedicated The Complete Jujitsuan to Uyenishi. Attested by Wikipedia, Brough (2020)
+      and Garrud's own book.
+  hasInteraction:
+  - interactionPlace: 01M06FKBQ1K6KP86BRFQR0JB7G
+    interactionPeriod:
+      startYear: 1903
+      endYear: 1908
+    hasEvidence:
+    - basedOnSource: 01M06K0RMZYC32DVA53QG3BAJQ
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+      quotation: They studied under Japanese jujutsu masters Yukio Tani and Sadakazu Uyenishi [...] When
+        Uyenishi left for Japan in 1908 Garrud took over Uyenishi's dojo.
+    - basedOnSource: 01M06FKBQ1CNG96GF3Q7N5CGT6
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+      quotation: >-
+        Following Uyenishi's tour of Europe, he returned to Osaka where sometime later he died of tuberculosis [Bowen 2011a]. However, before leaving the U.K. Uyenishi passed control of the Golden Square Dojo to his students, William and Edith Garrud.
+    - basedOnSource: 01M06FKBQ1CNG96GF3Q7N5CGT6
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+      quotation: 'Within the book William Garrud pens a dedication ''To my trainer Professor S.K. Uyenishi
+        "Raku"'''
+hasEvidence:
+- basedOnSource: 01M06K0RMZYC32DVA53QG3BAJQ
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M06FKBQ1CNG96GF3Q7N5CGT6
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M06K0RMZDCSBS7XAVM73B5B6
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q96745680
+- dbr:William_Garrud
+tags:
+- jujutsu
+- physical-culture
+- united-kingdom
+- pioneer

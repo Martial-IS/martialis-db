@@ -1,0 +1,123 @@
+type: Style
+id: 01M5KWGPRKBAFY4Z2766RHBEK5
+name:
+  en: Charlemont method
+  fr: Méthode Charlemont
+aka:
+  en:
+    - Academic French boxing
+    - Charlemont style
+styleType: styleclass:modern
+foundedEvent:
+  founder:
+    - 01M5JG4Y25QKEKJ5K0T4KFYQW0
+  hasEvidence:
+    - basedOnSource: 01M5JG4Y25K7AEMWBE9BXZ7M1P
+      quotation: >-
+        Joseph Charlemont est réputé pour avoir « [codifié] la boxe française et [mis] au point une nouvelle
+        méthode tant par les techniques que par ses conceptions.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+      quotation: >-
+        J. Charlemont fondit les méthodes de Vigneron et de Lecour en les rectifiant par des observations
+        personnelles, et offrit au public la théorie systématique et raisonnée de la boxe française.
+      locator: '442'
+      locatorLabel: page
+      informationType: infotype:undetermined
+      supports: true
+      evidenceType: evidencetype:direct
+hasStyleRelationAssertion:
+  - id: 01M5KWGPRK2EC5XR11K87T4R0M
+    relatedStyle: 01M5JG4Y2595PRVXFHHNZXH7SD
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Unfortunately, the Charlemont clan was opposed to changing the academic style into a modern sport
+          (which was the reason why no regular championship matches were currently taking place).
+        locator: '258'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+        quotation: >-
+          A Paris la boxe est représentée par trois salles spéciales, ce sont les salles : Charlemont,
+          Castérès et Leclerc. Dans les deux premières, on y pratique la même méthode, dans la troisième
+          c’est le genre Lecour.
+        locator: '655'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5KWGPRKD9HXT0XGHM2JKGZJ
+    relatedStyle: 01M5KWGPRK69RHM30T18CYDJ7H
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          During the 1880s and 1890s, Joseph Charlemont and Louis Albert synthesized the Lecour brothers’
+          methods and moves.
+        locator: '258'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+        quotation: >-
+          J. Charlemont fondit les méthodes de Vigneron et de Lecour en les rectifiant par des observations
+          personnelles, et offrit au public la théorie systématique et raisonnée de la boxe française.
+        locator: '442'
+        locatorLabel: page
+        informationType: infotype:undetermined
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JG4Y25K7AEMWBE9BXZ7M1P
+        quotation: >-
+          Ce modèle, qualifié par J.-F. Loudcher « d’académique » dépasse le modèle gymnique de Lecour en
+          lui adjoignant des caractéristiques hygiéniques nouvelles (corps droit, équilibre de l’individu)
+          et esthétiques afin d’en faire un spectacle choisi »
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    The academic form of French boxing codified by Joseph Charlemont from his training with Louis
+    Vigneron and the methods of the Lecour brothers, which he refined with his own observations. He
+    published his first treatise in the late 1870s and taught it at his Académie de boxe in Paris; his
+    son Charles and pupils such as Victor Castérès carried it on. Green and Svinth say the Charlemont
+    camp kept French boxing academic rather than a competitive sport.
+  fr: >-
+    Forme académique de la boxe française, codifiée par Joseph Charlemont à partir de son entraînement
+    avec Louis Vigneron et des méthodes des frères Lecour, qu'il corrige par ses propres observations.
+    Enseignée à son Académie de boxe à Paris, elle est poursuivie par son fils Charles et des élèves comme
+    Victor Castérès.
+notes: >-
+  No founding date: Charlemont was about to publish his first treatise in 1876 (Charlemont 1899, p. 369);
+  Green and Svinth date the synthesis to the 1880s and 1890s. Vigneron has no style record; his link to
+  Charlemont is the teacher claim on Joseph Charlemont.
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Thus, French Boxing declined during the 1910s, and during the period between the two World Wars
+      (1919–1939), it almost disappeared; only a few isolated gyms promulgated Charlemont’s practice.
+    locator: '258'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - savate
+  - france

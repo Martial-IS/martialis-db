@@ -1,0 +1,50 @@
+type: Person
+id: 01KZC19BDC8CP850QTYNVTXX2J
+name:
+  ja-Latn: Hayashi Iwazo
+  ja: 林岩三
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+description:
+  en: Judoka taught by Toku Sanpo after Toku's reinstatement at the Kodokan in 1917, per the Wikipedia
+    article on Sanpo Toku and the Japanese Wikipedia article on Toku Sanpo.
+hasTeacherAssertion:
+- id: 01M3YH7N5GACNRJ0NBKN6ZFJF8
+  teacher: 01KZ9TQS3VWBPTDPR59EH06R58
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Both the English and Japanese Wikipedia articles on Toku Sanpo record that after
+      his 1917 reinstatement he taught the younger generation including Hayashi Iwazo
+  role: teachrole:student
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1917
+    hasEvidence:
+    - basedOnSource: 01KZ9TQS3VBBPQ47P40E4XN47X
+      quotation: This time of his life ended in 1917 when Toku was pardoned by Kano and reinstated as
+        a Kodokan teacher, immediately taking Iwazo Hayashi as his pupil.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZBXVRR5Y5E2RYX8HMAEM2WZ
+      quotation: 6年後の1917年に破門を許された後は柔道師範として、林岩三や牛島辰熊など後進の指導に当たった
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZ9TQS3VBBPQ47P40E4XN47X
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZBXVRR5Y5E2RYX8HMAEM2WZ
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+notes: Very simple entry created to anchor the relationship recorded by both Wikipedia articles on Toku
+  Sanpo.
+tags:
+- judo
+- work-needed

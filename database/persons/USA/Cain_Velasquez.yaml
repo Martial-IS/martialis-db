@@ -1,0 +1,123 @@
+type: Person
+id: 01KZQ7BS7KNPWQ10BYV9FFKFMD
+name:
+  en: Cain Velasquez
+aka:
+  en:
+    - Cain Ramirez Velasquez
+    - Cardio Cain
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1982-07-28'
+  birthPlace:
+    label: Salinas
+    countryCode: eucountry:USA
+    wikidata: wd:Q488125
+  hasEvidence:
+    - basedOnSource: 01KZQ7BS7KHV0DE5N9HDXTC5TZ
+      quotation: >-
+        Cain Ramírez Velásquez (born July 28, 1982)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: 'American former mixed martial artist and two-time UFC heavyweight champion. A
+
+    collegiate wrestler at Arizona State University, he trained at American Kickboxing
+
+    Academy (AKA) in San Jose, where he earned a brown belt in Guerrilla Jiu-Jitsu under
+
+    Dave Camarillo and a black belt in Brazilian jiu-jitsu under Leandro Vieira.
+
+'
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/7/7b/Cain_Velasquez.jpg
+  rights: mediarights:cc-by-sa-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Cain_Velasquez.jpg
+    cite: "The Doppelganger (Adam Etheridge), Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+  - id: 01M3YH7N5GJT29TS6B7WP86BCC
+    teacher: 01KZQ5XKW310NKTT34P8D4WQAS
+    assertedStyle: 01KZQ7BS7K4G2T0NPG9N3PCVET
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia and multiple MMA outlets report Velasquez earned a brown belt in Guerrilla Jiu-Jitsu under Dave Camarillo while training at AKA; single secondary source
+    hasInteraction:
+      - interactionPlace: 01KZQ7BS7KJ444KWAH72XGN2NT
+        interactionPeriod:
+          startYear: 2006
+        hasEvidence:
+          - basedOnSource: 01KZQ7BS7KHV0DE5N9HDXTC5TZ
+            quotation: Velasquez is a brown belt in Guerrilla Jiu-Jitsu under Dave Camarillo
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GZD1W0BTH8326M8F8
+    teacher: 01KZQ7BS7KE7CA2V6JEWMWZ7SW
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Multiple independent MMA outlets report Leandro Vieira of Checkmat awarded Velasquez his BJJ black belt in October 2013; corroborated by Wikipedia
+    hasInteraction:
+      - interactionPlace: 01KZQ7BS7KJ444KWAH72XGN2NT
+        interactionPeriod:
+          startYear: 2013
+        hasEvidence:
+          - basedOnSource: 01KZQ7BS7KHV0DE5N9HDXTC5TZ
+            quotation: a black belt in Brazilian Jiu-Jitsu under Leandro Vieira
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5G0EKANTWMPYYKVY2Y
+    rankStyle: 01KZQ7BS7K4G2T0NPG9N3PCVET
+    rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+    rankGrade: rankgrade:bjj_brown
+    grantedBy: 01KZQ5XKW310NKTT34P8D4WQAS
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia states Velasquez is a brown belt in Guerrilla Jiu-Jitsu under Dave Camarillo; date of promotion not stated
+    hasEvidence:
+      - basedOnSource: 01KZQ7BS7KHV0DE5N9HDXTC5TZ
+        quotation: Velasquez is a brown belt in Guerrilla Jiu-Jitsu under Dave Camarillo
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G53P30EGF3QB1RAF0
+    rankStyle: 01KJJAWN29MA64W22606R3WD9J
+    rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+    rankGrade: rankgrade:bjj_black
+    grantedBy: 01KZQ7BS7KE7CA2V6JEWMWZ7SW
+    dateConferred: 2013-10
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Widely reported in October 2013 across multiple independent outlets (MMA Mania, BJJEE, GracieMag) that Leandro Vieira awarded Velasquez his black belt prior to UFC 166
+    hasEvidence:
+      - basedOnSource: 01KZQ7BS7KHV0DE5N9HDXTC5TZ
+        quotation: a black belt in Brazilian Jiu-Jitsu under Leandro Vieira
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZQ7BS7KHV0DE5N9HDXTC5TZ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q455759
+tags:
+  - brazilian-jiu-jitsu
+  - guerrilla-jiu-jitsu
+  - mma
+  - wrestler
+  - ufc

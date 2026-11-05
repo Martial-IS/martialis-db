@@ -1,0 +1,76 @@
+type: Organization
+id: 01M0TFB9H0D30S7WFAECGY4Y39
+name:
+  en: United Fighting Arts Federation
+aka:
+  en:
+    - UFAF
+orgType: orgclass:federation
+foundedEvent:
+  startDate: '1979'
+  founder:
+    - 01KYFPRMG73S8Q8M1YKQ3S5EQF
+  hasEvidence:
+    - basedOnSource: 01M0TFB9H08GPKGGHVJ8BDBQ67
+      quotation: >-
+        In 1979, Norris disbanded the NTC and formed the United Fighting Arts Federation (UFAF)
+      cite: Pat E. Johnson (Wikipedia EN)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M3YH7N5FZGCZ2VKHR8MJ6P1Q
+    relatedOrganization: 01M0TFB9H0ZWSAZSMTJ9GQDMEC
+    affiliationRelation: affrel:derived_from
+    notes: Founded by Chuck Norris in 1979 after he disbanded his earlier National Tang Soo Do Congress; Pat E. Johnson carried over as executive vice president. The mechanism is the founder's own decision to wind down one body and start another, not a schism or absorption, so derived_from rather than replaces/split_from.
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Documented identically by two independent sources (Wikipedia EN biography and the Hollywood Reporter obituary), both naming Norris as NTC's dismantler and UFAF's founder with Johnson continuing across the transition; no contradicting account found.
+    hasEvidence:
+      - basedOnSource: 01M0TFB9H08GPKGGHVJ8BDBQ67
+        quotation: In 1979, Norris disbanded the NTC and formed the United Fighting Arts Federation (UFAF), again naming Johnson as executive vice president.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M4R9845WYYJ538XD3ZADN141
+    officer: 01M0TFB9H0HC3R48RJTFV77PCN
+    officerTitle: Executive Vice President
+    officerPeriod:
+      startYear: 1979
+      endYear: 1986
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia only.
+    hasEvidence:
+      - basedOnSource: 01M0TFB9H08GPKGGHVJ8BDBQ67
+        quotation: In 1979, Norris disbanded the NTC and formed the United Fighting Arts Federation (UFAF), again naming Johnson as executive vice president.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M0TFB9H08GPKGGHVJ8BDBQ67
+        quotation: Due to philosophical reasons left UFAF, and reformed the National Tang Soo Do Congress.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: Martial arts governing body founded by Chuck Norris in 1979 to succeed his National Tang Soo Do Congress as the organizational home of American Tang Soo Do (today it governs the Chuck Norris System). Pat E. Johnson served as executive vice president from 1979 until he left in 1986 over philosophical differences with Norris and reformed the NTC.
+hasEvidence:
+  - basedOnSource: 01M0TFB9H08GPKGGHVJ8BDBQ67
+    cite: Pat E. Johnson (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M0TFB9H0282Q7MTM1KKTHNZY
+    cite: Pat E. Johnson, 'Karate Kid' Choreographer, Trainer and Referee, Dies at 84 (Hollywood Reporter)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q7887763
+tags:
+  - american-tang-soo-do
+  - chuck-norris-system
+  - federation

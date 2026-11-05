@@ -1,0 +1,69 @@
+### Dataset front matter for export/data.ttl
+### Static dcat:Dataset description, loaded by pipeline/rules/90-dataset-metadata.ru,
+### which adds the dynamic parts (counts and partitions).
+### Licence: CC0-1.0 (public domain dedication)
+
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema: <https://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://orcid.org/0009-0000-9488-3542> a schema:Person ;
+    schema:name "Frederico Muñoz" ;
+    schema:email <mailto:fsm@martial.is> .
+
+<https://martial.is/data.ttl#dataset> a dcat:Dataset, void:Dataset ;
+    dcterms:title "Martialis: Martial Arts Lineage Database"@en ;
+    dcterms:description "Martialis is a sourced database of martial arts lineages: teacher/student transmission, document-based knowledge transmission, and rank and honor claims, each carrying its own cited evidence and confidence assessment. Records are authored as YAML, converted to RDF through a JSON-LD context, and validated with SHACL and an OWL 2 DL consistency check."@en ;
+    dcterms:publisher <https://orcid.org/0009-0000-9488-3542> ;
+    dcterms:creator <https://orcid.org/0009-0000-9488-3542> ;
+    dcterms:rightsHolder <https://orcid.org/0009-0000-9488-3542> ;
+    dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dcat:version "1.0.0" ;
+    dcterms:rights <https://github.com/Martial-IS/martialis-db/blob/main/LICENSING.md> ;
+    dcterms:issued "2026-11-05"^^xsd:date ;
+    dcterms:identifier "https://doi.org/10.5281/zenodo.23346622" ;
+    dcterms:conformsTo <https://w3id.org/martialis/ontology/1.0.0> ;
+    dcat:landingPage <https://martial.is> ;
+    dcat:distribution <https://martial.is/data.ttl> ;
+    void:dataDump <https://martial.is/data.ttl> ;
+    void:uriSpace "https://martial.is/entity/" ;
+    void:vocabulary <https://w3id.org/martialis/ontology>, <https://w3id.org/martialis/vocab>,
+        <https://schema.org/>, <http://www.w3.org/ns/prov#>, <http://www.w3.org/ns/org#>,
+        <http://purl.org/ontology/bibo/> .
+    # No void:sparqlEndpoint: martial.is/sparql requires a logged-in user.
+
+<https://github.com/Martial-IS/martialis-db/blob/main/LICENSING.md> a dcterms:RightsStatement ;
+    rdfs:label "The maker asserts the EU sui generis database right (Directive 96/9/EC Art. 7, transposed in Portugal by DL 122/2000) and licenses it under CC-BY-SA-4.0. See LICENSING.md for the full notice."@en .
+
+<https://martial.is/data.ttl> a dcat:Distribution ;
+    dcat:downloadURL <https://martial.is/data.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
+    dcterms:conformsTo <http://www.w3.org/ns/formats/Turtle> .
+
+# OWL 2 DL declarations for the DCAT, VoID and DCTERMS terms this description
+# and pipeline/rules/90-dataset-metadata.ru use, so the export merged with the
+# ontology stays in the profile `make reasoner` checks. Each takes the role its
+# values here have.
+dcat:Dataset a owl:Class .
+dcat:Distribution a owl:Class .
+dcterms:RightsStatement a owl:Class .
+dcat:distribution a owl:ObjectProperty .
+dcat:downloadURL a owl:ObjectProperty .
+dcat:landingPage a owl:ObjectProperty .
+dcat:mediaType a owl:ObjectProperty .
+dcat:version a owl:DatatypeProperty .
+dcterms:identifier a owl:AnnotationProperty .
+dcterms:rightsHolder a owl:AnnotationProperty .
+void:Dataset a owl:Class .
+void:classPartition a owl:ObjectProperty .
+void:dataDump a owl:ObjectProperty .
+void:uriSpace a owl:DatatypeProperty .
+void:vocabulary a owl:ObjectProperty .
+void:class a owl:ObjectProperty .
+void:entities a owl:DatatypeProperty .
+void:triples a owl:DatatypeProperty .

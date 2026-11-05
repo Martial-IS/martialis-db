@@ -1,0 +1,63 @@
+type: Person
+id: 01M5H45XTYZJGP4BK91872Q9E3
+name:
+  en: Choi Yong-sul
+aka:
+  en: Choi Yong-sool
+nationality:
+  - countryCode: eucountry:KOR
+    wikidata: wd:Q884
+description:
+  en: >-
+    Korean martial artist whose teaching, begun in 1948 as Yu Sool, is the foundation of modern
+    Hapkido. He said he spent some thirty years in Japan in the household of Takeda Sokaku.
+hasTeacherAssertion:
+  - id: 01M5H45XTYYSGVDWSZ3K2218WQ
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TW
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9C
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: Choi's own account, reported as tradition; no document supports it.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              According to tradition, Choi was taken to Japan from Korea at the age of eight. There, he
+              was abandoned, but subsequently taken into the household of Takeda Sokaku (1859–1943),
+              teacher of Daito-ryu aiki-jujutsu. Choi reported that he remained in Takeda’s employ for
+              some 30 years before being repatriated to Korea at the end of World War II.
+            locator: '184'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              To date, no documentation has been found to support Choi’s statements regarding either his
+              residence with the Takeda family or his instruction in the art of Daito-ryu.
+            locator: '184'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: false
+            evidenceType: evidencetype:negative
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: In 1948, Choi began teaching a martial art that he called Yu Sool.
+    locator: '184'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q562516
+tags:
+  - hapkido
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/7/71/Choi_Yong-sool_portrait_888.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Choi_Yong-sool_portrait_888.jpg
+    cite: "Tokaria, Wikimedia Commons"
+    informationType: infotype:secondary

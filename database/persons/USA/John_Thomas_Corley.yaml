@@ -1,0 +1,71 @@
+type: Person
+id: 01M61REWPVHBPNPP179Y45GJWX
+name:
+  en: John Thomas Corley
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1914-08-04'
+  birthPlace:
+    label: Brooklyn, New York
+    countryCode: eucountry:USA
+  hasEvidence:
+    - basedOnSource: 01M61REWPV8HXA1RJANERKY69H
+      quotation: >-
+        in Brooklyn, New York, on August 4, 1914
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1977-04-16'
+  hasEvidence:
+    - basedOnSource: 01M61REWPV8HXA1RJANERKY69H
+      quotation: >-
+        Brigadier General John Thomas Corley (August 4, 1914 – April 16, 1977)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/4/45/BGCorley.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:BGCorley.jpg
+    cite: "US Army, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    United States Army officer, a boxer at West Point (class of 1938) and later a brigadier general,
+    decorated in the Second World War.
+hasTeacherAssertion:
+  - id: 01M61REWPV37BV0N898VHXFZXD
+    teacher: 01M5JVVMHMZKH74W0F34ZV1J44
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M61REWPVWQ8ER2V591AHV4A6
+            quotation: >-
+              from 1912 to 1943, he also taught wrestling and boxing at the New York Military Academy at
+              Cornwall-on-Hudson, New York, one of his pupils being John Thomas Corley
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M61REWPV8HXA1RJANERKY69H
+    quotation: >-
+      He graduated from the United States Military Academy at West Point in 1938, where he also was an
+      accomplished boxer prior to his active duty service.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q16008168
+tags:
+  - boxing
+  - military

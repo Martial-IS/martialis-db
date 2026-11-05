@@ -1,0 +1,55 @@
+type: Person
+id: 01M5JWHXPXX4P5X37DB4SXR8RA
+name:
+  en: Penthesilea
+  el: Πενθεσίλεια
+description:
+  en: >-
+    Amazon queen of Greek mythology, daughter of Ares and sister of Hippolyta, who fought for Troy and
+    was killed by Achilles.
+hasHistoricityAssertion:
+  - id: 01M5JWHXPXTW3FJ9NP9SS7JBJF
+    historicity: hist:legendary
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        One source places her in myth; the other implies it.
+    hasEvidence:
+      - basedOnSource: 01M5JWHXPXJMVE7KRSRXTEBFYT
+        quotation: >-
+          was an Amazonian queen in Greek mythology
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          According to Greek mythology, the Amazons were a fierce tribe of warrior women
+        locator: '213'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Homer tells us in the Iliad (eighth century BCE) that they were “the equal of men,” fighting on the
+      side of the Trojans, where ultimately, the Amazonian queen Penthesilea was slain by Achilles.
+    locator: '214'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q379828
+tags:
+  - legend
+  - amazons
+  - greece
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/5/56/Penth%C3%A9sil%C3%A9e_BnF_Fran%C3%A7ais_599_fol._27v.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Penth%C3%A9sil%C3%A9e_BnF_Fran%C3%A7ais_599_fol._27v.jpg
+    cite: "Robinet Testard, Wikimedia Commons"
+    informationType: infotype:secondary

@@ -1,0 +1,195 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1TV
+name:
+  ja-Latn: Ueshiba Morihei
+  ja: 植芝 盛平
+description:
+  en: Morihei Ueshiba (植芝 盛平, Ueshiba Morihei; December 14, 1883 – April 26, 1969) was a Japanese martial
+    artist and founder of the martial art of aikido. He is often referred to as 'the founder' Kaiso (開祖)
+    or Ōsensei (大先生/翁先生), 'Great Teacher'.
+  ja: 植芝 盛平（うえしば もりへい、1883年〈明治16年〉12月14日 - 1969年〈昭和44年〉4月26日）は、日本の武道家。合気道の創始者。合気道界では「開祖」（かいそ）と敬称される。
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1883-12-14'
+  birthPlace:
+    label: Tanabe
+    countryCode: eucountry:JPN
+    wikidata: wd:Q304266
+deathEvent:
+  deathDate: '1969-04-26'
+  deathPlace:
+    label: Iwama
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1011725
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/e/e3/Morihei_Ueshiba_1939.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Morihei_Ueshiba_1939.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+- id: 01M3YH7N5G8J9T9X37JW8S8ZW3
+  teacher: 01KJJAWN28MWKKSN4J02MVY1TW
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9C
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Independent sources state it, including Ueshiba's own interview.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1915
+      endYear: 1922
+    hasEvidence:
+    - uri: https://en.wikipedia.org/wiki/Morihei_Ueshiba
+      archiveUri: https://en.wikipedia.org/w/index.php?title=Morihei_Ueshiba&oldid=1360111643
+      cite: Morihei Ueshiba - Wikipedia
+      quotation: The young Ueshiba met Takeda Sōkaku, the founder of Daitō-ryū Aiki-jūjutsu, at the Hisada
+        Inn in Engaru, in March 1915 [...] He received a kyōju dairi certificate, a teaching license,
+        for the system from Takeda in 1922, when Takeda visited him in Ayabe.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://aikidojournal.com/2016/09/24/interview-with-morihei-ueshiba-and-kisshomaru-ueshiba/
+      cite: Interview with Morihei Ueshiba and Kisshomaru Ueshiba (Aikido Journal)
+      quotation: while staying at Hisada Inn in Engaru, Kitami Province, I met a certain Sokaku Takeda
+        Sensei of the Aizu clan. He taught Daito-ryu jujutsu. During the 30 days in which I leamed [sic] from
+        him I felt something like an inspiration. Later, I invited this teacher to my home and together
+        with 15 or 16 of my employees became a student seeking the essence of budo.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GD6RPHKNYV58A9RWN
+  teacher: 01KJJAWN28MWKKSN4J02MVY1VH
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9Q
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Ueshiba's own interview and an independent biography state it.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1901
+      endYear: 1901
+    hasEvidence:
+    - uri: http://www.hontaiyoshinryu.be/images/Documents/p_schools.pdf
+      cite: BUYENS, Guy. Introduction to Traditional martial systems. 2016
+      quotation: Iso Mataemon Masatomo had amongst his students Inoue Keitaro and Tozawa Tokusaburo, who
+        were the teachers of Miyamoto Hanzo). Morihei Ueshiba, founder of aikido, studied Tenjin Shinyo-ryu
+        with Tozawa Tokusaburo
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+      locator: Tenjin Shinyo-ryu Jujutsu Today
+      locatorLabel: section
+      quotation: A third line comes down from Miyamoto Hanzo, who studied with both Inoue Keitaro and Tozawa Tokusaburo, the man who briefly taught jujutsu to Ueshiba Morihei, the founder of aikido.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTC2
+      quotation: >-
+        Teacher of TENJIN SHIN’YO-RYU JUJUTSU in Tokyo in late 1800s and early 1900s. Taught Morihei UESHIBA for brief period in 1901
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTC3
+      quotation: >-
+        First I learned Tenshinyo-ryu Jiujitsu from Tokusaburo Tozawa Sensei
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M348Q38PR9QAZ4DAX9XHSS00
+      quotation: >-
+        The first teacher that the Master learnt under in his teens was Tokusaburo Tozawa, of Kito Jujutsu sect.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GHPYY5HBPBGPGP9B4
+  teacher: 01KJJAWN29MA64W22606R3WD66
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9D
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Yagyū Shingan-ryū training from 1903-1908 under Masakatsu Nakai in Sakai, documented
+      by Kisshomaru Ueshiba's biography as cited in Chierchini's specialist article; the Yagyū Shingan-ryū
+      Wikipedia article names both Ueshiba and Nakai but gives no year or duration for this relationship
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M348Q38PR9QAZ4DAX9XHSS00
+      quotation: >-
+        The first teacher that the Master learnt under in his teens was Tokusaburo Tozawa, of Kito Jujutsu sect. The next was Masakatsu Nakai of the Yagyu sect of encing, who lived in Sakai at that time
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTC3
+      quotation: 'O-Sensei: At about the age of 14 or 15. First I learned Tenshinyo-ryu Jiujitsu from
+        Tokusaburo Tozawa Sensei, then Kito-ryu, Yagyu-ryu, Aioi-ryu, Shinkage-ryu, all of them jujutsu
+        forms.'
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GE7XDF50D63T9X58R
+  rankStyle: 01KJJAWN29MA64W22606R3WD9D
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+  rankGrade: rankgrade:menkyo_shoden
+  grantedBy: 01KJJAWN29MA64W22606R3WD66
+  dateConferred: '1908'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Chierchini's specialist article, drawing on Kisshomaru Ueshiba's biography, dates the Shoden
+      makimono to 1908; the article itself notes the document lacks the school's official seals and the
+      master's signature, so its authenticity is doubted.
+  hasEvidence:
+  - basedOnSource: 01M348Q38PR9QAZ4DAX9XHSS00
+    quotation: >-
+      probably went to Sakai a number of times between 1907 and 1908, when he obtained a Yagyū Shingan-ryū Shoden-level license to transmit the art
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KXTSQXW6P83R31HCRY2PRTC4
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KXTSQXW6P83R31HCRY2PRTC5
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KJJAWN29MA64W22606R3WDA4
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KXTSQXW6P83R31HCRY2PRTC3
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q182130
+- dbr:Morihei_Ueshiba
+hasHonorAssertion:
+- id: 01M3YH7N5G4TRD94CSKM9X129N
+  honorValue: Kyōju Dairi
+  honorType: honortype:title
+  grantedBy: 01KJJAWN28MWKKSN4J02MVY1TW
+  dateConferred: '1922'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Rank granted by Takeda Sokaku, well-documented in Daito-ryu lineage records
+  hasEvidence:
+  - uri: https://en.wikipedia.org/wiki/Morihei_Ueshiba
+    quotation: >-
+      He received a kyōju dairi certificate, a teaching license, for the system from Takeda in 1922, when Takeda visited him in Ayabe.
+    archiveUri: https://en.wikipedia.org/w/index.php?title=Morihei_Ueshiba&oldid=1360111643
+    cite: Morihei Ueshiba - Wikipedia
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct

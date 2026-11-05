@@ -1,0 +1,98 @@
+type: Place
+id: 01M5HMRGB79A3ZK5QQXX5VVSVQ
+name:
+  en: Imperial Japanese Naval Academy
+aka:
+  ja-Latn: Kaigun Heigakkō
+placeType: placeclass:school
+hasSite:
+  - location:
+      label: Etajima, Hiroshima Prefecture
+      countryCode: eucountry:JPN
+      wikidata: wd:Q865506
+description:
+  en: >-
+    Officer academy of the Imperial Japanese Navy, moved from Tsukiji, Tokyo, to Etajima. At the request
+    of Kanō's students there, it set up a judo department; Kanō helped choose its instructors, the first
+    being Yamashita Yoshitsugu and Satō Noritaka, followed by Yokoyama and others.
+hasInstructorRole:
+  - id: 01M5HMRGB7FBEB4Q7P1D0F3QYJ
+    instructor: 01KJJAWN29MA64W22606R3WD7Q
+    instructorCapacity: instrcap:instructor
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Kano's own account only.
+    hasEvidence:
+      - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+        quotation: >-
+          Sometime later a judo department was established and the first two instructors nominated to
+          teach were Yoshitsugu Yamashita and Noritaka Sato.
+        locator: '50'
+        locatorLabel: page
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5HP2J2CKNS4V30VCYG5JGP2
+    instructor: 01M5HP2J2C6JVP17J7A8V08D11
+    instructorCapacity: instrcap:instructor
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Kano's own account only.
+    hasEvidence:
+      - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+        quotation: >-
+          Sometime later a judo department was established and the first two instructors nominated to
+          teach were Yoshitsugu Yamashita and Noritaka Sato.
+        locator: '50'
+        locatorLabel: page
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5HVMXM0C9SJETS1R7M0ERDE
+    instructor: 01M5HP2J2CCYB9HXVF5DY4JZNH
+    instructorCapacity: instrcap:instructor
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Kano's own account only; spelt "Kimozuke" there.
+    hasEvidence:
+      - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+        quotation: >-
+          Later other coaches were engaged as instructors, including Yokoyama, Kimozuke and Yoshimura
+        locator: 50-51
+        locatorLabel: page
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5HMRGB7C2MWENYHXKC1M3PE
+    instructor: 01KJJAWN29MA64W22606R3WD7H
+    instructorCapacity: instrcap:instructor
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Kano's own account only; surname only.
+    hasEvidence:
+      - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+        quotation: >-
+          Later other coaches were engaged as instructors, including Yokoyama, Kimozuke and Yoshimura
+        locator: 50-51
+        locatorLabel: page
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+    quotation: >-
+      During our Fujimi-cho days, the Japanese Naval Academy was relocated from Tsukiji, Tokyo, to far
+      off Etajima in Hiroshima Prefecture.
+    locator: '50'
+    locatorLabel: page
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q2238519
+tags:
+  - judo

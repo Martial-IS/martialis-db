@@ -1,0 +1,85 @@
+type: Person
+id: 01M69YKDGQV5QWC0851EBDBF8P
+name:
+  en: Ip Chun
+  yue: 葉準
+  zh: 葉準
+  zh-Latn: Ye Zhun
+nationality:
+  - countryCode: eucountry:CHN
+    wikidata: wd:Q148
+birthEvent:
+  birthDate: '1924-07-31'
+  birthPlace:
+    label: Foshan
+    countryCode: eucountry:CHN
+    wikidata: wd:Q34412
+  hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        Ip Chun, the first son, was born in Foshan on July 31, 1924.
+      locator: '184'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/c/cf/Ip_chun.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Ip_chun.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    Wing Chun teacher, elder son and student of Ip Man. He trained from the age of seven in Foshan,
+    moved to Hong Kong in 1962, resumed his studies there and was the first treasurer of the Ving
+    Tsun Athletic Association (1967).
+notes: >-
+  Judkins and Nielson pp. 184-185, 254-259. Teacher and Cantonese opera enthusiast in Foshan; sent
+  to the countryside for re-education c. 1958-1959 (p. 255).
+hasTeacherAssertion:
+  - id: 01M69YKDH9B3P3MZBTAB5YPM6F
+    teacher: 01KYD5XMNM4DH8KAWBC1TE9BDJ
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Own account only.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1931
+        hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              He relates that his father was often quite strict with him (probably reflecting his own
+              traditional upbringing) and saw to it that he began to learn Wing Chun at the age of seven.
+            locator: '184'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+      - interactionPeriod:
+          startYear: 1962
+        hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              Ip Chun started to drop by the school in the evenings and eventually resumed his studies.
+            locator: '255'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: '184-185, 254-259'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q711435
+tags:
+  - wing-chun
+  - chinese-martial-arts

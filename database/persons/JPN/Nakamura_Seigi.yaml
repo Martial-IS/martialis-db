@@ -1,0 +1,93 @@
+type: Person
+id: 01KZBXJZ7V5PG3GYDPT46AD1PM
+name:
+  ja-Latn: Nakamura Seigi
+  ja: 仲村正義
+aka:
+  en:
+  - Seigi Nakamura
+  ja:
+  - なかむら せいぎ
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1924'
+  birthPlace:
+    label: Okinawa Prefecture
+    countryCode: eucountry:JPN
+    wikidata: wd:Q766445
+  hasEvidence:
+  - basedOnSource: 01KZC8XAP8MQH1V4JRJJ4MTVMJ
+    quotation: Seigi Nakamura (仲村正義, Nakamura Seigi, 1924-1999) was an Okinawan martial arts master
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1999'
+  hasEvidence:
+  - basedOnSource: 01KZC8XAP8MQH1V4JRJJ4MTVMJ
+    quotation: 1924-1999
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/en/1/17/Seigi_nakamura_photo.jpg
+  imageAttribution:
+    uri: https://en.wikipedia.org/wiki/File:Seigi_nakamura_photo.jpg
+    cite: "English Wikipedia"
+    informationType: infotype:secondary
+description:
+  en: Okinawan martial arts master (1924-1999) who learned both Shorin-ryu and Goju-ryu karate; a senior
+    student of Shoshin Nagamine and for a number of years senior instructor at Nagamine's honbu dojo in
+    Naha.
+notes: Nakamura practiced with Shoshin Nagamine and was also influenced by Shinyei Kyan and Jokei Kushi,
+  both senior students in Nagamine's dojo. The memorial article by Katherine Loukopoulos (a practitioner
+  on Okinawa from December 1982) describes Nakamura as a Matsubayashi Shorin Ryu teacher at Nagamine's
+  honbu dojo in Kumoji, Naha, who gave her special training for hours at a time, arranged her daily schedule
+  - "Nakamura Seigi sensei oversaw everything" - and introduced her to Miyazato Eiichi (Jundokan, Goju-ryu)
+  and Uehara Ko (kobudo), showing his Goju-ryu and weapons connections; Loukopoulos recalls him as "the
+  only Okinawa elderly I saw who utilized an English- Japanese dictionary in order to communicate", and
+  found him teaching there across the 1980s and 1990s. His students Chokei Kishaba and Katsuhiko Shinzato
+  developed and founded the Shorin-ryu Kishaba Juku, which Nakamura profoundly influenced.
+hasTeacherAssertion:
+- id: 01M3YH7N5G1G839960VG3CRPK6
+  teacher: 01KZBXACW0REMTPYNSM6B5QQAQ
+  assertedStyle: 01KZC8S2GEN7P0VQFP7YGZCVKZ
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: EN Wikipedia states Nakamura practiced with Shoshin Nagamine and was senior instructor
+      at Nagamine's honbu dojo for a number of years; corroborated by Katherine Loukopoulos's first-person
+      account of Nakamura teaching at the Kumoji honbu from 1982 through the 1990s
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZC8XAP8MQH1V4JRJJ4MTVMJ
+      quotation: Nakamura practiced with Shoshin Nagamine [...] For a number of years, Nakamura was the senior
+        instructor at Nagamine's honbu dojo in Naha, Okinawa.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZKQ9NBFQX25DZP03H2N491V
+      quotation: As a Matsubayashi Shorin Ryu student I studied at the headquarters of the late Nagamine
+        Shoshin sensei in Kumoji, Naha, Okinawa [...] There I met a true gentleman and awesome technician,
+        a Matsubayashi Shorin Ryu teacher at Nagamine sensei's dojo, and his name was Nakamura Seigi sensei.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZC8XAP8MQH1V4JRJJ4MTVMJ
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZKQ9NBFQX25DZP03H2N491V
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q7446670
+tags:
+- karate
+- shorin-ryu
+- matsubayashi-ryu

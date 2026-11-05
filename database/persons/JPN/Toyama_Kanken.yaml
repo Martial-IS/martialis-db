@@ -1,0 +1,59 @@
+type: Person
+id: 01M1KSJ12QF7MHXYFK8GNKJKFR
+name:
+  ja-Latn: Toyama Kanken
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/2/21/Toyama_Kanken.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Toyama_Kanken.jpg
+    cite: "東京興武館, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    Karate teacher, a student of Itosu Ankō like Funakoshi Gichin. In 1924 he moved to Taiwan, where he
+    worked in an elementary school and studied some Chinese quanfa. In 1930 he returned to Japan and opened
+    his dōjō, the Shūdōkan, where he taught Itosu's karate and some quanfa under the name Shurite. Yoon
+    Byung-in and Yoon Kwe-byung studied under him.
+notes: Began teaching Richard Kim kobudo in 1939, per the Kokusai Butokukai timeline - see database/persons/USA/Richard_Kim.yaml.
+  The Richard Kim source and Mönig name the same person by name only; no source joins the two accounts.
+hasTeacherAssertion:
+- id: 01M6BQSYG61NWCPXTAVDVZYEPB
+  teacher: 01KJJAWN29MA64W22606R3WD6B
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9F
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: One academic history.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+      quotation: >-
+        The karate school called Shūdōkan [...] was founded by Tōyama Kanken. He was together with Funakoshi
+        also a student of Itosu Ankō.
+      locator: '53'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZ0ZT8VBZWGZK8KN9YK226NJ
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+  quotation: 1939 He traveled to Japan, where he continued training under Nabu Kentsu and Kenichi Sawai.
+    At the same time he began his lessons in Kobudo Toyama Kanken.
+- basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+  quotation: >-
+    Tōyama moved in 1924 to Taiwan where he worked in an elementary school and studied some Chinese quanfa.
+    In 1930, he returned to Japan and opened his own dōjō, [...] naming it Shūdōkan. He taught Itosu’s
+    karate and some quanfa, but did not consider it as a distinctive style and continued calling it Shurite
+  locator: '53'
+  locatorLabel: page
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct

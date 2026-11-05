@@ -1,0 +1,56 @@
+type: Person
+id: 01M5JWHXPXJ8PMCRNJQTF5DKGH
+name:
+  en: Tamami Hosoya
+aka:
+  en:
+    - Sky Hosoya
+description:
+  en: >-
+    New York boxer who started boxing in 1993 at Gleason's Gym in Brooklyn under Antonio Tomahawk, and
+    was among the winners of the first U.S. national amateur boxing championships with a women's
+    division (Augusta, Georgia, July 1997).
+hasTeacherAssertion:
+  - id: 01M5JWHXPXB9851W1SHP38XNS5
+    teacher: 01M5JWHXPX0CEP4YS5R0EQK2EK
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The teacher's own account.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1993
+        hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Hosoya started boxing in 1993. She trained at Gleason’s Gym in Brooklyn, and her trainer was
+              Antonio Tomahawk.
+            locator: '518'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              We used to stick her in there with kids who were, 16, 17 years old.
+            locator: '518'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      The first U.S. national amateur boxing championships to have a women’s division was held in Augusta,
+      Georgia, in July 1997. Winners included New York’s Tamami “Sky” Hosoya.
+    locator: '518'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - boxing
+  - women

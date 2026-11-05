@@ -1,0 +1,33 @@
+type: Person
+id: 01M39T3H2EFYW4D8J01GFF3KN6
+name:
+  fr: Jean Andrivet
+nationality:
+  - countryCode: eucountry:FRA
+hasHonorAssertion:
+  - id: 01M3YH7N5G2AE2CJZ2AFEDBCS6
+    honorValue: Premier président du Collège des ceintures noires
+    honorType: honortype:title
+    conferredBy: 01M39T3RX269W8NSPBZHDY3BW0
+    dateConferred: '1947-06-30'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Martin states the founding date and the first president in the same sentence.
+    hasEvidence:
+      - basedOnSource: 01M00NPBTPWWBSJZRMYXBESJ97
+        quotation: le 30 Juin 1947, le Collège des ceintures noires (CCN) naissait officiellement (Jean Andrivet premier président)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  fr: Premier président du Collège des ceintures noires, fondé le 30 juin 1947.
+hasEvidence:
+  - basedOnSource: 01M00NPBTPWWBSJZRMYXBESJ97
+    quotation: le 30 Juin 1947, le Collège des ceintures noires (CCN) naissait officiellement (Jean Andrivet premier président)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - france

@@ -1,0 +1,13 @@
+# The honors held by one person: value, type and year.
+PREFIX martialis: <https://w3id.org/martialis/ontology#>
+PREFIX schema: <https://schema.org/>
+
+SELECT ?honor ?honorType ?year WHERE {
+  ?person a martialis:Person ;
+          schema:name "Hirokazu Kanazawa"@en ;
+          martialis:hasHonorAssertion ?ha .
+  ?ha martialis:honorValue ?honor .
+  OPTIONAL { ?ha martialis:honorType ?honorType }
+  OPTIONAL { ?ha martialis:dateConferred ?year }
+}
+ORDER BY ?honor

@@ -1,0 +1,58 @@
+type: Person
+id: 01M69YKDGWJA7M7CQ3JQ6XJKSZ
+name:
+  en: Rolf Clausnitzer
+description:
+  en: >-
+    Wing Chun practitioner who grew up in Hong Kong, one of the first Westerners to study the art.
+    He trained with Wong Shun-leung and in the UK with Greco Wong, and co-wrote Wing-Chun Kung-Fu
+    (1969), an early book on the art.
+notes: >-
+  Judkins and Nielson pp. 274-276. Interviewed Ip Man in 1960.
+hasTeacherAssertion:
+  - id: 01M69YKDHDKGA39W9KT695HX6D
+    teacher: 01KYDPMZ5G4826TB15FPPVJBA1
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              He had initially interviewed Ip Man in 1960 and later studied with his student Wong Shun Leung.
+            locator: '274'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M69YKDHEPT7HGB8KGJQ6CAGJ
+    teacher: 01M69YKDGTMDM01Y8HTME5BRN8
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              After moving to the UK he continued his studies with Greco Wong, who was a student of Moy Yat.
+            locator: '274'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: '274-276'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - wing-chun
+  - chinese-martial-arts

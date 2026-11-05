@@ -1,0 +1,268 @@
+type: Person
+id: 01KZW2JNB8KPAZ0XJ7J66FYMYX
+name:
+  en: Anton Geesink
+aka:
+  en: Antonius Johannes Geesink
+nationality:
+  - countryCode: eucountry:NLD
+    wikidata: wd:Q55
+birthEvent:
+  birthDate: '1934-04-06'
+  birthPlace:
+    label: Utrecht
+    countryCode: eucountry:NLD
+    wikidata: wd:Q803
+  hasEvidence:
+    - basedOnSource: 01KZW2JNB8BBGCJWYYJ701TBES
+      quotation: >-
+        Born 6 April 1934 Utrecht, Netherlands
+      supports: true
+      informationType: infotype:secondary
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2010-08-27'
+  deathPlace:
+    label: Utrecht
+    countryCode: eucountry:NLD
+    wikidata: wd:Q803
+  hasEvidence:
+    - basedOnSource: 01KZW2JNB8BBGCJWYYJ701TBES
+      quotation: >-
+        Died 27 August 2010 (aged 76) Utrecht, the Netherlands
+      supports: true
+      informationType: infotype:secondary
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/0/06/Judoka_Anton_Geesink_als_Mo_in_een_rol_op_de_televisie_portret%2C_Bestanddeelnr_918-5288_%28cropped%29.jpg
+  rights: mediarights:cc0-1.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Judoka_Anton_Geesink_als_Mo_in_een_rol_op_de_televisie_portret,_Bestanddeelnr_918-5288_(cropped).jpg
+    cite: "Jack de Nijs for Anefo, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: Dutch judoka, the first non-Japanese to become World Champion (1961, again 1965) and Olympic Champion (1964, open class, beating Akio Kaminaga in Tokyo). Won a record 21 European Championship titles. Awarded 9th dan in 1986 (first European) and the 10th dan by the International Judo Federation in 1997 - one of only three 10th-dan judoka outside Japan. Quit competitive judo in 1967, spent 1973-1974 training for a professional wrestling career under the Funks in Amarillo, Texas, and later held top IJF and IOC positions.
+notes: Teacher lineage is the focus of this entry; competitive achievements and administrative career (IJF member of the executive committee, IOC member) are summarized in the description and not itemized.
+hasTeacherAssertion:
+  - id: 01M3YH7N5GKJ6J8K6N71KV9PG5
+    teacher: 01KZW2JNB8NH2ZZDYW1RNPGE52
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Multiple independent Dutch sources (nl.wikipedia, Verhaal van Utrecht, Utrecht City archive) agree Geesink took his first judo lessons at Van der Horst's school in Utrecht from age 14.
+    hasInteraction:
+      - interactionPlace: 01KZW2JNB8DM1V6FDVBXVVXH7C
+        interactionPeriod:
+          startYear: 1948
+        hasEvidence:
+          - basedOnSource: 01KZW2JNB8V0458Y2F8YSSG91D
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+            quotation: Anton Geesink kreeg daar zijn eerste lessen.
+          - basedOnSource: 01KZW2JNB8V1Y87213447YZ11D
+            informationType: infotype:secondary
+            supports: true
+            quotation: Op 14-jarige leeftijd ziet Anton Geesink voor het eerst een judo-demonstratie. Hij is onmiddellijk verkocht en neemt les bij Jan van der Horst aan de Amsterdamsestraatweg.
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZXH2NSQ1XN16GMNTTE4BYSS
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+            quotation: N. Age and Ge Koning both got theirs soon after by telling the Kodokan that they were Geesink's teachers, which was not a little white lie, but a big black one because Geesink's sensei was Jan van der Horst from Utrecht.
+          - basedOnSource: 01KZXH2NSQ19J367PZE6QM7E63
+            informationType: infotype:secondary
+            supports: true
+            quotation: De heer Jan van der Horst heeft met zijn judoschool in Utrecht vele nationale individuele titels en nationale teamtitels behaald en hij was de eerste leraar van Anton Geesink.
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GS2FW7E4AE5YWMK2J
+    teacher: 01KZW2JNB8Z5A1QSZR05381WSR
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Michigami served as arts director of the Dutch Judo Federation 1955-1968 and is credited with
+        training Geesink during those years and again into the 1980s, most specifically for the 1961
+        World and 1964 Olympic titles. Sources are his own memorial site and official honors, so the
+        wording reflects the Michigami side.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1955
+          endYear: 1968
+        hasEvidence:
+          - basedOnSource: 01KZW2JNB8JTSKGY6E07Y8MG7Z
+            informationType: infotype:secondary
+            supports: true
+            quotation: 'He also trained and led many masters and competitors including the famous Anton Geesink. [...] 1955, 43 years Becomes the director of arts of the Dutch Judo Federation. (for 13 years until 1968) [...] 1961: The Third World Championships (Paris) Winner-Anton Geesink 1964: Tokyo Olympics (first appearance of judo) Gold medal-Anton Geesink.'
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M58MM5M6FZMEN46V5EMQR5F9
+            informationType: infotype:primary
+            supports: true
+            quotation: There, he met Anton Geesink, who was under special training to vitalize Dutch judo. [...] Michigami taught everything he can. As a result, Geesink won the 1961 world championships and took the gold medal in the 1964 Tokyo Olympics.
+            evidenceType: evidencetype:direct
+      - interactionPeriod:
+          startYear: 1987
+        hasEvidence:
+          - basedOnSource: 01KZW2JNB8JTSKGY6E07Y8MG7Z
+            informationType: infotype:secondary
+            supports: true
+            quotation: Returns to Japan every April. Trains graded judoists, including Geesink, to 9 Dan.
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GQTC6G0SDMMRMNC7D
+    teacher: 01KZW2JNB8PG5KS70E46DFG0G4
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The Guardian obituary and JudoInside record that Geesink trained with Yasuichi Matsumoto at
+        Tenri University in Nara as preparation for the 1961 World and 1964 Olympic titles; Geesink
+        called it his finishing school.
+    hasInteraction:
+      - interactionPlace: 01KZW2JNB8ENGY6RBKB481K47D
+        interactionPeriod:
+          startYear: 1956
+          endYear: 1964
+        hasEvidence:
+          - basedOnSource: 01KZW2JNB8KPB2JXPMNGCC7021
+            informationType: infotype:secondary
+            supports: true
+            quotation: Hij werkte intensief samen met leermeester Yasuichi Matsumoto, de veelgeprezen trainer en Japanse bondscoach, met wie de judoka een innige band smeedde.
+            evidenceType: evidencetype:direct
+          - uri: https://www.theguardian.com/sport/2010/sep/06/anton-geesink-obituary
+            cite: Anton Geesink obituary, The Guardian, 6 September 2010
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+            quotation: Geesink had previously trained with Yasuichi Matsumoto at Tenri University in Nara. Matsumoto put him up against Japanese judokas in training, in the hope that one of them would beat him, but in the knowledge that it was unlikely. Geesink would later say that this was his finishing school.
+          - uri: https://judoinside.com/news/4541/Geesink_paved_his_way_at_the_1961_World_Championships_in_Paris
+            cite: Geesink paved his way at the 1961 World Championships in Paris, JudoInside
+            informationType: infotype:secondary
+            supports: true
+            quotation: Geesink spent three months in Japan at Tenri University in Nara, where he worked uniquely on his Ne-Waza, or ground technique, which he viewed as the judo of the future.
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GZBB5D556RV2SJQ5S
+    teacher: 01KZW2JNB8BQJ607PTE6XAJ44A
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:private
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Geesink's own 1961 Utrecht newspaper article quotes him receiving lessons at the police dojo from Sampei Asami, an 8th dan. Kodokan Review corroborates Asami Sempei as a Kodokan instructor of that era.
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD98
+        interactionPeriod:
+          startYear: 1961
+        hasEvidence:
+          - basedOnSource: 01KZW2JNB80ZSKM1C374WV92SG
+            informationType: infotype:secondary
+            supports: true
+            quotation: Want in de politiedojo krijg ik les van Sampei Asami, een achste dan en één van de beste leraren die er is.
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GNX2YHBGW5V2WVG6R
+    teacher: 01KZW2JNB8HZM2V4KCRPSF9X6Z
+    assertedStyle: 01KYEWRMWERM1HW12W53HE9G4A
+    role: teachrole:seminar
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: English Wikipedia's Professional wrestling section states All Japan Pro Wrestling recruited Geesink in October 1973 and he trained about a month in Amarillo, Texas under Dory Funk Jr. and Terry Funk.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1973
+        hasEvidence:
+          - basedOnSource: 01KZW2JNB8BBGCJWYYJ701TBES
+            informationType: infotype:secondary
+            supports: true
+            quotation: In October 1973, All Japan Pro Wrestling owner Giant Baba recruited Anton Geesink, sending him to Amarillo, TX, to train under Dory Funk Jr. and Terry Funk for a month.
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G238N81MMQYTGZKH9
+    teacher: 01KZW2JNB8J3NP7H88X0NKCXK5
+    assertedStyle: 01KYEWRMWERM1HW12W53HE9G4A
+    role: teachrole:seminar
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: 'Same source and period as the Dory Funk Jr. entry: the training stint in Amarillo in late 1973 was under both Funk brothers.'
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1973
+        hasEvidence:
+          - basedOnSource: 01KZW2JNB8BBGCJWYYJ701TBES
+            informationType: infotype:secondary
+            supports: true
+            quotation: In October 1973, All Japan Pro Wrestling owner Giant Baba recruited Anton Geesink, sending him to Amarillo, TX, to train under Dory Funk Jr. and Terry Funk for a month.
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GH12F5SW230AD6GMK
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 9
+    dateConferred: '1986'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Dutch Wikipedia states he received the 9th dan in 1986 as the first European; the granting body is not stated.
+    hasEvidence:
+      - basedOnSource: 01KZW2JNB8W1D6EA43J9PVWN0H
+        informationType: infotype:secondary
+        supports: true
+        quotation: Als eerste Europeaan ontving hij in 1986 de 9e dangraad.
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G4PGJFFYPYC43F97K
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 10
+    conferredBy: 01KJJAWN29MA64W22606R3WD83
+    dateConferred: '1997'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The IJF awarded the 10th dan in October 1997 at its Paris congress; recognised by the IJF but not by the Kodokan. Wikipedia (NL + EN) and the IJF Hall of Fame confirm.
+    hasEvidence:
+      - basedOnSource: 01KZW2JNB80JTTRZN088WD13WV
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+        quotation: in 1997 he was awarded the coveted 10th Dan by the IJF.
+      - basedOnSource: 01KZW2JNB8DYCPA302N2BGN1K8
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+        quotation: Anton Geesink is gisteren tijdens het congres van de internationale judofederatie (FIJ) benoemd tot tiende dan.
+      - basedOnSource: 01KZW2JNB8W1D6EA43J9PVWN0H
+        informationType: infotype:secondary
+        supports: true
+        quotation: >-
+          In oktober 1997 verkreeg hij de 10e dan, waarmee hij een van de hoogst gegradueerde judoka's ter wereld werd
+        evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M3YH7N5GK957R7Y9ZTZR8Z81
+    honorValue: Order of the Sacred Treasure
+    honorType: honortype:title
+    dateConferred: '1997'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Awarded by the Japanese government, reported by English Wikipedia.
+    hasEvidence:
+      - basedOnSource: 01KZW2JNB8BBGCJWYYJ701TBES
+        informationType: infotype:secondary
+        supports: true
+        quotation: >-
+          He was awarded the Order of the Sacred Treasure by the Japanese government in 1997.
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZW2JNB8BBGCJWYYJ701TBES
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q536992

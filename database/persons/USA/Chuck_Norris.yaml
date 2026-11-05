@@ -1,0 +1,380 @@
+type: Person
+id: 01KYFPRMG73S8Q8M1YKQ3S5EQF
+name:
+  en: Chuck Norris
+aka:
+  en:
+    - Carlos Ray Norris
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1940-03-10'
+  birthPlace:
+    label: Ryan
+    countryCode: eucountry:USA
+    wikidata: wd:Q2176463
+  hasEvidence:
+    - basedOnSource: 01KYFPRMG2X8FAKC8QSGCYX1RA
+      quotation: >-
+        Carlos Ray "Chuck" Norris (March 10, 1940 – March 19, 2026)
+      cite: Chuck Norris (Wikipedia EN)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2026-03-19'
+  deathPlace:
+    countryCode: eucountry:USA
+    wikidata: wd:Q30
+  hasEvidence:
+    - basedOnSource: 01KYFPRMG2X8FAKC8QSGCYX1RA
+      quotation: >-
+        Carlos Ray "Chuck" Norris (March 10, 1940 – March 19, 2026)
+      cite: Chuck Norris (Wikipedia EN)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: Chuck Norris (1940–2026) was an American martial artist, actor, and founder of the Chuck Norris System (formerly Chun Kuk Do) and American Tang Soo Do. He served in the US Air Force in South Korea, where he began training in Tang Soo Do. He became undefeated world middleweight karate champion and trained regularly with Bruce Lee, who invited him to co-star in Way of the Dragon (1972). He later became a major action film and television star.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/d/d6/Chuck_Norris%2C_The_Delta_Force_1986_%28slight_cropped%29.jpg
+  rights: mediarights:cc-by-sa-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Chuck_Norris,_The_Delta_Force_1986_(slight_cropped).jpg
+    cite: "Yoni S.Hamenahem, Wikimedia Commons"
+    informationType: infotype:secondary
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M3YH7N5GCXNTTRB7S5HK9MFR
+    teacher: 01KYD5XMNMNAG3CPC17GKACPW0
+    assertedStyle: 01KYD5XSZPND9XV5FHYG9V0ZV6
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Norris met Bruce Lee in 1967 and they trained together twice weekly for 3-4 hours; Lee taught Norris kung fu, Norris taught Lee tae kwon do kicks; documented in multiple sources
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1967
+          endYear: 1972
+        hasEvidence:
+          - basedOnSource: 01KYFPRMG2X8FAKC8QSGCYX1RA
+            cite: Chuck Norris (Wikipedia EN)
+            quotation: >-
+              Norris met Bruce Lee [...] and the two developed a friendship as well as a training and
+              working relationship.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KYD5XMNMC3D3DST96C876VKM
+            cite: 'Maeda (2022) - Like Water: A Cultural History of Bruce Lee'
+            locator: '179'
+            locatorLabel: page
+            quotation: Lee invited Norris to work out in his backyard, where they trained twice a week for three or four hours at a time. They exchanged techniques, with Lee showing Norris kung fu moves and Norris teaching Lee tae kwon do kicks.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GH63C3BH4X68B7N34
+    teacher: 01KJJAWN28MWKKSN4J02MVY1SS
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Independent sources state it.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KYFPRMG33NHZZT0V83NSMNSY
+            cite: American Tang Soo Do (Wikipedia EN)
+            quotation: Norris continued his martial arts training with [...] Judo expert Gene LeBell
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G2ZHDTYWJQBG589HNEFYWA
+            quotation: >-
+              Bob Wall, a former world professional karate champion and a friend of LeBell's, used to bring martial arts stars Chuck Norris and Bruce Lee to train in karate and judo with LeBell.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GQX6B4S3ECWC5D32W
+    teacher: 01KYFXCETRD92QSRTMDFPK7VTG
+    assertedStyle: 01KYFXCETR9R1BNFD5T82H1G8P
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Norris names Shin as his primary instructor; independent sources agree.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1958
+          endYear: 1961
+        hasEvidence:
+          - basedOnSource: 01KYFPRMG33NHZZT0V83NSMNSY
+            cite: American Tang Soo Do (Wikipedia EN)
+            quotation: During this time he trained in various martial arts styles [...] Tang Soo Do-Moo Duk Kwan with Shin Jae Chul
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KYFXCETRKAX8WWSFMSCHZ94J
+            cite: Shin Jae-chul (Wikipedia EN)
+            quotation: >-
+              One of those servicemen was Carlos Ray "Chuck" Norris
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G2ZHDT163Q598RMQGY8XAG
+            quotation: >-
+              "Grand Master Mun was one of several Korean black belts I trained under but Jae Chul Shin was my primary instructor," said Chuck Norris.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GCP9DPNBFZMDRA0ZN
+    teacher: 01KYFZEGYNKYFCPETS9G1N9KBW
+    assertedStyle: 01KYFZEGYN107JYC5K1539R8JM
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Norris trained under Tsutomu Ohshima in Shotokan Karate; documented in American Tang Soo Do article and Ohshima's biography
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KYFPRMG33NHZZT0V83NSMNSY
+            cite: American Tang Soo Do (Wikipedia EN)
+            quotation: Norris continued his martial arts training with Shotokan Karate masters Tsutomu Ohshima
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G2SH4GGGTQP7D243F
+    teacher: 01KYFZEGYN2W96EAYGQ9NC4J4J
+    assertedStyle: 01KYFZEGYN107JYC5K1539R8JM
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Norris trained under Hidetaka Nishiyama in Shotokan Karate; documented in American Tang Soo Do article and Nishiyama's biography
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KYFPRMG33NHZZT0V83NSMNSY
+            cite: American Tang Soo Do (Wikipedia EN)
+            quotation: Norris continued his martial arts training with Shotokan Karate masters [...] Hidetaka Nishiyama
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GRCZP48BK0CTC8AJ6
+    teacher: 01KYFZEGYNYWWK97CXKCACKHNS
+    assertedStyle: 01KYFZEGYN7A9G4FSTXBPDBG8P
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Demura's own account and Wikipedia state it.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1966
+        hasEvidence:
+          - basedOnSource: 01KYFPRMG33NHZZT0V83NSMNSY
+            cite: American Tang Soo Do (Wikipedia EN)
+            quotation: Norris continued his martial arts training with [...] Shitō-ryū Karate instructor Fumio Demura
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G2ZHDTZF80JN1FZAT6CJ6E
+            quotation: >-
+              “‘66, Chuck Norris came over to this dojo, and he want to study from me,” Demura told Arab News.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G3P2NK0QK4F3TY817
+    teacher: 01KYG003XD92NPCBEN0M2JF8Y4
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Carlos Machado was Norris's primary BJJ instructor from 1988 onward; Norris earned his black belt under Carlos; confirmed by multiple sources
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1988
+        hasEvidence:
+          - uri: https://mixedmartialarts.com/bjj/chuck-norris-sparring-bjj-with-carlos-machado/
+            cite: Chuck Norris sparring BJJ with Carlos Machado (MixedMartialArts.com)
+            quotation: Chuck Norris went on to earn his Brazilian Jiu Jitsu Black Belt under Carlos Machado
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KYG003XDP4BK49QTQ176GGVT
+            cite: Carlos Machado (Wikipedia EN)
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GMZMJ1QJ7YE27Z6SK
+    teacher: 01KYG003XD811EK3DSJRJCQHSE
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Rigan Machado was one of Norris's BJJ instructors for over 30 years; Norris helped Rigan obtain US citizenship and open his academy; confirmed by multiple sources
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1989
+        hasEvidence:
+          - uri: https://www.tmz.com/2026/03/21/chuck-norris-jiu-jitsu-professor-on-his-legacy/
+            cite: Chuck Norris' Legendary Jiu-Jitsu Coach Rigan Machado, Rickson Gracie Talk Legacy (TMZ)
+            quotation: When he started training, he wanted to train every day [...] He put mats in his house. I started going to his house, training every day
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KYG003XDD05T34H84RTME3DA
+            quotation: >-
+              Notable students [...] Chuck Norris
+            cite: Rigan Machado (Wikipedia EN)
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GH6GNNBZKDVEZKNY9
+    teacher: 01KYG003XDQ8P2KEBEWHV84NHX
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Jean Jacques Machado was part of the Machado brothers team that taught Norris; Norris helped them open their school
+    hasInteraction:
+      - hasEvidence:
+          - uri: https://bjjdoc.com/2025/10/02/jean-jacques-machado-pays-homage-to-chuck-norris-for-helping-them-start-their-jiu-jitsu-school/
+            cite: Jean Jacques Machado Pays Tribute to Chuck Norris for Launching Their Jiu-Jitsu School (BJJDoc)
+            quotation: We have one amazing human being and student, which happens to be Chuck Norris
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KYG003XD09BCSRFEG849MPG4
+            quotation: >-
+              Notable students [...] Chuck Norris
+            cite: Jean Jacques Machado (Wikipedia EN)
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GB3PM4DGAJMJNB5YZ
+    rankStyle: 01KYFPRMG6DX1KX21NWFZRND4S
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 10
+    dateConferred: '1990'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Norris founded the style and holds its highest rank; documented in Wikipedia
+    hasEvidence:
+      - basedOnSource: 01KYFPRMG2X8FAKC8QSGCYX1RA
+        cite: Chuck Norris (Wikipedia EN)
+        quotation: 10th degree black belt in Chun Kuk Do
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GP4SYF3RA67M14RDD
+    rankStyle: 01KJJAWN29MA64W22606R3WD9J
+    rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+    rankOrdinal: 3
+    rankGrade: rankgrade:bjj_black
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Awarded by the Machado family; documented in Wikipedia
+    hasEvidence:
+      - basedOnSource: 01KYFPRMG2X8FAKC8QSGCYX1RA
+        cite: Chuck Norris (Wikipedia EN)
+        quotation: a 3rd-degree black belt in Brazilian jiu-jitsu from the Machado family
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G4R83YCKBNAKKR683
+    rankStyle: 01KYFPRMG50ZGNF1DX2RCSCEVA
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 9
+    dateConferred: '1966'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Norris co-founded American Tang Soo Do and attained 9th degree black belt; documented in Wikipedia
+    hasEvidence:
+      - basedOnSource: 01KYFPRMG2X8FAKC8QSGCYX1RA
+        cite: Chuck Norris (Wikipedia EN)
+        quotation: 9th degree black belt in Tang Soo Do
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYFPRMG2X8FAKC8QSGCYX1RA
+    cite: Chuck Norris (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYFPRMG33NHZZT0V83NSMNSY
+    cite: American Tang Soo Do (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYFXCETRKAX8WWSFMSCHZ94J
+    cite: Shin Jae-chul (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYFZEGYN77QRRRQ6CBQQ7YDK
+    cite: Tsutomu Ohshima (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYFZEGYNCBP79TJ9VGMRQGBP
+    cite: Hidetaka Nishiyama (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYFZEGYN3DCBTT7EMAFREYBE
+    cite: Fumio Demura (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYG003XDD05T34H84RTME3DA
+    cite: Rigan Machado (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYG003XDP4BK49QTQ176GGVT
+    cite: Carlos Machado (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYG003XD09BCSRFEG849MPG4
+    cite: Jean Jacques Machado (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYJDMKWDWBJBK07YVKCAQKMW
+    cite: Podrigalo et al. (2025) - Fighting arts studies A.D. 2024
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYD5XMNMC3D3DST96C876VKM
+    cite: 'Maeda (2022) - Like Water: A Cultural History of Bruce Lee'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://www.ufaf.org/chuck-norris-system.asp
+    cite: Chuck Norris System (UFAF official website)
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q2673
+  - viaf:84036229
+  - isni:0000000109201210
+tags:
+  - chuck-norris
+  - american-tang-soo-do
+  - chun-kuk-do
+  - actor
+  - karate

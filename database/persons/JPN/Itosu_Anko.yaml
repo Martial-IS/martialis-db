@@ -1,0 +1,100 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD6B
+name:
+  ja-Latn: Itosu Ankō
+  ryu: 糸洲 安恒
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1831'
+  birthPlace:
+    label: Shuri, Okinawa
+    countryCode: eucountry:JPN
+    wikidata: wd:Q608415
+deathEvent:
+  deathDate: '1915-03-11'
+  deathPlace:
+    label: Shuri, Okinawa
+    countryCode: eucountry:JPN
+    wikidata: wd:Q608415
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/7/7c/Itosu_Anko.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Itosu_Anko.jpg
+    cite: "沖縄県立図書館(Okinawa prefectural library), Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+- id: 01M3YH7N5GEXNS0W92ZR2NCEAC
+  teacher: 01KJJAWN29MA64W22606R3WD6A
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9F
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Independent sources state it.
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Asato
+      quotation: In a 1934 article, Funakoshi noted that Asato and Itosu had studied karate together under
+        Sōkon Matsumura.
+      informationType: infotype:secondary
+      supports: true
+      cite: Ankō Asato - Wikipedia
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+      quotation: It is generally accepted that Itosu trained under the great bushi Matsumura.
+      locator: '80'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Following the death of Matsumura, his students made further changes to the style. For example,
+        one of these students, Itosu Anko (also known as Itosu Yasutsune, 1831–1915) created the five
+        Pinan kata
+      locator: '208'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Itosu
+  archiveUri: http://web.archive.org/web/20251216081753/https://en.wikipedia.org/wiki/Ank%C5%8D_Itosu
+  informationType: infotype:secondary
+  supports: true
+  cite: Ankō Itosu - Wikipedia
+  evidenceType: evidencetype:direct
+- uri: http://www.shotokai.jp/english/about/teacher.html
+  informationType: infotype:secondary
+  supports: true
+  cite: Nihon Karate Do Shoto-kai Official Web Site - Masters
+  archiveUri: https://web.archive.org/web/20100227032428/http://www.shotokai.jp/english/about/teacher.html
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q527422
+- dbr:Ankō_Itosu
+notes: 'Considered "father of modern karate" (along with Gichin Funakoshi). Created the Pinan/Heian forms
+  for schoolchildren. Wrote "Ten Precepts (Tode Jukun) of Karate" in 1908. Served as secretary to the
+  last king of the Ryūkyū Kingdom. Teacher of many prominent karate masters including Gichin Funakoshi,
+  Kenwa Mabuni, and Chōshin Chibana.
+
+  '
+hasHonorAssertion:
+- id: 01M3YH7N5GX2JS7V6X3F6Y4MW4
+  honorValue: pechin
+  honorType: honortype:title
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Low-rank Ryūkyūan Pechin (samurai class) as documented in Wikipedia biography
+  hasEvidence:
+  - uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Itosu
+    archiveUri: http://web.archive.org/web/20251216081753/https://en.wikipedia.org/wiki/Ank%C5%8D_Itosu
+    informationType: infotype:secondary
+    supports: true
+    cite: Ankō Itosu - Wikipedia
+    quotation: A low-rank Ryūkyūan Pechin, Itosu was small in stature, shy, and introverted as a child.
+    evidenceType: evidencetype:direct

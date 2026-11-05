@@ -1,0 +1,91 @@
+type: Style
+id: 01KJJAWN29MA64W22606R3WD9S
+name:
+  ja-Latn: Karate
+  ja: 空手
+aka:
+  ja-Latn: Karatedo
+  ja: 空手道
+hasEvidence:
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTDX
+    supports: true
+    evidenceType: evidencetype:direct
+    informationType: infotype:secondary
+foundedEvent:
+  location:
+    countryCode: eucountry:JPN
+  hasEvidence:
+    - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTDX
+      quotation: is a martial art developed in the Ryukyu Kingdom.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+styleType: styleclass:modern
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5GK8VB3DPEV6R4ZT9X
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9F
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Karate was not a unified art before the 20th century; it emerged from the Shuri-te, Naha-te and Tomari-te regional traditions. Shuri-te is a pre-war term whose successor styles include Shotokan and Shito-ryu.
+    hasEvidence:
+      - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTDX
+        quotation: Early styles of karate are often generalized as Shuri-te, Naha-te, and Tomari-te, named after the three cities from which they emerged.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GV567JNN9YXKC05D7
+    relatedStyle: 01KYHF558ARZ926BRSVJNWCTGE
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Naha-te is one of the three regional Okinawan te traditions karate emerged from; its direct successors include Goju-ryu and Uechi-ryu.
+    hasEvidence:
+      - basedOnSource: 01KYHF558AX2APCXHRG550QP3C
+        quotation: >-
+          Naha-te (那覇手; Okinawan: Naafa-dii) is a pre-World War II term for a type of martial art indigenous to the area around Naha
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GHBYKE1240XJ6AGGD
+    relatedStyle: 01KYHF558ACS4T9K0BR6YWXABY
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Tomari-te is one of the three regional Okinawan te traditions karate emerged from; it contributed to Wado-ryu and branches of Shorin-ryu.
+    hasEvidence:
+      - basedOnSource: 01KYHF558AX2APCXHRG550QP3C
+        quotation: 'Tomari-te (泊手; Okinawan: Tumai-dii) refers to a tradition of martial arts originating from the village of Tomari, Okinawa.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GZCSF0272RCR5AYRY
+    relatedStyle: 01KYJC7J3MB81B06881FVFYGAG
+    styleRelationType: stylerel:sibling_style_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Okinawan Kobudō (weapons) and Karate (empty hand) developed alongside each other in Okinawa as
+        companion arts within the same martial tradition.
+    hasEvidence:
+      - uri: https://en.wikipedia.org/wiki/Okinawan_kobud%C5%8D
+        archiveUri: https://en.wikipedia.org/w/index.php?title=Okinawan_kobud%C5%8D&oldid=1368401605
+        cite: Okinawan kobudō - Wikipedia
+        quotation: Okinawan kobudō arts are thought by some to be the forerunner of the bare hand martial art of karate, and several styles of that art include some degree of Okinawan kobudō training as part of their curriculum
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q11419
+tags:
+  - gendai
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/4/4b/Karate_ShuriCastle.jpg
+    rights: mediarights:public_domain_mark
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:Karate_ShuriCastle.jpg
+      cite: "Nakasone Genwa, Wikimedia Commons"

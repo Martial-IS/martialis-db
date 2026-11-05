@@ -1,0 +1,50 @@
+type: Person
+id: 01M5H4EE3XHDMBZ5J6V518R2CW
+name:
+  ja-Latn: Tanaka Unsui
+aka:
+  ja-Latn: Tanaka Fumio
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1945'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: In 1996, Tanaka (Fumio) Unsui (1945–), a student of Hatsumi
+      locator: '170'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: Student of Hatsumi Masaaki; teaches ninjutsu through his Jinenkan organization, from 1996.
+hasTeacherAssertion:
+  - id: 01M5H4EE3X9SRGSWC6B3F4Z9YJ
+    teacher: 01M5H4EE3XKYP8N2XDHWF8D97G
+    assertedStyle: 01M5H4EE3XTQ71T3X541Y6MZYJ
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              In 1996, Tanaka (Fumio) Unsui (1945–), a student of Hatsumi, began propagating Ninpo
+              traditions through his Jinenkan organization.
+            locator: '170'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: '170'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - ninjutsu

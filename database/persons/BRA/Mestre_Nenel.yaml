@@ -1,0 +1,52 @@
+type: Person
+id: 01M6A2A5ZJ1VPKWSEN9R33V2AF
+name:
+  pt: Mestre Nenel
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Capoeira Regional mestre in Salvador, a son and student of Mestre Bimba, who keeps his father's
+    original Regional teaching.
+notes: >-
+  The association Filhos de Bimba (1986) and the Mestre Bimba Foundation carry his father's line
+  (Assunção, p. 199).
+hasTeacherAssertion:
+  - id: 01M6A2A5ZHP1XP88PEMKM314HC
+    teacher: 01M5H4AFG2ZHJ3H82H0DPJQJ1V
+    assertedStyle: 01M6A2A5YR5THAAVA3A61JRZ1H
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              Probably the main reference here is Mestre Nenel, and his brothers Demerval and Luís,
+              sons of the late Bimba.
+            locator: '199'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              He and other students of Bimba vehemently question the assumption that the
+              contemporary, mainstream capoeira is Regional.
+            locator: '199'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    locator: '199'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - capoeira

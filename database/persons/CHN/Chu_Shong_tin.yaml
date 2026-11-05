@@ -1,0 +1,64 @@
+type: Person
+id: 01M69YKDGHR4JMPZF1MF1P08XJ
+name:
+  en: Chu Shong-tin
+  yue: 徐尚田
+  zh: 徐尚田
+  zh-Latn: Xu Shangtian
+aka:
+  en:
+    - Chu Shong Tin
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/6/62/Wing_Chun_Master_Chu_Shong_Tin%2C_Hong_Kong.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Wing_Chun_Master_Chu_Shong_Tin,_Hong_Kong.jpg
+    cite: "Gunnar945, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    Wing Chun teacher in Hong Kong, a refugee from Guangzhou and secretary of the Restaurant Workers
+    Union from November 1950, student of Ip Man.
+notes: >-
+  Judkins and Nielson pp. 228-233, 248. He moved into the union hall to be near Ip Man and urged
+  him to open a class on Hong Kong Island.
+hasTeacherAssertion:
+  - id: 01M69YKDH11XM81HTQE6RA5PAE
+    teacher: 01KYD5XMNM4DH8KAWBC1TE9BDJ
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              Chu Shong Tin reports that his former teacher exuded a confident and stable Confucian glamour.
+            locator: '228'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              Chu Shong Tin states quite openly that he idolized his Sifu and even moved into the Restaurant
+              Workers Union Hall because of Ip Man’s Confucian refinement and virtue.
+            locator: '228'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: '228-233'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q5115165
+tags:
+  - wing-chun
+  - chinese-martial-arts

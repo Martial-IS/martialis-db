@@ -1,0 +1,231 @@
+type: Person
+id: 01M0E9KP2BGMP4PAC4AYTHWFX7
+name:
+  es: Alfredo San Bartolomé Morello
+nationality:
+  - countryCode: eucountry:PER
+  - countryCode: eucountry:ESP
+birthEvent:
+  birthDate: '1912'
+  birthPlace:
+    label: Lima
+    countryCode: eucountry:PER
+    wikidata: wd:Q2868
+  hasEvidence:
+    - basedOnSource: 01M0E9KP2B0B7SG02329SASBA4
+      quotation: Alfredo San Bartolomé aunque nacionalizado español nació en Perú, posiblemente en Lima en donde vivió de niño.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1979-05-14'
+  deathPlace:
+    label: Madrid
+    countryCode: eucountry:ESP
+    wikidata: wd:Q2807
+  hasEvidence:
+    - basedOnSource: 01M0E9KP2B0B7SG02329SASBA4
+      quotation: Alfredo San Bartolomé falleció en Madrid el 14 de mayo de 1979.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M0E9KP2B5S4F3WFN83SJF7FW
+      quotation: Alfredo San Bartolomé Morello falleció en Madrid en mayo de 1979.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: Peruvian-born pioneer of judo in Spain. He discovered judo in Lima in 1931, trained under Japanese teachers (Shinsho Siosaki Murayama, Makishima) in Peru, and arrived in Spain in 1947, giving the first judo classes in Madrid at the Gimnasio Juventud on Calle Fuencarral. He co-founded the first Spanish judo club, the Asociación Española de Judo y Jiu-jitsu (May 1950), later the Club Bushidokwai, and served as unofficial technical adviser of the Spanish Judo Department until Yves Klein's arrival in 1954. He published the Método de Judo del Gimnasio Bushidokwai and was awarded the Medalla de Oro al Mérito Deportivo in 1972.
+notes: 'Sources disagree on the granter of the 3rd dan in 1954: the Judo en Familia biography says it was granted by Yves Klein (Kodokan delegate for Spain) with Ichiro Abe as sponsor, while the Sueños de Olimpia blog says it was granted by Ichiro Abe (Kodokan delegate for Europe). The Judo en Familia biography also casts doubt on the 2nd dan: San Bartolomé claimed the grade on arrival in Spain in 1947, and comparison with other judoka arriving from abroad raised doubts about it. While a 2nd dan in Peru he also learned karate and served as capitán de comandos in an intensive course under Japanese masters (Makishima, Kizutani, Hamada). He published the Método de Judo del Gimnasio Bushidokwai, printed in the family printing shop of Fernando Franco.'
+hasTeacherAssertion:
+  - id: 01M3YH7N5GKK7CHM49BFYPE7H9
+    teacher: 01M0GB2Q6QR46XPZP0Y8RCNFXS
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        San Bartolomé's own words, quoted on the Judo en Familia biography, describe discovering judo in
+        a cafetín in Lima in 1931 and being introduced to Shinsho Siosaki Murayama as his first teacher.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1931
+          endYear: 1936
+        hasEvidence:
+          - basedOnSource: 01M0E9KP2B0B7SG02329SASBA4
+            quotation: Su primer profesor fue el japonés Shinsho Siosaki Murayama (Shinzo Murayama), 3° dan del Kodokan, pionero del judo en el Perú
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G752HPKAKATN887Q9
+    teacher: 01M1KR4J6EMK26V5JMCNSDN0M4
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The Judo en Familia biography records that Makishima (4th dan) was San Bartolomé's exam sponsor
+        for the 1st dan in 1936 and his teacher for the 2nd dan in 1940. It is a secondary source, so
+        confidence is probable rather than confirmed.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1936
+          endYear: 1940
+        hasEvidence:
+          - basedOnSource: 01M0E9KP2B0B7SG02329SASBA4
+            quotation: En el año 1940 obtiene su 2º dan, siendo su profesor el maestro Makíshíma, y sus padrinos de examen los maestros Kugo Sato (8° Dan) y Sumiyiki Kotani (9° Dan)
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GKQ2C0FS4RSNVHGZX
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 1
+    conferredBy: 01KJJAWN29MA64W22606R3WD7X
+    dateConferred: '1936'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Judo en Familia biography records the 1st dan in 1936 with Makishima (4th dan) as exam sponsor (padrino de examen); a Kodokan dan grade conferred by the Japanese teachers and Kodokan delegates active in Peru. Secondary source, so probable.
+    hasEvidence:
+      - basedOnSource: 01M0E9KP2B0B7SG02329SASBA4
+        quotation: Cinco años después, 1936, siendo su padrino de examen el maestro Makishinia 4º Dan obtuvo el 1º dan.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GRRCZ8SFJTGB7JEPZ
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 2
+    conferredBy: 01KJJAWN29MA64W22606R3WD7X
+    dateConferred: '1940'
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The Judo en Familia biography gives the 2nd dan in 1940 but itself casts doubt on the grade,
+        noting that comparison with other judoka arriving from abroad 'ofrecía algunas dudas sobre tal
+        graduación'.
+    hasEvidence:
+      - basedOnSource: 01M0E9KP2B0B7SG02329SASBA4
+        quotation: En el año 1940 obtiene su 2º dan, siendo su profesor el maestro Makíshíma, y sus padrinos de examen los maestros Kugo Sato (8° Dan) y Sumiyiki Kotani (9° Dan), delegados ambos del Kodokan en misión para Sudamérica.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M0E9KP2B0B7SG02329SASBA4
+        quotation: Aunque en aquella época nadie dudaba de su graduación, la comparación con otros judocas que venían de fuera ofrecía algunas dudas sobre tal graduación.
+        informationType: infotype:secondary
+        supports: false
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GJTJTFBGCQGXY8Q6S
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 3
+    conferredBy: 01KJJAWN29MA64W22606R3WD7X
+    grantedBy: 01KJJAWN28MWKKSN4J02MVY1SY
+    dateConferred: '1954'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The Judo en Familia biography says the 3rd dan was granted by Yves Klein with Ichiro Abe as
+        sponsor; the Sueños de Olimpia blog instead credits the grant to Ichiro Abe.
+    hasEvidence:
+      - basedOnSource: 01M0E9KP2B0B7SG02329SASBA4
+        quotation: En el 1954 Alfredo San Bartolomé obtiene su 3º dan del profesor Ivés Klein (4º dan y delegado del Kodokan para España), su padrino fue Ichiro Abe (7º dan, delegado del Kodokan para Europa).
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M0E9KP2B5S4F3WFN83SJF7FW
+        quotation: Alfredo San Bartolomé recibe el 3º dan (1954) de Ichiro Abe, representante del Kodokan en Europa
+        informationType: infotype:secondary
+        supports: false
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G43C418HM3KZAB703
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 4
+    conferredBy: 01KJJAWN29MA64W22606R3WD7X
+    dateConferred: '1958'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The Judo en Familia biography records the 4th dan in 1958 with Kiyoshi Mizuno (6th dan, special Kodokan delegate for Spain) as teacher, conferring the grade in Kodokan's name.
+    hasEvidence:
+      - basedOnSource: 01M0E9KP2B0B7SG02329SASBA4
+        quotation: En 1958 consigue su 4º Dan con el profesor Kiyosi Mizuno (6º dan y delegado especial del Kodokan para España)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M0E9KP2B5S4F3WFN83SJF7FW
+        quotation: el 4º dan (1958) de Kiyoshi Mizuno, segundo Asesor Técnico nacional.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GJSQEMAW8CDVSPJ1P
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 5
+    conferredBy: 01M0E9KP2BA4HY9PW5Q4SKQRN4
+    dateConferred: '1973'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The Sueños de Olimpia blog records that San Bartolomé failed the first 5th dan exam in Spain (November 1969, Gimnasio Moscardó) and that the Federación Española promoted him in 1973; the Judo en Familia biography confirms the Federation promotion without a year.
+    hasEvidence:
+      - basedOnSource: 01M0E9KP2B5S4F3WFN83SJF7FW
+        quotation: San Bartolomé, el introductor del judo en España y ya con casi sesenta años, no supera la prueba [...] Más tarde, en 1973, lo asciende la Federación Española.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M0E9KP2B0B7SG02329SASBA4
+        quotation: y más tarde le fue concedido el 5° dan por la Federación Española de Judo.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M3YH7N5G9D1P7F3BZQ32ND96
+    honorValue: Medalla de Oro al Mérito Deportivo
+    honorType: honortype:other
+    conferredBy: 01M0E9KP2BA4HY9PW5Q4SKQRN4
+    dateConferred: '1972-11-29'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Judo en Familia biography records that Antonio García de la Fuente, president of the Federación Española de Judo, presented San Bartolomé with the Medalla de Oro al Mérito Deportivo on 29 November 1972.
+    hasEvidence:
+      - basedOnSource: 01M0E9KP2B0B7SG02329SASBA4
+        quotation: El 29 de noviembre de 1972, don Antonio García de la Fuente, presidente de la Federación Española de Judo, le impuso a Alfredo San Bartolomé la medalla de oro al Mérito Deportivo.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M0E9KP2B0B7SG02329SASBA4
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M0E9KP2B5S4F3WFN83SJF7FW
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M0E9KP2BWQZBWQQJQW55D6EP
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M0E9KP2BX2WXX8VRCNZPD7XJ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - pioneer
+  - spain
+  - peru

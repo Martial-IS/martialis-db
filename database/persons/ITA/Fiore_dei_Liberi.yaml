@@ -1,0 +1,80 @@
+type: Person
+id: 01M5JSGG50BY7NFE13HKVSR7DW
+name:
+  en: Fiore dei Liberi
+  it: Fiore dei Liberi
+aka:
+  en:
+    - Fiore de'i Liberi
+    - Fiore Furlano
+    - Fiore dei Liberi da Premariacco
+nationality:
+  - countryCode: eucountry:ITA
+    wikidata: wd:Q38
+birthEvent:
+  birthDate: '1340~'
+  birthPlace:
+    label: Cividale del Friuli
+    countryCode: eucountry:ITA
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Fiore dei Liberi da Premariacco was born into this factitious society around the year 1340.
+      locator: '245'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Friulian knight, condottiero and fencing master (fl. 1381–1409), the earliest Italian master whose
+    treatise survives. He studied with many Italian and German masters, above all Johane called Suveno,
+    fought five duels against rival masters, and trained famous condottieri. For Niccolò III d'Este he
+    wrote Il Fior di Battaglia (about 1409) on wrestling, dagger, sword, poleaxe and spear.
+notes: >-
+  Wiktenauer puts his birth in Cividale del Friuli; Green and Svinth call him "da Premariacco".
+hasTeacherAssertion:
+  - id: 01M5JSGG502TFD8ARX3WDFWZ44
+    teacher: 01M5JSGG50EQ0XJ5170C0MXSKR
+    assertedStyle: 01M5JRHX02FJ6XZ3X069NVX3SE
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        His own account only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JSGG5081ZEGH8JTM4FRCAV
+            quotation: >-
+              He stated that foremost among the masters who trained him was one Johane dicto Suueno, who
+              he notes was a disciple of Nicholai de Toblem
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JSGG505YWQZSX677VBVJXR
+            quotation: >-
+              and mostly from master John, called Suvenus, who was a student of master Nicholas of
+              Toblem in the Mexinensian diocese
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Like Liechtenauer before him, dei Liberi traveled widely and studied under a variety of Italian and
+      German masters, systematizing their lessons into his own, unique art.
+    locator: '245'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5JSGG5081ZEGH8JTM4FRCAV
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q1058654
+tags:
+  - fencing
+  - italian-school
+  - founder

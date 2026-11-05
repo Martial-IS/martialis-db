@@ -1,0 +1,58 @@
+type: Person
+id: 01M6A2VG2RR2PSNY7VEP7M3PH0
+name:
+  pt: Artur Emídio de Oliveira
+aka:
+  pt: Mestre Artur Emídio
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Capoeira mestre from Itabuna, southern Bahia, who fought prize matches from 1948, taught in Rio
+    de Janeiro from the 1950s with an academy in Bonsucesso, trained most of the city's 1960s
+    mestres and was among the first to show capoeira abroad.
+birthEvent:
+  birthDate: '1930~'
+  hasEvidence:
+    - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+      quotation: >-
+        Artur Emídio de Oliveira (c .1930–) from Southern Bahia
+      locator: '168'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+notes: >-
+  Taught capoeira to marines from March 1961 with Djalma Bandeira
+  and Lamartine Pereira da Costa (Assunção, p. 169). Performed in Argentina, Mexico, the United States and
+  Europe in the 1950s and early 1960s (p. 186).
+hasTeacherAssertion:
+  - id: 01M6A2VG3417VW3ZQ27D4E6ST9
+    teacher: 01M6A2VG2TTHVB6A02THGP674T
+    assertedStyle: 01M5H4AFG2PQBX1QXTNW3CMHN5
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              He spent his youth in Itabuna, the capital of the cacao zone, where he practised
+              different martial arts and learned capoeira from M.Paizinbo [sic] (Teodoro Ramos).
+            locator: '168'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    locator: '167-170, 186'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - capoeira

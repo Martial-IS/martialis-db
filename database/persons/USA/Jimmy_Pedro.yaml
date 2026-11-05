@@ -1,0 +1,80 @@
+type: Person
+id: 01KYMDKKCPXRY92G0TVA86F03N
+name:
+  en: Jimmy Pedro
+aka:
+  en:
+    - James A. Pedro
+    - Jimmy Pedro Jr.
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1970-10-30'
+  birthPlace:
+    label: Danvers
+    countryCode: eucountry:USA
+    wikidata: wd:Q2736238
+  hasEvidence:
+    - basedOnSource: 01KYMDKKCPXDW4BV3RPTW7G8HZ
+      quotation: >-
+        James A. Pedro (born October 30, 1970)
+      cite: Jimmy Pedro (Wikipedia EN)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://www.usjf.com/wp-content/uploads/2018/02/20100511_jimmy_pedro.jpg
+  imageAttribution:
+    uri: https://www.usjf.com/jimmy-pedro/
+    cite: "USJF"
+    informationType: infotype:secondary
+description:
+  en: American judoka and Olympic bronze medalist (1996, 2004), World Champion (1999), and 7th degree black belt. He trained under his father James Pedro Sr. He later coached Kayla Harrison (2x Olympic gold medalist), Travis Stevens (Olympic silver medalist), and Ronda Rousey (Olympic bronze medalist) at Pedro's Judo Center in Wakefield, Massachusetts. He was the head coach of the US Olympic Judo team in 2012.
+hasTeacherAssertion:
+  - id: 01M3YH7N5GTJCBAXFWQ354EVT3
+    teacher: 01KYMDKKCPQ8238MWJR2E17NAD
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Jimmy Pedro was trained by his father James Pedro Sr. from a young age; documented in Wikipedia
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KYMDKKCPXDW4BV3RPTW7G8HZ
+            cite: Jimmy Pedro (Wikipedia EN)
+            quotation: He was trained by his father James Pedro Sr., a 1976 Olympic Alternate
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GNGCEVDC44QMGD2Z4
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 7
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Documented in Wikipedia
+    hasEvidence:
+      - basedOnSource: 01KYMDKKCPXDW4BV3RPTW7G8HZ
+        cite: Jimmy Pedro (Wikipedia EN)
+        quotation: 7th dan black belt
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYMDKKCPXDW4BV3RPTW7G8HZ
+    cite: Jimmy Pedro (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3104675
+tags:
+  - judo
+  - olympian
+  - world-champion
+  - coach

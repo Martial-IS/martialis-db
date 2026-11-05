@@ -1,0 +1,44 @@
+type: Person
+id: 01M69ZHPP5P7HNG9ZTB1XZ0K10
+name:
+  en: Ng Mui
+  yue: 五枚
+  zh: 五枚
+  zh-Latn: Wu Mei
+description:
+  en: >-
+    Legendary Buddhist nun of the Wing Chun creation story, said to have escaped the destruction of
+    the Shaolin Temple and taught Yim Wing-chun. No credible historical record names her.
+notes: >-
+  Judkins and Nielson pp. 8-10. She first appears as a traitor in an 1890s novel and becomes a
+  heroine only in the 1930s (p. 9).
+hasHistoricityAssertion:
+  - id: 01M69ZHPP98KC1Q5B8YZ7905ZF
+    historicity: hist:legendary
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source; a figure of the founding legend.
+    hasEvidence:
+      - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+        quotation: >-
+          Likewise, the nun Ng Mui is not listed in any credible historical record. She first appears as a
+          traitor in a late Qing martial arts novel published in the 1890s (where she helps to burn down
+          the Shaolin Temple), and is not reimagined as a heroine until the 1930s.
+        locator: '9'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: '8-10'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3180752
+tags:
+  - wing-chun
+  - legend

@@ -1,0 +1,85 @@
+type: Person
+id: 01M5KV9GA75W3WHKQYE1BZH7WV
+name:
+  en: Victor Castérès
+  fr: Victor Castérès
+nationality:
+  - countryCode: eucountry:FRA
+    wikidata: wd:Q142
+birthEvent:
+  birthDate: '1866'
+  birthPlace:
+    label: Moulins, Allier
+    countryCode: eucountry:FRA
+  hasEvidence:
+    - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+      quotation: >-
+        Castérès Victor est né à Moulins (Allier) en 1866.
+      locator: '655'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    French boxing teacher, a lithographic engraver before he taught. He took his first lessons from
+    Joseph Charlemont in 1883 and continued with Charles Charlemont, taught boxing in a café on the
+    boulevard Magenta in 1891, and opened his own salle in the rue d'Amsterdam in 1892, moved to the rue
+    Nouvelle in 1895, where he taught the Charlemont method.
+hasTeacherAssertion:
+  - id: 01M5KV9GA79KMTZDF5BQFZMR54
+    teacher: 01M5JG4Y25QKEKJ5K0T4KFYQW0
+    assertedStyle: 01M5KWGPRKBAFY4Z2766RHBEK5
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The teacher's own account.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1883
+        hasEvidence:
+          - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+            quotation: >-
+              En 1883, il prit ses premières leçons de M. Charlemont père et continua ensuite avec M.
+              Charlemont fils.
+            locator: '655'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5KV9GA7GRJR8CM6PNGB1V6Q
+    teacher: 01M5JG4Y259ZBY4V9XPJQ111DJ
+    assertedStyle: 01M5KWGPRKBAFY4Z2766RHBEK5
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source: the teacher's father.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+            quotation: >-
+              En 1883, il prit ses premières leçons de M. Charlemont père et continua ensuite avec M.
+              Charlemont fils.
+            locator: '655'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+    quotation: >-
+      A Paris la boxe est représentée par trois salles spéciales, ce sont les salles : Charlemont,
+      Castérès et Leclerc. Dans les deux premières, on y pratique la même méthode, dans la troisième c’est
+      le genre Lecour.
+    locator: '655'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - savate
+  - france

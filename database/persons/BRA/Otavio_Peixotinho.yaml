@@ -1,0 +1,63 @@
+type: Person
+id: 01M5H6E6RGTSGJ8F214RWY9MF1
+name:
+  pt: Otávio Peixotinho
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Brazilian jiu-jitsu coral belt and leading competitor of the 1980s; started under Rolls Gracie in
+    1974 and moved to Carlson Gracie in 1976.
+hasTeacherAssertion:
+  - id: 01M5H6E6RGQ3JN1TET3JGMDJ4E
+    teacher: 01KYZ31HT3D978KY5GPZAGKV5G
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: His own account only.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1974
+        hasEvidence:
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: I first started with Rolls Gracie in 1974.
+            locator: Interview with Otávio Peixotinho (after chapter 7)
+            locatorLabel: section
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5H6E6RGN89GA23YNXN4M11Q
+    teacher: 01KYQB8J2NN336ZJWGQW3YH95E
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: His own account only.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1976
+        hasEvidence:
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: >-
+              In 1976 I went to Carlson, because overall, I thought Carlson’s game was more efficient.
+            locator: Interview with Otávio Peixotinho (after chapter 7)
+            locatorLabel: section
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+    quotation: >-
+      Originally a student of Rolls and later Carlson, Peixotinho is one of the most iconic and known
+      practitioners belonging to the second-wave.
+    locator: Interview with Otávio Peixotinho (after chapter 7)
+    locatorLabel: section
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - bjj

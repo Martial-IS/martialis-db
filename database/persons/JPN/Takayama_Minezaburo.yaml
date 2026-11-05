@@ -1,0 +1,56 @@
+type: Person
+id: 01M6EFVT2T1XK3H6D3NX8B1PNJ
+name:
+  ja-Latn: Takayama Minezaburō
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1832'
+  hasEvidence:
+  - basedOnSource: 01M6EF6KKAPHH4FA4HHSNRH76T
+    quotation: Takayama Minezaburo was born in 1832 (or 35 depending on the source*)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: 1899-02
+  deathPlace:
+    label: Osaka
+    countryCode: eucountry:JPN
+  hasEvidence:
+  - basedOnSource: 01M6EF6KKAPHH4FA4HHSNRH76T
+    quotation: In February 1899 Takayama passed away at the age of 65 in Osaka.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: >-
+    Jikishinkage-ryū and Kyōshin Meichi-ryū kenjutsu teacher from Ōzu domain; instructor at Toda
+    Ishinsai's dojo in Kyoto, then police kenjutsu head instructor in Shiga and Shimane under Koteda
+    Yasusada, and a leading fencer at the 1883 and 1884 Keishichō matches.
+hasTeacherAssertion:
+- id: 01M6EFVT2V8NSSDNMF7P2GWBTD
+  teacher: 01M377JZDNZ96VGFD0ZV9R53DR
+  assertedStyle: 01M377JZDNG2ZG3GZMAYS6Q574
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Single kenshi247 article.
+  hasInteraction:
+  - interactionPlace: 01M377JZDNCYZTPPRZKCJVXG28
+    hasEvidence:
+    - basedOnSource: 01M6EF6KKAPHH4FA4HHSNRH76T
+      quotation: At some point Takayama started to learn kenjutsu under Fujikawa Yajiro (Jikishinkage-ryu) [...] and finally with Momoi Junzo at Shigakukan
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M6EF6KKAPHH4FA4HHSNRH76T
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+notes: The article gives his birth year as 1832 or 1835, by source.
+tags:
+- kenjutsu

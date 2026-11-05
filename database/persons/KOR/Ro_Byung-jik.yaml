@@ -1,0 +1,64 @@
+type: Person
+id: 01M6BQSYG6AZ7S82TS12Y5H223
+name:
+  en: Ro Byung-jik
+aka:
+  en:
+    - No Pyŏng Jik
+    - Ro Byung Jik
+nationality:
+  - countryCode: eucountry:KOR
+    wikidata: wd:Q884
+birthEvent:
+  birthDate: '1919'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Leaders included Shotokan stylist Ro Byung Jik (1919–?).
+      locator: '199'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Korean karate teacher, founder of the Song Moo Kwan, one of the five original kwan of taekwondo. He
+    learned Shotokan karate from Funakoshi Gichin in Japan.
+hasTeacherAssertion:
+  - id: 01M6BQSYG649JZGYEHRZ6AGE7W
+    teacher: 01KJJAWN28MWKKSN4J02MVY1VB
+    assertedStyle: 01KYFZEGYN107JYC5K1539R8JM
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One academic history names Funakoshi; a second source gives the style only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+            quotation: >-
+              Yi, No Pyŏng Jik and Chŏn Sang Sŏp learned Shōtōkan karate directly from Funakoshi Gichin.
+            locator: '62'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Leaders included Shotokan stylist Ro Byung Jik (1919–?).
+            locator: '199'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q140622303
+tags:
+  - taekwondo
+  - karate
+  - kwan-founder

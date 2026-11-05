@@ -1,0 +1,47 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1SJ
+name:
+  ja-Latn: Hayashi Sakuichiro
+  ja: 林作一郎
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthPlace:
+    countryCode: eucountry:JPN
+deathEvent:
+  deathPlace:
+    countryCode: eucountry:JPN
+hasTeacherAssertion:
+- id: 01M3YH7N5G62DPDGBBPV98CYK3
+  teacher: 01KJJAWN28MWKKSN4J02MVY1SK
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9T
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Documented in historical lineage charts and dojo records showing direct student
+      relationship
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDA0
+      cite: 'Exkurs: Die moderne Geschichte der Katori Shintô ryû (Ein Leben für die Schwertkunst)'
+      quotation: >-
+        Iisasa Morisada (sieben direkte Schüler): Yamaguchi Kumajirô Eikan Mairaku / Tamai Saidô / Noguchi Jizaemon / Ono Heishichirô Moriichi / Shiina Ichizô / Hongû Toranosuke / Kaneko Shinoshô [...] Hayashi Saiichirô – Hayashi Yazaemon – Ôtake Risuke
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDA5
+      cite: Tenshinsho-den Katori Shinto Ryu - Shinbukan Dojo
+      quotation: Shinbukan Dojo’s practice of Katori Shinto Ryu follows the teachings passed down from
+        Hayashi Sakuichiro Shihan to Hayashi Yazaemon Shihan, who was then succeeded by Otake Risuke Shihan
+        (Shinbukan Dojo founder).
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KJJAWN29MA64W22606R3WDA5
+  cite: Tenshinsho-den Katori Shinto Ryu - Shinbukan Dojo
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct

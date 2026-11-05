@@ -1,0 +1,184 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD6D
+name:
+  ja-Latn: Fukuda Keiko
+  ja: 福田 敬子
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1913-04-12'
+  birthPlace:
+    label: Tokyo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1490
+deathEvent:
+  deathDate: '2013-02-09'
+  deathPlace:
+    label: San Francisco
+    countryCode: eucountry:USA
+    wikidata: wd:Q62
+description:
+  en: 'Keiko Fukuda (Japanese: 福田 敬子, Hepburn: Fukuda Keiko, April 12, 1913 – February 9, 2013) was a Japanese-American martial artist. She was the highest-ranked female judoka in history, holding the rank of 9th dan from the Kodokan (2006), and 10th dan from USA Judo (July 2011) and from the United States Judo Federation (USJF) (September 2011), and was the last surviving student of Kanō Jigorō, founder of judo. She was a renowned pioneer of women''s judo, together with her senpai Masako Noritomi (1913–1982) being the first woman promoted to 6th dan (c. 1972). In 2006 the Kodokan promoted Fukuda to 9th dan. She is also the first and, so far, only woman to have been promoted to 10th dan in the art of judo.'
+image:
+  contentUrl: https://assets.change.org/photos/7/kx/tf/pUKxTfavKIGEOvT-800x450-noPad.jpg
+  imageAttribution:
+    uri: https://www.change.org/p/uemura-haruki-demand-10th-degree-black-belt-for-keiko-fukuda
+    cite: "Change.org"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+  - id: 01M3YH7N5GE37ZMXYYKHXS95W0
+    teacher: 01KJJAWN28MWKKSN4J02MVY1S1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: While a very popular assertion, more direct proof is needed and Lance Gatling's analysis stands.
+    role: teachrole:student
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+        interactionPeriod:
+          startYear: 1935
+          endYear: 1966
+        hasEvidence:
+          - uri: https://books.google.pt/books?id=fNYDAAAAMBAJ&pg=PA29
+            cite: 'Johnson, G. (1974): «A single reed that bends gracefully in the wind.» Black Belt, 12(6):28–33.'
+            quotation: 'Keiko Fukuda is the granddaughter of Professor Jigoro Kano''s first jujitsu instructor. She began studying the art at Professor Kano''s request at age 21 and since that time has taught in Australia, Canada, the Philippines, the U.S. and, of course, the Kodokan where she has received all her promotions [...] In the Kodokan, sometimes we would all sit around the mat with Professor Kano and just talk and ask questions so we would know what each other was thinking'
+            locator: 29, 32
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - uri: https://kanochronicles.com/2024/04/09/was-fukuda-keiko-sensei-a-direct-student-of-kano-shihan-how-did-kano-shihan-approach-judo-training-for-women/
+            cite: Was Fukuda Keiko sensei a "direct student" of Kanō shihan? How did Kanō shihan approach jūdō training for women?(The Kano Chronicles© 嘉納歴代©)
+            quotation: 'Fukuda sensei devoted her life, effort and passion to judo [...] but I really doubt she was a “direct student” of Kanō shihan in any reasonable sense of the term.'
+            informationType: infotype:secondary
+            supports: false
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G7G1RWR35YKKW7SY8
+    teacher: 01KJJAWN28MWKKSN4J02MVY1SD
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Fukuda describes her training with Mifune in the 1974 Black Belt interview; own account only
+    role: teachrole:student
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+        interactionPeriod:
+          startYear: 1935
+          endYear: 1966
+        hasEvidence:
+          - uri: https://books.google.pt/books?id=fNYDAAAAMBAJ&pg=PA29
+            cite: 'Johnson, G. (1974): «A single reed that bends gracefully in the wind.» Black Belt, 12(6):28–33.'
+            quotation: Miss Fukuda, describing her training with the late Professor Kyuzo Mifune (10th dan)
+            locator: '33'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GS5TPNA4QKDSR0CN0
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 9
+    conferredBy: 01KJJAWN29MA64W22606R3WD7X
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Officially awarded by Kodokan in 2006, well-documented
+    hasEvidence:
+      - uri: https://en.wikipedia.org/wiki/Keiko_Fukuda
+        archiveUri: https://en.wikipedia.org/w/index.php?title=Keiko_Fukuda&oldid=1380861180
+        cite: Keiko Fukuda - Wikipedia
+        quotation: >-
+          In 2006, the Kodokan promoted Fukuda to 9th dan
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GG0XP0TS4P8F4WKEE
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 10
+    conferredBy: 01M4X6GT6AHJ4SX0QFGANTSB7J
+    dateConferred: '2011-07-28'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: USA Judo's own announcement; SFGate and Wikipedia agree.
+    hasEvidence:
+      - uri: https://wp.usjudo.org/Files/Internal_Files/eLetter/2011/20110801fukudaarticle.pdf
+        archiveUri: https://web.archive.org/web/20120720203348/https://wp.usjudo.org/Files/Internal_Files/eLetter/2011/20110801fukudaarticle.pdf
+        cite: 'Narimatsu, K. (2011): «USA Judo Promotes Professor Keiko Fukuda To 10th Dan!!!» USA Judo eLetter.'
+        quotation: On July 28, 2011, the promotion board of USA Judo conferred on Sensei Fukuda, the rank of 10th dan(Judan).
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - uri: https://www.sfgate.com/entertainment/article/judo-master-makes-10th-degree-black-belt-2336278.php
+        cite: Judo master makes 10th-degree black belt - SFGate (2011-08-06)
+        quotation: 'Last week, Sensei Keiko Fukuda of San Francisco became the first woman to be promoted to judo''s highest level: 10th degree black belt.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - uri: https://en.wikipedia.org/wiki/Keiko_Fukuda
+        archiveUri: https://en.wikipedia.org/w/index.php?title=Keiko_Fukuda&oldid=1380861180
+        cite: Keiko Fukuda - Wikipedia
+        quotation: She was the highest-ranked female judoka in history, holding the rank of 9th dan from the Kodokan (2006), and 10th dan from USA Judo (July 2011) and from the United States Judo Federation (USJF) (September 2011)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M4X6GT6AV5YV71V8YX4WZWF4
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 10
+    conferredBy: 01M4X6GT6A94FJTV2ZAW7QHY2P
+    dateConferred: '2011-09'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Her foundation and Wikipedia only; no USJF record found.
+    hasEvidence:
+      - uri: https://www.keikofukudajudofoundation.org/?page_id=5
+        archiveUri: http://web.archive.org/web/20260518093612/http://www.keikofukudajudofoundation.org/?page_id=5
+        cite: Keiko Fukuda Judo Foundation
+        quotation: Then, in 2011 Fukuda Shihan was granted 10th dan in Judo by USA Judo and US Judo Federation, the first woman ever to be honored in this way and the last surviving student of the founder of Judo.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - uri: https://en.wikipedia.org/wiki/Keiko_Fukuda
+        archiveUri: https://en.wikipedia.org/w/index.php?title=Keiko_Fukuda&oldid=1380861180
+        cite: Keiko Fukuda - Wikipedia
+        quotation: She was the highest-ranked female judoka in history, holding the rank of 9th dan from the Kodokan (2006), and 10th dan from USA Judo (July 2011) and from the United States Judo Federation (USJF) (September 2011)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - uri: https://en.wikipedia.org/wiki/Keiko_Fukuda
+    archiveUri: https://en.wikipedia.org/w/index.php?title=Keiko_Fukuda&oldid=1380861180
+    cite: Keiko Fukuda - Wikipedia
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://www.usjf.com/keiko-fukuda/
+    archiveUri: http://web.archive.org/web/20260520220458/https://www.usjf.com/keiko-fukuda/
+    cite: Keiko Fukuda | United States Judo Federation
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://judoinfo.com/fukuda/
+    archiveUri: http://web.archive.org/web/20250421105941/https://judoinfo.com/fukuda/
+    cite: 'A Lifetime of Judo: Keiko Fukuda | Judo Info'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://books.google.pt/books?id=fNYDAAAAMBAJ&pg=PA29
+    cite: 'Johnson, G. (1974): «A single reed that bends gracefully in the wind.» Black Belt, 12(6):28–33.'
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q460890
+  - dbr:Keiko_Fukuda

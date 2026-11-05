@@ -1,0 +1,39 @@
+type: Person
+id: 01M5HP2J2CQ8MKJJEH95G2BNSG
+name:
+  ja-Latn: Toharitaki Saburō
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+description:
+  en: >-
+    Early Kōdōkan judoka, one of the Kanō Juku students specialising in judo.
+hasTeacherAssertion:
+  - id: 01M5HP2J2CCCPZGCPNFB5G7EKP
+    teacher: 01KJJAWN28MWKKSN4J02MVY1S1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Kano's own account only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+            quotation: >-
+              Those who were specializing in judo included Shiro Saigo, Yoshitsugu Yamashita, Sakujiro
+              Yokoyama, Saburo Toharitaki, Nori Sato and Muneji Kimotsuki.
+            locator: '48'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+    locator: '48'
+    locatorLabel: page
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo

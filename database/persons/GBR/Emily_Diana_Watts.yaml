@@ -1,0 +1,146 @@
+type: Person
+id: 01M0A2FCGS8SSMPCGQ4BBNYH4M
+name:
+  en: Emily Diana Watts
+aka:
+  en:
+  - Diana Watts
+  - Mrs Roger Watts
+nationality:
+- countryCode: eucountry:GBR
+  wikidata: wd:Q145
+birthEvent:
+  birthDate: '1867'
+  birthPlace:
+    label: England
+    countryCode: eucountry:GBR
+  hasEvidence:
+  - basedOnSource: 01M0A2FCGSKAXA5PXEPTMMZZE5
+    informationType: infotype:secondary
+    supports: true
+    quotation: Born into a wealthy family in England during the latter Victorian era, she studied dance
+      from a young age.
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1968'
+  deathPlace:
+    label: England
+    countryCode: eucountry:GBR
+  hasEvidence:
+  - basedOnSource: 01M0A2FCGSKAXA5PXEPTMMZZE5
+    informationType: infotype:secondary
+    supports: true
+    quotation: Watts died in 1968 at the age of 101.
+    evidenceType: evidencetype:direct
+description:
+  en: 'Among the first female instructors of jujitsu in the Western world, and an innovator in physical
+    culture. By 1903
+
+    she joined the Golden Square dojo of Uyenishi and Akitaro Ono in London, and by 1906 was teaching
+    her own class of
+
+    boys at the Prince''s Skating Club. Her 1906 book The Fine Art of Jujitsu was the first English-language
+    work to
+
+    detail Kodokan judo kata (nage no kata). Her 1914 The Renaissance of the Greek Ideal presented an
+    original system
+
+    of calisthenics inspired by Greek statuary, and she spent four decades on the international lecture
+    circuit.
+
+    '
+notes: Emily Diana Watts performed alongside Phoebe Roberts at the December 1904 Caxton Hall demonstration
+  organized by the Japanese School of Ju-jitsu, alongside Tani, Uyenishi and others (per Callan/Heffernan/Spenn).
+  She taught jujitsu to Mary Russell, Duchess of Bedford c. 1905 (per the Wikipedia image caption). Akitaro
+  Ono, co-owner with Uyenishi of the Golden Square dojo Watts joined in 1903; the teacher interaction
+  here references only Uyenishi.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/d/d8/Mary_Russell_vs_Emily_Diana_Watts_c1905.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Mary_Russell_vs_Emily_Diana_Watts_c1905.jpg
+    cite: "George Beldam, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+- id: 01M3YH7N5G6TNYP7KD1QAGHK6G
+  teacher: 01M06FKBQ1AB6FKXQBFBFKKDRH
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9G
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: By 1903 Watts joined the Golden Square dojo run by Sadakazu Uyenishi and Akitaro
+      Ono in Piccadilly; both Wikipedia and Brough (2020) state she joined in 1903.
+  hasInteraction:
+  - interactionPlace: 01M06FKBQ1K6KP86BRFQR0JB7G
+    interactionPeriod:
+      startYear: 1903
+      endYear: 1906
+    hasEvidence:
+    - basedOnSource: 01M0A2FCGSKAXA5PXEPTMMZZE5
+      informationType: infotype:secondary
+      supports: true
+      quotation: By 1903 Watts had developed a strong interest in jujitsu and joined the Golden Square
+        dojo of Sadakazu Uyenishi and Akitaro Ono.
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M06FKBQ1CNG96GF3Q7N5CGT6
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+      quotation: Emily Diana Watts had also joined the Golden Square dojo in 1903 and in 1906 wrote The
+        Fine Art of Jujitsu.
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Watts (ca. 1865–?) had trained with Sadakazu Uyenishi (1880–?), one of several jujutsu
+        practitioners whom Barton-Wright had brought to England in 1900, and his student William Garrud
+        (dates unknown).
+      locator: '634'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M5JWEV42SS59E8FJKM080KCN
+  teacher: 01M06K0RMZQGVPYVTGDGGGQX17
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9G
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Single source.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Watts (ca. 1865–?) had trained with Sadakazu Uyenishi (1880–?), one of several jujutsu
+        practitioners whom Barton-Wright had brought to England in 1900, and his student William Garrud
+        (dates unknown).
+      locator: '634'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M0A2FCGSKAXA5PXEPTMMZZE5
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M06FKBQ1CNG96GF3Q7N5CGT6
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0A2FCGSAVG29MH0H9GBK9SK
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M07HCGJGDPR24S4J0JWFFH68
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q5372141
+tags:
+- jujutsu
+- pioneer
+- women-jujutsu
+- united-kingdom

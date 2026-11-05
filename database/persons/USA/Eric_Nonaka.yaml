@@ -1,0 +1,68 @@
+type: Person
+id: 01M6C5JZZG2WYA6CEBBXVD0JC9
+name:
+  en: Eric Nonaka
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+description:
+  en: >-
+    Hawaiian Ki-Aikido teacher on Oahu, son of Takashi Nonaka. He began aikido in Hilo in 1962 and
+    trained in Koichi Tohei's live-in programme in Japan in 1976-1977.
+hasTeacherAssertion:
+  - id: 01M6C5JZZGPRTNBXJXK598KJ1F
+    teacher: 01M6C5JZZGATS0MQB2WF5SP8BV
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source; a family account.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1971
+        hasEvidence:
+          - basedOnSource: 01M6C5JZZGGKZVG5VVNGV0F0HD
+            quotation: >-
+              Until Eric earned his shodan, Mr. Nonaka left his training to other instructors, as parents
+              are often too hard on their children. However, once Eric was graded, then Mr. Nonaka took
+              charge of his training.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M6C5JZZGMCP4Z6AAK4PRS17B
+    teacher: 01KZSRDXQW9QBDT9VR9P08RBYT
+    assertedStyle: 01KZVDNBGA54136HEJ1NB9AC1H
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source; his own account.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1976
+          endYear: 1977
+        hasEvidence:
+          - basedOnSource: 01M6C5JZZGGKZVG5VVNGV0F0HD
+            quotation: >-
+              Since Eric was, physically, the largest member of the group, Tohei Sensei often used him as
+              his uke.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6C5JZZGGKZVG5VVNGV0F0HD
+            quotation: >-
+              Eric received his 3-dan grading from Tohei Sensei in January 1977, the very day he left
+              Japan for home.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C5JZZGGKZVG5VVNGV0F0HD
+    quotation: Today Eric teaches aikido at the Miliani Hongwanji on Oahu, and he was graded 6-dan in early 2000.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - aikido
+  - hawaii

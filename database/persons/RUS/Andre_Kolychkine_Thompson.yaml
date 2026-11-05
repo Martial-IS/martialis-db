@@ -1,0 +1,120 @@
+type: Person
+id: 01KZM8EFMVHGQA389F4WB4335V
+name:
+  en: André Kolychkine Thompson
+aka:
+  en:
+    - A. Kolychkine
+    - Andrés Kolychkine
+nationality:
+  - countryCode: eucountry:RUS
+    wikidata: wd:Q159
+  - countryCode: eucountry:SUN
+    wikidata: wd:Q15180
+  - countryCode: eucountry:CUB
+    wikidata: wd:Q241
+birthEvent:
+  birthDate: '1913-03-11'
+  birthPlace:
+    label: Saint Petersburg
+    countryCode: eucountry:RUS
+    wikidata: wd:Q656
+  hasEvidence:
+    - basedOnSource: 01KZM8EFMV2MD5F30YEK51ES15
+      quotation: Nació el 11 de marzo de 1913 en alguna ciudad de Finlandia, pero fue bautizado en San Petersburgo (Imperio ruso).
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1997-03-12'
+  deathPlace:
+    label: Havana
+    countryCode: eucountry:CUB
+    wikidata: wd:Q1563
+  hasEvidence:
+    - basedOnSource: 01KZM8EFMV2MD5F30YEK51ES15
+      quotation: Falleció en Cuba, el 12 de marzo de 1997, a los 84 años de edad.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: 'Judoka and coach considered the father of Cuban judo. Born in Finland and baptized in Saint Petersburg, he studied in Paris under Jean de Herdt, a disciple of Mikinosuke Kawaishi. Commissioned by Kawaishi, he introduced judo to Cuba in 1951, founded the Cuban Judo Foundation, and promoted the creation of the Pan American Judo Union. Director of the Cuban Judo Federation, coach of the national team, and author of "Judo: nueva didáctica"; reached 6th dan. Bert Becerra''s first teacher.
+
+'
+image:
+  contentUrl: https://kolychkinejudo.com/wp-content/uploads/2016/11/sensei-andre-kolychkine.jpg
+  imageAttribution:
+    uri: https://kolychkinejudo.com/about/
+    cite: "A. Kolychkine Judo Foundation"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+  - id: 01M3YH7N5GQ0P3NXW0WB9YS5BT
+    teacher: 01KZMEB6EEGNN58328J45YXA9T
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: EcuRed states Kolychkine was a student of Jean de Herdt in Paris, himself a disciple of Mikinosuke Kawaishi, founder of European judo
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KZM8EFMV2MD5F30YEK51ES15
+            quotation: En París fue alumno del sensei Jean de Herdt [...] quien a su vez era discípulo de Mikinosuke Kawaishi
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GCVT5E47RPZBEP6DT
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 6
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: EcuRed records that Kolychkine reached 6th dan; note that the Kolychkine Judo Foundation page instead describes him as an 8th degree black belt, so the two sources conflict
+    hasEvidence:
+      - basedOnSource: 01KZM8EFMV2MD5F30YEK51ES15
+        quotation: Alcanzó el grado de sexto dan.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GF9YXN0DBP3CE352D
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 8
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The A. Kolychkine Judo Foundation, run by his disciples, describes him as an 8th degree black belt, while EcuRed states he reached 6th dan - the two sources conflict
+    hasEvidence:
+      - basedOnSource: 01KZMEB6EEYW083ME5NSCNY95F
+        quotation: >-
+          Master Kolychkine, black belt 8th degree, developed the "new didactic of Judo" a comprehensive new approach to Judo teaching with a Ph.D. in education.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZM8EFMV2MD5F30YEK51ES15
+    quotation: Se le considera el introductor del judo en Cuba [...] Alcanzó el grado de sexto dan.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZM7FWX5NZ9PJDYNDTZPN1P9
+    locator: senseiF.html
+    locatorLabel: title-locator
+    quotation: 'A. Kolychkine: Becerra''s first teacher and the Father of Cuban Judo'
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZMEB6EEYW083ME5NSCNY95F
+    quotation: >-
+      André Kolychkine Thomson was the founder of Pan-American Judo in Cuba. Master Kolychkine, black belt 8th degree, developed the "new didactic of Judo" a comprehensive new approach to Judo teaching with a Ph.D. in education.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - cuba
+  - father-of-cuban-judo

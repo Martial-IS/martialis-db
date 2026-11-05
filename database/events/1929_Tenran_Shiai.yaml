@@ -1,0 +1,45 @@
+type: Event
+id: 01M37J0JPXENH0T57AYM3M4W4V
+name:
+  en: First Tenran budo tournament (1929)
+  ja: 天覧試合
+eventType: eventclass:tournament
+eventDate: 1929-05-04/1929-05-05
+location:
+  label: Kyoto
+  countryCode: eucountry:JPN
+  wikidata: wd:Q34600
+about:
+  - 01KYHNJKQDTEJ1A5MQ5JYPHDTB
+hasParticipation:
+  - id: 01M3YH7N5FE5ERW6FC835Y365K
+    participant: 01M37HHSSMJZMQ23G7DSWVKT9V
+    participationRole: eventrole:competitor
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Bennett names him as the winner of the kendo competition in the specially selected division.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: In the division for specially selected competitors, Mochida Moriji won the kendo competition and Kurihara Tamio won the judo competition.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: First of the three Tenran tournaments held in Kyoto to decide the best fencer in Japan, contested before the emperor. Mochida Moriji won the kendo competition in the division for specially selected competitors.
+notes: Kurihara Tamio, who won the judo competition, has no record here.
+hasEvidence:
+  - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+    quotation: Conservatives felt that the first of the three Tenran competitions held in Kyoto in 1929 to decide the 'best fencer in Japan'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+    quotation: the first judo and kendo tournament was held May 4-5, 1929.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - kendo
+  - judo
+  - tenran

@@ -1,0 +1,134 @@
+type: Person
+id: 01M6EHHZQ6NZ47G908FJT6Q63D
+name:
+  en: Islam Makhachev
+  ru: Ислам Рамазанович Махачев
+nationality:
+- countryCode: eucountry:SUN
+  wikidata: wd:Q15180
+- countryCode: eucountry:RUS
+  wikidata: wd:Q159
+birthEvent:
+  birthDate: '1991-10-27'
+  birthPlace:
+    label: Makhachkala
+    countryCode: eucountry:SUN
+    wikidata: wd:Q5168
+  hasEvidence:
+  - basedOnSource: 01M6EHHZQ6CD13C9SWZ9C0AQTT
+    quotation: >-
+      born 27 October 1991
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6EHHZQ6CD13C9SWZ9C0AQTT
+    quotation: >-
+      Makhachev was born in Makhachkala
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/a/ac/Islam_Makhachev_2022_UFC_belt.png
+  rights: mediarights:cc-by-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Islam_Makhachev_2022_UFC_belt.png
+    cite: "Новости ННТ, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    Russian mixed martial artist; UFC lightweight and welterweight champion.
+hasTeacherAssertion:
+- id: 01M6EHHZQ65093JK8PKJFRQX2D
+  teacher: 01M6EHHZQ630H4W9GG5BW8S1R1
+  assertedStyle: 01KYSS3B587WR241FHHW19X24T
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Abdulmanap's own account; Sport-Express and Wikipedia agree
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M6EHHZQ67YCHHZFGH5YXRC8E
+      quotation: >-
+        Это была моя досадная ошибка в тренерской работе!
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6EHHZQ6JZ9SCQW9JQP6H5CW
+      quotation: >-
+        В числе знаменитых воспитанников Абдулманапа — Хабиб, Ислам Махачев
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6EHHZQ6CD13C9SWZ9C0AQTT
+      quotation: >-
+        He trained in freestyle wrestling for a year but switched to mixed martial arts under Abdulmanap Nurmagomedov
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M6EHHZQ60J1MYN8881DSZBMT
+  teacher: 01KZQ7BS7KRNM0NPD97WPGG2P2
+  assertedStyle: 01KYSS3B587WR241FHHW19X24T
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Sherdog and Abdulmanap's own account agree
+  hasInteraction:
+  - interactionPlace: 01KZQ7BS7KJ444KWAH72XGN2NT
+    hasEvidence:
+    - basedOnSource: 01M6EHHZQ6F607YSKAMN369E69
+      quotation: >-
+        Mendez is now coach to UFC lightweight champ Islam Makhachev (26-1), Bellator lightweight champ Usman Nurmagomedov (17-0) and UFC bantamweight contender Umar Nurmagomedov (13-0)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6EHHZQ67YCHHZFGH5YXRC8E
+      quotation: >-
+        Бой Ислама Махачева с Мартинсом в Америке. Я согласился с Хавьером Мендесом, пустил Ислама в размен ударами.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M6EJDB0RWXYWTZBKWJAAAPBC
+  teacher: 01KZQ7BS7KE7CA2V6JEWMWZ7SW
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Vieira's own account only, naming Makhachev among several AKA fighters
+  hasInteraction:
+  - interactionPlace: 01KZQ7BS7KJ444KWAH72XGN2NT
+    interactionPeriod:
+      endYear: 2018
+    hasEvidence:
+    - basedOnSource: 01M6EHHZQ6RBNPF6DF3QM724BG
+      quotation: >-
+        “When I arrived at AKA, guys like Khabib, [Luke] Rockhold and [Islam] Makhachev already had a
+        very good level on the ground. But our work together was very important to evolve their MMA
+        game,” he said.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6EHHZQ6RBNPF6DF3QM724BG
+      quotation: >-
+        For many years Leandro Vieira was responsible for sharpening the jiu-jitsu of American
+        Kickboxing Academy athletes, but in 2018, that partnership came to an end.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M6EHHZQ6CD13C9SWZ9C0AQTT
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q18637676
+tags:
+- mma
+- combat-sambo
+- ufc
+- aka

@@ -1,0 +1,33 @@
+type: Person
+id: 01M5JSGG50V1JFGBGKXYA008D4
+name:
+  en: Sebastiano Marozzo
+description:
+  en: >-
+    Son and student of Achille Marozzo in Bologna; nothing else is known here.
+hasTeacherAssertion:
+  - id: 01M5JSGG50YWY427X95HEN3SWB
+    teacher: 01M5JSGG50423XV4WT85WN3PTG
+    assertedStyle: 01M5JSGG50SFSZ8CE3WR46RWC6
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JSGG50DGJAP2ZGAH7HKD5W
+            quotation: >-
+              Marozzo's students included Giovanni Battista da i Letti, Giacomo Crafter d'Agusta, and his
+              son Sebastiano Marozzo
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JSGG50DGJAP2ZGAH7HKD5W
+    informationType: infotype:secondary
+    supports: true
+tags:
+  - fencing
+  - bolognese-school

@@ -1,0 +1,75 @@
+type: Person
+id: 01M6BGZPMBX32M2V9ERYMS4QKR
+name:
+  ja-Latn: Sawada Hanae
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1917'
+  hasEvidence:
+  - basedOnSource: 01M6BGZPMB9HXA4YD36CVR10SR
+    locator: 'Contributor note'
+    locatorLabel: section
+    quotation: 'Sawada Hanae was born in 1917 and has been training for over seventy years.'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: >-
+    Naginata teacher in Tokyo of Tendo-ryu and atarashii naginata, trained at the Butokukai school in Kyoto from 1934; hanshi of the All-Japan Naginata Federation.
+hasEvidence:
+- basedOnSource: 01M6BGZPMB9HXA4YD36CVR10SR
+  locator: 'Contributor note'
+  locatorLabel: section
+  quotation: 'She holds the hanshi certification from the All-Japan Naginata Federation, and teaches both atarashii naginata and Tendo-ryu in Tokyo.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M6BGZPMB8Q15X1T263DT6E5V
+  teacher: 01M6BGZPMBSZFED2M100XCXRZX
+  assertedStyle: 01M6BGZPMB3S87S2PY9MH5CTH8
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Her own account (interview with her student Meik Skoss); one side.
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD99
+    interactionPeriod:
+      startYear: 1934
+    hasEvidence:
+      - basedOnSource: 01M6BGZPMB9HXA4YD36CVR10SR
+        locator: 'The Meaning of Martial Arts Training'
+        locatorLabel: section
+        quotation: 'I believe you studied directly under the former headmaster, Mitamura Chiyo.'
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M6BGZPMB9HXA4YD36CVR10SR
+        locator: 'The Meaning of Martial Arts Training'
+        locatorLabel: section
+        quotation: 'In 1934. What we, or at least I myself, did at the Butokukai in Kyoto was to practice six or seven hours a day.'
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+hasHonorAssertion:
+- id: 01M6BGZPMB1EGJRNYYS8BT39HX
+  honorValue: Hanshi
+  honorType: honortype:title
+  honorGrade: honorgrade:shogo_hanshi
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The book’s contributor note states it; the All-Japan Naginata Federation has no record. No date.
+  hasEvidence:
+  - basedOnSource: 01M6BGZPMB9HXA4YD36CVR10SR
+    locator: 'Contributor note'
+    locatorLabel: section
+    quotation: 'She holds the hanshi certification from the All-Japan Naginata Federation, and teaches both atarashii naginata and Tendo-ryu in Tokyo.'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+notes: >-
+  Daughter of the kendo teacher Yoshida Seiko (Shindo Munen-ryu), in whose dojo she trained from the second grade; also taught by a "Chiba Sensei" (not identified). Left the Busen in her fourth year with pleurisy. Taught at the Shinjuku Naginata Dojo (1996).

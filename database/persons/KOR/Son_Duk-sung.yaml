@@ -1,0 +1,58 @@
+type: Person
+id: 01M6BQSYG6P8QZSB7WQ06F6PBB
+name:
+  en: Son Duk-sung
+  ko: 손덕성
+aka:
+  en:
+    - Son Duk Sung
+    - Duk Sung Son
+nationality:
+  - countryCode: eucountry:KOR
+    wikidata: wd:Q884
+description:
+  en: >-
+    Korean taekwondo teacher, a student of Lee Won-kuk and his successor as head of the Chung Do Kwan. He
+    later claimed he crafted the name taekwondo at the 1955 naming session, a claim Choi Hong-hi also made.
+    With Kang Won-shik he promoted Choi to an honorary 4th dan in 1955. His style was Shotokan karate.
+hasTeacherAssertion:
+  - id: 01M6BQSYG6912YJQZF6RE4H1JC
+    teacher: 01M5CM3YFSZZQ2V5RFX27JCRDX
+    assertedStyle: 01KYFXCETR9R1BNFD5T82H1G8P
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One academic history.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+            quotation: >-
+              fails to mention that his instructor, Yi Wŏn’Guk, had learned karate directly from Funakoshi.
+            locator: '80'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+    quotation: >-
+      Son Duk Sung (the successor of Yi Wŏn’ Guk at Ch’ŏng-Do Kwan)
+    locator: '80'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+    quotation: >-
+      also claimed later that he was in charge of crafting the term ‘taekwondo’ at that meeting
+    locator: '59'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q5312696
+tags:
+  - taekwondo
+  - tang-soo-do

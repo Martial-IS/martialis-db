@@ -1,0 +1,101 @@
+type: Style
+id: 01KZ6XT5DSFQG9TRGDK9AQFZCW
+name:
+  ja-Latn: Iaijutsu
+  ja: 居合術
+description:
+  en: 'Iaijutsu (居合術) is the combative quick-draw sword technique, one of the koryu
+
+    (classical) disciplines of the Japanese warrior. It focuses on the drawing of the
+
+    katana and immediate response to an attack, a counter-attack-oriented art developed
+
+    for the relatively static applications of the warrior''s daily life rather than the
+
+    battlefield. Originally a part of kenjutsu, it became a dedicated discipline as
+
+    masters concentrated exclusively on the drawing of the sword. Koryu schools that
+
+    include iaijutsu in their curriculum include Musō Jikiden Eishin-ryū, Suiō-ryū,
+
+    Mugai-ryū, Tenshin Shōden Katori Shintō-ryū and Hōki-ryū. Its modern form is iaido.
+
+    '
+  pt: 'Iaijutsu (居合術) é a técnica combativa de desembainhar rapidamente a espada, uma das
+
+    disciplinas koryu (clássicas) do guerreiro japonês. Foca-se no desembainhar da katana
+
+    e na resposta imediata a um ataque, uma arte orientada para o contra-ataque, desenvolvida
+
+    para as aplicações relativamente estáticas da vida quotidiana do guerreiro em vez do campo
+
+    de batalha. Originalmente parte do kenjutsu, tornou-se uma disciplina dedicada à medida
+
+    que os mestres se concentravam exclusivamente no desembainhar da espada. Escolas koryu
+
+    que incluem iaijutsu no seu currículo incluem Musō Jikiden Eishin-ryū, Suiō-ryū, Mugai-ryū,
+
+    Tenshin Shōden Katori Shintō-ryū e Hōki-ryū. A sua forma moderna é o iaido.
+
+    '
+foundedEvent:
+  hasEvidence:
+  - basedOnSource: 01KZ6XT5DS3B4WD16YM3B0VK1M
+    quotation: Iaijutsu (居合術) is a combative quick-draw sword technique. This art of drawing the katana
+      is one of the Japanese ko-ryū martial art disciplines in the education of the classical warrior
+      (bushi).
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ6XT5DS1SG76Z7PMSDEZ413
+    quotation: Originally, iaijutsu was a part of kenjutsu. With time, some masters concentrated exclusively
+      on drawing the sword from the sheath and its applications in fighting.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasStyleRelationAssertion:
+- id: 01M3YH7N5GFDA2SKBG34QDBT1F
+  relatedStyle: 01KYHNJKQDTEJ1A5MQ5JYPHDTB
+  styleRelationType: stylerel:variant_of
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Iaijutsu is the drawing-focused subset of kenjutsu's broad sword umbrella - originally
+      a part of kenjutsu before becoming a dedicated discipline - so iaijutsu practitioners count as kenjutsu
+      practitioners; per musoshindenryu.fi 'originally, iaijutsu was a part of kenjutsu'.
+  hasEvidence:
+  - basedOnSource: 01KZ6XT5DS1SG76Z7PMSDEZ413
+    quotation: Originally, iaijutsu was a part of kenjutsu. With time, some masters concentrated exclusively
+      on drawing the sword from the sheath and its applications in fighting.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ6XT5DS3B4WD16YM3B0VK1M
+    quotation: kenjutsu, which deals with the art of swordsmanship as it is performed with an unsheathed
+      sword, is the preceding form of iaijutsu.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZ6XT5DS3B4WD16YM3B0VK1M
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ6XT5DS1SG76Z7PMSDEZ413
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q867731
+tags:
+- japanese-martial-arts
+- iaijutsu
+- koryu
+- swordsmanship
+styleType: styleclass:traditional
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/3/31/Iaijutsu.jpg
+    rights: mediarights:public_domain_mark
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:Iaijutsu.jpg
+      cite: "Kendobr, Wikimedia Commons"

@@ -1,0 +1,108 @@
+type: Person
+id: 01M69YCGCS0E47F5S814PQEZWQ
+name:
+  en: Jiu Wan
+  yue: 招允
+  zh: 招允
+  zh-Latn: Zhao Yun
+nationality:
+  - countryCode: eucountry:CHN
+    wikidata: wd:Q148
+birthEvent:
+  birthDate: '1921'
+  birthPlace:
+    label: Foshan
+    countryCode: eucountry:CHN
+    wikidata: wd:Q34412
+  hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        His nephew, Jiu Wan (1921–1973), is also an important figure in the art’s history.
+      locator: '191'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        Jiu Wan was born in Foshan and initially studied Wing Chun with his cousin Jiu Tong (a
+        grand-student of Chan Wah Shun).
+      locator: '191'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1973'
+  hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        His nephew, Jiu Wan (1921–1973), is also an important figure in the art’s history.
+      locator: '191'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Wing Chun teacher from Foshan, nephew and student of Jiu Chao. He taught at the Foshan Jingwu
+    Association in the late 1940s, fled to Hong Kong in 1949, joined Ip Man and later ran a large
+    school there.
+notes: >-
+  Judkins and Nielson pp. 191-192, 229-230, 244. First teacher: his cousin Jiu Tong, a student of
+  Chan Yiu-min (not recorded). Introduced Lee Shing to Ip Man in 1954 (p. 230). Wikidata gives 1929-1974.
+hasTeacherAssertion:
+  - id: 01M69YCGDDV13C3JREZ50J5JPD
+    teacher: 01M69YCGCQGS9JTBB7ZDPC1KTX
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              Later he studied with his uncle, Jiu Chao, also a student of Chan Yiu Min.
+            locator: '229'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M69YCGDEJ9AN7XH58JWCN90B
+    teacher: 01KYD5XMNM4DH8KAWBC1TE9BDJ
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: Single source; it notes that his own lineage disputes the relationship.
+    notes: >-
+      Judkins and Nielson p. 191: the exact nature of the relationship is a matter of some controversy
+      in the Jiu Wan lineage.
+    hasInteraction:
+      - interactionPeriod:
+          endYear: 1972
+        hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              The two Foshan natives established a tight relationship and Jiu Wan followed his new teacher
+              until his death in 1972.
+            locator: '230'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: 191-192, 229-230
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q90242076
+tags:
+  - wing-chun
+  - chinese-martial-arts

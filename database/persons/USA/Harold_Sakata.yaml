@@ -1,0 +1,84 @@
+type: Person
+id: 01KYFYZCMHDH93FTPT3DXYNCXJ
+name:
+  en: Harold Sakata
+  ja: 坂田 敏行
+aka:
+  en:
+  - Toshiyuki Sakata
+  - Tosh Togo
+  - Mr. Sakata
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+birthEvent:
+  birthDate: '1920-07-01'
+  birthPlace:
+    label: Holualoa
+    countryCode: eucountry:USA
+    wikidata: wd:Q5884423
+  hasEvidence:
+  - basedOnSource: 01KYFYZCMHAEFXKENDDGG4R2SJ
+    quotation: >-
+      Born Toshiyuki Sakata July 1, 1920
+    cite: Harold Sakata (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1982-07-29'
+  deathPlace:
+    label: Honolulu
+    countryCode: eucountry:USA
+    wikidata: wd:Q18094
+  hasEvidence:
+  - basedOnSource: 01KYFYZCMHAEFXKENDDGG4R2SJ
+    quotation: >-
+      Died July 29, 1982 (aged 62)
+    cite: Harold Sakata (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: American Olympic silver medalist in weightlifting (1948 London), professional wrestler as Tosh Togo,
+    and actor best known as Oddjob in James Bond's Goldfinger. He wrestled for the Japan Pro Wrestling
+    Alliance and trained Rikidōzan alongside Bobby Bruns during the 1951-1952 tour of Japan.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/en/a/a9/Harold_Sakata.jpg
+  imageAttribution:
+    uri: https://en.wikipedia.org/wiki/File:Harold_Sakata.jpg
+    cite: "English Wikipedia"
+    informationType: infotype:secondary
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M6C5MBP3PS5B4KCNWYB1PSKV
+    teacher: 01M6C5JZZGF497JRQVEXBY4CAZ
+    assertedStyle: 01KYJ39BQPQ7JTTDQ3B36PZQQN
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source; professional wrestling instruction, stated outright.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C5JZZGTY23SJ30100D1RMB
+            quotation: >-
+              Sakata’s wrestling instructors included the former professional wrestlers Tetsuro
+              ("Rubberman") Higami and Ben Sherman.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KYFYZCMHAEFXKENDDGG4R2SJ
+  cite: Harold Sakata (Wikipedia EN)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q499508
+tags:
+- professional-wrestling
+- catch-wrestling
+- olympic-weightlifting
+- japan-pro-wrestling-alliance
+- actor

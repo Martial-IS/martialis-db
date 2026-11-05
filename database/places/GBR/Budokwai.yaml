@@ -1,0 +1,101 @@
+type: Place
+id: 01KY52HE49EXT0704VAEYG0W59
+name:
+  en: Budokwai
+  ja: 武道会
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: London
+      countryCode: eucountry:GBR
+      wikidata: wd:Q84
+hasAffiliationAssertion:
+  - id: 01M3YH7N5GCHV0YGDV0B6GYDJT
+    relatedOrganization: 01M325EAQG4P41V98G5PZWNJ4F
+    affiliationRelation: affrel:branch_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Budokwai dojo in London is the headquarters facility of the Budokwai organization itself - the twin-entity case (like the Kodokan), not a separately-governed member.
+    notes: The Budokwai's own dojo; this Place is how the Budokwai Organization occupies physical space.
+    hasEvidence:
+      - basedOnSource: 01KY52HE43YW6GXDPGPTRD08ZB
+        quotation: Koizumi secured a location in Lower Grosvenor Place, along the back wall of Buckingham Palace, and the Budokwai's premises opened on 26 January 1918.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M4R9845W5DP6VA07YQPZVGB5
+    instructor: 01M06K0RMZNWJ90EEQ7CXBFHGS
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1918
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01M06K0RMZV3APZVDQBBYVCKEQ
+        quotation: In 1918, Tani became the first professional teacher at the London Budokwai, created by his countryman Gunji Koizumi initially teaching jiujitsu.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M4R8589M0V9C3XZMSYYVJ42S
+        quotation: Koizumi became the first president of the Budokwai and Yukio Tani the first chief judo instructor.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+        quotation: >-
+          After leaving Italy, I journeyed to England to meet again Gunji Koizumi and Yukio Tani, both
+          3rd dan grade holders. They were living in London and were engaged as judo instructors at the
+          Budokwai judo club
+        locator: '129'
+        locatorLabel: page
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5H3D2EC51RX6AEGD9TA95WF
+    instructor: 01KY52HE48XM1KHDGKBV98YRQ2
+    instructorCapacity: instrcap:instructor
+    instructorPeriod:
+      startYear: 1928
+    notes: Kano's visit of 1928 is the date of the account, not the start of the role.
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Kano's own account only.
+    hasEvidence:
+      - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+        quotation: >-
+          After leaving Italy, I journeyed to England to meet again Gunji Koizumi and Yukio Tani, both
+          3rd dan grade holders. They were living in London and were engaged as judo instructors at the
+          Budokwai judo club
+        locator: '129'
+        locatorLabel: page
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1918-01-26'
+  founder:
+    - 01KY52HE48XM1KHDGKBV98YRQ2
+website: https://budokwai.co.uk
+hasEvidence:
+  - basedOnSource: 01KY52HE43YW6GXDPGPTRD08ZB
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KY4XTGWDFZB108B7ZN44GSDS
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M06K0RMZV3APZVDQBBYVCKEQ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3646473
+tags:
+  - judo
+  - oldest

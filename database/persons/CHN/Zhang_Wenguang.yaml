@@ -1,0 +1,147 @@
+type: Person
+id: 01M0QCH9A4R6FMNQMVNZS6HNKK
+name:
+  en: Zhang Wenguang
+  zh: 张文广
+nationality:
+- countryCode: eucountry:CHN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1915-01-15'
+  birthPlace:
+    label: Tongxu
+    countryCode: eucountry:CHN
+    wikidata: wd:Q1198540
+deathEvent:
+  deathDate: '2010-11-27'
+  deathPlace:
+    label: Beijing
+    countryCode: eucountry:CHN
+    wikidata: wd:Q956
+hasTeacherAssertion:
+- id: 01M3YH7N5GGM0M0RZ4NY7PFDRZ
+  teacher: 01M0QCH9A4WS06N81F15MDGTY1
+  assertedStyle: 01M0QCH9A486Y0EP2962ACKDAM
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Multiple independent sources confirm Zhang Wenguang studied Cha Quan under Chang
+      Zhenfang from 1929; Beijing Sport University memorial and 21wushu.com biography both state this
+      explicitly
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1929
+      endYear: 1933
+    hasEvidence:
+    - basedOnSource: 01M0QCH9A4JTJMMK1W61ARV8KD
+      quotation: 1929年跟随近代查拳大师常振芳老师，钻研查拳体系的各种拳械套路
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M0QCH9A4QVKGQ813SHYPETY6
+      quotation: 1929年跟随近代查拳大师常振芳老师，钻研查拳体系的各种拳械套路
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasHonorAssertion:
+- id: 01M3YH7N5G7MX57F5W32T9KS4R
+  honorValue: 9th Duan
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      21wushu.com's official biography states the 9th duan rank; the BSU memorial reproduces the same
+      biography, so not independent.
+  hasEvidence:
+  - basedOnSource: 01M0QCH9A4QVKGQ813SHYPETY6
+    quotation: >-
+      荣获我国武术段位制最高段位九段
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5GGJFGVF7CWDKP4XH8
+  honorValue: Three Martial Arts Titans (武林三泰斗)
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Beijing Sport University's memorial states this title; 21wushu.com reproduces the same biography,
+      so not independent.
+  hasEvidence:
+  - basedOnSource: 01M0QCH9A4JTJMMK1W61ARV8KD
+    quotation: >-
+      被誉为中国武术三泰斗之一。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5GWVGH87B88170MKEW
+  honorValue: Top Ten Wushu Professors (十大武术名教授)
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      21wushu.com's official biography states this title; the BSU memorial reproduces the same
+      biography, so not independent.
+  hasEvidence:
+  - basedOnSource: 01M0QCH9A4QVKGQ813SHYPETY6
+    quotation: >-
+      退休以后，被评为全国"十大武术名教授"
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5GJ2KWHZ5YNGK17X7V
+  honorValue: International Wushu Contribution Award
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      21wushu.com's official biography states this award; the BSU memorial reproduces the same
+      biography, so not independent.
+  hasEvidence:
+  - basedOnSource: 01M0QCH9A4QVKGQ813SHYPETY6
+    quotation: >-
+      先后荣获了体育工作30年荣誉奖、新中国体育开拓奖、中华人民共和国体育运动荣誉奖、国际武术贡献奖等近30余种表彰和奖励
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M0QCH9A4JTJMMK1W61ARV8KD
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0QCH9A4QVKGQ813SHYPETY6
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0SJFKG9WN8MXJGRHQP5AY0R
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- chinese-martial-arts
+- wushu
+- chaquan
+- coach
+- educator
+- hui
+image:
+  contentUrl: https://bkimg.cdn.bcebos.com/pic/95eef01f3a292df5e0fe434d18684b6034a85edfd56b
+  imageAttribution:
+    uri: https://baike.baidu.com/item/%E5%BC%A0%E6%96%87%E5%B9%BF/11132
+    cite: "Baidu Baike"
+    informationType: infotype:secondary
+description:
+  en: Chinese Hui martial artist, educator, and 9th duan wushu master. Co-founder of Beijing Sport University's
+    wushu department and one of China's 'Three Martial Arts Titans' (武林三泰斗). Born in Tongxu, Henan. Studied
+    Cha Quan under master Chang Zhenfang from 1929, then systematized multiple martial arts at the Nanjing
+    Central Guoshu Institute from 1933 under masters Huang Bonian, Jiang Rongqiao, and others. Won the
+    1934 national lightweight Chinese wrestling championship. Performed at the 1936 Berlin Olympics - 
+    the first time Chinese martial arts were showcased on the Olympic stage - demonstrating Cha Quan,
+    Plum Blossom Saber, and Suokou Spear, with the 'Empty Hands Seize Spear' routine performed alongside
+    Wen Jingming earning ovations. Co-drafted China's first Wushu Competition Rules in 1958. Trained Wu
+    Bin, Li Junfeng, and generations of wushu coaches and athletes. Authored over 10 treatises including
+    Chinese Cha Quan, Cha Quan Comprehensive Forms, Youth Fist, Chinese Wrestling, Broadcast Taijiquan,
+    Women's Self-Defense, and散手拳法. Vice Chairman of the Chinese Wushu Association. Received over 30 honors
+    including the New China Sports Pioneer Award, National Sports Honor Medal, and International Wushu
+    Contribution Award.

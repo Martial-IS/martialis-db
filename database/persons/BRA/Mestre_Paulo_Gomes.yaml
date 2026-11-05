@@ -1,0 +1,49 @@
+type: Person
+id: 01M6A2VG2VT9KN6923M9E64QJR
+name:
+  pt: Mestre Paulo Gomes
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Capoeira mestre from Bahia, a student of Artur Emídio in Rio de Janeiro, who moved to São Paulo
+    and in 1984 founded the Brazilian Capoeira Association (ABRACAP), first called ACAESP.
+hasTeacherAssertion:
+  - id: 01M6A2VG36XGFP7TEKFR96N00Y
+    teacher: 01M6A2VG2RR2PSNY7VEP7M3PH0
+    assertedStyle: 01M5H4AFG2PQBX1QXTNW3CMHN5
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              Gomes was originally from Bahia but became a student of Artur Emídio whilst living in
+              Rio.
+            locator: '174'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              Most of the capoeira mestres that emerged during the 1960s—Leopoldina, Paulo Gomes,
+              Celso do Engenho da Rainha and Djalma Bandeira—were his students.
+            locator: '168'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    locator: '168, 174, 179'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - capoeira

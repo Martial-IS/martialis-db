@@ -1,0 +1,67 @@
+type: Person
+id: 01M5H3WJ4FFYW21VZ36306373H
+name:
+  ja-Latn: Kamino Atsumu
+aka:
+  en:
+    - Stephen Atsumu Kamino
+nationality:
+  - countryCode: eucountry:CAN
+    wikidata: wd:Q16
+description:
+  en: >-
+    Judo teacher known as the "Godfather of Judo in Canada". Founded the Kitsilano dojo in Vancouver
+    (1932) and, after the wartime expulsion, the Kidokwan Judo Institute in Toronto (1946); organiser
+    of the Canada Judo Yudanshakai. Died in 1959, a Kōdōkan 6th dan.
+hasTeacherAssertion:
+  - id: 01M5H3WJ4FSNS4F2YQ347HM01T
+    teacher: 01M5H3WJ4FVEPVVFAF75MGMTZT
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only, from his son's account.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1914
+        hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              Atsumu Kamino, who in turn had been instructed by sensei from Japan - first by Sataro
+              Fujita, and later by Shinzo Takagaki. According to Tom, his father was taught by Fujita as
+              early as 1914
+            locator: '19'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5H3WJ4FDY8BDVZVJ7GWR51H
+    teacher: 01M5H3WJ4F50AWMKW7BCJ73S09
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              A pupil of Shinzo Takagaki in the 1920s in Vancouver, Atsumu Kamino started a dojo in
+              Kitsilano in 1932 at the request of the parents of the Japanese community there.
+            locator: '103'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    locator: 103-105
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - canada

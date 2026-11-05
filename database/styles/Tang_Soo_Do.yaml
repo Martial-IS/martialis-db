@@ -1,0 +1,136 @@
+type: Style
+id: 01KYFXCETR9R1BNFD5T82H1G8P
+name:
+  en: Tang Soo Do
+  ko: 당수도
+aka:
+  en:
+    - Tangsudo
+    - Moo Duk Kwan
+    - Soo Bahk Do
+styleType: styleclass:modern
+description:
+  en: Traditional Korean martial art first taught in the kwans of 1944-1945, Lee Won-kuk's Chung Do Kwan and Hwang Kee's Moo Duk Kwan. Emphasizes hard kicking and striking techniques, with forms (hyung), sparring, and self-defense. Tang Soo Do served as the foundation for American Tang Soo Do and heavily influenced the development of Taekwondo.
+foundedEvent:
+  startDate: 1944~
+  founder:
+    - 01M5CM3YFSZZQ2V5RFX27JCRDX
+    - 01KYHT5WPXM8YSZH28CGZ9DCA6
+  hasEvidence:
+    - basedOnSource: 01M5CM3YFSARTVFFZKM3365E4Z
+      quotation: >-
+        He introduced karate to Korea in 1944, creating his own style known as Tang Soo Do Chung Do Kwan style
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KYHTJXCX78N87QTDNQ0B7TE8
+      quotation: >-
+        Between 1944 and Korea's liberation from Japanese rule in 1945, the original schools or kwans of Tang Soo Do were founded in Korea by practitioners who studied Okinawan karate and had exposure to kung-fu. At the time, there were five kwans (schools) of Taekwondo, of which only Chung Do Kwan of Won-kuk Lee and Moo Duk Kwan of Hwang Kee identified their martial arts as Tang Soo Do.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+      quotation: >-
+        Of these three, Yi Wŏn’ Guk founded the first tangsu-do or karate school in Korea in 1944
+      locator: '53'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYHTJXCX78N87QTDNQ0B7TE8
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q219556
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5GRYX99T44XHPFZV47
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9S
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Tang Soo Do Wikipedia states it is based on influences of Okinawan Karate
+    hasEvidence:
+      - basedOnSource: 01KYHTJXCX78N87QTDNQ0B7TE8
+        quotation: a Korean martial art based on influences of Okinawan Karate, Taijiquan, and Shaolin Long Fist
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G1MN6K25RD9WAKVE5
+    relatedStyle: 01KYHRZE60P1GBRPFW8VZXG7GR
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Tang Soo Do Wikipedia states it is based on influences of Shaolin Long Fist
+    hasEvidence:
+      - basedOnSource: 01KYHTJXCX78N87QTDNQ0B7TE8
+        quotation: a Korean martial art based on influences of Okinawan Karate, Taijiquan, and Shaolin Long Fist
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KYJ42SQPE9AT05GKA3G4K4M6
+        quotation: >-
+          master of northern Kung Fu particularly Tai Chi and Tan Tui.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+      - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+        quotation: >-
+          incorporated some other techniques and forms especially from Chinese martial arts at this point
+        locator: '19'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+      - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+        quotation: >-
+          However, Chinese martial arts had not much influence on the training curriculum of these founders’
+          schools.
+        locator: '63'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+  - id: 01M6BQSYG6Z86CBJAVREATZGD1
+    relatedStyle: 01KYFZEGYN107JYC5K1539R8JM
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Two independent histories state it.
+    hasEvidence:
+      - basedOnSource: 01KYJ42SQPE9AT05GKA3G4K4M6
+        quotation: >-
+          Tang Soo Do Chung Do Kwan was simply the Korean version of Japanese Shotokan style.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+        quotation: >-
+          Son’s style is plainly Shōtōkan karate.
+        locator: '80'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+        quotation: >-
+          Yi, No Pyŏng Jik and Chŏn Sang Sŏp learned Shōtōkan karate directly from Funakoshi Gichin.
+        locator: '62'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+tags:
+  - korean-martial-arts
+  - tang-soo-do
+  - moo-duk-kwan
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/c/c5/White_Belt_Tang_Soo_Do_Punch.jpg
+    rights: mediarights:cc-by-sa-4.0
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:White_Belt_Tang_Soo_Do_Punch.jpg
+      cite: "Anass Sedrati, Wikimedia Commons"

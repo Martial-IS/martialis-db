@@ -1,0 +1,70 @@
+type: Place
+id: 01M5FJ0DYN42HTXP02WHVFRJCT
+name:
+  en: Inosanto Academy of Martial Arts
+placeType: placeclass:academy
+hasSite:
+  - location:
+      label: Marina del Rey, California
+      countryCode: eucountry:USA
+      wikidata: wd:Q988140
+    address: 13348-13352 Beach Ave., Marina del Rey, CA 90292
+    hasEvidence:
+      - basedOnSource: 01M5FEYQE739VV9FRXP7H0540M
+        quotation: >-
+          Inosanto Academy of Martial Arts 13348-13352 Beach Ave.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M5FJ0DYNF8ARTW47TPRC63PY
+    instructor: 01KYDB2SWCW3RDJH3GEA666XXB
+    instructorCapacity: instrcap:head_instructor
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The USA Shooto page names him as teaching at the Academy; his head role follows from the Academy bearing his name, not from the source.
+    hasEvidence:
+      - basedOnSource: 01M5FEYQE739VV9FRXP7H0540M
+        quotation: >-
+          People from around the world regularly come to the Inosanto Academy in beautiful Marina del Rey,
+          California to train under Sensei Yori and the legendary Guro Dan Inosanto.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+  - id: 01M5FJ0DYNQSX9TFAZ12KTX936
+    instructor: 01KYDKY8XPAXEX469QJ82RAK14
+    instructorCapacity: instrcap:instructor
+    instructorPeriod:
+      startYear: 1991
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: His own association's page and Wikipedia state it; no record from the Academy.
+    hasEvidence:
+      - basedOnSource: 01M5FEYQE739VV9FRXP7H0540M
+        quotation: >-
+          People from around the world regularly come to the Inosanto Academy in beautiful Marina del Rey,
+          California to train under Sensei Yori and the legendary Guro Dan Inosanto.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KYDKY8XQTNBXM7TK2079K2NZ
+        quotation: >-
+          Yorinaga Nakamura began teaching Shooto at the Inosanto Academy in 1991
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Dan Inosanto's martial arts academy in Marina del Rey, California, where the USA Shooto Association also
+    holds its classes.
+hasEvidence:
+  - basedOnSource: 01M5FEYQE739VV9FRXP7H0540M
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - jeet-kune-do
+  - filipino-martial-arts
+  - shooto

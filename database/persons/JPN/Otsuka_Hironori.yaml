@@ -1,0 +1,194 @@
+type: Person
+id: 01KZC19BDC541MVC7EEAMK7R0P
+name:
+  ja-Latn: Ōtsuka Hironori
+  ja: 大塚 博紀
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1892-06-01'
+  birthPlace:
+    label: Shimodate, Ibaraki
+    countryCode: eucountry:JPN
+deathEvent:
+  deathDate: '1982-01-29'
+  deathPlace:
+    label: Japan
+    countryCode: eucountry:JPN
+    wikidata: wd:Q17
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/d/db/Hironori_Otsuka.png
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Hironori_Otsuka.png
+    cite: "HistoryTuan, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: Japanese karate master, creator and first Grand Master of Wado-ryu karate. Held menkyo kaiden in Shindo Yoshin-ryu jujutsu under Nakayama Tatsusaburo, studied karate under Gichin Funakoshi from 1922 (one of his first promoted black belts, 1924) and later with Kenwa Mabuni and Motobu Choki, and merged Shindo Yoshin-ryu with Okinawan karate into Wado-ryu, registered with the Dai Nippon Butoku Kai in 1938.
+hasTeacherAssertion:
+  - id: 01M3YH7N5G0TJMTRR9HFYEMG12
+    teacher: 01KJJAWN28MWKKSN4J02MVY1VB
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9S
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: 'Well documented in the Wado-ryu Wikipedia article: met Funakoshi in 1922, trained under him and was among his first promoted black belts in 1924, assistant instructor in his Shotokan school by 1927'
+    role: teachrole:student
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1922
+        hasEvidence:
+          - basedOnSource: 01KZC19BDCMBAKPJV1WMSVN2FA
+            quotation: In 1922, he met Gichin Funakoshi and began to train under him.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZC19BDCMBAKPJV1WMSVN2FA
+            quotation: In 1924, Ōtsuka became one of the first students promoted to black belt in karate by Funakoshi.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GGQ8WG9RM9JR8QHKJ
+    teacher: 01KYJCSK3HM7WV1EJPH94Q18T2
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9S
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Wado-ryu Wikipedia article records that Otsuka also studied with Kenwa Mabuni to broaden his knowledge of karate
+    role: teachrole:student
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KZC19BDCMBAKPJV1WMSVN2FA
+            quotation: To broaden his knowledge of Karate, Ōtsuka also studied with other prominent masters such as Kenwa Mabuni of Shitō-ryū and Motobu Chōki.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G88FG4TT1FR72MKY3
+    teacher: 01KZC4PN03JMN9C9YQTKMEQE3A
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9S
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Independent sources state it.
+    role: teachrole:student
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1929
+        hasEvidence:
+          - basedOnSource: 01KZC19BDCMBAKPJV1WMSVN2FA
+            quotation: To broaden his knowledge of Karate, Ōtsuka also studied with other prominent masters such as Kenwa Mabuni of Shitō-ryū and Motobu Chōki.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZKYMMAGHXSMYTT70564YAE6
+            quotation: 昭和4年（1929年）には、同じく船越門下の大塚博紀（後に和道流を開く）が朝基のもとを訪れ、師事している。大塚は後年、「ともかく本部さんは文句なく強い人という印象です」と述懐した。
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+            quotation: >-
+              Choki Motobu was an instructor to Shoshin Nagamine, Hironori Otsuka, and Yasuhiro Konishi,
+              the founders of Matsubayashi Ryu, Wado Ryu, and Shindo Jinen Ryu (Ryobu Kai), respectively.
+            locator: '90'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G54VWWXWNM35GXDD1
+    teacher: 01M1KR4J6ETN7T94DEYMYC8YRG
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9G
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Wado-ryu Wikipedia article records Otsuka as a menkyo kaiden licensed Shindo Yoshin-ryu practitioner of Tatsusaburo Nakayama
+    role: teachrole:student
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1905
+          endYear: 1921
+        hasEvidence:
+          - basedOnSource: 01KZC19BDCMBAKPJV1WMSVN2FA
+            quotation: Ōtsuka was a Menkyo Kaiden licensed Shindō Yōshin-ryū practitioner of Tatsusaburo Nakayama and a student of Yōshin-ryū prior to meeting the Okinawan karate master Gichin Funakoshi.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M3YH7N5GV5PMVFFZA9M9T4TF
+    honorValue: Order of the Rising Sun, Fifth Class
+    honorType: honortype:other
+    dateConferred: '1966'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Wado-ryu Wikipedia article records the award by Emperor Hirohito in 1966 for his dedication to the introduction and teaching of karate
+    hasEvidence:
+      - basedOnSource: 01KZC19BDCMBAKPJV1WMSVN2FA
+        quotation: In 1966, Ōtsuka was awarded the Order of the Rising Sun, Fifth Class by Emperor Hirohito for his dedication to the introduction and teaching of karate.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GQWC0MMZBZXN0XESD
+    honorValue: Renshi-Go
+    honorType: honortype:title
+    honorGrade: honorgrade:shogo_renshi
+    conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+    dateConferred: '1938'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Wado-ryu Wikipedia article records the Dai Nippon Butoku Kai awarding Renshi-Go in 1938
+    hasEvidence:
+      - basedOnSource: 01KZC19BDCMBAKPJV1WMSVN2FA
+        quotation: In 1938, the Dai Nippon Butoku Kai awarded Ōtsuka the rank of Renshi-Go, followed in 1942 by the rank of Kyoshi-Go.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GWR59BM0VMQBTZN19
+    honorValue: Kyoshi-Go
+    honorType: honortype:title
+    honorGrade: honorgrade:shogo_kyoshi
+    conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+    dateConferred: '1942'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Wado-ryu Wikipedia article records the Dai Nippon Butoku Kai awarding Kyoshi-Go in 1942
+    hasEvidence:
+      - basedOnSource: 01KZC19BDCMBAKPJV1WMSVN2FA
+        quotation: In 1938, the Dai Nippon Butoku Kai awarded Ōtsuka the rank of Renshi-Go, followed in 1942 by the rank of Kyoshi-Go.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G0VYW3KE6K7ACEVDR
+    honorValue: Meijin
+    honorType: honortype:title
+    dateConferred: '1972'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Wado-ryu Wikipedia article records the Kokusai Budo Renmei awarding the Meijin title in 1972
+    hasEvidence:
+      - basedOnSource: 01KZC19BDCMBAKPJV1WMSVN2FA
+        quotation: In 1972, the President of Kokusai Budō Renmei, a member of the Japanese royal family, awarded Ōtsuka the title of Meijin.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZC19BDCMBAKPJV1WMSVN2FA
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZC19BDC2Q7V8C48V2DPJSCE
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZC19BDC07ZZR2D4TS40WN6V
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+notes: '- By 1927 assistant instructor in Funakoshi''s Shotokan school; in 1929 organised the first school karate club at Tokyo University; the term ''Wado-ryu'' was coined by Eiichi Eriguchi in 1934. - In 1938 registered his style with the Dai Nippon Butoku Kai as ''Shinshu Wadoryu Karate-Jujutsu'', soon shortened to Wado-ryu; in 1944 appointed Japan''s Chief Karate Instructor. - In 1952 the Wado-ryu honbu was established at the Meiji University dojo, renamed Zen Nippon Karate Renmei in 1954; in 1965 he recorded his karate on film with Yoshiaki Ajari. - In 1980 stepped down from the Wadokai over a conflict; on 1 April 1981 founded the Wadoryu Karatedo Renmei, retiring after a few months in favour of his son Jiro (Hironori Otsuka II, followed by Kazutaka as III). - Hiroo Mochizuki is listed among notable Wado-ryu practitioners in the Wado-ryu Wikipedia article. - Otsuka is also referenced in the entry on Konishi Yasuhiro.'
+tags:
+  - karate
+  - wado-ryu
+  - japan

@@ -1,0 +1,66 @@
+type: Event
+id: 01M19SYYS34TS7JRFEG6GW3VFW
+name:
+  en: Yamashita vs Joseph Grant
+  ja: 山下義韶対ジョセフ・グラント
+aka:
+  en: The Roosevelt-Arranged Private Match (1905)
+eventType: eventclass:challenge
+eventDate: '1905-02-23'
+superEvent: 01M19SYYS3JXJSD3JGQ89RG6SM
+location:
+  label: Washington, D.C.
+  countryCode: eucountry:USA
+  wikidata: wd:Q61
+about:
+- 01KJJAWN29MA64W22606R3WD9B
+hasParticipation:
+- id: 01M3YH7N5FDR5TCXMT82E9AT6X
+  participant: 01KJJAWN29MA64W22606R3WD7Q
+  participationRole: eventrole:competitor
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Roosevelt's own letter to his son Kermit (quoted in Svinth) describes the match
+      and its outcome in detail.
+  hasEvidence:
+  - uri: https://ejmas.com/jcs/jcsart_svinth1_1000.htm
+    cite: Joseph R. Svinth, "Professor Yamashita Goes to Washington", Journal of Combative Sport, Oct
+      2000
+    quotation: Wanting to know the answer for himself, on Thursday, February 23, 1905 the President arranged
+      a private match between Professor Yamashita and a middleweight catch-as-catch-can wrestler named
+      Joseph Grant.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://ejmas.com/jcs/jcsart_svinth1_1000.htm
+    cite: Joseph R. Svinth, "Professor Yamashita Goes to Washington", Journal of Combative Sport, Oct
+      2000
+    quotation: Inside of a minute Yamashita had choked Grant, and inside of two minutes more he had got
+      an elbow hold on him... [Still,] Grant in the actual wrestling and throwing was about as good as
+      the Japanese, and he was so much stronger that he evidently hurt and wore out the little Japanese.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: A private match arranged by President Theodore Roosevelt on 23 February 1905 between Yamashita Yoshiaki
+    and Joseph Grant, a middleweight catch-as-catch-can wrestler. Roosevelt wanted a firsthand answer
+    to the jujutsu-vs-wrestling question that journalists and Russo-Japanese War propaganda had made fashionable.
+    In Roosevelt's account, Yamashita choked Grant inside a minute and applied an elbow hold two minutes
+    later, though Grant's strength plainly wore Yamashita down.
+  ja: 1905年2月23日、セオドア・ルーズベルト大統領の手配で行われた山下義韶と中量級キャッチ・アズ・キャッチ・ キャンのレスラー、ジョセフ・グラントとの非公開試合。ルーズベルトは柔術対レスリングの実力を自ら確かめよう
+    とした。大統領の記述によれば、山下は1分足らずでグラントを絞め落とし、さらに2分ほどで腕固めを極めたが、 グラントの力に山下は消耗したという。
+notes: Joseph Grant does not have a Person record in the database (a professional wrestler, not a lineage
+  practitioner), so he is not listed as a participant. The match was private, not a public challenge.
+hasEvidence:
+- uri: https://ejmas.com/jcs/jcsart_svinth1_1000.htm
+  cite: Joseph R. Svinth, "Professor Yamashita Goes to Washington", Journal of Combative Sport, Oct 2000
+  quotation: Wanting to know the answer for himself, on Thursday, February 23, 1905 the President arranged
+    a private match between Professor Yamashita and a middleweight catch-as-catch-can wrestler named Joseph
+    Grant.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- kodokan
+- catch-wrestling

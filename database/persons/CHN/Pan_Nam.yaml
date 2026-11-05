@@ -1,0 +1,51 @@
+type: Person
+id: 01M69YCGCXQ8SHNKG0Q34C7R53
+name:
+  en: Pan Nam
+  yue: 彭南
+  zh: 彭南
+  zh-Latn: Peng Nan
+nationality:
+  - countryCode: eucountry:CHN
+    wikidata: wd:Q148
+description:
+  en: >-
+    Wing Chun teacher from Foshan, student of Jiu Chao, later a leader of the Wing Chun community in
+    his own right.
+notes: >-
+  Judkins and Nielson pp. 120, 191, 206. Introduced to Ip Man in 1949 at a Zhong Yi Association
+  branch; the two were never formally teacher and student (p. 206). Claimed material from Lai
+  Yip-chi's esoteric lineage (p. 193).
+hasTeacherAssertion:
+  - id: 01M69YCGDM4DDZ6QEGNJAHMECQ
+    teacher: 01M69YCGCQGS9JTBB7ZDPC1KTX
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              Huang Xiao Hui and Huang Hong indicate that between these two locations Jiu taught over 100
+              students, including Pan Nam, who would go on to become an important leader of the Wing Chun
+              community in his own right.
+            locator: '191'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: 120, 191, 193, 206
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3361838
+tags:
+  - wing-chun
+  - chinese-martial-arts

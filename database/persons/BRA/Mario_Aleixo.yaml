@@ -1,0 +1,64 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1VF
+name:
+  pt: Mario Aleixo
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+birthEvent:
+  birthDate: '1887'
+  birthPlace:
+    label: Rio de Janeiro
+    countryCode: eucountry:BRA
+    wikidata: wd:Q8678
+deathEvent:
+  deathDate: '1947'
+  deathPlace:
+    label: Brazil
+    countryCode: eucountry:BRA
+    wikidata: wd:Q155
+hasTeacherAssertion:
+  - id: 01M3YH7N5FD2Z3292QW7G0EFNX
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TH
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Book source confirms training with Conde Koma starting 1915
+    role: teachrole:student
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1915
+        hasEvidence:
+          - basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+            cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.'
+            locator: vol. 1, p. 110
+            quotation: Mário Alexio teve o privilégio de se adestrar no Jiu Jitsu com dois dos mais experientes e famosos mestres japoneses dos ringues. Recebeu suas primeiras instruções de Sada Miyako por volta de 1909. Posteriormente teve a oportunidade de se aperfeiçoar com o grande Conde Koma, pouco depois deste chegar ao Brasil, em 1915.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5F5RSJH7MXT3Q2R3T7
+    teacher: 01KJJAWN28MWKKSN4J02MVY1SA
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Book source confirms training with Sada Miyako starting 1909
+    role: teachrole:student
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1909
+        hasEvidence:
+          - basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+            cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.'
+            locator: vol. 1, p. 110
+            quotation: Mário Alexio teve o privilégio de se adestrar no Jiu Jitsu com dois dos mais experientes e famosos mestres japoneses dos ringues. Recebeu suas primeiras instruções de Sada Miyako por volta de 1909. Posteriormente teve a oportunidade de se aperfeiçoar com o grande Conde Koma, pouco depois deste chegar ao Brasil, em 1915.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+    cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct

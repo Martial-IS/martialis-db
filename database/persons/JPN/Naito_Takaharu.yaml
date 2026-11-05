@@ -1,0 +1,372 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD6H
+name:
+  ja-Latn: Naitō Takaharu
+  ja: 内藤 高治
+aka:
+  en: Ichige Takaharu
+  ja: 市毛高治
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1862-12-16'
+  dateOriginal: 文久2年10月25日（旧暦）
+  dateCalendar: datecal:japanese_lunisolar
+  birthPlace:
+    label: Mito
+    countryCode: eucountry:JPN
+    wikidata: wd:Q204249
+  hasEvidence:
+  - basedOnSource: 01M3016DNJC2NEAYRBG32B4S5N
+    quotation: 内藤 高治（ないとう たかはる、文久2年10月25日（1862年12月16日） - 昭和4年（1929年）4月9日）は、日本の剣道家。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M3016DNJAKT2VNARSXH77FMV
+    quotation: Naitō Takaharu (内藤高治) (1862–1929) was a Japanese martial artist.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1929-04-09'
+  dateOriginal: 昭和4年4月9日
+  dateCalendar: datecal:japanese_nengo
+  deathPlace:
+    label: Kyoto
+    countryCode: eucountry:JPN
+    wikidata: wd:Q34600
+  hasEvidence:
+  - basedOnSource: 01M3016DNJC2NEAYRBG32B4S5N
+    quotation: 「これで日本剣道は滅びた」と嘆じ、開催直前の昭和4年（1929年）4月9日に脳出血で急死した。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M3016DNJBGCRA3QFCA4GMZA7
+    quotation: He died of a sudden cerebral haemorrhage on the 9th of April 1929.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: >-
+    Mito-domain swordsman of the Hokushin Ittō-ryū, born into the Ichige family. Entered the Mito Tobukan
+    at 12 (1874) under Kozawa Torakichi - kirigami at 14, mokuroku at 18 - and trained at Sakakibara
+    Kenkichi's dojo in Tokyo for a year (1883-1884) before a country pilgrimage. In 1881, at 19, adopted
+    into the Naitō family. Joined the Keishichō in 1888 and later opened the Yōshinkan dojo in Tokyo and
+    served as gekiken shihan of the Tōkyō Senmon Gakkō (Waseda). One of five kendo teachers named for the
+    Butokuden in Kyoto in 1899, where he served until his death and was chief kendo professor of the
+    Bujutsu Kyōin Yoseijo, later the Budo Senmon Gakko, 'Waza Monna, Ki Takaharu' alongside Monna Tadashi.
+    Chief commissioner of the 1911 Dai-Nippon Teikoku Kenjutsu Kata; opposed kendo's sportification and
+    the 1929 Tenran shiai, died before it was held.
+  ja: >-
+    北辰一刀流の剣道家。水戸藩士・市毛家の六男として生まれる。12歳で小澤寅吉の東武館に入門（14歳で切紙、
+    18歳で目録）、1881年内藤儀左衛門の養嗣子となる。1883年上京し榊原鍵吉の道場で一年修行。1888年警視庁に入庁。
+    1899年京都の武徳殿に五教授の一人として奉職、武術教員養成所（のち武道専門学校）の剣道主任教授を務め、
+    「西の内藤、東の高野」と言われた。1911年大日本帝国剣道形制定の主査委員。競技化を嫌い切り返し・掛かり稽古
+    を徹底指導、昭和天覧試合に反対し、開催直前に脳出血で急死。
+hasTeacherAssertion:
+- id: 01M3YH7N5GQZEZCS5F93EG699C
+  teacher: 01M2Z12AZA53BW9KZHC2GD7PH1
+  assertedStyle: 01M2Z6TY1P5NRR5B3YNNDQWJ1M
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      JA wiki (Naitō Takaharu): entered Kozawa's Tobukan at 12, kirigami at 14, mokuroku at 18;
+      Tobukan's own 1874-01-01 founding fixes the at-12 entry year at 1874. End 1883: his April 1883
+      departure for Tokyo.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1874
+      endYear: 1883
+    interactionPlace: 01M2Z6TY1P8PHZ6627T6GXFP6V
+    notes: Entry year derived from the source's age count (at 12; born 1862) plus the Tobukan's 1874-01-01 founding.
+    hasEvidence:
+    - basedOnSource: 01M3016DNJC2NEAYRBG32B4S5N
+      quotation: 12歳で北辰一刀流剣術師範小澤寅吉の東武館道場に入門し、2年後の14歳で切紙を与えられ、さらに4年後の18歳では目録に進んでいる。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M3016DNJC2NEAYRBG32B4S5N
+      quotation: 明治16年（1883年）4月に上京し、下谷車坂の榊原鍵吉道場を中心に1年間修行する。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M3016DNJ2TK8B8445ZGBJF9N
+      quotation: "At the age of 12 – in 1874, just 3 years after the end of the more traditional domain system – Takaharu joined what was to become one of the most renowned dojo in Japan: the newly constructed Mito Tobukan."
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GDWXD3Q9QVQMJF01Z
+  teacher: 01M2Z6TY1PD3RHPKEB6543X6D1
+  assertedStyle: 01M2Z6TY1P5NRR5B3YNNDQWJ1M
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      JA wiki (Shimoe Hidetaro): explicit short instruction at Kanuma in 1884, and Shimoe placing Naitō
+      at the Tomioka Monzen station. The Keishichō part is co-service, not explicit teaching, and no
+      source beyond the JA wikis corroborates it - hence probable, not confirmed.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1884
+      endYear: 1884
+    notes: Short session in Kanuma while Naitō was on kuni-biki shugyō; no venue recorded, so no interactionPlace.
+    hasEvidence:
+    - basedOnSource: 01M2Z6TY1P3HJJJK8HNKQW720M
+      quotation: 帰郷後、回国修行中の内藤高治が鹿沼に立ち寄ったので、短期間ではあるが下江は内藤に稽古をつけたという。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+  - interactionPeriod:
+      startYear: 1888
+      endYear: 1898
+    interactionPlace: 01KJJAWN29MA64W22606R3WD98
+    notes: >-
+      End 1898: the two men's Keishichō overlap, Shimoe transferring to the Aichi prefectural police in
+      1898 (JA wiki, Shimoe Hidetaro).
+    hasEvidence:
+    - basedOnSource: 01M3016DNJC2NEAYRBG32B4S5N
+      quotation: 明治21年（1888年）5月9日、自身も警視庁に一等巡査として任官し、下江秀太郎の斡旋で東武館の同門である門奈正と同じ警察署に配属された。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M2Z6TY1P3HJJJK8HNKQW720M
+      quotation: また同年、内藤も東京に出て警視庁撃剣世話掛たちに試合を挑み連勝した後に警視庁に就職したので、下江は内藤も富岡門前署に配属させた。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GPPK4F4GKJA41S4AW
+  teacher: 01M31VKGQF6DEE20PS7GXE8GET
+  assertedStyle: 01M31VKGQFQJZTNTNB0MR8RX56
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      JA wiki (Naitō): a year of training centred on Sakakibara Kenkichi's dojo in Shitaya Kurumasaka
+      from April 1883; kenshi247 (2012) agrees and names the art, but is a JA wiki translation, not
+      independent. Hence probable, not confirmed.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1883
+      endYear: 1884
+    notes: >-
+      Shitaya Kurumasaka (no place entity). The JA wiki's one year runs from the April 1883 entry;
+      kenshi247 (2012): 'After a year with Sakakibara, Naito went on a Musha-shugyo around the country.'
+    hasEvidence:
+    - basedOnSource: 01M3016DNJC2NEAYRBG32B4S5N
+      quotation: 明治16年（1883年）4月に上京し、下谷車坂の榊原鍵吉道場を中心に1年間修行する。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M3016DNJ2TK8B8445ZGBJF9N
+      quotation: In 1883, at the age of 20/21, Naito went to Tokyo and studied under the Jikishinkage-ryu swordsman and Kobusho instructor Sakakibara Kenkichi, the progenitor of pay-to-watch kenjutsu shows, Gekken Kogyo.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6EF6KKARXXXGKKWBNZK5M60
+      quotation: Naito under Sakakibara Kenkichi (Jikishinkage-ryu) and Takano under Yamaoka Tesshu (Muto-ryu)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5G9FJWNJ71X9WSVNEK
+  rankStyle: 01M2Z6TY1P5NRR5B3YNNDQWJ1M
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+  rankGrade: rankgrade:menkyo_kaiden
+  grantedBy: 01M2Z12AZA53BW9KZHC2GD7PH1
+  dateConferred: '1888'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Sugie's chronology states the menkyo kaiden from Kozawa Torakichi directly,
+      under the 1888 entry. It is the only source for the award and gives no month.
+  hasEvidence:
+  - basedOnSource: 01M0AZQ3TJ40Z0WJJD8T706CQB
+    quotation: 内藤高治，小沢寅吉より北辰一刀流の免許皆伝を受ける。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasHonorAssertion:
+- id: 01M3YH7N5GMAS7YZ90G3RD2TXR
+  honorValue: Seirenshō
+  honorType: honortype:certificate
+  conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+  dateConferred: '1897'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      JA wiki (Naitō): the Butokukai awarded the Seirenshō in 1897, but the sentence carries no footnote
+      (the article is citation-flagged); kenshi247 (2012) repeats it but is a JA wiki translation, not
+      independent - single source of record, hence probable.
+  hasEvidence:
+  - basedOnSource: 01M3016DNJC2NEAYRBG32B4S5N
+    quotation: 明治30年（1897年）、大日本武徳会から精錬証を授与される。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M3016DNJ2TK8B8445ZGBJF9N
+    quotation: he was awarded Seirensho in 1897 by the newly formed Butokukai
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5G9CXR2GRAXP0RV35V
+  honorValue: Hanshi
+  honorType: honortype:title
+  honorGrade: honorgrade:shogo_hanshi
+  conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+  dateConferred: '1913'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      JA wiki (Monna Tadashi) dates the Butokukai hanshi to 1913 as a special case under the over-60 rule,
+      naming Naitō at 52; JA wiki (Naitō) confirms the Dai-Nippon Butoku Kai kendo hanshi title; kenshi247
+      (Monna Tadashi) agrees on 1913 alongside Takano.
+  hasEvidence:
+  - basedOnSource: 01M2Z6TY1P25CQ9YJJM432S4DN
+    quotation: 大正2年（1913年）、大日本武徳会から範士号を授与された。範士は60歳以上との決まりがあったが、門奈正（59歳）、内藤高治（52歳）、高野佐三郎（52歳）は特例での授与となった。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M3016DNJC2NEAYRBG32B4S5N
+    quotation: 内藤 高治（ないとう たかはる、文久2年10月25日（1862年12月16日） - 昭和4年（1929年）4月9日）は、日本の剣道家。流派は北辰一刀流。称号は大日本武徳会剣道範士。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M3016DNJ6TBJ9KY1XE8YQRZ0
+    quotation: In 1913, at the same time as Naito Takaharu and Takano Sasaburo, he was awarded hanshi.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6EF6KKA6C1PENQY8MCK6TN1
+    quotation: 'Naitō Takaharu [...] Qualification: Taisho 2nd Year'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5GBYJRQGT3E703SJYD
+  honorValue: Kendo Dendō
+  honorType: honortype:title
+  conferredBy: 01M0R2X2ACBZDHS6JXQ7CTAMC8
+  dateConferred: '2003'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      JA wiki (Naitō): infobox awards the All Japan Kendo Federation Kendo Dendō induction and the article's
+      Kendo Dendō template lists Naitō among the first-batch inductees (2003); single source, no footnote -
+      hence probable.
+  hasEvidence:
+  - basedOnSource: 01M3016DNJC2NEAYRBG32B4S5N
+    quotation: 全日本剣道連盟剣道殿堂顕彰
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/9/9c/Nait%C5%8D_Takaharu_%28%E5%86%85%E8%97%A4%E9%AB%98%E6%B2%BB%29.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Nait%C5%8D_Takaharu_(%E5%86%85%E8%97%A4%E9%AB%98%E6%B2%BB).jpg
+    cite: "Alfredo Molina, Wikimedia Commons"
+    informationType: infotype:secondary
+hasEvidence:
+- basedOnSource: 01M3016DNJC2NEAYRBG32B4S5N
+  quotation: 明治2年（1869年）から漢籍、水練、剣術を学ぶ。12歳で北辰一刀流剣術師範小澤寅吉の東武館道場に入門し、2年後の14歳で切紙を与えられ、さらに4年後の18歳では目録に進んでいる。
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M3016DNJC2NEAYRBG32B4S5N
+  quotation: 明治14年（1881年）、叔父にあたる、水戸藩士・内藤儀左衛門政敏（禄高は750石、慶応3年〈1867年〉、水戸藩の藩内抗争により死去、妻は市毛高矩の妹）の養嗣子となり、内藤高治と名乗った。
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M3016DNJC2NEAYRBG32B4S5N
+  quotation: 武徳会は教授陣の強化をはかり、奥村左近太、三橋鑑一郎、内藤高治、佐々木正宜、小関教政の5名を指名した。内藤は武徳会常議員楠正位からの「ミチノタメキタレ」という電報に魂をゆさぶられ、同年9月、東京に築いた地盤一切をなげうって大日本武徳会本部に奉職した。
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M3016DNJC2NEAYRBG32B4S5N
+  quotation: 武術教員養成所（のち武道専門学校に改称）の剣道主任教授を務め、後の剣道十段・持田盛二、斎村五郎などを育てた。
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M3016DNJC2NEAYRBG32B4S5N
+  quotation: 警視庁勤務の傍ら牛込原町に道場「養真館」を開き、東京専門学校（現早稲田大学）の撃剣部師範を務めた。
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M3016DNJC2NEAYRBG32B4S5N
+  quotation: 明治44年（1911年）、大日本帝国剣道形制定の主査委員に任じられる。
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M3016DNJC2NEAYRBG32B4S5N
+  quotation: 剣道の競技化を嫌い、切り返しや掛かり稽古等基本を徹底して指導した。このため昭和天覧試合の開催に強く反対したが、宮内省官僚の西園寺八郎から勅命であると言われ、やむなく従った。
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M3016DNJC2NEAYRBG32B4S5N
+  quotation: 内藤、門奈も朝鮮に赴いた。内藤は神戸を出帆する際「かねてより思ひ込めにし武士（もののふ）の弓矢心を今日や晴らさん」と詠んだが、現地で急性肋膜炎を発症して帰国した。
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M3016DNJAKT2VNARSXH77FMV
+  quotation: Naitō taught kendo to the Japanese Police force, and was also the first teacher at the Budo Senmon Gakko.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M3016DNJ2TK8B8445ZGBJF9N
+  quotation: It was here, as the head instructor, that he taught the countries future kendo specialists, including all five future 10 dans.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M3016DNJBGCRA3QFCA4GMZA7
+  quotation: He studied kenjutsu at Mito Tobukan, before heading out into the world. Eventually he became
+    an instructor at Keishicho, before being recruited as to the Butokukai's HQ in Kyoto. There he would
+    spend 30 years developing kenshi.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+  quotation: The five kenjutsu masters from various ryuha tasked with this responsibility were Negishi
+    Shingoro, Tsuji Shinpei, Naito Takaharu, Monna Tadashi, and Takano Sasaburo.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+  quotation: "Naitō Takaharu, head kendo instructor of the Butokukai, is credited with further refining the ritual of bowing by determining three different objects of respect: “the shinzen, or emperor,” “the instructor,” and “one’s training partners.”"
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M3016DNJ6TBJ9KY1XE8YQRZ0
+  quotation: "At Busen they were known as the pair: “Waza Monna” and “Ki Takaharu.”"
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+notes: >-
+  Licenses at the Tobukan - kirigami at 14 (c.1876), mokuroku at 18 (c.1880)
+  (JA wiki Naitō) - not modeled: the Menkyo rank-grade vocabulary has no kirigami/mokuroku tokens, and the
+  JA wiki records no menkyō for Naitō. Junior Sixth Rank (従六位) appears only in the JA wiki infobox
+  awards, without a footnote - left here pending a source. kenshi247 (Finding Naito, 2020) gives the
+  birth as 'the 25th of September in 1862', which does not match the JA wiki's 文久2年10月25日（旧暦）
+  = 1862-12-16 (the JA wiki's own Gregorian conversion, matching EN wiki and the prior database value);
+  treated as a kenshi247 transcription slip. 1901 Butokusai draw (1-1) with Takano Sasaburō, shinpan
+  Mihashi Kan'ichirō (JA wiki Naitō; kenshi247 2012).
+sameAs:
+- wd:Q11394577
+- dbr:Naitō_Takaharu
+tags:
+- kenjutsu
+- koryu
+- hokushin-ritto-ryu
+- jikishinkage
+- kendo
+- keishicho
+- butokukai
+- busen
+- tobukan
+- mito

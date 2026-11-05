@@ -1,0 +1,95 @@
+type: Person
+id: 01M37HHSSM8HHWVNCHVFH8B1Y3
+name:
+  ja-Latn: Ōshima Jikita
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+description:
+  en: One of the seven signatories of the Kendō Shingikai petition of 1938.
+hasEvidence:
+- basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+  quotation: 'Modern kendo practitioners will know at least some of the seven signatories: Ishii Saburō,
+    Takano Sasaburō, Nakayama Hakudō, Ogawa Kin''nosuke, Ōshima Jikita, Saimura Gorō, and Mochida Moriji.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M6EF8Y2KH217V5NS8E5CQZX9
+  teacher: 01KJJAWN29MA64W22606R3WD6H
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9W
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Two kenshi247 articles by one author; they give 1906 and 1907 for entry.
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD99
+    hasEvidence:
+    - basedOnSource: 01M6EF6KKAT03B1XNQZJ147MMK
+      quotation: he was also fortunate to train directly under Naito and Monna for an extended period
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6EF6KKAEZTBK4XTN89220QY
+      quotation: '1907: Attends the bujutsu kyoin yoseijo and studies directly under Naito Takaharu.'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M6EF8Y2K2DHBCTVBPK8BQ4TF
+  teacher: 01M2XVMMR0Y3ZA7VN5FY6S8TY6
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9W
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Single kenshi247 article.
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD99
+    hasEvidence:
+    - basedOnSource: 01M6EF6KKAT03B1XNQZJ147MMK
+      quotation: he was also fortunate to train directly under Naito and Monna for an extended period
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasHonorAssertion:
+- id: 01M6EF8Y2K269NEXCV4ZB4DJ2X
+  honorValue: Kyoshi
+  honorType: honortype:title
+  honorGrade: honorgrade:shogo_kyoshi
+  conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+  dateConferred: '1919'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Kendoka shashin meikan (1925) and a kenshi247 biography agree; Taisho 8 is 1919.
+  hasEvidence:
+  - basedOnSource: 01M6EF6KKA6C1PENQY8MCK6TN1
+    quotation: 'Ōshima Jikita [...] Qualification: Taisho 8th Year'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6EF6KKAT03B1XNQZJ147MMK
+    quotation: 'Three years later, in 1919, his bet payed off: still a very young 31 years old, he was awarded
+      kyoshi'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M6EF8Y2KWJJRDGP7NBPP4MHN
+  honorValue: Hanshi
+  honorType: honortype:title
+  honorGrade: honorgrade:shogo_hanshi
+  conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+  dateConferred: '1932'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Single kenshi247 timeline.
+  hasEvidence:
+  - basedOnSource: 01M6EF6KKAEZTBK4XTN89220QY
+    quotation: '1932: Awarded kendo hanshi.'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+- kendo

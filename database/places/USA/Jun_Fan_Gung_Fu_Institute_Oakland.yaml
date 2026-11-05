@@ -1,0 +1,77 @@
+type: Place
+id: 01M5CTXKSPFPQQC1GRH6SNGEAS
+name:
+  en: Jun Fan Gung Fu Institute (Oakland)
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Oakland
+      countryCode: eucountry:USA
+      wikidata: wd:Q17042
+    address: 3039 Monticello Avenue
+    hasEvidence:
+      - basedOnSource: 01KYD5XMNMC3D3DST96C876VKM
+        locator: '131'
+        locatorLabel: page
+        quotation: >-
+          James Lee’s split-level house at 3039 Monticello Avenue in Oakland sat atop a garage that served as a
+          makeshift gym
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+      - basedOnSource: 01M5CTXKSPATSQYQ5CGMJ5GAFH
+        quotation: >-
+          Bruce Lee and James Yimm Lee soon opened a kung fu school, but eventually classes were relocated to
+          James Yimm Lee's garage.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M5CTXKSP6XXKW4JJSP2QXYT0
+    instructor: 01KYD5XMNMNAG3CPC17GKACPW0
+    instructorCapacity: instrcap:head_instructor
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Like Water states it; not a record of the school.
+    hasEvidence:
+      - basedOnSource: 01KYD5XMNMC3D3DST96C876VKM
+        quotation: >-
+          Bruce had been discussing plans for several months with James Yimm Lee, a highly respected kung fu
+          teacher and martial arts publisher who agreed to collaborate with Bruce in opening the second branch
+          of his Jun Fan Gung Fu Institute in Oakland.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5CTXKSPWK84VRE0YMTVJH18
+    instructor: 01KYDB2SWEEF9ECH5JCW95ZN6B
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Like Water and Black Belt both state it; neither is a record of the school.
+    hasEvidence:
+      - basedOnSource: 01KYD5XMNMC3D3DST96C876VKM
+        quotation: >-
+          James Yimm Lee—Bruce’s partner in the Oakland branch of the Jun Fan Gung Fu Institute
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5CTXKSPATSQYQ5CGMJ5GAFH
+        quotation: >-
+          the pre-1973 brand of jeet kune do, as it was developed by Bruce Lee and taught by James Yimm Lee.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    The Oakland branch of Bruce Lee's Jun Fan Gung Fu Institute, opened by Bruce Lee and James Yimm Lee; its
+    classes later moved to James Lee's garage at 3039 Monticello Avenue, where jeet kune do took shape.
+hasEvidence:
+  - basedOnSource: 01KYD5XMNMC3D3DST96C876VKM
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - jeet-kune-do
+  - jun-fan-gung-fu
+  - oakland

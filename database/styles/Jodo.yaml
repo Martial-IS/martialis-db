@@ -1,0 +1,88 @@
+type: Style
+id: 01M2411V8RXE6KEGH2PF8S5E1X
+name:
+  en: Jodo
+  ja-Latn: Jōdō
+  ja: 杖道
+aka:
+  ja-Latn: Jōjutsu
+  ja: 杖術
+description:
+  en: 'Jōdō (杖道), "way of the jō", is a Japanese martial art using a short staff called a
+
+    jō, usually about 3 to 5 feet (0.9 to 1.5 m) long. The art is similar to bōjutsu and
+
+    is strongly focused upon defence against the Japanese sword. It is a modern budo
+
+    whose origin is the koryu art Shintō Musō-ryū jōjutsu, founded by Musō Gonnosuke
+
+    Katsuyoshi after his duels with Miyamoto Musashi; by shortening the bō to a jō of
+
+    four shaku two sun one bu, Gonnosuke gained the ability to combine techniques of the
+
+    long staff, the spear and the sword in one weapon. The older art is also known as
+
+    jōjutsu (杖術), "art of the jō".
+
+    '
+foundedEvent:
+  location:
+    countryCode: eucountry:JPN
+hasStyleRelationAssertion:
+- id: 01M3YH7N5GQEEN4ZXWHFR06X9T
+  relatedStyle: 01KZ9TQS3VCCTAXE15YF88B0T9
+  styleRelationType: stylerel:derived_from
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Japanese Wikipedia defines jodo in a single sentence as a modern budo (gendai budo) whose origin
+      is the koryu art Shinto Muso-ryu jojutsu; the English article's account of the art is likewise an
+      account of Shinto Muso-ryu.
+  hasEvidence:
+  - basedOnSource: 01M2411V8RM7DX5VHJESGBRRA2
+    quotation: 杖道（じょうどう）は、古武道の神道夢想流杖術を起源とする現代武道である。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M2411V8RSSKGHVY1N4N3Q5PV
+    quotation: Shintō Musō-ryū jōjutsu (sometimes known as Shintō Musō-ryū jōdō - "Shindō" is also a valid
+      pronunciation for the leading characters) is reputed to have been invented by the great swordsman
+      Musō Gonnosuke Katsuyoshi (夢想 權之助 勝吉, fl. c.1605, date of death unknown) about 400 years ago, after
+      a bout won by the famous Miyamoto Musashi (宮本 武蔵, 1584–1645).
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M2411V8RSSKGHVY1N4N3Q5PV
+  quotation: Jōdō (杖道), meaning "way of the jō", or jōjutsu (杖術), meaning "art of the jō", is a Japanese
+    martial art using a short staff called jō.  The art is similar to bōjutsu, and is strongly focused
+    upon defense against the Japanese sword. The jō is a short staff, usually about 3 to 5 feet (0.9 to
+    1.5 m) long.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M2411V8RM7DX5VHJESGBRRA2
+  quotation: 杖道（じょうどう）は、古武道の神道夢想流杖術を起源とする現代武道である。
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q1340278
+tags:
+- japanese-martial-arts
+- jodo
+- gendai
+- weapons
+styleType: styleclass:modern
+notes: Created to carry Miyake Tsunako's 7th dan, which had been sitting as a rank entry with no style_id.
+  The underlying claim is a blog reading ("7-dan in jodo") and stays probable on her record; this Style
+  entity is sourced independently from the general EN and JA Wikipedia articles on the art, not from that
+  blog. Distinct from Shindo Muso-ryu (01KZ9TQS3VCCTAXE15YF88B0T9), the koryu jojutsu school it derives
+  from, in the same way Iaido is distinct from Iaijutsu.
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/d/d8/Hiki_otoshi_uchi.jpg
+    rights: mediarights:cc-by-sa-2.5
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:Hiki_otoshi_uchi.jpg
+      cite: "Lakkisto Jarkko, Wikimedia Commons"

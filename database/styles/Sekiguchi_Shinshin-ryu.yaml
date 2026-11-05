@@ -1,0 +1,57 @@
+type: Style
+id: 01M0BCX1XZQJC48W8V3Z71K07B
+name:
+  ja-Latn: Sekiguchi Shinshin-ryū
+  ja: 関口新心流
+description:
+  en: 'A koryu school of jujutsu. Records preserved in the Daito-ryu jujutsu literature name Sekiguchi
+    Ujitane as
+
+    Handa Yataro''s teacher in the style from 1860, while Handa was serving in the Kishu domain; Handa''s
+    later
+
+    Daito-ryu jujutsu is described by Wolf (2016) as an obscure development of Sekiguchi-ryu jujutsu.
+
+    '
+  ja: '柔術の古流流派。大東流柔術の文献には、半田弥太郎が1860年より紀州藩にて関口氏胤からこの流儀を学んだと記録される。
+
+    Wolf (2016) は半田の大東流柔術を関口流柔術の一変種として記述している。
+
+    '
+styleType: styleclass:traditional
+hasStyleRelationAssertion:
+- id: 01M3YH7N5G0REQ9ZB50E3V4G0B
+  relatedStyle: 01KJJAWN29MA64W22606R3WD9G
+  styleRelationType: stylerel:variant_of
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Wolf (2016) names the school jiujitsu, and the Japanese account has Sekiguchi Ujitane teaching it
+      as the Kishū domain's 柔術師範.
+  hasEvidence:
+  - basedOnSource: 01M0AJNJHSV6RHCNNKNM0Y1EHT
+    quotation: an obscure development of Sekiguchi-ryu jiujitsu
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M0AZQ3TJ9K5V2Z20K5370P1A
+    quotation: 1860年（万延元年）より紀州藩で柔術師範をしていた関口氏胤から関口新心流を学んだ。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M0AZQ3TJ9K5V2Z20K5370P1A
+  informationType: infotype:secondary
+  supports: true
+  quotation: 1860年（万延元年）より紀州藩で柔術師範をしていた関口氏胤から関口新心流を学んだ。
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0AJNJHSV6RHCNNKNM0Y1EHT
+  informationType: infotype:secondary
+  supports: true
+  quotation: an obscure development of Sekiguchi-ryu jiujitsu
+  evidenceType: evidencetype:direct
+tags:
+- jujutsu
+- koryu
+- japan

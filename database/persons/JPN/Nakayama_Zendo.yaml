@@ -1,0 +1,183 @@
+type: Person
+id: 01M1CDQWCMTSX6NC3103AEMP59
+name:
+  ja-Latn: Nakayama Zendō
+  ja: 中山善道
+aka:
+  ja-Latn: Nakayama Yoshimichi
+  en: Nakayama Zendo
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1900'
+  birthPlace:
+    label: Tokyo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1490
+  hasEvidence:
+  - basedOnSource: 01M1CC980TYXQ77FNJFEVQ25D5
+    quotation: >-
+      1900年〈明治33年〉
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1981'
+  deathPlace:
+    label: Japan
+    countryCode: eucountry:JPN
+    wikidata: wd:Q17
+  hasEvidence:
+  - basedOnSource: 01M1CC980TYXQ77FNJFEVQ25D5
+    quotation: >-
+      1981年〈昭和56年〉
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M3YH7N5G1SDRKGE3PKWWBH97
+  teacher: 01KZ6XT5DSD1RN1NG4PJKJWXAH
+  assertedStyle: 01KYHNJKQDTEJ1A5MQ5JYPHDTB
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: His father. JA Wikipedia and kenshi247.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KZ9TV15DAKTA2KEF6NFKDJD3
+    interactionPeriod:
+      startYear: 1912
+    hasEvidence:
+    - basedOnSource: 01M1CC980TYXQ77FNJFEVQ25D5
+      quotation: 父の道場有信館において神道無念流剣術・立居合、夢想神伝流居合、神道夢想流杖術を学ぶ。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZ6XT5DSE2WFVPWC8ET939CN
+      quotation: Hakudo was survived by his son Nakayama Zendo to whom he passed all of his knowledge
+        onto.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GK0KXWPNKJH6A4YXJ
+  rankStyle: 01KYHNJKQDTEJ1A5MQ5JYPHDTB
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+  rankGrade: rankgrade:menkyo_kaiden
+  grantedBy: 01KZ6XT5DSD1RN1NG4PJKJWXAH
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: kenshi247 only; it gives Menkyo Kaiden in Hakudō’s Hayashizaki Hon-ryū. JA Wikipedia gives the Shindō Munen-ryū menkyo.
+  hasEvidence:
+  - basedOnSource: 01KZ6XT5DSE2WFVPWC8ET939CN
+    quotation: 'Hakudo added that only four individuals surpassed them by learning all the kata and in effect achieving Menkyo Kaiden, their names were: Nakayama Zendo (Menkyo Kaiden)'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasHonorAssertion:
+- id: 01M3YH7N5GNK4XN859N2D097V1
+  honorValue: Seirensho
+  honorType: honortype:title
+  dateConferred: '1925'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: JP Wikipedia records Zendo received the Butokukai Seirensho in kendo in 1925
+      (Taisho 14).
+  hasEvidence:
+  - basedOnSource: 01M1CC980TYXQ77FNJFEVQ25D5
+    quotation: 1925年（大正14年）、大日本武徳会剣道精錬証
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5GRX4GHRW46Y8N2TE5
+  honorValue: Kyoshi
+  honorType: honortype:title
+  honorGrade: honorgrade:shogo_kyoshi
+  dateConferred: '1927'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: JP Wikipedia records Zendo received the Butokukai Kyoshi in iaido and jodo in
+      1927 (Showa 2).
+  hasEvidence:
+  - basedOnSource: 01M1CC980TYXQ77FNJFEVQ25D5
+    quotation: 1927年（昭和2年）、大日本武徳会居合術教士及び杖術教士
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5GXMSSXPDT5MT1DYD0
+  honorValue: Kyoshi
+  honorType: honortype:title
+  honorGrade: honorgrade:shogo_kyoshi
+  dateConferred: '1929'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: JP Wikipedia records Zendo received the Butokukai Kyoshi in kendo in 1929 (Showa
+      4).
+  hasEvidence:
+  - basedOnSource: 01M1CC980TYXQ77FNJFEVQ25D5
+    quotation: 1929年（昭和4年）、大日本武徳会剣道教士
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: 'Nakayama Zendo (1900–1981), born Nakayama Yoshimichi, was the eldest son and designated successor
+
+    of Nakayama Hakudo, founder of Muso Shinden Ryu and 7th soke of Shindo Munen Ryu. He inherited all
+
+    of his father''s martial knowledge - Shindo Munen Ryu kenjutsu, Muso Shinden Ryu iaido, and Shindo
+
+    Muso Ryu jodo - receiving Menkyo Kaiden in Shindo Munen Ryu from Hakudo himself. A Butokukai
+
+    Seirensho holder (1925) and Kyoshi in kendo (1929), iaido and jodo (1927), he was the 8th headmaster
+
+    of the Yushinkan dojo after his father''s death in 1958. After a period of retreat from the martial
+
+    arts during and after the Pacific War - when Hakudo was briefly imprisoned as a war responsibility
+
+    suspect and the Yushinkan dojo was lost - Zendo later gave interviews to Domoto Akihiko that formed
+
+    the basis of the Nakayama Hakudo Kendo Kojutsushu. He transmitted Hakudo''s kendo kata knowledge to
+
+    Ogawa Takeshi, the 10th headmaster of the Yushinkan.
+
+    '
+  ja: '中山善道（1900年−1981年）は、夢想神伝流を創始した中山博道の長男であり、神道無念流の8代目宗家。博道から神道無念流の免許皆伝を継承し、博道死後1958年に有信館の宗家として継承した。大日本武徳会の精錬証（1925年）、教士（1927年居合・杖、1929年剣道）を保有。戦中・戦後の混乱で博道が一時収監された影響を受け、有信館を失った後、堂本昭彦への口述により『中山博道剣道口述集』を残した。
+
+    '
+hasEvidence:
+- basedOnSource: 01M1CC980TYXQ77FNJFEVQ25D5
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M1CC980TYXQ77FNJFEVQ25D4
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M1CC980TYXQ77FNJFEVQ25D3
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+  quotation: 中山博道の息子・中山善道より直伝された小川武師範（神道無念流・有信館館長）の実演解説
+- basedOnSource: 01KZ6XT5DSE2WFVPWC8ET939CN
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+  quotation: Hakudo was survived by his son Nakayama Zendo to whom he passed all of his knowledge onto.
+sameAs:
+- wd:Q11364114
+- viaf:260804040
+tags:
+- kendo
+- iaido
+- jodo
+- japan
+- yushinkan
+- shindo-munen-ryu
+- muso-shinden-ryu
+- shindo-muso-ryu
+- nakayama-zendo

@@ -1,0 +1,56 @@
+type: Organization
+id: 01M6BFF6ZQRPZAPEACCS653K67
+name:
+  en: Tenyokai
+aka:
+  en: Tenyokai Japan
+orgType: orgclass:association
+foundedEvent:
+  startDate: '1978-06'
+  founder:
+    - 01M6BFF6ZQE2GG1EB3VFZ4BYZF
+  location:
+    label: Tokyo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1490
+  hasEvidence:
+    - basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+      locator: Tenjin Shinyo-ryu Jujutsu Today
+      locatorLabel: section
+      quotation: 'He established the Tenyokai in June 1978 to continue Sakamoto’s teachings, holding a party at the Tojo Kaikan to commemorate the occasion.'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Group dedicated to Kodokan judo and the Sakamoto Fusataro line of Tenjin Shinyo-ryu jujutsu,
+    founded by Kubota Toshihiro in June 1978.
+hasEvidence:
+- basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+  locator: The Structure of Tenjin Shinyo-ryu Jujutsu
+  locatorLabel: section
+  quotation: 'This is a group of people dedicated to the practice of Kodokan judo and Tenjin Shinyo-ryu jujutsu.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M6BFF6ZQKBFDYWHSV1G06AHA
+    officer: 01M6BFF6ZQE2GG1EB3VFZ4BYZF
+    officerTitle: President
+    officerPeriod:
+      startYear: 1978
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Skoss (the Kubota line) states it; one account. Founder from 1978; end date not known.
+    hasEvidence:
+      - basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+        locator: The Structure of Tenjin Shinyo-ryu Jujutsu
+        locatorLabel: section
+        quotation: 'It should be noted here that, when I discuss the licenses awarded in Tenjin Shinyo-ryu, I am referring to those given by Mr. Kubota Toshihiro, the president of the Tenyokai.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+notes: >-
+  The founding party was held at the Tojo Kaikan; the location label is Tokyo on that basis.
+  Tenyokai International (England) represents it outside Japan. Its own dojo is not recorded.

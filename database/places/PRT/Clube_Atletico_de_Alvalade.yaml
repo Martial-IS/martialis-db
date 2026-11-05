@@ -1,0 +1,74 @@
+type: Place
+id: 01KZ4CF8P1QAG58XJWH4S8AZMK
+name:
+  en: Clube Atlético de Alvalade
+placeType: placeclass:club
+hasSite:
+  - location:
+      label: Lisbon
+      countryCode: eucountry:PRT
+      wikidata: wd:Q597
+foundedEvent:
+  startDate: '1949'
+  hasEvidence:
+    - basedOnSource: 01KZ49W5BP7B8VF2EYWCR2QZBZ
+      quotation: Clube Atlético de Alvalade
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M3YH7N5GFJZABDVWAKVFGPM1
+    relatedOrganization: 01KZ4B90EYD27V3YA30D6JRPX3
+    affiliationRelation: affrel:member_of
+    validDuring:
+      startYear: 1977
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: A single source states the aikido section has been run by Luís Antunes, AKP's own Technical Director, since 1977, placing the venue's aikido programme under the AKP umbrella; no independent source corroborates it
+    hasEvidence:
+      - basedOnSource: 01KZ49W5BP7B8VF2EYWCR2QZBZ
+        quotation: >-
+          É professor neste Clube desde 1977, Delegado da Aikikai Foundation de Tóquio, atualmente o Diretor Técnico da AKP – Aikikai de Portugal
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M4R9845W68YR2TGVJG8N617P
+    instructor: 01KZ49W5BP12FPKE4KFJBKQATY
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1977
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The club's own page states he has taught there since 1977; one side only.
+    hasEvidence:
+      - basedOnSource: 01KZ49W5BP7B8VF2EYWCR2QZBZ
+        quotation: >-
+          É professor neste Clube desde 1977, Delegado da Aikikai Foundation de Tóquio, atualmente o Diretor Técnico da AKP – Aikikai de Portugal
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+website: https://clubeatleticodealvalade.pt
+logo:
+  contentUrl: https://clubeatleticodealvalade.pt/wp-content/uploads/2020/08/caa-logo-white50-200px.png
+  imageAttribution:
+    basedOnSource: 01KZ49W5BP7B8VF2EYWCR2QZBZ
+    informationType: infotype:secondary
+description:
+  en: Multi-sport club in Lisbon, founded in 1949, whose aikido section has been taught by Luís Antunes (7th dan and shihan, Aikikai) since 1977. The aikido programme runs under the Associação Desportiva Aikikai de Portugal (AKP).
+  pt: Clube polidesportivo de Lisboa, fundado em 1949, cuja secção de Aikido é lecionada por Luís Antunes (7º dan e shihan, Aikikai) desde 1977. O programa de Aikido decorre sob a Associação Desportiva Aikikai de Portugal (AKP).
+hasEvidence:
+  - basedOnSource: 01KZ49W5BP7B8VF2EYWCR2QZBZ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - aikido
+  - aikikai
+  - portugal

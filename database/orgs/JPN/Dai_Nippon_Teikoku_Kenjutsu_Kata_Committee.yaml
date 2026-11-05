@@ -1,0 +1,154 @@
+type: Organization
+id: 01M2WGWA1Y35VPV7HFHJA5PWQD
+name:
+  en: Dai-Nippon Teikoku Kenjutsu Kata Committee
+  ja: 大日本帝国剣道形制定委員会
+orgType: orgclass:committee
+hasSite:
+  - location:
+      label: Kyoto
+      countryCode: eucountry:JPN
+      wikidata: wd:Q34600
+foundedEvent:
+  startDate: '1911'
+  hasEvidence:
+    - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+      locator: '118'
+      locatorLabel: page
+      quotation: >-
+        The Butokukai convened an extraordinary meeting in December 1911 to assess its predicament, and another committee was convened to develop yet another set of kata.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+dissolvedEvent:
+  endDate: '1912'
+  dissolutionManner: dissmanner:defunct
+  dissolutionReason: Completed its mandate when the ten-form kata was ratified.
+  hasEvidence:
+    - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+      locator: '119'
+      locatorLabel: page
+      quotation: >-
+        The honor of the MOE and the Butokukai was maintained, and the full set of ten kata was ratified on October 16, 1912.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:indirect
+hasAffiliationAssertion:
+  - id: 01M3YH7N5FECYVSAX2JTDP7VSB
+    relatedOrganization: 01KJJAWN29MA64W22606R3WD7Y
+    affiliationRelation: affrel:branch_of
+    validDuring:
+      startYear: 1911
+      endYear: 1912
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Constituted for the 1911-1912 kata project and dissolved when its kata was ratified.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        locator: '118'
+        locatorLabel: page
+        quotation: >-
+          The Butokukai convened an extraordinary meeting in December 1911 to assess its predicament, and another committee was convened to develop yet another set of kata.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M4R9845W9NCCHZH9A2PGVHJS
+    officer: 01M2XVMMR0Y3ZA7VN5FY6S8TY6
+    officerTitle: Chief commissioner (主査)
+    officerPeriod:
+      startYear: 1911
+      endYear: 1912
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: An authored history and Japanese Wikipedia agree.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: The five kenjutsu masters from various ryūha tasked with this responsibility were Negishi Shingorō, Tsuji Shinpei, Naitō Takaharu, Monna Tadashi, and Takano Sasaburō.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M2Z6TY1P25CQ9YJJM432S4DN
+        quotation: 門奈はそのうち5名の主査の一人に抜擢された。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M4R9845WJBE9X31XHQBC7ZJ4
+    officer: 01M2WGWA1YG2SSC4PASW0TXXQC
+    officerTitle: Chief commissioner (主査)
+    officerPeriod:
+      startYear: 1911
+      endYear: 1912
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One authored history.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: The five kenjutsu masters from various ryūha tasked with this responsibility were Negishi Shingorō, Tsuji Shinpei, Naitō Takaharu, Monna Tadashi, and Takano Sasaburō.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M4R9845WQ4ATWXT4E4C6ZBP4
+    officer: 01KJJAWN29MA64W22606R3WD6H
+    officerTitle: Chief commissioner (主査)
+    officerPeriod:
+      startYear: 1911
+      endYear: 1912
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One authored history.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: The five kenjutsu masters from various ryūha tasked with this responsibility were Negishi Shingorō, Tsuji Shinpei, Naitō Takaharu, Monna Tadashi, and Takano Sasaburō.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M4R9845W7E3Q6HG9RGPSCA0A
+    officer: 01M1BVV4WY6PPJN89RGFSJNA23
+    officerTitle: Chief commissioner (主査)
+    officerPeriod:
+      startYear: 1911
+      endYear: 1912
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One authored history.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: The five kenjutsu masters from various ryūha tasked with this responsibility were Negishi Shingorō, Tsuji Shinpei, Naitō Takaharu, Monna Tadashi, and Takano Sasaburō.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M4R9845WQFHPNSAWNTXQPP5Q
+    officer: 01M3771VT4DX9ET5NP0B9XWZ3C
+    officerTitle: Chief commissioner (主査)
+    officerPeriod:
+      startYear: 1911
+      endYear: 1912
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One authored history.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: The five kenjutsu masters from various ryūha tasked with this responsibility were Negishi Shingorō, Tsuji Shinpei, Naitō Takaharu, Monna Tadashi, and Takano Sasaburō.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+notes: >-
+  Tsuji Shinpei's Shingitō-ryū attribution comes from the JA wiki, not from Bennett, and that style has no record here. Bennett also describes an earlier, separate 1906 Butokukai kata committee chaired by Watanabe Noboru.
+description:
+  en: Committee constituted by the Dai Nippon Butokukai to develop a standardized set of kenjutsu kata for school dissemination. Produced the ten-form Dai-Nippon Teikoku Kenjutsu Kata (大日本帝国剣道形), ratified by the Butokukai on 16 October 1912. Preceded the 1906 Butokukai Seitei Kenjutsu Kata (3 kata) and succeeded it.
+hasEvidence:
+  - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - kendo
+  - kata
+  - butokukai

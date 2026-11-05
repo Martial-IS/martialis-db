@@ -1,0 +1,74 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1S2
+name:
+  ja-Latn: Inoue Keitaro
+  ja: 井上敬太郎
+aka:
+  ja-Latn: Okusawa Keitaro
+  ja: 奥澤敬太郎
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1847'
+  birthPlace:
+    label: Anahara Village, Yamada District, Kōzuke Province (now Gunma Prefecture)
+    countryCode: eucountry:JPN
+    wikidata: wd:Q129499
+deathEvent:
+  deathDate: '1909-07-22'
+  deathPlace:
+    label: Japan
+    countryCode: eucountry:JPN
+    wikidata: wd:Q17
+hasTeacherAssertion:
+- id: 01M6BEFR8FHHTAG1RA34WFKY9H
+  teacher: 01KJJAWN28MWKKSN4J02MVY1V9
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9Q
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Skoss and Buyens name Iso Masatomo; Buyens may draw on the same tradition.
+      Japanese Wikipedia says he learned from Iso Mataemon, the name every Iso head used.
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+      locator: Tenjin Shinyo-ryu Jujutsu Today
+      locatorLabel: section
+      quotation: Takisaburo studied with Iso Mataichiro, second son of fourth headmaster Iso Mataemon Masanobu,
+        and Inoue Keitaro, a student of Iso Masatomo, the third head of the tradition.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://ja.wikipedia.org/wiki/%E5%A5%A5%E6%BE%A4%E6%95%AC%E5%A4%AA%E9%83%8E
+      archiveUri: http://web.archive.org/web/20250114142314/https://ja.wikipedia.org/wiki/%E5%A5%A5%E6%BE%A4%E6%95%AC%E5%A4%AA%E9%83%8E
+      cite: 奥澤敬太郎 - Wikipedia
+      quotation: 天神真楊流は磯又右エ門より学び免許。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:indirect
+    - uri: http://www.hontaiyoshinryu.be/images/Documents/p_schools.pdf
+      cite: BUYENS, Guy. Introduction to Traditional martial systems. 2016
+      quotation: Iso Mataemon Masatomo had amongst his students Inoue Keitaro and Tozawa Tokusaburo, who
+        were the teachers of Miyamoto Hanzo).
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- uri: https://ja.wikipedia.org/wiki/%E5%A5%A5%E6%BE%A4%E6%95%AC%E5%A4%AA%E9%83%8E
+  archiveUri: http://web.archive.org/web/20250114142314/https://ja.wikipedia.org/wiki/%E5%A5%A5%E6%BE%A4%E6%95%AC%E5%A4%AA%E9%83%8E
+  cite: 奥澤敬太郎 - Wikipedia
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KXTSQXW6P83R31HCRY2PRTCK
+  quotation: 井上敬太郎（道場は湯島天神下）に天神真楊流を学んだ。
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+notes: >-
+  A second teacher relationship is suspected but no specific teacher, place, period, or source has been identified; retained as a lead for future discovery. No Wikidata item exists for Anahara Village itself, so the QID points to Gunma Prefecture, the modern successor region. Lead: an E-Judo forum post (judo.forumotion.com/t2885-kano-genyosha-connection) says he was Kano
+  Jigoro's third Tenjin Shinyo-ryu teacher, and Japanese Wikipedia says he became the first judo
+  instructor at the Gakushuin (April 1883 to March 1886) because his student Kano was its deputy
+  head. Kano has no teacher claim for him yet.

@@ -1,0 +1,80 @@
+type: Style
+id: 01M5JTMYPEMGBV9VR1FNNPYP8R
+name:
+  en: English swordsmanship
+aka:
+  en:
+    - Noble Science of Defence
+    - English masters of defence
+styleType: styleclass:traditional
+hasStyleRelationAssertion:
+  - id: 01M5JTMYPE93S5QZA040VK4KVN
+    relatedStyle: 01M5JRHX02FJ6XZ3X069NVX3SE
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        One source states it; the other implies it.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Like German fencing guilds, English masters taught the traditional weapons of sword and buckler,
+          sword and dagger, two-handed sword, quarterstaff, and bill, only adding the Italian rapier and
+          rapier and dagger after the arrival of the Italian masters Rocco Bonetti about 1571 and Vincentio
+          Saviolo about 1590.
+        locator: '254'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JTMYPE2SJR19HRKSEWF49P
+        quotation: >-
+          Silver championed the native English martial arts while objecting on ethical and technical
+          grounds to the fashionable continental rapier systems being taught at the time.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+  - id: 01M5WKDYSR4FXYWEST9J8GA37X
+    relatedStyle: 01M5JSGG509Z4J4P08MWKM16ZW
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Green and Svinth state directly that English masters added the Italian rapier after Bonetti and
+        Saviolo arrived; one secondary source, so probable rather than confirmed.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Like German fencing guilds, English masters taught the traditional weapons of sword and buckler,
+          sword and dagger, two-handed sword, quarterstaff, and bill, only adding the Italian rapier and
+          rapier and dagger after the arrival of the Italian masters Rocco Bonetti about 1571 and Vincentio
+          Saviolo about 1590.
+        locator: '254'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    The native English art of defence taught by the London Masters of Defence and their successors:
+    sword and buckler, sword and dagger, two-handed sword, quarterstaff, bill and later the backsword,
+    with the rapier added after the Italian masters arrived in the 1570s–1590s. George Silver defended it
+    against the rapier in 1599; the backsword and quarterstaff were still taught by eighteenth-century
+    prizefighters such as James Figg.
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Even George Silver (ca. 1560s–ca. 1620s), whose works provide the only detailed study of
+      Elizabethan martial arts, was quick to point out that he was a gentleman, not a professional fencing
+      master.
+    locator: '254'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - fencing
+  - english-swordsmanship
+  - historical-european-martial-arts

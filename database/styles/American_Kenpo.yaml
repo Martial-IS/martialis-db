@@ -1,0 +1,65 @@
+type: Style
+id: 01M5H43V0TP79D1TK9BV4TWWZD
+name:
+  en: American Kenpo
+aka:
+  en:
+    - Kenpo karate
+    - Ed Parker's American Kenpo
+    - Parker Kenpo
+styleType: styleclass:modern
+foundedEvent:
+  location:
+    countryCode: eucountry:USA
+  founder:
+    - 01M5H43V0TEPYDCNNZKASWJ4SH
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Parker called his art American Kenpo because he believed that it suited the way Americans
+        thought (and fought) at the time he was developing it.
+      locator: '49'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasStyleRelationAssertion:
+  - id: 01M5H43V0TQ5QQR5V65B8D6N9F
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9S
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source; it calls the art Kenpo karate, with strong Chinese influence.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Kenpo karate was what Parker brought from Honolulu. In the United States, it would also be
+          known as Chinese Kenpo, American Kenpo, Ed Parker’s Kenpo Karate, and Ed Parker’s American
+          Kenpo Karate.
+        locator: '49'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Karate system developed in the United States by Ed Parker from the Kenpo he learned in Honolulu
+    from William Kwai Sun Chow; it combines circular and linear motion.
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: 49-52
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/en/4/44/IKKA.png
+    imageAttribution:
+      uri: https://en.wikipedia.org/wiki/File:IKKA.png
+      cite: "International Kenpo Karate Association, English Wikipedia"
+sameAs:
+  - wd:Q525270
+tags:
+  - karate
+  - kenpo

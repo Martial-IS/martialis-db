@@ -1,0 +1,52 @@
+type: Style
+id: 01M5HNCED83NFJJMM88SPZ7J1B
+name:
+  en: Kupigana Ngumi
+styleType: styleclass:modern
+foundedEvent:
+  founder:
+    - 01M5HNCED8Y9PFQRCH4ZJ0YQ4G
+    - 01M5HN921CNQ0GZGR3ZAPM3AH1
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        After meeting each other, Tolo-Naa and Maasi decided to develop an Afrikan-centered art. The
+        name Kupigana Ngumi (Kiswahili, “fist-fighting”) was chosen because it embodied universal
+        principles
+      locator: '629'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Afrikan-centred martial art developed by Nganga Tolo-Naa and Mfundishi Maasi from the late 1960s,
+    drawing on the karate of Count Dante and James Cheatham, the Yang-style taijiquan of Hou Chi Kwang,
+    the qigong of Alan Lee and the American Bando of Maung Gyi.
+hasStyleRelationAssertion:
+  - id: 01M5HNCED84YG0G7K8W928VC3V
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9S
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Structurally, the original version of Kupigana Ngumi was influenced by the karate of Count
+          Dante and James Cheatham
+        locator: '629'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: '629'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - karate

@@ -1,0 +1,209 @@
+type: Person
+id: 01KZEFT5DBRM584NTXP777QFDA
+name:
+  ja-Latn: Nakazato Shūgorō
+  ja: 仲里周五郎
+aka:
+  en:
+    - Shugoro Nakazato
+    - Shuugorou Nakazato
+  ja:
+    - なかざと しゅうごろう
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1920-08-14'
+  birthPlace:
+    label: Shuri
+    countryCode: eucountry:JPN
+    wikidata: wd:Q608415
+  hasEvidence:
+    - basedOnSource: 01KZEK9QGV7HGNB3JK3TKK57B6
+      quotation: Shūgorō Nakazato (仲里 周五郎, Nakazato Shūgorō; August 14, 1920 – August 24, 2016) was an Okinawan martial artist.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2016-08-24'
+  deathPlace:
+    label: Naha
+    countryCode: eucountry:JPN
+    wikidata: wd:Q181966
+  hasEvidence:
+    - basedOnSource: 01KZEK9QGV7HGNB3JK3TKK57B6
+      quotation: August 14, 1920 – August 24, 2016
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/en/0/0b/Nakazato_Shugoro_photo.jpg
+  imageAttribution:
+    uri: https://en.wikipedia.org/wiki/File:Nakazato_Shugoro_photo.jpg
+    cite: "Okinawa Times, English Wikipedia"
+    informationType: infotype:secondary
+description:
+  en: Okinawan martial artist (1920-2016), founder of the Shorinkan school of Kobayashi Shorin-ryu; trained under Seiichi Iju, Choshin Chibana and Masami Chinen; designated an intangible cultural asset holder by Okinawa Prefecture.
+notes: 'Nakazato trained in karate under Seiichi Iju from 1935 to 1940 in Osaka, and in kobudo (bo, sai, nunchaku, tonfa, nichokama) under Seiro Tonaki from 1936 to 1940. He joined the Japanese army in 1942, and after the war became a student of Chosin Chibana, helping him open the Dai Ichi Dojo in 1951 and receiving his shihan license in 1955. He opened his Nakazato Dojo at Aja near Naha in 1955, and resumed bojutsu under Masami Chinen (1955-1958). He was designated an intangible cultural asset holder by Okinawa Prefecture in 2000 and awarded the Order of the Rising Sun, 5th Class on November 4, 2007. Per the Shorinkan Family Karate history page, Chibana presented his personal black belt to Nakazato as his most influential student; Nakazato was awarded 9th dan by Chibana in 1967, became president of the Okinawan Shorin-Ryu Shorinkan Karate-do Kyokai after Chibana''s death in 1969, was promoted to 10th dan in 1980, and is credited with introducing the Gorin kata; the page also records the Ken Bunka Korosha Cultural Award (announced November 2, 2006, presented November 8, 2006) and the Order of the Rising Sun (November 4, 2007, the only martial artist among 960 recipients). The O.B.I. Karate School (Virginia Beach, via his student Noel Smith) confirms he created the Shorin-ryu Shorinkan association. Note: the Wikidata birth/death dates (14 Aug 1919 / 25 Aug 2016) differ slightly from the EN Wikipedia dates used here; the Shorinkan Family Karate page gives 1921.'
+hasTeacherAssertion:
+  - id: 01M3YH7N5GJ9THYM9S9K0GTZHG
+    teacher: 01KZEF1AS2QCJJQHW4G9TTQQHP
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states Nakazato started karate training in 1935 under Seiichi Iju, staying with him until 1940
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1935
+          endYear: 1940
+        hasEvidence:
+          - basedOnSource: 01KZEK9QGV7HGNB3JK3TKK57B6
+            quotation: He first started karate training in 1935 under Seiichi Iju (a former student of Shinpan Shiroma) at Minato ward, Sakai City, Osaka, staying with him until 1940.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G2EDY8RYJABBJE197
+    teacher: 01KZC7XZAWJNRVKWZ66A7CXENR
+    assertedStyle: 01KZDXQH2MARRZH56QT95D2964
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states Nakazato became a student of Chosin Chibana after the war and received his shihan license from him in 1955; the Shorinkan Family Karate page confirms Chibana presented his personal black belt to Nakazato as his most influential student and awarded him 9th dan in 1967
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1942
+          endYear: 1969
+        hasEvidence:
+          - basedOnSource: 01KZEK9QGV7HGNB3JK3TKK57B6
+            quotation: In 1942, Nakazato joined the Japanese army [...] At the war's end, he returned to Okinawa to become a student of Chosin Chibana [...] After receiving his shihan license from Chibana in 1955, Nakazato opened his dojo at Aja, near Naha, calling it Nakazato Dojo.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZGGMSWVVRBVDH77YPT4F4HT
+            quotation: CHIBANA Sensei's most influential student of the modern day is NAKAZATO, Shugoro, to whom CHIBANA Sensei presented his personal black belt [...] in 1967, after nearly twenty years of training, was awarded 9thDan by his eminent instructor CHIBANA Choshin.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZGGMSWV6E8DRWHM6FSQFRQ9
+            quotation: Sensei Choshin Chibana had many influential Karateka, Sense Shugoro Nakazato was among them, eventually he created the Shorin-ryu Shorinkan association.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GX29TBNMYPC1TS5KY
+    teacher: 01KZBVW8NFCS8PS3RR0PDQ1936
+    assertedStyle: 01KYJC7J3MB81B06881FVFYGAG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states Nakazato resumed bojutsu training in 1955 under Masami Chinen, with whom he stayed until 1958
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1955
+          endYear: 1958
+        hasEvidence:
+          - basedOnSource: 01KZEK9QGV7HGNB3JK3TKK57B6
+            quotation: In the same year, Nakazato resumed bojutsu training, this time under Seiro Tonaki's teacher's son, Masami Chinen, with whom he stayed until 1958.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GTRSR1MM27TBM054A
+    rankStyle: 01KZEK8ETSSH83481NN4DNS2AX
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 9
+    grantedBy: 01KZC7XZAWJNRVKWZ66A7CXENR
+    dateConferred: '1967'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Shorinkan Family Karate page states Nakazato was awarded 9th dan by Chibana in 1967, after nearly twenty years of training
+    hasEvidence:
+      - basedOnSource: 01KZGGMSWVVRBVDH77YPT4F4HT
+        quotation: in 1967, after nearly twenty years of training, was awarded 9thDan by his eminent instructor CHIBANA Choshin.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GDQDY6EETFYDG8Z6D
+    rankStyle: 01KZEK8ETSSH83481NN4DNS2AX
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 10
+    dateConferred: '1980'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Shorinkan Family Karate page states Nakazato was promoted to 10th dan in 1980, having become president of the Shorin-Ryu Shorinkan Karate-do Kyokai after Chibana's death in 1969; the Chibana EN Wikipedia article also names him Hanshi 10th dan
+    hasEvidence:
+      - basedOnSource: 01KZGGMSWVVRBVDH77YPT4F4HT
+        quotation: Upon CHIBANA Sensei's death in 1969, NAKAZATO Sensei became the president of the Okinawan Shorin-Ryu * ShorinKan Karate-do Kyokai and was promoted to 10thDan in 1980.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZC8XAP8WHXBQM71S344TXVZ
+        quotation: Shorin-ryū Shorinkan school founded by Chibana's student Shūgorō Nakazato, Hanshi, 10th Dan.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M3YH7N5G3HBYTNZ2YR9VX4QT
+    honorValue: Order of the Rising Sun, 5th Class with Gold and Silver Rays
+    honorType: honortype:title
+    dateConferred: '2007-11-04'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states Nakazato was awarded the Order of the Rising Sun, 5th Class with Gold and Silver Rays on November 4, 2007; the Shorinkan Family Karate page confirms it, noting he was the only martial artist among 960 recipients
+    hasEvidence:
+      - basedOnSource: 01KZEK9QGV7HGNB3JK3TKK57B6
+        quotation: He was awarded the Order of the Rising Sun, 5th Class with Gold and Silver Rays on November 4, 2007.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZGGMSWVVRBVDH77YPT4F4HT
+        quotation: Also on November 4th, 2007, the government of Japan [...] awarded to Nakazato Sensei the "Order of the Rising Sun with Gold and Silver Rays" [...] Shugoro Nakazato Sensei being the ONLY martial artist to be presented with this prestigious award.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GGZPW0DTW5XKPNKM2
+    honorValue: Hanshi 10th Dan
+    honorType: honortype:title
+    honorGrade: honorgrade:shogo_hanshi
+    dateConferred: '1980'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Shorinkan Family Karate page states Nakazato was promoted to 10th dan in 1980, having become president of the Shorin-Ryu Shorinkan Karate-do Kyokai after Chibana's death in 1969; the Chibana EN Wikipedia article also names him Hanshi 10th dan
+    hasEvidence:
+      - basedOnSource: 01KZGGMSWVVRBVDH77YPT4F4HT
+        quotation: Upon CHIBANA Sensei's death in 1969, NAKAZATO Sensei became the president of the Okinawan Shorin-Ryu * ShorinKan Karate-do Kyokai and was promoted to 10thDan in 1980.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZC8XAP8WHXBQM71S344TXVZ
+        quotation: Shorin-ryū Shorinkan school founded by Chibana's student Shūgorō Nakazato, Hanshi, 10th Dan.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZEK9QGV7HGNB3JK3TKK57B6
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZGGMSWVVRBVDH77YPT4F4HT
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZGGMSWV6E8DRWHM6FSQFRQ9
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3482635
+tags:
+  - karate
+  - shorin-ryu
+  - shorinkan

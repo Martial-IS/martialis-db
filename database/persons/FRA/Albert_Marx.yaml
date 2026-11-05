@@ -1,0 +1,32 @@
+type: Person
+id: 01M39T3H2E9BXZ6TA5Q0GM87YA
+name:
+  fr: Albert Marx
+nationality:
+  - countryCode: eucountry:FRA
+hasTeacherAssertion:
+  - id: 01M3YH7N5GD2B8DZ3TC6WMTH9C
+    teacher: 01M39T3H2EDMQ9AKZB25RVS5S0
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Martin names him directly as Nocquet's student, ceinture bleue at the time.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M00NPBTPWWBSJZRMYXBESJ97
+            quotation: Lorsqu'André Nocquet quitte le département, Albert Marx et Henri Mennessier (ceintures bleues), ses élèves, prennent la direction du club et assurent son développement.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+description:
+  fr: Ceinture bleue, élève d'André Nocquet, qui prit la direction du Judo-Club d'Angoulême avec Henri Mennessier lorsque Nocquet quitta la Charente, et continua à diriger le club après le départ de Mennessier pour Nancy en 1948.
+hasEvidence:
+  - basedOnSource: 01M00NPBTPWWBSJZRMYXBESJ97
+    quotation: Albert Marx continue à assurer la direction du club d'Angoulême.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - france

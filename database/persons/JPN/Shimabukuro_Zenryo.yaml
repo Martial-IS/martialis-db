@@ -1,0 +1,148 @@
+type: Person
+id: 01KZEDXRH5D5APZJW9C5TF5EGW
+name:
+  ja-Latn: Shimabukuro Zenryō
+  ja: 島袋善良
+aka:
+  en:
+    - Zenryo Shimabukuro
+    - Zenryou Shimabukuro
+  ja:
+    - しまぶくろ ぜんりょう
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1909-11-05'
+  dateOriginal: 明治４２年１１月５日
+  dateCalendar: datecal:japanese_nengo
+  birthPlace:
+    label: Shuri
+    countryCode: eucountry:JPN
+    wikidata: wd:Q608415
+  hasEvidence:
+    - basedOnSource: 01KZEV344570PFVXKKNTX5GYQP
+      quotation: 明治４２年１１月５日沖縄県那覇市首里久場川に生まれる。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://www.wikidata.org/wiki/Q189805
+      quotation: >-
+        date of birth 5 November 1909
+      cite: Wikidata entry for Zenryō Shimabukuro (5 November 1909)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1969-10-14'
+  dateOriginal: 昭和４４年１０月
+  dateCalendar: datecal:japanese_nengo
+  hasEvidence:
+    - basedOnSource: 01KZEV344570PFVXKKNTX5GYQP
+      quotation: １９６９年（昭和４４年）１０月、善良は全日本空手道連盟[...]全日本空手道選手権大会（日本武道館）での模範演武の招待を受け[...]帰途大阪において急な病で帰らぬ人となった。享年６１歳であった。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZEK9QGVYNFDG0PK8BFQ82N2
+      quotation: On October 14, 1969, while in Osaka on his way back from the 1st All Japan Karate Championship [...] Zenryo died of appendicitis.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://shuriway.com/images/zenryoshimabukuro.jpg
+  imageAttribution:
+    uri: https://shuriway.com/zenryoshimabukuro.html
+    cite: "Shuriway"
+    informationType: infotype:secondary
+description:
+  en: Okinawan karate master (1909-1969), founder of Shorin-ryu Seibukan karate; student of Chotoku Kyan.
+notes: The official Seibukan history (priority source) gives his birth as November 5, 1909 in Shuri Kubagawa, Naha - agreeing with Wikidata and correcting the EN Wikipedia date (November 14, 1908). It records that he went to Osaka at 18 (1926) for work, settled in Chatan in 1933 as a confectioner, and began training under Chotoku Kyan in 1935 (Showa 10) - the EN Wikipedia gives 1932 for the start of Kyan training. He opened a dojo in Chatan in 1952, instructed US Army 503rd Airborne soldiers from 1961, and built the Seibukan dojo in 1962, also creating the Wanshu kata. He was president of the Okinawa Karate Union in 1965, and when the All-Okinawa Karate Federation formed in 1967 he was made vice president and awarded Hanshi 10th dan by it (the EN Wikipedia records a 10th dan red belt in 1964 within the Okinawan Karate-do United Association instead - the official 1967 date is kept). He died at 61 in Osaka in October 1969 on his way back from the All Japan championship. His students included his son Zenpo Shimabukuro (second head of Seibukan), nephew Zenji Shimabukuro, and American paratrooper William Fuller Jr. The Shuriway biography describes him as the foremost disciple of Kyan, with ten years of private training.
+hasTeacherAssertion:
+  - id: 01M3YH7N5GMHZV3JRZJ3YATWP4
+    teacher: 01KZC4PN01Y3PH3HRWWJPAH82A
+    assertedStyle: 01KZC8S2GE3X9V7N27WXMQEPQA
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The official Seibukan history states Shimabukuro knocked on Kyan's door in 1935 and studied Kyan's Shorin-ryu until Kyan's death in 1945; the EN Wikipedia gives 1932-1945 and the Shuriway biography describes him as Kyan's foremost disciple with ten years of private training
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1935
+          endYear: 1945
+        hasEvidence:
+          - basedOnSource: 01KZEV344570PFVXKKNTX5GYQP
+            quotation: 昭和10年、当時沖縄県読谷村の比謝川湖畔に住んでおられた沖縄空手の大家チャンミーグヮーこと喜屋武朝徳先生の門を叩き空手道に入る。
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZEK9QGVYNFDG0PK8BFQ82N2
+            quotation: He began his training with Kyan in 1932, but trained with him until Kyan's death in 1945, excluding the years during World War II, when karate instruction had ceased.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZEV34452CQQD9AFYPQNS89J
+            quotation: Master Zenryo Shimabukuro [...] was the foremost disciple of Sensei Chotoku Kyan [...] After completing 10 years of Karate as a private student under the great Master Chotoku Kyan, he began teaching.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GYQ1BCDSRBSWVJYW7
+    rankStyle: 01KZEK8ETSPWS3CAM18FJWFWJ6
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 10
+    dateConferred: '1967'
+    dateOriginal: 昭和４２年
+    dateCalendar: datecal:japanese_nengo
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The official Seibukan history states Shimabukuro was awarded the title of Hanshi 10th dan by the All-Okinawa Karate Federation in 1967; the EN Wikipedia records a 10th dan red belt in 1964 instead
+    hasEvidence:
+      - basedOnSource: 01KZEV344570PFVXKKNTX5GYQP
+        quotation: 昭和４２年、沖縄空手道連盟が結成されるとともに副会長に推され、同連盟より範士十段の称号を授与。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M3YH7N5G3TM16E7RBV9PSGT0
+    honorValue: Hanshi 10th Dan
+    honorType: honortype:title
+    honorGrade: honorgrade:shogo_hanshi
+    dateConferred: '1967'
+    dateOriginal: 昭和４２年
+    dateCalendar: datecal:japanese_nengo
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The official Seibukan history states Shimabukuro was awarded the title of Hanshi 10th dan by the All-Okinawa Karate Federation in 1967; the EN Wikipedia records a 10th dan red belt in 1964 instead
+    hasEvidence:
+      - basedOnSource: 01KZEV344570PFVXKKNTX5GYQP
+        quotation: 昭和４２年、沖縄空手道連盟が結成されるとともに副会長に推され、同連盟より範士十段の称号を授与。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZEV344570PFVXKKNTX5GYQP
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZEK9QGVYNFDG0PK8BFQ82N2
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZEV34452CQQD9AFYPQNS89J
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZEV34458YYGR8SHKDQ683BX
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q189805
+tags:
+  - karate
+  - shorin-ryu
+  - seibukan

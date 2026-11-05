@@ -1,0 +1,55 @@
+type: Style
+id: 01KJJAWN29MA64W22606R3WD9R
+name:
+  ja-Latn: Aikidō
+  ja: 合気道
+description:
+  en: "Aikido (Shinjitai: 合気道, Kyūjitai: 合氣道,) is a modern Japanese martial art that is split into many different styles, including Iwama Ryu, Iwama Shin Shin Aiki Shuren Kai, Shodokan Aikido, Yoshinkan, Renshinkai, Aikikai and Ki Aikido. Aikido is now practiced in around 140 countries. It was originally developed by Morihei Ueshiba, as a synthesis of his martial studies, philosophy and religious beliefs. Ueshiba's goal was to create an art that practitioners could use to defend themselves while also protecting their attackers from injury.      \n"
+hasEvidence:
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTDJ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: 1925~
+  eventPlace: 01KJJAWN29MA64W22606R3WD86
+  founder:
+    - 01KJJAWN28MWKKSN4J02MVY1TV
+  hasEvidence:
+    - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTDJ
+      quotation: >-
+        Ueshiba developed aikido primarily during the late 1920s through the 1930s through the synthesis of the older martial arts that he had studied.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:indirect
+  location:
+    countryCode: eucountry:JPN
+sameAs:
+  - wd:Q43114
+styleType: styleclass:modern
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5GDD1G6Z7PP61RSV26
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9C
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Aikido Wikipedia states Aikido derives mainly from Daito-ryu Aiki-jujutsu
+    hasEvidence:
+      - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTDJ
+        quotation: Aikido derives mainly from the martial art of Daitō-ryū Aiki-jūjutsu, but began to diverge from it in the late 1920s
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+tags:
+  - gendai
+photos:
+  - contentUrl: https://aikido.com.br/wp-content/uploads/2015/03/Ueshiba_8.jpg
+    imageAttribution:
+      uri: https://aikido.com.br/wp-content/uploads/2015/03/Ueshiba_8.jpg
+      cite: "Aikido.com.br"
+videos:
+  - contentUrl: https://www.youtube.com/watch?v=30Sa0PLquFg
+    imageAttribution:
+      uri: https://www.youtube.com/watch?v=30Sa0PLquFg
+      cite: "Aikido - Guillaume Erard, YouTube"

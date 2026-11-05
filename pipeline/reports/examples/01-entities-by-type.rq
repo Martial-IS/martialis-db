@@ -1,0 +1,10 @@
+# Count of entities by type.
+PREFIX martialis: <https://w3id.org/martialis/ontology#>
+
+SELECT ?type (COUNT(?s) AS ?count) WHERE {
+  VALUES ?type { martialis:Person martialis:Style martialis:Place
+                 martialis:Organization martialis:Source martialis:Event }
+  ?s a ?type .
+}
+GROUP BY ?type
+ORDER BY DESC(?count)

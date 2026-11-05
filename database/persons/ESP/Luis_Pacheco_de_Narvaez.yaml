@@ -1,0 +1,85 @@
+type: Person
+id: 01M5JTMYPEH8VNQYW4F149PS1X
+name:
+  en: Luis Pacheco de Narváez
+  es: Luis Pacheco de Narváez
+nationality:
+  - countryCode: eucountry:ESP
+    wikidata: wd:Q29
+birthEvent:
+  birthDate: '157X'
+  birthPlace:
+    label: Baeza
+    countryCode: eucountry:ESP
+  hasEvidence:
+    - basedOnSource: 01M5JTMYPENC8MWHJ9PZTQY96P
+      quotation: >-
+        Born in Baeza, Jaén in the early 1570s, he became the greatest student of Jerónimo Sánchez de
+        Carranza
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1640'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Carranza was a gentleman, and his student Don Luis Pacheco Narvaez (1570–1640) was a nobleman,
+        personal arms instructor to the Spanish king Philip IV (1605–1665), and admiral-general in the
+        Spanish navy.
+      locator: '254'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Spanish nobleman and fencing master from Baeza, Carranza's greatest student and successor, appointed
+    head master of arms at court by Philip IV in 1624 and fencing master to the king. One of the most
+    prolific fencing writers, he at first celebrated Carranza and later attacked his legacy, splitting
+    the Destreza into Carrancistas and Pachequistas.
+hasTeacherAssertion:
+  - id: 01M5JTMYPED9VP1M3A171S07T8
+    teacher: 01M5JTMYPE1DNWMXMXKNQTR3V3
+    assertedStyle: 01M5JTMYPE4QB7TP8MFHXKNQS2
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Carranza was a gentleman, and his student Don Luis Pacheco Narvaez (1570–1640) was a
+              nobleman, personal arms instructor to the Spanish king Philip IV (1605–1665), and
+              admiral-general in the Spanish navy.
+            locator: '254'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JTMYPENC8MWHJ9PZTQY96P
+            quotation: >-
+              Born in Baeza, Jaén in the early 1570s, he became the greatest student of Jerónimo Sánchez de
+              Carranza
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JTMYPEJM8WCEW0YADENAEK
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q2370221
+tags:
+  - fencing
+  - destreza
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/d/dd/PachecoNarvaez.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:PachecoNarvaez.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary

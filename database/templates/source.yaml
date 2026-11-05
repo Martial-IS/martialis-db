@@ -1,0 +1,89 @@
+type: Source
+# Template only: `make schema` substitutes a throwaway ULID for the null `id`
+# below. Every record under database/ carries a real ULID.
+id: null
+# Bibliographic form: the CSL-JSON item-type vocabulary. Recommended working subset
+# (book, article-journal, webpage,
+# entry-encyclopedia, interview, thesis, website, periodical, document, ...).
+sourceType: book
+# What the content is, independent of its bibliographic form. Optional; one of
+# srcgenre:biography, srcgenre:obituary, srcgenre:interview, srcgenre:roster,
+# srcgenre:curriculum, srcgenre:history, srcgenre:news, srcgenre:memoir,
+# srcgenre:encyclopedia_entry, srcgenre:promotional, srcgenre:densho,
+# srcgenre:menjo, srcgenre:kyohon, srcgenre:other.
+# sourceGenre: srcgenre:history
+title: Title of the Work
+nativeTitle: null
+# contributorRole is the CSL role (author, editor, translator, interviewer,
+# ...). Use literal for a corporate or collective name instead of family/given.
+hasContributor:
+  - contributorRole: author
+    family: Surname
+    given: Given Name
+    contributorPerson: null  # ULID, if this contributor is already in the database
+    contributorOrg: null     # ULID, if the contributor is an organization in the database
+publisher:
+  publisherName: Publisher Name
+  publisherOrg: null  # ULID, if the publisher is already in the database
+# EDTF (see person.yaml's birthEvent comment for the syntax): "2008",
+# "2008-10", "2008-10-15", "2008~", ...
+issuedDate: '2008'
+issuedOriginal: null  # the source's own rendering, if in a different calendar
+# issuedCalendar: datecal:julian  # see DateCalendar
+accessedDate: null    # when this was consulted, for web sources
+archivedDate: null    # snapshot date of archiveUrl
+# Container Source (a journal, a website edition) this work is part of.
+partOf: null
+# Work this is an edition/translation/reprint/facsimile of, if any:
+# editionOf:
+#   editionOfSource: <ULID>
+#   editionRelationType: editrel:translation  # editrel:edition | editrel:translation |
+#                                             # editrel:reprint | editrel:facsimile
+editionOf: null
+# Resource this is one dated state of (a web page capture, a revised roster).
+# A state states no title, sourceType or partOf (url only if the page has
+# moved since); it inherits them, and needs archivedDate or accessedDate.
+specializationOf: null
+# sourceClassification: srcclass:authored   # srcclass:original | srcclass:derivative | srcclass:authored
+# lineageTradition: true                    # the lineage's own account of itself (school history, genealogy chart, densho)
+# peerReview: peerreview:peer_reviewed      # on the container; items inherit it through partOf
+selfPublished: null
+volume: null
+issue: null
+page: null
+isbn: null
+issn: null
+doi: null
+pmid: null
+pmcid: null
+wikidata: null              # the work's own item (a book, a periodical); never for a Wikipedia article, which has none
+oclc: null
+archiveOrgId: null
+ndl: null
+cinii: null
+handle: null
+url: null
+# Wayback Machine (or similar) snapshot of the source itself.
+archiveUrl: null
+# An image of/related to this Source - a book or magazine cover, a scan of a
+# document, a photo of an archival item (not the source's own content, which is
+# url/archiveUrl above). Optional; same shape as Person.image. rights is
+# optional too: the media-rights vocabulary's copyright/licence status of the
+# image itself, e.g. mediarights:public_domain_mark or mediarights:cc-by-sa-4.0;
+# leave it out if unknown - see ontology/vocabularies.ttl.
+# image:
+#   contentUrl: https://...
+#   rights: mediarights:public_domain_mark
+#   imageAttribution:
+#     uri: https://...
+#     cite: Photo credit
+image: null
+language: en
+description:
+  en: |
+    Brief description of the source...
+# Research notes: what is known, suspected, or still to be investigated -
+# addressed to a maintainer, not a reader.
+# notes: ...
+tags:
+  - judo

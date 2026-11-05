@@ -1,0 +1,54 @@
+type: Person
+id: 01M5JWHXPX89YWBDFXBAJBDG83
+name:
+  en: Onomastos of Smyrna
+aka:
+  en:
+    - Onomastus of Smyrna
+nationality:
+  - countryCode: eucountry:GRC
+    wikidata: wd:Q41
+description:
+  en: >-
+    Boxer of Smyrna, by tradition the first Olympic boxing champion (688 BCE, when boxing entered the
+    Games) and the first to write rules for boxing.
+hasHonorAssertion:
+  - id: 01M5JWHXPX3G0X185YW7MSVRND
+    honorValue: Olympic champion in boxing
+    honorType: honortype:title
+    dateConferred: '-0687'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Tradition says that boxing was introduced to the program of the Olympic Games in 688 BCE.
+          Onomastos of Smyrna was the Olympic champion that year. We are further told that Onomastos was
+          the first person to formulate rules for boxing
+        locator: '235'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JWHXPX8SZKHFNRF3ZG343X
+        quotation: >-
+          Onomastus of Smyrna (Greek: Ὀνόμαστος) was the first Olympic victor in boxing at the 23rd
+          Olympiad, 688 BC, when this sport was added.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+notes: >-
+  dateConferred 688 BCE is written in astronomical numbering (-0687).
+hasEvidence:
+  - basedOnSource: 01M5JWHXPX8SZKHFNRF3ZG343X
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q7094480
+tags:
+  - boxing
+  - ancient
+  - greece

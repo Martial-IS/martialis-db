@@ -1,0 +1,58 @@
+type: Organization
+id: 01KZSE91DD3YSHXZ39J0YKBGD3
+name:
+  en: Portuguese Cultural Association of Aikido
+  pt: Associação Cultural Portuguesa de Aikido
+aka:
+  en: ACPA
+  pt: ACPA
+orgType: orgclass:association
+hasSite:
+  - location:
+      label: Almada
+      countryCode: eucountry:PRT
+      wikidata: wd:Q328015
+foundedEvent:
+  startDate: '2005-10-14'
+  hasEvidence:
+    - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+      quotation: A Associação Cultural Portuguesa de Aikido - ACPA, foi fundada em 14 de Outubro de 2005.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M4R9845WR6TQRN38QVC1VQJ9
+    officer: 01KZSE91DED09GT0386Y1A5CWP
+    officerTitle: Director Técnico
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The association's own page and the FPA history agree.
+    hasEvidence:
+      - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+        quotation: É orientada tecnicamente pelo Prof. Agostinho Vaz, 5º dan Aikikai.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZSE91DATEVPM4YD0RGVCZD2
+        quotation: a atribuição da Graduação de 5º Dan Aikikai ao nosso Director Técnico, Prof. Agostinho Vaz, no Kagami Biraki realizado hoje, dia 10 de Janeiro de 2016 no Hombu Dojo - Japão.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: The Associação Cultural Portuguesa de Aikido (ACPA) was founded on 14 October 2005. It is technically directed by Agostinho Vaz, 5th dan Aikikai. Before his death, Seiichi Sugano Shihan, 8th dan Aikikai, directed several of the association's stages and was its highest reference; today some stages are directed by Antoine Vermeulen, 7th dan Aikikai.
+  pt: A Associação Cultural Portuguesa de Aikido (ACPA) foi fundada a 14 de outubro de 2005. É orientada tecnicamente pelo Prof. Agostinho Vaz, 5º dan Aikikai. Antes do seu falecimento, o Shihan Seiichi Sugano, 8º dan Aikikai, dirigiu vários estágios desta Associação e foi o seu orientador máximo; hoje alguns estágios são orientados pelo Mestre Antoine Vermeulen, 7º dan Aikikai.
+website: https://www.acpaikido.com
+hasEvidence:
+  - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M3S8MWJE1009TNCFTF81D7T4
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - aikido
+  - aikikai
+  - portugal

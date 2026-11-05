@@ -1,0 +1,119 @@
+type: Person
+id: 01KZEDJX7DV0VRJ9F5THXKTD11
+name:
+  ja-Latn: Hisataka Kōri
+  ja: 久高幸利
+aka:
+  en:
+    - Kori Hisataka
+    - Kouri Hisataka
+    - Masayoshi Kori Hisataka
+    - Seiki Kudaka
+  ja:
+    - ひさたか こうり
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1907-04-22'
+  birthPlace:
+    label: Shuri
+    countryCode: eucountry:JPN
+    wikidata: wd:Q608415
+  hasEvidence:
+    - basedOnSource: 01KZEK9QGV7TMPG4BZG7V66X13
+      quotation: Born in Shuri (Naha City in Okinawa), he was a descendant of Seiwa, the 56th Emperor of Japan.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1988-08-14'
+  deathPlace:
+    label: Tokyo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q7473516
+  hasEvidence:
+    - basedOnSource: 01KZEK9QGV7TMPG4BZG7V66X13
+      quotation: Masayoshi Kori Hisataka died in Tokyo, Japan on August 14, 1988.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Kaiso3.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Kaiso3.jpg
+    cite: Wikimedia Commons via Wikidata
+    informationType: infotype:secondary
+description:
+  en: Japanese karateka (1907-1988), founder of Shorinjiryu Kenkokan Karate; studied karate under Chotoku Kyan, kobudo under Sanda Kanagusuku, and judo at the Kodokan.
+notes: Hisataka was a descendant of Seiwa, the 56th Emperor of Japan. He studied karate from Chotoku Kyan and weapons from kobudo pioneer Sanda Kanagusuku, learned the Kudaka family arts (Shishiryu weapons and Okinawa-te) from his father Seisei Kudaka, an uncle and his grandfather, and achieved 4th dan in judo at the Kodokan within a year under Sanpo Toku. In August 1930 he toured Taiwan with Kyan and Ryosei Kuwae. He founded the first Shorinjiryu Kenkokan dojo in Kumamoto in 1945, later relocating to Tokyo (Setagaya, then Shinjuku), and pioneered protective equipment (bogu) in karate kumite. His son Masayuki Hisataka continued the style. He used the title Shinan while teaching, later honored as Kaiso. The Kengokan biography adds that he was born Seiki Kudaka, of the Kudaka noble family of Kudaka Island; that his early instructors were his father, grandfather and uncle (Kudaka-ryu Okinawa-te and Shishiryu bojutsu); that he is likely to have met Higaonna Kanryo and Miyagi Chojun at the Naha Municipal Commercial School; that he trained with Sanda "Ufuchiku" Kanagusuku; and that during the Manchurian railway years he trained regularly with Minoru Mochizuki (whose Yoseikan Budo includes the form Happoken taught by Hisataka) and learned Baji Quan (Hakkyoku-ken) from a Chinese master. Kyan is described as "perhaps the main teacher" of Hisataka, and the style's kata Bassai, Seisan, Chinto, Kusanku and Nijushiho are traced through the Kyan lineage.
+hasTeacherAssertion:
+  - id: 01M3YH7N5GGTCPDHJQ81TTZ9B3
+    teacher: 01KZC4PN01Y3PH3HRWWJPAH82A
+    assertedStyle: 01KZC8S2GE3X9V7N27WXMQEPQA
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states Hisataka studied karate most notably from Chotoku Kyan and toured Taiwan with him in 1930; the Kengokan and Shorinjiryu Hombu biographies describe Kyan as his main teacher
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KZEK9QGV7TMPG4BZG7V66X13
+            quotation: He studied karate, kobudo and jujutsu, most notably karate from Chotoku Kyan and weapons from kobudo pioneer (and former Prefectural police superintendent), Sanda Kanagusuku.
+            cite: Wikipedia, apud Tetsuhiro Hokama, 100 Masters of Okinawan Karate (Okinawa Gojuryu Kenshi-kai Karate-do Kobudo Association, trans. Charles (Joe) Swift), p. 61-62
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZEK9QGV7TMPG4BZG7V66X13
+            quotation: >-
+              In August 1930, he toured Taiwan with Chotoku Kyan and Ryosei Kuwae demonstrating karate at the Taipei Butokuden
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZETNY0A59V8M0EXC9NY89GZ
+            quotation: Perhaps the main teacher of Kaiso Hisataka was Master Chotoku Kyan (1870-1945) [...] In 1929-30, he travelled to Taiwan along with his teacher, Master Chotoku Kyan and Master Ryosei Kuwae.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZETNY0AM3QSTNMQEHQ8N1N9
+            quotation: >-
+              Shinan Kori Kudaka (Hisataka, b. 1907 – d. 1988) was the founder of Shorinjiryu Kenkokan Karatedo [...] His first instructors were his father, grandfather and uncle who introduced him to the family form of Okinawa-Te known as Kudaka-ryu [...] Perhaps the main teacher of Shinan Kudaka was Master Chotoku Kyan
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5G2KATTVB4VRVW28P6
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 4
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states Hisataka achieved 4th dan in judo at the Kodokan within a year of training under Sanpo Toku
+    hasEvidence:
+      - basedOnSource: 01KZEK9QGV7TMPG4BZG7V66X13
+        quotation: Upon returning to Japan he studied judo at the Kodokan with Sanpo Toku and achieved 4th dan within a year of training.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZEK9QGV7TMPG4BZG7V66X13
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZETNY0A59V8M0EXC9NY89GZ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZETNY0AM3QSTNMQEHQ8N1N9
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q1620643
+tags:
+  - karate
+  - shorinji-ryu
+  - shorin-ryu

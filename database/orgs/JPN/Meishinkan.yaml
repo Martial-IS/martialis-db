@@ -1,0 +1,66 @@
+type: Organization
+id: 01M36P10SS5C0N1AG9TEHG3RHR
+name:
+  en: Meishinkan
+  ja-Latn: Meishinkan
+  ja: 明信館
+aka:
+  ja-Latn: Meishinsha
+  ja: 明信社
+orgType: orgclass:school
+hasSite:
+  - location:
+      label: Saitama Prefecture
+      countryCode: eucountry:JPN
+      wikidata: wd:Q128186
+foundedEvent:
+  startDate: '1891'
+  hasEvidence:
+    - basedOnSource: 01M0AZQ3TJ40Z0WJJD8T706CQB
+      quotation: 高野佐三郎，祖父の明信社を明信館と改める。以後千葉，群馬，神奈川，茨城，東京に分館を設立。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M4R9845WRWEE83V07YFTBNRW
+    officer: 01M2WGWA1YG2SSC4PASW0TXXQC
+    officerTitle: Head
+    officerPeriod:
+      startYear: 1891
+    notes: The sources do not name the office. Takano renamed the school from his grandfather's Meishinsha and set up its branch dojo, so Head describes what he did rather than a recorded title.
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: An authored chronology and an independent web biography agree.
+    hasEvidence:
+      - basedOnSource: 01M0AZQ3TJ40Z0WJJD8T706CQB
+        quotation: 高野佐三郎，祖父の明信社を明信館と改める。以後千葉，群馬，神奈川，茨城，東京に分館を設立。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M2WGNYAWZ0GGG708F53XC4PD
+        quotation: In 1890 he built his dojo, Meishinkan, on the grounds of his fathers business and left the police. The Urawa Meishinkan would serve to be the HQ dojo for a network of branch dojos in the prefecture.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: Kenjutsu and kendo school headed by Takano Sasaburō, renamed in 1891 from the Meishinsha run by his grandfather Takano Sakichirō. Operated a headquarters dojo at Urawa and a network of branch dojo (bunkan) across Saitama, Chiba, Gunma, Kanagawa, Ibaraki and Tokyo. Its Chichibu hall, the Meishin Honkan, was designated a Chichibu City historic site in 1965.
+notes: Sugie (1976) dates the Meishinsha to Meishinkan renaming to 1891, while kenshi247 has Takano building the Urawa Meishinkan in 1890 and gives two competing build dates, 1888 and 1890. The 1891 date follows the peer-reviewed account. Whether this was a founding or a renaming is unsettled.
+hasEvidence:
+  - basedOnSource: 01M0AZQ3TJ40Z0WJJD8T706CQB
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M2WGNYAWZ0GGG708F53XC4PD
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M3287E2ATMVCEVXM1K1Y2860
+    quotation: 昭和５年秩父明信本館完成 秩父市中町２１番５号 昭和４０年１０月１日秩父市指定史跡 高野佐三郎遺跡（明信本館及び遺品一式）
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - kendo
+  - kenjutsu
+  - japan

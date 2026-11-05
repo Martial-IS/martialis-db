@@ -1,0 +1,77 @@
+type: Organization
+id: 01KZ6654E3CTN967BJ76KT8XAM
+name:
+  en: Aikido Senshu Buikukai
+  ja: 合気道泉州武育会
+aka:
+  ja: 泉州合気道協会
+orgType: orgclass:association
+hasSite:
+  - location:
+      label: Izumisano
+      countryCode: eucountry:JPN
+      wikidata: wd:Q852018
+foundedEvent:
+  startDate: '1990'
+  founder:
+    - 01KZ6239B5VBK0S11VCGQZ4C9B
+  hasEvidence:
+    - basedOnSource: 01KZ6654E3V8ZXY0ETP0SH8ZMQ
+      quotation: 私たちの団体は、1990年に泉州合気道協会として(故)本田土洲師範(七段)により設立されました。現在は合気道泉州武育会と改名し、大阪府南部・泉州地域の5市1町で広域的に活動しています。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M3YH7N5F6M06891GMTB06MQ6
+    relatedOrganization: 01KZ6654E3J9N297TSZ4XQWR2A
+    affiliationRelation: affrel:branch_of
+    validDuring:
+      startYear: 1990
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The org's own website states its representative instructor Egawa Kunio is vice-chairman of the Aikido Osaka Buikukai, placing it within that structure; no independent source corroborates the affiliation
+    hasEvidence:
+      - basedOnSource: 01KZ6654E3V8ZXY0ETP0SH8ZMQ
+        quotation: 代表師範 江川邦夫 七段位 合気道大阪武育会副理事長
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5FG27C4VZSTSNYNA98
+    relatedOrganization: 01KZ3KA57C6W6FMCWM668Y13X2
+    affiliationRelation: affrel:recognised_by
+    validDuring:
+      startYear: 2012
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The Aikikai Foundation's own Reiwa 8 recognized-organizations roster names Aikido
+        Senshu Buikukai dojos under Osaka, independently corroborating the org's own website statement
+    hasEvidence:
+      - basedOnSource: 01KZ6654E3V8ZXY0ETP0SH8ZMQ
+        quotation: 2012年4月から公益財団法人合気会より公認道場として認可を受け、現在幼年者から70歳代の方までたくさんの方々が稽古に励んでいます。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M3FGQR1PD79HX22QSHSCEW6Z
+        quotation: 合気道泉州武育会泉佐野末広道場
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+website: https://aikisensyubuiku.jimdofree.com/
+description:
+  en: The Aikido Senshu Buikukai is an Aikikai-recognized aikido organization founded in 1990 as the Senshu Aikido Association (泉州合気道協会) by the late Honda Doshū (7th dan), renamed Aikido Senshu Buikukai and active across five cities and one town in the Senshu region of southern Osaka. Its representative instructor is Egawa Kunio, vice-chairman of the Aikido Osaka Buikukai.
+  pt: O Aikido Senshu Buikukai é uma organização de Aikido reconhecida pela Aikikai fundada em 1990 como Associação Senshu de Aikido (泉州合気道協会) pelo falecido Honda Doshū (7º dan), renomeada Aikido Senshu Buikukai e ativa em cinco cidades e uma vila na região Senshu do sul de Osaka. O seu instrutor representante é Egawa Kunio, vice-presidente do Aikido Osaka Buikukai.
+hasEvidence:
+  - basedOnSource: 01KZ6654E3V8ZXY0ETP0SH8ZMQ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ6239B5Z1B75WBR2NG8EJNW
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - aikido
+  - japan
+  - osaka

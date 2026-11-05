@@ -1,0 +1,90 @@
+type: Organization
+id: 01M6BQSYG6KTCT7TBAE887MGQZ
+name:
+  en: Korea Taekwondo Association
+  ko: 대한민국태권도협회
+aka:
+  en:
+    - KTA
+    - Korea Taesudo Association
+orgType: orgclass:governing_body
+foundedEvent:
+  startDate: '1959'
+  founder:
+    - 01KYQM3M5CWFJJBA8W502KD2TP
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        In 1959, Choi organized the Korea Taekwondo Association.
+      locator: '200'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+      quotation: >-
+        in 1959 the different kwan unified under the name ‘Korea Taekwondo Association
+      locator: '60'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M6BS8174E6EG9KFHBZ2Q68AY
+    officer: 01M6BS8174VQR5M883BS3CMBAE
+    officerTitle: Chairman of the Technical Committee
+    officerPeriod:
+      startYear: 1971
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One academic history.
+    hasEvidence:
+      - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+        quotation: >-
+          Lee Chong Woo published, in 1971 as Chairman of the Technical Committee of the Korea Taekwondo
+          Association, a manual titled Taekwondo Kyobon
+        locator: '80'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    South Korea's national taekwondo association, formed in 1959 when the kwan unified under Choi Hong-hi.
+    Hwang Kee was the first to split from it. After the 1961 coup it was renamed Korea Taesudo Association,
+    and took back the name Korea Taekwondo Association in 1965.
+notes: >-
+  Mönig's note 53 (p. 96) says "The Korea Taekwondo Federation (KTA) was founded in 1965", against his own
+  p. 60 and Green & Svinth's 1959; 1965 is the year the taekwondo name came back.
+hasEvidence:
+  - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+    quotation: >-
+      However, soon thereafter, Hwang Kee was the first to split from the group as a result of various
+      disagreements.
+    locator: '60'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+    quotation: >-
+      As a result, the organization was renamed ‘Korea Taesudo Association.’
+    locator: '60'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+    quotation: >-
+      when the Korea Taesudo Association changed its name back to the Korea Taekwondo Association.
+    locator: '60'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q6431716
+tags:
+  - taekwondo
+  - south-korea

@@ -1,0 +1,85 @@
+type: Person
+id: 01KZKN9Y3XMXRGGGH0VVZ3HQ11
+name:
+  ja-Latn: Shimabukuro Tarō
+  ja: 島袋太郎
+aka:
+  en:
+  - Taro Shimabukuro
+  - Taro Shimabokuro
+  ja:
+  - しまぶくろ たろう
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthPlace:
+    label: Naha (Shuri)
+    countryCode: eucountry:JPN
+    wikidata: wd:Q181966
+  hasEvidence:
+  - basedOnSource: 01KZHA25918DZ350CSV9KNBNT2
+    quotation: After graduation in March, 1928, I started a full-scale practice, becoming the disciple
+      of Mr. Taro Shimabokuro of Shuri City, who was senior of me by one year.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: Okinawan karateka of Shuri-te, of Shuri, Naha; disciple of Kiyuna Pechin and one of Shoshin Nagamine's
+    early teachers (1928).
+notes: Shoshin Nagamine's autobiography states he became Taro Shimabukuro's disciple in March 1928, walking
+  the 8 km between Shuri and Naha daily; Taro, "senior of me by one year", encouraged the young Nagamine
+  and referred him to Ankichi Arakaki. Motobu Naoki's article on the 1918 Ryukyu Shimpo survey of karate
+  masters lists Shimabukuro Taro among the disciples of Kiyuna Pechin (Kiyuna Tanmei), himself said to
+  be a disciple of Matsumura Sokon. Distinct from Shimabukuro Zenryo (島袋善良, Seibukan founder, 1909-1969),
+  who was living in Osaka from 1926 and did not begin karate under Kyan until 1935 - EN Wikipedia's Nagamine
+  Shoshin article conflates the two. Cramer's "Taro Shimabuku" (Kyan's student, p. 97) is taken to be
+  this man, from the same circle as Nagamine and Arakaki.
+hasTeacherAssertion:
+- id: 01M5HVMXM0F275XWJBDQT0X8WH
+  teacher: 01KZC4PN01Y3PH3HRWWJPAH82A
+  assertedStyle: 01KZC8S2GE3X9V7N27WXMQEPQA
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Two independent sources.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+      quotation: >-
+        The list of Chotoku Kyan’s students is quite impressive: Shoshin Nagamine (Matsubayashi Ryu),
+        Joen Nakazato (Shorin Ryu), Tatsuo Shimabuku (Isshin Ryu), Eizo Shimabuku (Shobayshi Ryu),
+        Ankichi Aragaki, and Taro Shimabuku.
+      locator: 96-97
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6C5JZZGT1FVRDVFN56QYT0P
+      quotation: >-
+        Kyan Sensei had many students but according to Katsumi Murakami his two favourites were Ankichi
+        Arakaki and Taro Shimabuku.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZHA25918DZ350CSV9KNBNT2
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZHA2591TZDF7ARNDGNTC1KC
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZHA2591RH73019S4FQ5AWAH
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZH55CZVPF2CADEWKWE5HJ8J
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- karate
+- shuri-te

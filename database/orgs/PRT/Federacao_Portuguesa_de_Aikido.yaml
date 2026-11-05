@@ -1,0 +1,103 @@
+type: Organization
+id: 01KZ4CF8P1Z2J7MW1VN5MHW4W2
+name:
+  en: Portuguese Aikido Federation
+  pt: Federação Portuguesa de Aikido
+aka:
+  en:
+    - FPA
+    - FPAA
+orgType: orgclass:federation
+hasSite:
+  - location:
+      label: Oeiras
+      countryCode: eucountry:PRT
+      wikidata: wd:Q926700
+    address: Av. Bombeiros Voluntários de Algés nº34/36, 1495-020 Algés
+foundedEvent:
+  startDate: '1990-09-07'
+  hasEvidence:
+    - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+      quotation: >-
+        Em 7 de setembro de 1990 dá-se a constituição da Federação Portuguesa de Aikido Aikikai - FPAA (Diário da República, III Série, nº. 235, de 11 de Outubro de 1990 - página 13.134). Designada por Federação Portuguesa de Aikido - FPA desde 1995
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M3YH7N5FB39QE3110ZPJNEYD
+    relatedOrganization: 01KZ3KA57C6W6FMCWM668Y13X2
+    affiliationRelation: affrel:recognised_by
+    validDuring:
+      startYear: 1990
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Aikikai grades and instructor titles in Portugal flow through the FPA, which is a member of the Aikikai Foundation; the CAO interview with former FPA president Luís Antunes confirms the technical link to the Hombu Dojo
+    hasEvidence:
+      - basedOnSource: 01KZ49W5BPNVJQKW0Y47XPE37Y
+        quotation: Aikikai, Federação Europeia, Comité Olímpico, Confederação do Desporto de Portugal. [...] Quem quiser graduações Aikikai paga-as directamente a esta no final da avaliação/exame.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5FE4APFB1MDHBWKV9N
+    relatedOrganization: 01KZ6KZZG7EF5YKPPBB4JBV7C2
+    affiliationRelation: affrel:merged_from
+    validDuring:
+      startYear: 1995
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Both the FPA's own institutional history (Duclos) and its 2024 practitioner survey report state that the FPADA dissolved itself and that the FPAA negotiated the integration of the remaining Portuguese aikido associations, being renamed FPA in 1995
+    hasEvidence:
+      - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+        quotation: Posteriormente, a FPADA decide dissolver-se e a FPAA, oferece, por iniciativa própria, uma mudança através de negociações com todas as associações de Aikido existente em Portugal.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M00J0E66YN5HQ7DQTZ0YY4CA
+        quotation: Posteriormente, a FPADA dissolve-se e a FPAA oferece uma mudança através de negociações com todas as associações de Aikido existentes em Portugal. Em 1995, a FPAA muda o seu nome para Federação Portuguesa de Aikido FPA.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M4R9845W4FM9822CPEAEC1SK
+    officer: 01KZSE91DED09GT0386Y1A5CWP
+    officerTitle: Presidente
+    officerPeriod:
+      startYear: 2003
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: His own interview; one side only.
+    hasEvidence:
+      - basedOnSource: 01KZSE91D8VBEQBXASNC8BZKPG
+        quotation: O Prof. é actualmente o Presidente da Federação Portuguesa de Aikido.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+website: https://www.fpaikido.pt
+logo:
+  contentUrl: https://www.fpaikido.pt/sites/all/themes/professional_theme/images/logo.png
+  imageAttribution:
+    basedOnSource: 01M3S762568EDNCDQW9BWW5TZ3
+    informationType: infotype:secondary
+description:
+  en: National governing body for aikido in Portugal, constituted on 7 September 1990 as the Federação Portuguesa de Aikido Aikikai (FPAA). After the Federação Portuguesa de Aikido e Disciplinas Associadas (FPADA) dissolved itself, the FPAA negotiated the integration of the remaining Portuguese aikido associations and was renamed Federação Portuguesa de Aikido (FPA) in 1995. It regroups the various Portuguese aikido schools and associations, holding public-utility sports status, and is recognised by the Aikikai Foundation, which issues its grading certificates.
+  pt: Organismo nacional de governo do Aikido em Portugal, constituído a 7 de setembro de 1990 como Federação Portuguesa de Aikido Aikikai (FPAA). Após a dissolução da Federação Portuguesa de Aikido e Disciplinas Associadas (FPADA), a FPAA negociou a integração das restantes associações portuguesas de Aikido e foi renomeada Federação Portuguesa de Aikido (FPA) em 1995. Reagrupa as várias escolas e associações portuguesas de Aikido, detém a utilidade pública desportiva, e é reconhecida pela Fundação Aikikai, que emite os seus certificados de graduação.
+hasEvidence:
+  - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M00J0E66YN5HQ7DQTZ0YY4CA
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M3S762568EDNCDQW9BWW5TZ3
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - aikido
+  - aikikai
+  - portugal

@@ -1,0 +1,5 @@
+PREFIX martialis: <https://w3id.org/martialis/ontology#>
+SELECT ?relation (COUNT(*) AS ?count) WHERE {
+  ?a martialis:styleRelationType ?rel .
+  BIND(STRAFTER(STR(?rel), "style-relation/") AS ?relation)
+} GROUP BY ?relation ORDER BY DESC(?count)

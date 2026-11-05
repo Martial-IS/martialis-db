@@ -1,0 +1,45 @@
+type: Person
+id: 01M5JPY6FNEGHP82K70QDXRATZ
+name:
+  en: Thomas Sibblis
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+description:
+  en: >-
+    English prizefighter, a student of James Figg, who took over Figg's Oxford Road amphitheatre in
+    1731; Jack Broughton fought there often.
+notes: >-
+  Stub; known here only from en Wikipedia (Figg and Broughton articles).
+hasTeacherAssertion:
+  - id: 01M5JPY6FN25WTV26SJ3M2TP5B
+    teacher: 01M5JPY6FNBQZ36WZ4QDD1ZST8
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source.
+    hasInteraction:
+      - interactionPlace: 01M5JPY6FNBK5K3PX490ASR0W3
+        hasEvidence:
+          - basedOnSource: 01M5JPY6FNB90T86PJZ87EVMAA
+            quotation: >-
+              His students included early professional prizefighters such as William Flanders, William
+              Gill, and Thomas Sibblis, as well as men of the gentry and nobility.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JPY6FNB2HP52J6G7W21P3V
+    quotation: >-
+      He frequently appeared as a fighter at the amphitheatres of Thomas Sibblis, who had taken over
+      James Figg's venue in 1731, and James Stokes.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - boxing
+  - prizefighting
+  - united-kingdom

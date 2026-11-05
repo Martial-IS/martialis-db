@@ -1,0 +1,87 @@
+type: Style
+id: 01KYFPRMG50ZGNF1DX2RCSCEVA
+name:
+  en: American Tang Soo Do
+aka:
+  en:
+    - ATSD
+styleType: styleclass:modern
+styleForm:
+  - styleform:hybrid
+description:
+  en: American Tang Soo Do is a hybrid martial art developed by Chuck Norris in 1966, combining Korean Tang Soo Do with Judo, Shito-ryu Karate, and Shotokan Karate. It was governed by the National Tang Soo Do Congress (NTC) before Norris evolved it into the Chuck Norris System. It emphasizes hard blocking, kicking, and striking techniques.
+foundedEvent:
+  startDate: '1966'
+  hasEvidence:
+    - basedOnSource: 01KYFPRMG33NHZZT0V83NSMNSY
+      quotation: >-
+        Date of formation 1966
+      cite: American Tang Soo Do (Wikipedia EN)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5GG2ZQCMABB4DTXP1J
+    relatedStyle: 01KYFXCETR9R1BNFD5T82H1G8P
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: American Tang Soo Do is directly based on Korean Tang Soo Do, which Chuck Norris studied under Shin Jae Chul
+    hasEvidence:
+      - basedOnSource: 01KYFPRMG33NHZZT0V83NSMNSY
+        quotation: >-
+          Parenthood Tang Soo Do (Moo Duk Kwan), Judo, Karate (Shotokan, Shito-ryu)
+        cite: American Tang Soo Do (Wikipedia EN)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GADAWNQWMSNGHDN1C
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9B
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: American Tang Soo Do explicitly incorporates Judo techniques, as documented in its Wikipedia article
+    hasEvidence:
+      - basedOnSource: 01KYFPRMG33NHZZT0V83NSMNSY
+        quotation: >-
+          Parenthood Tang Soo Do (Moo Duk Kwan), Judo, Karate (Shotokan, Shito-ryu)
+        cite: American Tang Soo Do (Wikipedia EN)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G9WBRT9Q59YSFP4H6
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9S
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: American Tang Soo Do incorporates Shito-ryu and Shotokan Karate techniques
+    hasEvidence:
+      - basedOnSource: 01KYFPRMG33NHZZT0V83NSMNSY
+        quotation: >-
+          Parenthood Tang Soo Do (Moo Duk Kwan), Judo, Karate (Shotokan, Shito-ryu)
+        cite: American Tang Soo Do (Wikipedia EN)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYFPRMG33NHZZT0V83NSMNSY
+    cite: American Tang Soo Do (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q17012210
+tags:
+  - american-tang-soo-do
+  - chuck-norris
+  - hybrid
+  - korean-martial-arts
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/d/dd/Black_Belt_Tang_Soo_Do.jpg
+    rights: mediarights:cc-by-sa-4.0
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:Black_Belt_Tang_Soo_Do.jpg
+      cite: "Anass Sedrati, Wikimedia Commons"

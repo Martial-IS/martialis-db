@@ -1,0 +1,118 @@
+type: Person
+id: 01M0NW4JRD9353A3ATHD1BRRM8
+name:
+  en: Jet Li
+  zh: 李连杰
+aka:
+  zh:
+  - 李阳中
+nationality:
+- countryCode: eucountry:CHN
+  wikidata: wd:Q17
+- countryCode: eucountry:USA
+  wikidata: wd:Q21
+- countryCode: eucountry:SGP
+  wikidata: wd:Q334
+birthEvent:
+  birthDate: '1963-04-26'
+  birthPlace:
+    label: Beijing
+    countryCode: eucountry:CHN
+    wikidata: wd:Q956
+hasTeacherAssertion:
+- id: 01M3YH7N5G05CYGHKGFWDG5V73
+  teacher: 01M0NVYZ4HBB012MEVJHZWJXYP
+  assertedStyle: 01M0QCH9A4Y8JQ2F9C0BJGH543
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Student of Wu Bin, founder of modern Wushu, trained at Beijing Wushu Team from
+      1971 to 1979
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1971
+      endYear: 1979
+    hasEvidence:
+    - basedOnSource: 01M0QAK4GXPTZSP4BB0T13527Z
+      quotation: Renowned coaches Li Junfeng and Wu Bin made extra efforts to help the talented boy develop.
+        Wu Bin even bought food for Li's family in order to boost Li's protein intake.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M0QAK4GX7KWGZY7J93W5584C
+      quotation: It was Coach Wu who started training the eight-year-old Jet Li in 1971, and it was Coach
+        Wu who founded the fabled Beijing Wushu Team, which first put Li to spotlight.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GR2TT6R7BZ26JFJPP
+  teacher: 01M0NVYZ4H18D1DFNE4ANSB7ES
+  assertedStyle: 01KYHQNWJF0CZFH1SXM9J40XEJ
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Student of Li Junfeng, wushu coach and qigong master, trained during Beijing
+      Wushu Team tenure from 1971 to 1979
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1971
+      endYear: 1979
+    hasEvidence:
+    - basedOnSource: 01M0QAK4GXF3MVT32KAJS0MNDZ
+      quotation: After the school won the national competition in 1974, Beijing accepted Wu Bin's and
+        his proposal to establish the Beijing Wushu Team, a professional team consisting of students mostly
+        from the Shichahai Sports School. From 1974 to 1988 Li Junfeng was a head coach of the Beijing
+        Wushu Team.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M0QAK4GX7KWGZY7J93W5584C
+      quotation: Jet Li was a perfect pupil, not just in terms of power and flexibility, but also, most
+        importantly, learning capability. He had great coordination and his movements were very graceful.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M0QAK4GXPTZSP4BB0T13527Z
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0QAK4GXB1GBQXS3RN8E0QNN
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0QAK4GXF3MVT32KAJS0MNDZ
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0QAK4GX7KWGZY7J93W5584C
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q159577
+tags:
+- chinese-martial-arts
+- wushu
+- changquan
+- actor
+- beijing-wushu-team
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/7/73/Jet_Li_2006.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Jet_Li_2006.jpg
+    cite: "Gavatron, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: Chinese martial artist, actor, and philanthropist. Trained as a wushu athlete at the Beijing Shichahai
+    Sports School and won multiple national championships with the Beijing Wushu Team between 1974 and
+    1979. After retiring from competitive wushu at age 18 due to a knee injury, he made his acting debut
+    with Shaolin Temple (1982). Established himself as a leading action star with the Once Upon a Time
+    in China series (1991-1993) and went on to star in numerous international films including Lethal Weapon
+    4, Romeo Must Die, Hero, and The Expendables series. Master of several wushu styles including changquan
+    and fanziquan. Founded One Foundation in 2007 and co-founded Taiji Zen meditation program. Named one
+    of Time magazine's 100 most influential people in 2010. Inducted into the Martial Arts History Museum
+    Hall of Fame in 2023.

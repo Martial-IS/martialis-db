@@ -1,0 +1,71 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD6C
+name:
+  ja-Latn: Asato Ankō
+  ryu: 安里 安恒
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1827'
+  birthPlace:
+    label: Shuri, Okinawa
+    countryCode: eucountry:JPN
+    wikidata: wd:Q608415
+deathEvent:
+  deathDate: '1903'
+  deathPlace:
+    countryCode: eucountry:JPN
+    wikidata: wd:Q17
+hasTeacherAssertion:
+- id: 01M3YH7N5GVSSCCD20DKE2EPCJ
+  teacher: 01KJJAWN29MA64W22606R3WD6A
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9F
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Independent sources state it.
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Asato
+      cite: Ankō Asato - Wikipedia
+      quotation: In a 1934 article, Funakoshi noted that Asato and Itosu had studied karate together under
+        Sōkon Matsumura.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+      quotation: >-
+        Both Yasutsune Azato and Yasutsune Ankoh Itosu were students of Matsumura, and the several
+        styles of Shorin Ryu are traced to these two men.
+      locator: '60'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Asato Anko (also known as Asato Yasutsune, 1827–1906) was another prominent student of
+        Matsumura.
+      locator: '208'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- uri: https://ja.wikipedia.org/wiki/%E5%AE%89%E9%87%8C%E5%AE%89%E6%81%92
+  archiveUri: http://web.archive.org/web/20260104153617/https://ja.wikipedia.org/wiki/%E5%AE%89%E9%87%8C%E5%AE%89%E6%81%92
+  cite: 安里安恒 - Wikipedia
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: http://www.shotokai.jp/english/about/teacher.html
+  cite: Nihon Karate Do Shoto-kai Official Web Site - Masters
+  informationType: infotype:secondary
+  supports: true
+  archiveUri: https://web.archive.org/web/20100227032428/http://www.shotokai.jp/english/about/teacher.html
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q721201
+- dbr:Ankō_Asato

@@ -1,0 +1,51 @@
+type: Style
+id: 01M5H67WXGWSD50MSH0N8H40X8
+name:
+  en: Fujian White Crane
+  zh: 白鶴拳
+aka:
+  en:
+    - White Crane
+    - White Crane Boxing
+styleType: styleclass:traditional
+description:
+  en: >-
+    Southern Chinese boxing style from Fujian. Wu Xiangui taught it in Naha from 1912, and it influenced
+    the karate of Chojun Miyagi, Kenwa Mabuni, Juhatsu Kyoda and Shinko Matayoshi.
+hasStyleRelationAssertion:
+  - id: 01M5H67WXG5X9T3RX8M12MPZX3
+    relatedStyle: 01KYHRZE605BS2BGB5TX1XEWPR
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+        quotation: He taught the Southern Chinese gongfu (功夫, kung fu) style of White Crane
+        locator: '111'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+    quotation: >-
+      He taught the Southern Chinese gongfu (功夫, kung fu) style of White Crane and “had a major
+      influence upon Miyagi Chojun, Mabuni Kenwa, Kyoda Juhatsu, and Matayoshi Shinko.”
+    locator: '111'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q803758
+tags:
+  - chinese-martial-arts
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/d/dc/White_Crane_%28kung_fu_style%2C_drawing%29.jpg
+    rights: mediarights:public_domain_mark
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:White_Crane_(kung_fu_style,_drawing).jpg
+      cite: "BinViper, Wikimedia Commons"
+      informationType: infotype:secondary

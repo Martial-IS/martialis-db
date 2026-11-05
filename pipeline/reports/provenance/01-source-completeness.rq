@@ -1,0 +1,15 @@
+# How completely each piece of evidence is described.
+PREFIX martialis: <https://w3id.org/martialis/ontology#>
+PREFIX schema: <https://schema.org/>
+SELECT (COUNT(DISTINCT ?ev) AS ?evidence)
+       (COUNT(DISTINCT ?t) AS ?withInformationType) (COUNT(DISTINCT ?s) AS ?withSupports)
+       (COUNT(DISTINCT ?w) AS ?withEvidenceType) (COUNT(DISTINCT ?c) AS ?withCitation)
+       (COUNT(DISTINCT ?q) AS ?withQuotation)
+WHERE {
+  ?ev a martialis:SourceAssertionRelation .
+  OPTIONAL { ?ev martialis:informationType ?x . BIND(?ev AS ?t) }
+  OPTIONAL { ?ev martialis:supports ?y        . BIND(?ev AS ?s) }
+  OPTIONAL { ?ev martialis:evidenceType ?z    . BIND(?ev AS ?w) }
+  OPTIONAL { ?ev schema:citation ?cc          . BIND(?ev AS ?c) }
+  OPTIONAL { ?ev martialis:quotation ?qq      . BIND(?ev AS ?q) }
+}

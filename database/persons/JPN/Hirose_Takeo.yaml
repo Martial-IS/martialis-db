@@ -1,0 +1,58 @@
+type: Person
+id: 01M5HP0ECDWXAZK0N2FRMEWMX9
+name:
+  ja-Latn: Hirose Takeo
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+description:
+  en: >-
+    Japanese naval officer (1868–1904) and judo student of Kanō Jigorō; as a senior student at the
+    Naval Academy he helped propose its judo department. A hero of the Russo-Japanese War.
+hasTeacherAssertion:
+  - id: 01M5HP0ECDAEDB3ATSR2THGFB7
+    teacher: 01KJJAWN28MWKKSN4J02MVY1S1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Kano's own account only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+            quotation: >-
+              My judo students Takarabe, Hirose and others were senior students enrolled at this academy.
+            locator: '50'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+            quotation: >-
+              Studied judo under Kano, naval commander, hero in the 1904-1905 Russo-Japanese War.
+            locator: '174'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+    quotation: >-
+      Hirose, Takeo (1868-1904)
+    locator: '174'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q711769
+tags:
+  - judo
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/b/b9/Hirose_Takeo.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Hirose_Takeo.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary

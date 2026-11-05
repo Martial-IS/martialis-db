@@ -1,0 +1,61 @@
+type: Person
+id: 01M5JG4Y255AEFD0QA6ZRTFT1G
+name:
+  en: Louis Leboucher
+  fr: Louis Leboucher
+aka:
+  en:
+    - Louis Armand Victorin Leboucher
+    - Amand Leboucher
+nationality:
+  - countryCode: eucountry:FRA
+    wikidata: wd:Q142
+birthEvent:
+  birthDate: '1807-09-14'
+  birthPlace:
+    label: Rouen
+    countryCode: eucountry:FRA
+  hasEvidence:
+    - basedOnSource: 01M5JG4Y25BCYPC0286MQEBHHB
+      quotation: >-
+        né le 14 septembre 1807 à Rouen et mort le 7 septembre 1866
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1866-09-07'
+  deathPlace:
+    label: Paris
+    countryCode: eucountry:FRA
+    wikidata: wd:Q90
+  hasEvidence:
+    - basedOnSource: 01M5JG4Y25BCYPC0286MQEBHHB
+      quotation: >-
+        né le 14 septembre 1807 à Rouen et mort le 7 septembre 1866
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    French canne, savate and English boxing teacher in Paris, among the first to teach formal methods
+    of canne and staff fencing. He wrote a 25-lesson method in 1844 and taught a quick
+    self-defence "method of the traveller" from his salle in the passage Verdeau.
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Louis Leboucher (1807–1866) was among the first (and most successful) teachers of formal methods
+      of canne and staff fencing.
+    locator: '219'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5JG4Y25BCYPC0286MQEBHHB
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q3262495
+tags:
+  - canne-de-combat
+  - savate
+  - france

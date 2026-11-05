@@ -1,0 +1,24 @@
+type: RankingSystem
+id: 01M11K25NGDGV9YVBGCW2GNNK4
+name:
+  en: Unified Sports Classification System
+  ru: Единая всероссийская спортивная классификация
+rankSystemKind: enumerated
+gradeScheme: https://w3id.org/martialis/vocab/rank-grade/unified-sports-classification
+description:
+  en: 'The USSR/Russia state sports-title ladder used by Sambo and other Soviet-sphere combat sports as
+    a real credentialing system, not free text: seven named tiers from Third-Class Sportsman to Honoured
+    Master of Sport, revised on the Olympic cycle since establishment.'
+foundedEvent:
+  startDate: '1935'
+  hasEvidence:
+  - basedOnSource: 01M11K41MPX891XJQKSED3RDD8
+    quotation: >-
+      The classification was established in 1935 and was based on separate classifications, which existed for several sports disciplines before.
+    informationType: infotype:secondary
+    supports: true
+hasEvidence:
+- basedOnSource: 01M11K41MPX891XJQKSED3RDD8
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct

@@ -1,0 +1,81 @@
+type: Place
+id: 01KZRA7SNMVWK28RJGRX690B7A
+name:
+  en: Balance Studios
+aka:
+  en:
+    - Balance Studios HQ
+    - Balance MMA
+placeType: placeclass:academy
+hasSite:
+  - location:
+      label: Philadelphia
+      countryCode: eucountry:USA
+      wikidata: wd:Q1345
+    address: Philadelphia, Pennsylvania, United States
+foundedEvent:
+  startDate: '2002'
+  founder:
+    - 01KZRA7SNMKMH1HMMQEAS29X94
+    - 01KZRA7SNMVZ4732D5Z1V2GDEE
+  hasEvidence:
+    - basedOnSource: 01KZRA7SNM80PS491Y0NFBY8NX
+      quotation: In 2002, Phil and Rick opened Balance Studios, the only Relson Gracie affiliate in Philadelphia.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M4R9845WMXFNH72N6S2HM2TY
+    instructor: 01KZRA7SNMKMH1HMMQEAS29X94
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 2002
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The studio's own site names the brothers as founders; one side only.
+    hasEvidence:
+      - basedOnSource: 01KZRA7SNMWQBSXQKEN10PXPDT
+        quotation: The Migliarese Brothers are the founders of Balance Studios
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M4R9845W6MXFRCZC1Y4ENFSN
+    instructor: 01KZRA7SNMVZ4732D5Z1V2GDEE
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 2002
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The studio's own site names the brothers as founders; one side only.
+    hasEvidence:
+      - basedOnSource: 01KZRA7SNMWQBSXQKEN10PXPDT
+        quotation: The Migliarese Brothers are the founders of Balance Studios
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: 'Brazilian jiu-jitsu and Muay Thai academy in Philadelphia, the only Relson Gracie affiliate in
+
+    the city, co-founded in 2002 by brothers Phil and Ricardo "Rick" Migliarese, themselves Relson
+
+    Gracie black belts. It is where the Migliarese brothers guided Lex Fridman from white belt to
+
+    black belt.
+
+'
+hasEvidence:
+  - basedOnSource: 01KZRA7SNM80PS491Y0NFBY8NX
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZRA7SNMWQBSXQKEN10PXPDT
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - bjj
+  - academy
+  - philadelphia
+  - gracie-lineage

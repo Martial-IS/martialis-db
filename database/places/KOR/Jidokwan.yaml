@@ -1,0 +1,116 @@
+type: Place
+id: 01M6BQSYG6EXSZEK12SW40F0KE
+name:
+  en: Jidokwan
+  ko: 지도관
+aka:
+  en:
+    - Ji-Do Kwan
+    - Chosŏn Yŏn-Mu Kwan Kwŏnbŏp Bu
+    - Chosun Yunmookwan
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Korea
+      countryCode: eucountry:KOR
+foundedEvent:
+  startDate: '1946'
+  founder:
+    - 01M6BQSYG6T4ST6K4B5VC0615A
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        A karate division was added in 1946.
+      locator: '200'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KYJ42SQPE9AT05GKA3G4K4M6
+      quotation: >-
+        Jido Kwan Founded by Chun Sang Sup
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+      quotation: >-
+        Chŏn Sang Sŏp, the founder of the Chosŏn Yŏn-Mu Kwan disappeared and the school was closed.
+        Subsequently, in 1951, Yun became the school’s leader, when he, together with Lee Chong Woo, reopened
+        it and renamed it Ji-Do Kwan
+      locator: '102'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M6BQSYG637JXP4KKXBAR7BY1
+    instructor: 01M6BQSYG6THHQB5HMBW87F6FE
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1951
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Two independent histories state the succession; one gives the year.
+    hasEvidence:
+      - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+        quotation: >-
+          When Chŏn Sang Sŏp disappeared during the Korean War, Yun took over his leadership role in 1951
+        locator: '54'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          After Chun disappeared during the opening months of the Korean War (1950–1953), control of the
+          club’s karate curriculum went to Yun Kwei Byung.
+        locator: '200'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M6BS81741HWX3MDRGPGY3CDC
+    instructor: 01M6BS8174VQR5M883BS3CMBAE
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1967
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One academic history.
+    hasEvidence:
+      - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+        quotation: >-
+          Lee Chong Woo, who became Ji-Do Kwan’s successive leader in 1967
+        locator: '102'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    The karate division (Kwŏnbŏp Bu) of the Chosŏn Yŏn-Mu Kwan, a judo club, founded by Chun Sang-sup in
+    1946; one of the five original kwan of taekwondo. It closed when Chun disappeared in the Korean War;
+    Yoon Kwe-byung and Lee Chong-woo reopened it and renamed it Jidokwan. Under Yoon it took up bōgu
+    full-contact sparring.
+notes: >-
+  Renaming year: 1951 (Mönig) or 1953 (Green & Svinth). Treated as one establishment, as both sources say
+  "reopened"/"renamed". No source gives the city, so the site is country-level.
+hasEvidence:
+  - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+logo:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/2/28/Logo_jidokwan.png
+  rights: mediarights:cc-by-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Logo_jidokwan.png
+    cite: "World Jidokwan Taekwondo Federation, Wikimedia Commons"
+    informationType: infotype:secondary
+sameAs:
+  - wd:Q581264
+tags:
+  - taekwondo
+  - kwan

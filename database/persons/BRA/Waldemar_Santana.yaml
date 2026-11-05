@@ -1,0 +1,69 @@
+type: Person
+id: 01M5HMNG4QHWWA645WHHT20ZVX
+name:
+  pt: Waldemar Santana
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Brazilian fighter, a former student and janitor of the original Gracie Academy, who defeated Hélio
+    Gracie in a vale-tudo match in 1955 and was later beaten twice by Carlson Gracie (1956, 1970).
+hasTeacherAssertion:
+  - id: 01M61PWHY3B4AWZAMYX44W1ZF0
+    teacher: 01KJJAWN28MWKKSN4J02MVY1S5
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Drysdale calls him Hélio's former student; one source.
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD8V
+        hasEvidence:
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: >-
+              Helio was certainly valiant in taking on his much younger and heavier former student.
+            locator: Chapter 7
+            locatorLabel: chapter
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: >-
+              Waldemar Santana – Former student and janitor of the original Gracie Academy.
+            locator: Name index
+            locatorLabel: section
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+    quotation: >-
+      1955 - Former student of the Gracie Academy, Waldemar Santana, defeats Helio in a vale-tudo match.
+    locator: Timeline (1955)
+    locatorLabel: section
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+    quotation: >-
+      Waldemar Santana – Former student and janitor of the original Gracie Academy.
+    locator: Name index
+    locatorLabel: section
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q1103881
+tags:
+  - bjj
+  - vale-tudo
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/a/a5/Valdemar_Santana.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Valdemar_Santana.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary

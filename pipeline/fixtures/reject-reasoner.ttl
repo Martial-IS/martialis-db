@@ -1,0 +1,9 @@
+### Negative control for `make reasoner`: one individual typed with two classes
+### the ontology declares disjoint (owl:AllDisjointClasses in
+### model/ontology-overlay.ttl), so the harness proves HermiT can still find an
+### inconsistency. If the disjointness axioms stop reaching ontology/martialis.ttl,
+### this fixture reasons as consistent and the step fails.
+
+@prefix martialis: <https://w3id.org/martialis/ontology#> .
+
+<https://martial.is/entity/control-disjoint> a martialis:Person, martialis:Style .

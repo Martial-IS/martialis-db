@@ -1,0 +1,102 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1TG
+name:
+  ja-Latn: Tomita Tsunejirō
+  ja: 富田 常次郎
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1865-02-28'
+  birthPlace:
+    label: Numazu, Shizuoka
+    countryCode: eucountry:JPN
+    wikidata: wd:Q241037
+deathEvent:
+  deathDate: '1937-01-13'
+  deathPlace:
+    label: Japan
+    countryCode: eucountry:JPN
+    wikidata: wd:Q17
+hasTeacherAssertion:
+  - id: 01M3YH7N5GM3Y2RSWAN7NN7Q8Y
+    teacher: 01KJJAWN28MWKKSN4J02MVY1S1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Independent sources state it.
+    role: teachrole:student
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+        interactionPeriod:
+          startYear: 1882
+        hasEvidence:
+          - uri: https://ja.wikipedia.org/wiki/%E5%AF%8C%E7%94%B0%E5%B8%B8%E6%AC%A1%E9%83%8E
+            archiveUri: https://ja.wikipedia.org/w/index.php?title=%E5%AF%8C%E7%94%B0%E5%B8%B8%E6%AC%A1%E9%83%8E&oldid=110995404
+            cite: Japanese Wikipedia - Tomita Tsunejirō
+            quotation: 青年期より講道館創始者の嘉納治五郎と寝食を共にし、同館で最初の入門者・初段位取得者となって
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M36DF1R5Y8PVQ6CTESF39ACY
+            quotation: >-
+              Tsunejiro Tomita, Kano’s first student, wrote in his journal of those early days
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+            quotation: >-
+              Among my earliest students at the Kodokan in 1882, were several non-residents and a few
+              who actually lodged there, among these was Tsunejiro Tomita [...] He was my first judo
+              student.
+            locator: '20'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5G52PDYCFF11M5H5DR
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 7
+    conferredBy: 01KJJAWN29MA64W22606R3WD7X
+    dateConferred: '1927'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Promoted to 7th dan by Kodokan on 1927-11-04, as documented in Japanese Wikipedia and Kodokan records
+    hasEvidence:
+      - uri: https://ja.wikipedia.org/wiki/%E5%AF%8C%E7%94%B0%E5%B8%B8%E6%AC%A1%E9%83%8E
+        archiveUri: https://ja.wikipedia.org/w/index.php?title=%E5%AF%8C%E7%94%B0%E5%B8%B8%E6%AC%A1%E9%83%8E&oldid=110995404
+        cite: Japanese Wikipedia - Tomita Tsunejirō
+        quotation: >-
+          7段 1927年11月4日
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/d/de/Tomita-Tsunejiro.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Tomita-Tsunejiro.jpg
+    cite: "Cesare Barioli, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: Japanese judoka, first student of Jigoro Kano at Kodokan, one of the 'Kodokan Four Heavenly Kings', promoted to 7th dan in 1927
+hasEvidence:
+  - uri: https://ja.wikipedia.org/wiki/%E5%AF%8C%E7%94%B0%E5%B8%B8%E6%AC%A1%E9%83%8E
+    archiveUri: https://ja.wikipedia.org/w/index.php?title=%E5%AF%8C%E7%94%B0%E5%B8%B8%E6%AC%A1%E9%83%8E&oldid=110995404
+    cite: Japanese Wikipedia - Tomita Tsunejirō
+    quotation: >-
+      富田 常次郎（とみた つねじろう、1865年3月22日（慶応元年2月25日） - 1937年1月13日）は、日本の柔道家（講道館7段・大日本武徳会柔道範士）。旧姓：山田。 青年期より講道館創始者の嘉納治五郎と寝食を共にし、同館で最初の入門者・初段位取得者となって講道館四天王の1人に数えられた。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+notes: 'Original surname Yamada, later adopted into Tomita family. First student of Jigoro Kano at Kodokan in 1882, first person to receive shodan rank in 1883. One of the "Kodokan Four Heavenly Kings" alongside Shiro Saigo, Yoshitsugu Yamashita, and Sakujiro Yokoyama. Son Tsuneo Tomita was author of "Sugata Sanshirō". Went to USA in 1904 with Mitsuyo Maeda as part of judo demonstration team invited by President Theodore Roosevelt. Founded Tokyo Sports Club in Akasaka, Tokyo. Promoted to 7th dan in 1927 and awarded Butokukai Hanshi title.
+
+'
+sameAs:
+  - wd:Q2672426
+  - dbr:Tomita_Tsunejirō

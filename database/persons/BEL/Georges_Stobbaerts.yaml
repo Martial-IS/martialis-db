@@ -1,0 +1,240 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD7D
+name:
+  pt: Georges Stobbaerts
+  fr: Georges Stobbaerts
+  en: Georges Stobbaerts
+aka:
+  en: George Paulo Stobbaerts
+nationality:
+- countryCode: eucountry:PRT
+  wikidata: wd:Q45
+- countryCode: eucountry:BEL
+  wikidata: wd:Q31
+birthEvent:
+  birthDate: '1940-11-30'
+  birthPlace:
+    label: Casablanca
+    countryCode: eucountry:MAR
+    wikidata: wd:Q7903
+  hasEvidence:
+  - basedOnSource: 01M3M3T743V26NCGMZ1V6NKQ00
+    quotation: Georges Stobbaerts nasceu em Marrocos a 30 de Novembro de 1940 e faleceu em Portugal a
+      06 de Janeiro de 2014.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KXTSQXW5H2G5FMTP0RTYT0X9
+    quotation: de origem belga, nasce em Casablanca em 1940; estuda na Bélgica e em Marrocos
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2014-01-06'
+  deathPlace:
+    label: Estoril
+    countryCode: eucountry:PRT
+    wikidata: wd:Q193305
+  hasEvidence:
+  - basedOnSource: 01M3M3T743V26NCGMZ1V6NKQ00
+    quotation: Georges Stobbaerts nasceu em Marrocos a 30 de Novembro de 1940 e faleceu em Portugal a
+      06 de Janeiro de 2014.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KXTSQXW5H2G5FMTP0RTYT0X8
+    quotation: Georges Stobbaerts passed away in Estoril (Portugal) in January 2014.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://archive.org/download/stobbaerts/stobbaerts.jpg
+  imageAttribution:
+    basedOnSource: 01M3S8MWJEG8XK140ACCPQ0DHD
+hasTeacherAssertion:
+- id: 01M3YH7N5FFZVPEWME680KY5Q8
+  teacher: 01KJJAWN29MA64W22606R3WD6E
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: In his 2001 interview Stobbaerts names Kenshiro Abe as his judo master, who also
+      showed him the first elements of aikido; Abe taught judo in Europe in the 1950s-60s where Stobbaerts
+      began his practice.
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZ6D9E8QSENEZ3VQSXK7KX1E
+      quotation: Já há muito tempo que tenho uma ligação com a Dai Nippon Butoku Kai, através de Mestre
+        Kenshiro Abe, grande Mestre de Judo que me mostrou os primeiros elementos do Aikido.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5FYJJKSFFX5ZC9FAPC
+  teacher: 01KZ6D9E8QNRKR39QAE2HQ9J9E
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9W
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Stobbaerts states in his 2001 interview that he was uchi-deshi of Kiyoshi Nakakura
+      in kendo and iaido, living in the same house as him; a 1970 World Kendo Championships photograph
+      is captioned with Nakakura as his master.
+  role: teachrole:uchi_deshi
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1970
+    hasEvidence:
+    - basedOnSource: 01KZ6D9E8QSENEZ3VQSXK7KX1E
+      quotation: >-
+        Fui também uchideshi de Kiyoshi Nakakura Sensei, nas disciplinas de Kendo e Iaido. Era um Hanshi, 9º Dan de Kendo e de Iaido que se casou com Matsuko, filha do Mestre Morihei Ueshiba [...] Foi nessa altura que eu pratiquei com ele, pois segui Nakakura Sensei durante algum tempo
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5F7MD7CEJMFK9V1F29
+  teacher: 01KZ6D9E8QNRKR39QAE2HQ9J9E
+  assertedStyle: 01KZ6XT5DS9BPQ109R3EJ8MKVG
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The same interview states Stobbaerts was uchi-deshi of Nakakura in the disciplines
+      of kendo and iaido; Nakakura's iaido was Muso Shinden Ryu, the style he taught at the Yushinkan.
+  role: teachrole:uchi_deshi
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1970
+    hasEvidence:
+    - basedOnSource: 01KZ6D9E8QSENEZ3VQSXK7KX1E
+      quotation: Fui também uchideshi de Kiyoshi Nakakura Sensei, nas disciplinas de Kendo e Iaido.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5F5EQD2THET3YDCQ60
+  rankStyle: 01KJJAWN29MA64W22606R3WD9R
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 8
+  conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+  dateConferred: '1995'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: 8th dan in aikido from the Dai Nippon Butoku Kai, confirmed by Stobbaerts himself
+      in the 2001 interview and dated 1995 by the TenChi Aikido biography.
+  hasEvidence:
+  - basedOnSource: 01KZ6D9E8QSENEZ3VQSXK7KX1E
+    cite: Entrevista ao Professor Georges Stobbaerts (Pedro Escudeiro, 2000 - Archived)
+    quotation: Georges Stobbaerts, tenho 62 anos e actualmente sou 8º dan de Aikido conferido pela Dai
+      Nippon Butoku Kai, cuja sede é em Kyoto no Japão, no mais antigo Dojo o Butokuden que depende directamente
+      da família Imperial.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KXTSQXW5H2G5FMTP0RTYT0X9
+    quotation: Em 1995 o Mestre Georges Stobbaerts recebe o 8º Dan da Dai Nippon ButokuKai.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KXTSQXW5H2G5FMTP0RTYT0X8
+    quotation: He was representative for Portugal of the Dai Nippon Butoku-kai (Kyoto, Japan), that granted
+      to him the graduation in Hanshi, 8º Dan and his school was declared a Ryu by the same institution.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasHonorAssertion:
+- id: 01M3YH7N5FN2Z8E8PQMCCWBNR5
+  honorValue: Hanshi
+  honorType: honortype:title
+  conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+  dateConferred: '1995'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      georgesstobbaerts.com and the FPA history of aikido in Portugal both state the Hanshi title; the
+      DNBK's own 2006 officials roster independently confirms it from the awarding body's own record
+      rather than either self-published account
+  hasEvidence:
+  - basedOnSource: 01KXTSQXW5H2G5FMTP0RTYT0X8
+    quotation: He was representative for Portugal of the Dai Nippon Butoku-kai (Kyoto, Japan), that granted
+      to him the graduation in Hanshi, 8º Dan and his school was declared a Ryu by the same institution.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+    quotation: Era titular do 8º dan de Aikido da organização Dai Nippon Butokukai - DNBK, com o título
+      de Hanshi.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M3FXQYPZ5TSYZEZSXGMEQ4MS
+    quotation: Mr. Georges Stobbaerts, Aikido Hanshi, Representative of Portugal
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  honorGrade: honorgrade:shogo_hanshi
+description:
+  pt: 'Georges Stobbaerts (1940–2014) foi um artista marcial de origem belga e nacionalidade portuguesa,
+    nascido em Casablanca. Fundou em 1962 o primeiro dojo de Aikido e Kendo de África (Budo Club du Maroc)
+    e foi o pioneiro que introduziu o Aikido em Portugal na década de 1960, fixando-se no país em 1971/72
+    com o dojo Budokan de Portugal em Cascais. Foi uchideshi de Kiyoshi Nakakura em Kendo e Iaido, treinou
+    Judo sob Kenshiro Abe, e recebeu o 8º dan de Aikido da Dai Nippon Butoku Kai, que lhe conferiu também
+    o título de Hanshi e declarou a sua escola uma Ryu. Fundou o centro cultural TenChi em Sintra (1978)
+    e criou a arte do movimento Tenchi Tessen (1985).
+
+    '
+  en: 'Georges Stobbaerts (1940–2014) was a Belgian-born, Portuguese-naturalised martial artist, born
+    in Casablanca. He founded the first aikido and kendo dojo in Africa (Budo Club du Maroc, 1962) and
+    was the pioneer who introduced aikido to Portugal in the 1960s, settling in the country in 1971/72
+    with the Budokan of Portugal dojo in Cascais. He was uchi-deshi of Kiyoshi Nakakura in kendo and iaido,
+    trained judo under Kenshiro Abe, and held 8th dan in aikido from the Dai Nippon Butoku Kai, which
+    also conferred on him the title of Hanshi and declared his school a Ryu. He founded the TenChi cultural
+    centre in Sintra (1978) and created the Tenchi Tessen art of movement (1985).
+
+    '
+notes: Stobbaerts was Aikikai delegate for Morocco at the beginning of his career, leaving after the death
+  of Morihei Ueshiba (1969). Besides his formal teachers Kenshiro Abe (judo) and Kiyoshi Nakakura (kendo/iaido),
+  he named as decisive influences Aritoshi Murashige, Tadashi Abe, Kisaburo Osawa, Masamichi Noro, Koichi
+  Tohei and Itsuo Tsuda. He received his first dan in kendo and iaido, and various judo diplomas, from
+  the Dai Nippon Butoku Kai. The DNBK declared his school (TenChi International) a Ryu. He was Technical
+  Director for Aikido at the União Portuguesa de Budo for a time. In 1970, according to the Aikido Journal
+  interview with Gérard Obellianne, there was a falling-out with Nobuyoshi Tamura at the Budo Club du
+  Maroc in Casablanca; Tamura was no longer invited by Stobbaerts, and M'barek Alaoui and Emile Metzinger
+  left Stobbaerts to create the Syu do kan under the Tamura (Aikikai) line. The Aikido Journal interview
+  dates Stobbaerts' departure from Morocco to 1970, while his own sources say 1971.
+hasEvidence:
+- basedOnSource: 01KZ6D9E8QSENEZ3VQSXK7KX1E
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KXTSQXW5H2G5FMTP0RTYT0X9
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KXTSQXW5H2G5FMTP0RTYT0X8
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ687R9N75NVKR35NSKMA1B1
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q21290059
+- viaf:99900009
+- isni:000000007012902X
+tags:
+- aikido
+- kendo
+- iaido
+- judo
+- tenchi
+- tenchi-tessen
+- belgium
+- portugal
+- morocco
+- founder

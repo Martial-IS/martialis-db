@@ -1,0 +1,97 @@
+type: Person
+id: 01M5HPEDHZKBYDRNT082MA704A
+name:
+  en: Sandra Greaves
+nationality:
+  - countryCode: eucountry:CAN
+    wikidata: wd:Q16
+description:
+  en: >-
+    Canadian judoka from Thunder Bay; trained under Bill Doherty, at Lanky Inouye's dojo in Victoria
+    (1983–1985), and under Hiroshi Nakamura in Montreal; two-time Olympian and Pan-American Games gold
+    medallist (1987).
+hasTeacherAssertion:
+  - id: 01M5JEC1RVSSGEJNRBSCDJTTY7
+    teacher: 01M5JEC1RVFJJX7FKBDWCEZSSK
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              When Sandra Greaves’ sister dragged her off to Bill Doherty’s Thunder Bay dojo as an
+              11-year-old
+            locator: '91'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              Sandra was able to train once more, under her very first sensei.
+            locator: '91'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5HPEDHZFDRH0FSV14959CST
+    teacher: 01M5H5YNY2V6K3XN30HTC5KBXS
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1983
+          endYear: 1985
+        hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              In 1983, Sandra, who has always felt that she was part gypsy, moved to Victoria, B.C., and
+              spent the next two years at Yeiji (Lanky) Inouye’s dojo.
+            locator: '91'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5HPEDHZV1P57H9C4281KBTY
+    teacher: 01M5H5TCKZW50M5WFGCD2KCNR1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1985
+        hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              Convinced that her talents and dedication could take her further, Doherty-sensei, talked
+              Sandra into quitting her job and moving to Montreal to be trained by Hiroshi Nakamura.
+            locator: '91'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    quotation: >-
+      Sandra Greaves won a gold at the 1987 Pan-American Games in Indianapolis
+    locator: '146'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q16195091
+tags:
+  - judo
+  - canada

@@ -1,0 +1,50 @@
+type: Organization
+id: 01M36JNPJ2RXNA0E43YWWNZ37X
+name:
+  en: World Tang Soo Do Association
+aka:
+  en: WTSDA
+orgType: orgclass:federation
+hasSite:
+  - location:
+      label: Philadelphia
+      countryCode: eucountry:USA
+      wikidata: wd:Q1345
+foundedEvent:
+  startDate: '1982'
+  location:
+    label: Philadelphia
+    countryCode: eucountry:USA
+    wikidata: wd:Q1345
+  hasEvidence:
+    - basedOnSource: 01KYJ42SQPE9AT05GKA3G4K4M6
+      quotation: 1982 World Tang Soo Do Association founded by J.C. Shin in Phil. Pa.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M4R9845W91ZS4WWTB132JSNZ
+    officer: 01KYFXCETRD92QSRTMDFPK7VTG
+    officerTitle: Grandmaster
+    officerPeriod:
+      startYear: 1982
+      endYear: 2012
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One self-published history.
+    hasEvidence:
+      - basedOnSource: 01KYJ42SQPE9AT05GKA3G4K4M6
+        quotation: >-
+          Grandmaster Shins most senior students then left the federation and pleaded with him to continue teaching and asked him to lead a new organization the World Tang Soo Do Association in 1982. Shin Jae Jul then became Grandmaster of this rival organization
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYJ42SQPE9AT05GKA3G4K4M6
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - tang-soo-do
+  - moo-duk-kwan

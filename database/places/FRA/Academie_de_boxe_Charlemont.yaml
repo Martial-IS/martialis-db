@@ -1,0 +1,123 @@
+type: Place
+id: 01M5JG4Y25H3040ABEHRCYZW4M
+name:
+  en: Académie de boxe (Charlemont)
+  fr: Académie de boxe
+aka:
+  en:
+    - Académie de boxe française
+    - Charlemont's academy
+placeType: placeclass:academy
+hasSite:
+  - location:
+      label: Paris
+      countryCode: eucountry:FRA
+      wikidata: wd:Q90
+    address: 24 rue des Martyrs, Pigalle, Paris
+    sitePeriod:
+      startYear: 1887
+    hasEvidence:
+      - basedOnSource: 01M5JG4Y25K7AEMWBE9BXZ7M1P
+        quotation: >-
+          Il fonde à Paris en 1887 l’Académie de boxe, implantée à Paris au 24, rue des Martyrs, dans le
+          quartier de Pigalle.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M5JG4Y250DAHA91KPSKJWF15
+    instructor: 01M5JG4Y25QKEKJ5K0T4KFYQW0
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1887
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia states it; Green and Svinth say the club was his.
+    hasEvidence:
+      - basedOnSource: 01M5JG4Y25K7AEMWBE9BXZ7M1P
+        quotation: >-
+          Il fonde à Paris en 1887 l’Académie de boxe, implantée à Paris au 24, rue des Martyrs, dans le
+          quartier de Pigalle.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Among the most famous of these clubs was one owned by Joseph Charlemont (1839–1914).
+        locator: '219'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+  - id: 01M5JG4Y2582TF9NNYA85CG3DJ
+    instructor: 01M5JG4Y259ZBY4V9XPJQ111DJ
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      endYear: 1944
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasEvidence:
+      - basedOnSource: 01M5JG4Y25PWNDPQYVGE1CQJQC
+        quotation: >-
+          Il est le fils de Joseph Charlemont à qui il succédera à la tête de son club jusqu’à sa mort en
+          1944.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JG4Y25PWNDPQYVGE1CQJQC
+        quotation: >-
+          Il a formé de nombreux professeurs de boxe dans son académie rue des Martyrs.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M5JG4Y256KTW538EWZS1K499
+    officer: 01M5JG4Y25CG26BBFN1ES5MK8D
+    officerTitle: President
+    officerPeriod:
+      startYear: 1930
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source.
+    hasEvidence:
+      - basedOnSource: 01M5JG4Y25QYF28MTRQ9MQ6Y85
+        quotation: >-
+          En 1930, il succède au docteur Pugniez à la présidence de l'Académie de boxe française.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1887'
+  founder:
+    - 01M5JG4Y25QKEKJ5K0T4KFYQW0
+  hasEvidence:
+    - basedOnSource: 01M5JG4Y25K7AEMWBE9BXZ7M1P
+      quotation: >-
+        Il fonde à Paris en 1887 l’Académie de boxe, implantée à Paris au 24, rue des Martyrs, dans le
+        quartier de Pigalle.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    French boxing and canne academy founded by Joseph Charlemont in 1887 at 24 rue des Martyrs, Paris.
+    His son Charles Charlemont succeeded him and trained many teachers there; Pierre Baruzy entered it at
+    13 and became its president in 1930.
+notes: >-
+  fr Wikipedia's Baruzy article calls it "l'académie de boxe française"; taken as the same academy,
+  since he studied there under Charles Charlemont.
+hasEvidence:
+  - basedOnSource: 01M5JG4Y25K7AEMWBE9BXZ7M1P
+    informationType: infotype:secondary
+    supports: true
+tags:
+  - savate
+  - canne-de-combat
+  - france

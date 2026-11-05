@@ -1,0 +1,97 @@
+type: Person
+id: 01M0TFB9H0Y2EQSEH7XHKCEA1P
+name:
+  en: William Zabka
+aka:
+  en:
+  - Billy Zabka
+  - William Michael Zabka
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+birthEvent:
+  birthDate: '1965-10-20'
+  birthPlace:
+    label: New York City
+    countryCode: eucountry:USA
+    wikidata: wd:Q60
+  hasEvidence:
+  - basedOnSource: 01M0TFB9H02FHWQX4XQ9AW8KQ6
+    quotation: >-
+      William Michael Zabka (/ˈzæbkə/; born October 20, 1965)
+    cite: William Zabka (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: American actor best known as Johnny Lawrence in The Karate Kid (1984), its sequels, and Cobra Kai
+    (2018-2025), which he also co-executive produced. He had no martial arts training before being cast
+    in The Karate Kid - he was a high-school wrestler - and was trained for the film by Pat E. Johnson,
+    Chuck Norris's chief instructor. He continued training with Johnson after the film ended and returned
+    to karate and taekwondo training to prepare for Cobra Kai, crediting karate conditioning with healing
+    a wrestling back injury.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/8/80/William_Zabka_%2844018548011%29_%28cropped%29.jpg
+  rights: mediarights:cc-by-2.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:William_Zabka_(44018548011)_(cropped).jpg
+    cite: "Supercon Conventions, Wikimedia Commons"
+    informationType: infotype:secondary
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M3YH7N5GJHXDW8VF6CHGJ82Y
+  teacher: 01M0TFB9H0HC3R48RJTFV77PCN
+  assertedStyle: 01KYFPRMG50ZGNF1DX2RCSCEVA
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      The relationship itself is certain, resting on Zabka's first-person accounts in two independent
+      interviews. The American Tang Soo Do attribution is an inference from Johnson's own art; neither
+      source names the style Johnson taught Zabka, so the assertion as a whole is Probable rather than
+      Confirmed.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1984
+    hasEvidence:
+    - basedOnSource: 01M0TFB9H0XQQPWMB785GDZB1N
+      quotation: He's a legend in martial arts. He built me up from nothing. I didn't know anything about
+        it when I first started. I was a wrestler in high school and very limber and athletic. The discipline
+        that he gave physically, mentally and technically was incredible; so much so, that I trained with
+        him after the film was over.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M0TFB9H0282Q7MTM1KKTHNZY
+      quotation: In the Sports Illustrated piece, Zabka said he "got the attitude for my character from
+        Pat. I used his Ki-yahs. I used the way he stood with his hands in his belt."
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+notes: 'No rank entry: no authoritative source records any dan grade for Zabka. His Cobra Kai-era (2018+)
+  karate/taekwondo conditioning is not attributed to any teacher in available sources and is therefore
+  not a separate interaction.'
+hasEvidence:
+- basedOnSource: 01M0TFB9H02FHWQX4XQ9AW8KQ6
+  cite: William Zabka (Wikipedia EN)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0TFB9H0XQQPWMB785GDZB1N
+  cite: How Karate Training Helped Cobra Kai's William Zabka Get Back in Fighting Shape at 53 (Men's Health)
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0TFB9H0282Q7MTM1KKTHNZY
+  cite: Pat E. Johnson, 'Karate Kid' Choreographer, Trainer and Referee, Dies at 84 (Hollywood Reporter)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q966693
+tags:
+- karate-kid
+- cobra-kai
+- american-tang-soo-do
+- actor

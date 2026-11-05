@@ -1,0 +1,61 @@
+type: Place
+id: 01KYYYTTW3RXYAKA5JVNCFB9CA
+name:
+  en: Renzo Gracie Academy
+aka:
+  en:
+    - Renzo Gracie Jiu-Jitsu Academy
+placeType: placeclass:academy
+hasSite:
+  - location:
+      label: New York City
+      countryCode: eucountry:USA
+      wikidata: wd:Q60
+    address: 224 West 30th Street, Midtown Manhattan, New York City, United States
+hasInstructorRole:
+  - id: 01M4R9845WTDDN9V73K12YA17X
+    instructor: 01KYSNKBSAAS27TBVHR0EBZ059
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1996
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One secondary source (Wikipedia) states he founded and heads the academy since 1996.
+    hasEvidence:
+      - basedOnSource: 01KYYYW4R6J7NHNACF097XGZS4
+        quotation: Renzo Gracie Academy is a martial arts school headed by Renzo Gracie, located in Midtown Manhattan. [...] Renzo Gracie founded the academy in 1996.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1996'
+  founder:
+    - 01KYSNKBSAAS27TBVHR0EBZ059
+  hasEvidence:
+    - basedOnSource: 01KYYYW4R6J7NHNACF097XGZS4
+      quotation: Renzo Gracie founded the academy in 1996.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: 'Brazilian jiu-jitsu school in Midtown Manhattan founded by Renzo Gracie in 1996. It is associated with John Danaher''s Danaher Death Squad and has trained fighters and grapplers including Georges St-Pierre, Matt Serra, Gordon Ryan, and Garry Tonon.
+
+'
+hasEvidence:
+  - basedOnSource: 01KYYYW4R6J7NHNACF097XGZS4
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYSNKBRXZBXTADEA0ET726M4
+    quotation: 'Brazilian Jiu-Jitsu: John Danaher, Bruno Fernandes, Renzo Gracie'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q7313624
+tags:
+  - bjj
+  - academy
+  - new-york
+  - gracie

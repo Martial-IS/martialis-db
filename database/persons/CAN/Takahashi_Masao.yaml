@@ -1,0 +1,81 @@
+type: Person
+id: 01M5H57MAG42XDXSZKA74ZYR85
+name:
+  en: Masao Takahashi
+aka:
+  en: Mas Takahashi
+nationality:
+  - countryCode: eucountry:CAN
+    wikidata: wd:Q16
+description:
+  en: >-
+    Canadian judo teacher, started under Atsumu Kamino in Kitsilano (1937) and continued under Yoshio
+    Katsuta in Raymond; founded judo clubs in the air force and the Takahashi Dojo in Ottawa (1970).
+    7th dan.
+hasTeacherAssertion:
+  - id: 01M5H57MAGS5EBKZNH2KF36280
+    teacher: 01M5H3WJ4FFYW21VZ36306373H
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1937
+        hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              It was in the prewar days in Kitsilano that eight-year-old Mas started Judo at the
+              Japanese Language School under Professor Atsumu Kamino. It was 1937.
+            locator: '134'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5H57MAGKD29TFETCHSG1C8W
+    teacher: 01M5H57MAGMK662P3F5T0XS49T
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1943
+        hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: Among his students were Yosh Senda and Mas Takahashi (originally from Kitsilano)
+            locator: '110'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: Sensei Yoshio Katsuta opened his Raymond dojo in 1943 and Mas was there
+            locator: '135'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    locator: 134-135
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q6782623
+tags:
+  - judo
+  - canada
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/2/2d/Masao_Takahashi.png
+  rights: mediarights:cc-by-sa-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Masao_Takahashi.png
+    cite: "Ronald Desormeaux, Wikimedia Commons"
+    informationType: infotype:secondary

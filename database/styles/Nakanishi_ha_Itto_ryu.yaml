@@ -1,0 +1,51 @@
+type: Style
+id: 01M3287E2ARJZVFEXS3FJFMHRQ
+name:
+  ja-Latn: Nakanishi-ha Ittō-ryū
+  ja: 中西派一刀流
+aka:
+  en: Ono-ha Ittō-ryū
+  ja: 小野派一刀流
+styleType: styleclass:traditional
+hasStyleRelationAssertion:
+- id: 01M3YH7N5GNSV8XE8ZVSGYTGW3
+  relatedStyle: 01KZC19BDCWTW7WHTJG4S3A0D6
+  styleRelationType: stylerel:variant_of
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Both ja.wikipedia's Takano Sasaburo article and the kenshi247 biography describe Nakanishi-ha as
+      the branch of Itto-ryu carried by the Nakanishi family; ja.wikipedia further notes the branch's
+      own formal name remains Ono-ha Itto-ryu.
+  hasEvidence:
+  - basedOnSource: 01M2WGNYAWYKVMGS8WNKJRKF8V
+    quotation: 中西派一刀流自身は、流名を小野派一刀流としており、高野も小野派を名乗っている。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M2WGNYAWZ0GGG708F53XC4PD
+    quotation: at the time Nakanishi Chubei, Takano Mitsumasa, and Sasaburo, would refer to their kenjutsu as "itto-ryu"
+      or "Ono-ha itto-ryu," but at some point over the years the official designation of the style of Ono-ha passed through
+      the Nakanishi family via Takano Mitsumasa/Sasaburo has come to be called "Nakanishi-ha itto-ryu."
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+notes: Ono-ha Ittō-ryū is carried here as an aka, but Bennett treats the two as distinct, since Yamaga
+  Hachirōzaemon questioned Nakanishi Chūzō's methods in a letter to Ono Tadayoshi, the seventh-generation
+  Ono-ha head. Split into two Style records if a source settles the relation.
+description:
+  en: The branch of Ittō-ryū kenjutsu carried by the Nakanishi family; practitioners and the branch itself continued to
+    call it "Ono-ha Ittō-ryū" (its formal lineage name), with "Nakanishi-ha" attaching as a common designation once
+    headship had passed through several generations of the Nakanishi family. Takano Sakichirō, a senior disciple of the
+    branch's 4th-generation head, and his grandson Takano Sasaburō both trained and taught in this line, which became a
+    root of modern kendo pedagogy.
+hasEvidence:
+- basedOnSource: 01M2WGNYAWYKVMGS8WNKJRKF8V
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- kenjutsu
+- koryu
+- itto-ryu

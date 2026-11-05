@@ -1,0 +1,63 @@
+type: Person
+id: 01M6A2A5ZGCZT0VXYJE1P1SYA4
+name:
+  pt: Carlos Sena
+aka:
+  pt: Carlos Senna
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Capoeira teacher from Salvador, a student of Mestre Bimba from 1949 and technical director of
+    his academy from 1954. In 1955 he opened his own school, Senavox, with a more stylized,
+    sport-oriented capoeira.
+notes: >-
+  Helped draft the Technical Rules of Capoeira adopted by the Brazilian Boxing Confederation in 1972
+  (Assunção, p. 192).
+birthEvent:
+  birthDate: '1931'
+  birthPlace:
+    label: Salvador, Bahia
+    countryCode: eucountry:BRA
+    wikidata: wd:Q36947
+  hasEvidence:
+    - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+      quotation: >-
+        Born in 1931 in Salvador, he started training with Bimba in 1949.
+      locator: '192'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M6A2A5ZE57AHTE440KYW560X
+    teacher: 01M5H4AFG2ZHJ3H82H0DPJQJ1V
+    assertedStyle: 01M6A2A5YR5THAAVA3A61JRZ1H
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1949
+          endYear: 1955
+        hasEvidence:
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              Born in 1931 in Salvador, he started training with Bimba in 1949.
+            locator: '192'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    locator: '192'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - capoeira

@@ -1,0 +1,53 @@
+type: Style
+id: 01KYHRZE605BS2BGB5TX1XEWPR
+name:
+  en: Nanquan
+  zh: 南拳
+aka:
+  en:
+    - Southern Chinese martial arts
+    - Southern kung fu
+styleType: styleclass:traditional
+description:
+  en: 'Nanquan refers to a classification of Chinese martial arts that originated in Southern China.
+
+    The southern styles are characterized by emphasis on short hitting and specific arm movements,
+
+    with prominent styles including Hung Kuen, Choi Lei Fut, Wing Chun, and Wuzuquan.
+
+'
+  zh: '南拳是中國南方武術的總稱，特點是手法多變、步法穩固、短橋窄馬。
+
+    著名流派包括洪拳、蔡李佛、詠春、五祖拳等。
+
+'
+hasEvidence:
+  - basedOnSource: 01KYHRZE602B1ACMJ26FPY4YDM
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+foundedEvent:
+  location:
+    countryCode: eucountry:CHN
+sameAs:
+  - wd:Q593800
+tags:
+  - chinese-martial-arts
+  - nanquan
+  - southern
+  - kung-fu
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5G52JD3YD0JVDRZDJN
+    relatedStyle: 01KYHRZE60P1GBRPFW8VZXG7GR
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Nanquan is the southern branch of the Shaolin/external tradition of Chinese martial arts
+    hasEvidence:
+      - basedOnSource: 01KYHRZE602B1ACMJ26FPY4YDM
+        quotation: >-
+          The Southern Shaolin Monastery is considered a significant development in the history of Shaolin Wushu in Southern China.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect

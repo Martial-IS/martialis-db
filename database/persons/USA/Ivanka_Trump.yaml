@@ -1,0 +1,131 @@
+type: Person
+id: 01KYJEGSZ67JG00T14K90N24WR
+name:
+  en: Ivanka Trump
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+birthEvent:
+  birthDate: '1981-10-30'
+  birthPlace:
+    label: New York City
+    countryCode: eucountry:USA
+    wikidata: wd:Q60
+  hasEvidence:
+  - uri: https://digitsu.com/people/ivanka-trump
+    quotation: >-
+      Born: 1981
+    cite: Ivanka Trump BJJ Stats & Bio (Digitsu)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: American businesswoman and daughter of Donald Trump. She began training Brazilian Jiu-Jitsu at the
+    Valente Brothers academy in Miami after her daughter expressed interest in self-defense.
+    She earned her blue belt under the instruction of Joaquim, Guilherme, and Pedro Valente.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/e/ea/Ivanka_Trump_official_portrait_2020.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Ivanka_Trump_official_portrait_2020.jpg
+    cite: "Andrea Hanks/Official White House Photo, Wikimedia Commons"
+    informationType: infotype:secondary
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M3YH7N5GC1CJWH8P4023WBMQ
+  teacher: 01KYJEGSZ65B6S3VDF94T845V8
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Ivanka trains under Joaquim Valente at the Valente Brothers academy in Miami;
+      documented in multiple news articles
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 2022
+    hasEvidence:
+    - basedOnSource: 01KYJEGSZ63KFRAX5Y9P3EVYM3
+      cite: Ivanka Trump BJJ Stats & Bio (Digitsu)
+      quotation: Her primary instructor, Joaquim Valente, is highly respected for coaching high-profile
+        students, including supermodel Gisele Bündchen.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GF09NTD5J26DDD9P7
+  teacher: 01KJJAWN28MWKKSN4J02MVY1TA
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Guilherme Valente shown training Ivanka in social media posts; one of her instructors
+      at Valente Brothers
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 2022
+    hasEvidence:
+    - uri: https://f5.folha.uol.com.br/celebridades/2025/05/filha-de-trump-posta-foto-treinando-jiu-jitsu-com-cunhado-de-gisele-bundchen.shtml
+      cite: Filha de Trump posta foto treinando jiu-jitsu com cunhado de Gisele Bündchen (Folha)
+      quotation: Ivanka Trump mostra treino com Guilherme Valente
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GKVMB6W4VW2WRMJ09
+  teacher: 01KJJAWN28MWKKSN4J02MVY1T9
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:possible
+    assessedBy: agent:FSM
+    confidenceRationale: Pedro Valente is one of the three Valente Brothers who own the academy; Ivanka
+      trains at their school
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 2022
+    hasEvidence:
+    - uri: https://veja.abril.com.br/brasil/como-tres-irmaos-brasileiros-fizeram-ivanka-trump-se-apaixonar-pelo-jiu-jitsu
+      cite: Como três irmãos brasileiros fizeram Ivanka Trump se apaixonar pelo jiu-jitsu (VEJA)
+      quotation: 'A academia Valente Brothers é composta por três irmãos brasileiros: Joaquim, Pedro e
+        Guilherme.'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:indirect
+hasRankAssertion:
+- id: 01M3YH7N5G7MGFM6WYK78H3VCP
+  rankStyle: 01KJJAWN29MA64W22606R3WD9J
+  rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+  rankGrade: rankgrade:bjj_blue
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Documented in multiple news sources that Ivanka earned her blue belt
+  hasEvidence:
+  - basedOnSource: 01KYJEGSZ63KFRAX5Y9P3EVYM3
+    cite: Ivanka Trump BJJ Stats & Bio (Digitsu)
+    quotation: Ivanka's consistent dedication earned her the rank of blue belt
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KYJEGSZ63KFRAX5Y9P3EVYM3
+  cite: Ivanka Trump BJJ Stats & Bio (Digitsu)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://veja.abril.com.br/brasil/como-tres-irmaos-brasileiros-fizeram-ivanka-trump-se-apaixonar-pelo-jiu-jitsu
+  cite: Como três irmãos brasileiros fizeram Ivanka Trump se apaixonar pelo jiu-jitsu (VEJA)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.bjjee.com/articles/ivanka-trump-my-whole-family-myself-train-jiu-jitsu/
+  cite: 'Ivanka Trump: ''My Whole Family & Myself Train Jiu-Jitsu'' (BJJEE)'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q239411
+tags:
+- brazilian-jiu-jitsu
+- valente-brothers
+- celebrity-practitioner

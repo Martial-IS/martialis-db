@@ -1,0 +1,80 @@
+type: Organization
+id: 01KJJAWN29MA64W22606R3WD83
+name:
+  en: International Judo Federation
+orgType: orgclass:federation
+hasSite:
+  - location:
+      label: Budapest, Hungary
+      countryCode: eucountry:HUN
+      wikidata: wd:Q1781
+foundedEvent:
+  startDate: '1951-07-11'
+  hasEvidence:
+    - basedOnSource: 01M34V4V4D2PZFGV8X1Q5JEFQZ
+      quotation: On July 11, 1951 in London, its representatives (Great Britain, France, Italy, Belgium, The Netherlands, Germany, Austria and Switzerland) received the candidacy of Argentina and the International Judo Federation was created.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+website: https://www.ijf.org
+description:
+  en: International governing body for judo, founded in July 1951, federating national judo associations and continental unions.
+hasOfficerRole:
+  - id: 01M4R9845WH7JDE2P7SKD66STT
+    officer: 01KZY2QD14ZXN3V8ACHVPGGMGH
+    officerTitle: President
+    officerPeriod:
+      startYear: 1952
+      endYear: 1965
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia only.
+    hasEvidence:
+      - basedOnSource: 01M4R8589M09Z6WVTRDS9TWZEA
+        quotation: Kanō Risei was the second president of the International Judo Federation, from 1952 to 1965.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M4R9845WEPWWQ40A6JC52HXH
+    officer: 01M00NPBTP18V8842XM1DP7K4Z
+    officerTitle: Secretary-General
+    officerPeriod:
+      startYear: 1956
+      endYear: 1971
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: A journal biography and Wikipedia agree.
+    hasEvidence:
+      - basedOnSource: 01M00NPBTP2QBCMQNP1SATZQZV
+        quotation: Il est ensuite secrétaire général de la Fédération internationale de judo, dont il démissionne en 1971 pour raisons de santé.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M00NPBTPEC1QP41G4FSVJWK7
+        quotation: année à partir de laquelle il devient secrétaire général de la Fédération internationale de judo qu'il ne quittera qu'en 1971
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - uri: https://en.wikipedia.org/wiki/International_Judo_Federation
+    archiveUri: http://web.archive.org/web/20260130035818/https://en.wikipedia.org/wiki/International_Judo_Federation
+    cite: 'Wikipedia: International Judo Federation'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M4R8589M09Z6WVTRDS9TWZEA
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M00NPBTP2QBCMQNP1SATZQZV
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M00NPBTPEC1QP41G4FSVJWK7
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q1191347

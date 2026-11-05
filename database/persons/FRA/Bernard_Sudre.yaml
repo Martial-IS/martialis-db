@@ -1,0 +1,34 @@
+type: Person
+id: 01M39T3RX23RS36T29YJ4YEEYB
+name:
+  fr: Bernard Sudre
+nationality:
+  - countryCode: eucountry:FRA
+hasTeacherAssertion:
+  - id: 01M3YH7N5GSVAM1PW8KKDPPDMR
+    teacher: 01KZW2JNB8Z5A1QSZR05381WSR
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Martin names him directly as a champion produced by Michigami's teaching.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M00NPBTPWWBSJZRMYXBESJ97
+            quotation: Pendant près d'un demi-siècle, Michigami forme des grands judokas et des champions comme Bernard Sudre.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+description:
+  fr: Judoka français formé par Michigami Haku en Aquitaine.
+notes: No Wikidata entry found under this name; verify identity before adding competition results.
+hasEvidence:
+  - basedOnSource: 01M00NPBTPWWBSJZRMYXBESJ97
+    quotation: Pendant près d'un demi-siècle, Michigami forme des grands judokas et des champions comme Bernard Sudre.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - france

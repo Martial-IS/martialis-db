@@ -1,0 +1,43 @@
+type: Place
+id: 01KZM7FWX58PDQQPAAJR4X7029
+name:
+  en: Becerra Judo
+aka:
+  en: Bert Becerra Judo & Jujitsu
+placeType: placeclass:club
+hasSite:
+  - location:
+      label: Garland, Texas
+      countryCode: eucountry:USA
+      wikidata: wd:Q49274
+    address: 3035 S Shiloh Rd
+hasInstructorRole:
+  - id: 01M4R9845WVV9XT38BKPVNZ477
+    instructor: 01KZM7FWX5ED60G33KMWKDRWYT
+    instructorCapacity: instrcap:head_instructor
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The dojo's own site, with no passage quoted; one side only.
+    hasEvidence:
+      - basedOnSource: 01KZM7FWX5NZ9PJDYNDTZPN1P9
+        quotation: >-
+          Welcome to Bert Becerra Judo & Jujitsu
+        archiveUri: https://web.archive.org/web/20110905062049/http://www.becerrajudo.com/main.html
+        locator: main.html
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:indirect
+description:
+  en: 'Judo and jujitsu club in the Dallas, Texas area run by Bert Becerra. John Carmack trained there in his thirties and was promoted to brown belt in 2007; the club later listed him among its sponsors.
+
+'
+hasEvidence:
+  - basedOnSource: 01KZM7FWX5NZ9PJDYNDTZPN1P9
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - jujitsu
+  - dallas

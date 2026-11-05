@@ -1,0 +1,48 @@
+type: Person
+id: 01M5HNE76PYBE5HSGF2XCJ38C0
+name:
+  en: Richard Bustillo
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+description:
+  en: Student of Bruce Lee, of the school that develops Jeet Kune Do as a concept rather than a fixed form.
+hasTeacherAssertion:
+  - id: 01M5HNE76PDH911V2K3T19ZS4R
+    teacher: 01KYD5XMNMNAG3CPC17GKACPW0
+    assertedStyle: 01KYD5XSZPND9XV5FHYG9V0ZV6
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Inosanto (along with Richard Bustillo and Larry Hartsell) differs from other students of
+              Bruce Lee (such as Taky Kimura, James Lee, Jerry Poteet, and Ted Wong), who have tried
+              instead to preserve the “original form” of Jeet Kune Do.
+            locator: '481'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: '481'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q7324490
+tags:
+  - jkd
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/4/40/RichardBustillo.jpg
+  rights: mediarights:cc-by-sa-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:RichardBustillo.jpg
+    cite: "Mike Searson, Wikimedia Commons"
+    informationType: infotype:secondary

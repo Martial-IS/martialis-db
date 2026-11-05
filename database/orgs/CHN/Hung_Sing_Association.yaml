@@ -1,0 +1,85 @@
+type: Organization
+id: 01M69YZDB9JKZJ0YG82EWDR60F
+name:
+  en: Hung Sing Association
+  zh: 鴻勝館
+aka:
+  en: Foshan Hung Sing Kwoon
+orgType: orgclass:association
+hasSite:
+  - location:
+      label: Foshan
+      countryCode: eucountry:CHN
+      wikidata: wd:Q34412
+    address: 15 Ya Bang Street, Foshan
+foundedEvent:
+  startDate: '1867'
+  hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        What is certain is that he was a disciple of Chan Heung and he reopened the Hung Sing school
+        under his authority in 1867.
+      locator: '96'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+dissolvedEvent:
+  endDate: '1927'
+  dissolutionManner: dissmanner:suppressed
+  hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        Many Congress members were arrested or killed, effectively neutralizing Foshan’s communist cell,
+        at least for a while. After a failed uprising in Guangzhou on December 11, Qian Wei Fang, Wu Qin
+        and other important Hung Sing members were forced to flee to Hong Kong and various locations in
+        South East Asia. The Hung Sing Association was officially suppressed by the GMD and closed its
+        doors.
+      locator: '117'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:indirect
+hasOfficerRole:
+  - id: 01M69YZDB73DWNP9K4ENVZR52Y
+    officer: 01M69YZDB2ZXT618JZMTAC4DB7
+    officerTitle: Head
+    officerPeriod:
+      startYear: 1867
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+        quotation: >-
+          What is certain is that he was a disciple of Chan Heung and he reopened the Hung Sing school
+          under his authority in 1867.
+        locator: '96'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Choy Li Fut school in Foshan, reopened by Jeong Yim in 1867 at 15 Ya Bang Street. By 1920 it had
+    thirteen branches and about 3,000 members; it backed the labour movement and the Communist
+    Party, and the Nationalists suppressed it in 1927.
+notes: >-
+  Judkins and Nielson pp. 96-99, 105, 116-119, 175, 201. Closed after the Boxer Uprising (1900 on
+  p. 105, 1901 on p. 175) and reopened c. 1905. Some members fought the Japanese from 1937; the
+  original association had essentially ceased to exist in mainland China by the middle of WWII,
+  and efforts to rebuild after 1945 failed (p. 119). An earlier Foshan branch of Chan Heung's
+  network (c. 1848) closed in the Red Turban Revolt (p. 95); the book does not say it bore the
+  Hung Sing name. The year of suppression (1927) is from the surrounding narrative of the April
+  1927 purge.
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: '96-99, 105, 116-119, 201'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - choy-li-fut
+  - chinese-martial-arts

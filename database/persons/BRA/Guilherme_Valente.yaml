@@ -1,0 +1,64 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1TA
+name:
+  pt: Guilherme Valente
+  en: Guilherme "Gui" Valente
+nationality:
+- countryCode: eucountry:BRA
+  wikidata: wd:Q155
+birthEvent:
+  birthPlace:
+    countryCode: eucountry:BRA
+image:
+  contentUrl: https://archive.org/download/guilherme_valente/guilherme_valente.jpg
+  imageAttribution:
+    uri: https://forbes.com.br/forbes-life/2024/02/valente-brothers-comemora-30-anos-de-legado-em-defesa-pessoal-em-miami/
+    cite: "Forbes Brasil"
+hasTeacherAssertion:
+- id: 01M3YH7N5FYPVCB1JJTBDETEZ5
+  teacher: 01KJJAWN28MWKKSN4J02MVY1T8
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Multiple mentions of all Valente brothers being first taught by their father
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDA1
+      cite: 'Valente Brothers: Our Story'
+      quotation: Pedro, Gui and Joaquim began learning jūjutsu from their father before they could walk.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5FQXM1834M27WNBW3G
+  rankStyle: 01KJJAWN29MA64W22606R3WD9J
+  rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+  rankGrade: rankgrade:bjj_black
+  grantedBy: 01KJJAWN28MWKKSN4J02MVY1S5
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The Valente family's own site directly states the black belts and professor
+      diplomas were awarded by Hélio Gracie personally - their own first-hand account of their own
+      family's history.
+  hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WDA1
+    cite: 'Valente Brothers: Our Story'
+    quotation: The Valente family is the only family other than the Gracie family to have four black belts
+      and professor diplomas awarded directly by Grandmaster Hélio Gracie.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KJJAWN29MA64W22606R3WDA1
+  cite: 'Valente Brothers: Our Story'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://valentebrothers.com/instructors/
+  cite: Valente Brothers Instructors
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct

@@ -1,0 +1,135 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1TS
+name:
+  en: Hal Sharp
+aka:
+  en: Harold Sharp
+nationality:
+  - countryCode: eucountry:USA
+birthEvent:
+  birthDate: '1927'
+deathEvent:
+  deathDate: '2021'
+  deathPlace:
+    label: Los Angeles, California
+    countryCode: eucountry:USA
+    wikidata: wd:Q65
+hasTeacherAssertion:
+  - id: 01M3YH7N5GG45XWP7NTZG7S6PQ
+    teacher: 01KJJAWN28MWKKSN4J02MVY1SR
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Sharp's own interview names Kobayashi as his main teacher in Japan; they co-wrote The Sport of Judo (1957). No source from Kobayashi's side states the teaching relation.
+    role: teachrole:student
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+        interactionPeriod:
+          startYear: 1952
+        hasEvidence:
+          - uri: https://www.usjf.com/harold-hal-sharp/
+            cite: Harold (Hal) Sharp | United States Judo Federation
+            quotation: Sensei Sharp, 9th Dan (USA Judo, USJF & USJA), born in 1927, has been active in judo for 65 years, starting at the Kodokan Judo Institute where he earned the rank of Yodan through intensive competition.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - uri: https://youtu.be/B5B39yYPIlQ?t=169
+            cite: 'Hal Sharp''s History - YouTube'
+            quotation: And then Kobayashi [...] we became very close, almost like brothers, and he taught me a lot [...] we would travel around Japan, I was sort of like his pet monkey, if you will [...] Kobayashi, he was sort of my main teacher.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GSNMTWTG36Y2QYF2X
+    teacher: 01KJJAWN28MWKKSN4J02MVY1SQ
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Documented in Sharp's own article about Ishikawa with specific dates and details
+    role: teachrole:student
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD98
+        interactionPeriod:
+          startYear: 1953
+          endYear: 1955
+        hasEvidence:
+          - uri: https://www.usjf.com/takahiko-ishikawa/
+            cite: Memories of My Sensei Takahiko Ishikawa, 9th Dan by Harold (Hal) E. Sharp (USJF)
+            quotation: I would like to share some of my experiences with you about my Sensei and dear friend, Takahiko Ishikawa [...] I first met Ishikawa in 1953 in Japan after I became a Shodan (1st degree black belt) and thus was allowed to workout at the Keishicho (Tokyo Police Dojo)
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G2B6BT0R4SYGHE7TC
+    teacher: 01KJJAWN28MWKKSN4J02MVY1SX
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Documented in Sharp's article about Oda with specific training details
+    role: teachrole:student
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+        interactionPeriod:
+          startYear: 1950
+        hasEvidence:
+          - uri: https://judoinfo.com/oda/
+            cite: Master Tsunetane Oda - JudoInfo
+            quotation: 'I began to practice with Master Oda at Rikkyo University in Tokyo, during the early 1950’s and still remain fascinated by his bravado [...] I remained under Master Oda’s tutelage for many years practicing 3 times a day. Often I would accompany Master Oda to the Kodokan as well as the Dojo at Sugamo Prison.'
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5G2YK1MH1SR5YTGR39
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 10
+    dateConferred: '2020-10-31'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Documented in Wikipedia and USJF Hall of Fame page
+    hasEvidence:
+      - uri: https://en.wikipedia.org/wiki/Harold_Sharp
+        archiveUri: https://en.wikipedia.org/w/index.php?title=Harold_Sharp&oldid=1366875184
+        cite: Harold Sharp - Wikipedia
+        quotation: He is a 10th dan in Judo, promoted by the Nanka Judo Yudanshakai on October 31, 2020.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - uri: https://www.usjf.com/harold-hal-sharp/
+        cite: Harold (Hal) Sharp | United States Judo Federation
+        quotation: Sensei Sharp, 9th Dan (USA Judo, USJF & USJA), born in 1927, has been active in judo for 65 years
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - uri: https://en.wikipedia.org/wiki/Harold_Sharp
+    archiveUri: https://en.wikipedia.org/w/index.php?title=Harold_Sharp&oldid=1366875184
+    cite: Harold Sharp - Wikipedia
+    quotation: Harold "Hal" Sharp (1927 – March 21, 2021) was an American judoka and author of books on judo. [...] He is a 10th dan in Judo, promoted by the Nanka Judo Yudanshakai on October 31, 2020.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://youtu.be/B5B39yYPIlQ?t=169
+    cite: 'Hal Sharp''s History - YouTube'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://www.usjf.com/harold-hal-sharp/
+    cite: Harold (Hal) Sharp | United States Judo Federation
+    quotation: Sensei Sharp, 9th Dan (USA Judo, USJF & USJA), born in 1927, has been active in judo for 65 years, starting at the Kodokan Judo Institute where he earned the rank of Yodan through intensive competition.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M55KQ4EAVMP83AZANWYBGX0Q
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q115907711
+  - dbr:Harold_Sharp
+description:
+  en: American judoka and author of books on judo
+notes: Promoted to 10th dan by Nanka Judo Yudanshakai on October 31, 2020. Inducted into USA Judo Hall of Fame in 2019. Won the Japan Foreigner Judo Championship in 1954. Co-authored "The Sport of Judo" and "The Techniques of Judo" which sold over 250,000 copies worldwide.

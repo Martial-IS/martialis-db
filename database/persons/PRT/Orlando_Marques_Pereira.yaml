@@ -1,0 +1,137 @@
+type: Person
+id: 01KZ6654E39YKF2E37Z3Z740RS
+name:
+  pt: Orlando Marques Pereira
+aka:
+  pt: Orlando Marques
+nationality:
+- countryCode: eucountry:PRT
+  wikidata: wd:Q45
+description:
+  en: Portuguese aikido teacher (6th dan Aikikai) and founder of the ADAS (Associação Desportiva de Aikido
+    de Setúbal), where he serves as Technical Director and president of its successor, ADAS-Aikido Buikukai
+    Portugal. He began aikido in July 1975 at the Clube Naval Setubalense with Misao Honda and passed
+    his 1st dan with him on 29 June 1980.
+  pt: Professor português de aikido (6º dan Aikikai) e fundador da ADAS (Associação Desportiva de Aikido
+    de Setúbal), onde é Diretor Técnico e presidente da sua sucessora, a ADAS-Aikido Buikukai Portugal.
+    Iniciou o Aikido em julho de 1975 no Clube Naval Setubalense com Misao Honda e passou o seu 1º dan
+    com este mestre a 29 de junho de 1980.
+hasTeacherAssertion:
+- id: 01M3YH7N5G0861A7566ZK9VSTD
+  teacher: 01KZ6239B5VBK0S11VCGQZ4C9B
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: The FPA history and his own first-hand account agree that he began aikido with
+      Misao Honda at the Clube Naval Setubalense in 1975.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KZ6654E3BY1BA2D4NWNVB3MM
+    interactionPeriod:
+      startYear: 1975
+      endYear: 1980
+    hasEvidence:
+    - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+      quotation: Em Julho de 1975, o Prof. Orlando Marques Pereira inicia a prática de Aikido no Clube
+        Naval Setubalense, com o Mestre Misao Honda. Passa o seu exame para 1º dan com este mestre a 29
+        de Junho de 1980.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M4R4VDQ3D5DATEGS01X5WGSB
+      quotation: Escolhi o seu Aikido e no dia 10 terça feira começamos com 3 (eu e mais 2 amigos do judo)
+        praticantes na primeira aula
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GJDD02F9AC2H7X1C2
+  rankStyle: 01KJJAWN29MA64W22606R3WD9R
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 6
+  conferredBy: 01KZ3KA57C6W6FMCWM668Y13X2
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Described as 6th dan Aikikai on ADAS's own about page, without a specific award
+      date; no independent source corroborates it
+  hasEvidence:
+  - basedOnSource: 01KZ6654E3XPX02ASYRKDP0HG6
+    quotation: >-
+      Sensei Orlando Marques Fundador, 6ºDan Aikikai
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5G98XVYY4Z3CWZ87GB
+  rankStyle: 01KJJAWN29MA64W22606R3WD9R
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 1
+  conferredBy: 01KZ3KA57C6W6FMCWM668Y13X2
+  grantedBy: 01KZ6239B5VBK0S11VCGQZ4C9B
+  dateConferred: '1980-06-29'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Passed his 1st dan with Misao Honda on 29 June 1980, one of Portugal's first
+      two yudansha registered with the Hombu Dojo Aikikai in Tokyo, per the FPA history and the YouTube
+      video
+  hasEvidence:
+  - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+    quotation: Passa o seu exame para 1º dan com este mestre a 29 de Junho de 1980.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ6239B502QG4KT71H5P9FT5
+    quotation: tendo sido o primeiro Mestre no ano de 1980 a formar em Portugal os primeiros dois yudansha
+      (Cinto negro) com registo na Hombu Dojo Aikido Aikikai em Tóquio Japão.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ6654E39M0WFVGXYFGST3X7
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ6654E3XPX02ASYRKDP0HG6
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ6239B502QG4KT71H5P9FT5
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ6239B5Q0H0AGKTCG1D06K9
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M4R4VDQ3D5DATEGS01X5WGSB
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- aikido
+- portugal
+- aikikai
+notes: '- Orlando Marques Pereira (commonly Orlando Marques) is a Portuguese aikido teacher and the founder
+  of the ADAS (Associação Desportiva de Aikido de Setúbal).
+
+  - Began aikido in July 1975 at the Clube Naval Setubalense with Misao Honda, and passed his 1st dan
+  with Honda on 29 June 1980, one of Portugal''s first two yudansha registered with the Hombu Dojo Aikikai
+  in Tokyo.
+
+  - Technical Director of the ADAS since its founding on 23 November 1998, and head instructor at the
+  ADAS dojo in Setúbal (Rua Diogo Cão 20A).
+
+  - President of the ADAS''s successor organization, ADAS-Aikido Buikukai Portugal, appointed by the Buikukai
+  of Osaka, Japan.
+
+  - Holds the rank of 6th dan Aikikai.
+
+  '

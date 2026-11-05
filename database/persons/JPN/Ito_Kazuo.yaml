@@ -1,0 +1,126 @@
+type: Person
+id: 01KYND6715HFZV8WHQ6W7PATNX
+name:
+  en: Kazuo Itō
+  ja-Latn: Itō Kazuo
+  ja: 伊藤四男
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1898'
+  birthPlace:
+    label: Shinjō, Yamagata
+    countryCode: eucountry:JPN
+    wikidata: wd:Q840603
+deathEvent:
+  deathDate: '1974'
+description:
+  en: 8th dan Kodokan Judo, awarded Judo Meijin 10th Dan by Kokusai Budoin IMAF in 1972. Personal student
+    of Kyuzo Mifune. Founding member and first Chief Director of Kokusai Budoin, International Martial
+    Arts Federation (IMAF). Helped restore Judo to Japanese national education after WWII.
+hasTeacherAssertion:
+- id: 01M3YH7N5GJWWH6PF8FG54QGHJ
+  teacher: 01KJJAWN28MWKKSN4J02MVY1SD
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: INJA's Heritage page and French Wikipedia, an independent source, both directly
+      state Ito was a personal student of Kyuzo Mifune
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+    hasEvidence:
+    - basedOnSource: 01M3KPWDBR13JWPTTBTTPYP8N4
+      quotation: >-
+        Kazuo Ito was a personal student of Kyuzo Mifine
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://fr.wikipedia.org/wiki/Kazuo_It%C5%8D
+      archiveUri: https://fr.wikipedia.org/w/index.php?title=Kazuo_It%C5%8D&oldid=233922205
+      cite: Kazuo Itō - Wikipédia FR
+      quotation: Kazuo Ito était un élève personnel de Kyūzō Mifune.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GNZ3GXYH1Y8WJHZ7W
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 8
+  conferredBy: 01KJJAWN29MA64W22606R3WD7X
+  dateConferred: '1941'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: French Wikipedia states promoted to 8th Dan in 1941; INJA Heritage says 1945
+  hasEvidence:
+  - uri: https://fr.wikipedia.org/wiki/Kazuo_It%C5%8D
+    archiveUri: https://fr.wikipedia.org/w/index.php?title=Kazuo_It%C5%8D&oldid=233922205
+    cite: Kazuo Itō - Wikipédia FR
+    quotation: En 1941, il fut promu au grade de 8e dan
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M3KPWDBR13JWPTTBTTPYP8N4
+    quotation: 'Awarded the title of Kyodo in 1941, and promoted to 8th Dan in 1945 by the Kodokan.'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5G39PM2T4X2CH1PZXA
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 10
+  conferredBy: 01KYND67158B7TAT2KS5M3MK3K
+  dateConferred: '1972'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: IMAF lists him among its Meijin; FR Wikipedia and INJA date it to 1972.
+  hasEvidence:
+  - uri: http://www.imaf.org/meijin.html
+    archiveUri: https://web.archive.org/web/20131002040107/http://www.imaf.org/meijin.html
+    cite: Meijin - Kokusai Budoin, International Martial Arts Federation
+    quotation: Kazuo Ito Judo Meijin 10th dan (1898 - 1974)
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://fr.wikipedia.org/wiki/Kazuo_It%C5%8D
+    archiveUri: https://fr.wikipedia.org/w/index.php?title=Kazuo_It%C5%8D&oldid=233922205
+    cite: Kazuo Itō - Wikipédia FR
+    quotation: Il reçut, en 1972, le titre de Meijin 10e dan de judo
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M3KPWDBR13JWPTTBTTPYP8N4
+    quotation: 'Chief founding member of Kokusai Budoin, IMAF, awarded Judo Meijin 10th Dan 1972.'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- uri: https://fr.wikipedia.org/wiki/Kazuo_It%C5%8D
+  archiveUri: https://fr.wikipedia.org/w/index.php?title=Kazuo_It%C5%8D&oldid=233922205
+  cite: Kazuo Itō - Wikipédia FR
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M3KPWDBR13JWPTTBTTPYP8N4
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://en.wikipedia.org/wiki/International_Martial_Arts_Federation
+  cite: Wikipedia - IMAF
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q16222706
+- viaf:114608046
+- lcnaf:n87134598
+tags:
+- judo
+- imaf

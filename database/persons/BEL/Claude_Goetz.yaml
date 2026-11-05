@@ -1,0 +1,87 @@
+type: Person
+id: 01M040GCQ9FBQVWTZHKCVVW788
+name:
+  en: Claude Goetz
+  fr: Claude Goetz
+  nl: Claude Goetz
+nationality:
+- countryCode: eucountry:BEL
+  wikidata: wd:Q31
+description:
+  en: Belgian karate pioneer and long-time coach of Jean-Claude Van Damme. With Jean De Haes he created
+    the first karate school in Brussels in 1962, the ancestor of the Centre National de Karate (CNK).
+    He trained in Paris alongside Tsutomu Ohshima, a disciple of Gichin Funakoshi. Goetz is credited with
+    about a hundred coaching world titles, promoted the first full-contact karate tournament in Belgium,
+    and remains at the head of what became the World Champion CNK.
+hasTeacherAssertion:
+- id: 01M3YH7N5FCC6W712D6DS6Z4AF
+  teacher: 01KYFZEGYNKYFCPETS9G1N9KBW
+  assertedStyle: 01KYFZEGYN107JYC5K1539R8JM
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Two independent sources state Goetz trained with Ohshima; the details (period,
+      venue) are not documented
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M040GCQ93GVPWXCF73X6Y0BF
+      quotation: Claude and Jacques DELCOURT [...] trained in Paris together with Tsutomu OSHIMA, disciple
+        of Giehin FUNAKOSHI.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M040GCQ9V8C08G66KAT55V0V
+      quotation: 'my karate teacher Claude Goetz (the European karate pioneer who studied with Tsutomu
+        Oshima, a disciple of Gichin Funakoshi)'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5FQRM75K2SKDYNTN9K
+  rankStyle: 01KJJAWN29MA64W22606R3WD9S
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 7
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Karate 7th dan reported by UppercutMMA, a secondary source; the granting organization
+      and date are not documented
+  hasEvidence:
+  - basedOnSource: 01M040GCQ9QVGJJP6VB3B9G5DJ
+    quotation: >-
+      Ceinture noire d'aïkido (1e dan), de judo (2e dan), de jiu-jitsu (5e dan), de karaté (7e dan) et de full-contact
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M040GCQ93GVPWXCF73X6Y0BF
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M040GCQ9V8C08G66KAT55V0V
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M040GCQ9QVGJJP6VB3B9G5DJ
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M040GCQ9T51ZJEM2K713JQ51
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M040GCQ9ZDBW8Y6WQETDBCM7
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- karate
+- shotokan
+- belgium
+- coach
+notes: 'Ranks reported alongside karate 7th dan in the same source: aikido 1st dan, judo 2nd dan, jiu-jitsu
+  5th dan, full-contact. Only the karate 7th dan is entered in the rank list since the karate grade is
+  the central claim; the others are noted here for completeness. No Wikidata entry exists for Goetz as
+  of the time of writing.'

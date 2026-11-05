@@ -1,0 +1,79 @@
+type: Place
+id: 01M5MG190F2PY1F8K7W63MHP1Y
+name:
+  pt: Academia Carlson Gracie (Figueiredo de Magalhães)
+aka:
+  en:
+    - Figueiredo de Magalhães Academy
+placeType: placeclass:academy
+hasSite:
+  - location:
+      label: Rua Figueiredo de Magalhães, Copacabana, Rio de Janeiro
+      countryCode: eucountry:BRA
+      wikidata: wd:Q8678
+foundedEvent:
+  startDate: '1972'
+  founder:
+    - 01KYQB8J2NN336ZJWGQW3YH95E
+  hasEvidence:
+    - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+      quotation: >-
+        1972 – Carlson opens the now legendary academy on the Figueiredo de Magalhães Street. Rolls joins
+        him soon after.
+      locator: Timeline (1972)
+      locatorLabel: section
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Carlson Gracie's academy in Copacabana, opened in 1972; Rolls Gracie joined him there and the two
+    taught on alternate days. It was the centre of the second wave of jiu-jitsu competitors.
+hasInstructorRole:
+  - id: 01M5MG190FAKXVS98S4M63S77T
+    instructor: 01KYQB8J2NN336ZJWGQW3YH95E
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1972
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+        quotation: >-
+          Eventually, Carlson and Rolls would end up being business partners in the now legendary
+          Figueiredo de Magalhães Academy. They maintained this partnership by alternating the days in
+          which they taught their own group of separate (but sort of mixed) students.
+        locator: Introduction
+        locatorLabel: section
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5MG190FV9E6S6TCRH91MR6D
+    instructor: 01KYZ31HT3D978KY5GPZAGKV5G
+    instructorCapacity: instrcap:instructor
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+        quotation: >-
+          Eventually, Carlson and Rolls would end up being business partners in the now legendary
+          Figueiredo de Magalhães Academy. They maintained this partnership by alternating the days in
+          which they taught their own group of separate (but sort of mixed) students.
+        locator: Introduction
+        locatorLabel: section
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+    locator: Timeline (1972)
+    locatorLabel: section
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - bjj

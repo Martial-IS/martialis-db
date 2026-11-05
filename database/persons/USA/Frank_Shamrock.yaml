@@ -1,0 +1,100 @@
+type: Person
+id: 01M6C1FR4AVBJHXKZRTXM8HZA5
+name:
+  en: Frank Shamrock
+aka:
+  en:
+    - Frank Juarez
+    - The Legend
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1972-12-08'
+  hasEvidence:
+    - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+      quotation: 'Born: 12/8/72'
+      locator: '400'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    American mixed martial artist, adopted brother of Ken Shamrock. He began in Ken's Lion's Den and
+    in Pancrase, and later trained under Javier Mendez.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/7/7d/Frank_Shamrock.jpg
+  rights: mediarights:cc-by-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Frank_Shamrock.jpg
+    cite: "Bruno Massami, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+  - id: 01M6C1FR4A1TJNT8BJFX94J6KY
+    teacher: 01M6C18DS7MFJMMJ2GXSZJ19SX
+    assertedStyle: 01KYSS3B587WR241FHHW19X24T
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - interactionPlace: 01M6C1FR4APSBZ84JBFRR4VHA4
+        hasEvidence:
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              When Frank Juarez stepped out of prison, his first stop was Ken Shamrock’s gym.
+            locator: '400'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              Ken wanted to do it himself. If Frank was going to train with his team, he was going to earn it.
+            locator: '401'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M6C1FR4AY4YSVPR9RJNZXGXV
+    teacher: 01KZQ7BS7KRNM0NPD97WPGG2P2
+    assertedStyle: 01KYSS3B587WR241FHHW19X24T
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source, two interviewees in it.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              Actually it was Frank Shamrock’s old trainer, and now my trainer, Javier Mendez.
+            locator: '244'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              I mean Javier Mendez, who was his old trainer, all the guys at AKA that I have trained with over the years
+            locator: '26'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+    quotation: >-
+      Starting with his adopted brother Ken in Japan, Frank was the first Pancrase fighter to successfully adapt his technical grappling style to life inside the unforgiving cage.
+    locator: '401'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q2554576
+tags:
+  - mma
+  - pancrase

@@ -1,0 +1,123 @@
+type: Person
+id: 01KYSNKBS7T4VMBNKEXV23RB0D
+name:
+  en: Firas Zahabi
+  ar: فراس الذهبي
+  ja: フィラス・ザハビ
+nationality:
+- countryCode: eucountry:CAN
+  wikidata: wd:Q16
+birthEvent:
+  birthDate: '1980-02-05'
+  hasEvidence:
+  - basedOnSource: 01KYZ0172J9V8QNFRGAER3X960
+    quotation: Firas Zahabi was born on February 5, 1980, in Quebec, Canada, being the son of Lebanese
+      emigrants.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M3YH7N5G4328FZN3WK1VYQSS
+  teacher: 01KYSNKBS820Y33CQFDDFKQ3EZ
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: BJJ Heroes confirms Zahabi holds a black belt under John Danaher and was promoted
+      at the Renzo Gracie Academy in 2011; corroborated by Zahabi's own public statements and Wikipedia's
+      list of Danaher's notable students
+  hasInteraction:
+  - interactionPlace: 01KYYYTTW3RXYAKA5JVNCFB9CA
+    interactionPeriod:
+      startYear: 2006
+      endYear: 2011
+    hasEvidence:
+    - basedOnSource: 01KYZ0172J9V8QNFRGAER3X960
+      quotation: Pierre, arguably MMA's greatest fighter of all time, would frequently visit jiu-jitsu
+        coach extraordinaire, Mr. John Danaher in New York City, at the Renzo Gracie Academy, a trip Firas
+        started taking as well from around the mid-2000s.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KYZ0172J9V8QNFRGAER3X960
+      quotation: Firas Zahabi's hard work on the mats would lead to his black belt promotion, an endorsement
+        by John Danaher in an event that took place in 2011.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://bjjdoc.com/2026/07/17/firas-zahabi-john-danaher-is-the-greatest-jiu-jitsu-coach-of-all-time/
+      cite: 'Firas Zahabi: John Danaher Is The Greatest Jiu Jitsu Coach Of All Time (BJJDOC)'
+      quotation: I'm a black belt under John Danaher. He is the greatest jiu-jitsu coach of all time and
+        arguably the greatest MMA coach of all time.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://en.wikipedia.org/wiki/John_Danaher_(martial_artist)
+      archiveUri: https://en.wikipedia.org/w/index.php?title=John_Danaher_%28martial_artist%29&oldid=1356632050
+      cite: John Danaher - Wikipedia (EN)
+      quotation: Firas Zahabi
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GXNV38A2FE8SRCDAG
+  rankStyle: 01KJJAWN29MA64W22606R3WD9J
+  rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+  rankGrade: rankgrade:bjj_black
+  grantedBy: 01KYSNKBS820Y33CQFDDFKQ3EZ
+  dateConferred: '2011'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: BJJ Heroes states Zahabi was promoted to black belt under John Danaher in 2011;
+      corroborated by Zahabi's own statements
+  hasEvidence:
+  - basedOnSource: 01KYZ0172J9V8QNFRGAER3X960
+    quotation: Firas Zahabi's hard work on the mats would lead to his black belt promotion, an endorsement
+      by John Danaher in an event that took place in 2011.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://bjjdoc.com/2026/07/17/firas-zahabi-john-danaher-is-the-greatest-jiu-jitsu-coach-of-all-time/
+    cite: 'Firas Zahabi: John Danaher Is The Greatest Jiu Jitsu Coach Of All Time (BJJDOC)'
+    quotation: Zahabi, a black belt under Danaher himself, was direct in his response.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/e/ec/Firas_Zahabi.png
+  rights: mediarights:cc-by-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Firas_Zahabi.png
+    cite: "Individuation Portal, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: 'Canadian mixed martial arts coach and head trainer of Georges St-Pierre. Zahabi is the head coach
+    and owner of Tristar Gym in Montreal, Quebec, which he took over in 2007. He cornered St-Pierre for
+    the majority of his later career and is widely regarded as one of the top MMA coaches in the world.
+    He holds a black belt in Brazilian jiu-jitsu under John Danaher, promoted in 2011.
+
+    '
+sameAs:
+- wd:Q57997686
+hasEvidence:
+- uri: https://en.wikipedia.org/wiki/Firas_Zahabi
+  cite: Firas Zahabi - Wikipedia (EN)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KYSNKBRXZBXTADEA0ET726M4
+  quotation: 'Head Trainer: Firas Zahabi'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KYZ0172J9V8QNFRGAER3X960
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- mma-coach
+- canadian
+- tristar
+- brazilian-jiu-jitsu

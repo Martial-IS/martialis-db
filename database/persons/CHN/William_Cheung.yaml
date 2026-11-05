@@ -1,0 +1,56 @@
+type: Person
+id: 01M69YKDGKBJ1MWDSZAJ4WQ6XH
+name:
+  en: William Cheung
+  yue: 張卓慶
+  zh: 張卓慶
+  zh-Latn: Zhang Zhuoqing
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/9/91/William_Cheung_2011.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:William_Cheung_2011.jpg
+    cite: "Jesse S. Jones of Jesse S Jones Photography, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    Wing Chun teacher, student of Ip Man from about 1954 in Hong Kong and a well-known challenge
+    fighter of the 1950s; he taught junior students, Bruce Lee among them.
+notes: >-
+  Judkins and Nielson pp. 237-245. Later spread Wing Chun abroad. The book once spells him
+  'William Chun' (p. 244).
+hasTeacherAssertion:
+  - id: 01M69YKDH36V46S46NGGDAJR9A
+    teacher: 01KYD5XMNM4DH8KAWBC1TE9BDJ
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1954
+        hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              Despite the frequent moves, Ip Man’s classes grew quickly in this period. Students such as Wong
+              Shun Leung and William Cheung, both of whom would go on to become leading lights in the spread
+              and promotion of Wing Chun, joined the school at this time.
+            locator: '237'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: '237-245'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q1057915
+tags:
+  - wing-chun
+  - chinese-martial-arts

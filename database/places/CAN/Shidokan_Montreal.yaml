@@ -1,0 +1,42 @@
+type: Place
+id: 01M5HPABJX7GWVYVND5QG4154M
+name:
+  en: Shidokan Dojo
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Montreal
+      countryCode: eucountry:CAN
+      wikidata: wd:Q340
+description:
+  en: >-
+    Hiroshi Nakamura's dojo in a public recreation facility near downtown Montreal, with about 350 pupils
+    in the late 1990s; Nicolas Gill trained there.
+hasInstructorRole:
+  - id: 01M5HPABJXD30XJ6YTS7AFVTVR
+    instructor: 01M5H5TCKZW50M5WFGCD2KCNR1
+    instructorCapacity: instrcap:head_instructor
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+        quotation: >-
+          Currently, Nakamura is the sensei of the Shidokan Dojo, housed in a public recreation facility
+          close to downtown Montreal. He has about 350 pupils involved.
+        locator: '132'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    locator: '132'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - canada

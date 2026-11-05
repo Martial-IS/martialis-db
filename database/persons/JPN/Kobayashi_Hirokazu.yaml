@@ -1,0 +1,165 @@
+type: Person
+id: 01KZ4TQWK85T5NXJ23Y5SHNKT7
+name:
+  ja-Latn: Kobayashi Hirokazu
+  ja: 小林裕和
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1929-02-14'
+  birthPlace:
+    label: Osaka Prefecture
+    countryCode: eucountry:JPN
+    wikidata: wd:Q122723
+deathEvent:
+  deathDate: '1998-08-28'
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/c/c1/Kobayashi_Hirokazu.jpg
+  rights: mediarights:attribution
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Kobayashi_Hirokazu.jpg
+    cite: "Jason deBono, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: Japanese aikido teacher (8th dan Aikikai, shihan) and direct student of Morihei Ueshiba, initiator
+    of Kobayashi aikido. After studying at the Aikikai Hombu Dojo in Tokyo from 1946, he returned to Osaka
+    in 1954 and became chief instructor for the Kansai region. From 1964 he taught aikido in Europe every
+    year until 1996.
+  pt: Professor japonês de aikido (8º dan Aikikai, shihan) e aluno direto de Morihei Ueshiba, iniciador
+    do Kobayashi aikido. Após estudar no Hombu Dojo do Aikikai em Tóquio desde 1946, regressou a Osaka
+    em 1954 e tornou-se instrutor-chefe da região de Kansai. A partir de 1964 ensinou Aikido na Europa
+    todos os anos até 1996.
+hasTeacherAssertion:
+- id: 01M3YH7N5G20413ANRZ3TZVBSW
+  teacher: 01KJJAWN28MWKKSN4J02MVY1TV
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Kobayashi entered the Aikikai Hombu Dojo in 1946 on a recommendation letter from
+      his karate teacher and studied under Morihei Ueshiba for about nine years until returning to Osaka
+      in 1954, documented by the English and Japanese Wikipedia articles
+  role: teachrole:uchi_deshi
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1946
+      endYear: 1954
+    hasEvidence:
+    - basedOnSource: 01KZ4TQWK8XDXC6N76CJN3CYQW
+      quotation: In 1946 his karate teacher gave him a recommendation letter for Morihei Ueshiba. With
+        this letter he went to Tokyo, in order to learn the Japanese martial art aikido.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZ4TQWK8AZJSE9P585AAWM36
+      quotation: 1946年、当時師事していた空手の師匠を通じて合気道の存在を知り、その師匠に紹介状を書いてもらい合気会本部道場に入門。以降約10年にわたり植芝盛平に師事する。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GZ0K8268C2SC90BQ4
+  rankStyle: 01KJJAWN29MA64W22606R3WD9R
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 8
+  conferredBy: 01KZ3KA57C6W6FMCWM668Y13X2
+  dateConferred: '1970'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Wikipedia and Erard; Erard hedges.
+  hasEvidence:
+  - basedOnSource: 01KZ4TQWK8XDXC6N76CJN3CYQW
+    quotation: In 1970, at the age of 41, he was awarded 8th dan rank.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ4TQWK8AZJSE9P585AAWM36
+    quotation: 1970年、八段允可。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M55JW66WQ4TFVS60NVJF6MPC
+    quotation: it seems that Kobayashi Hirokazu was promoted to the 8th dan by the Aikikai in 1970
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZ4TQWK8XDXC6N76CJN3CYQW
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ4TQWK8AZJSE9P585AAWM36
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ4TQWK8F67CMBRHQF3B0747
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ49W5BPNVJQKW0Y47XPE37Y
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ49W5BPE1W688BA70A7ASV3
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q714095
+- dbr:Hirokazu_Kobayashi
+tags:
+- aikido
+- japan
+- kobayashi-aikido
+notes: '- Kobayashi Hirokazu (小林裕和, 14 February 1929 - 28 August 1998) was a Japanese aikido teacher and
+  direct student of Morihei Ueshiba.
+
+  - From age 7 he studied karate, kendo and judo. At 15 he was stationed as a kamikaze pilot on an aircraft
+  carrier; after his plane suffered a technical defect he survived the carrier being torpedoed and sinking.
+
+  - Entered the Aikikai Hombu Dojo in 1946 with a recommendation letter from his karate teacher and studied
+  under Ueshiba for about nine years; friendly with Morihiro Saito, with whom he shared the role of uke
+  to Ueshiba (Kobayashi following with the sword).
+
+  - Returned to Osaka in 1954; from 1957 taught full-time, including at universities in Osaka and Kobe;
+  became chief instructor for Kansai in 1970 and served as Ueshiba''s uke on his visits.
+
+  - Rank progression: 6th dan 1962, 7th dan 1964, 8th dan 1970 (Aikikai).
+
+  - Sent by Ueshiba to teach in Europe from 1964; gave regular courses in France, Switzerland, Belgium,
+  Italy, Germany and the Netherlands every year until 1996.
+
+  - Initiator of Kobayashi aikido (国際合気道研修会小林裕和派). A member of the Aikikai Foundation, he did not want
+  his own organisation until months before his death, when he allowed his students to found the Académie
+  autonome d''aikido.
+
+  - Per Guillaume Erard''s research, his connection to Takuma Hisa and Daito-ryu Aiki-jujutsu was brief
+  and informal, not a formal study relationship.
+
+  - Former students include André Cognard, Kimura Jiro (his successor in Japan), Tetsuro Nariyama, Misao
+  Honda (who introduced aikido in Portugal at Kobayashi''s request) and Luís Antunes.
+
+  - Died of sepsis on 28 August 1998.
+
+  '
+hasHonorAssertion:
+- id: 01M3YH7N5GZ71CCDPMX7YPQP5H
+  honorValue: Shihan
+  honorType: honortype:title
+  conferredBy: 01KZ3KA57C6W6FMCWM668Y13X2
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Erard only; he gives it as his understanding.
+  hasEvidence:
+  - basedOnSource: 01M55JW66WQ4TFVS60NVJF6MPC
+    quotation: He was also present with Ueshiba Kisshomaru and the other Aikikai shihan during the first International Aikido Federation congress that was held in Tokyo in 1976. My understanding is that Kobayashi Hirokazu remained an Aikikai shihan all his life.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct

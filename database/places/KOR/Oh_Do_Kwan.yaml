@@ -1,0 +1,47 @@
+type: Place
+id: 01M6BQSYG60Q99QSTRPT96HQ9Q
+name:
+  en: Oh Do Kwan
+aka:
+  en:
+    - O-Do Kwan
+placeType: placeclass:military
+hasSite:
+  - location:
+      label: Korea
+      countryCode: eucountry:KOR
+foundedEvent:
+  startDate: '1954'
+  founder:
+    - 01KYQM3M5CWFJJBA8W502KD2TP
+    - 01M6BQSYG6CA6NTTKZDJJYD6BC
+  hasEvidence:
+    - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+      quotation: >-
+        He established his O-Do Kwan together with Nam T’ae Hi in 1954 in the military.
+      locator: '57'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Kwan founded in the South Korean army in 1954 by Choi Hong-hi and Nam Tae-hi. With the Chung Do Kwan it
+    was the first to use the name taekwondo.
+notes: No source gives a base or city, so the site is country-level.
+hasEvidence:
+  - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+    quotation: >-
+      While the name ‘taekwondo’ was used at first only by Ch’ŏng-Do Kwan and Choi’s O-Do Kwan in the
+      military
+    locator: '60'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q140595210
+tags:
+  - taekwondo
+  - kwan
+  - military

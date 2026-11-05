@@ -1,0 +1,91 @@
+type: Person
+id: 01M5KV9GA7GNE7WV6DPBG49CGT
+name:
+  en: Lillian Dove-Willcox
+aka:
+  en:
+    - Lillian Mary Dove-Wilcox
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+birthEvent:
+  birthDate: '1875'
+  birthPlace:
+    label: Bedminster, Bristol
+    countryCode: eucountry:GBR
+  hasEvidence:
+    - basedOnSource: 01M5KV9GA72J3YA53WBYS98TY6
+      quotation: >-
+        Dove-Willcox was born in Bedminster, Bristol in 1875.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1963'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        the English hunger-striker Lillian Mary Dove-Wilcox (1875–1963).
+      locator: '636'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    British suffragette from Bristol and hunger striker, a member of Emmeline Pankhurst's personal
+    Bodyguard, which Edith Garrud trained in jujitsu.
+hasTeacherAssertion:
+  - id: 01M5KV9GA7KEM82DD3B5SF9Q8X
+    teacher: 01M07J1EESSEPR2TSJWV1FWBG5
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9G
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Implied: member of the Bodyguard that Garrud trained.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1913
+          endYear: 1914
+        hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              the Scottish socialist Helen Crawfurd (1877–1974), and the English hunger-striker Lillian
+              Mary Dove-Wilcox (1875–1963).
+            locator: '636'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+          - basedOnSource: 01M5KV9GA72J3YA53WBYS98TY6
+            quotation: >-
+              Lillian Dove-Willcox (1875–1963) was a British suffragette who was a member of Emmeline
+              Pankhurst's personal bodyguard.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Between 1910 and 1913, Edith Garrud’s involvement with the suffragette movement deepened, and
+      eventually she became the trainer for Emmeline Pankhurst’s bodyguards.
+    locator: '635'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:indirect
+sameAs:
+  - wd:Q51374609
+tags:
+  - jujutsu
+  - suffragettes
+  - women
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/7/77/Suffragette_Lillian_Dove-Willcox_1911.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Suffragette_Lillian_Dove-Willcox_1911.jpg
+    cite: "Colonel Linley Blathwayt who died in 1919, Wikimedia Commons"
+    informationType: infotype:secondary

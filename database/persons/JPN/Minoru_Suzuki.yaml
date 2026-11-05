@@ -1,0 +1,88 @@
+type: Person
+id: 01M6C18DS7XNBF9C5P9AQXZH6K
+name:
+  en: Minoru Suzuki
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1968-06-17'
+  hasEvidence:
+    - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+      quotation: 'Born: 6/17/68'
+      locator: '452'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Japanese professional wrestler and mixed martial artist, co-founder of Pancrase with Masakatsu
+    Funaki in 1993. The first fighter to beat Ken Shamrock under Pancrase rules.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/2/2e/Minoru_Sukuzi.jpg
+  rights: mediarights:cc-by-sa-2.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Minoru_Sukuzi.jpg
+    cite: "Andrew Quentin, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+  - id: 01M6C18DS77X06QCBFQWKWX86G
+    teacher: 01M6C18DS7KATP6HKGR2XNGXG5
+    assertedStyle: 01KYEWRMWERM1HW12W53HE9G4A
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              Trained by Yoshiaki Fujiwara, Suzuki also had excellent submissions
+            locator: '453'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              Masakatsu Funaki and Minoru Suzuki had tons of potential in traditional professional wrestling. [...] But the students of Yoshiaki Fujiwara and Karl Gotch weren’t looking to take pratfalls
+            locator: '325'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M6C18DS7HDX090PK8Q3SQ1N6
+    teacher: 01KYDPMZ5JJKGQ5DDGFGM8FBJN
+    assertedStyle: 01KYEWRMWERM1HW12W53HE9G4A
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              Masakatsu Funaki and Minoru Suzuki had tons of potential in traditional professional wrestling. [...] But the students of Yoshiaki Fujiwara and Karl Gotch weren’t looking to take pratfalls
+            locator: '325'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+    quotation: >-
+      Suzuki was the first fighter to beat UFC Hall of Famer Ken Shamrock under Pancrase rules.
+    locator: '453'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q1705122
+tags:
+  - catch-wrestling
+  - mma
+  - pancrase

@@ -1,0 +1,269 @@
+type: Person
+id: 01M2XVMMR0Y3ZA7VN5FY6S8TY6
+name:
+  en: Monna Tadashi
+  ja-Latn: Monna Tadashi
+  ja: 門奈 正
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1855'
+  dateOriginal: 安政2年4月
+  dateCalendar: datecal:japanese_lunisolar
+  birthPlace:
+    label: Mito
+    countryCode: eucountry:JPN
+    wikidata: wd:Q204249
+  hasEvidence:
+    - basedOnSource: 01M2Z6TY1P25CQ9YJJM432S4DN
+      quotation: 門奈 正（もんな ただし、安政2年4月（1855年） - 昭和4年（1929年）9月22日）は、日本の剣道家。流派は水府流、北辰一刀流。称号は大日本武徳会剣道範士。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '[1929-09-22,1930-09-22]'
+  dateOriginal: 昭和4年9月22日（『剣道事典 技術と文化の歴史』370頁では昭和5年9月22日）
+  dateCalendar: datecal:japanese_nengo
+  hasEvidence:
+    - basedOnSource: 01M2Z6TY1P25CQ9YJJM432S4DN
+      quotation: 昭和4年（1929年）、門奈は宮中天覧試合で審判員を務め、同年9月22日に死去した。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M2XVMMR06FA9PVJPB8JX4WZX
+      quotation: 『剣道事典 技術と文化の歴史』370頁では昭和5年9月22日。
+      informationType: infotype:secondary
+      supports: false
+      locator: '370'
+      locatorLabel: page
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    One of the five shuchō (chief commissioners) who formulated the Dai-Nippon Teikoku Kenjutsu Kata (1911-1912). Born into a hereditary line of Mito-domain fu-karō. After his release from house confinement in 1868, he studied Suifu-ryū kenjutsu at the domain school Kōdōkan under Toyoshima Genpachi, receiving menkyō kaiden. In 1882 he entered the Mito Tobukan: Hokushin Ittō-ryū under Kozawa Torakichi, Shin Tamiya-ryū battojutsu under Kozawa Ichirō - menkyō kaiden in both - and from 1885 also instruction from Shimoe Hidetaro, 'the one who most fully inherited Shimoe's technique'. Brought to the Keishichō by Shimoe in 1888 (1888-1899); from 1899 the Kanagawa prefectural police, where he worked to establish the Butokukai's Kanagawa branch (Seirenshō 1899). Professor at the Butokukai headquarters in Kyoto from 1907, 'Waza Monna, Ki Takaharu' alongside Naitō Takaharu; hanshi in 1913 (special case, at 59). Dismissed from the headquarters in 1919, then taught in Nagoya until his death.
+  ja: >-
+    大日本帝国剣道形制定の五主査の一人。代々水戸藩付家老の出身。弘道館で豊島源八に水府流を学ぶ（免許皆伝）。1882年、 東武館に入門し、小澤寅吉に北辰一刀流、小澤一郎に新田宮流を学ぶ（いずれも免許皆伝）。1885年より下江秀太郎の 教えを受ける。「下江の技を最も受け継いだ」と評された。1888年から警視庁、1899年より神奈川県警（大日本武徳会 神奈川支部設立に尽力、精錬証）。1907年より大日本武徳会本部教授、「技の門奈、気の内藤」。1911年、剣道形制定 委員会の五主査の一人。1913年、範士（59歳、特例）。1919年、本部を解任され名古屋に移る。
+notes: >-
+  Death: JA wiki gives Shōwa 4 (1929) 9/22; Nakamura's Kendō Jiten (cited by the JA wiki) gives Shōwa 5 (1930) 9/22; kenshi247 also gives 1930 - recorded as an EDTF set. Place of death is likewise contested (JA wiki context: Kyoto; kenshi247: seclusion in Nagoya) - not modeled. Entry to Tobukan: kenshi247 says 'c. 1881'; the JA wiki gives Meiji 15 (1882) - 1882 used. The JA wiki's 28 heads taken at the Battle of Pyongyang (1894) carries the source's own caveat ('under certain circumstances') and is outside this database's scope (teaching/rank events only). The 1919 dismissal details (the relationship with Aiko; Nishikubo Hiromichi's discipline push) are treated with caution by the JA wiki itself; only the dismissal (1919) is modeled. Domoto Akihiko's Meiji Gekken-ka (2001) is cited by the JA wiki with page numbers (pp. 204-205 on the 1919 dismissal, p. 261 on the 1894 Pyongyang incident); not directly consulted, so not carried as a Source record.
+hasTeacherAssertion:
+  - id: 01M3YH7N5G7W6HEV55K3QCMB5T
+    teacher: 01M2Z6TY1PS69T2EW86KZXZZFR
+    assertedStyle: 01M2Z6TY1PAVSCX84EDH540ZNN
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: JA wiki (Monna Tadashi) records that after his 1868 release he studied Suifu-ryū under Toyoshima Genpachi at the Kōdōkan, receiving menkyō kaiden; single secondary source, but specific (school, teacher, license).
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1868
+          endYear: 1872
+        hasEvidence:
+          - basedOnSource: 01M2Z6TY1P25CQ9YJJM432S4DN
+            quotation: 明治元年（1868年）、維新の恩赦で解放される。水戸藩校・弘道館で豊島源八に水府流剣術を学び、免許皆伝を受ける。明治5年（1872年）に弘道館が閉鎖されると、帰農したという。
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GEC0S45FKP8GK6124
+    teacher: 01M2Z12AZA53BW9KZHC2GD7PH1
+    assertedStyle: 01M2Z6TY1P5NRR5B3YNNDQWJ1M
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: JA wiki (Monna Tadashi) and kenshi247 agree that Monna entered the Tobukan in Meiji 15 (1882) and studied Hokushin Ittō-ryū under Kozawa Torakichi; the JA wiki places his move to the Keishichō in 1888.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1882
+          endYear: 1888
+        interactionPlace: 01M2Z6TY1P8PHZ6627T6GXFP6V
+        hasEvidence:
+          - basedOnSource: 01M2Z6TY1P25CQ9YJJM432S4DN
+            quotation: 明治15年（1882年）、元水戸藩矢倉奉行で弘道館剣術指南役であった小澤寅吉の道場東武館に入門。寅吉に北辰一刀流剣術を、寅吉の長男一郎に新田宮流抜刀術を学び、いずれも免許皆伝を受ける。
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M2Z6TY1P25CQ9YJJM432S4DN
+            quotation: 明治21年（1888年）、警視庁撃剣世話掛となっていた下江の招きで警視庁に出仕し、富岡門前署撃剣世話掛となる。
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M3016DNJ6TBJ9KY1XE8YQRZ0
+            quotation: There he studied Hokushin Itto-ryu and Shin-Tamiya ryu battojutsu as well as shinai kendo under Ozawa Torakichi.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G6Z0XHWHKTKGKMME4
+    teacher: 01M2Z6TY1PS4VRP846056XRJ9C
+    assertedStyle: 01M2Z6TY1PG95TPPYKB2BX69AJ
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: JA wiki (Monna Tadashi, citing Domoto Akihiko's Meiji Gekken-ka) attributes the Shin Tamiya-ryū battojutsu at Tobukan specifically to Kozawa Ichirō, Torakichi's eldest son; kenshi247 attributes both Tobukan arts to Torakichi - the more specific claim is modeled and the conflict recorded.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1882
+          endYear: 1888
+        interactionPlace: 01M2Z6TY1P8PHZ6627T6GXFP6V
+        hasEvidence:
+          - basedOnSource: 01M2Z6TY1P25CQ9YJJM432S4DN
+            quotation: 寅吉に北辰一刀流剣術を、寅吉の長男一郎に新田宮流抜刀術を学び、いずれも免許皆伝を受ける。
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G2SPR9Y5D95NW297Z
+    teacher: 01M2Z6TY1PD3RHPKEB6543X6D1
+    assertedStyle: 01M2Z6TY1P5NRR5B3YNNDQWJ1M
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: JA wiki (Monna Tadashi) records that from 1885 Shimoe taught at the Tobukan and Monna received his instruction, and that the two continued together at the Keishichō from 1888 (Monna 'the one who most fully inherited Shimoe's technique'); kenshi247 confirms the Tobukan instruction.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1885
+          endYear: 1888
+        interactionPlace: 01M2Z6TY1P8PHZ6627T6GXFP6V
+        hasEvidence:
+          - basedOnSource: 01M2Z6TY1P25CQ9YJJM432S4DN
+            quotation: 明治18年（1885年）より、元玄武館塾頭で茨城県警察本署撃剣師範の下江秀太郎が東武館で剣術を指南し、門奈は下江の教えを受けた。
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M3016DNJ6TBJ9KY1XE8YQRZ0
+            quotation: >-
+              At Tobukan he also received instruction under Shimoe Hidetaro (a student of Chiba Shusaku)
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+      - interactionPeriod:
+          startYear: 1888
+          endYear: 1892
+        interactionPlace: 01KJJAWN29MA64W22606R3WD98
+        hasEvidence:
+          - basedOnSource: 01M2Z6TY1P25CQ9YJJM432S4DN
+            quotation: その後、下江、内藤とともに下谷署に異動する。門奈は「下江の技を最も受け継いだ」と評されるようになる。
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GFEZ4R7PAPJK1QNR2
+    rankStyle: 01M2Z6TY1PAVSCX84EDH540ZNN
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+    rankGrade: rankgrade:menkyo_kaiden
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: 'JA wiki (Monna Tadashi): menkyō kaiden in Suifu-ryū from Toyoshima Genpachi at the Kōdōkan, by 1872; single source, no exact date.'
+    hasEvidence:
+      - basedOnSource: 01M2Z6TY1P25CQ9YJJM432S4DN
+        quotation: 水戸藩校・弘道館で豊島源八に水府流剣術を学び、免許皆伝を受ける。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GYZVHGY1JQ8RXA6MN
+    rankStyle: 01M2Z6TY1P5NRR5B3YNNDQWJ1M
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+    rankGrade: rankgrade:menkyo_kaiden
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: 'JA wiki (Monna Tadashi): menkyō kaiden in Hokushin Ittō-ryū from Kozawa Torakichi at the Tobukan, by 1888.'
+    hasEvidence:
+      - basedOnSource: 01M2Z6TY1P25CQ9YJJM432S4DN
+        quotation: 寅吉に北辰一刀流剣術を、寅吉の長男一郎に新田宮流抜刀術を学び、いずれも免許皆伝を受ける。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GDJDPA0KV099BBZWA
+    rankStyle: 01M2Z6TY1PG95TPPYKB2BX69AJ
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+    rankGrade: rankgrade:menkyo_kaiden
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: 'JA wiki (Monna Tadashi): menkyō kaiden in Shin Tamiya-ryū from Kozawa Ichirō at the Tobukan, by 1888; single source.'
+    hasEvidence:
+      - basedOnSource: 01M2Z6TY1P25CQ9YJJM432S4DN
+        quotation: 寅吉に北辰一刀流剣術を、寅吉の長男一郎に新田宮流抜刀術を学び、いずれも免許皆伝を受ける。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M3YH7N5GV04CQ1GVXHNJP6BA
+    honorValue: Hanshi
+    honorType: honortype:title
+    honorGrade: honorgrade:shogo_hanshi
+    conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+    dateConferred: '1913'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: kenshi247 and JA wiki (Monna Tadashi) agree on 1913; the JA wiki adds that it was a special case (the rule was 60 and over; Monna was 59).
+    hasEvidence:
+      - basedOnSource: 01M3016DNJ6TBJ9KY1XE8YQRZ0
+        quotation: In 1913, at the same time as Naito Takaharu and Takano Sasaburo, he was awarded hanshi.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M6EF6KKA6C1PENQY8MCK6TN1
+        quotation: 'Monna Tadashi [...] Qualification: Taisho 2nd Year'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M2Z6TY1P25CQ9YJJM432S4DN
+        quotation: 大正2年（1913年）、大日本武徳会から範士号を授与された。範士は60歳以上との決まりがあったが、門奈正（59歳）、内藤高治（52歳）、高野佐三郎（52歳）は特例での授与となった。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GJBFS51K969P38JAJ
+    honorValue: Seirenshō
+    honorType: honortype:certificate
+    conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+    dateConferred: '1899'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: kenshi247 and JA wiki (Monna Tadashi) agree that the Butokukai awarded the Seirenshō in 1899.
+    hasEvidence:
+      - basedOnSource: 01M3016DNJ6TBJ9KY1XE8YQRZ0
+        quotation: In 1899 (while Naito joined the Dai-Nippon-Butokukai) Tadashi moved to the Kanagawa police department and worked hard to establish the Dai-Nippon Butokukai Kanagawa branch. He was awarded Seirensho the same year.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M2Z6TY1P25CQ9YJJM432S4DN
+        quotation: 同じころ門奈も神奈川県警察部に転じる。横浜に道場・常陽館を開き、大日本武徳会神奈川支部の設立に尽力。同年、大日本武徳会から精錬証を授与される。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+    quotation: The five kenjutsu masters from various ryūha tasked with this responsibility were Negishi Shingorō, Tsuji Shinpei, Naitō Takaharu, Monna Tadashi, and Takano Sasaburō.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M2Z6TY1P25CQ9YJJM432S4DN
+    quotation: 明治44年（1911年）、剣道形制定のため全国から25名の剣道家が選抜され、委員会が発足した。門奈はそのうち5名の主査の一人に抜擢された。約1年間の討論を経て、大正元年（1912年）に大日本帝国剣道形を発表した。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/6/6d/Negishi_Shingoro.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Negishi_Shingoro.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary
+sameAs:
+  - wd:Q11654998
+tags:
+  - kendo
+  - koryu
+  - kata
+  - butokukai
+  - mito
+  - busen
+  - hokushin-ritto-ryu
+  - suifu-ryu
+  - tobukan

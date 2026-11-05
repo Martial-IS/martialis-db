@@ -1,0 +1,41 @@
+type: Person
+id: 01M5JSGG50313NV6BC29CD85TJ
+name:
+  en: Azzone di Castelbarco
+description:
+  en: >-
+    Condottiero, the last of the men Fiore dei Liberi names as his students; he probably fought a duel
+    with Giovanni degli Ordelaffi before 1399.
+hasTeacherAssertion:
+  - id: 01M5JSGG501E15C6PYW0MGSEM9
+    teacher: 01M5JSGG50BY7NFE13HKVSR7DW
+    assertedStyle: 01M5JSGG50KYXNMCB38XCKHKMF
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Their teacher's own account.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JSGG5081ZEGH8JTM4FRCAV
+            quotation: >-
+              He further offered an extensive list of the famous condottieri that he trained, including
+              [...] and Azzone di Castelbarco
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JSGG505YWQZSX677VBVJXR
+            quotation: >-
+              Fiore was likely involved in at least one other duel that year, between his final named
+              student Azzone di Castelbarco and Giovanni degli Ordelaffi
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JSGG5081ZEGH8JTM4FRCAV
+    informationType: infotype:secondary
+    supports: true
+tags:
+  - fencing
+  - italian-school

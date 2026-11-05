@@ -1,0 +1,210 @@
+type: Person
+id: 01M6ERSPBWRQG1WQJQY5W36JKG
+name:
+  en: Elvis Presley
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+birthEvent:
+  birthDate: '1935-01-08'
+  birthPlace:
+    label: Tupelo, Mississippi
+    countryCode: eucountry:USA
+    wikidata: wd:Q667727
+  hasEvidence:
+  - basedOnSource: 01M6ERRV5FSCXDVR3XRPYQRCH1
+    quotation: >-
+      Elvis Aaron Presley was born on January 8, 1935, in Tupelo, Mississippi
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1977-08-16'
+  deathPlace:
+    label: Graceland, Memphis
+    countryCode: eucountry:USA
+    wikidata: wd:Q545360
+  hasEvidence:
+  - basedOnSource: 01M6ERRV5FSCXDVR3XRPYQRCH1
+    quotation: >-
+      Elvis Aaron Presley (January 8, 1935 – August 16, 1977)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6ERRV5FSCXDVR3XRPYQRCH1
+    quotation: >-
+      Presley died in August 1977 at his Graceland estate
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Elvis_Presley.jpg/960px-Elvis_Presley.jpg
+  rights: mediarights:cc-by-2.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Elvis_Presley.jpg
+    cite: "Rossano aka Bud Care, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    American singer and actor.
+hasTeacherAssertion:
+- id: 01M6ETAT0T6KRSB7V17NH6C2EC
+  teacher: 01KJJAWN29MA64W22606R3WD7P
+  assertedStyle: 01KYFZEGYN107JYC5K1539R8JM
+  role: teachrole:private
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      JSTOR Daily and a fan-site history agree; no account from Murakami
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1958
+      endYear: 1960
+    hasEvidence:
+    - basedOnSource: 01M6ETAT0TZDF2XHB3Y2KAYEF4
+      quotation: >-
+        He studied with Jürgen Seydel, known as the father of German karate, and with Murakami Tetsuji, a Japanese instructor living in Paris.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ETAT0TYKE1KNAXE49A10W8
+      quotation: >-
+        During his vacation in Paris he would take private lessons with Tetsugio Murakami, one of Japan's top shotokan stylists
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+  notes: >-
+    Lessons during leave in Paris while stationed in Germany (1958–60). Backkicks says his Paris teachers
+    were probably Vietnamese.
+- id: 01M6ERSPBWTAT69D9857C4TQC0
+  teacher: 01M5H43V0TEPYDCNNZKASWJ4SH
+  assertedStyle: 01M5H43V0TP79D1TK9BV4TWWZD
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Several secondary sources and Graceland's archivist; no account from Parker or Elvis
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1961
+      endYear: 1977
+    hasEvidence:
+    - basedOnSource: 01M6ERRV5GJ1DAEM8HG46W1GET
+      quotation: >-
+        Elvis continued to study the sport under Parker.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ERRV5GK8X334ZG1WJYT8VH
+      quotation: >-
+        The two became friends, and Parker taught Elvis on and off until Presley's death in 1977.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ERRV5GJAT7Z1WY940Y0P0Y
+      quotation: >-
+        In 1961, on the set of Blue Hawaii, the two met again. Parker demonstrated some revolutionary concepts to Presley, which marked Presley’s first karate “lesson” with the man who would eventually advise and influence him on all matters pertinent to the martial arts and Presley’s part in them.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ERRV5G2R0ZGFA52ZAJG38A
+      quotation: >-
+        His most notable student was Elvis Presley.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+  notes: >-
+    Parker's own book Inside Elvis (1978) would give the teacher's account; not yet consulted.
+- id: 01M6ERSPBWSXX4KDVSWKZBWDZT
+  teacher: 01M6ERSPBWCH6E8016RP6T2PBB
+  assertedStyle: 01M6ERSPBWNHN6P1V1N4AASK6H
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Rhee's own account; Graceland and Rhee's PaSaRyu school agree
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1970
+      endYear: 1974
+    hasEvidence:
+    - basedOnSource: 01M6ERRV5G3PYWA5DZC121H6PY
+      quotation: >-
+        Elvis trained with Rhee from 1970-1974 in Memphis.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ERRV5G3SMA1GA714KKT9R6
+      quotation: >-
+        In 1970, Ed Parker recommended Grandmaster Rhee to Elvis Presley.  Elvis trained under Grandmaster Rhee until 1974, earning his 7th degree black belt from Grandmaster Rhee.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ETAT0TYKE1KNAXE49A10W8
+      quotation: >-
+        'Elvis was very humble. In many ways, Elvis taught me more than I taught him'.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M6ERSPBW41343DHPCN69G39J
+  rankStyle: 01M6ERSPBWNHN6P1V1N4AASK6H
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 8
+  grantedBy: 01M6ERSPBWCH6E8016RP6T2PBB
+  dateConferred: '1974-09-16'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Two Graceland sources; day from Rhee's own inscription
+  hasEvidence:
+  - basedOnSource: 01M6ERRV5G3PYWA5DZC121H6PY
+    quotation: >-
+      Elvis was awarded the 8th degree black belt by Rhee in 1974.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6ERRV5G0ZSSQJEPFQQW0N3F
+    quotation: >-
+      who bestowed upon him a seventh-degree black belt in March of 1973 and his eighth in September of 1974.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6ETAT0TYKE1KNAXE49A10W8
+    quotation: >-
+      'Kang Rhee, Karate Instructor of Elvis Presley, 8th Degree Black Belt PaSaRyu Karate, September 16th 1974, Memphis Tennessee, U.S.A'
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6ETAT0TYKE1KNAXE49A10W8
+    quotation: >-
+      The presentation took place on September 16, 1974 at Master Rhee's studio in Memphis.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  notes: >-
+    The PaSaRyu school's page names only the 7th degree. Backkicks calls the 8th degree honorary. Photo
+    captions on Elvis Australia date it September 9, 1974.
+notes: >-
+  First karate teacher Jürgen Seydel (Shotokan, Germany, 1958–60). First-degree black belt in 1960 under
+  Hank Slemansky (Slomanski), Chito-ryu (Graceland 2021); Slemansky's own teacher is not known.
+hasEvidence:
+- basedOnSource: 01M6ERRV5FSCXDVR3XRPYQRCH1
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M6ERRV5G0ZSSQJEPFQQW0N3F
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q303
+tags:
+- karate
+- kenpo
+- music

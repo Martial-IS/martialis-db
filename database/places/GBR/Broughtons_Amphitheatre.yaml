@@ -1,0 +1,90 @@
+type: Place
+id: 01M5JPYGXJS67YBN61FRXQJFY6
+name:
+  en: Broughton's Amphitheatre
+placeType: placeclass:academy
+hasSite:
+  - location:
+      label: London
+      countryCode: eucountry:GBR
+      wikidata: wd:Q84
+    address: Oxford Road, London
+    hasEvidence:
+      - basedOnSource: 01M5JPY6FNB2HP52J6G7W21P3V
+        quotation: >-
+          Broughton opened an amphitheatre in Oxford Road and began staging fights on 13 March 1743,
+          when, for an entrance fee of a shilling or less, patrons were able to watch a display of boxing
+          between several competitors.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M5JPYGXJY8J4HBMF1ZD4PY2H
+    instructor: 01M5JPY6FN8JJDRXE32238VE7H
+    instructorCapacity: instrcap:head_instructor
+    instructorStyle: 01KJJAWN29MA64W22606R3WD9N
+    instructorPeriod:
+      startYear: 1743
+      endYear: 1750
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          In 1750, the unbeaten Broughton, who had been continually engaged in heavy sparring sessions in
+          his Amphitheatre, fought Jack Slack, the “Norfolk Butcher” (ca. 1721–ca. 1768).
+        locator: '229'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JPY6FNB2HP52J6G7W21P3V
+        quotation: >-
+          Broughton opened an amphitheatre in Oxford Road and began staging fights on 13 March 1743,
+          when, for an entrance fee of a shilling or less, patrons were able to watch a display of boxing
+          between several competitors.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1743-03-13'
+  founder:
+    - 01M5JPY6FN8JJDRXE32238VE7H
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNB2HP52J6G7W21P3V
+      quotation: >-
+        Broughton opened an amphitheatre in Oxford Road and began staging fights on 13 March 1743, when,
+        for an entrance fee of a shilling or less, patrons were able to watch a display of boxing between
+        several competitors.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+dissolvedEvent:
+  endDate: '1753/1754'
+  dissolutionManner: dissmanner:defunct
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNB2HP52J6G7W21P3V
+      quotation: >-
+        Broughton permanently retired from boxing following his defeat, though he continued to operate
+        his amphitheatre until 1753 or 1754, after which he ran an antiques business.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Jack Broughton's amphitheatre in Oxford Road, London, opened in 1743 for prizefights and sparring.
+    Broughton sparred and coached there until his defeat by Jack Slack in 1750 and ran it until
+    1753–1754; the Disorderly Houses Act of 1752 brought boxing academies under regulation.
+notes: >-
+  Broughton's separate Haymarket school with "mufflers" (1747, en Wikipedia) is not recorded as a place.
+hasEvidence:
+  - basedOnSource: 01M5JPY6FNB2HP52J6G7W21P3V
+    informationType: infotype:secondary
+    supports: true
+tags:
+  - boxing
+  - prizefighting
+  - united-kingdom

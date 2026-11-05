@@ -1,0 +1,90 @@
+type: Person
+id: 01M5JGQAC7CYFWR75P18PT4FD4
+name:
+  en: Pierre Vigny
+  fr: Pierre Vigny
+nationality:
+  - countryCode: eucountry:FRA
+    wikidata: wd:Q142
+birthEvent:
+  birthDate: '1866-03-25'
+  birthPlace:
+    label: Taninges
+    countryCode: eucountry:FRA
+  hasEvidence:
+    - basedOnSource: 01M5JGQAC7Y1X7WATDMAEV48N2
+      quotation: >-
+        Pierre Vigny was born in Taninges, Haute-Savoie on 25 March 1866.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5JGQAC7GAJ1MYQRA61R6JFW
+      quotation: >-
+        né à Taninges en 1866 et mort en 1943 à Nyon
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        a book that detailed the methods taught by Barton-Wright’s Swiss stick fighting instructor,
+        Pierre Vigny (1869–?).
+      locator: '454'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: false
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1943'
+  deathPlace:
+    label: Nyon
+    countryCode: eucountry:CHE
+  hasEvidence:
+    - basedOnSource: 01M5JGQAC7GAJ1MYQRA61R6JFW
+      quotation: >-
+        né à Taninges en 1866 et mort en 1943 à Nyon
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    French master-at-arms in savate and canne who founded his own walking-stick and umbrella
+    self-defence method around 1898 in Geneva, where he had a school of arms. He was the stick-fighting
+    instructor of Barton-Wright's Bartitsu Club in London, opened his own academy at 18 Berner Street in
+    1903, and returned to Geneva in 1912. His wife Marguerite, his assistant instructor, developed an
+    umbrella self-defence method.
+notes: >-
+  No source names his own teachers; Green and Svinth (pp. 219–220) say he taught Charlemont's style of
+  savate in Geneva. Green and Svinth and en Wikipedia's Bartitsu article call him Swiss (Swiss Army);
+  en and fr Wikipedia give French birth and French artillery service from 1886. en Wikipedia gives 22
+  November 1943 for his death and Wikidata 22 September, so only the year is recorded. Green and
+  Svinth give 1869 for his birth.
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      using both cannes and umbrellas. Vigny taught this method in England between 1900 and 1911, before
+      returning to Geneva in 1912.
+    locator: '220'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5JGQAC7Y1X7WATDMAEV48N2
+    quotation: >-
+      In 1903, Vigny opened his own self-defence academy in London, based at #18 Berner Street.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q118751
+tags:
+  - savate
+  - canne-de-combat
+  - bartitsu
+  - stick-fighting
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/9/9f/Pierre_Vigny_%281866%E2%80%931943%29_in_boxing_stance.png
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Pierre_Vigny_(1866%E2%80%931943)_in_boxing_stance.png
+    cite: "Hana Studios, Wikimedia Commons"
+    informationType: infotype:secondary

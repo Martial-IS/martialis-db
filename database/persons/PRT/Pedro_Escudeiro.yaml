@@ -1,0 +1,111 @@
+type: Person
+id: 01KZ42N27YCESZF00RVZKQWPP2
+name:
+  pt: Pedro Escudeiro
+nationality:
+- countryCode: eucountry:PRT
+  wikidata: wd:Q45
+birthEvent:
+  birthDate: 1971~
+  birthPlace:
+    label: Portugal
+    countryCode: eucountry:PRT
+    wikidata: wd:Q45
+image:
+  contentUrl: https://archive.org/download/pedro_escudeiro/pedro_escudeiro.jpg
+  imageAttribution:
+    uri: http://www.cao.pt/surya/pe_11_1.htm
+    cite: "Surya"
+    informationType: infotype:primary
+description:
+  en: Portuguese aikido practitioner (2nd dan, Iwama Ryu) and student of Tristão da Cunha at the Aiki-Shuren
+    Dojo de Portugal, who began aikido in January 1983. He is the author of the "Aikido em Portugal" interview
+    series and an important collector of the history of aikido and other martial arts in Portugal.
+  pt: Pedro Escudeiro é um praticante de Aikido e um estudioso das artes marciais. Com um percurso que
+    inclui instrução de Aikido (Iwama), desenvolveu também uma importante atividade de recolha da história
+    do Aikido (e outras artes marciais) em Portugal.
+hasTeacherAssertion:
+- id: 01M3YH7N5GCP9PQETH746R93F1
+  teacher: 01KZ1Y9KD1XVWDH5MWHBPWC25B
+  assertedStyle: 01KZ1Y9KD17BV1V0Y0PFC8S70G
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Escudeiro states he began aikido in January 1983 at the Aiki-Shuren Dojo de Portugal, the school
+      founded by Tristão da Cunha, and is explicitly named among Tristão da Cunha's students in the
+      Esgrima Lusitana technical programme acknowledgments
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KZ45S0STSVVFR5DYGJ23NQF6
+    interactionPeriod:
+      startYear: 1983
+    hasEvidence:
+    - basedOnSource: 01KZ42N27YT1A0KBWK09WJ3FSG
+      quotation: >-
+        Comecei a praticar Aikido em Janeiro de 1983. Tinha na altura 11 anos de idade. [...] A minha escola, Aiki-Shuren Dojo de Portugal
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZ42N27Y07DXKCEBWXA1KNWX
+      quotation: Ginásio Luddance [...] Treinos dirigidos por Pedro Escudeiro (2º Dan Taijutsu) e Luís Pires
+        (1º Dan Taijutsu)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZ42XZQXD8EQM7R5Y2FPVFEE
+      quotation: ao mestre Tristão da Cunha (Aikido Tradicional) e aos seus alunos, Pedro Escudeiro, José
+        Carvalho, Jorge Feio, Vasco Moleiro e Nuno e Tozé Cotovios
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GR8FD0AFVP76E5CG7
+  rankStyle: 01KZ1Y9KD17BV1V0Y0PFC8S70G
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 2
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: 2nd dan taijutsu listed in the Iwama Ryu dojos list of 2003, no corroborating
+      source found
+  hasEvidence:
+  - basedOnSource: 01KZ42N27Y07DXKCEBWXA1KNWX
+    quotation: Treinos dirigidos por Pedro Escudeiro (2º Dan Taijutsu) e Luís Pires (1º Dan Taijutsu)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZ42N27YT1A0KBWK09WJ3FSG
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ42N27Y07DXKCEBWXA1KNWX
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ42XZQXD8EQM7R5Y2FPVFEE
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- aikido
+- iwama-ryu
+- portugal
+notes: '- Pedro Escudeiro is a Portuguese aikido practitioner who began aikido in January 1983, at age
+  11, at the Aiki-Shuren Dojo de Portugal (the school of Tristão da Cunha).
+
+  - In 1998 he took on the editorship of the school periodical "Yamabushi", which led him to develop the
+  "Aikido em Portugal" project: a series of interviews documenting the history of aikido in Portugal,
+  published in the Surya magazine of the Centro de Artes Orientais.
+
+  - His interviews include those with Carlos Portas, Tristão da Cunha, José Araújo, Leopoldo Ferreira
+  and others; the interviewees had final approval of the published texts.
+
+  - Listed as a 2nd dan taijutsu instructor at the Ginásio Luddance in Carcavelos in the 2003 Iwama Ryu
+  dojos list.
+
+  - Birth year (~1971) inferred from his statement of being 11 years old in January 1983.
+
+  '

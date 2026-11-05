@@ -1,0 +1,270 @@
+type: Person
+id: 01M2WGWA1YG2SSC4PASW0TXXQC
+name:
+  en: Takano Sasaburō
+  ja: 高野 佐三郎
+aka:
+  en:
+  - Takano Sasaburo
+  - Takano Sasaburou
+  ja:
+  - 靖斎
+  - 豊正
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1862-07-09'
+  dateOriginal: 文久2年6月13日
+  dateCalendar: datecal:japanese_lunisolar
+  birthPlace:
+    label: Chichibu, Saitama
+    countryCode: eucountry:JPN
+    wikidata: wd:Q128186
+deathEvent:
+  deathDate: '1950-12-30'
+  deathPlace:
+    label: Kamakura, Kanagawa
+    countryCode: eucountry:JPN
+    wikidata: wd:Q18133
+description:
+  en: One of the two leading authorities in early Shōwa kendo (alongside Nakayama Hakudo), known as "昭和の剣聖" (Shōwa's Sword
+    Saint). Trained in Nakanishi-ha Ittō-ryū from his grandfather Takano Sakichirō, then studied under Yamaoka Tesshu. Served
+    as a gekken instructor for the Tokyo Metropolitan Police from 1886, then transferred to the Saitama prefectural police as
+    martial-arts instructor in 1888, rising to keibu. Founded the Meishinkan
+    dojo in Urawa (1890) and later Shudogakuin (1918). Lecturer, then (from 1916) professor, at Tokyo Higher Normal School
+    (1908–1936), where he implemented the dan and kyu ranking system for kendo. Served on the Dai-Nippon Teikoku Kenjutsu
+    Kata Committee (1911–1912), producing the ten-form Dai-Nippon Teikoku Kenjutsu Kata ratified by the Butokukai on 16
+    October 1912. Awarded the title of hanshi by the Butokukai in 1913, and Junior Fourth Rank and the Order of the Sacred
+    Treasure, 4th class, in 1936. Author of the influential kendo textbook 剣道 (1915). Posthumously inducted into the All
+    Japan Kendo Federation's Kendo Hall of Fame (2003).
+notes: >-
+  Birth date: Japanese Wikipedia gives 文久2年6月13日 (lunisolar) = 1862-07-09 Gregorian. Wikidata
+  (Q1713377) records 1862-06-28; the 1955 Chichibu Shrine monument inscription gives 文久二年六月二日. Not
+  resolved. Kata at age 5 before the Oshi domain lord: ja.wikipedia and the monument give 56
+  (組太刀56本); kenshi247 gives 50; 56 is preferred. His son Takano Hiromasa (弘正, 1900-1987) inherited
+  Nakanishi-ha Ittō-ryū and was a kendo hanshi.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/a/a9/%E9%AB%98%E9%87%8E%E4%BD%90%E4%B8%89%E9%83%8E.png
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:%E9%AB%98%E9%87%8E%E4%BD%90%E4%B8%89%E9%83%8E.png
+    cite: "剣道家写真名鑑刊行会, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+- id: 01M3YH7N5G30R4HEDMFP1PS2N6
+  teacher: 01M3287E2AS86XZ08PV8EH76E2
+  assertedStyle: 01M3287E2ARJZVFEXS3FJFMHRQ
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Four independent sources agree that Takano's grandfather Sakichiro trained him in Nakanishi-ha
+      Itto-ryu from early childhood.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1865
+      endYear: 1879
+    notes: >-
+      End 1879 is his departure for Tokyo after the Okada Sadagoro match (kenshi247); the sources record
+      no further training under his grandfather, who died in 1884, by which time Sasaburo had returned
+      to run the family business.
+    hasEvidence:
+    - basedOnSource: 01M2WGNYAWYKVMGS8WNKJRKF8V
+      quotation: 幼少時から祖父で忍藩剣術指南役の高野佐吉郎に中西派一刀流剣術を学ぶ。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M2WGNYAWZ0GGG708F53XC4PD
+      quotation: Mitsumasa's enthusiasm never faltered, and he began to train Sasaburo's himself from the age of 3, often
+        coaxing the young child into kata practise by offering sweets.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M3287E2ATMVCEVXM1K1Y2860
+      quotation: "３歳になった時に、秩父地方では有名であった剣術家の祖父佐吉郎（苗正）より桐の木で造った木刀を頂きました。佐三郎は、祖父から小野派一刀流の剣術を教えて頂きました。"
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GQJNDSK3Y1GQGVMA8
+  teacher: 01M2WGWA1YB5K4N6YHVVE8TG9E
+  assertedStyle: 01KYHNJKQDTEJ1A5MQ5JYPHDTB
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: The kenshi247 biography and the Japanese Wikipedia article both state that Takano trained at Yamaoka Tesshu's Shumpukan; Bennett's Kendo Culture of the Sword independently corroborates that Tesshu taught Takano.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1879
+      endYear: 1879
+    hasEvidence:
+    - basedOnSource: 01M2WGNYAWZ0GGG708F53XC4PD
+      quotation: After being in the capital for a short time, Sasaburo was introduced to and ended up training in Yamaoka Tesshu's dojo, Shumpukan.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M2WGNYAWYKVMGS8WNKJRKF8V
+      quotation: >-
+        上京して山岡鉄舟に師事し
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+      quotation: Tesshū also taught Nishikubo Hiromichi (1863-1930) and Takano Sasaburō (1862-1950), who were of particular importance to the nationalization of kendo.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6EF6KKARXXXGKKWBNZK5M60
+      quotation: Naito under Sakakibara Kenkichi (Jikishinkage-ryu) and Takano under Yamaoka Tesshu (Muto-ryu)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasHonorAssertion:
+- id: 01M3YH7N5G27TYZDHRV4B3D1GJ
+  honorValue: Hanshi
+  honorType: honortype:title
+  honorGrade: honorgrade:shogo_hanshi
+  dateConferred: '1913'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Dated to 1913 by the kenshi247 Monna Tadashi article, which names Takano being awarded hanshi alongside Naito Takaharu.
+  hasEvidence:
+  - basedOnSource: 01M3016DNJ6TBJ9KY1XE8YQRZ0
+    quotation: In 1913, at the same time as Naito Takaharu and Takano Sasaburo, he was awarded hanshi.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6EF6KKAN79Q0KQFRGZ1FY5A
+    quotation: 1913 – Awarded hanshi.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6EF6KKA6C1PENQY8MCK6TN1
+    quotation: 'Takano Sasaburō [...] Qualification: Taisho 2nd Year'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M2Z6TY1P25CQ9YJJM432S4DN
+    quotation: 範士は60歳以上との決まりがあったが、門奈正（59歳）、内藤高治（52歳）、高野佐三郎（52歳）は特例での授与となった。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5GMD7Q3FQGX164Y6M5
+  honorValue: Order of the Sacred Treasure, 4th class
+  honorType: honortype:decoration
+  dateConferred: '1936'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Stated by ja.wikipedia's infobox and 栄典 section, and independently corroborated with a specific
+      year (1936) by the 1955 Chichibu Shrine monument inscription transcribed on the 高野佐三郎顕彰会 site.
+  hasEvidence:
+  - basedOnSource: 01M2WGNYAWYKVMGS8WNKJRKF8V
+    quotation: 勲四等瑞宝章
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M3287E2ATMVCEVXM1K1Y2860
+    quotation: 昭和十一年勅任教授に進み正四位に叙し勲四等瑞寶章を授けられた。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5G76Y98XVWZDG2RRNX
+  honorValue: 正四位
+  honorType: honortype:other
+  dateConferred: '1936'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      ja.wikipedia's infobox and 栄典 section list 正四位 alongside the Sacred Treasure decoration; the 1955
+      Chichibu monument inscription independently corroborates the same year (1936).
+  hasEvidence:
+  - basedOnSource: 01M2WGNYAWYKVMGS8WNKJRKF8V
+    quotation: 正四位
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M3287E2ATMVCEVXM1K1Y2860
+    quotation: 昭和十一年勅任教授に進み正四位に叙し勲四等瑞寶章を授けられた。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5G2S8T4KNRFFZNPEGJ
+  honorValue: Seirenshō
+  honorType: honortype:certificate
+  conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+  dateConferred: '1896'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Both ja.wikipedia's main article (with the specific 15-of-460 figure) and the kenshi247 biography
+      independently state Takano received the Seirensho at the 1896 Butokusai.
+  hasEvidence:
+  - basedOnSource: 01M2WGNYAWYKVMGS8WNKJRKF8V
+    quotation: 当時の剣道界の最高表彰である「精錬証」を授与された。この年、精錬証を授与された人数は出場者460名のうちわずか15名であった。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M2WGNYAWZ0GGG708F53XC4PD
+    quotation: awarded Seirensho, a mark of his ability (only 15 people had the honour)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5GY9RTQNYEXVFACDWQ
+  honorValue: Kendo Dendō
+  honorType: honortype:title
+  conferredBy: 01M0R2X2ACBZDHS6JXQ7CTAMC8
+  dateConferred: '2003'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Stated in the 栄典 section of Takano's ja.wikipedia article and in the ja.wikipedia Kendo Hall of Fame article, which lists him among the 15 honorees of the 2003 first selection; Wikipedia only
+  hasEvidence:
+  - basedOnSource: 01M2WGNYAWYKVMGS8WNKJRKF8V
+    quotation: 全日本剣道連盟剣道殿堂顕彰（2003年）
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M3287E2AN480GTECG1036HHA
+    quotation: 選考委員会（全日本剣道連盟会長、範士4名、学識経験者4名）の決議を経て、2003年（第一次）に15名、2005年（第二次）に9名が選出され
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M2WGNYAWZ0GGG708F53XC4PD
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M2WGNYAWYKVMGS8WNKJRKF8V
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+  quotation: The five kenjutsu masters from various ryuha tasked with this responsibility were Negishi Shingoro, Tsuji Shinpei, Naito Takaharu, Monna Tadashi, and Takano Sasaburo.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M3287E2ATMVCEVXM1K1Y2860
+  quotation: 剣道範士高野佐三郎豊正先生は文久二年六月二日埼玉縣秩父郡大宮町高野芳三郎氏の長男として呱々の聲を挙げられた
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+  quotation: Kendō (1915), by Takano Sasaburō of the Tokyo Higher Normal School
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q1713377
+- isni:0000000082570752
+- viaf:68036886
+tags:
+- kendoka
+- itto-ryu
+- showa-no-kensei
+- police-kenjutsu

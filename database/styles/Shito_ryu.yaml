@@ -1,0 +1,49 @@
+type: Style
+id: 01KYFZEGYN7A9G4FSTXBPDBG8P
+name:
+  en: Shito-ryu
+  ja: 糸東流
+aka:
+  ja-Latn:
+    - Shitō-ryū
+styleType: styleclass:modern
+description:
+  en: Shito-ryu is a school of karate founded by Kenwa Mabuni in 1934 (first taught in Osaka as Hanko-ryū from 1929), combining elements of Shuri-te and Naha-te traditions. It is known for its extensive kata curriculum and emphasis on both hard and soft techniques.
+foundedEvent:
+  startDate: '1934'
+  hasEvidence:
+    - uri: https://en.wikipedia.org/wiki/Shit%C5%8D-ry%C5%AB
+      quotation: >-
+        Shitō-ryū (糸東流) is a form of karate that was founded in 1934 by Kenwa Mabuni
+      cite: Shito-ryu - Wikipedia
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5GCVKVA70WZFT5ZXM6
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9S
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Shito-ryu is a specific school of karate founded by Kenwa Mabuni
+    hasEvidence:
+      - uri: https://en.wikipedia.org/wiki/Shit%C5%8D-ry%C5%AB
+        cite: Shito-ryu - Wikipedia
+        quotation: Shitō-ryū is a form of karate that was founded in 1934 by Kenwa Mabuni
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - uri: https://en.wikipedia.org/wiki/Shit%C5%8D-ry%C5%AB
+    cite: Shito-ryu - Wikipedia
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q2279674
+tags:
+  - japanese-martial-arts
+  - karate
+  - shito-ryu
+  - gendai

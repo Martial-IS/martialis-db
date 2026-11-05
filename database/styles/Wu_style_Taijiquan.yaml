@@ -1,0 +1,51 @@
+type: Style
+id: 01M5HN1CX5JXNXYDMJN4V36KW6
+name:
+  en: Wu-style taijiquan
+  zh-Latn: Wushi taijiquan
+styleType: styleclass:traditional
+foundedEvent:
+  founder:
+    - 01M5HN1CX5NXDCVQ5PG7XACRGK
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Wu Quanyou was an ethnic Manchu, an Imperial Guard officer, and originator of Wu-style taijiquan.
+      locator: '100'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Family style of taijiquan originated by Wu Quanyou and taught by his son Wu Jianquan and grandsons
+    Wu Gongyi and Wu Gongzao; it evolved from Yang style and is known for smaller movements and a
+    leaning posture.
+hasStyleRelationAssertion:
+  - id: 01M5HN1CX5B82Z8D9B6S6MJ3K3
+    relatedStyle: 01KYJ80JXEH8J0AWW86F1ATQEZ
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          The Wu family style of taijiquan is known for its smaller movements (in comparison with Yang
+          style, from which it evolved) and leaning posture
+        locator: '100'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: '100'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - chinese-martial-arts
+  - taijiquan

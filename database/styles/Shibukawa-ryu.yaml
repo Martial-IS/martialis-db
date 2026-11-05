@@ -1,0 +1,42 @@
+type: Style
+id: 01M0BCX1Y1CTS4C6ZP1RJ6DN89
+name:
+  ja-Latn: Shibukawa-ryū
+  ja: 澁川流
+description:
+  en: 'A koryu school of jujutsu. Handa Yataro studied the style under Takenaka Isamu before founding
+    Daito-ryu jujutsu
+
+    in Osaka in 1878, per the Japanese Wikipedia account of Daito-ryu''s history.
+
+    '
+  ja: '柔術の古流流派。大東流柔術の歴史に関する日本語版ウィキペディアの記述によれば、半田弥太郎は竹中勇からこの流儀を学び、
+
+    後に1878年に大阪で大東流柔術を開いた。'
+styleType: styleclass:traditional
+hasStyleRelationAssertion:
+- id: 01M3YH7N5G3DKB9RV3FT809FZK
+  relatedStyle: 01KJJAWN29MA64W22606R3WD9G
+  styleRelationType: stylerel:variant_of
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The source lists Shibukawa-ryū among the jūjutsu schools Handa studied, alongside
+      Sekiguchi Shinshin-ryū and Tenjin Shin'yō-ryū, but does not call it a jūjutsu school in so many
+      words, hence probable.
+  hasEvidence:
+  - basedOnSource: 01M0AZQ3TJ9K5V2Z20K5370P1A
+    quotation: 関口新心流の他に、山名新九郎から天神真楊流、竹中勇から澁川流を学んだ。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M0AZQ3TJ9K5V2Z20K5370P1A
+  informationType: infotype:secondary
+  supports: true
+  quotation: 関口新心流の他に、山名新九郎から天神真楊流、竹中勇から澁川流を学んだ。
+  evidenceType: evidencetype:direct
+tags:
+- jujutsu
+- koryu
+- japan

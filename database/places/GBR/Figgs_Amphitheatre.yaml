@@ -1,0 +1,102 @@
+type: Place
+id: 01M5JPY6FNBK5K3PX490ASR0W3
+name:
+  en: Figg's Amphitheatre
+aka:
+  en:
+    - Figg's fighting school
+placeType: placeclass:academy
+hasSite:
+  - location:
+      label: London
+      countryCode: eucountry:GBR
+      wikidata: wd:Q84
+    address: Oxford Road (now Oxford Street), Marylebone, adjoining the City of Oxford tavern
+    hasEvidence:
+      - basedOnSource: 01M5JPY6FNB90T86PJZ87EVMAA
+        quotation: >-
+          In 1719, Figg opened an amphitheatre and fighting school in London adjoining the City of Oxford
+          tavern in Oxford Road, Marylebone, where he taught bare-knuckle boxing, fencing, quarterstaff,
+          and cudgel combat.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M5JPY6FN9W2WZ2HSPCX1M9KS
+    instructor: 01M5JPY6FNBQZ36WZ4QDD1ZST8
+    instructorCapacity: instrcap:head_instructor
+    instructorStyle: 01KJJAWN29MA64W22606R3WD9N
+    instructorPeriod:
+      startYear: 1719
+      endYear: 1731
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01M5JPY6FNB90T86PJZ87EVMAA
+        quotation: >-
+          In 1719, Figg opened an amphitheatre and fighting school in London adjoining the City of Oxford
+          tavern in Oxford Road, Marylebone, where he taught bare-knuckle boxing, fencing, quarterstaff,
+          and cudgel combat.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Capitalizing on this popularity, Figg opened a boxing academy in London in 1719.
+        locator: '228'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5JPY6FNJBKDHHSC9NKG86EW
+    instructor: 01M5JPY6FNEGHP82K70QDXRATZ
+    instructorCapacity: instrcap:head_instructor
+    instructorStyle: 01KJJAWN29MA64W22606R3WD9N
+    instructorPeriod:
+      startYear: 1731
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasEvidence:
+      - basedOnSource: 01M5JPY6FNB90T86PJZ87EVMAA
+        quotation: >-
+          In June 1731, Figg began teaching at new premises in Poland Street, and his student Thomas
+          Sibblis took over the Oxford Road amphitheatre.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1719'
+  founder:
+    - 01M5JPY6FNBQZ36WZ4QDD1ZST8
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNB90T86PJZ87EVMAA
+      quotation: >-
+        In 1719, Figg opened an amphitheatre and fighting school in London adjoining the City of Oxford
+        tavern in Oxford Road, Marylebone, where he taught bare-knuckle boxing, fencing, quarterstaff,
+        and cudgel combat.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    James Figg's amphitheatre and fighting school in Oxford Road, London, opened in 1719, where he taught
+    boxing, fencing, quarterstaff and cudgel and staged fights for crowds of up to a thousand. His
+    student Thomas Sibblis took it over in 1731 when Figg moved to Poland Street.
+notes: >-
+  Green and Svinth (p. 228) place Figg's first amphitheatre on Tottenham Court Road and the later one at
+  the Adam and Eve pub on Oxford Road; en Wikipedia's Taylor article puts Figg's "Great Booth" on
+  Tottenham Court Road. The site follows the Figg article.
+hasEvidence:
+  - basedOnSource: 01M5JPY6FNB90T86PJZ87EVMAA
+    informationType: infotype:secondary
+    supports: true
+tags:
+  - boxing
+  - prizefighting
+  - united-kingdom

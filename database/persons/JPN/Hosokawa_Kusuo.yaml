@@ -1,0 +1,60 @@
+type: Person
+id: 01KYND67150DTXZ9832DFWVAAB
+name:
+  en: Hosokawa Kusuo
+  ja-Latn: Hosokawa Kusuo
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1918'
+deathEvent:
+  deathDate: '1997'
+description:
+  en: 9th dan judo, taihojutsu instructor at the Tokyo Metropolitan Police. Served as head taihojutsu
+    instructor for the U.S. Air Force Strategic Air Command's combatives course at the Kodokan (1952-1956),
+    where he taught Sato Shizuya.
+hasRankAssertion:
+- id: 01M3YH7N5GJ6GV3RKMTPHG32H9
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 9
+  conferredBy: 01KJJAWN29MA64W22606R3WD7X
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Listed as 9th dan judo on INJA Heritage page; Kodokan dan rank confirmed by De
+      Crée (2015)
+  hasEvidence:
+  - basedOnSource: 01M3KPWDBR13JWPTTBTTPYP8N4
+    quotation: Hosokawa Kusuo (1918–1997) – 9th dan judo
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYQ4SCN9Q5HSKHJKS6X7P4FE
+    locator: '1.34'
+    locatorLabel: figure
+    quotation: Kōdōkan newly promoted 9th dan holders on May 1, 1948
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M3KPWDBRSKBW6MNA89ZBR0PX
+  quotation: taihojutsu head instructor and senior Tokyo Metropolitan Police taihojutsu / judo instructor
+    Hosokawa Kusuo
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://en.wikipedia.org/wiki/Taiho-jutsu
+  archiveUri: https://en.wikipedia.org/w/index.php?title=Taiho-jutsu&oldid=1368890948
+  cite: Taiho-jutsu - Wikipedia EN
+  quotation: >-
+    the instruction in taiho-jutsu was given by Hosokawa and Kikuchi
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- judo
+- taihojutsu
+- police

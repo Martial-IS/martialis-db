@@ -1,0 +1,116 @@
+type: Person
+id: 01KZW2JNB8Z5A1QSZR05381WSR
+name:
+  ja-Latn: Michigami Haku
+  ja: 道上伯
+aka:
+  en: Haku Michigami
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1912-10-21'
+  birthPlace:
+    label: Yawatahama
+    countryCode: eucountry:JPN
+    wikidata: wd:Q200603
+  hasEvidence:
+  - basedOnSource: 01M58MM5M6XZ8BWKWYZ8S89XTZ
+    quotation: >-
+      Birthdate October 21, 1912
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2002'
+  hasEvidence:
+  - basedOnSource: 01KZW2JNB8JTSKGY6E07Y8MG7Z
+    quotation: >-
+      Death: 2002
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/a/a5/Haku_michigami_9th_France.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Haku_michigami_9th_France.jpg
+    cite: "Bushido Judo Kwai, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: Japanese judoka, graduate of the Busen (Dainihon Budo Senmon Gakko) in Kyoto, who never lost a match
+    in his competitive career. Sent to France in 1953, he became a leading judo teacher in Europe and
+    Africa and arts director of the Dutch Judo Federation, where he trained Anton Geesink for the 1961
+    World and 1964 Olympic titles. Founded the Michigami Dojo in Bordeaux in 1963 and was promoted to
+    9th dan in 1975. Brought to Aquitaine by André Nocquet in the mid-1950s, he became the Collège des
+    ceintures noires' national technical director and drew around 90% of the region's clubs to the Collège,
+    training champions including Bernard Sudre.
+hasTeacherAssertion:
+- id: 01M3YH7N5GDCP0BJYXX4C3SE0N
+  teacher: 01KJJAWN28MWKKSN4J02MVY1VD
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The Memorial site's French curriculum vitae lists Isogai (10th dan, his grade
+      during his lifetime) among Michigami's successive judo masters, coinciding with his Busen years
+      at the Kyoto Budo Senmon Gakkō 1934-1938.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1934
+      endYear: 1938
+    hasEvidence:
+    - uri: http://www.haku-michigami.com/rireki_f.htm
+      cite: Curriculum Vitae de Michigami Shi-han, PROFESSEURS de JUDO de MICHIGAMI Haku (haku-michigami.com)
+      informationType: infotype:primary
+      supports: true
+      quotation: >-
+        Successivement ce furent les Maîtres Prestigieux (grade de leur vivant) AKAMATSU 7e Dan ISOGAI 10e Dan TABATA 10e Dan - qui introduisit le "O UCHI MATA" dans le NAGE - NO - KATA FUKUSHIMA 9e Dan KURIHARA 10e Dan MORISHITA 9e Dan EBI 9e Dan
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GKSYWGN3SMK1JMZ85
+  teacher: 01KJJAWN28MWKKSN4J02MVY1S1
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The Michigami memorial site records him joining practices with Jigoro Kano at
+      the Kodokan in the late 1930s.
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+    interactionPeriod:
+      startYear: 1937
+    hasEvidence:
+    - basedOnSource: 01M58MM5M6XZ8BWKWYZ8S89XTZ
+      informationType: infotype:primary
+      supports: true
+      quotation: Although he joined practices with Tokyo University, Kohdohkan, and Master Jigoro Kano,
+        they did not accept any matches.
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GBDSJ9RT0EY1XFAQA
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 9
+  dateConferred: '1975'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The memorial site's personal history lists 9th dan with the note 'No promotion
+      for 24 years (away from Japan)'; the granting body is given as the French Judo Federation (CNG/FIJ).
+  hasEvidence:
+  - basedOnSource: 01M58MM5M6XZ8BWKWYZ8S89XTZ
+    informationType: infotype:primary
+    supports: true
+    quotation: >-
+      No promotion for 24 years (away from Japan) (CNG,FIJ) French Judo Federation) Skipped a grade, by the French government Departs Japan 9 Dan 1975, 63 years
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M58MM5M6XZ8BWKWYZ8S89XTZ
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q11641591

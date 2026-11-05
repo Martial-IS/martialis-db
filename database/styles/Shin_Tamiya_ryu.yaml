@@ -1,0 +1,54 @@
+type: Style
+id: 01M2Z6TY1PG95TPPYKB2BX69AJ
+name:
+  en: Shin Tamiya-ryū
+  ja-Latn: Shin Tamiya-ryū
+  ja: 新田宮流
+aka:
+  en:
+    - Shin-Tamiya-ryu
+    - Shin Tamiya ryu
+styleType: styleclass:traditional
+rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+description:
+  en: >-
+    Shin Tamiya-ryū (新田宮流) is a branch of iaijutsu (sumi-ai, battojutsu); the JA wiki attributes its founding to Wada Heisuke Masakatsu. It was taught alongside Hokushin Ittō-ryū at the Mito Tobukan, where Monna Tadashi studied it under Kozawa Ichirō from 1882 and received menkyō kaiden (JA wiki, Monna Tadashi).
+  ja: >-
+    新田宮流は抜刀術（居合）の流派。水戸東武館で北辰一刀流とともに指南され、門奈正が一郎より免許皆伝を受けた。
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5GA0CRK0G4X6G25NHF
+    relatedStyle: 01KZ6XT5DS0JHX51MN07878ERB
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: A battojutsu (iai, sword-drawing) school; a practitioner of it is an iaido practitioner in modern usage, so it is a named school within the broader art, matching how Omori-ryu and Muso Shinden Ryu are linked to Iaido.
+    hasEvidence:
+      - basedOnSource: 01M2Z6TY1P5NK0HG399P37SYFQ
+        quotation: 新田宮流（しんたみやりゅう）は和田平助正勝が興した抜刀術（居合）の流派。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M2Z6TY1P5NK0HG399P37SYFQ
+    quotation: 新田宮流（しんたみやりゅう）は和田平助正勝が興した抜刀術（居合）の流派。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M2Z6TY1P25CQ9YJJM432S4DN
+    quotation: 寅吉に北辰一刀流剣術を、寅吉の長男一郎に新田宮流抜刀術を学び、いずれも免許皆伝を受ける。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M3016DNJE2M8WA3XYMQSHN9R
+    quotation: Currently kendo, iaido, naginata, Hokushin itto-ryu, and Shin-Tamiya ryu are practised at Tokbukan.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q11503711
+tags:
+  - iaijutsu
+  - battojutsu
+  - koryu
+  - tamiya-ryu

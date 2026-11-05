@@ -1,0 +1,59 @@
+type: Person
+id: 01M6A2VG2QJBJVT9A5JGM8M24H
+name:
+  pt: Ciríaco da Silva
+aka:
+  pt:
+    - Macaco
+    - Macaco Velho
+    - Francisco da Silva Ciríaco
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Black docker from Campos and capoeira who beat the Japanese ju-jitsu champion Sada Miyako in a
+    challenge match in Rio de Janeiro in 1909.
+notes: >-
+  Spelled Cyríaco in some accounts.
+birthEvent:
+  birthDate: '1871'
+  birthPlace:
+    label: Campos dos Goytacazes, Rio de Janeiro
+    countryCode: eucountry:BRA
+    wikidata: wd:Q689868
+  hasEvidence:
+    - basedOnSource: 01M6ACM2JZ5G5NBWFS7Q4TXK4D
+      quotation: >-
+        Francisco da Silva Ciríaco (Campos dos Goytacazes, 1871 - 18 de maio de 1912), também
+        conhecido como Cyriaco (as vezes escrito também Ciríaco) ou Macaco Velho
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1912-05-18'
+  hasEvidence:
+    - basedOnSource: 01M6ACM2JZ5G5NBWFS7Q4TXK4D
+      quotation: >-
+        Ciríaco faleceu de uma uremia aos 40 anos de idade no dia 18 de maio de 1912.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    locator: '125-126'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q135704359
+tags:
+  - capoeira
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/7/74/Cyriaco.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Cyriaco.jpg
+    cite: "O Malho, 1909, Wikimedia Commons"
+    informationType: infotype:secondary

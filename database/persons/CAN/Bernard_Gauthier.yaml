@@ -1,0 +1,45 @@
+type: Person
+id: 01M5H60670JGSG14XTXV8Q1P89
+name:
+  fr: Bernard Gauthier
+nationality:
+  - countryCode: eucountry:CAN
+    wikidata: wd:Q16
+description:
+  en: >-
+    Canadian judoka from Hull, Quebec, self-taught in the Kawaishi method from books and lessons with
+    Marc Scala; founder and president of the Canadian Judo Federation and Canada's competitor at the
+    first World Judo Championships (Tokyo, 1956).
+hasTeacherAssertion:
+  - id: 01M5H606701JJW3MBC11KQMG8C
+    teacher: 01M5H6067047X6W56Z7SFWTREJ
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              Gauthier was a self-taught expert with no Kodokan connection. His Judo followed the
+              Mikinosuke Kawaishi system which he studied through books, and on weekends travelled to
+              Montreal to learn from Frenchman Marc Scala.
+            locator: '44'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    quotation: >-
+      Gauthier fought in the First World Championships for Judo in Tokyo in 1956 representing Canada.
+    locator: '44'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - canada

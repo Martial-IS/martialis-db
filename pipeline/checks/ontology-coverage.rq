@@ -1,0 +1,31 @@
+# Every martialis: term that reaches the exported graph must be declared in
+# the ontology - as a property (object/datatype/annotation) for predicates,
+# or as an owl:Class for classes.
+#
+# Why this matters: an undeclared nested-node class has no generated shape, so
+# no sh:targetClass matches that node and nothing validates it. An undeclared
+# predicate has no context term, so the closed generated JSON Schema rejects
+# the key before a graph exists; an undeclared class used as a type is silent
+# in every other step. Both are caught here.
+#
+# Run against the export plus the ontology (both as --data), so the question
+# is asked of the graph rather than re-derived from the JSON Schemas and the
+# context file. This catches anything that actually reaches the graph,
+# including terms introduced by pipeline/rules/*.ru, and covers classes as well as
+# properties.
+#
+# If the ontology is not in the dataset, every term looks undeclared and the
+# check fails loudly - the safe direction.
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT DISTINCT ?kind ?term WHERE {
+  { ?s ?term ?o . BIND("predicate" AS ?kind) }
+  UNION
+  { ?s a ?term . BIND("class" AS ?kind) }
+  FILTER(STRSTARTS(STR(?term), "https://w3id.org/martialis/ontology#"))
+  FILTER NOT EXISTS { ?term a owl:ObjectProperty }
+  FILTER NOT EXISTS { ?term a owl:DatatypeProperty }
+  FILTER NOT EXISTS { ?term a owl:AnnotationProperty }
+  FILTER NOT EXISTS { ?term a owl:Class }
+}
+ORDER BY ?kind ?term

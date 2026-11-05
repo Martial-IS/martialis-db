@@ -1,0 +1,44 @@
+type: Person
+id: 01M5H4V349D0DCDNT7EK46302G
+name:
+  ja-Latn: Tasaki Shūji
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+description:
+  en: >-
+    Japanese Goju-ryu karate teacher, student of Yamaguchi Gōgen from 1951 and known as his best
+    fighter; founder of Seiwa-kai Goju-ryu.
+hasTeacherAssertion:
+  - id: 01M5H4V349E1SEJ8AGFAM7AJ34
+    teacher: 01M5H4V349WJ4XZ2R5CTH9KP72
+    assertedStyle: 01KZC8S2GEGBJJT9RKV5M0HJ3N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1951
+        hasEvidence:
+          - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+            quotation: >-
+              Shuji Tasaki began training in Goju Ryu directly under Yamaguchi. This was on August 15,
+              1951.
+            locator: '142'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+    quotation: Tasaki, who later established Seiwa Kai Goju Ryu karate-do
+    locator: '142'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - karate
+  - goju-ryu

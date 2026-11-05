@@ -1,0 +1,71 @@
+type: Person
+id: 01M69Z4SFGAF334QJVJ3KV7C9D
+name:
+  en: Lam Yiu-kwai
+  yue: 林耀桂
+  zh: 林耀桂
+  zh-Latn: Lin Yaogui
+aka:
+  en:
+    - Lam Yiu Kwai
+nationality:
+  - countryCode: eucountry:CHN
+    wikidata: wd:Q148
+birthEvent:
+  birthDate: '1874'
+  hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        Lam Yiu Kwai (1874–1965) was also a resident of the Huizhou area.
+      locator: '125'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1965'
+  hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        Lam Yiu Kwai (1874–1965) was also a resident of the Huizhou area.
+      locator: '125'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Founder of the Dragon style, from the Huizhou area. He learned Lam Gar from his father and from
+    his uncle Lin He, and sought to make his name in Guangzhou.
+notes: >-
+  Judkins and Nielson pp. 125-126. First teacher: his father Lin Qingyuan (no record). Oral
+  tradition adds a wandering monk and study at Mt. Luofu, and a public win over a Russian boxer
+  (pp. 125-126).
+hasTeacherAssertion:
+  - id: 01M69Z4SFXMVX10YJPFJMNGKDN
+    teacher: 01M69Z4SFD1DJBCEXPT7GBHWVM
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              From a very young age he studied Lam Gar, first with his father (Lin Qingyuan) and then with his
+              uncle, the famous Lin He.
+            locator: '125'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: '125-126'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - chinese-martial-arts

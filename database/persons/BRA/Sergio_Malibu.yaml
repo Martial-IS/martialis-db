@@ -1,0 +1,61 @@
+type: Person
+id: 01M5H6E6RGJ04ZPZ38ABQSBVR5
+name:
+  pt: Sergio Malibu
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Brazilian jiu-jitsu coral belt from Rio; a blue belt under Rolls Gracie at the Figueiredo de
+    Magalhães academy, then a student of Rickson Gracie after Rolls's death, and later a teacher at
+    Master Jiu-Jitsu (later Alliance).
+hasTeacherAssertion:
+  - id: 01M5H6E6RGZ5XFF0HKH3GS5ZX6
+    teacher: 01KYZ31HT3D978KY5GPZAGKV5G
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: >-
+              Sergio Malibu trained as a blue-belt under Rolls and is a well-known figure in the
+              jiu-jitsu community in Rio. After the death of Rolls, Malibu became a student of Rickson
+            locator: Interview with Sergio Malibu (after chapter 13)
+            locatorLabel: section
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5H6E6RGYX6WSG0ZDVN12A8T
+    teacher: 01KYS8C0AF6DD44239NY1DZ286
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: After the death of Rolls, Malibu became a student of Rickson
+            locator: Interview with Sergio Malibu (after chapter 13)
+            locatorLabel: section
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+    quotation: >-
+      After the death of Rolls, Malibu became a student of Rickson and later taught at Master Jiu-Jitsu
+      [later rebranded “Alliance”].
+    locator: Interview with Sergio Malibu (after chapter 13)
+    locatorLabel: section
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - bjj

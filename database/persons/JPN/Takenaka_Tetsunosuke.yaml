@@ -1,0 +1,71 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD6G
+name:
+  ja-Latn: Takenaka Tetsunosuke Issei
+  ja: 竹中鉄之助一清
+description:
+  en: Japanese jujutsu master of Kitō-ryū, student of Takenaka Motonoshin, teacher of Iikubo Tsunetoshi
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1800'
+  birthPlace:
+    label: Japan
+    countryCode: eucountry:JPN
+    wikidata: wd:Q17
+hasTeacherAssertion:
+- id: 01M3YH7N5GW09ZMAPV35AGCDPX
+  teacher: 01KJJAWN29MA64W22606R3WD6V
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9P
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Son and student of Takenaka Motonoshin according to Japanese Wikipedia
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDAN
+      cite: 起倒流 - Wikipedia
+      quotation: 竹中元之進と子の竹中鉄之助が滝野に直接師事したとは考えられない
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KJJAWN29MA64W22606R3WDAN
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://doi.org/10.18002/rama.v13i2.5700
+  cite: Article in Revista de Artes Marciales Asiáticas (RAMA), vol. 13, issue 2
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+hasHonorAssertion:
+- id: 01M3YH7N5GBA8ZXAEZG9HEX1XA
+  honorValue: Kitō-ryū master
+  honorType: honortype:title
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Japanese Wikipedia and De Crée (2019) state it independently.
+  hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WDAN
+    cite: 起倒流 - Wikipedia
+    quotation: 竹中鉄之助は佐倉藩に招聘され柔術の教授を行っている
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KJJAWN29MA64W22606R3WDAN
+    cite: 起倒流 - Wikipedia
+    quotation: 竹中鉄之助の門人には、飯久保恒年、信太歌之助（青柳熊吉）、安藤健二郎、秋野庸彦などがいた
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://doi.org/10.18002/rama.v13i2.5700
+    cite: De Crée, Carl. (2019). Kitō-ryū jūjutsu and the desolation of Kōdōkan jūdō’s Koshiki-no-kata
+      -- Remembering Inoue Shōji (1927-2018)
+    quotation: Takenaka Tetsunosuke Issei 竹中鉄之助一清
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct

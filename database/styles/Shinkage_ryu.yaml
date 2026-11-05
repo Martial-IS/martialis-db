@@ -1,0 +1,89 @@
+type: Style
+id: 01M6BHSAXWENNPX8DGGYB1ZDC2
+name:
+  ja-Latn: Shinkage-ryū
+  ja: 新陰流
+hasEvidence:
+- basedOnSource: 01M6BHSAXWT300MA17MW5Z0F1Y
+  quotation: '室町末期、上泉伊勢守信綱は愛洲陰流より「転」を工夫して新陰流を創始した。'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M6BHSAXW6PNZ7V6HME8P8KN5
+  locator: 'Batto and Iaido'
+  locatorLabel: section
+  quotation: 'For example, in Shinkage-ryu (founded by Kamiizumi Ise-no-Kami) and Yagyu Shinkage-ryu (founded by Kamiizumi’s student Yagyu Munetoshi), there is either no batto, or it is done as a minor part of the overall kenjutsu training.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+foundedEvent:
+  founder:
+    - 01M6BHSAXW3N93ZE1E1CFMMED0
+  location:
+    countryCode: eucountry:JPN
+  hasEvidence:
+    - basedOnSource: 01M6BHSAXWT300MA17MW5Z0F1Y
+      quotation: '室町末期、上泉伊勢守信綱は愛洲陰流より「転」を工夫して新陰流を創始した。'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6BHSAXW6PNZ7V6HME8P8KN5
+      locator: 'Batto and Iaido'
+      locatorLabel: section
+      quotation: 'For example, in Shinkage-ryu (founded by Kamiizumi Ise-no-Kami) and Yagyu Shinkage-ryu (founded by Kamiizumi’s student Yagyu Munetoshi), there is either no batto, or it is done as a minor part of the overall kenjutsu training.'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+styleType: styleclass:traditional
+hasStyleRelationAssertion:
+  - id: 01M6BHSAXWP42ED39X6R6CQ689
+    relatedStyle: 01KYHNJKQDTEJ1A5MQ5JYPHDTB
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: A school of swordsmanship (Field Guide, Armstrong, its own page).
+    hasEvidence:
+      - basedOnSource: 01M6BHSAXW6PNZ7V6HME8P8KN5
+        locator: 'Batto and Iaido'
+        locatorLabel: section
+        quotation: 'For example, in Shinkage-ryu (founded by Kamiizumi Ise-no-Kami) and Yagyu Shinkage-ryu (founded by Kamiizumi’s student Yagyu Munetoshi), there is either no batto, or it is done as a minor part of the overall kenjutsu training.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+        locator: 'Yagyu Shinkage-ryu Hyoho'
+        locatorLabel: section
+        quotation: 'Weapons/systems: kenjutsu (odachi, kodachi, nitto)'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M6BHSAXWTF96RWA57T6QHR5E
+    relatedStyle: 01M6BHSAXWBBGKCA4Z0A3K2X74
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Field Guide and the Yagyu Shinkage-ryu page; the Field Guide draws on the schools’ programme notes, so one tradition.
+    hasEvidence:
+      - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+        locator: 'Yagyu Shinkage-ryu Hyoho'
+        locatorLabel: section
+        quotation: 'Kamiizumi Ise-no-Kami, who had trained in both Kashima and Katori Shinto-ryu, created Shinkage-ryu based on Kage-ryu, which he learned from its founder Aisu Ikkosai.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M6BHSAXWT300MA17MW5Z0F1Y
+        quotation: '室町末期、上泉伊勢守信綱は愛洲陰流より「転」を工夫して新陰流を創始した。'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    School of swordsmanship founded at the end of the Muromachi period by Kamiizumi Ise-no-Kami
+    Nobutsuna, from Aisu Kage-ryu; probably the first to use the fukuro shinai. Its Yagyu line is
+    Yagyu_Shinkage_ryu.
+sameAs:
+  - wd:Q1288891
+tags:
+  - koryu

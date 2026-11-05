@@ -1,0 +1,75 @@
+type: Person
+id: 01M69YZDB2ZXT618JZMTAC4DB7
+name:
+  en: Jeong Yim
+  yue: 張炎
+  zh: 張炎
+  zh-Latn: Zhang Yan
+nationality:
+  - countryCode: eucountry:CHN
+    wikidata: wd:Q148
+birthEvent:
+  birthDate: '1814~'
+  hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        This individual was named Jeong Yim (c.1814–c.1893) and, while he proved to be the single most
+        important figure in the reestablishment of Choy Li Fut in Foshan, almost nothing solid is known
+        about him.
+      locator: '96'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1893~'
+  hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        This individual was named Jeong Yim (c.1814–c.1893) and, while he proved to be the single most
+        important figure in the reestablishment of Choy Li Fut in Foshan, almost nothing solid is known
+        about him.
+      locator: '96'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Choy Li Fut teacher, disciple of Chan Heung, who reopened the Hung Sing school in Foshan in 1867
+    and gave Foshan's Choy Li Fut its character.
+notes: >-
+  Judkins and Nielson pp. 96-97, 118. Traditions give him a life of 33 years or of over eighty (p.
+  96). A 1930s novel, Foshan Hung Sing Kwoon, made him co-founder of the style; the book treats
+  most of his biography as legend (pp. 96, 118). Successor at Hung Sing: Chan Ngau Sing
+  (1864-1926), no record.
+hasTeacherAssertion:
+  - id: 01M69YZDB53HKQQB9G3MCDH8DY
+    teacher: 01M69YZDAWK5VCNF22K7MN1RH3
+    assertedStyle: 01M69YZDAYSZ72F4EN4Y0155WA
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              What is certain is that he was a disciple of Chan Heung and he reopened the Hung Sing school
+              under his authority in 1867.
+            locator: '96'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: '96-97, 118'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - choy-li-fut
+  - chinese-martial-arts

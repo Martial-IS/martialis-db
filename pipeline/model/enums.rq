@@ -1,0 +1,10 @@
+# One row per concept of every concept scheme, keyed by the scheme's namespace.
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX vann: <http://purl.org/vocab/vann/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+SELECT ?ns ?pfx ?title ?c WHERE {
+  ?scheme a skos:ConceptScheme ; vann:preferredNamespaceUri ?ns ; vann:preferredNamespacePrefix ?pfx
+  OPTIONAL { ?scheme dcterms:title ?title FILTER (lang(?title) = "en") }
+  OPTIONAL { ?c skos:inScheme ?scheme }
+  # Country codes are eucountry: IRIs in a uriorcurie slot, not a closed enum.
+  FILTER (!STRENDS(STR(?ns), "/country/")) }

@@ -1,0 +1,87 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1ST
+name:
+  ja-Latn: Saigō Shirō
+  ja: 西郷四郎
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1866-01-04'
+  birthPlace:
+    label: Aizuwakamatsu, Fukushima
+    countryCode: eucountry:JPN
+    wikidata: wd:Q237699
+deathEvent:
+  deathDate: '1922-12-22'
+  deathPlace:
+    label: Onomichi
+    countryCode: eucountry:JPN
+    wikidata: wd:Q696694
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/f/f6/Saigo_Shirou.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Saigo_Shirou.jpg
+    cite: "Wikimedia Commons"
+description:
+  en: One of the earliest disciples of Judo, first to be awarded shodan (black belt) along with Tsunejiro Tomita. One of the Kōdōkan Shitennō (Four Guardians of the Kodokan). Known for his yama arashi technique and role in establishing Judo's superiority over jujutsu.
+hasTeacherAssertion:
+  - id: 01M3YH7N5G2R6RX6GAQ7PRSDMK
+    teacher: 01KJJAWN28MWKKSN4J02MVY1S1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: One of Jigoro Kano's earliest students, enrolled at Kodokan in August 1882, mentioned in Kano's memoirs with quotation about becoming his student shortly thereafter
+    role: teachrole:student
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+        interactionPeriod:
+          startYear: 1882
+          endYear: 1890
+        hasEvidence:
+          - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+            locator: '20'
+            locatorLabel: page
+            quotation: Shortly thereafter, in August 1882, the now famous Shiro Saigo became a student of mine
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GQ04TKEVAA98A4KC2
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 6
+    conferredBy: 01KJJAWN29MA64W22606R3WD7X
+    grantedBy: 01KJJAWN28MWKKSN4J02MVY1S1
+    dateConferred: '1923-01-14'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Posthumously awarded 6th dan by Jigoro Kano on 1923-01-14 after his death, documented by Judo Channel with specific date and quotation
+    hasEvidence:
+      - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTBN
+        quotation: >-
+          January, 1923 6th Dan [...] Upon receiving news of his death, Jigoro Kano awarded him a posthumous promotion to the 6th Dan on January 14, 1923
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+notes: Born Shida Sadajiro in Aizuwakamatsu, Fukushima, third son of a samurai. Adopted by former Aizu Domain elder councillor Tanomo Saigo in 1884, taking name Hoshina Shiro, later reverted to Saigo in 1888 to resurrect family line. Enrolled at Kodokan in August 1882 as Jigoro Kano's second student. Along with Tsunejiro Tomita, first to be awarded shodan (black belt) in 1883. Key figure in 1886 Tokyo Metropolitan Police tournament where Kodokan judo defeated Totsuka-ha Yoshin-ryu jujutsu, establishing judo's superiority. Known for yama arashi technique and exceptional agility, nicknamed 'Cat' for ability to land on feet when thrown. Left Kodokan in 1890 after street brawl incident. Later worked as journalist in Nagasaki for 'Toyo Hinode Shimbun', taught judo, kyudo, and Japanese swimming. Died in Onomichi in 1922. Model for main character in Tomita Tsuneo's novel 'Sugata Sanshiro' (1942), adapted into Akira Kurosawa's 1943 film.
+hasEvidence:
+  - uri: https://www.judo-ch.jp/english/legend/saigou/
+    cite: Judo Channel
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTBP
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTBQ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q2637587

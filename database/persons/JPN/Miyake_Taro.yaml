@@ -1,0 +1,272 @@
+type: Person
+id: 01M0A7YYEFMKPM42VNW79WTSWR
+name:
+  ja-Latn: Miyake Tarō
+  ja: 三宅 タロー
+aka:
+  en: Taro Miyake
+  ja-Latn:
+  - Miyake Taruji
+  - Taruji Miyake
+  - Tarro Myaki
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1881-08-15'
+  birthPlace:
+    label: Okayama
+    countryCode: eucountry:JPN
+    wikidata: wd:Q200078
+  hasEvidence:
+  - basedOnSource: 01M0A7YYEF9TPC04AM1695GGTR
+    informationType: infotype:secondary
+    supports: true
+    quotation: Born August 15, 1881 Okayama, Japan
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M0A7YYEF9JJJRSYS8B5TSD0Y
+    informationType: infotype:secondary
+    supports: true
+    quotation: 誕生日 1881年 [...] 出身地 日本 岡山県上道郡沖田村（元 岡山市中区沖元）
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1935'
+  hasEvidence:
+  - basedOnSource: 01M0A7YYEF9TPC04AM1695GGTR
+    informationType: infotype:secondary
+    supports: true
+    quotation: He died in 1935.
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M0A7YYEF9JJJRSYS8B5TSD0Y
+    informationType: infotype:secondary
+    supports: true
+    quotation: 1935年に死去した。
+    evidenceType: evidencetype:direct
+description:
+  en: 'Japanese jujutsu fighter, instructor, catch wrestler and author, a protégé of Fusen-ryu
+
+    ground-fighting master Mataemon Tanabe and, with Yukio Tani, one of the pioneers of jujutsu
+
+    in Britain. Trained under Tanabe, then Uyemura in Kyoto and Yataro Handa in Osaka, he worked
+
+    as an instructor in Nara and Kobe before a brawl led to his dismissal and departure for London
+
+    in 1904. There he famously defeated Yukio Tani in a challenge match, then joined forces with him
+
+    to open the Japanese School of Jujutsu at 305 Oxford Street and co-author "The Game of Ju-Jitsu"
+
+    (1906). From 1914 he lived in the United States (Seattle, Chicago, New York), teaching alongside
+
+    Kodokan judoka Shozo Kuwashima, and continued competing into his 50s at Madison Square Garden.
+
+    '
+notes: Wikidata lists birth year 1882 (P569, imported from an older English Wikipedia revision); EN and
+  JA Wikipedia give 1881-08-15, preferred here. The Bartitsu interview (Sunday Times, 3 Sep 1905) is the
+  primary source for the Tanabe-Uyemura-Handa training sequence; the BJS paper (mas.166) corroborates
+  it and stresses that Tani, Miyake and Uyenishi came from Handa's Osaka dojo, not the Kodokan. The Handa
+  teacher edge points at Handa Yataro's Daito-ryu jujutsu and his Osaka Seibukan; JA Wikipedia records
+  Miyake as a 5th dan (五段) of that school, matching the "fifth degree in ju-jitsu" of the 1905 interview.
+  JA Wikipedia (citing Sasaki Shigetsu) records an 8th dan from the Butokukai in Okayama, and (citing
+  Judo magazine, 1918) notes he held no Kodokan rank at the time of the 1917 Santel match. Oki Shikina,
+  the Danzan-ryu trainee who became Miyake's apprentice on their return from Japan (1928/31).
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/e/e3/Taro_Miyake.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Taro_Miyake.jpg
+    cite: "La Prese, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+- id: 01M3YH7N5G35G8VWKMRNKED6BR
+  teacher: 01M0AAFQFXZ7G2JDEFZY8M5AKF
+  assertedStyle: 01M0AAFQFSD0PC83N17N4J3JXN
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Fusen-ryu jujutsu master Mataemon Tanabe named in the 1905 interview, EN Wikipedia
+      and the BJS paper; his dojo's newaza expertise is well documented.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M0A7YYEFD28J6QHY95BJ2DW7
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+      quotation: Until I was twenty-one, and apart from my duties as instructor, I studied ju-jitsu under
+        one of our most famous teachers, Tanabe, and, although I was still very young, he entrusted me
+        with all the secrets of his school
+    - basedOnSource: 01M0A7YYEF9TPC04AM1695GGTR
+      informationType: infotype:secondary
+      supports: true
+      quotation: Miyake started his training under the famous Fusen-ryu jujutsu master Mataemon Tanabe,
+        as well as Osaka master Yataro Handa, head of the 2000+ member Seibukan which had a very close
+        connection to Tanabe's ground fighting newaza.
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M0A7YYEFNNVJ1W07NHA7XJHG
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+      quotation: Miyake had started to learn jujutsu with Tanabe before moving to Kyoto to train with
+        a teacher called Uyemura, before moving to Osaka and training with Handa [Miyake 1905].
+- id: 01M3YH7N5GNH8NSGTX6X5DGH67
+  teacher: 01M1KR4J6ES1HT180TPWZ8MRMK
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Uyemura's Kyoto school named in the 1905 interview and corroborated by the BJS
+      paper; style and period not further specified.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M0A7YYEFD28J6QHY95BJ2DW7
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+      quotation: When I was twenty-one, I was appointed instructor to the police at Kioto, and during
+        the time I was there I still went on learning, studying at that time in the great Uyemura School.
+    - basedOnSource: 01M0A7YYEFNNVJ1W07NHA7XJHG
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+      quotation: Miyake had started to learn jujutsu with Tanabe before moving to Kyoto to train with
+        a teacher called Uyemura, before moving to Osaka and training with Handa [Miyake 1905].
+- id: 01M3YH7N5G9NTQJT3XJ869SDQC
+  teacher: 01M0AZQ3TJAG1RBRXBQJCRRJX6
+  assertedStyle: 01M0AZQ3TJKDFZYF8638Y2992P
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Yataro Handa's Seibukan in Osaka named in the 1905 interview, EN Wikipedia and the BJS paper. The
+      BJS paper confirms Tani, Miyake and Uyenishi were all Handa students.
+  hasInteraction:
+  - interactionPlace: 01M0AZQ3TJZ2EVT8RXF3M2TVXJ
+    hasEvidence:
+    - basedOnSource: 01M0A7YYEFD28J6QHY95BJ2DW7
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+      quotation: At Osaka I worked under another great teacher, Handa, and in this way I mastered the
+        secrets of three distinct schools of ju-jitsu.
+    - basedOnSource: 01M0A7YYEF9TPC04AM1695GGTR
+      informationType: infotype:secondary
+      supports: true
+      quotation: as well as Osaka master Yataro Handa, head of the 2000+ member Seibukan which had a very
+        close connection to Tanabe's ground fighting newaza.
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M0A7YYEFNNVJ1W07NHA7XJHG
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+      quotation: the early pioneers of British jujutsu credited with bringing jujutsu to the U.K. such
+        as Tani, Uyenishi, and Miyake, were students from the dojo of Yataro Handa in Osaka, and were
+        not from the Kodokan [Wolf 2016].
+    - basedOnSource: 01M0AZQ3TJ9K5V2Z20K5370P1A
+      informationType: infotype:secondary
+      supports: true
+      quotation: 海外に柔術を伝えた上西貞一（大東流二段）、三宅タロー（大東流五段）、谷幸雄（大東流二段）は半田弥太郎の門人であった。
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5G1A9MSQ05XW2QNWXV
+  teacher: 01M1KRZF6S2231ZSC9VJQJFNCC
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9P
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Onodera Sakataro attested only in JA Wikipedia, which records study at his Meibukan
+      in Okayama, a school teaching Kito-ryu, Takeuchi-ryu and Shinmyo-ryu; the precise style Miyake studied
+      there is unclear, so Kito-ryu is used as the first-named tradition.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M0A7YYEF9JJJRSYS8B5TSD0Y
+      informationType: infotype:secondary
+      supports: true
+      quotation: 岡山県で起倒流・竹内流・真妙流を教えていた明武館の小野田坂太郎から柔術を学んだ。
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5G0TNZNBQYAF6M7W2A
+  rankStyle: 01M0AZQ3TJKDFZYF8638Y2992P
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 5
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: The 1905 interview records that Miyake was admitted to the fifth degree in jujutsu
+      at age 22, rarely attained before 35; JA Wikipedia records Miyake as 5th dan (五段) of Handa Yataro's
+      Daito-ryu jujutsu, which is the same school.
+  hasEvidence:
+  - basedOnSource: 01M0A7YYEFD28J6QHY95BJ2DW7
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+    quotation: What I am specially proud of, however, is that at the age of twenty-two I was admitted
+      to the fifth degree in ju-jitsu. This is rarely attained before the age of thirty five
+  - basedOnSource: 01M0AZQ3TJ9K5V2Z20K5370P1A
+    informationType: infotype:secondary
+    supports: true
+    quotation: 海外に柔術を伝えた上西貞一（大東流二段）、三宅タロー（大東流五段）、谷幸雄（大東流二段）は半田弥太郎の門人であった。
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5GHA1RA4ZVJD8K7NDQ
+  rankStyle: 01KJJAWN29MA64W22606R3WD9G
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 8
+  conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      JA Wikipedia cites Sasaki Shigetsu that Miyake held 8th dan from the Butokukai in Okayama; the
+      same article cites Judo magazine (1918) that he held no Kodokan rank at the time of the 1917
+      Santel match. The quotation names the grade and the granting body but not the art, so jujutsu is
+      inferred rather than quoted.
+  hasEvidence:
+  - basedOnSource: 01M0A7YYEF9JJJRSYS8B5TSD0Y
+    informationType: infotype:secondary
+    supports: true
+    quotation: 佐々木指月によると、岡山の武徳会で八段であった。
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M0A7YYEF9TPC04AM1695GGTR
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0A7YYEF9JJJRSYS8B5TSD0Y
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0A7YYEFD28J6QHY95BJ2DW7
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0A7YYEFNNVJ1W07NHA7XJHG
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0A7YYEFVW10TY6Q3N4R61QW
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M07HCGJGDPR24S4J0JWFFH68
+  informationType: infotype:secondary
+  supports: true
+  quotation: Other establishments in London at that time were the Japanese School of Jujitsu, on Oxford
+    Street, where the teachers were Tani, Miyake, Eida, and Kanaya [...] Roberts appeared in Sporting Life
+    in 1906, along with Miyake, Hirano, Yamashita, and Omura, demonstrating at the headquarters of the
+    Japanese School of Ju-jitsu on Oxford Street.
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0AZQ3TJ9K5V2Z20K5370P1A
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q7686502
+tags:
+- jujutsu
+- judo
+- professional-wrestling
+- pioneer
+- united-kingdom
+- united-states

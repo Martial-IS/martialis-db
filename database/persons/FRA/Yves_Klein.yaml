@@ -1,0 +1,114 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1SY
+name:
+  fr: Yves Klein
+nationality:
+- countryCode: eucountry:FRA
+  wikidata: wd:Q142
+birthEvent:
+  birthDate: '1928-04-28'
+  birthPlace:
+    label: Nice
+    countryCode: eucountry:FRA
+    wikidata: wd:Q33959
+deathEvent:
+  deathDate: '1962-06-06'
+  deathPlace:
+    label: Paris
+    countryCode: eucountry:FRA
+    wikidata: wd:Q90
+image:
+  contentUrl: https://www.radiofrance.fr/s3/cruiser-production/2023/12/8d7118cf-6be3-4573-8886-fd621281f20d/860_sc_photo-file-597.webp
+  imageAttribution:
+    uri: https://www.radiofrance.fr/francebleu/podcasts/les-pourquoi-de-la-cote-d-azur/pourquoi-7150784
+    cite: "Radio France"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+- id: 01M3YH7N5GBK9N7FB9SM095C2A
+  teacher: 01KJJAWN28MWKKSN4J02MVY1SX
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Sources mention his Kodokan presence and Oda as one of the instructors
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+    interactionPeriod:
+      startYear: 1952
+      endYear: 1954
+    hasEvidence:
+    - uri: https://theeverydaypress.net/the-foundations-of-judo/
+      cite: THE FOUNDATIONS OF JUDO - The Everyday Press
+      quotation: In the early 1950s, the 24-year-old Yves Klein spent a year and a half in Tokyo, studying
+        mainly at the Kodokan under the ninth-dan judo master Oda
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD98
+    interactionPeriod:
+      startYear: 1952
+      endYear: 1954
+    hasEvidence:
+    - uri: https://www.ianwhittlesea.net/works_pages/wks_klein/wks_klein1.html
+      cite: The Foundations of Judo - Ian Whittlesea
+      quotation: He has spent this time solely studying Judo [...] with the Municipal Police of Tokyo under
+        Master Oda
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GFS3PCTXTHR4TPBX5
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 4
+  conferredBy: 01KJJAWN29MA64W22606R3WD7X
+  dateConferred: '1954'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Official website mentions it, no direct source
+  hasEvidence:
+  - uri: https://www.yvesklein.com/en/yves-klein/
+    archiveUri: http://web.archive.org/web/20251124045033/https://www.yvesklein.com/en/yves-klein/
+    cite: Yves Klein - Official Website
+    quotation: Shortly before his return, he obtained his 4th dan in judo, thus reaching the highest level
+      in Europe
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- uri: https://theeverydaypress.net/the-foundations-of-judo/
+  cite: THE FOUNDATIONS OF JUDO - The Everyday Press
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.ianwhittlesea.net/works_pages/wks_klein/wks_klein1.html
+  cite: The Foundations of Judo - Ian Whittlesea
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://en.wikipedia.org/wiki/Yves_Klein
+  archiveUri: http://web.archive.org/web/20260529125740/https://en.wikipedia.org/wiki/Yves_Klein
+  cite: Yves Klein - Wikipedia
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://fr.wikipedia.org/wiki/Yves_Klein
+  archiveUri: http://web.archive.org/web/20260714031055/https://fr.wikipedia.org/wiki/Yves_Klein
+  cite: Yves Klein - Wikipédia
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.yvesklein.com/en/yves-klein/
+  archiveUri: http://web.archive.org/web/20251124045033/https://www.yvesklein.com/en/yves-klein/
+  cite: Yves Klein - Official Website
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://walkerart.org/magazine/yves-klein-the-judoka/
+  cite: Yves Klein the Judoka - Walker Art Center
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct

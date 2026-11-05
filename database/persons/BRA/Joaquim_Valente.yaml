@@ -1,0 +1,89 @@
+type: Person
+id: 01KYJEGSZ65B6S3VDF94T845V8
+name:
+  en: Joaquim Valente
+  pt: Joaquim Valente
+nationality:
+- countryCode: eucountry:BRA
+  wikidata: wd:Q155
+birthEvent:
+  birthDate: '1989'
+  birthPlace:
+    label: Rio de Janeiro
+    countryCode: eucountry:BRA
+    wikidata: wd:Q8678
+  hasEvidence:
+  - uri: https://www.opovo.com.br/divirtase/2024/10/28/quem-e-joaquim-valente-pai-do-terceiro-filho-de-gisele-bundchen.html
+    cite: Quem é Joaquim Valente, pai do terceiro filho de Gisele Bündchen (O Povo, 2024-10-28)
+    quotation: >-
+      Joaquim Valente nasceu em 1989.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://www.opovo.com.br/divirtase/2024/10/28/quem-e-joaquim-valente-pai-do-terceiro-filho-de-gisele-bundchen.html
+    cite: Quem é Joaquim Valente, pai do terceiro filho de Gisele Bündchen (O Povo, 2024-10-28)
+    quotation: >-
+      Joaquim Valente nasceu no Rio de Janeiro
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: Brazilian Jiu-Jitsu professor and the youngest of the three Valente Brothers. He trained under Grandmaster
+    Hélio Gracie from age 2 and received his Professor's Diploma from Hélio Gracie in 2007. He moved to
+    Miami in 2007 to study criminology at Barry University. He is a primary instructor at the Valente
+    Brothers academy.
+hasTeacherAssertion:
+- id: 01M3YH7N5F6TY5X29X8528VTWK
+  teacher: 01KJJAWN28MWKKSN4J02MVY1S5
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Joaquim trained under Hélio Gracie from age 2 and received his Professor's Diploma
+      directly from him in 2007; documented on the Valente Brothers official website
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1991
+    hasEvidence:
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDA1
+      cite: Our Story - Valente Brothers
+      quotation: At the tender age of two, Pedro, Gui and Joaquim were already taking private lessons
+        from Grandmaster Hélio Gracie.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5FTXGP95FAACJ7R8RK
+  rankStyle: 01KJJAWN29MA64W22606R3WD9J
+  rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+  rankGrade: rankgrade:bjj_black
+  dateConferred: '2007'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Awarded Professor's Diploma by Hélio Gracie in 2007; documented on Valente Brothers
+      official site
+  hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WDA1
+    cite: Our Story - Valente Brothers
+    quotation: In 2007 Joaquim also received the Professors' Diploma from Grandmaster Hélio Gracie.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KJJAWN29MA64W22606R3WDA1
+    quotation: The Valente Brothers excellent instruction skills, technical fighting styles and moral and
+      ethical qualities, allowed them to receive their Black belts and Professors' Diplomas directly from
+      Grandmaster Hélio Gracie.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KJJAWN29MA64W22606R3WDA1
+  cite: Our Story - Valente Brothers
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- brazilian-jiu-jitsu
+- valente-brothers

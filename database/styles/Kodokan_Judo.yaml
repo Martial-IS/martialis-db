@@ -1,0 +1,102 @@
+type: Style
+id: 01KJJAWN29MA64W22606R3WD9B
+name:
+  ja-Latn: Kōdōkan Jūdō
+  ja: 講道館柔道
+aka:
+  ja: 日本伝講道館柔道
+  ja-Latn: Nippon Den Kodokan Judo
+foundedEvent:
+  startDate: '1882'
+  eventPlace: 01KJJAWN29MA64W22606R3WD84
+  founder:
+    - 01KJJAWN28MWKKSN4J02MVY1S1
+  hasEvidence:
+    - uri: https://ja.wikipedia.org/wiki/%E6%9F%94%E9%81%93
+      quotation: >-
+        発生年 1882年（明治15年） 創始者 嘉納治五郎
+      cite: 'Japanese Wikipedia: Judo'
+      supports: true
+      informationType: infotype:secondary
+      evidenceType: evidencetype:direct
+  location:
+    countryCode: eucountry:JPN
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5GYNBCVYBQ3VWKJA7M
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9Q
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Kano trained in Tenjin Shinyo-ryu under Fukuda Hachinosuke and Iso Masatomo before founding judo. English Wikipedia and Skoss state the derivation.
+    hasEvidence:
+      - basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+        locator: The Development of the Tenjin Shinyo-ryu
+        locatorLabel: section
+        quotation: Jigoro Kano drew on these techniques in his creation of the more modern art of Kodokan judo.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - uri: https://en.wikipedia.org/wiki/Judo
+        archiveUri: https://en.wikipedia.org/w/index.php?title=Judo&oldid=1378298357
+        cite: 'Wikipedia: Judo'
+        quotation: Judo was created in 1882 by Kanō Jigorō (嘉納 治五郎) as an eclectic martial art, distinguishing itself from its predecessors (primarily Tenjin Shinyo-ryu jujutsu and Kitō-ryū jujutsu)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G6N64CWDTBJQSFBA1
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9P
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Kano trained in Kito-ryu under Iikubo Tsunetoshi and inherited the school's densho; judo's koshiki-no-kata preserves Kito-ryu forms.
+    hasEvidence:
+      - uri: https://en.wikipedia.org/wiki/Judo
+        archiveUri: https://en.wikipedia.org/w/index.php?title=Judo&oldid=1378298357
+        cite: 'Wikipedia: Judo'
+        quotation: Judo was created in 1882 by Kanō Jigorō (嘉納 治五郎) as an eclectic martial art, distinguishing itself from its predecessors (primarily Tenjin Shinyo-ryu jujutsu and Kitō-ryū jujutsu)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: 'Kodokan Judo is a modern martial art created by Jigoro Kano in 1882. It is a refinement and codification of jujutsu principles with an emphasis on throwing techniques, groundwork, and moral education. Judo became the first Japanese martial art to gain widespread international recognition and was inducted as an Olympic sport in 1964.
+
+'
+  ja: '講道館柔道（こうどうかんじゅうどう）は、1882年（明治15年）に嘉納治五郎 が創始した武道・スポーツ・身体鍛錬の方法。
+
+'
+hasEvidence:
+  - uri: https://ja.wikipedia.org/wiki/%E6%9F%94%E9%81%93
+    cite: 'Japanese Wikipedia: Judo'
+    supports: true
+    evidenceType: evidencetype:direct
+    informationType: infotype:secondary
+  - uri: https://en.wikipedia.org/wiki/Judo
+    archiveUri: https://en.wikipedia.org/w/index.php?title=Judo&oldid=1378298357
+    cite: 'Wikipedia: Judo'
+    supports: true
+    evidenceType: evidencetype:direct
+    informationType: infotype:secondary
+sameAs:
+  - wd:Q11817
+tags:
+  - grappling
+  - throwing
+  - olympic
+  - gendai-budo
+  - gendai
+styleType: styleclass:modern
+rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Jigoro_Kano_and_Kyuzo_Mifune_%28restoration%29.jpg/250px-Jigoro_Kano_and_Kyuzo_Mifune_%28restoration%29.jpg
+    rights: mediarights:public_domain_mark
+    imageAttribution:
+      cite: "published by ベースボール・マガジン社, Wikimedia Commons"
+      uri: https://commons.wikimedia.org/wiki/File:Jigoro_Kano_and_Kyuzo_Mifune_(restoration).jpg
+      basedOnSource: 01M3M0PM99TREGESG08SS3AEZ0
+videos:
+  - contentUrl: https://www.youtube.com/watch?v=FoFwE8pX2js
+    imageAttribution:
+      uri: https://www.youtube.com/watch?v=FoFwE8pX2js
+      cite: "martialwarrior540, YouTube"

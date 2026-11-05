@@ -1,0 +1,145 @@
+type: Person
+id: 01KZBWQ0AJ1CS0CYD84258VKTE
+name:
+  ja-Latn: Soken Hōhan
+  ja: 祖堅方範
+aka:
+  en:
+  - Hohan Soken
+  - Soken Hohan
+  ja:
+  - そけん ほうはん
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1889-05-25'
+  birthPlace:
+    label: Nishihara
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1206796
+  hasEvidence:
+  - basedOnSource: 01KZC8XAP8C0KB4ATDTWXGA6PY
+    quotation: He was born May 25, 1889 (although at least one text puts his birth year as 1891) in Nishihara,
+      Okinawa.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZH9CVME98TN7Z21Q83X7MRC
+    quotation: My name is Soken Hohan and I was born on May 25, 1889. I come from (I live in) Gaja Village,
+      Nishihara City, Okinawa Prefecture.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1982-11-30'
+  deathPlace:
+    label: Nishihara
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1206796
+  hasEvidence:
+  - basedOnSource: 01KZC8XAP8C0KB4ATDTWXGA6PY
+    quotation: Hohan Sōken died on November 30, 1982, in Nishihara, Okinawa.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/en/3/3e/Hohan_S%C5%8Dken.jpg
+  imageAttribution:
+    uri: https://en.wikipedia.org/wiki/File:Hohan_S%C5%8Dken.jpg
+    cite: "English Wikipedia"
+    informationType: infotype:secondary
+description:
+  en: Okinawan martial arts master (1889-1982), founder of the Shorin-ryu Matsumura Seito Okinawa Karate
+    Kobudo Association; trained by his uncle Nabe Matsumura from age 13, he continued the Matsumura family
+    tradition after emigrating back from Argentina in 1952.
+notes: Soken began karate training at 13 under his uncle Nabe Matsumura (his mother Kami was Matsumura
+  Sokon's granddaughter, and Nabe was her brother), learning Naihanchi Shodan/Nidan, Pinan Shodan/Nidan,
+  Passai Sho/Dai, Chinto, Kusanku, Gojushiho, Sanchin, Rohai Jo/Chu/Ge and (at age 23) Hakutsuru; he called
+  Kusanku the most important kata of the style. His 1978 interview with Ernie Estrada (a primary source)
+  confirms he became his uncle's student around 1902-1903, learning Uchinan Sui-di, and that Bushi Matsumura
+  left the "hands" of his teachings to Nabe; the George W. Alexander article adds that after ten years
+  of basic training he began learning hakutsuru in 1912, that he also trained with Kenwa Mabuni and Gokenki
+  (white crane), and studied weaponry under Komesu Ushi-no-Tanmei and Mantaka Tsuken. He emigrated to
+  Argentina in 1924, working as a photographer and teaching karate to expatriates in Buenos Aires, and
+  returned to Okinawa in 1952. He first called the style "Matsumura Shuri-te", renaming it Matsumura Seito
+  Shorin-ryu in 1956 (the JA Wikipedia gives his birth year as 1891 and the style naming as around 1956;
+  the Moerfelden lineage page dates the start of his teaching to 1945 and gives his years as 1890-1982).
+  In the second part of the 1978 interview (by Ernest Estrada) he lists his kata as pinan shodan/nidan,
+  naihanchi shodan/nidan, patsai-sho/dai, chinto, gojushiho, kusanku, rohai ichi-ni-san and hakutsuru
+  (naming the Matsumura kusanku, the older version, the best kata of his youth), and his weapons as bo,
+  sai, tuifa, kama, nunchaku, kusarigama and suruchin, his favorite being tsukenbo (learned from Komesu
+  Ushi). He states he knew Taira Shinken well and taught him some of his older forms, that he formed the
+  All Okinawa Kobujutsu Association in 1970, and was a member of the Ryukyu Historical Society, discussing
+  the old Okinawan grappling art "ti" ("te-kumi" or "gyaku-te"). His senior students included Nishihira
+  Kosei, Roy Suenaka and many others.
+hasTeacherAssertion:
+- id: 01M3YH7N5GNHNH5QE1QZFG99AJ
+  teacher: 01KZBYR5CGBSKQ0KTW1H8G8FST
+  assertedStyle: 01KZC8S2GE3X9V7N27WXMQEPQA
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: EN Wikipedia states Soken was the nephew of Nabe Matsumura and began karate training
+      at 13 under his uncle; corroborated by Soken's own 1978 interview with Ernie Estrada (student from
+      around 1902-1903) and the Alexander article (age 13, 1902, his uncle's only student)
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1902
+    hasEvidence:
+    - basedOnSource: 01KZC8XAP8C0KB4ATDTWXGA6PY
+      quotation: He was the nephew of Nabe Matsumura [...] He began karate training at 13 under his uncle.
+        Matsumura taught him several kata [...] and finally at age 23, Hakutsuru.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZH9CVME98TN7Z21Q83X7MRC
+      quotation: I became a student of my uncle around 1902 or 1903 and learned the original methods of
+        Uchinan Sui-di, as it was then called [...] When Bushi Matsumura died he left the "hands" of his
+        teachings to my uncle, who was his grandson, Matsumura Nabe. My mother was Nabe-tanmei's sister.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZH9CVME1HC9XQTPH42B96FP
+      quotation: Master Soken began training in karate at age thirteen in 1902 under his Uncle Nabe Matsumura [...]
+        My uncle had only one student, and that was me.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZH9CVMEHQYXEP0PHH409T30
+      quotation: 祖堅方範は12歳頃より母の兄で伯父であるナビータンメー（翁）に唐手（現・空手）を師事した。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZC8XAP8C0KB4ATDTWXGA6PY
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZH9CVMEHQYXEP0PHH409T30
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZH9CVME1HC9XQTPH42B96FP
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZH9CVME98TN7Z21Q83X7MRC
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZKWYWG3Z0Q0Y5GVPB6HQ4BP
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZKWYWG3THWY668CPXZAYG68
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q3139173
+tags:
+- karate
+- shorin-ryu
+- shuri-te

@@ -1,0 +1,87 @@
+type: Person
+id: 01M5JPY6FNJBK7WVKR797CX3WY
+name:
+  en: Larry Foley
+aka:
+  en:
+    - Laurence Foley
+    - Father of Australian Boxing
+nationality:
+  - countryCode: eucountry:AUS
+    wikidata: wd:Q408
+birthEvent:
+  birthDate: '1849-12-12'
+  birthPlace:
+    label: Sofala, New South Wales
+    countryCode: eucountry:AUS
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNQFQ8KJC0YEQ1ZPSY
+      quotation: >-
+        Laurence 'Larry' Foley (12 December 1849 – 12 July 1917) was an Australian middleweight boxer.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1917'
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNQFQ8KJC0YEQ1ZPSY
+      quotation: >-
+        Laurence 'Larry' Foley (12 December 1849 – 12 July 1917) was an Australian middleweight boxer.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/en/0/0c/Larry_Foley.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://en.wikipedia.org/wiki/File:Larry_Foley.jpg
+    cite: "English Wikipedia"
+    informationType: infotype:secondary
+description:
+  en: >-
+    Australian middleweight boxer and teacher, "Father of Australian Boxing", a protégé of Jem Mace. After
+    beating Abe Hicken in 1879 he opened a boxing academy at his White Horse Hotel in Sydney, with Mace as
+    an instructor, introduced the Queensberry Rules to Australia, and trained Bob Fitzsimmons, Peter
+    Jackson, Young Griffo and Frank Slavin. He controlled Australian boxing into the early 1900s.
+notes: >-
+  en Wikipedia gives his death as 12 July 1917 in the lead and 7 December 1917 in the infobox; only the
+  year is recorded.
+hasTeacherAssertion:
+  - id: 01M5JPY6FNP3V4VQBRFBMXHEYT
+    teacher: 01M5JPY6FNZ219F9GMWP2YDSQ3
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+    role: teachrole:coach
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1879
+        hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Sydney’s first important promoter was Laurence “Larry” Foley (ca. 1849–1917), a Jem Mace
+              protégé who effectively controlled Australian boxing from the 1870s to the early 1900s.
+            locator: '468'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JPY6FNQFQ8KJC0YEQ1ZPSY
+            quotation: >-
+              Former English champion Jem Mace, who trained Foley for his championship bout with Hicken,
+              helped open the school and continued as an instructor.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JPY6FNQFQ8KJC0YEQ1ZPSY
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q16198683
+tags:
+  - boxing
+  - australia

@@ -1,0 +1,44 @@
+type: Person
+id: 01KZC19BDCMDJAKE5QDD2H83NE
+name:
+  en: Jim Alcheik
+nationality:
+- countryCode: eucountry:FRA
+  wikidata: wd:Q142
+deathEvent:
+  deathDate: '1962'
+description:
+  en: French martial artist, a student of Minoru Mochizuki, whose death in 1962 brought Hiroo Mochizuki
+    back to France to take over his growing following.
+hasTeacherAssertion:
+- id: 01M3YH7N5G7V9VGJ19H5JX86RA
+  teacher: 01KJJAWN28MWKKSN4J02MVY1TX
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The English Wikipedia article on Yoseikan budo describes Alcheik as a student
+      of Minoru Mochizuki and records his death in 1962
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZBJ73N380W3DH33JYQDS8QY
+      quotation: Introducing karate in France in 1957, he returned to the country after the death of one
+        of his father's students Jim Alcheik in 1962 and took over the large following that was growing
+        for the art in that country.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZBJ73N380W3DH33JYQDS8QY
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+notes: No Wikipedia article on Jim Alcheik exists in English or French as of this writing; this stub is
+  anchored on the Yoseikan budo article. A historical figure for French karate and aikido (pioneer of
+  aikido in France, died in Algeria in 1962) - needs a proper biography and sources.
+tags:
+- karate
+- aikido
+- france
+- work-needed

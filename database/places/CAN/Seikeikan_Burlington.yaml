@@ -1,0 +1,58 @@
+type: Place
+id: 01M5HP829FCAP4F046TRE6H8KC
+name:
+  en: Seikeikan
+aka:
+  en: Burlington Judo Club
+placeType: placeclass:club
+hasSite:
+  - location:
+      label: Burlington, Ontario
+      countryCode: eucountry:CAN
+      wikidata: wd:Q34218
+foundedEvent:
+  startDate: '1946'
+  founder:
+    - 01M5H5N9SHC3GSHWJ1MJ2N4XFR
+  hasEvidence:
+    - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+      quotation: >-
+        As demanding as his job was, in 1946 he founded the Burlington Judo Club, the Seikeikan.
+      locator: '106'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Judo club in Burlington, Ontario, founded in 1946 by Masatoshi Umetsu.
+hasInstructorRole:
+  - id: 01M5HP829FPQQCC413JMQXETKE
+    instructor: 01M5H5N9SHC3GSHWJ1MJ2N4XFR
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1946
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only; it implies the role but does not state it.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+        quotation: >-
+          Ron Angus, an Umetsu student for 33 years, recalls that Umetsu-sensei was a very patient and
+          methodical teacher
+        locator: '106'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    locator: '106'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - canada

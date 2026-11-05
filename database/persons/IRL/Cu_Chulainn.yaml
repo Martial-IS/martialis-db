@@ -1,0 +1,76 @@
+type: Person
+id: 01M5JWHXPX4JHBF6KD954FC12Z
+name:
+  en: Cú Chulainn
+aka:
+  en:
+    - Cuchulain
+description:
+  en: >-
+    Warrior hero of the Ulster Cycle of Irish mythology, trained in combat by Scáthach; the earliest Irish
+    literary reference to wrestling has him wrestle an invader from Scotland.
+hasHistoricityAssertion:
+  - id: 01M5JWHXPXQJGMFJZG9HQ088HP
+    historicity: hist:legendary
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        One source places him in myth; the other implies it.
+    hasEvidence:
+      - basedOnSource: 01M5JWHXPX0KVF6XPEPV2CXCCP
+        quotation: >-
+          is an Irish warrior hero and demigod in the Ulster Cycle of Irish mythology, as well as in
+          Scottish and Manx folklore.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          This story is a variation of a standard Indo-European myth.
+        locator: '223'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+hasTeacherAssertion:
+  - id: 01M5JWHXPXY8T9CE5DD1R9SG6S
+    teacher: 01M5JWHXPX7PD7RQ240KHEB3W6
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JWHXPX0BKNND8KCA3R6J9V
+            quotation: >-
+              is a legendary Scottish warrior woman and martial arts teacher who trains the legendary
+              Ulster hero Cú Chulainn in the arts of combat.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      In Irish literature, the earliest reference to wrestling is when the hero Cú Chulainn put on his
+      belt to wrestle an invader from Scotland.
+    locator: '223'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q211955
+tags:
+  - legend
+  - wrestling
+  - ireland
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/4/4a/Cuchulainn%27s_death%2C_illustration_by_Stephen_Reid_1904.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Cuchulainn%27s_death,_illustration_by_Stephen_Reid_1904.jpg
+    cite: "Stephen Reid, Wikimedia Commons"
+    informationType: infotype:secondary

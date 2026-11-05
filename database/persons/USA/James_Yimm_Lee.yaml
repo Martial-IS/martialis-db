@@ -1,0 +1,163 @@
+type: Person
+id: 01KYDB2SWEEF9ECH5JCW95ZN6B
+name:
+  en: James Yimm Lee
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+birthEvent:
+  birthDate: '1920-01-31'
+  birthPlace:
+    countryCode: eucountry:USA
+    wikidata: wd:Q30
+  hasEvidence:
+  - basedOnSource: 01KYDB2SWBBPQW5ZGCQ05BA848
+    quotation: >-
+      James Yimm Lee (January 31, 1920 – December 30, 1972)
+    cite: James Yimm Lee (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1972-12-30'
+  deathPlace:
+    label: Oakland
+    countryCode: eucountry:USA
+    wikidata: wd:Q17042
+  hasEvidence:
+  - basedOnSource: 01KYDB2SWBBPQW5ZGCQ05BA848
+    quotation: >-
+      James Yimm Lee (January 31, 1920 – December 30, 1972)
+    cite: James Yimm Lee (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/5/53/James_Yimm_Lee.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:James_Yimm_Lee.jpg
+    cite: "Lodewijk Vadacchino, Wikimedia Commons"
+    informationType: infotype:secondary
+    evidenceType: evidencetype:direct
+description:
+  en: >-
+    James Yimm Lee (1920–1972) was an American martial arts pioneer, teacher, author, and publisher. No
+    relation to Bruce Lee, he was already an established kung fu and iron-palm instructor in Oakland when he
+    chose to train with Bruce, twenty years his junior; the two opened the Oakland branch of the Jun Fan Gung
+    Fu Institute, and James taught jeet kune do in his garage. He was one of three students Bruce certified
+    as instructors, and authored 'Wing Chun Kung Fu' (1972) with a foreword by Bruce Lee.
+notes: >-
+  The relationship with Bruce Lee ran both ways: the sources call James Bruce's mentor, partner and training
+  partner, and also say he trained with Bruce and was certified by him. He was twenty years older and already
+  an established teacher when they met (Like Water: first contact in mid-1962).
+hasTeacherAssertion:
+- id: 01M3YH7N5GV99ZGEFFZTMTPHT4
+  teacher: 01KYD5XMNMNAG3CPC17GKACPW0
+  assertedStyle: 01KYD5XSZPND9XV5FHYG9V0ZV6
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Independent sources state it; the sources also describe him as Bruce's senior,
+      mentor and partner.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        differs from other students of Bruce Lee (such as Taky Kimura, James Lee, Jerry Poteet, and Ted
+        Wong)
+      locator: '481'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5CTXKSPATSQYQ5CGMJ5GAFH
+      quotation: >-
+        Although he was 20 years older than Bruce Lee, the open-minded James Yimm Lee decided to train with
+        him and absorb what this talented young practitioner had to offer.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5CTXKSPATSQYQ5CGMJ5GAFH
+      quotation: >-
+        And he was one of only three students Bruce Lee certified as instructors in his system.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KYDB2SWBBPQW5ZGCQ05BA848
+      cite: James Yimm Lee (Wikipedia EN)
+      quotation: James Lee is known for being a mentor, teacher and friend of Bruce Lee
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:indirect
+- id: 01M5CTXKSP9QV9NZWEQ9AE7VMX
+  teacher: 01M5CTXKSPQ3955CRBE2MH0X09
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Like Water states it; no record from Okazaki or a second source.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KYD5XMNMC3D3DST96C876VKM
+      locator: '127'
+      locatorLabel: page
+      quotation: >-
+        a group that included James Lee and Wally Jay, two students of the influential teacher Seishiro
+        “Henry” Okazaki.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M5CTXKSPTYEB2GYDK94VWBN9
+  teacher: 01M5CTXKSPXQJET6EDKVP5CCGD
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Like Water states it; no record from Wong or a second source.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KYD5XMNMC3D3DST96C876VKM
+      locator: '132'
+      locatorLabel: page
+      quotation: >-
+        The success of James Lee’s first book inspired him to write another, this one coauthored with his
+        sifu, T. Y. Wong.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasHonorAssertion:
+- id: 01M5CTXKSPKC885JXKA97C0ZPD
+  honorValue: Instructor certification in Bruce Lee's system
+  honorType: honortype:certificate
+  grantedBy: 01KYD5XMNMNAG3CPC17GKACPW0
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: One magazine profile states it; no certificate or record from Bruce Lee.
+  hasEvidence:
+  - basedOnSource: 01M5CTXKSPATSQYQ5CGMJ5GAFH
+    quotation: >-
+      And he was one of only three students Bruce Lee certified as instructors in his system.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KYDB2SWBBPQW5ZGCQ05BA848
+  cite: James Yimm Lee (Wikipedia EN)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KYD5XMNMC3D3DST96C876VKM
+  cite: 'Maeda (2022) - Like Water: A Cultural History of Bruce Lee'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q15439912
+tags:
+- jeet-kune-do
+- jun-fan-gung-fu
+- oakland
+- author

@@ -1,0 +1,34 @@
+type: Person
+id: 01M6EFJQBC1GGHXYN3W2X4SZA7
+name:
+  ja-Latn: Noma Hisashi
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+description:
+  en: >-
+    Kendoka, son of the Kōdansha founder Noma Seiji, whose Noma dojo he trained in; won the 1934
+    tenran-jiai final against Fujimoto Kaoru as renshi 6th dan.
+hasTeacherAssertion:
+- id: 01M6EFJQBD96HP20RYR4JXDK67
+  teacher: 01KZ6XT5DSD1RN1NG4PJKJWXAH
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9W
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Single kenshi247 article.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M6EF6KKA5RH8V7Y9M2V1D2VY
+      quotation: Noma Hisashi, renshi 6dan, was the prodigal son of an influential public figure, and the favourite student of Nakayama Hakudo, the omote-shinpan.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M6EF6KKA5RH8V7Y9M2V1D2VY
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- kendo

@@ -1,0 +1,78 @@
+type: Person
+id: 01KYZFG5QVZEAAZGT4947RHWEX
+name:
+  en: Reyson Gracie
+  pt: Reyson Gracie
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+birthEvent:
+  birthDate: '1942-02-28'
+  birthPlace:
+    label: Rio de Janeiro
+    countryCode: eucountry:BRA
+    wikidata: wd:Q8678
+  hasEvidence:
+    - basedOnSource: 01M34S2PJYYCXDEC08S2GFDB50
+      quotation: Reyson Gracie was born on the 28th of February, 1942 in Rio de Janeiro, Brazil.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M3YH7N5GN6553WD85RGSW9V2
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TN
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: BJJ Heroes lineage lists Carlos Gracie Sr. as Reyson's teacher, and Wikidata lists Carlos Gracie Sr. as his father and student relation
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M34S2PJYYCXDEC08S2GFDB50
+            quotation: 'Lineage: Mitsuyo Maeda > Carlos Gracie sr > Reyson Gracie'
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+description:
+  en: 'Brazilian jiu-jitsu master, third son of BJJ co-founder Carlos Gracie. A 9th-degree red belt, he is regarded as the founder of Brazilian jiu-jitsu in the state of Amazonas, where he taught in Manaus in the late 1970s, and also helped develop the art in Bahia. He was the BJJ teacher of Osvaldo Alves.
+
+'
+  pt: 'Mestre de jiu-jitsu brasileiro, terceiro filho de Carlos Gracie, cofundador do BJJ. Faixa vermelha 9º grau, é considerado o fundador do jiu-jitsu brasileiro no estado do Amazonas, onde ensinou em Manaus no final dos anos 1970, e também contribuiu para o desenvolvimento da arte na Bahia. Foi o professor de BJJ de Osvaldo Alves.
+
+'
+image:
+  contentUrl: https://www.acritica.com/wp-content/uploads/2022/08/1.279864.jpg
+  imageAttribution:
+    uri: https://www.acritica.com/opiniao/o-primeiro-faixa-vermelha-do-jiu-jitsu-amazonense/
+    cite: "A Crítica"
+    informationType: infotype:secondary
+hasRankAssertion:
+  - id: 01M3YH7N5G1BWWEK5EKS781VTZ
+    rankStyle: 01KJJAWN29MA64W22606R3WD9J
+    rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+    rankOrdinal: 9
+    rankGrade: rankgrade:bjj_red
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: BJJ Heroes states Reyson Gracie became a 9th-degree red belt
+    hasEvidence:
+      - basedOnSource: 01M34S2PJYYCXDEC08S2GFDB50
+        quotation: Reyson Gracie is the third son of Gracie jiu jitsu founder, Carlos Gracie who became a 9th degree (nono grau) red belt in the family's martial art.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M34S2PJYYCXDEC08S2GFDB50
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q7319706
+tags:
+  - brazilian-jiu-jitsu
+  - gracie-family
+  - red-belt
+  - amazonas
+  - brazilian

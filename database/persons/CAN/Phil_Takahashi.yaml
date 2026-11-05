@@ -1,0 +1,45 @@
+type: Person
+id: 01M5H64D94A2JQ6DDZ3ESEVDCC
+name:
+  en: Phil Takahashi
+nationality:
+  - countryCode: eucountry:CAN
+    wikidata: wd:Q16
+description:
+  en: >-
+    Canadian judoka from Ottawa, son and pupil of Mas Takahashi; ten national titles at 60 kg, world
+    championship bronze medallist in 1981 and member of three Olympic teams (1980, 1984, 1988).
+hasTeacherAssertion:
+  - id: 01M5H64D94XQ38Q6APERWANDZB
+    teacher: 01M5H57MAG42XDXSZKA74ZYR85
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              Sensei: Mas Takahashi
+            locator: '77'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    quotation: >-
+      Phil Takahashi grew up in a dojo. Not because his father Mas was a sensei and a dojo owner, but
+      because Phil wanted to be there.
+    locator: '77'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q5477435
+tags:
+  - judo
+  - canada

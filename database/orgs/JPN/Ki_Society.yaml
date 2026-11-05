@@ -1,0 +1,59 @@
+type: Organization
+id: 01KZVDNBGATXJFQGQCGW736RR6
+name:
+  en: Ki Society
+  ja-Latn: Ki no Kenkyūkai
+  ja: 氣の研究会
+aka:
+  en:
+    - Ki Society International
+    - Ki No Kenkyukai
+orgType: orgclass:association
+hasSite:
+  - location:
+      label: Tokyo
+      countryCode: eucountry:JPN
+      wikidata: wd:Q1490
+foundedEvent:
+  startDate: '1971'
+  founder:
+    - 01KZSRDXQW9QBDT9VR9P08RBYT
+  hasEvidence:
+    - basedOnSource: 01KZVDNBGA10DSEWNVPRZV3P79
+      quotation: Ki Aikido started in 1971 with the creation of the Ki No Kenkyūkai (known in English as Ki Society) by Koichi Tohei
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M3YH7N5FC2H7KD6N6SKR45XH
+    relatedOrganization: 01KZ3KA57C6W6FMCWM668Y13X2
+    affiliationRelation: affrel:derived_from
+    validDuring:
+      startYear: 1974
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Tohei split from the Aikikai in 1974 to focus full-time on the Ki Society; the Ki Society emerged from a schism within the Aikikai without claiming to be its official continuation
+    hasEvidence:
+      - basedOnSource: 01KZVDNBGA10DSEWNVPRZV3P79
+        quotation: Eventually Tohei split from the Aikikai in 1974 to focus full time on his new organization
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+website: https://ki-society.com/
+description:
+  en: Organization founded by Koichi Tohei in 1971, known in English as the Ki Society, promoting Shin Shin Toitsu Aikido (Ki Aikido), the style of aikido based on Tohei's teaching of mind-body coordination. Tohei founded it while still chief instructor of the Aikikai Hombu Dojo and split from the Aikikai in 1974. The teaching later split into several federations, including the Ki Society under Tohei and later his son Shin'ichi Tohei.
+  ja: 藤平光一が1971年に創設した組織。英語ではKi Societyと呼ばれ、心身統一合氣道（氣の合氣道）を普及する。合気会本部師範在任中に創設し、1974年に合気会から分派した。後に複数の連盟に分裂し、Ki Societyは藤平光一の後を子の藤平信一が継いだ。
+hasEvidence:
+  - basedOnSource: 01KZVDNBGA10DSEWNVPRZV3P79
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZSRDXQW6CWJJ3JJQW3H48VK
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - aikido
+  - japan
+  - ki-aikido

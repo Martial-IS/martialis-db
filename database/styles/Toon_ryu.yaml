@@ -1,0 +1,89 @@
+type: Style
+id: 01M5H668X7FFH4YSCZ0CQE4B1T
+name:
+  en: To'on-ryu
+  ja: 東恩流
+  ja-Latn: Tōon-ryū
+aka:
+  en:
+    - To'on Ryu
+styleType: styleclass:modern
+foundedEvent:
+  founder:
+    - 01M5H3PSF457SXMCD5MVRJGV8A
+  hasEvidence:
+    - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+      quotation: >-
+        Kyoda was an extremely devoted student of Kanryo Higaonna and named his style after his
+        teacher. To’on Ryu uses the Chinese pronunciation of the kanji characters (東恩流) used to write
+        Higaonna’s name.
+      locator: '117'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Okinawan karate style of Juhatsu Kyoda, named after his teacher Kanryo Higaonna (東恩納). Close to
+    Goju-ryu but with its own kata syllabus and execution; it adds Jion (from Yabu Kentsu) and Neipai
+    (from Wu Xiangui).
+hasStyleRelationAssertion:
+  - id: 01M5H668X76B3HAWFYQZBGVJ1W
+    relatedStyle: 01KYHF558ARZ926BRSVJNWCTGE
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One source states it; Cramer implies it.
+    hasEvidence:
+      - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+        quotation: >-
+          Kyoda was an extremely devoted student of Kanryo Higaonna and named his style after his
+          teacher.
+        locator: '117'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+      - basedOnSource: 01KYHF558AX2APCXHRG550QP3C
+        quotation: The successor styles to Naha-te include Shōrei-ryū (earliest school), Gōjū-ryū, Uechi-ryū, Ryūei-ryū, Shito-ryu and Tōon-ryū.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5H668X77R6TZ9MXJQG6DFGD
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9S
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: Implied by two sources; neither states it directly.
+    hasEvidence:
+      - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+        quotation: >-
+          Many people dismiss this style as being essentially another branch of Goju Ryu. However, this
+          is an inaccurate simplification of both Goju Ryu and To’on Ryu.
+        locator: '117'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+      - basedOnSource: 01KYHF558AX2APCXHRG550QP3C
+        quotation: The successor styles to Naha-te include Shōrei-ryū (earliest school), Gōjū-ryū, Uechi-ryū, Ryūei-ryū, Shito-ryu and Tōon-ryū.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+    quotation: >-
+      To’on Ryu includes two kata that are not found in Goju Ryu: Jion, which Kyoda learned from Yabu
+      Kensu, and Neipai, which he learned from Wu Xiangui.
+    locator: 117-118
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q941675
+tags:
+  - karate
+  - okinawan-martial-arts

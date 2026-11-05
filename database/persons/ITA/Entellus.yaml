@@ -1,0 +1,83 @@
+type: Person
+id: 01M5JWHXPX8K0MVPHPAZWMD5ZD
+name:
+  en: Entellus
+description:
+  en: >-
+    Trojan or Sicilian hero, eponym of Entella, who in the fifth book of Virgil's Aeneid comes out of
+    retirement to box the young Trojan Dares, first offering the bloodstained caestus of his brother Eryx,
+    wins, and kills the prize bull with one blow.
+hasTeacherAssertion:
+  - id: 01M61PWHY3YSWYVW9FNTPSAS3T
+    teacher: 01M5JWHXPX9MPDHE244C30HT26
+    assertedStyle: 01M5JWHXPXVN2GWPT338C6HCAW
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The Aeneid itself, in Acestes' words; one source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M61PWHY3MR664H0JAG42XX2R
+            quotation: >-
+              ubi nunc nobis deus ille, magister nequiquam memoratus, Eryx?
+            locator: 391–392
+            locatorLabel: line
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+hasHistoricityAssertion:
+  - id: 01M5JWHXPXE97ZTC6T77XMW5WC
+    historicity: hist:legendary
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources place him in legend and fiction.
+    hasEvidence:
+      - basedOnSource: 01M5JWHXPX7E42GHMD75EYHH9M
+        quotation: >-
+          was a Trojan or Sicilian hero from whom the town of Entella in Sicily was believed to have
+          received its name.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Either way, in his fictional Aeneid V. 404–484, written about 29–19 BCE, Virgil (Publius
+          Vergilius Maro, 70–19 BCE) references the brutal nature of the caestus.
+        locator: '237'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      According to Virgil, a Sicilian boxer named Entellus intended to fight while wearing a pair of
+      metal-laden gloves that previously had been used by his brother Eryx.
+    locator: '237'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5JWHXPX7E42GHMD75EYHH9M
+    quotation: >-
+      A boxing match between Entellus and an arrogant younger boxer, Dares, is described in the fifth book
+      of Virgil's Aeneid.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q5380134
+tags:
+  - legend
+  - boxing
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/9/94/Stories_From_Virgil%2C_with_Twenty_Illustrations_from_Pinelli%27s_Designs_-_Entellus_killing_the_Bull.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Stories_From_Virgil,_with_Twenty_Illustrations_from_Pinelli%27s_Designs_-_Entellus_killing_the_Bull.jpg
+    cite: "Bartolomeo Pinelli, Wikimedia Commons"
+    informationType: infotype:secondary

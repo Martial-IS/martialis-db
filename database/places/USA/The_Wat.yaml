@@ -1,0 +1,52 @@
+type: Place
+id: 01KYYYTTW3C6YEVWBH1GZQXD0W
+name:
+  en: The Wat
+placeType: placeclass:gym
+hasSite:
+  - location:
+      label: New York City
+      countryCode: eucountry:USA
+      wikidata: wd:Q60
+    address: Manhattan, New York City, United States
+hasInstructorRole:
+  - id: 01M4R9845W23ZFDB8CAR35KZB3
+    instructor: 01KYSNKBS9J3KZDNJ437DJSRGG
+    instructorCapacity: instrcap:head_instructor
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia only.
+    hasEvidence:
+      - basedOnSource: 01M4R5BSEQ9RF1RKRS43AJA1SX
+        quotation: "He is the owner and senior instructor at The Wat in Manhattan."
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  hasEvidence:
+    - basedOnSource: 01M4R5BSEQ9RF1RKRS43AJA1SX
+      quotation: >-
+        He then created the Wat (the Thai word for Temple) in China Town.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: 'Muay Thai gym in Manhattan, New York City, owned and run by English former kickboxer Phil Nurse. Georges St-Pierre trained Muay Thai there with Nurse from 2006 to 2009.
+
+'
+hasEvidence:
+  - basedOnSource: 01M4R5BSEQ9RF1RKRS43AJA1SX
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYSNKBRXZBXTADEA0ET726M4
+    quotation: Between 2006 and 2009, St-Pierre trained in Muay Thai under Phil Nurse at the Wat in New York City.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - muay-thai
+  - gym
+  - new-york
+  - usa

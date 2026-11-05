@@ -1,0 +1,40 @@
+type: Person
+id: 01M5HNGWYJC3DRNE4VCXDMHNS5
+name:
+  ja-Latn: Ueno Takashi
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+description:
+  en: >-
+    Japanese martial artist (1899–1976), one of the small group of disciples to whom Takamatsu
+    Toshitsugu entrusted the transmission of his traditions.
+hasTeacherAssertion:
+  - id: 01M5HNGWYJQW8P27RZ6YPS6T9F
+    teacher: 01M5H4EE3XRVW4V7X8DV729BHS
+    assertedStyle: 01M5H4EE3XTQ71T3X541Y6MZYJ
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              he entrusted their transmission to a small group of disciples, to include Akimoto Fumio
+              (1894–1962), Ueno Takashi (1899–1976)
+            locator: '170'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: '170'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - ninjutsu

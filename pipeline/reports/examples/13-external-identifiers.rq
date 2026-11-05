@@ -1,0 +1,14 @@
+# Entities with a Wikidata identity (schema:sameAs to a wd: item), with an
+# English name where one exists.
+PREFIX schema: <https://schema.org/>
+
+SELECT ?entity ?entityName ?wikidata WHERE {
+  ?entity schema:sameAs ?wikidata .
+  FILTER(STRSTARTS(STR(?wikidata), "http://www.wikidata.org/entity/"))
+  FILTER(STRSTARTS(STR(?entity), "https://martial.is/entity/"))
+  OPTIONAL {
+    ?entity schema:name ?entityName .
+    FILTER(langMatches(LANG(?entityName), "en"))
+  }
+}
+LIMIT 20

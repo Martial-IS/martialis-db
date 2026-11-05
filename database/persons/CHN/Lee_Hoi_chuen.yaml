@@ -1,0 +1,83 @@
+type: Person
+id: 01KYJ80JXEQSD15B58MJM76PM3
+name:
+  en: Lee Hoi-chuen
+  zh: 李海泉
+aka:
+  en:
+  - Lee Moon-shuen
+nationality:
+- countryCode: eucountry:CHN
+  wikidata: wd:Q148
+birthEvent:
+  birthDate: '1901-02-04'
+  birthPlace:
+    label: Jun'an
+    countryCode: eucountry:CHN
+    wikidata: wd:Q167412
+  hasEvidence:
+  - basedOnSource: 01KYJ80JXE1BEMQX71ZNZ6BJHF
+    quotation: >-
+      Born Lee Moon-shuen 4 February 1901
+    cite: Lee Hoi-chuen (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1965-02-07'
+  deathPlace:
+    label: Kowloon
+    countryCode: eucountry:HKG
+    wikidata: wd:Q239143
+  hasEvidence:
+  - basedOnSource: 01KYJ80JXE1BEMQX71ZNZ6BJHF
+    quotation: >-
+      Died 7 February 1965 (aged 64)
+    cite: Lee Hoi-chuen (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: Chinese Cantonese opera singer and actor, one of the 'Four Great Clowns of Cantonese Opera'. He
+    practiced Taijiquan for decades and was his son Bruce Lee's first martial arts teacher, introducing
+    him to Tai Chi. He was part of a touring Cantonese opera company that was in San Francisco when Bruce
+    was born.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/4/46/Bruce_Lee_with_his_father_1940s.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Bruce_Lee_with_his_father_1940s.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M3YH7N5GAX1WF3NFVSDAE9CM
+  teacher: 01M1KSJ12QV3G5NSSC1EXEDAD4
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Baidu Baike states Lee Hoi-chuen apprenticed under the Cantonese opera performer
+      Xiaosheng Yi (小生奕) from 1911, who gave him his stage name and taught him both opera performance
+      and martial arts.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1911
+    hasEvidence:
+    - basedOnSource: 01M350YNTCDZZ6QDFNZ8W42R3D
+      quotation: 1911年，李满船在这里遇到粤剧名伶小生奕。得到父母的同意后，李满船正式拜小生奕为师学戏。小生奕为他起了一个艺名叫李海泉，之后李海泉跟他学戏亦习武。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KYJ80JXE1BEMQX71ZNZ6BJHF
+  cite: Lee Hoi-chuen (Wikipedia EN)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q712093
+- viaf:169661745
+tags:
+- cantonese-opera
+- taijiquan

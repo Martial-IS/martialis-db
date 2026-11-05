@@ -1,0 +1,109 @@
+type: Person
+id: 01M5KV9GA7NBXAWP0BY15DZPPQ
+name:
+  en: Gertrude Harding
+aka:
+  en:
+    - Gertrude Menzies Harding
+nationality:
+  - countryCode: eucountry:CAN
+    wikidata: wd:Q16
+birthEvent:
+  birthDate: '1889'
+  birthPlace:
+    label: Welsford, New Brunswick
+    countryCode: eucountry:CAN
+  hasEvidence:
+    - basedOnSource: 01M5KV9GA7AQGDHA9953SF6CHV
+      quotation: >-
+        Gertrude Menzies Harding (1889-1977) was a suffragette born on a farm in rural Canada.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Canadian-born Gertrude Harding (1878–1952)
+      locator: '635'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: false
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1977'
+  hasEvidence:
+    - basedOnSource: 01M5KV9GA7AQGDHA9953SF6CHV
+      quotation: >-
+        Gertrude Menzies Harding (1889-1977) was a suffragette born on a farm in rural Canada.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Canadian-born Gertrude Harding (1878–1952)
+      locator: '635'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: false
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/en/a/ab/Photo_of_Gertrude_Harding.jpg
+  rights: mediarights:in_copyright
+  imageAttribution:
+    uri: https://en.wikipedia.org/wiki/File:Photo_of_Gertrude_Harding.jpg
+    cite: "English Wikipedia, non-free file"
+    informationType: infotype:secondary
+description:
+  en: >-
+    Canadian-born suffragette who headed the WSPU's secret Bodyguard protecting Emmeline Pankhurst from
+    rearrest under the Cat and Mouse Act; the Bodyguard trained in jujitsu with Edith Garrud.
+notes: >-
+  Dates: en Wikipedia gives 1889–1977; Green and Svinth give 1878–1952.
+hasTeacherAssertion:
+  - id: 01M5KV9GA716ERSX72PG7TXWRD
+    teacher: 01M07J1EESSEPR2TSJWV1FWBG5
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9G
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Implied: head of the Bodyguard that Garrud trained.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1913
+          endYear: 1914
+        hasEvidence:
+          - basedOnSource: 01M5KV9GA7AQGDHA9953SF6CHV
+            quotation: >-
+              Of greatest note in her career with the WSPU is that Harding was asked to 'head up' the
+              secret bodyguard of women assigned to protect their leader, Mrs Emmeline Pankhurst, from
+              constant rearrest by Scotland Yard during the Cat and Mouse Act. The bodyguard learned
+              jujitsu from Edith Garrud and carried Indian clubs.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              It is estimated that there were around twenty-five members of this bodyguard, to include
+              Canadian-born Gertrude Harding (1878–1952)
+            locator: '635'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Between 1910 and 1913, Edith Garrud’s involvement with the suffragette movement deepened, and
+      eventually she became the trainer for Emmeline Pankhurst’s bodyguards.
+    locator: '635'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:indirect
+sameAs:
+  - wd:Q5553321
+tags:
+  - jujutsu
+  - suffragettes
+  - women

@@ -1,0 +1,55 @@
+type: Person
+id: 01M69YKDGGYKJBERRCQSXJH3T9
+name:
+  en: Lok Yiu
+  yue: 駱耀
+  zh: 駱耀
+  zh-Latn: Luo Yao
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/6/6e/Lok_Yiu.png
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Lok_Yiu.png
+    cite: "Dreamarena, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    Wing Chun practitioner in Hong Kong, staff member of the Restaurant Workers Union and one of Ip
+    Man's first students (1950).
+notes: >-
+  Judkins and Nielson pp. 227-228: one of two students (with Leung Sheung) who stayed in Ip Man's
+  second class of July 1950.
+hasTeacherAssertion:
+  - id: 01M69YKDGZ6RB2R0QCTZ52RF73
+    teacher: 01KYD5XMNM4DH8KAWBC1TE9BDJ
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1950
+        hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              In May of 1950, Ip Man opened his first public class. It was a small group with a total of eight
+              students. Leung Sheung, Lok Yiu, Lau Ming, Tsui Cho, Chan Kau, and Chan Sing Tao all enrolled.
+            locator: '227'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: '227-228'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3258710
+tags:
+  - wing-chun
+  - chinese-martial-arts

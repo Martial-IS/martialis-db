@@ -1,0 +1,37 @@
+type: Place
+id: 01KJJAWN29MA64W22606R3WD8T
+name:
+  en: Fukuda Hachinosuke dojo
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Tokyo
+      countryCode: eucountry:JPN
+      wikidata: wd:Q1490
+hasInstructorRole:
+  - id: 01M5G8WR4JF4ZJKHHJH3TMW1EK
+    instructor: 01KJJAWN28MWKKSN4J02MVY1S1
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1879
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Kano's own account only.
+    hasEvidence:
+      - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+        quotation: >-
+          In August 1879, shortly after this event, Master Fukuda collapsed and died. [...] I was
+          asked by Mrs. Fukuda to take possession of the densho and become the new master of the
+          dojo.
+        locator: '6'
+        locatorLabel: page
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTAV
+    quotation: His search brought him to Yagi Teinosuke, who had been a student of Emon Isomata in the Tenjin Shin'yō-ryū school of jūjutsu. Yagi, in turn, referred Kanō to Fukuda Hachinosuke, a bonesetter who taught Tenjin Shin'yō-ryū in a 10-mat room adjacent to his practice.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct

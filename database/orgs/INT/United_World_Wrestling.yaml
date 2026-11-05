@@ -1,0 +1,50 @@
+type: Organization
+id: 01M5JVVMHM2N0PX987J7Q3ECE0
+name:
+  en: United World Wrestling
+aka:
+  en:
+    - UWW
+    - FILA
+    - Fédération Internationale des Luttes Associées
+    - International Amateur Wrestling Federation
+    - IAWF
+orgType: orgclass:federation
+hasSite:
+  - location:
+      label: Corsier-sur-Vevey
+      countryCode: eucountry:CHE
+foundedEvent:
+  startDate: '1921'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        The first meeting of the International Amateur Wrestling Federation (IAWF) took place in 1921.
+      locator: '472'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5JVVMHM1BK4D47SHCS4CB35
+      quotation: >-
+        The UWW was formerly known as the International Amateur Wrestling Federation (IAWF) from 1921 to
+        1952 and the Fédération Internationale des Luttes Associées (FILA) prior to assuming its current
+        name in September 2014.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    International governing body of wrestling, founded in 1921 as the International Amateur Wrestling
+    Federation, later FILA, renamed United World Wrestling in 2014. It runs Greco-Roman and freestyle
+    wrestling at the Olympics and World Championships and has a partnership with the Celtic wrestling
+    federation (FILC).
+hasEvidence:
+  - basedOnSource: 01M5JVVMHM1BK4D47SHCS4CB35
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q688489
+tags:
+  - wrestling
+  - federation

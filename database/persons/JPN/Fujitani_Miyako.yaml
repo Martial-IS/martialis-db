@@ -1,0 +1,91 @@
+type: Person
+id: 01KZSRDXQWN4PX74TDZWBRY8G8
+name:
+  en: Miyako Fujitani
+  ja: 藤谷 美也子
+aka:
+  en: Miyako Fujitani Seagal
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1947'
+  birthPlace:
+    label: Kobe
+    countryCode: eucountry:JPN
+    wikidata: wd:Q48320
+description:
+  en: Japanese aikido teacher and current head instructor of the Tenshin Dojo in Osaka. Daughter of the
+    Jūsō aikido master, she was granted 1st dan by the founder Morihei Ueshiba. She married Steven Seagal
+    in 1974 and co-established the Tenshin Dojo; after Seagal returned to the United States she ran the
+    dojo on her own. Currently holds the rank of 7th dan. She was the
+    model for the female aikido teacher Hanayama Yuriko in the NHK morning drama 'Man-tian'.
+  ja: 大阪・天心道場の現道場長。十三の合気道師範の娘で、開祖植芝盛平翁より初段を允可される。1974年にスティーブン・セガールと結婚し天心道場を設立。セガール帰国後は一人で道場を切り盛りした。現在合気道七段。NHK連続テレビ小説『まんてん』の花山百合子のモデルとなった。
+hasTeacherAssertion:
+- id: 01M3YH7N5GFAT3S6GJ9TYBBYDR
+  teacher: 01KJJAWN28MWKKSN4J02MVY1TV
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Tenshin Dojo's own instructor profile states she was granted shodan by Morihei
+      Ueshiba; no independent source corroborates it
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M58NCDXN8S3SVSY410S56JB1
+      quotation: 10代の頃より合気道を始め、合気道開祖植芝盛平翁より初段を允可される
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5G0F31GR11JAPJWGNR
+  rankStyle: 01KJJAWN29MA64W22606R3WD9R
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 1
+  conferredBy: 01KZ3KA57C6W6FMCWM668Y13X2
+  grantedBy: 01KJJAWN28MWKKSN4J02MVY1TV
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Shodan granted by founder Morihei Ueshiba per Tenshin Dojo's official instructor
+      profile; no independent source corroborates it
+  hasEvidence:
+  - basedOnSource: 01M58NCDXN8S3SVSY410S56JB1
+    quotation: 合気道開祖植芝盛平翁より初段を允可される
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5G9R9ZDRE823JPCRZ3
+  rankStyle: 01KJJAWN29MA64W22606R3WD9R
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 7
+  conferredBy: 01KZ3KA57C6W6FMCWM668Y13X2
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Current rank reported by Tenshin Dojo's official site as 7th dan shihan; no independent
+      source corroborates it
+  hasEvidence:
+  - basedOnSource: 01M58NCDXN8S3SVSY410S56JB1
+    quotation: 現在、合気道七段 師範
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZSRDXQW7MKZ8EDQ9ECVMFHX
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZSRDXQWRTSSQ3VB91WA43H0
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q107097546
+tags:
+- aikido
+- japan
+- teacher

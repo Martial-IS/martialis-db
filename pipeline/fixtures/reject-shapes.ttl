@@ -1,0 +1,72 @@
+### Negative control for `make shacl`: a few triples that deliberately violate
+### hand-authored blocking constraints, so the harness proves that validation
+### can reject a known-bad graph. Not a record, so no entity directory owns it
+### and `make schema` never sees it.
+
+@prefix martialis: <https://w3id.org/martialis/ontology#> .
+
+# PersonBirthAfterDeathShape: earliest birth year after latest death year.
+<https://martial.is/entity/control-person> a martialis:Person ;
+    martialis:birthEvent <https://martial.is/entity/control-person-birth> ;
+    martialis:deathEvent <https://martial.is/entity/control-person-death> .
+
+<https://martial.is/entity/control-person-birth> martialis:earliestYear 1900 .
+
+<https://martial.is/entity/control-person-death> martialis:latestYear 1850 .
+
+# TimeIntervalOrderShape: endYear before startYear.
+<https://martial.is/entity/control-interval> a martialis:TimeInterval ;
+    martialis:startYear 1900 ;
+    martialis:endYear 1800 .
+
+# TeacherInteractionEvidenceShape: a TeacherInteraction with no martialis:hasEvidence.
+<https://martial.is/entity/control-interaction> a martialis:TeacherInteraction .
+
+# SiteContainmentCycleShape: a Place whose site sits within the Place itself.
+<https://martial.is/entity/control-place> a martialis:Place ;
+    martialis:hasSite <https://martial.is/entity/control-place/hasSite/0> .
+
+<https://martial.is/entity/control-place/hasSite/0> a martialis:Site ;
+    martialis:withinPlace <https://martial.is/entity/control-place> .
+
+# SourceSpecializationShape: an untitled resource, an undated state that
+# restates the resource's url, a state of a state, and evidence citing the
+# resource instead of a state.
+<https://martial.is/entity/control-source> a martialis:Source ;
+    <https://schema.org/url> <https://example.org/page> .
+
+<https://martial.is/entity/control-source-state> a martialis:Source ;
+    martialis:specializationOf <https://martial.is/entity/control-source> ;
+    <https://schema.org/url> <https://example.org/page> .
+
+<https://martial.is/entity/control-source-substate> a martialis:Source ;
+    martialis:specializationOf <https://martial.is/entity/control-source-state> .
+
+<https://martial.is/entity/control-evidence> a martialis:SourceAssertionRelation ;
+    martialis:basedOnSource <https://martial.is/entity/control-source> .
+
+# UnidentifiedTeacherAnchorShape: a teacher claim with no teacher whose
+# interaction has neither a Place/Event anchor nor a dated period.
+<https://martial.is/entity/control-unidentified> a martialis:TeacherAssertion ;
+    martialis:hasInteraction <https://martial.is/entity/control-unidentified/hasInteraction/0> .
+
+<https://martial.is/entity/control-unidentified/hasInteraction/0> a martialis:TeacherInteraction ;
+    martialis:hasEvidence <https://martial.is/entity/control-unidentified/hasInteraction/0/hasEvidence/0> .
+
+# SameAsUniqueShape: two records claiming the same external identity.
+<https://martial.is/entity/01ARZ3NDEKTSV4RRFFQ69G5FAV> <https://schema.org/sameAs> <http://www.wikidata.org/entity/Q1> .
+<https://martial.is/entity/01BX5ZZKBKACTAV9WEVGEMMVRZ> <https://schema.org/sameAs> <http://www.wikidata.org/entity/Q1> .
+
+# IdentityAssertionSelfShape, StyleRelationSelfShape, AffiliationSelfShape: a
+# claim whose other end is the record that holds it. Their paths sit inside
+# sh:sparql, where the aliveness check cannot see them, so this is what proves
+# they still match the export's predicates.
+<https://martial.is/entity/control-self-person> martialis:hasIdentityAssertion <https://martial.is/entity/control-self-identity> .
+<https://martial.is/entity/control-self-identity> a martialis:IdentityAssertion ;
+    martialis:identityCandidate <https://martial.is/entity/control-self-person> .
+<https://martial.is/entity/control-self-style> martialis:hasStyleRelationAssertion <https://martial.is/entity/control-self-relation> .
+<https://martial.is/entity/control-self-relation> a martialis:StyleRelationAssertion ;
+    martialis:relatedStyle <https://martial.is/entity/control-self-style> .
+<https://martial.is/entity/control-self-org> martialis:hasAffiliationAssertion <https://martial.is/entity/control-self-affiliation> .
+<https://martial.is/entity/control-self-affiliation> a martialis:AffiliationAssertion ;
+    martialis:relatedOrganization <https://martial.is/entity/control-self-org> .

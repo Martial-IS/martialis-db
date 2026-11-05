@@ -1,0 +1,224 @@
+type: Person
+id: 01KZC4PN01Y3PH3HRWWJPAH82A
+name:
+  ja-Latn: Kyan Chōtoku
+  ja: 喜屋武朝徳
+aka:
+  en:
+  - Kyan Chotoku
+  - Choutoku Kyan
+  - Chotoku Kyan
+  - Chotoku Kiyan
+  ja:
+  - きゃん ちょうとく
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: 1870-12
+  birthPlace:
+    label: Shuri
+    countryCode: eucountry:JPN
+    wikidata: wd:Q608415
+  hasEvidence:
+  - basedOnSource: 01KZC8XAP8GFT4QTW7VX69KQTS
+    quotation: >-
+      Chotoku Kyan (喜屋武 朝徳; December 1870 – 20 September 1945) [...] was born the third son of Chofu Kyan [...] originally belonged to the Kyan clan of senior court officials having home territory in Shuri Gibu village
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1945-09-20'
+  deathPlace:
+    label: Ishikawa
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1044032
+  hasEvidence:
+  - basedOnSource: 01KZC8XAP8GFT4QTW7VX69KQTS
+    quotation: Kyan survived the Battle of Okinawa in 1945, but died from fatigue and malnutrition in
+      September of that year.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Kyan%20Chotoku.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Kyan_Chotoku.jpg
+    cite: Wikimedia Commons via Wikidata
+    informationType: infotype:secondary
+description:
+  en: Okinawan karate master (1870-1945), third son of court official Chōfu Kyan; studied under Matsumura
+    Sōkon, Kōkan Oyadomari and Kōsaku Matsumora, and had a large influence on Shorin-ryu and related styles;
+    a participant in the 1936 meeting of Okinawan masters where the term "karate" was standardized.
+notes: Kyan studied under Matsumura Sōkon from age 16 for two years; afterwards he moved to Tokyo with
+  his father into the circle of the former king Shō Tai, and after returning studied Tomari-te with Kōsaku
+  Matsumora and Kōkan Oyadomari (probably around age 20, though the sources disagree on the chronology).
+  The Seibukan official history (of student Shimabukuro Zenryo) records that Kyan received his first karate
+  instruction from his father at Meiji 8 (1875) and from the age of 16 learned the Seisan and Gojushiho
+  kata from Matsumura Sokon through his father, then at 20 studied under Matsumura (Shuri-te) and Oyadomari
+  (Tomari-te); it also gives the Kyan family descent from Shosei King's tenth prince, Haneji Prince Chomu,
+  Kyan's study of Chinese classics at the Nisshisha school in Tokyo from age 12, and his later teaching
+  around the Hija River from age 38. Geoffrey Gaudion's account adds that Kyan's father asked three masters
+  - Matsumura Sokon, Anko Itosu and Pechin Oyadomari - to teach his son (the Itosu connection appears
+  only in this source). His father Chōfu, himself a student of Matsumura Sōkon, possibly taught Kyan tegumi
+  in his early years. Kyan was small and asthmatic with poor eyesight, nicknamed Chan Migwa ("squinty-eyed
+  Chan"). Tatsuo Shimabuku and Zenryō Shimabukuro trained with him for over 10 years each.
+hasTeacherAssertion:
+- id: 01M3YH7N5GBWQQMXMHAWPS65DR
+  teacher: 01KJJAWN29MA64W22606R3WD6A
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9F
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      EN Wikipedia states Kyan studied under Matsumura Sōkon from the age of 16 for two years; two other
+      sources confirm it.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1886
+      endYear: 1888
+    hasEvidence:
+    - basedOnSource: 01KZC8XAP8GFT4QTW7VX69KQTS
+      quotation: From the age of 16 Chōtoku studied under Matsumura Sōkon for two years.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZEV344570PFVXKKNTX5GYQP
+      quotation: 朝徳は、数え年１４才になった時、父朝扶から初めて空手の指導を受け、１６歳頃になると父を介して松村宗棍からセイサンや五十四歩の型を学んだ。[...]20歳のときに帰省し、首里手の松村宗棍、泊手の親泊興寛に師事し、空手道の大家となる。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZHA2591RH73019S4FQ5AWAH
+      quotation: Kyan (who was a disciple of Matsumura Sokon of Shuri, among others).
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5G0WGRSXDE63YCN3JC
+  teacher: 01KZC7XZAYBNYA9T34401D3QJN
+  assertedStyle: 01KYHF558ACS4T9K0BR6YWXABY
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: EN Wikipedia states Kyan began studying Tomari-te with Kokan Oyadomari from Tomari
+      village after returning to Okinawa; the Seibukan official history names 親泊興寛 (Oyadomari) among his
+      teachers; Geoffrey Gaudion names "Pechin Oyadomari in Naha" as one of the three masters Chofu asked
+      to teach his son
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZC8XAP8GFT4QTW7VX69KQTS
+      quotation: After returning home, probably at the age of 20 he began studying Tomari-te with Kosaku
+        Matsumora and Kokan Oyadomari from Tomari village.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZEV344570PFVXKKNTX5GYQP
+      quotation: 明治８年、父（喜屋武朝扶）より空手道の手ほどきを受け、当時の空手界の重鎮首里の松村宗棍、泊の松茂良興作、親泊興寛などから空手を伝授され、後に「首里」の達人となった。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZGMHT4PJAW67C6ZBVV6GP7J
+      quotation: 'At that time there were three noted karatemen in Okinawa: Sokon Matsumura in Shuri,
+        Anko Itosu, also in Shuri, and Pechin Oyadomari in Naha. Chofu asked the three of them to teach
+        his son karate.'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GCFT60JGAB9ZFHBJE
+  teacher: 01KZC7XZB2M6VP6RJBC3ZE3B2T
+  assertedStyle: 01KYHF558ACS4T9K0BR6YWXABY
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: EN Wikipedia states Kyan began studying Tomari-te with Kosaku Matsumora from
+      Tomari village after returning to Okinawa; the Seibukan official history names 松茂良興作 (Matsumora)
+      among his teachers
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZC8XAP8GFT4QTW7VX69KQTS
+      quotation: After returning home, probably at the age of 20 he began studying Tomari-te with Kosaku
+        Matsumora and Kokan Oyadomari from Tomari village.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZEV344570PFVXKKNTX5GYQP
+      quotation: 明治８年、父（喜屋武朝扶）より空手道の手ほどきを受け、当時の空手界の重鎮首里の松村宗棍、泊の松茂良興作、親泊興寛などから空手を伝授され、後に「首里」の達人となった。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GVYJGQGWCJVDV7AQ6
+  teacher: 01KZC7XZB0V0GYM0GAF9KATY8W
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      EN Wikipedia states Kyan's father Chōfu possibly had a karate background and even taught Kyan
+      tegumi in his early years; the Seibukan official history confirms Chofu gave Kyan his first karate
+      instruction, and Geoffrey Gaudion records Chofu training his son in sumo and karate wrestling
+      outdoors in winter
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZC8XAP8GFT4QTW7VX69KQTS
+      quotation: Kyan's father is noted as possibly having a background in karate and even teaching Kyan
+        tegumi in his early years.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZEV344570PFVXKKNTX5GYQP
+      quotation: >-
+        明治８年、父（喜屋武朝扶）より空手道の手ほどきを受け[...]朝徳は、数え年１４才になった時、父朝扶から初めて空手の指導を受け
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZGMHT4PJAW67C6ZBVV6GP7J
+      quotation: Chotoku's father, Chofu, took him outdoors on cold winter days to train him in sumo and
+        karate wrestling.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5G28ZRN692FE8ME9PB
+  teacher: 01KJJAWN29MA64W22606R3WD6B
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Geoffrey Gaudion's account states Chofu Kyan asked three masters - Sokon Matsumura,
+      Anko Itosu and Pechin Oyadomari - to teach his son; the Itosu connection appears only in this source,
+      hence probable
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZGMHT4PJAW67C6ZBVV6GP7J
+      quotation: 'At that time there were three noted karatemen in Okinawa: Sokon Matsumura in Shuri,
+        Anko Itosu, also in Shuri, and Pechin Oyadomari in Naha. Chofu asked the three of them to teach
+        his son karate.'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZC8XAP8GFT4QTW7VX69KQTS
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZEV344570PFVXKKNTX5GYQP
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZGMHT4PJAW67C6ZBVV6GP7J
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZHA2591RH73019S4FQ5AWAH
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q2393877
+tags:
+- karate
+- shorin-ryu
+- tomari-te
+- shuri-te

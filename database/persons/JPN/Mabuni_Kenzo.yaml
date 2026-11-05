@@ -1,0 +1,43 @@
+type: Person
+id: 01M5HMWTY3VS33ZVQ2X8R6BAHT
+name:
+  ja-Latn: Mabuni Kenzō
+aka:
+  en: Kenzo Mabuni
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+description:
+  en: >-
+    Japanese karate teacher, second son of Kenwa Mabuni, the founder of Shito-ryu; a source on his
+    father's kata knowledge and teaching.
+hasTeacherAssertion:
+  - id: 01M5HMWTY3NN088020RHS4R4D9
+    teacher: 01KYJCSK3HM7WV1EJPH94Q18T2
+    assertedStyle: 01KYFZEGYN7A9G4FSTXBPDBG8P
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: Single source; it implies the relation but does not state it.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+            quotation: >-
+              Kenzo Mabuni, the second son of the founder of Shito Ryu, believes that each person should
+              spend three years and three months learning a single kata and its bunkai.
+            locator: '148'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+    quotation: Kenzo Mabuni, the second son of the founder of Shito Ryu
+    locator: '148'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - karate

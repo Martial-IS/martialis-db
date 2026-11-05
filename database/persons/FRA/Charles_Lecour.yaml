@@ -1,0 +1,173 @@
+type: Person
+id: 01M5JG4Y25WZEYTQ2DBFQFW26C
+name:
+  en: Charles Lecour
+  fr: Charles Lecour
+nationality:
+  - countryCode: eucountry:FRA
+    wikidata: wd:Q142
+birthEvent:
+  birthDate: '1808-05-12'
+  birthPlace:
+    label: Oissery
+    countryCode: eucountry:FRA
+  hasEvidence:
+    - basedOnSource: 01M5JG4Y2593DAA50HFR1Y326S
+      quotation: >-
+        né le 12 mai 1808 à Oissery (Seine-et-Marne) et mort à Épinal le 19 juin 1894
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Finally, the gymnastic style developed by the Lecour brothers, Charles (1808–1894) and Hubert
+        (1820–1871), became common during the 1860s.
+      locator: '257'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1894-06-19'
+  deathPlace:
+    label: Épinal
+    countryCode: eucountry:FRA
+  hasEvidence:
+    - basedOnSource: 01M5JG4Y2593DAA50HFR1Y326S
+      quotation: >-
+        né le 12 mai 1808 à Oissery (Seine-et-Marne) et mort à Épinal le 19 juin 1894
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    French savate and canne master who joined savate kicks with English boxing punches to form French
+    boxing. He learned savate from Michel Casseux, canne and bâton from Leboucher, and took boxing lessons
+    from the English professional Adams in Paris. With his brother Hubert he opened a salle in the passage des Panoramas in 1832 and
+    taught many aristocratic and literary students. He left the salle to Hubert in 1848 and stopped
+    teaching in 1884.
+  fr: >-
+    Maître de savate et de canne qui réunit les coups de pied de la savate et les coups de poing de la
+    boxe anglaise en boxe française. Élève de Michel Casseux pour la savate et de l'Anglais Adams pour la
+    boxe, il ouvre en 1832 avec son frère Hubert une salle passage des Panoramas.
+hasTeacherAssertion:
+  - id: 01M5JG4Y25RRS9QK2ZWHRM1H3T
+    teacher: 01M5JG4Y25TKZ9ESTG89MCD7WJ
+    assertedStyle: 01M5JG4Y2595PRVXFHHNZXH7SD
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        His own account, as Charlemont relays it.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1824
+        hasEvidence:
+          - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+            quotation: >-
+              Il commença très jeune à prendre des leçons de savate, il eut pour professeur le célèbre
+              Michel Pisseux, fort réputé à cette époque. C’était en 1824, il avait alors 16 ans
+            locator: '46'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JG4Y2593DAA50HFR1Y326S
+            quotation: >-
+              il apprend la savate et le maniement des armes affinitaires de cette discipline (canne,
+              bâton) auprès de Michel (dit « Pisseux »
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JG4Y25R6D4564KJ45ZVN0Z
+            quotation: >-
+              Michel Pisseux a aussi formé Charles Lecour qui ouvre à son tour une salle d’entraînement
+              en 1832.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5JG4Y25NCC142BDF3WQWF9X
+    teacher: 01M5JG4Y25X3MQSDWVDW1VF3C8
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+    role: teachrole:private
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        His own account, as Charlemont relays it.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1838
+        hasEvidence:
+          - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+            quotation: >-
+              C’est alors qu’il se fit présenter à Adams qui était resté à Paris, et put ainsi prendre
+              avec lui un certain nombre de leçons. Grâce à ces leçons de boxe anglaise réunies à la
+              savate, Charles Lecour forma ce que l’on appela à juste titre la boxe française. Nous tenons
+              de Charles Lecour lui-même les lignes qui précèdent
+            locator: '47'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JG4Y2593DAA50HFR1Y326S
+            quotation: >-
+              C’est alors qu’il se fit présenter à Adams qui était resté à Paris, et put ainsi prendre
+              avec lui un certain nombre de leçons.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5KQTRGX01C0XJ7PCPXAZ067
+    teacher: 01M5JG4Y255AEFD0QA6ZRTFT1G
+    assertedStyle: 01M5JG4Y25H7X8KYE2MFE6J1FC
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        His own account, as Charlemont relays it.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+            quotation: >-
+              Sur ces entrefaites, arrivèrent à Paris deux professeurs de province, Loze de Toulouse et
+              Leboucher de Rouen. C’est avec ce dernier que Charles Lecour prit des leçons de canne et de
+              bâton, qu’il enseigna ensuite de pair avec la savate.
+            locator: '46'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+notes: >-
+  The Adams lessons followed the 1838 Swift–Adams fight at Charenton (fr Wikipedia). Dumas placed them in
+  London; Charlemont, from Lecour himself, says Paris. Lecour also took part in the 1846–1847 savate and
+  boxing exhibitions with English boxers. fr Wikipedia has him learn canne and bâton from Pisseux;
+  Charlemont (p. 46) names Leboucher.
+hasEvidence:
+  - basedOnSource: 01M5JG4Y2593DAA50HFR1Y326S
+    informationType: infotype:secondary
+    supports: true
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      During the 1880s and 1890s, Joseph Charlemont and Louis Albert synthesized the Lecour brothers’
+      methods and moves.
+    locator: '258'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:indirect
+sameAs:
+  - wd:Q2959623
+tags:
+  - savate
+  - canne-de-combat
+  - boxing
+  - france
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/6/6f/Charles_Lecour.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Charles_Lecour.jpg
+    cite: "BLIN Paul, Wikimedia Commons"
+    informationType: infotype:secondary

@@ -1,0 +1,124 @@
+type: Style
+id: 01KJJAWN29MA64W22606R3WD9D
+name:
+  ja-Latn: Yagyū Shingan-ryū
+  ja: 柳生心眼流
+description:
+  en: 'Yagyū Shingan-ryū (柳生心眼流), is a traditional school (koryū) of Japanese martial arts. Different
+    styles of Yagyū Shingan-ryū, such as Heihojutsu and Taijutsu, assert different founders, Takenaga
+    Hayato and Araki Mataemon respectively, but they all go back to Ushū Tatewaki (羽州 帯刀), referred to
+    in some historical scrolls as Shindō Tatewaki, who taught a system based on Sengoku-period battlefield
+    tactics, that was called Shindō-ryū. The word shingan (心眼) is rooted in Zen philosophy, and was chosen
+    to describe a fundamental concept of the style. Shingan means "mind’s eye," or "heart''s eye," and
+    refers to the ability to sense or read an opponent''s intentions via an inner sense. Originally called
+    simply Shingan-ryū, it was later renamed Yagyū Shingan-ryū, due to the influence of Yagyu Tajima no
+    Kami Munenori''s Yagyū Shinkage-ryū.
+
+    '
+  ja: '柳生心眼流（やぎゅうしんがんりゅう）は、日本の伝統武術の流派とさ れている。現代に伝わる柳生心眼流には大きく分類して東北伝、江戸伝 （柳生心眼流荒木堂）がある。東北伝においては竹永隼人（直入）兼次
+    (金次)を開祖としており、江戸伝においては荒木又右衛門を開祖と伝え ている。東北伝では当身技を中心とする特異な内容の柔術が伝えられて おり、江戸伝においては古式からなる甲冑柔（鎧組打ち）が伝承されて
+    いる。 系統によって伝える内容は異なるが、体術（柔術）・剣術・居 合術・棒術・薙刀術などを含み、更に江戸伝では大太刀を遣う技法も伝 えられている。
+
+    '
+  pt: 'Yagyū shingan-ryū é uma tradicional escola japonesa de bujutsu (lit. arte da guerra). Ensina todos
+    os fundamentos das artes marciais japonesas clássicas. É conhecida como Yagyū shingan-ryū kacchu yawara,
+    e foi um estilo de luta adotado por alguns samurais do xogunato Tokugawa. Foi bastante divulgado pela
+    série, "Lobo Solitário" (de Kazuo Koike & Goseki Kojima) e no livro "Musashi" de Eiji Yoshikawa.
+
+    '
+hasEvidence:
+- basedOnSource: 01KJJAWN29MA64W22606R3WDA4
+  supports: true
+  evidenceType: evidencetype:direct
+  informationType: infotype:secondary
+- basedOnSource: 01KXTSQXW6P83R31HCRY2PRTEC
+  supports: true
+  evidenceType: evidencetype:direct
+  informationType: infotype:secondary
+- basedOnSource: 01M6BHSAXW6S9PYNDHK20YTQF8
+  quotation: '一六四〇年頃仙台藩の武士、竹永隼人兼次が各流の武道を修し、奥義を極めた後に、時の将軍家武道指南役、柳生但馬守宗矩に仕え修行して一流派を開き、柳生心眼流の名を許可されたと伝えられる。'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M6BHSAXWZCXE1HXP7ABCRYR2
+  quotation: '当流體術とは柔術、剣術、棒術、長刀術、居合術などの総称で、流祖は荒木又右衛門。'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1600'
+  location:
+    countryCode: eucountry:JPN
+styleType: styleclass:traditional
+hasStyleRelationAssertion:
+- id: 01M3YH7N5GB9RFQ1B4WM308025
+  relatedStyle: 01KJJAWN29MA64W22606R3WD9G
+  styleRelationType: stylerel:variant_of
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Yagyu Shingan-ryu's own Wikipedia description names "classical jujutsu" as one of its curriculum
+      components. Probable, not confirmed, because branches differ in what survives: the Tohoku line
+      preserves jujutsu-centered atemi techniques, the Edo line preserves armored grappling
+      (kacchu-yawara) instead.
+  hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WDA4
+    quotation: The system consisted of classical jujutsu, quarterstaff fighting (bōjutsu), glaive fighting
+      (naginatajutsu), sword drawing and cutting (iaijutsu) and sword fighting (kenjutsu).
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5G6N0QBYF07S78THMP
+  relatedStyle: 01KYHNJKQDTEJ1A5MQ5JYPHDTB
+  styleRelationType: stylerel:variant_of
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Same source names "sword fighting (kenjutsu)" alongside jujutsu as a named curriculum
+      component; same branch-variance caveat as the jujutsu edge above.
+  hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WDA4
+    quotation: The system consisted of classical jujutsu, quarterstaff fighting (bōjutsu), glaive fighting
+      (naginatajutsu), sword drawing and cutting (iaijutsu) and sword fighting (kenjutsu).
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M6BHSAXWATFBFT1S478W4BJ8
+  relatedStyle: 01M6BHSAXW71NDAE1K8Q6W4F9S
+  styleRelationType: stylerel:influenced_by
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Both lines name a founder who trained under Yagyu Munenori and took the Yagyu name with permission (Field Guide; Kobudo Kyokai page for the Tohoku line); one tradition each.
+  hasEvidence:
+    - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+      locator: 'Yagyu Shingan-ryu Taijutsu'
+      locatorLabel: section
+      quotation: 'Founder Araki Mataemon trained under Yagyu Munenori of the Yagyu Shinkage-ryu, and was granted permission to use the Yagyu name in his own school’s name by Yagyu Jubei.'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6BHSAXW6S9PYNDHK20YTQF8
+      quotation: '一六四〇年頃仙台藩の武士、竹永隼人兼次が各流の武道を修し、奥義を極めた後に、時の将軍家武道指南役、柳生但馬守宗矩に仕え修行して一流派を開き、柳生心眼流の名を許可されたと伝えられる。'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+notes: >-
+  Tohoku line founder Takenaga Hayato (c. 1640, served Yagyu Munenori) and Edo line founder Araki
+  Mataemon (1584-1637, a student of Munenori per the Field Guide); the record carries no single
+  founder. Edo line heads (Kobudo Kyokai page) end with the 11th, Kajitsuka Yasushi; the Tohoku line
+  is headed by the Hoshi family.
+tags:
+- koryu
+photos:
+- contentUrl: https://upload.wikimedia.org/wikipedia/commons/8/87/Nimai_Gasa.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Nimai_Gasa.jpg
+    cite: "Old Japanese, Wikimedia Commons"
+videos:
+- contentUrl: https://youtu.be/6Ke_d6hN7CI?t=30
+  imageAttribution:
+    uri: https://youtu.be/6Ke_d6hN7CI?t=30
+    cite: "Zeu Santos, YouTube"

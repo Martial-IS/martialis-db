@@ -1,0 +1,56 @@
+type: Person
+id: 01M0TVMGJVP7A46XX9P8WFSBTR
+name:
+  en: Li Xia
+  zh: 李霞
+  zh-Latn: Lǐ Xiá
+nationality:
+- countryCode: eucountry:CHN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1958'
+  birthPlace:
+    label: Beijing
+    countryCode: eucountry:CHN
+notes: >-
+  The registered Baidu Baike source (01M0TVMGJVP7A46XX9P8WFSBTZ) only corroborates the single
+  quoted 1975 Beijing Wushu Team sentence; the rest of that page describes a Tai Chi practitioner
+  with a different biography (gymnastics background, Chen-style Taijiquan lineage from 2018),
+  suggesting it may be a different person who shares the name 李霞. Uncorroborated leads: 18
+  individual national gold medals (1975-1987), the 5th National Games triple crown (1983), the 1983
+  CCTV Spring Festival Gala, coaching the Beijing Wushu Team, the move to Japan (1988), the Japan
+  Wushu Taijiquan Federation role and the 2010 8th dan.
+hasTeacherAssertion:
+- id: 01M3YH7N5GZKKQEAZFQGM6QBRQ
+  teacher: 01M0NVYZ4HBB012MEVJHZWJXYP
+  assertedStyle: 01M0QCH9A4Y8JQ2F9C0BJGH543
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Sources (but mostly wikis) confirm Li Xia trained under Wu Bin at the Beijing
+      Wushu Team and was among the founding 25 athletes in 1974
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1974
+      endYear: 1987
+    hasEvidence:
+    - basedOnSource: 01M0TVMGJVP7A46XX9P8WFSBTZ
+      quotation: 1975年，在北京武术队教练吴彬的培养下，她随北京武术队获得全运会男女团体冠军
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M0TVMGJVP7A46XX9P8WFSBTZ
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- chinese-martial-arts
+- wushu
+- changquan
+- beijing-wushu-team
+description:
+  en: >-
+    Chinese wushu athlete, born in Beijing, and a member of the Beijing Wushu Team, which won the
+    team title at the 1975 National Games.

@@ -1,0 +1,84 @@
+type: Person
+id: 01M377JZDNZE0QK5A178X0B9YB
+name:
+  ja-Latn: Nishikubo Hiromichi
+  ja: 西久保弘道
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1863'
+  hasEvidence:
+    - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+      quotation: Tesshū also taught Nishikubo Hiromichi (1863-1930) and Takano Sasaburō (1862-1950)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1930'
+  hasEvidence:
+    - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+      quotation: Tesshū also taught Nishikubo Hiromichi (1863-1930) and Takano Sasaburō (1862-1950)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M3YH7N5GEGX7NVWT1BDB423G
+    teacher: 01M2WGWA1YB5K4N6YHVVE8TG9E
+    assertedStyle: 01M377JZDN6DE97E7D3VXC8P5G
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Bennett states it twice, in the main text and again in the endnote, which names the art as Mutō-ryū. No period is given, and Tesshū died in 1888.
+    hasInteraction:
+      - interactionPeriod:
+          endYear: 1888
+        hasEvidence:
+          - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+            quotation: He studied Mutō-ryū kenjutsu under Yamaoka Tesshū and was awarded the highest kendo title of hanshi by the Butokukai in 1929.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+            quotation: Tesshū also taught Nishikubo Hiromichi (1863-1930) and Takano Sasaburō (1862-1950), who were of particular importance to the nationalization of kendo.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M3YH7N5GH7EGRBDDCQVAFT3Q
+    honorValue: Hanshi (範士), Dai-Nippon Butokukai
+    honorType: honortype:title
+    honorGrade: honorgrade:shogo_hanshi
+    conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+    dateConferred: '1929'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Bennett gives the award, the granting body and the year in one sentence.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: He studied Mutō-ryū kenjutsu under Yamaoka Tesshū and was awarded the highest kendo title of hanshi by the Butokukai in 1929.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/2/22/%E8%A5%BF%E4%B9%85%E4%BF%9D%E5%BC%98%E9%81%93.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E4%B9%85%E4%BF%9D%E5%BC%98%E9%81%93.jpg
+    cite: "Hokkaido University Library, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: Student of Yamaoka Tesshū in Mutō-ryū kenjutsu, and a central administrative figure in the nationalisation of kendo. Vice-president of the Dai-Nippon Butokukai and principal of the Bujutsu Vocational College from 1919, in which year he announced the change of terminology from kenjutsu to kendō. Hanshi 1929.
+hasEvidence:
+  - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+    quotation: Nishikubo Hiromichi (1863-1930), vice president of the Butokukai and principal of the Bujutsu Vocational College, announced the change
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - kenjutsu
+  - kendo
+  - muto-ryu
+  - butokukai

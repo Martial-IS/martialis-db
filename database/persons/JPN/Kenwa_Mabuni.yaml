@@ -1,0 +1,134 @@
+type: Person
+id: 01KYJCSK3HM7WV1EJPH94Q18T2
+name:
+  en: Kenwa Mabuni
+  ja: 摩文仁 賢和
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1889-11-14'
+  birthPlace:
+    label: Shuri
+    countryCode: eucountry:JPN
+    wikidata: wd:Q608415
+  hasEvidence:
+    - basedOnSource: 01KYJCSK3H82T2JJ9P8N28CZ4T
+      quotation: >-
+        (摩文仁 賢和, Mabuni Kenwa; 14 November 1889 - 23 May 1952)
+      cite: Kenwa Mabuni (Wikipedia EN)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1952-05-23'
+  deathPlace:
+    label: Tokyo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1490
+  hasEvidence:
+    - basedOnSource: 01KYJCSK3H82T2JJ9P8N28CZ4T
+      quotation: >-
+        (摩文仁 賢和, Mabuni Kenwa; 14 November 1889 - 23 May 1952)
+      cite: Kenwa Mabuni (Wikipedia EN)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: Okinawan karate master and founder of Shito-ryu. He studied Shuri-te under Anko Itosu and Naha-te under Kanryo Higaonna, combining both traditions. He was regarded as the foremost authority on Okinawan kata and their applications. He moved to Osaka in 1929 to spread karate in mainland Japan and registered Shito-ryu with the Butokukai in 1939.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/a/a6/Mabuni_Kenwa.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Mabuni_Kenwa.jpg
+    cite: "Nakasone Genwa, Wikimedia Commons"
+    informationType: infotype:secondary
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M3YH7N5GDRFE2HT3CN86TGNV
+    teacher: 01KJJAWN29MA64W22606R3WD6B
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9S
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Independent sources state it.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1902
+          endYear: 1915
+        hasEvidence:
+          - basedOnSource: 01KYJCSK3H82T2JJ9P8N28CZ4T
+            cite: Kenwa Mabuni (Wikipedia EN)
+            quotation: >-
+              he began his instruction in his home town in the art of Shuri-Te (首里手) at the age of 13,
+              under the tutelage of the legendary Ankō Yasutsune Itosu
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+            quotation: >-
+              Kenwa Mabuni was a student of both Higaonna and Yasutsune Itosu. Mabuni founded the style
+              of Shito Ryu that preserved the teachings of both Higaonna and Itosu
+            locator: '61'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Mabuni Kenwa (1889–1952), who combined the Naha di of Higashionna with the Shuri di of
+              Itosu Anko to create the Shito Ryu.
+            locator: '209'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5H3J04JMGQDKCRAA3PAVEMW
+    teacher: 01KZBS9WCMQ58J7VRHTDQJN9HE
+    assertedStyle: 01KYHF558ARZ926BRSVJNWCTGE
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Independent sources state it.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+            quotation: >-
+              Kenwa Mabuni was a student of both Higaonna and Yasutsune Itosu. Mabuni founded the style
+              of Shito Ryu that preserved the teachings of both Higaonna and Itosu
+            locator: '61'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              His students included Kyoda Juhatsu (1887–1968), founder of the To On Ryu; Miyagi Chojun
+              (1888–1953), founder of the Goju Ryu; and Mabuni Kenwa (1889–1952), who combined the Naha
+              di of Higashionna with the Shuri di of Itosu Anko to create the Shito Ryu.
+            locator: '209'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYJCSK3H82T2JJ9P8N28CZ4T
+    cite: Kenwa Mabuni (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://www.jkr-uk.org.uk/kenwa-mabuni
+    cite: Kenwa Mabuni - JKR-UK
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q453505
+  - viaf:256564539
+tags:
+  - karate
+  - shito-ryu
+  - founder
+  - okinawan-martial-arts

@@ -1,0 +1,16 @@
+# Roll a SHACL validation report up into one line per message, most
+# frequent first. `results` counts validation results; `nodes` counts the
+# distinct focus nodes behind them - they differ when a SPARQL constraint
+# matches several times on one node (an entity with three uncovered
+# sources yields three results but is one thing to fix).
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+SELECT ?severity (COUNT(*) AS ?results) (COUNT(DISTINCT ?focus) AS ?nodes) ?message
+WHERE {
+  ?r a sh:ValidationResult ;
+     sh:resultSeverity ?sev ;
+     sh:resultMessage ?message ;
+     sh:focusNode ?focus .
+  BIND(STRAFTER(STR(?sev), "shacl#") AS ?severity)
+}
+GROUP BY ?severity ?message
+ORDER BY ?severity DESC(?results)

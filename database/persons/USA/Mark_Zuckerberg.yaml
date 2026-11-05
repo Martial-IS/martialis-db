@@ -1,0 +1,106 @@
+type: Person
+id: 01KZQ5XKW3QGJSCHCJKAH6SPZG
+name:
+  en: Mark Zuckerberg
+aka:
+  en:
+  - Zuck
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+birthEvent:
+  birthDate: '1984-05-14'
+  birthPlace:
+    label: White Plains
+    countryCode: eucountry:USA
+    wikidata: wd:Q462177
+  hasEvidence:
+  - basedOnSource: 01KZQ5XKW3HDGP48R88PEG8HG1
+    quotation: >-
+      Mark Elliot Zuckerberg (/ˈzʌkərbɜːrɡ/; born May 14, 1984)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: 'American technology entrepreneur and philanthropist, co-founder and CEO of Meta
+
+    (formerly Facebook). An avid Brazilian jiu-jitsu practitioner and competitor,
+
+    training at Guerrilla Jiu-Jitsu in San Jose, California.
+
+    '
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/1/18/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg
+  rights: mediarights:cc-by-2.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Mark_Zuckerberg_F8_2019_Keynote_(32830578717)_(cropped).jpg
+    cite: "Anthony Quintano, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+- id: 01M3YH7N5GCNNPWTF9F28CVK0A
+  teacher: 01KZQ5XKW310NKTT34P8D4WQAS
+  assertedStyle: 01KZQ7BS7K4G2T0NPG9N3PCVET
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Two independent live sources (ESPN, BJJEE) report Camarillo as Zuckerberg's BJJ
+      coach, quoting Camarillo directly on the relationship
+  hasInteraction:
+  - interactionPlace: 01KZQ7BS7KGB9FYCTZPS6Z5T05
+    interactionPeriod:
+      startYear: 2022
+    hasEvidence:
+    - uri: https://www.espn.com/mma/story/_/id/37598929/coach-marvels-mark-zuckerberg-winning-bjj-tournament-one-best-students-ever-had
+      cite: 'ESPN - "''One of the best students I''ve ever had'': Coach marvels about Mark Zuckerberg
+        winning BJJ tournament" (Marc Raimondi, 2023-05-11)'
+      quotation: He has been training in Brazilian jiu-jitsu for about one year under Dave Camarillo
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://www.bjjee.com/bjj-news/dave-camarillo-mark-zuckerberg-is-one-of-the-best-students-i-ever-had/
+      cite: 'BJJEE - "Dave Camarillo: ''Mark Zuckerberg Is One Of The Best Students I Ever Had''"'
+      quotation: And he excels. He's one of the best students I've ever had.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5G7DFCS5QJ76NAQN0R
+  rankStyle: 01KZQ7BS7K4G2T0NPG9N3PCVET
+  rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+  rankGrade: rankgrade:bjj_blue
+  grantedBy: 01KZQ5XKW310NKTT34P8D4WQAS
+  dateConferred: '2023-07-22'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Zuckerberg announced the promotion on his own Instagram; multiple outlets (BJJEE,
+      FloGrappling) independently reported it the same day
+  hasEvidence:
+  - basedOnSource: 01M3M3T743GCC4K39RW5JZDYGN
+    quotation: Also honored to be promoted to compete at blue belt for @guerrillajjsanjose team.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://www.bjjee.com/featured/mark-zuckerberg-promoted-to-bjj-blue-belt/
+    cite: BJJEE - "Mark Zuckerberg Promoted To BJJ Blue Belt"
+    quotation: The promotion took place last evening, by coach Dave Camarillo
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZQ5XKW3HDGP48R88PEG8HG1
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.espn.com/mma/story/_/id/37598929/coach-marvels-mark-zuckerberg-winning-bjj-tournament-one-best-students-ever-had
+  cite: ESPN - Marc Raimondi, 2023-05-11
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q36215
+tags:
+- brazilian-jiu-jitsu
+- entrepreneur
+- celebrity-practitioner

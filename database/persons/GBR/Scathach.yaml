@@ -1,0 +1,39 @@
+type: Person
+id: 01M5JWHXPX7PD7RQ240KHEB3W6
+name:
+  en: Scáthach
+description:
+  en: >-
+    Legendary Scottish warrior woman of the Ulster Cycle who trains the hero Cú Chulainn in combat.
+hasHistoricityAssertion:
+  - id: 01M5JWHXPX0ATB2KRJRY7Q4QA3
+    historicity: hist:legendary
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source.
+    hasEvidence:
+      - basedOnSource: 01M5JWHXPX0BKNND8KCA3R6J9V
+        quotation: >-
+          is a legendary Scottish warrior woman and martial arts teacher who trains the legendary Ulster
+          hero Cú Chulainn in the arts of combat.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JWHXPX0BKNND8KCA3R6J9V
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q930509
+tags:
+  - legend
+  - scotland
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/8/89/Heroes_of_the_dawn_-_illustration_to_face_page_066.png
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Heroes_of_the_dawn_-_illustration_to_face_page_066.png
+    cite: "Beatrice Elvery, Wikimedia Commons"
+    informationType: infotype:secondary

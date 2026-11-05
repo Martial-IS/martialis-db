@@ -1,0 +1,133 @@
+type: Person
+id: 01KZXKNZTBWC805TKNRG223H1A
+name:
+  fr: Marcel Clause
+nationality:
+  - countryCode: eucountry:BEL
+    wikidata: wd:Q31
+birthEvent:
+  birthDate: '1927-04-04'
+  birthPlace:
+    label: Lessines
+    countryCode: eucountry:BEL
+    wikidata: wd:Q667790
+  hasEvidence:
+    - basedOnSource: 01KZXM4SW4798PJ5VSR1WS52ZY
+      quotation: >-
+        Marcel Clause (April 4, 1927 – April 27, 2004)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2004-04-27'
+  deathPlace:
+    label: Boussu
+    countryCode: eucountry:BEL
+    wikidata: wd:Q95126
+  hasEvidence:
+    - basedOnSource: 01KZXM4SW4798PJ5VSR1WS52ZY
+      quotation: >-
+        Marcel Clause (April 4, 1927 – April 27, 2004)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: Belgian judoka, considered together with Daniel Outelet the most skillful student of Abe Ichiro, excelling in both randori and judo kata. Took up judo in 1952 at age 23 under Robert Plomb. Won the 1960 national championships in the 2nd dan category and the Belgian National Trophy in 1963, 1964 and 1966, and was part of the Belgian national team at the 1960 and 1963 European Judo Championships for Teams. After Abe's return to Japan he served as Belgian national coach for two years. Promoted to 6th dan in 1978, 7th dan in 1987, and in 1997 became only the second non-Japanese ever to be promoted to Kodokan 8th dan. First non-Japanese asked by the Kodokan to teach a formal judo class there.
+hasTeacherAssertion:
+  - id: 01M3YH7N5FFDV3QXYH1MGH5JST
+    teacher: 01KZXQZVTSHG6TM5KZVM2R1AE1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: In a 2001 Judo Contact interview Clause states he began judo in 1952 at age 23 and that his first teacher was Monsieur Plomb, then a brown belt; Plomb taught at the Wasmes club which Clause later ran.
+    role: teachrole:student
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1952
+          endYear: 1954
+        hasEvidence:
+          - basedOnSource: 01KZXQZVTSHG6TM5KZVM2R1ADZ
+            quotation: J'ai débuté la pratique du judo en 1952. Mon premier professeur était Monsieur Plomb qui, devait être, à l'époque, nanti du grade de ceinture marron. J'avais 23 ans.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5F4QFJGJTVZ8RVT90G
+    teacher: 01KZXH2NSQMBZTRPPYAKKCFR84
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: English Wikipedia records that Clause's skills progressed rapidly after encountering Ichiro Abe, who in 1954 became Technical Director of the Belgian Judo Federation, and that together with Daniel Outelet he became Abe's most skillful student.
+    role: teachrole:student
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1954
+          endYear: 1969
+        hasEvidence:
+          - basedOnSource: 01KZXM4SW4798PJ5VSR1WS52ZY
+            quotation: Clause's technical skills in judo rapidly progressed after having encountered Ichiro Abe, a Japanese Kodokan delegate to Europe, who in 1954 became the new Technical Director of the Belgian Judo Federation. Together with threefold European champion, the late Daniel Outelet, Clause became Abe's most skillful student excelling in both randori and judo kata.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5FR6F4MSHN4KJRW4F4
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 6
+    dateConferred: '1978'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: English Wikipedia records that in 1978 Clause became the third person promoted by the unitary Belgian Judo Federation to 6th dan.
+    hasEvidence:
+      - basedOnSource: 01KZXM4SW4798PJ5VSR1WS52ZY
+        quotation: In 1978, Clause became the third person to be promoted by the (unitary) Belgian Judo Federation to the judo rank of 6th dan.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5F19NKDCCYZ8V3EX5R
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 7
+    dateConferred: '1987'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: English Wikipedia records that in 1987 Clause was part of a group of four who became the first Belgians to hold 7th dan, authorized by the Ligue Francophone de Judo and the Kodokan.
+    hasEvidence:
+      - basedOnSource: 01KZXM4SW4798PJ5VSR1WS52ZY
+        quotation: In 1987 he was part of a group of four people (the others were Jean-Marie Falise, Théo Guldemont, and Pierre De Rouck) who became the first Belgian judoka to hold the rank of 7th dan.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5FWCRWF7TWZJHJ8ZK4
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 8
+    conferredBy: 01KJJAWN29MA64W22606R3WD7X
+    dateConferred: '1997'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: English Wikipedia records that in 1997 Clause became the first Belgian (together with Theo Guldemont) to be awarded 8th dan, and that the Kodokan subsequently elevated him as only the second non-Japanese ever to Kodokan 8th dan.
+    hasEvidence:
+      - basedOnSource: 01KZXM4SW4798PJ5VSR1WS52ZY
+        quotation: In 1997 Clause became the first Belgian (together with Théo Guldemont) to be awarded the high judo rank of 8th dan. Kodokan criteria required a number of more years to expire before this eclectic judo institution in Tokyo made the exceptional step to elevate Clause as only the second non-Japanese ever to the rank of Kodokan 8th dan.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZXQZVTSHG6TM5KZVM2R1ADZ
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZXM4SW4798PJ5VSR1WS52ZY
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q16016095

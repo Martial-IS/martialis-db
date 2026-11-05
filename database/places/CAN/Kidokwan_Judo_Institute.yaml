@@ -1,0 +1,60 @@
+type: Place
+id: 01M5HP829F4HM5XQXG7QXBW7GS
+name:
+  en: Kidokwan Judo Institute
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Toronto
+      countryCode: eucountry:CAN
+      wikidata: wd:Q172
+foundedEvent:
+  startDate: '1946'
+  founder:
+    - 01M5H3WJ4FFYW21VZ36306373H
+  hasEvidence:
+    - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+      quotation: >-
+        Atsumu Kamino’s dojo in the basement of The Church of All Nations on the corner of Spadina and
+        Queen. The dojo, established in 1946, was named the Kidokwan Judo Institute after the original
+        Vancouver Kidokan Club, which had been the headquarters dojo in prewar B.C.
+      locator: '44'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Atsumu Kamino's Toronto dojo, founded in 1946 in the basement of the Church of All Nations and named
+    after the prewar Vancouver Kidokan; the meeting point of resettled British Columbia judoka and the
+    base of the Canada Judo Yudanshakai.
+hasInstructorRole:
+  - id: 01M5HP829F59TSTAQJE288Q3FY
+    instructor: 01M5H3WJ4FFYW21VZ36306373H
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1946
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+        quotation: >-
+          Atsumu Kamino’s dojo in the basement of The Church of All Nations on the corner of Spadina and
+          Queen. The dojo, established in 1946, was named the Kidokwan Judo Institute
+        locator: '44'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    locator: '44'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - canada

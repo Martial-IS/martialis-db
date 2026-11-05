@@ -1,0 +1,63 @@
+type: Style
+id: 01KYEY02EJDAF10TC75D1V8DX0
+name:
+  en: Muay Thai
+  th: มวยไทย
+  th-Latn: Muay Thai
+aka:
+  en:
+    - Thai Boxing
+    - Art of Eight Limbs
+styleType: styleclass:traditional
+styleForm:
+  - styleform:sport
+description:
+  en: Muay Thai, also known as Thai boxing, is a Thai martial art and full-contact combat sport that uses stand-up striking, sweeps, and various clinching techniques. Known as the 'Art of Eight Limbs' for its combined use of fists, elbows, knees, and shins. It became widespread internationally in the late 20th century and is governed by the International Federation of Muaythai Associations (IFMA), recognized by the International Olympic Committee.
+  th: มวยไทยเป็นศิลปะการต่อสู้และกีฬาการต่อสู้แบบเต็มรูปแบบของไทย ใช้การโจมตีแบบยืน การกวาด และการคลินช์ รู้จักกันในชื่อ 'ศิลปะแห่งแปดแขนขา' เนื่องจากใช้หมัด ศอก เข่า และแข้งร่วมกัน
+hasEvidence:
+  - basedOnSource: 01KYEY02EGZE864QGCM4AX6F3X
+    cite: Muay Thai (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYN1GSEKP0GSA778N71559KV
+    cite: 'Muller-Junior & Capraro (2022) - Muay Thai: the consolidation of an invented tradition'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://muaythai.sport/about-muaythai/history-of-muaythai/
+    cite: History of Muaythai (IFMA official website)
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q120931
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5GXQHWJ5X8K3PX1Z4K
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9N
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Modern Muay Thai adopted gloves, ring, rounds, referees, and scoring from English boxing
+    hasEvidence:
+      - basedOnSource: 01KYN1GSEKP0GSA778N71559KV
+        locator: '47'
+        locatorLabel: page
+        quotation: 'The use of gloves, a specific practice space (the ring), instituted referees, timed rounds with rest breaks, the addition of a scoring system, and other rules derived from English boxing represented a “civilization outbreak” [Elias, 1993] for Muay Boran'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+tags:
+  - muay-thai
+  - thai-boxing
+  - striking
+  - combat-sport
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/9/9a/Muay_Thai_Fight_Us_Vs_Burma_%2880668065%29.jpeg
+    rights: mediarights:cc-by-3.0
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:Muay_Thai_Fight_Us_Vs_Burma_(80668065).jpeg
+      cite: "Gerrit Phil Baumann, Wikimedia Commons"
+      informationType: infotype:secondary
+      evidenceType: evidencetype:direct

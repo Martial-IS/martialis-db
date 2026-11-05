@@ -1,0 +1,100 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD7Q
+name:
+  ja-Latn: Yamashita Yoshitsugu
+  ja: 山下 義韶
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1865-02-16'
+  birthPlace:
+    label: Kanazawa
+    countryCode: eucountry:JPN
+    wikidata: wd:Q16874603
+deathEvent:
+  deathDate: '1935-10-26'
+  deathPlace:
+    label: Japan
+    countryCode: eucountry:JPN
+    wikidata: wd:Q17
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/d/d6/YoshiakiYamashita.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    cite: "Wikimedia Commons"
+    uri: https://commons.wikimedia.org/wiki/File:YoshiakiYamashita.jpg
+    basedOnSource: 01KXTSQXW6P83R31HCRY2PRTCB
+    informationType: infotype:secondary
+description:
+  en: Yoshitsugu Yamashita (1865–1935) was a Japanese judoka. He was one of the earliest disciples of Jigoro Kano and the first person to be awarded 10th dan rank in judo, posthumously in 1935. He was also the first Japanese judo master to teach judo in the United States.
+  ja: 山下義韶（やました よしつぐ、1865年2月16日 - 1935年10月26日）は、日本の柔道家。嘉納治五郎の最初期の弟子の一人で、1935年に柔道史上初めて10段を追贈された人物。また、アメリカ合衆国で柔道を指導した最初の日本人柔道家でもある。
+hasTeacherAssertion:
+  - id: 01M3YH7N5GFRHR8RPHAHQ7814D
+    teacher: 01KJJAWN28MWKKSN4J02MVY1S1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Well-documented student of Jigoro Kano, entered Kodokan in August 1884 as the 19th member, mentioned in multiple reliable sources including Wikipedia and Judo Channel
+    role: teachrole:student
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+        interactionPeriod:
+          startYear: 1884
+        hasEvidence:
+          - uri: https://www.judo-ch.jp/english/legend/yamasita/
+            cite: 'Kodokan hall of fame: Yoshitsugu Yamashita (Judo Channel)'
+            quotation: Yoshitsugu Yamashita was the son of an Odawara Han martial arts instructor, and he entered Kodokan in August of 1884.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTCC
+            quotation: In August 1884, he joined the Kodokan judo dojo of his childhood friend Kano Jigoro as its nineteenth member
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+            quotation: >-
+              Another man, who is now on the Kodokan Board of Trustees, Itsuro Munakata, became my
+              student in February 1884. In August, the current highest dan grade holder, Yoshitsugu
+              Yamashita, joined my dojo.
+            locator: '29'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5G915BQ6PV80N8V261
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 10
+    conferredBy: 01KJJAWN29MA64W22606R3WD7X
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Posthumously awarded 10th dan by Jigoro Kano on October 24, 1935, making him the first holder of the Kodokan 10th dan rank, well-documented in Judo Channel and other sources
+    hasEvidence:
+      - uri: https://www.judo-ch.jp/english/legend/yamasita/
+        cite: 'Kodokan hall of fame: Yoshitsugu Yamashita (Judo Channel)'
+        quotation: At the memorial ceremony held at Kodokan, Jigoro Kano posthumously awarded Mr. Yamashita the 10th Dan rank as of October 24th, making Mr. Yamashita the first holder of the Kodokan 10th Dan rank in recognition of his service.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTCC
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTCD
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTCE
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3236604
+  - dbr:Yamashita_Yoshitsugu

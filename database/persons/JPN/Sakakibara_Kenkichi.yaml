@@ -1,0 +1,161 @@
+type: Person
+id: 01M31VKGQF6DEE20PS7GXE8GET
+name:
+  ja-Latn: Sakakibara Kenkichi
+  ja: 榊原鍵吉
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1830-12-19'
+  birthPlace:
+    label: Edo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q215646
+  hasEvidence:
+    - uri: https://www.wikidata.org/wiki/Q933966
+      quotation: >-
+        date of birth 19 December 1830
+      cite: Wikidata Q933966 (Sakakibara Kenkichi)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+      quotation: the famous master swordsman Sakakibara Kenkichi (1830-94)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1894-09-11'
+  deathPlace:
+    label: Shitaya
+    countryCode: eucountry:JPN
+    wikidata: wd:Q11361334
+  hasEvidence:
+    - uri: https://www.wikidata.org/wiki/Q933966
+      quotation: >-
+        date of death 11 September 1894
+      cite: Wikidata Q933966 (Sakakibara Kenkichi); died of beriberi
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+      quotation: the famous master swordsman Sakakibara Kenkichi (1830-94)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M3YH7N5GW4WDD5Q2HSG6SEXK
+    teacher: 01M3771VT4SDW413BWCX9V01TS
+    assertedStyle: 01M31VKGQFQJZTNTNB0MR8RX56
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Bennett states it directly as his first instruction, arranged by his father. The end is fixed by Inoue's death in 1838.
+    hasInteraction:
+      - interactionPeriod:
+          endYear: 1838
+        hasEvidence:
+          - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+            quotation: his father entrusted his fencing tuition to Inoue Denbei—a master of the Jikishin Kage-ryū. Inoue was assassinated in 1838
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GWAD3XS88KTEWY82N
+    teacher: 01M3771VT4T29MJA60VPXKKZGK
+    assertedStyle: 01M31VKGQFQJZTNTNB0MR8RX56
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Bennett states the tutelage directly and dates its outcome, the 1856 teaching licence. The start is not given; Inoue's death in 1838 is the earliest it can be.
+    hasInteraction:
+      - interactionPeriod:
+          endYear: 1856
+        hasEvidence:
+          - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+            quotation: Sakakibara then entered the tutelage of another Jikishin Kage-ryū master, Ōtani Seiichirō Nobutomo (1798-1864), who awarded him a teaching license in the tradition in 1856.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5G5YHYZ3V17CSZV2DY
+    rankStyle: 01M31VKGQFQJZTNTNB0MR8RX56
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+    rankGrade: rankgrade:menkyo_license
+    grantedBy: 01M3771VT4T29MJA60VPXKKZGK
+    dateConferred: '1856'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Bennett: Otani Nobutomo 'awarded him a teaching license in the tradition in 1856' - a paraphrase of the menkyō grade (kaiden is possible); single source, no JA wiki detail on the grade.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: "Sakakibara then entered the tutelage of another Jikishin Kage-ryū master, Ōtani Seiichirō Nobutomo (1798-1864), who awarded him a teaching license in the tradition in 1856."
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M3YH7N5GZ1J35SKQVXF56B7S
+    honorValue: Kendo Dendō
+    honorType: honortype:title
+    conferredBy: 01M0R2X2ACBZDHS6JXQ7CTAMC8
+    dateConferred: '2003'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        JA wiki (Naitō): the article's Kendo Dendō template lists Sakakibara Kenkichi among the first-batch inductees (2003); Wikidata records the Kendō Hall of Fame award; the list carries no separate footnote.
+    hasEvidence:
+      - basedOnSource: 01M3016DNJC2NEAYRBG32B4S5N
+        quotation: 榊原鍵吉
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - uri: https://www.wikidata.org/wiki/Q933966
+        quotation: >-
+          award received Kendō Hall of Fame
+        cite: "Wikidata Q933966 (Sakakibara Kenkichi); award received: Kendō Hall of Fame"
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/a/a3/Sakakibara_Kenkichi.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Sakakibara_Kenkichi.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    Meiji kengō of the Jikishin Kage-ryū Otani-ha. Taught by Inoue Denbei and then by Otani Nobutomo (Kōbusho head), who awarded him a teaching license in 1856; assistant instructor at the Kōbusho from March 1856, head instructor from 1858 (Bennett). Pioneered the public gekiken kagyō paid fencing exhibitions from 1873, first at his training hall in Shitaya Kurumasaka, Tokyo (Bennett). Naitō Takaharu trained at his dojo for a year from April 1883 (JA wiki, Naitō; kenshi247 2012). Listed among the Meiji kengō of Jikishin Kage-ryū (JA wiki); Kendo Dendō first-batch inductee (2003).
+  ja: >-
+    直心影流（男谷派）の明治の剣豪。直心影流剣術の主な門人として挙げられ、剣道殿堂第一次顕彰者（2003年）。
+notes: >-
+  Bennett's years (1830-94) agree with Wikidata (1830-12-19, Edo; 1894-09-11, Shitaya, beriberi). Married Taka, niece of Katsu Kaishu, in 1858 (Bennett) - not modeled. Participated in the Battle of Ueno (Wikidata).
+hasEvidence:
+  - basedOnSource: 01M31VKGQF10A5BFPZVQZN8CQP
+    quotation: 明治の剣豪榊原鍵吉、高山峰三郎、得能関四郎、奥村左近太、富山圓、山田次朗吉などがいる。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+    quotation: In March of that year, Ōtani recommended that his protégé be appointed as one of the assistant instructors at the Kōbusho. He became a head instructor in 1858.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+    quotation: He initially organized open training sessions and demonstrations at his training hall in Shitaya Kurumasaka, Tokyo, in February 1873.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q933966
+tags:
+  - kenjutsu
+  - jikishinkage
+  - otani-ha
+  - kobusho
+  - gekiken

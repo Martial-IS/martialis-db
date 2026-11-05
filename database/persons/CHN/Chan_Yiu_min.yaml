@@ -1,0 +1,88 @@
+type: Person
+id: 01M69YCGCPYFDY1R2B3XAA19HK
+name:
+  en: Chan Yiu-min
+  yue: 陳汝棉
+  zh: 陳汝棉
+  zh-Latn: Chen Rumian
+aka:
+  en:
+    - Chan Yiu Min
+nationality:
+  - countryCode: eucountry:CHN
+    wikidata: wd:Q148
+birthEvent:
+  birthDate: '1884'
+  birthPlace:
+    label: Foshan
+    countryCode: eucountry:CHN
+    wikidata: wd:Q34412
+  hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        After Ng Chung So, the most influential Wing Chun instructor of the era was probably Chan Yiu
+        Min (1884–1942), the son of Chan Wah Shun.
+      locator: '190'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        Like his father Chan Yiu Min was a native of Shunde, but he was born in Foshan.
+      locator: '190'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1942'
+  hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        After Ng Chung So, the most influential Wing Chun instructor of the era was probably Chan Yiu
+        Min (1884–1942), the son of Chan Wah Shun.
+      locator: '190'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Wing Chun teacher and doctor of traditional Chinese medicine in Foshan, son of Chan Wah-shun. He
+    taught at his clinic, the Chan Ancestral Hall, and from 1932 also in Wuzhou, Guangxi.
+notes: >-
+  Judkins and Nielson p. 190. Leung Ting's stories of a lazy, gambling youth are judged
+  unsupported. Students include Jiu Chao and Jiu Tong.
+hasTeacherAssertion:
+  - id: 01M69YCGD9EN3GYA2P11P6JXS5
+    teacher: 01KYD74HFE49JZRNYJDXWMF02Q
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1892
+        hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              He began to formally study Wing Chun when he was eight years old (1892), just a few years before
+              Leung Jan retired and his father started the process of opening a public school.
+            locator: '190'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: 178-179, 190-191
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - wing-chun
+  - chinese-martial-arts

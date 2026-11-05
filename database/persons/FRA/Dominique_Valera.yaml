@@ -1,0 +1,61 @@
+type: Person
+id: 01M040GCQ9PBVZ7808T4QP14FJ
+name:
+  en: Dominique Valera
+  fr: Dominique Valera
+nationality:
+  - countryCode: eucountry:FRA
+    wikidata: wd:Q142
+birthEvent:
+  birthDate: '1947-06-18'
+  birthPlace:
+    label: Lyon
+    countryCode: eucountry:FRA
+    wikidata: wd:Q456
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/9/9a/Dominique_Valera_%28Regensburg%2C_2008%29.jpg
+  rights: mediarights:cc-by-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Dominique_Valera_(Regensburg,_2008).jpg
+    cite: "Uli Ba, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: French karate and kickboxing pioneer, a dominant figure in European karate from the late 1960s, known as the French karate king and Europe's counterpart to Joe Lewis. He trained under Henry Plée and was a professional kickboxing champion. Jean-Claude Van Damme briefly studied kickboxing with him in Paris in the late 1970s.
+hasTeacherAssertion:
+  - id: 01M3YH7N5GFR975MQ83S5VP3GT
+    teacher: 01KZC19BDCC7XJMQ37YPC8YGPT
+    assertedStyle: 01KYFZEGYN107JYC5K1539R8JM
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: French Wikipedia and Wikidata record Valera as a student of Henry Plée
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M040GCQ93NN23AP32MWVHRFX
+            quotation: Maître Henry Plée
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - uri: https://www.wikidata.org/wiki/Q3035513
+            quotation: >-
+              student of Henry Plée
+            cite: Wikidata entry for Dominique Valera, student of (P1066) Henry Plée (Q1335481)
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M040GCQ93NN23AP32MWVHRFX
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3035513
+  - viaf:79125387
+  - isni:0000000056431134
+tags:
+  - karate
+  - french-karate
+  - kickboxing
+  - pioneer
+notes: Valera is widely described as holding high dan grades in later life, but no reliable, dated source for his rank or its granting organization has been added here, so the rank list is left empty pending sourcing.

@@ -1,0 +1,88 @@
+type: Person
+id: 01KZC19BDCSRJKR7FM173MVWKB
+name:
+  ja-Latn: Samura Kaichirō
+  ja: 佐村 嘉一郎
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1880'
+deathEvent:
+  deathDate: '1964'
+description:
+  en: Kodokan judoka, one of the longest-living 10th dan (belt degree) judo practitioners in the world,
+    awarded his 10th dan in April 1948. Son of the master Masaaki Samura of Takeuchi Santo-ryu jujutsu,
+    he joined the Kodokan in 1898, became head of the judo section of the Dai Nippon Butoku Kai in 1899,
+    and began teaching at the Kodokan in 1931. It was on his advice that the young Toku Sanpo came to
+    Tokyo.
+hasTeacherAssertion:
+- id: 01M3YH7N5GQFC9Z1Z0HYXSK1ZJ
+  teacher: 01KJJAWN28MWKKSN4J02MVY1S1
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The Wikipedia article records his 1898 Kodokan entry, implying Kano's direct
+      authority over him
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+    interactionPeriod:
+      startYear: 1898
+    hasEvidence:
+    - basedOnSource: 01KZC19BDCEMP0XG6BT158J690
+      quotation: he joined the Kodokan in 1898 and was awarded his 10th dan in April 1948
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5G70FGQ0JVDEHH9NVE
+  teacher: 01M1KR4J6E8WPYAP614SS5X7DP
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The Wikipedia article records Samura as the son of the Takeuchi Santo-ryu master
+      Masaaki Samura
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZC19BDCEMP0XG6BT158J690
+      quotation: Son of master Masaaki Samura from Takeuchi Santo-ryū jujutsu
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5G4Q01AP2A70D289XY
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 10
+  conferredBy: 01KJJAWN29MA64W22606R3WD7X
+  dateConferred: '1948'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The Wikipedia article records the 10th dan awarded in April 1948
+  hasEvidence:
+  - basedOnSource: 01KZC19BDCEMP0XG6BT158J690
+    quotation: was awarded his 10th dan in April 1948
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZC19BDCEMP0XG6BT158J690
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZBXVRR5Y5E2RYX8HMAEM2WZ
+  informationType: infotype:secondary
+  supports: true
+  quotation: 師事した七校の佐村嘉一郎三段（後の十段）の勧めで上京し、東京高等師範学校体育科へ入学後、1906年に講道館へ入門。
+  evidenceType: evidencetype:direct
+notes: Samura is the senior who advised Toku Sanpo to come to Tokyo; the connection is recorded on Toku
+  Sanpo's entry. The Japanese Wikipedia article on Toku Sanpo records Samura as a third dan (later 10th
+  dan) at the time he advised Toku to come to Tokyo.
+tags:
+- judo
+- kodokan
+- work-needed

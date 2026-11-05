@@ -1,0 +1,118 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1TB
+name:
+  ja-Latn: Kotani Sumiyuki
+  ja: 小谷 澄之
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1903-08-03'
+  birthPlace:
+    label: Nakagawa, Asako District, Hyōgo (now Asago)
+    countryCode: eucountry:JPN
+    wikidata: wd:Q720402
+deathEvent:
+  deathDate: '1991-10-09'
+  deathPlace:
+    label: Nishinomiya, Hyogo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q243853
+description:
+  en: Sumiyuki Kotani (小谷 澄之, Kotani Sumiyuki; August 3, 1903 – October 9, 1991).  Judo ambassador who
+    travelled around with Kano, and one of his last direct students.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/c/ce/Sumiyuki_Kotani.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Sumiyuki_Kotani.jpg
+    cite: "Kodansha, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+- id: 01M3YH7N5GH4Q7CEHVGSPBZXNV
+  teacher: 01KJJAWN28MWKKSN4J02MVY1S1
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Well-documented as one of Jigoro Kano's last direct students, with multiple reliable
+      sources including Judo Info and biography book
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+    interactionPeriod:
+      startYear: 1921
+      endYear: 1938
+    hasEvidence:
+    - uri: https://judoinfo.com/judan/
+      cite: 'Judo Info: Profiles of Judo 10th Dan Holders'
+      quotation: He was one of Jigoro Kano’s direct students, and only the 7th man to receive a 10th Degree
+        Black Belt while he was still alive.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M36DF1R5Y8PVQ6CTESF39ACY
+      locator: 128-167
+      locatorLabel: page
+      quotation: Kotani can be considered Kano's last direct disciple. [...] Kano often chose Kotani as
+        a traveling instructor on his teaching tours overseas.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GWEJVJ84CVRZ9DKHT
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 10
+  conferredBy: 01KJJAWN29MA64W22606R3WD7X
+  dateConferred: '1984'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Officially awarded 10th dan by Kodokan in 1984, well-documented in Judo Channel
+      and biography book
+  hasEvidence:
+  - uri: https://www.judo-ch.jp/english/legend/kotani/
+    cite: Judo Channel
+    quotation: >-
+      Sumiyuki Kotani [...] April, 1984 10th Dan
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M36DF1R5Y8PVQ6CTESF39ACY
+    locator: 128-167
+    locatorLabel: page
+    quotation: '[Kotani] was promoted to tenth dan in 1984'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- uri: https://www.olympedia.org/athletes/59042
+  cite: 'Olympedia: Sumiyuki Kotani'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://judoinfo.com/judan/
+  cite: 'Judo Info: Profiles of Judo 10th Dan Holders'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.judo-ch.jp/english/legend/kotani/
+  cite: Judo Channel
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M4R6M024WWQEHJT6YNT91K0N
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M36DF1R5Y8PVQ6CTESF39ACY
+  locator: 128-167
+  locatorLabel: page
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q982540
+- dbr:Sumiyuki_Kotani

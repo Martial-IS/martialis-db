@@ -1,0 +1,88 @@
+type: Person
+id: 01KZ6V67A53F6AKZHGHJAVVW72
+name:
+  fr: Emile Metzinger
+nationality:
+- countryCode: eucountry:FRA
+  wikidata: wd:Q142
+hasTeacherAssertion:
+- id: 01M3YH7N5GXGXKBEDR9EZM5Y4M
+  teacher: 01KJJAWN29MA64W22606R3WD7D
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Metzinger began aikido in 1964 in Casablanca according to M'barek Alaoui's 2011
+      interview, at a time when Stobbaerts ran the Budo Club du Maroc; the AJ interview records that Metzinger
+      and Alaoui left Stobbaerts in 1970 to create the Syu do kan.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KZ6D9E8Q3F78F13SS130W679
+    interactionPeriod:
+      startYear: 1964
+      endYear: 1970
+    hasEvidence:
+    - basedOnSource: 01KZ6V67A5JH2GFJJBACQ4E739
+      quotation: Emilie Metzinger hat 1964 in Casablanca begonnen Aikido zu praktizieren, er war mit einer
+        Chinesin verheiratet – später wurde auch er Aikidolehrer.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZ6QKPB7XV7VR5F4AATW2XEC
+      quotation: Ces deux personnes avaient quitté Georges Stobbaerts pour créer leur club.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GDDDH0ZE5FKB82F6D
+  teacher: 01KZ4T6J7DEM2P2C0XMBSJ4CZD
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+  hasConfidence:
+    confidenceLevel: conflevel:possible
+    assessedBy: agent:FSM
+    confidenceRationale: After the 1970 split, the Syu do kan co-founded by Metzinger and Alaoui followed
+      the Tamura (Aikikai) line, per the Aikido Journal interview; the teacher relationship is inferred
+      from the school's line rather than stated directly.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KZ6QKPB7V43XB7J59EQJQVK6
+    interactionPeriod:
+      startYear: 1970
+    hasEvidence:
+    - basedOnSource: 01KZ6QKPB7XV7VR5F4AATW2XEC
+      quotation: quand il est revenu au Maroc, il est allé avec M'Barek Alaoui et Emile Metzinger, au
+        Syu do kan.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:indirect
+hasEvidence:
+- basedOnSource: 01KZ6V67A5JH2GFJJBACQ4E739
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ6QKPB7XV7VR5F4AATW2XEC
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M4R8589M3Z947ZKGQJF6XW3P
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+description:
+  en: French aikido practitioner who began aikido in Casablanca in 1964, a student of Georges Stobbaerts
+    who, with M'barek Alaoui, left him in 1970 to found the Syu do kan following the Tamura (Aikikai)
+    line. He later became an aikido teacher and is recorded as a member of the FFAB's CSDGE (Commission
+    Spécialisée des Dans et Grades Équivalents) in the 2013 Manuel du Pratiquant.
+  pt: Praticante de aikido francês que começou o aikido em Casablanca em 1964, aluno de Georges Stobbaerts
+    que, com M'barek Alaoui, o deixou em 1970 para fundar o Syu do kan seguindo a linha de Tamura (Aikikai).
+    Tornou-se mais tarde professor de aikido e é registado como membro da CSDGE da FFAB no Manuel du Pratiquant
+    de 2013.
+notes: The Aikido Journal interview with Alaoui spells the first name 'Emilie' (feminine form), while
+  the Aikido Journal interview with Obellianne and the FFAB Manuel du Pratiquant use 'Emile'; the masculine
+  form is used here. The nationality is inferred as French from his later role in the FFAB; no source
+  states it explicitly.
+tags:
+- aikido
+- aikikai
+- syu-do-kan
+- morocco
+- france

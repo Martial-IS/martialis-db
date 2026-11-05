@@ -1,0 +1,142 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD6A
+name:
+  ja-Latn: Matsumura Sōkon
+  ja: 松村宗棍
+description:
+  en: Okinawan karate master who developed Shuri-te, a precursor to many modern karate styles. Teacher
+    of Ankō Asato, Ankō Itosu, and through them influenced Gichin Funakoshi and modern karate. Born in
+    the Ryukyu Kingdom, died after Okinawa's annexation by Japan.
+aka:
+  zh-Latn: Wu Chengda
+  ja-Latn: Bushi Matsumura
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+- countryCode: country:XRY
+  wikidata: wd:Q28025
+birthEvent:
+  birthDate: '1809'
+  birthPlace:
+    label: Shuri, Okinawa
+    countryCode: eucountry:JPN
+    wikidata: wd:Q608415
+deathEvent:
+  deathDate: '1899'
+  deathPlace:
+    label: Shuri, Okinawa
+    countryCode: eucountry:JPN
+    wikidata: wd:Q608415
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/S%C5%8Dkon_Matsumura.jpg/250px-S%C5%8Dkon_Matsumura.jpg
+  rights: mediarights:cc0-1.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:S%C5%8Dkon_Matsumura.jpg
+    cite: "Okinawa Karate Kaikan, Wikimedia Commons"
+    informationType: infotype:secondary
+notes: >-
+  Cramer (p. 70) lists further reported teachers: Wai Shin Zan (a Chinese attaché) and the Shan P'u
+  Ying school in Beijing. Cramer's Ason "in Fuzhou" is taken to be the Ason who taught Oyadomari.
+hasTeacherAssertion:
+- id: 01M5HVMXKZB5S591HQD47SQ64K
+  teacher: 01M1KR4J6EZVMM88TQ2R5GKSX4
+  assertedStyle: 01KYHRZE60P1GBRPFW8VZXG7GR
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:possible
+    assessedBy: agent:FSM
+    confidenceRationale: Single source, and it reports the claim as hearsay.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+      quotation: Still others claim that he studied in Fuzhou under an instructor named Ason
+      locator: '70'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:indirect
+- id: 01M5H3RJVTJ737GYEFX8ZTZNHS
+  teacher: 01M5H3RJVTNJN00FNZZSNF8W9D
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9F
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:possible
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      One source states it; the other reports it as disputed, with Chinese teachers named instead.
+      Sakugawa's dates (to about 1815) leave little overlap with Matsumura's (born 1797 or 1809).
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: Matsumura was also a student of Sakugawa Satunuku.
+      locator: '208'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+      quotation: >-
+        While some researchers have reported that Sokon Matsumura studied under Kanga Sakugawa, there is
+        not total agreement on this issue.
+      locator: '70'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M5H3RJVTN5VVNNG5VRPFKW27
+  teacher: 01M5H3RJVTXPWN0H33G2RJ6G4A
+  assertedStyle: 01KYHRZE60P1GBRPFW8VZXG7GR
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Both sources go back to Funakoshi's account.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+      quotation: Funakoshi stated that he studied under a Chinese attaché named Iwah
+      locator: '70'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Matsumura Sokon (1809–1899) of Shuri studied what was said to be a form of Shaolin boxing with
+        the attaché Iwah.
+      locator: '208'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- uri: https://ja.wikipedia.org/wiki/%E6%9D%BE%E6%9D%91%E5%AE%97%E6%A3%8D
+  archiveUri: https://ja.wikipedia.org/w/index.php?title=%E6%9D%BE%E6%9D%91%E5%AE%97%E6%A3%8D&oldid=109242340
+  cite: 'Japanese Wikipedia: 松村宗棍'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://en.wikipedia.org/wiki/S%C5%8Dkon_Matsumura
+  cite: 'English Wikipedia: Sōkon Matsumura'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q715769
+- dbr:Matsumura_Sōkon
+hasHonorAssertion:
+- id: 01M3YH7N5GD172SBRC1DJPQVCP
+  honorValue: Chikudun Pechin
+  honorType: honortype:title
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Japanese Wikipedia states he held the Ryukyuan rank of Chikudun Pechin (筑登之親雲上)
+  hasEvidence:
+  - uri: https://ja.wikipedia.org/wiki/%E6%9D%BE%E6%9D%91%E5%AE%97%E6%A3%8D
+    archiveUri: https://ja.wikipedia.org/w/index.php?title=%E6%9D%BE%E6%9D%91%E5%AE%97%E6%A3%8D&oldid=109242340
+    quotation: 唐名は武成達、位階は筑登之親雲上（チクドゥンペーチン）、号は雲勇、もしくは武長と称した。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+    cite: Japanese Wikipedia article on Matsumura Sōkon

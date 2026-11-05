@@ -1,0 +1,91 @@
+type: Person
+id: 01M69YCGCQGS9JTBB7ZDPC1KTX
+name:
+  en: Jiu Chao
+  yue: 招就
+  zh: 招就
+  zh-Latn: Zhao Jiu
+nationality:
+  - countryCode: eucountry:CHN
+    wikidata: wd:Q148
+birthEvent:
+  birthDate: '1902'
+  birthPlace:
+    label: Langbian, Nanhai
+    countryCode: eucountry:CHN
+  hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        Jiu Chao (1902–1972) was a more important (though often overlooked) disciple of Chan Yiu Min.
+      locator: '190'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        Jiu was born in Langbian village, Nanhai County.
+      locator: '190'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1972'
+  hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        Jiu Chao (1902–1972) was a more important (though often overlooked) disciple of Chan Yiu Min.
+      locator: '190'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Wing Chun teacher from Foshan, student of Chan Yiu-min. After 1945 he taught for the Zhong Yi
+    Athletic Association in Foshan and at his own school in Shiqi, Zhongshan, and served in the
+    Foshan plain-clothes police.
+notes: >-
+  Judkins and Nielson pp. 120, 190-191, 206. Probably trained in Hung Gar first (p. 191). Over 100
+  students, including Pan Nam. Asked Ip Man to correct his forms in the police years (p. 206); not
+  recorded as a teacher claim. Wikidata gives his death as 1968.
+hasTeacherAssertion:
+  - id: 01M69YCGDBVF6H31XXEJFST20W
+    teacher: 01M69YCGCPYFDY1R2B3XAA19HK
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              Jiu Chao (1902–1972) was a more important (though often overlooked) disciple of Chan Yiu Min.
+            locator: '190'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              He learned Wing Chun from Chan Yiu Min, the son of Ip Man’s teacher Chan Wah Shun.
+            locator: '120'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: 120, 190-191, 206
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q10297186
+tags:
+  - wing-chun
+  - chinese-martial-arts

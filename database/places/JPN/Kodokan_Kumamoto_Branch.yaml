@@ -1,0 +1,84 @@
+type: Place
+id: 01M5HMRGB79K2Q9D99YPYH8PTV
+name:
+  en: Kodokan Kumamoto Branch
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Kumamoto
+      countryCode: eucountry:JPN
+      wikidata: wd:Q199889
+foundedEvent:
+  founder:
+    - 01KJJAWN28MWKKSN4J02MVY1S1
+  hasEvidence:
+    - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+      quotation: >-
+        Sometime later, in an effort to promote further the spread of judo, I established a Kodokan
+        branch dojo in Kumamoto.
+      locator: '56'
+      locatorLabel: page
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Branch dojo of the Kōdōkan that Kanō Jigorō set up in Kumamoto while he was headmaster of the
+    Number Five Junior High School there; on his return to Tokyo in 1893 he made Arima Sumiomi its head.
+hasInstructorRole:
+  - id: 01M5HMRGB7WN9HHYCGJYQZPTAB
+    instructor: 01M5HMRGB7WVKQPRNZBC6F4PWH
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1893
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Kano's own account only.
+    hasEvidence:
+      - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+        quotation: >-
+          I thereupon appointed Sumiomi Arima, who had been one of my political science and economics
+          students at Gakushuin, as head of the Kumamoto branch of the Kodokan.
+        locator: '57'
+        locatorLabel: page
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+        quotation: >-
+          In the spring of 1893, I was recalled to Tokyo by the Minister of Education
+        locator: '57'
+        locatorLabel: page
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:indirect
+hasAffiliationAssertion:
+  - id: 01M5HMRGB71T52ECEQ96PM4QMN
+    relatedOrganization: 01KJJAWN29MA64W22606R3WD7X
+    affiliationRelation: affrel:branch_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Kano's own account only.
+    hasEvidence:
+      - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+        quotation: >-
+          Sometime later, in an effort to promote further the spread of judo, I established a Kodokan
+          branch dojo in Kumamoto.
+        locator: '56'
+        locatorLabel: page
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+    quotation: >-
+      I established a Kodokan branch dojo in Kumamoto.
+    locator: '56'
+    locatorLabel: page
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo

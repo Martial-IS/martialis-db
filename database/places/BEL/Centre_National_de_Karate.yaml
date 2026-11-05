@@ -1,0 +1,87 @@
+type: Place
+id: 01M040GCQ9MDQZ501YE7W1R8W8
+name:
+  en: Centre National de Karate
+  fr: Centre National de Karaté
+aka:
+  en: CNK
+  fr:
+    - CNK
+    - École de Karaté de Bruxelles
+placeType: placeclass:club
+hasSite:
+  - location:
+      label: Ixelles
+      countryCode: eucountry:BEL
+      wikidata: wd:Q208713
+hasInstructorRole:
+  - id: 01M4R9845WW2KY6VRQKH5SK297
+    instructor: 01M040GCQ9FBQVWTZHKCVVW788
+    instructorCapacity: instrcap:head_instructor
+    instructorStyle: 01KYFZEGYN107JYC5K1539R8JM
+    instructorPeriod:
+      startYear: 1962
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The CNK history and an independent article agree.
+    hasEvidence:
+      - basedOnSource: 01M040GCQ93GVPWXCF73X6Y0BF
+        quotation: In 1962, Claude GOETZ and Jean DE HAES created the Karate school in Brussels, the ancestor of the CNK.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M040GCQ9QVGJJP6VB3B9G5DJ
+        quotation: 'Aujourd''hui encore, il est à la tête de sa salle qui a désormais changé de nom pour devenir le "World Champion CNK".'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M4R9845WEW30GV89376JZNS0
+    instructor: 01M040GCQ9S0TAVK3AWRSZT2H4
+    instructorCapacity: instrcap:instructor
+    instructorStyle: 01KYFZEGYN107JYC5K1539R8JM
+    instructorPeriod:
+      startYear: 1977
+      endYear: 1981
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: His own interview; one side only.
+    hasEvidence:
+      - basedOnSource: 01M040GCQ9T51ZJEM2K713JQ51
+        quotation: >-
+          My instructor owned four karate schools, in the beginning two for adults and one for the handicapped. I taught the handicapped. [...] when I became seventeen years old, he opened a karate school for kids. So I started to teach for him as a helper
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1962'
+  founder:
+    - 01M040GCQ9FBQVWTZHKCVVW788
+  hasEvidence:
+    - basedOnSource: 01M040GCQ93GVPWXCF73X6Y0BF
+      quotation: In 1962, Claude GOETZ and Jean DE HAES created the Karate school in Brussels, the ancestor of the CNK. In fact this is one of the first clubs in Europe where Karate was the only sport practiced.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: Brussels karate club founded in 1962 by Claude Goetz and Jean De Haes as the first karate-only school in Brussels, later renamed the Centre National de Karate (CNK). Jean-Claude Van Damme trained there from 1971, earning his black belt from Goetz in 1978, and later taught students with disabilities and children at Goetz's schools. The club survives today as the World Champion CNK, still headed by Goetz.
+  fr: Club de karaté bruxellois fondé en 1962 par Claude Goetz et Jean De Haes, première école bruxelloise consacrée uniquement au karaté, devenue ensuite le Centre National de Karaté (CNK). Jean-Claude Van Damme s'y est entraîné à partir de 1971 et y a reçu sa ceinture noire de Claude Goetz en 1978, avant d'y enseigner auprès d'élèves en situation de handicap et d'enfants. Le club subsiste aujourd'hui sous le nom de World Champion CNK, toujours dirigé par Goetz.
+hasEvidence:
+  - basedOnSource: 01M040GCQ93GVPWXCF73X6Y0BF
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M040GCQ9QVGJJP6VB3B9G5DJ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M040GCQ9T51ZJEM2K713JQ51
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - karate
+  - shotokan
+  - belgium
+  - brussels

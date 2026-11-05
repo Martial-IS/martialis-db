@@ -1,0 +1,57 @@
+type: Person
+id: 01M6ERSPBWVDQC826X444MJRYJ
+name:
+  en: Park Chul-hee
+  ko: 박철희
+aka:
+  en:
+  - Pak Chŏl Hŭi
+  - Chul Hee Park
+nationality:
+- countryCode: eucountry:KOR
+  wikidata: wd:Q884
+description:
+  en: >-
+    Korean karate teacher; co-founder of the Kang Duk Won and author of P’asa Kwŏnbŏp (1958).
+hasTeacherAssertion:
+- id: 01M6ERSPBWHPD1K9NRZF89ZM9B
+  teacher: 01M6BQSYG62DDVKJEK49E83Y2K
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9S
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      One academic source, stated twice
+  hasInteraction:
+  - interactionPlace: 01M6BQSYG6M9MZT8K9QHZ96Q6J
+    hasEvidence:
+    - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+      quotation: >-
+        Pak Chŏl Hŭi, who was a student of Yun Pyŏng In at the YMCA Kwŏnbŏp Bu, wrote P’asa Kwŏnbŏp – Kongsu-Do Kyobon (1958). He was the co-founder of Kang-Dŏk Wŏn in 1956.
+      locator: '78'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+      quotation: >-
+        His book is interesting for the fact that his instructor, Yun Pyŏng In, left no publications.
+      locator: '18'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+notes: >-
+  Moenig dates the Kang Duk Won to 1956 (p. 78) and to 1965 (p. 18). The title P'asa Kwŏnbŏp matches the
+  name of Kang Rhee's PaSaRyu; no source links the two. Possibly Wikidata Q141190179 (Korean martial
+  artist, b. 1933); not verified.
+hasEvidence:
+- basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- karate
+- taekwondo
+- kwan-founder

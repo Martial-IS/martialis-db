@@ -1,0 +1,128 @@
+type: Person
+id: 01KYF2M2VA0JKJCSVHZA3ZSPYA
+name:
+  en: Antonio Inoki
+  ja: アントニオ猪木
+  ja-Latn: Antonio Inoki
+aka:
+  ja:
+    - 猪木 寛至
+  ja-Latn:
+    - Inoki Kanji
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1943-02-20'
+  birthPlace:
+    label: Yokohama
+    countryCode: eucountry:JPN
+    wikidata: wd:Q38283
+  hasEvidence:
+    - basedOnSource: 01KYF2M2V9G5DTQR4BMY1NG9YH
+      quotation: >-
+        Born Kanji Inoki (猪木寛至, Inoki Kanji) 20 February 1943
+      cite: Antonio Inoki (Wikipedia EN)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2022-10-01'
+  deathPlace:
+    label: Tokyo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1490
+  hasEvidence:
+    - basedOnSource: 01KYF2M2V9G5DTQR4BMY1NG9YH
+      quotation: >-
+        Died 1 October 2022 (aged 79)
+      cite: Antonio Inoki (Wikipedia EN)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: Antonio Inoki (1943–2022) was a Japanese professional wrestler, martial artist, and politician. He founded New Japan Pro-Wrestling in 1972 and fought Muhammad Ali in the 1976 wrestler-vs-boxer match that paved the way for modern MMA. He trained Satoru Sayama (the original Tiger Mask) and was a key figure in the development of shoot wrestling and mixed martial arts in Japan. He was also elected to the Japanese House of Councillors and negotiated the release of Japanese hostages in Iraq.
+  ja: アントニオ猪木（1943–2022）は、日本のプロレスラー、武術家、政治家。1972年に新日本プロレスを創設。1976年のモハメド・アリ戦は総合格闘技の先駆けとなった。佐山聡（初代タイガーマスク）を育成し、シュートレスリングと総合格闘技の発展に貢献。参議院議員も務め、イラクの人質解放にも尽力した。
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/5/5f/Inoki%2C_circa_1983_%28cropped%29.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Inoki,_circa_1983_(cropped).jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M3YH7N5GD0VVCYF7XDSE4TPD
+    teacher: 01KYF39J6HSNDTTW9532CVQX6T
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Independent sources state it.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1960
+          endYear: 1963
+        hasEvidence:
+          - basedOnSource: 01KYF2M2V9G5DTQR4BMY1NG9YH
+            cite: Antonio Inoki (Wikipedia EN)
+            quotation: Inoki met Rikidōzan at the age of 17 in Brazil and went back to Japan for the Japan Pro Wrestling Alliance (JWA) as his disciple.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G4DE85CS432WAY31Z3JA33
+            quotation: >-
+              Rikidozan was immediately impressed by Inoki’s stature, height, and natural athleticism, and returned to Japan with Inoki in tow to commence his training.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GSMB76VPYGJE9DVCT
+    teacher: 01KYDPMZ5JJKGQ5DDGFGM8FBJN
+    assertedStyle: 01KYEWRMWERM1HW12W53HE9G4A
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Inoki trained under Karl Gotch and was deeply influenced by catch wrestling, which he incorporated into New Japan Pro-Wrestling's strong style
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1970
+          endYear: 1975
+        hasEvidence:
+          - basedOnSource: 01KYF2M2V9G5DTQR4BMY1NG9YH
+            cite: Antonio Inoki (Wikipedia EN)
+            quotation: Inoki was amongst the group of professional wrestlers who were tutored in the art of hooking and shooting by the professional wrestler Karl Gotch.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYF2M2V9G5DTQR4BMY1NG9YH
+    cite: Antonio Inoki (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://www.wwe.com/superstars/antonioinoki
+    cite: Antonio Inoki (WWE official)
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://nwhof.org/hall_of_fame/bio_by_name/antonio-inoki
+    cite: Antonio Inoki (National Wrestling Hall of Fame)
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://www.inokigenki.com/en/history/index.html
+    cite: Biography of Antonio Inoki (Inoki Genki Factory official)
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q45207
+  - viaf:258962556
+  - isni:0000000051211992
+tags:
+  - professional-wrestling
+  - shoot-wrestling
+  - new-japan-pro-wrestling
+  - mixed-martial-arts
+  - politician

@@ -1,0 +1,78 @@
+type: Person
+id: 01M5JWHXPX1WC50T68CYTXVN0R
+name:
+  en: Heracles
+  el: Ἡρακλῆς
+aka:
+  en:
+    - Herakles
+    - Hercules
+description:
+  en: >-
+    Divine hero of Greek mythology, son of Zeus and Alcmene. He learned wrestling from Autolycus,
+    wrestled the giant Antaeus, killed the boxer Eryx in a match, and as his ninth labour took the war
+    belt of the Amazon queen Hippolyta.
+hasHistoricityAssertion:
+  - id: 01M5JWHXPX0D4KBT2F7F43P9KF
+    historicity: hist:legendary
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        One source places him in myth; the other implies it.
+    hasEvidence:
+      - basedOnSource: 01M5JWHXPXNMMMTGN364P5DGDP
+        quotation: >-
+          Divine hero in Greek mythology
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          The ninth labor of Herakles (Latin: Hercules) involved the Amazons.
+        locator: '214'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+hasTeacherAssertion:
+  - id: 01M5JWHXPXV80QJRD8EWTZPW13
+    teacher: 01M5JWHXPX2D6SNV0Y09Z6EHXF
+    assertedStyle: 01KYJ39BQPQ7JTTDQ3B36PZQQN
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JWHXPXNMMMTGN364P5DGDP
+            quotation: >-
+              He learned how to wrestle from Autolycus.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JWHXPX1GYRCV4W753VH3BH
+    quotation: >-
+      Eryx was an excellent boxer but died when Heracles beat him in a match.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5JWHXPXNMMMTGN364P5DGDP
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q122248
+tags:
+  - legend
+  - wrestling
+  - greece
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/a/ad/Herakles_Farnese_MAN_Napoli_Inv6001_n01.jpg
+  rights: mediarights:cc-by-2.5
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Herakles_Farnese_MAN_Napoli_Inv6001_n01.jpg
+    cite: "Marie-Lan Nguyen, Wikimedia Commons"
+    informationType: infotype:secondary

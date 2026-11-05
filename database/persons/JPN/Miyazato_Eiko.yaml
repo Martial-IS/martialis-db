@@ -1,0 +1,66 @@
+type: Person
+id: 01M5HVRQ0HYPJQ22GNYWR8YNCM
+name:
+  ja-Latn: Miyazato Eikō
+aka:
+  en: Eiko Miyazato
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+description:
+  en: >-
+    Okinawan karateka who studied under both Juhatsu Kyoda and Chojun Miyagi, and noted differences
+    between their teaching of the same kata.
+notes: >-
+  Taken to be the elder brother of Miyazato Eiichi, who is recorded as a longtime student at Miyagi's
+  Garden Dojo (see Miyazato_Eiichi's notes). Cramer's index lists him separately from Eiichi.
+hasTeacherAssertion:
+  - id: 01M5HVRQ0HZA1BPSX015JZB7M7
+    teacher: 01M5H3PSF457SXMCD5MVRJGV8A
+    assertedStyle: 01M5H668X7FFH4YSCZ0CQE4B1T
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+            quotation: >-
+              Eiko Miyazato, who studied under both Juhatsu Kyoda and Chojun Miyagi, tells us that “there
+              were a number of differences between [Kyoda’s] teaching and Chojun Miyagi’s. I remember in
+              particular that the [Seisan] kata I learned from the two sensei were different.”
+            locator: '118'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5HVRQ0HTPTKR8BN9CDB6DCG
+    teacher: 01KZBRSRZ7DF87MMQPTAD4542E
+    assertedStyle: 01KZC8S2GEGBJJT9RKV5M0HJ3N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+            quotation: >-
+              Eiko Miyazato, who studied under both Juhatsu Kyoda and Chojun Miyagi, tells us that “there
+              were a number of differences between [Kyoda’s] teaching and Chojun Miyagi’s. I remember in
+              particular that the [Seisan] kata I learned from the two sensei were different.”
+            locator: '118'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+    locator: '118'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - karate

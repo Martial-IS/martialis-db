@@ -1,0 +1,98 @@
+type: Person
+id: 01M5KQTRGXN1CG8GCKHABYWR5C
+name:
+  en: Nat Langham
+aka:
+  en:
+    - Stephen Nathaniel Langham
+    - Old Nat
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+birthEvent:
+  birthDate: '1820-05-20'
+  birthPlace:
+    label: Hinckley, Leicestershire
+    countryCode: eucountry:GBR
+  hasEvidence:
+    - basedOnSource: 01M5KQTRGXS63SA9P8MREVXD44
+      quotation: >-
+        Nat Langham (20 May 1820 – 1 September 1871) was an English middleweight bare-knuckle prize
+        fighter.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1871-09-01'
+  hasEvidence:
+    - basedOnSource: 01M5KQTRGXS63SA9P8MREVXD44
+      quotation: >-
+        Nat Langham (20 May 1820 – 1 September 1871) was an English middleweight bare-knuckle prize
+        fighter.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    English middleweight prize fighter from Hinckley, taught at Dick Cain's sparring rooms in Leicester,
+    English middleweight champion from 1846 and the only man to beat Tom Sayers. In retirement he ran
+    London taverns and a boxing club, was Jem Mace's matchmaker, and mentored Mace and Tom King.
+notes: >-
+  The infobox gives 1 May 1820 as birth date; the lead gives 20 May.
+hasTeacherAssertion:
+  - id: 01M5KQTRGXGQRT0S466AXPZP1F
+    teacher: 01M5KQTRGX6Z6K65J1BV45VP0F
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5KQTRGXS63SA9P8MREVXD44
+            quotation: >-
+              After a neighborhood brawl, he was discovered by Leicester pugilist Dick Cain, and learned to
+              box at Cain's sparring rooms at the Castle Tavern, at Leicester's 43 Gallowtree Gate.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M5KQTRGXBVSB7SYRP473KYC7
+    honorValue: English middleweight champion
+    honorType: honortype:title
+    dateConferred: '1846-11-23'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasEvidence:
+      - basedOnSource: 01M5KQTRGXS63SA9P8MREVXD44
+        quotation: >-
+          Langham first took the championship by defeating George Gutteridge on 23 November 1846.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5KQTRGXS63SA9P8MREVXD44
+    quotation: >-
+      He was a 1992 inductee into the International Boxing Hall of Fame and a mentor to the British boxers
+      Tom King and Jem Mace.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3336298
+tags:
+  - boxing
+  - prizefighting
+  - united-kingdom
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/d/dc/Nat_Langham.gif
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Nat_Langham.gif
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary

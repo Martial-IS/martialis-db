@@ -1,0 +1,46 @@
+type: Person
+id: 01M5HP2J2CCYB9HXVF5DY4JZNH
+name:
+  ja-Latn: Kimotsuki Muneji
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+description:
+  en: >-
+    Early Kōdōkan judoka, one of the Kanō Juku students specialising in judo; Kanō brought him to
+    Kumamoto to help him teach judo there.
+notes: >-
+  The memoirs' "Kimozuke", a later Naval Academy coach (p. 51), is taken to be this man: a
+  romanisation variant of the same name, listed with three other judo specialists from p. 48.
+hasTeacherAssertion:
+  - id: 01M5HP2J2C36FJKC29CMYJ7MY7
+    teacher: 01KJJAWN28MWKKSN4J02MVY1S1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Kano's own account only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+            quotation: >-
+              Those who were specializing in judo included Shiro Saigo, Yoshitsugu Yamashita, Sakujiro
+              Yokoyama, Saburo Toharitaki, Nori Sato and Muneji Kimotsuki.
+            locator: '48'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+    quotation: >-
+      Fortunately I had brought with me from the Kodokan, Muneji Kimotsuki, who was able to give me some
+      assistance in the teaching of judo.
+    locator: '56'
+    locatorLabel: page
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo

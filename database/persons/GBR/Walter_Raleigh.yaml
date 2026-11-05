@@ -1,0 +1,54 @@
+type: Person
+id: 01M5JTMYPEXV13YK4FB840HCA0
+name:
+  en: Walter Raleigh
+aka:
+  en:
+    - Sir Walter Raleigh
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+description:
+  en: >-
+    English courtier, explorer and writer, a student of the Italian rapier master Rocco Bonetti, whom he
+    helped keep his Blackfriars school.
+hasTeacherAssertion:
+  - id: 01M5JTMYPE3XEFJ7101TKRTNWS
+    teacher: 01M5JTMYPEZBXV9VNZGSHZNMTK
+    assertedStyle: 01M5JSGG509Z4J4P08MWKM16ZW
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JTMYPENHER1RCARFPQMHQD
+            quotation: >-
+              His students included notable figures such as Lord Peregrin Willoughby, Sir Walter Raleigh
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JTMYPENHER1RCARFPQMHQD
+            quotation: >-
+              Walter Raleigh, and others Bonetti had mentored
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JTMYPENHER1RCARFPQMHQD
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q189144
+tags:
+  - fencing
+  - italian-school
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/f/f2/Sir_Walter_Ralegh_by_%27H%27_monogrammist.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Sir_Walter_Ralegh_by_%27H%27_monogrammist.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary

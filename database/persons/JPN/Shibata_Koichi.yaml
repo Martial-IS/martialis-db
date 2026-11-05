@@ -1,0 +1,38 @@
+type: Person
+id: 01M6BFF6ZQSQ1TY7440XFR1HK2
+name:
+  ja-Latn: Shibata Koichi
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+description:
+  en: >-
+    Tenjin Shinyo-ryu jujutsu teacher in Saitama Prefecture, a student of Aimiya Kazusaburo.
+hasEvidence:
+- basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+  locator: Tenjin Shinyo-ryu Jujutsu Today
+  locatorLabel: section
+  quotation: 'Of his students, the only one presently teaching is Shibata Koichi, in Saitama Prefecture.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M6BFF6ZQ0JS3WKTH2VYGKY7Z
+  teacher: 01M6BFF6ZQ4VXCW4EDKEWJHX7V
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9Q
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Skoss (the Kubota line) states it; one account.
+  hasInteraction:
+  - hasEvidence:
+      - basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+        locator: Tenjin Shinyo-ryu Jujutsu Today
+        locatorLabel: section
+        quotation: 'Of his students, the only one presently teaching is Shibata Koichi, in Saitama Prefecture.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+notes: >-
+  Skoss (1997): teaching on a small scale, mainly to his own family. English Wikipedia lists him beside Kubota as current headmaster.

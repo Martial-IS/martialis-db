@@ -1,0 +1,126 @@
+type: Person
+id: 01M1BVV4WYG9J8ASAJ39CVBXQ2
+name:
+  ja-Latn: Hosokawa Yoshimasa
+  ja: 細川義昌
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1849'
+  birthPlace:
+    label: Tosa
+    countryCode: eucountry:JPN
+    wikidata: wd:Q188008
+  hasEvidence:
+    - uri: https://www.wikidata.org/wiki/Q76284171
+      quotation: >-
+        date of birth 1849
+      cite: Wikidata Q76284171 (Hosokawa Yoshimasa); year precision only
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1923'
+  deathPlace:
+    label: Kōchi
+    countryCode: eucountry:JPN
+    wikidata: wd:Q188008
+  hasEvidence:
+    - basedOnSource: 01KZ6XT5DSE2WFVPWC8ET939CN
+      quotation: >-
+        He maintained a very good relationship with Yoshimasa until his death in 1923.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: 'Hosokawa Yoshimasa was a former samurai of the Yamauchi clan of Tosa domain (Kōchi Prefecture) and a
+
+    Shihan of Musō Shinden Eishin-ryū (aka. Shimomura-ha Hasegawa Eishin-ryū). He was one of two teachers
+
+    who accepted Nakayama Hakudō as a student of Tosa Eishin-ryū in 1916, making Hakudō the first outsider
+
+    to learn the art. Hakudō received Menkyo (not Menkyo Kaiden) from Hosokawa after traveling to Kochi to
+
+    train with him at his residence. Their relationship continued until Hosokawa''s death in 1923. He had received the school''s menkyo kaiden from Shimomura Shigeichi in 1868, and after the Meiji Restoration sat in the Kochi prefectural assembly and the House of Representatives.
+
+'
+  ja: 細川義昌は土佐藩（高知県）出身の元侍で、無双神伝英信流（下村派）の師範。1916年に中山博道が土佐英信流を初めて外部人として学べるように受け入れた師の一人。慶応4年（1868年）に下村茂市より無雙神傳英信流の免許皆伝を受け、明治維新後は高知県会議員・衆議院議員を務めた。博道は高知で彼のもとで免許を授けられ、1923年に細川の死去まで関係を続けた。
+hasEvidence:
+  - basedOnSource: 01KZ6XT5DSE2WFVPWC8ET939CN
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M1BVV4WYHGVCCTB1CPXDRSAV
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M325EAQG1WV1Q9D5GTK52DVD
+    quotation: 下村茂市より無雙神傳英信流の免許皆伝を授かった細川義昌は植田平太郎竹生に免許皆伝を授けた。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M3YH7N5GJJJ8F9FSMYZQTXGT
+    teacher: 01M3267J3YGHCXQZ4GZPY3AP6A
+    assertedStyle: 01M325EAQGV7GGTG9GG77E9118
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        JA wiki (Muso Shinden Eishin-ryu): Hosokawa, whose teacher was Shimomura Shigeichi, carried the school on to the Taisho period and received its menkyo kaiden from him in 1868. One source (the school's article), no independent corroboration found, hence probable.
+    hasInteraction:
+      - interactionPeriod:
+          endYear: 1868
+        notes: >-
+          Training under Shimomura ran to the 1868 menkyo kaiden; no start year is recorded, so the period is bounded only by its end.
+        hasEvidence:
+          - basedOnSource: 01M325EAQGDD9A6EEK7W8RGQFD
+            quotation: 細川義昌（島村右馬丞の実子）は居合の他、竹内流（呑敵流）小具足組打、無外流剣術、川心流槍術、甲州流軍学や砲術を修行し、戊辰戦争の高松征討出陣の慶応4年（1868年）に下村茂市より無雙神傳英信流の免許皆伝を授かった。
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M325EAQGDD9A6EEK7W8RGQFD
+            quotation: その後、幕末に至り土佐藩の藩校・致道館において同流の師範であった下村茂市が明治維新までこれを教授したが、下村茂市も柔術をよくし、高木流体術拳法の師範も兼ねていた。
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GP6QC3FHKCAZ021N4
+    rankStyle: 01M325EAQGV7GGTG9GG77E9118
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+    rankGrade: rankgrade:menkyo_kaiden
+    grantedBy: 01M3267J3YGHCXQZ4GZPY3AP6A
+    dateConferred: '1868'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        JA wiki (Muso Shinden Eishin-ryu): received the school's menkyo kaiden from Shimomura Shigeichi in Keio 4 (1868) on the eve of the Boshin war; the same article's lineage list places him directly in Shimomura's line. One source, but the grant, its year and the grantor are stated explicitly.
+    hasEvidence:
+      - basedOnSource: 01M325EAQGDD9A6EEK7W8RGQFD
+        quotation: 細川義昌（島村右馬丞の実子）は居合の他、竹内流（呑敵流）小具足組打、無外流剣術、川心流槍術、甲州流軍学や砲術を修行し、戊辰戦争の高松征討出陣の慶応4年（1868年）に下村茂市より無雙神傳英信流の免許皆伝を授かった。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q76284171
+tags:
+  - iaijutsu
+  - iaido
+  - muso-shinden-eishin-ryu
+  - tosa-eishin-ryu
+  - koryu
+  - japan
+notes: 'The Wikidata QID Q76284171 for Hosokawa Yoshimasa describes a Japanese politician (b. 1849),
+
+  which matches this martial-arts teacher: the JA wiki article on Muso Shinden Eishin-ryu records
+
+  that he sat in the Kochi prefectural assembly and the House of Representatives after the Meiji
+
+  Restoration. The 1849 birth year therefore comes from Wikidata and is not independently
+
+  corroborated by a martial-arts source.
+
+'

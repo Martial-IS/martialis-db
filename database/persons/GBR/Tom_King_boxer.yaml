@@ -1,0 +1,127 @@
+type: Person
+id: 01M5JPY6FNA9MDXPS6WGQQ4FTC
+name:
+  en: Tom King
+aka:
+  en:
+    - Thomas King
+    - The Fighting Sailor
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+birthEvent:
+  birthDate: '1835-08-14'
+  birthPlace:
+    label: Stepney, London
+    countryCode: eucountry:GBR
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNZNJXYJBYGXT3VVS2
+      quotation: >-
+        Tom King (14 August 1835 – 3 October 1888) also known as "The Fighting Sailor" was an English
+        boxer who fought both bare-knuckle and with gloves.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1888-10-03'
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNZNJXYJBYGXT3VVS2
+      quotation: >-
+        Tom King (14 August 1835 – 3 October 1888) also known as "The Fighting Sailor" was an English
+        boxer who fought both bare-knuckle and with gloves.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    English boxer, "The Fighting Sailor", trained by the retired champion Jem Ward and later under Nat
+    Langham. He lost to Jem Mace in January 1862, beat him in the rematch, and retired in 1863 as
+    heavyweight champion of England.
+hasTeacherAssertion:
+  - id: 01M5KQTRGX7M45QZ05J78CKN26
+    teacher: 01M5KQTRGXN1CG8GCKHABYWR5C
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1861
+          endYear: 1862
+        hasEvidence:
+          - basedOnSource: 01M5JPY6FNZNJXYJBYGXT3VVS2
+            quotation: >-
+              He trained carefully for his bouts with Young Broome and Mace under the tuteledge [sic] of
+              boxer Nat Langham.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5KQTRGXS63SA9P8MREVXD44
+            quotation: >-
+              In his boxing retirement, he became the matchmaking manager of the first official English
+              heavyweight champion, Jem Mace, and occasionally mentored Mace's student Tom King.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5JPY6FN84NFV29QK1T8QQM2
+    teacher: 01M5JPY6FNG2MRE0K9T5SBKT6K
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JPY6FNZNJXYJBYGXT3VVS2
+            quotation: >-
+              King's brawling bought him to the attention of the retired boxing champion Jem Ward who
+              began to train him in earnest.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JPY6FN89A5A0153DP35GAT
+            quotation: >-
+              He taught the boxing arts to students, one of whom, Tom King, defeated the legendary Jem
+              Mace to become champion in 1863.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M5JPY6FN592XQN4Z22N9BAG8
+    honorValue: Champion of England
+    honorType: honortype:title
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasEvidence:
+      - basedOnSource: 01M5JPY6FNZNJXYJBYGXT3VVS2
+        quotation: >-
+          He retired from the ring in 1863, as the Heavyweight Champion of England, following his defeat
+          of the reigning champion Jem Mace and American contender John C. Heenan.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JPY6FNZNJXYJBYGXT3VVS2
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q3530764
+tags:
+  - boxing
+  - prizefighting
+  - united-kingdom
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/4/4c/Thomas_King_%28boxer%29.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Thomas_King_(boxer).jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary

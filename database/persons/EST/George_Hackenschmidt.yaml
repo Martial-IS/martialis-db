@@ -1,0 +1,72 @@
+type: Person
+id: 01M5JVVMHMWG9E5WZ70FHEJDTN
+name:
+  en: George Hackenschmidt
+aka:
+  en:
+    - Georg Hackenschmidt
+    - The Russian Lion
+nationality:
+  - countryCode: eucountry:EST
+    wikidata: wd:Q191
+description:
+  en: >-
+    Estonian-born strongman and wrestler, trained from 1898 at Vladislav Krajewski's athletic club in
+    Saint Petersburg. A leading European champion around 1900, he worked the music halls of Paris, London
+    and Vienna and lost twice to Frank Gotch (1908, 1911).
+notes: >-
+  Dates differ: en Wikipedia 1877 birth; Green and Svinth 1878–1968. None recorded.
+hasTeacherAssertion:
+  - id: 01M5JVVMHM85MZRAX1AHACVXXZ
+    teacher: 01M5JVVMHMCDZR22V3Y9J8DG7A
+    assertedStyle: 01KYJ39BQPQ7JTTDQ3B36PZQQN
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1898
+          endYear: 1901
+        hasEvidence:
+          - basedOnSource: 01M5JVVMHMNR45DJ1RNF1VA906
+            quotation: >-
+              In 1898, Hackenschmidt trained at Krajewski's and was supported by Count Georges de
+              Ribeaupierre.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JVVMHMNR45DJ1RNF1VA906
+            quotation: >-
+              In March 1901, Hackenschmidt suffered the death of his mentor Krajewski, whom he considered
+              his second father.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Popular turn-of-the-century European wrestling champions included George Hackenschmidt (1878–1968)
+      and Stanley Zbyszko (Stanislaw Cyganiewicz, 1879–1967).
+    locator: '492'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5JVVMHMNR45DJ1RNF1VA906
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q947695
+tags:
+  - wrestling
+  - professional-wrestling
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/1/10/Georg_Hackenschmidt_ca._1905.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Georg_Hackenschmidt_ca._1905.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary

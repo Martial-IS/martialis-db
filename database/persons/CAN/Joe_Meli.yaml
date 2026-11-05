@@ -1,0 +1,53 @@
+type: Person
+id: 01M5HPEDHZWXPH3KMBPMZFDFY0
+name:
+  en: Joe Meli
+nationality:
+  - countryCode: eucountry:CAN
+    wikidata: wd:Q16
+description:
+  en: >-
+    Canadian judoka from Lethbridge, nine-time national champion and member of four Olympic teams
+    (1976–1988); brought along by Yosh Senda from his first breakfall.
+hasTeacherAssertion:
+  - id: 01M5HPEDHZ8SQP6ZSM7V2T82EJ
+    teacher: 01M5H57MAGZSFYY588G2ERRYRP
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              Of his personally coached athletes, Senda singles out Joe Meli for special mention because he
+              brought him along from his first breakfall until he was a member of the Olympic Team.
+            locator: '113'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              Sensei: Yosh Senda
+            locator: '86'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    quotation: >-
+      Meli was nine-time Canadian champion and was on four Olympic Teams - 1976, ‘80, ‘84, ‘88.
+    locator: '113'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q5198471
+tags:
+  - judo
+  - canada

@@ -1,0 +1,60 @@
+type: Style
+id: 01KYJC7J3MB81B06881FVFYGAG
+name:
+  en: Okinawan Kobudō
+  ja: 沖縄古武道
+aka:
+  en:
+    - Ryūkyū Kobujutsu
+styleType: styleclass:traditional
+description:
+  en: Okinawan Kobudō is the weapons system of Okinawan martial arts, encompassing traditional weapons such as the bō (staff), sai (trident), tonfa (handled club), kama (sickle), and nunchaku. It developed alongside karate in the Ryukyu Kingdom and was systematized in the 20th century by masters such as Taira Shinken and Moden Yabiku.
+foundedEvent:
+  startDate: 1600~
+  location:
+    countryCode: eucountry:JPN
+  hasEvidence:
+    - uri: https://en.wikipedia.org/wiki/Okinawan_kobud%C5%8D
+      quotation: >-
+        It is a popular story and common belief that Okinawan farming tools evolved into weapons due to restrictions placed upon the peasants by the Satsuma samurai clan when the island was made a part of Japan
+      archiveUri: https://en.wikipedia.org/w/index.php?title=Okinawan_kobud%C5%8D&oldid=1368401605
+      cite: Okinawan kobudō - Wikipedia
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:indirect
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5G2KZG3ZFJ16T7W4C1
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9S
+    styleRelationType: stylerel:sibling_style_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Okinawan Kobudō (weapons) and Karate (empty hand) developed alongside each other in Okinawa as companion arts within the same martial tradition
+    hasEvidence:
+      - uri: https://en.wikipedia.org/wiki/Okinawan_kobud%C5%8D
+        archiveUri: https://en.wikipedia.org/w/index.php?title=Okinawan_kobud%C5%8D&oldid=1368401605
+        cite: Okinawan kobudō - Wikipedia
+        quotation: Okinawan kobudō arts are thought by some to be the forerunner of the bare hand martial art of karate, and several styles of that art include some degree of Okinawan kobudō training as part of their curriculum
+        informationType: infotype:secondary
+        evidenceType: evidencetype:direct
+        supports: true
+hasEvidence:
+  - uri: https://en.wikipedia.org/wiki/Okinawan_kobud%C5%8D
+    archiveUri: https://en.wikipedia.org/w/index.php?title=Okinawan_kobud%C5%8D&oldid=1368401605
+    cite: Okinawan kobudō - Wikipedia
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q15622124
+tags:
+  - okinawan-martial-arts
+  - kobudo
+  - weapons
+  - koryu
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/3/35/Igor_Mirutenko_Okinawa_2015.jpg
+    rights: mediarights:cc-by-sa-4.0
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:Igor_Mirutenko_Okinawa_2015.jpg
+      cite: "Мирутенко, Wikimedia Commons"

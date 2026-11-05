@@ -1,0 +1,116 @@
+type: Style
+id: 01M0TQQ4D975QSE0N8QCTF2K9W
+name:
+  en: Shuai Jiao
+  zh: 摔跤
+  zh-Latn: Shuāijiāo
+aka:
+  en:
+    - Shuaijiao
+    - Chinese wrestling
+    - Kuai Jiao
+styleType: styleclass:traditional
+description:
+  en: 'Shuai jiao is the ancient jacket-wrestling wushu style of China, with regional traditions in
+
+    Beijing, Tianjin, Baoding (where the fast-throwing kuai jiao variant developed), and Shanxi.
+
+    Ancient Chinese wrestling terminology (jiaodi, jiaoli) is documented from the Zhou dynasty
+
+    onward, and a widely repeated Republican-era account presents shuai jiao as its unbroken
+
+    continuation - a narrative some read as a Han-nationalist revision
+
+    dating to anti-Qing sentiment of the early 20th century. What is not contested is the
+
+    Qing-era institutional lineage: the Manchu adopted Mongol bökh as buku (布庫) and formed the
+
+    Shan Pu Ying (善撲營), an elite imperial wrestling battalion; after the dynasty''s fall in 1912,
+
+    former battalion members taught Han and Hui civilians in Beijing, Tianjin, and Baoding. Ma
+
+    Liang formalised the art in 1917 through the manual Zhonghua Xin Wushu (中華新武術), and the
+
+    Central Guoshu Institute fixed the name "shuai jiao" and standardised competition rules in
+
+    1928. It remains a recognised discipline of Chinese wushu, governed alongside sanda by the
+
+    same national and international wushu bodies, and continues to be taught in Chinese police
+
+    and military academies.
+
+'
+  zh: '摔跤是中國古老的著衣摔跤武術，有北京、天津、保定（快跤）、山西等地方傳統。清代滿族將蒙古式摔跤
+
+    （博克）稱為布庫，並組建善撲營。1912年清朝滅亡後，善撲營成員向北京、天津、保定的漢族及回族平民
+
+    傳授技藝。1917年馬良編著《中華新武術》使該武術系統化，1928年中央國術館確定「摔跤」之名並標準化
+
+    比賽規則。摔跤現為中國武術的正式項目之一，與散打同受國家及國際武術機構管轄。
+
+'
+foundedEvent:
+  location:
+    countryCode: eucountry:CHN
+hasEvidence:
+  - basedOnSource: 01M0TQQ4D975QSE0N8QCTF2K9X
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5G1ZBC2QGCWBG6N3AM
+    relatedStyle: 01KYHQNWJF0CZFH1SXM9J40XEJ
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Shuai jiao is a governed discipline of the Chinese Wushu Association and of the International
+        Wushu Federation, competed at national wushu games alongside the striking styles.
+    hasEvidence:
+      - basedOnSource: 01M0TQQ4D975QSE0N8QCTF2K9X
+        quotation: Shuai jiao [...] is the term pertaining to the ancient jacket wrestling wushu style [...] The art continues to be taught in the police and military academies of China.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GRVHGCQCW95D4E12D
+    relatedStyle: 01M0TQQ4D975QSE0N8QCTF2K9Z
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        English Wikipedia states the Beijing lineage is "in essence the lineage from the Manchu buku
+        style that was practiced by the Imperial Guards Brigade, Shan Pu Ying" - Manchu buku being their
+        adoption of Mongol bökh. Beijing shuai jiao elder Li Baoru is separately reported stating shuai
+        jiao "comes directly from Mongol Bokh". Held at Probable rather than Confirmed because this is
+        one side of a live historiographical dispute: the competing claim of an unbroken
+        multi-millennial Han lineage from jiaodi/jiaoli is the mainstream popular account in
+        Chinese-language sources.
+    notes: Does not exclude older Han wrestling traditions (jiaodi/jiaoli) from having also fed into shuai jiao's technical vocabulary; the claim here is specifically about the Shan Pu Ying institutional lineage that produced the Beijing style codified in 1917-1928, not about the deeper multi-millennial ancestry, which is deliberately not modelled as an entity in this database - reifying it would invite a spurious continuity edge that the sources don't support.
+    hasEvidence:
+      - basedOnSource: 01M0TQQ4D975QSE0N8QCTF2K9X
+        quotation: This is in essence the lineage from the Manchu buku style that was practiced by the Imperial Guards Brigade, Shan Pu Ying
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M0TQQ4D975QSE0N8QCTF2K9Y
+        quotation: >-
+          According [to] Lǐ Bǎorú, Shuai Jiao comes directly from Mongol Bokh!
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q280502
+tags:
+  - chinese-martial-arts
+  - wrestling
+  - jacket-wrestling
+  - wushu
+  - shuai-jiao
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/b/be/Shuai_jiao_wrestling.JPG
+    rights: mediarights:public_domain_mark
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:Shuai_jiao_wrestling.JPG
+      cite: "Wikimedia Commons"

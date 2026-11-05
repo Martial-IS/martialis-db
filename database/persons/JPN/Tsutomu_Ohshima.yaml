@@ -1,0 +1,85 @@
+type: Person
+id: 01KYFZEGYNKYFCPETS9G1N9KBW
+name:
+  en: Tsutomu Ohshima
+  ja: 大島 劼
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1930-08-06'
+  birthPlace:
+    label: Qingdao
+    countryCode: eucountry:CHN
+    wikidata: wd:Q170035
+  hasEvidence:
+    - basedOnSource: 01KYFZEGYN77QRRRQ6CBQQ7YDK
+      quotation: >-
+        Born August 6, 1930
+      cite: Tsutomu Ohshima (Wikipedia EN)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: Japanese Shotokan karate master and founder of Shotokan Karate of America (SKA). He trained under Gichin Funakoshi at Waseda University and was awarded 5th dan by Funakoshi. He founded the first university karate club in the US at Caltech in 1957 and established the Southern California Karate Association, later renamed SKA. He translated Funakoshi's Karate-do Kyohan into English and was selected as Black Belt magazine's Japanese Instructor of the Year in 1968.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/7/72/Oshima_caltech_07.jpg
+  rights: mediarights:cc-by-sa-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Oshima_caltech_07.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M3YH7N5GP4DYBMMVMZYJRJJR
+    teacher: 01KJJAWN28MWKKSN4J02MVY1VB
+    assertedStyle: 01KYFZEGYN107JYC5K1539R8JM
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Ohshima trained directly under Gichin Funakoshi at Waseda University from 1948 to 1953 and was promoted by him; extensively documented
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1948
+          endYear: 1953
+        hasEvidence:
+          - basedOnSource: 01KYFZEGYN77QRRRQ6CBQQ7YDK
+            cite: Tsutomu Ohshima (Wikipedia EN)
+            quotation: Ohshima began studying karate in 1948, while a student at Waseda University. There, he trained under Shotokan's founder, Gichin Funakoshi
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5G31YX7DBT33F42X47
+    rankStyle: 01KYFZEGYN107JYC5K1539R8JM
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 5
+    dateConferred: '1957'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Promoted by Gichin Funakoshi himself, documented in Wikipedia and SKA history
+    hasEvidence:
+      - basedOnSource: 01KYFZEGYN77QRRRQ6CBQQ7YDK
+        cite: Tsutomu Ohshima (Wikipedia EN)
+        quotation: Funakoshi promoted Ohshima to 5th dan - the highest rank awarded by Funakoshi
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYFZEGYN77QRRRQ6CBQQ7YDK
+    cite: Tsutomu Ohshima (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q2619054
+  - viaf:28859528
+  - isni:0000000037953113
+tags:
+  - karate
+  - shotokan
+  - shotokan-karate-of-america
+  - caltech

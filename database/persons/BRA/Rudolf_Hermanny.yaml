@@ -1,0 +1,97 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1T1
+name:
+  pt: Rudolf Hermanny
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+birthEvent:
+  birthDate: '1931-08-16'
+  birthPlace:
+    label: São Paulo
+    countryCode: eucountry:BRA
+    wikidata: wd:Q174
+image:
+  contentUrl: https://archive.org/download/hermanny/hermanny.png
+  imageAttribution:
+    uri: https://revistabudo.com.br/georges-mehdi-e-rudolf-hermanny-farao-palestras-no-seminario-os-pioneiros/
+    cite: "Revista Budô"
+hasTeacherAssertion:
+  - id: 01M3YH7N5G3X45HGGHQ5R72A0D
+    teacher: 01KJJAWN28MWKKSN4J02MVY1T0
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Personal blog and historical article confirm training with Augusto Cordeiro from 1952-1987
+    role: teachrole:student
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD92
+        interactionPeriod:
+          startYear: 1952
+          endYear: 1987
+        hasEvidence:
+          - basedOnSource: 01KJJAWN29MA64W22606R3WDAB
+            cite: O MESTRE AUGUSTO CORDEIRO (Rudolf Hermanny)
+            quotation: Iniciei a prática do judô sob a orientação do Prof. Augusto de Oliveira Cordeiro em dezembro de 1952 na Academia localizada à rua Barata Ribeiro, nº 530, que muitas recordações deixou.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - uri: https://revistabudo.com.br/georges-mehdi-e-rudolf-hermanny-uma-historia-que-transcende-o-tempo-e-os-tatamis/
+            cite: Georges Mehdi e Rudolf Hermanny - Revista Budô
+            quotation: Segundo o historiador Stanlei Virgílio, o professor Hermanny iniciou seu judô com o professor Augusto Cordeiro em 1952, a quem esteve ligado até sua morte em 1987.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M6A2VG2WAGN73H375PYNQ8GD
+    teacher: 01M6A2VG2P495VXX89NZMED995
+    assertedStyle: 01M5H4AFG2PQBX1QXTNW3CMHN5
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              Artur Emídio lost against Rudolfo Hermanny, a student of Sinhôzinho
+            locator: '168'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GR46K8K73JZACJ7NX
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 4
+    dateConferred: '1963'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Official 1963 bulletin lists 4th dan rank
+    hasEvidence:
+      - uri: https://judotradicionalgoshinjutsukan.blogspot.com/2009/04/
+        cite: O JUDÔ NO RIO DE JANEIRO (Wanderley, 2001)
+        quotation: Boletim Informativo nº 1, de 1963 [...] Prof. Hermanny - 4º dan
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - uri: https://revistabudo.com.br/georges-mehdi-e-rudolf-hermanny-uma-historia-que-transcende-o-tempo-e-os-tatamis/
+    cite: Georges Mehdi e Rudolf Hermanny - Revista Budô
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://saladepesquisacapoeira.blogspot.com/2009/03/rudolf-hermany-boxcapoeira-e-judo.html
+    cite: RUDOLF HERMANY, BOX, CAPOEIRA E JUDO - Sala de Pesquisa
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KJJAWN29MA64W22606R3WDAB
+    cite: O MESTRE AUGUSTO CORDEIRO (Rudolf Hermanny)
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct

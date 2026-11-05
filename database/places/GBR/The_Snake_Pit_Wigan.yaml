@@ -1,0 +1,49 @@
+type: Place
+id: 01KYEZC87AX510ZSYXWYCWEPCJ
+name:
+  en: The Snake Pit
+aka:
+  en:
+    - Riley's Gym
+    - Riley's
+placeType: placeclass:gym
+description:
+  en: The Snake Pit, originally Riley's Gym, is a historic catch wrestling gym in Aspull, Wigan, England. Founded in 1948 by Billy Riley, it produced legendary wrestlers including Karl Gotch and Billy Robinson, and is regarded as the spiritual home of catch wrestling. It was revived under Roy Wood and continues to host the Catch Wrestling World Championships.
+hasSite:
+  - location:
+      label: Aspull
+      countryCode: eucountry:GBR
+      wikidata: wd:Q4809276
+    address: The Fields, Wigan Road, Aspull, Wigan, WN2 1QX, Greater Manchester, United Kingdom
+foundedEvent:
+  startDate: '1948'
+  founder:
+    - 01KYEZC879D48ZHB2QX45XRS35
+  hasEvidence:
+    - basedOnSource: 01KYEZC878MA8KQ4J7S5JHXVPR
+      quotation: >-
+        Date founded 1948
+      cite: The Snake Pit (Wigan) (Wikipedia EN)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+logo:
+  contentUrl: https://upload.wikimedia.org/wikipedia/en/2/24/The_Snake_Pit_logo.png
+  imageAttribution:
+    uri: https://en.wikipedia.org/wiki/File:The_Snake_Pit_logo.png
+    cite: The Snake Pit logo (Wikipedia)
+    informationType: infotype:secondary
+    evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYEZC878MA8KQ4J7S5JHXVPR
+    cite: The Snake Pit (Wigan) (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q18759107
+tags:
+  - catch-wrestling
+  - wigan
+  - gym
+  - historic

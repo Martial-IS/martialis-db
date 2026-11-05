@@ -1,0 +1,49 @@
+type: Person
+id: 01M5JRHX024FT5W06FTS5X1GJD
+name:
+  en: Theodori Verolini
+aka:
+  en:
+    - Theodorus Verolinus
+    - Theodore Verolini
+nationality:
+  - countryCode: eucountry:DEU
+    wikidata: wd:Q183
+description:
+  en: >-
+    Seventeenth-century German Freifechter whose Der Kůnstliche Fechter (1679) gives a short overview of
+    Joachim Meyer's teachings, possibly through Jakob Sutor, with Nicolaes Petter's grappling, neither
+    credited.
+hasDocumentTransmissionAssertion:
+  - id: 01M5JRHX026PBQ2CR97ZH8TZDP
+    transmissionDocument: 01M5JRHX02GH90F6CMD5YVWG3X
+    assertedStyle: 01M5JRHX026EPJNQVEJDCKRNJP
+    validDuring:
+      startYear: 1679
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it; it may have come through Sutor's book.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          plagiarized by Jacob Sutor in 1612, and plagiarized again by Theodore Verolinus in 1679.
+        locator: '253'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JRHX02EEVRR7TMYV1137FX
+        quotation: >-
+          a brief overview of the teachings of Joachim Meÿer, possibly via Jakob Sutor von Baden
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JRHX02EEVRR7TMYV1137FX
+    informationType: infotype:secondary
+    supports: true
+tags:
+  - fencing
+  - kunst-des-fechtens

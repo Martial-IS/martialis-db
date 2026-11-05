@@ -1,0 +1,95 @@
+type: Person
+id: 01KZSRDXQW9QBDT9VR9P08RBYT
+name:
+  en: Koichi Tohei
+  ja-Latn: Tōhei Kōichi
+  ja: 藤平 光一
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1920-01-20'
+  birthPlace:
+    label: Tokyo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1490
+deathEvent:
+  deathDate: '2011-05-19'
+  deathPlace:
+    label: Tokyo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1490
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/9/90/Jon_Takagi_and_Koichi_Tohei.jpg
+  rights: mediarights:cc-by-sa-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Jon_Takagi_and_Koichi_Tohei.jpg
+    cite: "KendoSnowman, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: Japanese aikidoka, 10th dan, founder of the Ki Society and its style of aikido, officially Shin Shin Toitsu Aikido (literally 'aikido with mind and body unified'), commonly known as Ki-Aikido. A direct student of Morihei Ueshiba, he was the first head instructor of the Aikikai Hombu Dojo and spread aikido to Hawaii and the continental United States. He awarded Steven Seagal his 1st dan in 1974.
+  ja: 日本の合気道家で十段。心身統一合氣道（氣の合氣道）を創始し、合気会本部道場初代師範を務めた。開祖植芝盛平の直弟子。1974年にスティーヴン・セガールに初段を許した。
+hasTeacherAssertion:
+  - id: 01M3YH7N5GKF1PA5Z4EQF8ZKPT
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TV
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Independent sources state it.
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD86
+        interactionPeriod:
+          startYear: 1940
+          endYear: 1969
+        hasEvidence:
+          - basedOnSource: 01KZSRDXQW6CWJJ3JJQW3H48VK
+            quotation: In 1940, when he was 19, Tohei's judo instructor, Shohei Mori, recommended that Tohei meet with the founder of aikido, Morihei Ueshiba.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G3Z7FXE550073KPDB4BH9M
+            quotation: >-
+              reestablished contact with his teacher Morihei UESHIBA who was retired in IWAMA.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G3Z7FXE550073KPDB4BH9M
+            quotation: >-
+              He was promoted to 8th dan by UESHIBA in 1952.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasRankAssertion:
+  - id: 01M3YH7N5GV4YSBGP1YXNWQ1HC
+    rankStyle: 01KJJAWN29MA64W22606R3WD9R
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 10
+    conferredBy: 01KZ3KA57C6W6FMCWM668Y13X2
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: 10th dan rank in aikido is well documented in multiple encyclopedic sources
+    hasEvidence:
+      - basedOnSource: 01KZSRDXQW6CWJJ3JJQW3H48VK
+        quotation: In 1969, Tohei was asked by Ueshiba to accept the new rank of 10th dan, which Tohei accepted, after having previously refused the same offer.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZSRDXQW6CWJJ3JJQW3H48VK
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M0Q8AS719WCBD605YBYN48BG
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q531237
+tags:
+  - aikido
+  - japan
+  - founder

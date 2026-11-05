@@ -1,0 +1,49 @@
+type: Person
+id: 01M5H55YBEE4Q99FQ8T9AJ5Q7F
+name:
+  en: Frank Mukai
+aka:
+  en: Yoshitomo Mukai
+nationality:
+  - countryCode: eucountry:CAN
+    wikidata: wd:Q16
+description:
+  en: >-
+    Canadian judo teacher of the prewar Vancouver Kidokan, promoted by Kanō Jigorō straight to 2nd dan
+    in 1932; after the war he taught at the West End YMCA in Toronto from 1946.
+notes: Leyshon gives his legal first name as Yoshitomo in the 1956 CKBBA charter (p. 47).
+hasRankAssertion:
+  - id: 01M5H55YBES6H263TWK6BGGRKR
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 2
+    grantedBy: 01KJJAWN28MWKKSN4J02MVY1S1
+    dateConferred: '1932'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only; it reproduces the diploma.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+        quotation: >-
+          Frank Mukai is one of the few senior Judoka never to hold the rank of Shodan (1st Dan). In
+          1932, Dr. Kano, after observing Mukai’s Judo, promoted Frank directly to 2nd Dan from 1st Kyu.
+        locator: '25'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    quotation: >-
+      Frank Mukai, another B.C. native, began to teach Judo first at the West End YMCA in Toronto in
+      1946.
+    locator: '42'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - canada

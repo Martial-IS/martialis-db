@@ -1,0 +1,38 @@
+type: Place
+id: 01M36QTA5KDQN3K24GPN2NY8XH
+name:
+  en: Renbukan (Okayama)
+  ja-Latn: Renbukan
+  ja: 錬武館
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Okayama
+      countryCode: eucountry:JPN
+      wikidata: wd:Q200078
+hasInstructorRole:
+  - id: 01M4R9845W667VDK3J2FHJYTP5
+    instructor: 01M1KSJ12Q2ATS2T25TKR2SR2Z
+    instructorCapacity: instrcap:head_instructor
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One authored chronology.
+    hasEvidence:
+      - basedOnSource: 01M0AZQ3TJ40Z0WJJD8T706CQB
+        quotation: 土屋弥太郎，師起倒流野田権三郎の錬武館（岡山）取締役となる。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: Kitō-ryū jūjutsu dojo at Okayama run by Noda Gonzaburō, recorded in 1902 when his student Tsuchiya Yatarō became its director.
+notes: Sugie also records a 錬武館 founded at Okayama in 1896 by Negishi Torajirō (明治29年, p. 64), who has no record here. Whether that is this same hall is unresolved; check before adding a foundedEvent.
+hasEvidence:
+  - basedOnSource: 01M0AZQ3TJ40Z0WJJD8T706CQB
+    quotation: 土屋弥太郎，師起倒流野田権三郎の錬武館（岡山）取締役となる。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - jujutsu
+  - japan

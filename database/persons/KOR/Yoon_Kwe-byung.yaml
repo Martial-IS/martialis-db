@@ -1,0 +1,76 @@
+type: Person
+id: 01M6BQSYG6THHQB5HMBW87F6FE
+name:
+  en: Yoon Kwe-byung
+  ko: 윤쾌병
+aka:
+  en:
+    - Yun K’wae Pyŏng
+    - Yun Kwei Byung
+    - Yun Kwae-byung
+birthEvent:
+  birthDate: '1919'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Yun Kwei Byung (1919–?) was a college student who started training in karate at the Kanbukan (Korean
+        Martial Arts Hall) in Tokyo around 1940.
+      locator: '199'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Korean karate teacher. He studied Shurite karate under Tōyama Kanken at the Shūdōkan and in 1940
+    founded the Kanbukan in Tokyo, a sister school of the Shūdōkan known for full-contact sparring in bōgu.
+    Back in Korea he joined the Chosŏn Yŏn-Mu Kwan, and in 1951 took over the school from Chun Sang-sup and
+    renamed it Jidokwan. He brought bōgu sparring to Korean taekwondo.
+notes: >-
+  Wikidata (Q101245859) gives 1922–2000; Green & Svinth give 1919. Mönig's note 32 (p. 53) suggests he
+  and Chŏn "studied likely both under Mabuni"; the wording is confused, so no Mabuni claim.
+hasTeacherAssertion:
+  - id: 01M6BQSYG6HQ8CWR540THKWJYW
+    teacher: 01M1KSJ12QF7MHXYFK8GNKJKFR
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9F
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One academic history, citing the Shūdōkan's list of senior students.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+            quotation: >-
+              For instance, Yun K’wae Pyŏng, who studied together with Yun Pyŏng In under Tōyama, is officially
+              listed among the [...] Shūdōkan students
+            locator: '54'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+            quotation: >-
+              Yun K’wae Pyŏng, who was a Korean studying Shurite karate under Tōyama Kanken at the Shūdōkan in
+              Japan, established a sister-school in Tokyo in 1940, which he named ‘Kanbukan’
+            locator: '99'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+    quotation: >-
+      When Chŏn Sang Sŏp disappeared during the Korean War, Yun took over his leadership role in 1951 and
+      renamed the school Ji-Do Kwa [sic]
+    locator: '54'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q101245859
+tags:
+  - taekwondo
+  - karate
+  - kwan-founder

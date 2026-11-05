@@ -1,0 +1,64 @@
+type: Style
+id: 01M2Z6TY1PAVSCX84EDH540ZNN
+name:
+  en: Suifu-ryū
+  ja-Latn: Suifu-ryū
+  ja: 水府流
+aka:
+  en:
+    - Suifu-ryu
+styleType: styleclass:traditional
+rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5GC5SK2JCVC1J5HKRK
+    relatedStyle: 01KYHNJKQDTEJ1A5MQ5JYPHDTB
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The source names the Suifu-ryū kenjutsu branch a 剣術流派, a kenjutsu school.
+    hasEvidence:
+      - basedOnSource: 01M2Z6TY1PBN52EKPNMSHWAVAN
+        quotation: 水府流剣術 - 一刀流（水戸派一刀流）・新陰流・真陰流を統合した剣術流派。現存せず。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  hasEvidence:
+    - basedOnSource: 01M2Z6TY1PBN52EKPNMSHWAVAN
+      quotation: 水府流（すいふりゅう）とは、幕末の水戸藩主・徳川斉昭の武術流派統合政策によって成立した武術流派。複数ある。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+dissolvedEvent:
+  dissolutionManner: dissmanner:defunct
+  dissolutionReason: The Suifu-ryū kenjutsu branch is recorded as no longer extant (JA wiki, Suifu-ryū).
+  hasEvidence:
+    - basedOnSource: 01M2Z6TY1PBN52EKPNMSHWAVAN
+      quotation: 水府流剣術 - 一刀流（水戸派一刀流）・新陰流・真陰流を統合した剣術流派。現存せず。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Suifu-ryū (水府流) kenjutsu is a Mito-domain school integrating Ittō-ryū (Mito-ha Ittō-ryū), Shinkage-ryū, and Shin-Kage-ryū (JA wiki), established under the Mito domain's martial-arts style-consolidation policy. It was taught at the domain school Kōdōkan, where Monna Tadashi studied it under Toyoshima Genpachi (1868-1872) and received menkyō kaiden (JA wiki, Monna Tadashi). The name Suifu-ryū covers several domain arts (including Suifu-ryū suishu, still extant); the kenjutsu branch is recorded as no longer extant.
+  ja: >-
+    水府流剣術は水戸藩の流派統合政策で一刀流（水戸派）・新陰流・真陰流を統合した剣術流派。藩校弘道館で指南され、 門奈正が豊島源八より免許皆伝を受けた。現存せず。
+hasEvidence:
+  - basedOnSource: 01M2Z6TY1PBN52EKPNMSHWAVAN
+    quotation: 水府流（すいふりゅう）とは、幕末の水戸藩主・徳川斉昭の武術流派統合政策によって成立した武術流派。複数ある。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M2Z6TY1P25CQ9YJJM432S4DN
+    quotation: 水戸藩校・弘道館で豊島源八に水府流剣術を学び、免許皆伝を受ける。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q16281546
+tags:
+  - kenjutsu
+  - koryu
+  - mito
+  - shinkage-ryu

@@ -1,0 +1,102 @@
+type: Person
+id: 01KZRA7SNMC4RN196JC99CJ93N
+name:
+  en: Relson Gracie
+aka:
+  en:
+    - Campeão
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+birthEvent:
+  birthDate: '1953-03-28'
+  birthPlace:
+    label: Rio de Janeiro
+    countryCode: eucountry:BRA
+    wikidata: wd:Q8678
+  hasEvidence:
+    - basedOnSource: 01KZRA7SNM1XG0FCWW7QEEPTDC
+      quotation: Relson Gracie was born in Rio de Janeiro, Brazil on March 28, 1953.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/f/f8/Anibal_Lobo_%26_Relson_Gracie_1_%284936501126%29.jpg
+  rights: mediarights:cc-by-2.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Anibal_Lobo_%26_Relson_Gracie_1_(4936501126).jpg
+    cite: "Oregon Martial Arts, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: 'Brazilian jiu-jitsu grand master, the second oldest son of Helio Gracie, who pioneered the
+
+    sport in Hawaii, where he established the first Gracie Jiu Jitsu academy in 1988. A 9th
+
+    degree red belt, he is the teacher of the Migliarese brothers of Balance Studios in
+
+    Philadelphia.
+
+'
+hasTeacherAssertion:
+  - id: 01M3YH7N5GTR7TT5Z3Y8H7RPGS
+    teacher: 01KJJAWN28MWKKSN4J02MVY1S5
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: BJJ Heroes records Relson's lineage as Mitsuyo Maeda > Carlos Gracie > Helio Gracie > Relson Gracie and states that Helio handed Relson his black belt after seven years as a brown belt; Wikidata also lists Helio Gracie as his student of (P1066)
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KZRA7SNM1XG0FCWW7QEEPTDC
+            quotation: 'Lineage: Mitsuyo Maeda > Carlos Gracie > Helio Gracie > Relson Gracie'
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZRA7SNM1XG0FCWW7QEEPTDC
+            quotation: Helio Gracie had Relson wait 7 long years in the brown belt division before he handed him his black belt.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5G2312FA0Q809N4KZF
+    rankStyle: 01KJJAWN29MA64W22606R3WD9J
+    rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+    rankGrade: rankgrade:bjj_black
+    grantedBy: 01KJJAWN28MWKKSN4J02MVY1S5
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: BJJ Heroes states Helio Gracie handed Relson his black belt after seven years in the brown belt division, but does not give a promotion date
+    hasEvidence:
+      - basedOnSource: 01KZRA7SNM1XG0FCWW7QEEPTDC
+        quotation: Helio Gracie had Relson wait 7 long years in the brown belt division before he handed him his black belt.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GCYX493GTD2R0KTP8
+    rankStyle: 01KJJAWN29MA64W22606R3WD9J
+    rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+    rankOrdinal: 9
+    rankGrade: rankgrade:bjj_red
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: BJJ Heroes describes Relson as a jiu jitsu red belt (9th degree); the promotion date is not given in the source
+    hasEvidence:
+      - basedOnSource: 01KZRA7SNM1XG0FCWW7QEEPTDC
+        quotation: he is also a jiu jitsu red belt (9th degree)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZRA7SNM1XG0FCWW7QEEPTDC
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q130683
+tags:
+  - brazilian-jiu-jitsu
+  - gracie-lineage
+  - coach

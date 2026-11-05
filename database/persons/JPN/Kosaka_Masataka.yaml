@@ -1,0 +1,36 @@
+type: Person
+id: 01M37JTCRFQ560C54BTDB9FE8W
+name:
+  ja-Latn: Kōsaka Masataka
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+hasTeacherAssertion:
+  - id: 01M3YH7N5GTN8XVY1WZBYP51J0
+    teacher: 01M2Z6TY1PA6YAVJDRS9H9BF2F
+    assertedStyle: 01M2Z6TY1P5NRR5B3YNNDQWJ1M
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Bennett dates his entry into Chiba's tutelage to 1844 while arguing about when the sixty-eight techniques were systemised.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1844
+        hasEvidence:
+          - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+            quotation: it must have been before Kōsaka entered his tutelage in 1844
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+description:
+  en: Student of Chiba Shūsaku from 1844 and author of Chiba Shūsaku jikiden kenjutsu meijin-hō (1884), which sets out the sixty-eight Hokushin Ittō-ryū fencing techniques that underpin modern kendo.
+hasEvidence:
+  - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+    quotation: Kōsaka Masataka's Chiba Shūsaku jikiden kenjutsu meijin-hō (Master Chiba Shūsaku's direct transmissions for mastery of kenjutsu, 1884) contains a detailed explanation of the sixty-eight fencing techniques Chiba Shūsaku created for the Hokushin Ittō-ryū.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - kenjutsu
+  - hokushin-itto-ryu

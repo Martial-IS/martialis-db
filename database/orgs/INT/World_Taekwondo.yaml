@@ -1,0 +1,81 @@
+type: Organization
+id: 01M6BQSYG6T5MK4PF5SQ02QZ1R
+name:
+  en: World Taekwondo
+  ko: 세계 태권도 연맹
+aka:
+  en:
+    - WT
+    - World Taekwondo Federation
+    - WTF
+orgType: orgclass:federation
+foundedEvent:
+  startDate: '1973'
+  hasEvidence:
+    - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+      quotation: >-
+        In 1973, the World Taekwondo Federation (WTF) was founded
+      locator: '96'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M6BS817454H08Q6BXQTFHSYS
+    officer: 01M6BS8174VQR5M883BS3CMBAE
+    officerTitle: Secretary General
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One academic history.
+    hasEvidence:
+      - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+        quotation: >-
+          Lee Chong Woo, who later became the Secretary General and Vice President of the WTF
+        locator: '97'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M6BS817429N0RP7MGES3ZP4J
+    officer: 01M6BS8174VQR5M883BS3CMBAE
+    officerTitle: Vice President
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One academic history.
+    hasEvidence:
+      - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+        quotation: >-
+          Lee Chong Woo, who later became the Secretary General and Vice President of the WTF
+        locator: '97'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    International governing body of sport taekwondo, founded in 1973 as the World Taekwondo Federation. Kim
+    Un-yong was its president from 1973 to 2004. Its full-contact sparring taekwondo became an Olympic sport
+    in 2000.
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      From June 1973 to January 2004, the WTF president was Kim Un Yong (1931–).
+    locator: '202'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+logo:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/f/fe/World_Taekwondo.png
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:World_Taekwondo.png
+    cite: World Taekwondo logo - Wikimedia Commons
+    informationType: infotype:secondary
+sameAs:
+  - wd:Q696406
+tags:
+  - taekwondo
+  - olympic

@@ -1,0 +1,49 @@
+type: Style
+id: 01M69Z4SFKYNB3YG0C3ZA4S3NM
+name:
+  en: Hung Gar
+  zh: 洪家拳
+aka:
+  en:
+    - Hung Kuen
+    - Hung Ga
+styleType: styleclass:traditional
+description:
+  en: >-
+    Southern Chinese boxing style of Guangdong. Judkins and Nielson separate the older village Hung Kuen, an
+    eighteenth-century family style known only through legend, from the later lineage built by Wong
+    Fei-hung and his students in Foshan, Guangzhou and Hong Kong.
+notes: >-
+  Judkins and Nielson pp. 76, 81-87. Founding legend: Hong Xi Guan, a student of the abbot Jee
+  Shim, taught by him after the destruction of the Southern Shaolin Temple (pp. 86-87); not
+  recorded. Taught with Wing Chun by the Zhong Yi Association in Foshan (p. 183).
+hasStyleRelationAssertion:
+  - id: 01M69Z4SFHC9QEVTY277B6X1HY
+    relatedStyle: 01KYHRZE605BS2BGB5TX1XEWPR
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01KYHRZE602B1ACMJ26FPY4YDM
+        cite: Nanquan (Wikipedia EN)
+        quotation: >-
+          The basis of contemporary Nánquán hails primarily from traditional Cantonese family styles of 洪
+          (Hung), 李 (Lei), 劉 (Lau), 莫 (Mok) and 蔡 (Choi), along with their more contemporary Kung Fu
+          variants of Choi Lei Fut, Hung Ga, and Wing Chun.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: '76, 81-87'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q863141
+tags:
+  - hung-gar
+  - chinese-martial-arts

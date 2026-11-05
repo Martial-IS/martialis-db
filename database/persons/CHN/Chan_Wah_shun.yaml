@@ -1,0 +1,121 @@
+type: Person
+id: 01KYD74HFE49JZRNYJDXWMF02Q
+name:
+  en: Chan Wah-shun
+  zh: 陳華順
+  zh-Latn: Chen Huashun
+aka:
+  en:
+  - Money Changer Wah
+  zh:
+  - 找錢華
+nationality:
+- countryCode: eucountry:CHN
+  wikidata: wd:Q148
+birthEvent:
+  birthDate: 1849~
+  birthPlace:
+    label: Shunde
+    countryCode: eucountry:CHN
+    wikidata: wd:Q29520
+  hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    quotation: >-
+      It was Chan Wah Shun (1849–1913) who transformed Wing Chun into a public art.
+    locator: '175'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    quotation: >-
+      He was born in Manin Village in Shunde.
+    locator: '176'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYD74HFBEFCQDJZCP9WHECWP
+    quotation: >-
+      Chan Wah-shun (c. 1836 – 1913)
+    cite: Chan Wah-shun (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: false
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1913'
+  deathPlace:
+    label: Foshan
+    countryCode: eucountry:CHN
+    wikidata: wd:Q34412
+  hasEvidence:
+  - basedOnSource: 01KYD74HFBEFCQDJZCP9WHECWP
+    quotation: >-
+      Chan Wah-shun (c. 1836 – 1913)
+    cite: Chan Wah-shun (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    quotation: >-
+      It was Chan Wah Shun (1849–1913) who transformed Wing Chun into a public art.
+    locator: '175'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: Chan Wah-shun (c. 1849–1913) was a Chinese martial artist and Wing Chun grandmaster. Nicknamed 'Money
+    Changer Wah', he was a student of Leung Jan and the teacher of Ip Man, who became his 16th and last
+    student.
+notes: >-
+  Birth year: sources differ: 1833 (Leung Ting), c. 1836 (en-wiki; also Judkins and Nielson p. 77),
+  1849 (Huang Xiao Hui and Huang Hong). Judkins and Nielson (pp. 175–176) judge 1849 more plausible.
+  Retired after a stroke in 1911 and returned to his native village in Shunde (Judkins and Nielson
+  pp. 177–178); the book does not say where he died, en-wiki has Foshan.
+hasTeacherAssertion:
+- id: 01M3YH7N5GMMH5A8255782TJPS
+  teacher: 01KYD74HFGEBZYJ17SBVPGNKZ7
+  assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Two sources; Judkins and Nielson call it certain.
+  notes: >-
+    One account (Huang Xiao Hui and Huang Hong, in Judkins and Nielson p. 176): Chan first learned
+    from Li Hua ("Wooden Man Hua"), a student of Leung Jan, then from Leung Jan after Li's death.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        We can say with certainty that Leung Jan passed both his martial and medical knowledge on to Chan Wah Shun, and most likely to some of his own children as well.
+      locator: '174'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KYD74HFBEFCQDJZCP9WHECWP
+      cite: Chan Wah-shun (Wikipedia EN)
+      quotation: Chan Wah-shun was a student of the Wing Chun grandmaster Leung Jan
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KYD74HFBEFCQDJZCP9WHECWP
+  cite: Chan Wah-shun (Wikipedia EN)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+  locator: 175-180
+  locatorLabel: page
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q700991
+tags:
+- wing-chun
+- grandmaster
+- chinese-martial-arts

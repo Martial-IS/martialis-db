@@ -1,0 +1,55 @@
+type: Person
+id: 01M6EFJQBCRQFCBGA958VRNHN0
+name:
+  ja-Latn: Haga Jun'ichi
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: 1908-09
+  hasEvidence:
+  - basedOnSource: 01M6EF6KKAARB6K35CE2P9KTQQ
+    quotation: Born September 1908, died in 1966 (58 years old)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1966'
+  hasEvidence:
+  - basedOnSource: 01M6EF6KKAARB6K35CE2P9KTQQ
+    quotation: Born September 1908, died in 1966 (58 years old)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: >-
+    Kendo and iaido teacher; student of Nakayama Hakudō at the Yūshinkan from 1926, Imperial Guards and
+    Keishichō instructor, then in Korea until 1944. One of the 'three crows of Yūshinkan'; his postwar
+    group was known as the Haga dojo.
+hasTeacherAssertion:
+- id: 01M6EFJQBDT3GE9T00N5HQV49K
+  teacher: 01KZ6XT5DSD1RN1NG4PJKJWXAH
+  assertedStyle: 01KZ6XT5DS0JHX51MN07878ERB
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Single kenshi247 article; it hedges the full transmission, not the study.
+  hasInteraction:
+  - interactionPlace: 01KZ9TV15DAKTA2KEF6NFKDJD3
+    interactionPeriod:
+      startYear: 1926
+    hasEvidence:
+    - basedOnSource: 01M6EF6KKAARB6K35CE2P9KTQQ
+      quotation: seemingly received full transmission of Hasegawa Eishin-ryu and Omori-ryu iaido from Nakayama; also studied Shinto Munen-ryu
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M6EF6KKAARB6K35CE2P9KTQQ
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- kendo
+- iaido

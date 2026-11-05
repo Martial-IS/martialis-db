@@ -1,0 +1,10 @@
+# Persons whose name contains a substring, case-insensitively, in any language.
+PREFIX martialis: <https://w3id.org/martialis/ontology#>
+PREFIX schema: <https://schema.org/>
+
+SELECT DISTINCT ?person ?name WHERE {
+  ?person a martialis:Person ;
+          schema:name ?name .
+  FILTER(CONTAINS(LCASE(STR(?name)), "yamashita"))
+}
+LIMIT 20

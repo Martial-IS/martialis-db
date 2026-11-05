@@ -1,0 +1,90 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1V0
+name:
+  ja-Latn: Iizuka Kunisaburō
+  ja: 飯塚 国三郎
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1875-02-13'
+  birthPlace:
+    label: Mikamo, Tochigi Prefecture
+    countryCode: eucountry:JPN
+    wikidata: wd:Q11358325
+deathEvent:
+  deathDate: '1958-07-25'
+  deathPlace:
+    label: Tokyo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1490
+hasTeacherAssertion:
+- id: 01M3YH7N5GP0N6130MAM071SC3
+  teacher: 01KJJAWN29MA64W22606R3WD7H
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Documented as a student at the Kodokan from 1891, with specific enrollment date
+      recorded in historical records
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+    interactionPeriod:
+      startYear: 1891
+    hasEvidence:
+    - basedOnSource: 01M6C5JZZGQQ6E0DWVC9RYWV8S
+      quotation: one day he saw a man carrying a judo uniform and followed him to the Kodokan. There he
+        applied for entry, was found acceptable, and signed its enrollment book on November 23, 1891 [...]
+        Sakujiro Yokoyama was head instructor.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GRHDPH9VBPD12MHBZ
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 10
+  conferredBy: 01KJJAWN29MA64W22606R3WD7X
+  dateConferred: '1946'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Officially awarded 10 dan by Kodokan in 1946, well-documented in multiple historical
+      sources, including academic articles
+  hasEvidence:
+  - uri: https://ja.wikipedia.org/wiki/%E9%A3%AF%E5%A1%9A%E5%9B%BD%E4%B8%89%E9%83%8E
+    archiveUri: http://web.archive.org/web/20250902112927/https://ja.wikipedia.org/wiki/%E9%A3%AF%E5%A1%9A%E5%9B%BD%E4%B8%89%E9%83%8E
+    cite: 飯塚国三郎 - Wikipedia
+    quotation: 1946年（昭和21年）、最高位の十段に列位した。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6C5JZZGQQ6E0DWVC9RYWV8S
+    quotation: Iizuka received promotion to 9-dan on December 23, 1937. His 10-dan ranking came on May
+      4, 1946
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M6C5JZZGQQ6E0DWVC9RYWV8S
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://ja.wikipedia.org/wiki/%E9%A3%AF%E5%A1%9A%E5%9B%BD%E4%B8%89%E9%83%8E
+  archiveUri: http://web.archive.org/web/20250902112927/https://ja.wikipedia.org/wiki/%E9%A3%AF%E5%A1%9A%E5%9B%BD%E4%B8%89%E9%83%8E
+  cite: 飯塚国三郎 - Wikipedia
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q6444749
+- dbr:Kunisaburo_Iizuka
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/7/79/Iiduka_kunisaburo.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Iiduka_kunisaburo.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary

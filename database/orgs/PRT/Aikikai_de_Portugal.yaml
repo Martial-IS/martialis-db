@@ -1,0 +1,86 @@
+type: Organization
+id: 01KZ4B90EYD27V3YA30D6JRPX3
+name:
+  en: Aikikai de Portugal
+  pt: Associação Desportiva Aikikai de Portugal
+aka:
+  en: AKP
+orgType: orgclass:association
+hasSite:
+  - location:
+      label: Lisbon
+      countryCode: eucountry:PRT
+      wikidata: wd:Q597
+foundedEvent:
+  startDate: '1984-01-03'
+  hasEvidence:
+    - basedOnSource: 01KZ1Y9KD1CMPVBD46D3S7KTFZ
+      quotation: No dia 3 de Janeiro de 1984, é constituída a Associação Desportiva Aikikai de Portugal - AKP. O seu Director Técnico, o Mestre Luís Antunes, é cinto negro CN 6º dan Aikikai, e CN 7ºdan da AKP, e foi aluno do falecido Nobuyoshi Tamura Shihan.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZ49W5BPNVJQKW0Y47XPE37Y
+      quotation: >-
+        Em 1982/3 entendemos fundar uma associação específica para o Aikido. Digamos que o Aikido não podia mais andar arrolado ao Judo ou a outras artes marciais, queria ter o seu próprio estatuto de arte marcial
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M3YH7N5FVSMQM0FM2TD0Y8D0
+    relatedOrganization: 01KZ3KA57C6W6FMCWM668Y13X2
+    affiliationRelation: affrel:recognised_by
+    validDuring:
+      startYear: 1984
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Aikikai Foundation (Aikido World Headquarters) formally recognises the AKP, as stated on the AKP homepage ("Reconhecimento à AKP"), and Aikikai grades and instructor titles in Portugal flow through this association
+    hasEvidence:
+      - basedOnSource: 01M3S8HJMT98AGTY1N3EBA2Y06
+        quotation: CERTIFICADO AIKIKAI FOUNDATION - AIKIDO WORLD HEADQUARTERS Reconhecimento à AKP
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5FDXZX8RGCC7VXTTPV
+    relatedOrganization: 01KZ4CF8P1Z2J7MW1VN5MHW4W2
+    affiliationRelation: affrel:member_of
+    validDuring:
+      startYear: 1990
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The AKP is one of the associations regrouped under the Federação Portuguesa de Aikido (FPA), the national federation that holds public-utility sports status and through which the AKP's grades and federation membership are administered
+    hasEvidence:
+      - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+        quotation: >-
+          a Federação Portuguesa de Aikido - FPA [...] é o organismo em Portugal vocacionado a reagrupar todas as escolas (ou "estilos") de Aikido respeitando a orientação técnica e pedagógica autónoma de cada uma delas.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZ1Y9KD1CMPVBD46D3S7KTFZ
+        quotation: >-
+          No dia 3 de Janeiro de 1984, é constituída a Associação Desportiva Aikikai de Portugal - AKP. O seu Director Técnico, o Mestre Luís Antunes
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+website: https://www.aikikaideportugal.pt
+description:
+  en: National Portuguese aikido association recognised by the Aikikai Foundation (Aikido World Headquarters), founded on 3 January 1984. Its Technical Director is Luís Antunes, 7th dan and shihan of the Aikikai, who was awarded the 7th dan by the Dôshu Moriteru Ueshiba in 2016.
+  pt: Associação nacional portuguesa de Aikido reconhecida pela Fundação Aikikai (Aikido World Headquarters), fundada a 3 de janeiro de 1984. O seu Director Técnico é Luís Antunes, 7º dan e shihan da Aikikai, que recebeu o 7º dan das mãos do Dôshu Moriteru Ueshiba em 2016.
+hasEvidence:
+  - basedOnSource: 01KZ1Y9KD1CMPVBD46D3S7KTFZ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ49W5BPNVJQKW0Y47XPE37Y
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M3S8HJMT98AGTY1N3EBA2Y06
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - aikido
+  - aikikai
+  - portugal

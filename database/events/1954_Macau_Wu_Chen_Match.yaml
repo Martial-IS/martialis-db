@@ -1,0 +1,88 @@
+type: Event
+id: 01M69ZB9CR47MVHR56V2PXF44T
+name:
+  en: 1954 Macau charity match, Wu Gongyi vs Chen Kefu
+aka:
+  en:
+    - Wu vs. Chan, 1954
+eventType: eventclass:challenge
+eventDate: '1954'
+location:
+  label: Macau
+  countryCode: eucountry:MAC
+  wikidata: wd:Q14773
+hasParticipation:
+  - id: 01M69ZB9CSMVYJG8RYHX0RF8RJ
+    participant: 01M5HN1CX5K1PAERW177K52ZXS
+    participationRole: eventrole:competitor
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Two sources.
+    hasEvidence:
+      - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+        quotation: >-
+          This mass confrontation was the last straw, and on New Year’s day, 1954, Wu and Chen signed a
+          contract to fight in one month.
+        locator: '235'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M69ZB9CEPEEZBWGA1PDRF4K1
+        cite: Tibetan White Crane (Wikipedia EN)
+        quotation: >-
+          when in 1954 Chan Hak Fu of Macau faced off against Hong Kong's recently arrived Wu Gongyi (吳公儀)
+          in a popular public match organized for charity and held in Macau.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M69ZB9CVV27TS8PJBNCGCF0G
+    participant: 01M69ZB9CKPYJ52BXB40YKR2PH
+    participationRole: eventrole:competitor
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Two sources.
+    hasEvidence:
+      - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+        quotation: >-
+          This mass confrontation was the last straw, and on New Year’s day, 1954, Wu and Chen signed a
+          contract to fight in one month.
+        locator: '235'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M69ZB9CEPEEZBWGA1PDRF4K1
+        cite: Tibetan White Crane (Wikipedia EN)
+        quotation: >-
+          when in 1954 Chan Hak Fu of Macau faced off against Hong Kong's recently arrived Wu Gongyi (吳公儀)
+          in a popular public match organized for charity and held in Macau.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Exhibition match in Macau in early 1954 between Wu Gongyi, head of the Wu-style taijiquan
+    association in Hong Kong, and Chen Kefu of Tibetan White Crane, after Wu's open challenge of
+    August 1953. Held for charity after the Shek Kip Mei fire, it ended without a clear result and
+    set off a boom in martial arts schools and wuxia fiction.
+notes: >-
+  Judkins and Nielson pp. 234-237 (after Hamm): the contract was signed on New Year's Day 1954 for
+  a fight one month later; Jin Yong's first novel, The Book and the Sword (1955), followed from
+  the interest it created (p. 236).
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: '234-237'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M69ZB9CEPEEZBWGA1PDRF4K1
+    cite: Tibetan White Crane (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - chinese-martial-arts

@@ -1,0 +1,43 @@
+type: Place
+id: 01M0E9KP2B6GGMCZS177WDD5MN
+name:
+  es: Gimnasio Juventud
+placeType: placeclass:gym
+hasSite:
+  - location:
+      label: Madrid
+      countryCode: eucountry:ESP
+      wikidata: wd:Q2807
+    address: Calle Fuencarral, Madrid
+hasInstructorRole:
+  - id: 01M4R9845WARRF2XM3D3PWRGGH
+    instructor: 01M0E9KP2BGMP4PAC4AYTHWFX7
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1947
+      endYear: 1950
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One authored secondary source states he gave the first classes at Gimnasio Juventud from 1947.
+    hasEvidence:
+      - basedOnSource: 01M0E9KP2B0B7SG02329SASBA4
+        quotation: El judo comienza a practicarse en España en el año 1947. Alfredo San Bartolomé, de 35 años, cinturón negro 2º dan, es quién imparte las primeras clases en el Gimnasio Juventud.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: Madrid gym on Calle Fuencarral where Alfredo San Bartolomé gave the first judo classes in Spain in 1947, taking over the group of jiu-jitsu practitioners occasionally directed by colonel Gabriel Pérez Acosta, until the group moved to Calle Recoletos and founded the Asociación Española de Judo y Jiu-jitsu in May 1950.
+hasEvidence:
+  - basedOnSource: 01M0E9KP2B0B7SG02329SASBA4
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M0E9KP2B5S4F3WFN83SJF7FW
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - spain
+  - gym

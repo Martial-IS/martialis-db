@@ -1,0 +1,115 @@
+type: Person
+id: 01M1CS5WX2B8APS1RCZXCW76QJ
+name:
+  en: John Paul Salvitti
+aka:
+  en:
+  - John Salvitti
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+birthEvent:
+  birthDate: '1965'
+  birthPlace:
+    label: Boston
+    countryCode: eucountry:USA
+  hasEvidence:
+  - basedOnSource: 01M1CK3ZEK2N33NG99ZVJ6VHSR
+    quotation: I was born in Boston, USA in 1965, and I actually grew up right outside the city in Revere,
+      Massachusetts.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: American martial artist and fight choreographer born in Boston (1965). Trained 38+ years in Shotokan
+    Karate (5th dan), BJJ, Wushu, and Pankration. Worked as actor and fight choreographer on multiple
+    Donnie Yen films including Flash Point, Special ID, and Pound of Flesh. Credited as mixed martial
+    arts instructor for Kung Fu Killer.
+hasTeacherAssertion:
+- id: 01M3YH7N5GQZ0ES0AX1DV8RXAV
+  teacher: 01M1F0B3J2K9XQWV7N8P0T1M5R
+  assertedStyle: 01KYFZEGYN107JYC5K1539R8JM
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: MAAC interview states Salvitti holds a 5th degree black belt in Shotokan Karate
+      under Sensei Lou Hopkins of East Coast Karate. No period dates documented.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M1CK3ZEX3JC5J8B3FS1RPGNS
+      quotation: John holds a 5th degree Black Belt in Shotokan Karate under Sensei Lou Hopkins
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M1CK3ZEK2N33NG99ZVJ6VHSR
+      quotation: Master Lou Hopkins and Donnie Yen would definitely be in that group. In fact, Master
+        Hopkins actually introduced me to Donnie
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GVEKGDWCN88KG35XP
+  teacher: 01M1F0B3712KTW5YTPYS6S24B0
+  assertedStyle: 01M0QCH9A4Y8JQ2F9C0BJGH543
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: MAAC interview states Salvitti "trained in Wushu under Bow Sim Mark"; he confirms
+      "His mom and him are my Wushu instructors" in Kung Fu Kingdom interview. No period
+      dates documented.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M1CK3ZEX3JC5J8B3FS1RPGNS
+      quotation: trained in Wushu under world-renowned Martial Arts master BOW SIM MARK
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M1CK3ZEK2N33NG99ZVJ6VHSR
+      quotation: I'd also have to say Donnie's mother, Bow Sim-mark, I learned a lot from studying Tai
+        Chi with her.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GEN3Q0TMKNGYBC0VV
+  rankStyle: 01KYFZEGYN107JYC5K1539R8JM
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 5
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: 5th degree black belt in Shotokan Karate under Sensei Lou Hopkins (MAAC interview).
+      No exact award date documented.
+  hasEvidence:
+  - basedOnSource: 01M1CK3ZEX3JC5J8B3FS1RPGNS
+    quotation: John holds a 5th degree Black Belt in Shotokan Karate under Sensei Lou Hopkins
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- uri: https://baike.baidu.com/en/item/John%20Salvitti/1952136
+  cite: John Salvitti (Baidu Baike)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M1CK3ZEX3JC5J8B3FS1RPGNS
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M1CK3ZEK2N33NG99ZVJ6VHSR
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- shotokan
+- bjj
+- wushu
+- choreographer
+image:
+  contentUrl: https://media.themoviedb.org/t/p/w300_and_h450_face/nvVMGxgaj4Diiknmn5uIuiuNGzs.jpg
+  imageAttribution:
+    uri: https://www.themoviedb.org/person/1277933-john-salvitti
+    cite: "TMDB"
+    informationType: infotype:secondary

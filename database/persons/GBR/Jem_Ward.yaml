@@ -1,0 +1,76 @@
+type: Person
+id: 01M5JPY6FNG2MRE0K9T5SBKT6K
+name:
+  en: Jem Ward
+aka:
+  en:
+    - The Black Diamond
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+birthEvent:
+  birthDate: '1800-12-26'
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FN89A5A0153DP35GAT
+      quotation: >-
+        Jem Ward (26 December 1800 – 3 April 1884) was an English bare-knuckle boxer.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1884-04-03'
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FN89A5A0153DP35GAT
+      quotation: >-
+        Jem Ward (26 December 1800 – 3 April 1884) was an English bare-knuckle boxer.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    English prizefighter, "The Black Diamond", champion of England 1825–1831, though sanctioned for
+    throwing a fight in 1822. In retirement he kept a hotel in Liverpool, painted, and taught boxing;
+    his student Tom King beat Jem Mace for the title.
+hasHonorAssertion:
+  - id: 01M5JPY6FNFF8FCHNW6RRF73YX
+    honorValue: Champion of England
+    honorType: honortype:title
+    dateConferred: '1825'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Eventually, a champion of true quality was discovered in the talented Jem Ward (1800–1884,
+          champion from 1825 to 1831)
+        locator: '231'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JPY6FN89A5A0153DP35GAT
+        quotation: >-
+          he was the English champion from 1825 until 1831.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JPY6FN89A5A0153DP35GAT
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q345721
+tags:
+  - boxing
+  - prizefighting
+  - united-kingdom
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/3/39/Jem_Ward.gif
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Jem_Ward.gif
+    cite: "J. McGowan, Wikimedia Commons"
+    informationType: infotype:secondary

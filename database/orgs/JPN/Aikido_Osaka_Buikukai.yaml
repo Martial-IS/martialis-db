@@ -1,0 +1,62 @@
+type: Organization
+id: 01KZ6654E3J9N297TSZ4XQWR2A
+name:
+  en: Aikido Osaka Buikukai
+  ja: 合気道大阪武育会
+orgType: orgclass:association
+hasSite:
+  - location:
+      label: Osaka
+      countryCode: eucountry:JPN
+      wikidata: wd:Q35765
+foundedEvent:
+  startDate: '1960'
+  founder:
+    - 01KZ4TQWK85T5NXJ23Y5SHNKT7
+  hasEvidence:
+    - basedOnSource: 01KZ6654E3SZKGYV9JNT5EKA53
+      quotation: 合気道大阪武育会は昭和35年に創設された（公財）合気会の登録道場です。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZ6654E3SZKGYV9JNT5EKA53
+      quotation: 大阪武育会創設者小林裕和師範により受け継がれてきた合気の技と道
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M3YH7N5FERYW3NPW2P8REP2Y
+    relatedOrganization: 01KZ3KA57C6W6FMCWM668Y13X2
+    affiliationRelation: affrel:recognised_by
+    validDuring:
+      startYear: 1960
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The org's own website states Aikikai-registered status; the Aikikai Foundation's
+        own Reiwa 8 recognized-organizations roster names Aikido Osaka Buikukai dojos under Osaka, independently
+        corroborating it
+    hasEvidence:
+      - basedOnSource: 01KZ6654E3SZKGYV9JNT5EKA53
+        quotation: 合気道大阪武育会は昭和35年に創設された（公財）合気会の登録道場です。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M3FGQR1PD79HX22QSHSCEW6Z
+        quotation: 合気道大阪武育会本部道場
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+website: https://honbu.osakabuiku.com/
+description:
+  en: The Aikido Osaka Buikukai is an Aikikai-registered aikido organization founded in 1960 by Kobayashi Hirokazu, the root of the Buikukai network in the Osaka region. It currently comprises about 50 dojo and 20 school aikido clubs in Osaka Prefecture, with Kimura Jiro (8th dan Aikikai) as president and chief instructor.
+  pt: O Aikido Osaka Buikukai é uma organização de Aikido registada na Aikikai fundada em 1960 por Kobayashi Hirokazu, a raiz da rede Buikukai na região de Osaka. Atualmente compreende cerca de 50 dojos e 20 clubes escolares de Aikido na província de Osaka, com Kimura Jiro (8º dan Aikikai) como presidente e instrutor-chefe.
+hasEvidence:
+  - basedOnSource: 01KZ6654E3SZKGYV9JNT5EKA53
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - aikido
+  - japan
+  - osaka

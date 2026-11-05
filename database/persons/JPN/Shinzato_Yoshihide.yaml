@@ -1,0 +1,52 @@
+type: Person
+id: 01M6C5JZZGG24GDK3VCRAJRV8X
+name:
+  en: Yoshihide Shinzato
+  ja-Latn: Shinzato Yoshihide
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1927-03-15'
+  birthPlace:
+    label: Okinawa
+  hasEvidence:
+    - basedOnSource: 01M6C5JZZGVV24N4ZFNV23BH26
+      quotation: >-
+        Shinzato was born on Okinawa on March 15, 1927 and at the age of 12 he began studying karate
+        with Choshin Chibana.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Okinawan Shorin-ryu karateka, a student of Choshin Chibana, who settled in Brazil in 1954 and is
+    believed to be the first person to teach karate there.
+hasTeacherAssertion:
+  - id: 01M6C5JZZGE2K5Z11RBYWVPQFK
+    teacher: 01KZC7XZAWJNRVKWZ66A7CXENR
+    assertedStyle: 01KZDXQH2MARRZH56QT95D2964
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1939
+        hasEvidence:
+          - basedOnSource: 01M6C5JZZGVV24N4ZFNV23BH26
+            quotation: >-
+              Shinzato was born on Okinawa on March 15, 1927 and at the age of 12 he began studying karate
+              with Choshin Chibana.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C5JZZGVV24N4ZFNV23BH26
+    quotation: The first person believed to have taught karate in Brazil is Yoshihide Shinzato.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - karate

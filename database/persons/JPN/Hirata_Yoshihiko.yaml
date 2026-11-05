@@ -1,0 +1,41 @@
+type: Person
+id: 01M6C5JZZGBR274Z5DR8GBKBXR
+name:
+  en: Yoshihiko Hirata
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+description:
+  en: >-
+    Japanese aikido teacher (4-dan) and violin teacher in Seattle, trained by Koichi Tohei. He started
+    a club in 1969 and reorganised it as the Seattle Ki Society in 1974.
+hasTeacherAssertion:
+  - id: 01M6C5JZZG3SZWHA8GMYYP6N5Y
+    teacher: 01KZSRDXQW9QBDT9VR9P08RBYT
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C5JZZG2XXX0TYYXNBZM8GB
+            quotation: >-
+              Hirata was from Japan, and although he was ranked 4-dan in aikido, he made his living as a
+              violin teacher. He had trained directly under Tohei, and so when Tohei visited the US in
+              1973, he made a trip to Seattle to see Hirata.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C5JZZG2XXX0TYYXNBZM8GB
+    quotation: >-
+      The next yudansha to teach aikido in Seattle was Yoshihiko Hirata, a Tohei-trained 4-dan who
+      started a club in late 1969.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - aikido
+  - seattle

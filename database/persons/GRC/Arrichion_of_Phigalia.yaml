@@ -1,0 +1,70 @@
+type: Person
+id: 01M5JWHXPXCW03E2N034C9A9JN
+name:
+  en: Arrichion of Phigalia
+aka:
+  en:
+    - Arrhichion
+    - Arrhachion
+nationality:
+  - countryCode: eucountry:GRC
+    wikidata: wd:Q41
+deathEvent:
+  deathDate: '-0563'
+  hasEvidence:
+    - basedOnSource: 01M5JWHXPXMB2TE2W14HE1E225
+      quotation: >-
+        He died while successfully defending his championship in the pankration at the 54th Olympiad
+        (564 BC).
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Pankratiast of Phigalia, Olympic pankration champion in 572 and 568 BCE, who in 564 BCE dislocated his
+    opponent's foot as he was being strangled, forcing him to concede, and died; he was crowned champion
+    a third time after death.
+notes: >-
+  Dates in astronomical numbering (564 BCE = -0563; 572 BCE = -0571).
+hasHonorAssertion:
+  - id: 01M5JWHXPXXBSTFE6ETEAPFA2Y
+    honorValue: Olympic champion in pankration
+    honorType: honortype:title
+    dateConferred: '-0571'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01M5JWHXPXMB2TE2W14HE1E225
+        quotation: >-
+          Arrhichion was the winner of the pankration at the 52nd and 53rd Olympiads (572 BC and 568 BC,
+          respectively).
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Nonetheless, Arrichion was declared the Olympic champion for the third and final time,
+          posthumously
+        locator: '237'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Probably the best-known story concerning a pankratiast is that of Arrichion.
+    locator: '237'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q699635
+tags:
+  - pankration
+  - ancient
+  - greece

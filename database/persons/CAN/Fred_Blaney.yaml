@@ -1,0 +1,70 @@
+type: Person
+id: 01M5HPEDHZSBVW9RP3RD53YVY5
+name:
+  en: Fred Blaney
+nationality:
+  - countryCode: eucountry:CAN
+    wikidata: wd:Q16
+description:
+  en: >-
+    Canadian heavyweight judoka from Fredericton; trained under Hiroshi Nakamura in Montreal (1976) and
+    Yosh Senda in Lethbridge (from 1980); national team member for ten years and Olympian in 1984.
+notes: >-
+  Leyshon (p. 89): his first sensei was Don Glaspy, at the University of New Brunswick (no record yet).
+hasTeacherAssertion:
+  - id: 01M5HPEDHZG6ZKJ2BP8P752V17
+    teacher: 01M5H57MAGZSFYY588G2ERRYRP
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1980
+        hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              To improve his Judo, Fred relocated to Lethbridge, Alta., in 1980 to work under Sensei Yosh
+              Senda.
+            locator: '89'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5HPEDHZ97VBASBJQNB18NKG
+    teacher: 01M5H5TCKZW50M5WFGCD2KCNR1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1976
+        hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              For Fred, the major turning point in his Judo career came in 1976 when he attended a
+              three-month-long training camp in Montreal under Nakamura-sensei.
+            locator: '89'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    quotation: >-
+      Fred Blaney was a national team member for 10 years and four-time national heavyweight champion.
+    locator: '113'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q21484071
+tags:
+  - judo
+  - canada

@@ -1,0 +1,50 @@
+type: Person
+id: 01KZSHP5051T42K9VSVQ3ZXTVJ
+name:
+  en: Monty Collier
+aka:
+  en:
+  - Monty L. Collier
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+description:
+  en: 'American judoka and stuntwork instructor, founder of the Collier Method of Judo and instructor
+    at
+
+    Kingsport Judo Dojo in Tennessee. A black belt judoka, he coached actor Keanu Reeves for the fight
+
+    sequences of John Wick 3: Parabellum (2019), teaching highly technical judo throws.
+
+    '
+notes: Teacher unidentified; no lineage information found for Collier beyond his documented black belt.
+hasRankAssertion:
+- id: 01M3YH7N5G95JYWTMG29Z19TW7
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan_unspecified
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Grapplearts explicitly describes Collier as a black belt judoka; single secondary
+      source, date of promotion not stated
+  hasEvidence:
+  - basedOnSource: 01KZSHP507WYD1FWY3XH49X8Q0
+    quotation: >-
+      Monty Collier, a black belt Judoka who worked with Keanu Reeves to get him ready for the amazing fight sequences in the movie John Wick 3, Parabellum
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZSHP507WYD1FWY3XH49X8Q0
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.mapquest.com/us/tennessee/kingsport-judo-dojo-the-collier-method-of-judo-481958291
+  cite: Kingsport Judo Dojo (the Collier Method of Judo) - MapQuest
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- judo
+- coach

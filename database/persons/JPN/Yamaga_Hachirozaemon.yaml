@@ -1,0 +1,35 @@
+type: Person
+id: 01M37JTCRF2ZY789P79BRFQ75B
+name:
+  ja-Latn: Yamaga Hachirōzaemon
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+hasTeacherAssertion:
+  - id: 01M3YH7N5GD57WYWDCWNBM10XG
+    teacher: 01M37JTCRFAKK19NY4BJ489N8E
+    assertedStyle: 01M3287E2ARJZVFEXS3FJFMHRQ
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Bennett calls Ono Tadayoshi his master when describing the letter he wrote to him. No period is given.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+            quotation: brushed a letter consisting of eleven articles to his master Ono Tadayoshi, the seventh-generation head of the Ono-ha Ittō-ryū, for his take on the matter
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+description:
+  en: Ittō-ryū swordsman of the Tsugaru domain who questioned Nakanishi Chūzō's use of protective equipment and the shinai, putting eleven articles on the matter to his master Ono Tadayoshi.
+hasEvidence:
+  - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+    quotation: Yamaga Hachirōzaemon was an Ittō-ryū swordsman of the Tsugaru domain.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - kenjutsu
+  - itto-ryu
+  - koryu

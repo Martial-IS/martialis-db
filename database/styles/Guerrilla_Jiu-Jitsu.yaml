@@ -1,0 +1,73 @@
+type: Style
+id: 01KZQ7BS7K4G2T0NPG9N3PCVET
+name:
+  en: Guerrilla Jiu-Jitsu
+aka:
+  en:
+    - Guerrilla Jiu Jitsu
+    - Guerilla Jiu-Jitsu
+styleType: styleclass:modern
+styleForm:
+  - styleform:hybrid
+foundedEvent:
+  startDate: 2003~
+  eventPlace: 01KZQ7BS7KJ444KWAH72XGN2NT
+  founder:
+    - 01KZQ5XKW310NKTT34P8D4WQAS
+  hasEvidence:
+    - basedOnSource: 01KZQ5XKW3CK2XPAGK0Q4GTDSA
+      quotation: >-
+        In September 2003 Dave took over the grappling program at the American Kickboxing Academy in San Jose, California [...] David has since changed his coaching style's name to "Guerilla Jiu-Jitsu" and he graduates his students under that banner.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: 'Guerrilla Jiu-Jitsu is the grappling system developed and branded by Dave Camarillo,
+
+    blending Brazilian jiu-jitsu with his judo groundwork and adapted for mixed martial
+
+    arts. Camarillo developed it while running the grappling program at American Kickboxing
+
+    Academy (AKA) from September 2003, and graduates his students under that banner.
+
+'
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5GFVKYMRPJEXHNT6YS
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9J
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Guerrilla Jiu-Jitsu is a named school/lineage within Brazilian jiu-jitsu - Camarillo is a BJJ black belt under Ralph Gracie and his students are graded in BJJ rank under the Guerrilla banner; practitioners count as BJJ practitioners
+    hasEvidence:
+      - basedOnSource: 01KZQ5XKW3CK2XPAGK0Q4GTDSA
+        quotation: >-
+          David has since changed his coaching style's name to "Guerilla Jiu-Jitsu" and he graduates his students under that banner.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GC4HZC8R7FXPWG78R
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9B
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Camarillo is a judo black belt and his grappling system fuses BJJ with judo groundwork.
+    hasEvidence:
+      - basedOnSource: 01KZQ5XKW3CK2XPAGK0Q4GTDSA
+        quotation: Dave Camarillo is a Judo and Brazilian Jiu-Jitsu (BJJ) black belt under Ralph Gracie
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZQ5XKW3CK2XPAGK0Q4GTDSA
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - bjj-variant
+  - hybrid
+  - mma
+  - grappling
+rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S

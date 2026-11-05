@@ -1,0 +1,78 @@
+type: Person
+id: 01M5JWHXPXQRNFBC3QKWPAKPMG
+name:
+  en: Graciela Casillas
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1957'
+  hasEvidence:
+    - basedOnSource: 01M5JWHXPXVWDGNJG81A4SY357
+      quotation: >-
+        Graciela Casillas (born 1957) is an American former boxer and kickboxer who competed in the
+        bantamweight division.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    American bantamweight boxer and kickboxer, the only woman in Jimmy Montoya's boxing stable, and the
+    first woman instructor of Cabales Serrada Eskrima under Angel Cabales.
+hasTeacherAssertion:
+  - id: 01M5JWHXPX1WZ8G4HWBGMW59AK
+    teacher: 01M5JWHXPX015Y1A48MFFCVK75
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Her own account; she co-wrote the entry.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Her trainer at the time, Jimmy Montoya, had one of the largest boxing stables in the United
+              States, yet Casillas was the only female boxer in the gym.
+            locator: '516'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5JWHXPXDDX4Y9F9KQPHNZC2
+    teacher: 01M5FJCW4HWXDDF4MJ0EEM0FDV
+    assertedStyle: 01KYEY02EKTWX5K8ZBVZ9SQHYS
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JWHXPXVWDGNJG81A4SY357
+            quotation: >-
+              Casillas trained under Grandmaster Angel Cabales and became the first woman instructor for
+              Cabales Serrada Eskrima.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JWHXPXVWDGNJG81A4SY357
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q5591552
+tags:
+  - boxing
+  - kickboxing
+  - eskrima
+  - women
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/c/c7/Casillas_.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Casillas_.jpg
+    cite: "Gpina6582, Wikimedia Commons"
+    informationType: infotype:secondary

@@ -1,0 +1,89 @@
+type: Person
+id: 01M5JPY6FN90G4Y8JRTWJTYZKN
+name:
+  en: John Jackson
+aka:
+  en:
+    - Gentleman John Jackson
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+birthEvent:
+  birthDate: '1769'
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNKS2Y2073W314FSDW
+      quotation: >-
+        John Jackson (1769 – 7 October 1845) was a celebrated English pugilist of the late 18th century.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1845-10-07'
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNKS2Y2073W314FSDW
+      quotation: >-
+        John Jackson (1769 – 7 October 1845) was a celebrated English pugilist of the late 18th century.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    English prizefighter, "Gentleman" John Jackson, who beat Daniel Mendoza in 1795 and then ran a
+    boxing academy for gentlemen at 13 Bond Street, London. Lord Byron was among his students. At George
+    IV's coronation in 1821 he led the prizefighters who kept order at Westminster Abbey.
+hasHonorAssertion:
+  - id: 01M5JPY6FNJPB27D1C644C6AJZ
+    honorValue: Champion of England
+    honorType: honortype:title
+    dateConferred: '1795'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source; contemporary usage questioned.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Following Mendoza, the title of champion passed to “Gentleman” John Jackson (1769–1845), who
+          along with John Gully (1783–1863) dominated the Regency prize ring.
+        locator: '230'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JPY6FNKS2Y2073W314FSDW
+        quotation: >-
+          However, sources from the 1790s and subsequent decades never describe either Jackson or
+          Mendoza as having been champions of England.
+        informationType: infotype:secondary
+        supports: false
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Jackson became a well-known coach
+    locator: '230'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5JPY6FNKS2Y2073W314FSDW
+    quotation: >-
+      Byron related in his diary that he regularly received instruction in boxing from Jackson, and even
+      mentioned him in a note to the 11th Canto of his poem Don Juan.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q1071975
+tags:
+  - boxing
+  - prizefighting
+  - united-kingdom
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/f/f9/John_Jackson.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:John_Jackson.jpg
+    cite: "Engraving Sir Henry Smyth, Bar., Wikimedia Commons"
+    informationType: infotype:secondary

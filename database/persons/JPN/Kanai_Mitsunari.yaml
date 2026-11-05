@@ -1,0 +1,63 @@
+type: Person
+id: 01M6C5JZZG407WH53XE7F3ZJ3C
+name:
+  en: Mitsunari Kanai
+  ja-Latn: Kanai Mitsunari
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+deathEvent:
+  deathDate: '2004-03-28'
+  deathPlace:
+    label: Toronto
+    countryCode: eucountry:CAN
+  hasEvidence:
+    - basedOnSource: 01M6C5JZZGVH0ZY1TS0XVB835X
+      quotation: >-
+        Renowned Aikido instructor Mitsunari Kanai died March 28 of a heart attack in Toronto, Canada,
+        where he had been teaching a seminar.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/d/d7/Mitsunari_Kanai.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Mitsunari_Kanai.jpg
+    cite: "David Halprin, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    Japanese aikido teacher, a live-in student (uchi deshi) of Morihei Ueshiba for nearly eight years,
+    sent by the Hombu Dojo to Boston in 1965, where he taught until his death in 2004.
+hasTeacherAssertion:
+  - id: 01M6C5MBP3AB258RBEJW9DJ3TY
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TV
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:uchi_deshi
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source, an unsigned obituary.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C5JZZGVH0ZY1TS0XVB835X
+            quotation: >-
+              Mr. Kanai was one of the last personal students trained by the founder of Aikido, Morihei
+              Ueshiba, also known as O-Sensei.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6C5JZZGVH0ZY1TS0XVB835X
+            quotation: He studied with O-Sensei for close to eight years.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C5JZZGVH0ZY1TS0XVB835X
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+notes: The death year (2004) comes from the obituary's issue date (The Iaido Journal, May 2004).
+tags:
+  - aikido

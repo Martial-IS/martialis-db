@@ -1,0 +1,156 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1TM
+name:
+  pt: Luis de França Filho
+aka:
+  pt: Luiz França
+nationality:
+- countryCode: eucountry:BRA
+  wikidata: wd:Q155
+birthEvent:
+  birthDate: '1910-06-02'
+  birthPlace:
+    label: Alagoas
+    countryCode: eucountry:BRA
+    wikidata: wd:Q40885
+hasTeacherAssertion:
+- id: 01M3YH7N5FE3Z3HQFYE6QJT88J
+  teacher: 01KJJAWN28MWKKSN4J02MVY1TP
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: BJJ Heroes and Facebook sources mention training with Satake starting 1916
+  role: teachrole:student
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1916
+    hasEvidence:
+    - uri: https://www.bjjheroes.com/bjj-fighters/luiz-franca
+      cite: 'BJJ Heroes: Luiz França'
+      quotation: There Satake settled for a while, opening his own academy in 1916, at the Atlético Clube
+        Rio Negro, becoming the first Japanese to open a Judo/Jiu Jitsu academy in Brazil. This gym became
+        the place where Luiz França started his life as a martial artist. Satake would also become a Brazilian
+        citizen years later, and change his name to Antônio Soshihiro Satake.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M3M3T743NV4DMJ0XPYQRGJV6
+      quotation: Antigo aluno de Soishiro Satake e Mitsuyo Maeda, Luiz França foi o fundador da linhagem
+        (não pertencente à família Gracie) de mais sucesso no Jiu-Jitsu, uma linhagem continuada especialmente
+        através do trabalho efetuado pelo mais proeminente e capaz aluno de França, o Mestre Oswaldo Fadda,
+        que mais tarde formaria a sua própria escola de talentosos alunos.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5FJHW1CVFTXDMN9CY2
+  teacher: 01KJJAWN28MWKKSN4J02MVY1TH
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Book source mentions training with Maeda likely in 1929
+  role: teachrole:student
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1929
+    hasEvidence:
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+      cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo
+        no Brasil e no mundo. 2020.'
+      locator: vol. 3, p. 106
+      quotation: Se França se iniciou no Jiu Jitsu com o Conde Koma, muito provavelmente foi em 1929 n
+        Marinha, quando esteve em Belém ao serviço no navio Minas Gerais.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5FX1VBYWBPQWCHZ6K6
+  teacher: 01KJJAWN28MWKKSN4J02MVY1S6
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Book source mentions continued training with Omori and Yano around 1930
+  role: teachrole:student
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1930
+    hasEvidence:
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+      cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo
+        no Brasil e no mundo. 2020.'
+      locator: vol. 3, p. 106
+      quotation: Posteriormente, deu continuidade ao seu aprendizado no Rio de Janeiro com Geo Omori,
+        Takeo Yano e Hélio Gracie
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5FR3V4567GV3NA5RHK
+  teacher: 01KJJAWN28MWKKSN4J02MVY1S5
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Book source mentions training with Hélio Gracie in Rio de Janeiro
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+      cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo
+        no Brasil e no mundo. 2020.'
+      locator: vol. 3, p. 106
+      quotation: Posteriormente, deu continuidade ao seu aprendizado no Rio de Janeiro com Geo Omori,
+        Takeo Yano e Hélio Gracie
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5FPYKDQQN5SWK167EQ
+  teacher: 01KJJAWN28MWKKSN4J02MVY1T2
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Book source mentions boxing training with Baltazar Cardoso starting 1928
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD8Y
+    interactionPeriod:
+      startYear: 1928
+    hasEvidence:
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+      cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo
+        no Brasil e no mundo. 2020.'
+      quotation: Foi na Marinha, em 1928, que França se iniciou nas artes marciais. Primeiro com o Boxe,
+        sob a orientação de Balthazar Cardoso
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+notes: >-
+  Trained in Belém and Rio de Janeiro.
+hasEvidence:
+- uri: https://repositorio.ufsc.br/handle/123456789/103771
+  cite: Universidade Federal de Santa Catarina Repository
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KJJAWN29MA64W22606R3WDA8
+  cite: A história da Família Fadda (FaddaBJJ)
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/
+  cite: The lost legend of Jacyntho Ferro, one of Carlos Gracie Sr.'s Jiu-Jitsu instructors (BJJEE)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html
+  cite: Mitsuyo Maeda e o Judô Kodokan (Judo Tradicional Goshinjutsukan)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+  cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil
+    e no mundo. 2020.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct

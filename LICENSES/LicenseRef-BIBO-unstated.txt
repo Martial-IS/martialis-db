@@ -1,0 +1,13 @@
+The Bibliographic Ontology (BIBO), http://purl.org/ontology/bibo/
+Authors: Bruce D'Arcus and Frédérick Giasson.
+
+The upstream publishers state no licence for the ontology file: none in
+bibo.rdf itself, none in the project repository
+(https://github.com/structureddynamics/Bibliographic-Ontology-BIBO, whose
+GitHub licence field is empty), checked 2026-09-24.
+
+ontology/imports/bibo.rdf is an unmodified copy, redistributed only so that
+`make imports` can extract the BIBO import module the ontology imports
+(ontology/imports/bibo-module.ttl, under this same notice). No licence is
+granted by the Martialis project over either, and none of the Martialis
+licences apply to them.

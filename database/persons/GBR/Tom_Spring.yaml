@@ -1,0 +1,94 @@
+type: Person
+id: 01M5JPY6FNEBNSJN5X4GTQ06V5
+name:
+  en: Tom Spring
+aka:
+  en:
+    - Thomas Winter
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+birthEvent:
+  birthDate: '1795-02-22'
+  birthPlace:
+    label: Fownhope
+    countryCode: eucountry:GBR
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNZGBCHE88B2XRFH1F
+      quotation: >-
+        Tom Spring (born Thomas Winter) (22 February 1795 – 20 August 1851) was an English bare-knuckle
+        fighter.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1851-08-20'
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNZGBCHE88B2XRFH1F
+      quotation: >-
+        Tom Spring (born Thomas Winter) (22 February 1795 – 20 August 1851) was an English bare-knuckle
+        fighter.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    English prizefighter born Thomas Winter. Tom Cribb brought him to London under his patronage in
+    1814 and handed him the championship in 1822; he retired in 1824 and kept the Castle Inn, Holborn,
+    a centre of the prize ring.
+hasHonorAssertion:
+  - id: 01M5JPY6FNFMW82YXKZTZ2RP49
+    honorValue: Champion of England
+    honorType: honortype:title
+    dateConferred: '1822-05-15'
+    grantedBy: 01M5JPY6FNF0SG23M0XHYNDVP4
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    notes: >-
+      grantedBy is recorded because the sources describe Cribb handing over the title on his
+      retirement, not a title won in the ring.
+    hasEvidence:
+      - basedOnSource: 01M5JPY6FNZGBCHE88B2XRFH1F
+        quotation: >-
+          On Cribb's public retirement at the Fives Court on 15th May 1822 he handed over the
+          championship title to Spring.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JPY6FN1F4HJZA44FRW9JKD
+        quotation: >-
+          Dowling (1841) records that 'On 15 May 1822, Cribb publicly resigned the championship on the
+          stage of the Fives Court, on which occasion he was presented with a belt, and was succeeded by
+          Tom Spring'.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Jackson, Cribb, as well as younger fighters such as Tom Spring (Thomas Winter, 1795–1851) and
+      Peter Crawley (1799–1865) fulfilled their role with aplomb.
+    locator: '231'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5JPY6FNZGBCHE88B2XRFH1F
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q3530895
+tags:
+  - boxing
+  - prizefighting
+  - united-kingdom
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/8/8c/Tom_Spring.gif
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Tom_Spring.gif
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary

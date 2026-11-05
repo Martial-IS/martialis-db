@@ -1,0 +1,53 @@
+type: Place
+id: 01KZDXQH2MMXGFESB2HNKRKFJ9
+name:
+  en: Matsubayashi-ryu Kodokan
+  ja-Latn: Matsubayashi-ryū Kōdōkan
+aka:
+  en:
+    - Matsubayashi-Ryu Kodokan Karate and Ancient Martial Arts Studies
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Naha
+      countryCode: eucountry:JPN
+      wikidata: wd:Q181966
+foundedEvent:
+  startDate: '1953'
+  founder:
+    - 01KZBXACW0REMTPYNSM6B5QQAQ
+  hasEvidence:
+    - basedOnSource: 01KZC8XAP8GPNNGN78EYQNYZF9
+      quotation: in 1953 he returned to Naha City and set up his own dojo, which he named "Matsubayashi-Ryu Kodokan Karate and Ancient Martial Arts Studies".
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M4R9845WF0MJXJS1KDBE8P5K
+    instructor: 01KZBXACW0REMTPYNSM6B5QQAQ
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1953
+      endYear: 1997
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia only.
+    hasEvidence:
+      - basedOnSource: 01KZC8XAP8GPNNGN78EYQNYZF9
+        quotation: >-
+          He continued to teach the discipline until his death in 1997. He was succeeded in 1997 by his son, Takayoshi Nagamine
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: The Matsubayashi-ryu Kodokan is the Naha dojo established by Shoshin Nagamine in 1953 as the base of his Matsubayashi-ryu karate teaching, where he taught until his death in 1997; succeeded by his son Takayoshi Nagamine.
+hasEvidence:
+  - basedOnSource: 01KZC8XAP8GPNNGN78EYQNYZF9
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - karate
+  - matsubayashi-ryu
+  - dojo

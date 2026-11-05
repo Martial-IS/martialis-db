@@ -1,0 +1,126 @@
+type: Person
+id: 01KYJC7J3MYJ21GH3A1V1W7GQZ
+name:
+  en: Taira Shinken
+  ja: 平 信賢
+aka:
+  ja:
+  - 前里 信賢
+  ja-Latn:
+  - Maezato Shinken
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1897'
+  birthPlace:
+    label: Kume Island
+    countryCode: eucountry:JPN
+    wikidata: wd:Q247515
+  hasEvidence:
+  - basedOnSource: 01KYJC7J3MC122DCG74FX35JQB
+    quotation: >-
+      (平 信賢, Taira Shinken; 1897–1970)
+    cite: Taira Shinken (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://images.squarespace-cdn.com/content/v1/5e5e67a54e9abb3564e911f6/1583957867783-L4MJ6RIYE4LVJ0NH2MAX/Choki+Motobu.png
+  imageAttribution:
+    uri: https://www.jkr-uk.org.uk/shinken-taira
+    cite: "JKR-UK"
+    informationType: infotype:secondary
+deathEvent:
+  deathDate: '1970'
+  hasEvidence:
+  - basedOnSource: 01KYJC7J3MC122DCG74FX35JQB
+    quotation: >-
+      (平 信賢, Taira Shinken; 1897–1970)
+    cite: Taira Shinken (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: Okinawan martial artist and kobudo master. He studied karate under Gichin Funakoshi and kobudo under
+    Moden Yabiku. He traveled across the Ryukyu Islands compiling 42 existing weapons kata, preserving
+    Okinawan kobudo for future generations. He founded the Ryūkyū Kobudō Hozon Shinkokai in 1955 and was
+    a major influence on Fumio Demura's kobudo training.
+hasTeacherAssertion:
+- id: 01M3YH7N5GXS7TQCZY0FDN4ZV7
+  teacher: 01KJJAWN28MWKKSN4J02MVY1VB
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9S
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Taira was introduced to Gichin Funakoshi in Tokyo in 1922 and studied karate
+      under him
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1922
+    hasEvidence:
+    - basedOnSource: 01KYJC7J3MC122DCG74FX35JQB
+      cite: Taira Shinken (Wikipedia EN)
+      quotation: >-
+        introduced to Gichin Funakoshi, a fellow Okinawan and karate instructor
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://www.jkr-uk.org.uk/shinken-taira
+      cite: Shinken Taira - JKR-UK
+      quotation: Funakoshi Sensei was already well versed in the Bo and the Sai and may have encouraged
+        Taira Sensei in his studies
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GNTZMYCAG1Y00W54W
+  teacher: 01KYJCSK3HM7WV1EJPH94Q18T2
+  assertedStyle: 01KYFZEGYN7A9G4FSTXBPDBG8P
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Taira became a student (deshi) of Kenwa Mabuni in 1934; documented in both Wikipedia
+      and JKR-UK
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1934
+    hasEvidence:
+    - basedOnSource: 01KYJC7J3MC122DCG74FX35JQB
+      cite: Taira Shinken (Wikipedia EN)
+      quotation: In 1934, Taira became a student (deshi) of Kenwa Mabuni
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://www.jkr-uk.org.uk/shinken-taira
+      quotation: >-
+        In 1934, Taira became a student (deshi) of Kenwa Mabuni Sensei.
+      cite: Shinken Taira - JKR-UK
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KYJC7J3MC122DCG74FX35JQB
+  cite: Taira Shinken (Wikipedia EN)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.jkr-uk.org.uk/shinken-taira
+  cite: Shinken Taira - JKR-UK
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KYJDMKWDWBJBK07YVKCAQKMW
+  cite: Podrigalo et al. (2025) - Fighting arts studies A.D. 2024
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q723832
+- viaf:33791527
+tags:
+- okinawan-martial-arts
+- kobudo
+- ryukyu-kobudo
+- fumio-demura-teacher

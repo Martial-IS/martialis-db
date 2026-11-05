@@ -1,0 +1,136 @@
+type: Place
+id: 01KYYYTTW3BX37M2ESX9PKY0FY
+name:
+  en: Oyama Dojo
+  ja: 大山道場
+  ja-Latn: Ōyama Dōjō
+aka:
+  en:
+    - Oyama Dojo Tokyo
+    - Kyokushinkaikan Sohonbu
+  ja:
+    - 極真会館総本部
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Mejiro, Toshima, Tokyo
+      countryCode: eucountry:JPN
+      wikidata: wd:Q3304792
+    sitePeriod:
+      startYear: 1954
+      endYear: 1956
+    notes: In the garden of Oyama's house.
+    hasEvidence:
+      - basedOnSource: 01M54N5AVVYMXHE0N2TCXP9AFS
+        quotation: 5月東京・目白の大山総裁自宅庭に『大山道場』の看板が掲げられる。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - location:
+      label: Ikebukuro, Toshima, Tokyo
+      countryCode: eucountry:JPN
+      wikidata: wd:Q542366
+    sitePeriod:
+      startYear: 1956
+      endYear: 1964
+    notes: A rented ballet studio behind Rikkyo University.
+    hasEvidence:
+      - basedOnSource: 01M54N5AVVYMXHE0N2TCXP9AFS
+        quotation: 6月立教大学裏のバレエスタジオを借りて週4日間の稽古を始める。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - location:
+      label: Nishi-Ikebukuro, Toshima, Tokyo
+      countryCode: eucountry:JPN
+      wikidata: wd:Q11628970
+    sitePeriod:
+      startYear: 1964
+      endYear: 1999
+    notes: The Kyokushinkaikan Sohonbu building, begun in June 1963.
+    hasEvidence:
+      - basedOnSource: 01M54N5AVVYMXHE0N2TCXP9AFS
+        quotation: 6月豊島区西池袋に『国際空手道連盟 極真会館 総本部』を建設するために、工事に着手。[...]6月極真会館総本部竣工。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - location:
+      label: Nishi-Ikebukuro, Toshima, Tokyo
+      countryCode: eucountry:JPN
+      wikidata: wd:Q11628970
+    address: 2-38-1 Nishi-Ikebukuro, Toshima-ku, Tokyo 171-0021, Japan
+    sitePeriod:
+      startYear: 1999
+    hasEvidence:
+      - basedOnSource: 01M54N5AVVYMXHE0N2TCXP9AFS
+        quotation: 3月総本部道場を現在の西池袋2-38-1に移転。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M3YH7N5GC4SCSYHTSWEJ9JNF
+    relatedOrganization: 01KYSNKBS29Z1VFPW04W6HKA6T
+    affiliationRelation: affrel:branch_of
+    validDuring:
+      startYear: 1995
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The IKO's own history only (lineage tradition); Wikipedia states it indirectly.
+    notes: >-
+      The dojo was the Sohonbu of the original IKO from 1964; that body has no record. The start year is
+      the founding of the Matsui-ha IKO, which holds the Sohonbu today.
+    hasEvidence:
+      - basedOnSource: 01M54N5AVVYMXHE0N2TCXP9AFS
+        quotation: 6月立教大学裏のバレエスタジオを借りて週4日間の稽古を始める。[...]この道場が現在の極真会館総本部の前身となる。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M0Q8AS71Q9DTCHMAP584MQ3Q
+        quotation: Previously, this institution was known as the Oyama Dojo.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+foundedEvent:
+  startDate: '1953'
+  founder:
+    - 01KYT8RX5WJXBGW45FEVYWN7WC
+  hasEvidence:
+    - basedOnSource: 01KYT8RS8VNQYJZM2XGV105GA7
+      quotation: In 1953, Oyama opened his own karate dojo, named Oyama Dojo (form of Gōjū-ryū), in Tokyo
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M0Q8AS71Q9DTCHMAP584MQ3Q
+      quotation: Initially, Masutatsu Oyama opened his first official dōjō – the Oyama Dojo – in 1953, in a small building behind Rikkyo University
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    The original Tokyo dojo of Mas Oyama, opened in 1953 and the birthplace of Kyokushin karate. Foreign
+    students such as Roger Lesourd trained directly under Oyama here. It moved into the new Kyokushinkaikan
+    building in Nishi-Ikebukuro in 1964 and is today the Sohonbu (headquarters dojo) of the International
+    Karate Organization Kyokushinkaikan.
+  ja: '1953年に開かれた大山倍達の最初の道場であり、極真カラテ発祥の地。ロジェ・ルスールら海外の弟子が大山のもとで直接稽古し、後に国際空手道連盟極真会館の中核となった。
+
+'
+notes: >-
+  Founding year: both Wikipedia articles give 1953. The IKO's own history gives May 1954 (the "Oyama
+  Dojo" sign at Mejiro) and puts the dojo behind Rikkyo University from June 1956; the Kyokushin article
+  puts the 1953 dojo behind Rikkyo and says Oyama renamed his school "Oyama Dojo" around 1956.
+hasEvidence:
+  - basedOnSource: 01KYT8RS8VNQYJZM2XGV105GA7
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYT6RAA5G5TZDZ0489824931
+    quotation: In the 1960’s, Mas Oyama accepted a French student, Roger Lesourd. Roger lived and trained in Japan directly under Mas Oyama
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - kyokushin
+  - dojo
+  - tokyo
+  - karate

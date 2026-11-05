@@ -1,0 +1,81 @@
+type: Style
+id: 01M5JWHXPXPZ0K3FVDZH6WQG1B
+name:
+  en: Pankration
+  el: Παγκράτιον
+styleType: styleclass:traditional
+hasStyleRelationAssertion:
+  - id: 01M5JWHXPXBP5CZTF8PCBT8MW3
+    relatedStyle: 01KYJ39BQPQ7JTTDQ3B36PZQQN
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          The pankration was the third of the “heavy events,” and it combined both wrestling and boxing.
+        locator: '237'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JWHXPXZH4G9RE8HV80PNQ6
+        quotation: >-
+          Pankration, as practiced in historical antiquity, was an athletic event that combined
+          techniques of both boxing (pygmē/pygmachia – πυγμή/πυγμαχία) and wrestling (palē – πάλη), as
+          well as additional elements, such as the use of strikes with the legs, to create a broad
+          fighting sport similar to today's mixed martial arts competitions.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5JWHXPXPEJQ8RTF1VQSQDEM
+    relatedStyle: 01M5JWHXPXVN2GWPT338C6HCAW
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          The pankration was the third of the “heavy events,” and it combined both wrestling and boxing.
+        locator: '237'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JWHXPXZH4G9RE8HV80PNQ6
+        quotation: >-
+          Pankration, as practiced in historical antiquity, was an athletic event that combined
+          techniques of both boxing (pygmē/pygmachia – πυγμή/πυγμαχία) and wrestling (palē – πάλη), as
+          well as additional elements, such as the use of strikes with the legs, to create a broad
+          fighting sport similar to today's mixed martial arts competitions.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Ancient Greek combat event, the third of the "heavy events" after wrestling and boxing, which it
+    combined: a fight won by submission or incapacity in which only biting and gouging were barred. It
+    was fought at the Olympic and other crown games; Arrichion of Phigalia is its most famous champion.
+hasEvidence:
+  - basedOnSource: 01M5JWHXPXZH4G9RE8HV80PNQ6
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q201252
+tags:
+  - pankration
+  - ancient
+  - greece
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/c/cf/Pankration_panathenaic_amphora_BM_VaseB610.jpg
+    rights: mediarights:cc-by-2.5
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:Pankration_panathenaic_amphora_BM_VaseB610.jpg
+      cite: "Marie-Lan Nguyen, Wikimedia Commons"
+      informationType: infotype:secondary

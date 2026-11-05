@@ -1,0 +1,207 @@
+type: Person
+id: 01M1F0B3712KTW5YTPYS6S24B0
+name:
+  en: Bow Sim Mark
+  zh: 麥寶嬋
+aka:
+  en:
+    - Mai Baochan
+    - 麦宝婵
+  zh:
+    - 麥寶嬋
+nationality:
+  - countryCode: eucountry:CHN
+    wikidata: wd:Q148
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthPlace:
+    label: Taishan
+    countryCode: eucountry:CHN
+    wikidata: wd:Q58252
+  hasEvidence:
+    - basedOnSource: 01M1F08EADE756TFHG3VBDKZG1
+      quotation: 出生于广东台山
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M1F08EA9161RYHDRMF2DW5AP
+      quotation: Born in Taishan, China
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: Chinese-American martial artist who founded the Chinese Wushu Research Institute (CWRI) in Boston, 1976. Specialized in Fu-style Wudangquan, Tai Chi Chuan, and Wu Dang sword. First to introduce standardized Wushu to American audiences. Mother of actor Donnie Yen.
+hasTeacherAssertion:
+  - id: 01M3YH7N5GFTRS6RHH549TN7XW
+    teacher: 01M1F08EAH091JCHK4JASNNZW0
+    assertedStyle: 01KYJ80JXEH8J0AWW86F1ATQEZ
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Trained under Fu Wing Fay for 10 years, served as instructor at his school 1968-74. Confirmed by Bow Sim Mark official website and Way of Martial Arts article; three independent sources agree.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1968
+          endYear: 1974
+        hasEvidence:
+          - basedOnSource: 01M1F08EA9161RYHDRMF2DW5AP
+            quotation: Her path to mastery began under the tutelage of two of China’s legendary martial arts figures—Fu Wing Fay and Li Tian Ji—who recognized her extraordinary discipline and spirit.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M1F08EAFENZDYRYDDPQTGM5Q
+            quotation: 'Mark learned Fu Style Wudangquan by training under Fu Wing Fay for 10 years; Wing Fay was the eldest son and top student of Grandmaster Fu Chen Sung. She was an instructor at Wing Fay’s school from 1968-74.'
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GP2Y422Z46KJBGBFJ
+    teacher: 01M1F08EAK9YR9K2REHQWYAC6B
+    assertedStyle: 01KYJ80JXEH8J0AWW86F1ATQEZ
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Studied sword, Tai Chi, and tuishou under Li Tian Ji starting in 1981. Confirmed by Bow Sim Mark official website and Baidu Baike; single-language source overlap.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1981
+        hasEvidence:
+          - basedOnSource: 01M1F08EA9161RYHDRMF2DW5AP
+            quotation: 'Her path to mastery began under the tutelage of two of China’s legendary martial arts figures—Fu Wing Fay and Li Tian Ji—who recognized her extraordinary discipline and spirit.'
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M1F08EADE756TFHG3VBDKZG1
+            quotation: 1981年，她开始跟从LI Tian Ji学习剑术，太极拳， 和推手
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M3YH7N5GQM0BJF7FK5WJKPRA
+    honorValue: Gold Medal, First International Tai Chi Chuan and Sword Demonstration
+    dateConferred: '1984'
+    atEvent:
+      - 01M1F08EANMJ6BT963BDA25HFR
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Her own official biography directly states the 1984 Wuhan gold medal; Baidu Baike and the Way of Martial Arts profile independently corroborate it
+    hasEvidence:
+      - basedOnSource: 01M1F08EA9161RYHDRMF2DW5AP
+        quotation: In 1984, she earned a Gold Medal at the First International Tai Chi Chuan and Sword Demonstration in Wuhan, China.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M1F08EAFENZDYRYDDPQTGM5Q
+        quotation: Mark won a gold medal at the first International Tournament of T'ai chi ch'uan in Wuhan City in 1984.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M1F08EADE756TFHG3VBDKZG1
+        quotation: 1984年，麦宝婵成为国际太极拳比赛金牌得主
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G469HBDV9SQDYQ00B
+    honorValue: US Team Leader, First International Wushu Competition
+    dateConferred: '1985'
+    atEvent:
+      - 01M1F08EAQTWW9EZ194668XXMX
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Her own official biography states she led a 16-member CWRI team representing
+        the US at the Xi'an competition the year after her 1984 Wuhan medal, i.e. 1985
+    hasEvidence:
+      - basedOnSource: 01M1F08EA9161RYHDRMF2DW5AP
+        quotation: >-
+          The following year, she led a 16-member CWRI team to represent the United States at the First International Wushu Competition in Xi'an, China
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GQ4HBBQGDCMTSV6GZ
+    honorValue: Woman of the Year, Inside Kung Fu
+    dateConferred: '1994'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The Way of Martial Arts profile and Baidu Baike's career-data table both directly
+        state the 1994 and 1996 Woman of the Year awards from Inside Kung Fu
+    hasEvidence:
+      - basedOnSource: 01M1F08EAFENZDYRYDDPQTGM5Q
+        quotation: >-
+          She was named Inside Kung Fu magazine's Woman of the Year in 1994 and 1996
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M1F08EADE756TFHG3VBDKZG1
+        quotation: 1994年和1996年年度女性人物
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GX342FMGE07YDHJ39
+    honorValue: Woman of the Year, Inside Kung Fu (2nd)
+    dateConferred: '1996'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The Way of Martial Arts profile and Baidu Baike's career-data table both directly
+        state the 1994 and 1996 Woman of the Year awards from Inside Kung Fu
+    hasEvidence:
+      - basedOnSource: 01M1F08EAFENZDYRYDDPQTGM5Q
+        quotation: >-
+          She was named Inside Kung Fu magazine's Woman of the Year in 1994 and 1996
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M1F08EADE756TFHG3VBDKZG1
+        quotation: 1994年和1996年年度女性人物
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G685SKQ4DBSZQ8Y35
+    honorValue: Most Influential Martial Artist of the 20th Century
+    dateConferred: '2000'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Baidu Baike's career-data table directly attributes this to Black Belt magazine, 2000; her own official biography and the Way of Martial Arts profile do not mention it, so only one independent source currently supports the claim
+    hasEvidence:
+      - basedOnSource: 01M1F08EADE756TFHG3VBDKZG1
+        quotation: 2000年 20世纪最有影响的武术家之一。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M1F08EADE756TFHG3VBDKZG1
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M1F08EA9161RYHDRMF2DW5AP
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M1F08EAFENZDYRYDDPQTGM5Q
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M1F08EAB66SGZ7R1Y2RR3Z77
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://i0.wp.com/wayofmartialarts.wordpress.com/wp-content/uploads/2016/02/bow-sim-mark.jpg
+  imageAttribution:
+    uri: https://www.bowsimmark.com/gallery
+    cite: Bow Sim Mark Tai Chi Arts Association
+    informationType: infotype:secondary
+tags:
+  - chinese-martial-arts
+  - tai-chi
+  - wushu
+  - wudangquan
+  - bagua-zhang
+  - fu-style
+  - mother-of-american-wushu

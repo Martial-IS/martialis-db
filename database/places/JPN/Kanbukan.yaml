@@ -1,0 +1,78 @@
+type: Place
+id: 01M6BQSYG6RRV39RPQ333DV3TC
+name:
+  en: Kanbukan
+  ja: 韓武館
+aka:
+  en:
+    - Renbukan
+    - Renbukai
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Tokyo
+      countryCode: eucountry:JPN
+      wikidata: wd:Q1490
+    hasEvidence:
+      - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+        quotation: >-
+          Yun K’wae Pyŏng founded, in Tokyo in 1940, the ‘Kanbukan’ (韓武館, ‘Korean martial arts institute’ or
+          school), which was a sister school of Shūdōkan.
+        locator: '54'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1940'
+  founder:
+    - 01M6BQSYG6THHQB5HMBW87F6FE
+  hasEvidence:
+    - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+      quotation: >-
+        Yun K’wae Pyŏng founded, in Tokyo in 1940, the ‘Kanbukan’ (韓武館, ‘Korean martial arts institute’ or
+        school), which was a sister school of Shūdōkan.
+      locator: '54'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Yun Kwei Byung (1919–?) was a college student who started training in karate at the Kanbukan (Korean
+        Martial Arts Hall) in Tokyo around 1940.
+      locator: '199'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:indirect
+description:
+  en: >-
+    Karate school in Tokyo, founded by Yoon Kwe-byung in 1940 as a sister school of Tōyama Kanken's
+    Shūdōkan. It was known for full-contact sparring in modified kendo armour (bōgu). After Yoon returned to
+    Korea it was renamed Renbukan in 1950.
+notes: >-
+  Green & Svinth have Yoon training at the Kanbukan rather than founding it, and give the later name as
+  Renbukai.
+hasEvidence:
+  - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+    quotation: >-
+      After Yun’s return to Korea, the school was renamed in 1950 to Renbukan (練武館)
+    locator: '99'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Kanbukan (since renamed Renbukai)
+    locator: '199'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q11664074
+tags:
+  - karate
+  - taekwondo

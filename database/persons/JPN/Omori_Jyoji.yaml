@@ -1,0 +1,133 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1S6
+name:
+  ja: 大森 幸次郎
+  ja-Latn: Omori Kojiro
+  pt: Geo Omori
+aka:
+  pt:
+  - Jyoji Omori
+  - George Omori
+  ja:
+  - 大森 譲治
+  - 大森 譲次
+  ja-Latn: Omori Jyoji
+nationality:
+- countryCode: eucountry:BRA
+  wikidata: wd:Q155
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1898'
+  birthPlace:
+    label: Tokyo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1490
+deathEvent:
+  deathDate: '1938-03-02'
+  deathPlace:
+    label: Belo Horizonte
+    countryCode: eucountry:BRA
+    wikidata: wd:Q42800
+description:
+  en: Japanese-Brazilian martial artist considered one of the founders of Brazilian Jiu-Jitsu. Moved to
+    Brazil in 1925, opened the first jujitsu school in São Paulo in 1931. Known for his extensive fight
+    career (503 matches) and contributions to the development of Vale Tudo in Brazil.
+image:
+  contentUrl: https://archive.org/download/geo-omori/geo-omori.jpg
+  imageAttribution:
+    uri: https://forum.bjjforum.com.br/
+    cite: BJJ Forum
+hasTeacherAssertion:
+- id: 01M3YH7N5GNAFETGC830XETH3E
+  teacher: 01KJJAWN28MWKKSN4J02MVY1S7
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Independent sources state it.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+    hasEvidence:
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+      cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo
+        no Brasil e no mundo. 2020.'
+      locator: vol. 3, p. 153
+      quotation: Foi discípulo de um dos maiores lutadores do Kodokan, Tokugoro Ito
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTBJ
+      quotation: He learned under Tokugoro Ito and was a training partner of the famed Sanpo Toku
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5G639VRGQV52TSN074
+  teacher: 01KJJAWN29MA64W22606R3WD7H
+  hasConfidence:
+    confidenceLevel: conflevel:possible
+    assessedBy: agent:FSM
+    confidenceRationale: Japanese Wikipedia mentions involvement with Yokoyama Sakujiro at Higher Normal
+      School, but relationship not clearly defined as teacher-student
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - uri: https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%AA%E5%A4%A7%E6%A3%AE
+      archiveUri: http://web.archive.org/web/20251112063737/https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%AA%E5%A4%A7%E6%A3%AE
+      cite: ジオ大森 - Wikipedia (Japanese)
+      quotation: 高師で柔道教授をつとめた横山作次郎とも関わった。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GZENZW7HPR3VEYHZ6
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 2
+  hasConfidence:
+    confidenceLevel: conflevel:possible
+    assessedBy: agent:FSM
+    confidenceRationale: 'Conflicting information: 2 dan unofficial per academic thesis vs 3 dan per 1958
+      book and 1 dan at age 17 per Japanese Wikipedia'
+  hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WDA6
+    cite: 'MAÇANEIRO, Gustavo Goulart Braga. Desenvolvimento organizacional do judô brasileiro. São Paulo
+      : Escola de Educação Física e Esporte, Universidade de São Paulo, 2024. Dissertação de Mestrado
+      em Estudos Socioculturais e Comportamentais da Educação Física e Esporte'
+    quotation: Geo Omori 2º dan não oficial
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- uri: https://en.wikipedia.org/wiki/Geo_Omori
+  archiveUri: http://web.archive.org/web/20260620055121/https://en.wikipedia.org/wiki/Geo_Omori
+  cite: Geo Omori - Wikipedia (English)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%AA%E5%A4%A7%E6%A3%AE
+  archiveUri: http://web.archive.org/web/20251112063737/https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%AA%E5%A4%A7%E6%A3%AE
+  cite: ジオ大森 - Wikipedia (Japanese)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+  cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil
+    e no mundo. 2020.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://podcasters.spotify.com/pod/show/budokast0/episodes/Budokast-04---Geo-Omori-e-o-Jiu-Jitsu-Brasileiro-e8cbdt
+  cite: Budokast 04 - Geo Omori e o Jiu Jitsu Brasileiro (Gustavo Goulart)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+notes: 'Real name: Omori Kojiro (大森 幸次郎). Family register in Chiba Prefecture, Japan. Started judo at
+  age 13, earned 1st dan at 17. Moved to USA in 1910, then to Brazil in 1925. Opened first jujitsu school
+  in São Paulo''s Edificio Martinelli in 1931. Considered instrumental in teaching Carlos Gracie and establishing
+  Brazilian Jiu-Jitsu. Fought 503 matches in career including fights against capoeira practitioners and
+  members of the Gracie family. Died from food poisoning in 1938.'
+sameAs:
+- wd:Q19560557

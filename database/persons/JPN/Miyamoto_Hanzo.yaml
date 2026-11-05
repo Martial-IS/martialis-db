@@ -1,0 +1,72 @@
+type: Person
+id: 01M6BFF6ZQ6Y7V8WWHGGAHXNY1
+name:
+  ja-Latn: Miyamoto Hanzo
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+description:
+  en: >-
+    Tenjin Shinyo-ryu jujutsu teacher and well-known judoka of the late Meiji, Taisho and early Showa periods.
+hasEvidence:
+- basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+  locator: Tenjin Shinyo-ryu Jujutsu Today
+  locatorLabel: section
+  quotation: 'A third line comes down from Miyamoto Hanzo, who studied with both Inoue Keitaro and Tozawa Tokusaburo, the man who briefly taught jujutsu to Ueshiba Morihei, the founder of aikido.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+  locator: Tenjin Shinyo-ryu Jujutsu Today
+  locatorLabel: section
+  quotation: 'Miyamoto, in addition to being a jujutsu teacher, was also a well-known judoka of the late Meiji, Taisho, and early Showa periods.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M6BFF6ZQMVEPDY3GQVT05EPP
+  teacher: 01KJJAWN28MWKKSN4J02MVY1S2
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9Q
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Skoss (the Kubota line) and Buyens state it; Buyens may draw on the same tradition.
+  hasInteraction:
+  - hasEvidence:
+      - basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+        locator: Tenjin Shinyo-ryu Jujutsu Today
+        locatorLabel: section
+        quotation: 'A third line comes down from Miyamoto Hanzo, who studied with both Inoue Keitaro and Tozawa Tokusaburo, the man who briefly taught jujutsu to Ueshiba Morihei, the founder of aikido.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - uri: http://www.hontaiyoshinryu.be/images/Documents/p_schools.pdf
+        cite: BUYENS, Guy. Introduction to Traditional martial systems. 2016
+        quotation: 'Iso Mataemon Masatomo had amongst his students Inoue Keitaro and Tozawa Tokusaburo, who were the teachers of Miyamoto Hanzo).'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+- id: 01M6BFF6ZQR8WVEHQ3MV8XZMNS
+  teacher: 01KJJAWN28MWKKSN4J02MVY1VH
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9Q
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Skoss (the Kubota line) and Buyens state it; Buyens may draw on the same tradition.
+  hasInteraction:
+  - hasEvidence:
+      - basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+        locator: Tenjin Shinyo-ryu Jujutsu Today
+        locatorLabel: section
+        quotation: 'A third line comes down from Miyamoto Hanzo, who studied with both Inoue Keitaro and Tozawa Tokusaburo, the man who briefly taught jujutsu to Ueshiba Morihei, the founder of aikido.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - uri: http://www.hontaiyoshinryu.be/images/Documents/p_schools.pdf
+        cite: BUYENS, Guy. Introduction to Traditional martial systems. 2016
+        quotation: 'Iso Mataemon Masatomo had amongst his students Inoue Keitaro and Tozawa Tokusaburo, who were the teachers of Miyamoto Hanzo).'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct

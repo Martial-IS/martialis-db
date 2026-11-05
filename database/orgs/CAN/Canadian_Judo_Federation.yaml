@@ -1,0 +1,74 @@
+type: Organization
+id: 01M5H60670JVHZB14BZWTTCZVQ
+name:
+  en: Canadian Judo Federation
+aka:
+  en: CJF
+orgType: orgclass:federation
+description:
+  en: >-
+    National judo body chartered at the request of Bernard Gauthier of Hull, Quebec, following the
+    Kawaishi method; recognised by the International Judo Federation from 1952 until the Canadian
+    Kodokan Black Belt Association displaced it in 1958.
+hasAffiliationAssertion:
+  - id: 01M5H60670FSSEY89PQ49JJWJN
+    relatedOrganization: 01KJJAWN29MA64W22606R3WD83
+    affiliationRelation: affrel:member_of
+    validDuring:
+      startYear: 1952
+      endYear: 1958
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+        quotation: >-
+          Earlier, in 1949, Gauthier, ever ambitious, applied to the Canadian Government for a charter
+          to establish the Canadian Judo Federation (CJF), and in 1952 his fledgling organization was
+          officially recognized by the International Judo Federation
+        locator: '45'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+        quotation: >-
+          The CKBBA thus displaced the Canadian Judo Federation, a minor group under President Bernard
+          Gauthier of Hull, Que., that had been recognized by the IJF back in 1952.
+        locator: '107'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M5H60670QQNFWHYF1H4KP13R
+    officer: 01M5H60670JGSG14XTXV8Q1P89
+    officerTitle: President
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+        quotation: >-
+          The CKBBA thus displaced the Canadian Judo Federation, a minor group under President Bernard
+          Gauthier of Hull, Que., that had been recognized by the IJF back in 1952.
+        locator: '107'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    quotation: >-
+      The Canadian Judo Federation issued Dan diplomas under the technical authority of Mikinosuke
+      Kawaishi of France for 20 French Francs each.
+    locator: '46'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - canada

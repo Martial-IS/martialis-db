@@ -1,0 +1,46 @@
+type: Style
+id: 01M0TVMGJVP7A46XX9P8WFSBTV
+name:
+  en: Huaquan
+  zh: 华拳
+  zh-Latn: Huáquán
+aka:
+  en:
+    - Flower Fist
+styleType: styleclass:traditional
+description:
+  en: Huaquan is one of the major northern Chinese Long Fist (Changquan) martial arts, alongside Chaquan and Paochui. The name 'Hua' (华) means 'magnificent' or 'flowery,' referring to the style's emphasis on beautiful, extended movements combined with practical combat techniques. Huaquan features fully extended postures, dynamic footwork, and a balance of high and low techniques. The canonical curriculum includes ten progressively-numbered forms (Shi Lu Huaquan). Together with Chaquan, it forms the 'Cha Hua family' (查华一家) of northern martial arts. Huaquan was one of the foundational influences on modern competition wushu Changquan.
+  zh: 华拳是中国北方长拳的主要拳种之一，与查拳、炮捶并列。'华'意为华美、花哨，指该拳种强调 舒展优美的动作与实用技击相结合。华拳以舒展的姿势、灵活的步法和高低兼备的技术为特点。 经典套路为十路华拳。华拳与查拳并称'查华一家'，是现代竞技武术长拳的重要基础之一。
+foundedEvent:
+  startDate: 1000~
+  location:
+    countryCode: eucountry:CHN
+hasEvidence:
+  - uri: https://en.wikipedia.org/wiki/Huaquan
+    cite: Huaquan - Wikipedia
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3386498
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5G04XETSSQJ730SXER
+    relatedStyle: 01M0QCH9A4Y8JQ2F9C0BJGH543
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Huaquan is classified as one of the major Changquan (Long Fist) styles, alongside Chaquan and Paochui
+    hasEvidence:
+      - uri: https://en.wikipedia.org/wiki/Huaquan
+        cite: Huaquan - Wikipedia
+        quotation: Huaquan is a Chinese martial art in the changquan family
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+tags:
+  - chinese-martial-arts
+  - huaquan
+  - changquan
+  - northern
+  - long-fist

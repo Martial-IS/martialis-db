@@ -1,0 +1,136 @@
+name: Validate database
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  # Link health is slow (every URL in the corpus) and needs the network, so it
+  # is not part of the push gate - an external site dying is not a reason to
+  # fail a data change - but it must run on a schedule or dead links are never
+  # noticed at all. Weekly; see the `links` job.
+  schedule:
+    - cron: '17 6 * * 1'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v7
+
+    # The toolchain is six binaries plus java, and the runner's own python3
+    # for the Martialis Index (standard library only); there is no dependency
+    # resolution step. See the Makefile header.
+    - name: Set up Java
+      uses: actions/setup-java@v6
+      with:
+        distribution: temurin
+        java-version: '21'
+
+    # Tool versions are pinned in the Makefile, so its hash is the cache key:
+    # a version bump refreshes the cache, and a hit skips the downloads.
+    - name: Cache tools
+      id: tools
+      uses: actions/cache@v6
+      with:
+        path: tools
+        key: martialis-tools-${{ hashFiles('Makefile') }}
+
+    - name: Install tools
+      if: steps.tools.outputs.cache-hit != 'true'
+      run: make tools
+
+    # One `make` invocation, so the phony `rdf` step (and the gate before it)
+    # runs once for every target listed. validate is the blocking gate;
+    # quality is a report that never fails; reports-json runs every report
+    # query (provenance, dashboard, styles, ...) into CI artifacts; sources
+    # regenerates export/sources.csl.json and index export/martialis-index.json,
+    # which the last step checks against the committed copies.
+    - name: Validate database and build reports
+      run: make validate quality reports-json sources index
+
+    # Warn (but do not fail) if the published context has drifted from
+    # the repository copy.
+    - name: Check published context drift
+      continue-on-error: true
+      run: |
+        if curl -fsS https://martial.is/context.jsonld -o /tmp/published-context.jsonld; then
+          diff -q /tmp/published-context.jsonld schemas/context.jsonld \
+            || echo "::warning::Published context.jsonld differs from repository copy"
+        else
+          echo "::warning::Could not fetch published context.jsonld"
+        fi
+
+    - name: Upload reports
+      uses: actions/upload-artifact@v7
+      with:
+        name: validation-reports
+        path: |
+          export/reports/
+          export/quality-report.ttl
+        if-no-files-found: ignore
+
+    # The committed exports must be what the records build. The build has no
+    # date or other volatile input, so a difference means the records changed
+    # without the exports being rebuilt. CI checks; it never commits, so it
+    # never races a local push.
+    - name: Check committed exports are current
+      run: |
+        if ! git diff --exit-code --stat -- export/data.ttl export/sources.csl.json export/martialis-index.json \
+           || [ -n "$(git status --porcelain -- export/martialis-index.json)" ]; then
+          echo "::error::Committed exports are stale. Run 'make validate sources index' and commit export/."
+          exit 1
+        fi
+
+  # Dead-link monitoring. Separate from the validate job because it is slow and
+  # network-dependent, so it only runs on the weekly schedule (or on demand) and
+  # never on a push - a dead external URL must not block a data change, but it
+  # must not go unnoticed either. A failing run is the signal; link-report.json
+  # is the detail.
+  links:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v7
+
+    # links depends on rdf, so Jena runs here too; the runner's default JDK
+    # (17) is older than Jena needs.
+    - name: Set up Java
+      uses: actions/setup-java@v6
+      with:
+        distribution: temurin
+        java-version: '21'
+
+    # Tool versions are pinned in the Makefile, so its hash is the cache key:
+    # a version bump refreshes the cache, and a hit skips the downloads.
+    - name: Cache tools
+      id: tools
+      uses: actions/cache@v6
+      with:
+        path: tools
+        key: martialis-tools-${{ hashFiles('Makefile') }}
+
+    - name: Install tools
+      if: steps.tools.outputs.cache-hit != 'true'
+      run: make tools
+
+    # make links fails loudly if the query returns no URLs, if lychee is
+    # missing, or if lychee finds dead links - it will not report an empty
+    # check as a clean one.
+    - name: Check external links
+      run: make links
+
+    - name: Upload link report
+      if: always()
+      uses: actions/upload-artifact@v7
+      with:
+        name: link-report
+        path: export/link-report.json
+        if-no-files-found: ignore

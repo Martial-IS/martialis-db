@@ -1,0 +1,83 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD6J
+name:
+  pt: António Roquette de Andrade
+aka:
+  pt:
+    - António Roquette
+    - António Roquete
+    - Tona
+nationality:
+  - countryCode: eucountry:PRT
+    wikidata: wd:Q45
+birthEvent:
+  birthDate: '1955-05-26'
+  birthPlace:
+    label: Estoril
+    countryCode: eucountry:PRT
+    wikidata: wd:Q193305
+image:
+  contentUrl: https://archive.org/download/tona1980/tona1980.jpg
+  imageAttribution:
+    uri: https://fcmjudo.pt/moscovo.html
+    archiveUri: http://web.archive.org/web/20210603044242/http://fcmjudo.pt/moscovo.html
+    cite: "Diário de Lisboa, 1980, via FCM Judo"
+    informationType: infotype:secondary
+description:
+  pt: António Roquete de Andrade, conhecido como "Tona", foi um judoca português que participou nos Jogos Olímpicos de Montreal 1976. Foi aluno e sucessor de Fernando Costa Matos como treinador principal da AHBE, tendo sido promovido a 7º dan pela Federação Portuguesa de Judo em 2009.
+hasTeacherAssertion:
+  - id: 01M3YH7N5GSR9QYAM5ATNTTFRB
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TE
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Well-documented student of Fernando Costa Matos, mentioned in AHBE history as his best student who replaced him as main coach in 1977 after participating in 1976 Montreal Olympics.
+    role: teachrole:student
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1970
+          endYear: 1977
+        hasEvidence:
+          - uri: https://www.ahbe.pt/portfolio-item/judo/
+            archiveUri: http://web.archive.org/web/20240519085143/https://www.ahbe.pt/portfolio-item/judo/
+            cite: A História Do Judo na AHBE
+            quotation: O professor Costa Matos leccionou Judo na AHBE entre 1970 e 1976, altura em que, por motivos de saúde, foi substituído pelo seu melhor aluno, o professor António Roquete de Andrade, o qual assumiu definitivamente o cargo de treinador principal da AHBE em 1977, após ter participado como atleta nos Jogos Olímpicos de MONTREAL em 1976.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GS7CCESK5BBEEVGDA
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 7
+    dateConferred: '2009'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Officially awarded 7th dan by Federação Portuguesa de Judo in 2009, documented in FPJ 2019 activity report with specific quotation listing him among recipients.
+    hasEvidence:
+      - basedOnSource: 01M3M0D4PB6MX34WBF73H4PB8G
+        quotation: Os Diplomas de 7.º Dan foram atribuídos aos Mestres António Roquete de Andrade, Artur Alves da Mata, José Pinto Farias e Frygyes Torok. O de 8.º Dan ao Mestre Henrique Nunes
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - uri: https://judolandia.tripod.com/roquete.htm
+    cite: António Roquete (Judolandia, archived)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTCV
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://judomagazine.pt/2023/04/30/entrevista-fernando-costa-matos-um-velejador-navegador-de-judogi/
+    cite: 'Entrevista Fernando Costa Matos: Um Velejador, Navegador de Judogi (Judo Magazine, archived)'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q20973014
+  - dbr:António_Roquete_(judoka)

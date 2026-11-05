@@ -1,0 +1,40 @@
+type: Person
+id: 01M5HN921CNQ0GZGR3ZAPM3AH1
+name:
+  en: Mfundishi Maasi
+aka:
+  en: William Nichols
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+description:
+  en: >-
+    African American martial artist (born William Nichols, 1941), a student of James Cheatham.
+hasTeacherAssertion:
+  - id: 01M5HN921CCVRYV49MQHEJGFPH
+    teacher: 01M5HN921CNMBYQ69CPC1JKVVM
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9S
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              As Cheatham’s student Mfundishi Maasi (born William Nichols, 1941–) recalls
+            locator: '627'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: '627'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - karate

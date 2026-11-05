@@ -1,0 +1,176 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1V8
+name:
+  ja-Latn: Ueda Heitaro
+  ja: 植田平太郎
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1877-08-14'
+  birthPlace:
+    label: Takamatsu
+    wikidata: wd:Q200707
+    countryCode: eucountry:JPN
+deathEvent:
+  deathDate: '1949-07-25'
+  deathPlace:
+    label: Takamatsu
+    wikidata: wd:Q200707
+    countryCode: eucountry:JPN
+description:
+  en: 'Ueda Heitaro (1877-1949) was a Japanese kendo master, three-time participant in the Tenran shiai (imperial martial arts tournaments), and the only kenshi to be deified as a Shinto kami. He served as head instructor for the Dai Nippon Butoku Kai Kagawa branch, Kagawa police, Takamatsu prison, and several schools. He was a student of Naito Takaharu in kendo, and from 1919 studied Tosa Eishin-ryu iaijutsu under Hosokawa Yoshimasa, receiving menkyo kaiden in Muso Shinden Eishin-ryu in 1923.
+
+'
+  ja: '植田平太郎（1877-1949）は、日本の剣道家で、昭和天覧試合に3回出場し、唯一神道の神として祀られた剣士。大日本武徳会香川支部、香川県警察部、高松監獄署、高松高等商業学校、高松商業学校、高松第一中学校の剣道師範を務めた。1919年に細川義昌に師事し、1923年に無双神伝英信流抜刀術の免許皆伝を受けた。
+
+'
+hasTeacherAssertion:
+  - id: 01M3YH7N5GPZ5PVT48F7Y7RC22
+    teacher: 01KJJAWN29MA64W22606R3WD6H
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9W
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Student at the Butokukai's Bujutsu Kyoin Yoseijo in Kyoto (the school later renamed Budo Senmon Gakko), a five-month stint in 1905, under Naito Takaharu; documented in the Kenshi 24/7 article and Japanese Wikipedia.
+    role: teachrole:student
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD99
+        interactionPeriod:
+          startYear: 1905
+          endYear: 1905
+        hasEvidence:
+          - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTC1
+            quotation: >-
+              At the Yoseijo he was there as a "koshusei" or a "part-time" student there to learn kendo only (full time students also did academic study). There he studied directly under Naito Takaharu and crossed shinai with the likes of Saimura, Nakano, Oshima, and Shimatani (this was slightly before Mochida, Ogawa, Miyazaki, and Oasa, etc arrived). 
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GW82FBKJCTX72P7S4
+    teacher: 01M1BVV4WYG9J8ASAJ39CVBXQ2
+    assertedStyle: 01M325EAQGV7GGTG9GG77E9118
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        JA wiki (Ueda Heitaro): entered Hosokawa Yoshimasa in Kochi in 1919 and received the Muso Shinden Eishin-ryu menkyo kaiden from him in 1923. The kenshi247 chronology, which is not a Wikipedia derivative, gives the same 1919-1923 period and the same teacher, so the claim is not Wikipedia-only.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1919
+          endYear: 1923
+        hasEvidence:
+          - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTC0
+            quotation: 1919年（大正8年）、高知の細川義昌に入門して無双神伝英信流抜刀術（居合）を学ぶ。同門には中山博道がいた。1923年（大正12年）、細川から免許皆伝を授かった。
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTC1
+            quotation: 1919-1923 - studied Muso shinden Eishin-ryu batto-jutsu under Hosokawa Yoshimasa and received Menkyo-kaiden.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GCYRA811AE9DQJJ5J
+    rankStyle: 01M325EAQGV7GGTG9GG77E9118
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+    rankGrade: rankgrade:menkyo_kaiden
+    dateConferred: '1923'
+    grantedBy: 01M1BVV4WYG9J8ASAJ39CVBXQ2
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Received menkyo kaiden (免許皆伝) in Muso Shinden Eishin-ryu batto-jutsu from Hosokawa Yoshimasa in
+        1923, documented in the Japanese Wikipedia article and in the kenshi247 chronology (1919-1923).
+    hasEvidence:
+      - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTC0
+        quotation: 1923年（大正12年）、細川から免許皆伝を授かった
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTC1
+        quotation: 1919-1923 - studied Muso shinden Eishin-ryu batto-jutsu under Hosokawa Yoshimasa and received Menkyo-kaiden.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M3YH7N5G00RN11NM7YXK2H7S
+    honorValue: Seirensho
+    dateConferred: '1911'
+    honorType: honortype:certificate
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Awarded Seirensho (精錬証) by Dai Nippon Butoku Kai in 1911, documented in Japanese Wikipedia
+    hasEvidence:
+      - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTC0
+        quotation: 1911年（明治44年）、大日本武徳会剣道精錬証
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+    conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+  - id: 01M3YH7N5GE6Y2QM3Y1JRT9QN4
+    honorValue: Kyoshi
+    dateConferred: 1919-06
+    honorType: honortype:title
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Awarded Kyoshi (教士) by Dai Nippon Butoku Kai in June 1919, documented in Japanese Wikipedia
+    hasEvidence:
+      - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTC0
+        quotation: 1919年（大正8年）6月、大日本武徳会剣道教士
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M6EF6KKA6C1PENQY8MCK6TN1
+        quotation: 'Ueda Heitarō [...] Qualification: Taisho 8th Year'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+    conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+    honorGrade: honorgrade:shogo_kyoshi
+  - id: 01M3YH7N5G0PCD5RAG289D1KZF
+    honorValue: Hanshi
+    dateConferred: 1930-05
+    honorType: honortype:title
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Awarded Hanshi (範士) by Dai Nippon Butoku Kai in May 1930, documented in Japanese Wikipedia
+    hasEvidence:
+      - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTC0
+        quotation: 1930年（昭和5年）5月、大日本武徳会剣道範士
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+    conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+    honorGrade: honorgrade:shogo_hanshi
+  - id: 01M3YH7N5GN3Z1RCXRT52DNEBE
+    honorValue: Kyoshi
+    dateConferred: 1931-05
+    honorType: honortype:title
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Awarded Kyoshi (教士) in iaido by Dai Nippon Butoku Kai in May 1931, documented in Japanese Wikipedia
+    hasEvidence:
+      - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTC0
+        quotation: 1931年（昭和6年）5月、大日本武徳会居合術教士
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+    conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+    honorGrade: honorgrade:shogo_kyoshi
+hasEvidence:
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTC1
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTC0
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q11540688

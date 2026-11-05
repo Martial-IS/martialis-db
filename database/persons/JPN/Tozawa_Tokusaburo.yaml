@@ -1,0 +1,66 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1VH
+name:
+  ja-Latn: Tozawa Tokusaburo
+  ja: 戸沢徳三郎
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1848'
+deathEvent:
+  deathDate: '1912'
+hasTeacherAssertion:
+- id: 01M3YH7N5GDFPEH0RPKSJ5EJT7
+  teacher: 01KJJAWN28MWKKSN4J02MVY1V9
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9Q
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Well-documented student of Iso Mataemon Masatomo in Tenjin Shinyo-ryu, mentioned
+      in multiple historical sources including genealogy charts and academic references
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - uri: http://www.tenyokai.com/booklet.php
+      cite: Tenyokai booklet
+      quotation: 'GENEALOGY OF TENJIN SHINYO RYU JUJUTSU [...] 3rd Generation Iso Matauemon Masatomo [...] Tozawa Tokusaburo'
+      locator: '10'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: http://www.hontaiyoshinryu.be/images/Documents/p_schools.pdf
+      cite: BUYENS, Guy (2016) Introduction to Traditional Japanese martial systems (including a list
+        with alphabetic entries and brief descriptions of major traditional schools)
+      quotation: Iso Mataemon Masatomo had amongst his students Inoue Keitaro and Tozawa Tokusaburo, who
+        were the teachers of Miyamoto Hanzo). Morihei Ueshiba, founder of aikido, studied Tenjin Shinyo-ryu
+        with Tozawa Tokusaburo
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: Japanese jujutsu master of Tenjin Shin'yo-ryu, teacher of Morihei Ueshiba
+notes: Taught Morihei Ueshiba, founder of aikido, briefly in 1901. Student of Iso Mataemon Masatomo and
+  teacher of Miyamoto Hanzo.
+hasEvidence:
+- uri: https://aikidojournal.com/2011/08/27/tokusaburo-tozawa/
+  cite: Tokusaburo Tozawa 戸沢徳三郎 – Aikido Journal (August 27, 2011)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.google.pt/books/edition/Koryu_Bujutsu/ZNetk-lJ_O4C
+  cite: 'Koryu Bujutsu: Classical Warrior Traditions of Japan (1997)'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: http://www.tenyokai.com/booklet.php
+  cite: Tenyokai booklet
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: http://www.hontaiyoshinryu.be/images/Documents/p_schools.pdf
+  cite: BUYENS, Guy. Introduction to Traditional Martial Systems. 2016 (PDF)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct

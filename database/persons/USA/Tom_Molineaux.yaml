@@ -1,0 +1,90 @@
+type: Person
+id: 01M5JPY6FN4P37W7D677STBWFZ
+name:
+  en: Tom Molineaux
+aka:
+  en:
+    - Tom Molyneux
+    - Tom Molyneaux
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1784-03-23'
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FN7HMNPF0M32P8QRMW
+      quotation: >-
+        Thomas Molineaux (March 23, 1784 – August 4, 1818), sometimes spelled Molyneaux or Molyneux, was
+        an American bare-knuckle boxer and possibly a former slave.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1818-08-04'
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FN7HMNPF0M32P8QRMW
+      quotation: >-
+        Thomas Molineaux (March 23, 1784 – August 4, 1818), sometimes spelled Molyneaux or Molyneux, was
+        an American bare-knuckle boxer and possibly a former slave.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    American bare-knuckle boxer, possibly a former slave, who came to London in 1809. Trained by Bill
+    Richmond, he fought Tom Cribb for the English title in 1810 and 1811 and lost both times, the first
+    amid a crowd invasion and accusations of a fix.
+hasTeacherAssertion:
+  - id: 01M5JPY6FN4RAX3W7ACFD9KMEA
+    teacher: 01M5JPY6FNH86HHJBNZCHZJKA1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+    role: teachrole:coach
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only; Green and Svinth say managed.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1809
+          endYear: 1810
+        hasEvidence:
+          - basedOnSource: 01M5JPY6FN7HMNPF0M32P8QRMW
+            quotation: >-
+              On December 18, 1810, having been trained by Bill Richmond, Molineaux fought Tom Cribb at
+              Shenington Hollow in Oxfordshire for the English title.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JPY6FNVHR5ZR9J0EQ1TEPZ
+            quotation: >-
+              With Richmond as his trainer, Molineaux decisively won two fights, then challenged Cribb.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              the fact that Molyneux was black (and managed by another black, fellow African American
+              Bill Richmond, 1763–1829) added a certain edge to the occasion.
+            locator: '230'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5JPY6FN7HMNPF0M32P8QRMW
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q1073208
+tags:
+  - boxing
+  - prizefighting
+  - united-states
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/3/3b/Tom_Molineaux_%28%27Molineaux%27%29_by_and_published_by_Robert_Dighton.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Tom_Molineaux_(%27Molineaux%27)_by_and_published_by_Robert_Dighton.jpg
+    cite: "Robert Dighton, Wikimedia Commons"
+    informationType: infotype:secondary

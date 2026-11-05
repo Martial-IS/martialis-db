@@ -1,0 +1,78 @@
+type: Person
+id: 01M6BHSAXWJRA0RQCK222BZP9C
+name:
+  ja-Latn: Yagyu Sekishusai Munetoshi
+  ja: 柳生石舟斎宗厳
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1527'
+  hasEvidence:
+  - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+    locator: 'Yagyu Shinkage-ryu Hyoho'
+    locatorLabel: section
+    quotation: 'Founder: Kamiizumi Ise-no-Kami Nobutsuna, 1508-1578;the Yagyu line was founded by Yagyu Sekishusai Munetoshi, 1527-1606'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1606'
+  hasEvidence:
+  - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+    locator: 'Yagyu Shinkage-ryu Hyoho'
+    locatorLabel: section
+    quotation: 'Founder: Kamiizumi Ise-no-Kami Nobutsuna, 1508-1578;the Yagyu line was founded by Yagyu Sekishusai Munetoshi, 1527-1606'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: >-
+    Founder of the Yagyu line of Shinkage-ryu, a student of Kamiizumi Nobutsuna and second head of the school.
+hasEvidence:
+- basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+  locator: 'Yagyu Shinkage-ryu Hyoho'
+  locatorLabel: section
+  quotation: 'Founder: Kamiizumi Ise-no-Kami Nobutsuna, 1508-1578;the Yagyu line was founded by Yagyu Sekishusai Munetoshi, 1527-1606'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M6BHSAXWT300MA17MW5Z0F1Y
+  quotation: '信綱に師事した柳生石舟斎宗厳は「無刀の位」を開悟して第二世を継いだ。'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M6BHSAXWAPT5N6B0X6JSP9GP
+  teacher: 01M6BHSAXW3N93ZE1E1CFMMED0
+  assertedStyle: 01M6BHSAXWENNPX8DGGYB1ZDC2
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The Field Guide, Armstrong and the school’s own page; the book’s two chapters count as one source, the page is the school’s tradition.
+  hasInteraction:
+  - hasEvidence:
+      - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+        locator: 'Yagyu Shinkage-ryu Hyoho'
+        locatorLabel: section
+        quotation: 'Yagyu Sekishusai began to train under Kamiizumi after being soundly defeated by one of his students.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M6BHSAXW6PNZ7V6HME8P8KN5
+        locator: 'Batto and Iaido'
+        locatorLabel: section
+        quotation: 'For example, in Shinkage-ryu (founded by Kamiizumi Ise-no-Kami) and Yagyu Shinkage-ryu (founded by Kamiizumi’s student Yagyu Munetoshi), there is either no batto, or it is done as a minor part of the overall kenjutsu training.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M6BHSAXWT300MA17MW5Z0F1Y
+        quotation: '信綱に師事した柳生石舟斎宗厳は「無刀の位」を開悟して第二世を継いだ。'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+sameAs:
+- wd:Q724287
+notes: >-
+  His given name 宗厳 is read Munetoshi (Skoss, Armstrong) or Muneyoshi.

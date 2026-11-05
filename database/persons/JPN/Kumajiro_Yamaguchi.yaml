@@ -1,0 +1,75 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1SK
+name:
+  ja-Latn: Kumajiro Yamaguchi
+  ja: 山口熊次郎
+description:
+  en: Katori Shinto-ryu practitioner who served as Kyoju (instructor) and helped lead the school after
+    the death of the 18th Soke Iizasa Morisada. One of seven direct students of Morisada.
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthPlace:
+    countryCode: eucountry:JPN
+    wikidata: wd:Q17
+deathEvent:
+  deathPlace:
+    countryCode: eucountry:JPN
+    wikidata: wd:Q17
+hasTeacherAssertion:
+- id: 01M3YH7N5G80DHB6B883HA8HV1
+  teacher: 01KJJAWN28MWKKSN4J02MVY1SM
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9T
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Listed as one of seven direct students of Iizasa Morisada in German blog article
+      about Katori Shinto-ryu history
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDA0
+      cite: 'Exkurs: Die moderne Geschichte der Katori Shintô ryû (Ein Leben für die Schwertkunst)'
+      quotation: >-
+        Iisasa Morisada (sieben direkte Schüler): Yamaguchi Kumajirô Eikan Mairaku / Tamai Saidô / Noguchi Jizaemon / Ono Heishichirô Moriichi / Shiina Ichizô / Hongû Toranosuke / Kaneko Shinoshô [...] Hayashi Saiichirô – Hayashi Yazaemon – Ôtake Risuke
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KJJAWN29MA64W22606R3WDA5
+  cite: Tenshinsho-den Katori Shinto Ryu - Shinbukan Dojo
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://inoshishikukan.com/budo/katori/woman-of-katori-shinto-ryu
+  archiveUri: http://web.archive.org/web/20250418073820/https://inoshishikukan.com/budo/katori/woman-of-katori-shinto-ryu
+  cite: Women of Katori Shintō-ryū
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://shinbukan-katorishintoryu.org/?page_id=927&lang=ja
+  cite: Shinbukan Dojo Japanese page
+  quotation: >-
+    天真正伝香取神道流
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasHonorAssertion:
+- id: 01M3YH7N5GY0QF3HY6PQ9W2BBG
+  honorValue: Kyoju
+  honorType: honortype:title
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Mentioned as Kyoju who helped lead Katori Shinto-ryu after the 18th Soke's death
+      in 'Women of Katori Shintō-ryū' article
+  hasEvidence:
+  - uri: https://inoshishikukan.com/budo/katori/woman-of-katori-shinto-ryu
+    archiveUri: http://web.archive.org/web/20250418073820/https://inoshishikukan.com/budo/katori/woman-of-katori-shinto-ryu
+    cite: Women of Katori Shintō-ryū
+    quotation: >-
+      In the official history of our school, the 18th Soke Iizasa Morisada died suddenly, without a male successor. For a time, under these conditions, the school was then led by the then Shihan with Yamaguchi Kumajiro as Kyoju
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct

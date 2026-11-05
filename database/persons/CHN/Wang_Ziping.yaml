@@ -1,0 +1,100 @@
+type: Person
+id: 01M0QSZQA5PZGFNCSW2BFW8RZB
+name:
+  en: Wang Ziping
+  zh: 王子平
+aka:
+  en:
+    - Yong'an (永安)
+nationality:
+  - countryCode: eucountry:CHN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1881'
+  birthPlace:
+    label: Cangzhou
+    countryCode: eucountry:CHN
+    wikidata: wd:Q1364476
+deathEvent:
+  deathDate: '1973'
+  deathPlace:
+    label: Shanghai
+    countryCode: eucountry:CHN
+    wikidata: wd:Q8686
+hasTeacherAssertion:
+  - id: 01M3YH7N5GJA3VQQFV84FA2PKF
+    teacher: 01M0QZ9H4W5FQD8EGQG7V4HYJR
+    assertedStyle: 01M0QCH9A486Y0EP2962ACKDAM
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: EN and ZH Wikipedia state Wang Ziping studied Cha Quan under Yang Hongxiu (杨鸿修), progenitor of the Yang-style branch; Wikipedia only
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M0QSZQA6EGP8YG3RKCKHMV8D
+            quotation: 'Teachers Chaquan: Yang Hongxiu'
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M3JB095VY9W0ZX6X14MDHDKH
+            quotation: 曾拜滑拳拳师沙宝兴、查拳门杰出人物杨鸿修等为师
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M3YH7N5GDNF0TH2GMCTGZT9M
+    honorValue: Vice Chairman, Chinese Wushu Association
+    dateConferred: '1958'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: English and Chinese Wikipedia, two independent-language editions, both directly state Wang Ziping served as Vice Chairman of the Chinese Wushu Association in its first two terms (1958-1964, 1964-1966)
+    hasEvidence:
+      - basedOnSource: 01M0QSZQA6EGP8YG3RKCKHMV8D
+        quotation: >-
+          He served as the leader of the Shaolin kung fu division of the Martial Arts Institute in 1928 and was also the vice chairman of the Chinese Wushu Association.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M3JB095VY9W0ZX6X14MDHDKH
+        quotation: 曾任第一届中国武术协会副主席
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GWWVVWT0C6P0NHCS3
+    honorValue: Head of Shaolin Division, Central Guoshu Institute
+    dateConferred: '1928'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: English Wikipedia is the only source that names the Shaolin Division specifically and the 1928 date; Chinese Wikipedia only corroborates a later Vice Director role at the institute, not this specific appointment, so this remains single-sourced
+    hasEvidence:
+      - basedOnSource: 01M0QSZQA6EGP8YG3RKCKHMV8D
+        quotation: >-
+          He served as the leader of the Shaolin kung fu division of the Martial Arts Institute in 1928
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M0QSZQA6EGP8YG3RKCKHMV8D
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q701786
+tags:
+  - chinese-martial-arts
+  - chaquan
+  - hui
+  - shuaijiao
+  - central-guoshu-institute
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/en/e/e8/Wang_Zi_Ping2.jpg
+  rights: mediarights:in_copyright
+  imageAttribution:
+    uri: https://en.wikipedia.org/wiki/File:Wang_Zi_Ping2.jpg
+    cite: "English Wikipedia, non-free file"
+    informationType: infotype:secondary
+description:
+  en: Chinese Hui Muslim martial artist, Cha Quan master, and renowned traumatologist. Born in Cangzhou, Hebei. Learned Cha Quan under Yang Hongxiu, the progenitor of the Yang-style branch of Cha Quan, and Huaquan under Sha Baosing. In 1928, appointed first Head of the Shaolin Division at the newly established Central Guoshu Institute in Nanjing. Later served as Vice Director of the Institute. Vice Chairman of the Chinese Wushu Association (1958-1966). Chief Referee of the First National Wushu Exhibition (1959). Renowned for defeating foreign strongmen including the Russian Kang Tai'er in 1919. Authored 'Twenty Fist Methods' and 'Twenty Postures to Dispel Illness and Lengthen Life' (1958). Also a renowned bone-setter in Shanghai. One of the 'Five Northern Tigers' sent south in 1929. Died in 1973.

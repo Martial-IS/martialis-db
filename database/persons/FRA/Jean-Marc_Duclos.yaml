@@ -1,0 +1,253 @@
+type: Person
+id: 01KZ6D9E8Q0V5Y8Y88RMM4W7G6
+name:
+  fr: Jean-Marc Duclos
+  pt: Jean-Marc Duclos
+nationality:
+- countryCode: eucountry:PRT
+  wikidata: wd:Q45
+- countryCode: eucountry:FRA
+  wikidata: wd:Q142
+birthEvent:
+  birthDate: '1954-10-19'
+  birthPlace:
+    label: Rouen
+    countryCode: eucountry:FRA
+    wikidata: wd:Q30974
+  hasEvidence:
+  - basedOnSource: 01KZ6KZZG7XX70ZQMQJYWA27B7
+    quotation: Jean-Marc Duclos nasceu 19 Outubro de 1954 em Rouen, nacionalidade portuguesa e francesa.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://static.wixstatic.com/media/8267ad_c112279fc9c7459ebe156e1958091a2f.png
+  imageAttribution:
+    basedOnSource: 01KZ6KZZG7XX70ZQMQJYWA27B7
+    cite: "Aikido Marcial Dôjo Clube"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+- id: 01M3YH7N5G7PG1ZR0620VZE8YJ
+  teacher: 01KJJAWN29MA64W22606R3WD7D
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Duclos states in his Surya interview that he began judo 'more or less in 1964'
+      with Stobbaerts, and that Stobbaerts was his master from 1964 to 1998; judo was the brief early
+      phase before aikido took over in 1968.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KZ6D9E8Q3F78F13SS130W679
+    interactionPeriod:
+      startYear: 1964
+      endYear: 1968
+    hasEvidence:
+    - basedOnSource: 01KZ6DKWJVPE75F5Y89HN5AYNS
+      quotation: Primeiro comecei pelo Judo, creio que mais ou menos em 1964, com o Mestre Stobbaerts.
+        [...] fazia Judo com o Mestre Stobbaerts. Ele foi meu Mestre de 1964 até 1998, portanto, durante
+        34 anos.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZ6KZZG7XX70ZQMQJYWA27B7
+      quotation: Começou pelo Judo, creio que mais ou menos em com o Mestre Stobbaerts e com um
+        dos seus alunos, Mestre Hassan Iddedir.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5G5Z0SRZ3K9FE01NAS
+  teacher: 01KJJAWN29MA64W22606R3WD7D
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Duclos began aikido in 1968 in Casablanca with Stobbaerts, continued under Obélianne
+      in Casablanca 1971-73 during Stobbaerts' absence, then resumed with Stobbaerts in Portugal from
+      1974 until 1998; Stobbaerts awarded him 5th dan. The 34-year master relationship (1964-1998) spans
+      both arts.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KZ6D9E8Q3F78F13SS130W679
+    interactionPeriod:
+      startYear: 1968
+      endYear: 1971
+    hasEvidence:
+    - basedOnSource: 01KZ6DKWJVPE75F5Y89HN5AYNS
+      quotation: um estágio de Aikido do Mestre Nobuyoshi Tamura, em Casablanca, Marrocos, onde eu vivia
+        nessa altura, quando de repente Mestre Stobbaerts me interpelou [...] Isto aconteceu em 1968.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD8P
+    interactionPeriod:
+      startYear: 1974
+      endYear: 1998
+    hasEvidence:
+    - basedOnSource: 01KZ6DKWJVPE75F5Y89HN5AYNS
+      quotation: Vim definitivamente para Portugal em Setembro de 1974. [...] Mestre Georges Stobbaerts
+        e Jean-Marc Duclos, Budokan de Portugal, Cascais, 1975.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+      quotation: O Diretor Técnico actual é o Prof Jean-Marc Duclos que foi aluno do Mestre Stobbaerts
+        de 1968 até 1998.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5G56SDDKFX0BRZ7T61
+  teacher: 01KZ6DR4E3V711CA5TM2H1666S
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Duclos states in his Surya interview that he studied judo with both Stobbaerts
+      and Stobbaerts' student Hassan Iddedir; the photo caption identifies Iddedir as Duclos' master.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KZ6D9E8Q3F78F13SS130W679
+    interactionPeriod:
+      startYear: 1970
+    hasEvidence:
+    - basedOnSource: 01KZ6DKWJVPE75F5Y89HN5AYNS
+      quotation: Mestre Hassan Iddedir e o seu aluno Jean-Marc Duclos, Casablanca, Marrocos, 1970(?)
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GBZDDCK1SEGNC9MCB
+  teacher: 01KZ6KZZG7HW9MSGTTWR1HBMBJ
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Duclos states in his Surya interview that he studied two or three years in Casablanca
+      with Gérard Obélianne, a student of Stobbaerts, during Stobbaerts' absence in Portugal; the aikidomdc
+      profile dates this 1971-1973.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KZ6D9E8Q3F78F13SS130W679
+    interactionPeriod:
+      startYear: 1971
+      endYear: 1973
+    hasEvidence:
+    - basedOnSource: 01KZ6DKWJVPE75F5Y89HN5AYNS
+      quotation: Entretanto estudei 2 ou 3 anos em Casablanca, quando da ausência de Mestre Stobbaerts
+        (já em Portugal), com um aluno dele o Prof. Gérard Obélianne
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZ6KZZG7XX70ZQMQJYWA27B7
+      quotation: Foi aluno do Prof Gérard Obélianne entre 1971 e 1973.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5G1MMF8YWGSN7F91JK
+  teacher: 01KZ6KZZG7DK3DDAYW3T05NZQ0
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9W
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Duclos states in his Surya interview that Claude Durix was his master in kendo
+      and iaido; a photograph of his 1st kyu kendo examination dates to 1972, placing the training around
+      1970-1972.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1970
+      endYear: 1972
+    hasEvidence:
+    - basedOnSource: 01KZ6DKWJVPE75F5Y89HN5AYNS
+      quotation: O Mestre Claude Durix foi o meu Mestre em Kendo e Iaido. Ainda hoje, tenho em boa memoria,
+        a notável qualidade das aulas que ele ministrava. [...] Exame para 1º Kyu Kendo - Said Ideddir e
+        Jean-Marc Duclos, Kendo-no-Kata da Zen Nippon Kendo Reimei, 1972.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GP1KD741B56DTVAP1
+  teacher: 01KZ6KZZG76Q52KMPKJRPG8001
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: The aikidomdc profile and the FPA history both state Duclos became a student
+      of Mitsugi Saotome in 2000 (the aikidomdc page gives the exact date of 22 August 2000).
+  role: teachrole:student
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 2000
+    hasEvidence:
+    - basedOnSource: 01KZ6KZZG7XX70ZQMQJYWA27B7
+      quotation: Aluno do Mestre Mitsugi Saotome desde 22 Agosto de 2000.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+      quotation: No ano 2000, tornou-se aluno de Mitsugi Saotome Shihan, até hoje.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GS0N7F1Z2AZ6VQZ3T
+  rankStyle: 01KJJAWN29MA64W22606R3WD9R
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 5
+  grantedBy: 01KJJAWN29MA64W22606R3WD7D
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Duclos states in his own interview that he received 5th dan in aikido from Georges
+      Stobbaerts.
+  hasEvidence:
+  - basedOnSource: 01KZ6DKWJVPE75F5Y89HN5AYNS
+    quotation: No passado, recebi o 5º dan em Aikido dado pelo Mestre Georges Stobbaerts Hanshi.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ6KZZG7XX70ZQMQJYWA27B7
+    quotation: 5º dan em Aikido
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ6DKWJVPE75F5Y89HN5AYNS
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ6KZZG7XX70ZQMQJYWA27B7
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+description:
+  en: French-Portuguese aikido teacher, student of Georges Stobbaerts from 1964 to 1998 (judo briefly
+    from 1964, aikido from 1968) and technical director of the Associação Portuguesa de Aikido e Disciplinas
+    Associadas (APADA). He received 5th dan from Stobbaerts. He studied aikido with Gérard Obélianne in
+    Casablanca during 1971-73 and kendo and iaido under Claude Durix. Since 2000 he has studied under
+    Mitsugi Saotome Shihan. He was the principal mentor of the FPA's history of aikido in Portugal and
+    held leadership roles in the APADA, the CDAM and the FPADA.
+  pt: Professor de Aikido luso-francês, aluno de Georges Stobbaerts de 1964 a 1998 (Judo brevemente desde
+    1964, Aikido desde 1968) e diretor técnico da Associação Portuguesa de Aikido e Disciplinas Associadas
+    (APADA). Recebeu o 5º dan das mãos de Stobbaerts. Estudou Aikido com Gérard Obélianne em Casablanca
+    entre 1971 e 1973 e Kendo e Iaido com Claude Durix. Desde 2000 estuda com o Shihan Mitsugi Saotome.
+    Foi o principal mentor da história do Aikido em Portugal publicada pela FPA e ocupou cargos de liderança
+    na APADA, na CDAM e na FPADA.
+notes: The 34 years Duclos cites (1964-1998) is the overall span of Stobbaerts as his master across both
+  judo and aikido, not a judo-training span; judo was dropped early when aikido took over in 1968. Duclos
+  moved definitively to Portugal in September 1974, having visited in summer 1972 and Easter 1973. He
+  was living in Casablanca when he began practice. His APADA/CDAM/FPADA leadership tenures are recorded
+  as officers entries on those organizations' files. He also practised hatha yoga with Ana Oliveira and
+  Maria Augusta de Vasconcelos and kendo/iaido under Claude Durix. He taught aikido as a monitor at the
+  École Normale Hébraïque of Casablanca around 1971/72 and substituted for Gérard Obellianne there for
+  a few months (dafina.net forum post, 2008).
+tags:
+- aikido
+- judo
+- kendo
+- apada
+- portugal
+- france

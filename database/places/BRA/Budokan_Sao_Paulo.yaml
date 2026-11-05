@@ -1,0 +1,36 @@
+type: Place
+id: 01KJJAWN29MA64W22606R3WD8X
+name:
+  pt: Budokan São Paulo
+aka:
+  en: Ogawa Budokan
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: São Paulo
+      countryCode: eucountry:BRA
+      wikidata: wd:Q174
+hasAffiliationAssertion:
+  - id: 01M6CB5Y64VXQD0AJSFA8A0CP6
+    relatedOrganization: 01KJJAWN29MA64W22606R3WD7Z
+    affiliationRelation: affrel:branch_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Budokan dojo in São Paulo is the academy of the Budokan organization itself - the twin-entity case (like the Kodokan), not a separately-governed member.
+    notes: The Budokan's own dojo; this Place is how the Budokan Organization occupies physical space.
+    hasEvidence:
+      - basedOnSource: 01KJJAWN29MA64W22606R3WDAF
+        quotation: >-
+          Em entrevista com Hatiro Ogawa, filho de Matsuo Ogawa e neto de Ryuzo Ogawa, excelente competidor peso pesado, hoje responsável pela Academia Budokan
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M55AF57KBF194D4DNCZCGTZ4
+    locator: '13'
+    locatorLabel: page
+    quotation: Em 1959 contatou seu mestre e sensei, que lhe havia promovido à faixa preta sho-dan, Ryuzo Ogawa, de São Paulo
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct

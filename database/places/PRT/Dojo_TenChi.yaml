@@ -1,0 +1,95 @@
+type: Place
+id: 01KZ6D9E8QXY57CGDEAP39W4QF
+name:
+  en: Dojo TenChi
+  pt: Dojo Ten-Chi
+aka:
+  pt: Ten-Chi
+  en: TenChi Cultural Centre
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Sintra
+      countryCode: eucountry:PRT
+      wikidata: wd:Q190187
+foundedEvent:
+  startDate: '1981'
+  founder:
+    - 01KJJAWN29MA64W22606R3WD7D
+  hasEvidence:
+    - basedOnSource: 01KZ6D9E8QSENEZ3VQSXK7KX1E
+      quotation: 1978 - Várzea de Sintra - Prática em Tenchi no local onde foi mais tarde construído o actual Dojo [...] Estágio no Dojo Tenchi - Início dos trabalhos de construção do Dojo 1981.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KXTSQXW5H2G5FMTP0RTYT0X8
+      quotation: In 1978 he founded the project TenChi in the region of Sintra in Portugal. This cultural centre located in the nature was dedicated to the practice and the research in various forms of arts and movement.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M3YH7N5GTCF1GBDJ3999AEVD
+    relatedOrganization: 01KZ6D9E8QBFBAMY0SCWFM1FYJ
+    affiliationRelation: affrel:branch_of
+    validDuring:
+      startYear: 1981
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The FPA's own history describes the Dojo TenChi as the seat (headquarters dojo) of the TenChi International school founded by Stobbaerts; no independent source corroborates it
+    hasEvidence:
+      - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+        quotation: O Dojo Tenchi foi um exemplo no panorama internacional [...] à pessoa talentosa que dava alma à organização de que era Sede, o "Tenchi International".
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M4R9845WB5BX45YGWQMJBHPH
+    instructor: 01KJJAWN29MA64W22606R3WD7D
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1981
+      endYear: 2014
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The FPA lineage history states he founded the dojo; his interview dates the start
+        of its construction to 1981.
+    hasEvidence:
+      - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+        quotation: Fixa a sua residência em Portugal a partir de 1971 e funda mais tarde o Dojo Tenchi, com duas salas de prática, uma de 500 m2 e outra de 120 m2, integradas num jardim de 2,5 hectares.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZ6D9E8QSENEZ3VQSXK7KX1E
+        quotation: >-
+          Foto 14 - Estágio no Dojo Tenchi - Início dos trabalhos de construção do Dojo 1981.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:indirect
+description:
+  en: The Dojo TenChi was the cultural centre and dojo built by Georges Stobbaerts and his students in the Várzea of Sintra, Portugal, starting in 1981. It comprised two practice halls (500 m² and 120 m²) within a 2.5 hectare garden, and was the seat of the TenChi International school. It organized conferences and seminars with great masters from India and Japan on science, philosophy, art and the budo, alongside regular aikido classes and the Tenchi Tessen.
+  pt: O Dojo Ten-Chi foi o centro cultural e dojo construído por Georges Stobbaerts e pelos seus alunos na Várzea de Sintra, Portugal, a partir de 1981. Compreendia duas salas de prática (500 m² e 120 m²) integradas num jardim de 2,5 hectares, e foi a sede da escola TenChi International. Organizava conferências e estágios com grandes mestres da Índia e do Japão sobre ciência, filosofia, arte e o Budo, além de aulas regulares de Aikido e do Tenchi Tessen.
+hasEvidence:
+  - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KXTSQXW5H2G5FMTP0RTYT0X8
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ6D9E8QSENEZ3VQSXK7KX1E
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KXTSQXW5H2G5FMTP0RTYT0X9
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - aikido
+  - tenchi
+  - tenchi-tessen
+  - sintra
+  - portugal

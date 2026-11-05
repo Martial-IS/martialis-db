@@ -1,0 +1,57 @@
+type: Person
+id: 01M5HPEDHZG1XKNFDX3Q440DBX
+name:
+  en: Rainer Fischer
+nationality:
+  - countryCode: eucountry:CAN
+    wikidata: wd:Q16
+description:
+  en: >-
+    Canadian judoka from Kitchener-Waterloo who trained in Japan at the Kodokan and Meiji University in
+    the early 1970s and under Hiroshi Nakamura; Pan-American Games gold medallist (1975) and Olympian
+    (1976).
+notes: >-
+  Leyshon (p. 68): his other sensei was John Hatashita (no record yet).
+hasTeacherAssertion:
+  - id: 01M5HPEDHZ9KMHV5DXVC7V1J4E
+    teacher: 01M5H5TCKZW50M5WFGCD2KCNR1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              Sensei: John Hatashita, Hiroshi Nakamura
+            locator: '68'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              And there were many others, Brad Farrow, Wayne Erdman, Rainer Fischer, to name a few. In
+              the early 1970s these athletes were also drawn to Nakamura’s dojo
+            locator: '132'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    quotation: >-
+      He worked out at the Kodokan in the mornings and Meiji University in the evenings about three hours
+      at a time.
+    locator: '68'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q7284810
+tags:
+  - judo
+  - canada

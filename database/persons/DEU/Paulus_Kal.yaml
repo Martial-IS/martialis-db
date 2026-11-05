@@ -1,0 +1,70 @@
+type: Person
+id: 01M5JRHX02XNYM8X3CPVXH73RJ
+name:
+  en: Paulus Kal
+nationality:
+  - countryCode: eucountry:DEU
+    wikidata: wd:Q183
+description:
+  en: >-
+    Fifteenth-century German fencing master of the Liechtenauer tradition, a student of Hans Stettner von
+    Mörnsheim, who served as Schirrmeister at three courts and commanded men on campaign. His illustrated
+    treatise (about 1460–1470) is the first to illustrate parts of Liechtenauer's Recital, and its
+    introduction lists the seventeen masters of the Society of Liechtenauer.
+hasTeacherAssertion:
+  - id: 01M5JRHX02RQNEETESHCSVDBQW
+    teacher: 01M5JRHX02DSA0CXKR583DQVB0
+    assertedStyle: 01M5JRHX026EPJNQVEJDCKRNJP
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        His own account only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JRHX02GYBYT8S2JERX5J0E
+            quotation: >-
+              He wrote that he studied martial arts under Hans Stettner von Mörnsheim, and was an
+              initiate of the tradition of Johannes Liechtenauer.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JRHX02FCWT71TH3J8H4WCG
+            quotation: >-
+              Master Stettner, he goes on to note, taught a great many students including Kal himself.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JRHX02NDGJQM5H34ZMD53H
+            quotation: >-
+              According to his own testimony, he was the student of one Hans Stettner, who was in turn an
+              initiate of the tradition of Johannes Liechtenauer.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      In his Fechtbuch (Fencing Manual, ca. 1460), master Paulus Kal included an image that speaks to
+      the requirements of a good swordsman.
+    locator: '354'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5JRHX02NDGJQM5H34ZMD53H
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q970084
+tags:
+  - fencing
+  - kunst-des-fechtens
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/a/af/Paulus_Kal.png
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Paulus_Kal.png
+    cite: "Paulus Kal, Wikimedia Commons"
+    informationType: infotype:secondary

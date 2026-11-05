@@ -1,0 +1,272 @@
+type: Person
+id: 01KYZ31HT3D978KY5GPZAGKV5G
+name:
+  en: Rolls Gracie
+  pt: Rolls Gracie
+nationality:
+- countryCode: eucountry:BRA
+  wikidata: wd:Q155
+birthEvent:
+  birthDate: '1951-03-28'
+  birthPlace:
+    label: Rio de Janeiro
+    countryCode: eucountry:BRA
+    wikidata: wd:Q8678
+  hasEvidence:
+  - basedOnSource: 01KYZ31HT308QY9B28V9ESZFF9
+    quotation: 'Rolls Gracie (Portuguese: [''ɡɾejsi]; 1951–1982) was a Brazilian martial artist. He was
+      a prominent member of the Gracie family known for their founding of Brazilian jiu-jitsu and considered
+      by some the family''s best ever fighter.'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1982-06-06'
+  deathPlace:
+    label: Resende
+    countryCode: eucountry:BRA
+    wikidata: wd:Q913390
+  hasEvidence:
+  - basedOnSource: 01KYZ31HT308QY9B28V9ESZFF9
+    quotation: He died in a hang-gliding accident in 1982.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYZ3NPBHWRRGG5PTCBBAANQP
+    quotation: >-
+      His tragic death came on the 6th of June, 1983 due to a paragliding accident at the tender age of 31
+    informationType: infotype:secondary
+    supports: false
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M5H40EZXTYC2MNCJGCBA7T1P
+  teacher: 01KYQB8J2NN336ZJWGQW3YH95E
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Two independent eyewitness accounts.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+      quotation: >-
+        Yes, Rolls had his father-Uncle Hélio as his teacher, but then he started to attend harder
+        training sessions under Carlson, his older brother, who really shaped him and shaped his
+        competitiveness.
+      locator: Interview with Romero Cavalcanti (after chapter 7)
+      locatorLabel: section
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+      quotation: >-
+        But all of us from the old days know that Rolls went over to train under Carlson after losing
+        to Cícero Sobrinho (Barradas student) and Carlson called him over and said: “If you spend your
+        whole day training self-defense with Uncle Hélio, you will never be good at jiu-jitsu!” And
+        Rolls started to visit Carlson more often, and eventually he ended up becoming a direct student
+        of Carlson.
+      locator: Interview with Orlando Saraiva (after chapter 7)
+      locatorLabel: section
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GK1E26EC4KPJQYS0T
+  teacher: 01KJJAWN28MWKKSN4J02MVY1S5
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      The family's official biography states Rolls was raised for the most part by his uncle Helio
+      Gracie; two other sources corroborate that Helio taught him jiu-jitsu from before he could walk.
+      Period is approximate: birth (1951) through his departure for Carlson Gracie's Copacabana academy
+      around 1970
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1951
+      endYear: 1970
+    hasEvidence:
+    - basedOnSource: 01KYZ3NPBHWRRGG5PTCBBAANQP
+      quotation: He was the son of Gracie Jiu Jitsu founder Carlos Gracie, although he was raised for
+        the most part by his uncle, Helio Gracie, at Carlos' request
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KYZ5625KXD72JW0SXPPC68BN
+      quotation: Hélio começou a ensinar jiu-jitsu a Rolls antes do menino aprender a andar. Aos 12, o
+        garoto ajudava o tio nas aulas na Academia Gracie.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KYZ5625KMZ8HTMW4GZ1RMBR0
+      quotation: Desde muito novo, antes mesmo de começar a andar Hélio ensinava Jiu Jitsu ao pequeno
+        Rolls, aos 12 anos de idade o garoto já ajudava nas aulas ministradas por seu tio, na Academia
+        Gracie.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KYZ5625KBB93KH70AMXFFSC0
+      quotation: Filho de Carlos criado por Helio Gracie
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GJTNRFFN249P4534E
+  teacher: 01M1KSJ12QYNKK5V7N1TWK2YZH
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Wikipedia lists Georges Mehdi among Rolls Gracie's teachers.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KYZ31HT308QY9B28V9ESZFF9
+      quotation: Teachers Helio Gracie, Georges Mehdi, Bob Anderson
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GYM56Y7M7V1HPC5SN
+  teacher: 01M1KSJ12Q3TKT84JQAH32W7DE
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Wikipedia lists Bob Anderson among Rolls Gracie's teachers.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KYZ31HT308QY9B28V9ESZFF9
+      quotation: Teachers Helio Gracie, Georges Mehdi, Bob Anderson
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5G5J56YP58YRPN9186
+  teacher: 01KYZFG5QVSHJ51P4SB023SZS3
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: The official Rolls Gracie biography states his first judo cross-training was
+      with Osvaldo Alves; BJJ Heroes and the OnTheMat interview corroborate that Osvaldo introduced the
+      Gracies, including Rolls, to judo
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KYZ3NPBHWRRGG5PTCBBAANQP
+      quotation: >-
+        He was the first of the Gracie's to actively seek competitions in Freestyle, Greco Roman and Sambo wrestling as well as Judo. First cross training was with Osvaldo Alves, training with the Judoka in Brazil
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KYZFG5QVZQ022FB8M70P2ZNR
+      quotation: >-
+        The first one to accept to cross train with Alves was Reyson and soon he was followed by a young Rolls Gracie. Rolls adapted extremely well to the Judo game
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KYZFG5QV3KVA94WEJ35NZAE7
+      quotation: After Reyson, came Rolles Gracie; who surprised everybody. He adapted well to judo and
+        became University and State of Rio de Janeiro Judo champion.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://images.squarespace-cdn.com/content/v1/53ac28d7e4b0dbfd605d9637/1403798283133-9PZAE893E9EWQDW2TZAK/image-asset.jpeg
+  imageAttribution:
+    uri: https://www.rollsgracie.com/rolls-gracie-bio
+    cite: "RollsGracie.com"
+    informationType: infotype:primary
+description:
+  en: 'Brazilian martial artist and member of the Gracie family, considered by some the family''s best
+    ever fighter. He trained under Helio Gracie and graduated a generation of jiu-jitsu black belts, including
+    Carlos Gracie Jr., Rickson Gracie, and the "Famous Five". He died in a hang-gliding accident in 1982.
+
+    '
+  pt: 'Artista marcial brasileiro e membro da família Gracie, considerado por alguns o melhor lutador
+    da família. Treinou sob Hélio Gracie e graduou uma geração de faixas pretas de jiu-jitsu, incluindo
+    Carlos Gracie Jr., Rickson Gracie e os "Cinco Famosos". Morreu num acidente de asa-delta em 1982.
+
+    '
+hasRankAssertion:
+- id: 01M3YH7N5GY0T6HBM10B37RPEG
+  rankStyle: 01KJJAWN29MA64W22606R3WD9J
+  rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+  rankGrade: rankgrade:bjj_black
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Black-belt status is well-attested; the specific promotion date is not documented.
+  hasEvidence:
+  - basedOnSource: 01KYZ3NPBHWRRGG5PTCBBAANQP
+    quotation: Rolls graduated 10 black belts in his life time.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYZ31HT308QY9B28V9ESZFF9
+    quotation: only six men hold the high honor of being Rolls Gracie Black Belts
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYZ5625K4WRVWRK35T0TGYR0
+    quotation: He was a black belt.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYZ5625KBB93KH70AMXFFSC0
+    quotation: As lições de Rolls Gracie, o faixa-preta que morreu jovem e mudou a história do Jiu-Jitsu
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYZ5625KMZ8HTMW4GZ1RMBR0
+    quotation: Aos 16 anos já era faixa preta
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYZ5625KXD72JW0SXPPC68BN
+    quotation: Aos 16 anos, faixa preta e com inglês fluente
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KYZ31HT308QY9B28V9ESZFF9
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KYZ3NPBHWRRGG5PTCBBAANQP
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KYZ5625K4WRVWRK35T0TGYR0
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KYZ5625KBB93KH70AMXFFSC0
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KYZ5625KMZ8HTMW4GZ1RMBR0
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KYZ5625KXD72JW0SXPPC68BN
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KYZFG5QVZQ022FB8M70P2ZNR
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KYZFG5QV3KVA94WEJ35NZAE7
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q10364190
+tags:
+- brazilian-jiu-jitsu
+- gracie-family
+- brazilian
+- mma

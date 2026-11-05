@@ -1,0 +1,96 @@
+type: Person
+id: 01KYD80169RPXQEB84TD2X3JW5
+name:
+  en: Leung Yee-tai
+  zh: 梁二娣
+  zh-Latn: Liang Erti
+nationality:
+- countryCode: eucountry:CHN
+  wikidata: wd:Q148
+description:
+  en: Leung Yee-tai was a Chinese Wing Chun practitioner of the late Qing Dynasty and a member of the
+    Red Boat Opera Company, known for his expertise with the long pole. He exchanged pole techniques with
+    Wong Wah-bo for Wing Chun knowledge and together they taught Leung Jan.
+hasTeacherAssertion:
+- id: 01M3YH7N5GZHTMYR0GNCGAVXX7
+  teacher: 01M1KR4J6EYBHT5Q2S31H8CYVK
+  assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:doubtful
+    assessedBy: agent:FSM
+    confidenceRationale: Lineage tradition places Leung Yee-tai as a student of Leung Lan-kwai, but the
+      early Red Boat Opera lineage is semi-legendary with no contemporary documentation
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KYD80165F7SZ8EACYZQSE717
+      cite: Branches of Wing Chun (Wikipedia EN)
+      quotation: "Leung Lan-kwai of the Red Boat Opera Company (although other versions of this legend state that he was a scholar and herbalist), who passed it on to Wong Wa-bo and Leung Yee-tai, both of the Red Boat Opera"
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasHistoricityAssertion:
+- id: 01M69SBF1KC8TQ2ARW7RR7FJ1P
+  historicity: hist:historical
+  hasConfidence:
+    confidenceLevel: conflevel:possible
+    assessedBy: agent:FSM
+    confidenceRationale: Named only in the lineage's own account; the source verifies the later figures,
+      not this one, but accepts that opera performers taught Leung Jan.
+  hasEvidence:
+  - basedOnSource: 01M5AT1XCZD4BEWPJZKBQSSSDQ
+    quotation: >-
+      Leung Jan, Chan Wah Shun and Ip Man are all known historical figures whose existence can be
+      independently verified.
+    informationType: infotype:secondary
+    supports: false
+    evidenceType: evidencetype:indirect
+  - basedOnSource: 01M5AT1XCZD4BEWPJZKBQSSSDQ
+    quotation: >-
+      It seems reasonable to assume that the preceding creation myth is correct in asserting that a set
+      of practices and techniques were transmitted to Leung Jan by retired opera performers following
+      the conclusion of the Red Turban Revolt.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:indirect
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    quotation: >-
+      The problem with these assertions is that there is no evidence, independent of the oral folklore
+      of the Wing Chun community, which attests of the existence of any of these individuals.
+    locator: '171'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: false
+    evidenceType: evidencetype:indirect
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    quotation: >-
+      For all of these reasons we consider it at least plausible that Wong Wah Bo and Leung Yee Tai
+      contributed to the development of Wing Chun in Foshan.
+    locator: '171'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:indirect
+hasEvidence:
+- basedOnSource: 01KYD80168CV9F0PS3EK3ZYBT8
+  cite: Leung Yee-tai (Wikipedia EN)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KYD80165F7SZ8EACYZQSE717
+  cite: Branches of Wing Chun (Wikipedia EN)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+  locator: 171-172
+  locatorLabel: page
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q6534592
+tags:
+- wing-chun
+- red-boat-opera
+- chinese-martial-arts

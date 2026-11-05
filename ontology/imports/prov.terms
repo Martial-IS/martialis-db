@@ -1,0 +1,10 @@
+# PROV-O terms the Martialis ontology and pipeline/rules use. `make imports`
+# extracts a STAR module of ontology/imports/prov-o.ttl for exactly these.
+# prov:specializationOf is not here on purpose: PROV-O declares it both an
+# annotation and an object property, which OWL 2 DL forbids, so
+# martialis:specializationOf maps to it (skos:closeMatch) instead.
+http://www.w3.org/ns/prov#Entity
+http://www.w3.org/ns/prov#Agent
+http://www.w3.org/ns/prov#wasDerivedFrom
+http://www.w3.org/ns/prov#hadPrimarySource
+http://www.w3.org/ns/prov#wasAttributedTo

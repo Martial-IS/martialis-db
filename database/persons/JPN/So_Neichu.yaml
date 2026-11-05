@@ -1,0 +1,37 @@
+type: Person
+id: 01M1KR4J6ERTADQBQC0YWRR5Z0
+name:
+  en: Nei-chu So
+nationality:
+- countryCode: eucountry:KOR
+notes: A senior student of Chojun Miyagi (Goju-ryu's founder) and a fellow Korean from Oyama's native
+  province, who taught Mas Oyama Goju-ryu for several years - see database/persons/KOR/Mas_Oyama.yaml.
+  Possibly the same person Masahiko Kimura names only as 'Master So' (also a Goju-ryu teacher, per Kimura's
+  autobiography - database/persons/JPN/Kimura_Masahiko.yaml), but that identification is not confirmed
+  by either source and is left unlinked pending verification.
+hasTeacherAssertion:
+- id: 01M5H4V349FXES37VN4SQ9KXMS
+  teacher: 01M5H4V349WJ4XZ2R5CTH9KP72
+  assertedStyle: 01KZC8S2GEGBJJT9RKV5M0HJ3N
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Single source.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+      quotation: >-
+        Nei-Chu So, one of Yamaguchi’s early students in the Ritsumeikan University karate club,
+        confirmed that Yamaguchi was the originator of jiyu-kumite
+      locator: '140'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KYT8RS8VNQYJZM2XGV105GA7
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+  quotation: "Oyama then studied Gōjū-ryū karate for several years with Nei-chu So [...] who was a fellow Korean from Oyama's native province and a senior student of the system's founder, Chojun Miyagi."

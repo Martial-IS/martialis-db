@@ -1,0 +1,122 @@
+type: Place
+id: 01M6A2A5YS7KPFM0AKG4N1TEP1
+name:
+  pt: Centro de Cultura Física Regional
+aka:
+  pt: CCFR
+placeType: placeclass:academy
+hasSite:
+  - location:
+      label: Tororó, Salvador, Bahia
+      countryCode: eucountry:BRA
+      wikidata: wd:Q36947
+    sitePeriod:
+      startYear: 1937
+    hasEvidence:
+      - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+        quotation: >-
+          Decriminalization came soon in the form of a certificate that a teaching inspector issued
+          on 9 July 1937 to Mestre Bimba, acknowledging him as a teacher of physical education and
+          registering his academy in the Tororó neighbourhood with the Bahian Department of
+          Education, Health and Social Security.
+        locator: '137'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - location:
+      label: Roça do Lobo, Salvador, Bahia
+      countryCode: eucountry:BRA
+      wikidata: wd:Q36947
+    hasEvidence:
+      - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+        quotation: >-
+          His academy moved several times, from the Roça do Lobo during the 1940s to a central
+          location near Pelourinho Square in the 1960s.
+        locator: '136'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - location:
+      label: Pelourinho, Salvador, Bahia
+      countryCode: eucountry:BRA
+      wikidata: wd:Q36947
+    hasEvidence:
+      - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+        quotation: >-
+          His academy moved several times, from the Roça do Lobo during the 1940s to a central
+          location near Pelourinho Square in the 1960s.
+        locator: '136'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  founder:
+    - 01M5H4AFG2ZHJ3H82H0DPJQJ1V
+  hasEvidence:
+    - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+      quotation: >-
+        Bimba and his ‘academy’, the Centro de Cultura Física Regional, or CCFR
+      locator: '136'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M6A2A5YXCZWC54VFVCFE1FKZ
+    instructor: 01M5H4AFG2ZHJ3H82H0DPJQJ1V
+    instructorCapacity: instrcap:head_instructor
+    instructorStyle: 01M6A2A5YR5THAAVA3A61JRZ1H
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+        quotation: >-
+          Bimba and his ‘academy’, the Centro de Cultura Física Regional, or CCFR
+        locator: '136'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M6A2A5YYQ1AQ8EXTBEF1SQAD
+    instructor: 01M6A2A5ZGCZT0VXYJE1P1SYA4
+    instructorCapacity: instrcap:technical_director
+    instructorStyle: 01M6A2A5YR5THAAVA3A61JRZ1H
+    instructorPeriod:
+      startYear: 1954
+      endYear: 1955
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+        quotation: >-
+          He became one of the mestre ’s best students, partaking in the exhibition for President
+          Vargas in 1953, and became technical director of Bimba’s academy in 1954. Yet in 1955 he
+          decided to open his own school called Senavox
+        locator: '192'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Mestre Bimba's capoeira Regional academy in Salvador. Registered with the Bahian Department of
+    Education in 1937; it moved several times.
+notes: >-
+  The 1940s and 1960s sites are dated by decade only (Assunção, p. 136). Graduates received a blue
+  silk scarf and a medal (p. 135).
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    locator: '131-140'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - capoeira

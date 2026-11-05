@@ -1,0 +1,57 @@
+type: Place
+id: 01M37HHSSMEKVHRSH02YD0AVSP
+name:
+  en: Butokuden
+  ja-Latn: Butokuden
+  ja: 武徳殿
+placeType: placeclass:dojo
+hasSite:
+  - address: Heian Shrine precinct, Kyoto
+    location:
+      label: Kyoto
+      countryCode: eucountry:JPN
+      wikidata: wd:Q34600
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: A proposal was agreed upon to reconstruct Emperor Kammu's ancient Hall of Martial Virtue (Butokuden) near the Heian Shrine for use as their main dojo
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1895'
+  hasEvidence:
+    - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+      quotation: A proposal was agreed upon to reconstruct Emperor Kammu's ancient Hall of Martial Virtue (Butokuden) near the Heian Shrine for use as their main dojo
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M3YH7N5GG789PZXNQGGT7T80
+    relatedOrganization: 01KJJAWN29MA64W22606R3WD7Y
+    affiliationRelation: affrel:branch_of
+    validDuring:
+      startYear: 1895
+      endYear: 1946
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Built by the Butokukai as its own main dojo, so the venue is the society's operating facility rather than a member of it. The period ends with the society's dissolution.
+    notes: The end year is the Butokukai's own dissolution in 1946, not a date Bennett gives for the hall.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: A proposal was agreed upon to reconstruct Emperor Kammu's ancient Hall of Martial Virtue (Butokuden) near the Heian Shrine for use as their main dojo
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: Main dojo of the Dai Nippon Butoku Kai in Kyoto, a reconstruction of Emperor Kammu's Hall of Martial Virtue built for the society's founding in 1895 and the venue of its annual Butokusai festival. Branch Butokuden were later built elsewhere, including one at the Nikkō Tōshōgū in 1930.
+hasEvidence:
+  - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+    quotation: In 1895, the Butokukai founded the celebrated Martial Virtue Festival, an annual martial arts tournament that continues today
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - kendo
+  - butokukai
+  - kyoto

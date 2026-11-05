@@ -1,0 +1,58 @@
+type: Place
+id: 01M5FEYQE72RPNG2BZEAQAFQMK
+name:
+  en: Super Tiger Gym
+  ja: スーパータイガージム
+aka:
+  en:
+    - Tiger Gym
+placeType: placeclass:gym
+hasSite:
+  - location:
+      label: Sangenjaya, Setagaya, Tokyo
+      countryCode: eucountry:JPN
+      wikidata: wd:Q11357338
+    hasEvidence:
+      - basedOnSource: 01M5FEYQE7RHWVY3PN8HSM9MCF
+        quotation: >-
+          そうしたら三軒茶屋にあらためてジムができたんです。
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - location:
+      label: Futako-Tamagawa, Setagaya, Tokyo
+      countryCode: eucountry:JPN
+      wikidata: wd:Q11371454
+    hasEvidence:
+      - basedOnSource: 01M5FEYQE7RHWVY3PN8HSM9MCF
+        quotation: >-
+          最初は二子多摩川[sic]にできたんですが、入るか入らないか迷ってるうちにその場所にはなくなっちゃって。
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1984'
+  founder:
+    - 01KYDN1Q2THXHBSXHCS0PH4TEV
+  hasEvidence:
+    - basedOnSource: 01M5CJ39K8S3T7533CRAAHA7HD
+      quotation: >-
+        In 1984 he opened the Tiger Gym, which is now known as the Super Tiger Gym.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    The gym Satoru Sayama opened in 1984 after leaving professional wrestling, where Shooto was developed.
+    It first opened in Futako-Tamagawa and then reopened in Sangenjaya.
+hasEvidence:
+  - basedOnSource: 01M5CJ39K8S3T7533CRAAHA7HD
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5FEYQE7RHWVY3PN8HSM9MCF
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - shooto

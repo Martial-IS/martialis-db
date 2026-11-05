@@ -1,0 +1,8 @@
+PREFIX martialis: <https://w3id.org/martialis/ontology#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?assertion (COUNT(?a) AS ?count) WHERE {
+  ?class rdfs:subClassOf* martialis:Assertion .
+  ?a a ?class .
+  BIND(STRAFTER(STR(?class), "ontology#") AS ?assertion)
+  FILTER(?assertion != "Assertion")
+} GROUP BY ?assertion ORDER BY DESC(?count)

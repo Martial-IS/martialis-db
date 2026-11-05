@@ -1,0 +1,44 @@
+type: Event
+id: 01M19SYYS39CCMB0A3AHREYPXR
+name:
+  en: Seattle Theatre Judo Exhibition
+  ja: シアトル劇場柔道演武会
+aka:
+  en: First Kodokan Judo Exhibition in North America
+eventType: eventclass:demonstration
+eventDate: '1903-10-17'
+superEvent: 01M19SYYS3JXJSD3JGQ89RG6SM
+location:
+  label: Seattle Theatre, Seattle
+  countryCode: eucountry:USA
+about:
+  - 01KJJAWN29MA64W22606R3WD9B
+hasParticipation:
+  - id: 01M3YH7N5FF7D17CCNC82JZ3HY
+    participant: 01KJJAWN29MA64W22606R3WD7Q
+    participationRole: eventrole:demonstrator
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Svinth article names Yamashita and his assistant Kawaguchi as the demonstrators at the Seattle Theatre on 17 October 1903.
+    hasEvidence:
+      - uri: https://ejmas.com/jcs/jcsart_svinth1_1000.htm
+        cite: Joseph R. Svinth, "Professor Yamashita Goes to Washington", Journal of Combative Sport, Oct 2000
+        quotation: On Saturday, October 17, 1903 Yamashita and Kawaguchi gave a judo exhibition at the Seattle Theatre.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: 'A private judo exhibition at the Seattle Theatre, hired by Sam Hill between shows: Yamashita Yoshiaki and his assistant Saburo Kawaguchi demonstrated throws and holds for Hill''s guests - Mary Hill, Senator Russell Alger, and several Seattle sports writers. So far as is known, this was the first time Kodokan judo was shown to a non-Japanese audience in North America. It was followed by an informal bout in which Yamashita handled C.E. Radclyffe, a 210-pound English amateur boxer, after the professional wrestlers Hill had hoped to match failed to appear.'
+  ja: 1903年10月17日、シアトル劇場で行われた私的な柔道演武会。サミュエル・ヒルの主催で、山下義韶と助手の 川口三郎が投技や固技を披露した。観客はメアリー・ヒル、ラッセル・アルジャー上院議員、シアトルの スポーツ記者ら。知られる限り、北米で非日本人観客に講道館柔道が披露された最初の機会とされる。この後、 プロレスラーが現れなかったため代役として招かれたアマチュアボクサーのC.E.ラドクリフ（210ポンド）と 山下が非公式の立ち合いを行った。
+notes: The exhibition itself was prearranged technique; sportswriter Ed Hughes of the Seattle Times later recalled it as "exhibition stuff purely." The bout with Radclyffe was Hill's way of testing whether Yamashita's art was real - Radclyffe's own account (via Percy Longhurst, Superman Magazine, May 1936) describes being thrown "three or four heavy tosses" and conceding. Kawaguchi does not yet have a Person record in the database, so he is not listed as a participant.
+hasEvidence:
+  - uri: https://ejmas.com/jcs/jcsart_svinth1_1000.htm
+    cite: Joseph R. Svinth, "Professor Yamashita Goes to Washington", Journal of Combative Sport, Oct 2000
+    quotation: So far as I know, this was the first time Kodokan judo was shown to a non-Japanese audience in North America.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - kodokan
+  - seattle

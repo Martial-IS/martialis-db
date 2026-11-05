@@ -1,0 +1,129 @@
+type: Person
+id: 01KYQ4SCN933DE1RDHARY7VGHX
+name:
+  en: Gozo Shioda
+  ja-Latn: Shioda Gōzō
+  ja: 塩田剛三
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1915-09-09'
+  birthPlace:
+    label: Shinjuku, Tokyo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q179646
+deathEvent:
+  deathDate: '1994-07-17'
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/8/82/Gozo_Shioda.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Gozo_Shioda.jpg
+    cite: "Chente moreno, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: Japanese aikido master who founded the Yoshinkan style of aikido. One of Morihei Ueshiba's most senior students, having trained as an uchi-deshi from 1932. Known for developing a structured, practical approach to aikido that was adopted by the Tokyo Metropolitan Police. Held the rank of 9th dan Aikikai and 10th dan IMAF.
+hasTeacherAssertion:
+  - id: 01M3YH7N5G1NS5NAJW9WPEC9QC
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TV
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:uchi_deshi
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Independent sources state it.
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD86
+        interactionPeriod:
+          startYear: 1932
+          endYear: 1940
+        hasEvidence:
+          - uri: https://en.wikipedia.org/wiki/Gozo_Shioda
+            archiveUri: https://en.wikipedia.org/w/index.php?title=Gozo_Shioda&oldid=1340830175
+            cite: Gozo Shioda - Wikipedia EN
+            quotation: Shioda began training under the founder of aikido, Morihei Ueshiba, in 1932. His training as an uchi-deshi (live-in student) under Ueshiba continued for eight years.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G3Z7FXM179K2R3FN7DC8Y5
+            quotation: >-
+              Entered the KOBUKAN DOJO in 1932 where he studied for eight years under Morihei UESHIBA through 1941.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GPGN2QBWGZGYNTFA2
+    rankStyle: 01KJJAWN29MA64W22606R3WD9R
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 9
+    dateConferred: '1961'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Promoted to 9th dan by Morihei Ueshiba in 1961 per Wikipedia and Yoshinkan official site
+    hasEvidence:
+      - uri: https://en.wikipedia.org/wiki/Gozo_Shioda
+        archiveUri: https://en.wikipedia.org/w/index.php?title=Gozo_Shioda&oldid=1340830175
+        cite: Gozo Shioda - Wikipedia EN
+        quotation: In 1961, Ueshiba promoted Shioda to the rank of 9th dan.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G7SAS6EDK1J7EWF1J
+    rankStyle: 01KJJAWN29MA64W22606R3WD9R
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 10
+    conferredBy: 01KYND67158B7TAT2KS5M3MK3K
+    dateConferred: '1985'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Awarded 10th dan by IMAF in 1985 per Wikipedia
+    hasEvidence:
+      - uri: https://en.wikipedia.org/wiki/Gozo_Shioda
+        archiveUri: https://en.wikipedia.org/w/index.php?title=Gozo_Shioda&oldid=1340830175
+        cite: Gozo Shioda - Wikipedia EN
+        quotation: followed by the rank of 10th dan from IMAF in 1985
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - uri: https://en.wikipedia.org/wiki/Gozo_Shioda
+    archiveUri: https://en.wikipedia.org/w/index.php?title=Gozo_Shioda&oldid=1340830175
+    cite: Gozo Shioda - Wikipedia EN
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://yoshinkan.net/en/about/shioda
+    cite: Yoshinkan - Master Gozo Shioda
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q706726
+tags:
+  - aikido
+  - yoshinkan
+  - founder
+hasHonorAssertion:
+  - id: 01M3YH7N5G8STVNVJPH87SXA7F
+    honorValue: Hanshi
+    honorType: honortype:title
+    honorGrade: honorgrade:shogo_hanshi
+    conferredBy: 01KYND67158B7TAT2KS5M3MK3K
+    dateConferred: '1983'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Awarded Hanshi rank by IMAF in 1983 per Wikipedia
+    hasEvidence:
+      - uri: https://en.wikipedia.org/wiki/Gozo_Shioda
+        archiveUri: https://en.wikipedia.org/w/index.php?title=Gozo_Shioda&oldid=1340830175
+        cite: Gozo Shioda - Wikipedia EN
+        quotation: In 1983, Shioda received the 'Hanshi' rank from the Kokusai Budoin-International Martial Arts Federation
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct

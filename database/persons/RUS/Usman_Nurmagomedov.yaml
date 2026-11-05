@@ -1,0 +1,85 @@
+type: Person
+id: 01M6EHHZQ63AEK1QNKPXJV0Z7F
+name:
+  en: Usman Nurmagomedov
+  ru: Усман Магомеднабиевич Нурмагомедов
+nationality:
+- countryCode: eucountry:RUS
+  wikidata: wd:Q159
+birthEvent:
+  birthDate: '1998-04-17'
+  birthPlace:
+    label: Kizilyurt
+    countryCode: eucountry:RUS
+    wikidata: wd:Q145799
+  hasEvidence:
+  - basedOnSource: 01M6EHHZQ6HVWKSFRDGD7FW7YT
+    quotation: >-
+      Usman Nurmagomedov was born on 17 April 1998 in the city of Kizilyurt, Republic of Dagestan, Russia.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/5/52/UsmanNurmagomedov.png
+  rights: mediarights:cc-by-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:UsmanNurmagomedov.png
+    cite: "Новости Дагестан, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    Russian mixed martial artist; former Bellator lightweight champion.
+hasTeacherAssertion:
+- id: 01M6EHHZQ6HR71Y2KJB5767FXF
+  teacher: 01M6EHHZQ630H4W9GG5BW8S1R1
+  assertedStyle: 01KYSS3B587WR241FHHW19X24T
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Sport-Express list and Wikipedia; neither is Abdulmanap's own account, and they may share a
+      source
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M6EHHZQ6JZ9SCQW9JQP6H5CW
+      quotation: >-
+        Тагир Уланбеков, Сайгид Изагахмаев, Умар Нурмагомедов, Усман Нурмагомедов, Абубакар Нурмагомедов.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6EHHZQ6HVWKSFRDGD7FW7YT
+      quotation: >-
+        After moving to Makhachkala, Usman began training with his uncle, Abdulmanap Nurmagomedov at the Eagles MMA camp.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M6EHHZQ6FEJDS9HJ999P6J6W
+  teacher: 01KZQ7BS7KRNM0NPD97WPGG2P2
+  assertedStyle: 01KYSS3B587WR241FHHW19X24T
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Single source
+  hasInteraction:
+  - interactionPlace: 01KZQ7BS7KJ444KWAH72XGN2NT
+    hasEvidence:
+    - basedOnSource: 01M6EHHZQ6F607YSKAMN369E69
+      quotation: >-
+        Mendez is now coach to UFC lightweight champ Islam Makhachev (26-1), Bellator lightweight champ Usman Nurmagomedov (17-0) and UFC bantamweight contender Umar Nurmagomedov (13-0)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M6EHHZQ6HVWKSFRDGD7FW7YT
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q65157751
+tags:
+- mma
+- combat-sambo
+- aka

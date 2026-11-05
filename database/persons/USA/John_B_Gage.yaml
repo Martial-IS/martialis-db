@@ -1,0 +1,190 @@
+type: Person
+id: 01KYND6715KKTV91SDS3EXFMGM
+name:
+  en: John B. Gage
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+description:
+  en: Senior Instructor (Shihan) of the International Nihon Jujutsu Association (INJA). Nihon Jujutsu
+    Kyoshi 7 Dan and Judo Renshi 4 Dan (Kokusai Budoin IMAF), Judo 3 Dan (All Japan Judo Federation).
+    Member of US Embassy Judo Club since 1986, Program Director 2011-2015. Director of Kokusai Budoin
+    IMAF Headquarters Japan. Editor of Gendo Newsletter and the INJA websites.
+hasTeacherAssertion:
+- id: 01M3YH7N5GHFQYM5TX5MCD33QD
+  teacher: 01KYND6715JYA1K07KHXH3FNG6
+  assertedStyle: 01KYND6715TD9KDJCJTYW3WDGX
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Joined US Embassy Judo Club under Sato's direction in 1986; Sato 'accepted me
+      as his student' per Gage's own account; later served as Sato's assistant at international seminars
+  hasInteraction:
+  - interactionPlace: 01KYND6715CCR0GCA9FDDPVFNX
+    interactionPeriod:
+      startYear: 1986
+      endYear: 2011
+    hasEvidence:
+    - uri: https://www.japanesemartialartscenter.com/community/highlights/gage-sensei
+      cite: 'JMAC - I Am JMAC: John Gage Sensei'
+      quotation: Fortunately, Sato Sensei accepted me as his student
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://www.japanesemartialartscenter.com/instructors/gage
+      cite: JMAC - John Gage Sensei
+      quotation: Upon arriving in Tokyo, Japan in 1986, Gage-Sensei joined the US Embassy Judo Club, under
+        the direction of Sato Shizuya Sensei.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://www.japanesemartialartscenter.com/instructors/gage
+      cite: JMAC - John Gage Sensei
+      quotation: traveled around the world as an assistant to Sato Sensei at martial arts seminars
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5G2N1K65KEK1ZJ772G
+  teacher: 01KYQ4SCN933DE1RDHARY7VGHX
+  assertedStyle: 01KYQ4SCN9Q1R9X8CGDYHG7230
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Studied Yoshinkan aikido at Yoshinkan Honbu Dojo under Shioda Gozo from 1986-1992,
+      as documented on JMAC instructor profile
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1986
+      endYear: 1992
+    hasEvidence:
+    - uri: https://www.japanesemartialartscenter.com/instructors/gage
+      cite: JMAC - John Gage Sensei
+      quotation: He also studied extensively at the Aikido Yoshinkan Honbu Dojo, under the direction of
+        the famed Shioda Gozo Sensei (1915–1994), Aikido Meijin 10th Dan.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GCKQKWHPJGBYMA41N
+  rankStyle: 01KYND6715TD9KDJCJTYW3WDGX
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 7
+  conferredBy: 01KYND67158B7TAT2KS5M3MK3K
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Listed on INJA website
+  hasEvidence:
+  - basedOnSource: 01M3KPWDBRD2VMHSKN50ZT7KRK
+    quotation: Nihon Jujutsu Kyoshi 7 Dan – Kokusai Budoin, IMAF
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5GFB56FCVHY1E02MJR
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 4
+  conferredBy: 01KYND67158B7TAT2KS5M3MK3K
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Listed on INJA website
+  hasEvidence:
+  - basedOnSource: 01M3KPWDBRD2VMHSKN50ZT7KRK
+    quotation: Judo Renshi 4 Dan – Kokusai Budoin, IMAF
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5GVQ73H7H49WE7CR25
+  rankStyle: 01KJJAWN29MA64W22606R3WD9R
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 2
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Listed on JMAC instructor page as 2nd Dan, Shodokan Aikido Federation
+  hasEvidence:
+  - uri: https://www.japanesemartialartscenter.com/instructors/gage
+    cite: JMAC - John Gage Sensei
+    quotation: 2nd Dan, Shodokan Aikido Federation
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5G94SHZRN25006AMJE
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 3
+  conferredBy: 01KYND67158B7TAT2KS5M3MK3K
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Listed on INJA website as awarded by All Japan Judo Federation
+  hasEvidence:
+  - basedOnSource: 01M3KPWDBRD2VMHSKN50ZT7KRK
+    quotation: Judo 3 Dan – All Japan Judo Federation
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M3KPWDBRD2VMHSKN50ZT7KRK
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.japanesemartialartscenter.com/instructors/gage
+  cite: JMAC - John Gage Sensei
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.japanesemartialartscenter.com/community/highlights/gage-sensei
+  cite: 'JMAC - I Am JMAC: John Gage Sensei'
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.japanesemartialartscenter.com/instructors/gage
+  cite: JMAC - John Gage Sensei
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- shihan
+- nihon-jujutsu
+- imaf
+hasHonorAssertion:
+- id: 01M3YH7N5GDVFA5J3J5ZGNTX3P
+  honorValue: Kyoshi 7 Dan
+  honorType: honortype:title
+  honorGrade: honorgrade:shogo_kyoshi
+  conferredBy: 01KYND67158B7TAT2KS5M3MK3K
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Listed on INJA website
+  hasEvidence:
+  - basedOnSource: 01M3KPWDBRD2VMHSKN50ZT7KRK
+    quotation: >-
+      Nihon Jujutsu Kyoshi 7 Dan – Kokusai Budoin, IMAF
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5GA81DP1FDSBE592GA
+  honorValue: Renshi 4 Dan
+  honorType: honortype:title
+  honorGrade: honorgrade:shogo_renshi
+  conferredBy: 01KYND67158B7TAT2KS5M3MK3K
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Listed on INJA website
+  hasEvidence:
+  - basedOnSource: 01M3KPWDBRD2VMHSKN50ZT7KRK
+    quotation: >-
+      Judo Renshi 4 Dan – Kokusai Budoin, IMAF
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct

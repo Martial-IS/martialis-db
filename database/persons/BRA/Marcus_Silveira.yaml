@@ -1,0 +1,82 @@
+type: Person
+id: 01M6C1R005KP4PTAMTHXAGQT0P
+name:
+  en: Marcus Silveira
+aka:
+  en:
+    - Conan
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+birthEvent:
+  birthDate: '1964-12-17'
+  hasEvidence:
+    - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+      quotation: 'Born: 12/17/64'
+      locator: '424'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Brazilian jiu-jitsu black belt under Carlson Gracie and mixed martial artist; co-founder of
+    American Top Team.
+hasTeacherAssertion:
+  - id: 01M6C1R0053DCM1BJQGXASNR0X
+    teacher: 01KYQB8J2NN336ZJWGQW3YH95E
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              The relative ease with which he put away Silveira, a black belt under Carlson Gracie, meant Sakuraba’s submission skills were for real.
+            locator: '375'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              Carlson Gracie gave him the nickname when he was still just a kid.
+            locator: '424'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasRankAssertion:
+  - id: 01M6C1R00506Y1Y6GMDYYGNGWD
+    rankStyle: 01KJJAWN29MA64W22606R3WD9J
+    rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+    rankGrade: rankgrade:bjj_black
+    grantedBy: 01KYQB8J2NN336ZJWGQW3YH95E
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+        quotation: >-
+          The relative ease with which he put away Silveira, a black belt under Carlson Gracie, meant Sakuraba’s submission skills were for real.
+        locator: '375'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+    quotation: >-
+      Silveira was one of the co-founders of the American Top Team, home of some of the world’s best fighters like Mike Brown and Thiago Alves.
+    locator: '425'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - brazilian-jiu-jitsu
+  - mma

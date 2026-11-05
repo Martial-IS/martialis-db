@@ -1,0 +1,85 @@
+type: Person
+id: 01M5JPY6FN66E7JTEV7HCW8TG3
+name:
+  en: George Taylor
+aka:
+  en:
+    - George the Barber
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/8/86/Engraving_of_George_Taylor%2C_boxer.jpg
+  rights: mediarights:cc-by-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Engraving_of_George_Taylor,_boxer.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    English prizefighter known as George the Barber, a student of James Figg, in whose booth he fought
+    from 1719. He took over Figg's booth in Tottenham Court Road after Figg's death in 1734 and is
+    counted champion of England for three years after Tom Pipes.
+notes: >-
+  Green and Svinth give his birth year as 1716, which does not fit fighting in Figg's booth from 1719
+  (en Wikipedia); no birth date recorded.
+hasTeacherAssertion:
+  - id: 01M5JPY6FNARRA70D15CYVKZFQ
+    teacher: 01M5JPY6FNBQZ36WZ4QDD1ZST8
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1719
+        hasEvidence:
+          - basedOnSource: 01M5JPY6FN3D2WC32AXDCWK8RD
+            quotation: >-
+              His mentor was James Figg, whose boxing booth Taylor had fought in since 1719.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JPY6FNB90T86PJZ87EVMAA
+            quotation: >-
+              His former student George Taylor took over Figg's business after his death.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M5JPY6FN4BWDWP3VC0MYKMTH
+    honorValue: Champion of England
+    honorType: honortype:title
+    dateConferred: '1735'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Upon Figg’s retirement in 1730, Tom Pipes (1702–?) was deemed champion of England. Pipes
+          remained champion for five years until George “The Barber” Taylor (1716–?) replaced him for
+          the next three years.
+        locator: '228'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JPY6FN3D2WC32AXDCWK8RD
+    quotation: >-
+      Taylor took over Figg's "Great Booth" in Tottenham Court Road after Figg's death in 1734.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q114068735
+tags:
+  - boxing
+  - prizefighting
+  - united-kingdom

@@ -1,0 +1,48 @@
+type: Person
+id: 01M69YKDGMFJH4Y8QSA0D0X12K
+name:
+  en: Hawkins Cheung
+  yue: 張學健
+  zh: 張學健
+  zh-Latn: Zhang Xuejian
+description:
+  en: >-
+    Wing Chun teacher, student of Ip Man from 1956 in Hong Kong and friend of Bruce Lee. He left
+    Hong Kong for Australia in the late 1950s; his 1991-1992 Inside Kung Fu articles describe Ip
+    Man's school.
+notes: >-
+  Judkins and Nielson pp. 211, 239-246. Much of his instruction came from senior students (p.
+  244).
+hasTeacherAssertion:
+  - id: 01M69YKDH4M49MFSRE08A7T88Y
+    teacher: 01KYD5XMNM4DH8KAWBC1TE9BDJ
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1956
+        hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              In 1956, a year of important developments, the seemingly nomadic Ip Man moved his school to a
+              new location on Lee Tat Street in Yau Ma Tei. This was the actual gym that greeted such notable
+              new students as Bruce Lee and Hawkins Cheung.
+            locator: '243'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: '211, 239-246'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - wing-chun
+  - chinese-martial-arts

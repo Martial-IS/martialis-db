@@ -1,0 +1,61 @@
+type: Style
+id: 01M5JWHXPXVN2GWPT338C6HCAW
+name:
+  en: Ancient Greek boxing
+  el: Πυγμαχία
+aka:
+  en:
+    - Pygmachia
+styleType: styleclass:traditional
+hasStyleRelationAssertion:
+  - id: 01M5JWHXPXZBTWCEHK91FTG196
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9N
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Both sources describe it as boxing; neither states a link to the modern sport.
+    hasEvidence:
+      - basedOnSource: 01M5JWHXPXE9SG9DR59ARWYZKV
+        quotation: >-
+          Ancient Greek boxing (Greek: πυγμαχία pygmachia, "fist fighting") dates back to at least the 8th
+          century BC (Homer's Iliad), and was practiced in a variety of social contexts in different Greek
+          city-states.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Greek boxing is best described by an inscription of an ancient writer, “A boxer’s victory is
+          gained in blood” (Kaibel 1878, no. 942).
+        locator: '235'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+description:
+  en: >-
+    Boxing of ancient Greece, known from Minoan and Mycenaean art and Homer, an Olympic event from 688
+    BCE. Bouts had no rounds and were won by knockout or submission; boxers wrapped their hands in
+    leather thongs, later in harder "sharp thongs", from which the Roman caestus grew.
+notes: >-
+  Recorded as a variant of Boxing for the practitioner roll-up only: modern boxing descends from English
+  pugilism, not from Greek boxing.
+hasEvidence:
+  - basedOnSource: 01M5JWHXPXE9SG9DR59ARWYZKV
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q756884
+tags:
+  - boxing
+  - ancient
+  - greece
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/e/ed/Boxers_Panathenaic_Met_06.1021.51.jpg
+    rights: mediarights:cc-by-2.5
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:Boxers_Panathenaic_Met_06.1021.51.jpg
+      cite: "Marie-Lan Nguyen, Wikimedia Commons"
+      informationType: infotype:secondary

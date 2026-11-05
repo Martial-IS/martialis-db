@@ -1,0 +1,70 @@
+type: Person
+id: 01KZ6D9E8QBGBFJN5QFH46MEQT
+name:
+  fr: Daniel Laurent
+nationality:
+- countryCode: eucountry:FRA
+  wikidata: wd:Q142
+hasTeacherAssertion:
+- id: 01M3YH7N5G41VB83YBWED56VQN
+  teacher: 01KJJAWN29MA64W22606R3WD7D
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Laurent trained aikido for about four years (reaching 2nd kyu) at the Budo Club du Maroc under
+      Georges Stobbaerts, as stated in the FPA history and confirmed by Stobbaerts in his interview.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KZ6D9E8Q3F78F13SS130W679
+    interactionPeriod:
+      startYear: 1962
+      endYear: 1966
+    hasEvidence:
+    - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+      quotation: cidadão francês que tinha praticado Aikido durante quatro anos (era então 2º kyu), no
+        "Budo Club du Maroc" em Casablanca (Marrocos), sob a orientação do Mestre Georges Stobbaerts.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZ6D9E8QSENEZ3VQSXK7KX1E
+      quotation: Eu tinha um aluno, Daniel Laurent, que era cinto verde ou laranja, já não me recordo,
+        que veio para Portugal trabalhar, ainda antes do 25 de Abril
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ6D9E8QSENEZ3VQSXK7KX1E
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ687R9N75NVKR35NSKMA1B1
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+description:
+  en: French citizen who introduced aikido to Portugal. A student of Georges Stobbaerts at the Budo Club
+    du Maroc in Casablanca (about 2nd kyu after four years), he moved to Portugal before the Carnation
+    Revolution and, at the request of Dr. Pires Martins of the Academia de Budo, agreed to lead the first
+    Portuguese aikido class (created December 1966) on condition that his teacher Stobbaerts direct it.
+    He later returned to France.
+  pt: Cidadão francês que introduziu o Aikido em Portugal. Aluno de Georges Stobbaerts no Budo Club du
+    Maroc em Casablanca (cerca de 2º kyu após quatro anos), mudou-se para Portugal antes do 25 de Abril
+    e, a pedido do Dr. Pires Martins da Academia de Budo, aceitou dirigir a primeira aula de Aikido em
+    Portugal (criada em dezembro de 1966) com a condição de que o seu professor Stobbaerts a orientasse.
+    Regressou mais tarde a França.
+notes: The date of the first aikido class at the Academia de Budo is given as December 1966 in the FPA
+  history but as 1965 in Araújo's chapter of 'A Génese do Karate em Portugal' and in the Aikido Marcial
+  Dôjo Clube history; Laurent's own Surya interview (dl_32_1.pdf) is not yet processed. The class was
+  later taken over by Carlos Manuel Pereira.
+tags:
+- aikido
+- portugal
+- morocco
+- france
+- founder

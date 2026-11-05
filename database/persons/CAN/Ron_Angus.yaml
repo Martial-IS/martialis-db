@@ -1,0 +1,45 @@
+type: Person
+id: 01M61T316BXQPNZEX6ET5PMFZ8
+name:
+  en: Ron Angus
+nationality:
+  - countryCode: eucountry:CAN
+    wikidata: wd:Q16
+description:
+  en: >-
+    Canadian judoka, a student of Masatoshi Umetsu for 33 years, who also trained in dojos in Europe
+    and Japan.
+hasTeacherAssertion:
+  - id: 01M61T316BJXCRD0965YK6AXBK
+    teacher: 01M5H5N9SHC3GSHWJ1MJ2N4XFR
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Leyshon (Judo Canada's history) only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              Ron Angus, an Umetsu student for 33 years, recalls that Umetsu-sensei was a very patient and
+              methodical teacher
+            locator: '106'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    quotation: >-
+      As Angus travelled to dojos abroad, he was exposed to techniques and practises in Europe and Japan
+      but never felt out of place.
+    locator: '106'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - canada

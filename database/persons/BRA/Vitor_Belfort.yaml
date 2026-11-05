@@ -1,0 +1,104 @@
+type: Person
+id: 01KYQB8J2N5752Q7E1JM7PNQPG
+name:
+  en: Vitor Belfort
+  pt: Vítor Belfort
+aka:
+  en:
+    - Vitor Vieira Belfort
+    - The Phenom
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+birthEvent:
+  birthDate: '1977-04-01'
+  birthPlace:
+    label: Rio de Janeiro
+    countryCode: eucountry:BRA
+    wikidata: wd:Q8678
+description:
+  en: 'Brazilian mixed martial artist and former UFC Light Heavyweight Champion. Known as "The Phenom," Belfort was one of the pioneers of modern MMA. He trained and taught at the Carlson Gracie Academy in West Hollywood, where he instructed Joe Rogan when Rogan was a white belt in the mid-1990s.
+
+'
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/1/1f/Vitor_belfort_cropped.jpg
+  rights: mediarights:cc-by-2.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Vitor_belfort_cropped.jpg
+    cite: "tiagoluiz (Flickr), Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+  - id: 01M3YH7N5GBEHAAWK46K865CVH
+    teacher: 01KYQB8J2NN336ZJWGQW3YH95E
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia and Snowden and Shields; the Wikipedia article may not be independent.
+    hasInteraction:
+      - interactionPlace: 01KYQB8J2N7T4SXEVHHDV3CPXJ
+        interactionPeriod:
+          startYear: 1995
+          endYear: 2000
+        hasEvidence:
+          - uri: https://en.wikipedia.org/wiki/Vitor_Belfort
+            archiveUri: https://en.wikipedia.org/w/index.php?title=Vitor_Belfort&oldid=1380861230
+            cite: Vitor Belfort (Wikipedia EN)
+            quotation: >-
+              Rank Black belt in Brazilian Jiu-Jitsu under Carlson Gracie
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              Couture took Belfort down, and despite being a titular Carlson Gracie jiu-jitsu black belt, Belfort seemed to possess little in the way of submissions off his back.
+            locator: '27'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              Even at the age of 70, Carlson wasn’t too old to try to start a fight with his former student Belfort after his fight with Tito Ortiz at ufc 51.
+            locator: '140'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GW5XGEMYZ9X0XKWTZ
+    rankStyle: 01KJJAWN29MA64W22606R3WD9J
+    rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+    rankGrade: rankgrade:bjj_black
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Rank referenced in Wikipedia article
+    hasEvidence:
+      - uri: https://en.wikipedia.org/wiki/Vitor_Belfort
+        archiveUri: https://en.wikipedia.org/w/index.php?title=Vitor_Belfort&oldid=1380861230
+        cite: Vitor Belfort (Wikipedia EN)
+        quotation: >-
+          Rank Black belt in Brazilian Jiu-Jitsu under Carlson Gracie
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - uri: https://en.wikipedia.org/wiki/Vitor_Belfort
+    archiveUri: https://en.wikipedia.org/w/index.php?title=Vitor_Belfort&oldid=1380861230
+    cite: Vitor Belfort (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYQB8J2NT3VVYG2HG0TGH42P
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q458716
+tags:
+  - brazilian-jiu-jitsu
+  - mma
+  - ufc
+  - carlson-gracie-team

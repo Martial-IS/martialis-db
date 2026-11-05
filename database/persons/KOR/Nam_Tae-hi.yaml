@@ -1,0 +1,71 @@
+type: Person
+id: 01M6BQSYG6CA6NTTKZDJJYD6BC
+name:
+  en: Nam Tae-hi
+  ko: 남태희
+aka:
+  en:
+    - Nam T’ae Hi
+    - Nam Tae Hi
+nationality:
+  - countryCode: eucountry:KOR
+    wikidata: wd:Q884
+birthEvent:
+  birthDate: '1929'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Major Nam Tae Hi (1929–) was sent to Saigon
+      locator: '201'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Korean taekwondo teacher and army officer. A Chung Do Kwan member and student of Lee Won-kuk, he taught
+    tangsu-do in the army from 1947 and co-founded the Oh Do Kwan with Choi Hong-hi in 1954. In 1959 he
+    was sent to Saigon to teach the army's Chung Do Kwan system to South Vietnamese soldiers and police.
+hasTeacherAssertion:
+  - id: 01M6BQSYG6DPT28S2BY5CZHZC0
+    teacher: 01M5CM3YFSZZQ2V5RFX27JCRDX
+    assertedStyle: 01KYFXCETR9R1BNFD5T82H1G8P
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One academic history.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+            quotation: >-
+              Nam was originally a member of Ch’ŏng-Do Kwan and learned tangsu-do from Yi Wŏn’Guk, having
+              taught it in the military since 1947
+            locator: '57'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+    quotation: >-
+      He established his O-Do Kwan together with Nam T’ae Hi in 1954 in the military.
+    locator: '57'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      in 1959, Major Nam Tae Hi (1929–) was sent to Saigon (present-day Ho Chi Minh City) to teach the military
+      version of Chungdokwan to South Vietnamese soldiers and police.
+    locator: '201'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q6961147
+tags:
+  - taekwondo
+  - military

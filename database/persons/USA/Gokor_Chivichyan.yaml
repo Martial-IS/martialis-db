@@ -1,0 +1,50 @@
+type: Person
+id: 01M6C1R005RK87H6XQWTD1ENCT
+name:
+  en: Gokor Chivichyan
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+description:
+  en: >-
+    Grappling teacher, Gene LeBell's top student; he teaches with LeBell at the Hayastan Academy in
+    North Hollywood.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/f/fe/Gokor_Chivichyan_%282018%29_-_3.JPG
+  rights: mediarights:cc0-1.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Gokor_Chivichyan_(2018)_-_3.JPG
+    cite: "Benoît Prieur, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+  - id: 01M6C1R005PPBJJK8PRKM1GQ5P
+    teacher: 01KJJAWN28MWKKSN4J02MVY1SS
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              He continues to teach every Monday night alongside his top student Gokor Chivichyan at the Hayastan Academy in North Hollywood, the gym that turned out UFC competitors Karo Parisyan and Manny Gamburyan.
+            locator: '241'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+    quotation: >-
+      He continues to teach every Monday night alongside his top student Gokor Chivichyan at the Hayastan Academy in North Hollywood, the gym that turned out UFC competitors Karo Parisyan and Manny Gamburyan.
+    locator: '241'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q5578084
+tags:
+  - judo
+  - grappling

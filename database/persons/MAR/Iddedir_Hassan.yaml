@@ -1,0 +1,39 @@
+type: Person
+id: 01KZ6DR4E3V711CA5TM2H1666S
+name:
+  fr: Hassan Iddedir
+nationality:
+- countryCode: eucountry:MAR
+  wikidata: wd:Q1028
+hasTeacherAssertion:
+- id: 01M3YH7N5G4P705GX715FVKZV8
+  teacher: 01KJJAWN29MA64W22606R3WD7D
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Duclos states in his Surya interview that Iddedir was one of Stobbaerts' students
+      with whom he studied judo; the relationship is stated from the perspective of the next generation
+      and details are sparse.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KZ6D9E8Q3F78F13SS130W679
+    hasEvidence:
+    - basedOnSource: 01KZ6DKWJVPE75F5Y89HN5AYNS
+      quotation: Estudei o Judo com Mestre Stobbaerts e com um dos seus alunos, Mestre Hassan Iddedir.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZ6DKWJVPE75F5Y89HN5AYNS
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+description:
+  en: Moroccan judo teacher in Casablanca, one of Georges Stobbaerts' students, with whom Jean-Marc Duclos
+    also studied judo.
+  pt: Professor de judo marroquino em Casablanca, um dos alunos de Georges Stobbaerts, com quem Jean-Marc
+    Duclos também estudou judo.
+tags:
+- judo
+- morocco

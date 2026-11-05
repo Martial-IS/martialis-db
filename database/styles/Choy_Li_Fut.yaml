@@ -1,0 +1,68 @@
+type: Style
+id: 01M69YZDAYSZ72F4EN4Y0155WA
+name:
+  en: Choy Li Fut
+  zh: 蔡李佛
+aka:
+  en:
+    - Choi Lei Fut
+styleType: styleclass:traditional
+foundedEvent:
+  startDate: '1836'
+  founder:
+    - 01M69YZDAWK5VCNF22K7MN1RH3
+  hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        Chan named his style Choy Li Fut in remembrance of the sources of the new tradition.
+      locator: '93'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        He publicly revealed his art in 1836.
+      locator: '93'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Southern Chinese boxing style created by Chan Heung, who made it public in 1836. Spread through
+    a network of branch schools from about 1848, it was the most popular system in Guangdong by the
+    end of the century; its popularity fell sharply after 1949.
+notes: >-
+  Judkins and Nielson pp. 92-99, 117-119. The name joins Choy Gar, Li Gar and Fut Gar, the arts
+  Chan Heung said he learned. The Nanquan article cites Judkins and Nielson among its references.
+hasStyleRelationAssertion:
+  - id: 01M69YZDB0CP9D7HNH60ZFCFFJ
+    relatedStyle: 01KYHRZE605BS2BGB5TX1XEWPR
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01KYHRZE602B1ACMJ26FPY4YDM
+        cite: Nanquan (Wikipedia EN)
+        quotation: >-
+          The basis of contemporary Nánquán hails primarily from traditional Cantonese family styles of 洪
+          (Hung), 李 (Lei), 劉 (Lau), 莫 (Mok) and 蔡 (Choi), along with their more contemporary Kung Fu
+          variants of Choi Lei Fut, Hung Ga, and Wing Chun.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: '81, 92-99, 117-119'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q1770826
+tags:
+  - choy-li-fut
+  - chinese-martial-arts

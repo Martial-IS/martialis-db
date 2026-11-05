@@ -1,0 +1,179 @@
+type: Place
+id: 01KJJAWN29MA64W22606R3WD99
+name:
+  en: Budo Senmon Gakko
+  ja-Latn: Budō Senmon Gakkō
+  ja: 武道専門学校
+aka:
+  ja:
+    - 武術教員養成所
+    - 武徳学校
+    - 武術専門学校
+    - 大日本武道専門学校
+    - 京都文科専門学校
+    - 武専
+placeType: placeclass:academy
+hasSite:
+  - location:
+      label: 京都市左京区
+      countryCode: eucountry:JPN
+      wikidata: wd:Q1321832
+    sitePeriod:
+      startYear: 1905
+      endYear: 1946
+    hasEvidence:
+      - basedOnSource: 01M4R6M024QZC89JTRCBB0CE0V
+        quotation: 1905年（明治38年）10月1日 - 大日本武徳会が京都府京都市左京区に武術教員養成所を設立。剣術・柔術を指導した。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+    notes: Street address not given; the source locates the site only by ward.
+  - location:
+      label: 大雲院（京都市東山区）
+      countryCode: eucountry:JPN
+      wikidata: wd:Q10938466
+    sitePeriod:
+      startYear: 1946
+      endYear: 1947
+    notes: The site was requisitioned by the occupying forces in April 1946 and the school moved into the temple grounds; the year is the enclosing 沿革 list item, not the bullet itself.
+    hasEvidence:
+      - basedOnSource: 01M4R6M024QZC89JTRCBB0CE0V
+        quotation: 4月頃 - 校地が連合国軍に接収されたため、学校を大雲院内に移転。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1905'
+  dateOriginal: 明治38年10月1日
+  dateCalendar: datecal:japanese_nengo
+  hasEvidence:
+    - basedOnSource: 01M4R6M024QZC89JTRCBB0CE0V
+      quotation: 1905年（明治38年）10月1日 - 大日本武徳会が京都府京都市左京区に武術教員養成所を設立。剣術・柔術を指導した。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+dissolvedEvent:
+  endDate: '1947-01-31'
+  dateOriginal: 昭和22年1月31日
+  dateCalendar: datecal:japanese_nengo
+  dissolutionManner: dissmanner:suppressed
+  dissolutionReason: >-
+    Budo instruction was abolished in February 1946 under the GHQ budo ban and the school was renamed and reorganised as Kyoto Bunka Senmon Gakko; it closed in January 1947.
+  hasEvidence:
+    - basedOnSource: 01M4R6M024QZC89JTRCBB0CE0V
+      quotation: 太平洋戦争で日本が敗戦し、連合国軍最高司令官総司令部 (GHQ) 指令によって武道の禁止と大日本武徳会の解散がなされたことを受け、教科教育を授ける「京都文科専門学校」に改称・改編して生き残りを図ったが適わず、1947年（昭和22年）1月に最後の卒業式を行い廃校となった。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M4R6M024QZC89JTRCBB0CE0V
+      quotation: 1947年（昭和22年）1月31日 - 廃校が認可される。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M3YH7N5GQBFYBMVHB3YN46JH
+    relatedOrganization: 01KJJAWN29MA64W22606R3WD7Y
+    affiliationRelation: affrel:branch_of
+    validDuring:
+      startYear: 1905
+      endYear: 1946
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The school's JA wiki article states it was established and run by the Dai Nippon Butoku Kai. The
+        1946 end is the year of the forced reorganisation and of the Butokukai's own dissolution
+        (1946-11-09).
+    hasEvidence:
+      - basedOnSource: 01M4R6M024QZC89JTRCBB0CE0V
+        quotation: 学校教育における武道指導者を養成するため、大日本武徳会によって設立・運営された。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    The Dai Nippon Butokukai's martial-arts teacher-training school in Kyoto, opened on 1905-10-01 as the Bujutsu Kyoin Yoseijo and renamed Budokugakko and then Bujutsu Senmon Gakko in 1911-1912 and Budo Senmon Gakko in 1919 (abbreviated Busen). Training took place in the Butokuden (武徳殿), the Butokukai's own hall. Budo teaching was abolished under the GHQ budo ban in February 1946, when the school was renamed Kyoto Bunka Senmon Gakko; it closed on 1947-01-31. Its kendo faculty was headed by Naito Takaharu as chief professor (主任教授).
+  ja: >-
+    大日本武徳会が京都に設立した武道教員養成学校。1905年（明治38年）10月1日に武術教員養成所として開設、 1911年に武徳学校、1912年に武術専門学校、1919年に武道専門学校（略称・武専）と改称。1946年、連合国軍の 武道禁止令により京都文科専門学校に改称・改編され、1947年1月31日に廃校となった。剣道は内藤高治が 主任教授を務めた。
+hasEvidence:
+  - basedOnSource: 01M4R6M024QZC89JTRCBB0CE0V
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M4R9845WRSMRSQGT8NSWVXXA
+    officer: 01M377JZDNZE0QK5A178X0B9YB
+    officerTitle: Principal
+    notes: Bennett attests the principalship in 1919, in the context of the kenjutsu-to-kendō renaming; the term's start and end are not otherwise given.
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One authored history.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: Nishikubo Hiromichi (1863-1930), vice president of the Butokukai and principal of the Bujutsu Vocational College, announced the change
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M4R9845W1E5ZF95WQ2R64W7F
+    instructor: 01KJJAWN29MA64W22606R3WD6H
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1905
+      endYear: 1929
+    notes: >-
+      Kendo shunin kyoju (chief kendo professor) of the Bujutsu Kyoin Yoseijo, later renamed Budo Senmon Gakko. 1905 is the school's founding year, not an appointment date; the end year is the year of death (1929-04-09), no retirement date in the sources. The JA wiki lists him first among the school's kendo faculty as 主任教授. His 1899 appointment as one of the five kendo professors named for the Butokuden is recorded on his own Person entry, not here.
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia only (three articles).
+    hasEvidence:
+      - basedOnSource: 01M4R6M024QZC89JTRCBB0CE0V
+        quotation: 1905年（明治38年）10月1日 - 大日本武徳会が京都府京都市左京区に武術教員養成所を設立。剣術・柔術を指導した。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M3016DNJC2NEAYRBG32B4S5N
+        quotation: 武術教員養成所（のち武道専門学校に改称）の剣道主任教授を務め、後の剣道十段・持田盛二、斎村五郎などを育てた。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M3016DNJAKT2VNARSXH77FMV
+        quotation: Naitō taught kendo to the Japanese Police force, and was also the first teacher at the Budo Senmon Gakko.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M6BGZPMBXW7S67H8EV272QR3
+    instructor: 01M6BGZPMBSZFED2M100XCXRZX
+    instructorCapacity: instrcap:head_instructor
+    instructorStyle: 01M6BGZPMB3S87S2PY9MH5CTH8
+    instructorPeriod:
+      startYear: 1934
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The book (her student Sawada) and Green and Svinth both state it.
+    hasEvidence:
+      - basedOnSource: 01M6BGZPMB9HXA4YD36CVR10SR
+        locator: 'The Meaning of Martial Arts Training, note 4'
+        locatorLabel: section
+        quotation: 'Chief naginata teacher at the prewar Butokukai Bujutsu Senmon Gakko.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        locator: '160'
+        locatorLabel: page
+        quotation: 'To fulﬁll the requirement for additional instructors, the Butokukai created a teachers’ training course for naginata in 1934. This school taught Tendo-ryu and was run by Mitamura Chiyo, Nishigaki Kin, and Mitamura Kunihiko.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/7/7a/%E5%A4%A7%E6%97%A5%E6%9C%AC%E6%AD%A6%E5%BE%B3%E4%BC%9A%E6%9C%AC%E9%83%A8%E6%AD%A3%E9%96%80.jpg
+    rights: mediarights:public_domain_mark
+    imageAttribution:
+      cite: "Wikimedia Commons"
+      uri: https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E6%97%A5%E6%9C%AC%E6%AD%A6%E5%BE%B3%E4%BC%9A%E6%9C%AC%E9%83%A8%E6%AD%A3%E9%96%80.jpg
+      basedOnSource: 01M4R6M024QZC89JTRCBB0CE0V
+      informationType: infotype:secondary

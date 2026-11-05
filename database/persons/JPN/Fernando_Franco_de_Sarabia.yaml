@@ -1,0 +1,213 @@
+type: Person
+id: 01M0NTD84XCD4EY76QXD0D2KTX
+name:
+  en: Fernando Franco de Sarabia
+  es: Fernando Franco de Sarabia
+nationality:
+- countryCode: eucountry:ESP
+birthEvent:
+  birthDate: '1912'
+  hasEvidence:
+  - basedOnSource: 01M0NTD84XXGRTGAA8DETVW1K2
+    quotation: >-
+      FERNANDO FRANCO DE SARABIA [...] 1912 – 1988
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1988'
+  hasEvidence:
+  - basedOnSource: 01M0SXT206FYX45K8P5Z2P3ZWW
+    quotation: >-
+      Fernando Franco de Sarabia Jim (?-1988)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: Spanish judo pioneer; first Spanish black belt (Kodokan 1st dan, 22 July 1954, Ichiro Abe); trained
+    under Alfredo San Bartolomé (1948–1957) and Kawaishi Mikinosuke (green belt 1952, brown belt 1953);
+    founded Gimnasio Samurái (1958); disseminated judo into state institutions and Real Madrid; published
+    Cinturón Negro de Judo (1971); awarded 7th dan posthumously by RFEJYDA; traveled to France to study
+    Kawaishi's method; connected to Haku Michigami via trips from Madrid to Bordeaux.
+notes: 'Fernando Franco de Sarabia Jim (?-1988). Began sport 1944 (gymnastics), dedicated to judo from
+  1948. Part of founding core of judo in Madrid under San Bartolomé. Trained with Kawaishi in France.
+  Key figure in early Spanish judo. Traveled to Bordeaux on Lambretta to train with Master Japanese Michigami.
+  Source: Olimpiaduerme blog (2015-10-02) announces him as first Spanish black belt; RFEJYDA newsletter
+  (2022-10-28) provides comprehensive biography; Judo en Familia bio page records his dan grades and teaching
+  role.'
+hasTeacherAssertion:
+- id: 01M3YH7N5GYZEX1FG5GA38TMRR
+  teacher: 01M0E9KP2BGMP4PAC4AYTHWFX7
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Fernando Franco trained under Alfredo San Bartolomé at the Gimnasio Juventud
+      and later at the Bushidokwai in Madrid, from 1948 until the dissolution of their partnership in
+      late 1957. San Bartolomé was his primary judo instructor during the formative years of Spanish judo.
+  hasInteraction:
+  - interactionPlace: 01M0E9KP2B4WB7PVYXKQ0ECTMF
+    interactionPeriod:
+      startYear: 1948
+      endYear: 1957
+    hasEvidence:
+    - basedOnSource: 01M0SXT206FYX45K8P5Z2P3ZWW
+      quotation: Fernando Franco de Sarabia forma parte, desde 1948, de este núcleo fundador del judo
+        madrileño en el que pronto empiezan a manifestarse las diferencias de criterio que llevan a la
+        disolución de la sociedad a principios de 1951, haciéndose cargo del club Fernando Franco como
+        único propietario y con Alfredo San Bartolomé en la dirección técnica; desligándose Antonio Burrieza.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GNQMRPGHQ00CTY7HX
+  teacher: 01KJJAWN28MWKKSN4J02MVY1T3
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Fernando Franco trained with Kawaishi Mikinosuke at a stage in Biarritz (1952)
+      and subsequently traveled frequently to France to study Kawaishi's method; awarded green belt (1952)
+      and brown belt (1953) under Kawaishi.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1952
+      endYear: 1953
+    hasEvidence:
+    - basedOnSource: 01M0SXT206FYX45K8P5Z2P3ZWW
+      quotation: >-
+        Fernando Franco obtiene el cinturón verde, otorgado por el maestro Kawaishi, uno de los fundadores del judo francés y creador del método que lleva su nombre, en un stage celebrado en Biarriz (1952); para 1953 es ya cinturón marrón.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5G9AX54C5ZQ400TXP5
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 1
+  conferredBy: 01KJJAWN29MA64W22606R3WD7X
+  grantedBy: 01KZXH2NSQMBZTRPPYAKKCFR84
+  dateConferred: '1954'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: RFEJYDA and Judo en Familia; RFEJYDA credits Judo en Familia, so one account.
+  hasEvidence:
+  - basedOnSource: 01M0NTD84XXGRTGAA8DETVW1K2
+    quotation: 'Es en ese momento y con un diploma del Kodokan fechado a 22 de Julio de 1954, que Fernando Franco de Sarabia se convierte en el primer español con el grado de 1ºDan de Judo.'
+    supports: true
+    informationType: infotype:secondary
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M0SXT206FYX45K8P5Z2P3ZWW
+    quotation: Fernando Franco viaja a Paris y se examina con Ichiro Abe, representante del Kodokan (Instituto
+      fundador del judo) para Europa y con ello se convierte en el primer español cinturón negro de judo
+      (diploma Kodokan 22-7-1954).
+    supports: true
+    evidenceType: evidencetype:direct
+    informationType: infotype:secondary
+- id: 01M3YH7N5G77194FY9HEMTKQYH
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 2
+  conferredBy: 01KJJAWN29MA64W22606R3WD7X
+  dateConferred: '1957'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: 2nd dan from Kiyoshi Mizuno (6th dan, Spanish Technical Adviser) in 1957; cited
+      in Judo en Familia and olimpiaduerme blog.
+  hasEvidence:
+  - basedOnSource: 01M0SXT206FYX45K8P5Z2P3ZWW
+    quotation: >-
+      El japonés Kiyoshi Mizuno, es el nuevo Asesor Técnico del judo español, a la vez que profesor en el Bushidokwai así como en otros organismos civiles y militares. Franco de Sarabia consigue el 2º dan en 1957 de manos de Mizuno
+    supports: true
+    evidenceType: evidencetype:direct
+    informationType: infotype:secondary
+- id: 01M3YH7N5GWPRZNNN09QH988A2
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 3
+  conferredBy: 01KJJAWN29MA64W22606R3WD7X
+  dateConferred: '1961'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: 3rd dan; cited in Judo en Familia biography and olimpiaduerme blog as part of
+      Franco's progression; source coverage limited.
+  hasEvidence:
+  - basedOnSource: 01M0SXT206FYX45K8P5Z2P3ZWW
+    quotation: >-
+      Fernando Franco asciende a tercer dan y consigue el título de Árbitro Internacional en 1961.
+    supports: true
+    evidenceType: evidencetype:direct
+    informationType: infotype:secondary
+- id: 01M3YH7N5GGXY1SXCX3X0ND2DD
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 4
+  conferredBy: 01KJJAWN29MA64W22606R3WD7X
+  dateConferred: '1962'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: 4th dan; cited in Judo en Familia biography.
+  hasEvidence:
+  - basedOnSource: 01M0SXT206FYX45K8P5Z2P3ZWW
+    quotation: >-
+      En 1962 es nombrado presidente del Colegio Nacional de Cinturones Negros [...] Este año asciende a 4º dan
+    supports: true
+    evidenceType: evidencetype:direct
+    informationType: infotype:secondary
+- id: 01M3YH7N5GMSD6629461ETATY1
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 5
+  conferredBy: 01M0E9KP2BA4HY9PW5Q4SKQRN4
+  dateConferred: '1969'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Judo en Familia only.
+  hasEvidence:
+  - basedOnSource: 01M0SXT206FYX45K8P5Z2P3ZWW
+    quotation: En noviembre de 1969 se celebra en el Gimnasio Moscardó de Madrid, el primer examen de
+      5º dan [...] Fernando Franco y el catalán José Pons son los únicos en superar la rigurosa prueba.
+    supports: true
+    evidenceType: evidencetype:direct
+    informationType: infotype:secondary
+- id: 01M3YH7N5GVN6VRYCZTRT3P2NC
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 7
+  conferredBy: 01M0E9KP2BA4HY9PW5Q4SKQRN4
+  dateConferred: '1988'
+  hasConfidence:
+    confidenceLevel: conflevel:possible
+    assessedBy: agent:FSM
+    confidenceRationale: One self-published blog; no RFEJYDA record found.
+  hasEvidence:
+  - basedOnSource: 01M0NTD84XHB2AWJS5VQG1AWKE
+    quotation: La Federación Española de Judo le otorga, a título póstumo, el 7º dan.
+    supports: true
+    evidenceType: evidencetype:direct
+    informationType: infotype:secondary
+hasEvidence:
+- basedOnSource: 01M0NTD84XXGRTGAA8DETVW1K2
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0SXT206FYX45K8P5Z2P3ZWW
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- judo
+- spain
+- pioneer

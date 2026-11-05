@@ -1,0 +1,78 @@
+type: Person
+id: 01M1BVV4WYQ36TS68VAVM3AZ4V
+name:
+  ja-Latn: Morimoto Tokumi
+  ja: 森本得路
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthPlace:
+    label: Tosa
+    countryCode: eucountry:JPN
+    wikidata: wd:Q188008
+deathEvent:
+  deathPlace:
+    label: Japan
+    countryCode: eucountry:JPN
+    wikidata: wd:Q17
+description:
+  en: 'Morimoto Tokumi was a former samurai of the Tosa/Yamauchi clan and a Shihan of the Goto-ha branch
+    of
+
+    Musō Jikiden Eishin-ryū. He received Menkyo Kaiden in Musō Jikiden Eishin-ryū from Gotō Magobei
+
+    Masasuke, making him a contemporary of Ōe Masamichi. He was one of two teachers who accepted
+
+    Nakayama Hakudō as a student of Tosa Eishin-ryū in 1916, and Nakayama received Menkyo Kaiden in
+
+    Goto-ha Muso Jikiden Eishin-ryū from Morimoto in 1922.
+
+    '
+hasTeacherAssertion:
+- id: 01M3YH7N5GBYWSM81NBAAC6B6Z
+  teacher: 01M1KSJ12QEP45X57F3QQ720TG
+  assertedStyle: 01KZ6XT5DSFQG9TRGDK9AQFZCW
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The kenshi247 article states Morimoto received Menkyo Kaiden in Muso Jikiden
+      Eishin Ryu from Goto Magobei Masasuke.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPeriod:
+      endYear: 1897
+    hasEvidence:
+    - basedOnSource: 01KZ6XT5DSE2WFVPWC8ET939CN
+      quotation: >-
+        Tokumi received his Menkyo Kaiden in Muso Jikiden Eishin Ryu from Goto Magobei Masasuke
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZ6XT5DSE2WFVPWC8ET939CN
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M1BVV4WYHGVCCTB1CPXDRSAV
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q100455268
+tags:
+- iaijutsu
+- iaido
+- muso-jikiden-eishin-ryu
+- goto-ha
+- tosa-eishin-ryu
+- koryu
+- japan
+notes: 'Birth and death dates are not recorded in available sources. The kenshi247 article identifies
+  him as
+
+  a contemporary of Ōe Masamichi (1852-1927) and notes he received Menkyo Kaiden from Gotō Magobei
+
+  Masasuke (who died 1897), suggesting Morimoto was active in the late 19th century.
+
+  '

@@ -1,0 +1,41 @@
+type: Person
+id: 01M5JSGG50NQV1284KS30PCYWB
+name:
+  en: Piero Paolo del Verde
+aka:
+  en:
+    - Peter von Grünen
+description:
+  en: >-
+    Condottiero named by Fiore dei Liberi among the men he trained; he probably fought a duel with
+    Pietro della Corona at Perugia about 1381.
+hasTeacherAssertion:
+  - id: 01M5JSGG50CAJF46E3TYFYGG33
+    teacher: 01M5JSGG50BY7NFE13HKVSR7DW
+    assertedStyle: 01M5JSGG50KYXNMCB38XCKHKMF
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Their teacher's own account.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JSGG5081ZEGH8JTM4FRCAV
+            quotation: >-
+              He further offered an extensive list of the famous condottieri that he trained, including
+              Piero Paolo del Verde (Peter von Grünen)
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JSGG505YWQZSX677VBVJXR
+    quotation: >-
+      Based on Fiore's autobiographical account, he can tentatively be placed in Perosa (Perugia) in 1381
+      when Piero del Verde likely fought a duel with Pietro della Corona (Peter Kornwald).
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - fencing
+  - italian-school

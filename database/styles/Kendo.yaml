@@ -1,0 +1,77 @@
+type: Style
+id: 01KJJAWN29MA64W22606R3WD9W
+name:
+  en: Kendo
+  ja-Latn: Kendo
+  ja: 剣道
+description:
+  en: 'Kendo (剣道, Kendō, lit. ''sword way'' or ''way of the sword'') is a modern Japanese martial art,
+
+    descended from kenjutsu (traditional Japanese swordsmanship), that uses bamboo swords (shinai)
+
+    and protective armor (bōgu). It originated from samurai swordsmanship exercises and was
+
+    formalized as a modern budo in the early 20th century, with the All Japan Kendo Federation
+
+    established after World War II.
+
+    '
+hasEvidence:
+- basedOnSource: 01KYHP6J2TM50CZQW48BPRBPP1
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KXTSQXW6P83R31HCRY2PRTDY
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1912'
+  location:
+    countryCode: eucountry:JPN
+  hasEvidence:
+  - basedOnSource: 01KYHP6J2TM50CZQW48BPRBPP1
+    quotation: >-
+      The forms of the Nihon Kendō Kata (日本剣道形) were finalized in 1933 based on the Dai nihon Teikoku Kendo Kata, composed in 1912.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:indirect
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTDY
+    quotation: >-
+      In 1912, the creation of the "Dai-Nippon Teikoku Kendo Kata"
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:indirect
+styleType: styleclass:modern
+hasStyleRelationAssertion:
+- id: 01M3YH7N5GPBMM8PK77MA7CV5S
+  relatedStyle: 01KYHNJKQDTEJ1A5MQ5JYPHDTB
+  styleRelationType: stylerel:derived_from
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Kendo Wikipedia states it is descended from kenjutsu; the AJKF history traces
+      its evolution from pre-Meiji sword arts
+  hasEvidence:
+  - basedOnSource: 01KYHP6J2TM50CZQW48BPRBPP1
+    quotation: a modern Japanese martial art, descended from kenjutsu (one of the old Japanese martial
+      arts, swordsmanship)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTDY
+    quotation: >-
+      In the Shotoku era (1711-1715), Naganuma Shirozaemon Kunisato of the Jikishin Kage-ryu school popularized the uchikomi keiko-ho method of practice, in which adepts struck each other with bamboo swords (shinai) while wearing protective equipment. This is a direct precursor to modern kendo.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+- wd:Q170931
+tags:
+- gendai
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/c/c3/Kendo_EM_2005_-_kote.jpg
+    rights: mediarights:cc-by-sa-2.0-at
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:Kendo_EM_2005_-_kote.jpg
+      cite: "Harald Hofer, Wikimedia Commons"

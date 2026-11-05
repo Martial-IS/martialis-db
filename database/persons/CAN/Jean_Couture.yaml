@@ -1,0 +1,68 @@
+type: Person
+id: 01KYSNKBS6PMPN1WR4R76PWVGM
+name:
+  fr: Jean Couture
+nationality:
+- countryCode: eucountry:CAN
+  wikidata: wd:Q16
+description:
+  en: 'Kyokushin karate instructor in Quebec, Canada, best known as the first martial arts teacher of
+    Georges St-Pierre. Couture operated a Kyokushin-kan dojo in the greater Montreal area and taught GSP
+    from approximately ages 7-9 until his death when GSP was around 12-13.
+
+    '
+  fr: 'Instructeur de karaté Kyokushin au Québec, surtout connu comme le premier professeur d''arts martiaux
+    de Georges St-Pierre. Couture opérait un dojo Kyokushin-kan dans la région de Montréal et a enseigné
+    à GSP d''environ 7-9 ans jusqu''à son décès alors que GSP avait environ 12-13 ans.
+
+    '
+hasTeacherAssertion:
+- id: 01M3YH7N5GW59MFSNEZ2QC8710
+  teacher: 01KYSPMS1DCZRWP3YDMN8TPA1N
+  assertedStyle: 01KYSNKBS22MA4Z9RRDDTXWQ7H
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: 'Gilles Dufour himself stated in the Zanshin documentary that Jean Couture was
+      his student: ''le premier instructeur de Georges Saint-Pierre, Jean Couture''. This is corroborated
+      by Dufour''s own Facebook comment ''J''ai été l''instructeur de Jean 1972'' and the Kyokushinkaikarate
+      memorial post.'
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1972
+    hasEvidence:
+    - basedOnSource: 01M3M3T743FWPG8S2T6VR91M69
+      quotation: Gilles Dufour · J'ai été l'instructeur de Jean 1972
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M3M3T743D3W1J4YRYBV73T8G
+      quotation: Gilles Dufour a été l'instructeur de Jean Couture R.I.P. en 1972 qui par la suite a été
+        l'instructeur de Georges St-Pierre GSP
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KYT2PETX8NG5243D55DYB4JC
+      quotation: J'ai eu des élèves de toutes sortes. Il y a eu André Coulombe, André Gilbert, les frères
+        Fraser, le premier instructeur de Georges Saint-Pierre, Jean Couture.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KYSNKBS1JGV5BBCN1GEXZTHV
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KYSPMS1CH3PQNRT91Q7A62VP
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KYT2PETX8NG5243D55DYB4JC
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- kyokushin
+- quebec
+- instructor

@@ -1,0 +1,112 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1TE
+name:
+  pt: Fernando Costa Matos
+nationality:
+- countryCode: eucountry:PRT
+  wikidata: wd:Q45
+birthEvent:
+  birthDate: '1941-04-01'
+  birthPlace:
+    label: Ponta Delgada
+    countryCode: eucountry:PRT
+    wikidata: wd:Q208149
+image:
+  contentUrl: https://olympedia-photos.s3.us-east-1.amazonaws.com/34053.jpg
+  imageAttribution:
+    uri: https://www.olympedia.org/athletes/34053
+    cite: "Olympedia"
+    informationType: infotype:primary
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M3YH7N5GNPS4ACK6GJ77C2PW
+  teacher: 01KJJAWN28MWKKSN4J02MVY1SR
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Started judo in 1959 at INEF (Instituto Nacional de Educação Física) with Kiyoshi
+      Kobayashi, as documented in Facebook post by Renato Santos Kobayashi
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD8Q
+    interactionPeriod:
+      startYear: 1959
+    hasEvidence:
+    - basedOnSource: 01M3M3T743B01NXEHG1NSBN9NR
+      quotation: Em 1958 o Mestre K.K. assinou então um contrato para ficar em Portugal por um período
+        de dois anos. Nesta sequência, aceita o convite para integrar o corpo docente do então Instituto
+        Nacional de Educação Física (INEF), onde lecionou durante dez anos [...]  Destaca-se o nome do
+        Fernando Costa Matos, atleta olímpico que iniciou o Judo no INEF em 1959 e em 1964 participou
+        pela 1.ª vez nos J. Olímpicosde Tóquio.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD8E
+    interactionPeriod:
+      startYear: 1961
+    hasEvidence:
+    - uri: https://www.linkedin.com/posts/nunodelgadotpv_mestrebastosnunes-judo-portugaljudo-activity-7155564790885556225-5SnY/?originalSubdomain=pt
+      cite: Nuno Delgado LinkedIn post
+      quotation: >-
+        O Mestre Bastos Nunes, juntou-se ao seu querido Mestre Kobayashi que serviu com verdadeira alma Samurai, "linha dura" como dizia sempre 🙏 A par do meu Mestre Fernando Costa Matos, são as mais altas graduações Lusas, discípulos diretos de Kiyoshi Kobayashi, que tanto moldaram os nossos judocas, com a sua sabedoria e pedagogia.
+      informationType: infotype:secondary
+      supports: true
+      archiveUri: https://web.archive.org/web/20240212151508/https://www.linkedin.com/posts/nunodelgadotpv_mestrebastosnunes-judo-portugaljudo-activity-7155564790885556225-5SnY/?originalSubdomain=pt
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GJ2DGQC2E1A9D89NG
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 9
+  dateConferred: '2019'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Awarded 9th dan at FPJ 60th anniversary gala in 2019, documented in official
+      FPJ report, with rank progression from 6th dan (Judolândia) to 9th dan (2019)
+  hasEvidence:
+  - basedOnSource: 01M3M0D4PB6MX34WBF73H4PB8G
+    quotation: E, grande momento da Gala e absolutamente inédito em Portugal, os Mestres José Manuel Bastos
+      Nunes (ausente por motivos de saúde, tendo enviado uma linda mensagem) e Fernando Costa Matos receberam
+      o Diploma de Graduação de 9.º Dan, a mais alta graduação nacional e naturalmente, das maiores do
+      Mundo!
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M3M0D4PBC01Y0WAD688TTTK0
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://judolandia.tripod.com/costamatos-bi.htm
+  cite: Costa Matos (Judolândia)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://judomagazine.pt/2023/05/16/entrevista-viagem-ao-mundo-dos-homens-bons-2/
+  cite: 'Entrevista: Viagem ao mundo dos homens bons (JudoMagazine.pt, arquivado)'
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+  archiveUri: https://web.archive.org/web/20240815144215/https://judomagazine.pt/2023/05/16/entrevista-viagem-ao-mundo-dos-homens-bons-2/
+- uri: https://judomagazine.pt/2023/04/30/entrevista-fernando-costa-matos-um-velejador-navegador-de-judogi/
+  cite: Entrevista a Fernando Costa Matos (JudoMagazine.pt, arquivado)
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+  archiveUri: https://web.archive.org/web/20240616114733/https://judomagazine.pt/2023/04/30/entrevista-fernando-costa-matos-um-velejador-navegador-de-judogi/
+description:
+  en: Portuguese judoka, first Olympic judo athlete from Portugal (Tokyo 1964), 9th dan, student of Kiyoshi
+    Kobayashi, former president of Portuguese Judo Federation.
+  pt: Judoca português, primeiro atleta olímpico de judo de Portugal (Tóquio 1964), 9º dan, aluno de Kiyoshi
+    Kobayashi, ex-presidente da Federação Portuguesa de Judo.
+notes: Fernando Costa Matos was born in Ponta Delgada, Azores in 1941. He began practicing judo in 1959
+  at INEF with Kiyoshi Kobayashi, who is considered the father of Portuguese judo. He started training
+  at Judo Clube de Portugal in 1961. He was the first Portuguese judoka to compete in the Olympics, participating
+  in Tokyo 1964 where he also served as Portugal's flag bearer. He later trained in Japan for two years.
+  His competitive career included European Championships in 1963. He served as national team coach for
+  the 1972 and 1992 Olympics. He was president of the Portuguese Judo Federation and received the 9th
+  dan in 2019 at the FPJ 60th anniversary gala. He was also a multi-sport athlete, practicing swimming,
+  sailing, rowing, water polo, handball, and football in his youth.

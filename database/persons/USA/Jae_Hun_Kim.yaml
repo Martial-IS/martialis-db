@@ -1,0 +1,106 @@
+type: Person
+id: 01KYQB8J2N6ZQ8B1QY5K24QY9P
+name:
+  en: Jae Hun Kim
+  ko: 김재훈
+aka:
+  en:
+  - Jae H. Kim
+  - Grandmaster Jae Hun Kim
+nationality:
+- countryCode: eucountry:KOR
+  wikidata: wd:Q884
+birthEvent:
+  birthPlace:
+    label: South Korea
+    countryCode: eucountry:KOR
+    wikidata: wd:Q884
+description:
+  en: "South Korean-born taekwondo grandmaster and founder of the Jae Hun Kim Tae Kwon Do Institute. He\
+    \ was personally trained by General Choi Hong Hi, founder of modern Taekwon-do, and Grandmaster Jung\
+    \ Tae Park. He received his Grandmaster rank from Kukkiwon in 1993. Joe Rogan trained under him at\
+    \ the Boston institute, earning his black belt at age 15. \n\nKim earned a B.S. from MIT and an MBA\
+    \ from Harvard Business School, later serving as Vice President at General Electric. He served as\
+    \ a Captain in the Korean Air Force and coached the US National Taekwondo Team in 1979. His institute\
+    \ grew to 22 schools across the US, Singapore, Korea, Ireland, and China. He was named Grandmaster\
+    \ of the Year by Taekwondo Times in 2013.\n"
+image:
+  contentUrl: https://www.tkd-seattle.com/wp-content/uploads/2016/07/SIDEKICK-gallery-test-black-best.jpg
+  imageAttribution:
+    uri: https://www.tkd-seattle.com/grandmaster-kim/
+    cite: "Jae H Kim Taekwondo Institute"
+    informationType: infotype:primary
+hasTeacherAssertion:
+- id: 01M3YH7N5GQZC5GPSRVT8M0JT1
+  teacher: 01KYQM3M5CWFJJBA8W502KD2TP
+  assertedStyle: 01KYQM3M5C2M9KJ36E6Q1JEWN3
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: TKD Seattle site states Kim trained personally with General Choi; own account only
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1971
+      endYear: 1978
+    hasEvidence:
+    - uri: https://www.tkd-seattle.com/grandmaster-kim/
+      cite: Grandmaster Kim biography - learned from General Choi
+      quotation: He was especially fortunate to receive personal teachings from General Choi, Hong Hi
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5G90K1102PWJEW6F5T
+  teacher: 01KYQM3M5CSDPXRB08KJB3GDP2
+  assertedStyle: 01KYQM3M5C2M9KJ36E6Q1JEWN3
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: TKD Seattle site states Kim trained under Grandmaster Park; own account only
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1967
+    hasEvidence:
+    - uri: https://www.tkd-seattle.com/grandmaster-kim/
+      cite: Grandmaster Kim biography - learned from Grandmaster Park
+      quotation: Mr. Kim invited a leading Taekwon-do Master, Mr. Jung Tae Park, to move to Winnipeg and
+        open a school. Mr. Kim's academic pursuits required much of his time, but when the new school
+        opened, he continued to teach under Mr. Park, and also learned from him.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- uri: https://www.tkd-seattle.com/grandmaster-kim/
+  cite: Grandmaster Jae Hun Kim - Jae H Kim Taekwondo Institute Seattle
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M3M3T743KNJ71CN2ZMC6Y3V0
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- taekwondo
+- grandmaster
+- kukkiwon
+- instructor
+- martial-arts-entrepreneur
+hasHonorAssertion:
+- id: 01M3YH7N5GRR00VHZSPWKPAEWN
+  honorValue: Grandmaster
+  honorType: honortype:title
+  conferredBy: 01M5CHSP0GXFWH5DQTK69CVWFM
+  dateConferred: 1993-07
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: TKD Seattle site states Kukkiwon Grandmaster rank in 1993; own account only
+  hasEvidence:
+  - uri: https://www.tkd-seattle.com/grandmaster-kim/
+    quotation: >-
+      Mr. Kim received the rank of Grand Master in July, 1993, from the Kukkiwon world Taekwon-do headquarters in South Korea.
+    cite: Grandmaster Kim biography - Kukkiwon rank
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct

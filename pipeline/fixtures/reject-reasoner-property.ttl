@@ -1,0 +1,14 @@
+### Negative control for `make reasoner`: a teacher assertion whose teacher is a
+### Style. The ontology says a TeacherAssertion's teacher is a Person, and Person
+### and Style are disjoint, so the graph is inconsistent - but only if the
+### martialis:teacher triple reaches HermiT as an object property assertion. If
+### the reasoner step ever parses data without the ontology's declarations
+### again (every property value then becomes an ignored annotation), this
+### fixture reasons as consistent and the step fails.
+
+@prefix martialis: <https://w3id.org/martialis/ontology#> .
+
+<https://martial.is/entity/control-teacher-claim> a martialis:TeacherAssertion ;
+    martialis:teacher <https://martial.is/entity/control-style> .
+
+<https://martial.is/entity/control-style> a martialis:Style .

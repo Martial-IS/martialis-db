@@ -1,0 +1,98 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1VA
+name:
+  ja-Latn: Shingai Tadaatsu
+  ja: 真貝忠篤
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1842-03-01'
+  birthPlace:
+    label: Japan
+    countryCode: eucountry:JPN
+    wikidata: wd:Q17
+deathEvent:
+  deathDate: '1920-02-09'
+  deathPlace:
+    label: Japan
+    countryCode: eucountry:JPN
+    wikidata: wd:Q17
+description:
+  en: Shingai Tadaatsu (真貝忠篤) was a Japanese swordsman and kendo master from the Meiji period. He was
+    a samurai of Ōgaki Domain, a kendo instructor for the Imperial Police, and was awarded the rank of
+    hanshi by the Dai Nippon Butoku Kai in 1908.
+hasTeacherAssertion:
+- id: 01M3YH7N5GJC3KPK8MM5EXP7R4
+  teacher: 01M1KR4J6E4KNW44WVG9Z6G7PE
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Student of Shimamura Yūyū in Kubota-ha Tamiya-ryū from age 12, documented in
+      Japanese Wikipedia with specific age of enrollment
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - uri: https://ja.wikipedia.org/wiki/%E7%9C%9F%E8%B2%9D%E5%BF%A0%E7%AF%A4
+      archiveUri: https://ja.wikipedia.org/w/index.php?title=%E7%9C%9F%E8%B2%9D%E5%BF%A0%E7%AF%A4&oldid=96014144
+      cite: 真貝忠篤 - Wikipedia
+      quotation: 12歳で窪田派田宮流の島村勇雄に入門
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- uri: https://ja.wikipedia.org/wiki/%E7%9C%9F%E8%B2%9D%E5%BF%A0%E7%AF%A4
+  archiveUri: https://ja.wikipedia.org/w/index.php?title=%E7%9C%9F%E8%B2%9D%E5%BF%A0%E7%AF%A4&oldid=96014144
+  cite: 真貝忠篤 - Wikipedia
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://en.wikipedia.org/wiki/Kenjutsu
+  cite: Kenjutsu - Wikipedia
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://en.wikipedia.org/wiki/Tamiya-ry%C5%AB_(Tsumaki)
+  cite: Tamiya-ryū (Tsumaki) - Wikipedia
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+notes: Shingai Tadaatsu was born on March 1, 1842, in the Edo residence of the Ōgaki Domain as the seventh
+  son of samurai Shingai Yoshizō. At age 12, he entered Kubota-ha Tamiya-ryū under Shimamura Yūyū. He
+  lost both parents at age 17 and worked as a servant while continuing sword training. He eventually surpassed
+  his teacher and took the name 'Torao' (寅雄), borrowing one character from his teacher's name. During
+  the Boshin War, he fought with the Ōgaki Domain and later joined the Owari Domain's 'Return to Righteousness
+  Corps', where he contracted syphilis which caused his nose to collapse (earning him the nickname 'Noseless
+  Shingai'). After the war, he became a sword instructor at the Owari Domain's Meirinkan school. After
+  the abolition of domains, he made a living through sword exhibitions. Around 1882-1883, he became a
+  sword instructor for the Tokyo Metropolitan Police Department. He later served as a kendo instructor
+  for the Imperial Household Agency Police, Gakushūin, and Keio University. In 1908, he was awarded the
+  rank of hanshi by the Dai Nippon Butoku Kai and served on the committee that established the Dai Nippon
+  Teikoku Kendō Kata. Along with Negishi Shingorō and Tokuno Kaneshirō, he was called one of the 'Three
+  Elders of Eastern Capital Kendo'. He was known as 'Kote-giri Shingai' (Shingai the Wrist-Cutter) for
+  his skill at striking the kote (wrist) and 'Hana-kake Shingai' (Noseless Shingai) due to his collapsed
+  nose from syphilis. In his later years, he was invited to the Kōnishī Brewery's dōjō Shūbukan, where
+  he helped establish the Shūbukan Okunokata along with Tomiyama En (Jikishinkage-ryū) and Midamura Kengyō
+  (Tendō-ryū). He died on February 9, 1920, from a cerebral hemorrhage while on his way to the Imperial
+  Household Agency Police dōjō Saimeikan. His grave is at Aoyama Cemetery.
+sameAs:
+- wd:Q11583522
+hasHonorAssertion:
+- id: 01M3YH7N5GYX6XGZXJBHQJPG04
+  honorValue: 範士
+  honorType: honortype:title
+  honorGrade: honorgrade:shogo_hanshi
+  dateConferred: '1908'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Awarded hanshi (範士) rank by Dai Nippon Butoku Kai in 1908, documented in Japanese
+      Wikipedia with specific year
+  hasEvidence:
+  - uri: https://ja.wikipedia.org/wiki/%E7%9C%9F%E8%B2%9D%E5%BF%A0%E7%AF%A4
+    archiveUri: https://ja.wikipedia.org/w/index.php?title=%E7%9C%9F%E8%B2%9D%E5%BF%A0%E7%AF%A4&oldid=96014144
+    cite: 真貝忠篤 - Wikipedia
+    quotation: 明治41年（1908年）、大日本武徳会から範士号を授与され
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct

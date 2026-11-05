@@ -1,0 +1,144 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD7A
+name:
+  pt: António Corrêa Pereira
+aka:
+  pt:
+  - António Hilmar Schalck Corrêa Pereira
+  - António Correia Pereira
+nationality:
+- countryCode: eucountry:PRT
+  wikidata: wd:Q45
+birthEvent:
+  birthDate: '1906'
+deathEvent:
+  deathDate: '1982'
+image:
+  contentUrl: https://archive.org/download/correapereira3/correapereira3.jpg
+  imageAttribution:
+    basedOnSource: 01M3M37BCN3ETYX1GSP7DHYWGS
+    quotation: Mestre António Corrêa Pereira (1906-1982)
+    informationType: infotype:secondary
+    evidenceType: evidencetype:direct
+description:
+  pt: António Hilmar Schalck Corrêa Pereira foi o fundador da Academia de Judo (1946), Academia de Budo
+    (1958) e da União Portuguesa de Budo. Foi o primeiro português cinto negro inscrito no Kodokan e introduziu
+    o judo marcial em Portugal após treinar jujutsu em Berlim na década de 1930.
+hasTeacherAssertion:
+- id: 01M3YH7N5GCQFN6BP032J9WHW2
+  teacher: 01KJJAWN28MWKKSN4J02MVY1SC
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9G
+  hasConfidence:
+    confidenceLevel: conflevel:possible
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      UBU's own history page states he began Ju-Jutsu training in Berlin in the 1930s, but does not name
+      Erich Rahn specifically; the Rahn attribution rests on unverified leads (see notes).
+  role: teachrole:student
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1930
+    hasEvidence:
+    - basedOnSource: 01M3M37BCNWYSYB60AB8XB2KEV
+      quotation: >-
+        Iniciado na prática do Ju-Jutsu em Berlim, na década de trinta, quando estudava engenharia química na Universidade Técnica de Berlim
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GG2DC0SCR967D24K2
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 1
+  conferredBy: 01KJJAWN29MA64W22606R3WD7X
+  dateConferred: '1958-05-03'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      The Kodokan 1st dan diploma reproduced in UBU's photo archive, signed by Risei Kano, is dated 3 May
+      1958 (昭和三十三年五月三日, «le 3 mai 1958»); Figueiredo's thesis calls him the first black belt
+      registered at the Kodokan.
+  hasEvidence:
+  - uri: https://repositorio.ipv.pt/entities/publication/af1742ab-6917-4a27-8a76-d6f820ae070f
+    cite: FIGUEIREDO, Abel Aurélio Abreu. A institucionalização do karaté-os modelos organizacionais do
+      karaté em Portugal. 2006. PhD Thesis. Instituto Politecnico de Viseu (Portugal)
+    quotation: Mas o arranque institucional que mais influenciará a história do Karaté está na Academia
+      de Judo, propriedade de António Corrêa Pereira, no 3º andar, do n.º 140, da Rua de S. Paulo, em
+      Lisboa. Além de ser o primeiro cinto negro inscrito no Kodokan (Japão) [...] António LIMA retira
+      dos estatutos respectivos a referência de que, em 23 de Fevereiro de 1958, Corrêa Pereira funda
+      a Academia de Budo, sendo «o primeiro Português a possuir a graduação de cinto negro conferida na
+      Alemanha» (LIMA, 1990, p. 121)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M3M37BCNBGZ8XW0CWDDVCN3D
+    quotation: Diploma do Kodokan, atribuido ao Mestre Corrêa Pereira
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M3M37BCN3ETYX1GSP7DHYWGS
+  quotation: Mestre António Corrêa Pereira (1906-1982) Fundador da Academia de Judo (1946) e da Academia
+    de Budo (1958) Fundador da União Portuguesa de Budo Professor de Judo e Budo Introdutor do Judo
+    Marcial em Portugal
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M3M37BCNWYSYB60AB8XB2KEV
+  quotation: >-
+    A União Portuguesa de Budo, a mais antiga associação de Artes Marciais em Portugal, foi fundada pelo Mestre António Hilmar Schalck Corrêa Pereira [...] Iniciado na prática do Ju-Jutsu em Berlim, na década de trinta, quando estudava engenharia química na Universidade Técnica de Berlim [...] Funda então a Academia de Judo, cujo Dojo funcionará na Rua de S. Paulo até à abertura, em 1958, do Dojo de Entrecampos, que passa a chamar-se "Academia de Budo".
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KJJAWN29MA64W22606R3WDA9
+  cite: História do Judo em Portugal - Judolândia
+  quotation: António Correia Pereira foi o editor da primeira revista sobre Judo Kodokan publicada em
+    Portugal, da qual apenas saíram nove números. Sob o pseudónimo de Minero publicou o livro intitulado
+    «A Essência do Judo». Foi o primeiro cinto negro português inscrito no Kodokan, porém por nunca ter
+    estado ligado à Federação Portuguesa de Judo a sua graduação não é reconhecida por aquela entidade.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+notes: 'As relações de aprendizagem entre os membros fundadores da UBU não
+
+  são claras, provavelmente apenas por não serem tópico que é
+
+  expressamente dito nas fontes, mas também provavelmente pela
+
+  dinâmica de grande voluntarismo e inovação que caracterizam uma
+
+  organização que foi pioneira. Uma leitura transversal das várias
+
+  fontes apontam para relações de aprendizagem mútua, com posterior
+
+  validação/homologação em alguns casos (como no do Karate).  Assim,
+
+  a identificação das relações aluno/professor provavelmente
+
+  demonstrarão uma relação em rede, sendo que a figura de Corrêa
+
+  Pereira se apresenta como agregadora, mesmo não sendo na maior
+
+  parte das vezes claro a influência directa (em termos de treino)
+
+  que existiu, em especial a partir do final dos anos 50.  Isto é
+
+  particularmente aplicável ao Judo (e jujutsu), visto que para o
+
+  Aikido e Karate a evolução posterior na UBU permitem leituras mais
+
+  concretas. Sobre o Judo, antes de Shirooka não é claro quem faz a
+
+  instrução, assumindo-se que Corrêa Pereira é uma das fontes (e.g.
+
+  a demonstração com Sebastião Durão). O 1º dan Kodokan é dado como
+
+  atribuido na Alemanha (Figueiredo 2006), em entrevista Luis
+
+  Antunes indica que Corrêa Pereira treinou Jujutsu em Berlim com
+
+  Eric Rahm (buscas no dasjudoforum indicam que esta hipótese não é descabida).
+
+  '

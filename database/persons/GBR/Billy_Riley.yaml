@@ -1,0 +1,111 @@
+type: Person
+id: 01KYEZC879D48ZHB2QX45XRS35
+name:
+  en: Billy Riley
+nationality:
+- countryCode: eucountry:GBR
+  wikidata: wd:Q145
+birthEvent:
+  birthDate: '1896'
+  birthPlace:
+    label: Leigh
+    countryCode: eucountry:GBR
+    wikidata: wd:Q256499
+  hasEvidence:
+  - basedOnSource: 01KYEZC8789TAA85RW0RBYE009
+    quotation: >-
+      Born William Harold Riley 22 June 1896
+    cite: Billy Riley (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: 1977-09
+  deathPlace:
+    label: Wigan
+    countryCode: eucountry:GBR
+    wikidata: wd:Q217094
+  hasEvidence:
+  - basedOnSource: 01KYEZC8789TAA85RW0RBYE009
+    quotation: >-
+      Died 9 September 1977
+    cite: Billy Riley (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: Billy Riley (1896–1977) was an English catch wrestler and coach. He founded Riley's Gym, later known
+    as the Snake Pit, in Wigan in 1948. He trained Karl Gotch, Billy Robinson, and other wrestlers who
+    became foundational figures in catch wrestling, professional wrestling, and modern MMA.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/en/b/bc/Billy_Riley_%28wrestler%29.jpg
+  imageAttribution:
+    uri: https://en.wikipedia.org/wiki/File:Billy_Riley_(wrestler).jpg
+    cite: "English Wikipedia"
+    informationType: infotype:secondary
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M3YH7N5GFBHTE9EX2WYMZANH
+  teacher: 01M1KJ1TY26C6SAFAX7BRASZPK
+  assertedStyle: 01KYEWRMWERM1HW12W53HE9G4A
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Riley trained under Willie Charnock, Peter Burns, and Waino Ketonen; documented
+      in wrestling history but details are sparse
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KYEZC8789TAA85RW0RBYE009
+      cite: Billy Riley (Wikipedia EN)
+      quotation: 'Trainer: Willie Charnock'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GX080FQFME54YJ5DG
+  teacher: 01M1KJ1TY2A7WN2BYYW1AMQ1B3
+  assertedStyle: 01KYEWRMWERM1HW12W53HE9G4A
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Riley trained under Willie Charnock, Peter Burns, and Waino Ketonen; documented
+      in wrestling history but details are sparse
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KYEZC8789TAA85RW0RBYE009
+      cite: Billy Riley (Wikipedia EN)
+      quotation: 'Trained by [...] Peter Burns'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5G16VPBFKGCYPHWD5R
+  teacher: 01M1KJ1TY232ZE0KH6WA1XD04A
+  assertedStyle: 01KYEWRMWERM1HW12W53HE9G4A
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Riley trained under Willie Charnock, Peter Burns, and Waino Ketonen; documented
+      in wrestling history but details are sparse
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KYEZC8789TAA85RW0RBYE009
+      cite: Billy Riley (Wikipedia EN)
+      quotation: 'Trained by [...] Vaino Ketonen'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KYEZC8789TAA85RW0RBYE009
+  cite: Billy Riley (Wikipedia EN)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q4913244
+tags:
+- catch-wrestling
+- snake-pit
+- wigan
+- coach

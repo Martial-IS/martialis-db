@@ -1,0 +1,194 @@
+type: Person
+id: 01M0QZ9H4W5FQD8EGQG7V4HYJP
+name:
+  en: Donnie Yen
+  zh: 甄子丹
+aka:
+  en:
+  - Donnie Yen Chi-tan
+  zh:
+  - 甄功夫
+nationality:
+- countryCode: eucountry:CHN
+  wikidata: wd:Q17
+- countryCode: eucountry:HKG
+  wikidata: wd:Q8646
+birthEvent:
+  birthDate: '1963-07-27'
+  birthPlace:
+    label: Guangzhou
+    countryCode: eucountry:CHN
+    wikidata: wd:Q15180
+hasTeacherAssertion:
+- id: 01M3YH7N5GFNF1THDVJ2JHE3GR
+  teacher: 01M1F0B3712KTW5YTPYS6S24B0
+  assertedStyle: 01KYHRZE60P1GBRPFW8VZXG7GR
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Wikipedia, citing her own books, and a profile that may follow it; her bio names him but not as
+      her student.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M0QZ9H4V6G2YR7JTVVTMX0BN
+      quotation: He learned Shaolin Kung Fu and wudangquan at a young age under his mother's tutelage.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M1F08EA9161RYHDRMF2DW5AP
+      quotation: 'Her son, Donnie Yen, became a global martial arts film icon and one of cinema’s most recognized action stars.'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:indirect
+    - basedOnSource: 01M5FJCW4HEHB2D7YTE033RXFE
+      quotation: >-
+        Yen’s training in tai chi and traditional Chinese martial arts began very young under his mother
+        Bow-sim Mark.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M4XCA3K46KG8MZQSAYX7AK1P
+  teacher: 01M1F0B3712KTW5YTPYS6S24B0
+  assertedStyle: 01KYHQNWJFK4AWV782SEB1AAFK
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Wikipedia, citing her own books, and a profile that may follow it; her bio names him but not as
+      her student.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M0QZ9H4V6G2YR7JTVVTMX0BN
+      quotation: He learned Shaolin Kung Fu and wudangquan at a young age under his mother's tutelage.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M1F08EA9161RYHDRMF2DW5AP
+      quotation: 'Her son, Donnie Yen, became a global martial arts film icon and one of cinema’s most recognized action stars.'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:indirect
+    - basedOnSource: 01M5FJCW4HEHB2D7YTE033RXFE
+      quotation: >-
+        Yen’s training in tai chi and traditional Chinese martial arts began very young under his mother
+        Bow-sim Mark.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GJYK72Z8E5SJ68GW7
+  teacher: 01M0NVYZ4HBB012MEVJHZWJXYP
+  assertedStyle: 01M0QCH9A4Y8JQ2F9C0BJGH543
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Wu Bin himself confirmed training Yen at Beijing Shichahai Sports School in multiple
+      interviews (National Sports Bureau, Sina, Global People). Yen's mother Bow-sim Mark arranged the
+      training after the Beijing Wushu Team visited Boston following Shaolin Temple (1982).
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1981
+      endYear: 1983
+    hasEvidence:
+    - basedOnSource: 01M0QZ9H4W5FQD8EGQG7V4HYJS
+      quotation: 在国内将近两年断断续续的训练
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M0QZEZPNJYRH9RP2QGVHVTQP
+      quotation: 甄子丹是他收进北京武术队的。[...]吴彬只留下了甄子丹一人。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GTNAEP0FC33R9HDHV
+  rankStyle: 01KJJAWN29MA64W22606R3WD9J
+  rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+  rankGrade: rankgrade:bjj_purple
+  dateConferred: '2005'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Gracie Magazine (Oct 13, 2011) calls Donnie Yen a "purple belt in Jiu-Jitsu."
+      No named instructor documented. Trained alongside John Paul Salvitti in Boston circa 2000-2007 (MAAC
+      interview, Kung Fu Kingdom interview).
+  hasEvidence:
+  - basedOnSource: 01M1CK3ZE9KQ4QCP0W7DGR93R8
+    quotation: An MMA fan and practitioner, the actor is also a purple belt in Jiu-Jitsu.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5GP6XZMS0PZMABBRMC
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankOrdinal: 1
+  rankType: ranktype:dan
+  dateConferred: '2005'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: English Wikipedia states he obtained a black belt in judo; no instructor or granting body named; Wikipedia only
+  hasEvidence:
+  - basedOnSource: 01M0QZ9H4V6G2YR7JTVVTMX0BN
+    quotation: Over the course of his life, Yen embarked on a quest to explore and acquire expertise in various other forms of martial arts disciplines; he obtained black and purple belts in Judo and Brazilian Jiu-Jitsu, respectively, and went on to study Wrestling, Muay Thai, and Boxing under various instructors.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5G31B3F32NHTARF5FR
+  rankStyle: 01KYHTJXCXHYSC519CB367XXZK
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankOrdinal: 6
+  rankType: ranktype:dan
+  dateConferred: '1979'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: English Wikipedia states he earned a 6th dan in taekwondo in his teenage years; no instructor or granting body named; Wikipedia only
+  hasEvidence:
+  - basedOnSource: 01M0QZ9H4V6G2YR7JTVVTMX0BN
+    quotation: He then wanted to learn Taekwondo in his teenage years, earning a 6th Dan in the process.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M0QZ9H4V6G2YR7JTVVTMX0BN
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0QZ9H4W5FQD8EGQG7V4HYJS
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0QZEZPNJYRH9RP2QGVHVTQP
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M1F08EA9161RYHDRMF2DW5AP
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q311723
+tags:
+- chinese-martial-arts
+- wushu
+- actor
+- changquan
+- beijing-wushu-team
+- bjj
+- judo
+- mma
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/1/19/Donnie_Yen_20250323.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20250323190528
+  rights: mediarights:cc0-1.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Donnie_Yen_20250323.jpg
+    cite: "Will629, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: Chinese martial artist and actor born in Guangzhou. Trained Changquan under his mother Bow-sim Mark
+    and Wu Bin at the Beijing Shichahai Sports School. Also trained Wing Chun under Ip Chun and received
+    film mentorship from Yuen Woo-ping. Starred in over 80 films including Ip Man, Hero, and Rogue One.

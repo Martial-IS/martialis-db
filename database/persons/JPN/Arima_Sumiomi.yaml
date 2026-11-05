@@ -1,0 +1,67 @@
+type: Person
+id: 01M5HMRGB7WVKQPRNZBC6F4PWH
+name:
+  ja-Latn: Arima Sumiomi
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+description:
+  en: >-
+    Early non-resident judo student of Kanō Jigorō, also taught by him at Gakushūin; later a school
+    principal, chamberlain to the imperial family and member of the House of Peers. Kanō appointed him
+    head of the Kumamoto branch of the Kōdōkan in 1893. Kōdōkan 4th dan.
+notes: >-
+  The memoirs (English translation) spell him "Sumifumi Arima" on p. 20 and "Sumiomi Arima" on p. 57;
+  no kanji in hand.
+hasTeacherAssertion:
+  - id: 01M5HMRGB7V3FZEAJ5Q4JS1XAZ
+    teacher: 01KJJAWN28MWKKSN4J02MVY1S1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Kano's own account only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+            quotation: >-
+              Among my former non-resident judo students were some who eventually gained black belt
+              status and who are now members of the House of Peers. These politicians include Naruyasu
+              Okeguchi and Sumifumi Arima, chamberlain to the imperial family.
+            locator: '20'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M5HMRGB7G1MASQ5DC4QRSGQP
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 4
+    conferredBy: 01KJJAWN29MA64W22606R3WD7X
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The granting body's head states it.
+    hasEvidence:
+      - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+        quotation: He later gained a Kodokan 4th dan
+        locator: '57'
+        locatorLabel: page
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+    quotation: >-
+      I thereupon appointed Sumiomi Arima, who had been one of my political science and economics
+      students at Gakushuin, as head of the Kumamoto branch of the Kodokan.
+    locator: '57'
+    locatorLabel: page
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo

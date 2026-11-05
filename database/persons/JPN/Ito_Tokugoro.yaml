@@ -1,0 +1,98 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1S7
+name:
+  ja-Latn: Itō Tokugorō
+  ja: 伊藤 徳五郎
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1878'
+  birthPlace:
+    label: Daisen City, Akita Prefecture
+    countryCode: eucountry:JPN
+    wikidata: wd:Q695920
+deathEvent:
+  deathDate: '1939-01-22'
+  deathPlace:
+    label: Japan
+    countryCode: eucountry:JPN
+    wikidata: wd:Q17
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/en/5/5c/Ito_PI_nov_6_1909jpg.JPG
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://en.wikipedia.org/wiki/File:Ito_PI_nov_6_1909jpg.JPG
+    cite: "English Wikipedia"
+hasTeacherAssertion:
+- id: 01M3YH7N5GPKM8ERGN4JGJ43DH
+  teacher: 01KJJAWN28MWKKSN4J02MVY1S1
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Independent sources state it.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+    hasEvidence:
+    - uri: https://www.city.daisen.lg.jp/docs/2013110800147/file_contents/3.pdf
+      archiveUri: https://web.archive.org/web/20220911182733/https://www.city.daisen.lg.jp/docs/2013110800147/file_contents/3.pdf
+      cite: Cosmos, Daisen City Lifelong Learning Information Magazine, No. 3 , Daisen City Lifelong Learning
+        Promotion Headquarters, December 15, 2008
+      locator: '32'
+      locatorLabel: page
+      quotation: １９０２（明治35）年、講道館に日本柔道の創始者嘉納治五郎の門下に入る。
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://ja.wikipedia.org/wiki/%E4%BC%8A%E8%97%A4%E5%BE%B3%E4%BA%94%E9%83%8E
+      archiveUri: https://ja.wikipedia.org/w/index.php?title=%E4%BC%8A%E8%97%A4%E5%BE%B3%E4%BA%94%E9%83%8E&oldid=111086182
+      quotation: 中退後は講道館で嘉納治五郎門下となって磯貝一・徳三宝・三船久蔵らと共に柔道に励んだ
+      informationType: infotype:secondary
+      supports: true
+      cite: 伊藤徳五郎 - 日本語版ウィキペディア
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GD7HKJBM5B7BR3VNC
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 5
+  conferredBy: 01KJJAWN29MA64W22606R3WD7X
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: 5 dan rank mentioned in multiple historical sources including wrestling match
+      reports and Japanese Wikipedia
+  hasEvidence:
+  - uri: https://www.attacktheback.com/catch-wrestling/
+    quotation: One of the first major intercultural clashes of the 20th century in martial arts, between
+      the American wrestler Ad Santel and the Japanese Tokugoro Ito, black belt judo of the fifth degree.
+    informationType: infotype:secondary
+    supports: true
+    cite: Catch Wrestling - The Grappling Art That Started it All
+    evidenceType: evidencetype:direct
+hasEvidence:
+- uri: https://ja.wikipedia.org/wiki/%E4%BC%8A%E8%97%A4%E5%BE%B3%E4%BA%94%E9%83%8E
+  archiveUri: https://ja.wikipedia.org/w/index.php?title=%E4%BC%8A%E8%97%A4%E5%BE%B3%E4%BA%94%E9%83%8E&oldid=111086182
+  informationType: infotype:secondary
+  supports: true
+  cite: 伊藤徳五郎 - 日本語版ウィキペディア
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+  cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil
+    e no mundo. 2020.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.attacktheback.com/catch-wrestling/
+  informationType: infotype:secondary
+  supports: true
+  cite: Catch Wrestling - The Grappling Art That Started it All
+  evidenceType: evidencetype:direct
+notes: The English Wikipedia article on Sanpo Toku lists Tokugoro Ito among Toku's teachers, but the Japanese
+  sources frame the two as fellow Kodokan students under Kano (the Japanese Wikipedia article on Ito records
+  that he trained in judo together with Isogai Hajime, Toku Sanpo and Mifune Kyuzo). The teacher-student
+  relationship is therefore uncertain and is recorded on Toku's entry as probable with this
+  nuance.

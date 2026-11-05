@@ -1,0 +1,45 @@
+type: Person
+id: 01M5HP2J2C6JVP17J7A8V08D11
+name:
+  ja-Latn: Satō Noritaka
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+description:
+  en: >-
+    Early Kōdōkan judoka, one of the Kanō Juku students specialising in judo; with Yamashita Yoshitsugu
+    one of the first two judo instructors at the Naval Academy.
+notes: >-
+  The memoirs call him "Nori Sato" (p. 48) and "Noritaka Sato" (p. 50); same man assumed from the
+  context (both are Kano's early judo specialists).
+hasTeacherAssertion:
+  - id: 01M5HP2J2C0N427YJYXK138AZ9
+    teacher: 01KJJAWN28MWKKSN4J02MVY1S1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Kano's own account only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+            quotation: >-
+              Those who were specializing in judo included Shiro Saigo, Yoshitsugu Yamashita, Sakujiro
+              Yokoyama, Saburo Toharitaki, Nori Sato and Muneji Kimotsuki.
+            locator: '48'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+    quotation: >-
+      the first two instructors nominated to teach were Yoshitsugu Yamashita and Noritaka Sato.
+    locator: '50'
+    locatorLabel: page
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo

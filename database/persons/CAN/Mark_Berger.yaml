@@ -1,0 +1,45 @@
+type: Person
+id: 01M5H5WE2WD5X1QGW4ARH9A7X1
+name:
+  en: Mark Berger
+nationality:
+  - countryCode: eucountry:CAN
+    wikidata: wd:Q16
+description:
+  en: >-
+    Canadian heavyweight judoka from Winnipeg, pupil of Moe Oye; Olympic bronze medallist at Los
+    Angeles 1984, the second Canadian Olympic judo medal after Doug Rogers.
+hasTeacherAssertion:
+  - id: 01M5H5WE2WSSFAGPFXA2Z8GR8Q
+    teacher: 01M5H5WE2WCXBMRSN9814XD9NQ
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              He has produced over 60 black belts including his son, Steven, a national champion in
+              1997, and coached outstanding athletes such as Olympians Mark Berger, Ewan Beaton, and
+              Niki Jenkins.
+            locator: '124'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    quotation: Canada’s Mark Berger won a bronze medal at the 1984 Games in Los Angeles
+    locator: '146'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q6766718
+tags:
+  - judo
+  - canada

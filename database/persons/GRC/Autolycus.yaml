@@ -1,0 +1,36 @@
+type: Person
+id: 01M5JWHXPX2D6SNV0Y09Z6EHXF
+name:
+  en: Autolycus
+  el: Αὐτόλυκος
+description:
+  en: >-
+    Figure of Greek mythology who taught Heracles to wrestle.
+hasHistoricityAssertion:
+  - id: 01M5JWHXPXY4P310KAY8ZGN9WB
+    historicity: hist:legendary
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Implied only: teacher of a mythical hero.
+    hasEvidence:
+      - basedOnSource: 01M5JWHXPXNMMMTGN364P5DGDP
+        quotation: >-
+          He learned how to wrestle from Autolycus.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5JWHXPXNMMMTGN364P5DGDP
+    quotation: >-
+      He learned how to wrestle from Autolycus.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q463107
+tags:
+  - legend
+  - wrestling
+  - greece

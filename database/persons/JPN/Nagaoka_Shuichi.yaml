@@ -1,0 +1,123 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1VE
+name:
+  ja-Latn: Nagaoka Shūichi
+  ja: 永岡 秀一
+aka:
+  ja-Latn: Nagaoka Hideichi
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1876-09-17'
+  birthPlace:
+    label: Okayama
+    countryCode: eucountry:JPN
+    wikidata: wd:Q200078
+deathEvent:
+  deathDate: '1952-11-22'
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/7/72/Nagaoka_Hideichi.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Nagaoka_Hideichi.jpg
+    cite: "横山健堂, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: Early student of Kodokan judo and the third person to be promoted to 10th dan. Assisted in spreading
+    judo in the Kansai region and taught at multiple institutions including the Tokyo Metropolitan Police
+    Department and Chuo University.
+hasTeacherAssertion:
+- id: 01M3YH7N5GB1PQES9VBSVC3YQR
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9P
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Trained in Kito-ryu jujutsu under Noda Gonzaburō in Okayama before moving to
+      Tokyo, as documented in Wikipedia biography
+  role: teachrole:student
+  teacher: 01M1KSJ12Q2ATS2T25TKR2SR2Z
+  hasInteraction:
+  - hasEvidence:
+    - uri: https://en.wikipedia.org/wiki/Shuichi_Nagaoka
+      archiveUri: https://en.wikipedia.org/w/index.php?title=Shuichi_Nagaoka&oldid=1378329692
+      cite: Shuichi Nagaoka - Wikipedia
+      quotation: He trained in Kito-ryu jujutsu under Noda Kensaburo (野田 権三郎) in Okayama before moving
+        to Tokyo in 1892.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5G4JEXG7KGWT56EMX3
+  teacher: 01KJJAWN28MWKKSN4J02MVY1S1
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Early student of Kodokan judo under Jigoro Kano, started training at Kodokan
+      in January 1893 and earned 1st dan in September 1894, as documented in multiple sources
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+    interactionPeriod:
+      startYear: 1893
+    hasEvidence:
+    - uri: https://en.wikipedia.org/wiki/Shuichi_Nagaoka
+      archiveUri: https://en.wikipedia.org/w/index.php?title=Shuichi_Nagaoka&oldid=1378329692
+      cite: Shuichi Nagaoka - Wikipedia
+      quotation: In January 1893 he started training at the Kodokan, earning his first dan in September
+        1894.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://www.judo-ch.jp/english/legend/nagaoka/
+      cite: Shuichi Nagaoka - Judo Channel
+      quotation: He came to Tokyo in 1892 and entered Kodokan in January of 1893. He subsequently taught
+        Judo at the First Higher School, as well as in other schools in Tokyo.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GDNSZ0M9CC9EBC8JD
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 10
+  conferredBy: 01KJJAWN29MA64W22606R3WD7X
+  grantedBy: 01KJJAWN28MWKKSN4J02MVY1S1
+  dateConferred: '1937-12-27'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Promoted to 10th dan on December 27, 1937, the third person to be afforded this
+      honour and the last person to be promoted to that rank by Kano Shihan, as documented in multiple
+      reliable sources
+  hasEvidence:
+  - uri: https://en.wikipedia.org/wiki/Shuichi_Nagaoka
+    archiveUri: https://en.wikipedia.org/w/index.php?title=Shuichi_Nagaoka&oldid=1378329692
+    cite: Shuichi Nagaoka - Wikipedia
+    quotation: He was promoted to tenth dan on 27 December 1937, the third person to be afforded the honour,
+      and the last person to be promoted to that rank by Kano Shihan.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://www.judo-ch.jp/english/legend/nagaoka/
+    cite: Shuichi Nagaoka - Judo Channel
+    quotation: December, 1937 - 10th Dan
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- uri: https://en.wikipedia.org/wiki/Shuichi_Nagaoka
+  archiveUri: https://en.wikipedia.org/w/index.php?title=Shuichi_Nagaoka&oldid=1378329692
+  cite: Shuichi Nagaoka - Wikipedia
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.judo-ch.jp/english/legend/nagaoka/
+  cite: Shuichi Nagaoka - Judo Channel
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q11550029
+- dbr:Shuichi_Nagaoka

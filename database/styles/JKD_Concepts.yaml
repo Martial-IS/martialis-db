@@ -1,0 +1,92 @@
+type: Style
+id: 01KZ14WPRSHCHK4EJKNSP7S0CM
+name:
+  en: Jeet Kune Do Concepts
+aka:
+  en:
+  - JKDC
+  - Jeet Kun Do Concepts
+styleType: styleclass:modern
+styleForm:
+- styleform:hybrid
+foundedEvent:
+  hasEvidence:
+  - basedOnSource: 01KZ14VST7480QQ2RE29TWBMT0
+    quotation: The JKD Concepts branch, whose proponents include Dan Inosanto, Richard Bustillo, and Larry
+      Hartsell; these groups strive to continue the philosophy of individual self-expression through re-interpretation
+      of combat systems through the lens of Jeet Kune Do
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: 'One of the two posthumous branches of Jeet Kune Do, led by Dan Inosanto after Bruce Lee''s death
+    in 1973. It continues Lee''s philosophy of individual self-expression, re-interpreting combat systems
+    through the lens of Jeet Kune Do and incorporating elements from other martial arts - most notably
+    grappling and Filipino martial arts (Kali, Escrima, Arnis).
+
+    '
+hasStyleRelationAssertion:
+- id: 01M3YH7N5GTGT9023FTMXH14S2
+  relatedStyle: 01KYD5XSZPND9XV5FHYG9V0ZV6
+  styleRelationType: stylerel:split_from
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: After Bruce Lee's death, JKD split into the Original (Jun Fan) branch and the
+      JKD Concepts branch; the Wikipedia JKD article and the JKDC site both describe JKD Concepts as a
+      distinct posthumous branch led by Dan Inosanto
+  hasEvidence:
+  - basedOnSource: 01M34WF2FAAC7W2HBE63VDPQXA
+    quotation: The JKD Concepts branch, whose proponents include Dan Inosanto, Richard Bustillo, and Larry
+      Hartsell; these groups strive to continue the philosophy of individual self-expression through re-interpretation
+      of combat systems through the lens of Jeet Kune Do
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ14VST7480QQ2RE29TWBMT0
+    quotation: The JKD Concepts branch, whose proponents include Dan Inosanto, Richard Bustillo, and Larry
+      Hartsell
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5G4X8KZZW178H3RERS
+  relatedStyle: 01KYEY02EKTWX5K8ZBVZ9SQHYS
+  styleRelationType: stylerel:influenced_by
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: The JKD Concepts branch was influenced by Filipino martial arts (Kali, Escrima,
+      Arnis), which were incorporated as component material; the Wikipedia JKD article names Kali/Escrima
+      among the influences and jkdfamily.ca lists Filipino Martial Arts among the component arts
+  hasEvidence:
+  - basedOnSource: 01M34WF2FAAC7W2HBE63VDPQXA
+    quotation: and have incorporated elements from many other martial arts into the main fold of its teachings
+      (most notably, grappling and Kali / Escrima material)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ14VST74ZGMA654ZA5VBD4Q
+    quotation: JKD Concepts incorporates a diverse range of martial arts such as Wing Chun, French Savate,
+      Jiu-Jitsu, Muay Thai, and Filipino Martial Arts (Kali, Silat, Escrima).
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZ14VST7480QQ2RE29TWBMT0
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ14VST74ZGMA654ZA5VBD4Q
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KYD5XMNMJAAPE1B8773N3ANT
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- jeet-kune-do
+- jkdc
+- hybrid
+- bruce-lee
+- inosanto

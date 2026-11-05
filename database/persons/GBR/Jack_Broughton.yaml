@@ -1,0 +1,100 @@
+type: Person
+id: 01M5JPY6FN8JJDRXE32238VE7H
+name:
+  en: Jack Broughton
+aka:
+  en:
+    - John Broughton
+    - Father of English Boxing
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+birthEvent:
+  birthDate: '1703~'
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNB2HP52J6G7W21P3V
+      quotation: >-
+        John Broughton (c. 1703 – 8 January 1789) was an English bare-knuckle boxer.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1789-01-08'
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNB2HP52J6G7W21P3V
+      quotation: >-
+        John Broughton (c. 1703 – 8 January 1789) was an English bare-knuckle boxer.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    English prizefighter, a former pupil of James Figg and champion of England from 1738 until Jack
+    Slack beat him in 1750. He wrote the first boxing rules (1743), ran his own amphitheatre in Oxford
+    Road, coached gentlemen with "mufflers", the first boxing gloves, and was later called the father of
+    English boxing.
+hasTeacherAssertion:
+  - id: 01M5JPY6FNXM5KHHGZG75P3XRE
+    teacher: 01M5JPY6FNBQZ36WZ4QDD1ZST8
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              In 1738, a former pupil of Figg, Jack Broughton (ca. 1703–1789), became champion.
+            locator: '228'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M5JPY6FN0Z6YVBCE4TGCDEJG
+    honorValue: Champion of England
+    honorType: honortype:title
+    dateConferred: '1738'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          In 1738, a former pupil of Figg, Jack Broughton (ca. 1703–1789), became champion.
+        locator: '228'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Broughton’s reforms and his unusually cultured, almost classless, demeanor meant that the social
+      elite of the era flocked to spar with and be coached by him.
+    locator: '229'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5JPY6FNB2HP52J6G7W21P3V
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q1346464
+tags:
+  - boxing
+  - prizefighting
+  - united-kingdom
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/9/94/Jack_Broughton_3.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Jack_Broughton_3.jpg
+    cite: "Mezzotint possibly by John Faber Jr, possibly after a painting John Ellys, Wikimedia Commons"
+    informationType: infotype:secondary

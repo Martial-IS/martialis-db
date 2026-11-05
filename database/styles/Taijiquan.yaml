@@ -1,0 +1,64 @@
+type: Style
+id: 01KYJ80JXEH8J0AWW86F1ATQEZ
+name:
+  en: Taijiquan
+  zh: 太極拳
+aka:
+  en:
+  - Tai Chi
+  - Tai Chi Chuan
+styleType: styleclass:traditional
+description:
+  en: Taijiquan is a Chinese internal (neijia) martial art practiced for combat, health, and meditation.
+    It features slow flowing movements coordinated with breath, rooted in Taoist philosophy. Traditionally
+    associated with the Wudang school, its core principle is using softness to overcome hardness. The
+    most widespread modern form is the Yang-style simplified sequence.
+foundedEvent:
+  startDate: 1600~
+  location:
+    countryCode: eucountry:CHN
+  hasEvidence:
+  - uri: https://en.wikipedia.org/wiki/Tai_chi
+    quotation: >-
+      Date of formation late 16th century
+    cite: Tai chi - Wikipedia
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasStyleRelationAssertion:
+- id: 01M3YH7N5G6FNRBE0ANE3KNX0H
+  relatedStyle: 01KYHQNWJFK4AWV782SEB1AAFK
+  styleRelationType: stylerel:variant_of
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Taijiquan is commonly classified as one of the core internal styles of the Wudang
+      school alongside Xingyiquan and Baguazhang; the cited Wikipedia article confirms the general Wudang
+      classification but does not list it alongside Xingyiquan and Baguazhang specifically
+  hasEvidence:
+  - uri: https://en.wikipedia.org/wiki/Tai_chi
+    cite: Tai chi - Wikipedia
+    quotation: Tai chi is categorized under the Wudang grouping of Chinese martial arts
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- uri: https://en.wikipedia.org/wiki/Tai_chi
+  cite: Tai chi - Wikipedia
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q167987
+tags:
+- chinese-martial-arts
+- taijiquan
+- tai-chi
+- wudang
+- neijia
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/7/7f/Yang-single_%28restoration%29.jpg
+    rights: mediarights:public_domain_mark
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:Yang-single_(restoration).jpg
+      cite: "Wikimedia Commons"

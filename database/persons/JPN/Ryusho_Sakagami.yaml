@@ -1,0 +1,78 @@
+type: Person
+id: 01KYJC7J3M35592P3M6RGVKC41
+name:
+  en: Ryusho Sakagami
+  ja: 坂上 隆祥
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1915'
+  hasEvidence:
+  - uri: https://ja.wikipedia.org/wiki/%E5%9D%82%E4%B8%8A%E9%9A%86%E7%A5%A5
+    archiveUri: https://ja.wikipedia.org/w/index.php?title=%E5%9D%82%E4%B8%8A%E9%9A%86%E7%A5%A5&oldid=109119212
+    quotation: >-
+      坂上 隆祥（さかがみ りゅうしょう、1915年（大正4年）4月13日 - 1993年（平成5年）12月28日）
+    cite: Ryūshō Sakagami (Japanese Wikipedia)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1993'
+  hasEvidence:
+  - uri: https://ja.wikipedia.org/wiki/%E5%9D%82%E4%B8%8A%E9%9A%86%E7%A5%A5
+    archiveUri: https://ja.wikipedia.org/w/index.php?title=%E5%9D%82%E4%B8%8A%E9%9A%86%E7%A5%A5&oldid=109119212
+    quotation: >-
+      坂上 隆祥（さかがみ りゅうしょう、1915年（大正4年）4月13日 - 1993年（平成5年）12月28日）
+    cite: Ryūshō Sakagami (Japanese Wikipedia)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: Japanese karateka and head of the Itosu-kai organization. He was a student of Kenwa Mabuni, founder
+    of Shito-ryu, and became a leading figure in the style. He was the primary karate instructor of Fumio
+    Demura, who began training under Sakagami at age 12 in 1950.
+hasTeacherAssertion:
+- id: 01M3YH7N5GZTNSA0PPHDF7ZKYS
+  teacher: 01KYJCSK3HM7WV1EJPH94Q18T2
+  assertedStyle: 01KYFZEGYN7A9G4FSTXBPDBG8P
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Sakagami studied under Kenwa Mabuni, founder of Shito-ryu, and helped him open
+      dojos in the Osaka area
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KYJCSK3H82T2JJ9P8N28CZ4T
+      cite: Kenwa Mabuni (Wikipedia EN)
+      quotation: With the support of Sakagami Ryusho, he opened a number of Shito-ryu dojo in the Osaka
+        area
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://www.jkr-uk.org.uk/shinken-taira
+      cite: Shinken Taira - JKR-UK
+      quotation: Sakagami Sensei would produce one of kobujutsu most famous students [...] Fumio Demura
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- uri: https://ja.wikipedia.org/wiki/%E5%9D%82%E4%B8%8A%E9%9A%86%E7%A5%A5
+  archiveUri: https://ja.wikipedia.org/w/index.php?title=%E5%9D%82%E4%B8%8A%E9%9A%86%E7%A5%A5&oldid=109119212
+  cite: Ryūshō Sakagami (Japanese Wikipedia)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KYJCSK3H82T2JJ9P8N28CZ4T
+  cite: Kenwa Mabuni (Wikipedia EN)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q11424814
+tags:
+- karate
+- shito-ryu
+- itosu-kai
+- fumio-demura-teacher

@@ -1,0 +1,91 @@
+type: Person
+id: 01KYQB8J2N2PBYQS90QCT8VS1Q
+name:
+  en: Michael J. O'Malley
+aka:
+  en:
+    - Michael O'Malley
+    - Mike O'Malley
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1957'
+  birthPlace:
+    label: Boston, Massachusetts
+    countryCode: eucountry:USA
+    wikidata: wd:Q100
+  hasEvidence:
+    - basedOnSource: 01KYQGQ49K6KFFP8RZGCZVCWMP
+      quotation: >-
+        O'Malley (born in Boston, Massachusetts)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: 'American taekwondo practitioner and instructor. A 4-time US National Champion, undefeated in his national title reign from 1978 to 1981. He was elected US Team Captain in 1980 and 1981, and coached the US Olympic team ahead of the 1988 Seoul Games. He won bronze at the 1978 Pan American Games and gold at the 1980 Pan American Games. Inducted into the Taekwondo Hall of Fame in 2011 under Lifetime Achievement.
+
+
+    He began taekwondo at age 14 at Jae Hun Kim''s school near Fenway Park in Boston, took his black belt test at age 16 in the home of General Choi Hong Hi, and later ran Kim''s school while Kim completed military service in South Korea. He opened the O''Malley Tae Kwon Do Center in Peabody, Massachusetts in 2011 and sold the business in 2025. He was one of Joe Rogan''s taekwondo instructors at the JHK Institute.
+
+'
+image:
+  contentUrl: https://taekwondohalloffame.com/wp-content/uploads/2021/04/mike16-e1619201550219.jpeg
+  imageAttribution:
+    uri: https://taekwondohalloffame.com/honorees/gm-michael-omalley/
+    cite: "Taekwondo Hall of Fame"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+  - id: 01M3YH7N5GNBJ1FYE6E0JZXT98
+    teacher: 01KYQB8J2N6ZQ8B1QY5K24QY9P
+    assertedStyle: 01KYQM3M5C2M9KJ36E6Q1JEWN3
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: CNHI article confirms O'Malley trained under Jae Hun Kim from age 14
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1972
+        hasEvidence:
+          - basedOnSource: 01KYSKCFDX86FB1K5VWGVKQT50
+            quotation: He looked around for martial arts schools and found one near Fenway Park run by Jae Hun Kim, an MIT student who was the first person to bring authentic Taekwondo to New England.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KYSKCFDYXBS3QDY4H9DKQXCD
+            quotation: 'Jae Hun Kim (Mr. O’Malley’s instructor, Founder of the Jae H. Kim Tae Kwon Do Institute)'
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYQGQ49K6KFFP8RZGCZVCWMP
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYSKCFDX86FB1K5VWGVKQT50
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYSKCFDYXBS3QDY4H9DKQXCD
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://taekwondohalloffame.com/honorees/gm-michael-omalley/
+    cite: Taekwondo Hall of Fame - Master Michael O'Malley
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M3M3T743KNJ71CN2ZMC6Y3V0
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q16733741
+tags:
+  - taekwondo
+  - national-champion
+  - hall-of-fame
+  - instructor
+  - us-team-captain
+  - olympic-coach

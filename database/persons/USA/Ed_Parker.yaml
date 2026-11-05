@@ -1,0 +1,54 @@
+type: Person
+id: 01M5H43V0TEPYDCNNZKASWJ4SH
+name:
+  en: Ed Parker
+aka:
+  en: Edmund Kealoha Parker
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+description:
+  en: >-
+    Hawaiian-born karate teacher who brought Kenpo karate to the mainland United States in 1954 and
+    developed American Kenpo; taught many Hollywood actors and introduced Bruce Lee to the film
+    industry.
+notes: Green & Svinth give his dates as 1930–1990 in the Kenpo entry (p. 49) and 1931–1990 in other entries.
+hasTeacherAssertion:
+  - id: 01M5H43V0TC5D9WFTFQWC3QMGV
+    teacher: 01M5H43V0TVKXWKRMCRZWCYMYQ
+    assertedStyle: 01M5H43V0TP79D1TK9BV4TWWZD
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Parker’s American Kenpo system is based on the martial arts that Parker learned in
+              Honolulu from William Kwai Sun Chow (1914–1987).
+            locator: '49'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: 49-52
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q653633
+tags:
+  - karate
+  - kenpo
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/0/0f/Ed_Parker_Chile_1981.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Ed_Parker_Chile_1981.jpg
+    cite: "LuisFer Dominguez Serra, Wikimedia Commons"
+    informationType: infotype:secondary

@@ -1,0 +1,47 @@
+type: Person
+id: 01M37JTCRF4TXBGPW8AP4W1904
+name:
+  ja-Latn: Itō Ittōsai Kagehisa
+  ja: 伊東一刀斎景久
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+hasTeacherAssertion:
+- id: 01M3YH7N5GJ3J9VM8WAMNG8NGJ
+  teacher: 01M37JTCRFDVEE68RGVPFQQX9S
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Bennett quotes Hinatsu's Honchō bugei shōden for the relation rather than asserting
+      it himself.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+      quotation: Itō Ittōsai Kagehisa hailed from Izu. He studied under Kanemaki Jisai and mastered the
+        Chūjō tradition of sword and spear usage.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/e/eb/Itou_Ittousai.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Itou_Ittousai.jpg
+    cite: "模写・仙龍, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: Swordsman from Izu who founded the Ittō-ryū, naming it from the Taoist idea that all things arise
+    from One and return to it.
+hasEvidence:
+- basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+  quotation: Ittōsai named his school the Ittō-ryū (One sword school), not as an allegory for using one
+    sword, but from the Taoist philosophy that all things arise from "One" and then return to where they
+    came from.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- kenjutsu
+- itto-ryu
+- koryu

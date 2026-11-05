@@ -1,0 +1,45 @@
+type: Person
+id: 01M5MG468ERGTYV3TKKVZZMCNX
+name:
+  ja-Latn: Takayama Kiroku
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+description:
+  en: >-
+    Jodo teacher (c. 1893–1938), a student of Shiraishi Hanjiro and, after Shiraishi's death, the main
+    instructor in Fukuoka City, with Shimizu Takaji as his assistant.
+hasTeacherAssertion:
+  - id: 01M5MG468ETRWGZ1RCY9C19EYF
+    teacher: 01M5H4HK02ARQ5SH66WDKGK4WK
+    assertedStyle: 01KZ9TQS3VCCTAXE15YF88B0T9
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              His influential students included Takayama Kiroku (ca. 1893–1938), Otofuji Ichizo
+              (1899–1998), and Shimizu Takaji (1896–1978).
+            locator: '149'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      After Shiraishi’s death, his students continued teaching in Fukuoka City. Takayama was the main
+      instructor, with Shimizu as assistant instructor.
+    locator: '150'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q11087907
+tags:
+  - jodo

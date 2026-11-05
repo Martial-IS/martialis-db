@@ -1,0 +1,91 @@
+type: Person
+id: 01KZ6D9E8QCCXCWZBMZAX74ZRD
+name:
+  pt: Manuel Galrinho
+nationality:
+- countryCode: eucountry:PRT
+  wikidata: wd:Q45
+hasTeacherAssertion:
+- id: 01M3YH7N5GEVWGT4ZB7D50N9VX
+  teacher: 01KJJAWN29MA64W22606R3WD7D
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Galrinho states in his 2000 interview that he began aikido in 1977 in Setúbal
+      and soon attended Stobbaerts' classes in Cascais and Alcântara; the FPA history confirms he was
+      a student of Stobbaerts.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD8P
+    interactionPeriod:
+      startYear: 1977
+    hasEvidence:
+    - basedOnSource: 01KZ6DKWJV4WC4F92HFJHA16EY
+      quotation: Comecei em 1977 em Setúbal, mas muito cedo comecei a frequentar as aulas do Mestre Stobbaerts,
+        em Cascais e Alcântara.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+      quotation: É dirigida pelo Mestre Manuel Galrinho, 7º dan AAS, que foi aluno do Mestre Stobbaerts.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GXRTQWZF6QE7ND5QE
+  rankStyle: 01KJJAWN29MA64W22606R3WD9R
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 5
+  dateConferred: '2000'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Galrinho states in his 2000 interview that he was 5th dan of the Ten-Chi Internacional
+      and the Federação Portuguesa de Aikido e Disciplinas Associadas.
+  hasEvidence:
+  - basedOnSource: 01KZ6DKWJV4WC4F92HFJHA16EY
+    quotation: Chamo-me Manuel Galrinho, tenho 43 anos e sou 5º dan de Aikido. [...] Ten-Chi Internacional
+      e Federação Portuguesa de Aikido e Disciplinas Associadas.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5GR0816Y53SP740VJ7
+  rankStyle: 01KJJAWN29MA64W22606R3WD9R
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 7
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: 7th dan of the Associação de Aikido do Sul stated in the FPA's own history; date
+      of the grade not given, no independent source corroborates it.
+  hasEvidence:
+  - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+    quotation: A Associação de Aikido do Sul - AAS foi fundada em 16 de Julho de 1992 e tem sede em Setúbal.
+      [...] É dirigida pelo Mestre Manuel Galrinho, 7º dan AAS, que foi aluno do Mestre Stobbaerts.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: Portuguese aikido master, student of Georges Stobbaerts from 1977. Founder and technical director
+    of the Associação de Aikido do Sul (AAS, founded 16 July 1992 in Setúbal), holding 7th dan of the
+    AAS.
+  pt: Mestre português de aikido, aluno de Georges Stobbaerts desde 1977. Fundador e diretor técnico da
+    Associação de Aikido do Sul (AAS, fundada a 16 de julho de 1992 em Setúbal), detentor do 7º dan da
+    AAS.
+hasEvidence:
+- basedOnSource: 01KZ6DKWJV4WC4F92HFJHA16EY
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- aikido
+- aas
+- setubal
+- portugal

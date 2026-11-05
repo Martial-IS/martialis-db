@@ -1,0 +1,59 @@
+type: Person
+id: 01M5JWHXPX7J6VXTDS2YNEK4VY
+name:
+  en: Hippolyta
+  el: Ἱππολύτη
+aka:
+  en:
+    - Hippolyte
+description:
+  en: >-
+    Queen of the Amazons in Greek mythology, daughter of Ares, whose war belt Heracles had to take as his
+    ninth labour.
+hasHistoricityAssertion:
+  - id: 01M5JWHXPXF00ZM9D1KVZKRCHC
+    historicity: hist:legendary
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        One source places her in myth; the other implies it.
+    hasEvidence:
+      - basedOnSource: 01M5JWHXPX4595RN3YJBVG5NWQ
+        quotation: >-
+          was the queen of the Amazons and a daughter of Ares and Otrera.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          According to Greek mythology, the Amazons were a fierce tribe of warrior women
+        locator: '213'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      The ninth labor of Herakles (Latin: Hercules) involved the Amazons. Herakles had to retrieve the
+      girdle of Hippolyte, the Queen of the Amazons, who had originally received it from Ares (Latin:
+      Mars), the god of war.
+    locator: '214'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q210303
+tags:
+  - legend
+  - amazons
+  - greece
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/9/91/Hippolyte.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Hippolyte.jpg
+    cite: "Guillaume Rouille, Wikimedia Commons"
+    informationType: infotype:secondary

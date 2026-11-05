@@ -1,0 +1,142 @@
+type: Person
+id: 01M37HHSSMJZMQ23G7DSWVKT9V
+name:
+  ja-Latn: Mochida Moriji
+  ja: 持田盛二
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1885'
+  hasEvidence:
+  - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+    quotation: the renowned Saimura Gorō (1887-1969) and Mochida Moriji (1885-1974)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1974'
+  hasEvidence:
+  - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+    quotation: the renowned Saimura Gorō (1887-1969) and Mochida Moriji (1885-1974)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/5/52/Moriji_Mochida.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Moriji_Mochida.jpg
+    cite: "ポプラ書房, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: Police kendo instructor who won the kendo competition at the first Tenran tournament in 1929, and
+    one of the seven signatories of the Kendō Shingikai petition of 1938. Retained his post after the
+    1946 police kendo tournament.
+hasEvidence:
+- basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+  quotation: In the division for specially selected competitors, Mochida Moriji won the kendo competition
+    and Kurihara Tamio won the judo competition.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+  quotation: the police held a kendo tournament in 1946, and all police instructors, including the renowned
+    Saimura Gorō (1887-1969) and Mochida Moriji (1885-1974), were allowed to retain their posts.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M6EF8Y2K75CZ4YM7B6XZH57R
+  teacher: 01KJJAWN29MA64W22606R3WD6H
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9W
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Two kenshi247 articles by one author; one is a group statement on the five 10th dans.
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD99
+    interactionPeriod:
+      startYear: 1907
+    hasEvidence:
+    - basedOnSource: 01M6EF6KKAN79Q0KQFRGZ1FY5A
+      quotation: 1907 – Began training as a teacher at the infamous Budo Senmon Daigaku in Kyoto. Learned
+        Hokushin Itto-ryu from the Dai Nippon Butokukai shihan Naito.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6EF6KKAEZTBK4XTN89220QY
+      quotation: All five of the future kendo 10th dans came from the initial bunch of students who trained
+        here directly under the father of modern kendo, the very strict but gentlemanly Naito Takaharu sensei.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:indirect
+hasRankAssertion:
+- id: 01M6EF8Y2KVQSTH0FRX6VQ8112
+  rankStyle: 01KJJAWN29MA64W22606R3WD9W
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 10
+  dateConferred: '1957'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Two kenshi247 articles by one author.
+  hasEvidence:
+  - basedOnSource: 01M6EF6KKARYR4432BT2HR7WY5
+    quotation: '1957: Awarded 10th dan.'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6EF6KKAN79Q0KQFRGZ1FY5A
+    quotation: 1957 – Awarded Judan by the ZNKR.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasHonorAssertion:
+- id: 01M6EF8Y2K19GM2D2XKDFQ4KWP
+  honorValue: Kyoshi
+  honorType: honortype:title
+  honorGrade: honorgrade:shogo_kyoshi
+  conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+  dateConferred: '1919'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Kendoka shashin meikan (1925) and a kenshi247 timeline agree; Taisho 8 is 1919.
+  hasEvidence:
+  - basedOnSource: 01M6EF6KKA6C1PENQY8MCK6TN1
+    quotation: 'Mochida Moriji [...] Qualification: Taisho 8th Year'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6EF6KKAN79Q0KQFRGZ1FY5A
+    quotation: 1919 – Awarded kyoshi by the Butokukai.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M6EF8Y2K019C40V28RES9APA
+  honorValue: Hanshi
+  honorType: honortype:title
+  honorGrade: honorgrade:shogo_hanshi
+  conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+  dateConferred: '1927'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Two kenshi247 articles by one author.
+  hasEvidence:
+  - basedOnSource: 01M6EF6KKAN79Q0KQFRGZ1FY5A
+    quotation: 1927 – Awarded hanshi by the Butokukai.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6EF6KKARYR4432BT2HR7WY5
+    quotation: '1927: Awarded hanshi.'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+- kendo
+- keishicho

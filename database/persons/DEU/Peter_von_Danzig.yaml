@@ -1,0 +1,62 @@
+type: Person
+id: 01M5JRHX02RQT1YC1QPJRNY0DD
+name:
+  en: Peter von Danzig
+aka:
+  en:
+    - Peter von Danzig zum Ingolstadt
+nationality:
+  - countryCode: eucountry:DEU
+    wikidata: wd:Q183
+description:
+  en: >-
+    Fifteenth-century German fencing master, apparently born in Danzig (Gdańsk) and living in
+    Ingolstadt, known for a gloss of Liechtenauer's Recital and on Paulus Kal's list of the Society of
+    Liechtenauer.
+hasDocumentTransmissionAssertion:
+  - id: 01M61V7JC2Q1YGDQ7PJBF57XZM
+    transmissionDocument: 01M61V7JC2F277GR59FDE0DB56
+    assertedStyle: 01M5JRHX026EPJNQVEJDCKRNJP
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        His own gloss names Liechtenauer's text as its subject; Wiktenauer and English Wikipedia agree.
+    hasEvidence:
+      - basedOnSource: 01M5JRHX02X4XYTBA3XS1XXG4D
+        quotation: >-
+          die glos vnd die auslegu~g der kunst des kampffechtens die do geticht vnd gemacht hat Peter von
+          danckgs zu° Ingelstat vber den text den do hat gesatzt Johannes liechtenawer
+        locator: fol. 108r
+        locatorLabel: folio
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JRHX02X4XYTBA3XS1XXG4D
+        quotation: >-
+          In reality, Danzig only authored the final section of that book, a gloss of Johannes
+          Liechtenauer's Recital on dueling with the short sword.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JRHX02KHCTP1FVW5GKKDEP
+        quotation: >-
+          the earliest fencing manuals of the Liechtenauer school, beginning with Hs. 3227a and followed
+          by the treatises of Peter von Danzig zum Ingolstadt, Jud Lew, and Sigmund Schining ein Ringeck
+          in the 15th century, are organized such that each couplet or quatrain is given first, followed
+          by a gloss or detailed explanation of its intended meaning.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JRHX02X4XYTBA3XS1XXG4D
+    quotation: >-
+      Peter von Danzig was a 15th century German fencing master.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q115608205
+tags:
+  - fencing
+  - kunst-des-fechtens

@@ -1,0 +1,67 @@
+type: Person
+id: 01M5H3WJ4F533TGBC8XTK393S7
+name:
+  ja-Latn: Akiyama Kametaro
+nationality:
+  - countryCode: eucountry:CAN
+    wikidata: wd:Q16
+description:
+  en: >-
+    The first judoka in Canada to receive a black belt, from Shinzo Takagaki in 1925. Taught in
+    Victoria before the war and co-founded the Seidokwan Academy of Judo in Montreal in 1952.
+notes: Leyshon (p. 18) also shows his Kodokan shodan diploma dated 25 July 1929.
+hasTeacherAssertion:
+  - id: 01M5H3WJ4FA1FN81RFM4JE1BEV
+    teacher: 01M5H3WJ4F50AWMKW7BCJ73S09
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: Inferred from the promotion; the source does not say Takagaki taught him.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              Takagaki also issued the first black belt certificate in Canada - the recipient being
+              Kametaro Akiyama, and this took place in 1925.
+            locator: '19'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasRankAssertion:
+  - id: 01M5H3WJ4FBF1ZZ5BWZTGYHPR2
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 1
+    grantedBy: 01M5H3WJ4F50AWMKW7BCJ73S09
+    dateConferred: '1925-06-11'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only; it reproduces the certificate.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+        quotation: >-
+          Shodan certificate, written with brush by Shinzo Takagaki, dated June 11, 1925, promoting
+          Kametaro Akiyama to 1st Dan Black Belt (Shodan). The first Canadian to receive such a
+          distinction.
+        locator: '18'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    quotation: >-
+      Kametaro Akiyama, the 1st Canadian to receive his black belt (in 1925 from Takagaki-sensei)
+    locator: '17'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - canada

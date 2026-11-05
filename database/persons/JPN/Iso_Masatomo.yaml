@@ -1,0 +1,91 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1V9
+name:
+  ja-Latn: Iso Masatomo
+  ja: 磯正智
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1818'
+  birthPlace:
+    label: Tokyo, Japan
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1490
+deathEvent:
+  deathDate: '1881-06'
+  deathPlace:
+    label: Tokyo, Japan
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1490
+  hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+    quotation: In June 1881, Master Iso died.
+    locator: '11'
+    locatorLabel: page
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M3YH7N5GHAGM39T2NGH3XEVC
+  teacher: 01KJJAWN28MWKKSN4J02MVY1TY
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9Q
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Adopted son and successor as 3rd generation headmaster of Tenjin Shinyo-ryu,
+      documented in Japanese Wikipedia
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - uri: https://ja.wikipedia.org/wiki/%E7%A3%AF%E6%AD%A3%E6%99%BA
+      archiveUri: https://ja.wikipedia.org/w/index.php?title=%E7%A3%AF%E6%AD%A3%E6%99%BA&oldid=88673605
+      informationType: infotype:secondary
+      supports: true
+      cite: 磯正智 - 日本語版ウィキペディア
+      quotation: 天神真楊流の宗家三代目で磯又右衛門正智を名乗った。[...]養子であり短身痩躯の体格であったと伝えられている。
+      evidenceType: evidencetype:direct
+sameAs:
+- wd:Q3297163
+notes: '3rd generation headmaster (宗家三代目) of Tenjin Shinyo-ryu. Adopted son of previous headmaster Iso
+  Masatari Mataemon. Also known as Matsunaga Seizaemon (松永清左衛門). Described as short and thin (短身痩躯). Teacher
+  of Jigoro Kano (嘉納治五郎), Inoue Keitaro (井上敬太郎), and others. Buried at Ryogen-ji Temple in Matsugaya,
+  Taito Ward, Tokyo.
+
+  '
+hasEvidence:
+- uri: http://www.tenyokai.com/history.html
+  informationType: infotype:secondary
+  supports: true
+  cite: TENYOKAI INTERNATIONAL - History of Tenjin Shinyo-ryu
+  evidenceType: evidencetype:direct
+- uri: https://ja.wikipedia.org/wiki/%E7%A3%AF%E6%AD%A3%E6%99%BA
+  archiveUri: https://ja.wikipedia.org/w/index.php?title=%E7%A3%AF%E6%AD%A3%E6%99%BA&oldid=88673605
+  informationType: infotype:secondary
+  supports: true
+  cite: 磯正智 - 日本語版ウィキペディア
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+  locator: The Development of the Tenjin Shinyo-ryu
+  locatorLabel: section
+  quotation: Kano continued his training with the third-generation headmaster of the ryu, Iso Mataemon Masatomo, when Fukuda died two years later.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasHonorAssertion:
+- id: 01M3YH7N5GWPF295QEH5BAPKHQ
+  honorValue: soke
+  honorType: honortype:title
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: 3rd generation headmaster (宗家三代目) of Tenjin Shinyo-ryu, documented in Japanese
+      Wikipedia
+  hasEvidence:
+  - uri: https://ja.wikipedia.org/wiki/%E7%A3%AF%E6%AD%A3%E6%99%BA
+    archiveUri: https://ja.wikipedia.org/w/index.php?title=%E7%A3%AF%E6%AD%A3%E6%99%BA&oldid=88673605
+    informationType: infotype:secondary
+    supports: true
+    cite: 磯正智 - 日本語版ウィキペディア
+    quotation: 天神真楊流の宗家三代目で磯又右衛門正智を名乗った。本名松永清左衛門である。
+    evidenceType: evidencetype:direct

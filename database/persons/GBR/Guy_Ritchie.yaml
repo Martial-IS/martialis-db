@@ -1,0 +1,103 @@
+type: Person
+id: 01M6ENVCFA9K7DZS1ES7QKZYW0
+name:
+  en: Guy Ritchie
+nationality:
+- countryCode: eucountry:GBR
+  wikidata: wd:Q145
+birthEvent:
+  birthDate: '1968-09-10'
+  birthPlace:
+    label: Hatfield, Hertfordshire
+    countryCode: eucountry:GBR
+    wikidata: wd:Q19788
+  hasEvidence:
+  - basedOnSource: 01M6ENPY5WRNSXC32WM5Z6Q3NP
+    quotation: >-
+      born 10 September 1968
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6ENPY5WRNSXC32WM5Z6Q3NP
+    quotation: >-
+      Ritchie was born in Hatfield, Hertfordshire
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/1/14/GuyRitchiebyKathyHutchins.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:GuyRitchiebyKathyHutchins.jpg
+    cite: "Kathy Hutchins, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    English film director.
+hasTeacherAssertion:
+- id: 01M6ENVCFAJ1GNP856TBQ0NA1Z
+  teacher: 01KYSNKBSAAS27TBVHR0EBZ059
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Renzo's own statement to FOX Sports; Graciemag agrees
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M6ENPY5W9E5V387AFVMZD95Z
+      quotation: >-
+        He first trained in his native England, but has for years trained with the legendary Renzo Gracie in New York City.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ENPY5W9E5V387AFVMZD95Z
+      quotation: >-
+        "He spent eight years as a brown belt -- training every day. He is my favorite."
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ENPY5WC71E287Z9Y4NRK67
+      quotation: >-
+        Renzo Gracie promoted another one of his famous pupils.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M6ENVCFACDKBF9YY628BX154
+  rankStyle: 01KJJAWN29MA64W22606R3WD9J
+  rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+  rankGrade: rankgrade:bjj_black
+  grantedBy: 01KYSNKBSAAS27TBVHR0EBZ059
+  dateConferred: '2015-08-10'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Renzo's own statement; Graciemag gives the day
+  hasEvidence:
+  - basedOnSource: 01M6ENPY5W9E5V387AFVMZD95Z
+    quotation: >-
+      "Nobody has ever worked harder than Guy to get his black belt," Renzo told FOX Sports
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6ENPY5WC71E287Z9Y4NRK67
+    quotation: >-
+      [...] received the black belt this Monday, in New York.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  notes: >-
+    Graciemag of 2015-08-11 says "this Monday", that is 2015-08-10.
+hasEvidence:
+- basedOnSource: 01M6ENPY5WRNSXC32WM5Z6Q3NP
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q192990
+tags:
+- brazilian-jiu-jitsu
+- film

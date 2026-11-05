@@ -1,0 +1,66 @@
+type: Organization
+id: 01KZ6D9E8QBFBAMY0SCWFM1FYJ
+name:
+  en: TenChi International
+  pt: TenChi International
+aka:
+  en: TenChi
+  pt: Escola de TenChi Internacional
+orgType: orgclass:school
+hasSite:
+  - location:
+      label: Sintra
+      countryCode: eucountry:PRT
+      wikidata: wd:Q190187
+foundedEvent:
+  startDate: '1978'
+  founder:
+    - 01KJJAWN29MA64W22606R3WD7D
+  hasEvidence:
+    - basedOnSource: 01KXTSQXW5H2G5FMTP0RTYT0X8
+      quotation: In 1978 he founded the project TenChi in the region of Sintra in Portugal. This cultural centre located in the nature was dedicated to the practice and the research in various forms of arts and movement.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M3YH7N5FRYN66BY6709A3NT4
+    relatedOrganization: 01KJJAWN29MA64W22606R3WD7Y
+    affiliationRelation: affrel:recognised_by
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: georgesstobbaerts.com states the Dai Nippon Butoku Kai declared Stobbaerts' school
+        a Ryu, granting it institutional recognition; no independent source corroborates it
+    hasEvidence:
+      - basedOnSource: 01KXTSQXW5H2G5FMTP0RTYT0X8
+        quotation: He was representative for Portugal of the Dai Nippon Butoku-kai (Kyoto, Japan), that granted to him the graduation in Hanshi, 8º Dan and his school was declared a Ryu by the same institution.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+website: https://www.georgesstobbaerts.com/
+description:
+  en: The TenChi International is the school founded by Georges Stobbaerts in 1978 in the region of Sintra, Portugal, with the Dojo TenChi as its seat. It is recognized as a school of aikido at graduation level, was declared a Ryu by the Dai Nippon Butoku Kai, and comprises the Tenchi Tessen art of movement alongside aikido. Its teaching in Portugal is represented in the Federação Portuguesa de Aikido by the Associação de Clubes de Aikido TenChi (ACAT).
+  pt: A TenChi International é a escola fundada por Georges Stobbaerts em 1978 na região de Sintra, Portugal, tendo o Dojo TenChi como sede. É reconhecida como escola de Aikido ao nível das graduações, foi declarada Ryu pela Dai Nippon Butoku Kai, e integra a arte do movimento Tenchi Tessen a par do Aikido. O seu ensino em Portugal é representado na Federação Portuguesa de Aikido pela Associação de Clubes de Aikido TenChi (ACAT).
+hasEvidence:
+  - basedOnSource: 01KXTSQXW5H2G5FMTP0RTYT0X8
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ6D9E8QSENEZ3VQSXK7KX1E
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KXTSQXW5H2G5FMTP0RTYT0X9
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - aikido
+  - tenchi
+  - tenchi-tessen
+  - ryu
+  - portugal

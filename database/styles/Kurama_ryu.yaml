@@ -1,0 +1,77 @@
+type: Style
+id: 01M6BJ6H8F9AJ21DEBPS0XD3XA
+name:
+  ja-Latn: Kurama-ryū
+  ja: 鞍馬流
+aka:
+  ja-Latn: Shōkan Kurama-ryū
+  ja: 将監鞍馬流
+hasEvidence:
+- basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+  locator: 'Kurama-ryu Kenjutsu'
+  locatorLabel: section
+  quotation: 'Founder: Ono Shokan'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M6BJ6H8F1KAYTE2TRYMJH631
+  quotation: '天正年間に大野将監によって創始され、林崎甚助、その後の伝承は不明なところがあるが、幕末から明治にかけて、十四代金子助三郎、直参旗本の十五代、柴田衛守がこの流派の中興の祖といわれている。'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+foundedEvent:
+  dateOriginal: 天正年間
+  dateCalendar: datecal:japanese_nengo
+  founder:
+    - 01M6BJ6H8F27D56ZNTFJAPVMNK
+  location:
+    countryCode: eucountry:JPN
+  hasEvidence:
+    - basedOnSource: 01M6BJ6H8F1KAYTE2TRYMJH631
+      quotation: '天正年間に大野将監によって創始され、林崎甚助、その後の伝承は不明なところがあるが、幕末から明治にかけて、十四代金子助三郎、直参旗本の十五代、柴田衛守がこの流派の中興の祖といわれている。'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+      locator: 'Kurama-ryu Kenjutsu'
+      locatorLabel: section
+      quotation: 'Date founded: Tensho (1573-1593)'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+styleType: styleclass:traditional
+hasStyleRelationAssertion:
+  - id: 01M6BJ6H8FP27WMCYXYZHDR428
+    relatedStyle: 01KYHNJKQDTEJ1A5MQ5JYPHDTB
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: A school of swordsmanship (Field Guide; its own page).
+    hasEvidence:
+      - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+        locator: 'Kurama-ryu Kenjutsu'
+        locatorLabel: section
+        quotation: 'The techniques of the Kurama-ryu are characterized by frequent use of uchiotoshi, cutting straight through the opponent’s sword.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M6BJ6H8F1KAYTE2TRYMJH631
+        quotation: '天正年間に大野将監によって創始され、林崎甚助、その後の伝承は不明なところがあるが、幕末から明治にかけて、十四代金子助三郎、直参旗本の十五代、柴田衛守がこの流派の中興の祖といわれている。'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Classical school of swordsmanship founded by Ōno Shōkan in the Tensho era (1573-1593), restored
+    in the late Edo and Meiji periods by the Shibata family (15th head Shibata Mamoru, a Metropolitan
+    Police instructor), who still lead it. Known for uchiotoshi; part of its technique entered the
+    police Keishi-ryu.
+notes: >-
+  Its own page: the founder's teachers are unknown because the densho burned in 1945; the 18th head is
+  Shibata Akio. The Field Guide (1997) gives the 17th soke, Shibata Tetsuo (d. 2004). Tradition traces it
+  to the Kyo-hachi-ryu of Kiichi Hogen.
+sameAs:
+  - wd:Q11663914
+tags:
+  - koryu

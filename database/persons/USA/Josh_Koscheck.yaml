@@ -1,0 +1,99 @@
+type: Person
+id: 01KZQ7BS7KEK0VTFM54EWE64TQ
+name:
+  en: Josh Koscheck
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+birthEvent:
+  birthDate: '1977-11-30'
+  birthPlace:
+    label: Waynesburg
+    countryCode: eucountry:USA
+    wikidata: wd:Q1186435
+  hasEvidence:
+  - basedOnSource: 01KZQ7BS7KA52ZCC6S8VGDP9R4
+    quotation: >-
+      Josh Koscheck (born November 30, 1977)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: 'American retired mixed martial artist who competed in the welterweight division of
+
+    the UFC and Bellator. A collegiate wrestler at Edinboro University, he was a member
+
+    of American Kickboxing Academy (AKA) and earned a black belt in Guerrilla Jiu-Jitsu
+
+    under Dave Camarillo.
+
+    '
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/8/83/JoshKoscheck.png
+  rights: mediarights:cc-by-sa-2.5
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:JoshKoscheck.png
+    cite: "East718, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+- id: 01M3YH7N5GC7ZDAYXYNRR97ENX
+  teacher: 01KZQ5XKW310NKTT34P8D4WQAS
+  assertedStyle: 01KZQ7BS7K4G2T0NPG9N3PCVET
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Multiple sources report Koscheck earned a black belt in Guerrilla Jiu-Jitsu under
+      Dave Camarillo while at AKA; corroborated by Wikipedia and BJJ Heroes
+  hasInteraction:
+  - interactionPlace: 01KZQ7BS7KJ444KWAH72XGN2NT
+    hasEvidence:
+    - basedOnSource: 01KZQ5XKW3CK2XPAGK0Q4GTDSA
+      quotation: Dave Camarillo became a mainstream name as a coach after many of his students became
+        big stars in the world of mixed martial arts (MMA), names such as Jon Fitch, Josh Koscheck, Mike
+        Swick, and Cain Velazquez.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GS93GSSC40M1E84H6
+  rankStyle: 01KZQ7BS7K4G2T0NPG9N3PCVET
+  rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+  rankGrade: rankgrade:bjj_black
+  grantedBy: 01KZQ5XKW310NKTT34P8D4WQAS
+  dateConferred: '2012'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: BJJEE only; Wikipedia cites it.
+  hasEvidence:
+  - uri: https://www.bjjee.com/interview/josh-koscheck-bjj-black-belt-interview/
+    archiveUri: http://web.archive.org/web/20260311224407/https://www.bjjee.com/interview/josh-koscheck-bjj-black-belt-interview/
+    cite: Josh Koscheck BJJ Black Belt Interview - BJJEE (2012-12-28)
+    quotation: UFC fighter Josh Koscheck got promotted to BJJ black belt by Dave Camarillo 4 months ago.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZQ5XKW3CK2XPAGK0Q4GTDSA
+    quotation: Dave Camarillo became a mainstream name as a coach after many of his students became big stars in the world of mixed martial arts (MMA), names such as Jon Fitch, Josh Koscheck, Mike Swick, and Cain Velazquez.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:indirect
+  - basedOnSource: 01KZQ7BS7KA52ZCC6S8VGDP9R4
+    quotation: >-
+      Rank Black Belt in Brazilian Jiu-Jitsu
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZQ7BS7KA52ZCC6S8VGDP9R4
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q2696749
+tags:
+- guerrilla-jiu-jitsu
+- mma
+- wrestler
+- ufc

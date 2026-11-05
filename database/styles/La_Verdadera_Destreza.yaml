@@ -1,0 +1,95 @@
+type: Style
+id: 01M5JTMYPE4QB7TP8MFHXKNQS2
+name:
+  en: La Verdadera Destreza
+  es: La Verdadera Destreza
+aka:
+  en:
+    - Destreza
+    - The True Skill
+    - Spanish school of fencing
+styleType: styleclass:traditional
+foundedEvent:
+  startDate: '1569'
+  location:
+    countryCode: eucountry:ESP
+  founder:
+    - 01M5JTMYPE1DNWMXMXKNQTR3V3
+  hasEvidence:
+    - basedOnSource: 01M5JTMYPEFEVFAA2KZ5J51Q7X
+      quotation: >-
+        this manual presented a new system of rapier fencing based on science and geometry which he
+        called la Verdadera Destreza
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Carranza’s system of combat, called La Verdadera Destreza (The True Skill) applied
+        sixteenth-century logic, didactics, and Euclidean geometry to fencing.
+      locator: '254'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5JTMYPEHQCE98S4W6HHP64F
+      quotation: >-
+        His ideas were probably picked up by Luis Pacheco de Narváez, who later founded the Spanish
+        fencing style "Verdadera Destreza", which lasted almost 300 years.
+      informationType: infotype:secondary
+      supports: false
+      evidenceType: evidencetype:direct
+hasStyleRelationAssertion:
+  - id: 01M5JTMYPER1AVPMC6BWEV1PK1
+    relatedStyle: 01M5JRHX02FJ6XZ3X069NVX3SE
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01M5JTMYPE0DXMH8C3CM0V2MNR
+        quotation: >-
+          La Verdadera Destreza is the conventional term for the Spanish tradition of fencing of the early
+          modern period.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Carranza’s system of combat, called La Verdadera Destreza (The True Skill) applied
+          sixteenth-century logic, didactics, and Euclidean geometry to fencing.
+        locator: '254'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    The Spanish tradition of fencing of the early modern period, mainly with the rapier, based on reason,
+    geometry and classical philosophy. Jerónimo Sánchez de Carranza set it out in his treatise of 1569
+    (printed 1582); his student Luis Pacheco de Narváez spread it and later split it into Carrancistas
+    and Pachequistas. It used a single straight-arm guard and circular footwork, and lasted about two
+    centuries.
+notes: >-
+  Founder: Carranza per Green and Svinth and Wiktenauer; en Wikipedia's Carranza article calls him a
+  precursor and gives the founding to Pacheco. Founding dated by Carranza's 1569 treatise.
+hasEvidence:
+  - basedOnSource: 01M5JTMYPE0DXMH8C3CM0V2MNR
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q5265308
+tags:
+  - fencing
+  - destreza
+  - rapier
+  - historical-european-martial-arts
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/b/b8/Destreza01.jpg
+    rights: mediarights:public_domain_mark
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:Destreza01.jpg
+      cite: "Wikimedia Commons"
+      informationType: infotype:secondary

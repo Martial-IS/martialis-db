@@ -1,0 +1,55 @@
+type: Person
+id: 01M5JRHX02SZ2FAC299N8BX7V4
+name:
+  en: Sigmund ain Ringeck
+aka:
+  en:
+    - Sigmund Ringeck
+    - Sigmund Ainring
+    - Sigmund Schining
+nationality:
+  - countryCode: eucountry:DEU
+    wikidata: wd:Q183
+description:
+  en: >-
+    Fifteenth-century German fencing master, Schirmaister to Albrecht, Count Palatine of the Rhine and
+    Duke of Bavaria, author of an important gloss of Liechtenauer's Recital, and on Paulus Kal's list of
+    the Society of Liechtenauer.
+hasDocumentTransmissionAssertion:
+  - id: 01M61V7JC24VTPBB8ZBS63XCFG
+    transmissionDocument: 01M61V7JC2F277GR59FDE0DB56
+    assertedStyle: 01M5JRHX026EPJNQVEJDCKRNJP
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wiktenauer and English Wikipedia both make him the author of a gloss of Liechtenauer's Record.
+    hasEvidence:
+      - basedOnSource: 01M5JRHX02J2XG6EA61AEX8AQJ
+        quotation: >-
+          Ain ringeck was indeed the author of one of the core texts, a complete gloss of Liechtenauer's
+          Recital on unarmored long sword fencing.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JRHX02KHCTP1FVW5GKKDEP
+        quotation: >-
+          the earliest fencing manuals of the Liechtenauer school, beginning with Hs. 3227a and followed
+          by the treatises of Peter von Danzig zum Ingolstadt, Jud Lew, and Sigmund Schining ein Ringeck
+          in the 15th century, are organized such that each couplet or quatrain is given first, followed
+          by a gloss or detailed explanation of its intended meaning.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JRHX02J2XG6EA61AEX8AQJ
+    quotation: >-
+      He is named in the text as Schirmaister to Albrecht, Count Palatine of Rhine and Duke of Bavaria.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3064404
+tags:
+  - fencing
+  - kunst-des-fechtens

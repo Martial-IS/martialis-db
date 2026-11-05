@@ -1,0 +1,60 @@
+type: Person
+id: 006G01NTX64KTVS4VS3KW6FQ29
+name:
+  en: Luc Levannier
+  fr: Luc Levannier
+nationality:
+- countryCode: eucountry:FRA
+  wikidata: wd:Q142
+description:
+  en: French judoka and teacher, one of the reputed French professors and judoka around whom Ichiro Abe,
+    technical advisor of the Shudokan club in Toulouse (1951-1953), reinforced the rayonnement of Kodokan
+    judo in France. Michel Brousse counts him among the rare champions of the time who practised the Kodokan
+    "art de la souplesse" against the Kawaishi method.
+  fr: Judoka et professeur français, l'un des professeurs et judokas français réputés autour desquels
+    Ichiro Abe, conseiller technique du club Shudokan de Toulouse (1951-1953), renforça le rayonnement
+    du judo Kodokan en France. Michel Brousse le compte parmi les rares champions qui pratiquaient alors
+    l'"art de la souplesse" du Kodokan, contre la méthode Kawaishi.
+hasTeacherAssertion:
+- id: 01M3YH7N5GH8QJTH4WWWWBRYW8
+  teacher: 01KZXH2NSQMBZTRPPYAKKCFR84
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      The France Judo obituary of Abe lists Luc Levannier among the reputed French professors and judoka
+      around whom Abe reinforced the rayonnement of Kodokan judo, and Brousse names him among the rare
+      champions practising the Kodokan method at the time; neither source states the exact nature of the
+      relationship beyond his training at the club.
+  hasInteraction:
+  - interactionPlace: 006G01NTX69KM1Y9K5D9DFKTVG
+    interactionPeriod:
+      startYear: 1951
+      endYear: 1953
+    hasEvidence:
+    - basedOnSource: 006G01NTX6KVVJGZRYYMM8GAFV
+      quotation: Il renforça le rayonnement du Judo Kodokan autour de professeurs et judokas français
+        réputés tels que Pierre Roussel, Jacques Belaud, Luc Levannier ou encore Guy Pelletier.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 006G01NTX6FM1AF22NQ5YJXGB0
+      quotation: Mais seuls quelques rares champions parmi lesquels Roussel, Levannier, Belaud, Courtine,
+        pratiquaient l'"art de la souplesse".
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 006G01NTX6KVVJGZRYYMM8GAFV
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 006G01NTX6FM1AF22NQ5YJXGB0
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- judo
+- france

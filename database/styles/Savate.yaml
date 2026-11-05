@@ -1,0 +1,85 @@
+type: Style
+id: 01M5JG4Y2595PRVXFHHNZXH7SD
+name:
+  en: Savate
+  fr: Savate
+aka:
+  en:
+    - French boxing
+    - Boxe française
+    - Chausson
+styleType: styleclass:modern
+hasStyleRelationAssertion:
+  - id: 01M5JG4Y25WC9SRJWX2GZF3CA2
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9N
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia states it; Green and Svinth deny significant links.
+    hasEvidence:
+      - basedOnSource: 01M5JG4Y25T91NM9BZG8C56ASM
+        quotation: >-
+          C'est Charles Lecour qui crée en 1830-1840, le sport de combat connu sous le nom de « boxe
+          française » en réunissant la technique des pieds de la savate avec trois techniques de poings
+          emprunté à la boxe anglaise (direct, crochet, uppercut).
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JG4Y2593DAA50HFR1Y326S
+        quotation: >-
+          Il enrichit la savate de techniques de poings issues du noble art anglais (l'ancêtre de
+          l'actuelle boxe anglaise).
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          It has no significant links with similar Eastern or English disciplines (Loudcher 2000).
+        locator: '256'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: false
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    French kicking and punching combat sport. It grew from the street fighting of early
+    nineteenth-century Paris; Michel Casseux, called Pisseux, opened the first salle about 1825, and
+    Charles Lecour joined its kicks with English boxing punches in the 1830s. Joseph Charlemont codified
+    the academic form late in the century.
+  fr: >-
+    Sport de combat français de pieds et de poings, issu des combats de rue du Paris du début du XIXe
+    siècle ; Michel Casseux, dit Pisseux, ouvre la première salle vers 1825 et Charles Lecour y joint les
+    coups de poing de la boxe anglaise dans les années 1830. Joseph Charlemont en codifie la forme
+    académique à la fin du siècle.
+notes: >-
+  The fr Wikipedia infobox names Michel Casseux and Charles Lecour as founders; Green and Svinth (p. 257)
+  say it is not known who invented it, so no foundedEvent is recorded.
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      French Boxing is a combat sport that first appeared in the nineteenth century under the names of
+      savate and chausson but soon became known as French Boxing (la boxe française).
+    locator: '256'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5JG4Y25T91NM9BZG8C56ASM
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q271277
+tags:
+  - savate
+  - striking
+  - kicking
+  - france
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/b/bc/Seminario_Internacional_Savate_Cuba_2008.jpg
+    rights: mediarights:cc-by-sa-4.0
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:Seminario_Internacional_Savate_Cuba_2008.jpg
+      cite: "Osvaldo george, Wikimedia Commons"
+      informationType: infotype:secondary

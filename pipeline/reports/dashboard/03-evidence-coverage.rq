@@ -1,0 +1,11 @@
+# Assertions carrying at least one piece of evidence. Teacher evidence
+# hangs off interactions, so TeacherAssertions usually have none directly.
+PREFIX martialis: <https://w3id.org/martialis/ontology#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT (COUNT(DISTINCT ?a) AS ?assertions)
+       (COUNT(DISTINCT ?withEvidence) AS ?withEvidence)
+WHERE {
+  ?class rdfs:subClassOf* martialis:Assertion .
+  ?a a ?class .
+  OPTIONAL { ?a martialis:hasEvidence ?ev . BIND(?a AS ?withEvidence) }
+}

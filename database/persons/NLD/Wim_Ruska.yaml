@@ -1,0 +1,212 @@
+type: Person
+id: 01M015RCSFK72AEZPP3EQZ136Q
+name:
+  en: Wim Ruska
+  nl: Willem Ruska
+aka:
+  en: Tarzan of the Tatami
+  nl: Tarzan van de tatami
+nationality:
+- countryCode: eucountry:NLD
+  wikidata: wd:Q55
+birthEvent:
+  birthDate: '1940-08-29'
+  birthPlace:
+    label: Amsterdam
+    countryCode: eucountry:NLD
+    wikidata: wd:Q727
+  hasEvidence:
+  - basedOnSource: 01M015RCSFJZDQ4SXAPCBZPBP9
+    quotation: >-
+      Willem (Wim) Ruska (Amsterdam, 29 augustus 1940 – Hoorn NH, 14 februari 2015)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M015RCSF3RR8KCXM5DQJ8KND
+    quotation: >-
+      Willem "Wim" Ruska (29 August 1940 – 14 February 2015)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2015-02-14'
+  deathPlace:
+    label: Hoorn
+    countryCode: eucountry:NLD
+    wikidata: wd:Q9938
+  hasEvidence:
+  - basedOnSource: 01M015RCSFJZDQ4SXAPCBZPBP9
+    quotation: >-
+      Willem (Wim) Ruska (Amsterdam, 29 augustus 1940 – Hoorn NH, 14 februari 2015)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M015RCSF3RR8KCXM5DQJ8KND
+    quotation: >-
+      Willem "Wim" Ruska (29 August 1940 – 14 February 2015)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/7/7f/Wim_Ruska_1968b.jpg
+  rights: mediarights:cc-by-sa-3.0-nl
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Wim_Ruska_1968b.jpg
+    cite: "Ron Kroon / Anefo, Nationaal Archief, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: Dutch judoka and professional wrestler, the only judoka to win two gold medals at a single Olympic
+    Games (Munich 1972, heavyweight and open class). Won two world titles (1967 Salt Lake City, 1971 Ludwigshafen),
+    seven European titles and many Dutch national titles. Started judo at the Dutch Navy and trained under
+    Jon Bluming in the 1960s-70s; reached 8th dan. After 1972 he became national coach of the Netherlands
+    for about a year and later competed in professional wrestling for New Japan Pro-Wrestling and the
+    WWF. Inducted into the IJF Hall of Fame in 2013.
+notes: English Wikipedia's prose gives the birth date as August 24, but its own infobox and Dutch Wikipedia
+  both give August 29, 1940; the 29th is used here. Death place Hoorn (North Holland) per Dutch Wikipedia
+  and the English infobox. The Bluming teacher assertion draws on six sources (Wikipedia EN/NL, Ons Amsterdam
+  profile, NOS obituary, USAdojo interview, JudoInside retrospective, Martial Musings); the van der Horst
+  assertion on the JBN memorial, Dutch Wikipedia and TheaterEncyclopedie.
+hasTeacherAssertion:
+- id: 01M3YH7N5G3KF1T30TZY88KPAQ
+  teacher: 01KZW2JNB8NH2ZZDYW1RNPGE52
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: The JBN memorial, Dutch Wikipedia and TheaterEncyclopedie all record that under
+      van der Horst's national-coaching (bondscoachschap) Ruska won his first world title in 1967, the
+      anchoring fact of this entry.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1967
+    hasEvidence:
+    - basedOnSource: 01KZXH2NSQ19J367PZE6QM7E63
+      informationType: infotype:secondary
+      supports: true
+      quotation: >-
+        Als bondscoach leidde hij Willem Ruska naar zijn eerste wereldtitel
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZW2JNB8V0458Y2F8YSSG91D
+      informationType: infotype:secondary
+      supports: true
+      quotation: Onder zijn bondscoachschap won Wim Ruska in 1967 zijn eerste wereldtitel en werd het
+        Europese kampioenschap behaald door het Nederlandse team.
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M016NFYMFN53JNE5SRM024BG
+      informationType: infotype:secondary
+      supports: true
+      quotation: Onder zijn bondscoachschap won Wim Ruska zijn eerste wereldtitel in 1967 en werd het
+        Europees kampioenschap behaald door het Nederlands judoteam.
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GB2G0VREN20VX4T85
+  teacher: 01M015RNEV8D2DR0J67PC1091F
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Multiple independent sources corroborate Bluming as Ruska's judo teacher, including Bluming's own
+      2017 interview naming Ruska among his students.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1960
+      endYear: 1972
+    hasEvidence:
+    - basedOnSource: 01M015RCSF3RR8KCXM5DQJ8KND
+      informationType: infotype:secondary
+      supports: true
+      quotation: In the 1960s and 1970s, under the training of Jon Bluming, he won seven European titles,
+        five in the +93 kg category (1966-67, 1969, 1971-72) and two in the open category (1969 and 1972).
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M015RCSFP4E7JD59QDNX014T
+      informationType: infotype:secondary
+      supports: true
+      quotation: Wim Ruska - World Champion ('67 & '71) and Olympic Champion (2x '72) in Judo.
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M016NFYMMS7TPPKEWK72GRT2
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+      quotation: Jon Bluming nodigt hem uit om bij Tung Jen te komen trainen [...] Na drie maanden krachthonk
+        en trainingen in overnametechnieken en grondgevechten vernedert de leerling de meester met zes
+        ippons.
+    - basedOnSource: 01M016NFYMWR26NPNCWMTJENQ0
+      informationType: infotype:secondary
+      supports: true
+      quotation: Wim Ruska was een van zijn leerlingen.
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M016NFYMF0JCEB30S9WTZ523
+      informationType: infotype:secondary
+      supports: true
+      quotation: >-
+        He is a former coach of the Belgian and Dutch national karate teams, and his internationally known students include Olympic judo champion Willem Ruska, world sambo champion Chris Dolman
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M016NFYMQ2A0EMYSJQ3CYB7P
+      informationType: infotype:secondary
+      supports: true
+      quotation: He moved to a strong club of Jon Bluming who was in that time the biggest challenger
+        of World Champion Anton Geesink.
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M016NFYMSB1G7407F355T5CB
+      informationType: infotype:secondary
+      supports: true
+      locator: '110'
+      locatorLabel: page
+      quotation: Bluming stopped competing and turned his energies into training future Dutch hopefuls,
+        among them judo champion Willem Ruska and three-time world sambo champion Chris Dolman.
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5G1R16HKP5PT8KC36H
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 8
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Both Wikipedia infoboxes record 8th dan, without a granting body or date.
+  hasEvidence:
+  - basedOnSource: 01M015RCSF3RR8KCXM5DQJ8KND
+    quotation: Rank 8th dan black belt
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M015RCSFJZDQ4SXAPCBZPBP9
+    quotation: Graduatie 8e dan
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasHonorAssertion:
+- id: 01M3YH7N5GRM3RKM5VEVR5NYAA
+  honorValue: IJF Hall of Fame
+  honorType: honortype:other
+  dateConferred: '2013'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Both Wikipedia articles state Ruska was inducted into the IJF Hall of Fame in
+      2013.
+  hasEvidence:
+  - basedOnSource: 01M015RCSFJZDQ4SXAPCBZPBP9
+    informationType: infotype:secondary
+    supports: true
+    quotation: In 2013 werd hij door de internationale judofederatie (IJF) in de Hall of Fame opgenomen.
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M015RCSF3RR8KCXM5DQJ8KND
+    informationType: infotype:secondary
+    supports: true
+    quotation: In 2013 he was inducted in the Hall of Fame of the International Judo Federation.
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M015RCSFJZDQ4SXAPCBZPBP9
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M015RCSF3RR8KCXM5DQJ8KND
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q1375290

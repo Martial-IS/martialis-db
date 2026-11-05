@@ -1,0 +1,82 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD7E
+name:
+  pt: Fernando Seabra
+nationality:
+- countryCode: eucountry:PRT
+  wikidata: wd:Q45
+image:
+  contentUrl: https://archive.org/download/fernando_seabra/fernando_seabra.png
+  imageAttribution:
+    uri: https://judomagazine.pt/2024/01/23/mestre-ze-manel/
+    cite: "Judo Magazine"
+    informationType: infotype:primary
+hasTeacherAssertion:
+- id: 01M3YH7N5G4MMWFEB31XV4MS41
+  teacher: 01KJJAWN28MWKKSN4J02MVY1TF
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Started judo in 1980 at Judo Clube de Sintra - Judokai with Bastos Nunes, as
+      documented in Judo Magazine article and mentioned in blog as student for 30+ years
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD8N
+    interactionPeriod:
+      startYear: 1980
+    hasEvidence:
+    - uri: https://judomagazine.pt/2024/01/23/mestre-ze-manel/
+      cite: Mestre Zé Manel (Judo Magazine, archived)
+      quotation: Foi com o «Mestre Zé Manel», como carinhosamente os alunos mais chegados se atreviam
+        a tratá-lo, que iniciei a minha prática do Judo no Judo Clube de Sintra – Judokai, no Cacém, em
+        1980, e foi essencialmente com Ele que aprendi grande parte do pouco que hoje sei neste meu percurso
+        pelo Judo
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GYC1909BMDY5AJPXA
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 5
+  dateConferred: '2017-01-13'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Awarded 5th dan on January 13, 2017, documented in official FPJ exam results
+      PDF, with rank progression from 4th dan (Judokai website) to 5th dan (2017)
+  hasEvidence:
+  - basedOnSource: 01M3M0D4PBFC5QWQZH8C0K4JBQ
+    quotation: Exames para 5º DAN [...] Fernando Seabra [...] APROVADO
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- uri: https://www.judokai.pt/judokai/mestres-treinadores-e-graduados/
+  cite: Mestres, Treinadores e Graduados (Judokai.pt)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://site.judototal.com/seccao/treinadores-e-cintos-negros
+  cite: Treinadores e Cintos Negros (JudoTotal.com, arquivado)
+  informationType: infotype:secondary
+  supports: true
+  archiveUri: https://web.archive.org/web/20241213023522/https://site.judototal.com/seccao/treinadores-e-cintos-negros
+  evidenceType: evidencetype:direct
+- uri: https://judobeirainterior.blogspot.com/2011/04/
+  cite: Judo Beira Interior blog (Abril 2011)
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+description:
+  en: Portuguese judoka (5th dan), student of Bastos Nunes since 1980, jurist and master of judo adapted
+    for the blind.
+  pt: Judoca português (5º dan), aluno de Bastos Nunes desde 1980, jurista e mestre de judo adaptado para
+    cegos.
+notes: Fernando Seabra started practicing judo in 1980 at Judo Clube de Sintra - Judokai in Cacém with
+  Mestre Bastos Nunes. He has been a student of Bastos Nunes for over 30 years. Professionally, he is
+  a jurist (lawyer) and specializes as a master of judo adapted for the blind and visually impaired. According
+  to Judokai.pt, he was previously a 4th dan and responsible for technical preparation classes for graduation
+  exams. He was promoted to 5th dan on January 13, 2017, as documented in official FPJ exam results.

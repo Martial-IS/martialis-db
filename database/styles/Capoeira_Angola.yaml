@@ -1,0 +1,45 @@
+type: Style
+id: 01M6A2JTHSG7FHK01NCS2SN3FD
+name:
+  pt: Capoeira Angola
+aka:
+  pt:
+    - Capoeira de Angola
+styleType: styleclass:traditional
+description:
+  en: >-
+    The traditional Bahian capoeira as named from the 1930s, in opposition to Bimba's Regional, and
+    codified by Mestre Pastinha at his Centro Esportivo de Capoeira Angola: low inner game, ritual
+    and a set orchestra led by the berimbau.
+notes: >-
+  No founder: Assunção treats Pastinha as its codifier, not its creator (ch. 6). Revived from the
+  1980s by Mestre Moraes's GCAP and others (pp. 182-185).
+hasStyleRelationAssertion:
+  - id: 01M6A2JTJ6WEFSERDHG7A276E9
+    relatedStyle: 01M5H4AFG2PQBX1QXTNW3CMHN5
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+        quotation: >-
+          During the 1930s the traditional Bahian capoeira became increasingly identified as
+          ‘capoeira de Angola’, in opposition to the ‘capoeira Regional’ developed by Bimba.
+        locator: '151'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    locator: '147-166, 182-185'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q1754142
+tags:
+  - capoeira

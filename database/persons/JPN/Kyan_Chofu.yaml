@@ -1,0 +1,103 @@
+type: Person
+id: 01KZC7XZB0V0GYM0GAF9KATY8W
+name:
+  ja-Latn: Kyan Chōfu
+  ja: 喜屋武朝扶
+aka:
+  en:
+  - Kyan Chofu
+  - Chofu Kyan
+  ja:
+  - きやん ちょうふ
+nationality:
+- countryCode: country:XRY
+  wikidata: wd:Q28025
+- countryCode: eucountry:JPN
+  wikidata: wd:Q188712
+birthEvent:
+  birthDate: '1839-08-24'
+  hasEvidence:
+  - basedOnSource: 01KZC8XAP8TZQCANCRKS1W1R4W
+    quotation: 道光19年/天保10年7月16日（1839年8月24日）- 明治43年（1910年）
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1910'
+  hasEvidence:
+  - basedOnSource: 01KZC8XAP8TZQCANCRKS1W1R4W
+    quotation: 明治43年（1910年）
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://commons.wikimedia.org/wiki/Special:FilePath/%E5%96%9C%E5%B1%8B%E6%AD%A6%E6%9C%9D%E6%89%B6.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:%E5%96%9C%E5%B1%8B%E6%AD%A6%E6%9C%9D%E6%89%B6.jpg
+    cite: Wikimedia Commons via Wikidata
+    informationType: infotype:secondary
+description:
+  en: Ryukyuan politician and tōde (karate) practitioner (1839-1910), student of Matsumura Sōkon, steward
+    to the Ryukyuan king and later to the Shō family; father of Chōtoku Kyan.
+notes: Chōfu Kyan belonged to the Kyan clan of Shuri court officials (Shō-shi Kyan Tunchi, 11th generation).
+  He served as sanseikan (councillor) during the Ryukyu Kingdom period, went to Tokyo in 1873 as part
+  of the congratulatory embassy, and after the dissolution of the han served the former king Shō Tai as
+  his steward (kafu), accompanying him to Tokyo and living in the Sho family residence. He studied tōde
+  under Matsumura Sōkon. The Seibukan official history describes him as a distinguished politician active
+  from the end of the Ryukyu Kingdom into the Meiji era, "a man of both martial and literary cultivation"
+  (文武両道にたけた高潔な人格者), also known as a karateka of Matsumura's school, and records that he gave his son Chōtoku
+  his first karate instruction. Geoffrey Gaudion likewise describes him as excellent in Chinese classics,
+  Japanese arts and lettering, and an "excellent karateman", who asked three masters (Matsumura Sokon,
+  Anko Itosu and Pechin Oyadomari) to teach his son "not because he could not do so himself, but because
+  he loved his son too much to be severe in karate exercises", training the boy in sumo and karate wrestling
+  outdoors on cold winter days. He was adopted into the Kyan family from the Motonaga branch of the Motobu
+  Udun.
+hasTeacherAssertion:
+- id: 01M3YH7N5GXKEAAGQ7CT3PY7BS
+  teacher: 01KJJAWN29MA64W22606R3WD6A
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9F
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Japanese Wikipedia states he studied tōde (karate) under Matsumura Sōkon (唐手は松村宗棍に師事した);
+      corroborated by the Wikidata P1066 claim, the Seibukan official history (門下生としても知られる空手家) and Geoffrey
+      Gaudion's account of an excellent karateman of Matsumura's school
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZC8XAP8TZQCANCRKS1W1R4W
+      quotation: 唐手は松村宗棍に師事した。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZEV344570PFVXKKNTX5GYQP
+      quotation: 父朝扶は、琉球王朝末期から明治にかけて活躍した著名な政治家であり、松村宗棍の門下生としても知られる空手家でもあった。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZGMHT4PJAW67C6ZBVV6GP7J
+      quotation: His father, Chofu Kyan, held the post of steward to the family of Sir Shotai, the last
+        of Ryukyu royal lineage. Chofu Kyan was good at chinese classics, Japanese arts and lettering,
+        and an excellent karateman.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZC8XAP8TZQCANCRKS1W1R4W
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZEV344570PFVXKKNTX5GYQP
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZGMHT4PJAW67C6ZBVV6GP7J
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q99517310
+tags:
+- karate
+- shuri-te

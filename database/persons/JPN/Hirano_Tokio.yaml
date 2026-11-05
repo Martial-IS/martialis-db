@@ -1,0 +1,85 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD7K
+name:
+  ja-Latn: Hirano Tokio
+  ja: 平野時男
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1922-10-06'
+  birthPlace:
+    label: Awaji-shima
+    countryCode: eucountry:JPN
+    wikidata: wd:Q504373
+deathEvent:
+  deathDate: '1993-07-26'
+  deathPlace:
+    countryCode: eucountry:JPN
+image:
+  contentUrl: https://archive.org/download/tokio_hirano/tokio_hirano.jpg
+  imageAttribution:
+    basedOnSource: 01M3M3T743PYWTXZTNNXYP29DD
+    informationType: infotype:secondary
+hasTeacherAssertion:
+- id: 01M3YH7N5GBA6QA8FG4MARAY6M
+  teacher: 01KJJAWN29MA64W22606R3WD7J
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Documented as uchi deshi (live-in student) of Ushijima Tatsukuma in academic
+      paper
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD99
+    hasEvidence:
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDAE
+      cite: De Crée, Carl. (2014). Nanatsu-no-kata, Endō-no-kata, and Jōge-no-kata ―A pedagogical and
+        qualitative biomechanical evaluation of Hirano Tokio’s kuzushi (unbalancing) concept as part of
+        skill acquisition for throwing techniques in Kōdōkan jūdō. Revista de Artes Marciales Asiáticas.
+        9. 69-96. 10.18002/rama.v9i2.1162.
+      quotation: While still at Kyōto, Hirano later also became an uchi deshi to Ushijima Tatsukuma
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5G4CTZPJPPV13N1JHE
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 8
+  conferredBy: 01KJJAWN29MA64W22606R3WD7X
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: 8 dan rank mentioned in academic paper and other sources
+  hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WDAE
+    cite: De Crée, Carl. (2014). Nanatsu-no-kata, Endō-no-kata, and Jōge-no-kata ―A pedagogical and qualitative
+      biomechanical evaluation of Hirano Tokio’s kuzushi (unbalancing) concept as part of skill acquisition
+      for throwing techniques in Kōdōkan jūdō. Revista de Artes Marciales Asiáticas. 9. 69-96. 10.18002/rama.v9i2.1162.
+    quotation: Hirano Tokio, then 8th dan, passed away on 26 July 1993
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- uri: https://judoinfo.com/hirano/
+  cite: 'Tokio Hirano: The Man Who Revolutionized Judo | Judo Info'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://ja.wikipedia.org/wiki/%E5%B9%B3%E9%87%8E%E6%99%82%E7%94%B7
+  cite: 平野時男 - Wikipedia
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KJJAWN29MA64W22606R3WDAE
+  cite: De Crée, Carl. (2014). Nanatsu-no-kata, Endō-no-kata, and Jōge-no-kata ―A pedagogical and qualitative
+    biomechanical evaluation of Hirano Tokio’s kuzushi (unbalancing) concept as part of skill acquisition
+    for throwing techniques in Kōdōkan jūdō. Revista de Artes Marciales Asiáticas. 9. 69-96. 10.18002/rama.v9i2.1162.
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q21701522

@@ -1,0 +1,15 @@
+# Model errors the generated ontology must not carry; any row fails make model.
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?term ?problem WHERE {
+  { ?term a owl:ObjectProperty, owl:DatatypeProperty BIND ("both an object and a datatype property: split it in the model" AS ?problem) }
+  UNION { ?term a owl:ObjectProperty . [] owl:onProperty ?term ; owl:allValuesFrom|owl:someValuesFrom ?f
+          FILTER (STRSTARTS(STR(?f), STR(xsd:))) BIND ("object property with a datatype filler" AS ?problem) }
+  UNION { ?term a owl:DatatypeProperty . [] owl:onProperty ?term ; owl:allValuesFrom|owl:someValuesFrom ?f
+          FILTER (isIRI(?f) && !STRSTARTS(STR(?f), STR(xsd:))) BIND ("datatype property with a class filler" AS ?problem) }
+  UNION { ?term rdfs:comment ?a, ?b FILTER (lang(?a) = "en" && lang(?b) = "en" && STR(?a) < STR(?b))
+          BIND ("two English definitions: model description and overlay comment" AS ?problem) }
+  UNION { ?term rdfs:label ?a, ?b FILTER (lang(?a) = lang(?b) && STR(?a) < STR(?b))
+          BIND (CONCAT("two labels in ", IF(lang(?a) = "", "no language", lang(?a))) AS ?problem) }
+  FILTER STRSTARTS(STR(?term), "https://w3id.org/martialis/ontology#") }

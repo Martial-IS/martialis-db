@@ -1,0 +1,64 @@
+type: Style
+id: 01M5HMYWG7Y61ZJWHMZTCKZKYY
+name:
+  en: Shorinji Kempo
+  ja-Latn: Shōrinji Kenpō
+aka:
+  en:
+    - Nippon Shorinji Kempo
+styleType: styleclass:modern
+foundedEvent:
+  startDate: '1947'
+  founder:
+    - 01M5HMYWG7CNDTBQNBPKEZTXPY
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        the controversial adoption of the name Shorinji Kempo (Fist Way of the Shaolin Temple) for his
+        Japanese organization in 1947.
+      locator: '172'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Japanese martial art founded in 1947 by So Doshin (Nakano Michiomi), combining strikes, joint locks,
+    throws and pressure points with Zen Buddhist practice. It claims the legacy of the Shaolin Temple;
+    a 1972 court ruling made it change its name to Nippon Shorinji Kempo, and Draeger saw Hakko-ryu
+    jujutsu in its techniques.
+hasStyleRelationAssertion:
+  - id: 01M5HMYWG7594Q30A1E15625MV
+    relatedStyle: 01M5HMYWG786J2TNJN462P25EE
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: Single source; it reports Draeger's critique and an alleged transmission.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Draeger’s critique of this historicity rested on the cogent observation that the throwing,
+          locking, and pinning techniques and basic footwork of Shorinji Kempo outwardly resembles
+          Japanese systems such as Hakko ryu.
+        locator: '174'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      This claim on the Shaolin heritage was one of a number of attempts by the organization to establish
+      a connection that had been brought into question in 1972, when the courts in Japan disproved many
+      of the assertions of Chinese origins, legally requiring So to change the name of the budo to Nippon
+      Shorinji Kempo (Japanese Fist Way of the Shaolin Temple).
+    locator: '173'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q933634
+tags:
+  - shorinji-kempo

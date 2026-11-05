@@ -1,0 +1,82 @@
+type: Person
+id: 01M5JPY6FN315HECFACEE0SY04
+name:
+  en: Frank Slavin
+aka:
+  en:
+    - Paddy Slavin
+    - The Sydney Cornstalk
+nationality:
+  - countryCode: eucountry:AUS
+    wikidata: wd:Q408
+birthEvent:
+  birthDate: '1862-01-05'
+  birthPlace:
+    label: Vacy, New South Wales
+    countryCode: eucountry:AUS
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNNE16CVD52AHD3Y8M
+      quotation: >-
+        Frank Patrick Slavin (5 January 1862 – 17 October 1929), also known as "Paddy" Slavin, was an
+        Australian heavyweight boxer.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1929-10-17'
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNNE16CVD52AHD3Y8M
+      quotation: >-
+        Frank Patrick Slavin (5 January 1862 – 17 October 1929), also known as "Paddy" Slavin, was an
+        Australian heavyweight boxer.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Australian heavyweight, a pioneer of prizefighting in Australia, who fought under the tutelage of
+    Larry Foley; his rivalry with Peter Jackson was long and bitter.
+hasTeacherAssertion:
+  - id: 01M5JPY6FN49J1XJAF7QWV26G9
+    teacher: 01M5JPY6FNJBK7WVKR797CX3WY
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasInteraction:
+      - interactionPlace: 01M5JPYGXJT7D93TZXATXBEQ5C
+        hasEvidence:
+          - basedOnSource: 01M5JPY6FNNE16CVD52AHD3Y8M
+            quotation: >-
+              He was a pioneer of prizefighting in his country, fighting under the tutelage of Larry
+              Foley.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JPY6FNQFQ8KJC0YEQ1ZPSY
+            quotation: >-
+              At his gym at the White Horse, Foley taught, trained and guided the careers of the great
+              boxers Young Griffo, Bob Fitzsimmons, Paddy Slavin, and Peter Jackson as well as the lesser
+              known Dan Creedon and George Dawson.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JPY6FNNE16CVD52AHD3Y8M
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q33128874
+tags:
+  - boxing
+  - australia
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/1/18/PaddySlavin.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:PaddySlavin.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary

@@ -1,0 +1,45 @@
+type: Person
+id: 01M5H6067047X6W56Z7SFWTREJ
+name:
+  fr: Marc Scala
+nationality:
+  - countryCode: eucountry:FRA
+    wikidata: wd:Q142
+description:
+  en: >-
+    French judoka, a disciple of Mikinosuke Kawaishi, who moved from Paris to Montreal in 1950 and ran
+    several Kawaishi-method dojos there; Canadian champion of the Canadian Judo Federation and a
+    teacher of Bernard Gauthier.
+hasTeacherAssertion:
+  - id: 01M5H60670DBYSQA1XKH1QAC3D
+    teacher: 01KJJAWN28MWKKSN4J02MVY1T3
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              Marc Scala, who had moved from Paris to Montreal in 1950 and was a disciple of Mikinosuke
+              Kawaishi, took home the coveted championship plaque courtesy of the Japanese embassy.
+            locator: '45'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    quotation: >-
+      Marc Scala, who had moved from Paris to Montreal in 1950 and was a disciple of Mikinosuke
+      Kawaishi
+    locator: '45'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - canada

@@ -1,0 +1,79 @@
+type: Person
+id: 01M5KV9GA7D0RQFAD4VBF3JNDZ
+name:
+  en: Louis Gaillard
+  fr: Louis Gaillard
+nationality:
+  - countryCode: eucountry:FRA
+    wikidata: wd:Q142
+description:
+  en: >-
+    French boxer of the Lecour school, coached by Charles Lecour for his assault against Joseph
+    Charlemont at the École d'escrime, rue Saint-Marc, on 25 November 1884. He lost, and afterwards took
+    lessons with Charlemont.
+hasTeacherAssertion:
+  - id: 01M5KV9GA7JR0TQPS1C77R73T9
+    teacher: 01M5JG4Y25QKEKJ5K0T4KFYQW0
+    assertedStyle: 01M5KWGPRKBAFY4Z2766RHBEK5
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The teacher's own account.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1884
+        hasEvidence:
+          - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+            quotation: >-
+              A la suite de cet assaut, Louis Gaillard prit des leçons avec Charlemont.
+            locator: '368'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5KV9GA728P0ED3JZYGCN1CV
+    teacher: 01M5JG4Y25WZEYTQ2DBFQFW26C
+    assertedStyle: 01M5KWGPRK69RHM30T18CYDJ7H
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Implied: Lecour coached him at the 1884 assault, and onlookers called him one of the best
+        representatives of the Lecour method.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+            quotation: >-
+              Pendant que Charlemont s’habillait, M. Rodolphe Julian, qui lui causait, lui fit remarquer
+              dans un coin du vestiaire, auprès de Gaillard, Charles Lecour qui gesticulait et lui donnait
+              ses derniers et infaillibles conseils sur la manière dont il devait combattre Charlemont.
+            locator: '367'
+            locatorLabel: page
+            informationType: infotype:undetermined
+            supports: true
+            evidenceType: evidencetype:indirect
+          - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+            quotation: >-
+              « Ce n’est pas Gaillard qui est battu, c’est la méthode Lecour, dans un de ses meilleurs
+              représentants. »
+            locator: '368'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+    quotation: >-
+      Le 25 novembre 1884, Charlemont et son fils étaient invités à venir faire assaut de boxe, à la salle
+      de l’école d’escrime, 14, rue Saint-Marc.
+    locator: '367'
+    locatorLabel: page
+    informationType: infotype:undetermined
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - savate
+  - france

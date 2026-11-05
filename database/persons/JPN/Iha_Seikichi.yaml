@@ -1,0 +1,201 @@
+type: Person
+id: 01KZEERF0MFVCAD71XEHSP8VSH
+name:
+  ja-Latn: Iha Seikichi
+  ja: 伊波清一
+aka:
+  en:
+    - Seikichi Iha
+  ja:
+    - いは せいきち
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1932-07-12'
+  birthPlace:
+    label: Nishihara
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1206796
+  hasEvidence:
+    - basedOnSource: 01KZF0ZCDK22K38WTXS3634KAH
+      quotation: Seikichi Iha was born in Nishihara City, Okinawa Prefecture on July 12, 1932.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2024-08-03'
+  hasEvidence:
+    - basedOnSource: 01KZF0ZCDK9DCPTX28B2Y50DZZ
+      quotation: Seikichi Iha, Hanshi 10th Dan, sensei of Original Okinawa Karate died on Aug. 3 2024. He was 92.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://villagekarate.com/wp-content/uploads/2025/01/Seikichi-Iha-Hanshi-10th-Dan.webp
+  imageAttribution:
+    uri: https://villagekarate.com/in-memery-of-seikichi-iha-1932-2024/
+    cite: "Okinawa Village Karate Association"
+    informationType: infotype:secondary
+description:
+  en: Okinawan karateka (1932-2024), Hanshi 10th dan Shidokan karate, student of Shinpan Gusukuma and Katsuya Miyahira; senior-most Shorin-ryu practitioner in the United States, based in Lansing, Michigan.
+notes: 'Iha began karate training under his uncle and was accepted as a formal student of Shinpan Gusukuma in 1950, training with him for four years (until Gusukuma''s death in 1954); he was then introduced to Katsuya Miyahira by his friend Shoei Miyazato and accepted as Miyahira''s student in 1954. Rank progression per the Fighting Arts interview: 5-dan shihan (1963, teaching in Manila at the dojo of Latino Gonzales), 6-dan (1964, teaching US Marines at Futenma and opening his own Nishihara dojo), kyoshi 7-dan (1967, sent to Los Angeles - the first Okinawan master instructor of Shorin-ryu in Southern California since Kentsu Yabu in 1927), kyoshi 8-dan (September 1978), and hanshi 9-dan certified by Miyahira on March 12, 1989. He moved to Lansing, Michigan in April 1975, running the Original Okinawa Karate dojo; he was US Branch Chief of the Okinawa Shorin-ryu Karatedo Association and later North American Director for Shorin-ryu Shidokan. On May 19, 2020, Okinawa Governor Denny Tamaki awarded him the title of Intangible Cultural Asset - the first such award to an individual living outside Okinawa. The obituary gives his rank as Hanshi 10th dan. Note: the Grand River Karate bio gives 1931 as his birth year, while the Fighting Arts interview (primary) gives July 12, 1932.'
+hasTeacherAssertion:
+  - id: 01M3YH7N5GBN69BKX77GKKD33E
+    teacher: 01KZC7XZAR5RWRTRZP0T6R1YG4
+    assertedStyle: 01KZEK8ETSJ1SXJ870Q9JPT9N7
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Fighting Arts interview states Iha was accepted as a formal student of Shinpan Gusukuma in 1950 and trained with him for four years; the EN Wikipedia article on Gusukuma also names him as a student
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1950
+          endYear: 1954
+        hasEvidence:
+          - basedOnSource: 01KZF0ZCDK22K38WTXS3634KAH
+            quotation: in 1950 he was accepted as a formal student of Shinpan Gusukuma [...] Iha trained with Gusukuma for four years. After Gusukuma's death in 1954
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZC8XAP8EWWW14D3MXT7T9XG
+            quotation: Sensei Seikichi Iha, 10th Dan, Shidokan Karate, a student of Gusukuma's, reminds us that it is the responsibility of the dedicated student to seek out partners for the exploration of jutsu and ryaku.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G4WZR86EYP5DVNT9Y
+    teacher: 01KZEFJ55DYXZHDHV1WXX6MGAX
+    assertedStyle: 01KZEK8ETSJ1SXJ870Q9JPT9N7
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Fighting Arts interview states Iha met Katsuya Miyahira in 1954, was accepted as his student shortly thereafter, and received his hanshi 9-dan certification from Miyahira on March 12, 1989
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1954
+        hasEvidence:
+          - basedOnSource: 01KZF0ZCDK22K38WTXS3634KAH
+            quotation: >-
+              Iha met Katsuya Miyahira in 1954 and was accepted as a student shortly thereafter [...] On March 12, 1989, he received his Hanshi 9-Dan certification from Katsuya Miyahira
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZF0ZCDK1HJQFC8AMNBAMXHC
+            quotation: >-
+              Sensei Seikichi Iha [...] studying under the renowned masters, Sensei Shinpan Gusukuma, and Sensei Katsuya Miyahira.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5G9FBH0EKTS0S871WW
+    rankStyle: 01KZEK8ETSJ1SXJ870Q9JPT9N7
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 9
+    grantedBy: 01KZEFJ55DYXZHDHV1WXX6MGAX
+    dateConferred: '1989-03-12'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Fighting Arts interview states Iha received his hanshi 9-dan certification from Katsuya Miyahira on March 12, 1989, certified by the Okinawa Shorin-ryu Karatedo Association
+    hasEvidence:
+      - basedOnSource: 01KZF0ZCDK22K38WTXS3634KAH
+        quotation: On March 12, 1989, he received his Hanshi 9-Dan certification from Katsuya Miyahira making him the highest ranking Okinawan residing in the United States. His rank is certified by the Okinawa Shorin-ryu Karatedo Association.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G8E4HZS2WD5629JBW
+    rankStyle: 01KZEK8ETSJ1SXJ870Q9JPT9N7
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 10
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The obituary and the Grand River Karate bio give Iha's rank as Hanshi 10th dan; date unknown
+    hasEvidence:
+      - basedOnSource: 01KZF0ZCDK9DCPTX28B2Y50DZZ
+        quotation: Seikichi Iha, Hanshi 10th Dan, sensei of Original Okinawa Karate died on Aug. 3 2024.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZF0ZCDK1HJQFC8AMNBAMXHC
+        quotation: Seikichi Iha, Hanshi 10 Dan 1931-2024
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M3YH7N5G9EA24SWPHDYFCSKX
+    honorValue: Intangible Cultural Asset (Okinawa)
+    honorType: honortype:title
+    dateConferred: '2020-05-19'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Grand River Karate bio states Okinawa Governor Denny Tamaki awarded Iha the title of Intangible Cultural Asset on May 19, 2020, the first such award to an individual living outside Okinawa
+    hasEvidence:
+      - basedOnSource: 01KZF0ZCDK1HJQFC8AMNBAMXHC
+        quotation: On May, 19, 2020, Denny Tamaki, Governor of Okinawa, awarded Iha Sensei the title of Intangible Cultural Asset, designating Iha Sensei a national treasure. This is the first time the award has been given to an individual living outside of Okinawa.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GA01G5Y6MM582Y3S4
+    honorValue: Hanshi 9th Dan
+    honorType: honortype:title
+    honorGrade: honorgrade:shogo_hanshi
+    grantedBy: 01KZEFJ55DYXZHDHV1WXX6MGAX
+    dateConferred: '1989-03-12'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Fighting Arts interview states Iha received his hanshi 9-dan certification from Katsuya Miyahira on March 12, 1989, certified by the Okinawa Shorin-ryu Karatedo Association
+    hasEvidence:
+      - basedOnSource: 01KZF0ZCDK22K38WTXS3634KAH
+        quotation: On March 12, 1989, he received his Hanshi 9-Dan certification from Katsuya Miyahira making him the highest ranking Okinawan residing in the United States. His rank is certified by the Okinawa Shorin-ryu Karatedo Association.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GPA56C1NWC4RZDV8M
+    honorValue: Hanshi 10th Dan
+    honorType: honortype:title
+    honorGrade: honorgrade:shogo_hanshi
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The obituary and the Grand River Karate bio give Iha's rank as Hanshi 10th dan; date unknown
+    hasEvidence:
+      - basedOnSource: 01KZF0ZCDK9DCPTX28B2Y50DZZ
+        quotation: Seikichi Iha, Hanshi 10th Dan, sensei of Original Okinawa Karate died on Aug. 3 2024.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZF0ZCDK1HJQFC8AMNBAMXHC
+        quotation: Seikichi Iha, Hanshi 10 Dan 1931-2024
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZF0ZCDK22K38WTXS3634KAH
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZF0ZCDK9DCPTX28B2Y50DZZ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZF0ZCDK1HJQFC8AMNBAMXHC
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZC8XAP8EWWW14D3MXT7T9XG
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q7446770
+tags:
+  - karate
+  - shorin-ryu
+  - shidokan

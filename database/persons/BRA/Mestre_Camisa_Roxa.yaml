@@ -1,0 +1,45 @@
+type: Person
+id: 01M6A2A5ZDT67R2M47R60GS0F0
+name:
+  pt: Mestre Camisa Roxa
+aka:
+  pt:
+    - Edvaldo Carneiro da Silva
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Capoeira Regional mestre, a student of Mestre Bimba, who led the touring company Brasil Tropical
+    in Europe in the 1970s.
+notes: >-
+  Elder brother of Mestre Camisa (Assunção, p. 171).
+hasTeacherAssertion:
+  - id: 01M6A2A5ZCVF11T4X3TBKEF2ME
+    teacher: 01M5H4AFG2ZHJ3H82H0DPJQJ1V
+    assertedStyle: 01M6A2A5YR5THAAVA3A61JRZ1H
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              Camisa Roxa, a student of M.Bimba, was at the time considered to be one of the best
+              Regional players of Brazil.
+            locator: '186'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    locator: '186'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - capoeira

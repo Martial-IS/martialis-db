@@ -1,0 +1,79 @@
+type: Place
+id: 01M5JPYGXJT7D93TZXATXBEQ5C
+name:
+  en: Larry Foley's boxing academy, White Horse Hotel
+aka:
+  en:
+    - White Horse Hotel gym
+placeType: placeclass:gym
+hasSite:
+  - location:
+      label: Sydney
+      countryCode: eucountry:AUS
+      wikidata: wd:Q3130
+    address: White Horse Hotel, George Street, Sydney
+    hasEvidence:
+      - basedOnSource: 01M5JPY6FNQFQ8KJC0YEQ1ZPSY
+        quotation: >-
+          After his victory over Hicken, Foley opened a boxing academy at his White Horse Hotel on George
+          Street, though he likely held matches there earlier.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M5JPYGXJ1DHWM5C6DN02A3AY
+    instructor: 01M5JPY6FNJBK7WVKR797CX3WY
+    instructorCapacity: instrcap:head_instructor
+    instructorStyle: 01KJJAWN29MA64W22606R3WD9N
+    instructorPeriod:
+      startYear: 1879
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasEvidence:
+      - basedOnSource: 01M5JPY6FNQFQ8KJC0YEQ1ZPSY
+        quotation: >-
+          After his victory over Hicken, Foley opened a boxing academy at his White Horse Hotel on George
+          Street, though he likely held matches there earlier.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JPY6FNCJ3BTKPAQZEN12FY
+        quotation: >-
+          He said in a 1902 interview with The Cincinnati Enquirer that Larry Foley of Sydney had acted
+          as an important early boxing mentor, and indeed Griffo had trained at Foley's boxing school at
+          Sydney's White Horse Hotel
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5JPYGXJBS40XYVGH47A7FJP
+    instructor: 01M5JPY6FNZ219F9GMWP2YDSQ3
+    instructorCapacity: instrcap:instructor
+    instructorStyle: 01KJJAWN29MA64W22606R3WD9N
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasEvidence:
+      - basedOnSource: 01M5JPY6FNQFQ8KJC0YEQ1ZPSY
+        quotation: >-
+          Former English champion Jem Mace, who trained Foley for his championship bout with Hicken,
+          helped open the school and continued as an instructor.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Larry Foley's boxing school at his White Horse Hotel, George Street, Sydney, opened after his 1879
+    win over Abe Hicken, with Jem Mace as an instructor. Bob Fitzsimmons, Peter Jackson, Young Griffo and
+    Frank Slavin trained there, and Foley's Ironpot Stadium behind the hotel used the Queensberry Rules.
+hasEvidence:
+  - basedOnSource: 01M5JPY6FNQFQ8KJC0YEQ1ZPSY
+    informationType: infotype:secondary
+    supports: true
+tags:
+  - boxing
+  - australia

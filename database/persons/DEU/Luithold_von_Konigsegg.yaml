@@ -1,0 +1,61 @@
+type: Person
+id: 01M61REWPV9JH5V9JZV0MB1CJ2
+name:
+  de: Luithold von Königsegg
+aka:
+  de:
+    - Leutold von Königsegg
+nationality:
+  - countryCode: eucountry:DEU
+    wikidata: wd:Q183
+description:
+  en: >-
+    Fifteenth-century Swabian nobleman whom Hans Talhoffer trained for a judicial duel; Talhoffer's
+    Königsegg treatise (MS XIX.17-3, 1446–1459) depicts the training and the duel, which seems never to
+    have taken place.
+hasTeacherAssertion:
+  - id: 01M61REWPVYZ886P9BY9KXEPW4
+    teacher: 01M5JRHX02K4F9MSBBAJP97WJB
+    assertedStyle: 01M5JRHX026EPJNQVEJDCKRNJP
+    role: teachrole:private
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Talhoffer's own treatise for the family says Luithold learns the dagger from him; Wiktenauer and
+        English Wikipedia describe the training.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JRHX02KGPWARMFCJ30NGGC
+            quotation: >-
+              Hie vachtt lẅtold von küngs egg an zelernen indem tegen von maister hanssen talhoffer
+            locator: Königsegg Treatise (1446-59), fol. 25r
+            locatorLabel: section
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JRHX02KGPWARMFCJ30NGGC
+            quotation: >-
+              This work depicts a judicial duel being fought by Luithold von Königsegg and the training
+              that Talhoffer gave him in preparation
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JRHX02QPBKJQCK511K8ZKZ
+            quotation: >-
+              This work depicts a judicial duel being fought by Luithold von Königsegg as well as the
+              training that Talhoffer gave him in preparation
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JRHX02KGPWARMFCJ30NGGC
+    quotation: >-
+      This work depicts a judicial duel being fought by Luithold von Königsegg and the training that
+      Talhoffer gave him in preparation, but it seems that this duel never actually took place.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - hema
+  - fencing

@@ -1,0 +1,8 @@
+PREFIX martialis: <https://w3id.org/martialis/ontology#>
+SELECT ?entity (COUNT(?e) AS ?count) WHERE {
+  VALUES ?class { martialis:Person martialis:Style martialis:Organization
+                  martialis:Place martialis:Source martialis:Event
+                  martialis:RankingSystem }
+  ?e a ?class .
+  BIND(STRAFTER(STR(?class), "ontology#") AS ?entity)
+} GROUP BY ?entity ORDER BY DESC(?count)

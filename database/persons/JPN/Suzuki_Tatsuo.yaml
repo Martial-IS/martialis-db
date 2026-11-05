@@ -1,0 +1,47 @@
+type: Person
+id: 01M6C5JZZGBHHYW8XPRCKSSGSW
+name:
+  en: Tatsuo Suzuki
+  ja-Latn: Suzuki Tatsuo
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/f/f8/Tatsuo_Suzuki_%28Cap-d%27Ail%29.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Tatsuo_Suzuki_(Cap-d%27Ail).jpg
+    cite: "GdML, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    Japanese Wado-ryu karate teacher, a student of Hironori Otsuka, and chief instructor of the Wado
+    International Karate Do Federation, based in London.
+hasTeacherAssertion:
+  - id: 01M6C5MBP3CVP1DNT3JP5PN43R
+    teacher: 01KZC19BDC541MVC7EEAMK7R0P
+    assertedStyle: 01KZC19BDCZ4W748REDE7C8R9K
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source; his own account.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C5JZZG3712KYTG9XNZ3HQM
+            quotation: >-
+              His wiry build and bald head reminded me of the pictures I had seen of his legendary
+              teacher, the founder of Wado Ryu Karate, Horonori [sic] Ohtsuka.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C5JZZG3712KYTG9XNZ3HQM
+    quotation: >-
+      Professor Tatsuo Suzuki, Chief Instructor of the Wado International Karate Do Federation was
+      expecting me at his winter training course.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - karate

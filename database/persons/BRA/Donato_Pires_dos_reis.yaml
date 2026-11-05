@@ -1,0 +1,77 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1TQ
+name:
+  pt: Donato Pires dos Reis
+nationality:
+- countryCode: eucountry:BRA
+  wikidata: wd:Q155
+birthEvent:
+  birthPlace:
+    label: Belém, Pará
+    countryCode: eucountry:BRA
+    wikidata: wd:Q12829733
+image:
+  contentUrl: https://archive.org/download/donato/donato.png
+  imageAttribution:
+    uri: https://simonbjj.com/donato-pires
+    cite: "Simon BJJ"
+hasTeacherAssertion:
+- id: 01M3YH7N5F1B6R710TB8JRBB47
+  teacher: 01KJJAWN28MWKKSN4J02MVY1TJ
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Independent sources state it.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1920
+    hasEvidence:
+    - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+      locator: Timeline (1921)
+      locatorLabel: section
+      quotation: >-
+        1921 - “Oscar” Gracie and Donato Pires dos Reis have a match. Both are referred to in the press
+        as being students of Jacyntho Ferro.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+      locator: Appendix (photo captions)
+      locatorLabel: section
+      quotation: >-
+        Jacyntho (on the right), the man who learned from Mitsuyo Maeda and taught Carlos Gracie and
+        Donato Pires dos Reis in the Amazon.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+      cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo
+        no Brasil e no mundo. 2020.'
+      locator: vol. 3, p. 94
+      quotation: '''Oscar'' muito provavelmente se trata do nome de Carlos grafado equivocadamente
+        [...] Na notícia, ''Oscar Gracie'' e Donato são apresentados como alunos do famoso esportista
+        paraense Jacyntho Ferro, este sim, discípulo directo de Maeda'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KXTSQXW5H2G5FMTP0RTYT0XA
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KXTSQXW5H2G5FMTP0RTYT0XB
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+  cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil
+    e no mundo. 2020.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KXTSQXW5H2G5FMTP0RTYT0XC
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct

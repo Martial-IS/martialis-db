@@ -1,0 +1,63 @@
+type: Style
+id: 01KYHQNWJFK4AWV782SEB1AAFK
+name:
+  en: Wudangquan
+  zh: 武當拳
+aka:
+  en:
+    - Wudang chuan
+    - Wudang school
+    - Neijia
+styleType: styleclass:traditional
+description:
+  en: 'Wudangquan is a class of Chinese martial arts, named after the Wudang Mountains. It is one
+
+    of the two major groups of Chinese martial arts alongside Shaolin, representing the internal
+
+    (neijia) tradition. Its core styles include tai chi, xingyiquan, and baguazhang, which
+
+    emphasize using the focused mind to control the body rather than brute force.
+
+'
+  zh: '武當拳是中國武術的一大門派，以武當山命名，與少林派並列為中國武術兩大流派。
+
+    武當拳屬內家拳，核心拳種包括太極拳、形意拳和八卦掌。
+
+'
+hasEvidence:
+  - basedOnSource: 01KYHQNWJF2KVN43N3C66MZFSR
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+foundedEvent:
+  location:
+    countryCode: eucountry:CHN
+  hasEvidence:
+    - basedOnSource: 01KYHQNWJF2KVN43N3C66MZFSR
+      quotation: >-
+        Wudangquan [...] is a class of Chinese martial arts
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q2324353
+tags:
+  - chinese-martial-arts
+  - wudang
+  - neijia
+  - internal
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5G1JJMVCX7FNZCE236
+    relatedStyle: 01KYHQNWJF0CZFH1SXM9J40XEJ
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wudangquan is a named class within Chinese martial arts
+    hasEvidence:
+      - basedOnSource: 01KYHQNWJF2KVN43N3C66MZFSR
+        quotation: >-
+          Wudangquan [...] is a class of Chinese martial arts
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct

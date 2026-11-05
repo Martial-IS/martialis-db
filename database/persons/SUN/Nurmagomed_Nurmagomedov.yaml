@@ -1,0 +1,67 @@
+type: Person
+id: 01M6EHHZQ6R6HNCJQJPQZZY8B2
+name:
+  en: Nurmagomed Nurmagomedov
+  ru: Нурмагомед Магомедович Нурмагомедов
+nationality:
+- countryCode: eucountry:SUN
+  wikidata: wd:Q15180
+- countryCode: eucountry:UKR
+  wikidata: wd:Q212
+birthEvent:
+  birthDate: '1970-09-02'
+  birthPlace:
+    label: Sildi
+    countryCode: eucountry:SUN
+    wikidata: wd:Q19353941
+  hasEvidence:
+  - basedOnSource: 01M6EHHZQ6Y6F316NRJYV5V674
+    quotation: >-
+      род. 2 сентября 1970, Сильди, Дагестанская АССР
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: >-
+    Sambo wrestler who competed for Ukraine; 1992 world sambo champion.
+hasTeacherAssertion:
+- id: 01M6EHHZQ6S45EWQVEE6CPBA5C
+  teacher: 01M6EHHZQ626MAGM7REPB3SVV2
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9H
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Butriy's own account and Abdulmanap's post agree. The post does not name the brother; the
+      1992 world sambo title identifies Nurmagomed
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M6EHHZQ6BV6MV77ZCN5XM95Q
+      quotation: >-
+        Нурик у меня на чемпионате мира (ЧМ-1992 по самбо. — Прим. «СЭ») в финале выиграл у
+        трехкратного чемпиона 12-1
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6EHHZQ6BV6MV77ZCN5XM95Q
+      quotation: >-
+        Рядом мой младший брат ЧМ по спортивному самбо тоже его воспитанник .
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6EHHZQ6Y6F316NRJYV5V674
+      quotation: >-
+        Наставниками Нурмагомедов были Пётр Бутрий и Абдулманап Нурмагомедов.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M6EHHZQ6Y6F316NRJYV5V674
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q112415660
+tags:
+- sambo

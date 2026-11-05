@@ -1,0 +1,24 @@
+# Refuted and doubtful teacher claims: a TeacherAssertion that a source makes
+# but the evidence refutes (conflevel:refuted) or does not substantiate
+# (conflevel:doubtful). No wasTaughtBy edge follows from either, so only the
+# assertion shows it. The rationale says why the claim is rejected or doubted.
+PREFIX martialis: <https://w3id.org/martialis/ontology#>
+PREFIX conflevel: <https://w3id.org/martialis/vocab/confidence-level/>
+PREFIX schema: <https://schema.org/>
+
+SELECT ?person ?teacher ?level
+       (SAMPLE(?pn) AS ?personName) (SAMPLE(?tn) AS ?teacherName)
+       (SAMPLE(?sn) AS ?styleName) (SAMPLE(?r) AS ?rationale) WHERE {
+  VALUES ?level { conflevel:refuted conflevel:doubtful }
+  ?person martialis:hasTeacherAssertion ?a .
+  ?a martialis:teacher ?teacher ;
+     martialis:assertedStyle ?style ;
+     martialis:hasConfidence ?c .
+  ?c martialis:confidenceLevel ?level .
+  OPTIONAL { ?c martialis:confidenceRationale ?r }
+  ?person schema:name ?pn .
+  ?teacher schema:name ?tn .
+  ?style schema:name ?sn .
+}
+GROUP BY ?person ?teacher ?style ?level
+ORDER BY ?level ?personName

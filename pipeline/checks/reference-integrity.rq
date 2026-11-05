@@ -1,0 +1,24 @@
+# Reference integrity: every entity IRI used as an object must resolve to a
+# record that is itself described (has a type). A cross-reference to a ULID no
+# record carries - a typo, a deleted record, a draft that never landed - leaves
+# a dangling IRI: RDF does not care, the generated JSON Schema only checks the
+# 26-character shape of the value, and no structural shape targets it, so
+# nothing else in the pipeline notices.
+#
+# The subject side is deliberately unconstrained (`?s ?p ?ref`): a reference
+# can be a predicate's object or the object of a nested relation, and the
+# question is the same either way.
+#
+# Vacuity is guarded in the Makefile recipe (the export must mention entity
+# IRIs) rather than here: an empty result is the PASS, so the query cannot
+# distinguish "all references resolve" from "there was nothing to check".
+PREFIX martialis: <https://w3id.org/martialis/ontology#>
+
+SELECT DISTINCT ?ref
+WHERE {
+  ?s ?p ?ref .
+  FILTER(isIRI(?ref))
+  FILTER(STRSTARTS(STR(?ref), "https://martial.is/entity/"))
+  FILTER NOT EXISTS { ?ref a ?type }
+}
+ORDER BY ?ref

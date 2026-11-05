@@ -1,0 +1,135 @@
+type: Person
+id: 01KZKY9ZRHF2DG8JJ07FRBGR97
+name:
+  en: John Carmack
+aka:
+  en:
+  - John D. Carmack
+  - John D. Carmack II
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+birthEvent:
+  birthDate: '1970-08-21'
+  birthPlace:
+    label: Shawnee Mission, Kansas
+    countryCode: eucountry:USA
+    wikidata: wd:Q7491542
+  hasEvidence:
+  - basedOnSource: 01KZKY9ZRHMPQTAFYD99WDVY1Q
+    quotation: >-
+      John D. Carmack II (born August 21, 1970)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: 'American computer programmer and video game developer, co-founder of id Software and lead programmer
+    of Wolfenstein 3D, Doom and Quake, later CTO of Oculus VR. Hobbyist grappler: wrestled in junior high
+    and trained Midwest YMCA judo as a teenager, resumed judo in his thirties, and received a year of
+    private Brazilian jiu-jitsu lessons with Carlos Machado, training on Saturdays at his Armadillo Aerospace
+    facility.
+
+    '
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/4/4e/John_Carmack_at_GDCA_2017_--_1_March_2017_%28cropped%29.jpeg
+  rights: mediarights:cc-by-2.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:John_Carmack_at_GDCA_2017_--_1_March_2017_(cropped).jpeg
+    cite: "Official GDC, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+- id: 01M3YH7N5GJMHVXZ8MZCX8RXXQ
+  teacher: 01KYG003XD92NPCBEN0M2JF8Y4
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  role: teachrole:private
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Carmack states directly on JRE
+  hasInteraction:
+  - interactionPlace: 01KZKY9ZRHFRAABJE96Y1X44PN
+    hasEvidence:
+    - basedOnSource: 01KZKY9ZRHNCNX0YCHSXQPBDXH
+      locator: 1:47:03-1:47:30
+      locatorLabel: timestamp
+      quotation: My wife for Christmas one year got me a year of private lessons with Carlos Machado.
+        [...] I was in a situation where I had Armadillo Aerospace, my rocketry company at the time, we
+        had enough space. So I had a whole bunch of mats set out there and I would work with Carlos and
+        one of the other guys there on Saturdays.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GFA4KT79BG3C48XMQ
+  teacher: 01KZM7FWX5ED60G33KMWKDRWYT
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Carmack describes resuming judo in his thirties at Becerra Judo and later training with "one of my
+      coaches"; the club's own website identifies its head as Bert Becerra, but the episode never names
+      the coach explicitly, leaving some doubt about which instructors he learned from
+  hasInteraction:
+  - interactionPlace: 01KZM7FWX58PDQQPAAJR4X7029
+    hasEvidence:
+    - basedOnSource: 01KZKY9ZRHNCNX0YCHSXQPBDXH
+      locator: 1:45:42-1:46:32; 1:47:45-1:47:52
+      locatorLabel: timestamp
+      quotation: I got back into it in my thirties [...] the place that I wound up is called Becerra judo.
+        And [...] he was a Cuban Olympian [...] Then I had judo with one of my coaches another day.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZM7FWX5NZ9PJDYNDTZPN1P9
+      locator: 2007F.html - 'John Carmack promoted to Brown Belt'
+      locatorLabel: title-locator
+      quotation: John Carmack promoted to Brown Belt
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GFB9SRK63NBRMKHZ0
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:kyu
+  grantedBy: 01KZM7FWX5ED60G33KMWKDRWYT
+  dateConferred: '2007'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: The club's own website records the promotion with a dated photograph (2007CarmackBrownBelt.jpg)
+      on its 2007 awards page
+  hasEvidence:
+  - basedOnSource: 01KZM7FWX5NZ9PJDYNDTZPN1P9
+    locator: 2007F.html - 'John Carmack promoted to Brown Belt'
+    locatorLabel: title-locator
+    quotation: John Carmack promoted to Brown Belt
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZKY9ZRHMPQTAFYD99WDVY1Q
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZKY9ZRHNCNX0YCHSXQPBDXH
+  locator: 1:36:14-1:53:20
+  locatorLabel: timestamp
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZM7FWX5NZ9PJDYNDTZPN1P9
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q92605
+- viaf:226231865
+- dbr:John_Carmack
+- isni:0000000385378741
+tags:
+- brazilian-jiu-jitsu
+- judo
+- video-game-developer
+- hobbyist

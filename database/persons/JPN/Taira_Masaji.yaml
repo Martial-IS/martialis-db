@@ -1,0 +1,127 @@
+type: Person
+id: 01KZBW5DXR1HTW0VBQZDRQXC0A
+name:
+  ja-Latn: Taira Masaji
+  ja: 平良正次
+aka:
+  en:
+    - Masaji Taira
+  ja:
+    - たいら まさじ
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1952-12-01'
+  birthPlace:
+    label: Kume Island
+    countryCode: eucountry:JPN
+    wikidata: wd:Q247515
+  hasEvidence:
+    - basedOnSource: 01KZC8XAP86JYAGPJNGHSQE5EY
+      quotation: Masaji Taira (平良 正次, Taira Masaji; born 1 December 1952) [...] was raised on Kume Island.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://commons.wikimedia.org/wiki/Special:FilePath/TairaTimaru.jpg
+  rights: mediarights:cc0-1.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:TairaTimaru.jpg
+    cite: Wikimedia Commons
+    informationType: infotype:secondary
+description:
+  en: Leading teacher of Okinawa Goju-ryu karate (born 1952), head of the Okinawa Gojuryu Kenkyu Kai, student of Eiichi Miyazato at the Jundokan; known as a researcher and practitioner of Goju-ryu kata bunkai.
+notes: Taira started training at the Jundokan dojo of Eiichi Miyazato at age 16, with a break while joining the Japanese police force; he has trained continuously since age 21, traveling nightly from Gushikawa City to the Jundokan in Naha. He also holds 4th dan in judo, achieved during riot police training. In a Blitz Magazine interview (c. 2011-12, during his first visit to Australia) he states that Miyazato was also an instructor at the Police Academy and that a number of his seniors at the Jundokan were his seniors in the police force; his police work drove his pursuit of practical application practices. Miyazato taught by example and insisted the kata passed from Miyagi Chojun not be changed, which guides Taira's bunkai application practices - he teaches advanced kata versions while keeping the kihon versions unchanged, and emphasizes hojo-undo (chi'ishi), kakie drills and a "spiral" view of progression. He wishes to continue the legacy of Miyazato and Miyagi Chojun, and teaches seminars worldwide (US, Canada, Australia, France, Italy, Portugal, England, Lithuania, India and New Zealand per the Taira Kenkyukai France site, which also records the French branch since 2012).
+hasTeacherAssertion:
+  - id: 01M3YH7N5GZDPE4B6CZ5HKM2YF
+    teacher: 01KZBT3HG4JKJHVB8DAA0N0XT9
+    assertedStyle: 01KZC8S2GEGBJJT9RKV5M0HJ3N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states Taira started training at the Jundokan dojo of Eiichi Miyazato at age 16 and trained under Miyazato's guidance for years; corroborated by Taira's own words in the Blitz interview (primary) and the Taira Kenkyukai France site
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1968
+        hasEvidence:
+          - basedOnSource: 01KZC8XAP86JYAGPJNGHSQE5EY
+            quotation: At age 16, Taira started training in Goju ryu karate at the Jundokan dojo of Eiichi Miyazato [...] he would make the journey from Gushikawa City where he was stationed to the Jundokan in Naha where from 6pm to 10pm every night he would pursue his karate training [...] under the guidance of Miyazato, founder of the Jundokan.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZKTQXG6D22V0D9A6R5KZXEA
+            quotation: I also wish to continue the legacy left to me by Miyazato Sensei and Miyagi Chojun Sensei before him [...] Miyazato Sensei [the Jundokan dojo's late chief instructor] was an instructor at the Police Academy, and a number of my seniors at the Jundokan were also my seniors in the police force.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZKTQXG6C4K9JH93JHWKWT14
+            quotation: His teacher was Eiichi Miyazato, a student of Chojun Miyagi and the founder of the Okinawan Jundokan dojo. Taira's karate is that of his teacher and the Jundokan, with the addition of his novel approach to the application of the kata.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GD5Q2VM2EX8FF9NCC
+    rankStyle: 01KZC8S2GEGBJJT9RKV5M0HJ3N
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 9
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Taira Kenkyukai France site (official French branch of his organisation) describes Taira as 9th Dan Hanshi; single source, hence probable
+    hasEvidence:
+      - basedOnSource: 01KZKTQXG6C4K9JH93JHWKWT14
+        quotation: The Okinawa Goju Ryu Kenkyukai is a global karate organisation set up to promote research into the practical application of Okinawa Goju Ryu Karate kata and technique, headed by Taira Masaji Sensei, 9th Dan Hanshi.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GH7N0Z90V2WG0FXRN
+    rankStyle: 01KJJAWN29MA64W22606R3WD9R
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 4
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states Taira is currently 4th dan in judo
+    hasEvidence:
+      - basedOnSource: 01KZC8XAP86JYAGPJNGHSQE5EY
+        quotation: He achieved his judo black belt in 3 months [...] He is currently 4th dan in Judo.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M3YH7N5GY3Z6F9TC8BBBCNJJ
+    honorValue: Hanshi 9th Dan
+    honorType: honortype:title
+    honorGrade: honorgrade:shogo_hanshi
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Taira Kenkyukai France site (official French branch of his organisation) describes Taira as 9th Dan Hanshi; single source, hence probable
+    hasEvidence:
+      - basedOnSource: 01KZKTQXG6C4K9JH93JHWKWT14
+        quotation: The Okinawa Goju Ryu Kenkyukai is a global karate organisation set up to promote research into the practical application of Okinawa Goju Ryu Karate kata and technique, headed by Taira Masaji Sensei, 9th Dan Hanshi.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZC8XAP86JYAGPJNGHSQE5EY
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZKTQXG6D22V0D9A6R5KZXEA
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZKTQXG6C4K9JH93JHWKWT14
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q6782405
+tags:
+  - karate
+  - goju-ryu

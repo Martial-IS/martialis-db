@@ -1,0 +1,10 @@
+# Parent organization of each organization, from the materialized parentOrg edge.
+PREFIX martialis: <https://w3id.org/martialis/ontology#>
+PREFIX schema: <https://schema.org/>
+
+SELECT ?childName ?parentName WHERE {
+  ?child martialis:parentOrg ?parent .
+  ?child schema:name ?childName . FILTER(langMatches(LANG(?childName), "en"))
+  ?parent schema:name ?parentName . FILTER(langMatches(LANG(?parentName), "en"))
+}
+ORDER BY ?childName

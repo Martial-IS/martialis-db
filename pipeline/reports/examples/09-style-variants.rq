@@ -1,0 +1,12 @@
+# Every style that is a variant of a given style, transitively.
+PREFIX martialis: <https://w3id.org/martialis/ontology#>
+PREFIX schema: <https://schema.org/>
+
+SELECT DISTINCT ?variant ?variantName WHERE {
+  ?variant martialis:variantOf+ ?root .
+  ?root schema:name "Chinese martial arts"@en .
+  ?variant schema:name ?variantName .
+  FILTER(langMatches(LANG(?variantName), "en"))
+}
+ORDER BY ?variantName
+LIMIT 25

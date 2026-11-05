@@ -1,0 +1,11 @@
+# Every recorded ancestor of a person, walking wasTaughtBy transitively.
+PREFIX martialis: <https://w3id.org/martialis/ontology#>
+PREFIX schema: <https://schema.org/>
+
+SELECT DISTINCT ?ancestor ?ancestorName WHERE {
+  ?student schema:name "Kanō Jigorō"@ja-Latn ;
+           martialis:wasTaughtBy+ ?ancestor .
+  ?ancestor schema:name ?ancestorName .
+  FILTER(langMatches(LANG(?ancestorName), "ja-Latn"))
+}
+ORDER BY ?ancestorName

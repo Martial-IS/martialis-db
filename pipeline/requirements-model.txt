@@ -1,0 +1,5 @@
+# Pinned LinkML for `make model` (maintainer-only; no gate step needs Python).
+# Create the venv:
+#   uv venv tools/linkml-venv && uv pip install --python tools/linkml-venv -r pipeline/requirements-model.txt
+linkml==1.11.1
+linkml-runtime==1.11.1

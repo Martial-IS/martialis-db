@@ -1,0 +1,71 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1TK
+name:
+  ja-Latn: Fukuda Hachinosuke
+  ja: 福田八之助
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1828'
+  birthPlace:
+    label: Nagatoro
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1345299
+deathEvent:
+  deathDate: '1879-08-14'
+  deathPlace:
+    countryCode: eucountry:JPN
+    wikidata: wd:Q17
+  hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+    quotation: In August 1879, shortly after this event, Master Fukuda collapsed and died.
+    locator: '6'
+    locatorLabel: page
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M3YH7N5GP1P72TWMASAYVPWZ
+  teacher: 01KJJAWN28MWKKSN4J02MVY1V9
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9Q
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Independent sources state it.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD8A
+    interactionPeriod:
+      startYear: 1851
+    hasEvidence:
+    - uri: https://ja.wikipedia.org/wiki/%E7%A6%8F%E7%94%B0%E5%85%AB%E4%B9%8B%E5%8A%A9
+      archiveUri: https://ja.wikipedia.org/w/index.php?title=%E7%A6%8F%E7%94%B0%E5%85%AB%E4%B9%8B%E5%8A%A9&oldid=102613491
+      cite: 福田八之助 - Wikipedia
+      quotation: 嘉永四年（1851年）（乃至5年）24歳の春に江戸へ出て神田お玉ヶ池天神真楊流の磯正智（三代目）に弟子入りした。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+      quotation: >-
+        The third generation master was Masatomo Iso, who was better known and had been Fukuda’s
+        teacher. Iso ran his dojo in Otamagaike, Kanda, Tokyo.
+      locator: '9'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- uri: http://www.tenyokai.com/history.html
+  cite: TENYOKAI INTERNATIONAL - HISTORY
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://ja.wikipedia.org/wiki/%E7%A6%8F%E7%94%B0%E5%85%AB%E4%B9%8B%E5%8A%A9
+  archiveUri: https://ja.wikipedia.org/w/index.php?title=%E7%A6%8F%E7%94%B0%E5%85%AB%E4%B9%8B%E5%8A%A9&oldid=102613491
+  cite: 福田八之助 - Wikipedia
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q22124384

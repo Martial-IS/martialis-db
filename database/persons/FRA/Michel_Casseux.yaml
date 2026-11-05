@@ -1,0 +1,74 @@
+type: Person
+id: 01M5JG4Y25TKZ9ESTG89MCD7WJ
+name:
+  en: Michel Casseux
+  fr: Michel Casseux
+aka:
+  en:
+    - Michel Pisseux
+    - Michel Lepisseux
+    - Michel, called Pisseux
+nationality:
+  - countryCode: eucountry:FRA
+    wikidata: wd:Q142
+birthEvent:
+  birthDate: '1794?'
+  birthPlace:
+    label: La Courtille, Paris
+    countryCode: eucountry:FRA
+  hasEvidence:
+    - basedOnSource: 01M5JG4Y25R6D4564KJ45ZVN0Z
+      quotation: >-
+        probablement né en 1794 à La Courtille et mort en 1869
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1869'
+  hasEvidence:
+    - basedOnSource: 01M5JG4Y25R6D4564KJ45ZVN0Z
+      quotation: >-
+        probablement né en 1794 à La Courtille et mort en 1869
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Parisian savate and canne master, known as Michel or Pisseux. He opened the first savate salle about
+    1825 at La Courtille and later taught in the rue Buffault. His students included Charles Lecour, and
+    an 1843 savate treatise was written by one of his students.
+  fr: >-
+    Maître de savate et de canne parisien, dit Michel ou Pisseux. Il ouvre la première salle de savate
+    vers 1825 à la Courtille, puis enseigne rue Buffault. Charles Lecour est de ses élèves.
+hasEvidence:
+  - basedOnSource: 01M5JG4Y25R6D4564KJ45ZVN0Z
+    quotation: >-
+      Il est à l'origine de l'ouverture de la première salle officielle de savate, vers 1825 à la
+      Courtille, et le premier à avoir enseigné cette discipline.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      The author was a student of Michel alias “Pisseux,” one of the most famous savate masters at that
+      time.
+    locator: '219'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Another was the self-defense model, stemming directly from the original practice, which was used
+      by Michel Casseux (alias Pisseux) and others.
+    locator: '257'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3309218
+tags:
+  - savate
+  - canne-de-combat
+  - france

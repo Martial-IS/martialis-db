@@ -1,0 +1,36 @@
+type: Person
+id: 01M5JSGG502V5ETQ9X0PQJKEAZ
+name:
+  en: Giovannino da Baggio
+aka:
+  en:
+    - Giovannino da Baggio di Milano
+description:
+  en: >-
+    Condottiero of Milan named by Fiore dei Liberi among the men he trained.
+hasTeacherAssertion:
+  - id: 01M5JSGG50GJX2CSCFTYSH1JN8
+    teacher: 01M5JSGG50BY7NFE13HKVSR7DW
+    assertedStyle: 01M5JSGG50KYXNMCB38XCKHKMF
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Their teacher's own account.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JSGG5081ZEGH8JTM4FRCAV
+            quotation: >-
+              He further offered an extensive list of the famous condottieri that he trained, including
+              [...] Giovannino da Baggio di Milano
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JSGG5081ZEGH8JTM4FRCAV
+    informationType: infotype:secondary
+    supports: true
+tags:
+  - fencing
+  - italian-school

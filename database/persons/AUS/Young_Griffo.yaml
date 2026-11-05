@@ -1,0 +1,85 @@
+type: Person
+id: 01M5JPY6FN99N65M7A5XV64SSV
+name:
+  en: Young Griffo
+aka:
+  en:
+    - Albert Griffiths
+nationality:
+  - countryCode: eucountry:AUS
+    wikidata: wd:Q408
+description:
+  en: >-
+    Australian featherweight from Millers Point, Sydney, world featherweight champion 1890–1892 and
+    famous for his defensive skill. Larry Foley was his early mentor at the White Horse Hotel school.
+notes: >-
+  en Wikipedia gives conflicting dates: 1 January 1871 – 10 December 1927 in the lead and 15 April
+  1869 – 7 December 1927 in the infobox; no life events recorded.
+hasTeacherAssertion:
+  - id: 01M5JPY6FN2EW5EW1HWQCF82BD
+    teacher: 01M5JPY6FNJBK7WVKR797CX3WY
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        His own account, via Wikipedia; Foley's record agrees.
+    hasInteraction:
+      - interactionPlace: 01M5JPYGXJT7D93TZXATXBEQ5C
+        hasEvidence:
+          - basedOnSource: 01M5JPY6FNCJ3BTKPAQZEN12FY
+            quotation: >-
+              He said in a 1902 interview with The Cincinnati Enquirer that Larry Foley of Sydney had
+              acted as an important early boxing mentor, and indeed Griffo had trained at Foley's boxing
+              school at Sydney's White Horse Hotel
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JPY6FNQFQ8KJC0YEQ1ZPSY
+            quotation: >-
+              At his gym at the White Horse, Foley taught, trained and guided the careers of the great
+              boxers Young Griffo, Bob Fitzsimmons, Paddy Slavin, and Peter Jackson as well as the lesser
+              known Dan Creedon and George Dawson.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5JPY6FNQ9DXRSDDG07AABZ3
+    teacher: 01M5JPY6FNZ219F9GMWP2YDSQ3
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        One source, through Foley.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JPY6FNC5TH6PMP2Y69X789
+            quotation: >-
+              With the help of his protégé, Australian champion Larry Foley, he schooled a generation of
+              mostly Australian boxers, including the Caribbean-born Peter Jackson, multiple-weight-class
+              champion, British-born Bob Fitzsimmons, and Young Griffo.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JPY6FNCJ3BTKPAQZEN12FY
+    quotation: >-
+      Albert Griffiths (1 January 1871 – 10 December 1927), better known as Young Griffo, was a World
+      Featherweight boxing champion from 1890 to 1892
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q2392651
+tags:
+  - boxing
+  - australia
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/2/2e/Young_Griffo.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Young_Griffo.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary

@@ -1,0 +1,73 @@
+type: Organization
+id: 01KYYP8SJVQZKV315BK2M8597R
+name:
+  en: Shotokan Karate-Do International Federation
+  ja: 國際松濤館空手道連盟
+  ja-Latn: Kokusai Shōtōkan Karate-dō Renmei
+aka:
+  en:
+    - SKIF
+    - Shotokan Karate International Federation
+orgType: orgclass:federation
+hasSite:
+  - location:
+      label: Tokyo
+      countryCode: eucountry:JPN
+      wikidata: wd:Q1490
+foundedEvent:
+  startDate: '1978'
+  founder:
+    - 01KYYP8SJVM8PW3R7X6Z9NWBQB
+  hasEvidence:
+    - basedOnSource: 01KYYP8SJV0Z2E4TPYM7EC2WJR
+      quotation: In 1978, Kanazawa founded the Shotokan Karate-Do International Federation (SKIF).
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KYYP8SJV9P78NQ704VH2EN8R
+      quotation: 1978年（昭和53年）、日本空手協会から独立し、國際松濤館空手道連盟を設立。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M3YH7N5FY9DFK8BZMZVDBW21
+    relatedOrganization: 01KYYVEV2MPD8XJNM8H15SY06H
+    affiliationRelation: affrel:derived_from
+    validDuring:
+      startYear: 1978
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Directly quoted in a Japanese-language secondary source ("独立し" - "became independent from"), consistent with SKIF's own English-language materials and founding date; a single well-documented departure, not a contested multi-claimant schism.
+    notes: Kanazawa left the Japan Karate Association in 1978 to found SKIF.
+    hasEvidence:
+      - basedOnSource: 01KYYP8SJV9P78NQ704VH2EN8R
+        quotation: 1978年（昭和53年）、日本空手協会から独立し、國際松濤館空手道連盟を設立。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+logo:
+  contentUrl: https://www.skifworld.com/images/SKIF-Logo.png
+  imageAttribution:
+    basedOnSource: 01M3S8ERFB47S0CNQFX5VHR5YT
+    informationType: infotype:secondary
+website: https://www.skifworld.com/
+description:
+  en: 'The Shotokan Karate-Do International Federation (SKIF) is the international Shotokan karate organization founded by Hirokazu Kanazawa in 1978 after he left the Japan Karate Association (JKA). Headquartered in Tokyo, SKIF grew into one of the largest Shotokan organizations, with branches across Europe, the Americas, Africa, and Asia. Note: SKIF''s own materials date its founding to 1978, while some secondary sources state 1977.
+
+'
+hasEvidence:
+  - basedOnSource: 01KYYP8SJV0Z2E4TPYM7EC2WJR
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYYP8SJV9P78NQ704VH2EN8R
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - shotokan
+  - karate
+  - federation
+  - skif
+  - japanese

@@ -1,0 +1,115 @@
+type: Style
+id: 01KJJAWN29MA64W22606R3WD9Q
+name:
+  ja-Latn: Tenjin Shin'yō-ryū
+  ja: 天神真楊流
+description:
+  en: 'Tenjin Shinyo-ryu (天神真楊流, Tenjin Shin''yō-ryū), meaning "Divine True Willow School", can be classified as a traditional school (koryū) of jujutsu. It was founded by Iso Mataemon Ryūkansai Minamoto no Masatari (磯又右衛門柳関斎源正足) in the 1830s. Its syllabus comprises atemi-waza (striking techniques), nage-waza (throwing techniques), torae-waza (immobilization methods), and shime-waza (choking techniques). Once a very popular jujutsu system in Japan, among the famous students who studied the art were Kanō Jigorō, whose modern art of judo was greatly inspired by the Tenjin Shin''yō-ryū and Kitō-ryū.
+
+'
+hasEvidence:
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTE8
+    supports: true
+    evidenceType: evidencetype:direct
+    informationType: infotype:secondary
+  - uri: http://www.tenyokai.com
+    cite: Tenyokai (official site)
+    supports: true
+    evidenceType: evidencetype:direct
+    informationType: infotype:secondary
+foundedEvent:
+  startDate: '180X?'
+  founder:
+    - 01KJJAWN28MWKKSN4J02MVY1TY
+  hasEvidence:
+    - basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+      locator: The Development of the Tenjin Shinyo-ryu
+      locatorLabel: section
+      quotation: Although the exact date of its founding is unknown, Okamoto probably began to call his new style Tenjin Shinyo-ryu sometime shortly after 1800.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+      locator: The Development of the Tenjin Shinyo-ryu
+      locatorLabel: section
+      quotation: Iso Mataemon Masatari, the founder of Tenjin Shinyo-ryu, studied both of these traditions.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+  location:
+    countryCode: eucountry:JPN
+styleType: styleclass:traditional
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5G250X71ETZ3Q0CZJV
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9G
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Tenjin Shin'yō-ryū Wikipedia explicitly classifies it as a traditional school of jūjutsu
+    hasEvidence:
+      - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTE8
+        quotation: can be classified as a traditional school (koryū) of jūjutsu
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M6BEFR8FY064RQQ93HG6FESE
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9V
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Kubota line's account (Skoss) and Tenyokai International both say Iso built it on Yoshin-ryu and Shin no Shinto-ryu; one tradition.
+    hasEvidence:
+      - basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+        locator: The Development of the Tenjin Shinyo-ryu
+        locatorLabel: section
+        quotation: Tenjin Shinyo-ryu, in turn, was based on the techniques of two other classical jujutsu traditions, the Yoshin-ryu and Shin no Shinto-ryu.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - uri: http://www.tenyokai.com/history.html
+        cite: TENYOKAI INTERNATIONAL - History of Tenjin Shinyo-ryu
+        quotation: He mastered two styles, Yoshin-ryu and Shin no Shinto-ryu, and travelled the country competing with teachers of the various clans.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M6BFF6ZQGC203CZNM6SJHS7J
+    relatedStyle: 01M6BFF6ZQ0BNGCP33B8FA8QHH
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Kubota line (Skoss) and Tenyokai International; one tradition.
+    hasEvidence:
+    - basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+      locator: The Development of the Tenjin Shinyo-ryu
+      locatorLabel: section
+      quotation: 'Tenjin Shinyo-ryu, in turn, was based on the techniques of two other classical jujutsu traditions, the Yoshin-ryu and Shin no Shinto-ryu.'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: http://www.tenyokai.com/history.html
+      cite: TENYOKAI INTERNATIONAL - History of Tenjin Shinyo-ryu
+      quotation: 'He mastered two styles, Yoshin-ryu and Shin no Shinto-ryu, and travelled the country competing with teachers of the various clans.'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+notes: >-
+  English Wikipedia dates the founding to the 1830s; Skoss gives "shortly after 1800" and says the
+  exact date is unknown.
+sameAs:
+  - wd:Q673809
+tags:
+  - koryu
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/0/0c/Kuchikitaoshi.jpeg
+    rights: mediarights:public_domain_mark
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:Kuchikitaoshi.jpeg
+      cite: "吉田千春, Wikimedia Commons"
+videos:
+  - contentUrl: https://youtu.be/RhTpeCdANzA?t=24
+    imageAttribution:
+      uri: https://youtu.be/RhTpeCdANzA?t=24
+      cite: "Yukiore, YouTube"

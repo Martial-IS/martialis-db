@@ -1,0 +1,78 @@
+type: Person
+id: 01M69YKDGSC9A8AC8R4V1YGS3T
+name:
+  en: Ip Ching
+  yue: 葉正
+  zh: 葉正
+  zh-Latn: Ye Zheng
+nationality:
+  - countryCode: eucountry:CHN
+    wikidata: wd:Q148
+birthEvent:
+  birthDate: '1936'
+  hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        His second surviving son, Ip Ching, was born in 1936, approximately twelve years after his older
+        brother, Ip Chun.
+      locator: '202'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Wing Chun teacher, younger son and student of Ip Man. He moved to Hong Kong in 1962, became a
+    live-in assistant instructor in his father's school, and took over his classes at the Elizabeth
+    Hospital after his death in 1972.
+notes: >-
+  Judkins and Nielson pp. 202, 206, 254-261. Less than a year of instruction before his father
+  fled in 1949 (p. 254).
+hasTeacherAssertion:
+  - id: 01M69YKDHB2STAGQSD95D6BM11
+    teacher: 01KYD5XMNM4DH8KAWBC1TE9BDJ
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1949
+          endYear: 1949
+        hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              We do know, for instance, that Ip Man found time to begin to coach his second son (Ip Ching)
+              during 1949.
+            locator: '206'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+      - interactionPeriod:
+          startYear: 1962
+          endYear: 1972
+        hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              Ip Ching, who was younger and unattached, became a live-in assistant instructor in his father’s
+              school and had a chance to closely observe how the system had changed and evolved.
+            locator: '255'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: '202, 206, 254-261'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q4116429
+tags:
+  - wing-chun
+  - chinese-martial-arts

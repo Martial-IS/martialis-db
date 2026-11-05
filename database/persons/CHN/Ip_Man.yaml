@@ -1,0 +1,175 @@
+type: Person
+id: 01KYD5XMNM4DH8KAWBC1TE9BDJ
+name:
+  en: Ip Man
+  yue: 葉問
+  zh: 葉問
+  zh-Latn: Ye Wen
+aka:
+  en:
+    - Yip Man
+  yue-Latn:
+    - Yip Kai-man
+nationality:
+  - countryCode: eucountry:HKG
+    wikidata: wd:Q1054923
+birthEvent:
+  birthDate: '1893-10-01'
+  birthPlace:
+    label: Foshan
+    countryCode: eucountry:CHN
+    wikidata: wd:Q34412
+  hasEvidence:
+    - basedOnSource: 01KYD74HFJXC7P3VT0XD2JVJJP
+      quotation: >-
+        Born Ip Kai-man (葉繼問) 1 October 1893
+      cite: Ip Man (Wikipedia EN)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1972-12-02'
+  deathPlace:
+    label: Hong Kong
+    countryCode: eucountry:HKG
+    wikidata: wd:Q8646
+  hasEvidence:
+    - basedOnSource: 01KYD74HFJXC7P3VT0XD2JVJJP
+      quotation: >-
+        Died 2 December 1972 (aged 79)
+      cite: Ip Man (Wikipedia EN)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/6/6c/Yip_Man.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Yip_Man.jpg
+    cite: "Dever, Wikimedia Commons"
+    informationType: infotype:secondary
+    evidenceType: evidencetype:direct
+description:
+  en: Ip Man (1893–1972) was a Hong Kong martial artist and grandmaster of Wing Chun. He is best known for training Bruce Lee and for systematizing the teaching of Wing Chun in Hong Kong. His students included Wong Shun-leung, Chu Shong-tin, and Bruce Lee.
+notes: >-
+  Judkins and Nielson give 14 October 1893 (p. 179, after Ip Chun) and 1 December 1972 (p. 262);
+  the dates kept here are the better-sourced ones. Captain of a plain-clothes detective unit in
+  Foshan 1945–1949 (p. 205). Fled to Hong Kong in 1949; first public class May 1950 (p. 227).
+hasTeacherAssertion:
+  - id: 01M3YH7N5GBR23TTNFJDTAHRBZ
+    teacher: 01KYD74HFE49JZRNYJDXWMF02Q
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Two sources.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1905
+          endYear: 1908
+        hasEvidence:
+          - basedOnSource: 01KYD74HFJXC7P3VT0XD2JVJJP
+            cite: Ip Man (Wikipedia EN)
+            quotation: Ip Man began learning Wing Chun from Chan Wah-shun when he was 9 or 13; Chan was 57 at the time, and Ip became Chan's 16th and last student
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              When Ip Man was about twelve years old (1905), Chan Wah Shun approached Ip Oi Dor and arranged
+              to rent the family temple as a space in which to reopen his martial arts school.
+            locator: '179'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              At that point Ip Man was accepted as Chan Wah Shun’s sixteenth and final student.
+            locator: '180'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G801FDH1XTGM8RCVQ
+    teacher: 01KYD74HFFTNR5VFZJREX97E88
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Two sources.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1911
+          endYear: 1912
+        notes: en-wiki ends it in 1911; the Leung Bik article dates their meeting to 1909.
+        hasEvidence:
+          - basedOnSource: 01KYD74HFJXC7P3VT0XD2JVJJP
+            quotation: Ip proceeded to train with Leung Bik, until Leung's death in 1911.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              Realizing the opportunity that now lay in front of him, the young Ip Man returned to his friend’s
+              house and petitioned Leung Bik to complete his training.
+            locator: '182'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              Leung Bik lived with his student until his death in 1912, approximately one year later.
+            locator: '182'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M69YCY5PCBJ2S3JE360SQSEA
+    teacher: 01M69YCGCMWM48B31AKTK503SP
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source (the Ip family account).
+    notes: >-
+      Ip Man practised at Ng Chung-so’s school again after his return to Foshan c. 1917 (Judkins and
+      Nielson pp. 183-184, 189).
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1905
+          endYear: 1908
+        hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              Prior to this he requested that Ng Chung So, his most prized martial disciple, complete the
+              young Ip’s training. Ng instructed him until he was fifteen years old.
+            locator: '180'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYD74HFJXC7P3VT0XD2JVJJP
+    cite: Ip Man (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: 179-263
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q163830
+  - viaf:291006811
+  - isni:000000037680020X
+tags:
+  - wing-chun
+  - grandmaster
+  - chinese-martial-arts

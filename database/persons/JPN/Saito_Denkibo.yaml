@@ -1,0 +1,51 @@
+type: Person
+id: 01M6BGZPMBE2K12P8MYK05SA8J
+name:
+  ja-Latn: Saito Hangan Denkibo Katsuhide
+  ja: 斎藤判官伝鬼房
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+description:
+  en: >-
+    Founder of the Tendo-ryu, a student of Tsukahara Bokuden; killed in a duel with Sakurai Osumi-no-kami of the Kasumi Shinto-ryu.
+hasEvidence:
+- basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+  locator: 'Tendo-ryu Naginatajutsu'
+  locatorLabel: section
+  quotation: 'Founder: Saito Hangan Denkibo Katsuhide'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M6BGZPMBKYZ26S3QB3ZY0JCN
+  quotation: '天道流の始祖は斎藤判官伝鬼房である。'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M6BGZPMBNCDHD59AWDZTGF8E
+  teacher: 01M6BGZPMBYBFW5Z5B1CM5RR0D
+  assertedStyle: 01M6BGZPMBBTGQ6TYMJF5MGFTJ
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The Field Guide and the school's own page; the Field Guide draws on the school's programme notes, so one tradition.
+  hasInteraction:
+  - hasEvidence:
+      - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+        locator: 'Tendo-ryu Naginatajutsu'
+        locatorLabel: section
+        quotation: 'Tendo-ryu founder Denkibo was from Ibaragi, and studied Kashima Shinto-ryu under Tsukahara Bokuden.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M6BGZPMBKYZ26S3QB3ZY0JCN
+        quotation: '伝鬼は常陸国井手（茨城県）に生まれ、塚原卜傳の門に入り刀槍の術を学んだ。'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+sameAs:
+- wd:Q11500448
+notes: >-
+  Born at Ide, Hitachi (Ibaraki). The school page tells of his revelation at Tsurugaoka Hachimangu, his demonstration before the emperor, and his death by arrows in a duel with Sakurai Osumi-no-kami, a student of Makabe Doumu (Kasumi Shinto-ryu); his student Komatsu Ichibokusai passed the art to his son Hogen.

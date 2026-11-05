@@ -1,0 +1,23 @@
+# The rank record of one person: ordinal, type, system, style and year.
+PREFIX martialis: <https://w3id.org/martialis/ontology#>
+PREFIX schema: <https://schema.org/>
+
+SELECT ?styleName ?rankType ?ordinal ?systemName ?year WHERE {
+  ?person a martialis:Person ;
+          schema:name "Yukio Mishima"@en ;
+          martialis:hasRankAssertion ?ra .
+  ?ra martialis:rankOrdinal ?ordinal ;
+      martialis:rankType ?rankType .
+  OPTIONAL {
+    ?ra martialis:rankStyle ?style .
+    ?style schema:name ?styleName .
+    FILTER(langMatches(LANG(?styleName), "en"))
+  }
+  OPTIONAL {
+    ?ra martialis:rankSystem ?system .
+    ?system schema:name ?systemName .
+    FILTER(langMatches(LANG(?systemName), "en"))
+  }
+  OPTIONAL { ?ra martialis:dateConferred ?year }
+}
+ORDER BY ?ordinal

@@ -1,0 +1,62 @@
+type: Place
+id: 01M5HP829FHJ2FD250C1YC2SXE
+name:
+  en: Takahashi Dojo
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Ottawa
+      countryCode: eucountry:CAN
+      wikidata: wd:Q1930
+foundedEvent:
+  startDate: '1970'
+  founder:
+    - 01M5H57MAG42XDXSZKA74ZYR85
+  hasEvidence:
+    - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+      quotation: >-
+        1970 was a special year in Ottawa. With the Japanese Ambassador to Canada in attendance, the
+        Takahashi Dojo was officially opened at the Kagami Biraki.
+      locator: '135'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Mas Takahashi's Ottawa dojo, officially opened in 1970; it produced champions (his children Phil and
+    Tina among them) and taught Prime Minister Pierre Trudeau and his sons.
+hasInstructorRole:
+  - id: 01M5HP829F8MGYM15BYXHCYWCM
+    instructor: 01M5H57MAG42XDXSZKA74ZYR85
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1970
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only; it implies the role but does not state it.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+        quotation: >-
+          1970 was a special year in Ottawa. With the Japanese Ambassador to Canada in attendance, the
+          Takahashi Dojo was officially opened at the Kagami Biraki.
+        locator: '135'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    quotation: >-
+      The dojo not only produced champions in the years to follow, but attracted Prime Minister Pierre
+      Elliott Trudeau, a devoted Judoka and eventually 2nd Dan, and his three sons - Justin, Sasha, and
+      Michel.
+    locator: '135'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - canada

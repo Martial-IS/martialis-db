@@ -1,0 +1,54 @@
+type: Style
+id: 01M5H4EE3XTQ71T3X541Y6MZYJ
+name:
+  en: Ninjutsu
+  ja-Latn: Ninjutsu
+  ja: 忍術
+aka:
+  en: Ninpo
+styleType: styleclass:traditional
+hasStyleRelationAssertion:
+  - id: 01M6226DXYS53X19C5SKBQTS23
+    relatedStyle: 01M0AAFQFVW0M9K10ERYBCKH8H
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Green and Svinth name Shinden Fudo among the samurai traditions behind the Edo-era Ninpo forms;
+        one source.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          The Eighteen Martial Categories are based primarily on Takagi, Asayama Ichiden, Shinden Fudo, and
+          Kukishin samurai traditions, while the Eighteen Ninja Forms are based on the Gyokko, Gikan, Koto,
+          and Togakure traditions.
+        locator: '164'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Japanese tradition of stealth and irregular warfare. Its modern practice rests mainly on the
+    schools inherited by Takamatsu Toshitsugu and passed to his disciples, among them Hatsumi
+    Masaaki.
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: In modern times, Takamatsu Toshitsugu (1889–1972) was instrumental in perpetuating Ninpo traditions.
+    locator: '170'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q539067
+tags:
+  - ninjutsu
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/4/4e/Hokusai_sketches_-_hokusai_manga_vol6.jpg
+    rights: mediarights:public_domain_mark
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:Hokusai_sketches_-_hokusai_manga_vol6.jpg
+      cite: "Katsushika Hokusai, Wikimedia Commons"
+      informationType: infotype:secondary

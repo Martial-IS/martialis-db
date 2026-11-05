@@ -1,0 +1,190 @@
+type: Person
+id: 01KYND6715JYA1K07KHXH3FNG6
+name:
+  en: Shizuya Satō
+  ja-Latn: Satō Shizuya
+  ja: 佐藤静弥
+aka:
+  en: Shizuya Satoh
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1929'
+  birthPlace:
+    label: Tokyo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1490
+  hasEvidence:
+    - basedOnSource: 01M3KPWDBRSKBW6MNA89ZBR0PX
+      quotation: >-
+        Sato Shizuya, Founder Nihon Jujutsu (1929 - 2011)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2011-02-25'
+  hasEvidence:
+    - uri: https://www.wikidata.org/wiki/Q2226116
+      quotation: >-
+        date of death 25 February 2011
+      cite: Wikidata - Shizuya Satō
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: Founder of Nihon Jujutsu, Meijin 10th dan Nihon Jujutsu (Kokusai Budoin IMAF), Hanshi 9th dan Judo (Kokusai Budoin IMAF). Student of Mifune Kyuzo at the Kodokan. Founded the US Embassy Judo Club in 1957 and served as its chief instructor until his death. Former Chief Director of Kokusai Budoin, IMAF (1982-2011).
+image:
+  contentUrl: https://www.nihonjujutsu.com/contentimagedata/showwidth/7/800
+  imageAttribution:
+    basedOnSource: 01M3KPWDBRSKBW6MNA89ZBR0PX
+    informationType: infotype:secondary
+hasTeacherAssertion:
+  - id: 01M3YH7N5GQXM1QJMWV727YATD
+    teacher: 01KJJAWN28MWKKSN4J02MVY1SD
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Explicitly described as 'student of Mifune Kyūzō' on the US Embassy Judo Club's
+        own website; no independent corroboration was found
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+        interactionPeriod:
+          startYear: 1949
+          endYear: 1965
+        hasEvidence:
+          - basedOnSource: 01M3M02EJWKWX91BN21JN33FKY
+            quotation: student of Mifune Kyūzō 三船久蔵 10dan
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GHVATXGSGX2QVN1WR
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TT
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: INJA's own biography of its founder states Sato instructed aikido 'under' Tomiki
+        Kenji at the SAC program at Kodokan; no independent corroboration of this specific relationship
+        was found (Tomiki's own Wikipedia article does not mention Sato or the SAC program)
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+        interactionPeriod:
+          startYear: 1952
+          endYear: 1956
+        hasEvidence:
+          - basedOnSource: 01M3KPWDBRSKBW6MNA89ZBR0PX
+            quotation: Sato-sensei, who instructed both aikido (under head aikido instructor Dr. Tomiki Kenji)
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G057K9EAFWT2QX7PT
+    teacher: 01KYND67150DTXZ9832DFWVAAB
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: INJA's own biography of its founder states Sato instructed taihojutsu 'under'
+        Hosokawa Kusuo at the SAC program; no independent corroboration of this specific relationship
+        was found
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+        interactionPeriod:
+          startYear: 1952
+          endYear: 1956
+        hasEvidence:
+          - basedOnSource: 01M3KPWDBRSKBW6MNA89ZBR0PX
+            quotation: taihojutsu techniques (under taihojutsu head instructor and senior Tokyo Metropolitan Police taihojutsu / judo instructor Hosokawa Kusuo)
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GF5XHBTW2MYRTSJA9
+    rankStyle: 01KYND6715TD9KDJCJTYW3WDGX
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 10
+    conferredBy: 01KYND67158B7TAT2KS5M3MK3K
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Listed as 'Nihon Jujutsu Meijin 10th dan' on IMAF official site and INJA website
+    hasEvidence:
+      - basedOnSource: 01M3KPWDBRSKBW6MNA89ZBR0PX
+        quotation: Nihon Jujutsu Hanshi 10 Dan – Kokusai Budoin, IMAF
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M3KZPRAPKH16GHFD30VX4HEK
+        quotation: Shizuya Sato • Nihon Jujutsu Meijin 10th dan (1929 – 2011)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G7S3SD6BH0AMCMV1Q
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 9
+    conferredBy: 01KYND67158B7TAT2KS5M3MK3K
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: INJA's own site and IMAF Americas' independent FAQ page both directly state
+        Judo Hanshi 9 Dan.
+    hasEvidence:
+      - basedOnSource: 01M3KPWDBRSKBW6MNA89ZBR0PX
+        quotation: Judo Hanshi 9 Dan – Kokusai Budoin, IMAF
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M3KZSYEPGYT4WZ887PXSVZD8
+        quotation: Shizuya Sato, Hanshi, Hanshi 10-dan Nihon Jujutsu and Hanshi 9-dan Judo
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M3KPWDBRSKBW6MNA89ZBR0PX
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M3M02EJWKWX91BN21JN33FKY
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M3KZPRAPKH16GHFD30VX4HEK
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q2226116
+tags:
+  - founder
+  - nihon-jujutsu
+  - kodokan
+hasHonorAssertion:
+  - id: 01M3YH7N5GJGKJ1RMBRFFAK80X
+    honorValue: Hanshi 9 Dan
+    honorType: honortype:title
+    honorGrade: honorgrade:shogo_hanshi
+    conferredBy: 01KYND67158B7TAT2KS5M3MK3K
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: INJA's own site and IMAF Americas' independent FAQ page both directly state
+        Judo Hanshi 9 Dan.
+    hasEvidence:
+      - basedOnSource: 01M3KPWDBRSKBW6MNA89ZBR0PX
+        quotation: >-
+          Judo Hanshi 9 Dan – Kokusai Budoin, IMAF
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M3KZSYEPGYT4WZ887PXSVZD8
+        quotation: Shizuya Sato, Hanshi, Hanshi 10-dan Nihon Jujutsu and Hanshi 9-dan Judo
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct

@@ -1,0 +1,63 @@
+type: Place
+id: 01KYMWJH24H4HBJ1RYE2GZ0KNT
+name:
+  en: Caltech Karate Club
+placeType: placeclass:club
+hasSite:
+  - location:
+      label: Pasadena
+      countryCode: eucountry:USA
+      wikidata: wd:Q485176
+    address: 1200 East California Blvd, Pasadena, CA 91125
+hasInstructorRole:
+  - id: 01M4R9845W20EM3DJTCQM494A7
+    instructor: 01KYFZEGYNKYFCPETS9G1N9KBW
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1957
+      endYear: 1994
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One secondary source (Wikipedia) states he founded the Caltech club in 1957.
+    hasEvidence:
+      - uri: https://en.wikipedia.org/wiki/Tsutomu_Ohshima
+        cite: Tsutomu Ohshima - Wikipedia EN
+        quotation: He founded the first university karate club in the US at the California Institute of Technology (Caltech) in 1957
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1957'
+  founder:
+    - 01KYFZEGYNKYFCPETS9G1N9KBW
+  hasEvidence:
+    - uri: http://shotokan.caltech.edu/ohshima.html
+      cite: Caltech Karate Club - Tsutomu Ohshima
+      quotation: The first university karate club in the United States was founded by Mr. Ohshima, at the California Institute of Technology in Pasadena, CA, in 1957
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+logo:
+  contentUrl: http://shotokan.caltech.edu/skalogo.gif
+  imageAttribution:
+    uri: http://shotokan.caltech.edu/
+    cite: Caltech Karate Club website
+    informationType: infotype:secondary
+    evidenceType: evidencetype:direct
+hasEvidence:
+  - uri: https://en.wikipedia.org/wiki/Tsutomu_Ohshima
+    cite: Tsutomu Ohshima - Wikipedia EN
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: http://shotokan.caltech.edu/ohshima.html
+    cite: Caltech Karate Club - Tsutomu Ohshima
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - caltech
+  - shotokan-karate
+  - university-club
+  - first-in-us

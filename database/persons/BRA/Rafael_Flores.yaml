@@ -1,0 +1,48 @@
+type: Person
+id: 01M6A30S3Y0X63DB219V9S93JX
+name:
+  pt: Rafael Flores
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Professional and estate owner from Rio de Janeiro who trained with Mestre Bimba in Bahia for
+    some months in 1964 and then, with his brother Paulo, started the capoeira group Senzala on the
+    veranda of their flat in Laranjeiras.
+notes: >-
+  His brothers Paulo and Gilberto trained in the group from the start (Assunção, p. 170).
+hasTeacherAssertion:
+  - id: 01M6A30S43PGARDE5DW72FCX6K
+    teacher: 01M5H4AFG2ZHJ3H82H0DPJQJ1V
+    assertedStyle: 01M6A2A5YR5THAAVA3A61JRZ1H
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1964
+          endYear: 1964
+        hasEvidence:
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              After a trip to Bahia in 1964, where they trained with M.Bimba for some months, the
+              urban [...] professional and fazendeiro (owner of a large estate) Rafael Flores and
+              his brother Paulo decided to resume capoeira exercises on the veranda of their
+              penthouse flat in Laranjeiras.
+            locator: '169-170'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    locator: '169-170'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - capoeira

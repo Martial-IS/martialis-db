@@ -1,0 +1,113 @@
+type: Person
+id: 01KYT6RAA65YJ55113MR00N060
+name:
+  fr: Roger Lesourd
+  en: Roger Lesourd
+aka:
+  fr:
+  - Roger Lesseau
+  en:
+  - Roger Lesseau
+  - Roger Lesoud
+nationality:
+- countryCode: eucountry:FRA
+  wikidata: wd:Q142
+deathEvent:
+  deathDate: '1992'
+  deathPlace:
+    countryCode: eucountry:CAN
+description:
+  en: 'French Kyokushin karate master who brought Kyokushinkai to Canada. Lesourd trained directly under
+    Mas Oyama at the Oyama Dojo in Japan from 1956 to 1960, earning the rank of 3rd dan (Sandan) and the
+    title of Branch Chief for Canada. He established the first Kyokushin dojo in Canada in Montreal in
+    1968 and later founded Samourai Karate in 1973. Among his students were Gilles Dufour (his successor),
+    Andrey Coulombe, Roman Szyrajew, John Goff, and others who would go on to become influential figures
+    in Canadian Kyokushin.
+
+    '
+  fr: 'Maître de karaté Kyokushin français ayant introduit le Kyokushinkai au Canada. Lesourd s''est entraîné
+    directement sous Mas Oyama au Oyama Dojo au Japon de 1956 à 1960, obtenant le rang de 3e dan (Sandan)
+    et le titre de chef de section pour le Canada. Il a établi le premier dojo Kyokushin au Canada à Montréal
+    en 1968 et a ensuite fondé le Samourai Karate en 1973. Parmi ses élèves figuraient Gilles Dufour (son
+    successeur), Andrey Coulombe, Roman Szyrajew, John Goff, et d''autres qui deviendront des figures
+    influentes du Kyokushin canadien.
+
+    '
+image:
+  contentUrl: https://roninkai.com/wp-content/uploads/2018/05/Roger-Lesourd-1.jpg
+  imageAttribution:
+    uri: https://roninkai.com/
+    cite: "Ronin Kai Karate"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+- id: 01M3YH7N5GW6RY8N9387SGG2K8
+  teacher: 01KYT8RX5WJXBGW45FEVYWN7WC
+  assertedStyle: 01KYSNKBS22MA4Z9RRDDTXWQ7H
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Multiple sources confirm Roger Lesourd was a direct student of Mas Oyama at the
+      Oyama Dojo in Japan from 1956 to 1960
+  hasInteraction:
+  - interactionPlace: 01KYYYTTW3BX37M2ESX9PKY0FY
+    interactionPeriod:
+      startYear: 1956
+      endYear: 1960
+    hasEvidence:
+    - basedOnSource: 01KYT6RAA5G5TZDZ0489824931
+      quotation: In the 1960's, Mas Oyama accepted a French student, Roger Lesourd. Roger lived and trained
+        in Japan directly under Mas Oyama and was eventually awarded a Third Dan Black Belt along with
+        the title of Branch Chief for Canada.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://aikkf.com/details-aboutus?id=17
+      cite: All India Kyokushin-Kai Karate Federation - About WKKO
+      quotation: A disciple of Mas Oyama, the founder of Kyokushin, he trained at the Oyama Dojo in Japan
+        from 1956 to 1960 and won the title of branch manager along with the black belt Sandan.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GKG1FNB0DBD21BRJ6
+  rankStyle: 01KYSNKBS22MA4Z9RRDDTXWQ7H
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 3
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Multiple sources confirm Lesourd held the rank of Sandan (3rd dan) in Kyokushin,
+      awarded by Mas Oyama
+  hasEvidence:
+  - basedOnSource: 01KYT6RAA5G5TZDZ0489824931
+    quotation: Roger lived and trained in Japan directly under Mas Oyama and was eventually awarded a
+      Third Dan Black Belt along with the title of Branch Chief for Canada.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://aikkf.com/details-aboutus?id=17
+    cite: All India Kyokushin-Kai Karate Federation - About WKKO
+    quotation: A disciple of Mas Oyama, the founder of Kyokushin, he trained at the Oyama Dojo in Japan
+      from 1956 to 1960 and won the title of branch manager along with the black belt Sandan.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KYT6RAA5G5TZDZ0489824931
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://aikkf.com/details-aboutus?id=17
+  cite: All India Kyokushin-Kai Karate Federation - About WKKO
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- kyokushin
+- french
+- canada
+- pioneer
+- founder
+- samourai-karate

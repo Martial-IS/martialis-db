@@ -1,0 +1,45 @@
+type: Style
+id: 01KJJAWN29MA64W22606R3WD9P
+name:
+  ja-Latn: Kitō-ryū
+  ja: 起倒流
+description:
+  en: "The Kitō Ryu [起倒流] is a system of jujutsu that merits a particular place in the doctrine of unarmed martial arts because of its esoteric elements, adopted along with various techniques and training methods (such as randori) in Judo. Of particular interest are the kata that have been preserved by the modern inheritors of kito ryu. Kito ryu is the \"rise and fall\" school of jujutsu.  Some of the available records trace the origin of this school to a Chinese combat based upon the principle of ju (suppleness), as explained and illustrated by Chin Gempin to selected warriors of 17th century Japan. Another version associates this method with two other noted jujutsu experts, Yoshimura and Takenaka.      \n"
+hasEvidence:
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTDZ
+    supports: true
+    evidenceType: evidencetype:direct
+    informationType: infotype:secondary
+  - uri: https://www.ryoishintokai.com/wp-content/uploads/2020/09/Screenshot-2020-09-19-at-00.21.19.png
+    cite: Kito-ryu illustration (Ryoi Shintokai)
+    supports: true
+    evidenceType: evidencetype:direct
+    informationType: infotype:undetermined
+foundedEvent:
+  startDate: '1600'
+  location:
+    countryCode: eucountry:JPN
+styleType: styleclass:traditional
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5G04Z7196TNP3PNQGZ
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9G
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Kitō-ryū Wikipedia explicitly describes it as a traditional school of jujutsu
+    hasEvidence:
+      - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTDZ
+        quotation: Kitō-ryū is a traditional school (koryū) of the Japanese martial art of jujutsu.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q6140386
+tags:
+  - koryu
+photos:
+  - contentUrl: https://www.ryoishintokai.com/wp-content/uploads/2020/09/Screenshot-2020-09-19-at-00.21.19.png
+    imageAttribution:
+      uri: https://www.ryoishintokai.com/wp-content/uploads/2020/09/Screenshot-2020-09-19-at-00.21.19.png
+      cite: "Ryoi Shintokai"

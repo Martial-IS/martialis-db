@@ -1,0 +1,59 @@
+type: Place
+id: 01M5JPYGXJC36BS6C8KN72B67A
+name:
+  en: John Jackson's boxing academy
+aka:
+  en:
+    - Jackson's Rooms
+placeType: placeclass:academy
+hasSite:
+  - location:
+      label: London
+      countryCode: eucountry:GBR
+      wikidata: wd:Q84
+    address: 13 Bond Street, West End, London
+    hasEvidence:
+      - basedOnSource: 01M5JPY6FNKS2Y2073W314FSDW
+        quotation: >-
+          After his victory over Mendoza, Jackson's public profile allowed him to open a boxing academy
+          for gentlemen at 13 Bond Street, in the West End of London, where he also resided.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M5JPYGXJNB8MVTXKB87Y1C3G
+    instructor: 01M5JPY6FN90G4Y8JRTWJTYZKN
+    instructorCapacity: instrcap:head_instructor
+    instructorStyle: 01KJJAWN29MA64W22606R3WD9N
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        One source states it; the other implies it.
+    hasEvidence:
+      - basedOnSource: 01M5JPY6FNKS2Y2073W314FSDW
+        quotation: >-
+          After his victory over Mendoza, Jackson's public profile allowed him to open a boxing academy
+          for gentlemen at 13 Bond Street, in the West End of London, where he also resided.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Jackson became a well-known coach
+        locator: '230'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+description:
+  en: >-
+    "Gentleman" John Jackson's boxing academy for gentlemen at 13 Bond Street, London, opened after his
+    1795 win over Daniel Mendoza; students mostly sparred in "mufflers". Lord Byron was among Jackson's pupils.
+hasEvidence:
+  - basedOnSource: 01M5JPY6FNKS2Y2073W314FSDW
+    informationType: infotype:secondary
+    supports: true
+tags:
+  - boxing
+  - united-kingdom

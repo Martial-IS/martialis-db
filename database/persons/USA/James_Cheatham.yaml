@@ -1,0 +1,44 @@
+type: Person
+id: 01M5HN921CNMBYQ69CPC1JKVVM
+name:
+  en: James Cheatham
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+description:
+  en: >-
+    African American Chito-ryu karateka (1934–1966), a student of Wallace Reumann at Trenton from about
+    1954; a noted tournament fighter and Nation of Islam advocate, and teacher of Mfundishi Maasi.
+hasTeacherAssertion:
+  - id: 01M5HN921CGBRZQ6PAFWX4PWMK
+    teacher: 01M5HN921CNX4WQ34PJ5XD8N88
+    assertedStyle: 01M5HN921CXY7S0GG6X79ZXXWV
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1954
+        hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Cheatham learned Chito Ryu karate from Wallace Reumann (1931–2008). After service in the
+              U.S. Army, Reumann started a chain of karate schools in New Jersey, and Cheatham became a
+              student at Reumann’s Trenton school circa 1954–1955.
+            locator: '627'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: Another example is James Cheatham (1934–1966).
+    locator: '627'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - karate

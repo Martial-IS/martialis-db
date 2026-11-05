@@ -1,0 +1,64 @@
+type: Person
+id: 01M61VT2BRDR7F2MSC33KZHS4B
+name:
+  en: Lord Byron
+aka:
+  en:
+    - George Gordon Byron, 6th Baron Byron
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/3/3c/Byron_1813_by_Phillips.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Byron_1813_by_Phillips.jpg
+    cite: "Thomas Phillips, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    English Romantic poet (1788–1824) who took boxing lessons from John Jackson at his Bond Street rooms
+    and called him his "corporeal pastor and master".
+hasTeacherAssertion:
+  - id: 01M61VT2BRZ1ZBF0JRGBVGV7HQ
+    teacher: 01M5JPY6FN90G4Y8JRTWJTYZKN
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+    role: teachrole:private
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Byron's own note in Don Juan calls Jackson his master; Miles says Jackson taught him.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M61VT2BRPK6TKHVH7EE72A0G
+            quotation: >-
+              When Jackson taught the author of “Childe Harold,” he was forty-four, Byron about
+              twenty-three
+            locator: '97'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M61VT2BRPK6TKHVH7EE72A0G
+            quotation: >-
+              “My friend and corporeal pastor and master, John Jackson, Esquire, professor of pugilism
+            locator: '97'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M61VT2BRPK6TKHVH7EE72A0G
+    quotation: >-
+      Byron, who was proud of being thought a pugilist, has in his correspondence spoken highly of his
+      tutor
+    locator: '97'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q5679
+tags:
+  - boxing

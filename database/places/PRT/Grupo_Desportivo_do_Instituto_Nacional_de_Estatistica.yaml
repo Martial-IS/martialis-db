@@ -1,0 +1,79 @@
+type: Place
+id: 01KZ4SHV06375TDMNGKXZ2XTTM
+name:
+  en: Grupo Desportivo do Instituto Nacional de Estatística
+  pt: Grupo Desportivo do Instituto Nacional de Estatística
+aka:
+  en: GDINE
+placeType: placeclass:club
+hasSite:
+  - location:
+      label: Lisbon
+      countryCode: eucountry:PRT
+      wikidata: wd:Q597
+foundedEvent:
+  startDate: '1980'
+  hasEvidence:
+    - basedOnSource: 01KZ49W5BPNVJQKW0Y47XPE37Y
+      quotation: Específica de Aikido foi em 1980, com o Grupo Desportivo do Instituto Nacional de Estatística. Aí sim, era só Aikido e tínhamos vínculo à Aikikai. Este era o dojo autorizado, através de um certificado endossado, para ensinar o Aikido segundo as regras e princípios do saudoso Fundador Morihei Ueshiba.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M3YH7N5G32M65AC8XRVVQWP1
+    relatedOrganization: 01KZ3KA57C6W6FMCWM668Y13X2
+    affiliationRelation: affrel:recognised_by
+    validDuring:
+      startYear: 1980
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The GDINE aikido dojo was the first Aikikai-only dojo in Portugal, authorised through an endorsed certificate to teach aikido according to the rules of the Founder Morihei Ueshiba, as stated by Luís Antunes in the CAO interview
+    hasEvidence:
+      - basedOnSource: 01KZ49W5BPNVJQKW0Y47XPE37Y
+        quotation: Este era o dojo autorizado, através de um certificado endossado, para ensinar o Aikido segundo as regras e princípios do saudoso Fundador Morihei Ueshiba.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M4R9845W1ANRTYFWZJJKJKWA
+    instructor: 01KZ49W5BP12FPKE4KFJBKQATY
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1981
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The FPA lineage history alone states he began teaching at GDINE in 1981.
+    hasEvidence:
+      - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+        quotation: Começa a dar aulas em 1981 no Grupo Desportivo do Instituto Nacional de Estatística - GDINE e na Associação dos Bombeiros de Estoril.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+website: https://www.facebook.com/gdinelisboa/
+logo:
+  contentUrl: https://archive.org/download/gdine/gdine.png
+  imageAttribution:
+    basedOnSource: 01M3M3T743K36Q05RG4876HE42
+    informationType: infotype:secondary
+description:
+  en: Sports group of the National Statistics Institute in Lisbon, whose aikido dojo, founded in 1980, was the first Aikikai-only dojo in Portugal. Authorised through an endorsed Aikikai certificate, it was the dojo through which Luís Antunes was admitted as a direct student of Nobuyoshi Tamura. Antunes began teaching there in 1981.
+  pt: Grupo desportivo do Instituto Nacional de Estatística em Lisboa, cujo dojo de Aikido, fundado em 1980, foi o primeiro dojo exclusivamente Aikikai em Portugal. Autorizado através de um certificado Aikikai endossado, foi o dojo através do qual Luís Antunes foi admitido como aluno direto de Nobuyoshi Tamura. Antunes começou a dar aulas aí em 1981.
+hasEvidence:
+  - basedOnSource: 01KZ49W5BPNVJQKW0Y47XPE37Y
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M3M3T743K36Q05RG4876HE42
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - aikido
+  - aikikai
+  - portugal

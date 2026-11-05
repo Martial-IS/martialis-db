@@ -1,0 +1,84 @@
+# Martialis
+
+> Martialis is a sourced reference database of martial arts lineages: who
+> learned what from whom, which styles relate to which, under what
+> organizations, at what places.
+
+## Scope
+
+Martialis covers seven entity types: Person, Style, Organization, Place
+(training venues), Source (bibliographic records), Event, and Ranking
+system. Persons are the core lineage graph; everything else gives their
+relationships context and evidence. Martialis records lineage and
+provenance: it does not model pedagogy, curricula, technique taxonomies,
+or developmental claims about training.
+
+## Machine-Readable Data
+
+The record format is defined once in `model/martialis.yaml` (LinkML), from which
+the JSON-LD context, the OWL ontology, the structural SHACL shapes and the seven
+per-type JSON Schemas are generated. The vocabulary namespace is
+`https://w3id.org/martialis/ontology#`; the SKOS controlled-vocabulary namespace
+is `https://w3id.org/martialis/vocab/<scheme-slug>`, with every scheme in the
+single file `ontology/vocabularies.ttl`. Concept-valued fields are authored as
+scheme-prefixed CURIEs (`placeclass:dojo`, `conflevel:probable`), which the
+context expands to the concept IRI.
+
+Canonical artifacts:
+
+- Ontology (OWL, Turtle): [https://w3id.org/martialis/ontology](https://w3id.org/martialis/ontology) (content-negotiated; ask for text/turtle), [https://martial.is/ontology.ttl](https://martial.is/ontology.ttl), or [https://raw.githubusercontent.com/Martial-IS/martialis-db/main/ontology/martialis.ttl](https://raw.githubusercontent.com/Martial-IS/martialis-db/main/ontology/martialis.ttl)
+- SHACL shapes (structural, blocking): [https://raw.githubusercontent.com/Martial-IS/martialis-db/main/ontology/martialis.shacl.ttl](https://raw.githubusercontent.com/Martial-IS/martialis-db/main/ontology/martialis.shacl.ttl)
+- SHACL shapes (quality, informational): [https://raw.githubusercontent.com/Martial-IS/martialis-db/main/ontology/martialis-quality.shacl.ttl](https://raw.githubusercontent.com/Martial-IS/martialis-db/main/ontology/martialis-quality.shacl.ttl)
+- SKOS controlled vocabularies: [https://w3id.org/martialis/vocab](https://w3id.org/martialis/vocab) or `ontology/vocabularies.ttl` in this repository
+- JSON-LD context: [https://martial.is/context.jsonld](https://martial.is/context.jsonld) or [https://raw.githubusercontent.com/Martial-IS/martialis-db/main/schemas/context.jsonld](https://raw.githubusercontent.com/Martial-IS/martialis-db/main/schemas/context.jsonld)
+- Full RDF export (Turtle): [https://martial.is/data.ttl](https://martial.is/data.ttl) or [https://raw.githubusercontent.com/Martial-IS/martialis-db/main/export/data.ttl](https://raw.githubusercontent.com/Martial-IS/martialis-db/main/export/data.ttl)
+- Bibliography (CSL-JSON, one record per Source): [https://raw.githubusercontent.com/Martial-IS/martialis-db/main/export/sources.csl.json](https://raw.githubusercontent.com/Martial-IS/martialis-db/main/export/sources.csl.json)
+- Ontology and SHACL documentation: [https://w3id.org/martialis/ontology](https://w3id.org/martialis/ontology), [https://w3id.org/martialis/ontology/validation](https://w3id.org/martialis/ontology/validation), [https://w3id.org/martialis/ontology/quality](https://w3id.org/martialis/ontology/quality)
+- Landing page linking to all of the above: [https://martial.is/model](https://martial.is/model)
+
+## Interpretation Rules
+
+- Confidence level and the evidence analysis (Mills: source classification,
+  information type, evidence type) are curator judgments about how well a
+  claim is sourced, not about a person's skill, legitimacy, or standing. A
+  refuted, doubtful or contested lineage claim is presented and marked, not
+  removed.
+- `martialis:possiblySameAs` links candidate identities without asserting
+  they are the same person; it is weaker than `owl:sameAs`, not identity.
+- `martialis:variantOf` (a named variant within one art) is distinct from
+  `stylerel:derived_from` (crosses into a different art). Only
+  `variant_of` is materialized as a direct edge; read the other four
+  style-relation types from the `StyleRelationAssertion` itself.
+- Every claim is a first-class `martialis:Assertion` node carrying
+  `martialis:hasConfidence` (an ordered level, assessing agent, rationale) and
+  `martialis:hasEvidence` (one or more `martialis:SourceAssertionRelation`
+  nodes with source, `supports`, locator, quotation). A contested
+  claim carries a `supports: false` source; a refuted one is assessed
+  `conflevel:refuted`.
+- Convenience edges (`wasTaughtBy`/`teaches`, `taughtAt`, `trainedAt`,
+  `variantOf`/`hasVariant`, `parentOrg`, `possiblySameAs`,
+  `org:ChangeEvent`, `prov:wasDerivedFrom`/`prov:wasAttributedTo`) are
+  materialized at export time from the underlying assertions; a doubtful or
+  refuted assertion gives none of them except the PROV-O ones. A possible,
+  probable or confirmed one gives the same edge, so follow an edge back to
+  its assertion for the sourcing and the confidence.
+- A `martialis:TeacherAssertion` with no `martialis:teacher` records training
+  under an unidentified teacher: a teacher existed, but no source names them.
+  It materializes `trainedAt`, never `wasTaughtBy`/`teaches`.
+- A claim sourced only from a single encyclopedia-style tertiary source is
+  surfaced in the quality tier and is not disqualifying.
+- Do not infer a person's skill, rank equivalence across styles, or the
+  legitimacy of one lineage over another. Martialis records claims and their
+  evidence; it does not adjudicate martial arts authority.
+
+## License
+
+Code, data, and vocabulary are licensed separately (AGPL-3.0-or-later,
+CC-BY-SA-4.0, CC0-1.0 respectively), and the maker asserts the EU sui generis
+database right over the data and licenses it under CC-BY-SA-4.0. Full text:
+[https://github.com/Martial-IS/martialis-db/blob/main/LICENSING.md](https://github.com/Martial-IS/martialis-db/blob/main/LICENSING.md)
+
+## Optional
+
+- Validation pipeline: docs/PIPELINE.md
+- SPARQL query cookbook: docs/SPARQL.md

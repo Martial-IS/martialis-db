@@ -1,0 +1,106 @@
+type: Person
+id: 01KZQ7BS7KE7CA2V6JEWMWZ7SW
+name:
+  en: Leandro Vieira
+aka:
+  en:
+  - Leandrinho
+nationality:
+- countryCode: eucountry:BRA
+  wikidata: wd:Q155
+birthEvent:
+  birthDate: '1981-06-05'
+  birthPlace:
+    label: Rio de Janeiro
+    countryCode: eucountry:BRA
+    wikidata: wd:Q8678
+  hasEvidence:
+  - basedOnSource: 01KZQ7BS7K99582XYHK9GCGA2V
+    quotation: >-
+      Born June 5, 1981
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/4/48/Leandro_vieira_bjj.jpg
+  rights: mediarights:cc-by-sa-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Leandro_vieira_bjj.jpg
+    cite: "Giovannabm, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: 'Brazilian jiu-jitsu instructor and competitor, co-founder of Checkmat with his
+
+    brothers Leonardo and Ricardo Vieira, and Brazilian jiu-jitsu head coach for the
+
+    MMA team at American Kickboxing Academy (AKA) in San Jose. He has coached MMA
+
+    fighters including Cain Velasquez, Daniel Cormier, Luke Rockhold and Josh Thomson,
+
+    and awarded Velasquez his BJJ black belt in October 2013.
+
+    '
+hasTeacherAssertion:
+- id: 01M3YH7N5FX1187W0181XVHQ9M
+  teacher: 01KZR1M7T51S10DM56FKM4N7P2
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Leandro's own Facebook post calls Cavalcanti his master and credits him with introducing him and
+      his brothers to BJJ; the Lake Effect article records the Vieira brothers training with Alliance
+      founder Romero Cavalcanti
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZR1M7T5T5YEMHV3WAQJ6FBY
+      quotation: Congratulations to my master Romero Jacare Cavalcanti on receiving his new belt as a
+        8th degree black belt today. Forever grateful for introducing me and my brothers to BJJ and teaching
+        us how to respect this martial art with honor and integrity.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZR1M7T49C1DKVC1DWZH0M3G
+      quotation: When the Vieira brothers began their Jiu Jitsu journey, they were a part of the Jiu Jitsu
+        affiliation Alliance.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZR1M7T3RKSXHER9PNADSYVM
+      quotation: From this amazing place, several of the best black belts the world had ever seen were
+        formed, competitors such as Fabio Gurgel, Roberto Traven, Jamelao, the Vieira Brothers and many
+        others.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5FWHZCTCXH4FA5G616
+  rankStyle: 01KJJAWN29MA64W22606R3WD9J
+  rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+  rankGrade: rankgrade:bjj_black
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      His belt degree is reported variously as 3rd, 4th and 5th across sources, so the degree is not
+      asserted. Who granted the belt is not documented
+  hasEvidence:
+  - basedOnSource: 01KZQ7BS7K99582XYHK9GCGA2V
+    quotation: Leandro Vieira is a Brazilian jiu-jitsu instructor and competitor, and a co-founder of
+      Checkmat.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZQ7BS7K99582XYHK9GCGA2V
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q16221665
+tags:
+- brazilian-jiu-jitsu
+- checkmat
+- coach
+- aka

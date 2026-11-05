@@ -1,0 +1,132 @@
+type: Person
+id: 01M41JZ0GP45E5H9NF20N81P4A
+name:
+  ja-Latn: Shōriki Matsutarō
+  ja: 正力 松太郎
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1885-04-11'
+  birthPlace:
+    label: Daimon-machi, Imizu District, Toyama
+    countryCode: eucountry:JPN
+    wikidata: wd:Q5209450
+    geo:
+      latitude: 36.72241666666667
+      longitude: 137.04861111111111
+  hasEvidence:
+  - basedOnSource: 01M41JZ0GPTF1N536BQH9CBAC3
+    quotation: 4月11日 - 富山県射水郡大門町（現：射水市枇杷首）に土建請負業を営む父・正力庄次郎、母・きよの次男として生まれる。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M41JZ0GPECSA1MXT9VWZRDH4
+    quotation: April 11, 1885
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M41M2WKAQD18XHTDDFWVQ63Q
+    quotation: Born April 11, 1885 in Toyama Prefecture
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1969-10-09'
+  hasEvidence:
+  - basedOnSource: 01M41JZ0GPTF1N536BQH9CBAC3
+    quotation: 正力 松太郎（しょうりき まつたろう、1885年〈明治18年〉4月11日 - 1969年〈昭和44年〉10月9日
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: >-
+    Japanese Home Ministry police official, president of the Yomiuri Shimbun,
+    founder of the Yomiuri Giants and politician. A Kodokan judo practitioner
+    from 1907 and chairman of the Diet Judo League, he received the Kodokan
+    10th dan in 1969.
+  ja: >-
+    内務官僚、読売新聞社社長、実業家、政治家。1907年に講道館に入門し、
+    1969年に講道館から十段位を贈られた。
+notes: >-
+  Information on direct teachers is elusive, but a forum post points towards
+  at least some level of direct learning from Mifune. The photograph itself
+  was not seen when the forum thread was read. Dan ranks other than the 10th
+  are not recorded: the sources give different sequences before it. The
+  10th dan was posthumous: he died on 9 October 1969 and the certificate is
+  dated 8 October.
+hasTeacherAssertion:
+- id: 01M41JZ0GP83KQM0CJSSVH1N51
+  teacher: 01KJJAWN28MWKKSN4J02MVY1SD
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:possible
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      A 2014 forum post says its author has pictures of Shōriki training under Mifune. No source states
+      that Mifune taught him, and the photograph shows training together, which does not establish
+      teaching. This is why it is possible and not probable.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M41JZ0GP22JVFA3MRW41BKVG
+      quotation: I have pictures of him training under Mifune.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:indirect
+    - basedOnSource: 01M41JZ0GP22JVFA3MRW41BKVG
+      quotation: there is a pretty famous pic of Shoriki practicing with Mifune. It just shows them in 'kamae' with gripping.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:indirect
+hasRankAssertion:
+- id: 01M41JZ0GP8RNWJFJGREP6HXYA
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  conferredBy: 01KJJAWN29MA64W22606R3WD7X
+  rankType: ranktype:dan
+  rankOrdinal: 10
+  dateConferred: '1969-10-08'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Japanese Wikipedia and the Judo Channel timeline give 10th dan in October 1969; Judo Info says he
+      was promoted after his death on 9 October 1969, and a forum post says the certificate was dated 8
+      October. The award was therefore posthumous and 8 October is the date on the certificate. No
+      source cites a Kodokan record, so it is not certain.
+  hasEvidence:
+  - basedOnSource: 01M41JZ0GPTF1N536BQH9CBAC3
+    quotation: 10月8日 - 講道館から十段位を贈られる
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M41JZ0GPECSA1MXT9VWZRDH4
+    quotation: 10th Dan
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M41M2WKAQD18XHTDDFWVQ63Q
+    quotation: He is the only non-professional in the history of the Kodokan to hold the 10th Dan. He was promoted after his death on October 9, 1969.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M41JZ0GPTF1N536BQH9CBAC3
+  quotation: 正力 松太郎（しょうりき まつたろう、1885年〈明治18年〉4月11日 - 1969年〈昭和44年〉10月9日
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/c/c7/Shoriki_Matsutaro.JPG
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Shoriki_Matsutaro.JPG
+    cite: "朝日新聞社, Wikimedia Commons"
+    informationType: infotype:secondary
+  rights: mediarights:public_domain_mark
+sameAs:
+- wd:Q710704
+- viaf:70303625
+- isni:0000000082598245
+- lcnaf:n83072346
+- ndlna:00076455

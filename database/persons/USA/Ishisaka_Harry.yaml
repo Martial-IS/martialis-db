@@ -1,0 +1,88 @@
+type: Person
+id: 01KZSRDXQWZTM5ZRVG0NWRWZHX
+name:
+  en: Harry Kiyoshi Ishisaka
+  ja: 石坂 ハリー
+aka:
+  ja: 石坂ハリー
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1928-12-25'
+  birthPlace:
+    label: Kealakekua
+    countryCode: eucountry:USA
+    wikidata: wd:Q1847338
+deathEvent:
+  deathDate: 1978-01
+  deathPlace:
+    label: Irvine
+    countryCode: eucountry:USA
+    wikidata: wd:Q49219
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/en/7/7d/Harry_Ishisaka.jpg
+  rights: mediarights:in_copyright
+  imageAttribution:
+    uri: https://en.wikipedia.org/wiki/File:Harry_Ishisaka.jpg
+    cite: "English Wikipedia, non-free file"
+    informationType: infotype:secondary
+description:
+  en: American aikido teacher, founder of the Orange County Aikikai (first as the Westminster Aikido School in 1964) and its chief instructor until his early death. An early instructor in the Orange County, California area, he contributed greatly to the development of aikido in Southern California. He trained under Koichi Tohei, who supported him in founding the Orange County Aiki Kai; he was affiliated with the Ki Society for a period before becoming independent. He had risen to the rank of godan (5th dan) by the time of his death and was the first aikido teacher of Steven Seagal.
+hasTeacherAssertion:
+  - id: 01M3YH7N5GRABXQEFEEVS0MBKB
+    teacher: 01KZSRDXQW9QBDT9VR9P08RBYT
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia states Ishisaka trained in California under Koichi Tohei, was one of Tohei's students, and that Tohei supported him in founding the Orange County Aiki Kai
+    hasInteraction:
+      - interactionPlace: 01KZVDNBGAWJC6PX08E16CV303
+        interactionPeriod:
+          startYear: 1964
+          endYear: 1977
+        hasEvidence:
+          - basedOnSource: 01KZSRDXQW37KR0F7RYJ78D569
+            quotation: trained in California under Koichi Tohei
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZSRDXQW37KR0F7RYJ78D569
+            quotation: Koichi Tohei supported Ishisaka in founding the Orange County Aiki Kai dojo
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GR4K4E21V24GQ8K96
+    rankStyle: 01KJJAWN29MA64W22606R3WD9R
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 5
+    dateConferred: 1977~
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia states Ishisaka had risen to the rank of godan (5th dan) by the time of his death in January 1978; exact promotion date unknown
+    hasEvidence:
+      - basedOnSource: 01KZSRDXQW37KR0F7RYJ78D569
+        quotation: He had risen to the rank of godan by the time of his death
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZSRDXQW37KR0F7RYJ78D569
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZSRDXQW8DH7Q2RHTX1FQKER
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q5670325
+tags:
+  - aikido
+  - usa
+  - pioneer

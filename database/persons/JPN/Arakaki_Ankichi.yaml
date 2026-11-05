@@ -1,0 +1,225 @@
+type: Person
+id: 01KZC4PMZY6NN95HWZME349WF2
+name:
+  ja-Latn: Arakaki Ankichi
+  ja: 新垣安吉
+aka:
+  en:
+  - Ankichi Arakaki
+  ja:
+  - あらかき あんきち
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: 1899-11
+  birthPlace:
+    label: Shuri
+    countryCode: eucountry:JPN
+    wikidata: wd:Q608415
+  hasEvidence:
+  - basedOnSource: 01KZC8XAP8F23MCTS7Z46YRY0R
+    quotation: Born in November 1899 in the village of Akata, Province of Shuri, Okinawa, he was the eldest
+      of a family of 11 children.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZGMHT4PJAW67C6ZBVV6GP7J
+    quotation: Ankichi Arakaki was born in November 1899, in Shuri. The first born in a family of eleven
+      children.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1927-12-28'
+  deathPlace:
+    label: Kadena
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1205469
+  hasEvidence:
+  - basedOnSource: 01KZC8XAP8F23MCTS7Z46YRY0R
+    quotation: He died at the age of 28 years, due to a stomach ulcer.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZGMHT4PJAW67C6ZBVV6GP7J
+    quotation: 'and died of ulcers on December 28, 1927.'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/AnkichiArakaki.jpg/250px-AnkichiArakaki.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:AnkichiArakaki.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: Okinawan martial arts master (1899-1927), Shorin-ryu master who trained under Shinpan Gusukuma,
+    Chōmo Hanashiro, Chōshin Chibana and Chotoku Kyan; extremely important in the education of Shōshin
+    Nagamine, founder of Matsubayashi-ryu.
+notes: Arakaki was nicknamed Uwayaguwa Ankichi and was famed for his tsumasaki-geri (toe kick), a technique
+  he is said to have invented. He died at 28 of a stomach (peptic) ulcer, which is a documented cause
+  of death (Wikidata P509/P1196). He began training with Shinpan Gusukuma, his primary school teacher,
+  and also trained with Chōmo Hanashiro (another school teacher) before becoming a student of Chōshin
+  Chibana, founder of Kobayashi Shorin-ryu. The Gaudion essay adds that after his discharge from military
+  service in 1921 he moved to the village of Kadena, where he learned karate from Chotoku Kyan. Per the
+  Shima Karate biography he was born into a wealthy family in Shuri and dropped out of middle school in
+  his teens; at 19 he defeated a giant wrestler from Yomitan in a sumo tournament.
+hasTeacherAssertion:
+- id: 01M3YH7N5GNGC38ES66YYDPM81
+  teacher: 01KZC7XZAR5RWRTRZP0T6R1YG4
+  assertedStyle: 01KZC8S2GE3X9V7N27WXMQEPQA
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: EN Wikipedia states Arakaki began his training in karate quite young with Shinpan
+      Gusukuma, his teacher at primary school; corroborated by the Gaudion essay, the Shorin-Ryu Romania
+      history and the Shima Karate biography
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZC8XAP8F23MCTS7Z46YRY0R
+      quotation: He was quite young when he began his training in Karate with Shinpan Gusukuma, also known
+        under the name of Shinpan Shiroma (1890–1954), who was his teacher at primary school.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZGMHT4PJAW67C6ZBVV6GP7J
+      quotation: >-
+        His first teach-ers were Shinpan Gusukuma and Cho mo Hanashiro
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZGMHT4PVTB1ZJ89P18AJRSS
+      quotation: >-
+        he was learning from Shinpan Gusukuma, his teacher from primary grades, then from Chomo Hanashiro, when he was in high-school.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZGMHT4PY2WY04TMPG7XD08Y
+      quotation: He started training under Chomo Hanashiro and Shinpan Gusukuma.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GEHSD6RJVMDEV3DBC
+  teacher: 01KZC7XZATTJF9DFMT9QX0JSGY
+  assertedStyle: 01KZC8S2GE3X9V7N27WXMQEPQA
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: EN Wikipedia states Chomo Hanashiro was one of Arakaki's teachers at school;
+      corroborated by the Gaudion essay, the Shorin-Ryu Romania history and the Shima Karate biography
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZC8XAP8F23MCTS7Z46YRY0R
+      quotation: One of his teachers at his school was Chomo Hanashiro (1869–1945).
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZGMHT4PJAW67C6ZBVV6GP7J
+      quotation: >-
+        His first teach-ers were Shinpan Gusukuma and Cho mo Hanashiro
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZGMHT4PVTB1ZJ89P18AJRSS
+      quotation: >-
+        he was learning from Shinpan Gusukuma, his teacher from primary grades, then from Chomo Hanashiro, when he was in high-school.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZGMHT4PY2WY04TMPG7XD08Y
+      quotation: He started training under Chomo Hanashiro and Shinpan Gusukuma.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5G8QSMMW2SEQ057TAC
+  teacher: 01KZC7XZAWJNRVKWZ66A7CXENR
+  assertedStyle: 01KZDXQH2MARRZH56QT95D2964
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: EN Wikipedia states Arakaki later became a student of Choshin Chibana, founder
+      of Kobayashi Shorin-ryu; corroborated by the Gaudion essay, the Shorin-Ryu Romania history and the
+      Shima Karate biography
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZC8XAP8F23MCTS7Z46YRY0R
+      quotation: >-
+        Later he became a student of Choshin Chibana (1885–1969), founder of KobayashiShorin-ryu
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZGMHT4PJAW67C6ZBVV6GP7J
+      quotation: >-
+        After quitting school he studied under Choshin Chibana
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZGMHT4PVTB1ZJ89P18AJRSS
+      quotation: This was before he intensified his trainings with the founder of Kobayashi Shorin Ryu
+        style, Chosin Chibana.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZGMHT4PY2WY04TMPG7XD08Y
+      quotation: In his teens he dropped out of middle school and began training under Chosin Chibana.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5G90CMNHM7KFH4MHF8
+  teacher: 01KZC4PN01Y3PH3HRWWJPAH82A
+  assertedStyle: 01KZC8S2GE3X9V7N27WXMQEPQA
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Independent sources state it.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1921
+    hasEvidence:
+    - basedOnSource: 01KZGMHT4PJAW67C6ZBVV6GP7J
+      quotation: Upon discharge from the military service in 1921, Arakaki moved to the village of Kadena,
+        where he learned karate from Chotoku Kyan, one of Okinawa's greatest karatemen.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+      quotation: >-
+        The list of Chotoku Kyan’s students is quite impressive: Shoshin Nagamine (Matsubayashi Ryu)
+        [...] Ankichi Aragaki, and Taro Shimabuku.
+      locator: 96-97
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZC8XAP8F23MCTS7Z46YRY0R
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZGMHT4PJAW67C6ZBVV6GP7J
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZGMHT4PVTB1ZJ89P18AJRSS
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZGMHT4PY2WY04TMPG7XD08Y
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZGMHT4P6SQTBW5AM75BYF41
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q557301
+tags:
+- karate
+- shorin-ryu

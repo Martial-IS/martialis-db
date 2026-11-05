@@ -1,0 +1,110 @@
+type: Person
+id: 01KZC7XZB2M6VP6RJBC3ZE3B2T
+name:
+  ja-Latn: Matsumora Kōsaku
+  ja: 松茂良興作
+aka:
+  en:
+  - Kosaku Matsumora
+  - Matsumora Kosaku
+  - Kasaku Matsumora
+  ja:
+  - まつもら こうさく
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1829'
+  birthPlace:
+    label: Okinawa Prefecture
+    countryCode: eucountry:JPN
+    wikidata: wd:Q766445
+  hasEvidence:
+  - basedOnSource: 01KZC8XAP8845R63MX3AMHQ3YX
+    quotation: Kosaku Matsumora (松茂良 興作, Matsumora Kōsaku; 1829 - 1898) was a Ryūkyūan karate master.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1898'
+  hasEvidence:
+  - basedOnSource: 01KZC8XAP8845R63MX3AMHQ3YX
+    quotation: 1829 - 1898
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: http://jissenkarate.com/wp-content/uploads/2023/05/Kosaku-Matsumora.jpg
+  imageAttribution:
+    uri: https://www.jissenkarate.com/kosaku-matsumora/
+    cite: "Jissen Karate"
+    informationType: infotype:secondary
+description:
+  en: Ryukyuan karate master (1829-1898) of the Tomari-te style, student of Karyu Uku and Kishin Teruya;
+    teacher of Chōtoku Kyan (kata Chinto) and Chōki Motobu; became an Okinawan folk hero at 20 for disarming
+    a Satsuma overlord with a wet towel.
+notes: Matsumora studied Tomari-te under Karyu Uku (aka Giko Uku) and Kishin Teruya, and also studied
+  Jigen-ryu. He taught Chotoku Kyan the kata Chinto (his own version, distinct from Matsumura Sokon's).
+  The story of his fame comes from Shōshin Nagamine's account. His name honors Matsumora in Nagamine's
+  Matsubayashi-ryu, named for Matsumura Sokon (Matsu) and Matsumora (Bayashi). The Motobu-ryu official
+  history records that Motobu Choki studied under Matsumora from age 19, and that during kumite practice
+  one of Motobu's hands struck Matsumora's face, leading Matsumora to praise the young Motobu's martial
+  talent (Ryukyu Shimpo, Showa 11); Geoffrey Gaudion's account likewise describes Matsumora as impressed
+  by Motobu's enthusiasm, teaching him Naihanchi and Passai while refusing to teach kumite for fear Motobu
+  would use it in the street. Christopher Caile's Fighting Arts article describes Matsumora as the restorer
+  of Tomari-te, one of the Shorin-ryu "Uhu Bushi" alongside Matsumura Sokon as restorer of Shuri-te.
+hasTeacherAssertion:
+- id: 01M3YH7N5GPKGHE8ZDXE17CZXW
+  teacher: 01M1KR4J6ETN5GNKW3WWE04F4X
+  assertedStyle: 01KYHF558ACS4T9K0BR6YWXABY
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: EN Wikipedia states Matsumora studied Tomari-te under Karyu Uku (aka Giko Uku)
+      and Kishin Teruya.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZC8XAP8845R63MX3AMHQ3YX
+      quotation: He studied Tomari-te under Karyu Uku (aka Giko Uku) and Kishin Teruya.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5G8XQESGND5PKE7ZMJ
+  teacher: 01M1KR4J6E3HXQWCNFWN7FDGZ4
+  assertedStyle: 01KYHF558ACS4T9K0BR6YWXABY
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: EN Wikipedia states Matsumora studied Tomari-te under Karyu Uku (aka Giko Uku)
+      and Kishin Teruya.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZC8XAP8845R63MX3AMHQ3YX
+      quotation: He studied Tomari-te under Karyu Uku (aka Giko Uku) and Kishin Teruya.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZC8XAP8845R63MX3AMHQ3YX
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZKYMMAG1TTTDMJRX9KR5Q14
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZGMHT4PJAW67C6ZBVV6GP7J
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZKS3XCJ5V6B3XBAYVC4NM4V
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q3028499
+tags:
+- karate
+- tomari-te

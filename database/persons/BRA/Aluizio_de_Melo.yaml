@@ -1,0 +1,120 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1T4
+name:
+  pt: Aluizio de Melo
+aka:
+  pt:
+  - Professor Loanzi
+  - Aluizio Nogueira Bandeira de Melo
+nationality:
+- countryCode: eucountry:BRA
+  wikidata: wd:Q155
+birthEvent:
+  birthDate: '1893'
+  birthPlace:
+    label: Paraíba
+    countryCode: eucountry:BRA
+    wikidata: wd:Q38088
+deathEvent:
+  deathDate: '1975'
+  deathPlace:
+    label: Porto Alegre
+    countryCode: eucountry:BRA
+    wikidata: wd:Q40269
+image:
+  contentUrl: https://archive.org/download/loanzi/loanzi.png
+  imageAttribution:
+    uri: https://acervosvirtuais.ufpel.edu.br/museuvirtualdojudo/2022/07/academia-ruy-barbosa/
+    cite: "Museu Virtual do Judô"
+hasTeacherAssertion:
+- id: 01M3YH7N5F4EMDHKGJ21K37QD8
+  teacher: 01KJJAWN28MWKKSN4J02MVY1TH
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Multiple well-sourced references about this link
+  role: teachrole:student
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1915
+    hasEvidence:
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+      cite: SILVA & CORRÊA (2020). Muito antes do MMA
+      locator: vol. III, p. 111-113
+      quotation: aos 17 anos, teve a oportunidade de treinar Jiu Jitsu com o Conde Koma, durante a passagem
+        da trupe japonesa pelo Nordeste do Brasil
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://aratabajiujitsu.com.br/a-origem-dos-arataba/
+      cite: A Origem dos Arataba (Arataba Jiu-Jitsu)
+      quotation: Todo mundo sabe que Mitsuyo Maeda, o Conde Koma, radicou-se no norte do Brasil por volta
+        de 1913 e ensinou jiu-jitsu para diversas pessoas, dentre as quais posso citar Carlos Gracie,
+        Luiz França e Aluizio de Melo
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDAF
+      cite: Dojô Professor Loanzi - Museu Virtual do Judô
+      quotation: >-
+        Foi aluno [...] do famoso Mitsuyo Maeda, Conde Koma, introdutor do Jiu Jitsu e do Judô no Brasil.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5FSSN606P63RTZCFD7
+  teacher: 01KJJAWN28MWKKSN4J02MVY1SZ
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Multiple well-sourced references about this link
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD8X
+    hasEvidence:
+    - basedOnSource: 01M55AF57KBF194D4DNCZCGTZ4
+      locator: '13'
+      locatorLabel: page
+      quotation: Em 1959 contatou seu mestre e sensei, que lhe havia promovido à faixa preta sho-dan,
+        Ryuzo Ogawa, de São Paulo
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5FD7YM6MRK808CPQK9
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 1
+  conferredBy: 01KJJAWN29MA64W22606R3WD7Z
+  grantedBy: 01KJJAWN28MWKKSN4J02MVY1SZ
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Multiple well-sourced references about this link
+  hasEvidence:
+  - basedOnSource: 01M55AF57KBF194D4DNCZCGTZ4
+    locator: '13'
+    locatorLabel: page
+    quotation: Em 1959 contatou seu mestre e sensei, que lhe havia promovido à faixa preta sho-dan, Ryuzo
+      Ogawa, de São Paulo
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+  cite: SILVA & CORRÊA (2020). Muito antes do MMA
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://aratabajiujitsu.com.br/a-origem-dos-arataba/
+  cite: A Origem dos Arataba (Arataba Jiu-Jitsu)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KJJAWN29MA64W22606R3WDAF
+  cite: Dojô Professor Loanzi - Museu Virtual do Judô
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct

@@ -1,0 +1,75 @@
+type: Person
+id: 01M6A2JTJ2Y27MCTV3G9JDH1NY
+name:
+  pt: Mestre Boca Rica
+aka:
+  pt:
+    - Manoel Silva
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Capoeira Angola mestre from Salvador, a student of Mestre Pastinha at his academy.
+birthEvent:
+  birthDate: '1936-11-26'
+  birthPlace:
+    label: Maragogipe, Bahia
+    countryCode: eucountry:BRA
+    wikidata: wd:Q1761467
+  hasEvidence:
+    - basedOnSource: 01M6ACM2JZ93SE4VA6YXGNQJDS
+      quotation: >-
+        Manoel Silva (Maragogipe, 26 de novembro de 1936), mais conhecido como Mestre Boca Rica
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M6A2JTJDKMNCJTXCD2QKPXC2
+    teacher: 01M5H4AFG2ZRRQ0T4STJDTFRAR
+    assertedStyle: 01M6A2JTHSG7FHK01NCS2SN3FD
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Assunção, with Boca Rica's own words quoted in it.
+    hasInteraction:
+      - interactionPlace: 01M6A2JTHV4ENW9PDEMG8XWRM2
+        hasEvidence:
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              Pastinha slowly built up a group of advanced students, many of whom later became
+              mestres and teachers in their own right: João Pequeno, João Grande, Boca Rica, Gildo
+              Alfinete, Bola Sete and others.
+            locator: '160'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              Pastinha was an excellent mestre, a humble person, a friend, you understand? I
+              considered him my second father.
+            locator: '160'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    locator: '160-161'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q135989912
+tags:
+  - capoeira
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/a/a5/Mestre_Boca_Rica_-_Wiki_Encontro_Salvador_2025_-_Forte_Santo_Ant%C3%B4nio_Al%C3%A9m_do_Carmo_-_Salvador_Bahia_07.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Mestre_Boca_Rica_-_Wiki_Encontro_Salvador_2025_-_Forte_Santo_Ant%C3%B4nio_Al%C3%A9m_do_Carmo_-_Salvador_Bahia_07.jpg
+    cite: "SouDiana, Wikimedia Commons"
+    informationType: infotype:secondary

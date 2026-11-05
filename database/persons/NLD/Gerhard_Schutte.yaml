@@ -1,0 +1,81 @@
+type: Person
+id: 01M01BRGEKHZGB7R9DXA81PF74
+name:
+  en: Gerhard Schutte
+  nl: Gerhard Schutte
+aka:
+  nl: opa Schutte
+nationality:
+- countryCode: eucountry:NLD
+  wikidata: wd:Q55
+birthEvent:
+  birthDate: '1901-05-10'
+  birthPlace:
+    label: Haarlem
+    countryCode: eucountry:NLD
+    wikidata: wd:Q38063
+  hasEvidence:
+  - basedOnSource: 01M01BRGEEPWJ0M8QXMP8F6BB2
+    quotation: >-
+      Gerhard Frederik Marinus Schutte (opa Schutte) (Haarlem, 10 mei 1901 - onbekend, 17 juli 1978)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1978-07-17'
+  hasEvidence:
+  - basedOnSource: 01M01BRGEEPWJ0M8QXMP8F6BB2
+    quotation: >-
+      Gerhard Frederik Marinus Schutte (opa Schutte) (Haarlem, 10 mei 1901 - onbekend, 17 juli 1978)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: Bloemendaal dentist and pioneer of judo in the Netherlands, affectionately known as "opa" Schutte.
+    Came to judo at the age of 46 shortly after the Second World War under the judo pioneer Jaap Nauwelaerts
+    de Agé. Founded the Kenamju judo school in Haarlem in 1948 and the Nederlandse Amateur Judo Associatie
+    (NAJA) in 1950, which later merged into the Judo Bond Nederland. His student Jon Bluming received
+    his 1st dan from Schutte after only 12 months of training at the Tung Jen club in Amsterdam; he also
+    introduced Felix De Smedt to Tokio Hirano, and De Smedt's shodan was awarded by Schutte in September
+    1952. Remained active in judo into old age.
+hasRankAssertion:
+- id: 01M3YH7N5GN3PNJ02DEF48ZN2P
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 4
+  grantedBy: 01KJJAWN29MA64W22606R3WD7K
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Bluming's official biography states that Opa Schutte was a 4th dan, received
+      from Tokio Hirano, at the time Bluming trained under him in the 1950s. Single primary source; no
+      date recorded.
+  hasEvidence:
+  - basedOnSource: 01M01BRGEBCYBZJWTPVFCWMEZ0
+    quotation: Opa Schutte was a fourth Dan at that time from the Famous Tokyo Hirano.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M01BRGEEPWJ0M8QXMP8F6BB2
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M01BRGEGGCY972RX8VZXXFJQ
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M01BRGEBCYBZJWTPVFCWMEZ0
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+notes: First teacher Jaap Nauwelaerts de Agé (1917-2016) is not yet in the database, so no teacher edge
+  is recorded for him. The Kenamju club history confirms the 1948 founding and the nickname "opa" Schutte;
+  the NAJA later merged into the Judo Bond Nederland. German Wikipedia additionally records that he specialised
+  in ne-waza (groundwork) and published technical literature on it; no late-career dan grade is given
+  there.
+sameAs:
+- wd:Q2311079
+tags:
+- pioneer

@@ -1,0 +1,92 @@
+type: Person
+# Template only: `make schema` substitutes a throwaway ULID for the null `id`
+# below. Every record under database/ carries a real ULID.
+id: null
+name:
+  en: Display Name
+  ja: 日本語名
+aka:
+  en: Alternative Name
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+# Life events are optional: omit birthEvent/deathEvent entirely when nothing
+# is known. Each carries its date and place, and its own evidence, when known.
+# EDTF (ISO 8601-2) date syntax: "1935", "1935-04", "1935-04-01" (exact);
+# "1935~" approximate, "1935?" uncertain, "1935%" both; "193X" decade,
+# "19XX" century; "1938/1941" interval; "[1899,1900]" when sources disagree
+# and cannot be reconciled. dateOriginal/dateCalendar carry the source's own
+# rendering and calendar when it differs from the Gregorian value stored here.
+# birthEvent:
+#   birthDate: "1935"
+#   birthPlace: {label: Tokyo, countryCode: eucountry:JPN}
+#   hasEvidence: []
+# deathEvent:
+#   deathDate: "2010"
+description:
+  en: |
+    Brief biography...
+# Research notes: what is known, suspected, or still to be investigated -
+# addressed to a maintainer, not a reader. Reader-facing content belongs
+# in description above, not here.
+# notes: ...
+# Teacher relationships: one assertion per (teacher, style) pair, each with
+# its own interactions (place/period) and evidence. `teacher` is the teacher's
+# ULID and `assertedStyle` the style's; role is one of teachrole:student,
+# teachrole:uchi_deshi, teachrole:coach, teachrole:private, teachrole:seminar,
+# teachrole:examination.
+# A claim the evidence goes against stays a hasTeacherAssertion entry: cite
+# the source that makes the claim with supports: true and the one against it
+# with supports: false. Assess it conflevel:refuted when the evidence is
+# incompatible with the claim (an anachronism), conflevel:doubtful when it only
+# fails to support it (no record where one is expected). Neither gives a
+# wasTaughtBy/teaches edge. A contested claim the curator still accepts keeps
+# its level and carries the counter-evidence the same way.
+# Unidentified teacher: training in a style at a place and/or event during a
+# period is known and sourced, but no source names the teacher. Same
+# hasTeacherAssertion entry with no teacher - no wasTaughtBy/teaches edge.
+# Every interaction REQUIRES an interactionPlace or atEvent anchor, an
+# interactionPeriod and sources. When a source later names the teacher, add
+# teacher to this entry. If the teacher IS named in a source but has no Person
+# entity yet, create a stub Person and name it as teacher instead.
+# hasTeacherAssertion:
+#   - id: 01M3YHGK189XQHVHPQFTZ25J4F
+#     assertedStyle: 01KJJAWN29MA64W22606R3WD9Q
+#     role: teachrole:student
+#     hasConfidence:
+#       confidenceLevel: conflevel:probable
+#       assessedBy: agent:EXAMPLE
+#       confidenceRationale: The source places the subject at this school in these years
+#     hasInteraction:
+#       - interactionPlace: 01KJJAWN29MA64W22606R3WD96
+#         interactionPeriod:
+#           startYear: 1989
+#           endYear: 1991
+#         hasEvidence:
+#           - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+#             informationType: infotype:secondary
+#             supports: true
+#             evidenceType: evidencetype:direct
+# Rank: `rankStyle` is the style and `rankSystem` the RankingSystem; `conferredBy`
+# is the conferring organization and `grantedBy` the awarding person. rankType
+# is ranktype:dan | ranktype:kyu | ranktype:dan_unspecified, and rankGrade is
+# set only for an 'enumerated' RankingSystem (see database/ranking-systems/).
+# Evidence for the record as a whole. Each entry cites a Source by ULID
+# (`basedOnSource`) or an external resource (`uri`), read through
+# informationType (infotype:primary | infotype:secondary: is the informant
+# first-hand?), evidenceType (evidencetype:direct | indirect | negative: does it
+# state the claim?) and supports (true for, false against). Leave a key out
+# rather than guess.
+hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+    informationType: infotype:secondary
+    supports: true
+# The same entity in external authorities, as CURIEs naming the entity, not a
+# web page: wd: (Wikidata), dbr: (DBpedia), viaf:, isni:, lcnaf:, ndlna:,
+# orcid:. A Wikipedia article, an official site or a profile page is not an
+# identity and does not validate here; cite it as a Source instead.
+sameAs:
+  - wd:Q190141
+tags:
+  - founder
+  - educator

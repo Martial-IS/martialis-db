@@ -1,0 +1,152 @@
+type: Style
+id: 01KYD5XSZPND9XV5FHYG9V0ZV6
+name:
+  en: Jeet Kune Do
+  zh: 截拳道
+  yue: 截拳道
+  zh-Latn: Jie Quan Dao
+aka:
+  en:
+    - JKD
+  zh:
+    - Way of the Intercepting Fist
+styleType: styleclass:modern
+styleForm:
+  - styleform:hybrid
+description:
+  en: Jeet Kune Do is a hybrid martial art conceived and practiced by Bruce Lee that centers on counterattacking an opponent in order to impede their offense. As an eclectic martial art, it draws from Wing Chun, Tai Chi, taekwondo, boxing, fencing, and jujutsu. Lee did not formally codify JKD before his death, leading to multiple interpretations including the 'JKD Concepts' and 'JKD Nucleus' branches. It is often deemed a predecessor of mixed martial arts (MMA).
+foundedEvent:
+  startDate: '1967'
+  founder:
+    - 01KYD5XMNMNAG3CPC17GKACPW0
+  hasEvidence:
+    - basedOnSource: 01KYD5XMNMJAAPE1B8773N3ANT
+      cite: Bruce Lee (Wikipedia EN)
+      quotation: Jeet Kune Do originated in 1967.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KYD5XMNM30T1JM1B8VZ0ZTD9
+      quotation: >-
+        Bruce Lee's martial artistry (specifically his creation of Jeet Kune Do)
+      cite: Jennings (2019) - Bruce Lee and the Invention of Jeet Kune Do
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5G38X6KR4EK3BEAMDX
+    relatedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Jeet Kune Do was directly derived from Wing Chun, which Bruce Lee studied under Ip Man before evolving his own system
+    hasEvidence:
+      - basedOnSource: 01KYD5XMNM30T1JM1B8VZ0ZTD9
+        quotation: >-
+          we can see the clear development of habits: ways of moving through footwork, holding the guard, striking, blocking and parrying, etc. These were grounded in wing chun kung fu
+        cite: Jennings (2019) - Bruce Lee and the Invention of Jeet Kune Do
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GQBZQBXEX3RJFENJ4
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9G
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: JKD Wikipedia states it was heavily influenced by jujutsu
+    hasEvidence:
+      - basedOnSource: 01M34WF2FAAC7W2HBE63VDPQXA
+        quotation: >-
+          As an eclectic martial art, it relies on a fighting style heavily influenced by Wing Chun, tai chi,
+          taekwondo, boxing, fencing, and jujutsu.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GDWKMH658K1EC6SH1
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9N
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: JKD Wikipedia states it was heavily influenced by boxing
+    hasEvidence:
+      - basedOnSource: 01KYD5XMNMJAAPE1B8773N3ANT
+        quotation: >-
+          This was a new hybrid system that took footwork from boxing, kicks from kung fu, and technique from fencing.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GZ2JH9DZKQS492159
+    relatedStyle: 01KYHTJXCXHYSC519CB367XXZK
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: JKD Wikipedia states it was heavily influenced by taekwondo
+    hasEvidence:
+      - basedOnSource: 01KYD5XMNMJAAPE1B8773N3ANT
+        quotation: >-
+          Rhee taught Lee the side kick in detail
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5JRHX022HEF7Q3WN9HA3JA5
+    relatedStyle: 01M5JRHX02FJ6XZ3X069NVX3SE
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          According to Inosanto, the idea for the name reputedly took its inspiration from European
+          fencing’s stop-hit technique, which Lee regarded as “the highest and most economical of all
+          the counters.”
+        locator: '480'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M34WF2FAAC7W2HBE63VDPQXA
+        quotation: >-
+          As an eclectic martial art, it relies on a fighting style heavily influenced by Wing Chun, tai
+          chi, taekwondo, boxing, fencing, and jujutsu.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYD5XMNMJAAPE1B8773N3ANT
+    cite: Bruce Lee (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYD5XMNM30T1JM1B8VZ0ZTD9
+    cite: Jennings (2019) - Bruce Lee and the Invention of Jeet Kune Do
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYD5XMNMC3D3DST96C876VKM
+    cite: 'Maeda (2022) - Like Water: A Cultural History of Bruce Lee'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q462409
+  - dbr:Jeet_Kune_Do
+tags:
+  - jeet-kune-do
+  - hybrid
+  - bruce-lee
+  - mixed-martial-arts
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/3/3f/JeetKuneDo.svg
+    rights: mediarights:public_domain_mark
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:JeetKuneDo.svg
+      cite: "RisingSunWiki, Wikimedia Commons"
+      informationType: infotype:secondary
+      evidenceType: evidencetype:direct

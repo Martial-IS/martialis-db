@@ -1,0 +1,93 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1SA
+name:
+  ja: 三浦 鑿
+  en: Miura Saku
+aka:
+  pt: Miyako Sada
+nationality:
+- countryCode: eucountry:BRA
+  wikidata: wd:Q155
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1881'
+  birthPlace:
+    label: Ehime
+    countryCode: eucountry:JPN
+    wikidata: wd:Q123376
+deathEvent:
+  deathDate: '1945-10-26'
+  deathPlace:
+    label: Tokyo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1490
+description:
+  en: Japanese-Brazilian jujutsu practitioner and judo instructor for the Brazilian Navy. Fought famous
+    capoeira master Cyríaco in 1909, influencing early vale tudo in Brazil.
+image:
+  contentUrl: https://archive.org/download/sada_miyako/sada_miyako.jpg
+  imageAttribution:
+    uri: https://www.ndl.go.jp/brasil/e/data/R/084/084-002r.html
+    cite: "National Diet Library"
+notes: Teacher unidentified; no place, period, or source details recorded for this training relationship.
+hasRankAssertion:
+- id: 01M3YH7N5GA1Z59QAM5DWKWNRT
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan_unspecified
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Documented as judo instructor for Brazilian Navy with multiple sources confirming
+      his teaching role
+  hasEvidence:
+  - uri: https://cenb.org.br/pt/historical-figures/saku-miura/
+    quotation: 彼は柔道を身につけていて、リオに於ける海軍兵学校の教官をしていたと伝えられている。
+    cite: 三浦　鑿（みうら・さく） - Centro de Estudos Nipo-Brasileiros
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+    locator: vol. II, p. 100
+    quotation: 'Assim, em 1908, a Marinha do Brasil contrata do Kodokan dois mestres japoneses de Jiu
+      Jitsu em Yokohama, no Japão: sada Miyako e Ume Kakihara (... [p. 111] Matricula de Miura Sakuzo
+      (Sada Miyako) no Kodokan'
+    cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no
+      Brasil e no mundo. 2020.'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+- wd:Q94429123
+hasEvidence:
+- uri: https://judotradicionalgoshinjutsukan.blogspot.com/2009/10/capoeira-vs-jujutsu.html
+  cite: Capoeira vs Jujutsu (Judo Tadicional Goshinjutsukan)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.ndl.go.jp/brasil/e/data/R/084/084-002r.html
+  cite: 100 Japanese Emigration to Brazil - Saku Miura (National Diet Library)
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://cenb.org.br/pt/historical-figures/saku-miura/
+  cite: 三浦　鑿（みうら・さく） - Centro de Estudos Nipo-Brasileiros
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+  locator: vol. II, p. 100
+  quotation: 'Assim, em 1908, a Marinha do Brasil contrata do Kodokan dois mestres japoneses de Jiu Jitsu
+    em Yokohama, no Japão: sada Miyako e Ume Kakihara (... [p. 111] Mtr+icula de Miura Sakuzo (Sada Miyako)
+    no Kodokan'
+  cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil
+    e no mundo. 2020.'
+  informationType: infotype:secondary
+  evidenceType: evidencetype:direct
+  supports: true
+- uri: https://podcasters.spotify.com/pod/show/budokast0/episodes/Budokast-04---Geo-Omori-e-o-Jiu-Jitsu-Brasileiro-e8cbdt
+  cite: Budokast 04 - Geo Omori e o Jiu Jitsu Brasileiro (Gustavo Goulart)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct

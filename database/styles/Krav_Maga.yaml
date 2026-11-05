@@ -1,0 +1,112 @@
+type: Style
+id: 01M5H483CZK87194M0J1ZNG9F8
+name:
+  en: Krav Maga
+styleType: styleclass:modern
+hasStyleRelationAssertion:
+  - id: 01M6226DXYSYK4K6A4AEG7H6DK
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9N
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        English Wikipedia names boxing among its original sources; Green and Svinth say only that
+        Lichtenfeld boxed and that his methods came from his experience.
+    hasEvidence:
+      - basedOnSource: 01M6226DXY5G7CDWW2YSY10VNW
+        quotation: >-
+          From the outset, the original concept of Krav Maga was to take the most effective and practical
+          techniques of other fighting styles (originally European boxing, wrestling, and street fighting)
+          and make them rapidly teachable to conscripted soldiers.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Lichtenfeld’s methods were the result of his life experiences. [...] Lichtenfeld grew up in
+          Bratislava, Slovakia, where he was an amateur boxer and wrestler
+        locator: '585'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+  - id: 01M6226DXYG67GT1QSJH42VV3N
+    relatedStyle: 01KYJ39BQPQ7JTTDQ3B36PZQQN
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        English Wikipedia names wrestling among its original sources; Green and Svinth say only that
+        Lichtenfeld wrestled and that his methods came from his experience.
+    hasEvidence:
+      - basedOnSource: 01M6226DXY5G7CDWW2YSY10VNW
+        quotation: >-
+          From the outset, the original concept of Krav Maga was to take the most effective and practical
+          techniques of other fighting styles (originally European boxing, wrestling, and street fighting)
+          and make them rapidly teachable to conscripted soldiers.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Lichtenfeld’s methods were the result of his life experiences. [...] Lichtenfeld grew up in
+          Bratislava, Slovakia, where he was an amateur boxer and wrestler
+        locator: '585'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+  - id: 01M6226DXYX88XMSXA69Y7WD3B
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9B
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Green and Svinth (judo teaching and judo-model belts from 1965) and English Wikipedia (throws and
+        groundwork as per judo) both state it for the civilian system.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Consequently, in 1965, Lichtenfeld began bringing instructors to his school to teach judo and
+          karate, and in 1968, he began awarding belt ranks based on the judo model.
+        locator: '585'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M6226DXY5G7CDWW2YSY10VNW
+        quotation: >-
+          Takedowns and throws – as per judo, aikido and wrestling
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Israeli close-combat system taught in the Israel Defense Forces and, from 1964, to civilians by
+    Imi Lichtenfeld at Netanya; led after his death by federations founded by his and Eli Avikzar's
+    students.
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Civilian krav maga dates to the 1960s. Again, Imi Lichtenfeld was involved, as were some of his
+      students, to include Haim Zut and Eli Avikzar. In 1964, after retiring from the IDF, Lichtenfeld
+      began teaching krav maga to civilians at a gym in Natanya.
+    locator: '585'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q184733
+tags:
+  - krav-maga
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/8/84/Kravmaga.jpg
+    rights: mediarights:public_domain_mark
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:Kravmaga.jpg
+      cite: "TZAHAL, Wikimedia Commons"
+      informationType: infotype:secondary

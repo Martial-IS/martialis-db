@@ -1,0 +1,79 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD64
+name:
+  ja-Latn: Miyagawa Taichiro
+  ja: 宮川太
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1848'
+  dateOriginal: 嘉永元年七月二十四日
+  dateCalendar: datecal:japanese_lunisolar
+  birthPlace:
+    label: Fukuoka
+    countryCode: eucountry:JPN
+    wikidata: wd:Q26600
+deathEvent:
+  deathDate: '1920-06-20'
+  dateOriginal: 大正9年6月20日
+  dateCalendar: datecal:japanese_nengo
+description:
+  en: 'Miyagawa Taichiro was born on Kaei first. He served the Kuroda clan as a retainer. He was an accomplished
+    martial artist, having learned Itto-ryu kenjutsu and Jigo Tenshin Ryu jujutsu, which he taught at
+    the Genyosha-linked dojo that would be the origin of the Meidokan. He participated in the Hagi Rebellion
+    against the Meiji government.
+
+    '
+hasTeacherAssertion:
+- id: 01M3YH7N5GMZBZB2H7SRK1SWRQ
+  teacher: 01KJJAWN29MA64W22606R3WD67
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9E
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Documented in academic paper as high disciple and menkyokaiden of Masashige Shobayashi
+      with specific quotation from PDF
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M55WK0XZ72RVHAYHKST7MJG1
+      locator: '113'
+      locatorLabel: page
+      quotation: 宮川太一郎嘉永元年（1848）生庄林又七郎の高弟・免許皆伝代々黒田家の臣である。一刀流剣術，自剛天真流組討を極め，明治10年(1877) 11月玄洋社附属の向浜塾で自剛天真流を教授したのが，後の明道館道場の起源とされている。大正9年(1920)6月20日77才にて病没。長男．宮川彦之助も目録まで進み，自剛天真流の普及に務めた。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GCVTWKX153D2M6YQ8
+  rankStyle: 01KJJAWN29MA64W22606R3WD9E
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+  rankGrade: rankgrade:menkyo_kaiden
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Menkyokaiden stated in an academic paper (Tenri repository); single secondary source
+  hasEvidence:
+  - basedOnSource: 01M55WK0XZ72RVHAYHKST7MJG1
+    locator: '113'
+    locatorLabel: page
+    quotation: 宮川太一郎嘉永元年（1848）生庄林又七郎の高弟・免許皆伝代々黒田家の臣である。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KXTSQXW6P83R31HCRY2PRTB6
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KXTSQXW6P83R31HCRY2PRTB7
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M55WK0XZ72RVHAYHKST7MJG1
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- Genyōsha
+- genyosha

@@ -1,0 +1,59 @@
+type: Style
+id: 01M6BEFR8F9K4JJQ3TCF4K9N42
+name:
+  ja-Latn: Yōshin Koryū
+  ja: 楊心古流
+aka:
+  ja-Latn:
+    - Miura-ryū
+    - Miura Yōshin-ryū
+  ja:
+    - 三浦流
+    - 三浦楊心流
+hasEvidence:
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTED
+    quotation: The oldest line of Yōshin-ryū (楊心流) is probably the school founded by Nakamura Sakyōdayū Yoshikuni around 1610, and is often referred to as Yōshin Koryū (楊心古流).
+    supports: true
+    evidenceType: evidencetype:direct
+    informationType: infotype:secondary
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTED
+    quotation: Nakamura later changed his name to Miura Yōshin (三浦 楊心), and this school may also be referred to as Miura-ryū (三浦流), or Miura Yōshin-ryū (三浦楊心流).
+    supports: true
+    evidenceType: evidencetype:direct
+    informationType: infotype:secondary
+foundedEvent:
+  startDate: '1610~'
+  location:
+    label: Nagasaki
+    countryCode: eucountry:JPN
+    wikidata: wd:Q38234
+  hasEvidence:
+    - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTED
+      quotation: Yoshin Koryu was founded by Nakamura Yoshikuni in Nagasaki after being driven from Takeda lands by Tokugawa Ieyasu.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+styleType: styleclass:traditional
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5G4S3XZB9CBVK3C7KE
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9G
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia states Yōshin Koryū mixed Taiyo-ryu, a jujutsu school, with Chinese martial arts and medicine knowledge. This confirms a jujutsu lineage.
+    hasEvidence:
+      - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTED
+        quotation: >-
+          Yoshin Koryu was founded by Nakamura Yoshikuni in Nagasaki after being driven from Takeda lands by Tokugawa Ieyasu. It is stated that Yoshin Koryu was a mixture of Taiyo ryu and knowledge gained by Yoshikuni’s exposure to Chinese martial arts and medicine
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+notes: >-
+  Nakamura Yoshikuni's line, distinct from Akiyama's Yoshin_ryu. English Wikipedia: it lost
+  transmission with the death of Kanaya Motoyoshi; it names Totsuka Hikosuke's Totsuka-ha as a
+  line of this school, which the Yōshin-ryū article lists under the Akiyama descendants.
+sameAs:
+  - wd:Q8062672
+tags:
+  - koryu

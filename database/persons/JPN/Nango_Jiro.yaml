@@ -1,0 +1,75 @@
+type: Person
+id: 01M5G9535XR521QXR6KRPS6GB1
+name:
+  ja-Latn: Nangō Jirō
+  ja: 南郷次郎
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1876'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        his nephew, Nango Jiro (1876–1951), succeeded him as the second head of the Kodokan.
+      locator: '575'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1951'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        his nephew, Nango Jiro (1876–1951), succeeded him as the second head of the Kodokan.
+      locator: '575'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Japanese naval officer and nephew of Kanō Jigorō; second head of the Kōdōkan, from Kanō's
+    death in 1938 until 1946.
+hasTeacherAssertion:
+  - id: 01M5G9535XFBKJWYMQY4FXZ1F0
+    teacher: 01KJJAWN28MWKKSN4J02MVY1S1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Kano's own account of his student.
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+        interactionPeriod:
+          startYear: 1884
+        hasEvidence:
+          - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+            quotation: >-
+              In November of 1884, a member of the Kodokan committee, naval officer Jiro Nango, came
+              for judo instruction.
+            locator: '29'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: '575'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q11408645
+tags:
+  - judo
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/9/95/Nango_Jir%C5%8D.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Nango_Jir%C5%8D.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary

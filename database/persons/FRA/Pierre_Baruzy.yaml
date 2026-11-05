@@ -1,0 +1,84 @@
+type: Person
+id: 01M5JG4Y25CG26BBFN1ES5MK8D
+name:
+  en: Pierre Baruzy
+  fr: Pierre Baruzy
+nationality:
+  - countryCode: eucountry:FRA
+    wikidata: wd:Q142
+birthEvent:
+  birthDate: '1897-05-19'
+  birthPlace:
+    label: Amiens
+    countryCode: eucountry:FRA
+  hasEvidence:
+    - basedOnSource: 01M5JG4Y25QYF28MTRQ9MQ6Y85
+      quotation: >-
+        né le 19 mai 1897 à Amiens et décédé le 17 décembre 1994
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        This second group was headed by Count Pierre Baruzy (1897–1994).
+      locator: '258'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1994-12-17'
+  deathPlace:
+    label: Paris
+    countryCode: eucountry:FRA
+    wikidata: wd:Q90
+  hasEvidence:
+    - basedOnSource: 01M5JG4Y25QYF28MTRQ9MQ6Y85
+      quotation: >-
+        né le 19 mai 1897 à Amiens et décédé le 17 décembre 1994
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    French industrialist and French boxing champion. A student of Charles Charlemont from age 13, he
+    won eleven national titles between 1922 and 1935, became president of the Académie de boxe française
+    in 1930, and after the Second World War led the academic camp of French boxing; he was founding
+    president of the Comité national de boxe française in 1965.
+hasTeacherAssertion:
+  - id: 01M5JG4Y25FZVQMJX4Y9ZER2FM
+    teacher: 01M5JG4Y259ZBY4V9XPJQ111DJ
+    assertedStyle: 01M5KWGPRKBAFY4Z2766RHBEK5
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source.
+    hasInteraction:
+      - interactionPlace: 01M5JG4Y25H3040ABEHRCYZW4M
+        hasEvidence:
+          - basedOnSource: 01M5JG4Y25QYF28MTRQ9MQ6Y85
+            quotation: >-
+              Il entre à 13 ans à l’académie de boxe française où il est l'élève de Charles Charlemont.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      The sole teachers were Henri Seydoux (Charlemont’s son-in-law), Paul Boucher, Count Pierre Baruzy,
+      Gaston Prévot, Lucien Alliot, Jean Berceau, and Haquin.
+    locator: '258'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5JG4Y25QYF28MTRQ9MQ6Y85
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q3383887
+tags:
+  - savate
+  - france

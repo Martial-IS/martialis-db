@@ -1,0 +1,161 @@
+type: Person
+id: 01KZBSKM8JX1YBJ2T2V9BF2FEC
+name:
+  ja-Latn: Chinen Teruo
+  ja: 知念輝夫
+  en: Teruo Chinen
+aka:
+  ja:
+  - ちねん てるお
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1941-06-08'
+  birthPlace:
+    label: Kobe
+    countryCode: eucountry:JPN
+    wikidata: wd:Q48320
+  hasEvidence:
+  - basedOnSource: 01KZC8XAP8RM8MW46A7XQ3AFRV
+    quotation: >-
+      Teruo Chinen (知念 輝夫, Chinen Teruo; June 8, 1941 – September 9, 2015) [...] was born on June 8, 1941, in Kobe, Hyōgo Prefecture, Japan
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2015-09-09'
+  deathPlace:
+    label: Spokane
+    countryCode: eucountry:USA
+    wikidata: wd:Q187805
+  hasEvidence:
+  - basedOnSource: 01KZC8XAP8RM8MW46A7XQ3AFRV
+    quotation: June 8, 1941 – September 9, 2015
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZH6AA1PF3CKXMWN6YZXGD7H
+    quotation: 知念 輝夫（ちねん てるお、1941年7月8日 – 2015年9月9日）
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Teruo-chinen.png/250px-Teruo-chinen.png
+  imageAttribution:
+    uri: https://en.wikipedia.org/wiki/File:Teruo-chinen.png
+    cite: "English Wikipedia"
+    informationType: infotype:secondary
+description:
+  en: Japanese master of Goju-ryu karate (1941-2015), senior student of Eiichi Miyazato, founder of Jundokan
+    International; taught in Spokane, Washington, from 1969.
+notes: 'Chinen''s family had Shuri-te and Yamanni-ryu kobudo connections (his granduncle was Masami Chinen,
+  whom he called "grand-uncle Shobi"; the JA Wikipedia adds that his grandfather was a full-time te instructor
+  and his great-grandfather belonged to the Yamane-ryu kobudo lineage), but he trained in Goju-ryu. He
+  began training under Eiichi Miyazato in 1954 - after Chojun Miyagi''s death - so the Wikidata P1066
+  teacher claim on Chōjun Miyagi is dropped as a lineage artifact rather than a direct relationship. In
+  his 1997 interview with Dong Tran he states his main instructor was Miyazato Sensei, who taught him
+  under Miyagi''s watchful eye, and that after Miyagi''s death in 1953 he helped Miyazato move the training
+  equipment to the Jundokan. He was in Tokyo at the Yoyogi Dojo from 1958 to 1969 helping Morio Higaonna
+  teach, and credited Higaonna with his technical education (the Shuriway biography says they developed
+  randori together); he co-chaired the IOGKF (International Okinawan Goju-ryu Karate-do Federation) with
+  Higaonna, laying its European and South African foundations between 1973 and 1979. Miyazato promoted
+  him to yondan before he left for Spokane in 1969. He founded Jundokan International in 1987 (the Shuriway
+  biography gives 1984, "in honor of his teacher, Sensei Ei''ichi Miyazato" - both dates recorded) and
+  assisted as translator in the preparation of Classical Kata of Okinawan Karate (1987). The JA Wikipedia
+  gives his 7th dan promotion by Miyazato as around 1988 and notes he suffered undiagnosed diabetes from
+  1995, with diabetes and nephropathy as his cause of death. Birth date note: the JA Wikipedia lead gives
+  July 8, 1941 while the body, the EN Wikipedia and the Shuriway biography give June 8, 1941 - the June
+  date is kept.'
+hasTeacherAssertion:
+- id: 01M3YH7N5G8EQ50RFF60T2XGZA
+  teacher: 01KZBT3HG4JKJHVB8DAA0N0XT9
+  assertedStyle: 01KZC8S2GEGBJJT9RKV5M0HJ3N
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      EN Wikipedia states Chinen began training in Goju-ryu under Eiichi Miyazato in 1954 and that
+      Miyazato promoted him to yondan before he left for Spokane; his 1997 interview confirms Miyazato
+      was his main instructor
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1954
+      endYear: 1969
+    hasEvidence:
+    - basedOnSource: 01KZC8XAP8RM8MW46A7XQ3AFRV
+      quotation: Chinen began training in Gōjū-ryū karate under one of Chojun Miyagi's senior students
+        Ei'ichi Miyazato (1922–1999) in 1954 [...] Prior to leaving Yoyogi Dojo for Spokane, Miyazato promoted
+        Chinen to yondan (fourth degree blackbelt).
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZE1G0S8W0KM9MVTE2T2FCSE
+      quotation: Your main instructor was Miyazato Sensei, who taught you under Miyagi Sensei's watchful
+        eye. After Miyagi Sensei passed away in 1953, you helped Miyazato Sensei move the training equipment
+        to the new dojo, which was the Jundokan.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZH6AA1PF3CKXMWN6YZXGD7H
+      quotation: 知念は、1954年に宮城長順の上級生の1人である宮里栄一（1922〜1999）の元で、剛柔流空手でのトレーニングを開始した。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZH6AA1PBR5EVSWHMWSA39QT
+      quotation: Sensei Chinen began training in 1954 under Eiichi Miyazato at the jundokan dojo.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GG3N04ANWMVMV6PNM
+  rankStyle: 01KZC8S2GEGBJJT9RKV5M0HJ3N
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 7
+  grantedBy: 01KZBT3HG4JKJHVB8DAA0N0XT9
+  dateConferred: '1988'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: EN Wikipedia states Chinen held the rank of 7th dan and the title of Shihan;
+      the JA Wikipedia gives the 7th dan promotion by Miyazato as around 1988
+  hasEvidence:
+  - basedOnSource: 01KZC8XAP8RM8MW46A7XQ3AFRV
+    quotation: He founded the Jundokan International karate organization and held the title of Shihan.
+      Chinen held the rank of 7th dan in karate.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZH6AA1PF3CKXMWN6YZXGD7H
+    quotation: 1988年頃、宮里は知念を七段に昇段させた。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZC8XAP8RM8MW46A7XQ3AFRV
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZE1G0S8W0KM9MVTE2T2FCSE
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZH6AA1PF3CKXMWN6YZXGD7H
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZH6AA1PBR5EVSWHMWSA39QT
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZH6AA1PREKZTS8BHKMAV33H
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q3984846
+tags:
+- karate
+- goju-ryu

@@ -1,0 +1,58 @@
+type: Organization
+id: 01M325EAQG4P41V98G5PZWNJ4F
+name:
+  en: Budokwai
+  ja: 武道会
+orgType: orgclass:association
+hasSite:
+  - location:
+      label: London
+      countryCode: eucountry:GBR
+      wikidata: wd:Q84
+foundedEvent:
+  startDate: '1918-01-26'
+  founder:
+    - 01KY52HE48XM1KHDGKBV98YRQ2
+  hasEvidence:
+    - basedOnSource: 01KY52HE43YW6GXDPGPTRD08ZB
+      quotation: In 1918, at his own expense, Koizumi established a society in London called the Budokwai (Way of Knighthood Society). [...] the Budokwai's premises opened on 26 January 1918.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M52RT3EHCEEDNGKJJAJEQKBQ
+    officer: 01KY52HE48XM1KHDGKBV98YRQ2
+    officerTitle: President
+    officerPeriod:
+      startYear: 1918
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia only.
+    hasEvidence:
+      - basedOnSource: 01M4R8589M0V9C3XZMSYYVJ42S
+        quotation: Koizumi became the first president of the Budokwai and Yukio Tani the first chief judo instructor.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+website: https://budokwai.co.uk
+description:
+  en: >-
+    The Budokwai (武道会), the London judo club founded on 1918-01-26 by Gunji Koizumi, with Yukio Tani as its first professional teacher, and the oldest judo club in Europe. Beyond its own dojo it served as a reference body for Kodokan judo in Europe: the Toulouse Shudokan records its affiliation to the Budokwai from 1947.
+hasEvidence:
+  - basedOnSource: 01KY52HE43YW6GXDPGPTRD08ZB
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KY4XTGWDFZB108B7ZN44GSDS
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M06K0RMZV3APZVDQBBYVCKEQ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - london
+  - oldest

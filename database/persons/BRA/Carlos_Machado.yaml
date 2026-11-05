@@ -1,0 +1,151 @@
+type: Person
+id: 01KYG003XD92NPCBEN0M2JF8Y4
+name:
+  en: Carlos Machado
+nationality:
+- countryCode: eucountry:BRA
+  wikidata: wd:Q155
+birthEvent:
+  birthDate: '1963-11-09'
+  birthPlace:
+    label: Rio de Janeiro
+    countryCode: eucountry:BRA
+    wikidata: wd:Q8678
+  hasEvidence:
+  - basedOnSource: 01KYG003XDP4BK49QTQ176GGVT
+    quotation: >-
+      Carlos Machado (born November 9, 1963)
+    cite: Carlos Machado (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: Brazilian Jiu-Jitsu master and the eldest of the five Machado brothers. He met Chuck Norris in 1988
+    and became Norris's primary BJJ instructor. Norris earned his BJJ black belt under Carlos. Carlos
+    taught Norris on the set of Walker, Texas Ranger where he ran an academy in the same building. He
+    also appeared in episodes of the show as a stunt coordinator and actor.
+image:
+  contentUrl: https://machadomethod.com/wp-content/uploads/2020/11/gmmachadomiddle1.png
+  imageAttribution:
+    uri: https://machadomethod.com/
+    cite: "Machado Method"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+- id: 01M3YH7N5FBK2H9NFV2GHWYMPG
+  teacher: 01KYZ31HT3D978KY5GPZAGKV5G
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: CMJJ Gear states Carlos was taught and mentored directly by Rolls Gracie in Copacabana,
+      training with him until Rolls' death in 1982, when Carlos was a blue belt
+  hasInteraction:
+  - interactionPeriod:
+      endYear: 1982
+    hasEvidence:
+    - basedOnSource: 01KZ1DTWBB99T2QQPQ2G8J1SQX
+      quotation: >-
+        After moving to the southern part of Rio de Janeiro, Copacabana, Master Carlos Machado was taught and mentored directly by the legendary Rolls Gracie. Master Carlos was very close with Rolls, and trained with him until Rolls' sudden and untimely death
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZ1SNKM3P658JK55THPT92RP
+      quotation: Throughout his childhood and early life in Jiu-Jitsu, his main instructor was his cousin,
+        Carlos Gracie Jr but he has also trained with Helio, Carlson, Rolls and Rickson Gracie at various
+        points during his development.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5FVMDF9JE6CZXP15Q7
+  teacher: 01KYZ31HT367V25Z6764RZXNGZ
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: BJJ Heroes lineage lists Carlos Gracie Jr. as Carlos Machado's teacher (Maeda
+      > Carlos Gracie Sr. > Carlos Gracie Junior > Carlos Machado); CMJJ Gear notes he continued training
+      with the Gracie family after Rolls' death
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1982
+    hasEvidence:
+    - basedOnSource: 01KZ1E1WE6T99BFCXP8ECJNVBN
+      quotation: A black belt under Gracie Barra founder Carlos Gracie Junior
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZ1DTWBB99T2QQPQ2G8J1SQX
+      quotation: After this family tragedy, Master Carlos and his brothers continued to train with the
+        Gracie family.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZ1SNKM3P658JK55THPT92RP
+      quotation: Throughout his childhood and early life in Jiu-Jitsu, his main instructor was his cousin,
+        Carlos Gracie Jr
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KYG003XDP4BK49QTQ176GGVT
+      quotation: His main instructor throughout his life was his cousin Carlos Gracie, Jr.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5FKZ5N6QFDNSCJWMMH
+  rankStyle: 01KJJAWN29MA64W22606R3WD9J
+  rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+  rankOrdinal: 8
+  rankGrade: rankgrade:bjj_red_white
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Jitsmagazine reports Carlos received his coral belt from his brothers in 2020; CMJJ Gear (his own
+      association) states he is currently an 8th degree coral belt. The belt was awarded by his
+      brothers, not by Carlos Gracie Jr.
+  hasEvidence:
+  - basedOnSource: 01KZ1SNKM3P658JK55THPT92RP
+    quotation: Carlos Machado is the eldest of the five famous Machado brothers and was just awarded with
+      his red and white belt, commonly referred to as the coral belt, from all four of his siblings at
+      the same time.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://cmjjgear.com/pages/about-us
+    cite: History of CMJJ and Statement of Doctrine
+    quotation: Currently an 8th degree Coral Belt
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYG003XDP4BK49QTQ176GGVT
+    cite: Carlos Machado (Wikipedia EN)
+    quotation: Rank 8th deg. BJJ coral belt
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KYG003XDP4BK49QTQ176GGVT
+  cite: Carlos Machado (Wikipedia EN)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ1DTWBB99T2QQPQ2G8J1SQX
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ1E1WE6T99BFCXP8ECJNVBN
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ1SNKM3P658JK55THPT92RP
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q5042308
+tags:
+- brazilian-jiu-jitsu
+- machado-brothers

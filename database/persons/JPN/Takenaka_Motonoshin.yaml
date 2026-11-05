@@ -1,0 +1,73 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD6V
+name:
+  ja-Latn: Takenaka Motonoshin
+  ja: 竹中元之進
+description:
+  en: Japanese jujutsu master of Kitō-ryū, teacher of Takenaka Tetsunosuke Issei
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1775'
+  birthPlace:
+    label: Japan
+    countryCode: eucountry:JPN
+    wikidata: wd:Q17
+hasTeacherAssertion:
+- id: 01M3YH7N5GHEYGHWJH0E5PHCN6
+  teacher: 01KJJAWN29MA64W22606R3WD76
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9P
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Direct student of Takino Yūken according to academic paper by Carl De Crée (2019)
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDAD
+      cite: De Crée, Carl. (2019). Kitō-ryū jūjutsu and the desolation of Kōdōkan jūdō’s Koshiki-no-kata
+        -- Remembering Inoue Shōji (1927-2018)
+      quotation: instead a student of Takenaka Motonoshin 竹中元之進, himself a direct student of Takino Yūken
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KJJAWN29MA64W22606R3WDAN
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KJJAWN29MA64W22606R3WDAD
+  cite: De Crée, Carl. (2019). Kitō-ryū jūjutsu and the desolation of Kōdōkan jūdō’s Koshiki-no-kata --
+    Remembering Inoue Shōji (1927-2018)
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+hasHonorAssertion:
+- id: 01M3YH7N5GH1QVYEWW1508HXDV
+  honorValue: Kitō-ryū master
+  honorType: honortype:title
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Japanese Wikipedia and De Crée (2019) state it independently.
+  hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WDAN
+    cite: 起倒流 - Wikipedia
+    quotation: 竹中派は竹中元之進より始まった
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KJJAWN29MA64W22606R3WDAN
+    cite: 起倒流 - Wikipedia
+    quotation: 起倒流を竹中元之進に学び免許皆伝を得た
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KJJAWN29MA64W22606R3WDAD
+    cite: De Crée, Carl. (2019). Kitō-ryū jūjutsu and the desolation of Kōdōkan jūdō’s Koshiki-no-kata
+      -- Remembering Inoue Shōji (1927-2018)
+    quotation: Takenaka Motonoshin 竹中元之進
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct

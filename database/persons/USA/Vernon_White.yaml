@@ -1,0 +1,56 @@
+type: Person
+id: 01M6C1FR4AZ3C0TZNM905JPEJX
+name:
+  en: Vernon White
+aka:
+  en:
+    - Tiger
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1971-12-03'
+  hasEvidence:
+    - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+      quotation: 'Born: 12/3/71'
+      locator: '504'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    American mixed martial artist who trained with Ken Shamrock before the Lion's Den existed and
+    fought on the first Pancrase card.
+hasTeacherAssertion:
+  - id: 01M6C1G6F217VV6B20VMDG6DQT
+    teacher: 01M6C18DS7MFJMMJ2GXSZJ19SX
+    assertedStyle: 01KYSS3B587WR241FHHW19X24T
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              Before there was even a Lion’s Den, White trained with Ken Shamrock inside a racquetball court at a local gym. The training was rudimentary. Students took a beating from Shamrock
+            locator: '504'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+    quotation: >-
+      White learned, enough that Shamrock was comfortable bringing him with him to Japan for the debut of Pancrase.
+    locator: '505'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q7922292
+tags:
+  - mma

@@ -1,0 +1,106 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1SR
+name:
+  ja-Latn: Kobayashi Kiyoshi
+  ja: 小林清
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1925-04-09'
+  birthPlace:
+    label: Gunma
+    countryCode: eucountry:JPN
+    wikidata: wd:Q129499
+deathEvent:
+  deathDate: '2013-04-09'
+  deathPlace:
+    countryCode: eucountry:JPN
+    wikidata: wd:Q17
+image:
+  contentUrl: https://archive.org/download/Kiyoshi_Kobayashi/kk.png
+  imageAttribution:
+    uri: https://bibliografia.bnportugal.gov.pt/bnp/bnp.exe/registo?1890114
+    cite: "Judo ilustrado Kyu & Dan (Minerva, Coimbra)"
+    informationType: infotype:secondary
+description:
+  en: Kobayashi Kiyoshi (小林清) was the «father» of Portuguese Judo and one of the founders of the Portuguese
+    Judo Federation, and the greatest promoter of Judo in Portugal. Sensei Kobayashi was one of the highest grades in the world, 9th dan given by Kodokan in 1999.
+  pt: O Mestre Kiyoshi Kobayashi, uma das mais altas graduações da Modalidade – 9º Dan, foi um dos grandes
+    responsáveis pelo crescimento e desenvolvimento da modalidade em Portugal, sendo conhecido inclusive
+    como "o pai do judo português". Foi Selecionador e Treinador da Equipa Nacional e acompanhou-as em
+    Campeonatos da Europa e do Mundo, assim como nas edições dos Jogos Olímpicos de Montreal (1976), Los
+    Angeles(1984) e Seul (1988).
+hasTeacherAssertion:
+- id: 01M3YH7N5GMP08NRVBKH3Z7N8P
+  teacher: 01KJJAWN28MWKKSN4J02MVY1SD
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Documented as a direct student of Mifune Kyuzo in forum discussions and academic
+      papers, with mentions of private footage showing him as uke for Mifune in demonstrations
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+    hasEvidence:
+    - uri: https://judo.forumotion.com/t1217-passing-of-kobayashi-kiyoshi-sensei-kodokan-9th-dan
+      cite: Passing of Kobayashi Kiyoshi sensei, Kodokan 9th dan (Judo Forum discussion)
+      quotation: Kobayashi-sensei was a student of Mifune, and there exists private footage showing him
+        as an uke for Mifune in itsutsu-no-kata and public jūdō demonstrations.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://www.researchgate.net/publication/260249522_Kodokan_judo's_elusive_tenth_kata_The_Go-no-kata_-_Forms_of_Proper_Use_of_Force_Part_1
+      cite: 'Kodokan judo''s elusive tenth kata: The Go-no-kata - Forms of Proper Use of Force, Part 1
+        (ResearchGate)'
+      quotation: Other direct students of Mifune who are still alive, such as notably Kyoshi Kobayashi,
+        9th dan (Portugal)
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5G4G5PTNDQYV668YRR
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 9
+  conferredBy: 01KJJAWN29MA64W22606R3WD7X
+  dateConferred: '1999'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Awarded 9th dan by Kodokan in 1999, as documented in European Judo Union announcement
+      and Portuguese newspaper obituary
+  hasEvidence:
+  - basedOnSource: 01M3S8C80TQB3393V6RWDTVVV4
+    quotation: Sensi Kobayashi was one of the highest grades in the world, 9th dan given Kodokan by in
+      1999.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: http://archive.today/YkEjw
+    cite: Morreu Kiyoshi Kobayashi, o 'pai' do judo português (Diário de Notícias, archived)
+    quotation: Nascido em Gumm-Ken, Kobayashi tinha uma das mais altas graduações de judo, o nono dan
+      - em dez possíveis no cinto negro -, que lhe foi atribuído pela Federação Internacional em 1999.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M3M0PM99V00X653G1HE60M0K
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M3M0PM99H4M8ZKGFXENAX7FB
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M3S8C80TQB3393V6RWDTVVV4
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: http://archive.today/YkEjw
+  cite: Morreu Kiyoshi Kobayashi, o 'pai' do judo português (Diário de Notícias, archived)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct

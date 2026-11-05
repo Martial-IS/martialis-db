@@ -1,0 +1,164 @@
+type: Person
+id: 01KYSPMS1DCZRWP3YDMN8TPA1N
+name:
+  fr: Gilles Dufour
+  en: Gilles Dufour
+aka:
+  en:
+    - Hanshi Gilles Dufour
+nationality:
+  - countryCode: eucountry:CAN
+    wikidata: wd:Q16
+description:
+  en: 'Kyokushin karate pioneer in Quebec, Canada. Dufour began martial arts with Shotokan under René Stéziadis, then switched to Kyokushin in 1965 under Roger Lesseau (Lesourd), becoming Lesseau''s successor as chief instructor in 1972. He won the first Kyokushin Full Contact Championship at the Forum de Montréal on June 14, 1969. Dufour trained over 20,000 students over his career, including Jean Couture (later the first instructor of Georges St-Pierre), André Coulombe, André Gilbert, and Gaétan Sauvé. He authored seven books including L''histoire du karaté au Québec and was inducted into the Canadian Black Belt Hall of Fame (2019), the World Combat Arena Hall of Fame (2019), and the World Head of Family Sokeship Council Hall of Fame (2025).
+
+'
+  fr: 'Pionnier du karaté Kyokushin au Québec. Dufour a commencé les arts martiaux avec le Shotokan sous René Stéziadis, puis est passé au Kyokushin en 1965 sous Roger Lesseau (Lesourd), devenant son successeur comme instructeur en chef en 1972. Il a remporté le premier Championnat Full Contact Kyokushin au Forum de Montréal le 14 juin 1969. Dufour a formé plus de 20 000 élèves au cours de sa carrière, dont Jean Couture (premier instructeur de Georges St-Pierre), André Coulombe, André Gilbert et Gaétan Sauvé. Il est l''auteur de sept livres dont L''histoire du karaté au Québec et a été intronisé au Temple de la renommée des ceintures noires canadiennes (2019), au Temple de la renommée de la World Combat Arena (2019) et au Temple de la renommée du World Head of Family Sokeship Council (2025).
+
+'
+image:
+  contentUrl: https://ia601002.us.archive.org/31/items/gilles_dufour/gilles_dufour.jpeg
+  imageAttribution:
+    uri: https://www.youtube.com/watch?v=lNRrduEPkvE
+    cite: "Moi mes souliers (YouTube)"
+    informationType: infotype:primary
+hasTeacherAssertion:
+  - id: 01M3YH7N5GXN6QF4V9FF7B6SMY
+    teacher: 01KYT5TK1S4FP3VWA02Z7MS4H1
+    assertedStyle: 01KYFZEGYN107JYC5K1539R8JM
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Zanshin documentary transcript states Dufour first trained in Shotokan under Ari Anastasiadis before switching to Kyokushin in 1965. Anastasiadis is documented as the first karate instructor in Canada.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1963
+          endYear: 1965
+        hasEvidence:
+          - basedOnSource: 01KYT2PETX8NG5243D55DYB4JC
+            quotation: Puis par la suite, c'est ça Shotokan. Puis par la suite, c'était Ari Anastasiadis, qui était instructeur. Par la suite, ça a été en 1965, décembre 1965, le Kyokushinkai a été implanté au Canada par Roger Lesseau.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GSRWG0N3QE3GBKKAR
+    teacher: 01KYT6RAA65YJ55113MR00N060
+    assertedStyle: 01KYSNKBS22MA4Z9RRDDTXWQ7H
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The Zanshin documentary transcript states that Kyokushin was brought to Canada by Roger Lesseau and that Dufour was his student and later his successor as chief instructor
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1965
+        hasEvidence:
+          - basedOnSource: 01KYT2PETX8NG5243D55DYB4JC
+            quotation: en 1965, décembre 1965, le Kyokushin a été implanté au Canada par Roger Lesseau. À ce moment-là, il était deuxième dan. [...] En 1972, je suis tombé chef d'instructeur. [...] Tous les Kyokushinkai vont sortir de Roger Lesseau qui était là avant moi. Pas nécessairement de moi, parce que moi j'étais le successeur de Roger.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KYT6RAA5G5TZDZ0489824931
+            quotation: >-
+              In the 1960's, Mas Oyama accepted a French student, Roger Lesourd. Roger lived and trained in Japan directly under Mas Oyama and was eventually awarded a Third Dan Black Belt along with the title of Branch Chief for Canada. In 1968, Roger brought Kyokushinkai Karate to Canada
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GC23X8YJNWYG4T0AJ
+    teacher: 01M1KR4J6E2V1HMY3XSXP4MMHM
+    assertedStyle: 01KYSNKBS22MA4Z9RRDDTXWQ7H
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Dufour mentions in the Zanshin documentary that his first Kyokushin combat instructor was Tony Valpato
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1965
+        hasEvidence:
+          - basedOnSource: 01KYT2PETX8NG5243D55DYB4JC
+            quotation: Mon premier instructeur en Kyokushin qui m'a enseigné le combat, c'est un dénommé Tony Valpato.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GST0D8DH46P4HF776
+    rankStyle: 01KYSNKBS22MA4Z9RRDDTXWQ7H
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan_unspecified
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The documentary shows Dufour's first black belt signed by Mas Oyama, but the exact grade and date are not specified
+    hasEvidence:
+      - basedOnSource: 01KYT2PETX8NG5243D55DYB4JC
+        quotation: Ça, c'est ma première ceinture noire signée par Oyama.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M3YH7N5G5VVZ6BPYW4HDS4ZE
+    honorValue: Canadian Black Belt Hall of Fame inductee
+    honorType: honortype:title
+    dateConferred: '2019'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Listed on the Canadian Black Belt Hall of Fame inductees page for 2019
+    hasEvidence:
+      - uri: https://www.canadianblackbelthalloffame.com/inductees.html
+        cite: Canadian Black Belt Hall of Fame inductees list
+        quotation: 2019 - Gilles Dufour - Karate/Auteur
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GNGN3DTBTX9QCWGHK
+    honorValue: World Head of Family Sokeship Council Hall of Fame - Historical Figure award
+    honorType: honortype:title
+    dateConferred: '2025-05-23'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Confirmed by infodunord article about Dufour's induction in Orlando, Florida
+    hasEvidence:
+      - basedOnSource: 01KYSPMS1CH3PQNRT91Q7A62VP
+        quotation: >-
+          il a été intronisé, le 23 mai 2025, au Temple de la renommée mondiale du World Head of Family Sokeship Council à Orlando, en Floride. Il a reçu le prix de « figure historique ».
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GA4CW2S0TQXPZT51C
+    honorValue: World Combat Arena (WCA) Hall of Fame inductee
+    honorType: honortype:title
+    dateConferred: '2019'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Mentioned in the infodunord article alongside his other Hall of Fame inductions
+    hasEvidence:
+      - basedOnSource: 01KYSPMS1CH3PQNRT91Q7A62VP
+        quotation: En 2019, il est intronisé au Temple de la renommée de la WCA (World Combat Arena), qui couvre les États-Unis et le Canada.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYT2PETX8NG5243D55DYB4JC
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYSPMS1CH3PQNRT91Q7A62VP
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://www.canadianblackbelthalloffame.com/inductees.html
+    cite: Canadian Black Belt Hall of Fame inductees
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - kyokushin
+  - quebec
+  - pioneer
+  - author
+  - shotokan
+  - instructor

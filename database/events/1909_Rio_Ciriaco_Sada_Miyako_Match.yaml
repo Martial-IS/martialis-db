@@ -1,0 +1,68 @@
+type: Event
+id: 01M6A2VG2YWY2852BVC2F9QKH1
+name:
+  en: 1909 Rio de Janeiro challenge match, Ciríaco vs Sada Miyako
+eventType: eventclass:challenge
+eventDate: '1909'
+location:
+  label: Avenida Central, Rio de Janeiro
+  countryCode: eucountry:BRA
+  wikidata: wd:Q8678
+hasParticipation:
+  - id: 01M6A2VG2Z777T1MNDGRG144N5
+    participant: 01M6A2VG2QJBJVT9A5JGM8M24H
+    participationRole: eventrole:competitor
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+        quotation: >-
+          One famous fight took place in Rio, in 1909, where a Japanese champion, Sada Miako, was
+          teaching ju-jitsu. Ciríaco da Silva, a black docker from the interior town of Campos, took
+          up the challenge. The match was carried out before a considerable audience in a pavilion
+          especially mounted for that occasion on the Avenida Central.
+        locator: '126'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M6A2VG31G3NBDVN75YFR96YN
+    participant: 01KJJAWN28MWKKSN4J02MVY1SA
+    participationRole: eventrole:competitor
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+        quotation: >-
+          One famous fight took place in Rio, in 1909, where a Japanese champion, Sada Miako, was
+          teaching ju-jitsu. Ciríaco da Silva, a black docker from the interior town of Campos, took
+          up the challenge. The match was carried out before a considerable audience in a pavilion
+          especially mounted for that occasion on the Avenida Central.
+        locator: '126'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Challenge match in a pavilion on the Avenida Central, in which the capoeira Ciríaco da Silva
+    beat the ju-jitsu champion Sada Miyako. The most likely account has him win with a rabo de
+    arraia to the head; another has him first throw sand in his opponent's eyes.
+notes: >-
+  Assunção spells the Japanese champion Sada Miako. Ciríaco was then carried in triumph along the
+  Avenida Central and shown to academics at the Faculty of Medicine (p. 127).
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    quotation: >-
+      There are two versions of how Ciríaco, nicknamed Macaco, defeated the ju-jitsu champion.
+    locator: '126'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - capoeira

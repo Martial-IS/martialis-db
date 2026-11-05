@@ -1,0 +1,38 @@
+type: Person
+id: 01M6BFF6ZQ4VXCW4EDKEWJHX7V
+name:
+  ja-Latn: Aimiya Kazusaburo
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+description:
+  en: >-
+    Tenjin Shinyo-ryu jujutsu teacher, Miyamoto Hanzo's top student.
+hasEvidence:
+- basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+  locator: Tenjin Shinyo-ryu Jujutsu Today
+  locatorLabel: section
+  quotation: 'His top student was Aimiya Kazusaburo, who taught a number of people until he was severely disabled by a stroke about twenty years ago.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M6BFF6ZQ5E7FKZP9FJMT1Z44
+  teacher: 01M6BFF6ZQ6Y7V8WWHGGAHXNY1
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9Q
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Skoss (the Kubota line) states it; one account.
+  hasInteraction:
+  - hasEvidence:
+      - basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+        locator: Tenjin Shinyo-ryu Jujutsu Today
+        locatorLabel: section
+        quotation: 'His top student was Aimiya Kazusaburo, who taught a number of people until he was severely disabled by a stroke about twenty years ago.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+notes: >-
+  A stroke about twenty years before 1997 ended his teaching.

@@ -1,0 +1,203 @@
+type: Person
+id: 01M1AGGVAC364WKGC5XSD0D4AW
+name:
+  ja-Latn: Takeshita Isamu
+  ja: 竹下勇
+aka:
+  ja: 竹下勇二郎
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1870-01-05'
+  dateOriginal: 明治2年12月4日
+  dateCalendar: datecal:japanese_lunisolar
+  birthPlace:
+    label: Hayato, Kagoshima
+    countryCode: eucountry:JPN
+    wikidata: wd:Q5686146
+  hasEvidence:
+    - basedOnSource: 01M1AGGVACJ45A2TEH909RKE84
+      quotation: >-
+        大隅国桑原郡住吉村（現：鹿児島県霧島市隼人町）
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M1AGGVAC8S6490XE9X3G5Q2C
+      quotation: >-
+        B. Hayato-cho, Aira-gun, Kagoshima Prefecture.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M1AGGVACJ45A2TEH909RKE84
+      quotation: >-
+        竹下 勇（たけした いさむ、1870年1月5日〈明治2年12月4日〉- 1949年〈昭和24年〉7月1日）
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1949-07-01'
+  deathPlace:
+    label: Tokyo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q7473516
+  hasEvidence:
+    - basedOnSource: 01M1AGGVACJ45A2TEH909RKE84
+      quotation: >-
+        竹下 勇（たけした いさむ、1870年1月5日〈明治2年12月4日〉- 1949年〈昭和24年〉7月1日）
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M1AGGVACF4GPPF54GDK2MD19
+      quotation: >-
+        Admiral Takeshita died in Tokyo in July 1949, aged eighty years.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M1AGGVAC8S6490XE9X3G5Q2C
+      quotation: >-
+        (4 December 1869-6 July 1949).
+      informationType: infotype:secondary
+      supports: false
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/2/20/Isamu_Takeshita.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Isamu_Takeshita.jpg
+    cite: "Bain News Service, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: Takeshita Isamu (January 5, 1870 – July 1, 1949) was a Japanese naval admiral and diplomat. As Japan's naval attaché to the United States, he arranged for Yoshiaki Yamashita to teach judo to President Theodore Roosevelt at the White House in 1904. He later became a student of Morihei Ueshiba in aikido at the Kobukan dojo and demonstrated aikibudo in North America in 1935. He was the first president of the Kobukai Foundation and chairman of the Japan Sumo Association. Born Yamamoto, he was adopted into the Takeshita family as a boy.
+notes: >-
+  Aikido Journal gives his dates as 4 December 1869 - 6 July 1949: the birth date is the lunisolar date
+  明治2年12月4日 written as a Western date (Gregorian 1870-01-05, as in JA Wikipedia); the death date
+  differs from JA Wikipedia (1 July). Aikido Journal also states he was born Yamamoto and adopted into the
+  Takeshita family as a second son.
+hasTeacherAssertion:
+  - id: 01M3YH7N5G2MD6NAWTKCJEZV4D
+    teacher: 01KJJAWN29MA64W22606R3WD7Q
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Takeshita's own quoted recollection confirms he and Roosevelt took judo lessons from Yamashita in the White House
+    hasInteraction:
+      - atEvent:
+          - 01M19SYYS3VTD98FGQQXEEMMJW
+        interactionPeriod:
+          startYear: 1904
+          endYear: 1905
+        hasEvidence:
+          - basedOnSource: 01M1AGGVACF4GPPF54GDK2MD19
+            quotation: >-
+              We had engaged Mr. Y. Yamashita, an expert on judo or jiu jitsu, from Japan as our instructor, and we, Mr. Roosevelt and I, used to take lessons in jiu jitsu very often in his library on the second floor of the White House.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G0PQVRKZKC3ZTAYA5
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TV
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Two sources explicitly identify Takeshita as a student of Ueshiba at the Kobukan from 1925, recording detailed notes of classes
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD86
+        interactionPeriod:
+          startYear: 1925
+          endYear: 1935
+        hasEvidence:
+          - basedOnSource: 01M1AGGVAC8S6490XE9X3G5Q2C
+            quotation: Takeshita became a patron and enthusiastic student of Morihei UESHIBA in 1925. He recorded hundreds of pages of detailed notes of classes taught by Ueshiba in the late 1920s to early 1930s.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M1AGGVACF4GPPF54GDK2MD19
+            quotation: >-
+              in Tokyo he patronized a martial art dojo called the Kobukan. Methods taught at that school included aikibudo -- Morihei Ueshiba was the instructor
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M3YH7N5GDABC8MRTVVNEJS0Q
+    honorValue: Order of the Rising Sun, 1st class (Grand Cordon)
+    honorType: honortype:decoration
+    dateConferred: '1920-09-07'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Listed in JA Wikipedia chronology of Takeshita's orders and decorations
+    hasEvidence:
+      - basedOnSource: 01M1AGGVACJ45A2TEH909RKE84
+        quotation: >-
+          1920年（大正9年）9月7日 勲一等旭日大綬章
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5CHRWWQEJ7WD0X9VAWMRA8W
+    honorValue: Order of the Rising Sun, 2nd class (Gold and Silver Star)
+    honorType: honortype:decoration
+    dateConferred: '1915-11-07'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Listed in JA Wikipedia chronology of Takeshita's orders and decorations
+    hasEvidence:
+      - basedOnSource: 01M1AGGVACJ45A2TEH909RKE84
+        quotation: >-
+          1915年（大正4年）11月7日 旭日重光章
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GCMN6Y5RVVRZE82YM
+    honorValue: US Distinguished Service Medal for service during World War I
+    honorType: honortype:decoration
+    dateConferred: '1920'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: EQMAS article states Takeshita received the medal for his WWI diplomatic service
+    hasEvidence:
+      - basedOnSource: 01M1AGGVACF4GPPF54GDK2MD19
+        quotation: >-
+          For his service during World War I he received a Distinguished Service Medal from the United States
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GFJP20B3PM7BWNRWN
+    honorValue: Deutsches Olympia-Ehrenzeichen (German Olympic Decoration)
+    honorType: honortype:decoration
+    dateConferred: '1937'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: JA Wikipedia's own honors listing directly records the decoration and date
+    hasEvidence:
+      - basedOnSource: 01M1AGGVACJ45A2TEH909RKE84
+        quotation: 1937年（昭和12年）6月3日 ドイツ国 オリンピック名誉章
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M1AGGVACF4GPPF54GDK2MD19
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M1AGGVAC8S6490XE9X3G5Q2C
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M1AGGVACJ45A2TEH909RKE84
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q6078796
+  - dbr:Isamu_Takeshita
+tags:
+  - naval
+  - aikido
+  - judo

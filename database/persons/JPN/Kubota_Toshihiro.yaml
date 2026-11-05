@@ -1,0 +1,80 @@
+type: Person
+id: 01M6BFF6ZQE2GG1EB3VFZ4BYZF
+name:
+  ja-Latn: Kubota Toshihiro
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+description:
+  en: >-
+    Shihanke of the Sakamoto Fusataro line of Tenjin Shinyo-ryu jujutsu (menkyo kaiden 1973), judo 7th dan, and founder of the Tenyokai (1978). A board member of the Nihon Kobudo Shinkokai and the Nihon Kobudo Kyokai.
+hasEvidence:
+- basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+  locator: The Structure of Tenjin Shinyo-ryu Jujutsu
+  locatorLabel: section
+  quotation: 'Kubota Sensei is a highly qualified teacher of both Kodokan judo (graded nanadan, seventh-degree) and the Sakamoto Fusataro line of Tenjin Shinyo-ryu, in which he holds a menkyo kaiden (license of complete transmission) and the position of shihanke (master teacher).'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+  locator: Tenjin Shinyo-ryu Jujutsu Today
+  locatorLabel: section
+  quotation: 'He established the Tenyokai in June 1978 to continue Sakamoto’s teachings, holding a party at the Tojo Kaikan to commemorate the occasion.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M6BFF6ZQEMXB2S5AY16FD7WX
+  teacher: 01M6BFF6ZQJMDPYETNZHHSHXCG
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9Q
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Skoss (the Kubota line) states it; one account.
+  hasInteraction:
+  - hasEvidence:
+      - basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+        locator: Tenjin Shinyo-ryu Jujutsu Today
+        locatorLabel: section
+        quotation: 'Kubota Toshihiro, a student of Sakamoto Fusataro (of both Tenjin Shinyo-ryu jujutsu and Kodokan judo) received menkyo kaiden in 1973.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M6BFF6ZQSCT0ZFV369XYGWG5
+  rankStyle: 01KJJAWN29MA64W22606R3WD9Q
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+  rankGrade: rankgrade:menkyo_kaiden
+  dateConferred: '1973'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Skoss (the Kubota line) states it; one account. The grantor is implied (Sakamoto), not stated.
+  hasEvidence:
+  - basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+    locator: Tenjin Shinyo-ryu Jujutsu Today
+    locatorLabel: section
+    quotation: 'Kubota Toshihiro, a student of Sakamoto Fusataro (of both Tenjin Shinyo-ryu jujutsu and Kodokan judo) received menkyo kaiden in 1973.'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M6BFF6ZQYAV0AD38S8H976NG
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 7
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Skoss states it; no granting body or date.
+  hasEvidence:
+  - basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+    locator: The Structure of Tenjin Shinyo-ryu Jujutsu
+    locatorLabel: section
+    quotation: 'Kubota Sensei is a highly qualified teacher of both Kodokan judo (graded nanadan, seventh-degree) and the Sakamoto Fusataro line of Tenjin Shinyo-ryu, in which he holds a menkyo kaiden (license of complete transmission) and the position of shihanke (master teacher).'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+notes: >-
+  Sakamoto taught both Tenjin Shinyo-ryu and judo (Skoss); whether Kubota learned judo from him is not stated. Teaching kappo to judo instructors at the request of the Kodokan and the All-Japan Judo Federation (Skoss, 1997).

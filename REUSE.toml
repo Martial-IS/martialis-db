@@ -1,0 +1,95 @@
+version = 1
+SPDX-PackageName = "martialis-db"
+SPDX-PackageSupplier = "Frederico Muñoz <fsm@martial.is>"
+SPDX-PackageDownloadLocation = "https://github.com/Martial-IS/martialis-db"
+
+# Precedence note: for a path matched by more than one [[annotations]] block below,
+# REUSE uses exclusively the LAST matching block IN DECLARATION ORDER - not glob
+# specificity. The blocks are ordered broad -> narrow below so that each more specific
+# override comes after the catch-all it overrides; if you add a new block, keep this
+# order or a "narrower" rule earlier in the file will be silently shadowed by a later,
+# broader one.
+
+# --- Default / catch-all -----------------------------------------------
+# Prose docs, repo metadata, and anything not covered by a more specific
+# rule below (e.g. .gitignore, this file, REUSE license texts themselves).
+[[annotations]]
+path = "**"
+SPDX-FileCopyrightText = "2023-2026 Frederico Muñoz, Martialis Project"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+# --- Code: AGPL-3.0-or-later --------------------------------------------
+[[annotations]]
+path = ["pipeline/**", "Makefile", ".github/**"]
+SPDX-FileCopyrightText = "2023-2026 Frederico Muñoz, Martialis Project"
+SPDX-License-Identifier = "AGPL-3.0-or-later"
+
+# --- Database content: CC-BY-SA-4.0 -------------------------------------
+# Includes database/schemas/*.schema.json and database/templates/*.yaml:
+# these describe *this dataset's* structure and travel with the data, not
+# the vocabulary (see ontology/** and schemas/context.jsonld below).
+[[annotations]]
+path = "database/**"
+SPDX-FileCopyrightText = "2023-2026 Frederico Muñoz, Martialis Project"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+# Generated RDF export of the database content; same license as the source data.
+[[annotations]]
+path = "export/**"
+SPDX-FileCopyrightText = "2023-2026 Frederico Muñoz, Martialis Project"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+# --- Vocabulary: CC0-1.0 (+ non-binding attribution request) -----------
+# See LICENSING.md for the attribution-request wording. CC0 is a public
+# domain dedication: SPDX-FileCopyrightText is intentionally "CC0" per
+# REUSE convention for public-domain files (no copyright is asserted).
+[[annotations]]
+path = ["ontology/**", "model/**", "schemas/**"]
+SPDX-FileCopyrightText = "CC0"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "schemas/context.jsonld"
+SPDX-FileCopyrightText = "CC0"
+SPDX-License-Identifier = "CC0-1.0"
+
+# --- Quarantined external alignment: same CC0-1.0, called out explicitly --
+# ontology/alignments/** would already inherit CC0-1.0 from ontology/**
+# above; this override exists so the license of this specific file is
+# never silently assumed to follow whatever it points at. It asserts
+# correspondences to MAon (Hou & Kenderdine, CC BY-NC 4.0) by IRI only -
+# it does not import or restate MAon's content - and can be deleted
+# wholesale with no effect on the rest of ontology/**. See the file's own
+# header comment for the full rationale.
+[[annotations]]
+path = "ontology/alignments/**"
+SPDX-FileCopyrightText = "CC0"
+SPDX-License-Identifier = "CC0-1.0"
+
+# --- Vendored third-party vocabularies (ontology/imports/) ---------------
+# Local copies of upstream ontologies, and the import modules `make imports`
+# extracts from them (the modules are what the ontology imports). Each keeps
+# its upstream licence and copyright; the Martialis licences do not apply.
+# These blocks come after ontology/** so they override it. org.ttl and
+# dcterms.rdf have one compatibility triple removed each (see
+# ontology/imports/README.md). The *.terms lists and the README are Martialis files
+# under the ontology/** block.
+[[annotations]]
+path = ["ontology/imports/prov-o.ttl", "ontology/imports/prov-module.ttl", "ontology/imports/skos.rdf"]
+SPDX-FileCopyrightText = "World Wide Web Consortium"
+SPDX-License-Identifier = "W3C-20150513"
+
+[[annotations]]
+path = ["ontology/imports/org.ttl", "ontology/imports/org-module.ttl"]
+SPDX-FileCopyrightText = "World Wide Web Consortium"
+SPDX-License-Identifier = "PDDL-1.0"
+
+[[annotations]]
+path = "ontology/imports/dcterms.rdf"
+SPDX-FileCopyrightText = "Dublin Core Metadata Initiative"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = ["ontology/imports/bibo.rdf", "ontology/imports/bibo-module.ttl"]
+SPDX-FileCopyrightText = "Bruce D'Arcus, Frédérick Giasson"
+SPDX-License-Identifier = "LicenseRef-BIBO-unstated"

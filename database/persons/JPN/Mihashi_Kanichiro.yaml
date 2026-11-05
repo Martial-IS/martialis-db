@@ -1,0 +1,41 @@
+type: Person
+id: 01M6EFVT2TB0FSJW6X3C0NBVSK
+name:
+  ja-Latn: Mihashi Kan'ichirō
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/d/d2/Mitsuhashi_Kanichiro.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Mitsuhashi_Kanichiro.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    Musashi-ryū and Kyōshin Meichi-ryū kenshi and nitō-ryū master; Keishichō instructor, Butokukai kendo
+    teacher from 1899 and its first hanshi (1903).
+hasTeacherAssertion:
+- id: 01M6EFVT2V1Q8EED6M80SY1FE3
+  teacher: 01M377JZDNZ96VGFD0ZV9R53DR
+  assertedStyle: 01M377JZDNG2ZG3GZMAYS6Q574
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Single kenshi247 article.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M6EF6KKAXFSNSC622CTJPFEY
+      quotation: Mihashi Kanichiro, was renowned as a nito-ryu master. A student of Momoi Junzo
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M6EF6KKAXFSNSC622CTJPFEY
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- kendo

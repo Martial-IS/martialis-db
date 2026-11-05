@@ -1,0 +1,44 @@
+type: Person
+id: 01M6EFJQBCPXCQG69VBFDX4WS7
+name:
+  en: Gordon Warner
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/7/7b/Gordon_Warner.JPG
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Gordon_Warner.JPG
+    cite: "USCAR, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    American kendoka and Marine Corps officer; trained under Mori Torao in Los Angeles and at the Noma
+    dojo in Tokyo from 1937, later kyōshi 7th dan in kendo and 6th dan in iaido.
+hasTeacherAssertion:
+- id: 01M6EFJQBDN9SVS8NVT08BVAW7
+  teacher: 01M37HHSSMJZMQ23G7DSWVKT9V
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9W
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Single guest article on kenshi247.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1937
+      endYear: 1939
+    hasEvidence:
+    - basedOnSource: 01M6EF6KKAYKMPAP4TJG09XCW7
+      quotation: Under the direct tutelage of legendary men like Mochida Moriji and Masuda Shinsuke, Dr Warner received his shodan from the Dai Nippon Butokuden after two years of training at Noma Dojo.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M6EF6KKAYKMPAP4TJG09XCW7
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- kendo

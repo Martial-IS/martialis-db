@@ -1,0 +1,103 @@
+type: Person
+id: 01M5CM3YFSZZQ2V5RFX27JCRDX
+name:
+  ko: 이원국
+  en: Lee Won-kuk
+aka:
+  en:
+    - Won Kuk Lee
+nationality:
+  - countryCode: eucountry:KOR
+    wikidata: wd:Q884
+birthEvent:
+  birthDate: '1907-04-13'
+  birthPlace:
+    label: Seoul
+    countryCode: eucountry:KOR
+    wikidata: wd:Q8684
+  hasEvidence:
+    - basedOnSource: 01M5CM3YFSARTVFFZKM3365E4Z
+      quotation: >-
+        Lee Won-kuk was born on April 13, 1907, in Hanseong (now Seoul, the capital of South Korea)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2003-02-02'
+  deathPlace:
+    label: Arlington County, Virginia
+    countryCode: eucountry:USA
+    wikidata: wd:Q107126
+  hasEvidence:
+    - basedOnSource: 01M5CM3YFSARTVFFZKM3365E4Z
+      quotation: >-
+        Died 2 February 2003 [...] Arlington County, Virginia, U.S.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Korean martial artist who learned Shotokan karate from Funakoshi Gichin in Japan. In 1944 he founded
+    the Chung Do Kwan, the first tangsu-do (karate) school in Korea, and was its senior instructor in the
+    years after liberation. He fled to Japan in 1950, accused of pro-Japanese activities, and Son Duk-sung
+    took over the school. His style became part of Taekwondo from 1955.
+sameAs:
+  - wd:Q9096235
+hasTeacherAssertion:
+  - id: 01M6BQSYG6GDXEQVE6WDYYXB4A
+    teacher: 01KJJAWN28MWKKSN4J02MVY1VB
+    assertedStyle: 01KYFZEGYN107JYC5K1539R8JM
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Two independent histories state it.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+            quotation: >-
+              Yi, No Pyŏng Jik and Chŏn Sang Sŏp learned Shōtōkan karate directly from Funakoshi Gichin.
+            locator: '62'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KYJ42SQPE9AT05GKA3G4K4M6
+            quotation: >-
+              Lee Won Kuk a direct student of Funakoshi
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Early leaders included a Shotokan stylist named Lee Won Kuk
+            locator: '199'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5CM3YFSARTVFFZKM3365E4Z
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+    quotation: >-
+      Of these three, Yi Wŏn’ Guk founded the first tangsu-do or karate school in Korea in 1944
+    locator: '53'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+    quotation: >-
+      Yi Wŏn’ Guk (the founder of Ch’ŏng-Do Kwan) fled back to Japan from Korea in 1950 due to political
+      prosecution [sic] by the authorities, who accused him of pro-Japanese activities in the past
+    locator: '79'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - tang-soo-do
+  - taekwondo

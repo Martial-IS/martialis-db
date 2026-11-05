@@ -1,0 +1,94 @@
+### Martialis evidence model <-> evidence and argumentation ontologies
+###
+### Frederico Muñoz <fsm@martial.is>, Martialis Project
+###
+### Licence: CC0-1.0. This file names the external IRIs without copying or
+### restating their content. Imported by model/ontology-overlay.ttl (and so by
+### ontology/martialis.ttl); resolved offline through ontology/catalog-v001.xml.
+###
+### The Martialis pattern is a reified claim (martialis:Assertion) with evidence
+### records (martialis:SourceAssertionRelation: a Source, the information type,
+### the evidence type and a direction) and an attributed conclusion
+### (martialis:Confidence). The same pattern appears in:
+###   - SEPIO (Brush et al. 2016): Assertion, EvidenceLine with direction
+###     and strength.  http://purl.obolibrary.org/obo/sepio.owl
+###   - CiTO (Peroni & Shotton 2012): a reified Citation with a
+###     characterisation.  http://purl.org/spar/cito
+###   - CIDOC CRMinf (argumentation extension of CIDOC CRM): I2 Belief holding
+###     an I4 Proposition Set to have an I6 Belief Value.
+###   - HiCO (Daquino & Tomasi 2015): an InterpretationAct (a prov:Activity)
+###     that produces a claim; our Confidence is its outcome, hence relatedMatch.
+### Concept-level mappings (confidence levels to GEDCOM X) are in
+### ontology/vocabularies.ttl, with the concepts.
+
+@prefix martialis: <https://w3id.org/martialis/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix crminf: <http://www.ics.forth.gr/isl/CRMinf/> .
+@prefix hico: <http://purl.org/emmedi/hico/> .
+
+<https://w3id.org/martialis/ontology/alignments/evidence> a owl:Ontology ;
+    rdfs:label "Martialis evidence model alignment" ;
+    rdfs:comment "Non-normative correspondences between the Martialis evidence and confidence model and SEPIO, CiTO, CIDOC CRMinf and HiCO. See file header." ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+
+# The SKOS mapping properties are annotation properties here, as is usual
+# for mappings in an OWL 2 DL ontology: a mapping is a correspondence, not an
+# axiom. Each mapping's rationale is an axiom annotation on that mapping, not a
+# comment on the Martialis term, which carries its own definition.
+skos:closeMatch a owl:AnnotationProperty .
+dcterms:license a owl:AnnotationProperty .
+skos:relatedMatch a owl:AnnotationProperty .
+
+martialis:Assertion skos:closeMatch obo:SEPIO_0000001 , crminf:I4_Proposition_Set .
+[] a owl:Axiom ;
+    owl:annotatedSource martialis:Assertion ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedTarget obo:SEPIO_0000001 ;
+    rdfs:comment "A reified claim that carries evidence and a conclusion. SEPIO_0000001 is SEPIO's 'assertion'." .
+[] a owl:Axiom ;
+    owl:annotatedSource martialis:Assertion ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedTarget crminf:I4_Proposition_Set ;
+    rdfs:comment "The content a belief is about. In CRMinf an I2 Belief holds an I4 Proposition Set to be true; here a Confidence holds the claim to a level." .
+
+martialis:SourceAssertionRelation skos:closeMatch obo:SEPIO_0000002 , cito:Citation .
+[] a owl:Axiom ;
+    owl:annotatedSource martialis:SourceAssertionRelation ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedTarget obo:SEPIO_0000002 ;
+    rdfs:comment "One source's bearing on one claim. SEPIO_0000002 is SEPIO's 'evidence line'; martialis:supports gives its direction, martialis:evidenceType and martialis:informationType its character." .
+[] a owl:Axiom ;
+    owl:annotatedSource martialis:SourceAssertionRelation ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedTarget cito:Citation ;
+    rdfs:comment "A reified link from a citing entity to a cited work, with a characterisation. Here the claim cites the Source, and martialis:supports characterises it." .
+
+martialis:Confidence skos:closeMatch crminf:I2_Belief .
+martialis:Confidence skos:relatedMatch hico:InterpretationAct .
+[] a owl:Axiom ;
+    owl:annotatedSource martialis:Confidence ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedTarget crminf:I2_Belief ;
+    rdfs:comment "An agent's attributed conclusion about a claim. Its martialis:confidenceLevel concept plays the role of CRMinf's I6 Belief Value." .
+[] a owl:Axiom ;
+    owl:annotatedSource martialis:Confidence ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedTarget hico:InterpretationAct ;
+    rdfs:comment "An agent's attributed conclusion about a claim. Its martialis:confidenceLevel concept plays the role of CRMinf's I6 Belief Value." .
+
+martialis:supports skos:relatedMatch cito:citesAsEvidence , cito:disputes .
+[] a owl:Axiom ;
+    owl:annotatedSource martialis:supports ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedTarget cito:citesAsEvidence ;
+    rdfs:comment "true corresponds to a cito:citesAsEvidence characterisation, false to cito:disputes." .
+[] a owl:Axiom ;
+    owl:annotatedSource martialis:supports ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedTarget cito:disputes ;
+    rdfs:comment "true corresponds to a cito:citesAsEvidence characterisation, false to cito:disputes." .

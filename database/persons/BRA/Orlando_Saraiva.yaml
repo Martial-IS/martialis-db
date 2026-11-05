@@ -1,0 +1,53 @@
+type: Person
+id: 01M5H6E6RGYYTBADV357HGF5SV
+name:
+  pt: Orlando Saraiva
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+birthEvent:
+  birthDate: '1951'
+  hasEvidence:
+    - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+      quotation: Saraiva was born in 1951
+      locator: Interview with Orlando Saraiva (after chapter 7)
+      locatorLabel: section
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Brazilian jiu-jitsu red belt who began at the FUNABEM institution under Osvaldo Paquetá, later
+    trained and taught under Carlson Gracie, and became one of the pioneers of jiu-jitsu in São Paulo.
+notes: >-
+  Drysdale (interview): his first teacher was Osvaldo Paquetá at FUNABEM (no record yet).
+hasTeacherAssertion:
+  - id: 01M5H6E6RG8A66BY7R6VY5G9K0
+    teacher: 01KYQB8J2NN336ZJWGQW3YH95E
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: Later, Saraiva trained and taught under Carlson as well.
+            locator: Interview with Orlando Saraiva (after chapter 7)
+            locatorLabel: section
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+    quotation: >-
+      After moving to São Paulo, Saraiva alongside Otávio de Almeida and Oswaldo Carnivalle became one
+      of the fathers of jiu-jitsu in that state.
+    locator: Interview with Orlando Saraiva (after chapter 7)
+    locatorLabel: section
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - bjj

@@ -1,0 +1,96 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD6W
+name:
+  ja-Latn: Saitō Morihiro
+  ja: 斉藤 守弘
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1928-03-31'
+  birthPlace:
+    label: Ibaraki
+    countryCode: eucountry:JPN
+    wikidata: wd:Q83273
+deathEvent:
+  deathDate: '2002-05-13'
+  deathPlace:
+    label: Iwama
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1011725
+image:
+  contentUrl: https://archive.org/download/morihiro-saito_formal/morihiro-saito_formal.jpg
+  imageAttribution:
+    uri: https://aikidojournal.com/2003/02/28/interview-with-morihiro-saito-part-1-1987/
+    cite: "Aikido Journal"
+description:
+  en: 'Morihiro Saito (斉藤 守弘 Saitō Morihiro) was an Aikido master with many students around the world. Saito''s practice of aikido spanned 56 years, from the age of 18, when he first met Aikido founder Morihei Ueshiba, until his death in 2002. He was a life-long uchi-deshi of Aikido''s founder Ueshiba in Iwama.
+
+'
+hasTeacherAssertion:
+  - id: 01M3YH7N5GNMB2WRVJQD2QZNDZ
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TV
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Independent sources state it.
+    role: teachrole:student
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD85
+        interactionPeriod:
+          startYear: 1946
+          endYear: 1969
+        hasEvidence:
+          - uri: https://en.wikipedia.org/wiki/Morihiro_Saito
+            archiveUri: https://en.wikipedia.org/w/index.php?title=Morihiro_Saito&oldid=1378328688
+            cite: Morihiro Saito - Wikipedia
+            quotation: It was at this time, at the age of 18, that Saito joined Ueshiba for training [...] From 1946 until Ueshiba’s passing in 1969, Saito served as Ueshiba's assistant in a variety of ways at Iwama while his wife served Mrs. Ueshiba. During Saito’s period as a deshi he taught classes in the Iwama dojo.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G3Z7FXSS7ZJ9JRCJ64MBB7
+            quotation: >-
+              First taught by Morihei UESHIBA in Iwama in the summer of 1946.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GFHCS8MQ83R6PE6MJ
+    rankStyle: 01KJJAWN29MA64W22606R3WD9R
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 9
+    conferredBy: 01KZ3KA57C6W6FMCWM668Y13X2
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Promoted to 9th dan by Honbu Aikikai in 1992, documented on Saito-sensei.com with specific date and quotation about celebration at Iwama's Kabuki Wedding Palace
+    hasEvidence:
+      - uri: https://www.saitosensei.com/1990s/
+        cite: 1990's - Morihiro Saito Sensei
+        quotation: 1992. Mrs. Saito and Saito Sensei in regal formal attire at his huge first party in Iwama’s Kabuki Wedding Palace, celebrating his promotion to 9th dan by Honbu Aikikai and the 50th anniversary of aikido in Iwama
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+notes: Morihiro Saito was a teacher of the Japanese martial art of aikido, with many students around the world. Saito's practice of aikido spanned 56 years, from the age of 18, when he first met aikido founder Morihei Ueshiba, until his death in 2002. He was born in Ibaraki Prefecture, Japan, on March 31, 1928, and died of cancer on May 13, 2002 in Iwama, Ibaraki Prefecture. Saito trained under Ueshiba for 23 years and after Ueshiba's passing, became the head of the Iwama Dojo and keeper of the Aiki Shrine. He is renowned for his depth of technical knowledge and dissemination of Aikido weapons, having trained in Aikido for more than 50 years and regarded as the world's technical expert on Aikido. He published many technical books and traveled extensively conducting seminars worldwide.
+hasEvidence:
+  - uri: https://saito-sensei.org/
+    cite: Morihiro Saito Sensei | Morihiro Saito Sensei & Aikido
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://en.wikipedia.org/wiki/Morihiro_Saito
+    archiveUri: https://en.wikipedia.org/w/index.php?title=Morihiro_Saito&oldid=1378328688
+    cite: Morihiro Saito - Wikipedia
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://www.saitosensei.com
+    cite: Morihiro Saito Sensei
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q550626
+  - dbr:Morihiro_Saito

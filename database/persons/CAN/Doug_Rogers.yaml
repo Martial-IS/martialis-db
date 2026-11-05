@@ -1,0 +1,122 @@
+type: Person
+id: 01M5H5G595ZKK6N01NHATEM0QE
+name:
+  en: Doug Rogers
+nationality:
+  - countryCode: eucountry:CAN
+    wikidata: wd:Q16
+description:
+  en: >-
+    Canadian judoka, the first Canadian Olympic medallist in judo (heavyweight silver, Tokyo 1964).
+    Trained in Japan, after the Games under Masahiko Kimura at Takushoku University; Kodokan 5th dan.
+notes: >-
+  Leyshon (p. 64) also lists Michel Benoit among his sensei (no record yet).
+hasTeacherAssertion:
+  - id: 01M5H62JEMJQP02JVJV7TVBXZG
+    teacher: 01M5H62JEM4MB48838YP9V8N8J
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              Sensei: Michel Benoit, Harold Tokai, Fred Okimura, Masahiko Kimura
+            locator: '64'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5H62JEMJM86DX9HGHJPQHX4
+    teacher: 01M5H62JEMF5XHERGKPH5AE128
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              Sensei: Michel Benoit, Harold Tokai, Fred Okimura, Masahiko Kimura
+            locator: '64'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5H5G595G3GBW1S2HEJCYFRQ
+    teacher: 01KJJAWN29MA64W22606R3WD7G
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasInteraction:
+      - interactionPlace: 01KYYYTTW39B4XTBPMT7KZRGED
+        interactionPeriod:
+          startYear: 1964
+        hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              He remained in Japan, and went to the dojo of the famous Masahiko Kimura. Rogers was the
+              only westerner Kimura ever handled, and handle the big man he did.
+            locator: '65'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              Kimura refused to recognize physical limitations, and his workouts with the team at
+              Takudai University were legendary.
+            locator: '65'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasRankAssertion:
+  - id: 01M5H5G595NG1AANGM41FNW0K8
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 5
+    conferredBy: 01KJJAWN29MA64W22606R3WD7X
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+        quotation: >-
+          Ultimately, Rogers gained 5th Dan status, the youngest man to do so at the Kodokan in Tokyo.
+        locator: '65'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    quotation: >-
+      Doug Rogers became the first Canadian to ever win an Olympic medal in Judo.
+    locator: '64'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q5300871
+tags:
+  - judo
+  - canada
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/6/69/Doug_Rogers_1964_%28cropped%29.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Doug_Rogers_1964_(cropped).jpg
+    cite: "Mario De Biassi/Giorgio Lotti (Mondadori Publishers), Wikimedia Commons"
+    informationType: infotype:secondary

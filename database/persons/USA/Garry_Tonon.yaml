@@ -1,0 +1,67 @@
+type: Person
+id: 01M6ENVCFA8EVKD3T3X7M6R3SM
+name:
+  en: Garry Tonon
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+birthEvent:
+  birthDate: '1991-09-12'
+  hasEvidence:
+  - basedOnSource: 01M6ENPY5WWRGV829SF0Z88YFB
+    quotation: >-
+      Garry Lee Tonon (born September 12, 1991)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: >-
+    American submission grappler and mixed martial artist; member of the Danaher Death Squad.
+hasTeacherAssertion:
+- id: 01M6ENVCFAZSERJ3VC98HCBZAP
+  teacher: 01KYSNKBS820Y33CQFDDFKQ3EZ
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Tonon's own words in ONE Championship's feature; BJJ Heroes agrees
+  hasInteraction:
+  - interactionPlace: 01KYYYTTW3RXYAKA5JVNCFB9CA
+    hasEvidence:
+    - basedOnSource: 01M6ENPY5W313Y5YWQQ4DJ7XG6
+      quotation: >-
+        “When I first started training there, I just kind of stayed around the fringes. I didn’t really talk to John, I just took his class like anybody else at Renzo’s.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ENPY5W313Y5YWQQ4DJ7XG6
+      quotation: >-
+        From there, Danaher became Tonon’s primary coach.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ENPY5WTFHCZ0FFDAXCCZZS
+      quotation: >-
+        Garry Tonon also worked extensively with coach John Danaher at RGA – NYC
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+notes: >-
+  Black belt in September 2013 from Tom deBlass and Ricardo Almeida (BJJ Heroes); neither is in the database.
+hasEvidence:
+- basedOnSource: 01M6ENPY5WWRGV829SF0Z88YFB
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M6ENPY5WTFHCZ0FFDAXCCZZS
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q50892580
+tags:
+- brazilian-jiu-jitsu
+- submission-grappling
+- danaher-death-squad

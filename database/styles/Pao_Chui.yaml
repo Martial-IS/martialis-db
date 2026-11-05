@@ -1,0 +1,53 @@
+type: Style
+id: 01M0TVMGJVP7A46XX9P8WFSBTW
+name:
+  en: Pao Chui
+  zh: 炮捶
+  zh-Latn: Pàochuí
+aka:
+  en:
+  - Cannon Fist
+styleType: styleclass:traditional
+description:
+  en: Pao Chui (Cannon Fist) is a northern Chinese Long Fist (Changquan) martial art known for its explosive,
+    powerful techniques. The name refers to the characteristic 'cannon-like' force of its strikes. Pao
+    Chui emphasizes rapid-fire combinations, grounded stances, and sudden bursts of power from a stable
+    base. It is one of the three major Changquan families alongside Chaquan and Huaquan. The style's core
+    curriculum includes multiple numbered forms. Pao Chui was one of the foundational influences on modern
+    competition wushu Changquan and remains practiced as a standalone art.
+  zh: 炮捶是中国北方长拳的一种，以爆发力强、动作刚猛著称。名称源于其'炮'般的击打力度。炮捶 强调快速连贯的组合、稳固的步法和从稳定基础发出的突然爆发力。炮捶是查拳、华拳并列的长拳 三大门类之一。其核心套路包括多路编号套路。炮捶是现代竞技武术长拳的重要基础之一，至今仍
+    作为独立拳种习练。
+foundedEvent:
+  startDate: 1000~
+  location:
+    countryCode: eucountry:CHN
+hasEvidence:
+- uri: https://en.wikipedia.org/wiki/Pao_chui
+  cite: Pao chui - Wikipedia
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasStyleRelationAssertion:
+- id: 01M3YH7N5G5256WSE63YS2SS2G
+  relatedStyle: 01M0QCH9A4Y8JQ2F9C0BJGH543
+  styleRelationType: stylerel:variant_of
+  hasConfidence:
+    confidenceLevel: conflevel:possible
+    assessedBy: agent:FSM
+    confidenceRationale: Pao Chui is commonly classified as one of the major Changquan (Long Fist) styles,
+      alongside Chaquan and Huaquan; the cited Wikipedia article only lists Changquan under "See also"
+      without stating the classification directly, so the only citation is indirect and this is possible
+      at most
+  hasEvidence:
+  - uri: https://en.wikipedia.org/wiki/Pao_chui
+    cite: Pao chui - Wikipedia
+    quotation: 'See also: Changquan'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:indirect
+tags:
+- chinese-martial-arts
+- paochui
+- changquan
+- northern
+- long-fist

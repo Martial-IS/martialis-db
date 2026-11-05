@@ -1,0 +1,102 @@
+type: Person
+id: 01KZW2JNB8NH2ZZDYW1RNPGE52
+name:
+  en: Jan van der Horst
+nationality:
+  - countryCode: eucountry:NLD
+    wikidata: wd:Q55
+birthEvent:
+  birthDate: '1921-01-16'
+  hasEvidence:
+    - basedOnSource: 01KZW2JNB8V0458Y2F8YSSG91D
+      quotation: >-
+        Jan van der Horst (onbekend, 16 januari 1921 - Laren, 10 mei 2009)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2009-05-10'
+  deathPlace:
+    label: Laren
+    countryCode: eucountry:NLD
+  hasEvidence:
+    - basedOnSource: 01KZW2JNB8V0458Y2F8YSSG91D
+      quotation: >-
+        Jan van der Horst (onbekend, 16 januari 1921 - Laren, 10 mei 2009)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: Dutch judo pioneer. Took judo lessons in France after World War II with Awazu, Deherdt and Bonnet Maury, and later with Ichiro Abe in Brussels, and ran the Judo Instituut Van Der Horst on the Oudkerkhof in Utrecht in the late 1940s and the 1950s, where Anton Geesink took his first judo lessons. The school became Dutch team champion five times in that period. As national coach he led Willem Ruska to his first world title and the Dutch team to the European title; in the early 1960s he became a lecturer at the CIOS in Sittard. Van der Horst finished 1st dan in 1950 and was ultimately awarded the 9th dan for his services to judo.
+notes: Teacher lineage now asserted for Ichiro Abe (Brussels) and Jean de Herdt ('Deherdt' in the JBN memorial); Awazu, Bonnet Maury and Morioka are named as teachers in the same memorial but not yet asserted as structured entries.
+hasTeacherAssertion:
+  - id: 01M3YH7N5GJVJ5CR9VMY5FBM9G
+    teacher: 01KZXH2NSQMBZTRPPYAKKCFR84
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The JBN memorial by Willem Visser records that van der Horst took lessons from sensei Ishiro (Ichiro) Abe in Brussels and maintained a very intensive bond with him.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KZXH2NSQ19J367PZE6QM7E63
+            informationType: infotype:secondary
+            supports: true
+            quotation: hij volgde lessen bij de leraren Awazu, Deherdt en Bonnet Maury in Frankrijk en later bij sensei Ishiro Abe in Brussel. Met sensei Ishiro Abe, 10e dan, onderhield hij een zeer intensieve band evenals met sensei Morioka, die vaak uit Londen overkwam.
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G8FP5YBJG0X88GYNY
+    teacher: 01KZMEB6EEGNN58328J45YXA9T
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The JBN memorial names 'Deherdt' among van der Horst's teachers in France; matched to the Jean de Herdt person entry on the strength of the name and period, though the memorial gives no first name.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KZXH2NSQ19J367PZE6QM7E63
+            informationType: infotype:secondary
+            supports: true
+            quotation: hij volgde lessen bij de leraren Awazu, Deherdt en Bonnet Maury in Frankrijk en later bij sensei Ishiro Abe in Brussel.
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5G66Y2GKNCR0BEXPWR
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 1
+    dateConferred: '1950'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Dutch Wikipedia dates the 1st dan to 1950.
+    hasEvidence:
+      - basedOnSource: 01KZW2JNB8V0458Y2F8YSSG91D
+        informationType: infotype:secondary
+        supports: true
+        quotation: >-
+          In 1950 behaalde Van der Horst de 1e dan
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GEWNV7KK7RA10HJDY
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 9
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Dutch Wikipedia states Van der Horst was ultimately awarded the 9th dan for his services to judo, without giving a date or granting body.
+    hasEvidence:
+      - basedOnSource: 01KZW2JNB8V0458Y2F8YSSG91D
+        informationType: infotype:secondary
+        supports: true
+        quotation: wegens zijn verdiensten voor het judo kreeg hij uiteindelijk de 9e dan.
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZW2JNB8V0458Y2F8YSSG91D
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q1857674

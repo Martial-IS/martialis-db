@@ -1,0 +1,203 @@
+type: Person
+id: 01KZBVGHHA2S95DPKR6CGDPZ8W
+name:
+  ja-Latn: Oshiro Toshihiro
+  ja: 大城利弘
+aka:
+  en:
+    - Toshihiro Oshiro
+  ja:
+    - おおしろ としひろ
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1949-05-01'
+  birthPlace:
+    label: Nago
+    countryCode: eucountry:JPN
+    wikidata: wd:Q117604
+  hasEvidence:
+    - basedOnSource: 01KZC8XAP8MJNEQCTKEA2SM0CS
+      quotation: Toshihiro Oshiro (大城 利弘, Oshiro Toshihiro; born May 1, 1949) is a martial arts master and instructor from Haneji, Nago city, Okinawa prefecture, Japan.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZDSC7FJ68A9EVKHZA1ZDWZH
+      quotation: I was born May 1st, 1949 in Haneji, Okinawa, Japan.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://www.oshirodojo.com/images/shihan-portrait-2.png
+  imageAttribution:
+    uri: https://www.oshirodojo.com/shihan.php
+    cite: "Oshiro Dojo"
+    informationType: infotype:secondary
+description:
+  en: Okinawan martial arts master (born 1949) of Shorin-ryu and Yamanni-ryu, chief instructor of the Ryukyu Bujutsu Kenkyu Doyukai (RBKD) appointed by Chogi Kishaba; student of Shoshin Nagamine, Chogi Kishaba, Chokei Kishaba, Masao Shima and Seigi Nakamura; taught in the United States from 1978.
+notes: Oshiro began informal karate and bojutsu at age eight or nine and started formal training at sixteen under Masao Shima at the dojo jointly run by Shima, Taba and Chokei Kishaba, meeting Chokei Kishaba when he made brown belt; he also trained at Shoshin Nagamine's Matsubayashi headquarters dojo, where Nagamine, Seigi Nakamura, Junko Yamaguchi and Jokei Kushi taught him Chinto kata (Nakamura especially deeply). He learned Yamanni-ryu bojutsu privately from Chogi Kishaba, who recommended him for training; Oshiro describes Chogi as the sole successor to Masami Chinen knowing all the Yamanni-ryu katas, and says "the foundation and 99% of my knowledge and technique came from Kishaba sensei". He retired as a detective in the Okinawan police, moved to the United States in 1978, and in 1985 co-founded the RBKD with Chogi Kishaba, becoming its chief instructor. He relocated back to Okinawa in 2018 (per the official Oshiro Dojo shihan page; the EN Wikipedia article gives summer 2019 - the official date is kept). The 2008 Haff interview records his ranks at the time as 6th dan Shorin-ryu and 7th dan Yamanni-Chinen-ryu; the 2017 dojo instructors page records 9th dan in Shima-Ha Shorin-Ryu karate and 8th dan in Yamanni-Ryu kobudo.
+hasTeacherAssertion:
+  - id: 01M3YH7N5G8RKNH1JRA4WSD8JJ
+    teacher: 01KZBXACW0REMTPYNSM6B5QQAQ
+    assertedStyle: 01KZC8S2GEN7P0VQFP7YGZCVKZ
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Both Oshiro interviews and the dojo instructors page state Oshiro spent years training at Nagamine's Matsubayashi headquarters dojo, where Nagamine taught him Chinto kata
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KZDSC7FJ68A9EVKHZA1ZDWZH
+            quotation: At headquarters, Nagamine sensei, Kushi sensei, Yamaguchi sensei, and Nakamura sensei taught me Chinto kata.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZDSC7FJKVSP8SXVXF6KBM6H
+            quotation: He had the opportunity to learn karate and kobujutsu from many masters of Okinawan martial arts, including Sensei Shoshin Nagamine, Sensei Chogi Kishaba, Sensei Masao Shima, and Sensei Seigi Nakamura.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GHS8CGPXPJ9D07ZP1
+    teacher: 01KZBSVN57GV3AM5RWE4CB1WT8
+    assertedStyle: 01KYJC7J3MB81B06881FVFYGAG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Both Oshiro interviews describe his private, individual Yamanni-ryu bojutsu training with Chogi Kishaba; the Dong Tran interview states he was the only student and that the foundation of Oshiro's technique came from Kishaba
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KZDSC7FJ68A9EVKHZA1ZDWZH
+            quotation: The foundation and 99% of my knowledge and technique came from Kishaba sensei but I had to practice a lot on my own.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZDSC7FJA4BP8GHD09XYW68Q
+            quotation: I learned Yamanni-Chinen Ryu directly, individually from Kishaba Sensei. There was never a class structure.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GR035ZCKXXJGAV91D
+    teacher: 01KZBWDNRGXRYQHHCB1BSY6R8W
+    assertedStyle: 01KZC8S2GEN7P0VQFP7YGZCVKZ
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Haff interview states Oshiro started formal Matsubayashi Shorin-ryu training under Masao Shima and Chokei Kishaba at their Naha dojo; Dong Tran interview states Kishaba began teaching him when he made brown belt
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KZDSC7FJA4BP8GHD09XYW68Q
+            quotation: At the age of sixteen Mr. Oshiro started his formal training in Matsu-bayashi Shorin-Ryu karate under the tutelage of Senseis Masao Shima and Chokei Kishaba at their dojo in Naha City.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZDSC7FJ68A9EVKHZA1ZDWZH
+            quotation: When I made brown belt, Kishaba sensei came back; that's how I met him. That's when he started teaching us.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GE19MRQTR1SRFQE7G
+    teacher: 01M1KR4J6ETKEKQJW0WHJCWXNG
+    assertedStyle: 01KZC8S2GEN7P0VQFP7YGZCVKZ
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Both Oshiro interviews name Masao Shima as his first and main karate sensei.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KZDSC7FJ68A9EVKHZA1ZDWZH
+            quotation: My first and main karate sensei was Shima Masao sensei [...] Shima sensei taught me from the Fukyu gata to Chinto.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZDSC7FJA4BP8GHD09XYW68Q
+            quotation: At the age of sixteen Mr. Oshiro started his formal training in Matsu-bayashi Shorin-Ryu karate under the tutelage of Senseis Masao Shima and Chokei Kishaba at their dojo in Naha City.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G8AYV0FQCND8E33G4
+    teacher: 01KZBXJZ7V5PG3GYDPT46AD1PM
+    assertedStyle: 01KZC8S2GE3X9V7N27WXMQEPQA
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Dong Tran interview states Nakamura sensei taught Oshiro Chinto kata very deeply; corroborated by the dojo instructors page listing Nakamura among the masters Oshiro learned from
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KZDSC7FJ68A9EVKHZA1ZDWZH
+            quotation: Nakamura sensei, especially, taught me Chinto kata very deeply.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZDSC7FJKVSP8SXVXF6KBM6H
+            quotation: He had the opportunity to learn karate and kobujutsu from many masters of Okinawan martial arts, including Sensei Shoshin Nagamine, Sensei Chogi Kishaba, Sensei Masao Shima, and Sensei Seigi Nakamura.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5G8R6R7NEJTHBRR6Q6
+    rankStyle: 01KZC8S2GE3X9V7N27WXMQEPQA
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 9
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The 2017 Oshiro Dojo instructors page states Shihan Oshiro holds 9th dan in Shima-Ha Shorin-Ryu karate
+    hasEvidence:
+      - basedOnSource: 01KZDSC7FJKVSP8SXVXF6KBM6H
+        quotation: In addition to being appointed the chief instructor of the RBKD by Sensei Chogi Kishaba, Shihan Oshiro holds 9th dan in Shima-Ha Shorin-Ryu karate, and 8th dan in Yamanni-Ryu kobudo.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GTRJFD549MHMSPC7Q
+    rankStyle: 01KYJC7J3MB81B06881FVFYGAG
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 8
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The 2017 Oshiro Dojo instructors page states Shihan Oshiro holds 8th dan in Yamanni-Ryu kobudo
+    hasEvidence:
+      - basedOnSource: 01KZDSC7FJKVSP8SXVXF6KBM6H
+        quotation: In addition to being appointed the chief instructor of the RBKD by Sensei Chogi Kishaba, Shihan Oshiro holds 9th dan in Shima-Ha Shorin-Ryu karate, and 8th dan in Yamanni-Ryu kobudo.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZDSC7FJA4BP8GHD09XYW68Q
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZDSC7FJ68A9EVKHZA1ZDWZH
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZDSC7FJKVSP8SXVXF6KBM6H
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZE1G0S8PVWN5C88TXW74EB2
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZDSC7FJ21Q5YP1KKV4HQ501
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZC8XAP8MJNEQCTKEA2SM0CS
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q7827674
+tags:
+  - karate
+  - shorin-ryu
+  - matsubayashi-ryu
+  - okinawan-kobudo

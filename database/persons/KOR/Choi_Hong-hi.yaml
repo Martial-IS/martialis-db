@@ -1,0 +1,156 @@
+type: Person
+id: 01KYQM3M5CWFJJBA8W502KD2TP
+name:
+  en: Choi Hong-hi
+  ko: 최홍희
+aka:
+  en:
+  - General Choi Hong-hi
+nationality:
+- countryCode: eucountry:KOR
+  wikidata: wd:Q884
+- countryCode: eucountry:PRK
+  wikidata: wd:Q423
+birthEvent:
+  birthDate: '1918-11-09'
+  birthPlace:
+    label: Hwadae, Myongchun County, North Hamgyong Province
+    countryCode: eucountry:KOR
+    wikidata: wd:Q11230289
+  hasEvidence:
+  - basedOnSource: 01KYQM3M5CJGQXCQ87MNHPKQ3Y
+    quotation: >-
+      Choi Hong-hi (Korean: 최홍희; 9 November 1918 – 15 June 2002)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2002-06-15'
+  deathPlace:
+    label: Pyongyang
+    countryCode: eucountry:PRK
+    wikidata: wd:Q18808
+  hasEvidence:
+  - basedOnSource: 01KYQM3M5CJGQXCQ87MNHPKQ3Y
+    quotation: >-
+      Choi Hong-hi (Korean: 최홍희; 9 November 1918 – 15 June 2002)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: >-
+    South Korean Army Major General and martial artist, founder of the International Taekwon-Do Federation
+    (ITF) in 1966. He claimed to have studied Shotokan karate under Funakoshi Gichin in Japan; the claim is
+    disputed. In 1954 he founded the Oh Do Kwan in the army with Nam Tae-hi. He claimed he submitted the
+    name taekwondo at the 1955 naming session, a claim Son Duk-sung also made for himself. He wrote the
+    first English taekwondo textbook (1965). He went into exile in Canada in 1972 and later moved to North
+    Korea in 1979, where he continued promoting taekwondo until his death.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/f/f0/Choi_Hong_Hi_1970.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Choi_Hong_Hi_1970.jpg
+    cite: "Mehran Eisazadeh, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+- id: 01M3YH7N5GAKZCQAAH4EYBNZ52
+  teacher: 01KJJAWN28MWKKSN4J02MVY1VB
+  assertedStyle: 01KYFZEGYN107JYC5K1539R8JM
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:doubtful
+    assessedBy: agent:FSM
+    confidenceRationale: Wikipedia reports Choi's claim, but Funakoshi's own attendance and promotion
+      records, checked by scholars, show no occurrence of Choi
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1937
+      endYear: 1942
+    hasEvidence:
+    - basedOnSource: 01KYQM3M5CJGQXCQ87MNHPKQ3Y
+      quotation: Choi also claimed to have learned Shotokan karate under Funakoshi Gichin
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KYQNMFB4GTGQW74FXTYZY74T
+      quotation: At that time, Funakoshi kept accurate records of attendance and promotions, and there
+        have been no occurences found by scholars of Choi in those records.
+      informationType: infotype:secondary
+      supports: false
+      evidenceType: evidencetype:negative
+    - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+      quotation: >-
+        He claimed that he studied in one of Funakoshi’s schools, but his account remains largely disputed
+      locator: '57'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: false
+      evidenceType: evidencetype:negative
+hasRankAssertion:
+- id: 01M3YH7N5GGSZPG3GMCBZ6A82Q
+  rankStyle: 01KYQM3M5C2M9KJ36E6Q1JEWN3
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 9
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Wikipedia and ITF sources document 9th dan rank
+  hasEvidence:
+  - basedOnSource: 01KYQM3M5CJGQXCQ87MNHPKQ3Y
+    quotation: 9th dan, Grand Master, principal founder, Tae Kwon Do (ITF)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M6BQSYG6H3GDJFFEKX6HTRT2
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 4
+  grantedBy: 01M6BQSYG6P8QZSB7WQ06F6PBB
+  dateConferred: '1955'
+  notes: Honorary. Granted jointly with Kang Won-shik (Song Moo Kwan), who has no record.
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: One academic history, citing Kang's own account.
+  hasEvidence:
+  - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+    quotation: >-
+      Son and Kang Won Shik (a member of Song-Mu Kwan) promoted Choi, who was relatively inexperienced in
+      martial arts, to an honorary fourth degree black belt in 1955 due to his powerful position in the
+      military.
+    locator: '59'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KYQM3M5CJGQXCQ87MNHPKQ3Y
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+  quotation: >-
+    He established his O-Do Kwan together with Nam T’ae Hi in 1954 in the military.
+  locator: '57'
+  locatorLabel: page
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+  quotation: >-
+    Choi himself claimed, “At the [1955] session for naming, the term worded in ‘Tae’ and ‘Kwon’ which I
+    submitted was chosen unanimously among the many other ballots”
+  locator: '59'
+  locatorLabel: page
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q356335
+tags:
+- taekwondo
+- itf
+- founder
+- military
+- martial-arts-pioneer

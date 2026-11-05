@@ -1,0 +1,237 @@
+type: Person
+id: 01KYD5XMNMNAG3CPC17GKACPW0
+name:
+  en: Bruce Lee
+  zh: 李小龍
+  zh-Latn: Li Xiaolong
+aka:
+  en:
+    - Lee Jun-fan
+  zh:
+    - 李振藩
+  zh-Latn:
+    - Li Zhenfan
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+  - countryCode: eucountry:HKG
+    wikidata: wd:Q1054923
+birthEvent:
+  birthDate: '1940-11-27'
+  birthPlace:
+    label: San Francisco
+    countryCode: eucountry:USA
+    wikidata: wd:Q62
+  hasEvidence:
+    - basedOnSource: 01KYD5XMNMJAAPE1B8773N3ANT
+      quotation: >-
+        Bruce Lee (born Lee Jun-fan; November 27, 1940 – July 20, 1973)
+      cite: Bruce Lee (Wikipedia EN)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1973-07-20'
+  deathPlace:
+    label: Kowloon
+    countryCode: eucountry:HKG
+    wikidata: wd:Q239143
+  hasEvidence:
+    - basedOnSource: 01KYD5XMNMJAAPE1B8773N3ANT
+      quotation: >-
+        Bruce Lee (born Lee Jun-fan; November 27, 1940 – July 20, 1973)
+      cite: Bruce Lee (Wikipedia EN)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: Bruce Lee (1940–1973) was a Hong Kong and American martial artist, actor, and filmmaker. He founded Jeet Kune Do, a hybrid martial arts philosophy drawn from his training in Wing Chun, boxing, and other disciplines. He is credited with popularizing Chinese martial arts films globally and is regarded as one of the most influential martial artists in cinema history.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/1/1e/Bruce_Lee_as_Chen_Zhen_%284x5_cropped%29.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Bruce_Lee_as_Chen_Zhen_(4x5_cropped).jpg
+    cite: "National General Pictures, Wikimedia Commons"
+    informationType: infotype:secondary
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M3YH7N5G8FWEV9GX8J1BGEPV
+    teacher: 01KYJ80JXEQSD15B58MJM76PM3
+    assertedStyle: 01KYJ80JXEH8J0AWW86F1ATQEZ
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Lee Hoi-chuen practiced Taijiquan for decades and was Bruce Lee's first martial arts teacher, introducing him to Tai Chi as a child
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KYD5XMNMJAAPE1B8773N3ANT
+            cite: Bruce Lee (Wikipedia EN)
+            quotation: Lee's first introduction to martial arts was through his father, from whom he learned the fundamentals of Wu-style tai chi.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GG1E42RR9K85KYTHE
+    teacher: 01KYD5XMNM4DH8KAWBC1TE9BDJ
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Extensively documented relationship.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1956
+          endYear: 1958
+        notes: Start year from Judkins and Nielson (p. 243); other accounts give 1953.
+        hasEvidence:
+          - basedOnSource: 01KYD5XMNMJAAPE1B8773N3ANT
+            cite: Bruce Lee (Wikipedia EN)
+            quotation: Lee's early martial arts experience included Wing Chun (trained under Ip Man)
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KYD5XMNM30T1JM1B8VZ0ZTD9
+            cite: Jennings (2019) - Bruce Lee and the Invention of Jeet Kune Do
+            quotation: Lee's teacher, Grandmaster Ip Man, received complaints from Lee's classmates about teaching someone (viz. Lee) of mixed ethnicity
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              In 1956, a year of important developments, the seemingly nomadic Ip Man moved his school to a
+              new location on Lee Tat Street in Yau Ma Tei. This was the actual gym that greeted such notable
+              new students as Bruce Lee and Hawkins Cheung.
+            locator: '243'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              Lee had first been introduced to Wing Chun in Hong Kong in the 1950s when he became a student of
+              Ip Man.
+            locator: '272'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GK9KHP8S2JMAR7BY9
+    teacher: 01KYDPMZ5G4826TB15FPPVJBA1
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Two sources.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1956
+          endYear: 1958
+        hasEvidence:
+          - basedOnSource: 01KYD5XMNMC3D3DST96C876VKM
+            cite: 'Maeda (2022) - Like Water: A Cultural History of Bruce Lee'
+            locator: '75'
+            locatorLabel: page
+            quotation: Although Wong Shun Leung was only six years older than Bruce Lee, he was considerably more advanced in Wing Chun. Both were students of Yip Man, but Lee took most of his direct instruction from sihing Wong.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              it appears that Wong Shun Leung and William Chun [sic] also started to teach a number of junior
+              students during the 1950s. In fact, much of Bruce Lee and Hawkins Cheung’s instruction was actually
+              provided by their older kung fu brothers
+            locator: '244'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GCMBV573AHQXPJ97E
+    teacher: 01KYFWK774DM2KYRNHMWE2H0FY
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Brother Edward Muss was boxing coach at St. Francis Xavier's College; trained Lee for the Hong Kong schools boxing tournament which he won in 1958; confirmed by multiple independent sources including school records and a detailed biographical article
+    hasInteraction:
+      - interactionPlace: 01KYMEA0X5BZ7HGQP7N96B7XB3
+        interactionPeriod:
+          startYear: 1956
+          endYear: 1958
+        hasEvidence:
+          - basedOnSource: 01KYD5XMNMJAAPE1B8773N3ANT
+            cite: Bruce Lee (Wikipedia EN)
+            quotation: He was mentored by Brother Edward Muss, F.M.S., a Bavarian-born teacher and coach of the school boxing team
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KYFWK7746Q9SGZF59MGWST7M
+            cite: 'Carnes (2024) - Hero for our Year of the Dragon: Bruce Lee'
+            quotation: "At St. Xavier’s College (a high school) in Kowloon, Hong Kong, Lee got caught by Brother Edward Muss (1913-1975) fighting in the toilet, according to the school. Rather, than reporting Lee to get him kicked out of the school, the Catholic brother thought Lee had the right spirit for his boxing club."
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5G2ZHDTHQPRSPEF6DM0QDNF
+    teacher: 01KJJAWN28MWKKSN4J02MVY1SS
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: One magazine profile has him brought to train in karate and judo with LeBell; whether LeBell taught him is not stated.
+    hasInteraction:
+    - hasEvidence:
+      - basedOnSource: 01M5G2ZHDTYWJQBG589HNEFYWA
+        quotation: >-
+          Bob Wall, a former world professional karate champion and a friend of LeBell's, used to bring martial arts stars Chuck Norris and Bruce Lee to train in karate and judo with LeBell.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYD5XMNMJAAPE1B8773N3ANT
+    cite: Bruce Lee (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYD5XMNMW93NF514F4JDSHH9
+    cite: Bruce Lee (Baidu Baike ZH)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYJ80JXE1BEMQX71ZNZ6BJHF
+    cite: Lee Hoi-chuen (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYD5XMNM30T1JM1B8VZ0ZTD9
+    cite: Jennings (2019) - Bruce Lee and the Invention of Jeet Kune Do
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYD5XMNMC3D3DST96C876VKM
+    cite: 'Maeda (2022) - Like Water: A Cultural History of Bruce Lee'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYFWK7746Q9SGZF59MGWST7M
+    cite: 'Carnes (2024) - Hero for our Year of the Dragon: Bruce Lee'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYD5XMNMGKE1FTE74CSKSJK6
+    cite: Bruce Lee Official Biography (Bruce Lee Enterprises)
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q16397
+  - viaf:51692172
+  - isni:000000036855300X
+tags:
+  - jeet-kune-do
+  - wing-chun
+  - founder
+  - actor
+  - chinese-martial-arts

@@ -1,0 +1,112 @@
+type: Style
+id: 01KZC8S2GEGBJJT9RKV5M0HJ3N
+name:
+  en: Goju-ryu
+  ja: 剛柔流
+  ja-Latn: Gōjū-ryū
+aka:
+  en:
+    - Goju Ryu
+    - hard-soft style
+styleType: styleclass:modern
+foundedEvent:
+  startDate: '1930'
+  location:
+    countryCode: eucountry:JPN
+  founder:
+    - 01KZBRSRZ7DF87MMQPTAD4542E
+  hasEvidence:
+    - basedOnSource: 01KZC8S2GECG2D7MBQEZSTCJ81
+      quotation: >-
+        Date founded c. 1930
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5GSTWESKSFXTD8Z8PK
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9S
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Goju-ryu is a named school of karate founded by Chojun Miyagi; its practitioners are karate practitioners and roll up into Karate
+    hasEvidence:
+      - basedOnSource: 01KZC8S2GECG2D7MBQEZSTCJ81
+        quotation: Gōjū-ryū (剛柔流), Japanese for "hard-soft style", is one of the main traditional Okinawan styles of karate
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GDW6K9FHQA1BD8XME
+    relatedStyle: 01KYHF558ARZ926BRSVJNWCTGE
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Goju-ryu is the direct successor of the Naha-te tradition taught by Higaonna Kanryo, blended with Chinese martial arts; it is a distinct art from the pre-war regional term Naha-te, not merely a named variant
+    hasEvidence:
+      - basedOnSource: 01KZC8S2GECG2D7MBQEZSTCJ81
+        quotation: >-
+          Ancestor schools Shōrei-ryū • Naha-te • Fujian White Crane (Whooping Crane style)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KYHF558AX2APCXHRG550QP3C
+        quotation: The successor styles to Naha-te include Shōrei-ryū (earliest school), Gōjū-ryū, Uechi-ryū, Ryūei-ryū, Shito-ryu and Tōon-ryū.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5H67WXG4E3X1TNFCY5GP9JX
+    relatedStyle: 01M5H67WXGWSD50MSH0N8H40X8
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+        quotation: >-
+          Since Miyagi and Wu Xiangui were close friends, were members of the same karate study group,
+          and often trained together in the martial arts, it is safe for one to infer that each of these
+          men influenced the martial arts of the other.
+        locator: '113'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+      - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+        quotation: Wu Xiangui helped to shape the development of Goju Ryu.
+        locator: '112'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZC8S2GECG2D7MBQEZSTCJ81
+        quotation: >-
+          Ancestor schools Shōrei-ryū • Naha-te • Fujian White Crane (Whooping Crane style)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: 'Goju-ryu (剛柔流, "hard-soft style") is one of the main traditional Okinawan styles of
+
+    karate, founded by Chojun Miyagi in 1930 on the Naha-te tradition of his teacher
+
+    Higaonna Kanryo. It combines hard, linear strikes with soft, circular open-hand
+
+    techniques, joint locks and throws, and emphasizes breathing in the core kata
+
+    Sanchin and Tensho.
+
+'
+hasEvidence:
+  - basedOnSource: 01KZC8S2GECG2D7MBQEZSTCJ81
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q624780
+tags:
+  - karate
+  - okinawan-martial-arts
+  - gendai
+rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG

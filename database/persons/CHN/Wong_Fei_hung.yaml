@@ -1,0 +1,73 @@
+type: Person
+id: 01M69Z4SFBE6M2KZ0XGD0RWT4M
+name:
+  en: Wong Fei-hung
+  yue: 黃飛鴻
+  zh: 黃飛鴻
+  zh-Latn: Huang Feihong
+aka:
+  en:
+    - Wong Fei Hung
+nationality:
+  - countryCode: eucountry:CHN
+    wikidata: wd:Q148
+birthEvent:
+  birthDate: '1847'
+  hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        In 1847 his son, Wong Fei Hung, was born.
+      locator: '76'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/2/22/Wong_Fei-hung_-_Kwong_Kei-tim.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Wong_Fei-hung_-_Kwong_Kei-tim.jpg
+    cite: "Kwong Kei-tim (鄺祺添), Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    Hung Gar teacher and doctor in Foshan and Guangzhou, son and student of Wong Kei-ying. A
+    military and militia instructor as a young man, he later ran the Po Chi Lam clinic in Foshan;
+    novels and over sixty films made him a folk hero.
+notes: >-
+  Judkins and Nielson pp. 21, 58, 70-71, 76-77, 86, 118, 222. Very little reliable information
+  about him survives (p. 70). Modern Hung Gar descends from his lineage (p. 86).
+hasTeacherAssertion:
+  - id: 01M69Z4SFS4GEPCPRDG01NQ17E
+    teacher: 01M69Z4SF9WKCY6ZHBQDH507GZ
+    assertedStyle: 01M69Z4SFKYNB3YG0C3ZA4S3NM
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1852
+        hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              In 1847 his son, Wong Fei Hung, was born. Wong began to instruct his son in the martial arts at
+              the age of five.
+            locator: '76'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: '70-71, 76, 86'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q317869
+tags:
+  - hung-gar
+  - chinese-martial-arts

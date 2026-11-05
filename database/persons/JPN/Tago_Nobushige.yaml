@@ -1,0 +1,95 @@
+type: Person
+id: 01KY4XTGWE5J0CEVJH9Q1GCK0V
+name:
+  ja-Latn: Tago Nobushige
+  ja: 田子信重
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1853-11-15'
+  birthPlace:
+    label: Meiji-mura, Gunma District, Gunma Prefecture
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1054838
+  hasEvidence:
+  - basedOnSource: 01KY4XTGWCD9BMQK37EHX2DBKS
+    informationType: infotype:secondary
+    supports: true
+    quotation: 田子 信重（たご のぶしげ、嘉永6年10月15日〈1853年11月15日〉[...]上野国群馬郡明治村字下村（現・群馬県北群馬郡吉岡町）に生まれる
+    evidenceType: evidencetype:direct
+description:
+  en: Japanese jujutsuka of Tenjin Shinyo-ryu. Student of Genjuro Jinbo. Received menkyo (1879) and menkyo
+    kaiden (1890) in Tenjin Shinyo-ryu. Appointed as Keishicho martial arts instructor in 1886. Operated
+    the Seibukan dojo in Kyobashi, Tokyo. Described by Gunji Koizumi as "quite an impressive figure with
+    a long grey beard." Teacher of Gunji Koizumi, founder of the Budokwai.
+hasTeacherAssertion:
+- id: 01M3YH7N5G8V6D1DS14AWTTYC4
+  teacher: 01KY2WPK79YEDVEADTKZGXGZRT
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9Q
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Wikipedia only.
+  hasInteraction:
+  - interactionPeriod:
+      endYear: 1879
+    hasEvidence:
+    - basedOnSource: 01KY4XTGWCD9BMQK37EHX2DBKS
+      informationType: infotype:secondary
+      supports: true
+      quotation: 幼少より武術を好み荒木霞新流を学んだ後に、池端村の神保源十郎の門に入り天神真楊流を学ぶ。1879年（明治12年）に師より免許を与えられた
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5G7XFEMKCAY4777HJA
+  rankStyle: 01KJJAWN29MA64W22606R3WD9Q
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+  rankGrade: rankgrade:menkyo_license
+  dateConferred: '1879'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Wikipedia only.
+  hasEvidence:
+  - basedOnSource: 01KY4XTGWCD9BMQK37EHX2DBKS
+    informationType: infotype:secondary
+    supports: true
+    quotation: 1879年（明治12年）に師より免許を与えられた
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5G0BHE72KV6D289TEV
+  rankStyle: 01KJJAWN29MA64W22606R3WD9Q
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+  rankGrade: rankgrade:menkyo_kaiden
+  dateConferred: '1890'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Wikipedia only.
+  hasEvidence:
+  - basedOnSource: 01KY4XTGWCD9BMQK37EHX2DBKS
+    informationType: infotype:secondary
+    supports: true
+    quotation: 1890年（明治23年）諸流大家の推薦により天神真楊流柔術免許皆伝を得た。
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/5/50/%E7%94%B0%E5%AD%90%E4%BF%A1%E9%87%8D.png
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    cite: "上毛と京浜社編輯部 編, Wikimedia Commons"
+    uri: https://commons.wikimedia.org/wiki/File:%E7%94%B0%E5%AD%90%E4%BF%A1%E9%87%8D.png
+    basedOnSource: 01KY4XTGWCD9BMQK37EHX2DBKS
+    informationType: infotype:secondary
+hasEvidence:
+- basedOnSource: 01KY4XTGWCD9BMQK37EHX2DBKS
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KY4XTGWDFZB108B7ZN44GSDS
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+  quotation: I took up Tenshin-Shinyo-Ryu Ju Jutso under NOBUSHIGE TAGO, who was quite an impressive figure
+    with a long grey beard
+sameAs:
+- wd:Q112239648

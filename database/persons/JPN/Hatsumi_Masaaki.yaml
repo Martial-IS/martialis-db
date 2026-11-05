@@ -1,0 +1,72 @@
+type: Person
+id: 01M5H4EE3XKYP8N2XDHWF8D97G
+name:
+  ja-Latn: Hatsumi Masaaki
+aka:
+  ja-Latn: Hatsumi Yoshiaki
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1931'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: and Hatsumi (Masaaki) Yoshiaki (1931–)
+      locator: '170'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Disciple of Takamatsu Toshitsugu and founder of the Bujinkan, through which most ninjutsu outside
+    Japan is taught.
+hasTeacherAssertion:
+  - id: 01M5H4EE3X4TA0AGYVKKT9SS5W
+    teacher: 01M5H4EE3XRVW4V7X8DV729BHS
+    assertedStyle: 01M5H4EE3XTQ71T3X541Y6MZYJ
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Takamatsu taught the martial traditions he inherited to many others, and eventually he
+              entrusted their transmission to a small group of disciples, to include Akimoto Fumio
+              (1894–1962), Ueno Takashi (1899–1976), Kimura Masaji (1901–2000), Sato Kinbei (1925–1999),
+              and Hatsumi (Masaaki) Yoshiaki (1931–).
+            locator: '170'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      During the late 1960s, Hatsumi Masaaki (1931–) organized the Bujinkan Ninpo organization in
+      Japan
+    locator: '445'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: '170'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q506649
+tags:
+  - ninjutsu
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/9/97/Hatsumi_sensei.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Hatsumi_sensei.jpg
+    cite: "Pavel.ninryu, Wikimedia Commons"
+    informationType: infotype:secondary

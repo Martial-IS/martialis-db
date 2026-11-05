@@ -1,0 +1,48 @@
+type: Style
+id: 01KJJAWN29MA64W22606R3WD9C
+name:
+  ja-Latn: Daitō-ryū Aiki-jūjutsu
+  ja: 大東流 合気柔術
+hasEvidence:
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTDS
+    supports: true
+    evidenceType: evidencetype:direct
+    informationType: infotype:secondary
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTDT
+    quotation: According to this tradition, the name Daito-ryu can be traced back about 900 years, to Shinra Saburo Minamoto no Yoshimitsu (1045-1127), a warrior considered to have been the distant founder of the school.
+    supports: true
+    evidenceType: evidencetype:direct
+    informationType: infotype:secondary
+foundedEvent:
+  startDate: '1100'
+  location:
+    countryCode: eucountry:JPN
+styleType: styleclass:traditional
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5GAAF3ZPV9QEGM7A5V
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9G
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Daito-ryu was originally called Daito-ryu Jujutsu and is a traditional school of jujutsu
+    hasEvidence:
+      - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTDS
+        quotation: originally called Daitō-ryū Jujutsu (大東流柔術, Daitō-ryū Jūjutsu)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q1500342
+tags:
+  - koryu
+photos:
+  - contentUrl: https://aikidojournal.com/wp-content/uploads/2018/05/soden-vol5.jpg
+    imageAttribution:
+      uri: https://aikidojournal.com/wp-content/uploads/2018/05/soden-vol5.jpg
+      cite: "Aikido Journal"
+videos:
+  - contentUrl: https://youtu.be/zgezzfG1Rwk?t=167
+    imageAttribution:
+      uri: https://youtu.be/zgezzfG1Rwk?t=167
+      cite: "Aikido - Guillaume Erard, YouTube"

@@ -1,0 +1,54 @@
+type: Organization
+id: 01M0QPYHH0243TWWFVA29F8WQJ
+name:
+  en: Chinese Wushu Association
+  zh: 中国武术协会
+aka:
+  en:
+    - CWA
+orgType: orgclass:governing_body
+hasSite:
+  - location:
+      label: Beijing
+      countryCode: eucountry:CHN
+      wikidata: wd:Q956
+foundedEvent:
+  startDate: 1958-09
+  hasEvidence:
+    - basedOnSource: 01M0QPYHGZ79VG8RFWGN4ED5Q5
+      quotation: In 1958 under the Chinese Communist Party, the Chinese Wushu Association was founded in Beijing.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+website: http://www.wushu.com.cn/
+hasOfficerRole:
+  - id: 01M4R9845WKG0PRDAD38NS53FR
+    officer: 01M0QSZQA5PZGFNCSW2BFW8RZB
+    officerTitle: Vice Chairman (副主席)
+    officerPeriod:
+      startYear: 1958
+      endYear: 1966
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia only.
+    hasEvidence:
+      - basedOnSource: 01M0QSZQA6EGP8YG3RKCKHMV8D
+        quotation: 'He served as the leader of the Shaolin kung fu division of the Martial Arts Institute in 1928 and was also the vice chairman of the Chinese Wushu Association.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M0QPYHGZ79VG8RFWGN4ED5Q5
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q2867378
+tags:
+  - wushu
+  - china
+  - governing-body
+  - beijing
+description:
+  en: Governing body of wushu in China, founded in September 1958. Also known as the Wushu Administrative Center of the General Administration of Sport of China. Responsible for the development and standardization of modern wushu and sanda throughout China. Recognized by the International Wushu Federation (IWUF). Part of the General Administration of Sport of China, All-China Sports Federation, and Chinese Olympic Committee. Headquartered in Beijing.

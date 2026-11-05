@@ -1,0 +1,7 @@
+PREFIX martialis: <https://w3id.org/martialis/ontology#>
+PREFIX conflevel: <https://w3id.org/martialis/vocab/confidence-level/>
+SELECT ?level (COUNT(*) AS ?count) WHERE {
+  ?a martialis:hasConfidence/martialis:confidenceLevel ?level .
+  VALUES (?level ?ordinal) { (conflevel:refuted -1) (conflevel:doubtful 0) (conflevel:possible 1)
+                             (conflevel:probable 2) (conflevel:confirmed 3) }
+} GROUP BY ?level ?ordinal ORDER BY ?ordinal

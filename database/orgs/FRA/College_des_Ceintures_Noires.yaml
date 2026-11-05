@@ -1,0 +1,84 @@
+type: Organization
+id: 01M39T3RX269W8NSPBZHDY3BW0
+name:
+  fr: Collège des ceintures noires
+aka:
+  fr: CCN
+orgType: orgclass:association
+hasSite:
+- location:
+    label: France
+    countryCode: eucountry:FRA
+foundedEvent:
+  startDate: '1947-06-30'
+  founder:
+  - 01M39T3H2EFYW4D8J01GFF3KN6
+  hasEvidence:
+  - basedOnSource: 01M00NPBTPWWBSJZRMYXBESJ97
+    quotation: le 30 Juin 1947, le Collège des ceintures noires (CCN) naissait officiellement (Jean Andrivet
+      premier président)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasOfficerRole:
+- id: 01M4R9845WCER420J8GA8V0P32
+  officer: 01M39T3H2EFYW4D8J01GFF3KN6
+  officerTitle: Président
+  officerPeriod:
+    startYear: 1947
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: One authored thesis.
+  hasEvidence:
+  - basedOnSource: 01M00NPBTPWWBSJZRMYXBESJ97
+    quotation: le 30 Juin 1947, le Collège des ceintures noires (CCN) naissait officiellement (Jean Andrivet
+      premier président)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M4R9845W8955CS14PAQ9Y9SD
+  officer: 01M39T3H2E0206MCVGGVGAYY3T
+  officerTitle: Président
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: One authored thesis.
+  hasEvidence:
+  - basedOnSource: 01M00NPBTPWWBSJZRMYXBESJ97
+    quotation: Il en accepte la direction technique nationale offerte par Jean-Lucien Jazarin (Président
+      du CCN).
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M4R9845W0B25GRVVECQZMCQ6
+  officer: 01KZW2JNB8Z5A1QSZR05381WSR
+  officerTitle: Directeur technique national
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: One authored thesis.
+  hasEvidence:
+  - basedOnSource: 01M00NPBTPWWBSJZRMYXBESJ97
+    quotation: Il en accepte la direction technique nationale offerte par Jean-Lucien Jazarin (Président
+      du CCN). Au début des années 1960, 90% des clubs aquitains se réunissent autour de lui et font de
+      l'Aquitaine un haut lieu du Collège des ceintures noires.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  fr: Organisation française du judo née le 30 juin 1947, distincte de la Fédération française de judo
+    et de jiu-jitsu et parfois en conflit avec elle sur l'attribution des grades. Réunifiée avec la FFJDA
+    par un protocole d'accord en 1968-1971.
+notes: Distinguish from the FFJDA (database/orgs/FRA/Federation_Francaise_de_Judo_et_Jiu_Jitsu.yaml);
+  the two bodies coexisted and disputed rank authority until reunification.
+hasEvidence:
+- basedOnSource: 01M00NPBTPWWBSJZRMYXBESJ97
+  quotation: un climat de détente s'instaure en 1968 et en 1971 et deux protocoles d'accord sont signés,
+    l'un entre la FFJDA et le CCN, l'autre entre la FFJDA et la Fédération nationale du judo sportif (FNJS)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- judo
+- france

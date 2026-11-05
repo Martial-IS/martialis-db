@@ -1,0 +1,95 @@
+type: Style
+id: 01KZ6XT5DS9BPQ109R3EJ8MKVG
+name:
+  en: Muso Shinden Ryu
+  ja-Latn: Musō Shinden Ryū
+  ja: 夢想神伝流
+description:
+  en: 'Musō Shinden Ryū (夢想神伝流) is the iaido school created by Nakayama Hakudo in 1933,
+
+    restructuring the Tosa Eishin-ryū iai he had learned from Hosokawa Yoshimasa and
+
+    Morimoto Tokumi in Kochi. Alongside kendo it is one of the two arts practised by the
+
+    Yushinkan students, and it is the iaido style most widely practised today. Practitioners
+
+    of Musō Shinden Ryū are iaido practitioners.
+
+'
+  pt: 'O Musō Shinden Ryū (夢想神伝流) é a escola de iaido criada por Nakayama Hakudo em 1933,
+
+    reestruturando o iai Tosa Eishin-ryū que tinha aprendido com Hosokawa Yoshimasa e
+
+    Morimoto Tokumi em Kochi. A par do kendo é uma das duas artes praticadas pelos alunos do
+
+    Yushinkan, e é o estilo de iaido mais praticado na atualidade. Os praticantes de Musō
+
+    Shinden Ryū são praticantes de iaido.
+
+'
+foundedEvent:
+  startDate: '1933'
+  founder:
+    - 01KZ6XT5DSD1RN1NG4PJKJWXAH
+  hasEvidence:
+    - basedOnSource: 01KZ6XT5DSE2WFVPWC8ET939CN
+      quotation: In 1933 Hakudo restructured what he learned in Kochi into Muso Shinden Ryu (夢想神伝流) using the Chinese characters for dream or vision.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZ6XT5DSZJCMCB9KC9BY5T24
+      quotation: Nakayama Hakudō [...] founder of the iaidō style Musō Shinden-ryū.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5GQG3586W69B2GSYF6
+    relatedStyle: 01KZ6XT5DS0JHX51MN07878ERB
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Muso Shinden Ryu is a named iaido school within the broader art of iaido - practitioners of Muso
+        Shinden Ryu count as iaido practitioners.
+    hasEvidence:
+      - basedOnSource: 01KZ6XT5DS6QYJPRSC7XB6G5WR
+        quotation: >-
+          Tōhō-gata techniques [...] Mae-giri from Musō Jikiden Eishin-ryū School [...] Zengo-giri from Mugai-ryū School [...] Kiri-age from Shindō Munen-ryū School [...] Shihō-giri from Suiō-ryū School [...] Kissaki-gaeshi from Hōki-ryū School
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GAZSFBBJTD7BM6FG9
+    relatedStyle: 01M325EAQGV7GGTG9GG77E9118
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Nakayama Hakudo created Muso Shinden Ryu in 1933 by restructuring the Tosa Eishin-ryu iai he had
+        learned from Hosokawa Yoshimasa and Morimoto Tokumi. Hence probable, not confirmed: the source
+        says "what he learned in Kochi" and names both teachers rather than this one school.
+    hasEvidence:
+      - basedOnSource: 01KZ6XT5DSE2WFVPWC8ET939CN
+        quotation: In 1933 Hakudo restructured what he learned in Kochi into Muso Shinden Ryu (夢想神伝流) using the Chinese characters for dream or vision.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZ6XT5DSE2WFVPWC8ET939CN
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ6XT5DSZJCMCB9KC9BY5T24
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q2736108
+tags:
+  - japanese-martial-arts
+  - iaido
+  - iaijutsu
+  - gendai
+  - yushinkan
+styleType: styleclass:modern

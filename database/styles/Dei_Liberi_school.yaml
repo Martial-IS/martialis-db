@@ -1,0 +1,66 @@
+type: Style
+id: 01M5JSGG50KYXNMCB38XCKHKMF
+name:
+  en: dei Liberi school
+aka:
+  en:
+    - Fiore dei Liberi's art
+styleType: styleclass:traditional
+foundedEvent:
+  startDate: '1381/1409'
+  founder:
+    - 01M5JSGG50BY7NFE13HKVSR7DW
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Like Liechtenauer before him, dei Liberi traveled widely and studied under a variety of Italian
+        and German masters, systematizing their lessons into his own, unique art.
+      locator: '245'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasStyleRelationAssertion:
+  - id: 01M5JSGG50ED5V450Q0G1Q6FPE
+    relatedStyle: 01M5JSGG509Z4J4P08MWKM16ZW
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        One source states it; the other implies it.
+    hasEvidence:
+      - basedOnSource: 01M5JSGG50DXMQCVHRJF15RCBK
+        quotation: >-
+          One of the earliest known Italian treatises on swordsmanship and other martial arts is the Flos
+          Duellatorum (Fior Di Battaglia/The Flower of Battle) written by Fiore dei Liberi around 1409.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Vadi was a disciple of the dei Liberi “school,” but his work has departures in nomenclature and
+          methodology, and may either represent a subtradition of the dei Liberi heritage or be evidence
+          of the school’s evolution during the fifteenth century.
+        locator: '246'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+description:
+  en: >-
+    Fiore dei Liberi's art of wrestling, dagger, sword, poleaxe and spear, in and out of armour and on
+    horseback, built from the teachings of Italian and German masters and set down in Il Fior di
+    Battaglia (about 1409), with mnemonic numbers and animal allegories. Filippo Vadi's treatise
+    (1482–1487) continues it.
+notes: >-
+  "Armizare" is the modern name; none of the sources used here uses it, so it is not given as an alias.
+  Founding dated by Fiore's documented activity (1381–1409).
+hasEvidence:
+  - basedOnSource: 01M5JSGG505YWQZSX677VBVJXR
+    informationType: infotype:secondary
+    supports: true
+tags:
+  - fencing
+  - italian-school
+  - historical-european-martial-arts

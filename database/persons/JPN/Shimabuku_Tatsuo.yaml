@@ -1,0 +1,192 @@
+type: Person
+id: 01KZEDDCFCG0PFJGWZ9DNGK637
+name:
+  ja-Latn: Shimabuku Tatsuo
+  ja: 島袋龍夫
+aka:
+  en:
+  - Tatsuo Shimabuku
+  - Tatsuo Shimabukuro
+  - Seikichi Tatsuo Shimabuku
+  ja:
+  - しまぶくろ たつお
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1908-09-19'
+  birthPlace:
+    label: Gushikawa
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1044035
+  hasEvidence:
+  - basedOnSource: 01KZEK9QGVTAM4Z8TP48QHCQC9
+    quotation: >-
+      Shinkichi "Tatsuo" Shimabuku was born in Gushikawa village, Okinawa on September 19, 1908.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1975-05-30'
+  deathPlace:
+    label: Itoman
+    countryCode: eucountry:JPN
+    wikidata: wd:Q860662
+  hasEvidence:
+  - basedOnSource: 01KZEK9QGVTAM4Z8TP48QHCQC9
+    quotation: September 19, 1908 – May 30, 1975
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://isshinryukarate.net/images/dragonman2.jpg
+  imageAttribution:
+    uri: https://www.isshinryukarate.net/shimabuku.html
+    cite: "Isshin-Ryu Karate"
+    informationType: infotype:secondary
+description:
+  en: Okinawan martial artist (1908-1975), founder of Isshin-ryu karate; studied under Chotoku Kyan, Chojun
+    Miyagi, Choki Motobu and Shinken Taira.
+notes: 'Shimabuku began karate at age 13 with his uncle, who later sent him to study with Chotoku Kyan;
+  he became one of Kyan''s best students and studied with him until 1939, learning the kata Passai, Useishi,
+  Seisan, Naihanchi, Wansu, Chinto and Kusanku plus the weapons kata Tokumine nu kun and basic sai. He
+  sought out Chojun Miyagi for Goju-ryu (Tensho, Seiunchin and Sanchin), studied about a year with Choki
+  Motobu (1942), and in the late 1950s-early 1960s studied kobudo with Shinken Taira. He first called
+  his style Chan-migwa-te (after Kyan''s nickname), then Sun nu Su-te, and founded Isshin-ryu ("One Heart
+  Style") on January 15, 1956, blending Shorin-ryu, Goju-ryu and kobudo. Birth name Shinkichi Shimabuku.
+  Wikidata also carries conflicting death dates (30 and 31 May 1975); the EN Wikipedia date (30 May) is
+  used. Date conflict note: the primary biography by A.J. Advincula (1997) gives different training periods
+  than the EN Wikipedia article - Kyan for four years from about age 23-24 (c. 1931-1935, vs the article''s
+  1927-1939), Miyagi for about three years from c. 1936, and Motobu for one year in Naha in 1938 (vs the
+  article''s 1942); the article dates are kept per the current curation policy, with the Advincula account
+  recorded here. Advincula does not mention Shinken Taira, who is corroborated only indirectly through
+  Eizo Shimabukuro''s interview.'
+hasTeacherAssertion:
+- id: 01M3YH7N5G9VXKA54D6ECASE3K
+  teacher: 01KZC4PN01Y3PH3HRWWJPAH82A
+  assertedStyle: 01KZC8S2GE3X9V7N27WXMQEPQA
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: EN Wikipedia states Shimabuku studied Shorin-ryu under Chotoku Kyan from around
+      1927 until 1939, becoming one of Kyan's best students; corroborated by the Advincula biography (four
+      years from about age 23-24, c. 1931-1935, a conflicting period)
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1927
+      endYear: 1939
+    hasEvidence:
+    - basedOnSource: 01KZEK9QGVTAM4Z8TP48QHCQC9
+      quotation: Around the age of 19 (1927), he began to study Shorin-ryu karate under Chotoku Kyan at
+        Kyan's home [...] Shimabuku studied with Kyan until 1939.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZET6VQDZWGVFM1MCBW2ZMNA
+      quotation: >-
+        At the time, Shimabuku who was around age 23 or 24, and a poor farmer's son,walked barefooted to study with Kyan [...] He studied Shuri te with Kyan for four years.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GCVV551EEA9KHKSHJ
+  teacher: 01KZBRSRZ7DF87MMQPTAD4542E
+  assertedStyle: 01KZC8S2GEGBJJT9RKV5M0HJ3N
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Wikipedia and the Advincula biography agree on the relationship. The period follows the biography
+      (around 1936, for three years; approximate), against Wikipedia's late 1946 or early 1947.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1936
+      endYear: 1939
+    hasEvidence:
+    - basedOnSource: 01KZEK9QGVTAM4Z8TP48QHCQC9
+      quotation: >-
+        Shimabuku had always been fascinated by Naha-te karate and, in late 1946 or early 1947, sought out
+        Chojun Miyagi, the founder of Gōjū-ryū. [...] From Miyagi, Tatsuo learned Tensho, Seiunchin, and
+        Sanchin kata.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZET6VQDZWGVFM1MCBW2ZMNA
+      quotation: Shimabuku studies Naha te from Chojun Miyagi around 1936 [...] This time he stays with Miyagi
+        for three years.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GRWRYAYFWJSPK76G3
+  teacher: 01KZC4PN03JMN9C9YQTKMEQE3A
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: EN Wikipedia states Shimabuku sought out Choki Motobu in 1942 and studied with
+      him for approximately one year; the Advincula biography places a year of study with Motobu in Naha
+      in 1938 (conflicting date, kept in notes)
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1942
+      endYear: 1943
+    hasEvidence:
+    - basedOnSource: 01KZEK9QGVTAM4Z8TP48QHCQC9
+      quotation: In 1942, Shimabuku sought out another famous Shorin-Ryu instructor, Choki Motobu [...] Shimabuku studied
+        with Motobu for approximately one year.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZET6VQDZWGVFM1MCBW2ZMNA
+      quotation: In 1938 at age 30 he studies with Choki Motobu again in Naha for one year.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5G23YMKN8ZBTVBRPEH
+  teacher: 01KYJC7J3MYJ21GH3A1V1W7GQZ
+  assertedStyle: 01KYJC7J3MB81B06881FVFYGAG
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: EN Wikipedia states Shimabuku studied kobudo with Shinken Taira, one of Moden
+      Yabiku's top students, during the late 1950s and early 1960s; indirectly corroborated by Eizo Shimabukuro's
+      interview naming Taira among the masters he and Tatsuo studied under
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1957
+      endYear: 1962
+    hasEvidence:
+    - basedOnSource: 01KZEK9QGVTAM4Z8TP48QHCQC9
+      quotation: During the late 1950s and early 1960s, he continued his study of Kobudō with one of Moden
+        Yabiku's top students, Shinken Taira.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZET6VQDMWTV3BJCH177PA42
+      quotation: Eizo studied under his elder brother, Tatsuo, and under the same masters as Tatsuo, including
+        Chotoku Kyan, Choki Motobu, Chojun Miyagi, and Shinken Taira.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZEK9QGVTAM4Z8TP48QHCQC9
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZET6VQDZWGVFM1MCBW2ZMNA
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZET6VQDMWTV3BJCH177PA42
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q27363
+tags:
+- karate
+- isshin-ryu
+- shorin-ryu
+- goju-ryu

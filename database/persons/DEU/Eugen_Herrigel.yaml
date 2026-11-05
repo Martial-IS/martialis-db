@@ -1,0 +1,74 @@
+type: Person
+id: 01M5H4KQ09SFQW8QVFX4H0VPSE
+name:
+  de: Eugen Herrigel
+nationality:
+  - countryCode: eucountry:DEU
+    wikidata: wd:Q183
+birthEvent:
+  birthDate: '1884'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Eugen Herrigel (1884–1955), a German professor of philosophy who lived in Japan from 1924 to
+        1929.
+      locator: '156'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1955'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Eugen Herrigel (1884–1955), a German professor of philosophy who lived in Japan from 1924 to
+        1929.
+      locator: '156'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    German professor of philosophy who studied kyūdō under Awa Kenzō in Japan and wrote Zen in der
+    Kunst des Bogenschießens (Zen in the Art of Archery).
+hasTeacherAssertion:
+  - id: 01M5H4KQ09Q2GWXTADS2GH5VGJ
+    teacher: 01M5H4KQ09X5V973JBNM2S0NTA
+    assertedStyle: 01M2411V8RP1A9854ERZ2NQ80P
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source; Herrigel's own book is not cited here.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Of the two, Awa is best known outside Japan, because he was the teacher of Eugen Herrigel
+              (1884–1955), a German professor of philosophy who lived in Japan from 1924 to 1929.
+              Herrigel studied with Awa for about three years.
+            locator: '156'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: '156'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q76218
+tags:
+  - kyudo
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/9/9b/Eugen_Herrigel_%281922%29.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Eugen_Herrigel_(1922).jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary

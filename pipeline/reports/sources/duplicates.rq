@@ -1,0 +1,18 @@
+# Sources sharing a normalised url, doi or isbn - the same work entered
+# twice under two IDs. Nothing else catches this: the duplicate-id guard
+# only guards ULID uniqueness, not duplicated content.
+PREFIX martialis: <https://w3id.org/martialis/ontology#>
+PREFIX schema: <https://schema.org/>
+SELECT ?kind ?key (COUNT(DISTINCT ?s) AS ?n) (GROUP_CONCAT(DISTINCT STR(?s); separator=" ") AS ?sources)
+WHERE {
+  { ?s a martialis:Source ; schema:url ?raw .
+    BIND("url" AS ?kind)
+    BIND(REPLACE(REPLACE(REPLACE(LCASE(STR(?raw)), "^https?://", ""), "^www\\.", ""), "/$", "") AS ?key) }
+  UNION
+  { ?s a martialis:Source ; martialis:doi ?raw .
+    BIND("doi" AS ?kind) BIND(LCASE(STR(?raw)) AS ?key) }
+  UNION
+  { ?s a martialis:Source ; schema:isbn ?raw .
+    BIND("isbn" AS ?kind) BIND(REPLACE(LCASE(STR(?raw)), "[^0-9x]", "") AS ?key) }
+}
+GROUP BY ?kind ?key HAVING (COUNT(DISTINCT ?s) > 1) ORDER BY ?kind ?key

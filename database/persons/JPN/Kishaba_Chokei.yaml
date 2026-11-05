@@ -1,0 +1,111 @@
+type: Person
+id: 01KZBWDNRGXRYQHHCB1BSY6R8W
+name:
+  ja-Latn: Kishaba Chōkei
+  ja: 喜舎場朝啓
+aka:
+  en:
+    - Chokei Kishaba
+  ja:
+    - きしゃば ちょうけい
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1929-10-04'
+  birthPlace:
+    label: Okinawa Prefecture
+    countryCode: eucountry:JPN
+    wikidata: wd:Q766445
+  hasEvidence:
+    - basedOnSource: 01KZC8XAP86T25W4234ZZM3CEG
+      quotation: He was born October 4, 1929, in Okinawa and died in the year 2000.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2000'
+  hasEvidence:
+    - basedOnSource: 01KZC8XAP86T25W4234ZZM3CEG
+      quotation: He was born October 4, 1929, in Okinawa and died in the year 2000.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/en/8/8c/SenseiChokeiKishaba.jpg
+  imageAttribution:
+    uri: https://en.wikipedia.org/wiki/File:SenseiChokeiKishaba.jpg
+    cite: "English Wikipedia"
+    informationType: infotype:secondary
+description:
+  en: Okinawan martial arts master (1929-2000), founder of the Shorin-ryu Kishaba Juku; studied under Hohan Soken, Shoshin Nagamine and Seigi Nakamura.
+notes: 'Kishaba''s younger brother Chogi Kishaba was also an Okinawan martial arts master. His senior student in Okinawa was Katsuhiko Shinzato, who heads the Kishaba Juku. The Hawaii Karate Seinenkai memorial article states Kishaba "learned Shorin-Ryu from all of his instructors as well as the use of the kama from Soken". The EN Wikipedia article on Seigi Nakamura states Nakamura "profoundly influenced and inspired what is taught in Shorin-ryu Kishaba Juku", which Nakamura''s students Chokei Kishaba and Katsuhiko Shinzato developed and founded. No teacher edge to Masami Chinen is asserted: the only evidence was a Wikidata P1066 claim and neither the Seinenkai article nor the consulted EN Wikipedia articles name Chokei as Chinen''s student.'
+hasTeacherAssertion:
+  - id: 01M3YH7N5GASHZA88TQDEYBKTY
+    teacher: 01KZBWQ0AJ1CS0CYD84258VKTE
+    assertedStyle: 01KZC8S2GE3X9V7N27WXMQEPQA
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Hawaii Karate Seinenkai memorial article states Chokei Kishaba was a student of Hohan Soken (Matsumura Seito Shorin-Ryu) and learned the use of the kama from him
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KZDRJXTYBXZA9JTDY78PJG9E
+            quotation: Born in Okinawa on October 4, 1929, Chokei Kishaba was a student of Hohan Soken (Matsumura Seito Shorin-Ryu, student of Nabe Matsumura) [...] Kishaba learned Shorin-Ryu from all of his instructors as well as the use of the kama from Soken.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GWX2S4TZ9YWQ81FKM
+    teacher: 01KZBXACW0REMTPYNSM6B5QQAQ
+    assertedStyle: 01KZC8S2GEN7P0VQFP7YGZCVKZ
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Hawaii Karate Seinenkai memorial article states Chokei Kishaba was a student of Shoshin Nagamine (founder of Matsubayashi-Ryu)
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KZDRJXTYBXZA9JTDY78PJG9E
+            quotation: Born in Okinawa on October 4, 1929, Chokei Kishaba was a student of Hohan Soken (Matsumura Seito Shorin-Ryu, student of Nabe Matsumura), as well as Shoshin Nagamine (founder of Matsubayashi-Ryu, student of Ankichi Arakaki, Chotoku Kyan and Choki Motobu), and Seigi Nakamura.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G073SSCTZWVTMQ76S
+    teacher: 01KZBXJZ7V5PG3GYDPT46AD1PM
+    assertedStyle: 01KZC8S2GE3X9V7N27WXMQEPQA
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Hawaii Karate Seinenkai memorial article names Seigi Nakamura as one of Kishaba's instructors, corroborating the EN Wikipedia article on Nakamura which states the Kishaba Juku was developed and founded by Nakamura's students Chokei Kishaba and Katsuhiko Shinzato
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KZDRJXTYBXZA9JTDY78PJG9E
+            quotation: Born in Okinawa on October 4, 1929, Chokei Kishaba was a student of Hohan Soken (Matsumura Seito Shorin-Ryu, student of Nabe Matsumura), as well as Shoshin Nagamine (founder of Matsubayashi-Ryu, student of Ankichi Arakaki, Chotoku Kyan and Choki Motobu), and Seigi Nakamura.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZC8XAP8MQH1V4JRJJ4MTVMJ
+            quotation: Nakamura profoundly influenced and inspired what is taught in Shōrin-ryū Kishaba Juku and developed and founded by his students Chokei Kishaba and Katsuhiko Shinzato.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZDRJXTYBXZA9JTDY78PJG9E
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZC8XAP86T25W4234ZZM3CEG
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZC8XAP8MQH1V4JRJJ4MTVMJ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q5104212
+tags:
+  - karate
+  - shorin-ryu

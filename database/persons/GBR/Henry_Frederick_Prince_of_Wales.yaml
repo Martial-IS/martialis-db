@@ -1,0 +1,58 @@
+type: Person
+id: 01M5JTMYPE9C3KNRZZ8YJNJQTG
+name:
+  en: Henry Frederick, Prince of Wales
+aka:
+  en:
+    - Prince Henry
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+description:
+  en: >-
+    Eldest son of James I, who died before 1617; Joseph Swetnam claimed to have been his fencing
+    instructor.
+hasTeacherAssertion:
+  - id: 01M5JTMYPEAD743WZEK0NSYDPQ
+    teacher: 01M5JTMYPEMPN325AFHNNXZWP8
+    assertedStyle: 01M5JTMYPEMGBV9VR1FNNPYP8R
+    role: teachrole:private
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The teacher's own claim, made after the prince's death.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JTMYPEVFG06NKTKT7949PW
+            quotation: >-
+              Joseph Swetnam represents himself as the fencing instructor for the then-deceased Prince
+              Henry, who, after having read the treatise, urged Swetnam to print it—according to Swetnam.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              when the next native English fencing treatise appeared, it was written by no less a figure
+              than a royal fencing instructor, the choleric and misogynistic Joseph Swetnam (died 1621).
+            locator: '255'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5JTMYPEVFG06NKTKT7949PW
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q82631
+tags:
+  - fencing
+  - english-swordsmanship
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/f/f2/Henry_Prince_of_Wales_after_Isaac_Oliver.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Henry_Prince_of_Wales_after_Isaac_Oliver.jpg
+    cite: "After Isaac Oliver, Wikimedia Commons"
+    informationType: infotype:secondary

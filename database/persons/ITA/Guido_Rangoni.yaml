@@ -1,0 +1,49 @@
+type: Person
+id: 01M5JSGG50BAEW6R5TXHQY17G9
+name:
+  en: Guido Rangoni
+nationality:
+  - countryCode: eucountry:ITA
+    wikidata: wd:Q38
+description:
+  en: >-
+    Italian count and condottiero, a student of Guido Antonio de Luca; Achille Marozzo dedicated his
+    Opera Nova (1536) to him and may have served at his court.
+hasTeacherAssertion:
+  - id: 01M5JSGG50VRRKVJ6N9CK141P4
+    teacher: 01M5JSGG506GVV0TBXMFE76A5C
+    assertedStyle: 01M5JSGG50SFSZ8CE3WR46RWC6
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JSGG50YNQ9S1PV7P6EWNAE
+            quotation: >-
+              and Achille Marozzo, as well as such famous warriors as Giovanni dalle Bande Nere (Lodovico
+              de Medici) and the Count Guido Rangoni.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JSGG50DGJAP2ZGAH7HKD5W
+    quotation: >-
+      He may also have been attached to the court of the Count Guido Rangoni, another student of di Luca.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3779335
+tags:
+  - fencing
+  - bolognese-school
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/6/60/Guido_II_Rangoni.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Guido_II_Rangoni.jpg
+    cite: "After Titian, Wikimedia Commons"
+    informationType: infotype:secondary

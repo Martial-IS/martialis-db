@@ -1,0 +1,46 @@
+type: Person
+id: 01M6BFF6ZQEKZWXGA21KNXHWDF
+name:
+  ja-Latn: Homma Jouemon
+  ja: 本間丈右衛門環山正遠
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+description:
+  en: >-
+    Shin no Shinto-ryu jujutsu teacher, a student of its founder Yamamoto; Iso Mataemon's second teacher.
+hasEvidence:
+- basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+  locator: The Development of the Tenjin Shinyo-ryu
+  locatorLabel: section
+  quotation: 'Okamoto then entered the dojo of Homma Jouemon, a well-known teacher of the Shin no Shinto-ryu who had studied with Yamamoto, the founder of the tradition.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://ja.wikipedia.org/wiki/%E7%A3%AF%E5%8F%88%E5%8F%B3%E8%A1%9B%E9%96%80
+  archiveUri: https://ja.wikipedia.org/w/index.php?title=%E7%A3%AF%E5%8F%88%E5%8F%B3%E8%A1%9B%E9%96%80&oldid=109443459
+  cite: 磯又右衛門 - 日本語版ウィキペディア
+  quotation: '一柳織部が死死去[sic]したため、本間丈右衛門環山正遠について真之神道流を六年学んで奥義を極めた。'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M6BFF6ZQQRN4C3TZ46FHE2HP
+  teacher: 01M6BFF6ZQPQ5M60EZ8VWQP6QN
+  assertedStyle: 01M6BFF6ZQ0BNGCP33B8FA8QHH
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Skoss (the Kubota line) states it; one account.
+  hasInteraction:
+  - hasEvidence:
+      - basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+        locator: The Development of the Tenjin Shinyo-ryu
+        locatorLabel: section
+        quotation: 'Okamoto then entered the dojo of Homma Jouemon, a well-known teacher of the Shin no Shinto-ryu who had studied with Yamamoto, the founder of the tradition.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+notes: >-
+  Japanese Wikipedia gives his full name as 本間丈右衛門環山正遠. Romanised Honma in some sources.

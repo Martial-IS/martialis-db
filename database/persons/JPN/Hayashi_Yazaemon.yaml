@@ -1,0 +1,80 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1SH
+name:
+  ja-Latn: Hayashi Yazaemon
+  ja: 林弥左衛門
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1892'
+  birthPlace:
+    countryCode: eucountry:JPN
+deathEvent:
+  deathDate: '1964'
+  deathPlace:
+    countryCode: eucountry:JPN
+image:
+  contentUrl: https://archive.org/download/hayashi-yazaemon-sensei/Hayashi-Yazaemon-sensei.jpg
+  imageAttribution:
+    uri: https://katorivietnam.org/otake-risuke-nippon-budokan-magazine-interview-about-katori-shinto-ryu-and-its-tradition-2020/
+    cite: "Katori Vietnam"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+- id: 01M3YH7N5G9YTT5NV6BAR1ADJ7
+  teacher: 01KJJAWN28MWKKSN4J02MVY1SJ
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9T
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Documented in historical lineage charts and dojo records as direct successor
+      to Hayashi Sakuichiro
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDA0
+      cite: 'Exkurs: Die moderne Geschichte der Katori Shintô ryû (Ein Leben für die Schwertkunst)'
+      quotation: >-
+        Iisasa Morisada (sieben direkte Schüler): Yamaguchi Kumajirô Eikan Mairaku / Tamai Saidô / Noguchi Jizaemon / Ono Heishichirô Moriichi / Shiina Ichizô / Hongû Toranosuke / Kaneko Shinoshô [...] Hayashi Saiichirô – Hayashi Yazaemon – Ôtake Risuke
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDA5
+      cite: Tenshinsho-den Katori Shinto Ryu - Shinbukan Dojo
+      quotation: Shinbukan Dojo’s practice of Katori Shinto Ryu follows the teachings passed down from
+        Hayashi Sakuichiro Shihan to Hayashi Yazaemon Shihan, who was then succeeded by Otake Risuke Shihan
+        (Shinbukan Dojo founder).
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GXGQ500RJPWN9JD6K
+  rankStyle: 01KJJAWN29MA64W22606R3WD9T
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+  rankGrade: rankgrade:menkyo_gokui
+  grantedBy: 01KJJAWN28MWKKSN4J02MVY1SJ
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Gokui kaiden rank mentioned in interview with his student Otake Risuke
+  hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WDAC
+    cite: Otake Risuke Nippon Budōkan Magazine Interview (Shobukan Dojo)
+    quotation: 'Ōtake: Hayashi-sensei, of course with his skill as a Gokui Kaiden holder of Katori Shintō-ryū,
+      but also with his gentle and sincere character, was loved by his students as if he were the most
+      affectionate father.'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KJJAWN29MA64W22606R3WDAC
+  cite: Otake Risuke Nippon Budōkan Magazine Interview (Shobukan Dojo)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://en.wikipedia.org/wiki/Risuke_Otake
+  archiveUri: http://web.archive.org/web/20260312025804/https://en.wikipedia.org/wiki/Risuke_Otake
+  cite: Risuke Otake - Wikipedia
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct

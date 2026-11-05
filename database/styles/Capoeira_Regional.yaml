@@ -1,0 +1,68 @@
+type: Style
+id: 01M6A2A5YR5THAAVA3A61JRZ1H
+name:
+  pt: Capoeira Regional
+aka:
+  pt:
+    - Luta Regional Baiana
+styleType: styleclass:traditional
+foundedEvent:
+  location:
+    label: Salvador, Bahia
+    countryCode: eucountry:BRA
+    wikidata: wd:Q36947
+  founder:
+    - 01M5H4AFG2ZHJ3H82H0DPJQJ1V
+  hasEvidence:
+    - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+      quotation: >-
+        He therefore started to develop a new capoeira style, the famous Regional.
+      locator: '129'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+      quotation: >-
+        He called his style Luta Regional Baiana—regional fighting from Bahia, and even referred to
+        it as ‘ex-capoeira’!
+      locator: '130'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Style of capoeira that Mestre Bimba developed in Salvador from the late 1920s, adding kicks,
+    sequences of set movements, an entry test and graduation rites to the traditional Bahian game.
+notes: >-
+  Bimba dated its start to 1933 in 1953 and to 1928 twenty years later (Assunção, p. 131). He taught
+  capoeira from 1918.
+hasStyleRelationAssertion:
+  - id: 01M6A2A5YVJ75Q5VY64SP1FNYH
+    relatedStyle: 01M5H4AFG2PQBX1QXTNW3CMHN5
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+        quotation: >-
+          He therefore started to develop a new capoeira style, the famous Regional.
+        locator: '129'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    locator: '125-146'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q722346
+tags:
+  - capoeira

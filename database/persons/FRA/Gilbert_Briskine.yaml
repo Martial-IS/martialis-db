@@ -1,0 +1,54 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD75
+name:
+  fr: Gilbert Briskine
+nationality:
+- countryCode: eucountry:FRA
+  wikidata: wd:Q142
+birthEvent:
+  birthPlace:
+    countryCode: eucountry:FRA
+    wikidata: wd:Q142
+deathEvent:
+  deathPlace:
+    countryCode: eucountry:FRA
+    wikidata: wd:Q142
+notes: Teacher unidentified; no place, period, or source details recorded for this training relationship.
+hasRankAssertion:
+- id: 01M3YH7N5GAXRV56V7MKEENCRT
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 4
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Portuguese Judo Federation manual lists him as 4th dan
+  hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WDAJ
+    cite: Manual de Graduações e Regulamento de Graduações. Federação Portuguesa de Judo (Dezembro 2020)
+    quotation: No Verão de 1961, o professor Hugnet é substituído pelo também francês, Gilbert Bryskine,
+      4º Dan, campeão de França, bicampeão da Europa (1952 e 1954) e professor diplomado pela Federação
+      Francesa de Judo e Ju Jutsu.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KJJAWN29MA64W22606R3WDAK
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KJJAWN29MA64W22606R3WDAJ
+  cite: Manual de Graduações e Regulamento de Graduações. Federação Portuguesa de Judo (Dezembro 2020)
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.fnkp.pt/historia/
+  cite: História (Federação Nacional de Karaté de Portugal)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KXTSQXW6P83R31HCRY2PRTAM
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct

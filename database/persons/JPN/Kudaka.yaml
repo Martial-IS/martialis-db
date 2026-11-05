@@ -1,0 +1,41 @@
+type: Person
+id: 01KZ9TQS3V9T7H2P7XY87EYJDB
+name:
+  ja-Latn: Kudaka
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+description:
+  en: Karate teacher from the Ryu-Kyu archipelago (Okinawa), described by Minoru Mochizuki as the son
+    of a Ryu-Kyu king. Station master at Saatchi station in Mongolia during the war, where he held 3rd
+    dan in judo and trained daily with Mochizuki. Taught Mochizuki a karate style close to Shuri-te, on
+    which Mochizuki based the kata Happoken.
+hasRankAssertion:
+- id: 01M3YH7N5G232WX2A505YEWBKD
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 3
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Mochizuki's first-person account records Kudaka as 3rd dan in judo
+  hasEvidence:
+  - basedOnSource: 01KZ9TQS3VNHWPHTJCAKYNERW6
+    quotation: Il était 3° dan de judo, et très fier de sa technique.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZ9TQS3VNHWPHTJCAKYNERW6
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+  quotation: C'était le fils du roi Kudaka, de l'archipel des Ryu-Kyu, et il avait été formé à cet art
+    depuis l'enfance. Je suis devenu son élève, et c'est lui qui m'a enseigné le karaté. Il pratiquait
+    un style proche du Shurite.
+notes: First name and kanji unknown; the account comes entirely from Mochizuki's 1987 interview.
+tags:
+- karate
+- shuri-te
+- mongolia

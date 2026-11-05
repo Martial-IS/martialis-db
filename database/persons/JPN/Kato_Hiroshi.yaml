@@ -1,0 +1,85 @@
+type: Person
+id: 01M6BGKGNV4FRVM551GTSNN470
+name:
+  ja-Latn: Kato Hiroshi
+  ja: 加藤紘
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1944-06-20'
+  hasEvidence:
+  - basedOnSource: 01M6BGKGNV4Q4ZQ20E1N303M38
+    locator: 立身流系譜 (歴代宗家)
+    locatorLabel: section
+    quotation: '昭和19年(1944年)6月20日 加藤高の長男として出生。'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: >-
+    22nd and current headmaster of the Tatsumi-ryu, eldest son of Kato Takashi; a lawyer.
+hasEvidence:
+- basedOnSource: 01M6BGKGNV4Q4ZQ20E1N303M38
+  locator: 立身流系譜 (歴代宗家)
+  locatorLabel: section
+  quotation: '第22代(現宗家) 加藤紘 (かとう ひろし)'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M6BGKGNVFCN4GPCZQVY9DJHA
+  teacher: 01M6BGKGNV4GHPM6CFYCTJG9ED
+  assertedStyle: 01M6BGKGNVKRWZEKBYRTBWPCGS
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The ryu's own history page; one tradition.
+  hasInteraction:
+  - hasEvidence:
+      - basedOnSource: 01M6BGKGNV4Q4ZQ20E1N303M38
+        locator: 立身流系譜 (歴代宗家)
+        locatorLabel: section
+        quotation: '幼少より父高、伯父貞雄、流門の皆伝師範長野弘、同大木邦明等につき剣道、立身流を学ぶ。'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+- id: 01M6BGKGNVVN02F952MQ9A710V
+  teacher: 01M6BGKGNV5JKQHBRFRK760QT9
+  assertedStyle: 01M6BGKGNVKRWZEKBYRTBWPCGS
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The ryu's own history page; one tradition.
+  hasInteraction:
+  - hasEvidence:
+      - basedOnSource: 01M6BGKGNV4Q4ZQ20E1N303M38
+        locator: 立身流系譜 (歴代宗家)
+        locatorLabel: section
+        quotation: '幼少より父高、伯父貞雄、流門の皆伝師範長野弘、同大木邦明等につき剣道、立身流を学ぶ。'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M6BGKGNVDHWX4SE06EVJZ57D
+  rankStyle: 01M6BGKGNVKRWZEKBYRTBWPCGS
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+  rankGrade: rankgrade:menkyo_kaiden
+  grantedBy: 01M6BGKGNV4GHPM6CFYCTJG9ED
+  dateConferred: '1981-12'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The ryu's own history page; one tradition.
+  hasEvidence:
+  - basedOnSource: 01M6BGKGNV4Q4ZQ20E1N303M38
+    locator: 立身流系譜 (歴代宗家)
+    locatorLabel: section
+    quotation: '昭和56年(1981年)12月立身流免許皆伝を高より允許される。'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+notes: >-
+  Also learned from the ryu's licensed teachers Nagano Hiroshi and Oki Kuniaki (no records). Former president of the Nihon Kobudo Shinkokai. His eldest son Kato Atsushi is the designated next headmaster (皆済 2022-12).

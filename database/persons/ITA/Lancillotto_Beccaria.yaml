@@ -1,0 +1,36 @@
+type: Person
+id: 01M5JSGG50728Z03CSQSJ5TF6K
+name:
+  en: Lancillotto Beccaria
+aka:
+  en:
+    - Lancillotto Beccaria di Pavia
+description:
+  en: >-
+    Condottiero of Pavia named by Fiore dei Liberi among the men he trained.
+hasTeacherAssertion:
+  - id: 01M5JSGG50RQFF2F4FH7BAGM7G
+    teacher: 01M5JSGG50BY7NFE13HKVSR7DW
+    assertedStyle: 01M5JSGG50KYXNMCB38XCKHKMF
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Their teacher's own account.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JSGG5081ZEGH8JTM4FRCAV
+            quotation: >-
+              He further offered an extensive list of the famous condottieri that he trained, including
+              [...] Lancillotto Beccaria di Pavia
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JSGG5081ZEGH8JTM4FRCAV
+    informationType: infotype:secondary
+    supports: true
+tags:
+  - fencing
+  - italian-school

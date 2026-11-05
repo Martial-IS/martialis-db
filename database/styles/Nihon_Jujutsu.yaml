@@ -1,0 +1,70 @@
+type: Style
+id: 01KYND6715TD9KDJCJTYW3WDGX
+name:
+  en: Nihon Jujutsu
+  ja: 日本柔術
+styleType: styleclass:modern
+foundedEvent:
+  startDate: '1957'
+  eventPlace: 01KYND6715CCR0GCA9FDDPVFNX
+  founder:
+    - 01KYND6715JYA1K07KHXH3FNG6
+  hasEvidence:
+    - basedOnSource: 01M3KPWDBRSKBW6MNA89ZBR0PX
+      quotation: In 1957, Sato-sensei founded the U.S. Embassy Judo Club where he continued to develop and refine the techniques that ultimately evolved into Nihon Jujutsu.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M3KPWDBRKK9RH3D111RAYWAV
+      quotation: >-
+        The founder of Nihon Jujutsu, Sato Shizuya, established this system based on his extensive studies with leading Japanese budoka
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5GM7Q6W1M3BZZN2M21
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9B
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: INJA's own Origins page states Nihon Jujutsu derives principles and techniques
+        from pre-1945 Kodokan Judo; no independent corroboration was found
+    hasEvidence:
+      - basedOnSource: 01M3KPWDBRKK9RH3D111RAYWAV
+        quotation: Its principles and techniques derive from Japanese unarmed combat and self-defense techniques from pre-1945 judo and aikibujutsu
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GSB7KJ65EHXJ0HCPB
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9R
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: USEJC's own site describes Nihon Jujutsu as partly based on pre-WWII Aikijujutsu
+        of Ueshiba and Tomiki; no independent corroboration was found
+    hasEvidence:
+      - basedOnSource: 01M3M02EJWKWX91BN21JN33FKY
+        quotation: Satō sensei was the founder and 10dan of Nihon Jūjutsu, based on the pre-WWII Aikijūjutsu of Ueshiba Morihei O-sensei and Tomiki Kenji sensei
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: 'Nihon Jujutsu (日本柔術) is a modern Japanese martial art founded by Sato Shizuya. It focuses on practical, efficient self-defense techniques derived from pre-1945 Kodokan Judo, Aikibujutsu, and Taihojutsu (Japanese police methods). Training includes physical conditioning, evasion, striking, throwing, and immobilization techniques.
+
+'
+hasEvidence:
+  - basedOnSource: 01M3KPWDBRKK9RH3D111RAYWAV
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M3M02EJWKWX91BN21JN33FKY
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - gendai-budo
+  - self-defense
+  - japanese
+  - gendai

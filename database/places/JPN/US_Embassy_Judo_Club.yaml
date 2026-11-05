@@ -1,0 +1,119 @@
+type: Place
+id: 01KYND6715CCR0GCA9FDDPVFNX
+name:
+  en: US Embassy Judo Club
+  ja: 米国大使館柔道部
+aka:
+  en: Embassy Judo Club
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Akasaka, Tokyo
+      countryCode: eucountry:JPN
+      wikidata: wd:Q1490
+    address: Akasaka 6-chome, Minato-ku, Tokyo (near Roppongi Station)
+hasAffiliationAssertion:
+  - id: 01M3YH7N5G6C1X9WAW1MJQJ9P5
+    relatedOrganization: 01KYND67158B7TAT2KS5M3MK3K
+    affiliationRelation: affrel:member_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The club's own site states it was considered IMAF's headquarters dojo while Sato Shizuya was
+        IMAF's managing director; no record from IMAF.
+    hasEvidence:
+      - basedOnSource: 01M3M02EJWKWX91BN21JN33FKY
+        quotation: >-
+          Satō Shizuya sensei was the managing director of IMAF and the Embassy Judo Dojo was considered its headquarters dojo during those many years.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1957'
+  founder:
+    - 01KYND6715JYA1K07KHXH3FNG6
+  hasEvidence:
+    - basedOnSource: 01M3KPWDBRSKBW6MNA89ZBR0PX
+      quotation: In 1957, Sato-sensei founded the U.S. Embassy Judo Club where he continued to develop and refine the techniques that ultimately evolved into Nihon Jujutsu.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M3M02EJWKWX91BN21JN33FKY
+      quotation: established 1959 by Satō Shizuya sensei
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M4R9845WAX13DH3AY7FWB3S7
+    instructor: 01KYND6715JYA1K07KHXH3FNG6
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1957
+      endYear: 2011
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: His own association's page; one side only.
+    hasEvidence:
+      - basedOnSource: 01M3KPWDBRSKBW6MNA89ZBR0PX
+        quotation: 'Embassy Judo Club Shihan, 1957 - 2011'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M4R9845WRH7GSYWM8KW51JGB
+    instructor: 01KYND6715KKTV91SDS3EXFMGM
+    instructorCapacity: instrcap:instructor
+    instructorPeriod:
+      startYear: 2011
+      endYear: 2015
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: His own association's page; one side only.
+    hasEvidence:
+      - basedOnSource: 01M3KPWDBRD2VMHSKN50ZT7KRK
+        quotation: '2011 - 2015: Program Director, U.S. Embassy Judo Club, Tokyo, Japan'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M4R9845WR2RKKYZ2YYNC495N
+    instructor: 01KYPR30B0C068BEA1FY08VTE0
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 2011
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The club's page and his own author page; both from his side.
+    hasEvidence:
+      - basedOnSource: 01M3M02EJWKWX91BN21JN33FKY
+        quotation: >-
+          Lance Gatling, the Director of US Embassy Judo
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M4R6M024E43B914VBJPG1SE4
+        quotation: >-
+          Director, US Embassy Jūdō and Jūjutsu 米大使館柔道場長
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+logo:
+  contentUrl: https://usejc.org/wp-content/uploads/2023/10/screen-shot-2023-10-03-at-21.29.33.png
+  imageAttribution:
+    basedOnSource: 01M3M02EJWKWX91BN21JN33FKY
+    informationType: infotype:secondary
+website: https://usejc.org/
+description:
+  en: Traditional judo and Nihon Jujutsu dojo in Tokyo, founded by Sato Shizuya in 1957. The dojo has been supported by US Ambassadors to Japan as honorary presidents including Douglas MacArthur II, Edwin Reischauer, Mike Mansfield, Walter Mondale, and Caroline Kennedy.
+hasEvidence:
+  - basedOnSource: 01M3M02EJWKWX91BN21JN33FKY
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - dojo
+  - tokyo
+  - nihon-jujutsu
+  - judo

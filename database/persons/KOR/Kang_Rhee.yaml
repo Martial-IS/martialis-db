@@ -1,0 +1,53 @@
+type: Person
+id: 01M6ERSPBWCH6E8016RP6T2PBB
+name:
+  en: Kang Rhee
+nationality:
+- countryCode: eucountry:KOR
+  wikidata: wd:Q884
+description:
+  en: >-
+    Korean-American karate teacher in Memphis; founder of PaSaRyu and Elvis Presley's teacher.
+hasTeacherAssertion:
+- id: 01M6ERSPBW7CYENTD6N2NXJQWT
+  teacher: 01M6ERSPBWVDQC826X444MJRYJ
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9S
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Named by a PaSaRyu school's own history; Graceland names Kang Duk Won among Rhee's arts
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M6ERRV5G3SMA1GA714KKT9R6
+      quotation: >-
+        Having studied in South Korea under Master Byung In Yun, Master Nam Sak Lee and Master Chul Hee Park
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ERRV5G3PYWA5DZC121H6PY
+      quotation: >-
+        Rhee trained in Kong Soo Do, Chang Mu Kwan, Kwon Bup, Kang Duk Won and Han Kuk Hap Ki Do in the 1950s and 60s.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:indirect
+notes: >-
+  The PaSaRyu page also names Byung In Yun (Yoon Byung-in) and Nam Sak Lee (Lee Nam-suk, later head of
+  Chang Moo Kwan). No claim to Yoon: he disappeared in 1951, when Rhee was about 13. Lee Nam-suk is not
+  in the database. Wikidata gives born 1938-01-30 in Seoul and died 2019-08-16, without references;
+  Graceland's notice of his death (2019-08-17) gives no date.
+hasEvidence:
+- basedOnSource: 01M6ERRV5G3PYWA5DZC121H6PY
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M6ERRV5G3SMA1GA714KKT9R6
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q139902728
+tags:
+- karate
+- pasaryu

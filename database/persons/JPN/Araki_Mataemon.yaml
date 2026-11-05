@@ -1,0 +1,73 @@
+type: Person
+id: 01M6BHSAXWNC0J7ZZ2BJ11NV43
+name:
+  ja-Latn: Araki Mataemon
+  ja: 荒木又右衛門
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1584'
+  hasEvidence:
+  - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+    locator: 'Yagyu Shingan-ryu Taijutsu'
+    locatorLabel: section
+    quotation: 'Founder: Araki Mataemon, 1584-1637'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1637'
+  hasEvidence:
+  - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+    locator: 'Yagyu Shingan-ryu Taijutsu'
+    locatorLabel: section
+    quotation: 'Founder: Araki Mataemon, 1584-1637'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/1/1e/Araki_Mataemon_%E8%8D%92%E6%9C%A8_%E5%8F%88%E5%8F%B3%E8%A1%9B%E9%96%80_%28BM_2008%2C3037.00101%29.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Araki_Mataemon_%E8%8D%92%E6%9C%A8_%E5%8F%88%E5%8F%B3%E8%A1%9B%E9%96%80_(BM_2008,3037.00101).jpg
+    cite: "Utagawa Kuniyoshi (歌川国芳), Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    Founder of the Edo line of Yagyu Shingan-ryu, a student of Yagyu Munenori.
+hasEvidence:
+- basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+  locator: 'Yagyu Shingan-ryu Taijutsu'
+  locatorLabel: section
+  quotation: 'Founder: Araki Mataemon, 1584-1637'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M6BHSAXWZCXE1HXP7ABCRYR2
+  quotation: '当流體術とは柔術、剣術、棒術、長刀術、居合術などの総称で、流祖は荒木又右衛門。'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M6BHSAXWJJTVE67KRG84D0YD
+  teacher: 01M6BHSAXWCYFZCWJ3C7Y0DGM0
+  assertedStyle: 01M6BHSAXW71NDAE1K8Q6W4F9S
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The Field Guide states it; the school’s own page names Yagyu Jubei as its patron (法祖), not Munenori as his teacher.
+  hasInteraction:
+  - hasEvidence:
+      - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+        locator: 'Yagyu Shingan-ryu Taijutsu'
+        locatorLabel: section
+        quotation: 'Founder Araki Mataemon trained under Yagyu Munenori of the Yagyu Shinkage-ryu, and was granted permission to use the Yagyu name in his own school’s name by Yagyu Jubei.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+sameAs:
+- wd:Q4783833
+notes: >-
+  The Field Guide says Yagyu Jubei allowed him to use the Yagyu name.

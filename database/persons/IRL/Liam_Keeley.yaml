@@ -1,0 +1,44 @@
+type: Person
+id: 01M6BGKGNVCNYD32VCDCM2YRVD
+name:
+  en: Liam Keeley
+description:
+  en: >-
+    Member of the Tatsumi-ryu since 1984, with mokuroku in iaijutsu, kenjutsu and yawara; one of the first non-Japanese to complete its kazunuki.
+hasEvidence:
+- basedOnSource: 01M6BGKGNVNKEBSQTX26JY51AB
+  locator: Contributor note
+  locatorLabel: section
+  quotation: 'He has been a member of Tatsumi-ryu since 1984, and has been awarded mokuroku for iaijutsu, kenjutsu, and yawara.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M6BGKGNVNKEBSQTX26JY51AB
+  locator: Contributor note
+  locatorLabel: section
+  quotation: 'Liam Keeley was among the first non-Japanese to participate in the Tatsumi-ryu kazunuki, drawing and cutting three thousand times in a single day'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M6BGKGNVAQGH6V1PGBF17KTK
+  teacher: 01M6BGKGNV4GHPM6CFYCTJG9ED
+  assertedStyle: 01M6BGKGNVKRWZEKBYRTBWPCGS
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:possible
+    assessedBy: agent:FSM
+    confidenceRationale: Membership and mokuroku under the 21st headmaster are stated; that Kato taught him is implied by the ryu's one-teacher structure, not stated.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1984
+    hasEvidence:
+      - basedOnSource: 01M6BGKGNVNKEBSQTX26JY51AB
+        locator: Contributor note
+        locatorLabel: section
+        quotation: 'He has been a member of Tatsumi-ryu since 1984, and has been awarded mokuroku for iaijutsu, kenjutsu, and yawara.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+notes: >-
+  The book's introduction calls him an ex-South African and Irish citizen, a member of Draeger's hoplology team in Indonesia, and a former Goju-ryu student at Higaonna Sensei's Yoyogi dojo. Mokuroku is not in the rank vocabulary, so it is not a rank claim here.

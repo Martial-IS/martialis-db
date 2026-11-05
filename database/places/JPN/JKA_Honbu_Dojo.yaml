@@ -1,0 +1,71 @@
+type: Place
+id: 01KYYYTTW3Y75SK72Z4J0N1DZN
+name:
+  en: JKA Honbu Dojo
+  ja: 日本空手協会本部道場
+  ja-Latn: Nihon Karate Kyōkai Honbu Dōjō
+aka:
+  en:
+    - JKA Headquarters Dojo
+    - Japan Karate Association Honbu Dojo
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Yotsuya
+      countryCode: eucountry:JPN
+      wikidata: wd:Q1149120
+    address: Yotsuya, Shinjuku, Tokyo, Japan
+hasAffiliationAssertion:
+  - id: 01M3YH7N5GRNH95C9PM4H0DB12
+    relatedOrganization: 01KYYVEV2MPD8XJNM8H15SY06H
+    affiliationRelation: affrel:branch_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The JKA Honbu Dojo is explicitly the headquarters facility of the Japan Karate Association
+        itself. This is a structural fact about the org's own premises, so no independent source is
+        expected.
+    notes: The JKA's own headquarters dojo, from which JKA branch dojo across Japan were spurred.
+    hasEvidence:
+      - basedOnSource: 01KYYVEV2M1MAHDWS6QMX036XY
+        quotation: In 1955 a headquarters dojo was built at Yotsuya in Tokyo. It spurred the building of JKA branch dojo all across Japan.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1955'
+  hasEvidence:
+    - basedOnSource: 01KYYVEV2M1MAHDWS6QMX036XY
+      quotation: In 1955 a headquarters dojo was built at Yotsuya in Tokyo. It spurred the building of JKA branch dojo all across Japan.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: 'The headquarters dojo of the Japan Karate Association (JKA), built in 1955 in Yotsuya, Tokyo. It housed the JKA''s two-year specialist instructor training program (kenshusei) that graduated instructors such as Hirokazu Kanazawa, and was where foreign students including Ari Anastasiadis trained.
+
+'
+  ja: '日本空手協会（JKA）の本部道場。1955年に東京・四谷に建設され、金澤弘和らを輩出した二年制の指導員養成制度（研修生制度）が置かれ、アリ・アナスタシアディスら外国人も稽古した。
+
+'
+hasEvidence:
+  - basedOnSource: 01KYYVEV2M1MAHDWS6QMX036XY
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYYVEV2M4CY1WBJ3MW2WK4FE
+    quotation: In 1956, the JKA started its kenshusei instructor intern training program at the JKA honbu dojo, in Yotsuya, Tokyo, which had been built in 1955.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYYP8SJVBNB6F6QFNFXEX1XG
+    quotation: Senior trainee Instructors from Shotokan Karate International Federation General Headquarters in Yotsuya, Tokyo, Japan
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - shotokan
+  - jka
+  - dojo
+  - tokyo
+  - karate

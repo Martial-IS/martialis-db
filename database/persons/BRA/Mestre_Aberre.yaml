@@ -1,0 +1,46 @@
+type: Person
+id: 01M6A2JTJ16N3ES5BKGQSP1X1S
+name:
+  pt: Mestre Aberrê
+aka:
+  pt: Raimundo Argollo
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Capoeira Angola mestre from Santo Amaro, one of Mestre Pastinha's best students, who brought
+    Pastinha to the Gengibirra roda in 1941; teacher of Mestre Canjiquinha.
+notes: >-
+  English Wikipedia (Mestre Canjiquinha) names him Antônio Raimundo.
+hasTeacherAssertion:
+  - id: 01M6A2JTJA8EMTG13HZQAX3J3K
+    teacher: 01M5H4AFG2ZRRQ0T4STJDTFRAR
+    assertedStyle: 01M6A2JTHSG7FHK01NCS2SN3FD
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              one of his best students, Raimundo Argollo, known as Aberrê (also spelled ABR) went
+              there as a visitor.
+            locator: '151'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    locator: '151'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q130418563
+tags:
+  - capoeira

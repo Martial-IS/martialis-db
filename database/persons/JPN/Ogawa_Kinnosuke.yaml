@@ -1,0 +1,130 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD6F
+name:
+  ja-Latn: Ogawa Kinnosuke
+  ja: 小川 金之助
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1884-05-18'
+  birthPlace:
+    label: Iwakura, Aichi Prefecture
+    countryCode: eucountry:JPN
+    wikidata: wd:Q648275
+deathEvent:
+  deathDate: '1962-03-30'
+  deathPlace:
+    label: Japan
+    countryCode: eucountry:JPN
+    wikidata: wd:Q17
+description:
+  en: Ogawa Kinnosuke was born in 1884 in Aichi prefecture. He began kendo whilst in school, at around 13/15 years of age, under kendo hanshi Kato Kiichi and later under Kohori Yasutada. He was a student and later an instructor at the Budo Senmon Gakko, as well as in the Nagoya police. He was a Butokukai hanshi and was Busen's principal kendo instructor in the 1930's and up until 1945.  He authored "Teikoku Kendo Kyohon" (The Kendo Textbook of Imperial Japan) in 1932 (revised 1937) and was posthumously inducted into the Kendo Hall of Fame in 2003.
+notes: One of the most influential kendo instructors of the 20th century, considered part of the triumvirate with Naito Takaharu and Takano Sasaburo that shaped modern kendo. Founded Kodokan dojo in 1924. Participated in Tenran shiai (imperial tournaments) in 1934 and 1940. Was the first kendoka to receive the Medal with Purple Ribbon in 1959.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/9/9e/%E5%B0%8F%E5%B7%9D%E9%87%91%E4%B9%8B%E5%8A%A9.png
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E5%B7%9D%E9%87%91%E4%B9%8B%E5%8A%A9.png
+    cite: "剣道家写真名鑑刊行会, Wikimedia Commons"
+hasTeacherAssertion:
+  - id: 01M3YH7N5GEDQZFWK9R011TTXQ
+    teacher: 01KJJAWN29MA64W22606R3WD6H
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9W
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Well-documented student of Naito Takaharu at Budo Senmon Gakko from 1907-1910, as described in detailed historical accounts including Kenshi 24/7 article
+    role: teachrole:student
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD99
+        interactionPeriod:
+          startYear: 1907
+          endYear: 1910
+        hasEvidence:
+          - basedOnSource: 01M6EF6KKAF5PWQM6G78F3GJP5
+            quotation: In 1905 a school was formally opened to teach kendo instructors and Naito was selected as the senior teacher. At this time the school was known as the Bujutsu Kyoin Yoseijo, but eventually (after a few re-organisations and renames) it would be known to everyone as Busen (Budo Senmon Gakko). It was to this school that Ogawa was dispatched by the Nagoya police department in 1907. Ogawa would spend 3 years studying kendo directly under Naito.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6EF6KKA63CS2CK6XMKPS78R
+            quotation: one of his ex-students and already senior Busen instructor – Ogawa Kinnosuke – took over the role of head instructor
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GFDADYNRK1DGY8E3P
+    rankStyle: 01KJJAWN29MA64W22606R3WD9W
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 10
+    dateConferred: '1957'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Awarded 10th dan by All Japan Kendo Federation in 1957 as one of the first five recipients, all students of Naito Takaharu and Bujutsu Kyoin Yoseijo graduates
+    hasEvidence:
+      - uri: https://ja.wikipedia.org/wiki/%E5%B0%8F%E5%B7%9D%E9%87%91%E4%B9%8B%E5%8A%A9
+        archiveUri: http://web.archive.org/web/20251118121928/https://ja.wikipedia.org/wiki/%E5%B0%8F%E5%B7%9D%E9%87%91%E4%B9%8B%E5%8A%A9
+        cite: 小川金之助 - Japanese Wikipedia
+        quotation: 1957年（昭和32年）、全日本剣道連盟から剣道十段を授与される。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M6EF6KKAF5PWQM6G78F3GJP5
+        quotation: After the war ended, like all the senior pre-war guard, we don't really hear or see much of Ogawa until he is awarded 10th dan from the newly formed Zen Nippon Kendo Renemei in 1957. (All the 10th dan recipients were Naito students and Bujutsu Kyoin Yoseijo graduates.)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - uri: https://ja.wikipedia.org/wiki/%E5%B0%8F%E5%B7%9D%E9%87%91%E4%B9%8B%E5%8A%A9
+    archiveUri: http://web.archive.org/web/20251118121928/https://ja.wikipedia.org/wiki/%E5%B0%8F%E5%B7%9D%E9%87%91%E4%B9%8B%E5%8A%A9
+    cite: 小川金之助 - Japanese Wikipedia
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q11460626
+hasHonorAssertion:
+  - id: 01M3YH7N5G5TACK65QZ49KRGY7
+    honorValue: Hanshi
+    honorType: honortype:title
+    honorGrade: honorgrade:shogo_hanshi
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Awarded hanshi title by Dai Nippon Butokukai while serving as Busen's principal kendo instructor in the 1930s, well-documented in historical sources
+    hasEvidence:
+      - uri: https://ja.wikipedia.org/wiki/%E5%B0%8F%E5%B7%9D%E9%87%91%E4%B9%8B%E5%8A%A9
+        archiveUri: http://web.archive.org/web/20251118121928/https://ja.wikipedia.org/wiki/%E5%B0%8F%E5%B7%9D%E9%87%91%E4%B9%8B%E5%8A%A9
+        cite: 小川金之助 - Japanese Wikipedia
+        quotation: 1929年（昭和4年）、内藤高治の死去にともない、武道専門学校教授に就任（1944年（昭和19年）まで務める）。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M6EF6KKAF5PWQM6G78F3GJP5
+        quotation: During this time he was awarded hanshi by the Butokukai. When Naito passed away suddenly in 1929, Ogawa was appointed as Busen's principle instructor.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M6EFBRPCGY5FZJM14FJBANVN
+    honorValue: Kyoshi
+    honorType: honortype:title
+    honorGrade: honorgrade:shogo_kyoshi
+    conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+    dateConferred: '1919'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Kendoka shashin meikan (1925) and a kenshi247 biography agree; Taisho 8 is 1919.
+    hasEvidence:
+      - basedOnSource: 01M6EF6KKA6C1PENQY8MCK6TN1
+        quotation: 'Ogawa Kinosuke [...] Qualification: Taisho 8th Year'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M6EF6KKAF5PWQM6G78F3GJP5
+        quotation: after being awarded his kyoshi in 1919, a fully fledged one
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct

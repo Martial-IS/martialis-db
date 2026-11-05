@@ -1,0 +1,63 @@
+type: Person
+id: 01M2WGWA1YB5K4N6YHVVE8TG9E
+name:
+  en: Yamaoka Tesshu
+  ja-Latn: Yamaoka Tesshu
+  ja: 山岡鉄舟
+aka:
+  en:
+    - Yamaoka Tetsu
+    - Yamaoka Tesshu (山岡鉄舟)
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1836-07-23'
+  dateOriginal: 天保7年6月10日
+  dateCalendar: datecal:japanese_lunisolar
+  birthPlace:
+    label: Honjo, Edo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q215646
+deathEvent:
+  deathDate: '1888-07-19'
+  dateOriginal: 明治21年7月19日
+  dateCalendar: datecal:japanese_nengo
+  deathPlace:
+    label: Tokyo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1490
+hasTeacherAssertion:
+  - id: 01M3YH7N5GGZNK3CCX4ZAGBBMG
+    teacher: 01M377JZDNP0404995NSSJZVQQ
+    assertedStyle: 01M3287E2ARJZVFEXS3FJFMHRQ
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Bennett names Asari as the teacher he settled on after trying several schools, and names the art. No period is given; Asari outlived him.
+    hasInteraction:
+      - interactionPeriod:
+          endYear: 1888
+        hasEvidence:
+          - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+            quotation: As a child he studied a number of different styles of kenjutsu, eventually becoming a disciple of Asari Yoshiaki (1822-94) of the Nakanishi-ha Ittō-ryū.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+description:
+  en: Zen monk, swordsman and key figure in the Bakumatsu period. Trained under Asari Yoshiaki in Nakanishi-ha Ittō-ryū and founded his own school, the Ittō-shōden Mutō-ryū, in 1885. Founder of the Shumpukan dojo in Tokyo. One of the ten swordsmen who led the Imperial Guard fencers, and teacher of Kagawa Senjirō, Nishikubo Hiromichi and Takano Sasaburō.
+notes: >-
+  Bennett also names Kitagaki Kunimichi among his students (no record).
+hasEvidence:
+  - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+    quotation: After the restoration, Tesshū served as a trusted aide to Emperor Meiji, and taught his brand of unforgiving kenjutsu to the Imperial Guards.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M2WKMT16Z9BNTF4GWEXXJNV3
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q1158894

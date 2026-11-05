@@ -1,0 +1,87 @@
+type: Style
+id: 01M5JGQAC7V7W1GTRS53NMNXYY
+name:
+  en: Vigny method
+aka:
+  en:
+    - Vigny stick fighting
+    - Self-defence with a walking stick
+styleType: styleclass:modern
+foundedEvent:
+  startDate: '1898~'
+  location:
+    label: Geneva
+    countryCode: eucountry:CHE
+    wikidata: wd:Q71
+  founder:
+    - 01M5JGQAC7CYFWR75P18PT4FD4
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Around 1898, Pierre Vigny (1869–), a former soldier in the Swiss Army who taught Charlemont’s
+        style of savate/French Boxing in Geneva, founded a unique method of self defense using both
+        cannes and umbrellas.
+      locator: 219–220
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5JGQAC7Y1X7WATDMAEV48N2
+      quotation: >-
+        Vigny is best-remembered today as the founder of a unique style of stick fighting, which
+        employed walking sticks and umbrellas as weapons of self-defence.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasStyleRelationAssertion:
+  - id: 01M5JGQAC7HQRTXTETQYGJ2TKB
+    relatedStyle: 01M5JG4Y25H7X8KYE2MFE6J1FC
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia states it; Green and Svinth place it in the canne history.
+    hasEvidence:
+      - basedOnSource: 01M5JGQAC7Y1X7WATDMAEV48N2
+        quotation: >-
+          He specialised in French savate and in the art of stick fighting known as canne de combat,
+          which he heavily modified to better suit his theories of effective self defense.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Aspects of Pierre Vigny’s canne self-defense curriculum have been revived within the modern
+          practices of Bartitsu and Defense dans la Rue, as well as preserved within the Israeli martial
+          art of Kapap.
+        locator: '220'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+description:
+  en: >-
+    Self-defence method with the walking stick and umbrella, founded by Pierre Vigny around 1898 in
+    Geneva from a heavily modified canne de combat. It used high, double-handed guards and strikes to
+    the head, hands and joints. Vigny taught it at Barton-Wright's Bartitsu Club and at his own London
+    academy; Barton-Wright described it in Pearson's Magazine (1901), and H. G. Lang's book The Walking
+    Stick Method of Self Defence (1923) drew on it.
+notes: >-
+  fr Wikipedia says the high guard was inspired by Caribbean kalinda; not in other sources here.
+  Green and Svinth (p. 220) say Kapap preserves parts of it; that link waits for the Kapap cluster.
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      In 1923, Superintendent H. G. Lang (dates unknown), a British officer of the Indian Police, wrote a
+      book entitled The Walking Stick Method of Self Defence, which drew largely from the Vigny system.
+    locator: '220'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - stick-fighting
+  - self-defence
+  - weapons
+  - bartitsu

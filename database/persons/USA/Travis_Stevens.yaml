@@ -1,0 +1,144 @@
+type: Person
+id: 01KZS3PSKRNV533S2F4ABNVBDV
+name:
+  en: Travis Stevens
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1986-02-28'
+  birthPlace:
+    label: Bellevue
+    countryCode: eucountry:USA
+    wikidata: wd:Q214164
+  hasEvidence:
+    - basedOnSource: 01KZS3PSKQYXK9RYY0XEBAGD56
+      quotation: Travis Stevens (born February 28, 1986) is an American judoka who competed in the 2008, 2012, and 2016 Summer Olympics.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://www.bellevuereporter.com/wp-content/uploads/sites/3/2016/10/88296bellevueTravisStevens.jpg
+  imageAttribution:
+    uri: https://www.bellevuereporter.com/2011/02/28/travis-stevens-takes-gold-at-judo-grand-prix-bellevue-native-upends-olympic-champ-on-path-to-gold-medal/
+    cite: "Bellevue Reporter"
+    informationType: infotype:secondary
+description:
+  en: American judoka, 2016 Olympic silver medalist in the -81 kg division, and 6th dan black belt in judo. Holds a black belt in Brazilian jiu-jitsu under John Danaher and Renzo Gracie, awarded by Danaher in November 2013. He trains at and teaches out of FUJI Gym in Wakefield, Massachusetts, and was coached by Jimmy Pedro.
+hasTeacherAssertion:
+  - id: 01M3YH7N5GAYRY863P9Y21C1C0
+    teacher: 01KYSNKBS820Y33CQFDDFKQ3EZ
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia states Travis Stevens holds a black belt in Brazilian jiu-jitsu under John Danaher and Renzo Gracie, which Danaher awarded on November 19, 2013; BJJEE reproduces Danaher's own Facebook post calling Stevens "my friend and student"
+    hasInteraction:
+      - interactionPlace: 01KYYYTTW3RXYAKA5JVNCFB9CA
+        hasEvidence:
+          - basedOnSource: 01KZS3PSKQYXK9RYY0XEBAGD56
+            quotation: Stevens also holds a black belt in Brazilian jiu-jitsu under John Danaher and Renzo Gracie, which Danaher awarded on November 19, 2013.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZS6T2WBPWM0W5CQRSAC5P5X
+            quotation: It is with considerable pride and happiness that I learned this memorial weekend of the outstanding success of my friend and student, Travis Stevens.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G0WFK6Y9TJJ6BNVH8
+    teacher: 01KYSNKBSAAS27TBVHR0EBZ059
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia credits Travis Stevens's BJJ black belt to John Danaher and Renzo Gracie jointly, with Danaher performing the promotion itself
+    hasInteraction:
+      - interactionPlace: 01KYYYTTW3RXYAKA5JVNCFB9CA
+        hasEvidence:
+          - basedOnSource: 01KZS3PSKQYXK9RYY0XEBAGD56
+            quotation: Stevens also holds a black belt in Brazilian jiu-jitsu under John Danaher and Renzo Gracie, which Danaher awarded on November 19, 2013.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GSH2GFZ3C90YF8H68
+    teacher: 01KYMDKKCPXRY92G0TVA86F03N
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia lists Jimmy Pedro as one of Travis Stevens's coaches; Bellevue Reporter (2011) reports Stevens trains with Team FORCE under Jimmy Pedro's direction; BJJEE reproduces Danaher noting Stevens's "evening Judo workout under the great Jimmy Pedro"; BJJ Fanatics states Pedro was Stevens's coach
+    hasInteraction:
+      - interactionPlace: 01KYMWJH24RA16DVC53FEMWR9F
+        hasEvidence:
+          - basedOnSource: 01KZS3PSKQYXK9RYY0XEBAGD56
+            quotation: Coached by Jimmy Pedro, James Harai Sr., Jason Morris
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZS6T2W94S29MD8ZYJV614G4
+            quotation: Stevens represents USA Judo and trains with Team FORCE, under the direction of former world champion and two-time Olympic medalist Jimmy Pedro.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZS6T2WBPWM0W5CQRSAC5P5X
+            quotation: Then he would immediately drive back to Boston to do the evening Judo workout under the great Jimmy Pedro.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZS6T2WDMB555K0HTHXZNFFP
+            quotation: Pedro was also the coach of Travis Stevens and Kayla Harrison!
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GCHSACR13Y7NH2X4G
+    rankStyle: 01KJJAWN29MA64W22606R3WD9J
+    rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+    rankGrade: rankgrade:bjj_black
+    grantedBy: 01KYSNKBS820Y33CQFDDFKQ3EZ
+    dateConferred: 2013-11
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia states Danaher awarded the BJJ black belt on November 19, 2013; BJJEE independently reports the same date
+    hasEvidence:
+      - basedOnSource: 01KZS3PSKQYXK9RYY0XEBAGD56
+        quotation: Stevens also holds a black belt in Brazilian jiu-jitsu under John Danaher and Renzo Gracie, which Danaher awarded on November 19, 2013.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZS6T2WBPWM0W5CQRSAC5P5X
+        quotation: Travis also holds a black belt in Brazilian Jiu-Jitsu under John Danaher. Danaher rewarded Stevens his black belt on November 19, 2013.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GQWY05TDM99F0H6B1
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 6
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia infobox lists Stevens as a 6th dan judo black belt
+    hasEvidence:
+      - basedOnSource: 01KZS3PSKQYXK9RYY0XEBAGD56
+        quotation: Rank 6th dan black belt in judo
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZS3PSKQYXK9RYY0XEBAGD56
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q2155201
+tags:
+  - judo
+  - brazilian-jiu-jitsu
+  - olympian

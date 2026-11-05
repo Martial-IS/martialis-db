@@ -1,0 +1,205 @@
+type: Person
+id: 01KYMDKKCPZRCC1AKKWAERY02W
+name:
+  en: Emilio Mel Bruno
+aka:
+  en:
+  - Mel Bruno
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+birthEvent:
+  birthDate: '1914'
+  hasEvidence:
+  - uri: https://www.usadojo.com/emilio-mel-bruno/
+    quotation: >-
+      Emilio Mel Bruno passed away on September 20, 2003 at the age of 89.
+    cite: Emilio Mel Bruno - USAdojo
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:indirect
+deathEvent:
+  deathDate: '2003-09-20'
+  hasEvidence:
+  - uri: https://www.usadojo.com/emilio-mel-bruno/
+    quotation: >-
+      Emilio Mel Bruno passed away on September 20, 2003 at the age of 89.
+    cite: Emilio Mel Bruno - USAdojo
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: American judo pioneer and the first non-Asian in the United States to receive 5th dan (1954)
+    and later 6th dan. He was taught judo by his foster father Roy 'Pop' Moore and received his 1st dan
+    certified by Jigoro Kano in 1935 (awarded by the Kodokan, not as a personal student). He was appointed
+    supervisor of Judo and Combative Measures at Strategic Air Command headquarters in 1951, creating
+    the SAC Judo program that trained thousands of airmen. He coached the US Judo team at the 1958 and
+    1961 World Championships and prepared the USAF team for the 1964 Olympic tryouts. He was known as
+    the 'father of Air Force Judo'.
+image:
+  contentUrl: https://www.usadojo.com/wp-content/uploads/2014/07/mel-bruno-hd.jpg
+  imageAttribution:
+    uri: https://www.usadojo.com/emilio-mel-bruno/
+    cite: "USAdojo"
+    informationType: infotype:secondary
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M3YH7N5G52D4Q6F8XY75QP1P
+  teacher: 01KYMSJAD9QGRF97NBVP2KP9S2
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: USAdojo states Moore, his foster father, taught him judo and wrestling in the early
+      1930s; Black Belt names him only as Moore's wrestling pupil and foster son.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1931
+    hasEvidence:
+    - uri: https://www.usadojo.com/emilio-mel-bruno/
+      cite: Emilio Mel Bruno - USAdojo
+      quotation: Mel Bruno was the foster child of Roy “Pop” H. Moore Sr. [...] Pop taught judo and wrestling
+        to both Mel, and his much younger son, Roy Jr., in the very early 1930's
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5CCDEAHKFSFWKH5G7JPH100
+      locator: '39'
+      locatorLabel: page
+      quotation: Mel Bruno was a high school student and one of Coach Moore's top wrestlers, as well as
+        his foster son.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:indirect
+- id: 01M5CD497XC6CBTZNGXZA07H7R
+  teacher: 01KJJAWN28MWKKSN4J02MVY1TB
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:possible
+    assessedBy: agent:FSM
+    confidenceRationale: One magazine profile places his start in judo with Kotani on the wrestling mats;
+      that may mean teaching or only shared practice.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1932
+    hasEvidence:
+    - basedOnSource: 01M5CCDEAHKFSFWKH5G7JPH100
+      locator: '39'
+      locatorLabel: page
+      quotation: Bruno took his initial bows in judo via the wrestling mats and Professor S. Kotani, who at
+        that time in 1932 had come over to the United States for Olympic competition that same year in Los
+        Angeles, California.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+  notes: >-
+    Informal contact, not a dojo enrolment: Kotani came to the United States in 1932 to learn wrestling
+    from Roy Moore, Bruno's foster father, and the two met on the wrestling mats.
+hasRankAssertion:
+- id: 01M3YH7N5GD0PQXVFNAQ9CV4CR
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 6
+  dateConferred: '1963'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: USAdojo gives the rank; Black Belt puts it nine years after his 1954 fifth dan.
+  hasEvidence:
+  - uri: https://www.usadojo.com/emilio-mel-bruno/
+    cite: Emilio Mel Bruno - USAdojo
+    quotation: When he retired as a 6th degree balck [sic] belt nine years later
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5CCDEAHKFSFWKH5G7JPH100
+    locator: '39'
+    locatorLabel: page
+    quotation: in 1954 Bruno was the first non-Oriental in the U.S. to receive a fifth degree. Nine years
+      later he was presented with a sixth degree
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M5CD497XT2ANQK40ZE39W3Q7
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 5
+  dateConferred: '1954'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Black Belt and USAdojo state it; USAdojo repeats the Black Belt text, so not
+      independent; no record from the grading body.
+  hasEvidence:
+  - uri: https://www.usadojo.com/emilio-mel-bruno/
+    cite: Emilio Mel Bruno - USAdojo
+    quotation: In 1954, he was recommended [...] to receive his 5th degree black belt.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5CCDEAHKFSFWKH5G7JPH100
+    locator: '39'
+    locatorLabel: page
+    quotation: in 1954 Bruno was the first non-Oriental in the U.S. to receive a fifth degree
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5GKPZ6YF7QBAFCYXYD
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 1
+  grantedBy: 01KJJAWN28MWKKSN4J02MVY1S1
+  dateConferred: '1935'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Multiple independent sources confirm Bruno received his shodan from Kano/Kodokan
+      in 1935
+  hasEvidence:
+  - uri: https://www.usadojo.com/emilio-mel-bruno/
+    cite: Emilio Mel Bruno - USAdojo
+    quotation: Mel Bruno received his first degree Black Belt from Jigaro Kano in 1935
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5CCDEAHKFSFWKH5G7JPH100
+    locator: '39'
+    locatorLabel: page
+    quotation: Bruno's black belt certificate was recommended by Dr. Jigoro Kano, the founder of Kodokan
+      judo
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- uri: https://www.usadojo.com/emilio-mel-bruno/
+  cite: Emilio Mel Bruno - USAdojo
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KYMDKKCPJKRP5KJ6ES81JY90
+  cite: Beish - Resume of Judo
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KYMSJAD9BEF7N9ZSAGG971Y4
+  cite: Roy Moore (wrestler) - Wikipedia EN
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M5CCDEAHKFSFWKH5G7JPH100
+  locator: '38'
+  locatorLabel: page
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- judo
+- sac-judo
+- usaf
+- strategic-air-command
+- american-judo-pioneer

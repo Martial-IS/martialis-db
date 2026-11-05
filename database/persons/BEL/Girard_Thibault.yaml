@@ -1,0 +1,97 @@
+type: Person
+id: 01M5JTMYPEYRC7G02MMJMR402R
+name:
+  en: Girard Thibault
+aka:
+  en:
+    - Gérard Thibault d'Anvers
+    - Girard Thibault d'Anvers
+nationality:
+  - countryCode: eucountry:BEL
+    wikidata: wd:Q31
+birthEvent:
+  birthDate: '1574~'
+  birthPlace:
+    label: Antwerp
+    countryCode: eucountry:BEL
+  hasEvidence:
+    - basedOnSource: 01M5JTMYPE4SRK7QC0549PVVAC
+      quotation: >-
+        Girard Thibault d'Anvers (ca. 1574–1627) was a 17th century Dutch fencing master and author of the
+        1628 rapier manual Academie de l'Espée
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1627'
+  hasEvidence:
+    - basedOnSource: 01M5JTMYPE4SRK7QC0549PVVAC
+      quotation: >-
+        Girard Thibault d'Anvers (ca. 1574–1627) was a 17th century Dutch fencing master and author of the
+        1628 rapier manual Academie de l'Espée
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Gérard Thibault (died 1627) was a mathematician, philosopher, architect, and physician who taught
+        fencing in Holland during the early seventeenth century
+      locator: '355'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Fencing master from Antwerp who studied first under Lambert van Someron, then the Spanish Destreza at
+    Sanlúcar de Barrameda (1605), won a masters' competition at Rotterdam about 1611 and taught in the
+    Netherlands. His posthumous Academie de l'Espée (1628) is one of the most elaborate fencing books,
+    joining Destreza-like geometry with occult and Pythagorean symbolism.
+notes: >-
+  The Destreza study at Sanlúcar names no teacher and has no place record, so it is not recorded as a
+  claim.
+hasTeacherAssertion:
+  - id: 01M5JTMYPEQQQQ6TJM9ZSTJCW2
+    teacher: 01M5JTMYPE1CWTGFP3TYWZ745X
+    assertedStyle: 01M5JRHX02FJ6XZ3X069NVX3SE
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JTMYPE4SRK7QC0549PVVAC
+            quotation: >-
+              Thibault first studied fencing in Antwerp under Lambert van Someron, who taught between the
+              years of 1564 and 1584.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JTMYPE4SRK7QC0549PVVAC
+    quotation: >-
+      There, he took an interest in fencing, studying the Spanish rapier system of Destreza.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5JTMYPEE68A88YPV8YV1WQR
+    quotation: >-
+      Academie de l'Espée describes a unique system of combat whose closest known relative is the
+      contemporary Spanish school of swordsmanship, also known as La Verdadera Destreza
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q5626027
+tags:
+  - fencing
+  - destreza
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/a/ae/%D0%96%D0%B5%D1%80%D0%B0%D1%80_%D0%A2%D0%B8%D0%B1%D0%BE_%281574%E2%80%931627%29.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:%D0%96%D0%B5%D1%80%D0%B0%D1%80_%D0%A2%D0%B8%D0%B1%D0%BE_(1574%E2%80%931627).jpg
+    cite: "Gérard Thibault d'Anvers, Wikimedia Commons"
+    informationType: infotype:secondary

@@ -1,0 +1,128 @@
+type: Person
+id: 01KYD74HFFTNR5VFZJREX97E88
+name:
+  en: Leung Bik
+  zh: 梁璧
+  zh-Latn: Liang Bi
+aka:
+  en:
+  - Mr. Bik
+  yue:
+  - 先生璧
+nationality:
+- countryCode: eucountry:CHN
+  wikidata: wd:Q148
+birthEvent:
+  birthDate: '1843-06-07'
+  birthPlace:
+    label: Foshan
+    countryCode: eucountry:CHN
+    wikidata: wd:Q34412
+  hasEvidence:
+  - basedOnSource: 01KYD74HFC6N14D0VP5KGRRDAP
+    quotation: >-
+      Leung Bik (born Leung Bik-wo with the courtesy name Tai-wah; 1843 – 1911)
+    cite: Leung Bik (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1912'
+  deathPlace:
+    label: Hong Kong
+    countryCode: eucountry:HKG
+    wikidata: wd:Q8646
+  hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    quotation: >-
+      Leung Bik lived with his student until his death in 1912, approximately one year later.
+    locator: '182'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYD74HFC6N14D0VP5KGRRDAP
+    quotation: >-
+      Leung Bik (born Leung Bik-wo with the courtesy name Tai-wah; 1843 – 1911)
+    cite: Leung Bik (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: false
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://dragonwingchun.com/Leung_Bik-300.jpg
+  imageAttribution:
+    uri: https://dragonwingchun.com/Leung-Bik.htm
+    cite: "Dragon Wing Chun"
+    informationType: infotype:secondary
+description:
+  en: Leung Bik (1843–1912) was a Chinese Wing Chun martial artist. He was the son of Leung Jan and one
+    of Ip Man's teachers, instructing him when Ip Man moved to Hong Kong for school.
+hasTeacherAssertion:
+- id: 01M3YH7N5GK65V57VMG8ZHT6YG
+  teacher: 01KYD74HFGEBZYJ17SBVPGNKZ7
+  assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Wikipedia only.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KYD74HFC6N14D0VP5KGRRDAP
+      quotation: At the young age he practiced Wing Chun under his father and grand-teacher Wong Wah-bo (黃華寶).
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        We can say with certainty that Leung Jan passed both his martial and medical knowledge on to
+        Chan Wah Shun, and most likely to some of his own children as well.
+      locator: '174'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:indirect
+hasHistoricityAssertion:
+- id: 01M69VM75SRDBBWEY30NS5ZTH2
+  historicity: hist:historical
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Doubt raised and answered by the same source.
+  hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    quotation: >-
+      Leung Bik might be a fabrication created by Ip Man to further his own reputation. Of course,
+      Foshan would have been full of people who personally knew Leung Jan in the early twentieth
+      century. It might have been difficult to pass off imaginary children to such a well-informed
+      audience.
+    locator: '174'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:indirect
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    quotation: >-
+      Leung Bik lived with his student until his death in 1912, approximately one year later.
+    locator: '182'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KYD74HFC6N14D0VP5KGRRDAP
+  cite: Leung Bik (Wikipedia EN)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+  locator: 174, 180-182
+  locatorLabel: page
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q5363020
+tags:
+- wing-chun
+- chinese-martial-arts

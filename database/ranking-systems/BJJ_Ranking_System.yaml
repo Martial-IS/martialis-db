@@ -1,0 +1,31 @@
+type: RankingSystem
+id: 01M11YJ1XMX79NAEPJ09NWKC1S
+name:
+  en: BJJ Ranking System
+  pt: Sistema de Graduação do Jiu-Jitsu Brasileiro
+rankSystemKind: enumerated
+gradeScheme: https://w3id.org/martialis/vocab/rank-grade/bjj
+description:
+  en: 'The Brazilian Jiu-Jitsu ranking system, standardised by the IBJJF: eight named belts (white, blue,
+    purple, brown, black, red-and-black, red-and-white, red), not a numbered dan/kyu ladder - belt colour
+    is the rank itself, not insignia on top of one. Belt is the system''s primary axis; each belt up to
+    black further divides into numbered degrees (stripes); black belt divides into six degrees, after
+    which the 7th/8th/9th degrees are marked by the red-and-black, red-and-white, and red belts respectively
+    (10th degree red reserved for the art''s founders).'
+foundedEvent:
+  startDate: '1967'
+  hasEvidence:
+  - basedOnSource: 01M11YJ1XMX79NAEPJ09NWKC1V
+    quotation: >-
+      The first official belt ranking system was created in 1967 by the Jiu-Jitsu Federation of Guanabara.
+    informationType: infotype:secondary
+    supports: true
+hasEvidence:
+- basedOnSource: 01M3M3HDCS5R2JPV171CKKTCET
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M11YJ1XMX79NAEPJ09NWKC1V
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct

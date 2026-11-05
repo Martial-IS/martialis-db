@@ -1,0 +1,63 @@
+type: Style
+id: 01KJJAWN29MA64W22606R3WD9V
+name:
+  ja-Latn: Yōshin-ryū
+  ja: 楊心流
+hasEvidence:
+  - basedOnSource: 01M6BEFR8FX3RA7GFZXZWA5025
+    supports: true
+    evidenceType: evidencetype:direct
+    informationType: infotype:secondary
+foundedEvent:
+  startDate: '1642'
+  founder:
+    - 01M6BEFR8FS5QZD7458F5ZGS80
+  location:
+    label: Nagasaki
+    countryCode: eucountry:JPN
+    wikidata: wd:Q38234
+  hasEvidence:
+    - basedOnSource: 01M6BEFR8FX3RA7GFZXZWA5025
+      quotation: The most popular and well-known was the Yōshin-ryū founded by physician Akiyama Shirōbei Yoshitoki at Nagasaki Kyushu in 1642.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+      locator: The Development of the Tenjin Shinyo-ryu
+      locatorLabel: section
+      quotation: The Yoshin-ryu was founded by Akiyama Shirobei Yoshitoki, a doctor who lived in Nagasaki during the latter part of the seventeenth century and who specialized in treating children.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+styleType: styleclass:traditional
+hasStyleRelationAssertion:
+  - id: 01M6BEFR8FN79RMC1B1TB3FK2P
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9G
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: English Wikipedia and Skoss both call it a jujutsu school.
+    hasEvidence:
+      - basedOnSource: 01M6BEFR8FX3RA7GFZXZWA5025
+        quotation: Together with the Takenouchi-ryū (竹内流), and the Ryōi Shintō-ryū (良移心当流), the Yōshin-ryū (楊心流), was one of the three largest, most important and influential jūjutsu schools of the Edo period
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+        locator: The Development of the Tenjin Shinyo-ryu
+        locatorLabel: section
+        quotation: Tenjin Shinyo-ryu, in turn, was based on the techniques of two other classical jujutsu traditions, the Yoshin-ryu and Shin no Shinto-ryu.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+notes: >-
+  The Akiyama line. Nakamura Yoshikuni's older school of the same name is Yoshin_Koryu. Skoss
+  places Akiyama in Nagasaki in the latter part of the seventeenth century; English Wikipedia
+  dates the founding to 1642 and his death to 1680. The Totsuka-ha line (Totsuka Hikosuke) is
+  listed under the Akiyama descendants in the Yōshin-ryū article but under Yōshin Koryū in that
+  article; Totsuka records point here until a source settles it.
+sameAs:
+  - wd:Q1627854
+tags:
+  - koryu

@@ -1,0 +1,50 @@
+type: Person
+id: 01M5H3ESYG2FNYVYCDVRWHQZDB
+name:
+  ja-Latn: Munakata Itsurō
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+description:
+  en: >-
+    Early Kōdōkan student of Kanō Jigorō (from 1884) and Kōdōkan instructor; taught judo at the
+    Tokyo Teachers' Training College from around 1894. Later an artist and a Kōdōkan trustee.
+notes: >-
+  Kanji and dates not in the source. Not the painter Munakata Itsurō (宗像逸郎, Q110990333, born
+  1902).
+hasTeacherAssertion:
+  - id: 01M5H3ESYGGHENNGVJ7CQHD6FD
+    teacher: 01KJJAWN28MWKKSN4J02MVY1S1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Kano's own account of his student.
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+        interactionPeriod:
+          startYear: 1884
+        hasEvidence:
+          - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+            quotation: >-
+              Another man, who is now on the Kodokan Board of Trustees, Itsuro Munakata, became my
+              student in February 1884.
+            locator: '29'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+    quotation: >-
+      Among my first group of students at Kami Niban-cho, there were some who distinguished
+      themselves later in life, Masujiro Honda became a well-known English language translator and
+      interpreter, Itsuro Munakata an artist
+    locator: '33'
+    locatorLabel: page
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo

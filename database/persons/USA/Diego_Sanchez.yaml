@@ -1,0 +1,72 @@
+type: Person
+id: 01M6C1ZABVJQHSFM6YXS0S2GWF
+name:
+  en: Diego Sanchez
+aka:
+  en:
+    - Nightmare
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1981-12-31'
+  hasEvidence:
+    - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+      quotation: 'Born: 12/31/81'
+      locator: '383'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    American mixed martial artist, winner of the first season of The Ultimate Fighter. He spent his
+    career with Greg Jackson before leaving to train in California.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/5/59/DiegoSanchez.png
+  rights: mediarights:cc-by-sa-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:DiegoSanchez.png
+    cite: "Josh Vandegriff, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+  - id: 01M6C1ZABV9BTJWE7246SPSGHB
+    teacher: 01M6C1ZABV6FHQ2EXVCNW3NV8P
+    assertedStyle: 01KYSS3B587WR241FHHW19X24T
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - interactionPlace: 01M6C1ZABVAVTS3JGBS3HB64NB
+        hasEvidence:
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              Two of Jackson’s students, Diego Sanchez and Rashad Evans, won the grand prize in the show’s first two seasons.
+            locator: '197'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              After spending his entire career with trainer Greg Jackson in New Mexico, Sanchez was moving on.
+            locator: '384'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+    quotation: >-
+      Two of Jackson’s students, Diego Sanchez and Rashad Evans, won the grand prize in the show’s first two seasons.
+    locator: '197'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q611391
+tags:
+  - mma

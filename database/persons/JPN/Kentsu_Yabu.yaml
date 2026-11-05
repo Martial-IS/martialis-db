@@ -1,0 +1,177 @@
+type: Person
+id: 01KZ19PZ65EPNRY1Q8GQR6NEV1
+name:
+  en: Kentsū Yabu
+  ja: 屋部憲通
+  ja-Latn: Yabu Kentsū
+aka:
+  en:
+    - Gunso Yabu
+    - Yabu Gunso
+    - The Sergeant of Karate
+  ja:
+    - 屋部軍曹
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1866-09-23'
+  birthPlace:
+    label: Shuri, Okinawa
+    countryCode: eucountry:JPN
+    wikidata: wd:Q608415
+  hasEvidence:
+    - basedOnSource: 01KZ19PZ65HFE14H8RACBPAJM2
+      quotation: Kentsū Yabu (屋部 憲通, Yabu Kentsū; September 23, 1866 - August 27, 1937) was a karate master in Okinawa, and was among the first people to demonstrate karate in Hawaii.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZ1BZ2EHFQKP0CMDXKX667S3
+      quotation: YABU, Kentsu (1863 – 1937)
+      informationType: infotype:secondary
+      supports: false
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1937-08-27'
+  deathPlace:
+    label: Shuri, Okinawa
+    countryCode: eucountry:JPN
+    wikidata: wd:Q608415
+  hasEvidence:
+    - basedOnSource: 01KZ19PZ65HFE14H8RACBPAJM2
+      quotation: Yabu died at Shuri, Okinawa, on August 27, 1937.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZ19PZ65QFHDFR3SJ1DH5GPK
+      quotation: Yabu Kentsu, one of Okinawa's most feared fighters, died in 1936 of tuberculosis.
+      informationType: infotype:secondary
+      supports: false
+      evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M3YH7N5GF9MWDSVKK674XZ92
+    teacher: 01KJJAWN29MA64W22606R3WD6A
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9F
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The peer-reviewed Svinth article cites Tetsuhiro Hokama stating Yabu's teacher was Sokon Matsumura; corroborated by Beisho and the Martial Arts Academy of Marin lineage
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KZ1BZ2EHCP1CXHBY5V09EARN
+            quotation: Tetsuhiro Hokama has written that Yabu's teacher was Sokon Matsumura (Hokama, 1998, 35).
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZ19PZ65QFHDFR3SJ1DH5GPK
+            quotation: >-
+              As a young man, Yabu was admitted as a student of the famous Matsumura Sokon, dubbed "Bushi" (or "warrior gentleman") by the King.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZ1BZ2EH7NKAWAQRJ6SD88J4
+            quotation: Under the tutelage of both Matsumura Sokon and Itosu Anko, Yabu became one of the first to showcase Karate in Hawaii during the 1920s.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GNMKK6SJYA4E7QNBZ
+    teacher: 01KJJAWN29MA64W22606R3WD6B
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9F
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The peer-reviewed Svinth article cites Dave Lowry stating Yabu's teacher was Anko Itosu; corroborated by Tanzadeh and the Karate Page, which notes Yabu acted as Itosu's shihan-dai
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KZ1BZ2EHCP1CXHBY5V09EARN
+            quotation: >-
+              On the other hand, Dave Lowry has written that Yabu's teacher was Yasutsune "Ankoh" Itosu (Lowry, 1985, 11). Because both Matsumura and Itosu were well-known karate teachers of the day, probably Yabu studied with both men at different times.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZ19PZ655B4H0JHY5W803NNR
+            quotation: He began training in ti, an early form of karate, under the guidance of Ankō Itosu, one of the most respected masters of the time and a key figure in modernizing and systematizing karate.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZ1BZ2EHRAGE49ZRF7TZED1M
+            quotation: it is commonly accepted that Kentsu Yabu was a shihan-dai (師範代, assistant instructor) for Anko Itosu when he taught karate at the Okinawa Prefectural Normal School
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GB1XCX44FAGSAA956
+    teacher: 01KZC7XZB2M6VP6RJBC3ZE3B2T
+    assertedStyle: 01KYHF558ACS4T9K0BR6YWXABY
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Karate Page notes Yabu, together with Choki Motobu, went to Kosaku Matsumora for Tomari-te instruction.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KZ1BZ2EHRAGE49ZRF7TZED1M
+            quotation: Kentsu Yabu was a student of Anko Itosu, Sokon Matsumura and, together with Choki Motobu, also went to Kosaku Matsumora for instructions.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/8/82/Yabu_Kentsu.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Yabu_Kentsu.jpg
+    cite: "Nakasone Genwa, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: 'Okinawan karate master of Shuri-te, trained under Matsumura Sokon and Anko Itosu, and often considered Itosu''s top student. A soldier who served in the First Sino-Japanese War and was known as "Gunso" (sergeant), he taught karate at Okinawa Prefectural Normal School and was among the first people to demonstrate karate in Hawaii in 1927. His students included Kanken Toyama and Gima Shinkin.
+
+'
+  ja: '沖縄の空手家で、松村宗棍と糸洲安恒に師事した首里手の大家。糸洲の筆頭弟子と見なされる。日清戦争に従軍し「屋部軍曹」と呼ばれ、沖縄県師範学校で空手を指導。1927年にはハワイで空手を披露した最初の一人で、遠山寛賢や儀間真謹らを教えた。
+
+'
+hasEvidence:
+  - basedOnSource: 01KZ19PZ65HFE14H8RACBPAJM2
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ19PZ65HBN76BSXVK1GQYCB
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ19PZ65QFHDFR3SJ1DH5GPK
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ19PZ65XVB3BA9Z5FP583KG
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ19PZ655B4H0JHY5W803NNR
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ1BZ2EHCP1CXHBY5V09EARN
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ1BZ2EHRAGE49ZRF7TZED1M
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ1BZ2EH7NKAWAQRJ6SD88J4
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ1BZ2EHFQKP0CMDXKX667S3
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q722028
+tags:
+  - karate
+  - shuri-te
+  - tomari-te
+  - okinawan
+  - instructor

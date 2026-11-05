@@ -1,0 +1,189 @@
+type: Person
+id: 01KZEFJ55DYXZHDHV1WXX6MGAX
+name:
+  ja-Latn: Miyahira Katsuya
+  ja: 宮平勝哉
+aka:
+  en:
+  - Katsuya Miyahira
+  ja:
+  - みやひら かつや
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1918-08-16'
+  birthPlace:
+    label: Nishihara
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1206796
+  hasEvidence:
+  - basedOnSource: 01KZEK9QGVY1HMQ3XHAQAZP6Y3
+    quotation: Katsuya Miyahira (宮平 勝哉, Miyahira Katsuya; 1918–2010) was an Okinawan martial artist who
+      was the grand master of the Shorin-ryu Shido-kan style of Okinawan Karate.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZGG211JMYTDZ581HA7A7NGS
+    quotation: Miyahira Katsuya 10. Dan Hanshi 16.08.1918 – 28.11.2010
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2010-11-28'
+  hasEvidence:
+  - basedOnSource: 01KZEK9QGVY1HMQ3XHAQAZP6Y3
+    quotation: 1918–2010
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZGG211JMYTDZ581HA7A7NGS
+    quotation: Miyahira Katsuya 10. Dan Hanshi 16.08.1918 – 28.11.2010
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://www.shorinryu.de/eng/assets/images/0601-2067x2799.jpg
+  imageAttribution:
+    uri: https://www.shorinryu.de/eng/sensei-miyahira-katsuya-eng.html
+    cite: "Shorinryu.de"
+    informationType: infotype:secondary
+description:
+  en: Okinawan martial artist (1918-2010), grand master and founder of the Shorin-ryu Shidokan style of
+    Okinawan karate, Hanshi 10th dan; student of Choshin Chibana, also instructed by Anbun Tokuda and
+    Choki Motobu.
+notes: Miyahira created the Shidokan branch of Kobayashi Shorin-ryu after the death of his teacher Choshin
+  Chibana, and was president of the Okinawa Shorin-ryu Karate Association (Okinawa Shorin Ryu Karatedo
+  Kyokai) until his death. The EN Wikipedia article on Chibana names him as founder of the Shōrin-ryū
+  Shidōkan school, Hanshi 10th dan. His student Seikichi Iha is recorded on Wikidata (P802). Per the Shorinryu.de
+  biography, Miyahira was taught at age five by his father (from the Toyama military school, versed in
+  gymnastics and kendo), began deep karate study in April 1933 under Chibana Choshin studying traditional
+  Shuri-te, was influenced by senior students such as Yoshitsugu Teichi, Kangi Shoya, Yasuyoshi Kamikosu,
+  Tsuguyoshi Miyagi, Chozo Nakama and Shinji Tawada, practiced at the College of Shuri under Tokuda Anbun
+  from September 1933, and deepened his kumite in the dojo of Motobu Choki. He spent the last years of
+  the war as a teacher in Manchuria. After his return he founded his first dojo in Nishihara, taught at
+  Ryukyu University from 1953, and built the Shidokan dojo in the garden of his home in Tsuboya in 1956.
+  The Grand River Karate bio dates the opening of his Nishihara dojo to 1948. He was honored by the Japan
+  Martial Arts Association in 1989 for distinguished service to the martial arts.
+hasTeacherAssertion:
+- id: 01M3YH7N5G1AWB5HBR9G4QJBCX
+  teacher: 01KZC7XZAWJNRVKWZ66A7CXENR
+  assertedStyle: 01KZDXQH2MARRZH56QT95D2964
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: EN Wikipedia states Miyahira created the Shido-kan branch of Kobayashi Shorin-ryu
+      after the death of his teacher Choshin Chibana; the Shorinryu.de and Grand River biographies state
+      he began karate under Chibana in April 1933 (at his dojo at Nakijin Goten of Yoshitsugu Teishi)
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1933
+      endYear: 1969
+    hasEvidence:
+    - basedOnSource: 01KZEK9QGVY1HMQ3XHAQAZP6Y3
+      quotation: Miyahira created the Shido-kan branch of Kobayashi Shorin-ryu after the death of his
+        teacher, Chōshin Chibana.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZGG211JMYTDZ581HA7A7NGS
+      quotation: His deep karate studies began in April 1933 under Chibana Choshin, studying traditional
+        Shuri-te.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZGG211JWBDPKRJR36HG3K1V
+      quotation: >-
+        He became a student at the dojo of Choshin Chibana Sensei, which was located at Nakijin Goten of Yoshitsugu Teishi
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GCJTMV28SBC7HECTF
+  teacher: 01KZC4PN03JMN9C9YQTKMEQE3A
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: EN Wikipedia states Miyahira was also instructed by Anbun Tokuda and Choki Motobu;
+      the Shorinryu.de biography confirms he deepened his kumite in Motobu Choki's dojo
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZEK9QGVY1HMQ3XHAQAZP6Y3
+      quotation: Miyahira was also instructed by Anbun Tokuda and Choki Motobu.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZGG211JMYTDZ581HA7A7NGS
+      quotation: Later, Miyahira deepened his knowledge mainly in Kumite in the dojo of Motobu Choki.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GG4WYS1ZYAV448TGY
+  rankStyle: 01KZEK8ETSJ1SXJ870Q9JPT9N7
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 10
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: EN Wikipedia and the Shorinryu.de biography state Miyahira was ranked Hanshi,
+      10th dan
+  hasEvidence:
+  - basedOnSource: 01KZEK9QGVY1HMQ3XHAQAZP6Y3
+    quotation: He was ranked Hanshi, 10th Dan.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZGG211JMYTDZ581HA7A7NGS
+    quotation: >-
+      Grandmaster Miyahira was 10th Dan Hanshi and he was the president of Okinawa Shorin Ryu Karatedo Kyokai
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasHonorAssertion:
+- id: 01M3YH7N5GQ4BWVVJ7VR3506J5
+  honorValue: Hanshi 10th Dan
+  honorType: honortype:title
+  honorGrade: honorgrade:shogo_hanshi
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: EN Wikipedia and the Shorinryu.de biography state Miyahira was ranked Hanshi,
+      10th dan
+  hasEvidence:
+  - basedOnSource: 01KZEK9QGVY1HMQ3XHAQAZP6Y3
+    quotation: He was ranked Hanshi, 10th Dan.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZGG211JMYTDZ581HA7A7NGS
+    quotation: >-
+      Grandmaster Miyahira was 10th Dan Hanshi and he was the president of Okinawa Shorin Ryu Karatedo Kyokai
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZEK9QGVY1HMQ3XHAQAZP6Y3
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZGG211JMYTDZ581HA7A7NGS
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZGG211JWBDPKRJR36HG3K1V
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZGG211J9MC7JC85G8YS028W
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q3194253
+tags:
+- karate
+- shorin-ryu
+- shidokan

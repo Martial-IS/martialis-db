@@ -1,0 +1,81 @@
+type: Person
+id: 01M6ERSPBWQDWZC5B6FED8VHDB
+name:
+  en: Steve McQueen
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+birthEvent:
+  birthDate: '1930-03-24'
+  birthPlace:
+    label: Beech Grove, Indiana
+    countryCode: eucountry:USA
+    wikidata: wd:Q2018240
+  hasEvidence:
+  - basedOnSource: 01M6ERRV5GQXNFEMYW7551NJ1Z
+    quotation: >-
+      Francis Hospital in Beech Grove, Indiana, on March 24, 1930
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1980-11-07'
+  hasEvidence:
+  - basedOnSource: 01M6ERRV5GQXNFEMYW7551NJ1Z
+    quotation: >-
+      Terrence Stephen McQueen (March 24, 1930 – November 7, 1980)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/3/3e/Steve-McQueen-1968_%28cropped%29.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Steve-McQueen-1968_(cropped).jpg
+    cite: "Unknown author, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    American actor.
+hasTeacherAssertion:
+- id: 01M6ERSPBWSSQXXFPTNF2VQAKJ
+  teacher: 01KYD5XMNMNAG3CPC17GKACPW0
+  assertedStyle: 01KYD5XSZPND9XV5FHYG9V0ZV6
+  role: teachrole:private
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Three press sources, all from Polly's biography; no account from Lee or McQueen
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M6ERRV5G9WC9YFA3K2AJ8RBK
+      quotation: >-
+        Steve McQueen was one of Bruce's favorite students
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ERRV5GFHV399NB0T4T5NQ4
+      quotation: >-
+        Lee began teaching some Hollywood luminaries – Steve McQueen, James Coburn, director Roman Polanski, singer Vic Damone, and screenwriter Stirling Silliphant
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ERRV5G5BD8681BY3BJS1JB
+      quotation: >-
+        Lee became a “sifu to the stars” who trained celebrities like McQueen
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+  notes: >-
+    The sources say kung fu or martial arts; jeet kune do is Lee's private teaching of the period.
+hasEvidence:
+- basedOnSource: 01M6ERRV5GQXNFEMYW7551NJ1Z
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q159347
+tags:
+- jeet-kune-do
+- actor

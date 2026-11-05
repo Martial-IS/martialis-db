@@ -1,0 +1,46 @@
+type: Person
+id: 01M5JEC1RVFJJX7FKBDWCEZSSK
+name:
+  en: Bill Doherty
+nationality:
+  - countryCode: eucountry:CAN
+    wikidata: wd:Q16
+description:
+  en: >-
+    Irish-born Canadian judo teacher who began at Atsumu Kamino's Kidokwan in Toronto after emigrating;
+    first sensei of his son Kevin Doherty and of Sandra Greaves (at his Thunder Bay dojo), later in Ajax,
+    Ontario.
+hasTeacherAssertion:
+  - id: 01M5JEC1RVC3M6RX7KZWDGG3VF
+    teacher: 01M5H3WJ4FFYW21VZ36306373H
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasInteraction:
+      - interactionPlace: 01M5HP829F4HM5XQXG7QXBW7GS
+        hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              Kevin’s father, Bill Doherty, joined Atsumu Kamino’s Kidokwan dojo in Toronto upon
+              emigrating from Ireland, and that began a love affair with the sport that spread to Kevin
+              and his brothers.
+            locator: '83'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    quotation: >-
+      When Sandra Greaves’ sister dragged her off to Bill Doherty’s Thunder Bay dojo as an 11-year-old
+    locator: '91'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - canada

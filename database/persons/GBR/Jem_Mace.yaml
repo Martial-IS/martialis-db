@@ -1,0 +1,111 @@
+type: Person
+id: 01M5JPY6FNZ219F9GMWP2YDSQ3
+name:
+  en: Jem Mace
+aka:
+  en:
+    - James Mace
+    - The Gypsy
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+birthEvent:
+  birthDate: '1831-04-08'
+  birthPlace:
+    label: Beeston, Norfolk
+    countryCode: eucountry:GBR
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNC5TH6PMP2Y69X789
+      quotation: >-
+        James "Jem" Mace (8 April 1831 – 30 November 1910) was an English boxing champion, primarily
+        during the bare-knuckle era.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1910-11-30'
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNC5TH6PMP2Y69X789
+      quotation: >-
+        James "Jem" Mace (8 April 1831 – 30 November 1910) was an English boxing champion, primarily
+        during the bare-knuckle era.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    English booth fighter and bare-knuckle champion, one of the most scientific boxers of his time. He
+    won the English heavyweight title in 1861 and held the world title in 1870–1871 in the United
+    States. His exhibitions in America, Australia and New Zealand spread gloved, points-scored boxing;
+    with his protégé Larry Foley he schooled a generation of Australian boxers.
+hasTeacherAssertion:
+  - id: 01M5KQTRGX6CFC6CFRWF9T9KZJ
+    teacher: 01M5KQTRGXN1CG8GCKHABYWR5C
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only; it says mentor, and Langham was also his matchmaker.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5KQTRGXS63SA9P8MREVXD44
+            quotation: >-
+              He was a 1992 inductee into the International Boxing Hall of Fame and a mentor to the British
+              boxers Tom King and Jem Mace.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M5JPY6FNVWS5FFAGQASAJGZ0
+    honorValue: Champion of England
+    honorType: honortype:title
+    dateConferred: '1861-06-18'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01M5JPY6FNC5TH6PMP2Y69X789
+        quotation: >-
+          On 18 June 1861, he first won the title of Heavyweight Champion of England by defeating
+          reigning champion Sam Hurst in 8 rounds, and 40 minutes at Medway Island, Kent.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Soon Jem Mace (1831–1910), the prizefighting champion of England for most of the 1860s, would
+          have to travel to the United States, Australia, and New Zealand to pursue his profession.
+        locator: '232'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Mace was a talented booth fighter and bare-knuckle pugilist.
+    locator: '466'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5JPY6FNC5TH6PMP2Y69X789
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q678279
+tags:
+  - boxing
+  - prizefighting
+  - united-kingdom
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/1/10/Jem_mace.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Jem_mace.jpg
+    cite: "Frederick William Nichols (1832-1902), Wikimedia Commons"
+    informationType: infotype:secondary

@@ -1,0 +1,26 @@
+# Training under an unidentified teacher: a TeacherAssertion with no
+# martialis:teacher. The person, the style and the place, with the period's
+# years. Names carry several language tags, so SAMPLE collapses each entity to
+# one label.
+PREFIX martialis: <https://w3id.org/martialis/ontology#>
+PREFIX schema: <https://schema.org/>
+
+SELECT ?person ?style ?place
+       (SAMPLE(?pn) AS ?personName) (SAMPLE(?sn) AS ?styleName) (SAMPLE(?pln) AS ?placeName)
+       ?startYear ?endYear WHERE {
+  ?person martialis:hasTeacherAssertion ?a .
+  ?a martialis:assertedStyle ?style ;
+     martialis:hasInteraction ?i .
+  FILTER NOT EXISTS { ?a martialis:teacher ?teacher }
+  ?person schema:name ?pn .
+  ?style schema:name ?sn .
+  ?i martialis:interactionPlace ?place .
+  ?place schema:name ?pln .
+  OPTIONAL {
+    ?i martialis:interactionPeriod ?period .
+    OPTIONAL { ?period martialis:startYear ?startYear }
+    OPTIONAL { ?period martialis:endYear ?endYear }
+  }
+}
+GROUP BY ?person ?style ?place ?startYear ?endYear
+ORDER BY ?personName

@@ -1,0 +1,127 @@
+type: Style
+id: 01M5KWGPRK69RHM30T18CYDJ7H
+name:
+  en: Lecour method
+  fr: Méthode Lecour
+aka:
+  en:
+    - Lecour style
+    - Genre Lecour
+styleType: styleclass:modern
+foundedEvent:
+  startDate: '1832'
+  location:
+    label: Paris
+    countryCode: eucountry:FRA
+    wikidata: wd:Q90
+  founder:
+    - 01M5JG4Y25WZEYTQ2DBFQFW26C
+  hasEvidence:
+    - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+      quotation: >-
+        Mais c’est Charles Lecour qui fut le véritable fondateur de la boxe française (1832).
+      locator: '442'
+      locatorLabel: page
+      informationType: infotype:undetermined
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+      quotation: >-
+        Grâce à ces leçons de boxe anglaise réunies à la savate, Charles Lecour forma ce que l’on appela à
+        juste titre la boxe française.
+      locator: '47'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasStyleRelationAssertion:
+  - id: 01M5KWGPRKMX2ZRY0R1QF8YW36
+    relatedStyle: 01M5JG4Y2595PRVXFHHNZXH7SD
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Finally, the gymnastic style developed by the Lecour brothers, Charles (1808–1894) and Hubert
+          (1820–1871), became common during the 1860s.
+        locator: '257'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+        quotation: >-
+          A Paris la boxe est représentée par trois salles spéciales, ce sont les salles : Charlemont,
+          Castérès et Leclerc. Dans les deux premières, on y pratique la même méthode, dans la troisième
+          c’est le genre Lecour.
+        locator: '655'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5KWGPRKT8YRC1R3DZ59E8D5
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9N
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Lecour's own account and Wikipedia state it; Green and Svinth deny significant links.
+    hasEvidence:
+      - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+        quotation: >-
+          Grâce à ces leçons de boxe anglaise réunies à la savate, Charles Lecour forma ce que l’on appela à
+          juste titre la boxe française. Nous tenons de Charles Lecour lui-même les lignes qui précèdent
+        locator: '47'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JG4Y25T91NM9BZG8C56ASM
+        quotation: >-
+          C'est Charles Lecour qui crée en 1830-1840, le sport de combat connu sous le nom de « boxe
+          française » en réunissant la technique des pieds de la savate avec trois techniques de poings
+          emprunté à la boxe anglaise (direct, crochet, uppercut).
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          It has no significant links with similar Eastern or English disciplines (Loudcher 2000).
+        locator: '256'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: false
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    The gymnastic form of French boxing founded by Charles Lecour in Paris about 1832, joining savate
+    kicks with English boxing punches after his lessons with the English boxer Adams. Charles and his
+    brother Hubert developed it at their salle in the passage des Panoramas; it became common in the
+    1860s. Lecour never published it. Joseph Charlemont later drew on it for his academic method.
+  fr: >-
+    Forme gymnique de la boxe française fondée par Charles Lecour à Paris vers 1832, qui joint les coups
+    de pied de la savate aux coups de poing de la boxe anglaise apprise de l'Anglais Adams. Charles et son
+    frère Hubert la développent dans leur salle du passage des Panoramas ; elle se répand dans les années
+    1860. Lecour ne la publie jamais.
+notes: >-
+  Green and Svinth (p. 257) credit the Lecour brothers; Hubert was born in 1820, so the 1832 founding is
+  Charles's. Lecour's 1876 letter to Charlemont (Charlemont 1899, p. 369) says his written method was not
+  yet printed.
+hasEvidence:
+  - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+    quotation: >-
+      « Ce n’est pas Gaillard qui est battu, c’est la méthode Lecour, dans un de ses meilleurs
+      représentants. »
+    locator: '368'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - savate
+  - france

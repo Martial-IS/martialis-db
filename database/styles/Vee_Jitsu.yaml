@@ -1,0 +1,83 @@
+type: Style
+id: 01M61T316BBXSAAMTERKVVD7YA
+name:
+  en: Vee Jitsu
+aka:
+  en:
+    - Vee Arnis Jitsu
+    - Visitacion Kuntao-Arnis
+styleType: styleclass:modern
+hasStyleRelationAssertion:
+  - id: 01M61T316BY8A85KF6RAM3T5ES
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9G
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Tetsunami and English Wikipedia both describe it as jujutsu combined with Filipino and other arts.
+    hasEvidence:
+      - basedOnSource: 01M61T316B6R6PY55Y584SWA1Q
+        quotation: >-
+          Vee-jitsu is the product of Florendo Visitacion who took his Jujutsu training which he received
+          from Kiyose Nakae and Charles Nelson and then combined with his study of Filipino systems of
+          Arnis and Kali
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M61T316BVVKZT259RK3MJA71
+        quotation: >-
+          Vee Jitsu syncretic martial art combining jujutsu with Filipino Arnis, Kung Fu, Aikido, and Judo.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M61T316B94Z1FSBGW94RQ0Q4
+    relatedStyle: 01KYEY02EKTWX5K8ZBVZ9SQHYS
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Tetsunami and English Wikipedia both name Arnis among its components.
+    hasEvidence:
+      - basedOnSource: 01M61T316B6R6PY55Y584SWA1Q
+        quotation: >-
+          Vee-jitsu is the product of Florendo Visitacion who took his Jujutsu training which he received
+          from Kiyose Nakae and Charles Nelson and then combined with his study of Filipino systems of
+          Arnis and Kali
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M61T316BVVKZT259RK3MJA71
+        quotation: >-
+          Vee Jitsu syncretic martial art combining jujutsu with Filipino Arnis, Kung Fu, Aikido, and Judo.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  founder:
+    - 01M61T316B2V4HPXR1DTBP1D9E
+  hasEvidence:
+    - basedOnSource: 01M61T316B6R6PY55Y584SWA1Q
+      quotation: >-
+        Florendo Visitacion (known as Professor V), founder of Vee-Jitsu.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Syncretic art of Florendo Visitacion ("Professor Vee") of New York, built on the jujutsu he learned
+    from Kiyose Nakae and Charles Nelson with Filipino arnis and kali, Chinese and other Japanese arts;
+    it was renamed several times, finally Visitacion Kuntao-Arnis.
+hasEvidence:
+  - basedOnSource: 01M61T316BSCW19RMVXAS63XHZ
+    quotation: >-
+      As his personal style evolved, so did its name, at one point he renamed it Vee Jitsu, Vee Jitsu Te,
+      Visitacion-Ryu Jiujitsu and the final art he presented for recognition among his peers was
+      Visitacion Kuntao-Arnis.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - jujutsu
+  - arnis

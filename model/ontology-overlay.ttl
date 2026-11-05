@@ -1,0 +1,2189 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix martialis: <https://w3id.org/martialis/ontology#> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+martialis:Agent rdfs:label "Akteur"@de,
+        "agent"@en,
+        "agente"@es,
+        "agent"@fr,
+        "gerandi"@is,
+        "エージェント"@ja,
+        "agente"@pt,
+        "行为者"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:accessed rdfs:label "abgerufen am"@de,
+        "accessed"@en,
+        "consultado el"@es,
+        "consulté le"@fr,
+        "sótt"@is,
+        "アクセス日"@ja,
+        "acedido em"@pt,
+        "访问日期"@zh ;
+    rdfs:domain martialis:Source ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:affiliationRelation rdfs:label "Zugehörigkeitsbeziehung"@de,
+        "affiliation relation"@en,
+        "relación de afiliación"@es,
+        "relation d’affiliation"@fr,
+        "tegund aðildar"@is,
+        "所属関係"@ja,
+        "relação de afiliação"@pt,
+        "隶属关系"@zh ;
+    rdfs:domain martialis:AffiliationAssertion ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:archive rdfs:label "Archiv"@de,
+        "archive"@en,
+        "archivo"@es,
+        "dépôt d’archives"@fr,
+        "skjalasafn"@is,
+        "所蔵機関"@ja,
+        "arquivo"@pt,
+        "收藏机构"@zh ;
+    rdfs:domain martialis:Source ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:archiveCollection rdfs:label "Archivbestand"@de,
+        "archive collection"@en,
+        "colección del archivo"@es,
+        "fonds d’archives"@fr,
+        "skjalaflokkur"@is,
+        "所蔵コレクション"@ja,
+        "coleção do arquivo"@pt,
+        "馆藏集"@zh ;
+    rdfs:domain martialis:Source ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:archiveDate rdfs:label "Archivierungsdatum"@de,
+        "archive date"@en,
+        "fecha de archivo"@es,
+        "date d’archivage"@fr,
+        "dagsetning vistunar"@is,
+        "アーカイブ日"@ja,
+        "data de arquivo"@pt,
+        "存档日期"@zh ;
+    rdfs:domain martialis:Source ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:archiveLocation rdfs:label "Standort im Archiv"@de,
+        "archive location"@en,
+        "ubicación en el archivo"@es,
+        "emplacement dans l’archive"@fr,
+        "staðsetning í skjalasafni"@is,
+        "所蔵場所"@ja,
+        "localização no arquivo"@pt,
+        "馆藏位置"@zh ;
+    rdfs:domain martialis:Source ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:archiveOrgId rdfs:label "archive.org-ID"@de,
+        "archive org id"@en,
+        "id de archive.org"@es,
+        "identifiant archive.org"@fr,
+        "auðkenni á archive.org"@is,
+        "archive.org ID"@ja,
+        "id do archive.org"@pt,
+        "archive.org ID"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    schema:domainIncludes martialis:Source .
+
+martialis:assertedStyle rdfs:label "behaupteter Stil"@de,
+        "asserted style"@en,
+        "estilo afirmado"@es,
+        "style affirmé"@fr,
+        "stíll sem fullyrðingin varðar"@is,
+        "主張された流派"@ja,
+        "estilo afirmado"@pt,
+        "所述流派"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    schema:domainIncludes martialis:DocumentTransmissionAssertion,
+        martialis:TeacherAssertion .
+
+martialis:assessedBy rdfs:label "bewertet von"@de,
+        "assessed by"@en,
+        "evaluado por"@es,
+        "évalué par"@fr,
+        "metið af"@is,
+        "評価者"@ja,
+        "avaliado por"@pt,
+        "评估者"@zh ;
+    rdfs:domain martialis:Confidence ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:atEvent rdfs:label "bei Veranstaltung"@de,
+        "at event"@en,
+        "en evento"@es,
+        "lors de l’événement"@fr,
+        "á viðburði"@is,
+        "行事にて"@ja,
+        "em evento"@pt,
+        "于活动"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    schema:domainIncludes martialis:AffiliationAssertion,
+        martialis:DocumentTransmissionAssertion,
+        martialis:HonorAssertion,
+        martialis:LifeEvent,
+        martialis:RankAssertion,
+        martialis:TeacherInteraction .
+
+martialis:basedOnSource rdfs:label "beruht auf Quelle"@de,
+        "based on source"@en,
+        "basado en fuente"@es,
+        "fondé sur la source"@fr,
+        "byggt á heimild"@is,
+        "典拠資料"@ja,
+        "baseado em fonte"@pt,
+        "依据来源"@zh ;
+    rdfs:domain martialis:SourceAssertionRelation ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:birthEvent rdfs:label "Geburtsereignis"@de,
+        "birth event"@en,
+        "evento de nacimiento"@es,
+        "événement de naissance"@fr,
+        "fæðing"@is,
+        "出生イベント"@ja,
+        "evento de nascimento"@pt,
+        "出生事件"@zh ;
+    rdfs:domain martialis:Person ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:callNumber rdfs:label "Signatur"@de,
+        "call number"@en,
+        "signatura"@es,
+        "cote"@fr,
+        "safnmark"@is,
+        "請求記号"@ja,
+        "cota"@pt,
+        "索书号"@zh ;
+    rdfs:domain martialis:Source ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:subPropertyOf bibo:locator .
+
+martialis:changeKind a owl:ObjectProperty ;
+    rdfs:label "Art der Änderung"@de,
+        "change kind"@en,
+        "tipo de cambio"@es,
+        "type de changement"@fr,
+        "tegund breytingar"@is,
+        "変更種別"@ja,
+        "tipo de mudança"@pt,
+        "变更类型"@zh ;
+    rdfs:comment "Which genealogy affiliationRelation produced this event: derived_from, split_from, merged_from, replaces, or renamed_from."@en ;
+    rdfs:domain org:ChangeEvent ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:range skos:Concept .
+
+martialis:changeYear a owl:DatatypeProperty ;
+    rdfs:label "Jahr der Änderung"@de,
+        "change year"@en,
+        "año del cambio"@es,
+        "année du changement"@fr,
+        "ár breytingar"@is,
+        "変更年"@ja,
+        "ano da mudança"@pt,
+        "变更年份"@zh ;
+    rdfs:comment "The startYear of the underlying AffiliationAssertion's validDuring period, copied onto the event node."@en ;
+    rdfs:domain org:ChangeEvent ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:range xsd:integer .
+
+martialis:chapterNumber a owl:DatatypeProperty ;
+    rdfs:label "Kapitelnummer"@de,
+        "chapter number"@en,
+        "número de capítulo"@es,
+        "numéro de chapitre"@fr,
+        "kaflanúmer"@is,
+        "章番号"@ja,
+        "número do capítulo"@pt,
+        "章号"@zh ;
+    rdfs:domain martialis:Source ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:range xsd:string .
+
+martialis:cinii rdfs:label "CiNii"@de,
+        "cinii"@en,
+        "cinii"@es,
+        "cinii"@fr,
+        "cinii"@is,
+        "CiNii"@ja,
+        "cinii"@pt,
+        "CiNii"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    schema:domainIncludes martialis:Source .
+
+martialis:conceptScheme a owl:AnnotationProperty ;
+    rdfs:label "Konzeptschema"@de,
+        "concept scheme"@en,
+        "esquema de conceptos"@es,
+        "schéma de concepts"@fr,
+        "hugtakakerfi"@is,
+        "概念スキーム"@ja,
+        "esquema de conceitos"@pt,
+        "概念体系"@zh ;
+    rdfs:comment "The concept scheme this property's values belong to; authored as a scheme-prefixed CURIE that the JSON-LD context expands to a concept IRI."@en ;
+    rdfs:domain rdf:Property ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:confersRank rdfs:label "verleiht Grad"@de,
+        "confers rank"@en,
+        "confiere graduación"@es,
+        "confère un grade"@fr,
+        "veitir gráðu"@is,
+        "段位を授与する"@ja,
+        "confere graduação"@pt,
+        "授予段位"@zh ;
+    rdfs:domain martialis:Style ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:confidenceLevel rdfs:label "Vertrauensstufe"@de,
+        "confidence level"@en,
+        "nivel de confianza"@es,
+        "niveau de confiance"@fr,
+        "vissustig"@is,
+        "信頼度"@ja,
+        "nível de confiança"@pt,
+        "可信度"@zh ;
+    rdfs:domain martialis:Confidence ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:confidenceRationale rdfs:label "Begründung der Vertrauensstufe"@de,
+        "confidence rationale"@en,
+        "fundamentación de la confianza"@es,
+        "justification de la confiance"@fr,
+        "rökstuðningur fyrir vissu"@is,
+        "信頼度の根拠"@ja,
+        "fundamentação da confiança"@pt,
+        "可信度依据"@zh ;
+    rdfs:domain martialis:Confidence ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:contributorOrg rdfs:label "beitragende Organisation"@de,
+        "contributor org"@en,
+        "organización contribuidora"@es,
+        "organisation contributrice"@fr,
+        "samtök sem aðstandandi"@is,
+        "寄与者（組織）"@ja,
+        "contribuidor organização"@pt,
+        "贡献者（组织）"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:contributorPerson rdfs:label "beitragende Person"@de,
+        "contributor person"@en,
+        "persona contribuidora"@es,
+        "personne contributrice"@fr,
+        "einstaklingur sem aðstandandi"@is,
+        "寄与者（人物）"@ja,
+        "contribuidor pessoa"@pt,
+        "贡献者（人物）"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:contributorRole rdfs:label "Rolle des Beitragenden"@de,
+        "contributor role"@en,
+        "función del contribuidor"@es,
+        "rôle du contributeur"@fr,
+        "hlutverk aðstandanda"@is,
+        "寄与者役割"@ja,
+        "papel do contribuidor"@pt,
+        "贡献者角色"@zh ;
+    dcterms:conformsTo <https://docs.citationstyles.org/en/stable/specification.html#contributor-roles> ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:dateCalendar rdfs:label "Kalender des Datums"@de,
+        "date calendar"@en,
+        "calendario de la fecha"@es,
+        "calendrier de la date"@fr,
+        "tímatal dagsetningar"@is,
+        "暦法"@ja,
+        "calendário da data"@pt,
+        "历法"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    schema:domainIncludes martialis:Event,
+        martialis:HonorAssertion,
+        martialis:LifeEvent,
+        martialis:RankAssertion,
+        martialis:Source .
+
+martialis:dateConferred rdfs:label "Verleihungsdatum"@de,
+        "date conferred"@en,
+        "fecha de concesión"@es,
+        "date d’attribution"@fr,
+        "dagsetning veitingar"@is,
+        "授与日"@ja,
+        "data de concessão"@pt,
+        "授予日期"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:dateOriginal rdfs:label "Originaldatum"@de,
+        "date original"@en,
+        "fecha original"@es,
+        "date d’origine"@fr,
+        "upprunaleg dagsetning"@is,
+        "原典の日付"@ja,
+        "data original"@pt,
+        "原始日期"@zh ;
+    vann:example "A birth recorded in a lunisolar source: schema:startDate \"1868-10-15\" ; martialis:dateOriginal \"Meiji 1, 9th month\" ; martialis:dateCalendar \"japanese-lunisolar\" ; martialis:earliestYear \"1868\" ; martialis:latestYear \"1868\" ."@en ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    schema:domainIncludes martialis:Event,
+        martialis:HonorAssertion,
+        martialis:LifeEvent,
+        martialis:RankAssertion,
+        martialis:Source .
+
+martialis:deathEvent rdfs:label "Todesereignis"@de,
+        "death event"@en,
+        "evento de fallecimiento"@es,
+        "événement de décès"@fr,
+        "andlát"@is,
+        "死去イベント"@ja,
+        "evento de morte"@pt,
+        "逝世事件"@zh ;
+    rdfs:domain martialis:Person ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:derivedFromSystem rdfs:label "abgeleitet von System"@de,
+        "derived from system"@en,
+        "derivado de sistema"@es,
+        "dérivé du système"@fr,
+        "leitt af kerfi"@is,
+        "派生元制度"@ja,
+        "derivado de sistema"@pt,
+        "源自制度"@zh ;
+    rdfs:domain martialis:RankingSystem ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:dissolutionManner rdfs:label "Art der Auflösung"@de,
+        "dissolution manner"@en,
+        "modo de disolución"@es,
+        "mode de dissolution"@fr,
+        "háttur slita"@is,
+        "解散態様"@ja,
+        "modo de dissolução"@pt,
+        "解散方式"@zh ;
+    rdfs:domain martialis:LifeEvent ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:dissolutionReason rdfs:label "Auflösungsgrund"@de,
+        "dissolution reason"@en,
+        "motivo de la disolución"@es,
+        "motif de la dissolution"@fr,
+        "ástæða slita"@is,
+        "解散理由"@ja,
+        "motivo da dissolução"@pt,
+        "解散原因"@zh ;
+    rdfs:domain martialis:LifeEvent ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:dissolvedEvent rdfs:label "Auflösungsereignis"@de,
+        "dissolved event"@en,
+        "evento de disolución"@es,
+        "événement de dissolution"@fr,
+        "slit"@is,
+        "解散イベント"@ja,
+        "evento de dissolução"@pt,
+        "解散事件"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    schema:domainIncludes martialis:Organization,
+        martialis:Place,
+        martialis:Style .
+
+martialis:doi rdfs:label "DOI"@de,
+        "doi"@en,
+        "doi"@es,
+        "doi"@fr,
+        "doi"@is,
+        "DOI"@ja,
+        "doi"@pt,
+        "DOI"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:subPropertyOf bibo:doi ;
+    schema:domainIncludes martialis:Source .
+
+martialis:droppingParticle a owl:DatatypeProperty ;
+    rdfs:label "auslassbarer Namenszusatz"@de,
+        "dropping particle"@en,
+        "partícula omisible"@es,
+        "particule omissible"@fr,
+        "forskeyti sem má sleppa"@is,
+        "前置詞要素"@ja,
+        "partícula omitida"@pt,
+        "可省略的姓氏前缀"@zh ;
+    rdfs:comment "CSL name-variable dropping-particle: a name part dropped when the name is alphabetized (e.g. 'van' in 'van Beethoven, Ludwig')."@en ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:range xsd:string .
+
+martialis:earliestYear a owl:DatatypeProperty ;
+    rdfs:label "frühestes Jahr"@de,
+        "earliest year"@en,
+        "año más temprano"@es,
+        "année au plus tôt"@fr,
+        "fyrsta mögulega ár"@is,
+        "最早年"@ja,
+        "ano mais antigo"@pt,
+        "最早年份"@zh ;
+    rdfs:comment "Earliest year consistent with a Date value, materialized by pipeline/rules/07-edtf-bounds.ru. Paired with martialis:latestYear for integer date comparisons."@en ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:range xsd:integer ;
+    schema:domainIncludes martialis:Event,
+        martialis:HonorAssertion,
+        martialis:LifeEvent,
+        martialis:RankAssertion,
+        martialis:Source .
+
+martialis:editionOf rdfs:label "Ausgabe von"@de,
+        "edition of"@en,
+        "edición de"@es,
+        "édition de"@fr,
+        "útgáfa af"@is,
+        "版元作品"@ja,
+        "edição de"@pt,
+        "版本所属作品"@zh ;
+    rdfs:domain martialis:Source ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:editionOfSource rdfs:label "Ausgabe der Quelle"@de,
+        "edition of source"@en,
+        "edición de fuente"@es,
+        "édition de la source"@fr,
+        "útgáfa heimildar"@is,
+        "元作品"@ja,
+        "edição de fonte"@pt,
+        "原作品"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:subPropertyOf dcterms:isVersionOf .
+
+martialis:editionRelationType rdfs:label "Art der Ausgabenbeziehung"@de,
+        "edition relation type"@en,
+        "tipo de relación de edición"@es,
+        "type de relation d’édition"@fr,
+        "tegund útgáfutengsla"@is,
+        "版種別"@ja,
+        "tipo de relação de edição"@pt,
+        "版本关系类型"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:endYear rdfs:label "Endjahr"@de,
+        "end year"@en,
+        "año final"@es,
+        "année de fin"@fr,
+        "lokaár"@is,
+        "終了年"@ja,
+        "ano final"@pt,
+        "结束年份"@zh ;
+    rdfs:domain martialis:TimeInterval ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:eventPlace rdfs:label "Veranstaltungsort"@de,
+        "event place"@en,
+        "lugar del evento"@es,
+        "lieu de l’événement"@fr,
+        "staður viðburðar"@is,
+        "会場"@ja,
+        "local do evento"@pt,
+        "活动地点"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:range martialis:Place ;
+    skos:broadMatch schema:location ;
+    schema:domainIncludes martialis:DissolutionEvent,
+        martialis:Event,
+        martialis:FoundingEvent .
+
+martialis:eventType rdfs:label "Veranstaltungsart"@de,
+        "event type"@en,
+        "tipo de evento"@es,
+        "type d’événement"@fr,
+        "tegund viðburðar"@is,
+        "行事種別"@ja,
+        "tipo de evento"@pt,
+        "活动类型"@zh ;
+    rdfs:domain martialis:Event ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:evidenceType rdfs:label "Beweisart"@de,
+        "evidence type"@en,
+        "tipo de evidencia"@es,
+        "type de preuve"@fr,
+        "tegund sönnunargagna"@is,
+        "証拠の種別"@ja,
+        "tipo de evidência"@pt,
+        "证据类型"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    schema:domainIncludes martialis:Attribution,
+        martialis:SourceAssertionRelation .
+
+martialis:foundedEvent rdfs:label "Gründungsereignis"@de,
+        "founded event"@en,
+        "evento de fundación"@es,
+        "événement de fondation"@fr,
+        "stofnun"@is,
+        "創設イベント"@ja,
+        "evento de fundação"@pt,
+        "创立事件"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    schema:domainIncludes martialis:Organization,
+        martialis:Place,
+        martialis:RankingSystem,
+        martialis:Style .
+
+martialis:founder rdfs:label "Gründer"@de,
+        "founder"@en,
+        "fundador"@es,
+        "fondateur"@fr,
+        "stofnandi"@is,
+        "創始者"@ja,
+        "fundador"@pt,
+        "创始人"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    schema:domainIncludes martialis:Organization,
+        martialis:Place,
+        martialis:Style .
+
+martialis:gradeOrdinal a owl:DatatypeProperty ;
+    rdfs:label "Ordnungszahl des Grades"@de,
+        "grade ordinal"@en,
+        "ordinal del grado"@es,
+        "rang du grade"@fr,
+        "raðtala gráðu"@is,
+        "級位順序"@ja,
+        "ordem do grau"@pt,
+        "级位序数"@zh ;
+    rdfs:comment "A sort key on a skos:Concept within an ordered scheme (a grade ladder, ascending = more senior; the confidence scale, ascending = more certain); SKOS has no native ordinal-successor relation."@en ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:range xsd:integer .
+
+martialis:gradeScheme rdfs:label "Gradschema"@de,
+        "grade scheme"@en,
+        "esquema de grados"@es,
+        "schéma de grades"@fr,
+        "gráðukerfi"@is,
+        "級位スキーム"@ja,
+        "esquema de graus"@pt,
+        "级位体系"@zh ;
+    rdfs:domain martialis:RankingSystem ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:grantedBy rdfs:label "verliehen durch"@de,
+        "granted by"@en,
+        "concedido por"@es,
+        "décerné par"@fr,
+        "veitt af"@is,
+        "授与者"@ja,
+        "concedido por"@pt,
+        "授予者"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    schema:domainIncludes martialis:HonorAssertion,
+        martialis:RankAssertion .
+
+martialis:handle rdfs:label "Handle"@de,
+        "handle"@en,
+        "handle"@es,
+        "handle"@fr,
+        "notandanafn"@is,
+        "Handle"@ja,
+        "handle"@pt,
+        "Handle"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:subPropertyOf bibo:handle ;
+    schema:domainIncludes martialis:Source .
+
+martialis:hasAffiliationAssertion rdfs:label "hat Zugehörigkeitsaussage"@de,
+        "has affiliation assertion"@en,
+        "tiene aserción de afiliación"@es,
+        "a une assertion d’affiliation"@fr,
+        "hefur fullyrðingu um aðild"@is,
+        "所属関係アサーションを有する"@ja,
+        "tem asserção de afiliação"@pt,
+        "具有隶属关系断言"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    schema:domainIncludes martialis:Organization,
+        martialis:Place .
+
+martialis:hasConfidence rdfs:label "hat Vertrauensbewertung"@de,
+        "has confidence"@en,
+        "tiene confianza"@es,
+        "a une évaluation de confiance"@fr,
+        "hefur vissumat"@is,
+        "信頼度評価を有する"@ja,
+        "tem confiança"@pt,
+        "具有可信度评估"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    schema:domainIncludes martialis:Assertion .
+
+martialis:hasContributor rdfs:label "hat Beitragenden"@de,
+        "has contributor"@en,
+        "tiene contribuidor"@es,
+        "a pour contributeur"@fr,
+        "hefur aðstandanda"@is,
+        "寄与者を有する"@ja,
+        "tem contribuidor"@pt,
+        "具有贡献者"@zh ;
+    rdfs:domain martialis:Source ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:hasDocumentTransmissionAssertion rdfs:label "hat Aussage zur Dokumentüberlieferung"@de,
+        "has document transmission assertion"@en,
+        "tiene aserción de transmisión documental"@es,
+        "a une assertion de transmission documentaire"@fr,
+        "hefur fullyrðingu um miðlun með riti"@is,
+        "文書伝承アサーションを有する"@ja,
+        "tem asserção de transmissão documental"@pt,
+        "具有文献传承断言"@zh ;
+    rdfs:domain martialis:Person ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:hasEvidence rdfs:label "hat Beleg"@de,
+        "has evidence"@en,
+        "tiene evidencia"@es,
+        "a pour preuve"@fr,
+        "hefur sönnunargögn"@is,
+        "根拠を有する"@ja,
+        "tem evidência"@pt,
+        "具有证据"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    schema:domainIncludes martialis:Assertion,
+        martialis:Event,
+        martialis:LifeEvent,
+        martialis:Organization,
+        martialis:Person,
+        martialis:Place,
+        martialis:RankingSystem,
+        martialis:Source,
+        martialis:Style,
+        martialis:TeacherInteraction .
+
+martialis:hasHonorAssertion rdfs:label "hat Auszeichnungsaussage"@de,
+        "has honor assertion"@en,
+        "tiene aserción de distinción"@es,
+        "a une assertion de distinction"@fr,
+        "hefur fullyrðingu um viðurkenningu"@is,
+        "称号アサーションを有する"@ja,
+        "tem asserção de honra"@pt,
+        "具有荣誉断言"@zh ;
+    rdfs:domain martialis:Person ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:hasHistoricityAssertion rdfs:label "hat Historizitätsaussage"@de,
+        "has historicity assertion"@en,
+        "tiene aserción de historicidad"@es,
+        "a une assertion d’historicité"@fr,
+        "hefur fullyrðingu um tilvist"@is,
+        "実在性アサーションを有する"@ja,
+        "tem asserção de historicidade"@pt,
+        "具有历史真实性断言"@zh ;
+    rdfs:domain martialis:Person ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:historicity rdfs:label "Historizität"@de,
+        "historicity"@en,
+        "historicidad"@es,
+        "historicité"@fr,
+        "tilvist"@is,
+        "実在性"@ja,
+        "historicidade"@pt,
+        "历史真实性"@zh ;
+    rdfs:domain martialis:HistoricityAssertion ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:hasIdentityAssertion rdfs:label "hat Identitätsaussage"@de,
+        "has identity assertion"@en,
+        "tiene aserción de identidad"@es,
+        "a une assertion d’identité"@fr,
+        "hefur fullyrðingu um samsemd"@is,
+        "同一性アサーションを有する"@ja,
+        "tem asserção de identidade"@pt,
+        "具有身份断言"@zh ;
+    rdfs:domain martialis:Person ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:hasInstructorRole rdfs:label "hat Ausbilderrolle"@de,
+        "has instructor role"@en,
+        "tiene función de instructor"@es,
+        "a une fonction d’enseignant"@fr,
+        "hefur leiðbeinandahlutverk"@is,
+        "指導員役職を有する"@ja,
+        "tem papel de instrutor"@pt,
+        "具有教练职务"@zh ;
+    rdfs:domain martialis:Place ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:hasInteraction rdfs:label "hat Interaktion"@de,
+        "has interaction"@en,
+        "tiene interacción"@es,
+        "a une interaction"@fr,
+        "hefur samskipti"@is,
+        "交流記録を有する"@ja,
+        "tem interação"@pt,
+        "具有交流记录"@zh ;
+    rdfs:domain martialis:TeacherAssertion ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:hasOfficerRole rdfs:label "hat Amt"@de,
+        "has officer role"@en,
+        "tiene cargo directivo"@es,
+        "a une fonction dirigeante"@fr,
+        "hefur stjórnunarhlutverk"@is,
+        "役員職を有する"@ja,
+        "tem cargo diretivo"@pt,
+        "具有领导职务"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    schema:domainIncludes martialis:Organization,
+        martialis:Place .
+
+martialis:hasMembership rdfs:label "hat Mitgliedschaft"@de,
+        "has membership"@en,
+        "tiene membresía"@es,
+        "a une adhésion"@fr,
+        "hefur félagsaðild"@is,
+        "会員関係を有する"@ja,
+        "tem qualidade de membro"@pt,
+        "具有成员资格"@zh ;
+    rdfs:domain martialis:Organization ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:hasParticipation rdfs:label "hat Teilnahme"@de,
+        "has participation"@en,
+        "tiene participación"@es,
+        "a une participation"@fr,
+        "hefur þátttöku"@is,
+        "参加記録を有する"@ja,
+        "tem participação"@pt,
+        "具有参与记录"@zh ;
+    rdfs:domain martialis:Event ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:hasRankAssertion rdfs:label "hat Graduierungsaussage"@de,
+        "has rank assertion"@en,
+        "tiene aserción de graduación"@es,
+        "a une assertion de grade"@fr,
+        "hefur fullyrðingu um gráðu"@is,
+        "段位アサーションを有する"@ja,
+        "tem asserção de graduação"@pt,
+        "具有段位断言"@zh ;
+    rdfs:domain martialis:Person ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:hasStyleRelationAssertion rdfs:label "hat Aussage zur Stilbeziehung"@de,
+        "has style relation assertion"@en,
+        "tiene aserción de relación entre estilos"@es,
+        "a une assertion de relation entre styles"@fr,
+        "hefur fullyrðingu um tengsl stíla"@is,
+        "流派関係アサーションを有する"@ja,
+        "tem asserção de relação entre estilos"@pt,
+        "具有流派关系断言"@zh ;
+    rdfs:domain martialis:Style ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:hasTeacherAssertion rdfs:label "hat Lehreraussage"@de,
+        "has teacher assertion"@en,
+        "tiene aserción de maestro"@es,
+        "a une assertion de professeur"@fr,
+        "hefur fullyrðingu um kennara"@is,
+        "師弟関係アサーションを有する"@ja,
+        "tem asserção de professor"@pt,
+        "具有师徒关系断言"@zh ;
+    rdfs:domain martialis:Person ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:hasVariant a owl:ObjectProperty ;
+    rdfs:label "hat Variante"@de,
+        "has variant"@en,
+        "tiene variante"@es,
+        "a pour variante"@fr,
+        "hefur afbrigði"@is,
+        "亜流を有する"@ja,
+        "tem variante"@pt,
+        "具有分支流派"@zh ;
+    rdfs:comment "Direct broader-to-narrower style edge, materialized at export time alongside variantOf. Built from every claim not assessed doubtful or refuted: possible, probable or confirmed. The assertion carries the evidence and the level."@en ;
+    rdfs:domain martialis:Style ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:range martialis:Style ;
+    skos:broadMatch skos:narrower ;
+    owl:inverseOf martialis:variantOf .
+
+martialis:honorGrade rdfs:label "Auszeichnungsstufe"@de,
+        "honor grade"@en,
+        "grado de la distinción"@es,
+        "grade de la distinction"@fr,
+        "stig viðurkenningar"@is,
+        "称号位"@ja,
+        "grau da honra"@pt,
+        "荣誉等级"@zh ;
+    rdfs:domain martialis:HonorAssertion ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:honorType rdfs:label "Auszeichnungsart"@de,
+        "honor type"@en,
+        "tipo de distinción"@es,
+        "type de distinction"@fr,
+        "tegund viðurkenningar"@is,
+        "称号種別"@ja,
+        "tipo de honra"@pt,
+        "荣誉类型"@zh ;
+    rdfs:domain martialis:HonorAssertion ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:honorValue rdfs:label "Bezeichnung der Auszeichnung"@de,
+        "honor value"@en,
+        "valor de la distinción"@es,
+        "intitulé de la distinction"@fr,
+        "heiti viðurkenningar"@is,
+        "称号名"@ja,
+        "valor da honra"@pt,
+        "荣誉名称"@zh ;
+    rdfs:domain martialis:HonorAssertion ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:imageAttribution rdfs:label "Bildnachweis"@de,
+        "image attribution"@en,
+        "atribución de la imagen"@es,
+        "crédit de l’image"@fr,
+        "höfundur myndar"@is,
+        "画像クレジット"@ja,
+        "atribuição de imagem"@pt,
+        "图片署名"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    schema:domainIncludes martialis:Event,
+        martialis:Organization,
+        martialis:Person,
+        martialis:Place,
+        martialis:Style .
+
+martialis:instructor rdfs:label "Ausbilder"@de,
+        "instructor"@en,
+        "instructor"@es,
+        "enseignant"@fr,
+        "leiðbeinandi"@is,
+        "指導員"@ja,
+        "instrutor"@pt,
+        "教练"@zh ;
+    rdfs:domain martialis:InstructorRole ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:instructorCapacity rdfs:label "Ausbilderfunktion"@de,
+        "instructor capacity"@en,
+        "capacidad del instructor"@es,
+        "qualité de l’enseignant"@fr,
+        "staða leiðbeinanda"@is,
+        "指導員職位"@ja,
+        "capacidade do instrutor"@pt,
+        "教练职位"@zh ;
+    rdfs:domain martialis:InstructorRole ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:instructorPeriod rdfs:label "Lehrzeitraum"@de,
+        "instructor period"@en,
+        "período del instructor"@es,
+        "période d’enseignement"@fr,
+        "tímabil kennslu"@is,
+        "指導期間"@ja,
+        "período do instrutor"@pt,
+        "执教期间"@zh ;
+    rdfs:domain martialis:InstructorRole ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:instructorStyle rdfs:label "Stil des Ausbilders"@de,
+        "instructor style"@en,
+        "estilo del instructor"@es,
+        "style de l’enseignant"@fr,
+        "stíll leiðbeinanda"@is,
+        "指導流派"@ja,
+        "estilo do instrutor"@pt,
+        "执教流派"@zh ;
+    rdfs:domain martialis:InstructorRole ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:interactionPeriod rdfs:label "Zeitraum der Interaktion"@de,
+        "interaction period"@en,
+        "período de la interacción"@es,
+        "période de l’interaction"@fr,
+        "tímabil samskipta"@is,
+        "交流期間"@ja,
+        "período da interação"@pt,
+        "交流期间"@zh ;
+    rdfs:domain martialis:TeacherInteraction ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:interactionPlace rdfs:label "Ort der Interaktion"@de,
+        "interaction place"@en,
+        "lugar de la interacción"@es,
+        "lieu de l’interaction"@fr,
+        "staður samskipta"@is,
+        "交流場所"@ja,
+        "local da interação"@pt,
+        "交流地点"@zh ;
+    rdfs:domain martialis:TeacherInteraction ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:inverseLabel a owl:AnnotationProperty ;
+    rdfs:label "inverse Bezeichnung"@de,
+        "inverse label"@en,
+        "etiqueta inversa"@es,
+        "libellé inverse"@fr,
+        "andhverft heiti"@is,
+        "逆方向ラベル"@ja,
+        "rótulo inverso"@pt,
+        "反向标签"@zh ;
+    rdfs:comment "Display label for the concept read in the inverse direction of the relation (e.g. member_of reads 'Member' from the joined org)."@en ;
+    rdfs:domain skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:latestYear a owl:DatatypeProperty ;
+    rdfs:label "spätestes Jahr"@de,
+        "latest year"@en,
+        "año más tardío"@es,
+        "année au plus tard"@fr,
+        "síðasta mögulega ár"@is,
+        "最晚年"@ja,
+        "ano mais recente"@pt,
+        "最晚年份"@zh ;
+    rdfs:comment "Latest year consistent with a Date value, materialized alongside martialis:earliestYear - see its comment for the full explanation."@en ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:range xsd:integer ;
+    schema:domainIncludes martialis:Event,
+        martialis:HonorAssertion,
+        martialis:LifeEvent,
+        martialis:RankAssertion,
+        martialis:Source .
+
+martialis:maxOrdinal rdfs:label "höchste Ordnungszahl"@de,
+        "max ordinal"@en,
+        "ordinal máximo"@es,
+        "rang maximal"@fr,
+        "hæsta raðtala"@is,
+        "最大段位数"@ja,
+        "número máximo"@pt,
+        "最高段位数"@zh ;
+    rdfs:domain martialis:RankingSystem ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:mediaRights rdfs:label "Bildrechte"@de,
+        "media rights"@en,
+        "derechos de la imagen"@es,
+        "droits de l’image"@fr,
+        "réttindi myndar"@is,
+        "画像の権利"@ja,
+        "direitos da imagem"@pt,
+        "图片权利"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:subPropertyOf dcterms:rights ;
+    schema:domainIncludes martialis:Photo,
+        martialis:Video .
+
+martialis:member rdfs:label "Mitglied"@de,
+        "member"@en,
+        "miembro"@es,
+        "membre"@fr,
+        "félagi"@is,
+        "会員"@ja,
+        "membro"@pt,
+        "成员"@zh ;
+    rdfs:domain martialis:Membership ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:membershipPeriod rdfs:label "Mitgliedschaftszeitraum"@de,
+        "membership period"@en,
+        "período de membresía"@es,
+        "période d’adhésion"@fr,
+        "aðildartími"@is,
+        "在籍期間"@ja,
+        "período como membro"@pt,
+        "成员期间"@zh ;
+    rdfs:domain martialis:Membership ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:minOrdinal rdfs:label "niedrigste Ordnungszahl"@de,
+        "min ordinal"@en,
+        "ordinal mínimo"@es,
+        "rang minimal"@fr,
+        "lægsta raðtala"@is,
+        "最小段位数"@ja,
+        "número mínimo"@pt,
+        "最低段位数"@zh ;
+    rdfs:domain martialis:RankingSystem ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:ndl rdfs:label "NDL"@de,
+        "ndl"@en,
+        "ndl"@es,
+        "ndl"@fr,
+        "ndl"@is,
+        "NDL"@ja,
+        "ndl"@pt,
+        "NDL"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    schema:domainIncludes martialis:Source .
+
+martialis:nonDroppingParticle rdfs:label "fester Namenszusatz"@de,
+        "non dropping particle"@en,
+        "partícula no omisible"@es,
+        "particule non omissible"@fr,
+        "forskeyti sem má ekki sleppa"@is,
+        "非前置詞要素"@ja,
+        "partícula mantida"@pt,
+        "不可省略的姓氏前缀"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:object a owl:ObjectProperty ;
+    rdfs:label "Objekt"@de,
+        "object"@en,
+        "objeto"@es,
+        "objet"@fr,
+        "andlag"@is,
+        "目的語"@ja,
+        "objeto"@pt,
+        "宾语"@zh ;
+    rdfs:comment "The argument of a claim: the super-property of teacher, rankStyle, conferredBy, relatedOrganization, identityCandidate, relatedStyle, participant and participantOrganization. The data states the specific property; this one serves a query over any claim (with a reasoner, or a property path over the eight)."@en ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    schema:domainIncludes martialis:Assertion ;
+    schema:rangeIncludes martialis:Organization,
+        martialis:Person,
+        martialis:Style .
+
+martialis:participantOrganization rdfs:label "teilnehmende Organisation"@de,
+        "participant organization"@en,
+        "organización participante"@es,
+        "organisation participante"@fr,
+        "samtök sem taka þátt"@is,
+        "参加団体"@ja,
+        "organização participante"@pt,
+        "参与组织"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:subPropertyOf martialis:object .
+
+martialis:participant rdfs:label "Teilnehmer"@de,
+        "participant"@en,
+        "participante"@es,
+        "participant"@fr,
+        "þátttakandi"@is,
+        "参加者"@ja,
+        "participante"@pt,
+        "参与者"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:subPropertyOf martialis:object .
+
+martialis:teacher rdfs:label "Lehrer"@de,
+        "teacher"@en,
+        "maestro"@es,
+        "professeur"@fr,
+        "kennari"@is,
+        "師"@ja,
+        "professor"@pt,
+        "师父"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:subPropertyOf martialis:object .
+
+martialis:rankStyle rdfs:label "Stil der Graduierung"@de,
+        "rank style"@en,
+        "estilo de la graduación"@es,
+        "style du grade"@fr,
+        "stíll gráðu"@is,
+        "段位の流派"@ja,
+        "estilo da graduação"@pt,
+        "段位流派"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:subPropertyOf martialis:object .
+
+martialis:conferredBy rdfs:label "verliehen von"@de,
+        "conferred by"@en,
+        "conferido por"@es,
+        "conféré par"@fr,
+        "veitt af"@is,
+        "授与団体"@ja,
+        "conferido por"@pt,
+        "授予机构"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:subPropertyOf martialis:object ;
+    schema:domainIncludes martialis:HonorAssertion,
+        martialis:RankAssertion .
+
+martialis:relatedOrganization rdfs:label "verbundene Organisation"@de,
+        "related organization"@en,
+        "organización relacionada"@es,
+        "organisation liée"@fr,
+        "tengd samtök"@is,
+        "関連団体"@ja,
+        "organização relacionada"@pt,
+        "相关组织"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:subPropertyOf martialis:object .
+
+martialis:identityCandidate rdfs:label "Identitätskandidat"@de,
+        "identity candidate"@en,
+        "candidato de identidad"@es,
+        "candidat d’identité"@fr,
+        "möguleg samsemd"@is,
+        "同一人物候補"@ja,
+        "candidato de identidade"@pt,
+        "同一人物候选"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:subPropertyOf martialis:object .
+
+martialis:relatedStyle rdfs:label "verwandter Stil"@de,
+        "related style"@en,
+        "estilo relacionado"@es,
+        "style apparenté"@fr,
+        "skyldur stíll"@is,
+        "関連流派"@ja,
+        "estilo relacionado"@pt,
+        "相关流派"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:subPropertyOf martialis:object .
+
+martialis:oclc rdfs:label "OCLC"@de,
+        "oclc"@en,
+        "oclc"@es,
+        "oclc"@fr,
+        "oclc"@is,
+        "OCLC"@ja,
+        "oclc"@pt,
+        "OCLC"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:subPropertyOf bibo:oclcnum ;
+    schema:domainIncludes martialis:Source .
+
+martialis:officer rdfs:label "Amtsträger"@de,
+        "officer"@en,
+        "directivo"@es,
+        "dirigeant"@fr,
+        "stjórnandi"@is,
+        "役員"@ja,
+        "dirigente"@pt,
+        "负责人"@zh ;
+    rdfs:domain martialis:OfficerRole ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:officerPeriod rdfs:label "Amtszeit"@de,
+        "officer period"@en,
+        "período del cargo"@es,
+        "période de mandat"@fr,
+        "starfstími"@is,
+        "在任期間"@ja,
+        "período do cargo"@pt,
+        "任职期间"@zh ;
+    rdfs:domain martialis:OfficerRole ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:officerTitle rdfs:label "Amtsbezeichnung"@de,
+        "officer title"@en,
+        "título del cargo"@es,
+        "intitulé de la fonction"@fr,
+        "starfsheiti"@is,
+        "役職名"@ja,
+        "título do cargo"@pt,
+        "职务名称"@zh ;
+    rdfs:domain martialis:OfficerRole ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:orgType rdfs:label "Organisationsart"@de,
+        "org type"@en,
+        "tipo de organización"@es,
+        "type d’organisation"@fr,
+        "tegund samtaka"@is,
+        "組織種別"@ja,
+        "tipo de organização"@pt,
+        "组织类型"@zh ;
+    rdfs:domain martialis:Organization ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:parentOrg a owl:ObjectProperty ;
+    rdfs:label "übergeordnete Organisation"@de,
+        "parent org"@en,
+        "organización matriz"@es,
+        "organisation mère"@fr,
+        "móðursamtök"@is,
+        "上位組織"@ja,
+        "organização mãe"@pt,
+        "上级组织"@zh ;
+    rdfs:comment "Materialized at export time from AffiliationAssertions with affiliationRelation 'branch_of' and no end year. Built from every claim not assessed doubtful or refuted: possible, probable or confirmed. The assertion carries the evidence and the level."@en ;
+    rdfs:domain martialis:Organization ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:range martialis:Organization ;
+    rdfs:subPropertyOf org:subOrganizationOf .
+
+martialis:partNumber a owl:DatatypeProperty ;
+    rdfs:label "Teilnummer"@de,
+        "part number"@en,
+        "número de parte"@es,
+        "numéro de partie"@fr,
+        "hlutanúmer"@is,
+        "部番号"@ja,
+        "número da parte"@pt,
+        "部分编号"@zh ;
+    rdfs:comment "CSL 'part'. Not to be confused with martialis:partOf (containment)."@en ;
+    rdfs:domain martialis:Source ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:range xsd:string ;
+    skos:scopeNote "Not to be confused with martialis:partOf (containment)."@en .
+
+martialis:partOf rdfs:label "Teil von"@de,
+        "part of"@en,
+        "parte de"@es,
+        "fait partie de"@fr,
+        "hluti af"@is,
+        "所属する"@ja,
+        "parte de"@pt,
+        "属于"@zh ;
+    rdfs:domain martialis:Source ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:subPropertyOf dcterms:isPartOf .
+
+martialis:participationRole rdfs:label "Teilnahmerolle"@de,
+        "participation role"@en,
+        "función en la participación"@es,
+        "rôle dans la participation"@fr,
+        "hlutverk í þátttöku"@is,
+        "参加役割"@ja,
+        "papel na participação"@pt,
+        "参与角色"@zh ;
+    rdfs:domain martialis:Participation ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:participationStyle rdfs:label "Stil der Teilnahme"@de,
+        "participation style"@en,
+        "estilo de la participación"@es,
+        "style de la participation"@fr,
+        "stíll þátttöku"@is,
+        "参加流派"@ja,
+        "estilo da participação"@pt,
+        "参与流派"@zh ;
+    rdfs:domain martialis:Participation ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:peerReview rdfs:label "Peer-Review"@de,
+        "peer review"@en,
+        "revisión por pares"@es,
+        "évaluation par les pairs"@fr,
+        "ritrýni"@is,
+        "査読"@ja,
+        "revisão por pares"@pt,
+        "同行评审"@zh ;
+    vann:example "Set on the container: <journalX> a martialis:Source ; martialis:sourceType \"periodical\" ; martialis:peerReview peerreview:peer_reviewed . Its articles inherit it through partOf; an article states its own value only when it differs."@en ;
+    rdfs:domain martialis:Source ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:subPropertyOf bibo:status .
+
+martialis:placeType rdfs:label "Ortsart"@de,
+        "place type"@en,
+        "tipo de lugar"@es,
+        "type de lieu"@fr,
+        "tegund staðar"@is,
+        "場所種別"@ja,
+        "tipo de local"@pt,
+        "地点类型"@zh ;
+    rdfs:domain martialis:Place ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:pmcid rdfs:label "PMCID"@de,
+        "pmcid"@en,
+        "pmcid"@es,
+        "pmcid"@fr,
+        "pmcid"@is,
+        "PMCID"@ja,
+        "pmcid"@pt,
+        "PMCID"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    schema:domainIncludes martialis:Source .
+
+martialis:pmid rdfs:label "PMID"@de,
+        "pmid"@en,
+        "pmid"@es,
+        "pmid"@fr,
+        "pmid"@is,
+        "PMID"@ja,
+        "pmid"@pt,
+        "PMID"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:subPropertyOf bibo:pmid ;
+    schema:domainIncludes martialis:Source .
+
+martialis:possiblySameAs a owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:label "möglicherweise identisch mit"@de,
+        "possibly same as"@en,
+        "posiblemente el mismo que"@es,
+        "peut-être identique à"@fr,
+        "hugsanlega sama og"@is,
+        "同一人物の可能性"@ja,
+        "possivelmente o mesmo que"@pt,
+        "可能为同一人"@zh ;
+    rdfs:comment "Direct candidate-identity edge, materialized symmetrically at export time from IdentityAssertions. Deliberately weaker than owl:sameAs. Built from every claim not assessed doubtful or refuted: possible, probable or confirmed. The assertion carries the evidence and the level."@en ;
+    rdfs:domain martialis:Person ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:range martialis:Person .
+
+martialis:primaryImage rdfs:label "Hauptbild"@de,
+        "primary image"@en,
+        "imagen principal"@es,
+        "image principale"@fr,
+        "aðalmynd"@is,
+        "主画像"@ja,
+        "imagem principal"@pt,
+        "主图"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:range martialis:Photo ;
+    rdfs:subPropertyOf schema:image ;
+    schema:domainIncludes martialis:Person,
+        martialis:Source .
+
+martialis:publisherOrg rdfs:label "herausgebende Organisation"@de,
+        "publisher org"@en,
+        "organización editora"@es,
+        "organisation éditrice"@fr,
+        "útgefandi"@is,
+        "出版組織"@ja,
+        "organização editora"@pt,
+        "出版机构"@zh ;
+    rdfs:domain martialis:Source ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:quotation rdfs:label "Zitat"@de,
+        "quotation"@en,
+        "cita"@es,
+        "citation"@fr,
+        "tilvitnun"@is,
+        "引用"@ja,
+        "citação"@pt,
+        "引文"@zh ;
+    rdfs:domain martialis:SourceAssertionRelation ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:rankGrade rdfs:label "Graduierungsstufe"@de,
+        "rank grade"@en,
+        "grado de la graduación"@es,
+        "grade"@fr,
+        "gráða"@is,
+        "段級位"@ja,
+        "grau de graduação"@pt,
+        "段级位"@zh ;
+    rdfs:domain martialis:RankAssertion ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:rankOrdinal rdfs:label "Graduierungsnummer"@de,
+        "rank ordinal"@en,
+        "número de graduación"@es,
+        "numéro de grade"@fr,
+        "númer gráðu"@is,
+        "段位数"@ja,
+        "número de graduação"@pt,
+        "段位数"@zh ;
+    rdfs:domain martialis:RankAssertion ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:rankSystem rdfs:label "verwendetes Graduierungssystem"@de,
+        "rank system"@en,
+        "sistema de graduación adoptado"@es,
+        "système de grades adopté"@fr,
+        "gráðukerfi sem fylgt er"@is,
+        "採用段級制度"@ja,
+        "sistema de graduação adotado"@pt,
+        "采用的段级制度"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    schema:domainIncludes martialis:RankAssertion,
+        martialis:Style .
+
+martialis:rankType rdfs:label "Graduierungsart"@de,
+        "rank type"@en,
+        "tipo de graduación"@es,
+        "type de grade"@fr,
+        "tegund gráðu"@is,
+        "段位種別"@ja,
+        "tipo de graduação"@pt,
+        "段位类型"@zh ;
+    rdfs:domain martialis:RankAssertion ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:rankingSystemKind rdfs:label "Art des Graduierungssystems"@de,
+        "ranking system kind"@en,
+        "tipo de sistema de graduación"@es,
+        "type de système de grades"@fr,
+        "tegund gráðukerfis"@is,
+        "段級制度種別"@ja,
+        "tipo de sistema de graduação"@pt,
+        "段级制度类型"@zh ;
+    rdfs:domain martialis:RankingSystem ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:researchNote rdfs:label "Forschungsnotiz"@de,
+        "research note"@en,
+        "nota de investigación"@es,
+        "note de recherche"@fr,
+        "rannsóknarathugasemd"@is,
+        "調査メモ"@ja,
+        "nota de investigação"@pt,
+        "研究笔记"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    skos:closeMatch skos:editorialNote ;
+    schema:domainIncludes martialis:Assertion,
+        martialis:Event,
+        martialis:Organization,
+        martialis:Person,
+        martialis:Place,
+        martialis:RankingSystem,
+        martialis:Source,
+        martialis:Style,
+        martialis:TeacherInteraction .
+
+martialis:role rdfs:label "Rolle"@de,
+        "role"@en,
+        "función"@es,
+        "rôle"@fr,
+        "hlutverk"@is,
+        "役割"@ja,
+        "papel"@pt,
+        "角色"@zh ;
+    rdfs:domain martialis:TeacherAssertion ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:section rdfs:label "Abschnitt"@de,
+        "section"@en,
+        "sección"@es,
+        "section"@fr,
+        "kafli"@is,
+        "節"@ja,
+        "secção"@pt,
+        "节"@zh ;
+    rdfs:domain martialis:Source ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:selfPublished rdfs:label "im Selbstverlag"@de,
+        "self published"@en,
+        "autoeditado"@es,
+        "autoédité"@fr,
+        "eigin útgáfa"@is,
+        "自費出版"@ja,
+        "auto-publicado"@pt,
+        "自费出版"@zh ;
+    rdfs:domain martialis:Source ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:sourceGenre rdfs:label "Quellengattung"@de,
+        "source genre"@en,
+        "género de la fuente"@es,
+        "genre de la source"@fr,
+        "tegund efnis"@is,
+        "資料ジャンル"@ja,
+        "género da fonte"@pt,
+        "来源体裁"@zh ;
+    rdfs:domain martialis:Source ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:sourceLocation rdfs:label "Fundstelle in der Quelle"@de,
+        "source location"@en,
+        "ubicación en la fuente"@es,
+        "emplacement dans la source"@fr,
+        "staðsetning í heimild"@is,
+        "資料内位置"@ja,
+        "localização na fonte"@pt,
+        "来源内位置"@zh ;
+    rdfs:domain martialis:SourceAssertionRelation ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:sourceLocatorLabel rdfs:label "Art der Fundstelle"@de,
+        "source locator label"@en,
+        "tipo de localización"@es,
+        "type de localisation"@fr,
+        "tegund staðsetningar"@is,
+        "ロケーター種別"@ja,
+        "tipo de localização"@pt,
+        "定位类型"@zh ;
+    dcterms:conformsTo <https://docs.citationstyles.org/en/stable/specification.html#locators> ;
+    rdfs:domain martialis:SourceAssertionRelation ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:informationType rdfs:label "Informationsart"@de,
+        "information type"@en,
+        "tipo de información"@es,
+        "type d’information"@fr,
+        "tegund upplýsinga"@is,
+        "情報の種別"@ja,
+        "tipo de informação"@pt,
+        "信息类型"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    schema:domainIncludes martialis:Attribution,
+        martialis:SourceAssertionRelation .
+
+martialis:lineageTradition rdfs:label "Überlieferung der Linie"@de,
+        "lineage tradition"@en,
+        "tradición del linaje"@es,
+        "tradition de la lignée"@fr,
+        "hefð ættleggsins"@is,
+        "流派伝承"@ja,
+        "tradição da linhagem"@pt,
+        "流派传承"@zh ;
+    rdfs:domain martialis:Source ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:sourceClassification rdfs:label "Quellenklassifikation"@de,
+        "source classification"@en,
+        "clasificación de la fuente"@es,
+        "classification de la source"@fr,
+        "flokkun heimildar"@is,
+        "資料分類"@ja,
+        "classificação da fonte"@pt,
+        "来源分类"@zh ;
+    rdfs:domain martialis:Source ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:TraditionOnlyAssertion a owl:Class ;
+    rdfs:label "nur überlieferte Aussage"@de,
+        "tradition-only assertion"@en,
+        "aserción solo por tradición"@es,
+        "assertion fondée sur la seule tradition"@fr,
+        "fullyrðing byggð á hefð einni"@is,
+        "伝承のみのアサーション"@ja,
+        "asserção apenas por tradição"@pt,
+        "仅凭传承的断言"@zh ;
+    rdfs:comment "Materialized at export time: an Assertion whose every supporting evidence record cites a Source marked martialis:lineageTradition true. The claim rests only on the lineage's own recount of its past: its sources share one origin and cannot corroborate each other, so it is not confirmed unless the granting body records its own grant."@en ;
+    rdfs:subClassOf martialis:Assertion ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:sourceType rdfs:label "Quellentyp"@de,
+        "source type"@en,
+        "tipo de fuente"@es,
+        "type de source"@fr,
+        "tegund heimildar"@is,
+        "資料種別"@ja,
+        "tipo de fonte"@pt,
+        "来源类型"@zh ;
+    dcterms:conformsTo <https://docs.citationstyles.org/en/stable/specification.html#appendix-iii-types> ;
+    rdfs:domain martialis:Source ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:specializationOf rdfs:label "Spezialisierung von"@de,
+        "specialization of"@en,
+        "especialización de"@es,
+        "spécialisation de"@fr,
+        "sérhæfing á"@is,
+        "特定時点の版"@ja,
+        "especialização de"@pt,
+        "特定版本所属"@zh ;
+    rdfs:domain martialis:Source ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:range martialis:Source ;
+    rdfs:seeAlso <https://www.rfc-editor.org/rfc/rfc7089> ;
+    skos:closeMatch prov:specializationOf ;
+    skos:scopeNote "Not containment (martialis:partOf) and not an edition (martialis:editionOf). In Memento terms (RFC 7089) the resource is the URI-R and each state records its URI-M as schema:archivedAt, with martialis:archiveDate as the Memento-Datetime."@en .
+
+martialis:startYear rdfs:label "Anfangsjahr"@de,
+        "start year"@en,
+        "año inicial"@es,
+        "année de début"@fr,
+        "upphafsár"@is,
+        "開始年"@ja,
+        "ano inicial"@pt,
+        "开始年份"@zh ;
+    rdfs:domain martialis:TimeInterval ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:styleForm rdfs:label "Stilform"@de,
+        "style form"@en,
+        "forma del estilo"@es,
+        "forme du style"@fr,
+        "form stíls"@is,
+        "流派形態"@ja,
+        "forma do estilo"@pt,
+        "流派形态"@zh ;
+    rdfs:domain martialis:Style ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:styleRelationType rdfs:label "Art der Stilbeziehung"@de,
+        "style relation type"@en,
+        "tipo de relación entre estilos"@es,
+        "type de relation entre styles"@fr,
+        "tegund stílatengsla"@is,
+        "流派関係種別"@ja,
+        "tipo de relação entre estilos"@pt,
+        "流派关系类型"@zh ;
+    rdfs:domain martialis:StyleRelationAssertion ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:styleType rdfs:label "Stilart"@de,
+        "style type"@en,
+        "tipo de estilo"@es,
+        "type de style"@fr,
+        "tegund stíls"@is,
+        "流派種別"@ja,
+        "tipo de estilo"@pt,
+        "流派类型"@zh ;
+    rdfs:domain martialis:Style ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:suffix a owl:DatatypeProperty ;
+    rdfs:label "Namenssuffix"@de,
+        "suffix"@en,
+        "sufijo"@es,
+        "suffixe"@fr,
+        "viðskeyti"@is,
+        "接尾辞"@ja,
+        "sufixo"@pt,
+        "后缀"@zh ;
+    rdfs:comment "CSL name-variable suffix: a name part after the given name, such as 'Jr.' or 'III'. Not an honorific."@en ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:range xsd:string .
+
+martialis:supports rdfs:label "stützt"@de,
+        "supports"@en,
+        "respalda"@es,
+        "étaye"@fr,
+        "styður"@is,
+        "支持する"@ja,
+        "apoia"@pt,
+        "支持"@zh ;
+    rdfs:domain martialis:SourceAssertionRelation ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:taughtAt a owl:ObjectProperty ;
+    rdfs:label "lehrte an"@de,
+        "taught at"@en,
+        "enseñó en"@es,
+        "a enseigné à"@fr,
+        "kenndi við"@is,
+        "指導場所"@ja,
+        "ensinou em"@pt,
+        "执教地点"@zh ;
+    rdfs:comment "Materialized at export time from TeacherAssertion interactions: this person taught at this place at least once. Descriptive only, not a staffing claim. Built from every claim not assessed doubtful or refuted: possible, probable or confirmed. The assertion carries the evidence and the level."@en ;
+    rdfs:domain martialis:Person ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:range martialis:Place .
+
+martialis:memberOf a owl:ObjectProperty ;
+    rdfs:label "Mitglied von"@de,
+        "member of"@en,
+        "miembro de"@es,
+        "membre de"@fr,
+        "félagi í"@is,
+        "会員として所属"@ja,
+        "membro de"@pt,
+        "属于组织"@zh ;
+    rdfs:comment "Direct person-to-organization membership edge, materialized at export time from Memberships. Built from every claim not assessed doubtful or refuted: possible, probable or confirmed. Not time-bound: the person was a member at some time. The assertion carries the evidence, the period and the level."@en ;
+    rdfs:domain martialis:Person ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:range martialis:Organization ;
+    rdfs:subPropertyOf org:memberOf .
+
+martialis:hasMember a owl:ObjectProperty ;
+    rdfs:label "hat Mitglied"@de,
+        "has member"@en,
+        "tiene miembro"@es,
+        "a pour membre"@fr,
+        "hefur félaga"@is,
+        "会員を有する"@ja,
+        "tem membro"@pt,
+        "拥有成员"@zh ;
+    rdfs:comment "Direct organization-to-person membership edge, materialized at export time from Memberships. Built from every claim not assessed doubtful or refuted: possible, probable or confirmed. Not time-bound: the person was a member at some time. The assertion carries the evidence, the period and the level."@en ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:subPropertyOf org:hasMember ;
+    owl:inverseOf martialis:memberOf .
+
+martialis:teaches a owl:ObjectProperty ;
+    rdfs:label "lehrt"@de,
+        "teaches"@en,
+        "enseña"@es,
+        "enseigne"@fr,
+        "kennir"@is,
+        "教えた"@ja,
+        "ensina"@pt,
+        "教授"@zh ;
+    rdfs:comment "Direct teacher-to-student edge, materialized at export time from TeacherAssertions. Built from every claim not assessed doubtful or refuted: possible, probable or confirmed. The assertion carries the evidence and the level."@en ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    owl:inverseOf martialis:wasTaughtBy .
+
+martialis:trainedAt a owl:ObjectProperty ;
+    rdfs:label "trainierte an"@de,
+        "trained at"@en,
+        "entrenó en"@es,
+        "s’est entraîné à"@fr,
+        "æfði hjá"@is,
+        "稽古場所"@ja,
+        "treinou em"@pt,
+        "习武地点"@zh ;
+    rdfs:comment "Materialized from TeacherAssertion interactions, with or without an identified teacher: this person trained at this place at least once. Descriptive only. Built from every claim not assessed doubtful or refuted: possible, probable or confirmed. The assertion carries the evidence and the level."@en ;
+    rdfs:domain martialis:Person ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:range martialis:Place .
+
+martialis:transmissionDocument rdfs:label "Überlieferungsdokument"@de,
+        "transmission document"@en,
+        "documento de transmisión"@es,
+        "document de transmission"@fr,
+        "miðlunarrit"@is,
+        "伝承文書"@ja,
+        "documento de transmissão"@pt,
+        "传承文献"@zh ;
+    rdfs:domain martialis:DocumentTransmissionAssertion ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:validDuring rdfs:label "gültig während"@de,
+        "valid during"@en,
+        "válido durante"@es,
+        "valide pendant"@fr,
+        "gildir á tímabilinu"@is,
+        "有効期間"@ja,
+        "válido durante"@pt,
+        "有效期间"@zh ;
+    rdfs:domain martialis:Assertion ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:IdentityAssertion rdfs:label "Identitätsaussage"@de,
+        "identity assertion"@en,
+        "aserción de identidad"@es,
+        "assertion d’identité"@fr,
+        "fullyrðing um samsemd"@is,
+        "同一性アサーション"@ja,
+        "asserção de identidade"@pt,
+        "身份断言"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:variantOf a owl:ObjectProperty ;
+    rdfs:label "Variante von"@de,
+        "variant of"@en,
+        "variante de"@es,
+        "variante de"@fr,
+        "afbrigði af"@is,
+        "亜流である"@ja,
+        "variante de"@pt,
+        "分支自"@zh ;
+    vann:example "ex:Shotokan martialis:variantOf ex:Karate . Distinct from derived_from (StyleRelationAssertion), which crosses into a different art rather than naming a school within one."@en ;
+    rdfs:comment "This style is a named variant/school within a broader style (e.g. Shotokan variantOf Karate). Materialized from StyleRelationAssertions. Built from every claim not assessed doubtful or refuted: possible, probable or confirmed. The assertion carries the evidence and the level."@en ;
+    rdfs:domain martialis:Style ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:range martialis:Style ;
+    skos:broadMatch skos:broader .
+
+martialis:wasTaughtBy a owl:ObjectProperty ;
+    rdfs:label "wurde unterrichtet von"@de,
+        "was taught by"@en,
+        "fue alumno de"@es,
+        "a été l’élève de"@fr,
+        "lærði hjá"@is,
+        "師事した"@ja,
+        "foi aluno de"@pt,
+        "师从"@zh ;
+    rdfs:comment "Direct student-to-teacher edge, materialized at export time from TeacherAssertions. Built from every claim not assessed doubtful or refuted: possible, probable or confirmed. The assertion carries the evidence and the level."@en ;
+    rdfs:domain martialis:Person ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:range martialis:Person .
+
+martialis:StyleRelationAssertion rdfs:label "Aussage zur Stilbeziehung"@de,
+        "style relation assertion"@en,
+        "aserción de relación entre estilos"@es,
+        "assertion de relation entre styles"@fr,
+        "fullyrðing um tengsl stíla"@is,
+        "流派関係アサーション"@ja,
+        "asserção de relação entre estilos"@pt,
+        "流派关系断言"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:AffiliationAssertion rdfs:label "Zugehörigkeitsaussage"@de,
+        "affiliation assertion"@en,
+        "aserción de afiliación"@es,
+        "assertion d’affiliation"@fr,
+        "fullyrðing um aðild"@is,
+        "所属関係アサーション"@ja,
+        "asserção de afiliação"@pt,
+        "隶属关系断言"@zh ;
+    vann:example "TIES: <dojo> martialis:hasAffiliationAssertion [ martialis:relatedOrganization <aikikai> ; martialis:affiliationRelation \"recognised_by\" ; martialis:validDuring [ martialis:startYear 1970 ; martialis:endYear 1979 ] ] . GENEALOGY: <newBody> martialis:hasAffiliationAssertion [ martialis:relatedOrganization <oldBody> ; martialis:affiliationRelation \"split_from\" ] ."@en ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:TimeInterval rdfs:label "Zeitintervall"@de,
+        "time interval"@en,
+        "intervalo temporal"@es,
+        "intervalle de temps"@fr,
+        "tímabil"@is,
+        "期間"@ja,
+        "intervalo temporal"@pt,
+        "时间区间"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:Confidence rdfs:label "Vertrauensbewertung"@de,
+        "confidence"@en,
+        "confianza"@es,
+        "confiance"@fr,
+        "vissa"@is,
+        "信頼度評価"@ja,
+        "confiança"@pt,
+        "可信度评估"@zh ;
+    vann:example "martialis:conf01 a martialis:Confidence ; martialis:confidenceLevel <https://w3id.org/martialis/vocab/confidence-level/probable> ; martialis:confidenceRationale \"Two independent secondary sources agree; no primary document located.\" ; martialis:assessedBy <https://martial.is/agent/JDP> ."@en ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:DocumentTransmissionAssertion rdfs:label "Aussage zur Dokumentüberlieferung"@de,
+        "document transmission assertion"@en,
+        "aserción de transmisión documental"@es,
+        "assertion de transmission documentaire"@fr,
+        "fullyrðing um miðlun með riti"@is,
+        "文書伝承アサーション"@ja,
+        "asserção de transmissão documental"@pt,
+        "文献传承断言"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:TeacherAssertion rdfs:label "Lehreraussage"@de,
+        "teacher assertion"@en,
+        "aserción de maestro"@es,
+        "assertion de professeur"@fr,
+        "fullyrðing um kennara"@is,
+        "師弟関係アサーション"@ja,
+        "asserção de professor"@pt,
+        "师徒关系断言"@zh ;
+    vann:example "ex:Student martialis:hasTeacherAssertion martialis:assertion01 . martialis:assertion01 a martialis:TeacherAssertion ; martialis:teacher ex:Teacher ; martialis:assertedStyle ex:Shotokan ; martialis:hasInteraction [ a martialis:TeacherInteraction ; martialis:interactionPlace ex:HombuDojo ; martialis:interactionPeriod [ martialis:startYear 1962 ] ; martialis:hasEvidence [ martialis:basedOnSource ex:Interview1989 ; martialis:supports true ] ] ."@en,
+        "UNIDENTIFIED TEACHER: ex:Student martialis:hasTeacherAssertion martialis:assertion02 . martialis:assertion02 a martialis:TeacherAssertion ; martialis:assertedStyle ex:Judo ; martialis:hasInteraction [ a martialis:TeacherInteraction ; martialis:interactionPlace ex:Kodokan ; martialis:interactionPeriod [ martialis:startYear 1958 ; martialis:endYear 1959 ] ; martialis:hasEvidence [ martialis:basedOnSource ex:CourseRecord ; martialis:supports true ] ] ."@en ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty martialis:teacher ;
+            owl:someValuesFrom martialis:Person ] .
+
+martialis:OfficerRole rdfs:label "Amt"@de,
+        "officer role"@en,
+        "cargo directivo"@es,
+        "fonction dirigeante"@fr,
+        "stjórnunarhlutverk"@is,
+        "役員職"@ja,
+        "cargo diretivo"@pt,
+        "领导职务"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    skos:scopeNote "Distinct from HonorAssertion: a Honor is bestowed and held with no natural end (Hanshi, President Emeritus); an OfficerRole is served for a period with a real end (term expiry, resignation, succession)."@en .
+
+martialis:Membership rdfs:label "Mitgliedschaft"@de,
+        "membership"@en,
+        "membresía"@es,
+        "adhésion"@fr,
+        "félagsaðild"@is,
+        "会員関係"@ja,
+        "qualidade de membro"@pt,
+        "成员资格"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    skos:closeMatch org:Membership .
+
+martialis:hasSite rdfs:label "hat Standort"@de,
+        "has site"@en,
+        "tiene sede"@es,
+        "a pour site"@fr,
+        "hefur starfsstöð"@is,
+        "所在地を有する"@ja,
+        "tem sítio"@pt,
+        "具有所在地"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    schema:domainIncludes martialis:Organization,
+        martialis:Place ;
+    skos:closeMatch org:hasSite .
+
+martialis:sitePeriod rdfs:label "Standortzeitraum"@de,
+        "site period"@en,
+        "período de la sede"@es,
+        "période du site"@fr,
+        "tímabil starfsstöðvar"@is,
+        "所在期間"@ja,
+        "período do sítio"@pt,
+        "所在期间"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:withinPlace rdfs:label "innerhalb des Ortes"@de,
+        "within place"@en,
+        "dentro del lugar"@es,
+        "au sein du lieu"@fr,
+        "innan staðar"@is,
+        "所在施設"@ja,
+        "dentro do local"@pt,
+        "所在场所"@zh ;
+    rdfs:domain martialis:Site ;
+    rdfs:range martialis:Place ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:Site rdfs:label "Standort"@de,
+        "site"@en,
+        "sede"@es,
+        "site"@fr,
+        "starfsstöð"@is,
+        "所在地"@ja,
+        "sítio"@pt,
+        "所在地"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    skos:closeMatch org:Site .
+
+martialis:Coordinates rdfs:label "Koordinaten"@de,
+        "coordinates"@en,
+        "coordenadas"@es,
+        "coordonnées"@fr,
+        "hnit"@is,
+        "座標"@ja,
+        "coordenadas"@pt,
+        "坐标"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:InstructorRole rdfs:label "Ausbilderrolle"@de,
+        "instructor role"@en,
+        "función de instructor"@es,
+        "fonction d’enseignant"@fr,
+        "leiðbeinandahlutverk"@is,
+        "指導員役職"@ja,
+        "papel de instrutor"@pt,
+        "教练职务"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    skos:scopeNote "Person-to-person transmission is TeacherAssertion; when a TeacherAssertion interaction already places the person at the venue, the materialized taughtAt edge already covers it - reserve this class for sourced staff facts with no specific named student."@en .
+
+martialis:Participation rdfs:label "Teilnahme"@de,
+        "participation"@en,
+        "participación"@es,
+        "participation"@fr,
+        "þátttaka"@is,
+        "参加記録"@ja,
+        "participação"@pt,
+        "参与记录"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:TeacherInteraction rdfs:label "Lehrer-Schüler-Interaktion"@de,
+        "teacher interaction"@en,
+        "interacción maestro-alumno"@es,
+        "interaction professeur-élève"@fr,
+        "samskipti kennara og nemanda"@is,
+        "師弟交流記録"@ja,
+        "interação professor-aluno"@pt,
+        "师徒交流记录"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:Assertion rdfs:label "Aussage"@de,
+        "assertion"@en,
+        "aserción"@es,
+        "assertion"@fr,
+        "fullyrðing"@is,
+        "アサーション"@ja,
+        "asserção"@pt,
+        "断言"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:SourceAssertionRelation rdfs:label "Quelle-Aussage-Beziehung"@de,
+        "source assertion relation"@en,
+        "relación fuente-aserción"@es,
+        "relation source-assertion"@fr,
+        "tengsl heimildar og fullyrðingar"@is,
+        "資料参照関係"@ja,
+        "relação fonte-asserção"@pt,
+        "来源断言关系"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:LifeEvent rdfs:label "Lebensereignis"@de,
+        "life event"@en,
+        "evento vital"@es,
+        "événement biographique"@fr,
+        "æviatburður"@is,
+        "生涯イベント"@ja,
+        "evento biográfico"@pt,
+        "生平事件"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:RankingSystem rdfs:label "Graduierungssystem"@de,
+        "ranking system"@en,
+        "sistema de graduación"@es,
+        "système de grades"@fr,
+        "gráðukerfi"@is,
+        "段級制度"@ja,
+        "sistema de graduação"@pt,
+        "段级制度"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:Event rdfs:label "Veranstaltung"@de,
+        "event"@en,
+        "evento"@es,
+        "événement"@fr,
+        "viðburður"@is,
+        "行事"@ja,
+        "evento"@pt,
+        "活动"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:HonorAssertion rdfs:label "Auszeichnungsaussage"@de,
+        "honor assertion"@en,
+        "aserción de distinción"@es,
+        "assertion de distinction"@fr,
+        "fullyrðing um viðurkenningu"@is,
+        "称号アサーション"@ja,
+        "asserção de honra"@pt,
+        "荣誉断言"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:HistoricityAssertion rdfs:label "Historizitätsaussage"@de,
+        "historicity assertion"@en,
+        "aserción de historicidad"@es,
+        "assertion d’historicité"@fr,
+        "fullyrðing um tilvist"@is,
+        "実在性アサーション"@ja,
+        "asserção de historicidade"@pt,
+        "历史真实性断言"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:RankAssertion rdfs:label "Graduierungsaussage"@de,
+        "rank assertion"@en,
+        "aserción de graduación"@es,
+        "assertion de grade"@fr,
+        "fullyrðing um gráðu"@is,
+        "段位アサーション"@ja,
+        "asserção de graduação"@pt,
+        "段位断言"@zh ;
+    vann:example "ex:Practitioner martialis:hasRankAssertion martialis:assertion42 . martialis:assertion42 a martialis:RankAssertion ; martialis:rankStyle ex:Judo ; martialis:rankSystem ex:DanKyuSystem ; martialis:rankType rt:dan ; martialis:rankOrdinal 6 ; martialis:conferredBy ex:Kodokan ; martialis:grantedBy ex:TeacherX ."@en ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:Organization rdfs:label "Organisation"@de,
+        "organization"@en,
+        "organización"@es,
+        "organisation"@fr,
+        "samtök"@is,
+        "組織"@ja,
+        "organização"@pt,
+        "组织"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:Place rdfs:label "Ort"@de,
+        "place"@en,
+        "lugar"@es,
+        "lieu"@fr,
+        "staður"@is,
+        "場所"@ja,
+        "local"@pt,
+        "地点"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:Style rdfs:label "Stil"@de,
+        "style"@en,
+        "estilo"@es,
+        "style"@fr,
+        "stíll"@is,
+        "流派・武術"@ja,
+        "estilo"@pt,
+        "流派"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:Person rdfs:label "Person"@de,
+        "person"@en,
+        "persona"@es,
+        "personne"@fr,
+        "einstaklingur"@is,
+        "人物"@ja,
+        "pessoa"@pt,
+        "人物"@zh ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+martialis:Source rdfs:label "Quelle"@de,
+        "source"@en,
+        "fuente"@es,
+        "source"@fr,
+        "heimild"@is,
+        "資料"@ja,
+        "fonte"@pt,
+        "来源"@zh ;
+    vann:example "An article in a journal: <article> a martialis:Source ; martialis:sourceType \"article\" ; martialis:partOf <journal> ; bibo:volume \"12\" ; bibo:pages \"42-60\" . An edition: <edition2001> martialis:editionOf [ martialis:editionOfSource <work1908> ; martialis:editionRelationType editrel:translation ] ."@en ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
+<https://w3id.org/martialis/ontology> a owl:Ontology ;
+    dcterms:bibliographicCitation "Muñoz, F. (2026). Martialis Investigative Ontology (Version 1.0.0). Zenodo. https://doi.org/10.5281/zenodo.23951128" ;
+    dcterms:conformsTo <http://www.w3.org/ns/owl-profile/DL> ;
+    dcterms:created "2026-02-28"^^xsd:date ;
+    dcterms:creator <https://orcid.org/0009-0000-9488-3542> ;
+    dcterms:description "Ontology for historically sourced martial arts lineages, ranks, and claims. SHACL (martialis.shacl.ttl, martialis-quality.shacl.ttl) is the constraint layer; this file describes the vocabulary."@en ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:identifier "https://doi.org/10.5281/zenodo.23951128" ;
+    dcterms:issued "2026-11-05"^^xsd:date ;
+    dcterms:modified "2026-11-05"^^xsd:date ;
+    dcterms:publisher <https://orcid.org/0009-0000-9488-3542> ;
+    dcterms:rightsHolder <https://orcid.org/0009-0000-9488-3542> ;
+    dcterms:title "Martialis Investigative Ontology"@en ;
+    mod:status <http://purl.org/ontology/bibo/status/published> ;
+    vann:preferredNamespacePrefix "martialis" ;
+    vann:preferredNamespaceUri martialis: ;
+    rdfs:seeAlso <https://martial.is/model>,
+        <https://w3id.org/martialis/ontology/shapes/quality>,
+        <https://w3id.org/martialis/ontology/shapes/structural>,
+        <https://w3id.org/martialis/vocab> ;
+    owl:imports <https://w3id.org/martialis/ontology/alignments/evidence>,
+        <https://w3id.org/martialis/ontology/alignments/maon>,
+        <https://w3id.org/martialis/ontology/imports/bibo>,
+        <https://w3id.org/martialis/ontology/imports/org>,
+        <https://w3id.org/martialis/ontology/imports/prov> ;
+    owl:versionIRI <https://w3id.org/martialis/ontology/1.0.0> ;
+    owl:versionInfo "1.0.0" ;
+    foaf:logo <https://martial.is/static/images/circle_inv.png> ;
+    schema:codeRepository <https://github.com/Martial-IS/martialis-db> .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( martialis:TeacherAssertion martialis:RankAssertion martialis:HonorAssertion martialis:StyleRelationAssertion martialis:DocumentTransmissionAssertion martialis:IdentityAssertion martialis:HistoricityAssertion martialis:AffiliationAssertion martialis:Participation martialis:InstructorRole martialis:OfficerRole martialis:Membership ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( martialis:Person martialis:Organization martialis:Style martialis:RankingSystem martialis:Place martialis:Source martialis:Event martialis:LifeEvent martialis:TimeInterval martialis:Assertion martialis:Confidence martialis:SourceAssertionRelation martialis:TeacherInteraction martialis:Site ) .
+
+<https://orcid.org/0009-0000-9488-3542> a schema:Person ;
+    schema:name "Frederico Muñoz" ;
+    schema:email <mailto:fsm@martial.is> .
+
+# Reused external terms
+#################################################################
+#
+# The ontology targets OWL 2 DL, which needs every term it uses declared with
+# exactly one role. The published file declares every term it mentions, so it
+# parses the same with or without its imports; axioms about a reused term come
+# only from its import. PROV-O, ORG and BIBO declarations are copied by `make
+# model` from their import modules (ontology/imports/*-module.ttl); every other
+# reused term is declared here (the MIREOT practice) instead of importing its
+# whole vocabulary, because no upstream DCTERMS, SKOS or schema.org file is
+# itself OWL 2 DL. The role is the one this ontology uses the term in. `make
+# reasoner` fails on a missing or conflicting declaration.
+
+dcterms:bibliographicCitation a owl:AnnotationProperty .
+dcterms:conformsTo a owl:AnnotationProperty .
+dcterms:created a owl:AnnotationProperty .
+dcterms:creator a owl:AnnotationProperty .
+dcterms:description a owl:AnnotationProperty .
+dcterms:identifier a owl:AnnotationProperty .
+dcterms:license a owl:AnnotationProperty .
+dcterms:issued a owl:AnnotationProperty .
+dcterms:modified a owl:AnnotationProperty .
+dcterms:publisher a owl:AnnotationProperty .
+dcterms:rightsHolder a owl:AnnotationProperty .
+dcterms:title a owl:AnnotationProperty .
+foaf:logo a owl:AnnotationProperty .
+mod:status a owl:AnnotationProperty .
+schema:codeRepository a owl:AnnotationProperty .
+schema:domainIncludes a owl:AnnotationProperty .
+schema:rangeIncludes a owl:AnnotationProperty .
+skos:broadMatch a owl:AnnotationProperty .
+skos:closeMatch a owl:AnnotationProperty .
+skos:relatedMatch a owl:AnnotationProperty .
+skos:scopeNote a owl:AnnotationProperty .
+vann:example a owl:AnnotationProperty .
+vann:preferredNamespacePrefix a owl:AnnotationProperty .
+vann:preferredNamespaceUri a owl:AnnotationProperty .
+
+dcterms:isPartOf a owl:ObjectProperty .
+dcterms:isVersionOf a owl:ObjectProperty .
+dcterms:rights a owl:ObjectProperty .
+schema:email a owl:ObjectProperty .
+schema:birthPlace a owl:ObjectProperty .
+schema:deathPlace a owl:ObjectProperty .
+
+schema:birthDate a owl:DatatypeProperty .
+schema:deathDate a owl:DatatypeProperty .
+schema:foundingDate a owl:DatatypeProperty .
+schema:dissolutionDate a owl:DatatypeProperty .
+
+skos:Concept a owl:Class .
+schema:CreativeWork a owl:Class .
+schema:Event a owl:Class .
+schema:Intangible a owl:Class .
+schema:Organization a owl:Class .
+schema:Person a owl:Class .
+schema:Place a owl:Class .
+schema:SportsActivityLocation a owl:Class .
+schema:GeoCoordinates a owl:Class .
+schema:ImageObject a owl:Class .
+schema:VideoObject a owl:Class .
+<http://purl.org/spar/fabio/Expression> a owl:Class .

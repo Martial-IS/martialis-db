@@ -1,0 +1,27 @@
+type: Person
+id: 01M1KSJ12Q3TKT84JQAH32W7DE
+name:
+  en: Bob Anderson
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+notes: >-
+  Named as one of Rolls Gracie's teachers, alongside Helio Gracie and Georges Mehdi; see
+  database/persons/BRA/Rolls_Gracie.yaml. A common name; not to be confused with any other Bob
+  Anderson. Snowden and Shields (p. 225) say he "trained with Rolls Gracie in the 1970s": an
+  exchange between the two, recorded here only as evidence, not as a teacher claim.
+hasEvidence:
+- basedOnSource: 01KYZ31HT308QY9B28V9ESZFF9
+  informationType: infotype:secondary
+  supports: true
+  quotation: Teachers Helio Gracie, Georges Mehdi, Bob Anderson
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+  quotation: >-
+    The American after whom the Americana is named is wrestling legend Bob Anderson, who trained
+    with Rolls Gracie in the 1970s.
+  locator: '225'
+  locatorLabel: page
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct

@@ -1,0 +1,46 @@
+type: Person
+id: 01M5HNCED8Y9PFQRCH4ZJ0YQ4G
+name:
+  en: Nganga Tolo-Naa
+aka:
+  en: Raymond Cooper
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+description:
+  en: >-
+    African American martial artist from Chicago (born Raymond Cooper, 1946), a Shuri-ryu karate student
+    of John Keehan (Count Dante) from 1963; with Mfundishi Maasi he developed Kupigana Ngumi.
+hasTeacherAssertion:
+  - id: 01M5HNCED8F5RNN18XZ5E5847C
+    teacher: 01M5HNCED8T44ER7ADPP9C2MZC
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9S
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1963
+        hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              in 1963, this led him to start studying Shuri-ryu karate under John Keehan (1939–1975;
+              after 1967, known as Count Dante).
+            locator: '629'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      A few years later (around 1966 or 1967), Maasi met Nganga Tolo-Naa (born Raymond Cooper, 1946–).
+    locator: '628'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - karate

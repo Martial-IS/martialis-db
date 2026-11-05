@@ -1,0 +1,116 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD6X
+name:
+  ja-Latn: Tomita Takeji
+  ja: 富田武治
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1928-03-31'
+  birthPlace:
+    label: Ibaraki
+    countryCode: eucountry:JPN
+    wikidata: wd:Q83273
+deathEvent:
+  deathDate: '2002-05-13'
+  deathPlace:
+    label: Iwama
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1011725
+image:
+  contentUrl: https://archive.org/download/takeji_tomita/takeji_tomita.png
+  imageAttribution:
+    uri: https://www.aikidojournal.eu/docs/238/393_946_en.pdf
+    cite: "Aikido Journal"
+    informationType: infotype:secondary
+    evidenceType: evidencetype:direct
+description:
+  en: Japanese aikido master, student of Morihiro Saito and Morihei Ueshiba, founder of Aïki Shin Myo Den (Takemusu Aiki)
+notes: '- Born in Ibaraki Prefecture, Japan
+
+  - First visited Iwama in 1962 and decided to follow the teaching of Morihei Ueshiba and his assistant Morihiro Saito
+
+  - Became Morihiro Saito''s uchideshi (live-in student) in 1968 and was adopted by the Saito family
+
+  - Practiced at Iwama Dojo for about 7 years, studying under both Ueshiba (until his death in April 1969) and Saito
+
+  - Moved to Sweden in August 1969 and opened his own dojo in 1976
+
+  - Promoted to 7th dan by Aikikai in 1989, later promoted to 8th dan
+
+  - Founded his own style called "Aïki Shin Myo Den" (Takemusu Aiki)
+
+  - Known for his sword work with jumping entry movements
+
+  - Taught extensively in Europe, particularly in Sweden
+
+'
+hasTeacherAssertion:
+  - id: 01M3YH7N5GP20F5RX06WWJWQCP
+    teacher: 01KJJAWN29MA64W22606R3WD6W
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Well-documented uchideshi (live-in student) of Morihiro Saito at Iwama Dojo starting in 1968, as described in Aikido Journal biography
+    role: teachrole:student
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD85
+        interactionPeriod:
+          startYear: 1968
+        hasEvidence:
+          - uri: https://www.aikidojournal.eu/docs/238/393_946_en.pdf
+            cite: 'TAKEJI TOMITA: From studying with O-Sensei to the creation of Aïki Shin Myo Den (Aikido Journal)'
+            quotation: From 1962 on, after his first visit in Iwama, he decides to follow the teaching of O'Sensei and of his assistant, Morihiro Saito Sensei [...] In 1968, he becomes Morihiro Saito's Uchideshi and is rapidly adopted by the Master's family [...] Tomita Sensei practiced for about 7 years at the Iwama Dojo. Those years were for him formativeyears dedicated to education and to discovering the way of Budo.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GMR9MS0RXMDNZZ3QZ
+    rankStyle: 01KJJAWN29MA64W22606R3WD9R
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 8
+    conferredBy: 01KZ3KA57C6W6FMCWM668Y13X2
+    dateConferred: '1989'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Promoted to 7th dan in 1989 by Aikikai, later promoted to 8th dan, as documented in Aikido Journal sources
+    hasEvidence:
+      - uri: https://www.aikidojournal.eu/docs/238/393_946_en.pdf
+        cite: 'TAKEJI TOMITA: From studying with O-Sensei to the creation of Aïki Shin Myo Den (Aikido Journal)'
+        quotation: Today an 8th Dan, Tomita Sensei still lives in Stockholm.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - uri: https://aikidojournal.com/2011/08/27/takeji-tomita/
+        cite: Takeji Tomita (Aikido Journal Encyclopedia)
+        quotation: 7th dan Aikikai, 1989.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - uri: https://www.takemusuaiki.eu/master/
+    cite: Takemusu Aiki - Master Takeji Tomita
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://www.aikidojournal.eu/docs/238/393_946_en.pdf
+    cite: 'TAKEJI TOMITA: From studying with O-Sensei to the creation of Aïki Shin Myo Den (Aikido Journal)'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://aikidojournal.com/2011/08/27/takeji-tomita/
+    cite: Takeji Tomita (Aikido Journal Encyclopedia)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://takemusuaikichel.ru/en/tomita-sensei/
+    cite: Tomita Sensei - Takemusu Aiki Chel
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3980307

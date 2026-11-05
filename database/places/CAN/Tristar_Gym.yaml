@@ -1,0 +1,57 @@
+type: Place
+id: 01KYYYTTW3FRAEXS9Z0V2K528W
+name:
+  en: Tristar Gym
+placeType: placeclass:gym
+hasSite:
+  - location:
+      label: Montreal
+      countryCode: eucountry:CAN
+      wikidata: wd:Q340
+    address: Le Triangle borough, Montreal, Quebec, Canada
+hasInstructorRole:
+  - id: 01M4R9845WXV2JMWEG16CM8NKH
+    instructor: 01KYSNKBS7T4VMBNKEXV23RB0D
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 2008
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One secondary source (Wikipedia) states he is head coach and owner since 2008.
+    hasEvidence:
+      - basedOnSource: 01KYYYW4R6PSG4PF0B5NBAJNEE
+        quotation: In 2008 he sold the gym to Firas Zahabi. Zahabi had become Georges St-Pierre's main coach after GSP's loss to Matt Serra (UFC 69). In addition to being the current owner Zahabi is also the head coach at the gym.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1991'
+  hasEvidence:
+    - basedOnSource: 01KYYYW4R6PSG4PF0B5NBAJNEE
+      quotation: The gym was established in 1991 by Conrad Pla, Michel Lavallée and Ron Di Cecco.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+website: https://www.tristargym.com
+description:
+  en: 'Mixed martial arts training centre in Montreal, Quebec, established in 1991 by Conrad Pla, Michel Lavallée, and Ron Di Cecco. Firas Zahabi purchased the gym in 2008 and serves as its head coach. Tristar Gym is associated with champions including Georges St-Pierre, Rory MacDonald, and Miguel Torres.
+
+'
+hasEvidence:
+  - basedOnSource: 01KYYYW4R6PSG4PF0B5NBAJNEE
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYSNKBRXZBXTADEA0ET726M4
+    quotation: "Fighting out of Montreal, Quebec, Canada"
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3539669
+tags:
+  - mma
+  - gym
+  - montreal
+  - canada

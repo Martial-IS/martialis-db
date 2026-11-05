@@ -1,0 +1,82 @@
+type: Person
+id: 01M5H542JFMSRWHNK5P636E9BM
+name:
+  ja-Latn: Totsuka Hideyoshi
+  ja: 戸塚英美
+aka:
+  ja-Latn:
+    - Totsuka Hidemi
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1840-07'
+  hasEvidence:
+    - basedOnSource: 01M61T316BS5H10ADA7F5GVTDT
+      quotation: 天保11年（1840年）7月生まれ。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1908-10'
+  hasEvidence:
+    - basedOnSource: 01M61T316BS5H10ADA7F5GVTDT
+      quotation: 1908年（明治41年）10月に千葉で没した。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Ninth head of the Totsuka-ha Yōshin-ryū, eldest son and successor of Totsuka Hikosuke, the first
+    Dai Nippon Butokukai hanshi (1903), who helped Kanō Jigorō devise the judo kata sanctioned by the
+    Butokukai in 1906.
+hasTeacherAssertion:
+  - id: 01M61T316B0JS9QWEZN87NVG2R
+    teacher: 01M61T316B391PK0TAQGHA2NW2
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9V
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Kanō's memoirs and Japanese Wikipedia make him Hikosuke's successor and eldest son; succession as
+        head of the school implies the teaching, which neither states outright.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+            quotation: >-
+              Before the 1868 Meiji restoration, Hikosuke Totsuka’s students were widely regarded as
+              among the nation’s most skilful jujutsu men. After the restoration, his successor, Hideyoshi
+              Totsuka, trained many more students
+            locator: '49'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:indirect
+          - basedOnSource: 01M61T316BS5H10ADA7F5GVTDT
+            quotation: >-
+              戸塚英美（とつか ひでよし、天保11年（1840年）7月 - 明治41年（1908年）10月）は、揚心流（戸塚派揚心流）の九代目である。
+              戸塚英俊の長子。
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+    quotation: >-
+      After discussions with these teachers and with the able assistance of Hidemi Totsuka of the
+      Totsuka-ha Yoshin ryu and Kumon Hoshino of Shiten ryu, I devised judo katas that were based on
+      jujutsu artistry.
+    locator: '80'
+    locatorLabel: page
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M61T316BS5H10ADA7F5GVTDT
+    quotation: 日本武徳会範士第一号（1903年（明治36年）5月）である。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q22131232
+tags:
+  - jujutsu

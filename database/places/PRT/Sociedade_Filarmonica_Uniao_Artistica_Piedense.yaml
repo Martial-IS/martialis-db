@@ -1,0 +1,102 @@
+type: Place
+id: 01KZSFXNDD04FZNKXQ70QT129H
+name:
+  en: Sociedade Filarmónica União Artística Piedense
+  pt: Sociedade Filarmónica União Artística Piedense
+aka:
+  en: SFUAP
+  pt: SFUAP
+placeType: placeclass:club
+hasSite:
+  - location:
+      label: Almada
+      countryCode: eucountry:PRT
+      wikidata: wd:Q328015
+    address: Largo 5 de Outubro 37, Cova da Piedade, 2805-119 Almada
+foundedEvent:
+  startDate: '1889-10-23'
+  hasEvidence:
+    - basedOnSource: 01KZSFXNDBDQNT3M7759H38HBN
+      quotation: fundada em vinte e três de outubro de mil oitocentos e oitenta e nove.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M3YH7N5GE8FSCVZP7EQ8BQNZ
+    relatedOrganization: 01KZSE91DD3YSHXZ39J0YKBGD3
+    affiliationRelation: affrel:member_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: ACPA lists it among its dojos.
+    hasEvidence:
+      - basedOnSource: 01KZSFXNDD8MDNKA1BJY8S30T3
+        quotation: >-
+          Sociedade Filarmónica União Artística Piedense | ACPAikido.com
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+hasInstructorRole:
+  - id: 01M4R9845W2TDE7SWV02RT3WAY
+    instructor: 01KZSE91DED09GT0386Y1A5CWP
+    instructorCapacity: instrcap:head_instructor
+    instructorStyle: 01KJJAWN29MA64W22606R3WD9R
+    instructorPeriod:
+      startYear: 1992
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: His own interview and three independent pages (the club, ACPA, FPA) agree that he teaches at SFUAP.
+    hasEvidence:
+      - basedOnSource: 01KZSE91D8VBEQBXASNC8BZKPG
+        quotation: >-
+          Desde 1985 que ensino na cidade de Almada, primeiro no "Clube Lisnave" de 1985 a 1990, no Núcleo Cultural do Alfeite" de 1987 a 1992, e desde 1992 na "Sociedade F. União A. Piedense
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZSFXNDCD1GZ7PSVNQCR3REP
+        quotation: >-
+          Mestre 3.ª feira 5.ª feira 19:15 – 20:15 7 aos 12 anos Agostinho Vaz
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZSFXNDD8MDNKA1BJY8S30T3
+        quotation: Agostinho Vaz 6º Dan, 5º Dan (Aikikai) Shidoin
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZSGMFGY27RT1GM4A7FS7JYY
+        quotation: O prof. Agostinho Vaz, 6º dan, celebra 30 anos de Aikido na SFUAP com um encontro no dia 1 de Abril de 2023 no complexo desportivo da Sociedade Filarmónica União Artística Piedense em Almada.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+website: https://sfuap.pt/Inicio/
+description:
+  en: Multi-sport recreational and cultural association in Cova da Piedade, Almada, founded on 23 October 1889, whose aikido programme (offered alongside judo and iaido) is run under the Associação Cultural Portuguesa de Aikido (ACPA) and has been taught by Agostinho Vaz since 1992.
+  pt: Associação recreativa, desportiva e cultural em Cova da Piedade, Almada, fundada a 23 de outubro de 1889, cujo programa de Aikido (oferecido a par do Judo e do Iaido) decorre sob a Associação Cultural Portuguesa de Aikido (ACPA) e é lecionado por Agostinho Vaz desde 1992.
+hasEvidence:
+  - basedOnSource: 01KZSFXNDBDQNT3M7759H38HBN
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZSFXNDCD1GZ7PSVNQCR3REP
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZSFXNDD8MDNKA1BJY8S30T3
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZSE91D8VBEQBXASNC8BZKPG
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZSGMFGY27RT1GM4A7FS7JYY
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - aikido
+  - aikikai
+  - portugal
+  - almada

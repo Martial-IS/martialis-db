@@ -1,0 +1,57 @@
+type: Organization
+id: 01KZ6QKPB7H6299TEHRE9ZQVBV
+name:
+  en: French Federation of Aikido and Budo
+  fr: Fédération Française d'Aïkido et de Budo
+aka:
+  en: FFAB
+  fr: FFAB
+orgType: orgclass:federation
+hasSite:
+  - location:
+      label: Paris
+      countryCode: eucountry:FRA
+      wikidata: wd:Q90
+hasOfficerRole:
+  - id: 01M4R9845W023KB5Z2RYF5E5MB
+    officer: 01KZ6KZZG7HW9MSGTTWR1HBMBJ
+    officerTitle: Co-secrétaire (CSDGE Aïkido / UFA)
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The federation's own handbook lists him.
+    hasEvidence:
+      - basedOnSource: 01M4R8589M3Z947ZKGQJF6XW3P
+        quotation: 'CSDGE AIKIDO / UFA [...] Co-secrétaire pour la FFAB : Gérard OBELLIANNE'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M4R9845WC0EEHEXAB2CAPA78
+    officer: 01KZ6KZZG7HW9MSGTTWR1HBMBJ
+    officerTitle: Membre du Conseil de l'Aïkido
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The federation's own handbook lists him.
+    hasEvidence:
+      - basedOnSource: 01M4R8589M3Z947ZKGQJF6XW3P
+        quotation: CONSEIL DE L'AIKIDO Joël PERRINEL (Président), Serge CRUZ, Alain FLOURE, Christina GAYETTI, Monique GUILLEMARD, André GUILLON, Gérard OBELLIANNE
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: The Fédération Française d'Aïkido et de Budo (FFAB) is one of the two French aikido federations. Gérard Obellianne is recorded in its 2013 Manuel du Pratiquant as co-secrétaire for the FFAB in the CSDGE Aikido / UFA and as a member of the Conseil de l'Aïkido.
+  pt: A Federação Francesa de Aikido e Budo (FFAB) é uma das duas federações francesas de aikido. Gérard Obellianne é registado no seu Manuel du Pratiquant de 2013 como co-secretário da FFAB na CSDGE Aikido / UFA e como membro do Conselho de Aikido.
+hasEvidence:
+  - basedOnSource: 01M4R8589M3Z947ZKGQJF6XW3P
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M4R8589MBTWWA801W24KT931
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - aikido
+  - france
+  - federation

@@ -1,0 +1,94 @@
+type: Person
+id: 01M5KV9GA7CCVJ23MD4CPE9WMK
+name:
+  en: Leonora Cohen
+aka:
+  en:
+    - Leonora Throp
+    - Pomona
+    - The Tower Suffragette
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+birthEvent:
+  birthDate: '1873-06-15'
+  birthPlace:
+    label: Hunslet, Leeds
+    countryCode: eucountry:GBR
+  hasEvidence:
+    - basedOnSource: 01M5KV9GA75WBYWZG0D1VRMNFH
+      quotation: >-
+        Cohen was born Leonora Throp in Hunslet, Leeds on 15 June 1873 to Canova and Jane (née Lamie)
+        Throp.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1978-09-04'
+  hasEvidence:
+    - basedOnSource: 01M5KV9GA75WBYWZG0D1VRMNFH
+      quotation: >-
+        Leonora Cohen OBE (née Throp; 15 June 1873 – 4 September 1978) was an English suffragette and
+        trade unionist, and one of the first female magistrates.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    English suffragette and trade unionist from Leeds, the "Tower Suffragette" tried in 1913 for breaking
+    a regalia case in the Tower of London, and a member of the Bodyguard that Edith Garrud trained in
+    jujitsu.
+hasTeacherAssertion:
+  - id: 01M5KV9GA7ZGZJJKXJ1CQCSR8G
+    teacher: 01M07J1EESSEPR2TSJWV1FWBG5
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9G
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Implied: member of the Bodyguard that Garrud trained.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1913
+          endYear: 1914
+        hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              It is estimated that there were around twenty-five members of this bodyguard, to include
+              Canadian-born Gertrude Harding (1878–1952), the English vegetarian and Theosophist Leonora
+              Cohen (1873–1978
+            locator: '635'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+          - basedOnSource: 01M5KV9GA75WBYWZG0D1VRMNFH
+            quotation: >-
+              Later, Cohen was part of "The Bodyguard" to Mrs Pankhurst.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Between 1910 and 1913, Edith Garrud’s involvement with the suffragette movement deepened, and
+      eventually she became the trainer for Emmeline Pankhurst’s bodyguards.
+    locator: '635'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:indirect
+sameAs:
+  - wd:Q6526696
+tags:
+  - jujutsu
+  - suffragettes
+  - women
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/1/19/Leonora_Cohen_OBE.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Leonora_Cohen_OBE.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary

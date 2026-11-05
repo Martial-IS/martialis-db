@@ -1,0 +1,63 @@
+type: Person
+id: 01M6C1FR4A27WCH1YTX7PEKVYV
+name:
+  en: Guy Mezger
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1968-01-01'
+  hasEvidence:
+    - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+      quotation: 'Born: 1/1/68'
+      locator: '283'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    American mixed martial artist of Ken Shamrock's Lion's Den, King of Pancrase and winner of the
+    UFC 13 lightweight tournament.
+hasTeacherAssertion:
+  - id: 01M6C1FR4A6M0G42H8V6V5GFDV
+    teacher: 01M6C18DS7MFJMMJ2GXSZJ19SX
+    assertedStyle: 01KYSS3B587WR241FHHW19X24T
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - interactionPlace: 01M6C1FR4APSBZ84JBFRR4VHA4
+        hasEvidence:
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              Mezger and his camp, the Lion’s Den, were disrespectful and cocky. [...] In Mezger’s corner, Lion’s Den founder Ken Shamrock went ballistic.
+            locator: '284'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              The actual training in the Lion’s Den was somewhat primitive. [...] Most often the instruction consisted of Ken telling guys to “hook it up,” followed by hard-core sparring for a half an hour.
+            locator: '261'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+    quotation: >-
+      Guy Mezger was an mma pioneer, the King of Pancrase when that title still meant something
+    locator: '283'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q6481363
+tags:
+  - mma
+  - pancrase

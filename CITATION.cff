@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: >-
+  If you use this database, please cite it using the metadata below.
+  Cite the version DOI of the release you used: the data changes between
+  releases, so only a version DOI lets others reproduce a result.
+title: "Martialis: Martial Arts Lineage Database"
+version: 1.0.0
+date-released: 2026-11-05
+type: dataset
+authors:
+  - family-names: Muñoz
+    given-names: Frederico
+    email: fsm@martial.is
+    orcid: "https://orcid.org/0009-0000-9488-3542"
+repository-code: "https://github.com/Martial-IS/martialis-db"
+url: "https://martial.is"
+abstract: >-
+  Martialis is a sourced database of martial arts lineages:
+  teacher/student transmission, document-based knowledge transmission,
+  and rank and honor claims, each carrying its own cited evidence and
+  confidence assessment. Records are authored as YAML, converted to RDF
+  through a JSON-LD context, and validated with SHACL and an OWL 2 DL
+  consistency check.
+keywords:
+  - martial arts
+  - linked data
+  - RDF
+  - lineage
+  - SHACL
+  - genealogy
+license:
+  - AGPL-3.0-or-later
+  - CC-BY-SA-4.0
+  - CC0-1.0
+license-url: "https://github.com/Martial-IS/martialis-db/blob/main/LICENSING.md"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23346622
+    description: The version DOI of release 1.0.0.
+references:
+  - type: generic
+    title: Martialis Investigative Ontology
+    version: 1.0.0
+    doi: 10.5281/zenodo.23951128
+    url: "https://w3id.org/martialis/ontology"
+    license: CC0-1.0
+    authors:
+      - family-names: Muñoz
+        given-names: Frederico
+        orcid: "https://orcid.org/0009-0000-9488-3542"

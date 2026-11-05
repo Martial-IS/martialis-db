@@ -1,0 +1,46 @@
+type: Person
+id: 01M5HN921CVE8GE854QJZ5898G
+name:
+  en: Ronald Duncan
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+description:
+  en: >-
+    African American martial artist (born 1937) who studied judo, jujutsu and knife fighting with Ernie
+    Cates and Isshin-ryu karate with Don Nagle in the US Marine Corps, then taught "Koga Ryu" in Brooklyn
+    from 1959.
+notes: >-
+  Green & Svinth (pp. 627–628): his judo, jujutsu and knife-fighting teacher was Ernie Cates (no record
+  yet).
+hasTeacherAssertion:
+  - id: 01M5HN921CX8TVQ1ZQHEHXWDV4
+    teacher: 01M5HN921C7XN6G4ZJ2GNV28B9
+    assertedStyle: 01KZEK8ETSGM12GPJJS2THBX95
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              After serving in the U.S. Marine Corps, where he studied judo, jujutsu, and knife fighting
+              with Ernie Cates (1933–) and Isshin-ryu karate with Don Nagle (1938–), Duncan began teaching
+              “Koga Ryu” in Brooklyn in 1959.
+            locator: 627-628
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: 627-628
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - karate
+  - ninjutsu

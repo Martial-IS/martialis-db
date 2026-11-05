@@ -1,0 +1,52 @@
+type: Person
+id: 01M6EFVT2T6BR957HZEDWDR27C
+name:
+  ja-Latn: Koteda Yasusada
+aka:
+  ja-Latn:
+  - Kuwata Gennojō
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+description:
+  en: >-
+    Hirado samurai, Shingyōtō-ryū menkyo kaiden, later a Meiji official (governor of Shiga and of
+    Shimane, baron). Learned from Takayama Minezaburō at the Toda dojo in Kyoto and became a student of
+    Yamaoka Tesshū (Mutō-ryū menkyo kaiden); founded police dojo in Ōtsu and Shimane.
+hasTeacherAssertion:
+- id: 01M6EFVT2VKNTF34C45JSXW3HD
+  teacher: 01M6EFVT2T1XK3H6D3NX8B1PNJ
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Single kenshi247 article.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M6EF6KKAPHH4FA4HHSNRH76T
+      quotation: Kuwata’s kenjutsu was no match for Takayama’s either and the relationship (despite Kuwata already having a Menkyo-kaiden in Shingyoto-ryu) was very much a teacher-student one.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M6EFVT2VYCFEK91GMMGWSQMX
+  teacher: 01M2WGWA1YB5K4N6YHVVE8TG9E
+  assertedStyle: 01M377JZDN6DE97E7D3VXC8P5G
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Single kenshi247 article.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M6EF6KKAPHH4FA4HHSNRH76T
+      quotation: Koteda would later become a student of Yamaoka and receive a Menkyo-kaiden in Muto-ryu
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M6EF6KKAPHH4FA4HHSNRH76T
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- kenjutsu

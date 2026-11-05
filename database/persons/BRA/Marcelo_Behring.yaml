@@ -1,0 +1,43 @@
+type: Person
+id: 01M5HMNG4Q8M25X619GR6XWVBX
+name:
+  pt: Marcelo Behring
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Brazilian jiu-jitsu fighter, son of Flávio Behring and a student of Rickson Gracie; one of the
+    dominant players of the 1980s and early 1990s. Killed in 1995.
+notes: >-
+  Drysdale: son of Flávio Behring (wd:Q3073480, no record yet).
+hasTeacherAssertion:
+  - id: 01M5HMNG4QR2GSDJNEBKCZB9EM
+    teacher: 01KYS8C0AF6DD44239NY1DZ286
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: >-
+              Marcelo Behring – Son of Grandmaster Flavio Behring and also Rickson’s student, he was one
+              of the most dominant jiu-jitsu players in the 80s and early 90s in Brazil.
+            locator: Name index
+            locatorLabel: section
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+    quotation: Marcelo was killed by criminals in 1995.
+    locator: Name index
+    locatorLabel: section
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - bjj

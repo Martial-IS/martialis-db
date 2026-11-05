@@ -1,0 +1,77 @@
+type: Person
+id: 01M69YCGCWHXZQC69GDB864PTM
+name:
+  en: Lai Yip-chi
+  yue: 黎協篪
+  zh: 黎協篪
+  zh-Latn: Li Xiechi
+aka:
+  en:
+    - Lai Yip Chi
+nationality:
+  - countryCode: eucountry:CHN
+    wikidata: wd:Q148
+birthEvent:
+  birthDate: '1901'
+  birthPlace:
+    label: Foshan
+    countryCode: eucountry:CHN
+    wikidata: wd:Q34412
+  hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        Another interesting, and seldom discussed, figure in this period is Lai Yip Chi (1901–1968 or
+        1970).
+      locator: '192'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        He claimed Shangtang in Nanhai as his home village, but was born in Foshan where his wealthy
+        parents resided.
+      locator: '192'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Wing Chun practitioner and bone-setter from a wealthy Foshan family, student of Lui Yu-chai. He
+    first taught in public in 1941, without fees, mostly to working-class students.
+notes: >-
+  Judkins and Nielson pp. 192-194. Death: 1968 (Huang Xiao Hui and Huang Hong) or 1970, killed by
+  Red Guards (Leung Ting); not recorded. The Pan Nam lineage says he also learned an esoteric Wing
+  Chun from a stranger met at the Pawnshop Owner's Association (p. 193).
+hasTeacherAssertion:
+  - id: 01M69YCGDJYQN74CFM5VXSXCGY
+    teacher: 01M69YCGCT6Y7F6S58NDHVRV98
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              They felt that their young son suffered from poor health so, at the age of thirteen, they
+              retained Lui Yu Chai (a disciple of the now famous Chan Wah Shun) to strengthen and instruct
+              their son.
+            locator: '192'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: 192-194
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - wing-chun
+  - chinese-martial-arts

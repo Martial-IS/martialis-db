@@ -1,0 +1,97 @@
+type: Style
+id: 01M5JSGG50SFSZ8CE3WR46RWC6
+name:
+  en: Bolognese school
+aka:
+  en:
+    - Bolognese swordsmanship
+    - Dardi school
+styleType: styleclass:traditional
+foundedEvent:
+  startDate: '[1412,1415]'
+  location:
+    label: Bologna
+    countryCode: eucountry:ITA
+    wikidata: wd:Q1891
+  founder:
+    - 01M5JSGG50MX5HBVS694JMS3BJ
+  hasEvidence:
+    - basedOnSource: 01M5JSGG50B70XV0APZD93AG5S
+      quotation: >-
+        The Dardi school is named after Lippo Bartolomeo Dardi, a professor of mathematics and astronomy
+        at the University of Bologna, who was licensed as a fencing master and founded a fencing school in
+        Bologna in 1415, just a few years after Fiore dei Liberi had completed his Fior di Battaglia.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        In the early decades of the fifteenth century, Bartolomeo de Lippo Dardi, a professor of
+        mathematics and astronomy at the University, founded a fencing school.
+      locator: '249'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5JSGG50EKZ1SNDB9VGZPSD3
+      quotation: >-
+        Dardi is often credited as the founder of the Bolognese school of swordsmanship, though this
+        can't be demonstrated from available information; he may simply be the earliest fencer from
+        Bologna whose name is well-known.
+      informationType: infotype:secondary
+      supports: false
+      evidenceType: evidencetype:indirect
+hasStyleRelationAssertion:
+  - id: 01M5JSGG502SZTXFE88VVMXZRK
+    relatedStyle: 01M5JSGG509Z4J4P08MWKM16ZW
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        One source states it; the other implies it.
+    hasEvidence:
+      - basedOnSource: 01M5JSGG50B70XV0APZD93AG5S
+        quotation: >-
+          Bolognese Swordsmanship, also sometimes known as the Dardi school, is a tradition within the
+          Italian school of swordsmanship
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Nevertheless, Dardi’s school flourished and passed on to later generations, to include a famed
+          master, Guido Antonio de Luca (active ca. 1500).
+        locator: '249'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+description:
+  en: >-
+    The fencing tradition of Bologna, named after Lippo (Filippo) Dardi, who opened a school there in
+    the 1410s. It taught armed and unarmed combat with the single-handed side sword and its companion
+    arms, two-handed swords and polearms, with many guards, long solo drills and paired sequences. It is
+    known from the sixteenth-century books of Guido Antonio de Luca's students Manciolino and Marozzo,
+    and from Viggiani; Agrippa and the rapier masters grew out of it.
+notes: >-
+  Dardi's licence: 1412 (Wiktenauer); founding of the school: 1415 (en Wikipedia). Green and Svinth call
+  him both Lippo di Bartolomeo Dardi (p. 246) and Bartolomeo de Lippo Dardi (p. 249).
+hasEvidence:
+  - basedOnSource: 01M5JSGG50B70XV0APZD93AG5S
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q4939976
+tags:
+  - fencing
+  - bolognese-school
+  - italian-school
+  - historical-european-martial-arts
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/3/38/Opera_Nova_-_title_page.png
+    rights: mediarights:public_domain_mark
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:Opera_Nova_-_title_page.png
+      cite: "Wikimedia Commons"
+      informationType: infotype:secondary

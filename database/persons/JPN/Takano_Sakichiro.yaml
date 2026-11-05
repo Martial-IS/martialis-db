@@ -1,0 +1,101 @@
+type: Person
+id: 01M3287E2AS86XZ08PV8EH76E2
+name:
+  ja-Latn: Takano Sakichirō
+  ja: 高野 佐吉郎
+aka:
+  en:
+  - Takano Mitsumasa
+  ja: 苗正
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '[1802,1803]'
+  birthPlace:
+    label: Ōno-hara, Chichibu, Musashi Province
+    countryCode: eucountry:JPN
+  hasEvidence:
+  - basedOnSource: 01M3287E2ABAPA96JAG9B8N1NC
+    quotation: "高野 佐吉郎（たかの さきちろう、1803年〈享和3年〉 - 1884年〈明治17年〉9月）は、江戸時代後期から明治時代の剣術家（中西派一刀流）。"
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M2WGNYAWZ0GGG708F53XC4PD
+    quotation: Mitsumasa was born in 1802 and became a top Ono-ha itto-ryu student of Nakanishi Chubei Tanemasa
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1884-09'
+  hasEvidence:
+  - basedOnSource: 01M3287E2ABAPA96JAG9B8N1NC
+    quotation: "高野 佐吉郎（たかの さきちろう、1803年〈享和3年〉 - 1884年〈明治17年〉9月）"
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: 'Kenjutsu instructor of Nakanishi-ha Ittō-ryū and grandfather of Takano Sasaburō, who trained his grandson in the
+    style from early childhood. Born into the Horiuchi family of Ōno-hara village, Chichibu district, and adopted into
+    the Takano family. Went to Edo and entered the Itto-ryu Nakanishi dojo, where he became a senior disciple of the
+    4th-generation head of Nakanishi-ha Itto-ryu (中西子正; ja.wikipedia''s dedicated article on him gives this name and
+    generation, while the English-language kenshi247 biography of his grandson instead names his teacher "Nakanishi Chubei
+    Tanemasa," described as a direct disciple of the 4th Ono-ha sōke, Ono Tadaichi - the two accounts do not fully agree
+    on the intermediate teacher''s identity or exact generation). Received menkyo kaiden in the style, then returned home
+    to serve as kenjutsu instructor to the Oshi domain (忍藩) and ran a small dojo on the grounds of Chichibu Shrine.'
+notes: 'Fellow disciples at the Nakanishi dojo per ja.wikipedia''s dedicated article: 寺田宗有, 白井亨, 高柳又四郎,
+  浅利義信, 千葉周作 and 浅利義明 (the article gives the kanji without readings) - the last being Yamaoka Tesshu''s own teacher, which
+  ja.wikipedia''s main Takano Sasaburo article gives as the reason Tesshu took a particular interest in Sasaburo (fellow-disciple
+  tie, not a direct teacher-student link between Sakichiro and Tesshu). Birth year: kenshi247 gives 1802, ja.wikipedia''s
+  dedicated article gives 1803 (categorised there under 1803年生); recorded as an unreconciled range above rather than
+  picking one.'
+hasRankAssertion:
+- id: 01M3YH7N5GTWNWDQPFS3SSKCE8
+  rankStyle: 01M3287E2ARJZVFEXS3FJFMHRQ
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+  rankGrade: rankgrade:menkyo_kaiden
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      ja.wikipedia's dedicated article on Takano Sakichiro states directly that he was granted menkyo
+      kaiden in Nakanishi-ha Itto-ryu; independently corroborated by kenshi247's English biography of
+      his grandson.
+  hasEvidence:
+  - basedOnSource: 01M3287E2ABAPA96JAG9B8N1NC
+    quotation: 中西派一刀流免許皆伝を授けられた。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M2WGNYAWZ0GGG708F53XC4PD
+    quotation: He received a menkyo in the style and worked as han kenjutsu instructor in a military encampment (Musashinokuni, Oshihan) for an unknown period of time.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M2WGNYAWYKVMGS8WNKJRKF8V
+  quotation: 佐三郎の祖父・佐吉郎（苗正）は中西派一刀流4世・中西子正の高弟で、忍藩主家・奥平松平家の陣屋の剣術指南役を務め、秩父神社境内にも道場を設け門人を指南していた。
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M3287E2ABAPA96JAG9B8N1NC
+  quotation: 帰郷後、忍藩陣屋の剣術指南役を務めるとともに、秩父神社境内の自宅に道場を開き、剣術を指南した。
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M2WGNYAWZ0GGG708F53XC4PD
+  quotation: He also had a small dojo in his home, near Chichibu Shrine.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M3287E2ATMVCEVXM1K1Y2860
+  quotation: "３歳になった時に、秩父地方では有名であった剣術家の祖父佐吉郎（苗正）より桐の木で造った木刀を頂きました。佐三郎は、祖父から小野派一刀流の剣術を教えて頂きました。"
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q11673002
+tags:
+- kendoka
+- itto-ryu
+- koryu

@@ -1,0 +1,70 @@
+type: Person
+id: 01KZC19BDCC7XJMQ37YPC8YGPT
+name:
+  en: Henry Plée
+aka:
+  en:
+  - Henri Plée
+  - H.D. Plée
+  - Henry-Désiré Plée
+nationality:
+- countryCode: eucountry:FRA
+  wikidata: wd:Q142
+birthEvent:
+  birthDate: '1923-05-24'
+  birthPlace:
+    label: Arras
+    countryCode: eucountry:FRA
+deathEvent:
+  deathDate: '2014-08-19'
+  deathPlace:
+    label: Paris
+    countryCode: eucountry:FRA
+    wikidata: wd:Q90
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/a/a7/Henry_Pl%C3%A9e.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Henry_Pl%C3%A9e.jpg
+    cite: "Capsulee80, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: French martial artist considered the 'father of European and French karate'. One of the rare 10th
+    dan karate masters living outside Japan and one of the few Westerners to hold this rank, he was a
+    pioneer in introducing karate to France and Europe and taught many of Europe's highest-ranking karate
+    masters.
+hasRankAssertion:
+- id: 01M3YH7N5GCEE7SRM3ZY9E40EP
+  rankStyle: 01KJJAWN29MA64W22606R3WD9S
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 10
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The Wikipedia article records Plee as one of the rare 10th dan karate masters
+      living outside Japan
+  hasEvidence:
+  - basedOnSource: 01KZC19BDCFR969T9JBS3DD08F
+    quotation: He was one of the rare 10th dan karate masters living outside Japan, and one of the few
+      Westerners to hold this rank.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZC19BDCFR969T9JBS3DD08F
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZBJ73N3NAN91P9EB0427C0V
+  informationType: infotype:secondary
+  supports: true
+  quotation: >-
+    En 1957, il part en France pour enseigner le karaté Shotokan chez Henry Plée, par l'intermédiaire de Jim Alcheik
+  evidenceType: evidencetype:direct
+notes: Per the French Wikipedia article on Hiroo Mochizuki, Plee hosted Hiroo Mochizuki in 1957 for the
+  teaching of Shotokan karate. Stub entry - a full biography and his own teaching lineage are future work.
+tags:
+- karate
+- france
+- work-needed

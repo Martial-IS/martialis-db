@@ -1,0 +1,52 @@
+type: Person
+id: 01M69YKDGPC6Z0B9FPZWCTGK6Y
+name:
+  en: Duncan Leung
+  yue: 梁紹鴻
+  zh: 梁紹鴻
+  zh-Latn: Liang Shaohong
+description:
+  en: >-
+    Wing Chun teacher from a wealthy Hong Kong family, student of Ip Man in the 1950s. He says he learned the whole system.
+notes: >-
+  Judkins and Nielson p. 245 treat his claim that Ip Man sold advanced material to fund a drug
+  habit as unsupported and self-serving.
+hasTeacherAssertion:
+  - id: 01M69YKDH6A5TGQQFKMMSTDEYT
+    teacher: 01KYD5XMNM4DH8KAWBC1TE9BDJ
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Own account only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              Wong Shun Leung, William Cheung, Duncan Leung, Hawkins Cheung, and Bruce Lee were all restless
+              young men who sought to perfect the art of Wing Chun to become tougher and more respected.
+            locator: '241'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              Since Duncan Leung came from a very wealthy family he was able to buy a “secret discipleship”
+              with Ip Man, and hence he learned the entire system which was rarely passed on.
+            locator: '245'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: '239-247'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - wing-chun
+  - chinese-martial-arts

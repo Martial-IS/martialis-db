@@ -1,0 +1,44 @@
+type: Person
+id: 01M5H4SVQGWZ4028GSHR1EJT7X
+name:
+  ja-Latn: Shimabukuro Eizō
+aka:
+  en: Eizo Shimabuku
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+description:
+  en: Okinawan karate teacher associated with Shōbayashi-ryū, a student of Kyan Chōtoku.
+notes: >-
+  Cramer spells the style "Shobayshi Ryu". The USAdojo interview with him
+  (Eizo_Shimabukuro_USAdojo_Interview) is a lead for his other teachers and family.
+hasTeacherAssertion:
+  - id: 01M5H4SVQG901SZPA6VQ74K3BJ
+    teacher: 01KZC4PN01Y3PH3HRWWJPAH82A
+    assertedStyle: 01KZC8S2GE3X9V7N27WXMQEPQA
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+            quotation: >-
+              The list of Chotoku Kyan’s students is quite impressive: Shoshin Nagamine (Matsubayashi
+              Ryu), Joen Nakazato (Shorin Ryu), Tatsuo Shimabuku [...] (Isshin Ryu), Eizo Shimabuku
+              (Shobayshi Ryu)
+            locator: 96-97
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+    locator: 96-97
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - karate

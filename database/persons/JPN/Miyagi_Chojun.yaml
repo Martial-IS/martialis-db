@@ -1,0 +1,177 @@
+type: Person
+id: 01KZBRSRZ7DF87MMQPTAD4542E
+name:
+  ja-Latn: Miyagi Chōjun
+  ja: 宮城長順
+aka:
+  en:
+    - Chojun Miyagi
+    - Choujun Miyagi
+  ja:
+    - みやぎ ちょうじゅん
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1888-04-25'
+  birthPlace:
+    label: Naha
+    countryCode: eucountry:JPN
+    wikidata: wd:Q181966
+  hasEvidence:
+    - basedOnSource: 01KZC8XAP8V080TEW7R9779GKP
+      quotation: Sensei Miyagi was born in Higashimachi, Naha, Okinawa on April 25, 1888.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1953-10-08'
+  deathPlace:
+    label: Okinawa Prefecture
+    countryCode: eucountry:JPN
+    wikidata: wd:Q766445
+  hasEvidence:
+    - basedOnSource: 01KZC8XAP8V080TEW7R9779GKP
+      quotation: Miyagi had his first heart attack in 1951, and died in Okinawa on October 8, 1953, from a second heart attack.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZGP69MFQZJ2BHASBCXXYMSQ
+      quotation: 宮城 長順（みやぎ ちょうじゅん、1888年4月25日 - 1953年10月7日）
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Miyagi%20Chojun.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Miyagi_Chojun.jpg
+    cite: Wikimedia Commons via Wikidata
+    informationType: infotype:secondary
+description:
+  en: Okinawan martial artist (1888-1953), founder of the Gōjū-ryū school of karate by blending the Naha-te of his teacher Higaonna Kanryō with Chinese martial arts studied in Fuzhou; the first karate style officially recognized by the Dai Nippon Butokukai.
+notes: Miyagi began studying under Ryuko Aragaki (Arakaki Seishō) at age 11 (the Kaizen Gojukan profile says 12) and was introduced to Higaonna Kanryō at age 14 (1902), training under him until Higaonna's death (military service interrupted training 1910-1912 in Miyakonojō). The JA Wikipedia notes he was born April 25, 1888 in Higashi-machi, Naha as the eldest son of a wealthy merchant family and was adopted in 1893 at age five into the Miyagi main family; the JA Wikipedia gives his death date as October 7, 1953 (the EN Wikipedia gives October 8 - the EN date is kept, the JA alternative recorded). He traveled to Fujian in May 1915 (visiting Ryū Ryū Ko's grave) and again after Higaonna's death, studying with Gokenki and adapting the Rokkishu exercises into the Tensho kata. He named the system Gōjū-ryū in 1929 (the JA Wikipedia gives 1931, citing the draft of his Goju-ryu Kempo manuscript of August 1931 held at the Okinawa Karate Museum - both dates recorded) and created the Gekisai kata in 1940. He was instrumental in registering karate at the Butokukai, developed the Junbi-undo, and performed Naha-te for Prince Hirohito (1921) and Prince Chichibu (1925); in 1926 he established the Karate Research Club with Hanashiro, Motobu and Mabuni. He died without naming a successor; his most experienced pupils at his death were Sekō Higa, Meitoku Yagi, Eiichi Miyazato, Koshin Iha and Seikichi Toguchi.
+hasTeacherAssertion:
+  - id: 01M3YH7N5GS8FH16D7QVTBG5WX
+    teacher: 01KZBTC9RB4307G7NXYA8S3NZK
+    assertedStyle: 01KYHF558ARZ926BRSVJNWCTGE
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        EN Wikipedia and the IOGKF biography state Chojun Miyagi began studying Okinawan martial arts
+        under Ryuko Aragaki (Arakaki Seishō) at age 11; two other sources give age 12
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1899
+        hasEvidence:
+          - basedOnSource: 01KZC8XAP8V080TEW7R9779GKP
+            quotation: Chojun Miyagi began studying Okinawan martial arts under Ryuko Aragaki at age 11.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZGP69MF02HJ235SMP1CJVR5
+            quotation: His training in karate began at the age of eleven under Ryuko Aragaki Sensei who practiced and taught Tomari-Te.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZGP69MFW2HXMK13QDCKKADY
+            quotation: He began his martial arts training at the age of 12 with Aragaki Ryuko Sensei.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZGP69MFN8VH0Y3ZSPBJT6C8
+            quotation: at age 11 he began training with Ryuko Aragaki who was a Tomari-te expert.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GWBGAV2ED3384W5EF
+    teacher: 01KZBS9WCMQ58J7VRHTDQJN9HE
+    assertedStyle: 01KYHF558ARZ926BRSVJNWCTGE
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Four sources state Miyagi was introduced to Higaonna Kanryō by Aragaki at age 14 (1902) and
+        trained under him until Higaonna's death; they differ on the end (1915 or 1916)
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1902
+          endYear: 1915
+        hasEvidence:
+          - basedOnSource: 01KZC8XAP8V080TEW7R9779GKP
+            quotation: At age 14, Miyagi was introduced to Kanryo Higashionna (Higaonna Kanryō) by Aragaki [...] Miyagi trained under Higaonna for 15 years until Higaonna's death in 1916.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZGP69MF02HJ235SMP1CJVR5
+            quotation: When he was fourteen his teacher introduced him to Higaonna Kanryo Sensei. Chojun Sensei trained with Kanryo Sensei from 1902 until October 1916, when Kanryo Sensei passed away.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZGP69MFW2HXMK13QDCKKADY
+            quotation: In 1902, at the age of 14, Chōjun Miyagi Sensei commenced training with Kanryo Higaonna Sensei [...] At the age of 20 Chōjun Miyagi became Higaonna's top student [...] For the next 3 years Kanryo Higaonna taught him privately until Higaonna died in 1915.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZGP69MFN8VH0Y3ZSPBJT6C8
+            quotation: After three years, he was introduced to Higashionna in 1902.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M3YH7N5GTGP5KEFWTKG7X4EV
+    honorValue: Kyoshi (教士) in karate-jutsu, Dai Nippon Butoku Kai
+    honorType: honortype:title
+    honorGrade: honorgrade:shogo_kyoshi
+    conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+    dateConferred: '1937-05-05'
+    dateOriginal: 昭和12年5月5日
+    dateCalendar: datecal:japanese_nengo
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The Japanese Wikipedia article dates the award to the Butoku Kai's Butokusai of 5 May 1937 and
+        names Konishi Yasuhiro as the co-recipient. A second passage notes Miyagi was made kyoshi
+        directly, where new registrants normally started at renshi.
+    hasEvidence:
+      - basedOnSource: 01KZGP69MFQZJ2BHASBCXXYMSQ
+        quotation: 1937年(昭和12年）5月5日、大日本武徳会主催の武徳祭において演武を披露し、小西康裕とともに空手術教士の称号を授与される
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZGP69MFQZJ2BHASBCXXYMSQ
+        quotation: 長順への授与は1937年（昭和12）年5月で、通常は新規登録者は錬士となるところ、彼のみはなぜか異例の教士スタートであった。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZC8XAP8V080TEW7R9779GKP
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZGP69MFQZJ2BHASBCXXYMSQ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZGP69MF02HJ235SMP1CJVR5
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZGP69MFW2HXMK13QDCKKADY
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZGP69MFN8VH0Y3ZSPBJT6C8
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q221121
+tags:
+  - karate
+  - goju-ryu
+  - naha-te

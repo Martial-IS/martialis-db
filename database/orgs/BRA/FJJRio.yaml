@@ -1,0 +1,80 @@
+type: Organization
+id: 01M5HMKR974M77KE0WPHSZ8TJS
+name:
+  pt: Federação de Jiu-Jitsu do Estado do Rio de Janeiro
+aka:
+  pt:
+    - FJJRio
+    - Federação de Jiu-Jitsu da Guanabara
+orgType: orgclass:federation
+hasSite:
+  - location:
+      label: Rio de Janeiro
+      countryCode: eucountry:BRA
+      wikidata: wd:Q8678
+foundedEvent:
+  startDate: '1967'
+  hasEvidence:
+    - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+      quotation: >-
+        1967 - Establishment of the Federação de Jiu-Jitsu da Guanabara. Now rebranded Federação de
+        Jiu-jitsu do Rio de Janeiro or FJJRio.
+      locator: Timeline (1967)
+      locatorLabel: section
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Jiu-jitsu federation of Rio de Janeiro, founded in 1967 as the Guanabara Federation; its 1967 manual
+    and rules (reshaped in 1975) set jiu-jitsu apart from judo. Hélio Gracie and later Robson Gracie
+    presided over it.
+hasOfficerRole:
+  - id: 01M5HMKR97GXQ1R5GGXYM4GAAF
+    officer: 01KJJAWN28MWKKSN4J02MVY1S5
+    officerTitle: President
+    officerPeriod:
+      startYear: 1967
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+        quotation: >-
+          The manual was likely to have been written by Hélcio Leal Binda and was approved by Helio, the
+          federation’s president.
+        locator: Part 1, chapter 3 (endnote 54)
+        locatorLabel: chapter
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5HMKR97HYFG6HZGPGFME21M
+    officer: 01M5HMKR97MPJ2TVCETKKF0W9A
+    officerTitle: President
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+        quotation: >-
+          Robson, the president of the old Guanabara Federation (now FJJRio), was perhaps the most well
+          positioned person to become jiu-jitsu’s political leader.
+        locator: Part 2, chapter 13
+        locatorLabel: chapter
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+    quotation: >-
+      FJJRio – Federação de Jiu-Jitsu do Estado do Rio de Janeiro (formerly known as the Guanabara
+      Federation).
+    locator: Glossary
+    locatorLabel: section
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - bjj

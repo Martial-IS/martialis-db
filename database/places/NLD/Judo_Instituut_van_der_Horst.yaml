@@ -1,0 +1,42 @@
+type: Place
+id: 01KZW2JNB8DM1V6FDVBXVVXH7C
+name:
+  nl: Judo Instituut Van Der Horst
+  en: Van der Horst Judo Institute
+aka:
+  en: Judoschool van Jan van der Horst
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Utrecht
+      countryCode: eucountry:NLD
+      wikidata: wd:Q803
+    address: Oudkerkhof, Utrecht
+hasInstructorRole:
+  - id: 01M4R9845W2G1V9570EWRZA9KN
+    instructor: 01KZW2JNB8NH2ZZDYW1RNPGE52
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1948
+      endYear: 1957
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia only.
+    hasEvidence:
+      - basedOnSource: 01KZW2JNB8V0458Y2F8YSSG91D
+        informationType: infotype:secondary
+        supports: true
+        quotation: 'Eind jaren 40 en in de jaren 50 had Van der Horst in de stad Utrecht een judoschool: Judo Instituut Van Der Horst op het Oudkerkhof.'
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1948'
+  founder:
+    - 01KZW2JNB8NH2ZZDYW1RNPGE52
+description:
+  en: Judo school run by the Dutch judo pioneer Jan van der Horst on the Oudkerkhof in Utrecht in the late 1940s and the 1950s, where Anton Geesink received his first judo lessons.
+hasEvidence:
+  - basedOnSource: 01KZW2JNB8V0458Y2F8YSSG91D
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct

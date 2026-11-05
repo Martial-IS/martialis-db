@@ -1,0 +1,44 @@
+type: Person
+id: 01M61VT2BR3AKHE2H22QDZ7GEA
+name:
+  en: Simpson
+description:
+  en: >-
+    English prizefighter known only by his surname, a pupil of Tom Johnson, beaten by Tom Jones on the
+    green near Putney in June 1804.
+notes: >-
+  Miles gives no first name.
+hasTeacherAssertion:
+  - id: 01M61VT2BR2W94G2CRK0CFF4PR
+    teacher: 01M5JPY6FNTBJ2XWNW9MGK9VR5
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Miles calls him Johnson's pupil; one source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M61VT2BRPK6TKHVH7EE72A0G
+            quotation: >-
+              Simpson, a pupil of Tom Johnson’s, upon whom considerable expectations had been raised, was
+              matched against Jones for 10 guineas a-side
+            locator: '118'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M61VT2BRPK6TKHVH7EE72A0G
+    quotation: >-
+      Simpson, a pupil of Tom Johnson’s, upon whom considerable expectations had been raised, was matched
+      against Jones for 10 guineas a-side, which battle was decided on the Green, near Putney, in June
+      1804.
+    locator: '118'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - boxing

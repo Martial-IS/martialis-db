@@ -1,0 +1,107 @@
+type: Person
+id: 01M6A2JTJ28XDRCXA95W4J01H8
+name:
+  pt: Mestre Canjiquinha
+aka:
+  pt: Washington Bruno da Silva
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Capoeira mestre from Salvador, a student of Mestre Aberrê from 1935 and contra-mestre at Mestre
+    Pastinha's academy from 1951, who kept a style of his own between Angola and Regional and spread
+    it through folklore shows and films.
+notes: >-
+  A Trophy Mestre Canjiquinha was created
+  in 1981 (Assunção, p. 193).
+birthEvent:
+  birthDate: '1925-09-25'
+  birthPlace:
+    label: Maciel de Baixo, Salvador, Bahia
+    countryCode: eucountry:BRA
+    wikidata: wd:Q36947
+  hasEvidence:
+    - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+      quotation: >-
+        Washington Bruno da Silva, or M.Canjiquinha (1925–1994). Born in Maciel de Baixo, an
+        impoverished neighbourhood in the old city centre of Salvador, he learned capoeira from 1935
+        onwards with Aberrê, the famous mestre from Santo Amaro and student of Pastinha
+      locator: '193'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ACM2JZ7HCW7FE5T3NVQFHR
+      quotation: >-
+        Washington Bruno da Silva (Salvador, 25 de setembro de 1925 - 8 de novembro de 1994), também
+        conhecido como Mestre Canjiquinha
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1994-11-08'
+  hasEvidence:
+    - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+      quotation: >-
+        Washington Bruno da Silva, or M.Canjiquinha (1925–1994).
+      locator: '193'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ACM2JZ7HCW7FE5T3NVQFHR
+      quotation: >-
+        Washington Bruno da Silva (Salvador, 25 de setembro de 1925 - 8 de novembro de 1994), também
+        conhecido como Mestre Canjiquinha
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M6A2JTJCVB66XPQBZ4EHMMGK
+    teacher: 01M6A2JTJ16N3ES5BKGQSP1X1S
+    assertedStyle: 01M6A2JTHSG7FHK01NCS2SN3FD
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Assunção and English Wikipedia, which follows Milani (2004), not Assunção.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1935
+        hasEvidence:
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              Washington Bruno da Silva, or M.Canjiquinha (1925–1994). Born in Maciel de Baixo, an
+              impoverished neighbourhood in the old city centre of Salvador, he learned capoeira
+              from 1935 onwards with Aberrê, the famous mestre from Santo Amaro and student of
+              Pastinha
+            locator: '193'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6A2JTHZFGBCA1J76F73WQBQ
+            quotation: >-
+              He learned Capoeira with the legendary Mestre Aberrê (Antônio Raimundo).
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    locator: '193'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q121898020
+tags:
+  - capoeira
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/8/8c/Mestre_Canjiquinha_tocando_berimbau.png
+  rights: mediarights:copyright_undetermined
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Mestre_Canjiquinha_tocando_berimbau.png
+    cite: "A Tribuna, 1984, Wikimedia Commons"
+    informationType: infotype:secondary

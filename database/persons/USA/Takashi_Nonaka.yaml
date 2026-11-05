@@ -1,0 +1,66 @@
+type: Person
+id: 01M6C5JZZGATS0MQB2WF5SP8BV
+name:
+  en: Takashi Nonaka
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1925-05-08'
+  birthPlace:
+    label: Hawaii (Big Island)
+  hasEvidence:
+    - basedOnSource: 01M6C5JZZGGKZVG5VVNGV0F0HD
+      quotation: >-
+        The oldest of eight children (three boys and four girls), Takashi Nonaka was born on Big Island
+        of Hawaii on May 8, 1925.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Hawaiian aikido teacher in Hilo. He began aikido under Koichi Tohei in 1955, served as Tohei's
+    uke and as Morihei Ueshiba's translator during the 1961 Hawaii visit, and stayed with Tohei's
+    Ki Society after 1974.
+hasTeacherAssertion:
+  - id: 01M6C5JZZG0XSMA8P1H6QKV448
+    teacher: 01KZSRDXQW9QBDT9VR9P08RBYT
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source; his own account.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1955
+        hasEvidence:
+          - basedOnSource: 01M6C5JZZGGKZVG5VVNGV0F0HD
+            quotation: >-
+              Then one day in 1955 he attended a lecture given by the Japanese aikidoka Koichi Tohei. "I
+              was impressed with what he had to say, and I signed up that same night," says Mr. Nonaka.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6C5JZZGGKZVG5VVNGV0F0HD
+            quotation: >-
+              This caused much consternation in the international aikido community, but since Mr. Nonaka
+              was a direct student of Tohei, it was not a problem for him: he stayed with Tohei Sensei.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C5JZZGGKZVG5VVNGV0F0HD
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6C5JZZG2XXX0TYYXNBZM8GB
+    quotation: >-
+      The local instructor was Kiyoshi Nagata, and his assistants included Takashi Nonaka, a former
+      kendoka who still heads the Hilo Ki-Aikido Club today.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - aikido
+  - hawaii

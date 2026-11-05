@@ -1,0 +1,97 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD7J
+name:
+  ja-Latn: Ushijima Tatsukuma
+  ja: 牛島辰熊
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1904-03-10'
+  birthPlace:
+    label: Kumamoto
+    countryCode: eucountry:JPN
+    wikidata: wd:Q199889
+deathEvent:
+  deathDate: '1985-05-26'
+  deathPlace:
+    countryCode: eucountry:JPN
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/3/33/Tatsukuma_Ushijima.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Tatsukuma_Ushijima.jpg
+    cite: "published by ポプラ書房, Wikimedia Commons"
+description:
+  en: Tatsukuma Ushijima (牛島辰熊, March 10, 1904 – May 26, 1985) was a Japanese judoka and former All-Japan
+    judo champion, who was also known as a teacher of Masahiko Kimura, a famous judoka. His nickname was
+    'The Demon Ushijima'.
+  ja: 牛島 辰熊（うしじま たつくま、1904年（明治37年）3月10日 - 1985年（昭和60年）5月26日）は、日本の柔道家。段位は講道館柔道九段。大日本武徳会柔道教士。明治神宮大会3連覇、昭和天覧試合準優勝。その圧倒的な強さと気の荒さから「鬼の牛島」と称された。柔道史上最強を謳われる木村政彦の師匠として有名。
+notes: Trained in Kyushin-ryū jujutsu during childhood, teacher unidentified; began judo at age 15 per
+  Wikipedia.
+hasTeacherAssertion:
+- id: 01M3YH7N5GR8JB3RGE9YXFA3TA
+  teacher: 01KZ9TQS3VWBPTDPR59EH06R58
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The Japanese Wikipedia article on Toku Sanpo records that after his 1917 reinstatement
+      at the Kodokan he taught the younger generation including Ushijima Tatsukuma and Hayashi Iwazo
+  role: teachrole:student
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1917
+    hasEvidence:
+    - basedOnSource: 01KZBXVRR5Y5E2RYX8HMAEM2WZ
+      quotation: 6年後の1917年に破門を許された後は柔道師範として、林岩三や牛島辰熊など後進の指導に当たった
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5G414GRN5XTTBAFT33
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 9
+  conferredBy: 01KJJAWN29MA64W22606R3WD7X
+  dateConferred: '1984'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: 9th dan rank awarded in 1984 documented in academic research paper by De Crée
+      (2014) with specific quotation mentioning 'future (1984) 9th dan holder'
+  hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WDAE
+    cite: De Crée, Carl. (2014). Nanatsu-no-kata, Endō-no-kata, and Jōge-no-kata ―A pedagogical and qualitative
+      biomechanical evaluation of Hirano Tokio's kuzushi (unbalancing) concept as part of skill acquisition
+      for throwing techniques in Kōdōkan jūdō. Revista de Artes Marciales Asiáticas. 9. 69-96. 10.18002/rama.v9i2.1162.
+    quotation: While still at Kyōto, Hirano later also became an uchi deshi to Ushijima Tatsukuma 牛島辰熊
+      (1904‐1985) (Figure 2), famous for his competitive achievements and who too was a Busen jūdō teacher
+      and future (1984) 9th dan holder
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KXTSQXW6P83R31HCRY2PRTC6
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KXTSQXW6P83R31HCRY2PRTC7
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KXTSQXW6P83R31HCRY2PRTC8
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KJJAWN29MA64W22606R3WDAE
+  cite: De Crée, Carl. (2014). Nanatsu-no-kata, Endō-no-kata, and Jōge-no-kata ―A pedagogical and qualitative
+    biomechanical evaluation of Hirano Tokio’s kuzushi (unbalancing) concept as part of skill acquisition
+    for throwing techniques in Kōdōkan jūdō. Revista de Artes Marciales Asiáticas. 9. 69-96. 10.18002/rama.v9i2.1162.
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q11570129
+- dbr:Tatsukuma_Ushijima

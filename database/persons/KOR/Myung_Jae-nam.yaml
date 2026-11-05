@@ -1,0 +1,49 @@
+type: Person
+id: 01M5HN449VRM192C7QXZYPPCF5
+name:
+  ko-Latn: Myung Jae-nam
+nationality:
+  - countryCode: eucountry:KOR
+    wikidata: wd:Q884
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/4/4a/Myung_wiki.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Myung_wiki.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    Korean hapkido teacher (1938–1999) of the International Hapkido Federation, in the line of Choi
+    Yong-sul, directly or through Ji Han-jae.
+hasTeacherAssertion:
+  - id: 01M5HN449V1K3HVHQKB8BA1E52
+    teacher: 01M5H45XTYZJGP4BK91872Q9E3
+    assertedStyle: 01M5H45XTYC7KSZ5CZ9WKV4T0D
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: Single source; it allows training through Ji instead.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Notable personalities who trained with Choi directly (or with Choi through Ji) include Lee
+              Joo Bang (1945–, HwaRangDo), Myung Jae-nam (1938–1999, International Hapkido Federation)
+            locator: '185'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: '185'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q2362572
+tags:
+  - hapkido

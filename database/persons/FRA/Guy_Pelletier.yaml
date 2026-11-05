@@ -1,0 +1,53 @@
+type: Person
+id: 006G01NTX67X3FN6YFZ39P1FSG
+name:
+  en: Guy Pelletier
+  fr: Guy Pelletier
+nationality:
+- countryCode: eucountry:FRA
+  wikidata: wd:Q142
+description:
+  en: French judoka, one of the reputed French professors and judoka around whom Ichiro Abe, technical
+    advisor of the Shudokan club in Toulouse (1951-1953), reinforced the rayonnement of Kodokan judo in
+    France, according to the France Judo obituary of Abe (2022).
+  fr: Judoka français, l'un des professeurs et judokas français réputés autour desquels Ichiro Abe, conseiller
+    technique du club Shudokan de Toulouse (1951-1953), renforça le rayonnement du judo Kodokan en France,
+    selon le carnet noir de France Judo consacré à Abe (2022).
+hasTeacherAssertion:
+- id: 01M3YH7N5G79XZ22GRJG99MM8P
+  teacher: 01KZXH2NSQMBZTRPPYAKKCFR84
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: The France Judo obituary of Abe lists Pelletier among the reputed judoka around
+      whom Abe reinforced the rayonnement of Kodokan judo; Budo Éditions' independent author biography
+      states Pelletier met Abé in 1952, remained loyal to him, and was tasked by him with developing
+      Kodokan judo in France
+  hasInteraction:
+  - interactionPlace: 006G01NTX69KM1Y9K5D9DFKTVG
+    interactionPeriod:
+      startYear: 1951
+      endYear: 1953
+    hasEvidence:
+    - basedOnSource: 006G01NTX6KVVJGZRYYMM8GAFV
+      quotation: Il renforça le rayonnement du Judo Kodokan autour de professeurs et judokas français
+        réputés tels que Pierre Roussel, Jacques Belaud, Luc Levannier ou encore Guy Pelletier.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M3FKHGK5REMKSAWEHCX96TTG
+      quotation: En 1952, il rencontre Maître Ichiro Abé, à qui il restera fidèle jusqu'à la fin de son
+        existence. Il sera chargé par celui-ci de développer en France, le judo du Kodokan.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 006G01NTX6KVVJGZRYYMM8GAFV
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- judo
+- france

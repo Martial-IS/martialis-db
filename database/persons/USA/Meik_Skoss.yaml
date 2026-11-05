@@ -1,0 +1,66 @@
+type: Person
+id: 01M6BGZPMBX9JKHHVGBVHXZDDY
+name:
+  en: Meik Skoss
+description:
+  en: >-
+    American practitioner and teacher of classical Japanese martial arts, in Japan from 1973; member of Shinto Muso-ryu, Toda-ha Buko-ryu, Tendo-ryu and Yagyu Shinkage-ryu, and a student of Sawada Hanae in Tendo-ryu from 1976.
+hasEvidence:
+- basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+  locator: 'Contributor note'
+  locatorLabel: section
+  quotation: 'Meik Skoss has lived and trained in Japan since 1973 and is a member of the Shinto Muso-ryu, Toda-ha Buko-ryu, Tendo-ryu, and Yagyu Shinkage-ryu.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M6BGZPMB9HXA4YD36CVR10SR
+  locator: 'Contributor note'
+  locatorLabel: section
+  quotation: 'Meik Skoss has been her student in Tendo-ryu since 1976.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M6BGZPMBSFR6SAEAD4K0PE67
+  teacher: 01M6BGZPMBX32M2V9ERYMS4QKR
+  assertedStyle: 01M6BGZPMB3S87S2PY9MH5CTH8
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The book’s contributor note, edited by his wife Diane Skoss; one side.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1976
+    hasEvidence:
+      - basedOnSource: 01M6BGZPMB9HXA4YD36CVR10SR
+        locator: 'Contributor note'
+        locatorLabel: section
+        quotation: 'Meik Skoss has been her student in Tendo-ryu since 1976.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M6BP392SV2D39CK2Y2KHH8NF
+        quotation: 'After moving to Tokyo in 1976, Skoss started studying Shinto Muso-ryu jo under Shimizu Takaji, Toda-ha Buko-ryu naginatajutsu with Muto Mitsu, and Tendo-ryu naginatajutsu under Sawada Hanae.'
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+- id: 01M6BP392SZDCCDKFT6JEFNVEA
+  teacher: 01KZ9TQS3VCE0D7V65S6JVC5JD
+  assertedStyle: 01KZ9TQS3VCCTAXE15YF88B0T9
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: His own account (Koryu Books author page); one side.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1976
+    hasEvidence:
+      - basedOnSource: 01M6BP392SV2D39CK2Y2KHH8NF
+        quotation: 'After moving to Tokyo in 1976, Skoss started studying Shinto Muso-ryu jo under Shimizu Takaji, Toda-ha Buko-ryu naginatajutsu with Muto Mitsu, and Tendo-ryu naginatajutsu under Sawada Hanae.'
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+notes: >-
+  Author of the book’s Tenjin Shinyo-ryu chapter and interviewer of Sawada Hanae. Nationality is implied ("his American face", introduction), not stated. His author page also names Muto Mitsu (Toda-ha Buko-ryu, from 1976) and Yagyu Nobuharu Toshimichi, 21st Owari-line head (Yagyu Shinkage-ryu, from 1979); neither has a record.

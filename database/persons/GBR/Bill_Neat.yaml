@@ -1,0 +1,44 @@
+type: Person
+id: 01M61VT2BR1MNYF2GDPDQ3WZ0P
+name:
+  en: Bill Neat
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+description:
+  en: >-
+    Bristol prizefighter of the Regency ring (born 1791), prepared under Tom Cribb's tuition for his
+    1818 fight with Tom Oliver; he later fought Tom Spring.
+hasTeacherAssertion:
+  - id: 01M61VT2BRMAJ2VCMGYBNK72YM
+    teacher: 01M5JPY6FNF0SG23M0XHYNDVP4
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+    role: teachrole:coach
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Miles says he trained ten weeks under Cribb's tuition; one source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M61VT2BR663F36ZZNA91DKPX
+            quotation: >-
+              with the improving value of ten weeks’ training under the immediate auspices and tuition of
+              Cribb, the advice of Gully, and the generally sound judgment of Captain Barclay, he soon
+              became the favourite
+            locator: '105'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M61VT2BR663F36ZZNA91DKPX
+    quotation: >-
+      Neat was brought forward under those advantages
+    locator: '105'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - boxing

@@ -1,0 +1,77 @@
+type: Person
+id: 01M5JRHX02RSE045P0TVKYBSCH
+name:
+  en: Andre Paurenfeyndt
+aka:
+  en:
+    - Andreas Paurñfeindt
+    - Pauerenfeindt
+nationality:
+  - countryCode: eucountry:AUT
+    wikidata: wd:Q40
+birthEvent:
+  birthPlace:
+    label: Ernsbrunn
+    countryCode: eucountry:AUT
+  hasEvidence:
+    - basedOnSource: 01M5JRHX02CM7STGJTVYZET8Y1
+      quotation: >-
+        He was born in Ernsbrunn in Lower Austria, and he enrolled in the Universität Wien on 13 October
+        1512.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Sixteenth-century Freifechter from Ernsbrunn in Lower Austria, bodyguard to Cardinal Matthäus Lang,
+    whose Ergrundung Ritterlicher Kunst der Fechterey (1516) is the earliest known printed fencing book,
+    written for beginners in the Liechtenauer tradition.
+hasDocumentTransmissionAssertion:
+  - id: 01M61V7JC2F2AJTM0CMVWBSCPM
+    transmissionDocument: 01M61V7JC2F277GR59FDE0DB56
+    assertedStyle: 01M5JRHX026EPJNQVEJDCKRNJP
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        His dedication sets out to explain the Zettel, and Wiktenauer places his book in the Liechtenauer
+        tradition; he does not name Liechtenauer as its author there.
+    hasEvidence:
+      - basedOnSource: 01M5JRHX02CM7STGJTVYZET8Y1
+        quotation: >-
+          hab ich mir furgnumen kurczlich zu beschreyben dye Ritterlich kunst der Fechterey und
+          gruntlichs auslegung der zetel
+        locator: '[1.2]'
+        locatorLabel: paragraph
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JRHX02CM7STGJTVYZET8Y1
+        quotation: >-
+          the contents of his book make it clear that he was associated with the tradition of Johannes
+          Liechtenauer
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5JRHX02CM7STGJTVYZET8Y1
+    quotation: >-
+      In 1516, he wrote and published a fencing manual entitled Ergrundung Ritterlicher Kunst der
+      Fechterey ("Founding of the Chivalric Art of Swordplay"), which seems to have been the first
+      illustrated fencing treatise ever published.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      The earliest known printed fencing text was made by a German named Pauerenfeindt in 1516.
+    locator: '253'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q49842202
+tags:
+  - fencing
+  - kunst-des-fechtens

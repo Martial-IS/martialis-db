@@ -1,0 +1,104 @@
+type: Person
+id: 01M6EHHZQ630H4W9GG5BW8S1R1
+name:
+  en: Abdulmanap Nurmagomedov
+  ru: Абдулманап Магомедович Нурмагомедов
+nationality:
+- countryCode: eucountry:SUN
+  wikidata: wd:Q15180
+- countryCode: eucountry:RUS
+  wikidata: wd:Q159
+birthEvent:
+  birthDate: '1962-12-10'
+  birthPlace:
+    label: Sildi
+    countryCode: eucountry:SUN
+    wikidata: wd:Q19353941
+  hasEvidence:
+  - basedOnSource: 01M6EHHZQ6WV1H9F3TTNVCWDE1
+    quotation: >-
+      Nurmagomedov was born on December 10, 1962 in the village of Sildi, Tsumadinsky District.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2020-07-03'
+  deathPlace:
+    label: Moscow
+    countryCode: eucountry:RUS
+    wikidata: wd:Q649
+  hasEvidence:
+  - basedOnSource: 01M6EHHZQ6WV1H9F3TTNVCWDE1
+    quotation: >-
+      10 December 1962 – 3 July 2020
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/1/16/Abdulmanap_Nurmagomedov_in_2021.jpg
+  rights: mediarights:cc-by-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Abdulmanap_Nurmagomedov_in_2021.jpg
+    cite: "Новости Дагестан, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    Combat sambo coach from Dagestan; father and coach of Khabib Nurmagomedov.
+hasTeacherAssertion:
+- id: 01M6EHHZQ6Q8BCQR3ZPWZRG924
+  teacher: 01M6EHHZQ626MAGM7REPB3SVV2
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Butriy's own account and Abdulmanap's own post agree
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1983
+    hasEvidence:
+    - basedOnSource: 01M6EHHZQ6BV6MV77ZCN5XM95Q
+      quotation: >-
+        Мой тренер Бутрий Петр Иванович по Дзюдо . Я благодарен этому умному , талантливому ,одаренному
+        специалисту своём деле .
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6EHHZQ6BV6MV77ZCN5XM95Q
+      quotation: >-
+        До того, как прийти ко мне, Абдулманап занимался вольной борьбой.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6EHHZQ6BV6MV77ZCN5XM95Q
+      quotation: >-
+        В 1983-м Нурмагомедов уехал в Полтаву.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6EHHZQ6EW5HSRBPEGGGE08Z
+      quotation: >-
+        Дзюдоист Петр Бутрий тренировал Абдулманапа Нурмагомедова в 80-е, когда отец Хабиба был студентом
+        Полтавского института кооперации.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M6EHHZQ6WV1H9F3TTNVCWDE1
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M6EHHZQ6JZ9SCQW9JQP6H5CW
+  quotation: >-
+    В Полтаве начал изучать дзюдо под руководством тренера Петра Бутрия.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q19915711
+tags:
+- sambo
+- combat-sambo
+- judo
+- coach

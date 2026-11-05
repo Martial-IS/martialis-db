@@ -1,0 +1,215 @@
+type: Person
+id: 01M0AAFQFXZ7G2JDEFZY8M5AKF
+name:
+  ja-Latn: Tanabe Mataemon
+  ja: 田辺 又右衛門
+aka:
+  en: Mataemon Tanabe
+  ja-Latn:
+  - Newaza Tanabe
+  - Newaza no Tatsujin
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1869'
+  birthPlace:
+    label: Okayama Prefecture
+    countryCode: eucountry:JPN
+    wikidata: wd:Q132936
+  hasEvidence:
+  - basedOnSource: 01M0AAFQFF2D8V7QYZ152KG8C8
+    informationType: infotype:secondary
+    supports: true
+    quotation: Born 1869 Okayama, Japan
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M0AJNJHSV6RHCNNKNM0Y1EHP
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+    quotation: Tanabe Mataemon was born in Okayama prefecture in 1869, shortly after the restoration of
+      the Meiji emperor to the throne.
+deathEvent:
+  deathDate: '1942'
+  deathPlace:
+    label: Osaka
+    countryCode: eucountry:JPN
+    wikidata: wd:Q35765
+  hasEvidence:
+  - basedOnSource: 01M0AAFQFF2D8V7QYZ152KG8C8
+    informationType: infotype:secondary
+    supports: true
+    quotation: Tanabe died in 1942 in Osaka.
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M0AJNJHSV6RHCNNKNM0Y1EHP
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+    quotation: Tanabe Mataemon died aged 73 in 1942 in Osaka.
+description:
+  en: 'Japanese jujutsu practitioner, fourth head of the Fusen-ryu school founded by Motsugai Takeda.
+    He became famous
+
+    for defeating multiple members of the Kodokan in challenge matches - most famously Takisaburo Tobari
+    in 1891 -
+
+    and came to be considered one of the greatest modern jujutsuka. Nicknamed "Newaza Tanabe" and "Newaza
+    no Tatsujin"
+
+    for his mastery of ground techniques, he was also equally skilled in standing techniques. He was one
+    of the twenty
+
+    representing masters chosen in 1895 to open the jujutsu division of the Dai Nippon Butoku Kai, where
+    he taught until
+
+    his retirement in 1922. He declined to join the Kodokan; Kano incorporated his ground techniques into
+    judo after
+
+    seeing Kodokan experts struggle against him. He was the inspiration for the character Gennosuke Higaki
+    in Tsuneo
+
+    Tomita''s Sanshiro Sugata novel series. Died in Osaka, 1942.
+
+    '
+notes: Teacher recorded without a person reference (father Torajiro Tanabe, otherwise undocumented). Hoare's
+  translation of the 1939 DaiNippon Judo-shi account ("Tanabe Mataemon Talks About His Fusen-Ryu Jujitsu")
+  is treated as the authoritative account of Tanabe's life and is cited here wherever it overlaps with
+  Wikipedia; it places his childhood training under his grandfather Takeda Sadaharu and confirms menkyo
+  kaiden at 17, the 1890 Keishicho appointment, and the Kyoshi (1906) / Hanshi (1927) titles within the
+  Dai Nippon Butoku Kai. The English Wikipedia article lists Miyake and Uyenishi as notable students and
+  calls Tani "possibly-though unlikely"; the Fusen-ryu article lists both Miyake and Tani as the school's
+  most known apprentices. Wikidata's death date matches EN Wikipedia (1942); the death place (Osaka) comes
+  from EN Wikipedia and Hoare. Oimatsu (cited in Hoare) states that "Tani was a student of Tanabe Mataemon
+  in Kobe".
+hasRankAssertion:
+- id: 01M3YH7N5G09YFH64X7JMF311W
+  rankStyle: 01M0AAFQFSD0PC83N17N4J3JXN
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+  rankGrade: rankgrade:menkyo_kaiden
+  dateConferred: '1886'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Hoare's translation states menkyo kaiden was received at 17 by a Tanabe born
+      1869, giving c. 1886; EN Wikipedia states the same and adds that he and his father then became teachers
+      of their art. Hoare primary, WP apud.
+  hasEvidence:
+  - basedOnSource: 01M0AJNJHSV6RHCNNKNM0Y1EHP
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+    quotation: by the age of 17 he had received his full certification (menkyo kaidan).
+  - basedOnSource: 01M0AAFQFF2D8V7QYZ152KG8C8
+    informationType: infotype:secondary
+    supports: true
+    quotation: At 17 he received his menkyo kaiden, and he and his father became teachers of their art
+      around the country.
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M3YH7N5G0Q86QPMYD9P6EVXX
+  teacher: 01M1KSJ12QWGJ1HDWJ98CQ5WMQ
+  assertedStyle: 01M0AAFQFSD0PC83N17N4J3JXN
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Tanabe's father Torajiro was head of the Fusen-ryu; Tanabe began training at
+      age 9 and travelled with his father to challenges from age 14.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M0AAFQFF2D8V7QYZ152KG8C8
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+      quotation: Tanabe was born in Okayama to Torajiro Tanabe, head of the Fusen-ryū founded by Motsugai
+        Takeda. He started training in jujutsu at 9 years old, and at 14 he started accompanying his father
+        to competitions
+    - basedOnSource: 01M0AJNJHSV6RHCNNKNM0Y1EHP
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+      quotation: At the age of 9 he began studying jujitsu under his grandfather Takeda Sadaharu [...] Then
+        with his father – Tanabe Torajiro he taught jujitsu in various parts of the prefecture.
+hasEvidence:
+- basedOnSource: 01M0AAFQFF2D8V7QYZ152KG8C8
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0AJNJHSV6RHCNNKNM0Y1EHP
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0AAFQFHHBXJE31T30Q1WQVM
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0A7YYEFNNVJ1W07NHA7XJHG
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+  quotation: Handa had a collaboration with Fusen ryu (Fusen school) jujutsu-expert Mataemon Tanabe, and
+    their dojo became known for their expertise in competitive grappling or ne-waza [Wolf 2016].
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/b/bd/Mataemon_Tanabe.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Mataemon_Tanabe.jpg
+    cite: "Kodansha Ltd., Wikimedia Commons"
+    informationType: infotype:secondary
+sameAs:
+- wd:Q27950800
+tags:
+- jujutsu
+- judo
+- koryu
+- japan
+hasHonorAssertion:
+- id: 01M3YH7N5GAB280BW5TX266FQB
+  honorValue: Kyoshi
+  honorType: honortype:title
+  honorGrade: honorgrade:shogo_kyoshi
+  conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+  dateConferred: '1906'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Hoare's translation records Tanabe as a judo Kyoshi of the Butokukai from 1906,
+      retirement from teaching in 1922, and promotion to Hanshi in 1927; EN Wikipedia repeats the same
+      sequence. Hoare primary, WP apud.
+  hasEvidence:
+  - basedOnSource: 01M0AJNJHSV6RHCNNKNM0Y1EHP
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+    quotation: In Meiji 39 (1906) I was made judo Kyoshi (teacher). I quit working as a jujitsu/judo
+      master in Taisho 11 (1922) aged 53. In 1927 I was made Judo Hanshi (master) by the Butokukai aged
+      58.
+  - basedOnSource: 01M0AAFQFF2D8V7QYZ152KG8C8
+    informationType: infotype:secondary
+    supports: true
+    quotation: He was appointed judo kyoshi in 1906, teaching at the Butoku Kai until his retirement in
+      1922, and was promoted to hanshi in 1927.
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5G0ZK9D4XF57RJZ1V6
+  honorValue: Hanshi
+  honorType: honortype:title
+  honorGrade: honorgrade:shogo_hanshi
+  conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+  dateConferred: '1927'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Hoare's translation records promotion to Judo Hanshi by the Butokukai in 1927;
+      EN Wikipedia repeats the same. Hoare primary, WP apud.
+  hasEvidence:
+  - basedOnSource: 01M0AJNJHSV6RHCNNKNM0Y1EHP
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+    quotation: In 1927 I was made Judo Hanshi (master) by the Butokukai aged 58.
+  - basedOnSource: 01M0AAFQFF2D8V7QYZ152KG8C8
+    informationType: infotype:secondary
+    supports: true
+    quotation: He was appointed judo kyoshi in 1906, teaching at the Butoku Kai until his retirement in
+      1922, and was promoted to hanshi in 1927.
+    evidenceType: evidencetype:direct

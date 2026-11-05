@@ -1,0 +1,57 @@
+type: Style
+id: 01M5JVVMHM1QXNQ7CWGZ83N672
+name:
+  en: Leonese wrestling
+  es: Lucha leonesa
+aka:
+  en:
+    - Aluche
+    - Lucha leonesa
+styleType: styleclass:traditional
+hasStyleRelationAssertion:
+  - id: 01M5JVVMHMBZXJ6S76XTFS5RRP
+    relatedStyle: 01KYJ39BQPQ7JTTDQ3B36PZQQN
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01M5JVVMHMRRV5AQ65GRZE90M2
+        quotation: >-
+          Leonese wrestling (Leonese: aluche, Spanish: lucha leonesa), is a form of wrestling specific to
+          the Province of León in Spain.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          As for the regional wrestling styles, only the belted style known as lucha leonesa (León
+          wrestling, formerly named aluche) can be said to be thriving.
+        locator: '226'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Belted folk wrestling of the province of León, Spain, standardised from 1920 under the Provincial
+    Wrestling Commission; the only northern Iberian folk wrestling that still thrives.
+hasEvidence:
+  - basedOnSource: 01M5JVVMHMRRV5AQ65GRZE90M2
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q4897412
+tags:
+  - wrestling
+  - folk-wrestling
+  - spain
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/d/d7/Lucha_leonesa.jpg
+    rights: mediarights:cc-by-2.0
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:Lucha_leonesa.jpg
+      cite: "Iñigo Tomé, Wikimedia Commons"
+      informationType: infotype:secondary

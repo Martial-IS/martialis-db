@@ -1,0 +1,62 @@
+type: Organization
+id: 01M69YRP15FA56V49REZTMT1DJ
+name:
+  en: Foshan Jingwu Association
+  zh: 佛山精武體育會
+orgType: orgclass:association
+hasSite:
+  - location:
+      label: Foshan
+      countryCode: eucountry:CHN
+      wikidata: wd:Q34412
+foundedEvent:
+  startDate: '1920'
+  hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        The Foshan Jingwu Association was established in 1920, shortly after the creation of the
+        Guangdong branch, but it appears that classes may not have actually started until 1921.
+      locator: '139'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M69YRP13KHETPKK6BR571JN1
+    relatedOrganization: 01M69YRP110BTRWV9Y8K6WY2FA
+    affiliationRelation: affrel:branch_of
+    validDuring:
+      startYear: 1920
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+        quotation: >-
+          The success of the Guangdong Jingwu Association created demand for additional branches within
+          the province. Additional chapters were subsequently established in Foshan (1920), Shantou
+          (1923), and Guangzhou (1925).
+        locator: '138'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Foshan branch of the Jingwu Athletic Association, founded in 1920. From 1923 to 1937 it ran
+    schools and placed martial arts coaches across the town; the Japanese used its new building as a
+    granary.
+notes: >-
+  Judkins and Nielson pp. 138-147, 183, 200, 229. Jiu Wan taught Wing Chun in its building in
+  1945-1949, probably renting the space (p. 229). A northern Praying Mantis master linked to it
+  challenged Foshan's teachers in the 1920s; Ip Man fought him (p. 183).
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: '138-147, 183, 229'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - chinese-martial-arts

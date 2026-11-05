@@ -1,0 +1,223 @@
+type: Person
+id: 01KZMEB6EEGNN58328J45YXA9T
+name:
+  en: Jean de Herdt
+nationality:
+- countryCode: eucountry:FRA
+  wikidata: wd:Q142
+birthEvent:
+  birthDate: '1923-07-23'
+  birthPlace:
+    label: Paris
+    countryCode: eucountry:FRA
+    wikidata: wd:Q90
+  hasEvidence:
+  - basedOnSource: 01KZM8EFMV2MD5F30YEK51ES15
+    quotation: Jean de Herdt (París, 23 de julio de 1923 - Bourges, 5 de enero de 2013)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2013-01-05'
+  deathPlace:
+    label: Bourges
+    countryCode: eucountry:FRA
+    wikidata: wd:Q132404
+  hasEvidence:
+  - basedOnSource: 01KZM8EFMV2MD5F30YEK51ES15
+    quotation: Jean de Herdt (París, 23 de julio de 1923 - Bourges, 5 de enero de 2013)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://img.over-blog.com/300x297/4/25/16/92/DEHERDT-Jean.jpg
+  imageAttribution:
+    basedOnSource: 01KZY0RGB7RGZFK05BHN7S322A
+    cite: "patrickdimayuga.over-blog.com"
+    informationType: infotype:secondary
+description:
+  en: 'French judoka, the first European judo champion and the first French pupil of Mikinosuke Kawaishi,
+    whom he met in 1935. During Kawaishi''s absence from France he co-directed French judo with Paul Beaujean,
+    and his students included André Kolychkine, who introduced judo to Cuba.
+
+    '
+hasTeacherAssertion:
+- id: 01M3YH7N5G8WYSD6ZB46DEBH5K
+  teacher: 01KJJAWN28MWKKSN4J02MVY1T3
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: EcuRed describes Jean de Herdt as a disciple of Mikinosuke Kawaishi, founder
+      of European judo; the 2012 Lyonne.fr press article presents de Herdt as the first pupil of Kawaishi,
+      who met him in 1935 at age 14 and was among the first to obtain the black belt three years later
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1935
+    hasEvidence:
+    - basedOnSource: 01KZM8EFMV2MD5F30YEK51ES15
+      quotation: En París fue alumno del sensei Jean de Herdt [...] quien a su vez era discípulo de Mikinosuke
+        Kawaishi [...] fundador del judo europeo.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZY2QD0F1CQN6A0Z5Q4470T6
+      quotation: Jean de Herdt est le premier élève de Mikinosuke Kawaishi, l'homme qui a implanté le
+        judo en Europe. En 1935, la rencontre entre l'ado et le maître [...] J'avais 14 ans et c'était interdit
+        aux moins de 17 ans [...] Trois ans plus tard, Jean de Herdt est l'un des premiers à obtenir
+        une ceinture noire de judo. Il n'a que 17 ans.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GBAJW9BWD1F6WG0CM
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 4
+  conferredBy: 01KJJAWN29MA64W22606R3WD7X
+  grantedBy: 01KZY2QD14ZXN3V8ACHVPGGMGH
+  dateConferred: '1951-12-06'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      The 2018 review by judo historian Michel Brousse, drawing on Jean Gailhat's period account,
+      documents that de Herdt was awarded the 4th dan on 6 December 1951, the grade being remitted by
+      Risei Kano, president of the Kodokan; Brousse explicitly debunks the book's claim that ambassador
+      Yotaro Sugimura offered 4th, 5th and 6th dan in the name of the Kodokan
+  hasEvidence:
+  - basedOnSource: 01KZM8EFMV2MD5F30YEK51ES15
+    quotation: >-
+      la presencia de Jean de Herdt (, cinta negra cuarto dan, campeón de Europa y ocho veces titular de Francia
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZY2QD0SGTBKEAM3KKSGDF0A
+    quotation: >-
+      Le récit de Jean Gailhat s'en tient à la réalité lorsqu'il conclut le déroulement de la journée du 6 décembre: « De Herdt est nommé 4e dan. Il est 11 heures du soir. » Car il s'agit bien du 4e dan mais du 4e dan seulement. Le grade est remis par Risei Kano, président du Kodokan et de la fédération japonaise de judo.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5GDECHZJDPFS7635R5
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 5
+  conferredBy: 01KZYBPHEFDQWJV578KM4WJHP7
+  grantedBy: 01KJJAWN28MWKKSN4J02MVY1T3
+  dateConferred: 1956-06
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      de Herdt's own account in Les Pionniers du Judo Français records that he passed the 5th dan in
+      June 1956 under Kawaishi's direction; the Bushido-Kwai Mechelen club history likewise describes de
+      Herdt as 5th dan
+  hasEvidence:
+  - basedOnSource: 01KZYBPHEFVBTPNFQJ3ZKDYP76
+    quotation: Je passai le 5e dan tout naturellement en juin 1956 sous la direction de M. Kawaishi. Il
+      m'appela un jour pour me dire que j'étais nommé.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZYBPHEFBRY6ADSE8BPFZTMH
+    quotation: Je passai le 5e dan tout naturellement en juin 1956 sous la direction de M. Kawaishi. Il
+      m'appela un jour pour me dire que j'étais nommé.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZXXSB98G9EWV0HR390VXFX4
+    quotation: 'Daarna trainde hij verder onder grote namen in de judowereld : Jean De Herdt FR 5° Dan Europees kampioen'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5G0MPGRS5K45G8TV94
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 6
+  hasConfidence:
+    confidenceLevel: conflevel:doubtful
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Contested claim - the 2013 over-blog tribute states de Herdt was 6th dan (Rokudan), but de Herdt's
+      own account in Les Pionniers du Judo Français records that the Kodokan experts proposed the 6th
+      dan in December 1951, which he refused in agreement with Kawaishi, and that his 6th dan
+      certificate was never signed
+  hasEvidence:
+  - basedOnSource: 01KZY0RGB7RGZFK05BHN7S322A
+    quotation: Il était Rokudan de Judo et Chevalier de la Légion d'Honneur.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZYBPHEFVBTPNFQJ3ZKDYP76
+    quotation: les experts du Kodokan me proposèrent le 6e dan. En accord avec M. Kawaishi, je refusai
+      ce grade. [...] Je ne lui fit jamais signer mon 6e dan car il était déjà malade
+    informationType: infotype:primary
+    supports: false
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZYBPHEFBRY6ADSE8BPFZTMH
+    quotation: les experts du Kodokan me proposèrent le 6e dan. En accord avec M. Kawaishi, je refusai
+      ce grade. [...] Je ne lui fit jamais signer mon 6e dan car il était déjà malade
+    informationType: infotype:primary
+    supports: false
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZM8EFMV2MD5F30YEK51ES15
+  quotation: >-
+    En París fue alumno del sensei Jean de Herdt [...] quien a su vez era discípulo de Mikinosuke Kawaishi [...] fundador del judo europeo. [...] Jean de Herdt (, cinta negra cuarto dan, campeón de Europa y ocho veces titular de Francia
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZY2QD0F1CQN6A0Z5Q4470T6
+  quotation: Jean de Herdt est le premier élève de Mikinosuke Kawaishi, l'homme qui a implanté le judo
+    en Europe.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZY2QD05PGQ6SGT7XGH0KQSN
+  quotation: 'Despite this, de Herdt was the first European judo champion, a 4-time European champion
+    actually. He is considered as one of Kawaishi''s first judo student (according to certain sources,
+    #21), and started judo the same year as Fukuda Keiko (1935).'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZY2QD0SGTBKEAM3KKSGDF0A
+  quotation: Le grade est remis par Risei Kano, président du Kodokan et de la fédération japonaise de
+    judo.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZYBPHEFVBTPNFQJ3ZKDYP76
+  quotation: Je passai le 5e dan tout naturellement en juin 1956 sous la direction de M. Kawaishi.
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZYBPHEFBRY6ADSE8BPFZTMH
+  quotation: les experts du Kodokan me proposèrent le 6e dan. En accord avec M. Kawaishi, je refusai ce
+    grade.
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+notes: 'The 2013 over-blog tribute claims de Herdt reached 6th dan; this is contested by de Herdt''s own
+  account in Les Pionniers du Judo Français, which records that the Kodokan experts proposed the 6th dan
+  in December 1951 and that he refused it in agreement with Kawaishi, passing the 5th dan in June 1956
+  instead, and that his 6th dan certificate was never signed because Kawaishi was already ill. Michel
+  Brousse''s archival reconstruction establishes that the grade awarded in December 1951 was the 4th dan
+  only, remitted by Risei Kano (president of the Kodokan) - not, as the 2018 Boisramé & Andréucci biography
+  claims, by ambassador Yotaro Sugimura (who had died in 1939). Brousse also contests the biography''s
+  claims about de Herdt founding the Fédération française de judo, the Collège des ceintures noires and
+  the Panamerican Judo Confederation, and notes that de Herdt''s 1952 European title was won without fighting
+  for lack of an opponent. The E-Judo forum post (Cichorei Kano, 2013) adds that de Herdt was the first
+  European judo champion and a four-time European champion.
+
+  Martin (2011, Essai sur les territoires du judo en France) names the co-director "Jean Beaujean"
+  rather than "Paul Beaujean"; resolve which given name is correct before citing either.
+  '
+sameAs:
+- wd:Q3175451
+tags:
+- judo
+- france

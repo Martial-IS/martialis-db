@@ -1,0 +1,57 @@
+type: Place
+id: 01KZDXQH2MS3B699W0WGKKQHDW
+name:
+  en: Jundokan
+  ja: 順道館
+aka:
+  en:
+    - Jundokan Dojo
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Naha
+      countryCode: eucountry:JPN
+      wikidata: wd:Q181966
+    address: Asato, Naha, Okinawa Prefecture, Japan
+foundedEvent:
+  startDate: '1956'
+  founder:
+    - 01KZBT3HG4JKJHVB8DAA0N0XT9
+  hasEvidence:
+    - basedOnSource: 01KZC8XAP80ED79DZFFZXWFXGD
+      quotation: In 1956, Miyazato opened his own dojo, the Jundokan, in Asato, Naha.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M4R9845WVVYGAHWKRH5VSGSZ
+    instructor: 01KZBT3HG4JKJHVB8DAA0N0XT9
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1956
+      endYear: 1999
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia only.
+    hasEvidence:
+      - basedOnSource: 01KZC8XAP80ED79DZFFZXWFXGD
+        quotation: In 1956, Miyazato opened his own dojo, the Jundokan, in Asato, Naha [...] Through the early 1970s, he served as vice-president of the Okinawan Judo Federation and President of the Okinawa Prefecture Karate-do Federation.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: The Jundokan is the Goju-ryu dojo opened by Eiichi Miyazato in Asato, Naha in 1956, where he taught until his death in 1999. It continues as a training venue for the Jundokan line of Goju-ryu karate.
+hasEvidence:
+  - basedOnSource: 01KZC8XAP80ED79DZFFZXWFXGD
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZC8XAP86JYAGPJNGHSQE5EY
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - karate
+  - goju-ryu
+  - dojo

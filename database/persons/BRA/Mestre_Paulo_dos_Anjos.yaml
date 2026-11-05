@@ -1,0 +1,88 @@
+type: Person
+id: 01M6A2JTJ3QY5XXJ1JYMANYPJ0
+name:
+  pt: Mestre Paulo dos Anjos
+aka:
+  pt:
+    - José Paulo dos Santos
+    - José Paulo dos Anjos
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Capoeira Angola mestre from Salvador and a boxer, a student of Mestre Canjiquinha.
+notes: >-
+  Assunção names him José Paulo dos Santos (p. 198); Portuguese Wikipedia, José Paulo dos Anjos.
+birthEvent:
+  birthDate: '1936-08-15'
+  birthPlace:
+    label: Estância, Sergipe
+    countryCode: eucountry:BRA
+    wikidata: wd:Q1005942
+  hasEvidence:
+    - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+      quotation: >-
+        Paulo dos Anjos (José Paulo dos Santos, 1936–1999), a student of M.Canjiquinha
+      locator: '198'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ACM2JZ2ZE8B1TZ08819RCC
+      quotation: >-
+        José Paulo dos Anjos (Estância, 15 de agosto de 1936 - Salvador, 26 de março de 1999)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1999-03-26'
+  deathPlace:
+    label: Salvador, Bahia
+    countryCode: eucountry:BRA
+    wikidata: wd:Q36947
+  hasEvidence:
+    - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+      quotation: >-
+        Paulo dos Anjos (José Paulo dos Santos, 1936–1999), a student of M.Canjiquinha
+      locator: '198'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ACM2JZ2ZE8B1TZ08819RCC
+      quotation: >-
+        José Paulo dos Anjos (Estância, 15 de agosto de 1936 - Salvador, 26 de março de 1999)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M6A2JTJFPA7YMG89SR79R7D7
+    teacher: 01M6A2JTJ28XDRCXA95W4J01H8
+    assertedStyle: 01M6A2JTHSG7FHK01NCS2SN3FD
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              Paulo dos Anjos (José Paulo dos Santos, 1936–1999), a student of M.Canjiquinha
+            locator: '198'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    locator: '198'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q135793688
+tags:
+  - capoeira

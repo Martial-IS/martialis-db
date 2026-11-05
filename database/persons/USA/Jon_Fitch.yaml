@@ -1,0 +1,94 @@
+type: Person
+id: 01KZQ7BS7KQK4S6YE4GVDS38CX
+name:
+  en: Jon Fitch
+aka:
+  en:
+  - Jonathan Fitch
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+birthEvent:
+  birthDate: '1978-02-24'
+  birthPlace:
+    label: Fort Wayne
+    countryCode: eucountry:USA
+    wikidata: wd:Q49268
+  hasEvidence:
+  - basedOnSource: 01KZQ7BS7KHBXFA6H444H18A4T
+    quotation: >-
+      Jon Fitch (born February 24, 1978)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: 'American retired mixed martial artist who competed in the welterweight divisions of
+
+    the UFC, PFL and Bellator. A collegiate wrestler at Purdue University, he trained at
+
+    American Kickboxing Academy (AKA) and earned a black belt in Guerrilla Jiu-Jitsu
+
+    under Dave Camarillo.
+
+    '
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/8/83/Jon_Fitch.JPG
+  rights: mediarights:cc-by-sa-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Jon_Fitch.JPG
+    cite: "The Doppelganger, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+- id: 01M3YH7N5GTR8V2QZS69VWFS0D
+  teacher: 01KZQ5XKW310NKTT34P8D4WQAS
+  assertedStyle: 01KZQ7BS7K4G2T0NPG9N3PCVET
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Multiple sources report Fitch received his black belt in Guerrilla Jiu-Jitsu
+      under Dave Camarillo while at AKA; corroborated by Wikipedia and BJJ Heroes
+  hasInteraction:
+  - interactionPlace: 01KZQ7BS7KJ444KWAH72XGN2NT
+    hasEvidence:
+    - basedOnSource: 01KZQ5XKW3CK2XPAGK0Q4GTDSA
+      quotation: Dave Camarillo became a mainstream name as a coach after many of his students became
+        big stars in the world of mixed martial arts (MMA), names such as Jon Fitch, Josh Koscheck, Mike
+        Swick, and Cain Velazquez.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5G8MYF32R5KQ5AGTTQ
+  rankStyle: 01KZQ7BS7K4G2T0NPG9N3PCVET
+  rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+  rankGrade: rankgrade:bjj_black
+  grantedBy: 01KZQ5XKW310NKTT34P8D4WQAS
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Wikipedia only, unsourced; BJJ Heroes names him as Camarillo's student.
+  hasEvidence:
+  - basedOnSource: 01KZQ5XKW3CK2XPAGK0Q4GTDSA
+    quotation: Dave Camarillo became a mainstream name as a coach after many of his students became big stars in the world of mixed martial arts (MMA), names such as Jon Fitch, Josh Koscheck, Mike Swick, and Cain Velazquez.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:indirect
+  - basedOnSource: 01KZQ7BS7KHBXFA6H444H18A4T
+    quotation: >-
+      Rank Black belt in Guerrilla Jiu Jitsu
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZQ7BS7KHBXFA6H444H18A4T
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q2480113
+tags:
+- guerrilla-jiu-jitsu
+- mma
+- wrestler
+- ufc

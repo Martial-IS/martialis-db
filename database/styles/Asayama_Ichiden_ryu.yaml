@@ -1,0 +1,76 @@
+type: Style
+id: 01M6BJ6H8F2BK0DX9BRTZJ7S5W
+name:
+  ja-Latn: Asayama Ichiden-ryū
+  ja: 浅山一伝流
+hasEvidence:
+- basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+  locator: 'Asayama Ichiden-ryu Heiho'
+  locatorLabel: section
+  quotation: 'Founder: Asayama Ichidensai Shigetatsu'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+foundedEvent:
+  founder:
+    - 01M6BJ6H8FPQGC3RVTBSD9QTQG
+  location:
+    countryCode: eucountry:JPN
+  hasEvidence:
+    - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+      locator: 'Asayama Ichiden-ryu Heiho'
+      locatorLabel: section
+      quotation: 'Founder: Asayama Ichidensai Shigetatsu'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+styleType: styleclass:traditional
+hasStyleRelationAssertion:
+  - id: 01M6BJ6H8FX3W9BJ85350SZ1AX
+    relatedStyle: 01KYHNJKQDTEJ1A5MQ5JYPHDTB
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Field Guide lists kenjutsu first in its curriculum; one source.
+    hasEvidence:
+      - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+        locator: 'Asayama Ichiden-ryu Heiho'
+        locatorLabel: section
+        quotation: 'Weapons/systems: kenjutsu, iaijutsu, kamajutsu, bojutsu, taijutsu'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M6BJ6H8FKFYW6BGPSC4DZGXZ
+    relatedStyle: 01KZ6XT5DSFQG9TRGDK9AQFZCW
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Field Guide lists iaijutsu, practised in paired forms; one source.
+    hasEvidence:
+      - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+        locator: 'Asayama Ichiden-ryu Heiho'
+        locatorLabel: section
+        quotation: 'Weapons/systems: kenjutsu, iaijutsu, kamajutsu, bojutsu, taijutsu'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+        locator: 'Asayama Ichiden-ryu Heiho'
+        locatorLabel: section
+        quotation: 'The iai techniques of Asayama Ichiden-ryu are all practiced in paired forms; there is no solo sword-drawing.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Classical school of sword, iai, kama, staff and taijutsu founded by Asayama Ichidensai Shigetatsu
+    in the Tensho or Keicho era; based in Kanagawa. Its iai is practised only in paired forms.
+notes: >-
+  Founding era per the Field Guide: Tensho (1573-1593) or Keicho (1596-1615), so no date is recorded.
+  Present representative (1997): Ozaki Kiyoshi. The kanji 浅山一伝流 are from Wikidata (Q4803667).
+sameAs:
+  - wd:Q4803667
+tags:
+  - koryu

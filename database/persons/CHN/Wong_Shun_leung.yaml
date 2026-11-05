@@ -1,0 +1,105 @@
+type: Person
+id: 01KYDPMZ5G4826TB15FPPVJBA1
+name:
+  en: Wong Shun-leung
+  zh: 黃淳樑
+  zh-Latn: Huang Chunliang
+nationality:
+  - countryCode: eucountry:HKG
+    wikidata: wd:Q1054923
+birthEvent:
+  birthDate: '1935-06-08'
+  birthPlace:
+    label: Hong Kong
+    countryCode: eucountry:HKG
+    wikidata: wd:Q8646
+  hasEvidence:
+    - basedOnSource: 01KYDPMZ5D2SN5R7C12BZS8041
+      quotation: >-
+        Born 8 May 1935, (农历)五月八
+      cite: Wong Shun-leung (Wikipedia EN)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:indirect
+deathEvent:
+  deathDate: '1997-01-28'
+  deathPlace:
+    label: Hong Kong
+    countryCode: eucountry:HKG
+    wikidata: wd:Q8646
+  hasEvidence:
+    - basedOnSource: 01KYDPMZ5D2SN5R7C12BZS8041
+      quotation: >-
+        Died 28 January 1997 (aged 61)
+      cite: Wong Shun-leung (Wikipedia EN)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: Wong Shun-leung (1935–1997) was a Hong Kong Wing Chun grandmaster, a student of Ip Man, and the senior kung fu brother (sihing) who served as Bruce Lee's primary instructor in Wing Chun. Known for over a hundred challenge fights (beimo), he never lost a match.
+image:
+  contentUrl: https://aucklandwingchun.co.nz/wp-content/uploads/2020/01/Pekko-Wong_Shun_Leung_Guard.jpg
+  imageAttribution:
+    uri: https://aucklandwingchun.co.nz/about/wong-shun-leung/
+    cite: "Auckland Wing Chun"
+    informationType: infotype:secondary
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M3YH7N5GX0H2BVW8B2078JHM
+    teacher: 01KYD5XMNM4DH8KAWBC1TE9BDJ
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Independent sources state it.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1954
+        hasEvidence:
+          - basedOnSource: 01KYDPMZ5D2SN5R7C12BZS8041
+            quotation: Wong Shun-leung [...] was a Hong Kong martial artist who studied Wing Chun kung fu under Yip Man (葉問)
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KYD5XMNMC3D3DST96C876VKM
+            locator: '72'
+            locatorLabel: page
+            quotation: >-
+              Wong Shun Leung, one of his most senior pupils, came from this first generation of students
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              Despite the frequent moves, Ip Man’s classes grew quickly in this period. Students such as Wong
+              Shun Leung and William Cheung, both of whom would go on to become leading lights in the spread and
+              promotion of Wing Chun, joined the school at this time.
+            locator: '237'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYDPMZ5D2SN5R7C12BZS8041
+    cite: Wong Shun-leung (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://baike.baidu.com/en/item/Wong%20Shun%20Leung/1523310
+    cite: Wong Shun Leung (Baidu Baike)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://wslfamily.com/pages/about-wong-shun-leung
+    cite: About Wong Shun Leung (WSL Family official site)
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q1639844
+tags:
+  - wing-chun
+  - sihing
+  - challenge-fights
+  - beimo

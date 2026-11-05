@@ -1,0 +1,121 @@
+type: Person
+id: 01KYFZEGYN2W96EAYGQ9NC4J4J
+name:
+  en: Hidetaka Nishiyama
+  ja: 西山 英峻
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1928-10-10'
+  birthPlace:
+    label: Tokyo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1490
+  hasEvidence:
+    - basedOnSource: 01KYFZEGYNCBP79TJ9VGMRQGBP
+      quotation: >-
+        (西山 英峻, Nishiyama Hidetaka; October 10, 1928 – March 10, 2008)
+      cite: Hidetaka Nishiyama (Wikipedia EN)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2008-03-10'
+  deathPlace:
+    label: Los Angeles
+    countryCode: eucountry:USA
+    wikidata: wd:Q65
+  hasEvidence:
+    - basedOnSource: 01KYFZEGYNCBP79TJ9VGMRQGBP
+      quotation: >-
+        (西山 英峻, Nishiyama Hidetaka; October 10, 1928 – March 10, 2008)
+      cite: Hidetaka Nishiyama (Wikipedia EN)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: 'Japanese Shotokan karate master who helped establish the Japan Karate Association (JKA) and pioneered traditional karate in the United States. He founded the American Amateur Karate Federation (AAKF) and the International Traditional Karate Federation (ITKF). He authored the seminal textbook ''Karate: The Art of Empty-Hand Fighting'' (1960). He was awarded the Order of the Sacred Treasure by the Emperor of Japan in 2000 and posthumously promoted to 10th dan.'
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/e/e4/Hidetaka_Nishiyama.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Hidetaka_Nishiyama.jpg
+    cite: "Snake Bgd, Wikimedia Commons"
+    informationType: infotype:secondary
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M3YH7N5GX1KGA203H51WJDT8
+    teacher: 01KJJAWN28MWKKSN4J02MVY1VB
+    assertedStyle: 01KYFZEGYN107JYC5K1539R8JM
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Nishiyama trained under Gichin Funakoshi at the Shotokan honbu dojo from 1943; extensively documented
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1943
+          endYear: 1950
+        hasEvidence:
+          - basedOnSource: 01KYFZEGYNCBP79TJ9VGMRQGBP
+            cite: Hidetaka Nishiyama (Wikipedia EN)
+            quotation: >-
+              began training in Shotokan karate at the art's honbu dojo (headquarters training hall)
+              under its founder, Gichin Funakoshi.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G7YA8TMFX9B5ACHCS
+    teacher: 01KJJAWN29MA64W22606R3WD7M
+    assertedStyle: 01KYFZEGYN107JYC5K1539R8JM
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Nishiyama was also taught by Gichin Funakoshi's son Gigō Funakoshi, who divided teaching duties at the honbu dojo with his father
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1943
+          endYear: 1945
+        hasEvidence:
+          - basedOnSource: 01KYFZEGYNCBP79TJ9VGMRQGBP
+            cite: Hidetaka Nishiyama (Wikipedia EN)
+            quotation: Funakoshi and his son, Gigō Funakoshi, would divide the teaching load evenly between them
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GDYP18GADKRBN1ZJ7
+    rankStyle: 01KYFZEGYN107JYC5K1539R8JM
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 10
+    dateConferred: '2009'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Posthumously awarded by the ITKF; documented in Wikipedia
+    hasEvidence:
+      - basedOnSource: 01KYFZEGYNCBP79TJ9VGMRQGBP
+        cite: Hidetaka Nishiyama (Wikipedia EN)
+        quotation: >-
+          the ITKF posthumously awarded the rank of 10th dan
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYFZEGYNCBP79TJ9VGMRQGBP
+    cite: Hidetaka Nishiyama (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q124766
+  - viaf:32931142
+  - isni:0000000046179166
+tags:
+  - karate
+  - shotokan
+  - jka
+  - itkf

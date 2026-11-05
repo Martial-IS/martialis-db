@@ -1,0 +1,93 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1VD
+name:
+  ja-Latn: Isogai Hajime
+  ja: 磯貝
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1871-10-26'
+  birthPlace:
+    label: Nobeoka, Miyazaki Prefecture
+    countryCode: eucountry:JPN
+    wikidata: wd:Q653389
+deathEvent:
+  deathDate: '1947-04-19'
+  deathPlace:
+    label: Japan
+    countryCode: eucountry:JPN
+    wikidata: wd:Q17
+hasTeacherAssertion:
+- id: 01M3YH7N5G44T1KP92BYATCSWQ
+  teacher: 01KJJAWN29MA64W22606R3WD7H
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Student of Yokoyama Sakujiro at the Kodokan from 1891, per his Wikipedia biography; Wikipedia only
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+    interactionPeriod:
+      startYear: 1891
+    hasEvidence:
+    - uri: https://en.wikipedia.org/wiki/Hajime_Isogai
+      archiveUri: https://en.wikipedia.org/w/index.php?title=Hajime_Isogai&oldid=1378326525
+      informationType: infotype:secondary
+      supports: true
+      cite: Hajime Isogai - Wikipedia
+      quotation: In 1891, he moved to Tokyo and joined the Kodokan where he studied judo under Yokoyama
+        Sakujiro.
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GCZXJ3TTZJGT6E2MZ
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 10
+  conferredBy: 01KJJAWN29MA64W22606R3WD7X
+  dateConferred: '1923-12-22'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Promoted together with Shuichi Nagaoka to become the first living holders of
+      the 10th Dan, as documented on Judo Channel website and multiple sources
+  hasEvidence:
+  - uri: https://www.judo-ch.jp/english/legend/isogai/
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+    cite: Hajime Isogai - Kodokan Judo Institute
+    quotation: On December 22, 1923, he was promoted together with Shuichi Nagaoka to become the first
+      living holders of the 10th Dan.
+hasEvidence:
+- uri: https://en.wikipedia.org/wiki/Hajime_Isogai
+  archiveUri: https://en.wikipedia.org/w/index.php?title=Hajime_Isogai&oldid=1378326525
+  informationType: infotype:secondary
+  supports: true
+  cite: Hajime Isogai - Wikipedia
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q11973675
+- dbr:Hajime_Isogai
+hasHonorAssertion:
+- id: 01M3YH7N5G393ZA7K0840JJ0FJ
+  honorValue: hanshi
+  honorType: honortype:title
+  honorGrade: honorgrade:shogo_hanshi
+  conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+  dateConferred: '1913-04-01'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Awarded the title of hanshi (範士) by the Dai Nippon Butoku Kai in April 1913,
+      as documented in Japanese Wikipedia (source seems legit but not checked yet)
+  hasEvidence:
+  - uri: https://ja.wikipedia.org/wiki/%E7%A3%AF%E8%B2%9D%E4%B8%80
+    archiveUri: http://web.archive.org/web/20250901035853/https://ja.wikipedia.org/wiki/%E7%A3%AF%E8%B2%9D%E4%B8%80
+    informationType: infotype:secondary
+    supports: true
+    cite: 磯貝一 - 日本語版ウィキペディア
+    quotation: 1913年（大正2年）4月、大日本武徳会柔道範士の称号を授与される。
+    evidenceType: evidencetype:direct

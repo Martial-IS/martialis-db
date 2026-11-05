@@ -1,0 +1,136 @@
+type: Person
+id: 01KZSHP504G96HB5TMYKGR8648
+name:
+  en: Keanu Reeves
+aka:
+  en:
+    - Keanu Charles Reeves
+nationality:
+  - countryCode: eucountry:CAN
+    wikidata: wd:Q16
+birthEvent:
+  birthDate: '1964-09-02'
+  birthPlace:
+    label: Beirut
+    countryCode: eucountry:LBN
+    wikidata: wd:Q3820
+  hasEvidence:
+    - basedOnSource: 01KZSHRA4FJF0F5FA8X5VGEEDT
+      quotation: Keanu Charles Reeves was born in Beirut, Lebanon, on September 2, 1964
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://fwmedia.fandomwire.com/wp-content/uploads/2025/05/07225634/Screenshot-2025-05-08-082618.jpg
+  imageAttribution:
+    basedOnSource: 01M3M3T743HE6ZBBMJE8C4WJX4
+description:
+  en: 'Canadian actor and musician, best known for the John Wick, The Matrix and Speed franchises. For
+    the John Wick films he undertook serious martial arts training: he studied judo for about four
+    months before the first John Wick (2014), performed an ippon-seoi-nage on screen that became the
+    signature technique of the throw''s Olympic champion, and received an honorary judo black belt
+    from the International Judo Federation in 2017, presented by Nomura Tadahiro in Tokyo. He trained
+    judo with black belt Monty Collier for John Wick 3: Parabellum (2019) and BJJ with Dave Camarillo,
+    his primary trainer and grappling instructor on John Wick: Chapter 4 (2023).'
+notes: 'Martial arts work is film-preparation training rather than a conventional competitive career. Reeves received an honorary (not tested) judo black belt. His BJJ rank is not publicly documented: reports of a blue belt promotion circulating online stem from a post by Dave Camarillo about another promotion at the same ceremony, not a Reeves promotion.'
+hasTeacherAssertion:
+  - id: 01M3YH7N5G0HRH046089HTCJ8B
+    teacher: 01KZQ5XKW310NKTT34P8D4WQAS
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:private
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Multiple independent sources (Camarillo's own Instagram account, Jiu Jitsu Legacy summarizing his podcast account, and Jitsmagazine) document Camarillo as Reeves' primary trainer and grappling instructor through the John Wick 4 production
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 2020
+          endYear: 2023
+        hasEvidence:
+          - basedOnSource: 01KZSPHPJ7QDX4B0HE2HSVEZ4Z
+            quotation: Starting in September, 2020 I spent 14 months away from home on John Wick 4. This picture was taken at the end of a 6 month training preparation for the movie... Keanu! It was an honor to teach you and learn from you and be killed by you!
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZSHP507FKSXXQW7X571RCGW
+            quotation: For those fourteen months of shooting, Dave Camarillo was the primary trainer and grappling instructor for Keanu Reeves.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZSHRA4DJBBQZ7DJ7ZG6XTH7
+            quotation: >-
+              Dave Camarillo is a veteran Judo and BJJ black belt who worked on John Wick: Chapter 4 to co-ordinate stunts and fightscenes, and footage has gone viral of him teaching Keanu Reeves a beautiful flying triangle choke counter to a single-leg takedown
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G6PMSY8TG7HWVAKH6
+    teacher: 01KZSHP5051T42K9VSVQ3ZXTVJ
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:private
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Grapplearts (The Strenuous Life Podcast episode 207) documents black belt judoka Monty Collier as Keanu Reeves' judo instructor for John Wick 3
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 2018
+          endYear: 2019
+        hasEvidence:
+          - basedOnSource: 01KZSHP507WYD1FWY3XH49X8Q0
+            quotation: >-
+              Monty Collier, a black belt Judoka who worked with Keanu Reeves to get him ready for the amazing fight sequences in the movie John Wick 3, Parabellum [...] he taught Keanu highly technical Judo throws
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZSHRA4FJF0F5FA8X5VGEEDT
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZSHP506JXJZ033V59M98SMF
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZSPHPJ7QDX4B0HE2HSVEZ4Z
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZSHP507FKSXXQW7X571RCGW
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZSHP507WYD1FWY3XH49X8Q0
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZSHRA4DJBBQZ7DJ7ZG6XTH7
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q43416
+tags:
+  - actor
+  - judo
+  - brazilian-jiu-jitsu
+hasHonorAssertion:
+  - id: 01M3YH7N5G34M0JH7DW4RD0113
+    honorValue: Black Belt (honorary)
+    honorType: honortype:title
+    conferredBy: 01KJJAWN29MA64W22606R3WD83
+    dateConferred: '2017-03-17'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Official IJF news article documents the honorary black belt presentation by Nomura Tadahiro in Tokyo; authoritative primary source
+    hasEvidence:
+      - basedOnSource: 01KZSHP506JXJZ033V59M98SMF
+        quotation: Nomura, who retired in 2015, switched roles in Tokyo to present an honorary judo black belt to actor Keanu Reeves.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZSHP506JXJZ033V59M98SMF
+        quotation: Reeves studied judo for four months before taking on a role in action thriller John Wick. Reeves performed an ippon-seoi-nage in the film which was one of Nomura's trademark techniques.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct

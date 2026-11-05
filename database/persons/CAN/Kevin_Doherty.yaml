@@ -1,0 +1,64 @@
+type: Person
+id: 01M5H5TCKZ8XGADAN1D1K1S6H8
+name:
+  en: Kevin Doherty
+nationality:
+  - countryCode: eucountry:CAN
+    wikidata: wd:Q16
+description:
+  en: >-
+    Canadian judoka, world championship bronze medallist in 1981; competed at the 1984 and 1988
+    Olympic Games. Trained by his father Bill Doherty in Toronto, then by Hiroshi Nakamura in
+    Montreal.
+hasTeacherAssertion:
+  - id: 01M5JEC1RVK3CD3FXN3VWJ9TDS
+    teacher: 01M5JEC1RVFJJX7FKBDWCEZSSK
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: Naturally, Doherty, the elder, became Kevin’s instructor.
+            locator: '83'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5H5TCKZ97JW9EM3ZEMFZ88B
+    teacher: 01M5H5TCKZW50M5WFGCD2KCNR1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              One of his prize athletes was Hall-of-Famer, Kevin Doherty. Doherty’s sensei-father,
+              Bill, sent his talented son from Toronto to Montreal to train under Nakamura when Kevin
+              was 17.
+            locator: '132'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    quotation: >-
+      As well, he had a bronze medal at home which he had won at the World Championships in 1981.
+    locator: '83'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q6396165
+tags:
+  - judo
+  - canada

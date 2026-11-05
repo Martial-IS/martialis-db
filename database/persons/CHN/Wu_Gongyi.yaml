@@ -1,0 +1,66 @@
+type: Person
+id: 01M5HN1CX5K1PAERW177K52ZXS
+name:
+  zh-Latn: Wu Gongyi
+nationality:
+  - countryCode: eucountry:CHN
+    wikidata: wd:Q148
+birthEvent:
+  birthDate: '1900'
+  hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    quotation: >-
+      In August 1953, a northern stylist by the name of Wu Gongyi (1900–1970) published an open letter
+      declaring his willingness to fight any boxer from any style at any time or place.
+    locator: '234'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1970'
+  hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    quotation: >-
+      In August 1953, a northern stylist by the name of Wu Gongyi (1900–1970) published an open letter
+      declaring his willingness to fight any boxer from any style at any time or place.
+    locator: '234'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: >-
+    Wu-style taijiquan teacher (1900–1970) in Hong Kong, son of Wu Jianquan and grandson of Wu Quanyou.
+hasTeacherAssertion:
+  - id: 01M5HN1CX5HDVZ5DTVHZYGQHN5
+    teacher: 01M5HN1CX5JMT6SRQ6H7VFJ45Q
+    assertedStyle: 01M5HN1CX5JXNXYDMJN4V36KW6
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: Single source; it implies the relation but does not state it.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Other well-known martial arts masters who taught in Hong Kong include Wu Gongyi (1900–1970)
+              and Wu Gongzao (1903–1983). [...] Their father, Wu Jianquan (1870–1942), also taught
+              taijiquan in Beijing and Shanghai.
+            locator: '100'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Other well-known martial arts masters who taught in Hong Kong include Wu Gongyi (1900–1970)
+    locator: '100'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - taijiquan

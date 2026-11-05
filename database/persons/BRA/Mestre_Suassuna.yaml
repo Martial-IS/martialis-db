@@ -1,0 +1,65 @@
+type: Person
+id: 01M6A35T5C02Z0HMZ84BJ07BFD
+name:
+  pt: Mestre Suassuna
+aka:
+  pt:
+    - Reinaldo Ramos Suassuna
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Capoeira mestre from southern Bahia who learned Angola and Regional in Itabuna, spent some time
+    at Mestre Bimba's academy, settled in São Paulo in the 1960s and founded the Cordão de Ouro
+    group with Mestre Brasília. His LPs were the training music of a generation.
+notes: >-
+  He learned Angola with Mestre Sururu and Regional from two students of Bimba teaching in Itabuna,
+  all unnamed or without records (Assunção, p. 174). Created the Miudinho game (p. 200). Wikidata gives his birth date as 16 January 1938.
+birthEvent:
+  birthDate: '1938-07-03'
+  birthPlace:
+    label: Itabuna, Bahia
+    countryCode: eucountry:BRA
+    wikidata: wd:Q460750
+  hasEvidence:
+    - basedOnSource: 01M6ACM2JZ8RAAWCJG43PMXGRG
+      quotation: >-
+        Mestre Suassuna, como é conhecido Reinaldo Ramos Suassuna (Itabuna, 3 de julho de 1938)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M6A35T5FV89JFAW3HSWK8YZZ
+    teacher: 01M5H4AFG2ZHJ3H82H0DPJQJ1V
+    assertedStyle: 01M6A2A5YR5THAAVA3A61JRZ1H
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: One source, and "some time" at the academy may not mean training under Bimba himself.
+    hasInteraction:
+      - interactionPlace: 01M6A2A5YS7KPFM0AKG4N1TEP1
+        hasEvidence:
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              He also had spent some time at Bimba’s academy in Salvador before coming to São Paulo.
+            locator: '174'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    quotation: >-
+      Suassuna came from Southern Bahia, where he had learned both Angola (with M.Sururu) and
+      Regional from two of Bimba’s students who were teaching in Itabuna.
+    locator: '174'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q1058900
+tags:
+  - capoeira

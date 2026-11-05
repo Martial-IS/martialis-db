@@ -1,0 +1,13 @@
+# Style-relation assertions: the typed relation between two styles.
+PREFIX martialis: <https://w3id.org/martialis/ontology#>
+PREFIX schema: <https://schema.org/>
+
+SELECT ?styleName ?relation ?relatedName WHERE {
+  ?style martialis:hasStyleRelationAssertion ?sa .
+  ?sa martialis:styleRelationType ?relation ;
+      martialis:relatedStyle ?related .
+  ?style schema:name ?styleName . FILTER(langMatches(LANG(?styleName), "en"))
+  ?related schema:name ?relatedName . FILTER(langMatches(LANG(?relatedName), "en"))
+}
+ORDER BY ?styleName ?relatedName
+LIMIT 25

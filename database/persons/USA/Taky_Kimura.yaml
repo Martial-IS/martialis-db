@@ -1,0 +1,98 @@
+type: Person
+id: 01KYDB2SWEC7SJWY366NY1APN7
+name:
+  en: Taky Kimura
+aka:
+  en:
+  - Takauki Kimura
+  ja-Latn:
+  - Kimura Takauki
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+birthEvent:
+  birthDate: '1924-03-12'
+  birthPlace:
+    label: Seattle
+    countryCode: eucountry:USA
+    wikidata: wd:Q5083
+  hasEvidence:
+  - basedOnSource: 01KYDB2SWA312CR459GWT6NNNQ
+    quotation: >-
+      (Japanese: 木村 武之, March 12, 1924 – January 7, 2021)
+    cite: Taky Kimura (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2021-01-07'
+  deathPlace:
+    label: Seattle
+    countryCode: eucountry:USA
+    wikidata: wd:Q5083
+  hasEvidence:
+  - basedOnSource: 01KYDB2SWA312CR459GWT6NNNQ
+    quotation: >-
+      (Japanese: 木村 武之, March 12, 1924 – January 7, 2021)
+    cite: Taky Kimura (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://ia601505.us.archive.org/5/items/taky_kimura/taky_kimura.jpeg
+  imageAttribution:
+    uri: https://www.gofundme.com/f/sifu-taky-kimura-a-celebration-of-life
+    cite: "GoFundMe"
+    informationType: infotype:secondary
+description:
+  en: Taky Kimura (1924–2021) was an American martial artist and one of Bruce Lee's top students and closest
+    friends. He was a certified instructor in Jun Fan Gung Fu, head of the Seattle Jun Fan Gung Fu Institute,
+    best man at Lee's wedding, and one of six pallbearers at his funeral.
+hasTeacherAssertion:
+- id: 01M3YH7N5GFAT3Q28K803XXHY6
+  teacher: 01KYD5XMNMNAG3CPC17GKACPW0
+  assertedStyle: 01KYD5XSZPND9XV5FHYG9V0ZV6
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Documented as one of Bruce Lee's top students and certified instructor in Jun
+      Fan Gung Fu personally certified by Bruce Lee
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1959
+      endYear: 1973
+    hasEvidence:
+    - basedOnSource: 01KYDB2SWA312CR459GWT6NNNQ
+      cite: Taky Kimura (Wikipedia EN)
+      quotation: >-
+        an American martial artist who is famous as being one of Bruce Lee's top students and closest
+        friends - and a certified instructor in Jun Fan Gung Fu, personally certified by Bruce Lee
+        himself.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KYD5XMNMGKE1FTE74CSKSJK6
+      quotation: >-
+        Leaving his Seattle school in the hands of Taky Kimura
+      cite: Bruce Lee Official Biography (Bruce Lee Enterprises)
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:indirect
+hasEvidence:
+- basedOnSource: 01KYDB2SWA312CR459GWT6NNNQ
+  cite: Taky Kimura (Wikipedia EN)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KYD5XMNMGKE1FTE74CSKSJK6
+  cite: Bruce Lee Official Biography (Bruce Lee Enterprises)
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q3514398
+tags:
+- jeet-kune-do
+- jun-fan-gung-fu
+- seattle

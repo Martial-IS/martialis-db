@@ -1,0 +1,51 @@
+type: Organization
+id: 01KZDXQH2MTJMEZPGXCM9HQB51
+name:
+  en: Goju-ryu Kokusai Karate Kobudo Renmei
+aka:
+  en:
+    - Goju-ryu International Karate Kobudo Federation
+orgType: orgclass:federation
+hasSite:
+  - location:
+      label: Naha
+      countryCode: eucountry:JPN
+      wikidata: wd:Q181966
+foundedEvent:
+  startDate: '1960'
+  founder:
+    - 01KZBV66ESXMDBA25X5H4ABXKZ
+  hasEvidence:
+    - basedOnSource: 01KZC8XAP87A4RQ5RZ89Y7FYS9
+      quotation: The Goju-ryu Kokusai Karate Kobudo Renmei ("Goju-ryu International Karate Kobudo Federation") is a tightly knit organization founded by Seko Higa [...] Its first president was Seiko Higa himself, who ran it from 1960 to 1966.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M4R9845WW18GRRKPFZEZ7YF7
+    officer: 01KZBV66ESXMDBA25X5H4ABXKZ
+    officerTitle: President
+    officerPeriod:
+      startYear: 1960
+      endYear: 1966
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia only.
+    hasEvidence:
+      - basedOnSource: 01KZC8XAP87A4RQ5RZ89Y7FYS9
+        quotation: Its first president was Seiko Higa himself, who ran it from 1960 to 1966.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: The Goju-ryu Kokusai Karate Kobudo Renmei (Goju-ryu International Karate Kobudo Federation) is an international federation founded by Seko Higa, with branch dojos in Japan, Hong Kong, France, Slovakia, Czech Republic, Russia and North America.
+hasEvidence:
+  - basedOnSource: 01KZC8XAP87A4RQ5RZ89Y7FYS9
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - karate
+  - goju-ryu
+  - federation

@@ -1,0 +1,130 @@
+type: Organization
+# Template only: `make schema` substitutes a throwaway ULID for the null `id`
+# below. Every record under database/ carries a real ULID.
+id: null
+name:
+  en: Organization Name
+  ja: 日本語名
+# Short/alternate names or acronyms, e.g. the acronym commonly used for the
+# organization (IJF, FPJ, IBJJF).
+aka:
+  en: Acronym or short name
+# One of: orgclass:federation, orgclass:governing_body, orgclass:school,
+# orgclass:association, orgclass:other.
+orgType: orgclass:federation
+# Optional sites: the seat or HQ, same shape as a Place's hasSite (location
+# required; address, geo, sitePeriod, hasEvidence optional). An HQ housed at a
+# Place record uses withinPlace (that Place's ULID) rather than copying its
+# address. Omit hasSite when no seat is known.
+hasSite:
+  - location:
+      label: Tokyo
+      countryCode: eucountry:JPN
+      wikidata: wd:Q1490
+# Founding carries the EDTF date (see person.yaml's birthEvent comment for the
+# syntax), the founder(s) and its own evidence.
+foundedEvent:
+  startDate: '1882'
+  founder:
+    - 01KJJAWN28MWKKSN4J02MVY1S1
+  hasEvidence:
+    - uri: https://example.org/founding-evidence
+      cite: Where the founding is documented
+      supports: true
+# Or, if the organization ended:
+# dissolvedEvent:
+#   endDate: '1956'
+#   dissolutionManner: dissmanner:merged  # dissmanner:merged | dissmanner:split |
+#                                         # dissmanner:superseded | dissmanner:suppressed |
+#                                         # dissmanner:renamed | dissmanner:defunct |
+#                                         # dissmanner:unknown
+#   dissolutionReason: Optional free text - decree number, occupation order, unification terms.
+#   hasEvidence: [...]
+#
+# Affiliations with other organizations over time. Two families, both under
+# `affiliationRelation`:
+#   TIES (to a currently-persisting, distinct body):
+#     affrel:member_of      - voluntary membership in a wider federation/association
+#     affrel:branch_of      - structurally a subordinate body created by or under
+#                             the other org: a national/regional subdivision, a
+#                             committee or commission, or a standing section.
+#                             A committee is its own Organization record
+#                             (orgType: orgclass:committee) with its members as
+#                             hasOfficerRole entries on that record.
+#     affrel:recognised_by  - the other org is a technical/grading authority over
+#                             this one, distinct from membership; a schism (this
+#                             org changing which body recognises it) is two entries
+#                             with adjacent periods, not a dedicated relation value
+#   GENEALOGY (how this org itself came to exist; the relatedOrganization may be dissolved;
+#   declared on the newer/emergent org's file; none of these claim to be the
+#   sole "official" continuation):
+#     affrel:derived_from   - lineage emerged from the other, mechanism unclear or
+#                             genuinely contested (several claimants after a schism)
+#     affrel:split_from     - broke away from the other, which continued to exist
+#     affrel:merged_from    - formed by union with the other, which ceased to exist
+#                             separately; one entry per constituent for a multi-way merger
+#     affrel:replaces       - took over the other's role/mandate by an external
+#                             authority's act (statute, decree, occupation order),
+#                             not a voluntary institutional choice
+#     affrel:renamed_from   - same institution, new name; prefer `aka` on a single
+#                             entity for an ordinary rename instead
+hasAffiliationAssertion:
+  - id: 01M3YH91AWVJBPAKESKF8VDMVK
+    relatedOrganization: 01KJJAWN29MA64W22606R3WD82
+    affiliationRelation: affrel:member_of
+    validDuring:
+      startYear: 1950
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:EXAMPLE
+      confidenceRationale: Why this confidence level
+    hasEvidence:
+      - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+        informationType: infotype:secondary
+        supports: true
+# This organization's own leadership history over time (President,
+# Vice-President, Teaching Coordinator, Secretary, etc.). A sourced fact about
+# the institution, not a Person honor: an officer role is served for a period,
+# a honor is held once granted. officerTitle is free text, not a closed enum.
+# hasOfficerRole:
+#   - id: 01M4R98V6C4V7F86PMEQH5YQCG
+#     officer: 01KJJAWN28MWKKSN4J02MVY1S1
+#     officerTitle: President
+#     officerPeriod:
+#       startYear: 1995
+#       endYear: 2003
+#     hasConfidence:
+#       confidenceLevel: conflevel:probable
+#       assessedBy: agent:EXAMPLE
+#       confidenceRationale: One authored history.
+#     hasEvidence:
+#       - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+#         informationType: infotype:secondary
+#         supports: true
+#         evidenceType: evidencetype:direct
+website: null
+description:
+  en: |
+    Brief description of the organization...
+# Research notes: what is known, suspected, or still to be investigated -
+# addressed to a maintainer, not a reader.
+# notes: ...
+# rights (optional): copyright/licence status of the logo itself, e.g.
+# mediarights:public_domain_mark or mediarights:cc-by-sa-4.0. Leave it out if
+# unknown - see ontology/vocabularies.ttl's media-rights scheme.
+logo:
+  contentUrl: https://example.org/logo.png
+  imageAttribution:
+    uri: https://example.org/logo.png
+    cite: Where the logo is from
+hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+    supports: true
+# The same entity in external authorities, as CURIEs naming the entity, not a
+# web page: wd: (Wikidata), dbr: (DBpedia), viaf:, isni:, lcnaf:, ndlna:,
+# orcid:. A Wikipedia article, an official site or a profile page is not an
+# identity and does not validate here; cite it as a Source instead.
+sameAs:
+  - wd:Q219707
+tags:
+  - judo

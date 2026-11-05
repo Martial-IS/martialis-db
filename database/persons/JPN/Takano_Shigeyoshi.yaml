@@ -1,0 +1,104 @@
+type: Person
+id: 01M6EFJQBCCJBCDZB7V0G036W4
+name:
+  ja-Latn: Takano Shigeyoshi
+  ja: 高野茂義
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1877'
+  birthPlace:
+    label: Mito
+    countryCode: eucountry:JPN
+  hasEvidence:
+  - basedOnSource: 01M6EF6KKAPZYMYFHX9GXX6D2R
+    quotation: Takano Shigeyoshi was born in Mito in 1877 (family name Chigusa).
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/1/17/%E9%AB%98%E9%87%8E%E8%8C%82%E7%BE%A9.png
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:%E9%AB%98%E9%87%8E%E8%8C%82%E7%BE%A9.png
+    cite: "剣道家写真名鑑刊行会, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    Kendo teacher, born Chigusa; trained at the Mito Tōbukan, became a student of Takano Sasaburō in
+    1895 and his adopted son in 1900, and ran the Urawa Meishinkan. Known for his jōdan.
+hasTeacherAssertion:
+- id: 01M6EFJQBDVJJG77TMRD0BQDV8
+  teacher: 01M2Z12AZA53BW9KZHC2GD7PH1
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9W
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Single kenshi247 article; it reads the teacher's name 小沢 as Ozawa.
+  hasInteraction:
+  - interactionPlace: 01M2Z6TY1P8PHZ6627T6GXFP6V
+    hasEvidence:
+    - basedOnSource: 01M6EF6KKAPZYMYFHX9GXX6D2R
+      quotation: When he was 14 he enrolled in Tobukan and began to study kendo under Ozawa Torakichi.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M6EFJQBDP2JAD5GHHB23C6JC
+  teacher: 01M2WGWA1YG2SSC4PASW0TXXQC
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9W
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Single kenshi247 article, which includes his own account.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1895
+    hasEvidence:
+    - basedOnSource: 01M6EF6KKAPZYMYFHX9GXX6D2R
+      quotation: This led him to Takano Sasaburo whose student he became in 1895.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M6EFJQBDAZNPEM3T4JSZBVPX
+  teacher: 01M2Z6TY1PD3RHPKEB6543X6D1
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9W
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: His own account, in translation; self-report.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M6EF6KKAPZYMYFHX9GXX6D2R
+      quotation: I was initiated into the true way of jodan first through Shimoe sensei, then through Takano Sasaburo sensei.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasHonorAssertion:
+- id: 01M6EFJQBDJBBZJGZJ4ZNEMJNV
+  honorValue: Hanshi
+  honorType: honortype:title
+  honorGrade: honorgrade:shogo_hanshi
+  conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+  dateConferred: '1912'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Kendoka shashin meikan (1925), hanshi list; Taisho 1 is 1912.
+  hasEvidence:
+  - basedOnSource: 01M6EF6KKA6C1PENQY8MCK6TN1
+    quotation: 'Takano Shigeyoshi [...] Qualification: Taisho 1st Year'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M6EF6KKAPZYMYFHX9GXX6D2R
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+notes: The meikan gives his birth as Meiji 10, 1st month (1878 in its translation); the article gives 1877.
+tags:
+- kendo

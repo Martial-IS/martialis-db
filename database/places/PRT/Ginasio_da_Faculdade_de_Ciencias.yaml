@@ -1,0 +1,65 @@
+type: Place
+id: 01KZ45S0STSVVFR5DYGJ23NQF6
+name:
+  pt: Ginásio da Faculdade de Ciências de Lisboa
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Rua da Escola Politécnica
+      countryCode: eucountry:PRT
+      wikidata: wd:Q136648794
+    address: Rua da Escola Politécnica, 60, 1200 Lisboa
+hasAffiliationAssertion:
+  - id: 01M3YH7N5GKRVZCBX3RZ8MWVHW
+    relatedOrganization: 01KZ1Y9KD1X90AH5XMY9P6T3X6
+    affiliationRelation: affrel:branch_of
+    validDuring:
+      startYear: 1989
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Directly quoted in a primary source as having "tornado no dojo principal da escola" ("become the main dojo of the school") - explicitly the honbu (headquarters) dojo of APASD, the twin-entity case, not a separately-governed member.
+    notes: The honbu (main) dojo of the Associação Portuguesa Aiki-Shuren Dojo.
+    hasEvidence:
+      - basedOnSource: 01KZ1Y9KD1HZ8JVXY2RF432EEB
+        quotation: Entretanto, também comecei a ensinar no Ginásio da Faculdade de Ciências de Lisboa, onde ainda estou hoje em dia, tendo-se tornado no dojo principal da escola.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M4R9845W6K67P09GDD8MEVPV
+    instructor: 01KZ1Y9KD1XVWDH5MWHBPWC25B
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1989
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: His own interview and his school's dojo list state it; both come from his side.
+    hasEvidence:
+      - basedOnSource: 01KZ1Y9KD1HZ8JVXY2RF432EEB
+        quotation: Entretanto, também comecei a ensinar no Ginásio da Faculdade de Ciências de Lisboa, onde ainda estou hoje em dia, tendo-se tornado no dojo principal da escola.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZ42N27Y07DXKCEBWXA1KNWX
+        quotation: Ginásio da Faculdade de Ciências de Lisboa [...] Treinos dirigidos por Tristão da Cunha (5º Dan Taijutsu, 5º Dan Buki Waza, uchi deshi de Iwama)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: Gymnasium of the Faculty of Sciences of the University of Lisbon, the main dojo (honbu) of the Associação Portuguesa Aiki-Shuren Dojo, where Tristão da Cunha has taught Iwama Ryu aikido. In the 2003 dojos list it was the venue with the most instructors.
+  pt: Ginásio da Faculdade de Ciências da Universidade de Lisboa, o dojo principal (honbu) da Associação Portuguesa Aiki-Shuren Dojo, onde Tristão da Cunha ensina Aikido Iwama Ryu. Na lista de dojos de 2003 era o local com mais instrutores.
+hasEvidence:
+  - basedOnSource: 01KZ1Y9KD1HZ8JVXY2RF432EEB
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ42N27Y07DXKCEBWXA1KNWX
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - aikido
+  - iwama-ryu
+  - portugal

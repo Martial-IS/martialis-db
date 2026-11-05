@@ -1,0 +1,46 @@
+type: Place
+id: 01M36Q4QHTCSZZY71GSX4EVCWZ
+name:
+  en: Meishin Honkan
+  ja-Latn: Meishin Honkan
+  ja: 明信本館
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Chichibu, Saitama
+      countryCode: eucountry:JPN
+      wikidata: wd:Q128186
+    address: 秩父市中町21番5号
+foundedEvent:
+  startDate: '1930'
+  hasEvidence:
+    - basedOnSource: 01M3287E2ATMVCEVXM1K1Y2860
+      quotation: 昭和５年秩父明信本館完成 秩父市中町２１番５号
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M3YH7N5G09GZWYHPASDSD929
+    relatedOrganization: 01M36P10SS5C0N1AG9TEHG3RHR
+    affiliationRelation: affrel:branch_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Chichibu hall carries the Meishin name and is listed as part of the Takano Sasaburo historic site. Its place in the Meishinkan follows from that, not from a direct statement.
+    hasEvidence:
+      - basedOnSource: 01M3287E2ATMVCEVXM1K1Y2860
+        quotation: 昭和４０年１０月１日秩父市指定史跡 高野佐三郎遺跡（明信本館及び遺品一式）
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: Meishinkan hall at Chichibu, completed in 1930 and designated a Chichibu City historic site in 1965 as part of the Takano Sasaburō site.
+hasEvidence:
+  - basedOnSource: 01M3287E2ATMVCEVXM1K1Y2860
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - kendo
+  - kenjutsu
+  - japan

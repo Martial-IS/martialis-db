@@ -1,0 +1,67 @@
+type: Person
+id: 01M5JG4Y25F6GED71TMVEE8MHJ
+name:
+  en: Louis Vigneron
+  fr: Louis Vigneron
+nationality:
+  - countryCode: eucountry:FRA
+    wikidata: wd:Q142
+birthEvent:
+  birthDate: '1827-04-10'
+  birthPlace:
+    label: Bercy
+    countryCode: eucountry:FRA
+  hasEvidence:
+    - basedOnSource: 01M5JG4Y255DHM9P4V4MQXM5MJ
+      quotation: >-
+        Louis Vigneron né le 10 avril 1827 à Bercy et décédé le 21 août 1871 à Boulogne-sur-Mer
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '[1871-08-21,1871-08-22]'
+  deathPlace:
+    label: Boulogne-sur-Mer
+    countryCode: eucountry:FRA
+  hasEvidence:
+    - basedOnSource: 01M5JG4Y255DHM9P4V4MQXM5MJ
+      quotation: >-
+        Louis Vigneron né le 10 avril 1827 à Bercy et décédé le 21 août 1871 à Boulogne-sur-Mer
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5JG4Y255DHM9P4V4MQXM5MJ
+      quotation: >-
+        Louis Vigneron trouve la mort le 22 août 1871
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    French boxing and canne master and strongman. He made his name in 1850 by beating Rambaud "la
+    Résistance", taught in Paris, and performed in music halls; during the 1856–1860 ban on French boxing
+    he hid his teaching in theatrical gymnastics. He lost to Joseph Charlemont in 1867 and died in 1871
+    during a fairground act in which he fired a cannon carried on his back.
+hasEvidence:
+  - basedOnSource: 01M5JG4Y255DHM9P4V4MQXM5MJ
+    quotation: >-
+      Louis Vigneron se fera battre par Joseph Charlemont lors d'un assaut qu'ils disputèrent le 8
+      décembre 1867.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      One style appeared in music halls, where acrobats such as Rambaud (alias la Résistance) and Louis
+      Vigneron (1827–1871) gave spectacular shows
+    locator: '257'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3263286
+tags:
+  - savate
+  - canne-de-combat
+  - france

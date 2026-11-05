@@ -1,0 +1,47 @@
+type: Person
+id: 01M5H483CZB3Y23DPZY78APKY0
+name:
+  en: Eli Avikzar
+nationality:
+  - countryCode: eucountry:ISR
+    wikidata: wd:Q801
+description:
+  en: Krav maga instructor, a student of Imi Lichtenfeld; Eyal Yanilov was among his earliest students.
+hasTeacherAssertion:
+  - id: 01M5H483CZDTVBZWJS6HPZMBCW
+    teacher: 01M5H483CZFWCT9F3F4YG4KVJH
+    assertedStyle: 01M5H483CZK87194M0J1ZNG9F8
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Again, Imi Lichtenfeld was involved, as were some of his students, to include Haim Zut and
+              Eli Avikzar.
+            locator: '585'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: 585-586
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3050875
+tags:
+  - krav-maga
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/e/ed/Imi_Lichtenfeld_Eli_Avikzar.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Imi_Lichtenfeld_Eli_Avikzar.jpg
+    cite: "Aminiv km, Wikimedia Commons"
+    informationType: infotype:secondary

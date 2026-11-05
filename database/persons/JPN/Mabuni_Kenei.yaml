@@ -1,0 +1,52 @@
+type: Person
+id: 01M5HMWTY3CE0VPGVA7G364P1S
+name:
+  ja-Latn: Mabuni Ken'ei
+aka:
+  en: Kenei Mabuni
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+description:
+  en: >-
+    Japanese karate teacher, eldest son of Kenwa Mabuni, the founder of Shito-ryu; he followed his
+    father's emphasis on teaching bunkai with each kata.
+hasTeacherAssertion:
+  - id: 01M5HMWTY3JRBM6ZT1AEQZKRZN
+    teacher: 01KYJCSK3HM7WV1EJPH94Q18T2
+    assertedStyle: 01KYFZEGYN7A9G4FSTXBPDBG8P
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: Single source; it implies the relation but does not state it.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+            quotation: >-
+              Kenei Mabuni, Kenwa Mabuni’s eldest son, agrees with his father on the importance of
+              teaching proper bunkai technique with each kata.
+            locator: '149'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+    quotation: Kenei Mabuni, Kenwa Mabuni’s eldest son
+    locator: '149'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q727360
+tags:
+  - karate
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/3/31/Kenei_Mabuni.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Kenei_Mabuni.jpg
+    cite: "Zyrgin, Wikimedia Commons"
+    informationType: infotype:secondary

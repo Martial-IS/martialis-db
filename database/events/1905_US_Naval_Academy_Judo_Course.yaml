@@ -1,0 +1,56 @@
+type: Event
+id: 01M19SYYS39J2PATCE5P8DWV7N
+name:
+  en: US Naval Academy Judo Course
+  ja: 米海軍兵学校柔道課程
+aka:
+  en: Yamashita at Annapolis (1905-1906)
+eventType: eventclass:course
+eventDate: 1905-01/1906-06
+superEvent: 01M19SYYS3JXJSD3JGQ89RG6SM
+location:
+  label: Annapolis, Maryland
+  countryCode: eucountry:USA
+about:
+  - 01KJJAWN29MA64W22606R3WD9B
+hasParticipation:
+  - id: 01M3YH7N5FQB6WVMBEZYCFZRME
+    participant: 01KJJAWN29MA64W22606R3WD7Q
+    participationRole: eventrole:instructor
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The Svinth article documents both Naval Academy contracts (January 1905 semester, then the 4 December 1905 contract for the first half of 1906) with specifics of schedule, pay, and class size.
+    hasEvidence:
+      - uri: https://ejmas.com/jcs/jcsart_svinth1_1000.htm
+        cite: Joseph R. Svinth, "Professor Yamashita Goes to Washington", Journal of Combative Sport, Oct 2000
+        quotation: Yamashita started at the Naval Academy in January 1905. Training took place Monday, Wednesday, and Friday afternoons. He earned $1,666 for the semester, but had to pay his own assistants. The class had about 25 students.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - uri: https://ejmas.com/jcs/jcsart_svinth1_1000.htm
+        cite: Joseph R. Svinth, "Professor Yamashita Goes to Washington", Journal of Combative Sport, Oct 2000
+        quotation: On December 4, 1905, Admiral Sands signed a contract with Yamashita in which the latter was to give fifty one-hour lessons at $33.33 per lesson. The class was taught during the first half of 1906.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: Yamashita Yoshiaki's judo instruction at the United States Naval Academy, which he took up in January 1905 at President Roosevelt's insistence instead of a proposed Harvard appointment. The first semester ran Monday, Wednesday, and Friday afternoons with about 25 midshipmen. After the Academy declined to rehire him for the fall, Roosevelt intervened through Secretary of the Navy Charles J. Bonaparte, and on 4 December 1905 Admiral Sands signed a contract for fifty one-hour lessons taught during the first half of 1906.
+  ja: 山下義韶がルーズベルト大統領の強い勧めでハーバード大学案を断り、1905年1月から米海軍兵学校で行った柔道 指導。最初の学期は月・水・金の午後、士官候補生約25名を教えた。秋の再雇用を見送られたが、ルーズベルトが 海軍長官ボナパルトを通じて介入し、1905年12月4日にサンズ少将が50時間（1時間33.33ドル）の契約を締結、 1906年前半に授業が行われた。
+notes: On 4 March 1905, Brigadier General Albert L. Mills, Captain Frank W. Coe, and Captain Peyton C. March observed a demonstration at Annapolis; their report recommended incorporating jiu-jitsu into the physical training course alongside boxing and wrestling (the Military Academy hired wrestler Tom Jenkins instead). Yamashita's first public demonstration - with A. Kitagaki and Midshipmen McConnell, Piersol, Ghormley, and Heim - came about three weeks later, with a second, equally coolly received show in May 1905. In May 1906 Admiral Sands advised against repeating the course in 1907 ("a knowledge of Jiu-jitsu is not of great value to those who are being prepared for a life on shipboard"); Roosevelt again disagreed, but Yamashita left for Japan after the 1906 academic year, and the Navy did nothing more with judo until 1943.
+hasEvidence:
+  - uri: https://ejmas.com/jcs/jcsart_svinth1_1000.htm
+    cite: Joseph R. Svinth, "Professor Yamashita Goes to Washington", Journal of Combative Sport, Oct 2000
+    quotation: Yamashita started at the Naval Academy in January 1905. Training took place Monday, Wednesday, and Friday afternoons.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://ejmas.com/jcs/jcsart_svinth1_1000.htm
+    cite: Joseph R. Svinth, "Professor Yamashita Goes to Washington", Journal of Combative Sport, Oct 2000
+    quotation: On May 6, 1906 Admiral Sands wrote the Navy Department to say that the course had been completed, but suggested that it not be repeated in 1907.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - kodokan
+  - annapolis

@@ -1,0 +1,73 @@
+type: Person
+id: 01KZBTY2K41VVEV8RMRMRF0MT5
+name:
+  zh-Latn: Xie Zongxiang
+  zh: 謝崇祥
+aka:
+  zh-Latn: Xie Zhongxiang
+  zh: 謝宗祥
+nationality:
+- countryCode: eucountry:CHN
+  wikidata: wd:Q148
+birthEvent:
+  birthDate: 1852-07
+  birthPlace:
+    label: Changle
+    countryCode: eucountry:CHN
+    wikidata: wd:Q766619
+  hasEvidence:
+  - uri: https://www.wikidata.org/wiki/Q16907056
+    quotation: >-
+      date of birth July 1852
+    cite: Wikidata entry for Xie Zongxiang
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: 1930-02
+  hasEvidence:
+  - uri: https://www.wikidata.org/wiki/Q16907056
+    quotation: >-
+      date of death February 1930
+    cite: Wikidata entry for Xie Zongxiang
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: Chinese martial artist (1852-1930) of Fujian, practitioner of Minghe quan (Whooping Crane fist),
+    possibly to be identified with Ryū Ryū Ko; teacher of Higaonna Kanryō.
+notes: The identification with Ryū Ryū Ko (Q954330) follows Tokashiki Iken's research and is disputed
+  by the Fuzhou Wushu Association, which argues Xie Zhongxiang was of non-aristocratic origin and worked
+  as an apprentice shoemaker rather than as the aristocratic bricklayer/basket-weaver of the Ryū Ryū Ko
+  oral tradition. See the possibly_same_as entry on Ryū Ryū Ko.
+hasIdentityAssertion:
+- id: 01M3YH7N5GP67TA74EB3NBQV9N
+  identityCandidate: 01KZBTN23E1GQ0DG90P0BGPX9S
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Tokashiki Iken's research identifies Xie Zongxiang with Ryū Ryū Ko, and both
+      Wikidata entities share identical birth/death dates (1852-1930); the identification is disputed
+      by the Fuzhou Wushu Association, so this is a hypothesis, not a settled identity
+  notes: Disputed identification - the Fuzhou Wushu Association holds that Xie Zhongxiang was not of aristocratic
+    birth and never hid his identity, contradicting the Ryū Ryū Ko oral tradition. See EN Wikipedia article
+    on Ryū Ryū Ko.
+  hasEvidence:
+  - basedOnSource: 01KZC8XAP84R46V20056YWKJ1F
+    quotation: Historical records provided by the Fuzhou Wushu Association show that Xie Zhong Xiang was
+      not of aristocratic birth and never had to hide his identity. Xie Zhong Xiang worked as an apprentice
+      shoe-maker in Fuzhou until he was 30 when he started his own martial art school.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZC8XAP84R46V20056YWKJ1F
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q16907056
+tags:
+- karate
+- naha-te
+- chinese-martial-arts

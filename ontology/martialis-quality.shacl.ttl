@@ -1,0 +1,1102 @@
+### Quality/completeness tier: informational, never fails.
+### sh:severity belongs on the NodeShape - one declared inside sh:sparql is ignored.
+### `make quality` runs pipeline/checks/shape-alive.rq over this file and prints
+### shapes whose target or path no longer occurs in export/data.ttl; it never
+### fails.  A constraint whose logic is wrong while it still matches data is not
+### caught (see docs/PIPELINE.md).
+
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix martialis: <https://w3id.org/martialis/ontology#> .
+@prefix shapes: <https://w3id.org/martialis/ontology/shapes#> .
+@prefix schema: <https://schema.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+
+# Shapes graph self-description (annotation only; no validation effect).
+
+<https://w3id.org/martialis/ontology/shapes/quality> a owl:Ontology , sh:ShapesGraph ;
+    dcterms:title "Martialis Quality and Completeness Constraints"@en ;
+    dcterms:description "Quality and completeness validation for the Martialis database. These shapes generate warnings for incomplete data that should be investigated and improved, but do not block publication - the structural tier (martialis.shacl.ttl) is the blocking gate. Per-source-ref field completeness is intentionally not checked here: it is aggregate information, reported by the queries in pipeline/reports/provenance/ and pipeline/reports/dashboard/."@en ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:created "2026-02-28"^^xsd:date ;
+    dcterms:modified "2026-09-12"^^xsd:date ;
+    owl:versionInfo "1.0.0" ;
+    owl:imports <https://w3id.org/martialis/ontology> ;
+    vann:preferredNamespacePrefix "shapes" ;
+    vann:preferredNamespaceUri <https://w3id.org/martialis/ontology/shapes#> ;
+    rdfs:seeAlso <https://w3id.org/martialis/ontology> .
+
+# Person Completeness
+
+shapes:PersonCompletenessShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Person completeness"@en ;
+    rdfs:comment "Warns on Persons missing a birth date or description."@en ;
+    sh:targetClass martialis:Person ;
+
+    # A teacher claim counts as lineage whether or not it names the teacher.
+    sh:property [
+        sh:path martialis:hasTeacherAssertion ;
+        sh:minCount 1 ;
+        sh:severity sh:Warning ;
+        sh:message "Quality check: Person has no teacher claim, named or unidentified - needs investigation."
+    ] ;
+
+    sh:property [
+        sh:path martialis:hasRankAssertion ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Quality check: Person has no rank information - consider adding if available."
+    ] ;
+
+    sh:property [
+        sh:path (martialis:birthEvent schema:startDate) ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Quality check: Person has no birth date - consider adding if available."
+    ] .
+
+
+# Info only: the pattern has legitimate explanations, so it needs a human look.
+shapes:TeacherAgeQualityShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Teacher age plausibility"@en ;
+    rdfs:comment "Signals teacher-student interactions whose dates imply an implausible age difference."@en ;
+    sh:targetClass martialis:TeacherAssertion ;
+    sh:severity sh:Info ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "teacher born after student" ;
+        sh:message "Quality check: the teacher was born after the student - worth double-checking." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+            SELECT DISTINCT $this
+            WHERE {
+                ?student ?link $this .
+                $this martialis:teacher ?teacher .
+                ?student martialis:birthEvent/martialis:latestYear ?studentLatest .
+                ?teacher martialis:birthEvent/martialis:earliestYear ?teacherEarliest .
+                FILTER(xsd:integer(STR(?teacherEarliest)) > xsd:integer(STR(?studentLatest)))
+            }
+        """
+    ] .
+
+# TeacherInteraction Completeness
+
+shapes:TeacherInteractionCompletenessShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "TeacherInteraction completeness"@en ;
+    rdfs:comment "Warns when interactions lack a place or a period."@en ;
+    sh:targetClass martialis:TeacherInteraction ;
+
+
+    sh:property [
+        sh:path martialis:interactionPeriod ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Quality check: TeacherInteraction has no time period - consider adding if available."
+    ] .
+
+# Separate shape so the Info severity applies only to this check.
+shapes:InteractionPeriodQualityShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Interaction period plausibility"@en ;
+    rdfs:comment "Signals interaction periods inconsistent with the student's dates."@en ;
+    sh:targetClass martialis:TeacherInteraction ;
+    sh:severity sh:Info ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "interaction outside lifespan" ;
+        sh:message "Quality check: interaction period falls outside the student's or teacher's lifespan - worth double-checking." ;
+        # FILTERs kept at top level, outside the UNION groups (engine compatibility).
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+            SELECT DISTINCT $this
+            WHERE {
+                ?student ?link ?assertion .
+                ?assertion martialis:hasInteraction $this ;
+                           martialis:teacher ?teacher .
+                $this martialis:interactionPeriod ?period .
+                ?period martialis:startYear ?start .
+                {
+                    { ?student martialis:birthEvent/martialis:earliestYear ?bound .
+                      BIND("lower" AS ?kind) }
+                    UNION
+                    { ?student martialis:deathEvent/martialis:latestYear ?bound .
+                      BIND("upper" AS ?kind) }
+                    UNION
+                    { ?teacher martialis:birthEvent/martialis:earliestYear ?bound .
+                      BIND("lower" AS ?kind) }
+                    UNION
+                    { ?teacher martialis:deathEvent/martialis:latestYear ?bound .
+                      BIND("upper" AS ?kind) }
+                }
+                FILTER ( (?kind = "lower" && xsd:integer(STR(?start)) < xsd:integer(STR(?bound)))
+                      || (?kind = "upper" && xsd:integer(STR(?start)) > xsd:integer(STR(?bound))) )
+            }
+        """
+    ] .
+
+# A relationship this load-bearing needs a quoting source, not just any source.
+shapes:TeacherInteractionQuotationQualityShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Teacher evidence quotation"@en ;
+    rdfs:comment "Warns when a teacher claim's sources carry no quotation - sourced only in paraphrase."@en ;
+    sh:targetClass martialis:TeacherInteraction ;
+    sh:severity sh:Warning ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "interaction missing quotation" ;
+        sh:message "Quality check: TeacherInteraction has sources, but none carry a quotation - a direct quote substantiating the relationship is expected." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            SELECT DISTINCT $this
+            WHERE {
+                $this martialis:hasEvidence ?e .
+                FILTER NOT EXISTS { $this martialis:hasEvidence/martialis:quotation ?q }
+            }
+        """
+    ] .
+
+# Info: fires only when every source is a resolvable Wikipedia URL.
+shapes:TeacherInteractionWikipediaOnlyQualityShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Wikipedia-only teacher evidence"@en ;
+    rdfs:comment "Info: teacher claims whose every source is Wikipedia - circularity risk."@en ;
+    sh:targetClass martialis:TeacherInteraction ;
+    sh:severity sh:Info ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "interaction wikipedia-only sources" ;
+        sh:message "Quality check: every source on this TeacherInteraction is a Wikipedia article - consider adding a non-Wikipedia corroborating source to avoid circularity." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            PREFIX schema: <https://schema.org/>
+            SELECT DISTINCT $this
+            WHERE {
+                $this martialis:hasEvidence ?e .
+                FILTER NOT EXISTS {
+                    $this martialis:hasEvidence ?e2 .
+                    FILTER NOT EXISTS {
+                        { ?e2 martialis:basedOnSource/schema:url ?u2 } UNION { ?e2 schema:url ?u2 }
+                        FILTER(CONTAINS(STR(?u2), "wikipedia.org"))
+                    }
+                }
+            }
+        """
+    ] .
+
+# Unidentified Teacher: candidate instructors
+shapes:UnidentifiedTeacherCandidateShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Unidentified-teacher candidate instructors"@en ;
+    rdfs:comment "Info: the venue of a teacher claim with no identified teacher has no InstructorRole overlapping its period - no candidate instructors are recorded for this venue and window."@en ;
+    sh:targetClass martialis:TeacherAssertion ;
+    sh:severity sh:Info ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "unidentified teacher no candidate instructors" ;
+        sh:message "Quality check: no InstructorRole on this venue overlaps the claimed period - no candidate instructors are recorded for this venue and window; worth researching." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+            SELECT DISTINCT $this
+            WHERE {
+                FILTER NOT EXISTS { $this martialis:teacher ?teacher }
+                $this martialis:hasInteraction ?i .
+                ?i martialis:interactionPlace ?place ;
+                   martialis:interactionPeriod ?period .
+                ?period martialis:startYear ?start .
+                FILTER NOT EXISTS {
+                    ?place martialis:hasInstructorRole ?role .
+                    ?role martialis:instructorPeriod ?rperiod .
+                    ?rperiod martialis:startYear ?rstart .
+                    OPTIONAL { ?rperiod martialis:endYear ?rend }
+                    FILTER(xsd:integer(STR(?rstart)) <= xsd:integer(STR(?start))
+                           && (!BOUND(?rend) || xsd:integer(STR(?rend)) >= xsd:integer(STR(?start))))
+                }
+            }
+        """
+    ] .
+
+# Unidentified Teacher: superseded by a named claim
+shapes:UnidentifiedTeacherSupersededShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Unidentified-teacher claim possibly superseded"@en ;
+    rdfs:comment "Info: a teacher claim with no identified teacher shares its style, a Place or Event, and an overlapping period with a claim of the same person that names the teacher."@en ;
+    sh:targetClass martialis:TeacherAssertion ;
+    sh:severity sh:Info ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "unidentified teacher possibly superseded" ;
+        sh:message "Quality check: another claim of this person names a teacher for the same style at the same Place or Event in an overlapping period - if it covers this claim, move this claim's evidence to it and remove this one." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+            SELECT DISTINCT $this
+            WHERE {
+                ?person martialis:hasTeacherAssertion $this , ?named .
+                FILTER NOT EXISTS { $this martialis:teacher ?none }
+                ?named martialis:teacher ?teacher .
+                OPTIONAL { $this martialis:assertedStyle ?style }
+                OPTIONAL { ?named martialis:assertedStyle ?namedStyle }
+                FILTER (!BOUND(?style) || !BOUND(?namedStyle) || ?style = ?namedStyle)
+                $this martialis:hasInteraction ?i .
+                ?named martialis:hasInteraction ?j .
+                { ?i martialis:interactionPlace ?anchor . ?j martialis:interactionPlace ?anchor }
+                UNION
+                { ?i martialis:atEvent ?anchor . ?j martialis:atEvent ?anchor }
+                ?i martialis:interactionPeriod/martialis:startYear ?start .
+                OPTIONAL { ?i martialis:interactionPeriod/martialis:endYear ?end }
+                OPTIONAL { ?j martialis:interactionPeriod/martialis:startYear ?namedStart }
+                OPTIONAL { ?j martialis:interactionPeriod/martialis:endYear ?namedEnd }
+                FILTER ((!BOUND(?namedStart) || xsd:integer(STR(?namedStart)) <= xsd:integer(STR(COALESCE(?end, ?start))))
+                        && (!BOUND(?namedEnd) || xsd:integer(STR(?namedEnd)) >= xsd:integer(STR(?start))))
+            }
+        """
+    ] .
+
+# Participation Style Attribution
+
+# Event-level styles are unattributed; annotate per-instructor participationStyle so candidate matches are attributable.
+shapes:ParticipationStyleAttributionShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Participation style attribution"@en ;
+    rdfs:comment "Info: a multi-style course/seminar whose instructor participations lack style annotations."@en ;
+    sh:targetClass martialis:Event ;
+    sh:severity sh:Info ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "instructor participation missing style" ;
+        sh:message "Quality check: this course/seminar covers multiple styles but an instructor participation carries no participationStyle - annotate which art that instructor taught here so candidate matches are attributable." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            PREFIX schema: <https://schema.org/>
+            PREFIX eventclass: <https://w3id.org/martialis/vocab/event-classification/>
+            PREFIX eventrole: <https://w3id.org/martialis/vocab/event-role/>
+            SELECT DISTINCT $this
+            WHERE {
+                $this a martialis:Event ;
+                       martialis:eventType ?type ;
+                       schema:about ?s1 , ?s2 ;
+                       martialis:hasParticipation ?p .
+                ?p martialis:participationRole eventrole:instructor .
+                FILTER (?type IN (eventclass:course, eventclass:seminar))
+                FILTER (?s1 != ?s2)
+                FILTER NOT EXISTS { ?p martialis:participationStyle ?st }
+            }
+        """
+    ] .
+
+# Document Transmission Author Link
+
+# An authorship-role contributor not linked to a Person stops the reader-to-author derivation.
+shapes:DocumentTransmissionAuthorLinkShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Document transmission author link"@en ;
+    rdfs:comment "Info: a document-transmission claim's document names an authorship-role contributor who is not linked to a Person record."@en ;
+    sh:targetClass martialis:DocumentTransmissionAssertion ;
+    sh:severity sh:Info ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "transmission document author unlinked" ;
+        sh:message "Quality check: this transmitted document's author is named but not linked to a Person - add hasContributor[].contributorPerson when the author is a Person record (the reader-to-author link is derived from it; no rule materializes it)." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            PREFIX schema: <https://schema.org/>
+            SELECT DISTINCT $this
+            WHERE {
+                $this martialis:transmissionDocument ?doc .
+                ?doc martialis:hasContributor ?c .
+                ?c martialis:contributorRole ?role .
+                FILTER (?role IN ("author", "original-author", "container-author"))
+                FILTER EXISTS {
+                    { ?c schema:familyName ?f } UNION
+                    { ?c schema:givenName ?g } UNION
+                    { ?c schema:name ?n }
+                }
+                FILTER NOT EXISTS { ?c martialis:contributorPerson ?p }
+            }
+        """
+    ] .
+
+# Date Precision & Calendar Provenance
+
+# Targets subjects of dateCalendar, so every date-bearing class is in scope.
+shapes:DateCalendarCompletenessShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Date calendar provenance"@en ;
+    rdfs:comment "Info: dateCalendar recorded without the paired dateOriginal."@en ;
+    sh:targetSubjectsOf martialis:dateCalendar ;
+    sh:property [
+        sh:path martialis:dateOriginal ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Quality check: dateCalendar is set without dateOriginal - the source's own rendering should usually be recorded alongside the calendar classification."
+    ] .
+
+# Info: heuristic nudge to encode prose uncertainty as structural EDTF markers.
+shapes:DatePrecisionQualityShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Date precision"@en ;
+    rdfs:comment "Nudges prose uncertainty in confidence rationales toward structural EDTF uncertainty markers."@en ;
+    sh:targetClass martialis:RankAssertion, martialis:HonorAssertion ;
+    sh:severity sh:Info ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "date uncertainty unencoded" ;
+        sh:message "Quality check: confidence.rationale suggests date uncertainty, but the date field itself carries no EDTF uncertainty marker - consider encoding it structurally (~ ? % an interval, or a Level 2 set) instead of only in prose." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            PREFIX schema: <https://schema.org/>
+            SELECT DISTINCT $this
+            WHERE {
+                $this martialis:dateConferred ?date ;
+                      martialis:hasConfidence ?conf .
+                ?conf martialis:confidenceRationale ?rationale .
+                FILTER(!CONTAINS(STR(?date), "~") && !CONTAINS(STR(?date), "?")
+                       && !CONTAINS(STR(?date), "%") && !CONTAINS(STR(?date), "/")
+                       && !CONTAINS(STR(?date), "["))
+                FILTER(REGEX(STR(?rationale), "circa|approx|conflicting date|disput|uncertain date|probably (in|around)|before [0-9]{4}", "i"))
+            }
+        """
+    ] .
+
+# RankAssertion Completeness
+# Rank/honor/style-relation evidence lives on the assertion, unlike teacher evidence.
+
+# rankSystem and hasConfidence are schema-required, rankStyle is optional; only
+# hasEvidence and grantedBy carry signal.
+shapes:RankAssertionCompletenessShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Rank assertion completeness"@en ;
+    rdfs:comment "Warns on rank claims without evidence; Info on missing grantedBy."@en ;
+    sh:targetClass martialis:RankAssertion ;
+
+
+    sh:property [
+        sh:path martialis:grantedBy ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Quality check: RankAssertion has no grantedBy - consider adding source if available."
+    ] .
+
+shapes:RankAssertionQuotationQualityShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Rank evidence quotation"@en ;
+    rdfs:comment "Warns when a rank grant's sources carry no quotation."@en ;
+    sh:targetClass martialis:RankAssertion ;
+    sh:severity sh:Warning ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "rank missing quotation" ;
+        sh:message "Quality check: RankAssertion has sources, but none carry a quotation - a direct quote substantiating the grant is expected." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            SELECT DISTINCT $this
+            WHERE {
+                $this martialis:hasEvidence ?e .
+                FILTER NOT EXISTS { $this martialis:hasEvidence/martialis:quotation ?q }
+            }
+        """
+    ] .
+
+shapes:RankAssertionWikipediaOnlyQualityShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Wikipedia-only rank evidence"@en ;
+    rdfs:comment "Info: rank claims sourced solely from Wikipedia."@en ;
+    sh:targetClass martialis:RankAssertion ;
+    sh:severity sh:Info ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "rank wikipedia-only sources" ;
+        sh:message "Quality check: every source on this RankAssertion is a Wikipedia article - consider adding a non-Wikipedia corroborating source to avoid circularity." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            PREFIX schema: <https://schema.org/>
+            SELECT DISTINCT $this
+            WHERE {
+                $this martialis:hasEvidence ?e .
+                FILTER NOT EXISTS {
+                    $this martialis:hasEvidence ?e2 .
+                    FILTER NOT EXISTS {
+                        { ?e2 martialis:basedOnSource/schema:url ?u2 } UNION { ?e2 schema:url ?u2 }
+                        FILTER(CONTAINS(STR(?u2), "wikipedia.org"))
+                    }
+                }
+            }
+        """
+    ] .
+
+shapes:RankDirectionQualityShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Rank direction/grade completeness"@en ;
+    rdfs:comment "Info: ranks with neither rankType, rankOrdinal nor rankGrade."@en ;
+    sh:targetClass martialis:RankAssertion ;
+    sh:severity sh:Info ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "rank missing direction or grade" ;
+        sh:message "Quality check: rank records neither rankType, rankOrdinal nor rankGrade - consider adding the documented direction or grade if the source states one." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            SELECT DISTINCT $this
+            WHERE {
+                $this a martialis:RankAssertion .
+                FILTER NOT EXISTS { $this martialis:rankType ?t }
+                FILTER NOT EXISTS { $this martialis:rankOrdinal ?o }
+                FILTER NOT EXISTS { $this martialis:rankGrade ?g }
+            }
+        """
+    ] .
+
+# Place Completeness
+
+shapes:PlaceCompletenessShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Place completeness"@en ;
+    rdfs:comment "Info: venues with no organizational affiliation or founding information."@en ;
+    sh:targetClass martialis:Place ;
+
+    sh:property [
+        sh:path martialis:hasAffiliationAssertion ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Quality check: Place has no organizational affiliation - consider adding if available."
+    ] ;
+
+    sh:property [
+        sh:path martialis:foundedEvent ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Quality check: Place has no founding information - consider adding if available."
+    ] .
+
+# AffiliationAssertion Completeness
+
+shapes:AffiliationAssertionCompletenessShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Affiliation completeness"@en ;
+    rdfs:comment "Warns on sourceless affiliations; Info on missing period."@en ;
+    sh:targetClass martialis:AffiliationAssertion ;
+
+
+    sh:property [
+        sh:path martialis:validDuring ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Quality check: affiliation has no period - consider adding if available."
+    ] .
+# validDuring always carries a startYear (Period.start is schema-required).
+
+# Organization Completeness
+
+shapes:OrganizationDissolutionQualityShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Organization dissolution"@en ;
+    rdfs:comment "Info: dissolved events without a manner, and dissolutions that no successor's genealogy edge points back at."@en ;
+    sh:targetClass martialis:Organization ;
+    sh:severity sh:Info ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "dissolution missing manner" ;
+        sh:message "Quality check: Organization has a dissolved event with no manner - consider adding if known (merged/split/superseded/suppressed/renamed/defunct/unknown)." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            SELECT DISTINCT $this
+            WHERE {
+                $this martialis:dissolvedEvent ?d .
+                FILTER NOT EXISTS { ?d martialis:dissolutionManner ?m }
+            }
+        """
+    ] ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "dissolution unmatched successor edge" ;
+        sh:message "Quality check: Organization was dissolved by merger/supersession/rename but no other organization declares the matching merged_from/replaces/renamed_from affiliation pointing back at it - consider adding the successor's edge, or the successor entity, if known." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            PREFIX diss: <https://w3id.org/martialis/vocab/dissolution-manner/>
+            PREFIX affrel: <https://w3id.org/martialis/vocab/affiliation-relation/>
+            SELECT DISTINCT $this
+            WHERE {
+                {
+                    $this martialis:dissolvedEvent/martialis:dissolutionManner diss:merged .
+                    BIND(affrel:merged_from AS ?expectedRel)
+                } UNION {
+                    $this martialis:dissolvedEvent/martialis:dissolutionManner diss:superseded .
+                    BIND(affrel:replaces AS ?expectedRel)
+                } UNION {
+                    $this martialis:dissolvedEvent/martialis:dissolutionManner diss:renamed .
+                    BIND(affrel:renamed_from AS ?expectedRel)
+                }
+                FILTER NOT EXISTS {
+                    ?successor martialis:hasAffiliationAssertion ?a .
+                    ?a martialis:relatedOrganization $this ;
+                       martialis:affiliationRelation ?expectedRel .
+                }
+            }
+        """
+    ] .
+
+# Predecessor side: a genealogy edge implies the predecessor ended (split_from excluded).
+shapes:OrganizationPredecessorUnendedQualityShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Predecessor unended"@en ;
+    rdfs:comment "Info: genealogy claims whose predecessor organization has no dissolved event."@en ;
+    sh:targetClass martialis:AffiliationAssertion ;
+    sh:severity sh:Info ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "genealogy predecessor not dissolved" ;
+        sh:message "Quality check: this genealogy affiliation implies the predecessor organization ended, but it has no dissolved event - consider adding one." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            PREFIX affrel: <https://w3id.org/martialis/vocab/affiliation-relation/>
+            SELECT DISTINCT $this
+            WHERE {
+                $this martialis:affiliationRelation ?rel ;
+                      martialis:relatedOrganization ?predecessor .
+                FILTER (?rel IN (affrel:merged_from, affrel:replaces, affrel:renamed_from))
+                FILTER NOT EXISTS { ?predecessor martialis:dissolvedEvent ?d }
+            }
+        """
+    ] .
+
+# Alternate Name Quality Checks
+
+shapes:AlternateNameQualityShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Alternate name hygiene"@en ;
+    rdfs:comment "Warns when alternateName values contain semicolons - should be separate values."@en ;
+    sh:targetClass martialis:Person ;
+    sh:severity sh:Warning ;
+    sh:sparql [
+        sh:name "alternate name semicolons" ;
+        sh:message "Quality check: aka contains semicolons - should be split into separate values." ;
+        sh:prefixes [
+            sh:declare [
+                sh:prefix "schema" ;
+                sh:namespace "https://schema.org/"
+            ]
+        ] ;
+        sh:select """
+            SELECT $this ?name
+            WHERE {
+                $this schema:alternateName ?name .
+                FILTER(CONTAINS(STR(?name), ";"))
+            }
+        """
+    ] .
+
+# Confidence Assessment Quality
+
+# confidenceLevel is schema-required; only the rationale is checked.
+shapes:ConfidenceQualityShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Confidence rationale"@en ;
+    rdfs:comment "Info: confidence assessments without a documented rationale."@en ;
+    sh:targetClass martialis:Confidence ;
+
+    sh:property [
+        sh:path martialis:confidenceRationale ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Quality check: Confidence assessment has no rationale - consider documenting reasoning."
+    ] .
+
+# Evidence Analysis Completeness
+# The Mills axes are optional: an absent value means not yet assessed.
+shapes:EvidenceTypeQualityShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Evidence type"@en ;
+    rdfs:comment "Info: evidence records whose evidence type (direct, indirect, negative) is not assessed."@en ;
+    sh:targetClass martialis:SourceAssertionRelation ;
+    sh:property [
+        sh:path martialis:evidenceType ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Quality check: evidence record has no evidenceType - does the source state the claim (direct), imply it (indirect), or argue from absence (negative)?"
+    ] .
+
+shapes:InformationTypeQualityShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Information type"@en ;
+    rdfs:comment "Info: evidence records whose information type (primary, secondary) is not assessed."@en ;
+    sh:targetClass martialis:SourceAssertionRelation ;
+    sh:property [
+        sh:path martialis:informationType ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Quality check: evidence record has no informationType - did the informant know this fact first-hand (primary) or learn it from others (secondary)?"
+    ] .
+
+shapes:SourceClassificationQualityShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Source classification"@en ;
+    rdfs:comment "Info: Sources whose classification (original, derivative, authored) is not assessed. A state inherits its resource's."@en ;
+    sh:targetClass martialis:Source ;
+    sh:or (
+        [ sh:path martialis:sourceClassification ; sh:minCount 1 ]
+        [ sh:path martialis:specializationOf ; sh:minCount 1 ]
+    ) ;
+    sh:severity sh:Info ;
+    sh:message "Quality check: Source has no sourceClassification - is it the first record (original), a copy (derivative), or a narrative written from other records (authored)?" .
+
+# Entity Sourcing
+
+# Top-level sources back an entity's name/description/classification; nested sources back only their own claim.
+shapes:EntityUnsourcedQualityShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Entity unsourced"@en ;
+    rdfs:comment "Warns when an entity carries no top-level evidence, leaving its name/description/classification unbacked."@en ;
+    sh:targetClass martialis:Person, martialis:Style, martialis:Organization,
+                    martialis:Place, martialis:Event ;
+    sh:severity sh:Warning ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "entity has no sources" ;
+        sh:message "Quality check: entity has no top-level sources - its name, description and classification are unbacked." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            SELECT DISTINCT $this
+            WHERE {
+                FILTER NOT EXISTS {
+                    $this martialis:hasEvidence ?ev .
+                    ?ev a martialis:SourceAssertionRelation .
+                }
+            }
+        """
+    ] .
+
+# Event Completeness
+
+shapes:EventLocationQualityShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Event location"@en ;
+    rdfs:comment "Info: events with no location (eventPlace or location)."@en ;
+    sh:targetClass martialis:Event ;
+    sh:severity sh:Info ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "event missing location" ;
+        sh:message "Quality check: Event has no location (eventPlace or location) - consider adding if known." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            PREFIX schema: <https://schema.org/>
+            SELECT DISTINCT $this
+            WHERE {
+                FILTER NOT EXISTS { $this schema:location ?loc }
+            }
+        """
+    ] .
+
+# Site Currency
+
+# An undated site is normal (the period was not sourced), so only an explicitly
+# open one - a start year with no end year - counts as stale on a dissolved body.
+shapes:DissolvedOpenSiteQualityShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Dissolved body with an open site"@en ;
+    rdfs:comment "Info: a dissolved Place or Organization with a site that has a start year and no end year."@en ;
+    sh:targetClass martialis:Place, martialis:Organization ;
+    sh:severity sh:Info ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "dissolved body with open site" ;
+        sh:message "Quality check: dissolved, but a site has a start year and no end year - close the site or check the dissolution." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            SELECT DISTINCT $this
+            WHERE {
+                $this martialis:dissolvedEvent ?d ;
+                      martialis:hasSite/martialis:sitePeriod ?p .
+                ?p martialis:startYear ?s .
+                FILTER NOT EXISTS { ?p martialis:endYear ?e }
+            }
+        """
+    ] .
+
+# Source Completeness
+
+shapes:SourceCompletenessShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Source completeness"@en ;
+    rdfs:comment "Info: sources with no issued date."@en ;
+    sh:targetClass martialis:Source ;
+    sh:property [
+        sh:path schema:datePublished ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Quality check: Source has no issued date - consider adding if available."
+    ] .
+
+# Each Source SPARQLConstraint needs its own shape-level severity; grouped by (target class, severity).
+
+shapes:SourceWebpageQualityShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Webpage source quality"@en ;
+    rdfs:comment "Warns on webpage sources with no accessed date or no archive snapshot. A resource with dated states is exempt: its states carry both."@en ;
+    sh:targetClass martialis:Source ;
+    sh:severity sh:Warning ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "webpage missing accessed date" ;
+        sh:message "Quality check: webpage Source has no accessed date - when was this consulted?" ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            SELECT DISTINCT $this
+            WHERE {
+                $this martialis:specializationOf?/martialis:sourceType "webpage" .
+                FILTER NOT EXISTS { $this martialis:accessed ?a }
+                FILTER NOT EXISTS { ?state martialis:specializationOf $this }
+            }
+        """
+    ] ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "webpage missing archive snapshot" ;
+        sh:message "Quality check: webpage Source has no archive snapshot - the live URL may go dead." ;
+        sh:select """
+            PREFIX schema: <https://schema.org/>
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            SELECT DISTINCT $this
+            WHERE {
+                $this martialis:specializationOf?/martialis:sourceType "webpage" .
+                FILTER NOT EXISTS { $this schema:archivedAt ?a }
+                FILTER NOT EXISTS { ?state martialis:specializationOf $this }
+            }
+        """
+    ] .
+
+# martialis:partOf follows the publisher, not the host currently serving the URL.
+shapes:SourceContainmentQualityShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Source containment"@en ;
+    rdfs:comment "Info: item-level sources without partOf, over-deep containment chains, selfPublished disagreement with the derivable signal, publisher-name/container mismatches, and container names repeated in item titles."@en ;
+    sh:targetClass martialis:Source ;
+    sh:severity sh:Info ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "item source missing container" ;
+        sh:message "Quality check: an item-level source (not a container form like website/periodical/collection/book) has no partOf - consider linking it to its journal, website edition, or volume." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            SELECT DISTINCT $this
+            WHERE {
+                $this martialis:sourceType ?type .
+                FILTER (?type NOT IN ("website", "periodical", "collection", "book"))
+                FILTER NOT EXISTS { $this martialis:partOf ?container }
+                FILTER NOT EXISTS { $this martialis:specializationOf ?resource }
+            }
+        """
+    ] ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "container nesting too deep" ;
+        sh:message "Quality check: partOf nests more than 3 levels deep - worth checking this containment chain makes sense." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            SELECT DISTINCT $this
+            WHERE {
+                $this martialis:partOf ?p1 .
+                ?p1 martialis:partOf ?p2 .
+                ?p2 martialis:partOf ?p3 .
+                ?p3 martialis:partOf ?p4 .
+            }
+        """
+    ] ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "self-published signal mismatch" ;
+        sh:message "Quality check: selfPublished disagrees with the derivable signal (publisher.publisherOrg matching a contributor's contributorOrg) - worth double-checking. A personal blog with no publisherOrg is not checked." ;
+        sh:select """
+            PREFIX schema: <https://schema.org/>
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            SELECT DISTINCT $this
+            WHERE {
+                $this martialis:selfPublished ?asserted .
+                OPTIONAL {
+                    $this schema:publisher [ martialis:publisherOrg ?pubOrg ] ;
+                          martialis:hasContributor [ martialis:contributorOrg ?pubOrg ] .
+                    BIND(true AS ?derived)
+                }
+                FILTER (
+                    (?asserted = true && !BOUND(?derived)
+                        && EXISTS { $this schema:publisher/martialis:publisherOrg ?anyOrg }) ||
+                    (?asserted = false && BOUND(?derived))
+                )
+            }
+        """
+    ] ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "publisher container missed link" ;
+        sh:message "Quality check: publisher name matches an existing, in-use container Source, but this Source has no partOf - possibly missed during migration/curation." ;
+        sh:select """
+            PREFIX schema: <https://schema.org/>
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            SELECT DISTINCT $this
+            WHERE {
+                $this schema:publisher [ schema:name ?pubName ] .
+                FILTER NOT EXISTS { $this martialis:partOf ?anyC }
+                FILTER NOT EXISTS { $this martialis:specializationOf ?resource }
+                ?container a martialis:Source ; schema:name ?contTitle .
+                FILTER (?container != $this)
+                FILTER EXISTS { ?anyItem martialis:partOf ?container }
+                FILTER (CONTAINS(LCASE(?pubName), LCASE(?contTitle)))
+            }
+        """
+    ] ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "container name in item title" ;
+        sh:message "Quality check: the title ends with its container's name - a page's title is its own title; the site comes from partOf." ;
+        sh:select """
+            PREFIX schema: <https://schema.org/>
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            SELECT DISTINCT $this
+            WHERE {
+                $this martialis:partOf/schema:name ?contTitle ;
+                      schema:name ?title .
+                FILTER (
+                    STRENDS(LCASE(STR(?title)), LCASE(STR(?contTitle))) ||
+                    STRENDS(LCASE(STR(?title)), LCASE(CONCAT(STR(?contTitle), ")"))) ||
+                    (STRSTARTS(STR(?contTitle), "Wikipedia")
+                        && REGEX(STR(?title), "[-–|(] *(Wikip[eé]dia|ウィキペディア)[^-–|]*$", "i"))
+                )
+            }
+        """
+    ] .
+
+# Evidence should cite the item consulted, not the container it belongs to.
+shapes:EvidenceContainerQualityShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Evidence cites a container source"@en ;
+    rdfs:comment "Info: an evidence record points at a container Source (a language edition, a journal, a series) rather than the item actually consulted, so the article or document is not identifiable from the citation."@en ;
+    sh:targetClass martialis:SourceAssertionRelation ;
+    sh:severity sh:Info ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "evidence cites container source" ;
+        sh:message "Quality check: basedOnSource points at a container Source (a Source something else is partOf) - cite the item-level Source, or fall back to uri+cite, so the article/document itself is identifiable." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            SELECT DISTINCT $this ?container
+            WHERE {
+                $this martialis:basedOnSource ?container .
+                ?item martialis:partOf ?container .
+            }
+        """
+    ] .
+
+# Confidence Ceiling
+# Each level's definition in ontology/vocabularies.ttl, as the least evidence
+# it needs. A finding means the authored level claims more than its evidence
+# shows; the authored level stays authoritative. supports false does not cap:
+# a confirmed claim with counter-evidence is "conflicting evidence resolved".
+# Confirmed needs attestation beyond the claimant: a second independent Source,
+# or the other party's own record (the teacher's account of a student, the
+# grantor's register). The second case is not machine-detectable, so a confirmed
+# claim on one Source is listed for the curator to check. Distinct Sources are
+# distinct containers (partOf), else distinct basedOnSource or url values, with
+# every Wikipedia article counted as one Source; other copying between Sources
+# is not tested.
+# Refuted, the mirror of confirmed, needs a contradicting citation that is
+# direct or indirect evidence: negative evidence alone is an absence, not an
+# incompatibility.
+shapes:ConfidenceCeilingQualityShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Confidence ceiling"@en ;
+    rdfs:comment "Signals assertions whose confidence level exceeds what their evidence can support under the level's definition."@en ;
+    sh:targetClass martialis:TeacherAssertion, martialis:RankAssertion, martialis:HonorAssertion,
+        martialis:StyleRelationAssertion,
+        martialis:DocumentTransmissionAssertion, martialis:IdentityAssertion, martialis:HistoricityAssertion,
+        martialis:AffiliationAssertion, martialis:Participation, martialis:InstructorRole, martialis:OfficerRole,
+        martialis:Membership ;
+    sh:severity sh:Info ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "confirmed without establishing evidence" ;
+        sh:message "Quality check: confirmed, but fewer than two independent Sources give direct support (pages of one container, and all of Wikipedia, count once) - right only if the one Source is the other party's own record (teacher's account, grantor's register); otherwise probable." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            PREFIX conflevel: <https://w3id.org/martialis/vocab/confidence-level/>
+            PREFIX infotype: <https://w3id.org/martialis/vocab/information-type/>
+            PREFIX evidencetype: <https://w3id.org/martialis/vocab/evidence-type/>
+            PREFIX sdo: <https://schema.org/>
+            SELECT $this WHERE {
+                $this martialis:hasConfidence/martialis:confidenceLevel conflevel:confirmed .
+                OPTIONAL {
+                    SELECT $this (COUNT(DISTINCT ?src) AS ?n) WHERE {
+                        $this (martialis:hasEvidence | martialis:hasInteraction/martialis:hasEvidence) ?ev .
+                        ?ev martialis:supports true ; martialis:evidenceType evidencetype:direct .
+                        OPTIONAL { ?ev martialis:basedOnSource ?bs } OPTIONAL { ?ev sdo:url ?u }
+                        OPTIONAL { ?ev martialis:basedOnSource/sdo:url ?bsu }
+                        OPTIONAL { ?ev martialis:basedOnSource/martialis:partOf ?cont }
+                        BIND(IF(CONTAINS(STR(COALESCE(?bsu, ?u, "")), "wikipedia.org"), "wikipedia", COALESCE(?cont, ?bs, ?u)) AS ?src)
+                    } GROUP BY $this
+                }
+                FILTER(COALESCE(?n, 0) < 2)
+            }
+        """
+    ] ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "probable without direct evidence" ;
+        sh:message "Quality check: probable or confirmed, but no supporting citation is assessed as direct evidence - consider possible, or assess the citations' evidenceType." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            PREFIX conflevel: <https://w3id.org/martialis/vocab/confidence-level/>
+            PREFIX evidencetype: <https://w3id.org/martialis/vocab/evidence-type/>
+            SELECT $this WHERE {
+                VALUES ?level { conflevel:probable conflevel:confirmed }
+                $this martialis:hasConfidence/martialis:confidenceLevel ?level .
+                FILTER NOT EXISTS {
+                    $this (martialis:hasEvidence | martialis:hasInteraction/martialis:hasEvidence) ?ev .
+                    ?ev martialis:supports true ; martialis:evidenceType evidencetype:direct .
+                }
+            }
+        """
+    ] ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "refuted without incompatible evidence" ;
+        sh:message "Quality check: refuted, but no contradicting citation (supports false) is direct or indirect evidence - the absence of an expected record alone does not refute a claim; consider doubtful." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            PREFIX conflevel: <https://w3id.org/martialis/vocab/confidence-level/>
+            PREFIX evidencetype: <https://w3id.org/martialis/vocab/evidence-type/>
+            SELECT $this WHERE {
+                $this martialis:hasConfidence/martialis:confidenceLevel conflevel:refuted .
+                FILTER NOT EXISTS {
+                    VALUES ?type { evidencetype:direct evidencetype:indirect }
+                    $this (martialis:hasEvidence | martialis:hasInteraction/martialis:hasEvidence) ?ev .
+                    ?ev martialis:supports false ; martialis:evidenceType ?type .
+                }
+            }
+        """
+    ] ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "tradition-only confirmed" ;
+        sh:message "Quality check: confirmed, but every supporting source is the lineage's own recount of its past - sources sharing one origin cannot corroborate each other, so probable at most. A grant recorded by the granting body itself is exempt." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            PREFIX conflevel: <https://w3id.org/martialis/vocab/confidence-level/>
+            PREFIX sdo: <https://schema.org/>
+            SELECT $this WHERE {
+                $this a martialis:TraditionOnlyAssertion ;
+                      martialis:hasConfidence/martialis:confidenceLevel conflevel:confirmed .
+                FILTER NOT EXISTS {
+                    $this (martialis:conferredBy | martialis:grantedBy) ?grantor ;
+                          martialis:hasEvidence/martialis:basedOnSource/sdo:publisher/martialis:publisherOrg ?grantor .
+                }
+            }
+        """
+    ] .
+
+# Style Relation Integrity
+
+shapes:StyleSiblingAsymmetryQualityShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Asymmetric sibling_style_of"@en ;
+    rdfs:comment "sibling_style_of is a peer relationship and should be declared on both styles; flags a one-way declaration."@en ;
+    sh:targetClass martialis:StyleRelationAssertion ;
+    sh:severity sh:Warning ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "asymmetric sibling_style_of" ;
+        sh:message "Quality check: sibling_style_of is declared one-way - the other style should declare it back." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            PREFIX stylerel: <https://w3id.org/martialis/vocab/style-relation/>
+            SELECT DISTINCT $this
+            WHERE {
+                ?a ?link $this .
+                $this martialis:relatedStyle ?b ;
+                      martialis:styleRelationType stylerel:sibling_style_of .
+                FILTER NOT EXISTS {
+                    ?b ?back ?rev .
+                    ?rev martialis:relatedStyle ?a ;
+                         martialis:styleRelationType stylerel:sibling_style_of .
+                }
+            }
+        """
+    ] .
+
+shapes:StyleVariantCycleQualityShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Style variant_of cycle"@en ;
+    rdfs:comment "variant_of describes a narrower-to-broader lineage and should never cycle back to its own starting style."@en ;
+    sh:targetClass martialis:Style ;
+    sh:severity sh:Warning ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "variant_of cycle" ;
+        sh:message "Quality check: this style's variant_of chain cycles back to itself." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            SELECT DISTINCT $this
+            WHERE {
+                FILTER EXISTS { $this martialis:variantOf+ $this }
+            }
+        """
+    ] .
+
+# Media Rights
+
+shapes:MediaRightsUnknownQualityShape
+    a sh:NodeShape ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+    rdfs:label "Media rights unknown"@en ;
+    rdfs:comment "Flags Photo/Video items with no rights value: the copyright status of the media file has not been evaluated."@en ;
+    sh:targetClass martialis:Photo, martialis:Video ;
+    sh:property [
+        sh:path martialis:mediaRights ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Quality check: media item has no rights value - copyright status not evaluated."
+    ] .

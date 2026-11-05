@@ -1,0 +1,78 @@
+type: Organization
+id: 01M6BFF6ZQX0D5J1DB52CSD392
+name:
+  en: Tenyokai International
+orgType: orgclass:association
+foundedEvent:
+  startDate: '2011-01-01'
+  location:
+    label: England
+    countryCode: eucountry:GBR
+    wikidata: wd:Q21
+  hasEvidence:
+    - uri: https://en.wikipedia.org/wiki/Tenjin_Shin%27y%C5%8D-ry%C5%AB
+      archiveUri: https://en.wikipedia.org/w/index.php?title=Tenjin_Shin%27y%C5%8D-ry%C5%AB&oldid=813778759
+      cite: Tenjin Shin'yō-ryū - Wikipedia (revision of 2017-12-05)
+      quotation: 'After his promotion to Menkyo Kaiden, Masters was asked by Kubota Shihanke to head the international (i.e. non-Japanese) Tenjin community, and to this end the England dojo became the headquarters of Tenyokai International on the 1st January 2011.'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    International body of the Tenyokai for Tenjin Shinyo-ryu jujutsu outside Japan, headed by Paul
+    Masters, with its headquarters at his dojo in England from 1 January 2011.
+hasEvidence:
+- uri: http://www.tenyokai.com/
+  cite: TENYOKAI INTERNATIONAL
+  quotation: 'The Tenyokai International is the official representative of the Tenyokai Japan.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M6BFF6ZQFXTNHHXWMD794945
+    relatedOrganization: 01M6BFF6ZQRPZAPEACCS653K67
+    affiliationRelation: affrel:branch_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Its own site says it is the official representative of the Tenyokai Japan; an older English Wikipedia revision says Kubota asked Masters to head it.
+    hasEvidence:
+      - uri: http://www.tenyokai.com/
+        cite: TENYOKAI INTERNATIONAL
+        quotation: 'The Tenyokai International is the official representative of the Tenyokai Japan.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - uri: https://en.wikipedia.org/wiki/Tenjin_Shin%27y%C5%8D-ry%C5%AB
+        archiveUri: https://en.wikipedia.org/w/index.php?title=Tenjin_Shin%27y%C5%8D-ry%C5%AB&oldid=813778759
+        cite: Tenjin Shin'yō-ryū - Wikipedia (revision of 2017-12-05)
+        quotation: 'After his promotion to Menkyo Kaiden, Masters was asked by Kubota Shihanke to head the international (i.e. non-Japanese) Tenjin community, and to this end the England dojo became the headquarters of Tenyokai International on the 1st January 2011.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M6BFF6ZQGQRJB806CB2J2A7X
+    officer: 01M6BFF6ZQZH48Q8WMFKPD4P53
+    officerTitle: Head (Shike)
+    officerPeriod:
+      startYear: 2011
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Its own site and an older English Wikipedia revision.
+    hasEvidence:
+      - uri: http://www.tenyokai.com/
+        cite: TENYOKAI INTERNATIONAL
+        quotation: 'It is headed by Paul Masters Shike, the first ever westerner to hold the Menkyo Kaiden – licence of full transmission- awarded directly from the late Kubota Toshihiro.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - uri: https://en.wikipedia.org/wiki/Tenjin_Shin%27y%C5%8D-ry%C5%AB
+        archiveUri: https://en.wikipedia.org/w/index.php?title=Tenjin_Shin%27y%C5%8D-ry%C5%AB&oldid=813778759
+        cite: Tenjin Shin'yō-ryū - Wikipedia (revision of 2017-12-05)
+        quotation: 'After his promotion to Menkyo Kaiden, Masters was asked by Kubota Shihanke to head the international (i.e. non-Japanese) Tenjin community, and to this end the England dojo became the headquarters of Tenyokai International on the 1st January 2011.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+notes: >-
+  Its site, tenyokai.com, is the "Tenyokai International" cited on Tenjin Shinyo-ryu records.

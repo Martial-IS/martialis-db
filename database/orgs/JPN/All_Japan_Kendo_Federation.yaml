@@ -1,0 +1,61 @@
+type: Organization
+id: 01M0R2X2ACBZDHS6JXQ7CTAMC8
+name:
+  en: All Japan Kendo Federation
+  ja-Latn: Zen Nihon Kendō Renmei
+  ja: 全日本剣道連盟
+aka:
+  en: AJKF
+orgType: orgclass:federation
+hasSite:
+  - location:
+      label: Tokyo
+      countryCode: eucountry:JPN
+      wikidata: wd:Q1490
+foundedEvent:
+  startDate: '1952-10-14'
+  hasEvidence:
+    - basedOnSource: 01M5B0HQVSZM6BADD0ZM6ZBVJ0
+      quotation: >-
+        AJKF was established on October 14, 1952
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5B0HQVSDCES96T14PY7Q0QJ
+      quotation: >-
+        設立 1952年（昭和27年）10月14日
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+website: https://www.kendo.or.jp/en/
+hasOfficerRole:
+  - id: 01M4R9845WDM9V3B8DKATP572J
+    officer: 01M3788RSR2PQ6HNEMVASVG2VC
+    officerTitle: President
+    officerPeriod:
+      startYear: 1952
+      endYear: 1972
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One authored history.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: He became the first president of the All Japan Kendo Federation when it was established in 1952 and remained in this position until 1972.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: the All Japan Kendo Federation was officially launched on October 14, with Kimura Tokutarō appointed as its first president.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: The national governing body for kendo, iaido and jodo in Japan, founded in 1952 and the authority through which dan grades in these arts are certified. A founding member of the International Kendo Federation (FIK) and organiser of the World Kendo Championships, first held at the Nippon Budokan, Tokyo in April 1970.
+hasEvidence:
+  - basedOnSource: 01M3S8DRZ3VZF9Z4SZKTGBC7GW
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q189440

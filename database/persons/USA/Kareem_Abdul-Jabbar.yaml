@@ -1,0 +1,81 @@
+type: Person
+id: 01M6ERSPBW67HZR2V8W0YRC3S3
+name:
+  en: Kareem Abdul-Jabbar
+aka:
+  en:
+  - Lew Alcindor
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+birthEvent:
+  birthDate: '1947-04-16'
+  birthPlace:
+    label: Harlem, New York City
+    countryCode: eucountry:USA
+    wikidata: wd:Q189074
+  hasEvidence:
+  - basedOnSource: 01M6ERRV5G8SZE3Z8AZMJ2MRQ7
+    quotation: >-
+      Kareem Abdul-Jabbar (born Ferdinand Lewis Alcindor Jr., April 16, 1947)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6ERRV5G8SZE3Z8AZMJ2MRQ7
+    quotation: >-
+      Kareem Abdul-Jabbar was born Ferdinand Lewis Alcindor Jr. in Harlem, New York City
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/a/a0/Kareem_Abdul-Jabbar_May_2014.jpg
+  rights: mediarights:cc-by-2.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Kareem_Abdul-Jabbar_May_2014.jpg
+    cite: "Yahoo, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    American basketball player; NBA all-time great with the Milwaukee Bucks and Los Angeles Lakers.
+hasTeacherAssertion:
+- id: 01M6ERSPBWX5SMXWC8N9YJER8F
+  teacher: 01KYD5XMNMNAG3CPC17GKACPW0
+  assertedStyle: 01KYD5XSZPND9XV5FHYG9V0ZV6
+  role: teachrole:private
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Kareem's own words; Chang's history agrees
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1968
+    hasEvidence:
+    - basedOnSource: 01M6ERRV5GFAR9Y7YS3J0N6DST
+      quotation: >-
+        "Bruce always emphasized the effectiveness of stretching," Abdul-Jabbar [...] "So before we worked out, we stretched all the time.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ERRV5G6SC9B9GYJH2ZRQN5
+      quotation: >-
+        “Big Lew,” as Bruce called him, came to his backyard every Tuesday during the off-season, and sometimes Thursdays as well. Bruce taught him Jeet Kune Do footwork, the mook jong dummy, and punches and kicks on the bag.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ERRV5G6SC9B9GYJH2ZRQN5
+      quotation: >-
+        When Bruce Lee met Kareem Abdul-Jabbar, a month after the 1968 national college basketball championship
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M6ERRV5G8SZE3Z8AZMJ2MRQ7
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q179051
+tags:
+- jeet-kune-do
+- basketball

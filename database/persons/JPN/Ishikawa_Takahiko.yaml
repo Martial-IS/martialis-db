@@ -1,0 +1,84 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1SQ
+name:
+  ja-Latn: Ishikawa Takahiko
+  ja: 石川隆彦
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1917-05-15'
+  birthPlace:
+    label: Mitoyo, Kagawa
+    countryCode: eucountry:JPN
+    wikidata: wd:Q873578
+deathEvent:
+  deathDate: '2008-06-09'
+  deathPlace:
+    label: Japan
+    countryCode: eucountry:JPN
+    wikidata: wd:Q17
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/c/c6/Takahiko_Ishikawa_%281949%29.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Takahiko_Ishikawa_(1949).jpg
+    cite: "Kodokan and All-Japan Judo Federation, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: 'Takahiko Ishikawa (石川隆彦, Ishikawa Takahiko, 1917–2008) was an All Japan Judo Champion. In the 1949 All-Japan Judo Championships Takahiko fought Masahiko Kimura to a draw. In the following year he became the champion and subsequently placed three more times in the semi-finals and then retired.      '
+  ja: 石川 隆彦（いしかわ たかひこ、1917年〈大正6年〉5月15日 - 2008年 〈平成20年〉6月9日）は日本の柔道家（講道館9段）。戦前から戦後に かけて昭和天覧試合準優勝、第2回・第3回全日本選手権優勝等の成績を 残し、晩年は米国で柔道普及を行った。身長175cm、体重82kg。
+hasTeacherAssertion:
+  - id: 01M3YH7N5GE9PBZEWXYTHXFPBC
+    teacher: 01KJJAWN29MA64W22606R3WD7J
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: A single Facebook group history post names him as one of Ushijima Tatsukuma's
+        'three musketeers' alongside Tokio Hirano and Masahiko Kimura; no independent corroboration was
+        found
+    role: teachrole:student
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M3M3T743G46J49N1G8WFZFRE
+            quotation: And while the Butokukai was closed in1946 the legacy of Judo that Ushijima created lived on in the accomplishments and exploits of his three best students well into the 50's and 60's. Call them his three musketeers. They were not Athos, Porthos and Aramis with weapons of swords and guns but Tokio Hirano, Masahiko Kimura and Takahiko Ishikawa armed with lethal Judo. [...] The third of this trio was Takahiko Ishikawa. In one All Japan Ishikawa and Kimura fought a scoreless match for 25 minutes with both being declared All Japan champions
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GJDJ99PN94DM3DRG3
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 9
+    conferredBy: 01KJJAWN29MA64W22606R3WD7X
+    dateConferred: '1984'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Officially awarded 9 dan by Kodokan in 1984 during the 100th anniversary celebration, well-documented in Wikipedia and other historical sources
+    hasEvidence:
+      - uri: https://ja.wikipedia.org/wiki/%E7%9F%B3%E5%B7%9D%E9%9A%86%E5%BD%A6
+        archiveUri: https://ja.wikipedia.org/w/index.php?title=%E7%9F%B3%E5%B7%9D%E9%9A%86%E5%BD%A6&oldid=109382019
+        cite: 石川隆彦 (Wikipedia)
+        quotation: 1963年に8段を許され、1984年の講道館創立100周年記念に際して9段へ昇段。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+notes: JP Wikipedia mentions his father was a Muso-ryu master and Judo 3rd dan, needs investigation. Also, Butokukai link needs to be confirmed and DBBK rank added if confirmed
+sameAs:
+  - wd:Q11586411
+tags:
+  - dnbk
+hasEvidence:
+  - uri: https://ja.wikipedia.org/wiki/%E7%9F%B3%E5%B7%9D%E9%9A%86%E5%BD%A6
+    archiveUri: https://ja.wikipedia.org/w/index.php?title=%E7%9F%B3%E5%B7%9D%E9%9A%86%E5%BD%A6&oldid=109382019
+    cite: 石川隆彦 - Wikipedia
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://www.usjf.com/takahiko-ishikawa/
+    cite: Memories of My Sensei Takahiko Ishikawa, 9th Dan by Harold (Hal) E. Sharp (USJF)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct

@@ -1,0 +1,46 @@
+type: Place
+id: 01M36JXD2E50VXFTX7JKKZ6E3Z
+name:
+  en: Taiikukai Hall
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: San Diego, California
+      countryCode: eucountry:USA
+      wikidata: wd:Q16552
+    address: 6th Avenue and Market Street, San Diego, California
+foundedEvent:
+  startDate: '1925'
+  hasEvidence:
+    - basedOnSource: 01M36JXD2E86THVD07XB90Q3K6
+      quotation: According to oral reports, the only Judo Club existing in the San Diego area prior to World War II was one located upstairs in Taiikukai Hall, 6th Avenue and Market Street, which operated for several years beginning in 1925.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M4R9845WW37B4W7C2VB4X617
+    instructor: 01KJJAWN28MWKKSN4J02MVY1T3
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1925
+      endYear: 1927
+    notes: The source spells the name Mikonosake Kawaishi and marks the two-year span with a sic. The 1925 to 1927 dates follow that span.
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One local history states he was the first instructor, for two years; the source marks the span sic.
+    hasEvidence:
+      - basedOnSource: 01M36JXD2E86THVD07XB90Q3K6
+        quotation: The first Sensei was Mikonosake Kawaishi (unable to discover his grade at that time) who instructed there for two years (sic).
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M36JXD2E86THVD07XB90Q3K6
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - usa
+  - san-diego

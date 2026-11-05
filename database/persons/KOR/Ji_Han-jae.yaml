@@ -1,0 +1,62 @@
+type: Person
+id: 01M5H45XTY6FKGMM7K74CZ7C9N
+name:
+  en: Ji Han-jae
+nationality:
+  - countryCode: eucountry:KOR
+    wikidata: wd:Q884
+birthEvent:
+  birthDate: '1936'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: Ji Han-Jae (1936–) began to train with Choi in 1953.
+      locator: '184'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Korean Hapkido teacher, student of Choi Yong-sul from 1953, who with Kim Moo-hong organised the
+    kicking repertoire of Yu Kwon Sool; his students call him the "father of modern Hapkido".
+hasTeacherAssertion:
+  - id: 01M5H45XTYNC5NXRNSWY6B5BKN
+    teacher: 01M5H45XTYZJGP4BK91872Q9E3
+    assertedStyle: 01M5H45XTYC7KSZ5CZ9WKV4T0D
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1953
+        hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: Ji Han-Jae (1936–) began to train with Choi in 1953.
+            locator: '184'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Martial descendants from Ji’s tradition support Ji’s reputation as the “father of modern
+      Hapkido.”
+    locator: '185'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q496994
+tags:
+  - hapkido
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/6/61/Ji_Han-Jae_sitting.jpg
+  rights: mediarights:cc-by-sa-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Ji_Han-Jae_sitting.jpg
+    cite: "Ink Falls, Wikimedia Commons"
+    informationType: infotype:secondary

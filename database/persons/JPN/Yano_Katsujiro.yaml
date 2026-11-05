@@ -1,0 +1,38 @@
+type: Person
+id: 01M6EFVT2TDHXGDD2G5Y8M1K0F
+name:
+  ja-Latn: Yano Katsujirō
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+description:
+  en: >-
+    Shintō Mukyō-ryū and Jikishinkage-ryū kenshi of Kyoto, a Butokukai kyōshi; studied under Takayama
+    Minezaburō at the Ōtsu police dojo from 1880. Member of the Butokukai kata committees of 1906 and 1912.
+hasTeacherAssertion:
+- id: 01M6EFVT2V20R1DE9PHM3EXJ13
+  teacher: 01M6EFVT2T1XK3H6D3NX8B1PNJ
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: A kenshi247 article and the 1925 Kendoka shashin meikan, whose entries their subjects supplied.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M6EF6KKAPHH4FA4HHSNRH76T
+      quotation: Yano Katsujiro, a future prominent Butokukai kenshi, started to travel here from Kyoto for keiko at this time to study under Takayama
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6EF6KKA6C1PENQY8MCK6TN1
+      quotation: 'Yano Katsujirō [...] Training: Toda Einosuke, Takayama Minesaburō, Hayashi Ichidō'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M6EF6KKAPHH4FA4HHSNRH76T
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- kendo

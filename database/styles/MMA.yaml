@@ -1,0 +1,217 @@
+type: Style
+id: 01KYSS3B587WR241FHHW19X24T
+name:
+  en: Mixed Martial Arts
+aka:
+  en:
+    - MMA
+styleType: styleclass:modern
+styleForm:
+  - styleform:hybrid
+  - styleform:sport
+description:
+  en: Mixed martial arts (MMA) is a full-contact combat sport that combines striking and grappling technique from multiple disciplines - including Brazilian jiu-jitsu, wrestling, Muay Thai and boxing - under a single, codified ruleset. It emerged from early no-holds-barred contests in the 1990s and is regulated today under the Unified Rules of Mixed Martial Arts. Unlike those component arts, MMA has no rank or belt system of its own; practitioners typically train and grade in one or more of them separately.
+foundedEvent:
+  startDate: '2000'
+  location:
+    countryCode: eucountry:USA
+  hasEvidence:
+    - basedOnSource: 01KYSS3B598HGA8MCM8MHRMCBV
+      quotation: >-
+        In September 2000, the New Jersey State Athletic Control Board (NJSACB) began to allow MMA promoters to
+        conduct events in New Jersey.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KYSS3B598HGA8MCM8MHRMCBV
+      quotation: On July 30, 2009, a motion was made at the annual meeting of the Association of Boxing Commissions to adopt these rules as the "Unified Rules of Mixed Martial Arts". The motion passed unanimously.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5GVCNCX52QKWMYDVP4
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9J
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        BJJ ground technique is named, alongside wrestling, Muay Thai and boxing, as one of the
+        disciplines MMA gyms train fighters in as a matter of course, and BJJ practitioners dominated
+        early MMA competition specifically because of that technique.
+    hasEvidence:
+      - basedOnSource: 01KYSS3B598HGA8MCM8MHRMCBT
+        quotation: MMA gyms serve as specialized training centers where fighters develop their skills across various martial arts disciplines, such as Brazilian jiu-jitsu, wrestling, Muay Thai, and boxing.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KYSS3B598HGA8MCM8MHRMCBT
+        quotation: In the early 1990s, practitioners of grappling based styles such as Brazilian jiu-jitsu dominated competition in the United States.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GE29EK1F3RS3ZJ8P3
+    relatedStyle: 01KYJ39BQPQ7JTTDQ3B36PZQQN
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wrestling is named as a standard MMA gym discipline and takedown technique is core, everyday MMA
+        curriculum.
+    hasEvidence:
+      - basedOnSource: 01KYSS3B598HGA8MCM8MHRMCBT
+        quotation: MMA gyms serve as specialized training centers where fighters develop their skills across various martial arts disciplines, such as Brazilian jiu-jitsu, wrestling, Muay Thai, and boxing.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GN1X4KWZXYJBFYGHF
+    relatedStyle: 01KYEY02EJDAF10TC75D1V8DX0
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Muay Thai striking (clinch, knees, low kicks) is named as a standard MMA gym discipline and
+        forms the bulk of MMA's stand-up striking syllabus.
+    hasEvidence:
+      - basedOnSource: 01KYSS3B598HGA8MCM8MHRMCBT
+        quotation: MMA gyms serve as specialized training centers where fighters develop their skills across various martial arts disciplines, such as Brazilian jiu-jitsu, wrestling, Muay Thai, and boxing.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G6CHT5ETWVB702DA4
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9N
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Boxing hands are named as a standard MMA gym discipline and are the near-universal basis of MMA
+        punching technique.
+    hasEvidence:
+      - basedOnSource: 01KYSS3B598HGA8MCM8MHRMCBT
+        quotation: MMA gyms serve as specialized training centers where fighters develop their skills across various martial arts disciplines, such as Brazilian jiu-jitsu, wrestling, Muay Thai, and boxing.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G4HYRCJT92AQP7E7C
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9S
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        No source names karate as a discipline MMA gyms teach as a matter of course - it enters through
+        individual fighters' prior backgrounds (Lyoto Machida's Shotokan base being the clearest case).
+    hasEvidence:
+      - basedOnSource: 01KYSS3B598HGA8MCM8MHRMCBT
+        quotation: Practitioners of striking based arts such as boxing, kickboxing, and karate, who were unfamiliar with submission grappling, proved to be unprepared to deal with its submission techniques.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - uri: https://en.wikipedia.org/wiki/Lyoto_Machida
+        archiveUri: https://en.wikipedia.org/w/index.php?title=Lyoto_Machida&oldid=1380862490
+        quotation: >-
+          His style is based mainly on tactics using Shotokan karate and Brazilian jiu-jitsu, but also integrates techniques from wrestling and sumo
+        cite: Lyoto Machida (Wikipedia EN)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GYMMDT98KK6YPB4RP
+    relatedStyle: 01KYHTJXCXHYSC519CB367XXZK
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        No source names taekwondo as a discipline MMA gyms teach; it enters through individual fighters'
+        prior backgrounds (Anderson Silva's taekwondo dan being the clearest case).
+    hasEvidence:
+      - uri: https://en.wikipedia.org/wiki/Anderson_Silva
+        archiveUri: https://en.wikipedia.org/w/index.php?title=Anderson_Silva&oldid=1379640517
+        quotation: As a teen, Silva began training in taekwondo, capoeira and muay thai.
+        cite: Anderson Silva (Wikipedia EN)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G6BEK1CQBCCWQTEH5
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9H
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        No source names sambo as a discipline MMA gyms teach; it enters through individual fighters'
+        prior sambo background (e.g. Fedor Emelianenko's).
+    hasEvidence:
+      - basedOnSource: 01KYSS3B598HGA8MCM8MHRMCBT
+        quotation: Sambo, a martial art and combat sport developed in Russia in the early 1920s, merged various forms of combat styles such as wrestling, judo and striking into one unique martial art.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - uri: https://en.wikipedia.org/wiki/Fedor_Emelianenko
+        archiveUri: https://en.wikipedia.org/w/index.php?title=Fedor_Emelianenko&oldid=1379759753
+        quotation: Merited Master of Sport and 1st Razryad Grand Master in Sambo
+        cite: Fedor Emelianenko (Wikipedia EN)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GME920T5QMJDA000B
+    relatedStyle: 01KYEWRMWERM1HW12W53HE9G4A
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Catch wrestling is not itself a discipline MMA gyms teach by that name today - it reaches modern
+        MMA indirectly, via the submission-wrestling and shoot-wrestling lineages it fed into (Shooto
+        among them).
+    hasEvidence:
+      - basedOnSource: 01KYSS3B598HGA8MCM8MHRMCBT
+        quotation: In turn, catch wrestling went on to greatly influence modern MMA.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GGY0ZGSYM3G1M8RBV
+    relatedStyle: 01KYDKY8XR1HY4G4NQW7P8M1XC
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia only.
+    notes: >-
+      Shooto keeps its own founder, organisation and identity, so it is not a component of MMA. If its
+      post-1990s identity is an MMA ruleset or promotion, the reverse edge (Shooto variant_of MMA) fits
+      better; to decide in Shooto.yaml.
+    hasEvidence:
+      - basedOnSource: 01KYSS3B598HGA8MCM8MHRMCBT
+        quotation: Japan had its own form of mixed martial arts discipline, Shooto, which was created from shoot wrestling in 1985 by "Tiger Mask" Satoru Sayama
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYSS3B598HGA8MCM8MHRMCBT
+    quotation: Mixed martial arts (MMA) is a full-contact combat sport based on striking and grappling, incorporating techniques from various combat sports from around the world.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYSS3B598HGA8MCM8MHRMCBV
+    quotation: On July 30, 2009, a motion was made at the annual meeting of the Association of Boxing Commissions to adopt these rules as the "Unified Rules of Mixed Martial Arts". The motion passed unanimously.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q114466
+tags:
+  - mma
+  - mixed-martial-arts
+  - sport
+  - hybrid
+confersRank: false
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/4/49/UFC_131_Carwin_vs._JDS.jpg
+    rights: mediarights:cc-by-sa-3.0
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:UFC_131_Carwin_vs._JDS.jpg
+      cite: "Bad intentionz, Wikimedia Commons"

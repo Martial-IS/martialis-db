@@ -1,0 +1,18 @@
+# Confidence level and cited sources for a person's teacher assertions.
+PREFIX martialis: <https://w3id.org/martialis/ontology#>
+PREFIX schema: <https://schema.org/>
+
+SELECT ?teacherName ?level ?sourceName WHERE {
+  ?person schema:name "Kanō Jigorō"@ja-Latn ;
+          martialis:hasTeacherAssertion ?ta .
+  ?ta martialis:teacher ?teacher ;
+      martialis:hasConfidence ?c ;
+      martialis:hasInteraction ?i .
+  ?c martialis:confidenceLevel ?level .
+  ?i martialis:hasEvidence ?ev .
+  ?ev martialis:basedOnSource ?src .
+  ?teacher schema:name ?teacherName . FILTER(langMatches(LANG(?teacherName), "ja-Latn"))
+  OPTIONAL { ?src schema:name ?sourceName }
+}
+ORDER BY ?teacherName ?level
+LIMIT 25

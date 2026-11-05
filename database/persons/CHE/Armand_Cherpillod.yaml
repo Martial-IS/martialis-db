@@ -1,0 +1,126 @@
+type: Person
+id: 01M5JGQAC76074SKD1E1YAEVYR
+name:
+  en: Armand Cherpillod
+  fr: Armand Cherpillod
+nationality:
+  - countryCode: eucountry:CHE
+    wikidata: wd:Q39
+birthEvent:
+  birthDate: '1876-11-25'
+  birthPlace:
+    label: Vraconnaz, Sainte-Croix
+    countryCode: eucountry:CHE
+  hasEvidence:
+    - basedOnSource: 01M5JGQAC70J4S7D09CDXF0V2E
+      quotation: >-
+        né le 25 novembre 1876 à Vraconnaz, près de Sainte-Croix, dans le Canton de Vaud, et mort à
+        Sainte-Croix le 26 août 1940
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1940-08-26'
+  deathPlace:
+    label: Sainte-Croix
+    countryCode: eucountry:CHE
+  hasEvidence:
+    - basedOnSource: 01M5JGQAC70J4S7D09CDXF0V2E
+      quotation: >-
+        né le 25 novembre 1876 à Vraconnaz, près de Sainte-Croix, dans le Canton de Vaud, et mort à
+        Sainte-Croix le 26 août 1940
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Swiss wrestling champion who taught gymnastics and freestyle wrestling at the Bartitsu Club in
+    London from 1901, where Yukio Tani and Sadakazu Uyenishi taught him jujutsu, and fought in the
+    music-hall challenge matches. Back in Switzerland he taught physical education and self-defence to
+    police forces.
+hasTeacherAssertion:
+  - id: 01M5JGQAC7HJJY411GHJJNGGQE
+    teacher: 01M06K0RMZNWJ90EEQ7CXBFHGS
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9G
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        One source states it; the other implies it.
+    hasInteraction:
+      - interactionPlace: 01M5JGQAC7XV79MRCH8733JRZ4
+        interactionPeriod:
+          startYear: 1901
+        hasEvidence:
+          - basedOnSource: 01M5JGQAC70J4S7D09CDXF0V2E
+            quotation: >-
+              où il enseigne aux côtés de deux jeunes Ju-Jitsuka, Yukio Tani (en) et Sadakazu Uyenishi
+              (en) qui lui apprennent le ju-jitsu.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Cherpillod (1880–?) was Swiss (the German title translates as “Self-Help: Jiu Jitsu for
+              Women”), but he had learned his jujitsu methods at Barton-Wright’s academy.
+            locator: '634'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+  - id: 01M5JGQAC75SVZN59T0JNYAEVS
+    teacher: 01M06FKBQ1AB6FKXQBFBFKKDRH
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9G
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        One source states it; the other implies it.
+    hasInteraction:
+      - interactionPlace: 01M5JGQAC7XV79MRCH8733JRZ4
+        interactionPeriod:
+          startYear: 1901
+        hasEvidence:
+          - basedOnSource: 01M5JGQAC70J4S7D09CDXF0V2E
+            quotation: >-
+              où il enseigne aux côtés de deux jeunes Ju-Jitsuka, Yukio Tani (en) et Sadakazu Uyenishi
+              (en) qui lui apprennent le ju-jitsu.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Cherpillod (1880–?) was Swiss (the German title translates as “Self-Help: Jiu Jitsu for
+              Women”), but he had learned his jujitsu methods at Barton-Wright’s academy.
+            locator: '634'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M0BCX1XW7EF50ANP0G8F9JX1
+    quotation: >-
+      Swiss master-at-arms Pierre Vigny and wrestler Armand Cherpillod were also employed as teachers at
+      the Club.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5JGQAC70J4S7D09CDXF0V2E
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q20961777
+tags:
+  - wrestling
+  - jujutsu
+  - bartitsu
+  - switzerland
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/7/7b/Armand-Cherpillod-in-gi.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Armand-Cherpillod-in-gi.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary

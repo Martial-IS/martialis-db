@@ -1,0 +1,77 @@
+type: Style
+id: 01M2Z6TY1P5NRR5B3YNNDQWJ1M
+name:
+  en: Hokushin Ittō-ryū
+  ja-Latn: Hokushin Ittō-ryū
+  ja: 北辰一刀流
+aka:
+  en:
+  - Hokushin Itto-ryu
+styleType: styleclass:traditional
+rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+foundedEvent:
+  startDate: '[1820,1822]'
+  founder:
+  - 01M2Z6TY1PA6YAVJDRS9H9BF2F
+  hasEvidence:
+  - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+    quotation: "Of the hundreds of fencing academies, the so-called three great dojos of Edo stood out: Chiba Shūsaku's (1794-1856) Genbukan (Hokushin Ittō-ryū), established in 1820"
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M2Z6TY1P746106MK1A63MWF7
+    quotation: 文政5年（1822年）秋、日本橋品川町に玄武館という道場を建て、後に神田於玉ヶ池に移転し、多数の門人を抱えて、剣術最大の流派となった。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasStyleRelationAssertion:
+- id: 01M3YH7N5GEJ1Q1P51HWSXBNM5
+  relatedStyle: 01KZC19BDCWTW7WHTJG4S3A0D6
+  styleRelationType: stylerel:variant_of
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: "Hokushin Ittō-ryū is a named branch of the Ittō-ryū lineage: the JA wiki records the style as a synthesis of Hokushin Musō-ryū and Ono-ha Ittō-ryū Nakanishi-ha, and the DB's generic Ittō-ryū record lists Hokushin among its descendant schools."
+  hasEvidence:
+  - basedOnSource: 01M2Z6TY1P746106MK1A63MWF7
+    quotation: 周作は、一刀流組太刀の改変を考え、[...]北辰夢想流と小野派一刀流中西派を合法して、北辰一刀流を創始した。このことは免状に明記されている。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M2Z6TY1PPMR10TVJJZZ6B5TP
+    quotation: Hokushin Ittō-ryū (北辰一刀流) is a koryū (古流, school of traditional Japanese art, in this instance
+      martial arts) that was founded in the late Edo period by Chiba Shusaku Narimasa (千葉周作成政; 1794–1856).
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: >-
+    Hokushin Ittō-ryū (北辰一刀流) is a koryū kenjutsu school of the Ittō-ryū lineage, founded by
+    Chiba Shusaku (1793/1794-1856), who synthesized Hokushin Musō-ryū and Ono-ha Ittō-ryū
+    Nakanishi-ha (JA wiki). Its Edo dojo, the Genbukan (established 1820 per Bennett; 1822 per the
+    JA wiki), was one of the three great dojos of Edo and 'boasted thousands of students'; Chiba's
+    sixty-eight techniques, recorded in Kōsaka Masataka's 1884 compilation, 'now constitute the
+    fundamental modus operandi of modern kendo' (Bennett). The Mito Tobukan continued the school
+    into the Meiji era, where Naitō Takaharu and Monna Tadashi trained.
+  ja: >-
+    北辰一刀流は千葉周作が北辰夢想流と小野派一刀流中西派を統合して創始した一刀流系の古流剣術。江戸の道場・玄武館は
+    幕末江戸三大道場の一つ。明治期に水戸東武館で継承され、内藤高治や門奈正が修業した。
+hasEvidence:
+- basedOnSource: 01M2Z6TY1P746106MK1A63MWF7
+  quotation: 千葉 周作（ちば しゅうさく）は、江戸時代後期の武士・剣術家。北辰一刀流の流祖。
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+  quotation: "Of the hundreds of fencing academies, the so-called three great dojos of Edo stood out: Chiba Shūsaku's (1794-1856) Genbukan (Hokushin Ittō-ryū), established in 1820"
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q5361345
+tags:
+- kenjutsu
+- koryu
+- itto-ryu
+- genbukan
+- hokushin

@@ -1,0 +1,54 @@
+type: Style
+id: 01M5HMYWG786J2TNJN462P25EE
+name:
+  en: Hakko-ryu
+  ja-Latn: Hakkō-ryū
+aka:
+  en:
+    - Hakko ryu
+styleType: styleclass:modern
+foundedEvent:
+  founder:
+    - 01M5HMYWG72A83K9C6J4XYR6GM
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Hakko ryu was a jujutsu system founded by Okuyama Yoshiji (1901–1987), based on Okuyama’s
+        training in Daito ryu aiki-jujutsu
+      locator: '174'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Jujutsu system founded by Okuyama Yoshiji on his training in Daito-ryu aiki-jujutsu.
+hasStyleRelationAssertion:
+  - id: 01M5HMYWG7VJGKZ3C9ME0Q0MJG
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9C
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Hakko ryu was a jujutsu system founded by Okuyama Yoshiji (1901–1987), based on Okuyama’s
+          training in Daito ryu aiki-jujutsu
+        locator: '174'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: '174'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q683925
+tags:
+  - jujutsu

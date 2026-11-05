@@ -1,0 +1,107 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1SW
+name:
+  en: James Cagney
+aka:
+  en: James Francis Cagney Jr.
+nationality:
+- countryCode: eucountry:USA
+birthEvent:
+  birthDate: '1899-07-17'
+  birthPlace:
+    label: New York City
+    countryCode: eucountry:USA
+    wikidata: wd:Q60
+deathEvent:
+  deathDate: '1986-03-30'
+  deathPlace:
+    label: Stanford, New York
+    countryCode: eucountry:USA
+    wikidata: wd:Q3250385
+image:
+  contentUrl: https://archive.org/download/james_cagney/james_cagney.jpg
+  imageAttribution:
+    uri: https://archive.org/details/james_cagney
+    cite: "Internet Archive"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+- id: 01M3YH7N5GWX1BFJ6GWSBT3Y9A
+  teacher: 01KJJAWN28MWKKSN4J02MVY1SV
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: An MMA article states Cagney trained in judo under Kenneth Kuniyuki at the Seinan Dojo for the 1945 film Blood on the Sun; single source
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD8D
+    interactionPeriod:
+      startYear: 1945
+    hasEvidence:
+    - uri: https://www.mixedmartialarts.com/judo/1945-film-fight-scene
+      cite: 1945 film fight scene using reality based real martial arts - MixedMartialArts.com
+      quotation: Insisting he would perform his own stunts for the audience James would train Judo at
+        the Seinan Dojo in Los Angeles under the late Kenneth Kaname Kuniyuki, 9th Dan Judo Shihan.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GTSRA3GMZRQZ3K1KF
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 1
+  hasConfidence:
+    confidenceLevel: conflevel:possible
+    assessedBy: agent:FSM
+    confidenceRationale: 'Conflicting information about rank: book claims black belt, forum says brown
+      belt or honorary dan'
+  hasEvidence:
+  - basedOnSource: 01M55KP7GATBBDHC5M0MA2RRM4
+    locator: '187'
+    locatorLabel: page
+    quotation: James Cagney, a certified judo black belt
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://www.e-budo.com/archive/index.php/t-13797.html
+    cite: Cagney's Black Belt - E-Budo.com
+    quotation: He studied Judo just for the movie [...] up to Brown Belt
+    informationType: infotype:secondary
+    supports: false
+    evidenceType: evidencetype:direct
+  - uri: https://www.e-budo.com/archive/index.php/t-13797.html
+    cite: Cagney's Black Belt - E-Budo.com
+    quotation: His judo dan ranking was honorary
+    informationType: infotype:secondary
+    supports: false
+    evidenceType: evidencetype:direct
+hasEvidence:
+- uri: https://en.wikipedia.org/wiki/James_Cagney
+  archiveUri: http://web.archive.org/web/20260716065516/https://en.wikipedia.org/wiki/James_Cagney
+  cite: James Cagney - Wikipedia
+  quotation: James Francis Cagney Jr. was an American actor and dancer. On stage and in film, he was known
+    for his consistently energetic performances, distinctive vocal style, and deadpan comic timing.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.mixedmartialarts.com/judo/1945-film-fight-scene
+  cite: 1945 film fight scene using reality based real martial arts - MixedMartialArts.com
+  quotation: Insisting he would perform his own stunts for the audience James would train Judo at the
+    Seinan Dojo in Los Angeles under the late Kenneth Kaname Kuniyuki, 9th Dan Judo Shihan.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.e-budo.com/archive/index.php/t-13797.html
+  cite: Cagney's Black Belt - E-Budo.com
+  quotation: He studied Judo just for the movie [...] up to Brown Belt. His judo dan ranking was honorary.
+  informationType: infotype:secondary
+  supports: false
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q94041
+- dbr:James_Cagney
+description:
+  en: American actor and dancer, Academy Award winner for Yankee Doodle Dandy (1942)
+notes: 'Trained judo under Kenneth Kuniyuki for the 1945 film ''Blood on the Sun''. Rank information is
+  disputed: some sources claim black belt, others say brown belt or honorary dan.'

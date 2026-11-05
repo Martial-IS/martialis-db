@@ -1,0 +1,69 @@
+type: Style
+id: 01M5JVVMHM48FVGVRNZKN8SXV8
+name:
+  en: Freestyle wrestling
+styleType: styleclass:modern
+hasStyleRelationAssertion:
+  - id: 01M5JVVMHMEK91XXPB8HJXQN45
+    relatedStyle: 01KYJ39BQPQ7JTTDQ3B36PZQQN
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Under FILA, international freestyle and Greco-Roman wrestling became the standard for World
+          Championships and the Olympics.
+        locator: '472'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JVVMHM1BK4D47SHCS4CB35
+        quotation: >-
+          It presides over international competitions for various forms of wrestling, including
+          Greco-Roman, freestyle, grappling, and others.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5JVVMHM713QYXDAJ9AZVAN2
+    relatedStyle: 01KYEWRMWERM1HW12W53HE9G4A
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasEvidence:
+      - basedOnSource: 01M5JVVMHMYFJMFP3TGQF7C3R4
+        quotation: >-
+          Freestyle wrestling, like collegiate wrestling, has its origins in catch-as-catch-can
+          wrestling.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Olympic wrestling style that allows attacks on the legs, grown from British and American
+    catch-as-catch-can wrestling. With Greco-Roman it became the international standard under the
+    IAWF/FILA; women's freestyle entered the Olympics in 2004.
+hasEvidence:
+  - basedOnSource: 01M5JVVMHMYFJMFP3TGQF7C3R4
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q327223
+tags:
+  - wrestling
+  - grappling
+  - olympic
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/3/3b/FreestyleWrestling2.jpg
+    rights: mediarights:public_domain_mark
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:FreestyleWrestling2.jpg
+      cite: "Staff Sergeant Jason M. Carter, USMC, Wikimedia Commons"
+      informationType: infotype:secondary

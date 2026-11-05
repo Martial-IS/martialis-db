@@ -1,0 +1,100 @@
+type: Person
+id: 01KZBQBRS9M64Y5HZ1XRQ1T7M5
+name:
+  ja-Latn: Noro Masamichi
+  ja: 野呂昌道
+aka:
+  ja:
+    - のろ まさみち
+  en:
+    - Masamichi Noro
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1935-01-21'
+  birthPlace:
+    label: Aomori Prefecture
+    countryCode: eucountry:JPN
+    wikidata: wd:Q71699
+  hasEvidence:
+    - basedOnSource: 01KZC8XAP81GFT3F84FJM67QM2
+      quotation: Masamichi Noro (野呂 昌道, Noro Masamichi; January 21, 1935 – March 15, 2013) [...] was born January 21, 1935, in Aomori, Japan.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2013-03-15'
+  deathPlace:
+    label: Paris
+    countryCode: eucountry:FRA
+    wikidata: wd:Q90
+  hasEvidence:
+    - basedOnSource: 01KZC8XAP81GFT3F84FJM67QM2
+      quotation: On March 15, 2013, Noro Masamichi died.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Noro_Masamichi%2C_fondateur_du_Kinomichi.jpg
+  rights: mediarights:cc-by-sa-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Noro_Masamichi,_fondateur_du_Kinomichi.jpg
+    cite: Wikimedia Commons via Wikidata
+    informationType: infotype:secondary
+description:
+  en: Japanese aikido teacher (1935-2013), uchi-deshi of Morihei Ueshiba from 1955, his "Official Delegate for Europe and Africa" from 1961, and founder of Kinomichi in Paris in 1979.
+notes: Noro was presented to Morihei Ueshiba in 1955 through his uncle and became an uchi-deshi the same day, renouncing plans to become a medical doctor. From 1955 to 1961 he followed Ueshiba from Tokyo to Iwama; among the five uchi-deshi of that era were Yasuo Kobayashi and Nobuyoshi Tamura. He received 6th dan before being sent to Europe in 1961 as Ueshiba's official delegate for Europe and Africa (arriving in Marseille September 3, 1961), and renounced all dan above the 6th from that time. He opened more than 200 dojos in Europe and Africa, established his base in Paris in 1964, and created Kinomichi in 1979 after discussions with Kisshomaru Ueshiba. Kinomichi was recognized as an official sporting discipline by the French ministry of youth and sports in 2001.
+hasTeacherAssertion:
+  - id: 01M3YH7N5G0HBRCV85M6J20PKR
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TV
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:uchi_deshi
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states Noro became an uchi-deshi of Morihei Ueshiba in 1955 and followed him from Tokyo to Iwama from 1955 to 1961; corroborated by the Wikidata P1066 claim
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1955
+          endYear: 1961
+        hasEvidence:
+          - basedOnSource: 01KZC8XAP81GFT3F84FJM67QM2
+            quotation: In 1955 [...] his uncle arranged for him to be presented to the founder of Aikido, Morihei Ueshiba [...] that same day he decided to renounce his plans in order to become uchi deshi [...] from 1955 to 1961, Masamichi Noro followed Morehei Ueshiba from Tokyo to Iwama where he had his private dojo.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G3Z7FX0NBBBJCS3S5GTREB
+            quotation: >-
+              Entered the AIKIKAI HOMBU DOJO as an UCHIDESHI in 1955.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasRankAssertion:
+  - id: 01M3YH7N5GD5QK9S59MZKNRGD6
+    rankStyle: 01KJJAWN29MA64W22606R3WD9R
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 6
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states Noro had received the 6th dan by 1961 when Ueshiba sent him to Europe, and that he renounced all dan above the 6th from that time
+    hasEvidence:
+      - basedOnSource: 01KZC8XAP81GFT3F84FJM67QM2
+        quotation: Morihei Ueshiba [...] entrusted his disciple Masamichi Noro, who by that time had received the 6th dan [...] It has been noted that from this time, he renounced all dan above the 6th that had been given to him by his master.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZC8XAP81GFT3F84FJM67QM2
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q324340
+  - viaf:35266750
+  - isni:0000000078367823
+tags:
+  - aikido
+  - kinomichi

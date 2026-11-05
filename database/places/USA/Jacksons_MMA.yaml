@@ -1,0 +1,56 @@
+type: Place
+id: 01M6C1ZABVAVTS3JGBS3HB64NB
+name:
+  en: Jackson’s MMA
+placeType: placeclass:gym
+hasSite:
+  - location:
+      label: Albuquerque
+      countryCode: eucountry:USA
+      wikidata: wd:Q34804
+hasInstructorRole:
+  - id: 01M6C1ZABV0N13XFCZ086KNJ1X
+    instructor: 01M6C1ZABV6FHQ2EXVCNW3NV8P
+    instructorCapacity: instrcap:head_instructor
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+        quotation: >-
+          New Mexico now hosts a bevy of the world’s best fighters, and with Jackson leading the
+          training, that looks to be true for a long time.
+        locator: '197'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Greg Jackson's mixed martial arts camp in Albuquerque, New Mexico.
+notes: >-
+  Wikidata labels it Jackson Wink MMA Academy, its later name.
+hasEvidence:
+  - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+    quotation: >-
+      Camp Name: Jackson’s MMA
+    locator: '197'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+    quotation: >-
+      St. Pierre continues to split his training time between Greg Jackson’s Albuquerque, New
+      Mexico, camp and Tristar Gym in Montreal.
+    locator: '449'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q105334704
+tags:
+  - mma
+  - gym

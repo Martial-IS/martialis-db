@@ -1,0 +1,119 @@
+### Martialis <-> MAon (Martial Art Ontology) alignment
+###
+### Frederico Muñoz <fsm@martial.is>, Martialis Project
+###
+### Licence: CC0-1.0 (public domain dedication). MAon is published at
+### https://purl.org/maont/ontology/ under CC BY-NC 4.0; this file names MAon
+### IRIs without copying or restating MAon content. Imported by
+### model/ontology-overlay.ttl (and so by ontology/martialis.ttl); resolved
+### offline through ontology/catalog-v001.xml.
+###
+### Citation for MAon:
+### Hou, Y. and Kenderdine, S. (2024). "Ontology-based knowledge
+### representation for traditional martial arts." Digital Scholarship
+### in the Humanities 39(2), 575-592. https://doi.org/10.1093/llc/fqae005
+
+@prefix martialis: <https://w3id.org/martialis/ontology#> .
+@prefix mao: <https://purl.org/maont/ontology/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://w3id.org/martialis/ontology/alignments/maon> a owl:Ontology ;
+    rdfs:label "Martialis <-> MAon alignment" ;
+    rdfs:comment "Non-normative correspondence mapping between Martialis and MAon (Hou & Kenderdine, 2024). See file header for licensing rationale. Imported by model/ontology-overlay.ttl and resolved offline through ontology/catalog-v001.xml." ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:bibliographicCitation "Hou, Y. and Kenderdine, S. (2024). Ontology-based knowledge representation for traditional martial arts. Digital Scholarship in the Humanities 39(2), 575-592. https://doi.org/10.1093/llc/fqae005" .
+
+# The SKOS mapping properties are annotation properties here, as is usual
+# for mappings in an OWL 2 DL ontology: a mapping is a correspondence, not an
+# axiom. Each mapping's rationale is an axiom annotation on that mapping, not a
+# comment on the Martialis term, which carries its own definition.
+skos:closeMatch a owl:AnnotationProperty .
+dcterms:license a owl:AnnotationProperty .
+dcterms:bibliographicCitation a owl:AnnotationProperty .
+skos:relatedMatch a owl:AnnotationProperty .
+
+# Class-level correspondences
+#################################################################
+
+martialis:Person skos:closeMatch mao:E21_Person .
+[] a owl:Axiom ;
+    owl:annotatedSource martialis:Person ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedTarget mao:E21_Person ;
+    rdfs:comment "Martialis:Person covers anyone in the database (students, teachers, officials); MAon's E21_Person (via CIDOC-CRM) is the equally general 'person' class. MAon's narrower mao:MA_master (a person recognised as a teaching authority) has no Martialis equivalent - Martialis does not distinguish master-status as a class, only via the teacher/object role a Person plays in a TeacherAssertion." .
+
+martialis:Organization skos:closeMatch mao:MA_organization .
+[] a owl:Axiom ;
+    owl:annotatedSource martialis:Organization ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedTarget mao:MA_organization ;
+    rdfs:comment "Both denote a governing/administrative body for martial arts activity, distinct from a single training venue." .
+
+martialis:Style skos:closeMatch mao:MA_style .
+[] a owl:Axiom ;
+    owl:annotatedSource martialis:Style ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedTarget mao:MA_style ;
+    rdfs:comment "Close but not exact: MAon's mao:MA_system (a broader systemic grouping above MA_style) has no separate Martialis class - Martialis's five-value StyleRelationAssertion (variant_of/derived_from/split_from/influenced_by/sibling_style_of) covers the system/style/lineage-branch distinction relationally instead of with extra classes." .
+
+martialis:Place skos:closeMatch mao:MA_institute .
+[] a owl:Axiom ;
+    owl:annotatedSource martialis:Place ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedTarget mao:MA_institute ;
+    rdfs:comment "A physical training venue/institution. MAon's mao:E53_place (bare geographic location, via CIDOC-CRM) is closer to Martialis's schema:location/geo fields than to martialis:Place itself." .
+
+# Property-level correspondences
+#################################################################
+
+martialis:wasTaughtBy skos:closeMatch mao:is_student_of .
+[] a owl:Axiom ;
+    owl:annotatedSource martialis:wasTaughtBy ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedTarget mao:is_student_of ;
+    rdfs:comment "Same direction (subject=student, object=teacher/master). martialis:wasTaughtBy is a materialized convenience edge (see ontology/martialis.ttl); the sourced claim it derives from is martialis:TeacherAssertion, which MAon has no reified equivalent for - MAon's is_student_of is a plain, unweighted assertion." .
+
+martialis:teaches skos:closeMatch mao:teaches .
+[] a owl:Axiom ;
+    owl:annotatedSource martialis:teaches ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedTarget mao:teaches ;
+    rdfs:comment "Inverse of wasTaughtBy/is_student_of above." .
+
+martialis:taughtAt skos:closeMatch mao:teaches_at .
+[] a owl:Axiom ;
+    owl:annotatedSource martialis:taughtAt ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedTarget mao:teaches_at ;
+    rdfs:comment "Same direction (subject=person, object=venue). martialis:taughtAt is explicitly non-employment (see its ontology comment); mao:teaches_at carries no such qualification." .
+
+martialis:variantOf skos:closeMatch mao:type_of .
+[] a owl:Axiom ;
+    owl:annotatedSource martialis:variantOf ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedTarget mao:type_of ;
+    rdfs:comment "A named variant/school within a broader style/type, not a cross-art derivation. Martialis's derived_from (a StyleRelationAssertion value, not a separate property - see styleRelationType) is closer to mao:developed_from than to type_of; that correspondence is documented here rather than as a formal triple, since derived_from is a style-relation concept, not a property." .
+
+martialis:rankSystem skos:closeMatch mao:ranking_system .
+[] a owl:Axiom ;
+    owl:annotatedSource martialis:rankSystem ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedTarget mao:ranking_system ;
+    rdfs:comment "Both link a style/system to its own grading system." .
+
+martialis:parentOrg skos:relatedMatch mao:is_member_of .
+[] a owl:Axiom ;
+    owl:annotatedSource martialis:parentOrg ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedTarget mao:is_member_of ;
+    rdfs:comment "Looser than closeMatch: mao:is_member_of is membership, not the branch_of/hierarchical-subdivision semantics martialis:parentOrg specifically materializes (see its ontology comment) - already aligned formally to org:subOrganizationOf." .
+
+martialis:Source skos:relatedMatch mao:E31_document .
+[] a owl:Axiom ;
+    owl:annotatedSource martialis:Source ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedTarget mao:E31_document ;
+    rdfs:comment "martialis:Source is already formally aligned to bibo:Document/fabio:Expression; MAon's CIDOC-CRM E31_document is the nearest MAon class but is broader (any document, not specifically a bibliographic source record)." .

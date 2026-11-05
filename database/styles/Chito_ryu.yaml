@@ -1,0 +1,39 @@
+type: Style
+id: 01M5HN921CXY7S0GG6X79ZXXWV
+name:
+  en: Chito-ryu
+  ja-Latn: Chitō-ryū
+aka:
+  en:
+    - Chito Ryu
+styleType: styleclass:modern
+description:
+  en: >-
+    Style of karate, taught in the United States from the 1950s by Wallace Reumann's New Jersey schools.
+hasStyleRelationAssertion:
+  - id: 01M5HN921CWH1EAMBR9ZZFV9CC
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9S
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: Cheatham learned Chito Ryu karate from Wallace Reumann (1931–2008).
+        locator: '627'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: '627'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q2604681
+tags:
+  - karate

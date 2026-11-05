@@ -1,0 +1,43 @@
+type: Place
+id: 01M36Q4QHT8DKWSJ293RS9SYSJ
+name:
+  en: Urawa Meishinkan
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Urawa, Saitama
+      countryCode: eucountry:JPN
+      wikidata: wd:Q1076743
+foundedEvent:
+  startDate: '1890'
+  hasEvidence:
+    - basedOnSource: 01M2WGNYAWZ0GGG708F53XC4PD
+      quotation: In 1890 he built his dojo, Meishinkan, on the grounds of his fathers business and left the police.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M3YH7N5G48ZKYF1QS1G0EWC0
+    relatedOrganization: 01M36P10SS5C0N1AG9TEHG3RHR
+    affiliationRelation: affrel:branch_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: kenshi247 names the Urawa hall the headquarters dojo of the Meishinkan branch network, so it is the school's own facility rather than a separate member. The source is tertiary.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAWZ0GGG708F53XC4PD
+        quotation: The Urawa Meishinkan would serve to be the HQ dojo for a network of branch dojos in the prefecture.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: Headquarters dojo of the Meishinkan, built by Takano Sasaburō at Urawa in 1890 on the grounds of his father's business.
+hasEvidence:
+  - basedOnSource: 01M2WGNYAWZ0GGG708F53XC4PD
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - kendo
+  - kenjutsu
+  - japan

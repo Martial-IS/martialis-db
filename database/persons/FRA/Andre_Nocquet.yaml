@@ -1,0 +1,57 @@
+type: Person
+id: 01M39T3H2EDMQ9AKZB25RVS5S0
+name:
+  fr: André Nocquet
+nationality:
+  - countryCode: eucountry:FRA
+    wikidata: wd:Q142
+birthEvent:
+  birthDate: '1914-07-30'
+  hasEvidence:
+    - uri: https://www.wikidata.org/wiki/Q522075
+      quotation: >-
+        date of birth 30 July 1914
+      cite: Wikidata Q522075 (André Nocquet)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1999-03-12'
+  hasEvidence:
+    - uri: https://www.wikidata.org/wiki/Q522075
+      quotation: >-
+        date of death 12 March 1999
+      cite: Wikidata Q522075 (André Nocquet)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M3YH7N5GKKC71F3G6SYWREXB
+    teacher: 01KJJAWN28MWKKSN4J02MVY1T3
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Martin states it directly, naming his grade at the time (1st dan).
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M00NPBTPWWBSJZRMYXBESJ97
+            quotation: le Judo-Club d'Angoulême, est créé par le Professeur André Nocquet, élève 1er dan de Mikinosuke Kawaishi
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+description:
+  fr: Judoka français, 1er dan élève de Mikinosuke Kawaishi. Fonda en 1943 la première association de judo du Sud-Ouest en Charente, puis en 1946 le Judo-Club d'Angoulême. Fit venir Michigami Haku et Awazu Shōzō pour enseigner dans la région.
+notes: Wikidata (Q522075) describes him as an aikidoka, and he is known for a later career under Ueshiba Morihei in Japan - not covered by the source used here. Check other sources before adding that lineage.
+hasEvidence:
+  - basedOnSource: 01M00NPBTPWWBSJZRMYXBESJ97
+    quotation: avons vu qu'André Nocquet a fondé en 1943 la première association de judo du Sud-Ouest en Charente. Ce n'est que trois ans plus tard qu'il crée le premier club à Bordeaux
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q522075
+tags:
+  - judo
+  - aikido
+  - france

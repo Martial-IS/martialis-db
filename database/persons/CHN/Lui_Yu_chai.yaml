@@ -1,0 +1,48 @@
+type: Person
+id: 01M69YCGCT6Y7F6S58NDHVRV98
+name:
+  en: Lui Yu-chai
+  yue: 雷汝濟
+  zh: 雷汝濟
+  zh-Latn: Lei Ruji
+aka:
+  en:
+    - Lui Yu Chai
+nationality:
+  - countryCode: eucountry:CHN
+    wikidata: wd:Q148
+description:
+  en: >-
+    Wing Chun teacher and bone-setter in Foshan, disciple of Chan Wah-shun and teacher of Lai
+    Yip-chi.
+hasTeacherAssertion:
+  - id: 01M69YCGDGJYGQQDMRDEBSSW84
+    teacher: 01KYD74HFE49JZRNYJDXWMF02Q
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              They felt that their young son suffered from poor health so, at the age of thirteen, they
+              retained Lui Yu Chai (a disciple of the now famous Chan Wah Shun) to strengthen and instruct
+              their son.
+            locator: '192'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: '192'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - wing-chun
+  - chinese-martial-arts

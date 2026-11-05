@@ -1,0 +1,191 @@
+type: Person
+id: 01M040GCQ9S0TAVK3AWRSZT2H4
+name:
+  en: Jean-Claude Van Damme
+  fr: Jean-Claude Van Damme
+aka:
+  en:
+  - Jean-Claude Van Varenberg
+  - JCVD
+  - The Muscles from Brussels
+  fr: Le muscle de Bruxelles
+nationality:
+- countryCode: eucountry:BEL
+  wikidata: wd:Q31
+birthEvent:
+  birthDate: '1960-10-18'
+  birthPlace:
+    label: Berchem-Sainte-Agathe
+    countryCode: eucountry:BEL
+    wikidata: wd:Q272272
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/2/20/Van_Damme_Cannes_%28cropped%29.jpg
+  rights: mediarights:cc-by-sa-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Van_Damme_Cannes_(cropped).jpg
+    cite: "Georges Biard, Wikimedia Commons"
+    informationType: infotype:secondary
+    evidenceType: evidencetype:direct
+description:
+  en: Belgian martial artist and actor best known as an action film star. He took up karate in Brussels
+    at age 11 under Claude Goetz at the school that became the Centre National de Karate, earned his Shotokan
+    black belt from Goetz in 1978, and briefly trained in full-contact kickboxing with Dominique Valera.
+    He then built a competitive record in semi-contact karate (44 wins, 4 losses, 1976-1980) and kickboxing
+    (18 wins, 1 loss, 1977-1982) before moving to the United States to pursue acting.
+hasTeacherAssertion:
+- id: 01M3YH7N5F3NVTX704XF25E9MV
+  teacher: 01M040GCQ9FBQVWTZHKCVVW788
+  assertedStyle: 01KYFZEGYN107JYC5K1539R8JM
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Van Damme has consistently named Goetz as his original and principal instructor
+      in multiple interviews across three decades
+  hasInteraction:
+  - interactionPlace: 01M040GCQ9MDQZ501YE7W1R8W8
+    interactionPeriod:
+      startYear: 1971
+      endYear: 1978
+    hasEvidence:
+    - basedOnSource: 01M040GCQ9N9ZZJAT8Y3WFEDGN
+      quotation: I started training in Brussels [Belgium] when I was 11, in 1971. [...] My original instructor,
+        Claude Goetz, taught three styles. He adapted karate to your anatomy.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M040GCQ9N9ZZJAT8Y3WFEDGN
+      quotation: He received his black belt in Shotokan karate from Claude Goetz in 1978 and briefly studied
+        kickboxing in Paris with French karate king Dominique Valera.
+      locator: magazine intro
+      locatorLabel: title-locator
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M040GCQ9T51ZJEM2K713JQ51
+      quotation: He was like my second father. His name was Claude Goetz. He's a Belgian fellow and a
+        wonderful man.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M040GCQ9ZDBW8Y6WQETDBCM7
+      quotation: >-
+        I enrolled in Claude Goetz's Shotokan karate school in my hometown in Belgium. I was just eleven years old at the time
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5F6D4N6DG8TNEYK2GF
+  teacher: 01M040GCQ9PBVZ7808T4QP14FJ
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Van Damme confirms training with Valera in the 1988 Fighter interview, and later
+      sources corroborate brief full-contact work with Valera in the late 1970s
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1977
+      endYear: 1980
+    hasEvidence:
+    - basedOnSource: 01M040GCQ9N9ZZJAT8Y3WFEDGN
+      quotation: >-
+        Fighter: Didn't you also train with France's Dominique Valera, Europe's counterpart to America's Joe Lewis? Van Damme: Yes, I trained with him for a few weeks.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M040GCQ9KWXQF7AT5BA59VCF
+      quotation: >-
+        At the age of 12, Van Damme joined the Centre National de Karaté (National Center of Karate) under the guidance of Claude Goetz in Belgium. Van Damme trained for four years and he earned a spot on the Belgian Karate Team; he later trained in full-contact karate and kickboxing with Dominique Valera.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5FV20Y4HBMFYPSBZK5
+  rankStyle: 01KYFZEGYN107JYC5K1539R8JM
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 2
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Black belt received from Goetz in 1978 is well attested; the 2nd dan grade is
+      reported by the English Wikipedia but its date and granting authority are not documented
+  hasEvidence:
+  - basedOnSource: 01M040GCQ9N9ZZJAT8Y3WFEDGN
+    quotation: >-
+      He received his black belt in Shotokan karate from Claude Goetz in 1978
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M040GCQ9KWXQF7AT5BA59VCF
+    quotation: >-
+      He eventually earned his black belt in karate at 18, and earned the rank of 2nd-dan
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasHonorAssertion:
+- id: 01M3YH7N5FVDWP7KNW0HJG9NZX
+  honorValue: European Professional Karate Association (EPKA) middleweight champion
+  honorType: honortype:title
+  dateConferred: '1979'
+  hasConfidence:
+    confidenceLevel: conflevel:possible
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Contested claim. The English Wikipedia states Van Damme won the middleweight championship of the
+      European Professional Karate Association in 1979, but the French Wikipedia asserts he won no
+      karate title.
+  hasEvidence:
+  - basedOnSource: 01M040GCQ9KWXQF7AT5BA59VCF
+    quotation: As a teenager, he won the middleweight championship of the European Professional Karate
+      Association in 1979 and the Mr. Belgium bodybuilding title in 1978.
+    locator: lead
+    locatorLabel: title-locator
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M040GCQ9VQ9G960E37DKXW4Y
+    quotation: Jean-Claude Van Damme ne possède aucun titre de karaté.
+    locator: Combats de karaté semi-contact
+    locatorLabel: title-locator
+    informationType: infotype:secondary
+    supports: false
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M040GCQ9KWXQF7AT5BA59VCF
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M040GCQ9N9ZZJAT8Y3WFEDGN
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M040GCQ9T51ZJEM2K713JQ51
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M040GCQ9ZDBW8Y6WQETDBCM7
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M040GCQ9V8C08G66KAT55V0V
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M040GCQ9K0WV11TQ8EY2KMVX
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q308840
+- viaf:84033028
+- isni:0000000109201149
+tags:
+- karate
+- shotokan
+- kickboxing
+- actor
+- belgium
+notes: 'Competitive record: 44 wins, 4 losses in semi-contact karate (1976-1980) and 18 wins (18 by knockout),
+  1 loss in kickboxing (1977-1982), per the Star System record and the English Wikipedia. Championship
+  title claims are contested and modelled in the honors section.'

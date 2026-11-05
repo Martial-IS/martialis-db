@@ -1,0 +1,44 @@
+type: Person
+id: 01M5HN449VW39WBAGK5C2TGNHS
+name:
+  ko-Latn: Han Bong-soo
+aka:
+  en: Bong-Soo Han
+nationality:
+  - countryCode: eucountry:KOR
+    wikidata: wd:Q884
+description:
+  en: >-
+    Korean hapkido teacher (1933–2007) of the International Hapkido Federation, in the line of Choi
+    Yong-sul, directly or through Ji Han-jae.
+hasTeacherAssertion:
+  - id: 01M5HN449VCNCN5JAWR8Y5M4S8
+    teacher: 01M5H45XTYZJGP4BK91872Q9E3
+    assertedStyle: 01M5H45XTYC7KSZ5CZ9WKV4T0D
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: Single source; it allows training through Ji instead.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Notable personalities who trained with Choi directly (or with Choi through Ji) include [...]
+              and Bong-Soo Han (1933–2007, International Hapkido Federation).
+            locator: '185'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: '185'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q5646570
+tags:
+  - hapkido

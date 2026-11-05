@@ -1,0 +1,103 @@
+type: Organization
+id: 01M4NFTR7JVX444C5BJ3JCZ9CM
+name:
+  fr: Ligue Nouvelle-Aquitaine de Judo Jujitsu Kendo et Disciplines Associées
+aka:
+  fr:
+  - Ligue Nouvelle-Aquitaine de Judo
+  - Ligue NAJJKDA
+orgType: orgclass:association
+hasSite:
+- location:
+    label: Lormont
+    countryCode: eucountry:FRA
+  address: PAMM (pôle des Arts Martiaux Métropolitains), 153 rue Izzet Koç, 33310 Lormont
+  hasEvidence:
+  - basedOnSource: 01M4NFTR7J98J5SQ74YBZ9BAN8
+    quotation: PAMM (pôle des Arts Martiaux Métropolitains) - 153, rue Izzet Koç - 33 310 Lormont.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '2016-06-18'
+  location:
+    label: Lormont
+    countryCode: eucountry:FRA
+  hasEvidence:
+  - basedOnSource: 01M4NFTR7JJYA96PAJNYRZTJHK
+    quotation: >-
+      Traité de fusion signé le 18 juin à Lormont par les trois anciens Présidents de ligue, Philippe Said
+      (président de la ligue d'Aquitaine), Gerard Bayle (président de la ligue du Limousin) et Jean-Pierre
+      Rault (président de la ligue Poitou- Charentes), et du Président de la FFJDA, Jean Luc Rougé,
+      officialisant ainsi la création de la nouvelle grande ligue Aquitaine-Limousin Poitou-Charentes de
+      Judo.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M4NFTR7JXQNYB8GHNGDVRD8S
+    quotation: >-
+      Date de création 18/06/2016
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+- id: 01M4NFTR7J0DKNZNEHQ24QBW29
+  relatedOrganization: 01M00414V96M7XZTQJZRZM76RZ
+  affiliationRelation: affrel:branch_of
+  validDuring:
+    startYear: 2016
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: The FFJDA's own 2016 announcement records the ligue's creation, and the ligue's site is an ffjudo.com subsite
+  hasEvidence:
+  - basedOnSource: 01M4NFTR7JJYA96PAJNYRZTJHK
+    quotation: >-
+      Traité de fusion signé le 18 juin à Lormont par les trois anciens Présidents de ligue, Philippe Said
+      (président de la ligue d'Aquitaine), Gerard Bayle (président de la ligue du Limousin) et Jean-Pierre
+      Rault (président de la ligue Poitou- Charentes), et du Président de la FFJDA, Jean Luc Rougé,
+      officialisant ainsi la création de la nouvelle grande ligue Aquitaine-Limousin Poitou-Charentes de
+      Judo.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M4NFTR7J98J5SQ74YBZ9BAN8
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:indirect
+- id: 01M4NFTXDFKY2CE9W7JMTG0R3S
+  relatedOrganization: 01M39T3RX2VXZXDS338SWW1RMJ
+  affiliationRelation: affrel:merged_from
+  validDuring:
+    startYear: 2016
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: The FFJDA's own same-week announcement reports the 18 June 2016 merger treaty of the Aquitaine, Limousin and Poitou-Charentes ligues; the SIRENE register dates the new ligue to the same day
+  hasEvidence:
+  - basedOnSource: 01M4NFTR7JJYA96PAJNYRZTJHK
+    quotation: >-
+      Traité de fusion signé le 18 juin à Lormont par les trois anciens Présidents de ligue, Philippe Said
+      (président de la ligue d'Aquitaine), Gerard Bayle (président de la ligue du Limousin) et Jean-Pierre
+      Rault (président de la ligue Poitou- Charentes), et du Président de la FFJDA, Jean Luc Rougé,
+      officialisant ainsi la création de la nouvelle grande ligue Aquitaine-Limousin Poitou-Charentes de
+      Judo.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  fr: Ligue régionale de la FFJDA en Nouvelle-Aquitaine, créée le 18 juin 2016 par la fusion des ligues
+    d'Aquitaine, du Limousin et de Poitou-Charentes.
+hasEvidence:
+- basedOnSource: 01M4NFTR7J98J5SQ74YBZ9BAN8
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M4NFTR7JXQNYB8GHNGDVRD8S
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- judo
+- france
+- nouvelle-aquitaine

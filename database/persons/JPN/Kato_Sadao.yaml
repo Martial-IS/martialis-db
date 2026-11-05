@@ -1,0 +1,76 @@
+type: Person
+id: 01M6BGKGNV5JKQHBRFRK760QT9
+name:
+  ja-Latn: Kato Sadao
+  ja: 加藤貞雄
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1910-05-02'
+  hasEvidence:
+  - basedOnSource: 01M6BGKGNV4Q4ZQ20E1N303M38
+    locator: 立身流系譜 (歴代宗家)
+    locatorLabel: section
+    quotation: '明治43年(1910年)5月2日 加藤久の長男として出生。'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1984-12-03'
+  hasEvidence:
+  - basedOnSource: 01M6BGKGNV4Q4ZQ20E1N303M38
+    locator: 立身流系譜 (歴代宗家)
+    locatorLabel: section
+    quotation: '昭和59年(1984年)12月3日死去。'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: >-
+    20th headmaster of the Tatsumi-ryu, eldest son of Kato Hisashi; kendo and iaido kyoshi.
+hasEvidence:
+- basedOnSource: 01M6BGKGNV4Q4ZQ20E1N303M38
+  locator: 立身流系譜 (歴代宗家)
+  locatorLabel: section
+  quotation: '明治43年(1910年)5月2日 加藤久の長男として出生。'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M6BGKGNVYQBMRSCRE7FQEFM2
+  teacher: 01M6BGKGNVGJAR5SR2XVBFHR1K
+  assertedStyle: 01M6BGKGNVKRWZEKBYRTBWPCGS
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The ryu's own history page; one tradition.
+  hasInteraction:
+  - hasEvidence:
+      - basedOnSource: 01M6BGKGNV4Q4ZQ20E1N303M38
+        locator: 立身流系譜 (歴代宗家)
+        locatorLabel: section
+        quotation: '父久につき、幼少より剣道、立身流を学ぶ。'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+- id: 01M6BGKGNVT6QAQQ2WCK159Z8B
+  teacher: 01M37HHSSMJZMQ23G7DSWVKT9V
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9W
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The ryu's own history page; one tradition.
+  hasInteraction:
+  - hasEvidence:
+      - basedOnSource: 01M6BGKGNV4Q4ZQ20E1N303M38
+        locator: 立身流系譜 (歴代宗家)
+        locatorLabel: section
+        quotation: '剣道は持田盛二の指導も受けた。'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+notes: >-
+  The ryu's own page gives the same sentence on learning from his father for him and for his brother Takashi. Keeley does not name a 20th headmaster.

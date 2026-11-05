@@ -1,0 +1,90 @@
+type: Person
+id: 01M0NVYZ4HBB012MEVJHZWJXYP
+name:
+  en: Wu Bin
+  zh: 吴彬
+nationality:
+- countryCode: eucountry:CHN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1937'
+hasTeacherAssertion:
+- id: 01M3YH7N5GFXMFH2F3TAG3K6XG
+  teacher: 01M0QCH9A4R6FMNQMVNZS6HNKK
+  assertedStyle: 01M0QCH9A486Y0EP2962ACKDAM
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Wu Bin studied Cha Quan under Zhang Wenguang at Beijing Physical Culture University;
+      confirmed by Beijing Daily (新京报) and Baidu Baike
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1959
+      endYear: 1963
+    hasEvidence:
+    - uri: https://m.bjnews.com.cn/detail/1758266047129858.html
+      cite: 北京文化守护人丨吴彬：点评爱徒李连杰和吴京 (Beijing Daily)
+      quotation: 吴彬师从武术泰斗张文广教授，毕业后分配到北京什刹海体育运动学校
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://m.bjnews.com.cn/detail/1758266047129858.html
+      cite: 北京文化守护人丨吴彬：点评爱徒李连杰和吴京 (Beijing Daily)
+      quotation: 起初，吴彬练过举重，之后跟随系主任、中国武术名家张文广习练查拳
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M34ZWEANX7D56YREH007X1XA
+      quotation: 1959年考入北京体育学院，师从武术泰斗张文广，1963年毕业后分配至北京市什刹海青少年业余体校任教。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GBV4EQGEFVPNX1GVC
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FH
+  rankType: ranktype:dan
+  rankOrdinal: 9
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: English Wikipedia places him among the 19 holders of the 9th duan. No award date
+      or issuing document is given, and no second source on this record states the grade.
+  hasEvidence:
+  - basedOnSource: 01M0QAK4GXB1GBQXS3RN8E0QNN
+    quotation: He has also written 18 books, and is one of only 19 9th-level duan masters in China.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M0QAK4GXB1GBQXS3RN8E0QNN
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M34ZWEANX7D56YREH007X1XA
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q1461171
+tags:
+- chinese-martial-arts
+- wushu
+- chaquan
+- coach
+- beijing-wushu-team
+image:
+  contentUrl: https://www.uswushuacademy.com/images/phocagallery/Choaches/Wu-Bin-2008.jpg
+  imageAttribution:
+    uri: https://www.uswushuacademy.com/index.php/about/2-2/36-coach-wu-bin
+    cite: "US Wushu Academy"
+    informationType: infotype:secondary
+description:
+  en: Chinese martial artist and wushu coach, described as the father of modern Wushu. From a young age
+    in Huzhou, Zhejiang, he practiced Tan Tui and Liu He Quan before studying Cha Quan under Zhang Wenguang
+    at Beijing Physical Culture University (1959-1963). Founded the Beijing Wushu Team in 1974 and produced
+    more wushu champions than any other coach in China, including Jet Li, Wu Jing, Hao Zhihua, and Hei
+    Zhihong. Held positions as Chairman of the Technical Department of the Chinese Wushu Research Institute
+    (1986-1992), president of the Beijing Wushu Institute, and top positions in the Chinese Wushu Association,
+    Asian Wushu Federation, and International Wushu Federation. One of only 19 9th-level duan masters
+    in China. Author of 18 wushu books.

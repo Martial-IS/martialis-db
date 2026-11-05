@@ -1,0 +1,58 @@
+type: Person
+id: 01M5JSGG50JG4SFMEP1SZNZYA5
+name:
+  en: Galeazzo Sanseverino
+aka:
+  en:
+    - Galeazzo da Sanseverino
+    - Galeazzo di Sanseverino
+nationality:
+  - countryCode: eucountry:ITA
+    wikidata: wd:Q38
+description:
+  en: >-
+    Milanese condottiero at the Sforza court, taught wrestling, vaulting and weapons by Pietro Monte. He
+    was one of the models for Castiglione's ideal courtier.
+hasTeacherAssertion:
+  - id: 01M5JSGG50JQKAZ52CFSR8637Y
+    teacher: 01M5JSGG50RJPT3HRCF6XK3EH8
+    assertedStyle: 01KYJ39BQPQ7JTTDQ3B36PZQQN
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Monte spent most of his adult life in Italy, and he is remembered today mostly because he
+              instructed the Milanese condottiere Galeazzo di Sanseverino (ca. 1460–1525) in wrestling.
+            locator: '226'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JSGG5085XQ4H27XAG40ZWS
+            quotation: >-
+              and also mentioned that he instructed Galeazzo da Sanseverino "in wrestling, vaulting, and
+              handling various types of weapon".
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JSGG50NFKD8ME79K5NK70K
+            quotation: >-
+              He was educated by masters of arms and the scholar Pietro del Monte.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JSGG50NFKD8ME79K5NK70K
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q3094565
+tags:
+  - wrestling
+  - italian-school

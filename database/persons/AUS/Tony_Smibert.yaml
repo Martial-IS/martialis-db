@@ -1,0 +1,156 @@
+type: Person
+id: 01KZ3V4FBA537EFZ5MYMZCHQ6Y
+name:
+  en: Tony Smibert
+aka:
+  en: Anthony Charles Smibert
+nationality:
+  - countryCode: eucountry:AUS
+    wikidata: wd:Q408
+birthEvent:
+  birthDate: '1949-01-08'
+  birthPlace:
+    label: Melbourne
+    countryCode: eucountry:AUS
+    wikidata: wd:Q3141
+image:
+  contentUrl: https://aikidotas.org.au/wp-content/uploads/2023/02/Tony-Smibert-Shihan-225x300.jpg
+  imageAttribution:
+    uri: https://aikidotas.org.au/senior-instructors/
+    cite: "Aikido Tasmania"
+    informationType: infotype:secondary
+description:
+  en: Australian aikido teacher (8th dan Aikikai, shihan) and artist, president of Aiki Kai Australia and member of the International Aikido Federation Senior Council. He began aikido in 1964 and was a lifelong student of Seiichi Sugano from 1965 until Sugano's death in 2010. He was awarded the 8th dan at the Kagami Biraki in January 2025.
+  pt: Professor australiano de aikido (8º dan Aikikai, shihan) e artista, presidente da Aiki Kai Australia e membro do Conselho Sénior da Federação Internacional de Aikido. Iniciou o Aikido em 1964 e foi aluno vitalício de Seiichi Sugano desde 1965 até à morte de Sugano em 2010. Foi promovido a 8º dan no Kagami Biraki de janeiro de 2025.
+hasTeacherAssertion:
+  - id: 01M3YH7N5FKM47NF4XZ90SN7NC
+    teacher: 01KZ3W7W01C1ADJXE2TW4EBXT5
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Tony Smibert was a student of Seiichi Sugano from Sugano's arrival in Australia in 1965 until Sugano's death in 2010, documented by Wikipedia and the Guillaume Erard interview
+    role: teachrole:student
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1965
+          endYear: 2010
+        hasEvidence:
+          - basedOnSource: 01KZ3V4FBA8NF3F3V9QRBY131A
+            quotation: He became a student of aikido master Seiichi Sugano in 1965 and remained his student until Sugano's death in 2010.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZ3V4FBAMG109SQ2K0DZ381W
+            quotation: Then I was with him as his senior student from then on until he passed away [...] I was in the room as he passed away.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5FKJ5JXPPAVYTY05R5
+    rankStyle: 01KJJAWN29MA64W22606R3WD9R
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 8
+    conferredBy: 01KZ3KA57C6W6FMCWM668Y13X2
+    dateConferred: 2025-01
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Aiki Kai Australia news and the Guillaume Erard interview both record that Smibert was one of ten senior instructors awarded the 8th dan by the Doshu at the Kagami Biraki in January 2025; Wikipedia also lists him as 8th dan Aikikai
+    hasEvidence:
+      - basedOnSource: 01KZ3V4FBAQ0XJD5P2FGA18VXE
+        quotation: Tony Smibert Shihan was one of ten senior Aikido instructors awarded the 8th dan by Doshu during the Kagami biraki, held at the Aiki Kai Foundation in January 2025.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZ3V4FBAMG109SQ2K0DZ381W
+        quotation: Tony Smibert receiving the 8th dan from Doshu and Dojo-cho during the Kagamibiraki 2025
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZ3V4FBA8NF3F3V9QRBY131A
+        quotation: Smibert currently holds the rank of 8th dan Aikikai and the teaching title of shihan from Aikido World Headquarters in Japan.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M3YH7N5FK2RR43TNWCD7N3K0
+    honorValue: Member of the Order of Australia
+    honorType: honortype:other
+    dateConferred: 2016-06
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Appointed a Member of the Order of Australia (AM) in the Queen's Birthday Honours of June 2016 for service to aikido and to the visual arts, per the Wikipedia article
+    hasEvidence:
+      - basedOnSource: 01KZ3V4FBA8NF3F3V9QRBY131A
+        quotation: >-
+          In the Queen's Birthday Honours in June 2016, Smibert was appointed a Member of the Order of Australia (AM) "for significant service to aikido through a range of roles, and to the visual arts as a painter and water colourist".
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5F9HGVHM37PWFMFEKM
+    honorValue: Shihan
+    honorType: honortype:title
+    conferredBy: 01KZ3KA57C6W6FMCWM668Y13X2
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The shihan teaching title from Aikido World Headquarters is stated in the Wikipedia article without a specific award date
+    hasEvidence:
+      - basedOnSource: 01KZ3V4FBA8NF3F3V9QRBY131A
+        quotation: Smibert currently holds the rank of 8th dan Aikikai and the teaching title of shihan from Aikido World Headquarters in Japan.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZ3V4FBA8NF3F3V9QRBY131A
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ3V4FBAMG109SQ2K0DZ381W
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ3V4FBAQ0XJD5P2FGA18VXE
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ3V4FBAXYP4FMSYH3T4M9F2
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ1Y9KD1HZ8JVXY2RF432EEB
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ3QDN0Y5ZTXZM44QHMYMRCD
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q17198723
+tags:
+  - aikido
+  - australia
+  - aiki-kai-australia
+notes: '- Tony Smibert (Anthony Charles Smibert, b. 8 January 1949 in Melbourne) is an Australian painter and aikido teacher.
+
+  - Began judo in his early teens and aikido in September 1964 at age 15, in the first aikido club in Australia (established by Arthur Moorshead in Melbourne, 1963).
+
+  - Became a student of Seiichi Sugano in 1965 and remained his senior student until Sugano''s death in 2010; assisted in establishing aikido in Victoria and Aiki Kai Australia.
+
+  - Vice-President of Aiki Kai Australia 1976-2010, elected president on Sugano''s death; trustee of the Aikido Foundation.
+
+  - Represented Australia at the International Aikido Federation (IAF) 1980-1984, IAF vice-chairman 1984-2008, and member of the IAF Senior Council from 2008.
+
+  - Awarded the 8th dan Aikikai and shihan title; the 8th dan was conferred by the Doshu at the Kagami Biraki in January 2025.
+
+  - Appointed Member of the Order of Australia (AM) in the Queen''s Birthday Honours, June 2016, for service to aikido and the visual arts.
+
+  - Also a prominent watercolourist and researcher of J.M.W. Turner''s techniques.
+
+  - Was the first aikido teacher of Tristão da Cunha in Melbourne, c. 1980-81.
+
+'

@@ -1,0 +1,87 @@
+type: Person
+id: 01KZXXSBAWR1Q0NH6D512D90FB
+name:
+  ja-Latn: Daigo Toshirō
+  ja: 醍醐 敏郎
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1926-01-02'
+  birthPlace:
+    label: Chiba Prefecture
+    countryCode: eucountry:JPN
+    wikidata: wd:Q80011
+  hasEvidence:
+    - uri: https://en.wikipedia.org/wiki/Toshiro_Daigo
+      quotation: >-
+        (醍醐敏郎, Daigo Toshirō; 2 January 1926 – 10 October 2021)
+      archiveUri: https://en.wikipedia.org/w/index.php?title=Toshir%C5%8D_Daigo&oldid=1378325752
+      cite: Toshiro Daigo - English Wikipedia
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2021-10-10'
+  deathPlace:
+    label: Japan
+    countryCode: eucountry:JPN
+    wikidata: wd:Q17
+  hasEvidence:
+    - uri: https://en.wikipedia.org/wiki/Toshiro_Daigo
+      quotation: >-
+        (醍醐敏郎, Daigo Toshirō; 2 January 1926 – 10 October 2021)
+      archiveUri: https://en.wikipedia.org/w/index.php?title=Toshir%C5%8D_Daigo&oldid=1378325752
+      cite: Toshiro Daigo - English Wikipedia
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: Japanese judoka, Chief Instructor at the Kodokan and manager of the Japanese national team. Promoted to 10th dan at the New Year Kagami biraki ceremony on 8 January 2006, along with Ichiro Abe and Yoshimi Osawa, at the time one of only three living Kodokan 10th dan.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/0/09/%E9%86%8D%E9%86%90.JPG
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:%E9%86%8D%E9%86%90.JPG
+    cite: "Gotcha2, Wikimedia Commons"
+hasRankAssertion:
+  - id: 01M3YH7N5G3G45PC0C7NHXHJE3
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 10
+    conferredBy: 01KJJAWN29MA64W22606R3WD7X
+    dateConferred: '2006-01-08'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Promoted to 10th dan by the Kodokan on 8 January 2006 at the New Year Kagami biraki ceremony, announced alongside Ichiro Abe and Yoshimi Osawa and reported by JudoInfo.
+    hasEvidence:
+      - uri: https://judoinfo.com/judan2/
+        cite: Kodokan 10th Dan Promotions - JudoInfo
+        quotation: Ichiro Abe (83 years old), Toshiro Daigo (80 years old) and Yoshimi Osawa (79 years old) were promoted to 10th Dan
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - uri: https://en.wikipedia.org/wiki/Toshiro_Daigo
+        archiveUri: https://en.wikipedia.org/w/index.php?title=Toshir%C5%8D_Daigo&oldid=1378325752
+        cite: Toshiro Daigo - English Wikipedia
+        quotation: 'Before his death, he was one of only three living Kodokan 10th dan (and one of only 15 to have attained this rank), having been promoted at the New Year Kagami biraki Ceremony, 8 January 2006, along with Ichiro Abe and Yoshimi Osawa.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - uri: https://en.wikipedia.org/wiki/Toshiro_Daigo
+    archiveUri: https://en.wikipedia.org/w/index.php?title=Toshir%C5%8D_Daigo&oldid=1378325752
+    cite: Toshiro Daigo - English Wikipedia
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://judoinfo.com/judan2/
+    cite: Kodokan 10th Dan Promotions - JudoInfo
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+notes: Minimal stub created to support the teacher edge from Carl De Crée, whose 2024 author biography lists Daigo among the judo teachers he studied with. His own teacher lineage and rank history are not yet documented here.
+sameAs:
+  - wd:Q4992635

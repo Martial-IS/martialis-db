@@ -1,0 +1,64 @@
+type: Person
+id: 01M6C1R005GP5CPGRV0ZWRDW97
+name:
+  en: B.J. Penn
+aka:
+  en:
+    - The Prodigy
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1978-12-13'
+  hasEvidence:
+    - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+      quotation: 'Born: 12/13/78'
+      locator: '328'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    American mixed martial artist and Brazilian jiu-jitsu world champion, the best student of Ralph
+    Gracie; UFC lightweight and welterweight champion.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/f/fa/US_Army_51883_Ultimate_Fighting_Champion_motivates_wounded_warriors_cropped.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:US_Army_51883_Ultimate_Fighting_Champion_motivates_wounded_warriors_cropped.jpg
+    cite: "Vanessa M. Forloine, Hickam Air Force Base Public Affairs, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+  - id: 01M6C1R005WXKZEDS3SRMJJS30
+    teacher: 01KZQ5XKW34RHMNCH3AB1ZR596
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              His best student was future ufc champion B.J. Penn, but the two had a falling out after B.J. challenged Ralph’s brother Renzo Gracie to a fight.
+            locator: '143'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+    quotation: >-
+      And B.J. Penn conquered the Mundials, Brazilian Jiu-jitsu’s Super Bowl, after training in the sport for just three years.
+    locator: '329'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q402779
+tags:
+  - brazilian-jiu-jitsu
+  - mma

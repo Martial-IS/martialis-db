@@ -1,0 +1,61 @@
+type: Style
+id: 01KYEWRMWERM1HW12W53HE9G4A
+name:
+  en: Catch Wrestling
+  ja-Latn: Kyatchi Resuringu
+aka:
+  en:
+    - Catch-as-catch-can
+    - Lancashire Wrestling
+styleType: styleclass:traditional
+description:
+  en: Catch wrestling (originally catch-as-catch-can) is a traditional grappling style originating in Lancashire, England, with roots in the 19th century. It emphasizes submissions, pins, and throws and was taught at the famous Snake Pit in Wigan. Catch wrestling is a foundational influence on shoot wrestling, shooto, and modern MMA, transmitted through wrestlers like Billy Riley, Karl Gotch, and their students.
+foundedEvent:
+  startDate: 1870~
+  eventPlace: 01KYEZC87AX510ZSYXWYCWEPCJ
+  hasEvidence:
+    - basedOnSource: 01KYEWRMWEMG4HY1HDA3TX96ZP
+      quotation: >-
+        Catch wrestling (also known as catch-as-catch-can) is an English wrestling style
+      cite: Catch wrestling (Wikipedia EN)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYEWRMWEMG4HY1HDA3TX96ZP
+    cite: Catch wrestling (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYJ39BQPPV75X7TNCQWSQBST
+    cite: Wrestling (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q1736682
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5GQJ9NE4156MM34YBK
+    relatedStyle: 01KYJ39BQPQ7JTTDQ3B36PZQQN
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Catch wrestling is explicitly listed as a legitimate competitive form of wrestling in the Wikipedia article
+    hasEvidence:
+      - basedOnSource: 01KYJ39BQPPV75X7TNCQWSQBST
+        quotation: Examples of the many styles of folk wrestling, include Cornish wrestling, backhold wrestling (from Europe), Cumberland Wrestling and Catch-as-catch-can (from England)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+tags:
+  - catch-wrestling
+  - grappling
+  - submission
+  - shoot-wrestling
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/7/7f/Frank_Gotch_vs_Georg_Hackenschmidt_1908.jpg
+    rights: mediarights:public_domain_mark
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:Frank_Gotch_vs_Georg_Hackenschmidt_1908.jpg
+      cite: "Wikimedia Commons"

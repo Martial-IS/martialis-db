@@ -1,0 +1,114 @@
+type: Person
+id: 01KYQB8J2NN336ZJWGQW3YH95E
+name:
+  en: Carlson Gracie
+  pt: Carlson Gracie
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+birthEvent:
+  birthDate: '1932-08-13'
+  birthPlace:
+    label: Rio de Janeiro
+    countryCode: eucountry:BRA
+    wikidata: wd:Q8678
+deathEvent:
+  deathDate: '2006-02-01'
+  deathPlace:
+    label: Chicago, Illinois
+    countryCode: eucountry:USA
+    wikidata: wd:Q1297
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Carlson1.jpg/250px-Carlson1.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Carlson1.jpg
+    cite: "FPS CORP, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: 'Brazilian Jiu-Jitsu grandmaster and head of the Carlson Gracie Academy. Eldest son of Carlos Gracie and nephew of Hélio Gracie, he developed the Carlson Gracie Team''s distinct "warrior style" emphasizing physical prowess and aggression. An MMA pioneer, he trained numerous champions including Vitor Belfort.
+
+'
+hasTeacherAssertion:
+  - id: 01M3YH7N5F179BFX0Z6R4G357T
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TN
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: His own words, as a student reports them; the Wikipedia infobox lists it, unsourced.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1940
+        hasEvidence:
+          - basedOnSource: 01KYQEQD1VZR4T6S3ZT1C6PK4S
+            quotation: 'Teachers: Carlos Gracie, Helio Gracie'
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: >-
+              We’d be talking and I’d say, “… your dad? What about Helio?” And Carlson would go “Tio
+              Helio é o caralho! quem me ensinou foi meu pai” (Uncle Helio no way! My father was the one
+              who taught me).
+            locator: Interview with Jean Jacques Machado (after chapter 13)
+            locatorLabel: section
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5F19EJZZAZRVEKWWP4
+    teacher: 01KJJAWN28MWKKSN4J02MVY1S5
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: The Wikipedia infobox lists it, unsourced; Carlson himself credited only his father.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1940
+        hasEvidence:
+          - basedOnSource: 01KYQEQD1VZR4T6S3ZT1C6PK4S
+            quotation: 'Teachers: Carlos Gracie, Helio Gracie'
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: >-
+              We’d be talking and I’d say, “… your dad? What about Helio?” And Carlson would go “Tio
+              Helio é o caralho! quem me ensinou foi meu pai” (Uncle Helio no way! My father was the one
+              who taught me).
+            locator: Interview with Jean Jacques Machado (after chapter 13)
+            locatorLabel: section
+            informationType: infotype:primary
+            supports: false
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5FHXHZN6J9BVEW9279
+    rankStyle: 01KJJAWN29MA64W22606R3WD9J
+    rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+    rankOrdinal: 9
+    rankGrade: rankgrade:bjj_red
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia confirms 9th degree red belt rank
+    hasEvidence:
+      - basedOnSource: 01KYQEQD1VZR4T6S3ZT1C6PK4S
+        quotation: >-
+          Rank 9th deg. BJJ red belt
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYQEQD1VZR4T6S3ZT1C6PK4S
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q5042914
+tags:
+  - brazilian-jiu-jitsu
+  - gracie-family
+  - carlson-gracie-team

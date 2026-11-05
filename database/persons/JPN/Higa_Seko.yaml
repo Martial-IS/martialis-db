@@ -1,0 +1,161 @@
+type: Person
+id: 01KZBV66ESXMDBA25X5H4ABXKZ
+name:
+  ja-Latn: Higa Sekō
+  ja: 比嘉世幸
+aka:
+  en:
+  - Seko Higa
+  - Seiko Higa
+  ja:
+  - ひが せいこう
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1898-11-08'
+  birthPlace:
+    label: Naha
+    countryCode: eucountry:JPN
+    wikidata: wd:Q181966
+  hasEvidence:
+  - basedOnSource: 01KZC8XAP87A4RQ5RZ89Y7FYS9
+    quotation: Sekō (Seiko) Higa (比嘉 世幸, Higa Sekō; 8 November 1898 – 16 April 1966) was a Gojū Ryū karate
+      teacher who was born in Naha.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZGWWSGA8X1SP2VA672C093B
+    quotation: >-
+      Seiko Higa was born in Naha, Okinawa on November 8th 1898
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1966-04-16'
+  hasEvidence:
+  - basedOnSource: 01KZC8XAP87A4RQ5RZ89Y7FYS9
+    quotation: 8 November 1898 – 16 April 1966
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZGWWSGA8X1SP2VA672C093B
+    quotation: >-
+      Choboku Takamine took over as president of the IKKF after Higa's death in 1966
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://shuriway.com/images/seiko-higa.jpg
+  imageAttribution:
+    uri: https://shuriway.com/seiko-higa.html
+    cite: "Shuriway"
+    informationType: infotype:secondary
+description:
+  en: Okinawan Goju-ryu karate teacher (1898-1966), student of Higaonna Kanryō and Chōjun Miyagi, founder
+    of the Goju-ryu Kokusai Karate Kobudo Renmei.
+notes: Higa studied under Higaonna Kanryō from age 13 (1911) until Higaonna's death, then continued with
+  Chōjun Miyagi for 38 years until Miyagi's death in 1953. He was an elementary school teacher for one
+  year, then a policeman; the EN Wikipedia has him retiring in 1931 to open his dojo in the Kumoji section
+  of Naha (one of only four students of Miyagi allowed to open a dojo while the master lived, with Jin'an
+  Shinzato, Jinsei Kamiya and Meitoku Yagi), while the Shuriway biography also gives 1931 for leaving
+  the force and opening his dojo in Naha. The EN Wikipedia gives his Saipan teaching as 1935-1937; the
+  Shuriway biography gives 1937-1939 - both dates recorded. After WWII he opened a new dojo in Itoman-cho
+  and taught at a high school karate club, Ryukyu University and the Naha prison. A 1952 newspaper document
+  by Miyagi listed only Higa as "Headmaster" among his seniors, and Higa stepped in as Miyagi's temporary
+  successor after his death. In 1956 nineteen karate teachers founded the Okinawa Karatedo Federation
+  at Nagamine's dojo, with Higa as vice-chairman and, four years later, chairman. In 1960 he opened the
+  Shodokan dojo in the Yogi district of Naha and founded the Goju-ryu Kokusai Karate Kobudo Renmei (International
+  Karatedo and Kobudo Federation), serving as its first president from 1960 to 1966.
+hasTeacherAssertion:
+- id: 01M3YH7N5GJN4DHVDS9C7FXGWD
+  teacher: 01KZBS9WCMQ58J7VRHTDQJN9HE
+  assertedStyle: 01KYHF558ARZ926BRSVJNWCTGE
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: EN Wikipedia states Higa began studying under Higaonna Kanryō at age 13 (1911)
+      until Higaonna's death; corroborated by the Shuriway biography (age 13) and the Okinawa Karate Navi
+      monument page (from 1911)
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1911
+      endYear: 1915
+    hasEvidence:
+    - basedOnSource: 01KZC8XAP87A4RQ5RZ89Y7FYS9
+      quotation: At age 13, Higa began to study under Higaonna Kanryō until Higaonna's death 4 years later.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZGWWSGA8X1SP2VA672C093B
+      quotation: Seiko Higa was born in Naha, Okinawa on November 8th 1898, and began his training with
+        Kanryo Higaonna at the age of 13. After Sensei Higaonna's death in 1915, he trained with Chojun
+        Miyagi.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZGWWSGAJ3918HMRZT37VTVD
+      quotation: Master Higa Seko was born in 1898 and studied under Higaonnna from 1911.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GRBVS2BSR3ZC198E2
+  teacher: 01KZBRSRZ7DF87MMQPTAD4542E
+  assertedStyle: 01KZC8S2GEGBJJT9RKV5M0HJ3N
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: EN Wikipedia states Higa continued his studies with Miyagi Chōjun for 38 years
+      until Miyagi's death in 1953; corroborated by the Shuriway biography (trained with Miyagi after
+      Higaonna's death), the Okinawa Karate Navi and ODKS tourism pages (also studied with Miyagi)
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1916
+      endYear: 1953
+    hasEvidence:
+    - basedOnSource: 01KZC8XAP87A4RQ5RZ89Y7FYS9
+      quotation: Higa, a policeman at the time, continued his studies with Miyagi Chōjun for 38 years
+        until Miyagi's death.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZGWWSGA8X1SP2VA672C093B
+      quotation: After Sensei Higaonna's death in 1915, he trained with Chojun Miyagi.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZGWWSGAJ3918HMRZT37VTVD
+      quotation: After that, he also studied with Miyagi.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZGWWSGA6HF3FZDJX0ED5Q7S
+      quotation: >-
+        As a young man, he entered the dojo of Kanryo Higaonna and later trained under Chojun Miyagi, the founder of Goju-ryu
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZC8XAP87A4RQ5RZ89Y7FYS9
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZGWWSGA8X1SP2VA672C093B
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZGWWSGAJ3918HMRZT37VTVD
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZGWWSGA6HF3FZDJX0ED5Q7S
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q7447367
+tags:
+- karate
+- goju-ryu

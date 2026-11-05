@@ -1,0 +1,61 @@
+type: Person
+id: 01M6C1FR4AN9KY04F6V2G7FF65
+name:
+  en: Cung Le
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1972-05-25'
+  hasEvidence:
+    - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+      quotation: 'Born: 5/25/72'
+      locator: '242'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    American san shou fighter and mixed martial artist. His trainer Javier Mendez talked him into
+    MMA in 2006.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/d/d1/Cung_Le_at_Inside_MMA.jpg
+  rights: mediarights:cc-by-2.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Cung_Le_at_Inside_MMA.jpg
+    cite: "Mike Dunn, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+  - id: 01M6C1FR4AETNA138B62FV4W73
+    teacher: 01KZQ7BS7KRNM0NPD97WPGG2P2
+    assertedStyle: 01KYSS3B587WR241FHHW19X24T
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source; his own account.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              Actually it was Frank Shamrock’s old trainer, and now my trainer, Javier Mendez. He talked me into doing MMA.
+            locator: '244'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+    quotation: >-
+      He also studied tae kwon do and other striking arts, and found the opportunity to combine the two with the Chinese fighting art called san shou.
+    locator: '243'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q952839
+tags:
+  - mma
+  - sanshou

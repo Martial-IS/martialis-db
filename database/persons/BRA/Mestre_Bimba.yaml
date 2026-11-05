@@ -1,0 +1,126 @@
+type: Person
+id: 01M5H4AFG2ZHJ3H82H0DPJQJ1V
+name:
+  pt: Mestre Bimba
+aka:
+  pt: Manuel dos Reis Machado
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+birthEvent:
+  birthDate: '1900-11-23'
+  birthPlace:
+    label: Engenho Velho, Salvador, Bahia
+    countryCode: eucountry:BRA
+    wikidata: wd:Q36947
+  hasEvidence:
+    - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+      quotation: >-
+        Mestre Bimba was born Manoel dos Reis Machado on 23 November 1900 in the modest neighbourhood
+        of Engenho Velho, in Salvador.
+      locator: '128'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1974'
+  deathPlace:
+    label: Goiânia
+    countryCode: eucountry:BRA
+    wikidata: wd:Q83189
+  hasEvidence:
+    - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+      quotation: >-
+        he decided in 1973 to accept an invitation by one of his students to move to Goiânia, to teach
+        capoeira. [...] he died, disappointed and poor, from a stroke in 1974.
+      locator: '140'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: Mestre Bimba (born Manuel dos Reis Machado, 1899–1974)
+      locator: '39'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Capoeira master from Salvador who created capoeira regional in the late 1920s and early 1930s,
+    with formal training sequences and coloured scarves for ranks.
+notes: >-
+  Green & Svinth (p. 39) and Bira Almeida give his birth year as 1899. Green & Svinth (p. 38): he
+  "may have been taught by a jiu-jitsu teacher within the same lineage as Carlos Gracie" (citing
+  Taylor 2005); no teacher named. His father taught him batuque. He dated the start of the
+  Regional to 1933 (1953) and to 1928 (1973) (Assunção, p. 131).
+hasTeacherAssertion:
+  - id: 01M61PWHY369AJ0M8F1BNZTNGP
+    teacher: 01M61PWHY3QP3TGW19KJZK9X09
+    assertedStyle: 01M5H4AFG2PQBX1QXTNW3CMHN5
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        His own 1936 interview in A Tarde, quoted by Silva and Corrêa, names Bentinho as his master;
+        Barbosa (2009) and English Wikipedia say the same.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KJJAWN29MA64W22606R3WDAH
+            quotation: >-
+              Há dezoito anos que ensino capoeiragem. Adaptei vários golpes à chamada capoeira de
+              Angola, praticada por meu mestre, o africano Bentinho
+            locator: vol. 1, p. 164
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M61PWHY3WZY1SAY79KW2PCK7
+            quotation: >-
+              Foi iniciado na capoeira aos doze anos de idade por um africano – Bentinho -, capitão da
+              Cia. Baiana de Navegação, no que é hoje o bairro da Liberdade.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M61PWHY3F9WZ3BK2XQ8T7VC8
+            quotation: >-
+              He started learning capoeira when he was 12 years old, with an African boat commander
+              called Bentinho.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              Bimba was initiated into capoeira at the age of 12 by an African nicknamed Nozinho Bento, also
+              known as Bentinho, a captain working for the Bahian Company of Navigation.
+            locator: '128'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    locator: 125-146
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: 37-39
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q713283
+tags:
+  - capoeira
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/pt/d/d2/Mestre_Bimba.jpg
+  rights: mediarights:in_copyright
+  imageAttribution:
+    uri: https://pt.wikipedia.org/wiki/Ficheiro:Mestre_Bimba.jpg
+    cite: "Portuguese Wikipedia, non-free file"
+    informationType: infotype:secondary

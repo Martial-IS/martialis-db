@@ -1,0 +1,88 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD76
+name:
+  ja-Latn: Takino Yūken
+  ja: 滝野遊軒
+description:
+  en: Japanese jujutsu master, 4th generation head of Kitō-ryū
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1659'
+  birthPlace:
+    label: Tamba
+    countryCode: eucountry:JPN
+    wikidata: wd:Q954511
+hasTeacherAssertion:
+- id: 01M3YH7N5GMBKMH8JKDGQF1XBC
+  teacher: 01M1KS64C73B9NZJX7MSHJEB0W
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9P
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The Ryōi Shintōkai article on Kitō-ryū history records Takino met Hotta and became
+      his student in 1714.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1714
+    hasEvidence:
+    - uri: https://www.ryoishintokai.com/2022/03/24/1819/
+      cite: 'From the article ''Famous Budoka of Japan: Ukei Kato and Kito-ryu Jujutsu'' - Ryōi Shintōkai'
+      informationType: infotype:secondary
+      supports: true
+      quotation: >-
+        Born in 1695 in Tamba, Yuken began learning jujutsu from an early age. He met Hotta and became
+        his student in 1714 after being impressed by his skill. Eventually he received his license and
+        on the recommendation of his teacher took a position as a jujutsu instructor in the Imperial
+        Court.
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KJJAWN29MA64W22606R3WDAN
+  cite: 起倒流 - Wikipedia
+  quotation: 四世（五世？）　滝野貞高（滝野専右衛門、滝野遊軒）。滝野の代に起倒流の全盛期を迎える。
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KJJAWN29MA64W22606R3WDAD
+  cite: De Crée, Carl. (2019). Kitō-ryū jūjutsu and the desolation of Kōdōkan jūdō's Koshiki-no-kata --
+    Remembering Inoue Shōji (1927-2018)
+  quotation: Takino Yūken Sadataka 滝野遊軒貞高 appears in the Kitō-ryū lineage as the 4th generation head,
+    with Tōdō Yasusada and Suzuki Seibei Kuninori as his students
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.ryoishintokai.com/2022/03/24/1819/
+  cite: 'From the article ''Famous Budoka of Japan: Ukei Kato and Kito-ryu Jujutsu'' - Ryōi Shintōkai'
+  quotation: >-
+    Born in 1695 in Tamba, Yuken began learning jujutsu from an early age. He met Hotta and became his
+    student in 1714 after being impressed by his skill. Eventually he received his license and on the
+    recommendation of his teacher took a position as a jujutsu instructor in the Imperial Court.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q11565323
+hasHonorAssertion:
+- id: 01M3YH7N5GFQ7WRTTSYZFZ07QG
+  honorValue: Kitō-ryū master
+  honorType: honortype:title
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Japanese Wikipedia and De Crée (2019) state it independently.
+  hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WDAN
+    cite: 起倒流 - Wikipedia
+    quotation: 四世（五世？）　滝野貞高（滝野専右衛門、滝野遊軒）。滝野の代に起倒流の全盛期を迎える。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KJJAWN29MA64W22606R3WDAD
+    cite: De Crée, Carl. (2019). Kitō-ryū jūjutsu and the desolation of Kōdōkan jūdō's Koshiki-no-kata
+      -- Remembering Inoue Shōji (1927-2018)
+    quotation: Takino Yūken Sadataka 滝野遊軒貞高
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct

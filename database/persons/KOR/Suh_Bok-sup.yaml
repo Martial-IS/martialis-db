@@ -1,0 +1,50 @@
+type: Person
+id: 01M5H45XTYC209YPYMY9BASABB
+name:
+  en: Suh Bok-sup
+nationality:
+  - countryCode: eucountry:KOR
+    wikidata: wd:Q884
+birthEvent:
+  birthDate: '1924~'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: Choi’s early students included Suh Bok-sup (ca. 1924–).
+      locator: '184'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Early student of Choi Yong-sul, graded in judo, who brought a rank system and other judo
+    practices into Choi's art.
+hasTeacherAssertion:
+  - id: 01M5H45XTYJY7D4PTWFM7XYVHY
+    teacher: 01M5H45XTYZJGP4BK91872Q9E3
+    assertedStyle: 01M5H45XTYC7KSZ5CZ9WKV4T0D
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Choi’s early students included Suh Bok-sup (ca. 1924–). Suh was graded in judo and was the
+              president of a brewery at the time that Choi came to his attention.
+            locator: '184'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: '184'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - hapkido

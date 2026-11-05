@@ -1,0 +1,74 @@
+type: Person
+id: 01M6C18DS7MFJMMJ2GXSZJ19SX
+name:
+  en: Ken Shamrock
+aka:
+  en:
+    - Ken Wayne Shamrock
+    - The World’s Most Dangerous Man
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1964-02-11'
+  hasEvidence:
+    - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+      quotation: 'Born: 2/11/64'
+      locator: '403'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    American mixed martial artist and professional wrestler. King of Pancrase and the UFC's first
+    Superfight champion; founder of the Lion's Den fight team.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/9/9e/Ken_Shamrock_marines_2005_crop.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Ken_Shamrock_marines_2005_crop.jpg
+    cite: "Cpl. J. Agg, U.S. Marine Corps, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+  - id: 01M6C18DS7HX8FD5P76Y9BZ88S
+    teacher: 01M6C18DS7AZS2TNQYDBRBPXKC
+    assertedStyle: 01KYEWRMWERM1HW12W53HE9G4A
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              He won the main event at the very first Pancrase card in Japan, beating his mentor Masakatsu Funaki with an arm triangle
+            locator: '404'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              Funaki was the chief trainer in Japan for both Shamrock and Rutten, two fighters who both beat him in the ring.
+            locator: '126'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+    quotation: >-
+      He won the King of Pancrase title in Japan and was the ufc’s first Superfight champion,
+      beating Dan Severn at ufc 6.
+    locator: '404'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q380834
+tags:
+  - mma
+  - pancrase

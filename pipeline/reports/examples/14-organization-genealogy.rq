@@ -1,0 +1,17 @@
+# Organization genealogy: each organization and every recorded ancestor, walking
+# the materialized org:ChangeEvent chain transitively.
+PREFIX martialis: <https://w3id.org/martialis/ontology#>
+PREFIX schema: <https://schema.org/>
+PREFIX org: <http://www.w3.org/ns/org#>
+
+SELECT DISTINCT ?orgName ?ancestorName ?kind WHERE {
+  ?org (org:resultedFrom/org:originalOrganization)+ ?ancestor .
+  ?org schema:name ?orgName . FILTER(langMatches(LANG(?orgName), "en"))
+  ?ancestor schema:name ?ancestorName . FILTER(langMatches(LANG(?ancestorName), "en"))
+  OPTIONAL {
+    ?org org:resultedFrom ?change .
+    ?change org:originalOrganization ?ancestor ;
+            martialis:changeKind ?kind .
+  }
+}
+ORDER BY ?orgName ?ancestorName

@@ -1,0 +1,464 @@
+# GENERATED FILE - DO NOT EDIT. Built by make model from ontology/vocabularies.ttl; regenerate with `make model && make model-install`.
+id: https://martial.is/model/enums
+name: martialis_enums
+title: Martialis controlled vocabularies as LinkML enums
+description: Each permissible value is the scheme-prefixed concept CURIE and carries the concept IRI as its meaning.
+license: CC0-1.0
+prefixes:
+  linkml: https://w3id.org/linkml/
+  affrel: https://w3id.org/martialis/vocab/affiliation-relation/
+  conflevel: https://w3id.org/martialis/vocab/confidence-level/
+  datecal: https://w3id.org/martialis/vocab/date-calendar/
+  dissmanner: https://w3id.org/martialis/vocab/dissolution-manner/
+  editrel: https://w3id.org/martialis/vocab/edition-relation/
+  eventclass: https://w3id.org/martialis/vocab/event-classification/
+  eventrole: https://w3id.org/martialis/vocab/event-role/
+  evidencetype: https://w3id.org/martialis/vocab/evidence-type/
+  hist: https://w3id.org/martialis/vocab/historicity/
+  honorgrade: https://w3id.org/martialis/vocab/honor-grade/
+  honortype: https://w3id.org/martialis/vocab/honor-type/
+  infotype: https://w3id.org/martialis/vocab/information-type/
+  instrcap: https://w3id.org/martialis/vocab/instructor-capacity/
+  mediarights: https://w3id.org/martialis/vocab/media-rights/
+  orgclass: https://w3id.org/martialis/vocab/org-classification/
+  peerreview: https://w3id.org/martialis/vocab/peer-review/
+  placeclass: https://w3id.org/martialis/vocab/place-classification/
+  rankgrade: https://w3id.org/martialis/vocab/rank-grade/
+  ranktype: https://w3id.org/martialis/vocab/rank-type/
+  srcclass: https://w3id.org/martialis/vocab/source-classification/
+  srcgenre: https://w3id.org/martialis/vocab/source-genre/
+  styleclass: https://w3id.org/martialis/vocab/style-classification/
+  styleform: https://w3id.org/martialis/vocab/style-form/
+  stylerel: https://w3id.org/martialis/vocab/style-relation/
+  teachrole: https://w3id.org/martialis/vocab/teacher-role/
+default_prefix: martialis
+default_range: string
+imports:
+  - linkml:types
+enums:
+  AffiliationRelation:
+    enum_uri: https://w3id.org/martialis/vocab/affiliation-relation/
+    description: Martialis Affiliation Relation Vocabulary
+    permissible_values:
+      affrel:branch_of:
+        meaning: affrel:branch_of
+      affrel:derived_from:
+        meaning: affrel:derived_from
+      affrel:member_of:
+        meaning: affrel:member_of
+      affrel:merged_from:
+        meaning: affrel:merged_from
+      affrel:recognised_by:
+        meaning: affrel:recognised_by
+      affrel:renamed_from:
+        meaning: affrel:renamed_from
+      affrel:replaces:
+        meaning: affrel:replaces
+      affrel:split_from:
+        meaning: affrel:split_from
+  ConfidenceLevel:
+    enum_uri: https://w3id.org/martialis/vocab/confidence-level/
+    description: Martialis Confidence Level Vocabulary
+    permissible_values:
+      conflevel:confirmed:
+        meaning: conflevel:confirmed
+      conflevel:doubtful:
+        meaning: conflevel:doubtful
+      conflevel:possible:
+        meaning: conflevel:possible
+      conflevel:probable:
+        meaning: conflevel:probable
+      conflevel:refuted:
+        meaning: conflevel:refuted
+  DateCalendar:
+    enum_uri: https://w3id.org/martialis/vocab/date-calendar/
+    description: Martialis Date Calendar Vocabulary
+    permissible_values:
+      datecal:japanese_lunisolar:
+        meaning: datecal:japanese_lunisolar
+      datecal:japanese_nengo:
+        meaning: datecal:japanese_nengo
+      datecal:julian:
+        meaning: datecal:julian
+      datecal:other:
+        meaning: datecal:other
+      datecal:other_lunisolar:
+        meaning: datecal:other_lunisolar
+  DissolutionManner:
+    enum_uri: https://w3id.org/martialis/vocab/dissolution-manner/
+    description: Martialis Dissolution Manner Vocabulary
+    permissible_values:
+      dissmanner:defunct:
+        meaning: dissmanner:defunct
+      dissmanner:merged:
+        meaning: dissmanner:merged
+      dissmanner:renamed:
+        meaning: dissmanner:renamed
+      dissmanner:split:
+        meaning: dissmanner:split
+      dissmanner:superseded:
+        meaning: dissmanner:superseded
+      dissmanner:suppressed:
+        meaning: dissmanner:suppressed
+      dissmanner:unknown:
+        meaning: dissmanner:unknown
+  EditionRelation:
+    enum_uri: https://w3id.org/martialis/vocab/edition-relation/
+    description: Martialis Edition Relation Vocabulary
+    permissible_values:
+      editrel:edition:
+        meaning: editrel:edition
+      editrel:facsimile:
+        meaning: editrel:facsimile
+      editrel:reprint:
+        meaning: editrel:reprint
+      editrel:translation:
+        meaning: editrel:translation
+  EventClassification:
+    enum_uri: https://w3id.org/martialis/vocab/event-classification/
+    description: Martialis Event Classification Vocabulary
+    permissible_values:
+      eventclass:ceremony:
+        meaning: eventclass:ceremony
+      eventclass:challenge:
+        meaning: eventclass:challenge
+      eventclass:course:
+        meaning: eventclass:course
+      eventclass:demonstration:
+        meaning: eventclass:demonstration
+      eventclass:exchange:
+        meaning: eventclass:exchange
+      eventclass:founding:
+        meaning: eventclass:founding
+      eventclass:grading:
+        meaning: eventclass:grading
+      eventclass:other:
+        meaning: eventclass:other
+      eventclass:recognition:
+        meaning: eventclass:recognition
+      eventclass:seminar:
+        meaning: eventclass:seminar
+      eventclass:tournament:
+        meaning: eventclass:tournament
+  EventRole:
+    enum_uri: https://w3id.org/martialis/vocab/event-role/
+    description: Martialis Event Role Vocabulary
+    permissible_values:
+      eventrole:competitor:
+        meaning: eventrole:competitor
+      eventrole:demonstrator:
+        meaning: eventrole:demonstrator
+      eventrole:guest:
+        meaning: eventrole:guest
+      eventrole:instructor:
+        meaning: eventrole:instructor
+      eventrole:official:
+        meaning: eventrole:official
+      eventrole:organizer:
+        meaning: eventrole:organizer
+      eventrole:other:
+        meaning: eventrole:other
+      eventrole:signatory:
+        meaning: eventrole:signatory
+  EvidenceType:
+    enum_uri: https://w3id.org/martialis/vocab/evidence-type/
+    description: Martialis Evidence Type Vocabulary
+    permissible_values:
+      evidencetype:direct:
+        meaning: evidencetype:direct
+      evidencetype:indirect:
+        meaning: evidencetype:indirect
+      evidencetype:negative:
+        meaning: evidencetype:negative
+  Historicity:
+    enum_uri: https://w3id.org/martialis/vocab/historicity/
+    description: Martialis Historicity Vocabulary
+    permissible_values:
+      hist:composite:
+        meaning: hist:composite
+      hist:historical:
+        meaning: hist:historical
+      hist:legendary:
+        meaning: hist:legendary
+      hist:title:
+        meaning: hist:title
+  HonorGrade:
+    enum_uri: https://w3id.org/martialis/vocab/honor-grade/
+    description: Shogo Honorific Grade Vocabulary
+    permissible_values:
+      honorgrade:shogo_hanshi:
+        meaning: honorgrade:shogo_hanshi
+      honorgrade:shogo_kyoshi:
+        meaning: honorgrade:shogo_kyoshi
+      honorgrade:shogo_renshi:
+        meaning: honorgrade:shogo_renshi
+  HonorType:
+    enum_uri: https://w3id.org/martialis/vocab/honor-type/
+    description: Martialis Honor Type Vocabulary
+    permissible_values:
+      honortype:certificate:
+        meaning: honortype:certificate
+      honortype:decoration:
+        meaning: honortype:decoration
+      honortype:license:
+        meaning: honortype:license
+      honortype:noble_rank:
+        meaning: honortype:noble_rank
+      honortype:other:
+        meaning: honortype:other
+      honortype:title:
+        meaning: honortype:title
+  InformationType:
+    enum_uri: https://w3id.org/martialis/vocab/information-type/
+    description: Martialis Information Type Vocabulary
+    permissible_values:
+      infotype:primary:
+        meaning: infotype:primary
+      infotype:secondary:
+        meaning: infotype:secondary
+      infotype:undetermined:
+        meaning: infotype:undetermined
+  InstructorCapacity:
+    enum_uri: https://w3id.org/martialis/vocab/instructor-capacity/
+    description: Martialis Instructor Capacity Vocabulary
+    permissible_values:
+      instrcap:guest:
+        meaning: instrcap:guest
+      instrcap:head_instructor:
+        meaning: instrcap:head_instructor
+      instrcap:instructor:
+        meaning: instrcap:instructor
+      instrcap:technical_director:
+        meaning: instrcap:technical_director
+  MediaRights:
+    enum_uri: https://w3id.org/martialis/vocab/media-rights/
+    description: Martialis Media Rights Vocabulary
+    permissible_values:
+      mediarights:attribution:
+        meaning: mediarights:attribution
+      mediarights:cc-by-2.0:
+        meaning: mediarights:cc-by-2.0
+      mediarights:cc-by-2.5:
+        meaning: mediarights:cc-by-2.5
+      mediarights:cc-by-3.0:
+        meaning: mediarights:cc-by-3.0
+      mediarights:cc-by-4.0:
+        meaning: mediarights:cc-by-4.0
+      mediarights:cc-by-sa-2.0:
+        meaning: mediarights:cc-by-sa-2.0
+      mediarights:cc-by-sa-2.0-at:
+        meaning: mediarights:cc-by-sa-2.0-at
+      mediarights:cc-by-sa-2.5:
+        meaning: mediarights:cc-by-sa-2.5
+      mediarights:cc-by-sa-3.0:
+        meaning: mediarights:cc-by-sa-3.0
+      mediarights:cc-by-sa-3.0-de:
+        meaning: mediarights:cc-by-sa-3.0-de
+      mediarights:cc-by-sa-3.0-nl:
+        meaning: mediarights:cc-by-sa-3.0-nl
+      mediarights:cc-by-sa-4.0:
+        meaning: mediarights:cc-by-sa-4.0
+      mediarights:cc0-1.0:
+        meaning: mediarights:cc0-1.0
+      mediarights:copyright_undetermined:
+        meaning: mediarights:copyright_undetermined
+      mediarights:in_copyright:
+        meaning: mediarights:in_copyright
+      mediarights:no_known_copyright:
+        meaning: mediarights:no_known_copyright
+      mediarights:public_domain_mark:
+        meaning: mediarights:public_domain_mark
+  OrgClassification:
+    enum_uri: https://w3id.org/martialis/vocab/org-classification/
+    description: Martialis Organization Classification Vocabulary
+    permissible_values:
+      orgclass:association:
+        meaning: orgclass:association
+      orgclass:committee:
+        meaning: orgclass:committee
+      orgclass:federation:
+        meaning: orgclass:federation
+      orgclass:governing_body:
+        meaning: orgclass:governing_body
+      orgclass:other:
+        meaning: orgclass:other
+      orgclass:school:
+        meaning: orgclass:school
+  PeerReview:
+    enum_uri: https://w3id.org/martialis/vocab/peer-review/
+    description: Martialis Peer Review Status Vocabulary
+    permissible_values:
+      peerreview:not_peer_reviewed:
+        meaning: peerreview:not_peer_reviewed
+      peerreview:peer_reviewed:
+        meaning: peerreview:peer_reviewed
+  PlaceClassification:
+    enum_uri: https://w3id.org/martialis/vocab/place-classification/
+    description: Martialis Place Classification Vocabulary
+    permissible_values:
+      placeclass:academy:
+        meaning: placeclass:academy
+      placeclass:club:
+        meaning: placeclass:club
+      placeclass:dojo:
+        meaning: placeclass:dojo
+      placeclass:gym:
+        meaning: placeclass:gym
+      placeclass:military:
+        meaning: placeclass:military
+      placeclass:other:
+        meaning: placeclass:other
+      placeclass:school:
+        meaning: placeclass:school
+      placeclass:team:
+        meaning: placeclass:team
+      placeclass:temple:
+        meaning: placeclass:temple
+      placeclass:university:
+        meaning: placeclass:university
+  RankGrade:
+    enum_uri: https://w3id.org/martialis/vocab/rank-grade/
+    description: BJJ Belt Grade Vocabulary; Menkyo Grade Vocabulary; Unified Sports Classification System Grade Vocabulary
+    permissible_values:
+      rankgrade:bjj_black:
+        meaning: rankgrade:bjj_black
+      rankgrade:bjj_blue:
+        meaning: rankgrade:bjj_blue
+      rankgrade:bjj_brown:
+        meaning: rankgrade:bjj_brown
+      rankgrade:bjj_purple:
+        meaning: rankgrade:bjj_purple
+      rankgrade:bjj_red:
+        meaning: rankgrade:bjj_red
+      rankgrade:bjj_red_black:
+        meaning: rankgrade:bjj_red_black
+      rankgrade:bjj_red_white:
+        meaning: rankgrade:bjj_red_white
+      rankgrade:bjj_white:
+        meaning: rankgrade:bjj_white
+      rankgrade:menkyo_chuden:
+        meaning: rankgrade:menkyo_chuden
+      rankgrade:menkyo_gokui:
+        meaning: rankgrade:menkyo_gokui
+      rankgrade:menkyo_kaiden:
+        meaning: rankgrade:menkyo_kaiden
+      rankgrade:menkyo_license:
+        meaning: rankgrade:menkyo_license
+      rankgrade:menkyo_okuden:
+        meaning: rankgrade:menkyo_okuden
+      rankgrade:menkyo_shoden:
+        meaning: rankgrade:menkyo_shoden
+      rankgrade:ussc_candidate_master:
+        meaning: rankgrade:ussc_candidate_master
+      rankgrade:ussc_class_1:
+        meaning: rankgrade:ussc_class_1
+      rankgrade:ussc_class_2:
+        meaning: rankgrade:ussc_class_2
+      rankgrade:ussc_class_3:
+        meaning: rankgrade:ussc_class_3
+      rankgrade:ussc_honoured_master:
+        meaning: rankgrade:ussc_honoured_master
+      rankgrade:ussc_master:
+        meaning: rankgrade:ussc_master
+      rankgrade:ussc_master_international:
+        meaning: rankgrade:ussc_master_international
+  RankType:
+    enum_uri: https://w3id.org/martialis/vocab/rank-type/
+    description: Martialis Rank Type Vocabulary
+    permissible_values:
+      ranktype:dan:
+        meaning: ranktype:dan
+      ranktype:dan_unspecified:
+        meaning: ranktype:dan_unspecified
+      ranktype:kyu:
+        meaning: ranktype:kyu
+  SourceClassification:
+    enum_uri: https://w3id.org/martialis/vocab/source-classification/
+    description: Martialis Source Classification Vocabulary
+    permissible_values:
+      srcclass:authored:
+        meaning: srcclass:authored
+      srcclass:derivative:
+        meaning: srcclass:derivative
+      srcclass:original:
+        meaning: srcclass:original
+  SourceGenre:
+    enum_uri: https://w3id.org/martialis/vocab/source-genre/
+    description: Martialis Source Genre Vocabulary
+    permissible_values:
+      srcgenre:biography:
+        meaning: srcgenre:biography
+      srcgenre:curriculum:
+        meaning: srcgenre:curriculum
+      srcgenre:densho:
+        meaning: srcgenre:densho
+      srcgenre:encyclopedia_entry:
+        meaning: srcgenre:encyclopedia_entry
+      srcgenre:history:
+        meaning: srcgenre:history
+      srcgenre:interview:
+        meaning: srcgenre:interview
+      srcgenre:kyohon:
+        meaning: srcgenre:kyohon
+      srcgenre:memoir:
+        meaning: srcgenre:memoir
+      srcgenre:menjo:
+        meaning: srcgenre:menjo
+      srcgenre:news:
+        meaning: srcgenre:news
+      srcgenre:obituary:
+        meaning: srcgenre:obituary
+      srcgenre:other:
+        meaning: srcgenre:other
+      srcgenre:promotional:
+        meaning: srcgenre:promotional
+      srcgenre:roster:
+        meaning: srcgenre:roster
+  StyleClassification:
+    enum_uri: https://w3id.org/martialis/vocab/style-classification/
+    description: Martialis Style Classification Vocabulary
+    permissible_values:
+      styleclass:modern:
+        meaning: styleclass:modern
+      styleclass:other:
+        meaning: styleclass:other
+      styleclass:traditional:
+        meaning: styleclass:traditional
+  StyleForm:
+    enum_uri: https://w3id.org/martialis/vocab/style-form/
+    description: Martialis Style Form Vocabulary
+    permissible_values:
+      styleform:hybrid:
+        meaning: styleform:hybrid
+      styleform:sport:
+        meaning: styleform:sport
+  StyleRelation:
+    enum_uri: https://w3id.org/martialis/vocab/style-relation/
+    description: Martialis Style Relation Vocabulary
+    permissible_values:
+      stylerel:derived_from:
+        meaning: stylerel:derived_from
+      stylerel:influenced_by:
+        meaning: stylerel:influenced_by
+      stylerel:sibling_style_of:
+        meaning: stylerel:sibling_style_of
+      stylerel:split_from:
+        meaning: stylerel:split_from
+      stylerel:variant_of:
+        meaning: stylerel:variant_of
+  TeacherRole:
+    enum_uri: https://w3id.org/martialis/vocab/teacher-role/
+    description: Martialis Teacher Role Vocabulary
+    permissible_values:
+      teachrole:coach:
+        meaning: teachrole:coach
+      teachrole:examination:
+        meaning: teachrole:examination
+      teachrole:private:
+        meaning: teachrole:private
+      teachrole:seminar:
+        meaning: teachrole:seminar
+      teachrole:student:
+        meaning: teachrole:student
+      teachrole:uchi_deshi:
+        meaning: teachrole:uchi_deshi

@@ -1,0 +1,60 @@
+type: Place
+id: 01M5HPABJXNBZ6QGSH63N53N29
+name:
+  en: Victoria Judo Club
+placeType: placeclass:club
+hasSite:
+  - location:
+      label: Victoria, British Columbia
+      countryCode: eucountry:CAN
+      wikidata: wd:Q2132
+foundedEvent:
+  startDate: '1957'
+  founder:
+    - 01M5H5YNY2V6K3XN30HTC5KBXS
+  hasEvidence:
+    - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+      quotation: >-
+        Back in Canada, he used that experience to advantage when, in 1957, he along with five others
+        established the Victoria Judo Club.
+      locator: '133'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Judo club in Victoria, British Columbia, established in 1957 by Lanky Inouye and five others; its
+    first tatami came from Japan in the cable locker of Inouye's naval ship.
+notes: >-
+  Leyshon does not name the other five founders.
+hasInstructorRole:
+  - id: 01M5HPABJXNB2Z0ZETQJN5F9M8
+    instructor: 01M5H5YNY2V6K3XN30HTC5KBXS
+    instructorCapacity: instrcap:instructor
+    instructorPeriod:
+      startYear: 1957
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: Single source; it names him as a founder, not as an instructor.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+        quotation: >-
+          Back in Canada, he used that experience to advantage when, in 1957, he along with five others
+          established the Victoria Judo Club.
+        locator: '133'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    locator: '133'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - canada

@@ -1,0 +1,138 @@
+type: Person
+id: 01M2Z6TY1PD3RHPKEB6543X6D1
+name:
+  en: Shimoe Hidetaro
+  ja-Latn: Shimoe Hidetaro
+  ja: 下江 秀太郎
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1848'
+  dateOriginal: 嘉永元年5月
+  dateCalendar: datecal:japanese_lunisolar
+  hasEvidence:
+  - basedOnSource: 01M2Z6TY1P3HJJJK8HNKQW720M
+    quotation: 下江 秀太郎（しもえ ひでたろう、1848年（嘉永元年5月）- 1904年（明治37年）5月3日）は、日本の武士、剣術家。流派は北辰一刀流。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1904-05-03'
+  deathPlace:
+    label: Sendai
+    countryCode: eucountry:JPN
+    wikidata: wd:Q46747
+  hasEvidence:
+  - basedOnSource: 01M2Z6TY1P3HJJJK8HNKQW720M
+    quotation: 1904年（明治37年）5月、仙台で死去した。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: >-
+    Utsunomiya-domain samurai and Hokushin Ittō-ryū kenjutsu master, called 'Oni Shū' and 'Japan's
+    No. 1 Master of the Thrust'. Head (jukutō) of the Edo Genbukan dojo at 19 (1866). Kenjutsu
+    instructor for the Utsunomiya domain (1867), then a Keishichō gekiken sewagake (1879-1884,
+    again 1887-1898). At the Mito Tobukan (1885-1887) he taught Monna Tadashi, who 'most fully
+    inherited Shimoe's technique', and Naitō Takaharu, and brought both to the Keishichō in
+    1887-1888. Later gekiken shihan for the Aichi (1898) and Miyagi (1899) prefectural police and
+    the Army 2nd Division.
+  ja: >-
+    宇都宮藩士、北辰一刀流の剣術家。「鬼秀」「日本一の突きの名人」と呼ばれた。玄武館で19歳にして塾頭に就く。
+    明治期は警察官として剣術を指南し、水戸東武館で門奈正・内藤高治に稽古をつけた。
+hasTeacherAssertion:
+- id: 01M3YH7N5G2CXAQY3BDQHY36DX
+  teacher: 01M2Z6TY1PR5DSFPQFPGRY6BQX
+  assertedStyle: 01M2Z6TY1P5NRR5B3YNNDQWJ1M
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: JA wiki (Shimoe Hidetaro) records his 1858 entry to the Genbukan under Chiba Eijirō,
+      whose death in 1862 ends the period; single source, but specific.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1858
+      endYear: 1862
+    hasEvidence:
+    - basedOnSource: 01M2Z6TY1P3HJJJK8HNKQW720M
+      quotation: 1858年（安政5年）、江戸へ出て北辰一刀流の道場・玄武館に入門、千葉栄次郎に剣術を学ぶ。1862年（文久2年）の千葉栄次郎の死の後は、その弟千葉道三郎に剣術を学び、関東諸国を武者修行する。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GTG7FW1YHMZY0241V
+  teacher: 01M2Z6TY1P7PDXGSJGZ333DJ0G
+  assertedStyle: 01M2Z6TY1P5NRR5B3YNNDQWJ1M
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: JA wiki records that after Eijirō's death (1862) Shimoe studied under Michisaburō and
+      went on musha-shugyō; the period ends around 1866, when he became Genbukan jukutō at 19. Single source.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1862
+      endYear: 1866
+    hasEvidence:
+    - basedOnSource: 01M2Z6TY1P3HJJJK8HNKQW720M
+      quotation: 1862年（文久2年）の千葉栄次郎の死の後は、その弟千葉道三郎に剣術を学び、関東諸国を武者修行する。1866年（慶応2年）、19歳にして玄武館塾頭となる。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GA9Q7KPM01KVNP0S5
+  rankStyle: 01M2Z6TY1P5NRR5B3YNNDQWJ1M
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+  rankGrade: rankgrade:menkyo_license
+  dateConferred: '1870'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: JA wiki records his 1870 Hokushin Ittō-ryū menkyō; single source.
+  hasEvidence:
+  - basedOnSource: 01M2Z6TY1P3HJJJK8HNKQW720M
+    quotation: 1870年（明治3年）、北辰一刀流の免許を授かる。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasHonorAssertion:
+- id: 01M3YH7N5GCK3RGQX2F8HTC649
+  honorValue: Seirenshō
+  honorType: honortype:certificate
+  conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+  dateConferred: '1897'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: JA wiki footnote records the Dai Nippon Butokukai award of the Seirenshō in 1897; single source.
+  hasEvidence:
+  - basedOnSource: 01M2Z6TY1P3HJJJK8HNKQW720M
+    quotation: 称号は大日本武徳会精錬証[...]1897年（明治30年）授与
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M2Z6TY1P3HJJJK8HNKQW720M
+  quotation: 宇都宮藩士下江恒貞の子として生まれる。初めは父から北辰一刀流を学び、1858年（安政5年）、江戸へ出て北辰一刀流の道場・玄武館に入門、千葉栄次郎に剣術を学ぶ。
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M2Z6TY1P3HJJJK8HNKQW720M
+  quotation: 1885年（明治18年）、茨城県警部長竹内寿貞に招かれ茨城県警察本署兼監獄本署詰め剣術師範に就任。水戸の道場・東武館でも剣術を指導した。その時に東武館で修行中の門奈正と出会う。後に門奈正は、「下江の技を最も受け継いだ」と評される。
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+notes: >-
+  Early instruction in Hokushin Ittō-ryū from his father, Shimoe Tsunezane (Utsunomiya-domain
+  retainer) (JA wiki) - no period, so not modeled as an assertion. Given name (imi) Tsuneaki. The
+  Daitō-ryū tradition records a 1903 match against Takeda Sōkaku (lost or draw) - unverified, not
+  modeled.
+sameAs:
+- wd:Q11361068
+tags:
+- kenjutsu
+- koryu
+- hokushin-ritto-ryu
+- genbukan
+- keishicho

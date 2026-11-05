@@ -1,0 +1,78 @@
+type: Person
+id: 01KZ9TQS3VCE0D7V65S6JVC5JD
+name:
+  ja-Latn: Shimizu Takaji
+  ja: 清水隆次
+aka:
+  ja-Latn: Shimizu Koji
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1896'
+deathEvent:
+  deathDate: '1978'
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/7/73/Shimizu_Takaji.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Shimizu_Takaji.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: Shindo Muso-ryu jojutsu teacher, considered the 25th and last (unofficial) headmaster of the school,
+    who spread jodo internationally. Jigoro Kano arranged for Minoru Mochizuki to study Shindo Muso-ryu
+    jojutsu with him in 1930, alongside the studies Kano arranged with Morihei Ueshiba and Hakudo Nakayama.
+hasEvidence:
+- basedOnSource: 01KZ9TV15DYS5NBBRRXE67SWAD
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+  quotation: The spreading of Shintō Musō-ryū beyond Japan was largely the effort of Takaji Shimizu, (1896–1978),
+    considered the 25th headmaster
+- basedOnSource: 01KZBXVRR52RAP98GM0M14Q7VM
+  informationType: infotype:secondary
+  supports: true
+  quotation: 清水隆次にも入門し、神道夢想流杖術の修行を始める。
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ9TQS3VGPBASF3Z1Q0AVHJF
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+  quotation: C'est Maître Jigoro Kano qui m'a choisi pour aller étudier l'Aïkijujutsu avec Maître Morihei
+    Ueshiba, et le Shindo Muso ryu Ju jutsu auprès de Maître Koji Shimizu.
+- basedOnSource: 01KZ9TQS3VNHWPHTJCAKYNERW6
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+  quotation: De la même façon, il m'a fait étudié le Shindo Muso Ryu Mo Jutsu auprès de Shimizu sensei,
+    et l'art du sabre avec le maître Hakudo Nakayama.
+hasTeacherAssertion:
+- id: 01M5H4HK029D1V10947VZ9VYEC
+  teacher: 01M5H4HK02ARQ5SH66WDKGK4WK
+  assertedStyle: 01KZ9TQS3VCCTAXE15YF88B0T9
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Single source.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        His influential students included Takayama Kiroku (ca. 1893–1938), Otofuji Ichizo (1899–1998),
+        and Shimizu Takaji (1896–1978).
+      locator: '149'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+notes: The Dragon Magazine and Karaté-Bushido interviews render the jo teacher's name as 'Koji Shimizu',
+  but the Japanese Wikipedia article on Mochizuki Minoru records the teacher of Shindo Muso-ryu jojutsu
+  as 清水隆次 (Shimizu Takaji), the well-documented 25th and last (unofficial) headmaster of Shindo Muso-ryu
+  (1896-1978). 'Koji' in the interviews is therefore treated as a misrendering of 'Takaji'; the name 'Shimizu
+  Koji' is kept as an aka for traceability.
+tags:
+- jodo
+- shindo-muso-ryu
+- japan

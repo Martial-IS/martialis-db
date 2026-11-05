@@ -1,0 +1,66 @@
+type: Place
+id: 01M6C1FR4APSBZ84JBFRR4VHA4
+name:
+  en: Lion’s Den
+placeType: placeclass:gym
+hasSite:
+  - location:
+      label: California
+      countryCode: eucountry:USA
+      wikidata: wd:Q99
+hasInstructorRole:
+  - id: 01M6C1FR4ATV7CNVHMHDZ2JXA0
+    instructor: 01M6C18DS7MFJMMJ2GXSZJ19SX
+    instructorCapacity: instrcap:head_instructor
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+        quotation: >-
+          Most often the instruction consisted of Ken telling guys to “hook it up,” followed by
+          hard-core sparring for a half an hour.
+        locator: '261'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  founder:
+    - 01M6C18DS7MFJMMJ2GXSZJ19SX
+  hasEvidence:
+    - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+      quotation: >-
+        In Mezger’s corner, Lion’s Den founder Ken Shamrock went ballistic.
+      locator: '284'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Ken Shamrock's fight team and gym in California, the first world-class MMA fight team, with a
+    fighters' house where members lived. Known for its punishing initiation.
+notes: >-
+  The book gives only "the hot California sun" for its location; no city. The site is the state.
+hasEvidence:
+  - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+    quotation: >-
+      It was an mma all-star team, the first world-class fight team
+    locator: '261'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+    quotation: >-
+      You hit the bleachers, running steps in the hot California sun.
+    locator: '260'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - mma
+  - gym

@@ -1,0 +1,96 @@
+type: Place
+id: 01KZ6654E3BY1BA2D4NWNVB3MM
+name:
+  pt: Clube Naval Setubalense
+placeType: placeclass:club
+hasSite:
+  - location:
+      label: Setúbal
+      countryCode: eucountry:PRT
+      wikidata: wd:Q173699
+foundedEvent:
+  startDate: '1920-05-06'
+  hasEvidence:
+    - basedOnSource: 01KZ6654E3R2WZ43D4NBR6414Q
+      quotation: >-
+        O Clube Naval Setubalense surge em 6 de Maio de 1920, graças ao entusiasmo do Cmt. Afonso O'Neill e o Drº Carlos Botelho Moniz
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M4R9845WSS1VWYXTD88QVXGZ
+    instructor: 01KZ6239B5VBK0S11VCGQZ4C9B
+    instructorCapacity: instrcap:guest
+    instructorPeriod:
+      startYear: 1975
+      endYear: 1975
+    notes: >
+      Dates of the first class differ: the ADAS page gives 10 May 1975, the post by Orlando Marques
+      10 June 1975, the FPA history July 1975.
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The FPA history and the first-hand account of the student Orlando Marques agree; the ADAS page names Honda.
+    hasEvidence:
+      - basedOnSource: 01KZ6239B5Q0H0AGKTCG1D06K9
+        quotation: Esta data é muito importante porque representa a passagem dos cinquenta anos da primeira demonstração pelo Mestre Misao Honda e o nascimento da primeira escola de Aikido Aikikai em Portugal. Em 10 de Maio de 1975 tivémos a afortunada hipótese de ver formar a escola de Aikido, na altura, no Clube Naval Setubalense
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+        quotation: Em Julho de 1975, o Prof. Orlando Marques Pereira inicia a prática de Aikido no Clube Naval Setubalense, com o Mestre Misao Honda.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M4R4VDQ3D5DATEGS01X5WGSB
+        quotation: Honda sensei perguntou-me se estava interessado em abrir uma classe e qual das artes(eram 3) preferia. Escolhi o seu Aikido e no dia 10 terça feira começamos com 3 (eu e mais 2 amigos do judo) praticantes na primeira aula
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M4R9845WK2VDNX6MASG1WEXS
+    officer: 01KZ6654E39YKF2E37Z3Z740RS
+    officerTitle: Board member (Diretor Vogal)
+    officerPeriod:
+      startYear: 1975
+      endYear: 1975
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: His own first-hand account; one side only.
+    hasEvidence:
+      - basedOnSource: 01M4R4VDQ3D5DATEGS01X5WGSB
+        quotation: era eu na altura Diretor Vogal da Direção e responsável pelas atividades do Pavilhão Polidesportivo do Clube Naval Setubalense
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+website: https://clubenavalsetubalense.pt/
+logo:
+  contentUrl: https://clubenavalsetubalense.pt/wp-content/uploads/2025/02/Logo-removebg-preview.png
+  imageAttribution:
+    basedOnSource: 01KZ6654E3R2WZ43D4NBR6414Q
+    informationType: infotype:secondary
+description:
+  en: Nautical and multi-sport club in Setúbal founded on 6 May 1920, currently offering rowing, sailing, swimming, handball, gymnastics and adapted sport. It does not currently offer aikido, but is the historical venue where Misao Honda gave his first demonstration in Portugal on 10 May 1975, giving rise to the first Aikido Aikikai school in the country, and where Orlando Marques Pereira began aikido in July 1975.
+  pt: Clube náutico e polidesportivo de Setúbal fundado a 6 de maio de 1920, atualmente com remo, vela, natação, andebol, ginástica e desporto adaptado. Não oferece atualmente Aikido, mas é o local histórico onde Misao Honda fez a sua primeira demonstração em Portugal em 10 de maio de 1975, dando origem à primeira escola de Aikido Aikikai do país, e onde Orlando Marques Pereira iniciou o Aikido em julho de 1975.
+hasEvidence:
+  - basedOnSource: 01KZ6654E3R2WZ43D4NBR6414Q
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ6239B5Q0H0AGKTCG1D06K9
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M4R4VDQ3D5DATEGS01X5WGSB
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - aikido
+  - portugal
+  - history

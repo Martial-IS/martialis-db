@@ -1,0 +1,71 @@
+type: Style
+id: 01KYQ4SCN9Q1R9X8CGDYHG7230
+name:
+  en: Yoshinkan Aikido
+  ja: 養神館合気道
+aka:
+  en: Yoshinkan
+styleType: styleclass:modern
+description:
+  en: Yoshinkan Aikido (養神館合気道) is a style of aikido founded by Gozo Shioda in 1955. Often called the "hard" style of aikido, it emphasizes practical self-defense applications and is taught to the Tokyo Metropolitan Police. The Yoshinkan style is currently the second largest aikido organization worldwide.
+foundedEvent:
+  startDate: '1955'
+  founder:
+    - 01KYQ4SCN933DE1RDHARY7VGHX
+  hasEvidence:
+    - uri: https://en.wikipedia.org/wiki/Yoshinkan
+      archiveUri: https://en.wikipedia.org/w/index.php?title=Yoshinkan&oldid=1338851266
+      cite: Yoshinkan - Wikipedia EN
+      quotation: 'Date founded 1955 [...] Founder Gozo Shioda'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://yoshinkan.net/en/about/
+      quotation: >-
+        Founded in 1955
+      cite: Yoshinkan - About
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5GCKWR57MA9R0H3PE2
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9R
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Yoshinkan is a specific school of aikido founded by Gozo Shioda, a direct student of Morihei Ueshiba
+    hasEvidence:
+      - uri: https://en.wikipedia.org/wiki/Yoshinkan
+        quotation: >-
+          Style of aikido
+        archiveUri: https://en.wikipedia.org/w/index.php?title=Yoshinkan&oldid=1338851266
+        cite: Yoshinkan - Wikipedia EN
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - uri: https://en.wikipedia.org/wiki/Yoshinkan
+    archiveUri: https://en.wikipedia.org/w/index.php?title=Yoshinkan&oldid=1338851266
+    cite: Yoshinkan - Wikipedia EN
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://yoshinkan.net/en/about/
+    cite: Yoshinkan - About
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q1473834
+tags:
+  - aikido
+  - japanese-martial-arts
+  - gendai
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/en/e/e2/YoshinCs.png
+    imageAttribution:
+      uri: https://en.wikipedia.org/wiki/File:YoshinCs.png
+      archiveUri: https://en.wikipedia.org/w/index.php?title=Yoshinkan&oldid=1338851266
+      cite: "English Wikipedia"
+      informationType: infotype:secondary

@@ -1,0 +1,39 @@
+type: Organization
+id: 01M4X6GT6A94FJTV2ZAW7QHY2P
+name:
+  en: United States Judo Federation
+aka:
+  en:
+    - USJF
+    - Judo Black Belt Federation
+orgType: orgclass:federation
+hasSite:
+  - location:
+      label: Ontario, Oregon
+      countryCode: eucountry:USA
+logo:
+  contentUrl: https://www.usjf.com/wp-content/uploads/2021/12/2021-USJFLogo.png
+  imageAttribution:
+    uri: https://www.usjf.com/
+    cite: United States Judo Federation
+website: https://www.usjf.com/
+description:
+  en: >-
+    US judo federation focused on grassroots judo. Founded in 1952 as the Amateur Judo Association,
+    renamed Judo Black Belt Federation in 1955 and United States Judo Federation in 1967.
+hasEvidence:
+  - uri: https://en.wikipedia.org/wiki/United_States_Judo_Federation
+    cite: United States Judo Federation - Wikipedia
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://www.usjf.com/
+    cite: United States Judo Federation
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3550740
+tags:
+  - judo
+  - federation

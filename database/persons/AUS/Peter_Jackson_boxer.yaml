@@ -1,0 +1,121 @@
+type: Person
+id: 01M5JPY6FNYZFFQ1EASQR65HS2
+name:
+  en: Peter Jackson
+aka:
+  en:
+    - Peter the Great
+    - Black Prince
+nationality:
+  - countryCode: eucountry:AUS
+    wikidata: wd:Q408
+birthEvent:
+  birthDate: '1861-07-03'
+  birthPlace:
+    label: Christiansted, Saint Croix
+    countryCode: eucountry:VIR
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNPVNE6C4YFJG5F12E
+      quotation: >-
+        Peter Jackson (3 July 1861 – 13 July 1901) was an Australian heavyweight boxer who had a
+        significant international career.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1901-07-13'
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNPVNE6C4YFJG5F12E
+      quotation: >-
+        Peter Jackson (3 July 1861 – 13 July 1901) was an Australian heavyweight boxer who had a
+        significant international career.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Australian heavyweight boxer born on Saint Croix, a sailor before he boxed. After early lessons with
+    Jack Dowridge he trained under Larry Foley in Sydney and had a long international career; he was in
+    the International Boxing Hall of Fame's first class (1990).
+hasTeacherAssertion:
+  - id: 01M5KQTRGX466JVQTN056RZX96
+    teacher: 01M5KQTRGXHHWWERGQPXHB3KEG
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JPY6FNPVNE6C4YFJG5F12E
+            quotation: >-
+              Jackson was at one stage a pupil of "The Black Diamond" Jack Dowridge, a Barbadian immigrant
+              who pioneered boxing in Queensland, Australia.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5JPY6FNWZ6NQTYR1RV1DMX8
+    teacher: 01M5JPY6FNJBK7WVKR797CX3WY
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasInteraction:
+      - interactionPlace: 01M5JPYGXJT7D93TZXATXBEQ5C
+        hasEvidence:
+          - basedOnSource: 01M5JPY6FNPVNE6C4YFJG5F12E
+            quotation: >-
+              Both Slavin and Jackson had trained under Larry Foley and a real feud had existed between
+              them for several years, due to Slavin's racism and a romantic triangle with a woman named
+              Josie Leon.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JPY6FNQFQ8KJC0YEQ1ZPSY
+            quotation: >-
+              At his gym at the White Horse, Foley taught, trained and guided the careers of the great
+              boxers Young Griffo, Bob Fitzsimmons, Paddy Slavin, and Peter Jackson as well as the lesser
+              known Dan Creedon and George Dawson.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5JPY6FN8SKKE9AVJYXNBKYJ
+    teacher: 01M5JPY6FNZ219F9GMWP2YDSQ3
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        One source, through Foley.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JPY6FNC5TH6PMP2Y69X789
+            quotation: >-
+              With the help of his protégé, Australian champion Larry Foley, he schooled a generation of
+              mostly Australian boxers, including the Caribbean-born Peter Jackson, multiple-weight-class
+              champion, British-born Bob Fitzsimmons, and Young Griffo.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JPY6FNPVNE6C4YFJG5F12E
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q711997
+tags:
+  - boxing
+  - australia
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/d/df/PeterJackson-%28The_black_Prince%29.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:PeterJackson-(The_black_Prince).jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary

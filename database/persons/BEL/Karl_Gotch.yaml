@@ -1,0 +1,86 @@
+type: Person
+id: 01KYDPMZ5JJKGQ5DDGFGM8FBJN
+name:
+  en: Karl Gotch
+aka:
+  en:
+    - Karl Charles Istaz
+    - Karl Krauser
+  ja: カール・ゴッチ
+  ja-Latn: Kāru Gotchi
+nationality:
+  - countryCode: eucountry:BEL
+    wikidata: wd:Q31
+birthEvent:
+  birthDate: '1924-08-03'
+  birthPlace:
+    label: Antwerp
+    countryCode: eucountry:BEL
+    wikidata: wd:Q12892
+  hasEvidence:
+    - basedOnSource: 01KYDPMZ5FT0BC8YW4VFJ4N0G9
+      quotation: >-
+        Born Charles Istaz August 3, 1924
+      cite: Karl Gotch (Wikipedia EN)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2007-07-28'
+  deathPlace:
+    label: Tampa
+    countryCode: eucountry:USA
+    wikidata: wd:Q49257
+  hasEvidence:
+    - basedOnSource: 01KYDPMZ5FT0BC8YW4VFJ4N0G9
+      quotation: >-
+        Died July 28, 2007 (aged 82)
+      cite: Karl Gotch (Wikipedia EN)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: Karl Gotch (1924–2007), born Karl Istaz, was a Belgian catch wrestler, Olympian, and trainer known as the 'God of Wrestling' (Kamisama) in Japan. Trained at the Snake Pit under Billy Riley, he taught Satoru Sayama and Antonio Inoki, and his students founded Shooto, Pancrase, and PRIDE FC, making him a foundational figure in MMA.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/b/bb/Karl_Krauser_1943.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Karl_Krauser_1943.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M3YH7N5F8W6ST6CEP4Y0CDNJ
+    teacher: 01KYEZC879D48ZHB2QX45XRS35
+    assertedStyle: 01KYEWRMWERM1HW12W53HE9G4A
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Gotch trained at Billy Riley's Snake Pit in Wigan, acknowledged as the center of catch wrestling; well-documented in wrestling history
+    hasInteraction:
+      - interactionPlace: 01KYEZC87AX510ZSYXWYCWEPCJ
+        interactionPeriod:
+          startYear: 1955
+          endYear: 1960
+        hasEvidence:
+          - basedOnSource: 01KYDPMZ5FT0BC8YW4VFJ4N0G9
+            cite: Karl Gotch (Wikipedia EN)
+            quotation: He learned catch-as-catch-can and professional wrestling at the Snake Pit under Billy Riley and Billy Joyce
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYDPMZ5FT0BC8YW4VFJ4N0G9
+    cite: Karl Gotch (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q1373145
+tags:
+  - catch-wrestling
+  - olympian
+  - shooto
+  - snake-pit
+  - god-of-wrestling

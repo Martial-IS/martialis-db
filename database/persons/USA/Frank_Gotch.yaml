@@ -1,0 +1,78 @@
+type: Person
+id: 01KYMTYN1R6BJW843MFKX1XQHB
+name:
+  en: Frank Gotch
+aka:
+  en:
+  - Frank Alvin Gotch
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+birthEvent:
+  birthDate: '1877-04-27'
+  birthPlace:
+    label: Humboldt
+    countryCode: eucountry:USA
+    wikidata: wd:Q970204
+  hasEvidence:
+  - basedOnSource: 01KYMTYN1REZC0W5BP1SVP8E43
+    quotation: >-
+      Frank Alvin Gotch (April 27, 1877 – December 17, 1917)
+    cite: Frank Gotch (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1917-12-17'
+  deathPlace:
+    label: Humboldt
+    countryCode: eucountry:USA
+    wikidata: wd:Q970204
+  hasEvidence:
+  - basedOnSource: 01KYMTYN1REZC0W5BP1SVP8E43
+    quotation: >-
+      Frank Alvin Gotch (April 27, 1877 – December 17, 1917)
+    cite: Frank Gotch (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/1/15/Frank-gotch.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Frank-gotch.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: American professional wrestler and World Heavyweight Wrestling Champion. Trained by Martin Burns,
+    he was one of the most celebrated wrestlers of the early 20th century. His wrestling style was based
+    on catch wrestling. He taught Roy H. 'Pop' Moore, who later became a pioneering judo coach and the
+    foster father of Mel Bruno.
+hasTeacherAssertion:
+- id: 01M3YH7N5GMD1A5QYTDKDVDN2K
+  teacher: 01M1KSJ12Q5HGTZ9RSZZ1SJVMC
+  assertedStyle: 01KYEWRMWERM1HW12W53HE9G4A
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Martin Burns was a professional wrestler and trained Gotch; documented in Wikipedia
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KYMTYN1REZC0W5BP1SVP8E43
+      cite: Frank Gotch (Wikipedia EN)
+      quotation: Trained by Martin Burns
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KYMTYN1REZC0W5BP1SVP8E43
+  cite: Frank Gotch (Wikipedia EN)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q742936
+tags:
+- professional-wrestling
+- catch-wrestling

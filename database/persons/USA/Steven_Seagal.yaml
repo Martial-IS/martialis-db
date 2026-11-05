@@ -1,0 +1,182 @@
+type: Person
+id: 01KZSRDXQWMW7159NW1MGS7XJ5
+name:
+  en: Steven Seagal
+  ja: スティーヴン・セガール
+aka:
+  en: Steven Frederic Seagal
+  ja: 武榮道
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1952-04-10'
+  birthPlace:
+    label: Lansing, Michigan
+    countryCode: eucountry:USA
+    wikidata: wd:Q28237
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/5/5a/Steven_Seagal_at_Russia_Expo.jpg
+  rights: mediarights:cc-by-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Steven_Seagal_at_Russia_Expo.jpg
+    cite: "Svklimkin, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: American actor, producer and martial artist. He studied karate under Fumio Demura before taking up aikido under Harry Ishisaka at the Orange County Aikikai. He received his 1st dan from Koichi Tohei in the summer of 1974, then moved to Japan where, with his wife Miyako Fujitani, he ran the Tenshin Dojo in Osaka as the first westerner to operate an aikido dojo in Japan. He returned to the United States in the early 1980s and became a film actor from 1988 (Above the Law). The Aikido Journal Encyclopedia records him at 6th dan.
+  ja: アメリカの俳優・武道家。出村文男の下で空手を、ハリー・石坂の下で合気道を学んだ。1974年夏に藤平光一から初段を許され、その後来日して妻の藤谷美也子とともに大阪で天心道場を運営し、外国人として初めて日本で合気道道場を主宰した。1980年代前半に米国へ戻り、1988年から俳優として活躍。合気道ジャーナル百科事典は6段と記録している。
+hasTeacherAssertion:
+  - id: 01M3YH7N5G4JPA23GBYCFV9B4Z
+    teacher: 01KYFZEGYNYWWK97CXKCACKHNS
+    assertedStyle: 01KYFZEGYN7A9G4FSTXBPDBG8P
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Aikido Journal Encyclopedia states Seagal studied karate under Fumio Demura before beginning aikido; training period not specified
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KZSRDXQWEYXA6T7659AZPCWJ
+            quotation: After studying karate under Fumio Demura, began practice of aikido in the late 1960s or early 1970's at the Orange County Aikikai in California under Harry ISHISAKA
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GQTW2V6XSMTSADDDD
+    teacher: 01KZSRDXQWZTM5ZRVG0NWRWZHX
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Aikido Journal and Wikipedia both identify Ishisaka as Seagal's first aikido teacher at the Orange County Aikikai
+    hasInteraction:
+      - interactionPlace: 01KZVDNBGAWJC6PX08E16CV303
+        interactionPeriod:
+          startYear: 1970
+          endYear: 1974
+        hasEvidence:
+          - basedOnSource: 01KZSRDXQWEYXA6T7659AZPCWJ
+            quotation: began practice of aikido in the late 1960s or early 1970's at the Orange County Aikikai in California under Harry ISHISAKA
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZSRDXQW8DH7Q2RHTX1FQKER
+            quotation: First aikido teacher of Steven SEAGAL
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZSRDXQW37KR0F7RYJ78D569
+            quotation: Perhaps his best known pupil was Steven Seagal, who began studying under Ishisaka as a teenager in the mid-1960s
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G1D2DPVTSXHSST65R
+    teacher: 01KZSRDXQW9QBDT9VR9P08RBYT
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Aikido Journal records that Seagal received his 1st dan from Koichi Tohei in Orange County in the summer of 1974
+    hasInteraction:
+      - interactionPlace: 01KZVDNBGAWJC6PX08E16CV303
+        interactionPeriod:
+          startYear: 1974
+          endYear: 1974
+        hasEvidence:
+          - basedOnSource: 01KZSRDXQWEYXA6T7659AZPCWJ
+            quotation: Received 1st dan from Koichi TOHEI in Orange County in the summer of 1974
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5HRXSSAHP35V9Z6VT5B5R61
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TV
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:refuted
+      assessedBy: agent:FSM
+      confidenceRationale: Seagal claimed to have been a student of Morihei Ueshiba, but Ueshiba died in 1969 when Seagal was 17, five years before Seagal moved to Japan at age 22; Wikipedia explicitly states the claim is false
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KZSRDXQWRTSSQ3VB91WA43H0
+            quotation: Seagal has stated that he was a student of the founder of aikido, Morihei Ueshiba
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZSRDXQWRTSSQ3VB91WA43H0
+            quotation: despite the fact that Ueshiba died in 1969 when Seagal was 17 and five years before Seagal moved to Japan at age 22
+            informationType: infotype:secondary
+            supports: false
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GMZXJSV5QV0QXZ157
+    rankStyle: 01KJJAWN29MA64W22606R3WD9R
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 1
+    conferredBy: 01KZ3KA57C6W6FMCWM668Y13X2
+    grantedBy: 01KZSRDXQW9QBDT9VR9P08RBYT
+    dateConferred: '1974'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Award of 1st dan in 1974 documented by Aikido Journal; contested by ex-wife Miyako Fujitani's account that the belt was granted when the judge fell asleep, and her dating of the black belt to 1978
+    hasEvidence:
+      - basedOnSource: 01KZSRDXQWEYXA6T7659AZPCWJ
+        quotation: Received 1st dan from Koichi TOHEI in Orange County in the summer of 1974
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZSRDXQWRTSSQ3VB91WA43H0
+        quotation: The only reason Steven was awarded the black belt was because the judge, who was famous for his laziness, fell asleep during Steven's presentation. The judge just gave him the black belt.
+        informationType: infotype:secondary
+        supports: false
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GCK9QE711W4X2YKA8
+    rankStyle: 01KJJAWN29MA64W22606R3WD9R
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 7
+    conferredBy: 01KZ3KA57C6W6FMCWM668Y13X2
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: Rank disputed. Seagal claims 7th dan shihan per Wikipedia; Aikido Journal Encyclopedia records him at 6th dan ('rapidly promoted to 5th dan in consideration of his position as chief instructor of the dojo and was eventually awarded 6th dan').
+    hasEvidence:
+      - basedOnSource: 01KZSRDXQWRTSSQ3VB91WA43H0
+        quotation: A 7th-dan black belt and shihan in Aikikai aikido
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZSRDXQWEYXA6T7659AZPCWJ
+        quotation: He was rapidly promoted to 5th dan in consideration of his position as chief instructor of the dojo and was eventually awarded 6th dan
+        informationType: infotype:secondary
+        supports: false
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZSRDXQWRTSSQ3VB91WA43H0
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M0Q8AS7178C75Q9XKNF2PEWT
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZSRDXQWEYXA6T7659AZPCWJ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M0Q8AS7178C75Q9XKNF2PEWT
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q82110
+  - viaf:102338104
+  - isni:0000000114538205
+tags:
+  - aikido
+  - actor
+  - usa
+  - japan

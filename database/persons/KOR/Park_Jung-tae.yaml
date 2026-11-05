@@ -1,0 +1,94 @@
+type: Person
+id: 01KYQM3M5CSDPXRB08KJB3GDP2
+name:
+  en: Park Jung-tae
+  ko: 박정태
+aka:
+  en:
+    - Grandmaster Park Jung-tae
+nationality:
+  - countryCode: eucountry:KOR
+    wikidata: wd:Q884
+birthEvent:
+  birthDate: 1943~
+  birthPlace:
+    label: Korea
+    countryCode: eucountry:KOR
+    wikidata: wd:Q884
+  hasEvidence:
+    - basedOnSource: 01KYQM3M5CZKB7DYTDDT3JXQRP
+      quotation: >-
+        (Korean: 박정태; Hanja: 朴炡泰; c. 1943 – 11 April 2002)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2002-04-11'
+  deathPlace:
+    countryCode: eucountry:CAN
+    wikidata: wd:Q16
+  hasEvidence:
+    - basedOnSource: 01KYQM3M5CZKB7DYTDDT3JXQRP
+      quotation: >-
+        (Korean: 박정태; Hanja: 朴炡泰; c. 1943 – 11 April 2002)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: 'South Korean taekwondo master, one of the twelve original masters of the Korea Taekwon-Do Association. He served as Secretary-General of the International Taekwon-Do Federation (ITF) under Choi Hong-hi and was Technical Chairman. In 1990 he founded the Global Taekwon-Do Federation (GTF). He was a pioneer of taekwondo in Canada, Russia, China, Japan, North Korea, and Eastern Europe. He trained initially in boxing, judo, and karate before specializing in taekwondo. During the Vietnam War he served as the army''s leading martial arts instructor for South Korean, Vietnamese, and American soldiers.
+
+'
+hasTeacherAssertion:
+  - id: 01M3YH7N5G3CF9XNPQ540EVZ6E
+    teacher: 01KYQM3M5CWFJJBA8W502KD2TP
+    assertedStyle: 01KYQM3M5C2M9KJ36E6Q1JEWN3
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia confirms Park was a key ITF leader under Choi Hong-hi
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1960
+          endYear: 1990
+        hasEvidence:
+          - basedOnSource: 01KYQM3M5CZKB7DYTDDT3JXQRP
+            quotation: Park was a key leader in the International Taekwon-Do Federation (ITF) under Choi Hong-hi
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5G758G7YCEFM311A0F
+    rankStyle: 01KYQM3M5C2M9KJ36E6Q1JEWN3
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 9
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia documents 9th dan GTF and 8th dan ITF
+    hasEvidence:
+      - basedOnSource: 01KYQM3M5CZKB7DYTDDT3JXQRP
+        quotation: Rank 9th dan taekwondo (GTF), 8th dan taekwondo (ITF)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYQM3M5CZKB7DYTDDT3JXQRP
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://taekwondohalloffame.com/honorees/gm-park-jung-tae-2/
+    cite: Taekwondo Hall of Fame - GM Park Jung-tae
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q6312673
+tags:
+  - taekwondo
+  - itf
+  - gtf
+  - founder
+  - pioneer
+  - original-masters

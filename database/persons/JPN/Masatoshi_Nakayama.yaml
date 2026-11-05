@@ -1,0 +1,214 @@
+type: Person
+id: 01KYYVEV2M51X3PGZ78QFDZBRZ
+name:
+  en: Masatoshi Nakayama
+  ja: 中山正敏
+  ja-Latn: Nakayama Masatoshi
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1913-04-13'
+  birthPlace:
+    label: Yamaguchi Prefecture
+    countryCode: eucountry:JPN
+    wikidata: wd:Q127264
+  hasEvidence:
+    - basedOnSource: 01KYYVEV2MEXM7XK17S83NWQS4
+      quotation: Nakayama was born on April 13, 1913, in the Yamaguchi prefecture of Japan.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1987-04-15'
+  deathPlace:
+    label: Tokyo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1490
+  hasEvidence:
+    - basedOnSource: 01KYYVEV2MEXM7XK17S83NWQS4
+      quotation: Nakayama continued teaching Shotokan karate until his death on April 15, 1987, in Tokyo, Japan.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: 'Japanese master of Shotokan karate and the founder and first Chief Instructor of the Japan Karate Association (JKA). Nakayama began training under Gichin Funakoshi and his son Gigō Funakoshi at Takushoku University, helped establish the JKA in 1949 with Funakoshi as its formal head, and served as its Chief Instructor until his death in 1987. He was the first Shotokan master to attain 9th dan while alive and was posthumously awarded 10th dan. He developed the JKA instructor training program and karate''s first match system, spread Shotokan karate worldwide through his students, and authored the 11-volume Best Karate series. His notable students included Hirokazu Kanazawa, Keinosuke Enoeda, and Hiroshi Shirai.
+
+'
+  ja: '松濤館流空手道の達人で、日本空手協会（JKA）の設立者・初代首席師範。拓殖大学で船越義珍とその子・義豪（ギゴウ）に師事し、1949年のJKA設立を支援して首席師範を務めた。存命中に松濤館流で初めて九段に達し、没後十段を追贈された。JKA指導員養成制度と試合方式を確立し、弟子を通じて世界各地に松濤館空手を広め、『ベスト空手』全11巻を著した。著名な弟子には金澤弘和、榎枝慶之輔、白井寛らがいる。
+
+'
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/d/db/Maestro_Masatoshi_Nakayama.jpg
+  rights: mediarights:cc-by-sa-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Maestro_Masatoshi_Nakayama.jpg
+    cite: "Csksnakayama, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+  - id: 01M5H4Y5BYCPX57T1240Y1SDFP
+    teacher: 01KYJCSK3HM7WV1EJPH94Q18T2
+    assertedStyle: 01KYFZEGYN7A9G4FSTXBPDBG8P
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Own account only; two kata, at Funakoshi's request.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+            quotation: >-
+              Masatoshi Nakayama says: “When we visited Master Mubuni, Master Funakoshi told me to learn
+              Gojushiho, and Nijushiho, so we could study them more carefully. So Kenwa Mabuni taught me
+              these kata.
+            locator: '146'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GK262EQCV66RB8AN6
+    teacher: 01KJJAWN28MWKKSN4J02MVY1VB
+    assertedStyle: 01KYFZEGYN107JYC5K1539R8JM
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Multiple sources confirm Nakayama learned karate under Gichin Funakoshi, the founder of Shotokan, at Takushoku University
+    hasInteraction:
+      - interactionPlace: 01KYYYTTW39B4XTBPMT7KZRGED
+        interactionPeriod:
+          startYear: 1932
+          endYear: 1937
+        hasEvidence:
+          - basedOnSource: 01KYYVEV2MEXM7XK17S83NWQS4
+            quotation: Nakayama entered Takushoku University in 1932 to study Chinese language, and began learning karate under Gichin Funakoshi and his son Yoshitaka (also known as Gigō).
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KYYVEV2M1MAHDWS6QMX036XY
+            quotation: Upon entering Takushoku University in 1932, Master Nakayama immediately joined the university's karate club, studying under Master Funakoshi Gichin and one of the master's sons, Funakoshi Yoshitaka.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GQ6TT8JW9QG5EGYJY
+    teacher: 01KJJAWN29MA64W22606R3WD7M
+    assertedStyle: 01KYFZEGYN107JYC5K1539R8JM
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Both JKA official biography and Wikipedia confirm Nakayama studied under Funakoshi's son Yoshitaka (Gigō) at Takushoku University
+    hasInteraction:
+      - interactionPlace: 01KYYYTTW39B4XTBPMT7KZRGED
+        interactionPeriod:
+          startYear: 1932
+          endYear: 1937
+        hasEvidence:
+          - basedOnSource: 01KYYVEV2MEXM7XK17S83NWQS4
+            quotation: Nakayama entered Takushoku University in 1932 to study Chinese language, and began learning karate under Gichin Funakoshi and his son Yoshitaka (also known as Gigō).
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KYYVEV2M1MAHDWS6QMX036XY
+            quotation: studying under Master Funakoshi Gichin and one of the master's sons, Funakoshi Yoshitaka
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GR2D7PACB9R8DXSWV
+    teacher: 01M1KSJ12QWXN4K2RWMMX72D3J
+    assertedStyle: 01KYFZEGYN107JYC5K1539R8JM
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia lists Isao Obata among Nakayama's teachers.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KYYVEV2MEXM7XK17S83NWQS4
+            quotation: Gichin Funakoshi, Gigō Funakoshi, Isao Obata, Takeshi Shimoda
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GDYQAQ8YKW2J7CXVH
+    teacher: 01M1KSJ12Q9GAXRF2QTSST28B4
+    assertedStyle: 01KYFZEGYN107JYC5K1539R8JM
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia lists Takeshi Shimoda among Nakayama's teachers; the relationship is less documented than the others.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KYYVEV2MEXM7XK17S83NWQS4
+            quotation: Gichin Funakoshi, Gigō Funakoshi, Isao Obata, Takeshi Shimoda
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GE6PKHJJ2J11YVXND
+    rankStyle: 01KYFZEGYN107JYC5K1539R8JM
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 9
+    conferredBy: 01KYYVEV2MPD8XJNM8H15SY06H
+    dateConferred: '1980'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia states Nakayama was promoted to 9th dan in the 1980s, the first Shotokan master to receive the rank while alive; JKA was the promoting organization
+    hasEvidence:
+      - basedOnSource: 01KYYVEV2MEXM7XK17S83NWQS4
+        quotation: He was promoted to 9th dan in the 1980s, becoming the first Shotokan master to be awarded this rank while still living.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KYYVEV2M5BKEG0J9SBGDXY3S
+        quotation: 1980年代に九段に昇格し、生涯でこの階級を授与された最初の松濤館の名人となった
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GWBEMNA32ANCENRY7
+    rankStyle: 01KYFZEGYN107JYC5K1539R8JM
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 10
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia and JA Wikipedia both state Nakayama was posthumously awarded 10th dan
+    hasEvidence:
+      - basedOnSource: 01KYYVEV2MEXM7XK17S83NWQS4
+        quotation: He was the first master in Shotokan history to attain the rank of 9th dan while alive, and was posthumously awarded the rank of 10th dan.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KYYVEV2M5BKEG0J9SBGDXY3S
+        quotation: 死後、十段を授与された
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYYVEV2MEXM7XK17S83NWQS4
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYYVEV2M5BKEG0J9SBGDXY3S
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYYVEV2M1MAHDWS6QMX036XY
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q384558
+  - viaf:167051
+  - isni:0000000101508250
+tags:
+  - shotokan
+  - karate
+  - jka
+  - founder
+  - chief-instructor
+  - japanese
+  - author

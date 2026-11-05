@@ -1,0 +1,70 @@
+type: Person
+id: 01M6A2A5ZB1N3HS2EFDQE98JHA
+name:
+  pt: Mestre Acordeon
+aka:
+  pt:
+    - Bira Almeida
+    - Ubirajara Guimarães Almeida
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Capoeira mestre, a student of Mestre Bimba, who founded the Grupo Folclórico da Bahia in 1964
+    and from 1979 taught capoeira in California, where he opened the school Capoeira-Bahia.
+notes: >-
+  Founded a World Capoeira Association and published one of the first English books on capoeira
+  (1981) (Assunção, p. 186).
+birthEvent:
+  birthDate: '1943'
+  birthPlace:
+    label: Salvador, Bahia
+    countryCode: eucountry:BRA
+    wikidata: wd:Q36947
+  hasEvidence:
+    - basedOnSource: 01M6ACM2JZ3DZ6W2T825RFPXDD
+      quotation: >-
+        Ubirajara (Bira) Guimarães Almeida (born 1943), known as Mestre Acordeon, is a native of
+        Salvador, Bahia, Brazil
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M6A2A5ZARN8PA74HC5KPBME7
+    teacher: 01M5H4AFG2ZHJ3H82H0DPJQJ1V
+    assertedStyle: 01M6A2A5YR5THAAVA3A61JRZ1H
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              Bira Almeida, another student of M.Bimba, settled on the West Coast of the United
+              States.
+            locator: '186'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    locator: '186'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q4915572
+tags:
+  - capoeira
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/5/5c/Mestre_Acordeon_teaching_at_Capoeira_Arts_Cafe_2005.jpg
+  rights: mediarights:cc-by-sa-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Mestre_Acordeon_teaching_at_Capoeira_Arts_Cafe_2005.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary

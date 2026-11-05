@@ -1,0 +1,93 @@
+type: Person
+id: 01M5H6JAFS9KGBBV499VG8XW4W
+name:
+  pt: Royler Gracie
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Brazilian jiu-jitsu coral belt, fifth son of Hélio Gracie; four-time IBJJF and three-time ADCC world
+    champion, MMA fighter, and head of Gracie Humaitá. Trained mainly under his father, then with Rolls
+    and Rickson Gracie.
+hasTeacherAssertion:
+  - id: 01M5H6JAFSPZB1FF074RXE048E
+    teacher: 01KJJAWN28MWKKSN4J02MVY1S5
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: His own account only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: >-
+              I had my Uncle [Carlos], my father who was the main one, my brothers and cousins.
+            locator: Interview with Royler Gracie (after chapter 13)
+            locatorLabel: section
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5H6JAFSARTKZA042BZ6H954
+    teacher: 01KYZ31HT3D978KY5GPZAGKV5G
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: His own account only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: >-
+              Rolls, with whom I trained with a lot when I was a kid, then I began training with
+              Rickson.
+            locator: Interview with Royler Gracie (after chapter 13)
+            locatorLabel: section
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5H6JAFS7J5V7X2GKC65XM51
+    teacher: 01KYS8C0AF6DD44239NY1DZ286
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: His own account only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: >-
+              Rolls, with whom I trained with a lot when I was a kid, then I began training with
+              Rickson.
+            locator: Interview with Royler Gracie (after chapter 13)
+            locatorLabel: section
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+notes: >-
+  Drysdale (interview): he also trained with Carlson, "but I wouldn’t say he was ever my direct
+  instructor".
+hasEvidence:
+  - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+    quotation: >-
+      Helio Gracie’s fifth son and a key member from the second-wave, Royler Gracie
+    locator: Interview with Royler Gracie (after chapter 13)
+    locatorLabel: section
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q959548
+tags:
+  - bjj
+  - gracie-family
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/9/9e/Royler_crop_1.jpg
+  rights: mediarights:cc0-1.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Royler_crop_1.jpg
+    cite: "Leeor Langer, Wikimedia Commons"
+    informationType: infotype:secondary

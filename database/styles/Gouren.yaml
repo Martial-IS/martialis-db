@@ -1,0 +1,82 @@
+type: Style
+id: 01M5JVVMHMXBKY5NZB4XV120X4
+name:
+  en: Gouren
+  br: Gouren
+aka:
+  en:
+    - Breton wrestling
+    - ar gouren
+styleType: styleclass:traditional
+hasStyleRelationAssertion:
+  - id: 01M5JVVMHMMN2T3BG00QEXJR6D
+    relatedStyle: 01KYJ39BQPQ7JTTDQ3B36PZQQN
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01M5JVVMHMX3PFVBVQSD3P617J
+        quotation: >-
+          Gouren is a style of folk wrestling which has been established in Brittany for several
+          centuries.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          In Northwest France, the Bretons have an ancient style of jacket wrestling, ar gouren, which is
+          almost the same sport as that done in Cornwall in Southwest England.
+        locator: '224'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5JVVMHM8HYNCVCXWWDNTBY5
+    relatedStyle: 01M5JVVMHMME3113Q93BSVGRY8
+    styleRelationType: stylerel:sibling_style_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          In Northwest France, the Bretons have an ancient style of jacket wrestling, ar gouren, which is
+          almost the same sport as that done in Cornwall in Southwest England.
+        locator: '224'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JVVMHM6EJYM8B56BC4MDCV
+        quotation: >-
+          It is similar to the Breton Gouren wrestling style.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Breton jacket wrestling, standing only, won by a throw onto the shoulders (a lamm), recorded since at
+    least the fourteenth century and almost the same sport as Cornish wrestling. Charles Cotonnec's
+    FALSAB (1930) revived it, and it is central to the FILC.
+hasEvidence:
+  - basedOnSource: 01M5JVVMHMX3PFVBVQSD3P617J
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q3088619
+tags:
+  - wrestling
+  - folk-wrestling
+  - celtic
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/4/44/Gouren_lutte_bretonne.jpg
+    rights: mediarights:cc-by-sa-2.0
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:Gouren_lutte_bretonne.jpg
+      cite: "monique pinguilly, Wikimedia Commons"
+      informationType: infotype:secondary

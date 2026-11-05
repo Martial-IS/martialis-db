@@ -1,0 +1,148 @@
+type: Person
+id: 01M1BVV4WY6PPJN89RGFSJNA23
+name:
+  ja-Latn: Negishi Shingorō
+  ja: 根岸信五郎
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1844-01-15'
+  birthPlace:
+    label: Nagaoka
+    countryCode: eucountry:JPN
+    wikidata: wd:Q540312
+  hasEvidence:
+    - basedOnSource: 01M1BVV4WYFBC480XENZXVHDXC
+      quotation: Negishi Shingorō (15 January 1844 - 15 September 1913) was a Samurai from Nagaoka Domain in feudal Japan
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1913-09-15'
+  deathPlace:
+    label: Japan
+    countryCode: eucountry:JPN
+    wikidata: wd:Q17
+  hasEvidence:
+    - basedOnSource: 01M1BVV4WYFBC480XENZXVHDXC
+      quotation: Negishi Shingorō 根岸信五郎 (15 January 1844 – 15 September 1913) was a Samurai from Nagaoka Domain
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/7/78/Negishi-Shingoro.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Negishi-Shingoro.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: 'Negishi Shingorō (1844-1913) was a samurai from Nagaoka Domain and the 6th and last Edo-period
+
+    headmaster of Shindō Munen-ryū kenjutsu. He opened the Yūshinkan dojo in Tokyo in 1885 and taught
+
+    swordsmanship to the Tokyo Metropolitan Police Force. A participant in the Boshin War and survivor
+
+    of the Battle of Hokuetsu, he was declared Hanshi of Shindō Munen-ryū by the Dai Nippon Butokukai
+
+    in 1906 and served on the committee that created the Dai Nippon Teikoku Kendo Kata in 1912. His most
+
+    famous student was Nakayama Hakudō, whom he also adopted as his son.
+
+'
+hasTeacherAssertion:
+  - id: 01M3YH7N5G7EKJDPTEKXDW7VFQ
+    teacher: 01M1KT3VZZD98VXH1G1A4MMFR0
+    assertedStyle: 01KYHNJKQDTEJ1A5MQ5JYPHDTB
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single kenshi247 article (Karinja); he learned from Nomura Tetsuya in his teens, before the Renpeikan.
+    role: teachrole:student
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6EF6KKA5CRKSV2YHVTM8KTS
+            quotation: In his teens, however he developed a passion for swordsmanship and began studying Nagaoka Han Den Shindo Munen Ryu from Nomura Tetsuya (one of the clan’s chief sword instructors).
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GKE2FPFP7V764D26G
+    teacher: 01M1KSJ12QZY8PEM9BMYZSDRFZ
+    assertedStyle: 01KYHNJKQDTEJ1A5MQ5JYPHDTB
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states that Shingoro trained at the Renpeikan under Saito Yakuro and his sons.
+    role: teachrole:student
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1863
+          endYear: 1866
+        hasEvidence:
+          - basedOnSource: 01M1BVV4WYFBC480XENZXVHDXC
+            quotation: In 1863 Shingorō took a temporary leave of absence from the clan in order to study Shindō Munen-ryū at the Renpeikan (練兵館) dojo in Edo (modern day Tokyo).
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6EF6KKA5CRKSV2YHVTM8KTS
+            quotation: At the Renpeikan dojo Shingoro learned from the famed swordsmen Saito Yakuro and his sons Shintaro and Yoronosuke.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GJH33SJX6M5N4EYYV
+    rankStyle: 01KYHNJKQDTEJ1A5MQ5JYPHDTB
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+    rankGrade: rankgrade:menkyo_kaiden
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states Shingoro received Menkyo with Inkyo in 1865, and held Menkyo Kaiden in Shindo Munen Ryu as its 6th and last headmaster.
+    hasEvidence:
+      - basedOnSource: 01M1BVV4WYFBC480XENZXVHDXC
+        quotation: One year after joining the Renpeikan, Shingoro received a Shihan-dai license from Shintaro and in 1865 he received a Menkyo with an Inkyo license.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M3YH7N5G87Z1FZMGCJ0CPPXE
+    honorValue: Hanshi of Shindō Munen-ryū
+    honorType: honortype:title
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states Shingoro was declared Hanshi of Shindo Munen Ryu by Dai Nippon Butokukai in 1906.
+    dateConferred: '1906'
+    hasEvidence:
+      - basedOnSource: 01M1BVV4WYFBC480XENZXVHDXC
+        quotation: >-
+          On 26 March 1906, Shingorō was declared Hanshi of Shindō Munen-ryū by Dai Nippon Butokukai.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M1BVV4WYFBC480XENZXVHDXC
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M1BVV4WYMWMYZ8NG03BN3P5X
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ6XT5DSE2WFVPWC8ET939CN
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q130181
+  - viaf:259297144
+  - ndlna:00255767
+tags:
+  - kenjutsu
+  - iaijutsu
+  - kendo
+  - shindo-munen-ryu
+  - yushinkan
+  - japan
+notes: Adoptive father of Nakayama Hakudo. The EN Wikipedia Negishi Shingoro article notes he was born in Echigo Province as Makino Shingoro, adopted by Negishi Yorosaemon (a magistrate of the Nagaoka clan).

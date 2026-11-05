@@ -1,0 +1,84 @@
+type: Person
+id: 01M5JG4Y2535KRAE4MN4E44YQD
+name:
+  en: Hubert Lecour
+  fr: Hubert Lecour
+nationality:
+  - countryCode: eucountry:FRA
+    wikidata: wd:Q142
+birthEvent:
+  birthDate: '1820'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        One of these clubs was owned by Hubert Lecour (1820–1871).
+      locator: '218'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1871'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        One of these clubs was owned by Hubert Lecour (1820–1871).
+      locator: '218'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    French savate and canne master, younger brother and partner of Charles Lecour. The two opened a
+    salle in the passage des Panoramas in 1832 and gave public exhibitions; Hubert took the salle over in
+    1848. Le Sport (1861) said he could strike 80 blows with the canne in a quarter of a minute.
+hasTeacherAssertion:
+  - id: 01M61PWHY3H2G2QJ34427KJAEH
+    teacher: 01M5JG4Y25WZEYTQ2DBFQFW26C
+    assertedStyle: 01M5KWGPRK69RHM30T18CYDJ7H
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Charlemont, who knew him from 1865, says he learned his elder brother's principles; one source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5KQTRGXJZ53YPWZ595ZNB9E
+            quotation: >-
+              il commença très jeune à travailler, avec son frère, les exercices auxquels celui-ci
+              s’était adonné. [...] Il partagea l’engouement de son frère pour les exercices de défense,
+              s’assimila rapidement les principes que son aîné avait déjà posés
+            locator: '73'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Finally, the gymnastic style developed by the Lecour brothers, Charles (1808–1894) and Hubert
+      (1820–1871), became common during the 1860s.
+    locator: '257'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5JG4Y2593DAA50HFR1Y326S
+    quotation: >-
+      En 1848, Charles Lecour céda sa salle du passage des Panoramas à son frère Hubert
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - savate
+  - canne-de-combat
+  - france
+image:
+  contentUrl: https://archive.org/download/hubert_lecour/hubert_lecour.png
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://archive.org/details/laboxefranaisehi00char
+    cite: "Charlemont, La boxe française (1899)"
+    informationType: infotype:secondary

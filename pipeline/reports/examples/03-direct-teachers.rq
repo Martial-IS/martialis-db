@@ -1,0 +1,11 @@
+# The direct teachers of a person, from the materialized wasTaughtBy edge.
+PREFIX martialis: <https://w3id.org/martialis/ontology#>
+PREFIX schema: <https://schema.org/>
+
+SELECT DISTINCT ?teacher ?teacherName WHERE {
+  ?student schema:name "Kanō Jigorō"@ja-Latn ;
+           martialis:wasTaughtBy ?teacher .
+  ?teacher schema:name ?teacherName .
+  FILTER(langMatches(LANG(?teacherName), "ja-Latn"))
+}
+ORDER BY ?teacherName

@@ -1,0 +1,189 @@
+type: Place
+id: 01M6A2JTHV4ENW9PDEMG8XWRM2
+name:
+  pt: Centro Esportivo de Capoeira Angola
+aka:
+  pt: CECA
+placeType: placeclass:academy
+hasSite:
+  - location:
+      label: Bigode, Brotas, Salvador, Bahia
+      countryCode: eucountry:BRA
+      wikidata: wd:Q36947
+    sitePeriod:
+      startYear: 1949
+    hasEvidence:
+      - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+        quotation: >-
+          Pastinha now managed to establish the Centro Esportivo de Capoeira Angola in the soap
+          factory Sicool, where he was working as a watchman. Training took place in the patio of
+          the factory, located in Bigode, in the Brotas neighbourhood.
+        locator: '152'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - location:
+      label: Rua Gregório de Mattos 19, Pelourinho, Salvador, Bahia
+      countryCode: eucountry:BRA
+      wikidata: wd:Q36947
+    sitePeriod:
+      startYear: 1955
+    hasEvidence:
+      - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+        quotation: >-
+          in 1955, a space for his academy in the colonial building at 19, Rua Gregória de Mattos,
+          located on the famous [...] Pelourinho Square in the old city centre.
+        locator: '159-160'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - location:
+      label: Ladeira do Ferrão, Pelourinho, Salvador, Bahia
+      countryCode: eucountry:BRA
+      wikidata: wd:Q36947
+    sitePeriod:
+      startYear: 1979
+    hasEvidence:
+      - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+        quotation: >-
+          the city granted him another space in the Rua Gregório de Matos to reopen his school at
+          Ladeira do Ferrão, near the place of his former academy. There his students João Pequeno,
+          João Grande and Ângelo taught
+        locator: '163'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1941'
+  founder:
+    - 01M5H4AFG2ZRRQ0T4STJDTFRAR
+  hasEvidence:
+    - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+      quotation: >-
+        It also explains why many younger mestres did not know him until he took over the CECA in
+        1941.
+      locator: '152'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ACM2JZ0KK08S5H3V8T7B91
+      quotation: >-
+        Assim, em 23 de fevereiro de 1941, Mestre Pastinha idealizou e fundou o Centro Esportivo
+        especificamente no Largo do Cruzeiro de São Francisco no Pelourinho (Salvador)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M6A2JTJNZVV4R2619WP8S5ZY
+    instructor: 01M5H4AFG2ZRRQ0T4STJDTFRAR
+    instructorCapacity: instrcap:head_instructor
+    instructorStyle: 01M6A2JTHSG7FHK01NCS2SN3FD
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+        quotation: >-
+          Pastinha now managed to establish the Centro Esportivo de Capoeira Angola in the soap
+          factory Sicool, where he was working as a watchman. Training took place in the patio of
+          the factory, located in Bigode, in the Brotas neighbourhood.
+        locator: '152'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M6A2JTJP94YR0NFD12BD81PV
+    instructor: 01M6A2JTJ28XDRCXA95W4J01H8
+    instructorCapacity: instrcap:instructor
+    instructorStyle: 01M6A2JTHSG7FHK01NCS2SN3FD
+    instructorPeriod:
+      startYear: 1951
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Assunção and English Wikipedia (Milani).
+    hasEvidence:
+      - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+        quotation: >-
+          In 1951 he became contra-mestre and started teaching in Pastinha’s academy.
+        locator: '193'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M6A2JTHZFGBCA1J76F73WQBQ
+        quotation: >-
+          Even though he was not a student of Mestre Pastinha, Canjiquinha was Contra Mestre in his
+          academy.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M6A2JTJQ5F7XECYJAKF1AX92
+    instructor: 01M5H4AFG2ZHX81G1GRWSGGQWM
+    instructorCapacity: instrcap:instructor
+    instructorStyle: 01M6A2JTHSG7FHK01NCS2SN3FD
+    instructorPeriod:
+      startYear: 1979
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+        quotation: >-
+          the city granted him another space in the Rua Gregório de Matos to reopen his school at
+          Ladeira do Ferrão, near the place of his former academy. There his students João Pequeno,
+          João Grande and Ângelo taught
+        locator: '163'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M6A2JTJRVXSEWWCACHM9WV86
+    instructor: 01M5H4AFG2HW78GX30TX4CCST3
+    instructorCapacity: instrcap:instructor
+    instructorStyle: 01M6A2JTHSG7FHK01NCS2SN3FD
+    instructorPeriod:
+      startYear: 1979
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+        quotation: >-
+          the city granted him another space in the Rua Gregório de Matos to reopen his school at
+          Ladeira do Ferrão, near the place of his former academy. There his students João Pequeno,
+          João Grande and Ângelo taught
+        locator: '163'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Mestre Pastinha's capoeira Angola academy in Salvador, established in 1949 and registered in
+    1952; from 1955 in a colonial house on the Pelourinho, the main capoeira Angola school of the
+    1960s.
+notes: >-
+  It grew from the Gengibirra roda in Liberdade, which its mestres handed to Pastinha on 23 February
+  1941 (Assunção, pp. 151-152); two attempts to run it, in 1941 and 1944, failed. Registered with
+  the notary on 1 October 1952. Lost the Pelourinho house in the early 1970s, when the building was
+  restored. Gato led its orchestra. Assunção dates its establishment, at the Sicool soap factory in
+  Brotas, to 1949 (p. 152).
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    locator: '151-163'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q135745849
+tags:
+  - capoeira

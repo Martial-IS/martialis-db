@@ -1,0 +1,61 @@
+type: Person
+id: 01M5H4AFG2ZHX81G1GRWSGGQWM
+name:
+  pt: Mestre João Pequeno
+aka:
+  pt: João Pereira dos Santos
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: Capoeira Angola master, student of Mestre Pastinha, with an academy in Salvador, Bahia.
+notes: Green & Svinth (p. 39) give his birth year as 1916; Wikidata has 1917.
+hasTeacherAssertion:
+  - id: 01M5H4ANTVSQT4841CK379K2YQ
+    teacher: 01M5H4AFG2ZRRQ0T4STJDTFRAR
+    assertedStyle: 01M5H4AFG2PQBX1QXTNW3CMHN5
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Two sources, not independent; Green & Svinth cites Assunção.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              These students include Mestres João Grande [...] and João Pequeno (born João Pereira dos
+              Santos, 1916–) who, as of 2008, at age 92, continued to oversee rodas at his academy in
+              Salvador, Bahia.
+            locator: '40'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              Pastinha slowly built up a group of advanced students, many of whom later became
+              mestres and teachers in their own right: João Pequeno, João Grande, Boca Rica, Gildo
+              Alfinete, Bola Sete and others.
+            locator: '160'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: '40'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q1977686
+tags:
+  - capoeira
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/7/71/Joao_pequeno_pastinha.jpg
+  rights: mediarights:cc-by-sa-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Joao_pequeno_pastinha.jpg
+    cite: "Nani de João Pequeno, Wikimedia Commons"
+    informationType: infotype:secondary

@@ -1,0 +1,77 @@
+type: Person
+id: 01M5H4REW6NGPEQJ3ZS3SS8K11
+name:
+  en: Allan Corstorphin Smith
+aka:
+  en: Alan Smith
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+birthEvent:
+  birthDate: '1884'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Captain Allan Corstorphin Smith (1884–1962, graded in Kodokan judo in 1916) taught classes in
+        military jujitsu at Fort Myers, Virginia, and Camp Benning, Georgia, from 1917 to 1919.
+      locator: '589'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1962'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Captain Allan Corstorphin Smith (1884–1962, graded in Kodokan judo in 1916) taught classes in
+        military jujitsu at Fort Myers, Virginia, and Camp Benning, Georgia, from 1917 to 1919.
+      locator: '589'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Scottish army officer and Kōdōkan judoka (graded in 1916, later 2nd dan) who taught military
+    jujitsu in the United States Army (Fort Myer, Camp Benning, 1917–1919) and opened judo dojos in
+    several American cities.
+hasRankAssertion:
+  - id: 01M5H4REW66PGJ3HTAPZMY9DHF
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 2
+    conferredBy: 01KJJAWN29MA64W22606R3WD7X
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The account of the Kodokan's own head; no date given.
+    hasEvidence:
+      - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+        quotation: >-
+          Eight years earlier in New York, however, I met a Scottish military officer named Alan Smith
+          who had gained a second dan at the Kodokan. He had put much effort into helping spread judo’s
+          appeal by opening and teaching at dojos in New York, Chicago, San Francisco and Seattle.
+        locator: '131'
+        locatorLabel: page
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: '589'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+    locator: '131'
+    locatorLabel: page
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q97005100
+tags:
+  - judo

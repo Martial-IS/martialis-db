@@ -1,0 +1,75 @@
+type: Person
+id: 01M69ZHPP7WAW75FT2ZA6P8B0X
+name:
+  en: Yim Wing-chun
+  yue: 嚴詠春
+  zh: 嚴詠春
+  zh-Latn: Yan Yongchun
+aka:
+  en:
+    - Yim Wing Chun
+description:
+  en: >-
+    Legendary heroine of the Wing Chun creation story: a tofu merchant's daughter taught by the nun
+    Ng Mui, who passed the art to her husband Leung Bok-chau. The story is a late invention.
+notes: >-
+  Judkins and Nielson pp. 8-10. The Ip family version continues: Leung Bok-chau to Leung Lan-kwai
+  to Wong Wah-bo (pp. 8-9, 172). Leung Bok-chau has no record.
+hasTeacherAssertion:
+  - id: 01M69ZHPPB5HRJFQN1V26D2NK6
+    teacher: 01M69ZHPP5P7HNG9ZTB1XZ0K10
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:doubtful
+      assessedBy: agent:FSM
+      confidenceRationale: Founding legend; the source finds no truth in it.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              The nun agreed to train Yim Wing Chun in the Shaolin martial arts and took her to a mountain
+              where she practiced diligently so that she could defeat the local bully and marry her fiancé, a
+              salt merchant by the name of Leung Bok Chau.
+            locator: '8'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasHistoricityAssertion:
+  - id: 01M69ZHPPDJSVAVH0KNQ6XZDXP
+    historicity: hist:legendary
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source; a figure of the founding legend.
+    hasEvidence:
+      - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+        quotation: >-
+          Nor does there appear to be any kernel of truth behind these stories.
+        locator: '9'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+        quotation: >-
+          Given the names and stories referenced, the Wing Chun creation myth cannot have been composed
+          prior to the first few decades of the twentieth century.
+        locator: '9'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: '8-10'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q985683
+tags:
+  - wing-chun
+  - legend

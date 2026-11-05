@@ -1,0 +1,479 @@
+### Martialis data constraints (hand-authored)
+###
+### Data-level constraints that cannot be derived from the LinkML model: they
+### compare values across nodes (a birth year against a death year, a grade
+### against the scheme its system declares, a part-of chain against itself) or
+### check a value against a controlled vocabulary the model treats as an
+### opaque concept IRI.  The structural shapes in martialis.shacl.ttl are
+### generated from model/martialis.yaml; these are not.  `make shacl` runs
+### pipeline/checks/shape-alive.rq over this file: a target class or property
+### path that no longer occurs in export/data.ttl fails the gate, except a
+### presence constraint (sh:minCount or sh:qualifiedMinCount above zero), whose
+### absence is itself the violation.  A constraint whose logic is wrong while it
+### still matches data is not caught (see docs/PIPELINE.md).
+###
+### Frederico Muñoz <fsm@martial.is>, Martialis Project
+###
+### Licence: CC0-1.0 (public domain dedication)
+### Attribution requested but not required: cite "Martialis", https://martial.is
+
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix martialis: <https://w3id.org/martialis/ontology#> .
+@prefix shapes: <https://w3id.org/martialis/ontology/shapes#> .
+@prefix schema: <https://schema.org/> .
+@prefix affrel: <https://w3id.org/martialis/vocab/affiliation-relation/> .
+
+# Shapes graph self-description
+#################################################################
+
+<https://w3id.org/martialis/ontology/shapes/constraints> a owl:Ontology, sh:ShapesGraph ;
+    dcterms:title "Martialis Data Constraints"@en ;
+    dcterms:description "Hand-authored, data-level constraints that cannot be generated from the LinkML model. Loaded alongside the generated structural shapes by make shacl."@en ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    owl:versionInfo "1.0.0" ;
+    owl:imports <https://w3id.org/martialis/ontology> ;
+    vann:preferredNamespacePrefix "shapes" ;
+    vann:preferredNamespaceUri <https://w3id.org/martialis/ontology/shapes#> .
+
+# Person: birth/death year ordering
+#################################################################
+
+shapes:PersonBirthAfterDeathShape
+    a sh:NodeShape ;
+    rdfs:label "Person birth after death"@en ;
+    sh:targetClass martialis:Person ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "person birth after death" ;
+        sh:message "Person's earliest possible birth year is after their latest possible death year." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+            SELECT $this ?birthEarliest ?deathLatest
+            WHERE {
+                $this martialis:birthEvent/martialis:earliestYear ?birthEarliest .
+                $this martialis:deathEvent/martialis:latestYear ?deathLatest .
+                FILTER(xsd:integer(STR(?birthEarliest)) > xsd:integer(STR(?deathLatest)))
+            }
+        """
+    ] .
+
+# TeacherAssertion with no identified teacher: every interaction needs a Place
+# or Event anchor and (unlike a claim that names the teacher, where the period
+# is optional) a dated period - they are the details a claim with no teacher
+# has to offer instead of a name.
+#################################################################
+
+shapes:UnidentifiedTeacherAnchorShape
+    a sh:NodeShape ;
+    rdfs:label "Unidentified-teacher claim anchored"@en ;
+    sh:targetClass martialis:TeacherAssertion ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "unidentified-teacher interaction unanchored" ;
+        sh:message "A TeacherAssertion with no martialis:teacher must reference a Place (martialis:interactionPlace) or an Event (martialis:atEvent) on every interaction - a training claim with no identified teacher and no anchor asserts nothing checkable." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            SELECT DISTINCT $this
+            WHERE {
+                $this martialis:hasInteraction ?i .
+                FILTER NOT EXISTS { $this martialis:teacher ?t }
+                FILTER NOT EXISTS { ?i martialis:interactionPlace ?p }
+                FILTER NOT EXISTS { ?i martialis:atEvent ?e }
+            }
+        """
+    ] ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "unidentified-teacher interaction undated" ;
+        sh:message "A TeacherAssertion with no martialis:teacher must carry an interactionPeriod with a startYear on every interaction - a training claim with no identified teacher and no period asserts nothing checkable." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            SELECT DISTINCT $this
+            WHERE {
+                $this martialis:hasInteraction ?i .
+                FILTER NOT EXISTS { $this martialis:teacher ?t }
+                FILTER NOT EXISTS { ?i martialis:interactionPeriod/martialis:startYear ?y }
+            }
+        """
+    ] .
+
+# RankAssertion: rankGrade belongs to the system's scheme
+#################################################################
+
+# Membership in the rank-grade vocabulary is the generated sh:in on rankGrade.
+
+shapes:RankGradeSpecificSchemeShape
+    a sh:NodeShape ;
+    rdfs:label "Rank grade in the system's scheme"@en ;
+    sh:targetClass martialis:RankAssertion ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "rank grade wrong scheme" ;
+        sh:message "rankGrade must be a concept in the gradeScheme that its rankSystem declares." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+            SELECT $this ?value
+            WHERE {
+                $this martialis:rankGrade ?value ; martialis:rankSystem ?rs .
+                ?rs martialis:gradeScheme ?scheme .
+                FILTER NOT EXISTS { ?value skos:inScheme ?scheme }
+            }
+        """
+    ] .
+
+shapes:RankGradeSchemelessSystemShape
+    a sh:NodeShape ;
+    rdfs:label "Rank grade needs a scheme"@en ;
+    sh:targetClass martialis:RankAssertion ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "rank grade on schemeless system" ;
+        sh:message "rankGrade is set but its rankSystem declares no gradeScheme - an enumerated grade needs a system that names its scheme." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            SELECT $this ?value
+            WHERE {
+                $this martialis:rankGrade ?value ; martialis:rankSystem ?rs .
+                FILTER NOT EXISTS { ?rs martialis:gradeScheme ?any }
+            }
+        """
+    ] .
+
+# Assertion self-reference
+#################################################################
+
+shapes:IdentityAssertionSelfShape
+    a sh:NodeShape ;
+    rdfs:label "Identity assertion not self-referential"@en ;
+    sh:targetClass martialis:IdentityAssertion ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "identity not self-referential" ;
+        sh:message "An identity assertion's candidate must not be the person itself." ;
+        sh:select """
+            SELECT DISTINCT $this
+            WHERE {
+                $this <https://w3id.org/martialis/ontology#identityCandidate> ?p .
+                ?p ?link $this .
+            }
+        """
+    ] .
+
+shapes:StyleRelationSelfShape
+    a sh:NodeShape ;
+    rdfs:label "Style relation not self-referential"@en ;
+    sh:targetClass martialis:StyleRelationAssertion ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "style relation not self-referential" ;
+        sh:message "A style relation's related style must not be the style itself." ;
+        sh:select """
+            SELECT DISTINCT $this
+            WHERE {
+                $this <https://w3id.org/martialis/ontology#relatedStyle> ?s .
+                ?s ?link $this .
+            }
+        """
+    ] .
+
+shapes:AffiliationSelfShape
+    a sh:NodeShape ;
+    rdfs:label "Affiliation not self-referential"@en ;
+    sh:targetClass martialis:AffiliationAssertion ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "affiliation not self-referential" ;
+        sh:message "Affiliation must not reference the entity itself." ;
+        sh:select """
+            SELECT DISTINCT $this
+            WHERE {
+                $this <https://w3id.org/martialis/ontology#relatedOrganization> ?o .
+                ?o ?link $this .
+            }
+        """
+    ] .
+
+shapes:GenealogyOrganizationOnlyShape
+    a sh:NodeShape ;
+    rdfs:label "Genealogy is organization-only"@en ;
+    sh:targetClass martialis:AffiliationAssertion ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "genealogy organization-only" ;
+        sh:message "Genealogy affiliation relations (derived_from, split_from, merged_from, replaces, renamed_from) are Organization-only - a Place cannot claim institutional lineage." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            PREFIX affrel: <https://w3id.org/martialis/vocab/affiliation-relation/>
+            SELECT DISTINCT $this
+            WHERE {
+                $this martialis:affiliationRelation ?rel .
+                ?s ?link $this .
+                FILTER (?rel IN (affrel:derived_from, affrel:split_from, affrel:merged_from,
+                                 affrel:replaces, affrel:renamed_from))
+                FILTER NOT EXISTS { ?s a martialis:Organization }
+            }
+        """
+    ] .
+
+# Site containment integrity
+#################################################################
+
+# Targets Place rather than subjects of withinPlace, so the shape stays alive
+# when no record uses the path (a subject-targeted shape would have an empty
+# focus set and trip `make shacl`'s aliveness check). The traversal lives in
+# sh:sparql because the complex path is one the aliveness query cannot derive.
+shapes:SiteContainmentCycleShape
+    a sh:NodeShape ;
+    rdfs:label "Site containment is acyclic"@en ;
+    rdfs:comment "A Place's site must not sit within the Place itself. Direct self-reference is the common data-entry slip (a record's own id pasted into withinPlace); the + path also catches longer Place -> Site -> Place chains."@en ;
+    sh:targetClass martialis:Place ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "site containment self-reference or cycle" ;
+        sh:message "A Place's site cannot sit within the Place itself, directly or through a chain - a venue cannot contain itself." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            SELECT DISTINCT $this
+            WHERE { $this (martialis:hasSite/martialis:withinPlace)+ $this }
+        """
+    ] .
+
+# Country value integrity
+#################################################################
+
+shapes:AddressCountryShape
+    a sh:NodeShape ;
+    rdfs:label "address country value"@en ;
+    rdfs:comment "Every schema:addressCountry value must be a country IRI: an EU Publications Office country authority IRI or a local exception (XRY) - never a bare code string."@en ;
+    sh:targetSubjectsOf schema:addressCountry ;
+    sh:property [
+        sh:path schema:addressCountry ;
+        sh:nodeKind sh:IRI ;
+        sh:pattern "^(http://publications\\.europa\\.eu/resource/authority/country/[A-Z]{3}|https://w3id\\.org/martialis/vocab/country/[A-Z]{3})$" ;
+        sh:message "countryCode must be an EU authority country CURIE (eucountry:AUS) or a local exception (country:XRY), not a bare code string."
+    ] .
+
+# TeacherInteraction: evidence required
+#################################################################
+
+shapes:TeacherInteractionEvidenceShape
+    a sh:NodeShape ;
+    rdfs:label "Interaction has evidence"@en ;
+    sh:targetClass martialis:TeacherInteraction ;
+    sh:property [
+        sh:path martialis:hasEvidence ;
+        sh:minCount 1 ;
+        sh:message "TeacherInteraction has no evidence - an interaction is what a source documents, so it must cite at least one."
+    ] .
+
+# sameAs: one external identity, one record
+#################################################################
+#
+# An authority item (wd:, viaf:, ...) names one entity, so at most one record
+# may claim it. Nested nodes are out of scope: many birth places share a city's
+# Wikidata item legitimately.
+
+shapes:SameAsUniqueShape
+    a sh:NodeShape ;
+    rdfs:label "External identity claimed by one record"@en ;
+    sh:targetSubjectsOf schema:sameAs ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "external identity claimed twice" ;
+        sh:message "Two records claim the same external identity (schema:sameAs). An authority item names one entity, so only the record it describes may list it: of a Place/Organization twin, the one the item is about." ;
+        sh:select """
+            PREFIX schema: <https://schema.org/>
+            SELECT $this ?value
+            WHERE {
+                $this schema:sameAs ?value .
+                ?other schema:sameAs ?value .
+                FILTER(?other != $this)
+                FILTER(REGEX(STR($this), "^https://martial\\\\.is/entity/[0-9A-HJKMNP-TV-Z]{26}$"))
+                FILTER(REGEX(STR(?other), "^https://martial\\\\.is/entity/[0-9A-HJKMNP-TV-Z]{26}$"))
+            }
+        """
+    ] .
+
+# TimeInterval ordering
+#################################################################
+
+shapes:TimeIntervalOrderShape
+    a sh:NodeShape ;
+    rdfs:label "Time interval ordering"@en ;
+    sh:targetClass martialis:TimeInterval ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "interval end before start" ;
+        sh:message "endYear must not be earlier than startYear." ;
+        sh:select """
+            PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+            SELECT DISTINCT $this
+            WHERE {
+              $this <https://w3id.org/martialis/ontology#startYear> ?s .
+              $this <https://w3id.org/martialis/ontology#endYear> ?e .
+              FILTER (xsd:integer(STR(?e)) < xsd:integer(STR(?s)))
+            }
+        """
+    ] .
+
+# Source: part-of acyclicity
+#################################################################
+
+shapes:SourcePartOfCycleShape
+    a sh:NodeShape ;
+    rdfs:label "Source part-of acyclic"@en ;
+    sh:targetClass martialis:Source ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "source part-of cycle" ;
+        sh:message "partOf must not form a cycle - a Source cannot, directly or transitively, be part of itself." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            SELECT DISTINCT $this
+            WHERE {
+                $this martialis:partOf+ $this .
+            }
+        """
+    ] .
+
+# Source: dated states of a changing resource
+#################################################################
+
+# A state inherits the resource's identity (title, sourceType, url, container)
+# and adds only what is true of that date, so it states none of them itself,
+# except a url the page had on that date and no longer has (a moved page);
+# every other Source must state title and sourceType, which the model cannot
+# require conditionally. A state carries the date that tells it apart from its
+# siblings. States are one level deep, which also rules out a cycle. Evidence
+# cites a state: a quotation is verbatim in one dated state, never in the
+# changing resource as a whole.
+shapes:SourceSpecializationShape
+    a sh:NodeShape ;
+    rdfs:label "Source dated states"@en ;
+    sh:targetClass martialis:Source ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "source specialization nested" ;
+        sh:message "specializationOf names a Source that is itself a dated state - point at the resource, one level only." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            SELECT DISTINCT $this
+            WHERE {
+                $this martialis:specializationOf ?resource .
+                ?resource martialis:specializationOf ?any .
+            }
+        """
+    ] ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "source specialization restates identity" ;
+        sh:message "A dated state (specializationOf) carries no title, sourceType or partOf of its own, and a url only where it differs from the resource's - it inherits them from the resource." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            PREFIX schema: <https://schema.org/>
+            SELECT DISTINCT $this
+            WHERE {
+                $this martialis:specializationOf ?resource .
+                { $this schema:url ?u . ?resource schema:url ?u }
+                UNION { $this martialis:partOf ?c }
+                UNION { $this schema:name ?n } UNION { $this martialis:sourceType ?t }
+            }
+        """
+    ] ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "source specialization undated" ;
+        sh:message "A dated state has neither archivedDate nor accessedDate - nothing tells it apart from the other states of its resource." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            SELECT DISTINCT $this
+            WHERE {
+                $this martialis:specializationOf ?resource .
+                FILTER NOT EXISTS { $this martialis:archiveDate ?d }
+                FILTER NOT EXISTS { $this martialis:accessed ?a }
+            }
+        """
+    ] ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "source missing title or type" ;
+        sh:message "A Source that is not a dated state needs a title and a sourceType." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            PREFIX schema: <https://schema.org/>
+            SELECT DISTINCT $this
+            WHERE {
+                FILTER NOT EXISTS { $this martialis:specializationOf ?resource }
+                FILTER (NOT EXISTS { $this schema:name ?n }
+                        || NOT EXISTS { $this martialis:sourceType ?t })
+            }
+        """
+    ] ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "evidence cites a changing resource" ;
+        sh:message "Evidence cites a Source that has dated states - cite the state that holds the quotation." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            SELECT DISTINCT $this
+            WHERE {
+                ?state martialis:specializationOf $this .
+                ?evidence martialis:basedOnSource $this .
+            }
+        """
+    ] .
+
+# Confidence: assessedBy is an agent IRI
+#################################################################
+
+shapes:AssessedByShape
+    a sh:NodeShape ;
+    rdfs:label "assessedBy is an agent"@en ;
+    sh:targetClass martialis:Confidence ;
+    sh:property [
+        sh:path martialis:assessedBy ;
+        sh:nodeKind sh:IRI ;
+        sh:pattern "^https://martial\\.is/agent/" ;
+        sh:message "assessedBy must be an agent IRI under https://martial.is/agent/ (see martialis:Agent)."
+    ] .
+
+# Locator range ordering
+#################################################################
+# Locator format is JSON Schema's job; this checks that a numeric-label range
+# ascends. Dotted forms are excluded from the comparison.
+
+shapes:LocatorRangeShape
+    a sh:NodeShape ;
+    rdfs:label "Locator range ordering"@en ;
+    sh:targetSubjectsOf martialis:sourceLocation ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:name "locator range not ascending" ;
+        sh:message "A numeric locator range must ascend - this one runs backwards (e.g. page 42-17)." ;
+        sh:select """
+            PREFIX martialis: <https://w3id.org/martialis/ontology#>
+            PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+            SELECT DISTINCT $this
+            WHERE {
+                $this martialis:sourceLocation ?loc ;
+                      martialis:sourceLocatorLabel ?label .
+                FILTER(?label IN ("page", "volume", "issue", "line", "paragraph",
+                                  "folio", "note", "table", "figure", "verse",
+                                  "section", "equation", "opus", "act", "column",
+                                  "elocation", "supplement"))
+                FILTER(REGEX(STR(?loc), "^\\\\s*[0-9]+\\\\s*-\\\\s*[0-9]+\\\\s*$"))
+                BIND(xsd:integer(REPLACE(STR(?loc), "^\\\\s*([0-9]+)\\\\s*-.*$", "$1")) AS ?from)
+                BIND(xsd:integer(REPLACE(STR(?loc), "^.*-\\\\s*([0-9]+)\\\\s*$", "$1")) AS ?to)
+                FILTER(?from > ?to)
+            }
+        """
+    ] .

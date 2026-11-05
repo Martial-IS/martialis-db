@@ -1,0 +1,64 @@
+type: Person
+id: 01M6C1ZABVTR9ZFP622PP5QW6E
+name:
+  en: Jon Jones
+aka:
+  en:
+    - Bones
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1987-07-19'
+  hasEvidence:
+    - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+      quotation: 'Born: 7/19/87'
+      locator: '206'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    American mixed martial artist. Largely self-taught from videos before he moved to Greg
+    Jackson's camp in New Mexico.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/4/44/Jon_Jones_in_2014_%28cropped%29.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Jon_Jones_in_2014_(cropped).jpg
+    cite: "United States Senate Democrats, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+  - id: 01M6C1ZABV455DQ6T92MNX3GXQ
+    teacher: 01M6C1ZABV6FHQ2EXVCNW3NV8P
+    assertedStyle: 01KYSS3B587WR241FHHW19X24T
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - interactionPlace: 01M6C1ZABVAVTS3JGBS3HB64NB
+        hasEvidence:
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              Before he made the move to Greg Jackson’s all-star camp in New Mexico, much of Jones’s training came from watching YouTube videos
+            locator: '207'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+    quotation: >-
+      Before he made the move to Greg Jackson’s all-star camp in New Mexico, much of Jones’s training came from watching YouTube videos
+    locator: '207'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q285450
+tags:
+  - mma

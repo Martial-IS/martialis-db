@@ -1,0 +1,100 @@
+type: Person
+id: 01M69YCGD6YEGTTQ2MEQBJ5BH2
+name:
+  en: Lee Shing
+  yue: 李勝
+  zh: 李勝
+  zh-Latn: Li Sheng
+nationality:
+  - countryCode: eucountry:CHN
+    wikidata: wd:Q148
+birthEvent:
+  birthDate: '1923'
+  birthPlace:
+    label: Guangdong
+    countryCode: eucountry:CHN
+  hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        Another such student was Lee Shing (1923–1991). Lee was born in Guangdong Province.
+      locator: '230'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1991'
+  hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        Another such student was Lee Shing (1923–1991).
+      locator: '230'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Wing Chun teacher, student of Ng Chung-so in Foshan and from 1954 of Ip Man in Hong Kong, where
+    he later taught his own students.
+notes: >-
+  Judkins and Nielson pp. 230, 244. First learned Gulao (side-facing) Wing Chun from Fong
+  Yee-ming, a grand-student of Leung Jan after his retirement (not recorded).
+hasTeacherAssertion:
+  - id: 01M69YCGDWETTHS02TMV9M06N5
+    teacher: 01M69YCGCMWM48B31AKTK503SP
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              As a young man Lee moved to Foshan where he had a chance to study with Ng Chung So.
+            locator: '230'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M69YCGDY4PP1K6FQ406Q05PD
+    teacher: 01KYD5XMNM4DH8KAWBC1TE9BDJ
+    assertedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1954
+        hasEvidence:
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              It was Jiu who introduced Lee to Ip Man in 1954.
+            locator: '230'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+          - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+            quotation: >-
+              Despite these adaptations, both men remained staunch followers of their new sifu and continued
+              to spread his vision of the art.
+            locator: '230'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: 230, 244
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - wing-chun
+  - chinese-martial-arts

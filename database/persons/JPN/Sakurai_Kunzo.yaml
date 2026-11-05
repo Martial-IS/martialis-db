@@ -1,0 +1,33 @@
+type: Person
+id: 01KY2WPK79SY50QWKSXWZ91NPF
+name:
+  ja-Latn: Sakurai Kunzō
+  ja: 桜井邦造
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+description:
+  en: Tenjin Shinyo-ryu practitioner from Aonashi-mura (now Gunma Prefecture). Student of Iso Masatari
+    Mataemon and teacher of Genjuro Jinbo.
+hasTeacherAssertion:
+- id: 01M3YH7N5G1E3YYNJYC41WHFDZ
+  teacher: 01KJJAWN28MWKKSN4J02MVY1TY
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9Q
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Mentioned as a student of Iso Masatari Mataemon in the Japanese Wikipedia article
+      for Genjuro Jinbo
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KY2WPK79Y05EGBTA8PYRN4FS
+      informationType: infotype:secondary
+      supports: true
+      quotation: 桜井邦造の師である天神真楊流の祖磯又右衛門
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KY2WPK79Y05EGBTA8PYRN4FS
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct

@@ -1,0 +1,87 @@
+type: Person
+id: 01M5JSGG50423XV4WT85WN3PTG
+name:
+  en: Achille Marozzo
+nationality:
+  - countryCode: eucountry:ITA
+    wikidata: wd:Q38
+birthEvent:
+  birthDate: '1484'
+  birthPlace:
+    label: San Giovanni in Persiceto
+    countryCode: eucountry:ITA
+  hasEvidence:
+    - basedOnSource: 01M5JSGG50DGJAP2ZGAH7HKD5W
+      quotation: >-
+        Achille Marozzo (1484-1553) was a 16th century Italian fencing master.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1553'
+  deathPlace:
+    label: Bologna
+    countryCode: eucountry:ITA
+    wikidata: wd:Q1891
+  hasEvidence:
+    - basedOnSource: 01M5JSGG50DGJAP2ZGAH7HKD5W
+      quotation: >-
+        Achille Marozzo (1484-1553) was a 16th century Italian fencing master.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Bolognese fencing master, a student of Guido Antonio de Luca, who kept a fencing school in Bologna.
+    His illustrated Opera Nova (1536), dedicated to Count Guido Rangoni, became the dominant Italian
+    fencing book and was reprinted into the seventeenth century.
+hasTeacherAssertion:
+  - id: 01M5JSGG50G4QD72FF531M9HSD
+    teacher: 01M5JSGG506GVV0TBXMFE76A5C
+    assertedStyle: 01M5JSGG50SFSZ8CE3WR46RWC6
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              The increased knowledge is owed to de Luca’s students Antonio Manciolino and Achille
+              Marozzo, both of whom published works entitled Opera Nova (New Works) during the 1530s.
+            locator: '250'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JSGG50DGJAP2ZGAH7HKD5W
+            quotation: >-
+              After moving to the city, he studied fencing in the school of the great Bolognese master
+              Guido Antonio di Luca.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JSGG50Y9RYMCXBPJW3ZZ8V
+            quotation: >-
+              Achille Marozzo states he studied swordsmanship under Guido Antonio Di Luca
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JSGG50DGJAP2ZGAH7HKD5W
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q3604396
+tags:
+  - fencing
+  - bolognese-school
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/c/c7/Arte_dell%27Armi_-_Achille_Marozzo.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Arte_dell%27Armi_-_Achille_Marozzo.jpg
+    cite: "Achille Marozzo - scan by M0tty, Wikimedia Commons"
+    informationType: infotype:secondary

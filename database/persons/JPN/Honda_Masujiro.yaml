@@ -1,0 +1,67 @@
+type: Person
+id: 01M5HP1FFHWCSMZ09ZZE0QKT7R
+name:
+  ja-Latn: Honda Masujirō
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+description:
+  en: >-
+    Japanese scholar of English (1866–1925), translator and diplomat; a student of Kanō Jigorō from
+    October 1883 who trained with the judo students of the Kanō Juku, helped Kanō teach judo, and with
+    others managed the Kanō Juku and the Kōdōkan in Kanō's absence.
+hasTeacherAssertion:
+  - id: 01M5HP1FFHBGJD88KDM2967B7H
+    teacher: 01KJJAWN28MWKKSN4J02MVY1S1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Kano's own account only.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1883
+        hasEvidence:
+          - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+            quotation: >-
+              In October of the same year the well-known scholar of English Literature, Masujiro Honda,
+              became a student of mine.
+            locator: '29'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+            quotation: >-
+              Although a number of Kano Juku students including Itsuro Munakata, Masujiro Honda, Takejiro
+              Yuasa, Katsukazu Tamura, Katsutaro Ota, Tokusaburo Kano and Hidetsuke Oshima, were not
+              specializing in judo, nevertheless, they trained together with, and just as strenuously, as
+              my judo trainees.
+            locator: '48'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+    quotation: >-
+      A student of Kano Juku, where he assisted Kano in the teaching of judo.
+    locator: '174'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+    quotation: >-
+      Among my students were Shizuyabe Iwanami, Masujiro Honda and Shiro Saigo who were entrusted with
+      the dual responsibility of managing both Kano Juku and the Kodokan during my absence.
+    locator: '53'
+    locatorLabel: page
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q11520577
+tags:
+  - judo

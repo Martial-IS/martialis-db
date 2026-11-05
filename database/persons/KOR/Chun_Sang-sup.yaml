@@ -1,0 +1,87 @@
+type: Person
+id: 01M6BQSYG6T4ST6K4B5VC0615A
+name:
+  en: Chun Sang-sup
+aka:
+  en:
+    - Chŏn Sang Sŏp
+    - Chun Sang Sup
+description:
+  en: >-
+    Korean karate teacher, founder of the karate division (Kwŏnbŏp Bu) of the Chosŏn Yŏn-Mu Kwan in 1946,
+    later the Jidokwan, one of the five original kwan of taekwondo. He learned karate in Japan; accounts
+    differ on whether his teacher was Funakoshi Gichin or Mabuni Kenwa. He disappeared during the Korean
+    War, and Yoon Kwe-byung took over the school in 1951.
+notes: >-
+  Mönig is not consistent: p. 53 says the claims vary, p. 62 (summary) says Chŏn learned Shotokan directly
+  from Funakoshi. Note 32 (p. 53) says "He studied probably with both karate masters". Both claims kept at
+  possible.
+hasTeacherAssertion:
+  - id: 01M6BQSYG64R6KRTR3A6TP1VRD
+    teacher: 01KJJAWN28MWKKSN4J02MVY1VB
+    assertedStyle: 01KYFZEGYN107JYC5K1539R8JM
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: The source says the claims vary; it infers a Funakoshi club from his university.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+            quotation: >-
+              Although in Chŏn’s case the claims vary, it seems very likely that he studied at some point in
+              one of Funakoshi’s karate clubs since the university that he attended had one such club.
+            locator: '53'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+          - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+            quotation: >-
+              Yi, No Pyŏng Jik and Chŏn Sang Sŏp learned Shōtōkan karate directly from Funakoshi Gichin.
+            locator: '62'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M6BQSYG6ARYXXA2A1EVVHW8Q
+    teacher: 01KYJCSK3HM7WV1EJPH94Q18T2
+    assertedStyle: 01KYFZEGYN7A9G4FSTXBPDBG8P
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: Reported as what others claim; the source does not adopt it.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+            quotation: >-
+              Others claim that it is possible that he studied under Mabuni Kenwa, whose style is called
+              Shito-ryū.
+            locator: '53'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+    quotation: >-
+      When Chŏn Sang Sŏp disappeared during the Korean War, Yun took over his leadership role in 1951
+    locator: '54'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      included Chun Sang Sup (dates unknown). After Chun disappeared during the opening months of the Korean
+      War (1950–1953), control of the club’s karate curriculum went to Yun Kwei Byung.
+    locator: '200'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - taekwondo
+  - karate
+  - kwan-founder

@@ -1,0 +1,301 @@
+type: Person
+id: 01M015RNEV8D2DR0J67PC1091F
+name:
+  en: Jon Bluming
+  nl: Jon Bluming
+aka:
+  nl: Johannes Cornelius Bluming
+nationality:
+- countryCode: eucountry:NLD
+  wikidata: wd:Q55
+birthEvent:
+  birthDate: '1933-02-06'
+  birthPlace:
+    label: Amsterdam
+    countryCode: eucountry:NLD
+    wikidata: wd:Q727
+  hasEvidence:
+  - basedOnSource: 01M015RCSFP4E7JD59QDNX014T
+    quotation: >-
+      Johannes Cornelius Bluming (6 February 1933 – 17 December 2018)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2018-12-17'
+  deathPlace:
+    label: De Bilt
+    countryCode: eucountry:NLD
+    wikidata: wd:Q10035
+  hasEvidence:
+  - basedOnSource: 01M015RCSFP4E7JD59QDNX014T
+    quotation: >-
+      Johannes Cornelius Bluming (6 February 1933 – 17 December 2018)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M016NFYMWR26NPNCWMTJENQ0
+    quotation: >-
+      Veteraan, vechtsporter en filmacteur Jon Bluming overleden
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: Dutch martial artist, 9th dan judo, 10th dan Kyokushin karate and 10th dan hapkido, founder of Kyokushin
+    Budokai. Trained at the Kodokan in Tokyo under Toshiro Daigo, Yoshimi Osawa and Kazuo Ito, and a close
+    associate of Donn F. Draeger and Masutatsu Oyama. National coach of the Dutch judo team who won the
+    1957 European championship, and coach of Wim Ruska during his 1960s-70s title run as well as of Chris
+    Dolman and Antonio Inoki's New Japan Pro-Wrestling associate Otti Roethof.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/7/70/John_Bluming_%281965%29.jpg
+  rights: mediarights:cc0-1.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:John_Bluming_(1965).jpg
+    cite: "Jack de Nijs for Anefo, Wikimedia Commons"
+notes: 'Teacher lineage wired on the basis of Bluming''s own official biography (jonbluming.nl), the Realfighting
+  interview, and his first-person EJMAS account: judo under Gerhard "opa" Schutte at the Tung Jen club
+  in Amsterdam (1953-58, 1st dan after 12 months), under Donn Draeger in Tokyo (1959-61), in the Kodokan
+  Kenshusei class under Mifune, Daigo and Osawa (1959-61), and 3rd dan from Tokio Hirano (1957). An English
+  Wikipedia claim of training under "Eddy Roosterman" at the Tung-Yang Club could not be corroborated
+  by any primary or Dutch source (the official biography credits only Schutte as his first judo sensei)
+  and has been dropped as likely unsourced. Kazuo Ito is retained at low confidence pending corroboration.
+  The Ruska coaching relationship is corroborated by English Wikipedia, the USAdojo/Realfighting interview,
+  the NOS obituary, the Ons Amsterdam profile and Robert W. Smith''s "Martial Musings".'
+hasTeacherAssertion:
+- id: 01M5H4HK02ZJDS1TY896NFWN5S
+  teacher: 01KZ9TQS3VCE0D7V65S6JVC5JD
+  assertedStyle: 01KZ9TQS3VCCTAXE15YF88B0T9
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Single source.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1959
+    hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Early non-Japanese students included Donn Draeger (1922–1982), Jon Bluming (1933–), and Bill
+        Fuller (dates unknown), all of whom began training with Shimizu during 1959–1960.
+      locator: '150'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GKTGTASAGY3FBRDP4
+  teacher: 01M01BRGEKHZGB7R9DXA81PF74
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Bluming's own biography (jonbluming.nl) and his Realfighting interview state that Dr G. Schutte, founder of the NAJA dojo in Amsterdam, gave him his 1st dan after 12 months at the Tung Jen club; own account only
+  role: teachrole:student
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1953
+      endYear: 1958
+    hasEvidence:
+    - basedOnSource: 01M01BRGEBCYBZJWTPVFCWMEZ0
+      quotation: >-
+        Back in Holland he found by accident the judo club witch would really change his life from that on. When he brought home his girlfriend he saw in a little street a poster of the Tung Jen judo club in November 1953. So he went to that dojo and joined up. [...] his Sensei, Dr G. Schutte gave him his 1st Dan only after 12 months
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M01BRGE9KCSA1FP7BSYYDSRZ
+      quotation: I found a dojo in Amsterdam of the "Neth Amateur Judo Association" of the famous Dr.
+        Schutte (affectionately called OPA by the students).
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5G11RYGVZWGD0PAV6Y
+  teacher: 01KJJAWN28MWKKSN4J02MVY1SF
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Bluming's biography and interview state Donn Draeger trained him in judo in Tokyo from March 1959 to 1961, managed his weight gain from 79 to 102 kilos and proposed him for the Kenshusei class; own account only
+  role: teachrole:student
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1959
+      endYear: 1961
+    hasEvidence:
+    - basedOnSource: 01M01BRGE9KCSA1FP7BSYYDSRZ
+      quotation: when Draeger (Donn Draeger) started training me, in March 1959, by November I was a solid
+        102 kilos. [...] He was the best; he could run circles around all the top Judoka in the Kodokan,
+        all the 8th and 9th and 10th dans.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M01BRGEBCYBZJWTPVFCWMEZ0
+      quotation: >-
+        Back in Tokyo he started under the guidance of the famous Donn Dreager again with weight training for judo and karate and became finally what he always wanted heavyweight at 102 kilo solid from 79 kilo in Canada
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GCGEHF9M1158YXGEV
+  teacher: 01KJJAWN28MWKKSN4J02MVY1SD
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Bluming's biography identifies the elderly red-belt master who headed the Kenshusei class he joined in November 1959 as Kyuzo Mifune; his EJMAS article says Mifune gave seminars to Kenshusei members; own account only
+  role: teachrole:student
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1959
+      endYear: 1961
+    hasEvidence:
+    - basedOnSource: 01M01BRGEBCYBZJWTPVFCWMEZ0
+      quotation: In 1959 November that elderly man would become his head teacher in the new Kodokan when
+        he became a member of the famous Kenshusei the 25 best fighters of Japan.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M01BRGEJQ7ST3P2KZ3EHW0KK
+      quotation: members also got to attend special seminars given by teachers like Mifune and Samura.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5G9YAKW0QDJ9M9QCFH
+  teacher: 01KZXXSBAWR1Q0NH6D512D90FB
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The EJMAS first-person account names Daigo as one of the regular instructors
+      of the Kodokan Kenshusei training program while Bluming was a member, and English Wikipedia lists
+      Daigo among Bluming's teachers; Bluming elsewhere calls him "my old teacher Daigo Sensei".
+  role: teachrole:student
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1959
+      endYear: 1961
+    hasEvidence:
+    - basedOnSource: 01M01BRGEJQ7ST3P2KZ3EHW0KK
+      quotation: >-
+        The first Olympic training for the Kenshusei took place in August 1960. [...] While the regular instructors included Daigo, Kawamura, and Osawa [...] The next day I was summoned to the office of Risei Kano, where he and Daigo Sensei told me that as a member of the Kenshusei I had to adhere to the honor code
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M015RCSFP4E7JD59QDNX014T
+      quotation: 'Upon his arrival to Japan, Bluming was accepted in the Kodokan Institute, where he trained under names like Toshiro Daigo, Yoshimi Osawa and Kazuo Ito.'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5G1SV7XZCWA1C1V4KC
+  teacher: 01KJJAWN28MWKKSN4J02MVY1T5
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The EJMAS first-person account names Osawa as one of the regular instructors
+      of the Kodokan Kenshusei training program while Bluming was a member, and English Wikipedia lists
+      Osawa among Bluming's teachers. Not a direct "my teacher" claim, so rated probable rather than confirmed.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1959
+      endYear: 1961
+    hasEvidence:
+    - basedOnSource: 01M01BRGEJQ7ST3P2KZ3EHW0KK
+      quotation: >-
+        While the regular instructors included Daigo, Kawamura, and Osawa
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M015RCSFP4E7JD59QDNX014T
+      quotation: 'Upon his arrival to Japan, Bluming was accepted in the Kodokan Institute, where he trained under names like Toshiro Daigo, Yoshimi Osawa and Kazuo Ito.'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5G77VCES2T4FRM02TV
+  teacher: 01KJJAWN29MA64W22606R3WD7K
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Bluming's official biography records that Tokio Hirano awarded him his 3rd dan
+      at a 1957 summer camp in Holland after he threw 75 judoka in 26 minutes; the same source states
+      Schutte himself held 4th dan from Hirano.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1957
+      endYear: 1957
+    hasEvidence:
+    - basedOnSource: 01M01BRGEBCYBZJWTPVFCWMEZ0
+      quotation: >-
+        In 1957 he got his 3th Dan from Tokyo Hirano at a summer camp in Holland when he throw 75 judoka from 4e kyu until 4th Dan in 26 minutes
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GX060X9J35BBX4VJ3
+  teacher: 01KYND6715HFZV8WHQ6W7PATNX
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: English Wikipedia names Kazuo Ito among the teachers Bluming trained under at
+      the Kodokan, but the claim is not corroborated by any primary source reviewed (official biography,
+      Realfighting interview, EJMAS first-person accounts all omit him). Rated uncertain.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1959
+      endYear: 1961
+    hasEvidence:
+    - basedOnSource: 01M015RCSFP4E7JD59QDNX014T
+      quotation: Upon his arrival to Japan, Bluming was accepted in the Kodokan Institute, where he trained
+        under names like Toshiro Daigo, Yoshimi Osawa and Kazuo Ito.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GNWX7X3KQ6VC48SJ5
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 3
+  grantedBy: 01KJJAWN29MA64W22606R3WD7K
+  dateConferred: '1957'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Bluming's official biography records that he received his 3rd dan from Tokio
+      Hirano in 1957 at a summer camp in Holland after throwing 75 judoka in 26 minutes.
+  hasEvidence:
+  - basedOnSource: 01M01BRGEBCYBZJWTPVFCWMEZ0
+    quotation: >-
+      In 1957 he got his 3th Dan from Tokyo Hirano at a summer camp in Holland when he throw 75 judoka from 4e kyu until 4th Dan in 26 minutes even when he had broken his big toe
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5G87TKBJR0P9MM9PHS
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 9
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: English Wikipedia records 9th dan in judo for Bluming, without a granting body
+      or date.
+  hasEvidence:
+  - basedOnSource: 01M015RCSFP4E7JD59QDNX014T
+    quotation: Bluming held 9th dan in Judo, 10th dan in Kyokushinkai Karate and 10th dan in Hapkido.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M015RCSFP4E7JD59QDNX014T
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M016NFYMWR26NPNCWMTJENQ0
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q560761

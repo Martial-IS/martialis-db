@@ -1,0 +1,78 @@
+type: Event
+id: 01M6A2VG37RZJZVVD0BPN3NJH1
+name:
+  en: 1953 Rio de Janeiro prize match, Rudolf Hermanny vs Artur Emídio
+eventType: eventclass:challenge
+eventDate: '1953'
+location:
+  label: Rio de Janeiro
+  countryCode: eucountry:BRA
+  wikidata: wd:Q8678
+hasParticipation:
+  - id: 01M6A2VG38HFHFQK68VP0B71R2
+    participant: 01KJJAWN28MWKKSN4J02MVY1T1
+    participationRole: eventrole:competitor
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+        quotation: >-
+          In 1953, Valdemar Santana, a famous free-style fighter in Rio de Janeiro, invited him for
+          a series of prize matches. Artur Emídio lost against Rudolfo Hermanny, a student of
+          Sinhôzinho
+        locator: '168'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M6A2VG399XXFN2GBFDFTMJ9W
+    participant: 01M6A2VG2RR2PSNY7VEP7M3PH0
+    participationRole: eventrole:competitor
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+        quotation: >-
+          In 1953, Valdemar Santana, a famous free-style fighter in Rio de Janeiro, invited him for
+          a series of prize matches. Artur Emídio lost against Rudolfo Hermanny, a student of
+          Sinhôzinho
+        locator: '168'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M6A2VG3AZVRF7RAWH81HP4ZY
+    participant: 01M5HMNG4QHWWA645WHHT20ZVX
+    participationRole: eventrole:organizer
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+        quotation: >-
+          In 1953, Valdemar Santana, a famous free-style fighter in Rio de Janeiro, invited him for
+          a series of prize matches. Artur Emídio lost against Rudolfo Hermanny, a student of
+          Sinhôzinho
+        locator: '168'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Prize match in a series that Valdemar Santana organised in Rio de Janeiro, in which Sinhôzinho's
+    student Rudolf Hermanny beat the capoeira Artur Emídio.
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    locator: '168'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - capoeira

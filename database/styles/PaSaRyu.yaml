@@ -1,0 +1,86 @@
+type: Style
+id: 01M6ERSPBWNHN6P1V1N4AASK6H
+name:
+  en: PaSaRyu
+aka:
+  en:
+  - Pasaryu
+  - PaSaRyu Karate
+styleType: styleclass:modern
+styleForm:
+  - styleform:hybrid
+description:
+  en: >-
+    Karate style founded by Kang Rhee in the United States, taught from Memphis; a blend of the Korean
+    arts he had studied.
+foundedEvent:
+  startDate: '1964'
+  founder:
+    - 01M6ERSPBWCH6E8016RP6T2PBB
+  hasEvidence:
+    - basedOnSource: 01M6ERRV5G3SMA1GA714KKT9R6
+      quotation: >-
+        The PaSaRyu system was started by Kang Rhee when he came to the United States in 1964.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ERRV5G3PYWA5DZC121H6PY
+      quotation: >-
+        He started PaSaRyu Association in Memphis in 1966.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasStyleRelationAssertion:
+  - id: 01M6ERSPBWR2W9A6HBP2KCXFX3
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9S
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Graceland names Kong Soo Do and Kwon Bup (Korean karate) among Rhee's arts; the PaSaRyu page calls it a blend
+    hasEvidence:
+      - basedOnSource: 01M6ERRV5G3PYWA5DZC121H6PY
+        quotation: >-
+          Rhee trained in Kong Soo Do, Chang Mu Kwan, Kwon Bup, Kang Duk Won and Han Kuk Hap Ki Do in the 1950s and 60s.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+      - basedOnSource: 01M6ERRV5G3SMA1GA714KKT9R6
+        quotation: >-
+          decided to create a blend of styles that presented a more open and flowing pattern of movement while still being very powerful.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:indirect
+  - id: 01M6ERSPBWS8K3H6G90PXK66FY
+    relatedStyle: 01M5H45XTYC7KSZ5CZ9WKV4T0D
+    styleRelationType: stylerel:influenced_by
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Graceland names Han Kuk Hap Ki Do among Rhee's arts; the PaSaRyu page calls it a blend
+    hasEvidence:
+      - basedOnSource: 01M6ERRV5G3PYWA5DZC121H6PY
+        quotation: >-
+          Rhee trained in Kong Soo Do, Chang Mu Kwan, Kwon Bup, Kang Duk Won and Han Kuk Hap Ki Do in the 1950s and 60s.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+      - basedOnSource: 01M6ERRV5G3SMA1GA714KKT9R6
+        quotation: >-
+          decided to create a blend of styles that presented a more open and flowing pattern of movement while still being very powerful.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:indirect
+notes: >-
+  The PaSaRyu page dates the system to 1964; Graceland dates the PaSaRyu Association to 1966.
+hasEvidence:
+  - basedOnSource: 01M6ERRV5G3SMA1GA714KKT9R6
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - karate
+  - korean-martial-arts
+  - hybrid

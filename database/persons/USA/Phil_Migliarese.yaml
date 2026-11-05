@@ -1,0 +1,103 @@
+type: Person
+id: 01KZRA7SNMKMH1HMMQEAS29X94
+name:
+  en: Phil Migliarese
+aka:
+  en:
+    - Philip Migliarese III
+    - Jiu-Jitsu Matrix
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1976-01-11'
+  hasEvidence:
+    - basedOnSource: 01KZRA7SNMQ0E1TR6KQ7Z3FVAF
+      quotation: Phil "Jiu-Jitsu Matrix" Migliarese (born Philip Migliarese III, January 11, 1976)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/f/fd/20-years-of-jiu-jitsu-belts.jpg
+  rights: mediarights:cc-by-sa-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:20-years-of-jiu-jitsu-belts.jpg
+    cite: "Lkmccutcheon, Eric Zippe, Phil Migliarese, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: 'American 6th degree Relson Gracie Brazilian jiu-jitsu black belt, Gracie Worlds and National
+
+    Champion, trainer and coach to UFC and MMA fighters, yoga instructor and co-founder, with his
+
+    brother Ricardo, of Balance Studios in Philadelphia. He was the youngest person to receive a
+
+    black belt from Relson Gracie when promoted in March 2003.
+
+'
+hasTeacherAssertion:
+  - id: 01M3YH7N5G6T1BCJY61SANDAFZ
+    teacher: 01KZRA7SNMC4RN196JC99CJ93N
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia records that Relson Gracie became Phil Migliarese's mentor and promoted him to black belt in March 2003; the Balance Studios website names Relson Gracie as their instructor
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1988
+        hasEvidence:
+          - basedOnSource: 01KZRA7SNMQ0E1TR6KQ7Z3FVAF
+            quotation: Relson focused his attention on Migliarese's training and became his mentor.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZRA7SNMWQBSXQKEN10PXPDT
+            quotation: The Migliarese Brothers are the founders of Balance Studios and have over 30 years of experience in Gracie Jiu-Jitsu
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GKWW96BHB3WDPQG34
+    rankStyle: 01KJJAWN29MA64W22606R3WD9J
+    rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+    rankGrade: rankgrade:bjj_black
+    grantedBy: 01KZRA7SNMC4RN196JC99CJ93N
+    dateConferred: 2003-03
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia explicitly records that in March 2003 Phil Migliarese became the youngest person to receive the honor of black belt from Relson Gracie at the Gracie Worlds in Columbus, Ohio
+    hasEvidence:
+      - basedOnSource: 01KZRA7SNMQ0E1TR6KQ7Z3FVAF
+        quotation: In March 2003, at the Gracie Worlds in Columbus, Ohio, he became the youngest person to receive the honor of black belt from Relson Gracie and was among the first Americans to receive this promotion.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G2H7JP7TNHW9WZKWX
+    rankStyle: 01KJJAWN29MA64W22606R3WD9J
+    rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+    rankOrdinal: 6
+    rankGrade: rankgrade:bjj_black
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia describes Migliarese as a 6th degree Relson Gracie black belt; the promotion date for the degree is not given
+    hasEvidence:
+      - basedOnSource: 01KZRA7SNMQ0E1TR6KQ7Z3FVAF
+        quotation: Phil "Jiu-Jitsu Matrix" Migliarese (born Philip Migliarese III, January 11, 1976) is an American 6th degree Relson Gracie Brazilian jiu-jitsu Black Belt.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZRA7SNMQ0E1TR6KQ7Z3FVAF
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q7182184
+tags:
+  - brazilian-jiu-jitsu
+  - balance-studios
+  - gracie-lineage
+  - coach

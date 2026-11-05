@@ -1,0 +1,83 @@
+type: Style
+id: 01KYQB8J2N20VJ665SPN1RF325
+name:
+  en: 10th Planet Jiu-Jitsu
+aka:
+  en:
+    - 10th Planet
+    - 10th Planet Jiu Jitsu
+styleType: styleclass:modern
+styleForm:
+  - styleform:hybrid
+foundedEvent:
+  startDate: '2003'
+  founder:
+    - 01KYQB8J2NYN0CT40CYYXN62GK
+  location:
+    label: Los Angeles
+    countryCode: eucountry:USA
+    wikidata: wd:Q65
+  hasEvidence:
+    - basedOnSource: 01M5CNY5CSRV9ECRAB44SAXDXB
+      quotation: >-
+        Date founded 2003 Country of origin United States Founder Eddie Bravo
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5CNY5CSRV9ECRAB44SAXDXB
+      quotation: >-
+        In 2003, after earning a black belt under Jean-Jacques Machado, Eddie Bravo opened his first 10th Planet Jiu-Jitsu school in Los Angeles, California.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: '10th Planet Jiu-Jitsu is a no-gi Brazilian jiu-jitsu system founded by Eddie Bravo. It is a variant of Brazilian jiu-jitsu that emphasizes a no-gi approach, with distinctive innovations in rubber guard, lockdown half guard, and twister submissions. The system was developed after Bravo''s departure from the traditional gi-based BJJ approach.
+
+'
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5GVXGG10M9WKNNXA9A
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9J
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia directly states 10th Planet is a non-traditional system of Brazilian jiu-jitsu founded by Eddie Bravo; Bravo's own training lineage under Jean Jacques Machado is separately documented on his own record
+    hasEvidence:
+      - basedOnSource: 01KYQB8J2NB5KG4M7GYD1K1T1B
+        quotation: 'Later, Rogan also earned his black belt in no-gi BJJ from Eddie Bravo, founder of 10th Planet Jiu Jitsu, renowned for revolutionising the no-gi grappling scene.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+      - uri: https://en.wikipedia.org/wiki/10th_Planet_Jiu-Jitsu
+        archiveUri: https://en.wikipedia.org/w/index.php?title=10th_Planet_Jiu_Jitsu&oldid=1367702655
+        cite: 10th Planet Jiu-Jitsu - Wikipedia
+        quotation: 10th Planet Jiu-Jitsu is a non-traditional system of Brazilian jiu-jitsu developed by Eddie Bravo
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYQB8J2NB5KG4M7GYD1K1T1B
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5CNY5CSRV9ECRAB44SAXDXB
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://www.10thplanetjj.com/
+    archiveUri: http://web.archive.org/web/20261012080837/https://www.10thplanetjj.com/
+    cite: 10th Planet Jiu-Jitsu official website
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - no-gi
+  - bjj-variant
+  - grappling
+rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/en/b/be/10th_Planet_Jiu-Jitsu_%28logo%29.jpg
+    imageAttribution:
+      uri: https://en.wikipedia.org/wiki/File:10th_Planet_Jiu-Jitsu_(logo).jpg
+      cite: "English Wikipedia"
+      informationType: infotype:secondary

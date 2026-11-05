@@ -1,0 +1,92 @@
+type: Organization
+id: 01KZ6654E3XN0AG9T7JYAC921C
+name:
+  en: ADAS - Associação Desportiva de Aikido de Setúbal
+  pt: ADAS - Associação Desportiva de Aikido de Setúbal
+aka:
+  en:
+    - ADAS
+    - ADAS-Aikido Buikukai Portugal
+    - Aikido Buikukai Portugal
+orgType: orgclass:association
+hasSite:
+  - location:
+      label: Setúbal
+      countryCode: eucountry:PRT
+      wikidata: wd:Q173699
+foundedEvent:
+  startDate: '1998-11-23'
+  founder:
+    - 01KZ6654E39YKF2E37Z3Z740RS
+  hasEvidence:
+    - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+      quotation: O Prof. Orlando Pereira é Diretor Técnico da ADAS desde a sua fundação, em 23 de novembro de 1998.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M3YH7N5FKNRJ261BY8WVBTY9
+    relatedOrganization: 01KZ6654E3J9N297TSZ4XQWR2A
+    affiliationRelation: affrel:branch_of
+    validDuring:
+      startYear: 1998
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The org's own website states it rebranded as ADAS-Aikido Buikukai Portugal after its president Orlando Marques was appointed by the Buikukai of Osaka; no independent source corroborates the affiliation
+    hasEvidence:
+      - basedOnSource: 01KZ6654E3XPX02ASYRKDP0HG6
+        quotation: >-
+          Buikukai Portugal é finalmente uma realidade. Orlando Marques foi nomeado o presidente pela Buikukai de Osaka, Japão. [...] Com sede em Osaka, Japão, a ADAS-Aikido Buikukai Portugal oferece treinamentos e cursos ministrados por instrutores altamente qualificados
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5FKDDDWJ227M1ET6KK
+    relatedOrganization: 01KZ3KA57C6W6FMCWM668Y13X2
+    affiliationRelation: affrel:recognised_by
+    validDuring:
+      startYear: 1998
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: ADAS aikido is graded through the Aikikai, whose Hombu Dojo in Tokyo registered the yudansha formed in Portugal by Honda Doshū; the ADAS technical director holds an Aikikai rank
+    hasEvidence:
+      - basedOnSource: 01KZ6239B502QG4KT71H5P9FT5
+        quotation: tendo sido o primeiro Mestre no ano de 1980 a formar em Portugal os primeiros dois yudansha (Cinto negro) com registo na Hombu Dojo Aikido Aikikai em Tóquio Japão.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+website: https://www.aikidoadas.com/
+logo:
+  contentUrl: https://archive.org/download/adas_20260804/adas.png
+  imageAttribution:
+    basedOnSource: 01KZ6654E39M0WFVGXYFGST3X7
+    informationType: infotype:secondary
+description:
+  en: The ADAS (Associação Desportiva de Aikido de Setúbal) is a Portuguese aikido association founded on 23 November 1998 by Orlando Marques, who serves as its Technical Director. It rebranded as ADAS-Aikido Buikukai Portugal, the Portuguese branch of the Aikido Osaka Buikukai, with its president appointed by the Buikukai of Osaka, Japan. In its last years Honda Doshū was its technical advisor.
+  pt: A ADAS (Associação Desportiva de Aikido de Setúbal) é uma associação portuguesa de Aikido fundada a 23 de novembro de 1998 por Orlando Marques, que é o seu Diretor Técnico. Foi renomeada ADAS-Aikido Buikukai Portugal, a filial portuguesa do Aikido Osaka Buikukai, com o seu presidente nomeado pela Buikukai de Osaka, Japão. Nos últimos anos Honda Doshū foi o seu assessor técnico.
+hasEvidence:
+  - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ6654E39M0WFVGXYFGST3X7
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ6654E3XPX02ASYRKDP0HG6
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ6239B5Q0H0AGKTCG1D06K9
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ6239B5Z1B75WBR2NG8EJNW
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - aikido
+  - aikikai
+  - portugal

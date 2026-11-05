@@ -1,0 +1,143 @@
+type: Person
+id: 01KZC7XZAWJNRVKWZ66A7CXENR
+name:
+  ja-Latn: Chibana Chōshin
+  ja: 知花朝信
+aka:
+  en:
+    - Choshin Chibana
+    - Chosin Chibana
+  ja:
+    - ちばな ちょうしん
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1885-06-05'
+  birthPlace:
+    label: Shuri
+    countryCode: eucountry:JPN
+    wikidata: wd:Q608415
+  hasEvidence:
+    - basedOnSource: 01KZC8XAP8WHXBQM71S344TXVZ
+      quotation: Chōshin Chibana (知花 朝信, Chibana Chōshin; 5 June 1885 – 26 February 1969) [...] was born as the second son of Chibana Chohaku and wife Nabi on 5 June 1885.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1969-02-26'
+  deathPlace:
+    label: Shuri
+    countryCode: eucountry:JPN
+    wikidata: wd:Q608415
+  hasEvidence:
+    - basedOnSource: 01KZC8XAP8WHXBQM71S344TXVZ
+      quotation: 'died at 6:40 a.m. on the 26 February 1969, aged 83.'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Chibana.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Chibana.jpg
+    cite: Wikimedia Commons
+    informationType: infotype:secondary
+description:
+  en: Okinawan martial artist (1885-1969) who developed Kobayashi Shorin-ryu karate based on what he learned from Ankō Itosu; the first to establish a Japanese ryu name for an Okinawan karate style, naming Itosu's karate "Shorin-ryu" in 1929; called the "Last Warrior of Shuri".
+notes: Chibana trained under Ankō Itosu from 1899 (about age 15) for thirteen years, until he turned 28; after Itosu's death he practiced alone for five years and then opened his first dojo in the Tori-hori district at age 34. He served as the first President of the Okinawa Karate Federation (formed May 1956) and was Karate Advisor and Senior Instructor for the Shuri Police Precinct 1954-1958. He received the title of Hanshi from the Dai Nippon Butokukai in 1957 and the Order of the Sacred Treasure, 4th Class in 1968 (Geoffrey Gaudion's account also mentions the "Fourth Order of Merit" from Emperor Hirohito). His many students included Yuchoku Higa (from 1943, remaining his disciple until his death), Katsuya Miyahira (from April 1933), Shugoro Nakazato (who received Chibana's personal black belt and founded Shorin-ryu Shorinkan, the page recording that Chibana "created the Shorin-ryu Shorinkan association" via his students) and, per Goodin and Gaudion, Arakaki Ankichi after his early study under Gusukuma and Hanashiro.
+hasTeacherAssertion:
+  - id: 01M3YH7N5GG741B8HESXB0S5JM
+    teacher: 01KJJAWN29MA64W22606R3WD6B
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9F
+    role: teachrole:uchi_deshi
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        EN Wikipedia states Chibana began his study of martial arts under Anko Itosu in 1899 at about
+        age 15 and trained under him for thirteen years until he turned 28; the Kata Step by Step
+        biography of Chibana confirms the 1899 start and thirteen years of training
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1899
+          endYear: 1912
+        hasEvidence:
+          - basedOnSource: 01KZC8XAP8WHXBQM71S344TXVZ
+            quotation: Choshin began his study of martial arts under Ankō Itosu in 1899 when he was about fifteen years old [...] for thirteen years until he turned 28, Choshin trained under Itosu.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZGJHHWJV0Z067740W1Y7ZYA
+            quotation: Chibana began his formal martial arts training under Itosu Ankō in 1899, at the age of fifteen [...] continuing his training until he was 28. After Itosu's passing at the age of 85, Chibana continued his practice independently for another five years before opening his first dojo.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M3YH7N5GF1Y6M61B525KDY1R
+    honorValue: Hanshi
+    honorType: honortype:title
+    dateConferred: '1957'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states Chibana received the title of Hanshi (High Master) from the Dai Nippon Butokukai by 1957
+    hasEvidence:
+      - basedOnSource: 01KZC8XAP8WHXBQM71S344TXVZ
+        quotation: >-
+          By 1957, Chibana had received the title of Hanshi (High Master) from the Dai Nippon Butokukai
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+    honorGrade: honorgrade:shogo_hanshi
+  - id: 01M3YH7N5GJ7B63QCMDNZK7PEY
+    honorValue: Order of the Sacred Treasure, 4th Class
+    honorType: honortype:title
+    dateConferred: '1968-04-29'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states Chibana was awarded the Order of the Sacred Treasure, 4th Class on 29 April 1968 by the Emperor of Japan; Geoffrey Gaudion's account independently mentions the "Fourth Order of Merit" from Emperor Hirohito
+    hasEvidence:
+      - basedOnSource: 01KZC8XAP8WHXBQM71S344TXVZ
+        quotation: >-
+          On 29 April 1968, was awarded the Order of the Sacred Treasure, 4th Class, by the Emperor of Japan
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZGMHT4PJAW67C6ZBVV6GP7J
+        quotation: After quitting school he studied under Choshin Chibana, who later brought honor to the karate world when he received Emperor Hirohito's Fourth Order of Merit.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZC8XAP8WHXBQM71S344TXVZ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZGJHHWJV0Z067740W1Y7ZYA
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZGMHT4PJAW67C6ZBVV6GP7J
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZHA2591RH73019S4FQ5AWAH
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZGG211JMYTDZ581HA7A7NGS
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZGGMSWV6E8DRWHM6FSQFRQ9
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q1071733
+tags:
+  - karate
+  - shorin-ryu
+  - shuri-te

@@ -1,0 +1,114 @@
+type: Person
+id: 01M37HHSSMHCCXC6HCC66ACNKW
+name:
+  ja-Latn: Saimura Gorō
+  ja: 斎村五郎
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1887'
+  hasEvidence:
+  - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+    quotation: the renowned Saimura Gorō (1887-1969) and Mochida Moriji (1885-1974)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1969'
+  hasEvidence:
+  - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+    quotation: the renowned Saimura Gorō (1887-1969) and Mochida Moriji (1885-1974)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/3/3a/%E6%96%8E%E6%9D%91%E4%BA%94%E9%83%8E.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:%E6%96%8E%E6%9D%91%E4%BA%94%E9%83%8E.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: Police kendo instructor and one of the seven signatories of the Kendō Shingikai petition of 1938.
+    Retained his post after the 1946 police kendo tournament, and was a member of the postwar Dōshikai.
+hasEvidence:
+- basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+  quotation: the police held a kendo tournament in 1946, and all police instructors, including the renowned
+    Saimura Gorō (1887-1969) and Mochida Moriji (1885-1974), were allowed to retain their posts.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M6EF8Y2KBW5P717GWGYW7S5Q
+  teacher: 01KJJAWN29MA64W22606R3WD6H
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9W
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Three kenshi247 articles by one author; not independent of each other.
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD99
+    interactionPeriod:
+      startYear: 1906
+    hasEvidence:
+    - basedOnSource: 01M6EF6KKAK59JDZD4NRTBMSWQ
+      quotation: In 1906, Saimura Goro was in the first group of students that entered the Butokukai’s
+        Bujutsu Kyoin Yoseisho [...] Here he studied kendo under Naito Takaharu.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6EF6KKAN79Q0KQFRGZ1FY5A
+      quotation: 1906 – Began training as a teacher at the infamous Budo Senmon Daigaku in Kyoto. Learned
+        kendo under Dai Nippon Butokukai shihan Naito.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6EF6KKA63CS2CK6XMKPS78R
+      quotation: One particular Naito student and early Busen (Yoseijo) graduate of note was Saimura Goro.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M6EF8Y2KW3P2S4H6EHS14BZN
+  rankStyle: 01KJJAWN29MA64W22606R3WD9W
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 10
+  dateConferred: '1957'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The Asahi Graph (1958, in translation) names him among the first four 10th dans.
+  hasEvidence:
+  - basedOnSource: 01M6EF6KKARYR4432BT2HR7WY5
+    quotation: In 1957 the fledgling organisation awarded it’s first four 10th dans by special committee.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:indirect
+  - basedOnSource: 01M6EF6KKAK59JDZD4NRTBMSWQ
+    quotation: Saimura became an honorary shihan to both Keishicho and Kokushikan, was awarded 10dan
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasHonorAssertion:
+- id: 01M6EF8Y2K2981ZKWNJ310V6FM
+  honorValue: Kyoshi
+  honorType: honortype:title
+  honorGrade: honorgrade:shogo_kyoshi
+  conferredBy: 01KJJAWN29MA64W22606R3WD7Y
+  dateConferred: '1919'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Kendoka shashin meikan (1925), kyoshi list; Taisho 8 is 1919.
+  hasEvidence:
+  - basedOnSource: 01M6EF6KKA6C1PENQY8MCK6TN1
+    quotation: 'Saimura Gorō [...] Qualification: Taisho 8th Year'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+- kendo
+- keishicho

@@ -1,0 +1,198 @@
+type: Person
+id: 01KYG003XDQ8P2KEBEWHV84NHX
+name:
+  en: Jean Jacques Machado
+nationality:
+- countryCode: eucountry:BRA
+  wikidata: wd:Q155
+birthEvent:
+  birthDate: '1968-02-12'
+  hasEvidence:
+  - basedOnSource: 01KYG003XD09BCSRFEG849MPG4
+    quotation: >-
+      Jean Jacques Machado (born February 12, 1968)
+    cite: Jean Jacques Machado (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: Brazilian Jiu-Jitsu practitioner and ADCC Hall of Fame inductee (2024). One of the five Machado
+    brothers. He is a nephew of Carlos Gracie and an ADCC Submission Wrestling World Champion. Chuck Norris
+    helped the Machado brothers open their first jiu-jitsu school in the United States.
+image:
+  contentUrl: https://images.squarespace-cdn.com/content/v1/5bb0195fda50d32819a38aef/286bc637-ab8d-44b9-befd-19990b48e712/JJM+High+resol.jpg
+  imageAttribution:
+    uri: https://www.grapplersretreat.com/jjm
+    cite: "Grapplers Retreat"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+- id: 01M3YH7N5FR43A46X1E64EVFWQ
+  teacher: 01KYZ31HT367V25Z6764RZXNGZ
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: The JJM Association states Machado was awarded his black belt at age 18 by Carlos
+      Gracie Jr.; BJJ Heroes notes he trained with Carlos Jr. at Rolls Gracie's academy; Rickson Gracie's
+      memoir states Carlos Jr. had him listed as his student in 1986.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZ1DTWBB6YXP2M58CBV0K0EA
+      quotation: He was awarded his Black Belt at 18 years old by Carlos Gracie Jr.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZ1E1WE6Y2NMX2Y3CW12P9B9
+      quotation: Regarded as one of Carlos Gracie Junior's top students in the 1980's
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5CD497XT6VM0GT33AQT35JF
+      locatorLabel: chapter
+      locator: '5'
+      quotation: I was surprised to see that Carlos Gracie Jr. had my cousins Rigan Machado and Jean Jacques
+        Machado listed as his students.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M5CD497XDE062BHWC0FFKKZD
+  teacher: 01KYS8C0AF6DD44239NY1DZ286
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Rickson Gracie's own memoir names him as his student and describes his training
+      in Rio as a teenager.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M5CD497XT6VM0GT33AQT35JF
+      locatorLabel: chapter
+      locator: '6'
+      quotation: I got to know Jean Jacques well when he was a teenager and began to travel to Rio to train
+        with me.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5CD497XT6VM0GT33AQT35JF
+      locatorLabel: chapter
+      locator: '5'
+      quotation: I had not trained with the Machado brothers in a while, but they were also my students.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5CD497X4PZQ1HXFVAHQS2SQ
+      quotation: Jean Jacques decided to learn from him instead. As a young teenager, Machado would take
+        the train from his home in Teresopolis to Rio and spend entire days watching his cousin teach private
+        lessons, observing and absorbing every detail.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5F94HJYWESGD6TWWBN
+  rankStyle: 01KJJAWN29MA64W22606R3WD9J
+  rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+  rankGrade: rankgrade:bjj_black
+  grantedBy: 01KYZ31HT367V25Z6764RZXNGZ
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Machado's own association and his own Instagram post state it; no record from
+      Carlos Gracie Jr. or an independent source.
+  hasEvidence:
+  - basedOnSource: 01KZ1DTWBB6YXP2M58CBV0K0EA
+    quotation: He was awarded his Black Belt at 18 years old by Carlos Gracie Jr.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5CC2P17NFR88EHNQ5R6C3BQ
+    quotation: A lot of years ago when I received my black belt from my cousin and master Carlos Gracie Jr.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5CD497X4PZQ1HXFVAHQS2SQ
+    quotation: Shortly after receiving his blackbelt in 1992, Jean Jacques Machado moved to the United States
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  notes: >-
+    Date not settled: the JJM Association gives the black belt at age 18 (about 1986, born 1968-02-12);
+    Peter Maguire's 2026 profile gives 1992, the year he moved to the United States.
+- id: 01M3YH7N5FBH90MQ543PY64NH8
+  rankStyle: 01KJJAWN29MA64W22606R3WD9J
+  rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+  rankOrdinal: 7
+  rankGrade: rankgrade:bjj_red_black
+  grantedBy: 01KYS8C0AF6DD44239NY1DZ286
+  dateConferred: '2011-06-06'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: JJM Association and Wikipedia both state Machado received his 7th degree coral
+      belt from Rickson Gracie on June 6, 2011
+  hasEvidence:
+  - basedOnSource: 01KZ1DTWBB6YXP2M58CBV0K0EA
+    quotation: In 2011 Jean Jacques was awarded his Coral Belt (7th degree Red/Black) by none other than
+      legendary master Rickson Gracie.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYG003XD09BCSRFEG849MPG4
+    quotation: On June 6, 2011, in a private ceremony held at the Rickson Gracie Academy in West Los Angeles,
+      Machado was promoted to a 7th degree red-and-black belt.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5CD497X4PZQ1HXFVAHQS2SQ
+    quotation: Rickson Gracie awards Jean Jacques Machado his red and black coral belt.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5FGNWFZAYQ3B8BMFNS
+  rankStyle: 01KJJAWN29MA64W22606R3WD9J
+  rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+  rankOrdinal: 8
+  rankGrade: rankgrade:bjj_red_black
+  grantedBy: 01KYS8C0AF6DD44239NY1DZ286
+  dateConferred: '2025-03-29'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Jitsmagazine reports Machado was promoted to 8th degree coral belt by Rickson
+      Gracie, announced on his official Instagram; Wikipedia gives the date of March 29, 2025
+  hasEvidence:
+  - basedOnSource: 01KZ1SNKM3BK2XJGBBD3ZZFKVN
+    quotation: BJJ legend Jean Jacques Machado has just been promoted to 8th degree coral belt by a fellow
+      legendary grappler from the era just before his, Rickson Gracie.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYG003XD09BCSRFEG849MPG4
+    quotation: He then received the 8th degree on his black belt from Rickson Gracie on March 29, 2025.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KYG003XD09BCSRFEG849MPG4
+  cite: Jean Jacques Machado (Wikipedia EN)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ1DTWBB6YXP2M58CBV0K0EA
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ1E1WE6Y2NMX2Y3CW12P9B9
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ1SNKM3BK2XJGBBD3ZZFKVN
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q3172778
+tags:
+- brazilian-jiu-jitsu
+- machado-brothers

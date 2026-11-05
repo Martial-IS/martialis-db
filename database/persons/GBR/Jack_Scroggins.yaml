@@ -1,0 +1,45 @@
+type: Person
+id: 01M61VT2BRZFG46HJ4EZTS4295
+name:
+  en: Jack Scroggins
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+description:
+  en: >-
+    English prizefighter of the Regency ring whom John Gully took under his care and training for his
+    fight with Bill Eales, who was trained by Tom Belcher.
+hasTeacherAssertion:
+  - id: 01M61VT2BRKVFBDGD17Q4DH0A8
+    teacher: 01M5JPY6FNC1T9SS05Z5ZHK37V
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+    role: teachrole:coach
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Miles says Gully took him under his care and training; one source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M61VT2BRPK6TKHVH7EE72A0G
+            quotation: >-
+              Two of the most complete adepts in the ring took them under their care and training. [...]
+              when Gully selected Scroggins as his favourite, and Belcher preferred Eales as the most
+              competent pugilist
+            locator: '418'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M61VT2BRPK6TKHVH7EE72A0G
+    quotation: >-
+      when Gully selected Scroggins as his favourite, and Belcher preferred Eales as the most competent
+      pugilist
+    locator: '418'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - boxing

@@ -1,0 +1,80 @@
+type: Person
+id: 01M5JPY6FNNVB46F42Z2JBGMVF
+name:
+  en: Tom Sayers
+aka:
+  en:
+    - Thomas Sayers
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+birthEvent:
+  birthDate: '[1826-05-15,1826-05-25]'
+  birthPlace:
+    label: Brighton
+    countryCode: eucountry:GBR
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNPJADPP504PZ3W8EG
+      quotation: >-
+        Thomas Sayers (15 or 25 May 1826 – 8 November 1865) was an English bare-knuckle prize fighter.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1865-11-08'
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FNPJADPP504PZ3W8EG
+      quotation: >-
+        Thomas Sayers (15 or 25 May 1826 – 8 November 1865) was an English bare-knuckle prize fighter.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    English prizefighter who, though small, fought much bigger men and lost only one of sixteen bouts.
+    Heavyweight champion of England from 1857, he fought the American John C. Heenan to a draw at
+    Farnborough in 1860, the last great event of the bare-knuckle ring, and retired.
+hasHonorAssertion:
+  - id: 01M5JPY6FN0ZHD64TBD3NGZ6TE
+    honorValue: Champion of England
+    honorType: honortype:title
+    dateConferred: '1857'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01M5JPY6FNPJADPP504PZ3W8EG
+        quotation: >-
+          He was recognized as heavyweight champion of England between 1857, when he defeated William
+          Perry (the "Tipton Slasher"), and his retirement in 1860.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          John C. Heenan (1833–1873) was from the United States, while Thomas Sayers (1826–1865) was the
+          undisputed British champion.
+        locator: '232'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JPY6FNPJADPP504PZ3W8EG
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q3530878
+tags:
+  - boxing
+  - prizefighting
+  - united-kingdom
+image:
+  contentUrl: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Tom_Sayers%2C_champion_of_England-_born_at_Pimlico%2C_near_Brighton%2C_England%2C_in_1826%2C_height_5_feet_8_inches%2C_fighting_weight%2C_10_stone_10_lbs_LCCN2002708507.tif/lossy-page1-960px-Tom_Sayers%2C_champion_of_England-_born_at_Pimlico%2C_near_Brighton%2C_England%2C_in_1826%2C_height_5_feet_8_inches%2C_fighting_weight%2C_10_stone_10_lbs_LCCN2002708507.tif.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Tom_Sayers,_champion_of_England-_born_at_Pimlico,_near_Brighton,_England,_in_1826,_height_5_feet_8_inches,_fighting_weight,_10_stone_10_lbs_LCCN2002708507.tif
+    cite: "Popular Graphic Arts, Wikimedia Commons"
+    informationType: infotype:secondary

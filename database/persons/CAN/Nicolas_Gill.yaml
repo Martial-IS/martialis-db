@@ -1,0 +1,64 @@
+type: Person
+id: 01M5H5TCKZ7EPD16DK5JN0JBTT
+name:
+  en: Nicolas Gill
+nationality:
+  - countryCode: eucountry:CAN
+    wikidata: wd:Q16
+description:
+  en: >-
+    Canadian judoka from Montreal; Olympic bronze medallist at Barcelona 1992 and world championship
+    silver medallist in 1993.
+notes: >-
+  Leyshon (p. 96): his first sensei was Marc Richelme (no record yet).
+hasTeacherAssertion:
+  - id: 01M5H5TCKZGZNV9FCVSQGY40P2
+    teacher: 01M5H5TCKZW50M5WFGCD2KCNR1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              Gill began his Judo at age six with his Montreal sensei, Marc Richelme and then Hiroshi
+              Nakamura.
+            locator: '96'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              Currently, Nakamura is the sensei of the Shidokan Dojo, housed in a public recreation
+              facility close to downtown Montreal. He has about 350 pupils involved. Perhaps the
+              outstanding one is Nicolas Gill
+            locator: '132'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    quotation: >-
+      Next came the 1992 Olympics in Spain. Nicolas finished with a bronze medal
+    locator: '96'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3277632
+tags:
+  - judo
+  - canada
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/d/d7/Nicolas_Gill.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Nicolas_Gill.jpg
+    cite: "Lëa-Kim Châteauneuf, Wikimedia Commons"
+    informationType: infotype:secondary

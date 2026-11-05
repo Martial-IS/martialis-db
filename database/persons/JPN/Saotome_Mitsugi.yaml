@@ -1,0 +1,80 @@
+type: Person
+id: 01KZ6KZZG76Q52KMPKJRPG8001
+name:
+  ja-Latn: Saotome Mitsugi
+  ja: 五月女貢
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1937'
+hasTeacherAssertion:
+  - id: 01M3YH7N5GV61CQNVC9ADRKC1G
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TV
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia states Saotome was a direct disciple of Morihei Ueshiba, became uchi-deshi at Hombu Dojo in April 1959 and remained so until the founder's death in April 1969.
+    role: teachrole:uchi_deshi
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1959
+          endYear: 1969
+        hasEvidence:
+          - uri: https://en.wikipedia.org/wiki/Mitsugi_Saotome
+            archiveUri: https://en.wikipedia.org/w/index.php?title=Mitsugi_Saotome&oldid=1360641842
+            cite: Mitsugi Saotome - Wikipedia EN
+            quotation: Kisshomaru Ueshiba goes on to confirm that Mitsugi Saotome became an uchi-deshi (live-in student at the dojo) in April 1959 [...] and remained uchi-deshi until the founder's death in April 1969.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G3Z7FXGTEEC2B2GG1T4T0T
+            quotation: >-
+              He entered the AIKIKAI HOMBU DOJO as an UCHIDESHI in April 1961
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasRankAssertion:
+  - id: 01M3YH7N5GADSZMXV7BQ2XX2BV
+    rankStyle: 01KJJAWN29MA64W22606R3WD9R
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 6
+    dateConferred: '1968'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Promotion to 6th dan (Shihan) in January 1968 documented by Kisshomaru Ueshiba's records cited in the Wikipedia biography.
+    hasEvidence:
+      - uri: https://en.wikipedia.org/wiki/Mitsugi_Saotome
+        archiveUri: https://en.wikipedia.org/w/index.php?title=Mitsugi_Saotome&oldid=1360641842
+        cite: Mitsugi Saotome - Wikipedia EN
+        quotation: receiving subsequent promotions to sixth degree black belt (Shihan) in January 1968
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - uri: https://en.wikipedia.org/wiki/Mitsugi_Saotome
+    archiveUri: https://en.wikipedia.org/w/index.php?title=Mitsugi_Saotome&oldid=1360641842
+    cite: Mitsugi Saotome - Wikipedia EN
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/en/c/ca/Saotome-sensei.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://en.wikipedia.org/wiki/File:Saotome-sensei.jpg
+    cite: "English Wikipedia"
+    informationType: infotype:secondary
+description:
+  en: Japanese aikido teacher (born 1937), a direct disciple of Morihei Ueshiba and uchi-deshi at the Aikikai Hombu Dojo from 1959 until the Founder's death in 1969. Promoted to 6th dan (Shihan) in 1968, he was Chief Weapons Instructor at Hombu until 1975, when he relocated to Sarasota, Florida, and founded the Aikido Schools of Ueshiba.
+  pt: Professor japonês de aikido (nascido em 1937), discípulo direto de Morihei Ueshiba e uchideshi no Aikikai Hombu Dojo de 1959 até à morte do Fundador em 1969. Promovido a 6º dan (Shihan) em 1968, foi instrutor-chefe de armas no Hombu até 1975, quando se mudou para Sarasota, Flórida, e fundou a Aikido Schools of Ueshiba.
+sameAs:
+  - wd:Q2614365
+tags:
+  - aikido
+  - aikikai
+  - uchi-deshi
+  - japan

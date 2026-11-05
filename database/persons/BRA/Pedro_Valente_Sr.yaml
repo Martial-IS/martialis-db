@@ -1,0 +1,87 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1T8
+name:
+  pt: Pedro Valente Sr.
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+birthEvent:
+  birthDate: '1928-11-21'
+  birthPlace:
+    label: Rio de Janeiro
+    countryCode: eucountry:BRA
+    wikidata: wd:Q8678
+deathEvent:
+  deathDate: '2016-05-28'
+  deathPlace:
+    countryCode: eucountry:BRA
+    wikidata: wd:Q155
+  hasEvidence:
+    - basedOnSource: 01M3M3T743JCCEH7NHJGBDV67A
+      supports: true
+      quotation: Our hero, our mentor, our best friend, our father, has departed to the next stage of his spiritual journey.
+      evidenceType: evidencetype:direct
+      informationType: infotype:primary
+image:
+  contentUrl: https://archive.org/download/pedro_valente_sr/pedro_valente_sr.png
+  imageAttribution:
+    uri: https://valentebrothers.com/our-story/
+    cite: "Valente Brothers"
+hasTeacherAssertion:
+  - id: 01M3YH7N5GRZQCA7P3HCV3ND10
+    teacher: 01KJJAWN28MWKKSN4J02MVY1S5
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: GracieMag interview confirms training with Hélio Gracie starting 1951
+    role: teachrole:student
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD8V
+        interactionPeriod:
+          startYear: 1951
+        hasEvidence:
+          - uri: https://www.graciemag.com/interview-with-red-belt-pedro-valente-sr/
+            cite: Interview with red-belt Pedro Valente Sr. - GracieMag
+            quotation: My father took me to the Gracie Academy in downtown Rio back in the 50's. I was 13 then and started to learn Jiu-Jitsu. Later on I participated at some fights at Maracanãzinho
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GTRXYV5461BSW3Q0J
+    rankStyle: 01KJJAWN29MA64W22606R3WD9J
+    rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+    rankOrdinal: 7
+    rankGrade: rankgrade:bjj_red_black
+    grantedBy: 01KJJAWN28MWKKSN4J02MVY1S5
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: GracieMag interview states Hélio Gracie gave him 7th dan belt
+    hasEvidence:
+      - uri: https://www.graciemag.com/interview-with-red-belt-pedro-valente-sr/
+        cite: Interview with red-belt Pedro Valente Sr. - GracieMag
+        quotation: Helio Gracie himself gave me my black belt, as well as the teacher's degree and the red and black 7th Dan belt
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M3M3T743B5ZDNEHXWY1YXW02
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://www.gresportela.com.br/Noticias/Detalhes/portela-participa-de-homenagem-ao-cirurgiao-e-torcedor-ilustre-pedro-valente
+    cite: Portela pays tribute to Pedro Valente - GRES Portela
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://www.graciemag.com/interview-with-red-belt-pedro-valente-sr/
+    cite: Interview with red-belt Pedro Valente Sr. - GracieMag
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KJJAWN29MA64W22606R3WDA1
+    cite: 'Valente Brothers: Our Story'
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct

@@ -1,0 +1,69 @@
+type: Event
+# Template only: `make schema` substitutes a throwaway ULID for the null `id`
+# below. Every record under database/ carries a real ULID.
+id: null
+name:
+  en: Display Name of the Event
+aka:
+  en: Alternative names, if any
+# One of: eventclass:founding, eventclass:tournament, eventclass:challenge,
+# eventclass:seminar, eventclass:course, eventclass:demonstration,
+# eventclass:grading, eventclass:ceremony, eventclass:recognition,
+# eventclass:exchange, eventclass:other.
+eventType: eventclass:seminar
+# EDTF (ISO 8601-2) date - see database/templates/person.yaml's birthEvent
+# comment for the full syntax. An interval covers a multi-day event or a series
+# ('1886-03/1886-06').
+eventDate: '1950'
+dateOriginal: null
+# dateCalendar: datecal:japanese_nengo  # only when the date is in another calendar
+# Larger event or series this event belongs to (sdo:superEvent), e.g. one
+# edition of a recurring tournament part of the series event.
+superEvent: null
+# The venue: prefer eventPlace when the Place exists in the database, otherwise
+# use location.
+eventPlace: null
+location:
+  label: City
+  countryCode: eucountry:JPN
+  wikidata: null
+# Organizing body/bodies, if any. For an organizing involvement that needs its
+# own role record and evidence, use hasParticipation with participantOrganization and
+# participationRole: eventrole:organizer instead.
+# Style(s) the event is about (e.g. an MMA card is about several styles).
+# People and organizations involved, each with a role from the event-role
+# scheme (eventrole:competitor, eventrole:official, eventrole:organizer,
+# eventrole:demonstrator, eventrole:guest, eventrole:instructor, eventrole:signatory,
+# eventrole:other) and its own evidence. A student of a course or seminar is
+# not a participation: it is a hasTeacherAssertion on the student's record
+# whose interaction names this event in atEvent.
+hasParticipation:
+  - id: 01M3YH91AWM7QA8SV8W2EQ62F2
+    participant: 01KJJAWN28MWKKSN4J02MVY1S1
+    participationRole: eventrole:demonstrator
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      confidenceRationale: null
+    hasEvidence:
+      - uri: https://example.org/participation-evidence
+        cite: Where the participation is documented
+        informationType: infotype:secondary
+        supports: true
+#   - id: <a fresh ULID from `ulid`>
+#     participantOrganization: 01KJJAWN28MWKKSN4J02MVY1S2
+#     participationRole: eventrole:competitor
+#     hasEvidence: []
+website: null
+description:
+  en: Short description of the event.
+# Only events connected to lineage entities belong in the database; general
+# biographical events are out of scope. Competition results (winners, brackets)
+# are deliberately out of scope - record outcomes in description/tags.
+# Research notes: what is known, suspected, or still to be investigated -
+# addressed to a maintainer, not a reader.
+# notes: ...
+hasEvidence:
+  - uri: https://example.org/event-evidence
+    cite: Where the event is documented
+    informationType: infotype:secondary
+    supports: true

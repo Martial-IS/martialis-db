@@ -1,0 +1,178 @@
+type: Person
+id: 01M07J1EESSEPR2TSJWV1FWBG5
+name:
+  en: Edith Garrud
+aka:
+  en:
+  - Edith Margaret Garrud
+  - Edith Margaret Williams
+nationality:
+- countryCode: eucountry:GBR
+  wikidata: wd:Q145
+birthEvent:
+  birthDate: '1872'
+  birthPlace:
+    label: Bath
+    countryCode: eucountry:GBR
+    wikidata: wd:Q22889
+  hasEvidence:
+  - basedOnSource: 01M07HCGJG800WTN7180ZGA0BQ
+    informationType: infotype:secondary
+    supports: true
+    quotation: Edith Margaret Williams was born in 1872 in Bath, Somerset.
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1971'
+  hasEvidence:
+  - basedOnSource: 01M07HCGJG800WTN7180ZGA0BQ
+    informationType: infotype:secondary
+    supports: true
+    quotation: She died in 1971 at the age of 99.
+    evidenceType: evidencetype:direct
+description:
+  en: 'The first British female teacher of jujutsu and one of the first female martial arts instructors
+    in the Western
+
+    world. Born Edith Margaret Williams in Bath, she trained as a physical culture instructor and met
+    fellow instructor
+
+    William Garrud in 1892, marrying him the following year. Introduced to jujutsu in 1899, she studied
+    under Yukio
+
+    Tani and Sadakazu Uyenishi at the Bartitsu School of Arms and continued under Uyenishi at his Golden
+    Square Dojo;
+
+    when Uyenishi returned to Japan in 1908 the Garruds took over the dojo, Edith teaching the women''s
+    and children''s
+
+    classes. Around 1909 she opened her own dojo, the School of Ju-jutsu, at Argyll Place. A member of
+    the Women''s
+
+    Freedom League from 1906 and head of its Women''s Athletic Society from 1908, she became celebrated
+    for the
+
+    Suffragettes'' Self-Defence Club she ran for WSPU members and, from 1913, for training the WSPU ''Bodyguard''
+    of
+
+    around thirty women who protected Emmeline Pankhurst. She taught and demonstrated in a signature red
+    jujutsu
+
+    jacket, published widely on women''s self-defence (including the 1910 essay "The World We Live In"
+    in Votes for
+
+    Women), choreographed suffragette theatre, and continued teaching with William until their retirement
+    in 1925.
+
+    '
+notes: 'Née Edith Margaret Williams. Active at the Bartitsu School of Arms 1899-1902 before Uyenishi''s
+  Golden Square dojo, per Wikipedia. The dojo at Argyll Place was at 9 Argyll Place, Regent Street (Brough
+  2020, citing Callan/Heffernan/Spenn and Wolf & Wolf). She wore a red jujutsu jacket rather than the
+  traditional white to stand out on stage (Wolf & Wolf 2013). From 1911 she hid WSPU members wanted by
+  the police for arson, and from 1911-1913 moved her self-defence club to the Palladium Academy in Argyll
+  Street. Son Owen died in the First World War. Her teacher links rest on the same evidence as William
+  Garrud''s: explicit "studied under/trained under" language in Wikipedia and Callan/Heffernan/Spenn for
+  Uyenishi and Tani; the vaguer "trained with" references to Miyake, Maeda, Koizumi and Ohno are deliberately
+  not asserted as teacher edges (see William Garrud).'
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/8/8c/Edith_Garrud_and_a_Policeman.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Edith_Garrud_and_a_Policeman.jpg
+    cite: "British Press, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+- id: 01M3YH7N5G6Q0E8ZGQ44FV70YN
+  teacher: 01M06K0RMZNWJ90EEQ7CXBFHGS
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9G
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Wikipedia states explicitly that the Garruds trained under the jujutsu instructors
+      Yukio Tani and Sadakazu Uyenishi at the Bartitsu School of Arms and continued under Uyenishi at
+      Golden Square; corroborated by Brough (2020).
+  hasInteraction:
+  - interactionPlace: 01M06FKBQ1K6KP86BRFQR0JB7G
+    interactionPeriod:
+      startYear: 1903
+      endYear: 1908
+    hasEvidence:
+    - basedOnSource: 01M07HCGJG800WTN7180ZGA0BQ
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+      quotation: >-
+        The Garruds trained under the school's jujutsu instructors Yukio Tani and Sadakazu Uyenishi [...] After the Bartitsu school closed in 1902, the Garruds continued training under Uyenishi at his own Golden Square Dojo
+    - basedOnSource: 01M06FKBQ1CNG96GF3Q7N5CGT6
+      informationType: infotype:secondary
+      supports: true
+      quotation: >-
+        While training at the Golden Square Dojo the Garruds trained with the best instructors of the time including Uyenishi, Tani, Taro Miyake, Mitsuyo Maeda, and Akitaro Ohno
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M07HCGJGDPR24S4J0JWFFH68
+      informationType: infotype:secondary
+      supports: true
+      quotation: >-
+        Garrud and her husband William were originally trained by Uyenishi Sadakazu
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GV6XDANZ07F0KAB6Q
+  teacher: 01M06FKBQ1AB6FKXQBFBFKKDRH
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9G
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Wikipedia states the Garruds studied under Uyenishi, initially at the Bartitsu
+      club; Brough (2020) records they were students of Uyenishi and that he passed control of the Golden
+      Square dojo to them on his departure; Callan/Heffernan/Spenn state they were originally trained
+      by Uyenishi Sadakazu.
+  hasInteraction:
+  - interactionPlace: 01M06FKBQ1K6KP86BRFQR0JB7G
+    interactionPeriod:
+      startYear: 1903
+      endYear: 1908
+    hasEvidence:
+    - basedOnSource: 01M07HCGJG800WTN7180ZGA0BQ
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+      quotation: >-
+        The Garruds trained under the school's jujutsu instructors Yukio Tani and Sadakazu Uyenishi [...] After the Bartitsu school closed in 1902, the Garruds continued training under Uyenishi at his own Golden Square Dojo
+    - basedOnSource: 01M06FKBQ1CNG96GF3Q7N5CGT6
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+      quotation: >-
+        Husband and wife, William and Edith Garrud, had been students of Uyenishi, initially at the Bartitsu club, and then at the Golden Square Dojo
+    - basedOnSource: 01M07HCGJGDPR24S4J0JWFFH68
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+      quotation: >-
+        Garrud and her husband William were originally trained by Uyenishi Sadakazu
+hasEvidence:
+- basedOnSource: 01M07HCGJG800WTN7180ZGA0BQ
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M06FKBQ1CNG96GF3Q7N5CGT6
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M07HCGJGDPR24S4J0JWFFH68
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M07HCGJGXD0E7F4NBAK647YY
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q5338615
+- dbr:Edith_Garrud
+tags:
+- jujutsu
+- suffragette
+- physical-culture
+- pioneer
+- united-kingdom

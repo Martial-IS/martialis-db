@@ -1,0 +1,35 @@
+type: Person
+id: 01M6C5JZZGGY4NZW0N2MKFB4AM
+name:
+  en: Neil Yamamoto
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+description:
+  en: >-
+    American aikijujutsu practitioner, a student of Bernie Lau, with whom he appeared on the cover of
+    Black Belt in February 1987.
+hasTeacherAssertion:
+  - id: 01M6C5JZZG1JG9BY4FW4KTYPR8
+    teacher: 01M6C5JZZG6NH7APBTE970T8VD
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C5JZZG2XXX0TYYXNBZM8GB
+            quotation: >-
+              In February 1987, Lau appeared with his student Neil Yamamoto on the cover of Black Belt.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C5JZZG2XXX0TYYXNBZM8GB
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - aikido

@@ -1,0 +1,71 @@
+type: Person
+id: 01KZQ5XKW310NKTT34P8D4WQAS
+name:
+  en: Dave Camarillo
+aka:
+  en:
+  - David Camarillo
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+birthEvent:
+  birthDate: '1977'
+  hasEvidence:
+  - basedOnSource: 01KZQ5XKW3CK2XPAGK0Q4GTDSA
+    quotation: Dave Camarillo born in 1977 and was raised in California, United States of America.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: 'American martial artist and coach, founder of Guerrilla Jiu-Jitsu. A judo and
+
+    Brazilian jiu-jitsu black belt, he became head grappling coach at American
+
+    Kickboxing Academy (AKA) in San Jose in 2003, guiding several prominent MMA fighters.
+
+    '
+hasTeacherAssertion:
+- id: 01M3YH7N5GS6TVFA1CQJ8Y4RBN
+  teacher: 01KZQ5XKW34RHMNCH3AB1ZR596
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: BJJ Heroes, the standard BJJ lineage reference, explicitly records Camarillo's
+      black belt under Ralph Gracie; single secondary source
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZQ5XKW3CK2XPAGK0Q4GTDSA
+      quotation: Dave Camarillo is a Judo and Brazilian Jiu-Jitsu (BJJ) black belt under Ralph Gracie
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GVS8YD0K2K39S1KK9
+  rankStyle: 01KJJAWN29MA64W22606R3WD9J
+  rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+  rankGrade: rankgrade:bjj_black
+  grantedBy: 01KZQ5XKW34RHMNCH3AB1ZR596
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: BJJ Heroes records the black belt promotion from Ralph Gracie; single secondary
+      source, date not stated
+  hasEvidence:
+  - basedOnSource: 01KZQ5XKW3CK2XPAGK0Q4GTDSA
+    quotation: He spent the next 4 years in that division before reaching the black belt from the hands
+      of Ralph Gracie.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZQ5XKW3CK2XPAGK0Q4GTDSA
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- brazilian-jiu-jitsu
+- judo
+- guerrilla-jiu-jitsu
+- coach

@@ -1,0 +1,81 @@
+type: Person
+id: 01M6C18DS7AZS2TNQYDBRBPXKC
+name:
+  en: Masakatsu Funaki
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1969-03-13'
+  hasEvidence:
+    - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+      quotation: 'Born: 3/13/69'
+      locator: '125'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Japanese professional wrestler and mixed martial artist. He founded Pancrase with Minoru Suzuki
+    in 1993 and was its chief trainer, teaching Ken Shamrock and Bas Rutten.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/3/3f/Masakatsu_Funaki.jpg
+  rights: mediarights:cc-by-2.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Masakatsu_Funaki.jpg
+    cite: "Harry Li, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+  - id: 01M6C18DS7TSERSA5Y1A11NR2W
+    teacher: 01M6C18DS7KATP6HKGR2XNGXG5
+    assertedStyle: 01KYEWRMWERM1HW12W53HE9G4A
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              Trained by Yoshiaki Fujiwara and Karl Gotch, Funaki was the best and most technically proficient of the Pancrase fighters.
+            locator: '126'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M6C18DS73JHA1HNMRJ9HGNJT
+    teacher: 01KYDPMZ5JJKGQ5DDGFGM8FBJN
+    assertedStyle: 01KYEWRMWERM1HW12W53HE9G4A
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              Trained by Yoshiaki Fujiwara and Karl Gotch, Funaki was the best and most technically proficient of the Pancrase fighters.
+            locator: '126'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+    quotation: >-
+      Funaki and Suzuki, after a pit stop in a uwf-style promotion led by Fujiwara, formed the first
+      mma promotion in Japan, called Pancrase, in 1993.
+    locator: '358'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q2080446
+tags:
+  - catch-wrestling
+  - mma
+  - pancrase

@@ -1,0 +1,100 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD7T
+name:
+  ru: Sergei Dashkevich
+nationality:
+- countryCode: eucountry:RUS
+  wikidata: wd:Q159
+- countryCode: eucountry:SUN
+  wikidata: wd:Q15180
+birthEvent:
+  birthDate: '1896-10-18'
+  birthPlace:
+    label: Petrodvorets
+    countryCode: eucountry:RUS
+    wikidata: wd:Q178310
+deathEvent:
+  deathDate: '1955-03-17'
+  deathPlace:
+    label: Leningrad
+    countryCode: eucountry:SUN
+    wikidata: wd:Q656
+image:
+  contentUrl: https://archive.org/download/dashkevich/dashkevich.png
+  imageAttribution:
+    uri: https://judo.ru/news/9889
+    cite: "Федерация дзюдо России"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+- id: 01M3YH7N5GY26YPKHQED9Q97KF
+  teacher: 01KJJAWN29MA64W22606R3WD7S
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Studied judo under Vasili Oshchepkov in 1931 at instructor courses for factory
+      and university collectives in Moscow, as documented in Judo.ru article
+  role: teachrole:student
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1931
+    hasEvidence:
+    - uri: https://judo.ru/news/9889
+      cite: Judo.ru article - Dashkevich biography
+      quotation: В 1931 году прошёл обучение в Москве у родоначальника отечественного дзюдо Василия Сергеевича
+        Ощепкова на курсах преподавателей дзюдо для низовых заводских и вузовских коллективов
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5G7VJJAXYWDE67XES9
+  teacher: 01KJJAWN29MA64W22606R3WD7S
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9H
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Studied SAMBO under Vasili Oshchepkov in 1931 and later taught SAMBO classes
+      where Anatoliy Rakhlin was his student from 1952, as documented in Judo.ru and TurboJudo articles
+  role: teachrole:student
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1931
+    hasEvidence:
+    - uri: https://judo.ru/news/9889
+      cite: Judo.ru article - Dashkevich biography
+      quotation: В 1931 году прошёл обучение в Москве у родоначальника отечественного дзюдо Василия Сергеевича
+        Ощепкова на курсах преподавателей дзюдо для низовых заводских и вузовских коллективов
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://turbojudo.spb.ru/news/v-den-125letiya-so-dnya-rozhdeniya-osnovopolozhnika-leningradskogo-dzyudo-sergeya-dashkevicha-sostoyalos-pamyatnoe-meropriyatie
+      cite: TurboJudo article - 125th anniversary event
+      quotation: Вёл занятия в группе самбо, где его воспитанником с 1952 года был Анатолий Рахлин.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- uri: https://judo.ru/news/9889
+  cite: Judo.ru article - Dashkevich biography
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://turbojudo.spb.ru/news/v-den-125letiya-so-dnya-rozhdeniya-osnovopolozhnika-leningradskogo-dzyudo-sergeya-dashkevicha-sostoyalos-pamyatnoe-meropriyatie
+  cite: TurboJudo article - 125th anniversary event
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+description:
+  en: Soviet judo and SAMBO practitioner, student of Vasili Oshchepkov, teacher of Anatoliy Rakhlin
+  ru: Советский мастер дзюдо и самбо, ученик Василия Ощепкова, учитель Анатолия Рахлина
+notes: 'Sergei Dashkevich (1896-1955) was a Soviet judo and SAMBO practitioner.
+
+  He studied under Vasili Oshchepkov in 1931 at instructor courses for factory and university collectives
+  in Moscow.
+
+  He taught SAMBO classes in Leningrad, where Anatoliy Rakhlin was his student from 1952.
+
+  Dashkevich played a role in the development of judo and SAMBO in the Leningrad region.
+
+  He is considered one of the founders of Leningrad judo.
+
+  '

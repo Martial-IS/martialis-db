@@ -1,0 +1,44 @@
+type: Person
+id: 01KZ6QKPB7V8E4K6FEHGMFYAT3
+name:
+  fr: Jean Visconti
+nationality:
+- countryCode: eucountry:FRA
+  wikidata: wd:Q142
+hasTeacherAssertion:
+- id: 01M3YH7N5G2QW0FHE2GPFGJ5YB
+  teacher: 01M6C5JZZG5YXV79WXGWDM87DF
+  hasConfidence:
+    confidenceLevel: conflevel:possible
+    assessedBy: agent:FSM
+    confidenceRationale: Obellianne's interview describes Jean Visconti as a karate practitioner with
+      master 'Arada Harada' (likely the shotokai master Mitsusuke Harada, then in London); the identification
+      and the relationship are tentative.
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KZ6QKPB7XV7VR5F4AATW2XEC
+      quotation: J'ai donc créé un club, le Bu Iku Kan avec un ami qui pratiquait le karaté avec maître
+        Arada Harada, qui était à Londres, à l'époque. C'était du karaté do shotokaï, je crois. Il s'appelait
+        Jean Visconti.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZ6QKPB7XV7VR5F4AATW2XEC
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+description:
+  en: Shotokai karate practitioner, student of Mitsusuke Harada (then based in London), who co-founded
+    the Bu Iku Kan aikido/karate club in central Casablanca with Gérard Obellianne.
+  pt: Praticante de karaté shotokaï, aluno de Mitsusuke Harada (então baseado em Londres), que co-fundou
+    o clube Bu Iku Kan no centro de Casablanca com Gérard Obellianne.
+notes: The interview spells the teacher's name 'Arada Harada'; this is almost certainly Mitsusuke Harada,
+  the shotokai master who moved from Brazil to England in the 1960s. Obellianne describes the club's karate
+  as 'shotokaï'.
+tags:
+- karate
+- shotokai
+- morocco
+- france

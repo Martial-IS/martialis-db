@@ -1,0 +1,67 @@
+type: Style
+id: 01M5JVVMHMHTEC6BVTPJNEEJWW
+name:
+  en: Greco-Roman wrestling
+aka:
+  en:
+    - lutte à mains plates
+    - French wrestling
+styleType: styleclass:modern
+hasStyleRelationAssertion:
+  - id: 01M5JVVMHMW81FR9VFKPTQY91D
+    relatedStyle: 01KYJ39BQPQ7JTTDQ3B36PZQQN
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Under FILA, international freestyle and Greco-Roman wrestling became the standard for World
+          Championships and the Olympics.
+        locator: '472'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JVVMHM1BK4D47SHCS4CB35
+        quotation: >-
+          It presides over international competitions for various forms of wrestling, including
+          Greco-Roman, freestyle, grappling, and others.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Olympic wrestling style in which all holds are above the waist and tripping is barred. Despite its
+    name it grew from a French folk style, the lutte à mains plates, and became, with freestyle, the
+    standard for the Olympics and World Championships under the IAWF/FILA from 1921.
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Instead, it is a form of French folk-style wrestling originally called in the Provençal language
+      lucho de la centuro en aut (wrestling above the waist) or, later in French, la lutte à mains plates
+      (open-hand wrestling).
+    locator: '472'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5JVVMHMSP5NAEZ6K6GDT9VT
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q389654
+tags:
+  - wrestling
+  - grappling
+  - olympic
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/e/e6/Keith_Sieracki_and_Jason_Nichols_at_the_2004_Armed_Forces_Wrestling_Championships.jpg
+    rights: mediarights:public_domain_mark
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:Keith_Sieracki_and_Jason_Nichols_at_the_2004_Armed_Forces_Wrestling_Championships.jpg
+      cite: "Tim Hipps, Wikimedia Commons"
+      informationType: infotype:secondary

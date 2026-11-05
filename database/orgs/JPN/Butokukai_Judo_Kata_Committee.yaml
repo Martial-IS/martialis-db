@@ -1,0 +1,110 @@
+type: Organization
+id: 01M5H542JFKTXTXRK23PH8RHFF
+name:
+  en: Dai-Nippon Butokukai Judo Kata Committee
+orgType: orgclass:committee
+foundedEvent:
+  startDate: '1906'
+  hasEvidence:
+    - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+      quotation: >-
+        In 1906, when I was finalizing the compilation of Katame no Kata and Kime no Kata, I received
+        advice and co-operation from a number of jujutsu masters. They were all members of the Dai
+        Nippon Butokukai
+      locator: '79'
+      locatorLabel: page
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Committee of jujutsu masters of the Dai Nippon Butokukai that, with Kanō Jigorō, settled the judo
+    kata (Nage no Kata, Katame no Kata, Kime no Kata) the Butokukai sanctioned for use nationwide in 1906.
+hasAffiliationAssertion:
+  - id: 01M5H542JFRQP6QFMBHHXJ47PB
+    relatedOrganization: 01KJJAWN29MA64W22606R3WD7Y
+    affiliationRelation: affrel:branch_of
+    validDuring:
+      startYear: 1906
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Kano's own account only.
+    hasEvidence:
+      - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+        quotation: >-
+          These judo katas were, upon the approval of a committee of jujutsu masters, finally
+          sanctioned by the Butokukai for use nationwide.
+        locator: '80'
+        locatorLabel: page
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M5H542JFAKWRCV8K3ZQ0A5Z1
+    officer: 01KJJAWN28MWKKSN4J02MVY1S1
+    officerTitle: Co-head
+    officerPeriod:
+      startYear: 1906
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Kano's own account only.
+    hasEvidence:
+      - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+        quotation: >-
+          The committee of jujutsu teachers, headed by Totsuka, Hoshino and I, finalized the eight
+          seated and twelve standing techniques for Kime no Kata.
+        locator: '80'
+        locatorLabel: page
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5H542JFP6DX2C3EPDJHB3YR
+    officer: 01M5H542JFMSRWHNK5P636E9BM
+    officerTitle: Co-head
+    officerPeriod:
+      startYear: 1906
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Kano's own account only.
+    hasEvidence:
+      - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+        quotation: >-
+          The committee of jujutsu teachers, headed by Totsuka, Hoshino and I, finalized the eight
+          seated and twelve standing techniques for Kime no Kata.
+        locator: '80'
+        locatorLabel: page
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5H542JFNJHTKSG93RZFT29K
+    officer: 01M5H542JF8NWX7M009NXXAEH7
+    officerTitle: Co-head
+    officerPeriod:
+      startYear: 1906
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Kano's own account only.
+    hasEvidence:
+      - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+        quotation: >-
+          The committee of jujutsu teachers, headed by Totsuka, Hoshino and I, finalized the eight
+          seated and twelve standing techniques for Kime no Kata.
+        locator: '80'
+        locatorLabel: page
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+    locator: 79-80
+    locatorLabel: page
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - jujutsu

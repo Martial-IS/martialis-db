@@ -1,0 +1,125 @@
+type: Person
+id: 01M0TT32BHEP6PVQB8YQEXMXFP
+name:
+  en: Pat Morita
+aka:
+  en:
+  - Noriyuki Morita
+  - Noriyuki "Pat" Morita
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+birthEvent:
+  birthDate: '1932-06-28'
+  birthPlace:
+    label: Isleton
+    countryCode: eucountry:USA
+    wikidata: wd:Q933024
+  hasEvidence:
+  - basedOnSource: 01M0TT32BHYAA0FZVJ1RPX86WJ
+    quotation: >-
+      Noriyuki "Pat" Morita (June 28, 1932 – November 24, 2005)
+    cite: Pat Morita (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2005-11-24'
+  deathPlace:
+    label: Las Vegas
+    countryCode: eucountry:USA
+    wikidata: wd:Q23768
+  hasEvidence:
+  - basedOnSource: 01M0TT32BHYAA0FZVJ1RPX86WJ
+    quotation: >-
+      Noriyuki "Pat" Morita (June 28, 1932 – November 24, 2005)
+    cite: Pat Morita (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: American actor and comedian, known for Arnold on Happy Days and Oscar-nominated as karate mentor
+    Mr. Miyagi in The Karate Kid (1984) and its sequels. He had no martial arts experience before the
+    films; for the first production he was trained in Goju-ryu karate alongside Ralph Macchio by fight
+    coordinator Pat E. Johnson, while Fumio Demura - one of the inspirations for the Miyagi character
+    - doubled his fight scenes.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/6/6b/Pat_Morita_1971_publicity_photo_%284x5_cropped%29.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Pat_Morita_1971_publicity_photo_(4x5_cropped).jpg
+    cite: "George E. Marienthal Enterprises, Wikimedia Commons"
+    informationType: infotype:secondary
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M3YH7N5G489WA0KEMXRY2G86
+  teacher: 01M0TFB9H0HC3R48RJTFV77PCN
+  assertedStyle: 01KZC8S2GEGBJJT9RKV5M0HJ3N
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Two independent secondary accounts agree that Johnson trained the lead cast in goju-ryu karate for
+      the film, but no firsthand statement from Morita himself was located, so Probable rather than
+      Confirmed.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1984
+      endYear: 1984
+    hasEvidence:
+    - basedOnSource: 01M0TFB9H0282Q7MTM1KKTHNZY
+      quotation: >-
+        For The Karate Kid (1984), Johnson told Sports Illustrated in 2018 that he trained actors Pat Morita and Ralph Macchio "separately, really hard.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M0TT32BH85XYXW7NWNM2TG3Y
+      quotation: In those lessons, Pat Morita and Ralph Macchio were taught goju-ryu style, Okinawan classic
+        karate.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasHonorAssertion:
+- id: 01M3YH7N5GPP8YZF0SKNEEEZJZ
+  honorValue: Martial Arts History Museum Hall of Fame
+  honorType: honortype:other
+  dateConferred: '2015'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Reported by English Wikipedia and echoed across aggregator sites; no independent corroboration was
+      found.
+  hasEvidence:
+  - basedOnSource: 01M0TT32BHYAA0FZVJ1RPX86WJ
+    quotation: In 2015, Morita was inducted into the Martial Arts History Museum Hall of Fame.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+notes: Fumio Demura was Morita's stunt double on the Karate Kid films and an inspiration for the Miyagi
+  character (already recorded in Demura's database entry) - deliberately no teachers edge to Demura, as
+  no source describes him teaching Morita. Nationality recorded as USA only; Wikidata additionally lists
+  Japan, but no concrete evidence of dual citizenship was found.
+hasEvidence:
+- basedOnSource: 01M0TT32BHYAA0FZVJ1RPX86WJ
+  cite: Pat Morita (Wikipedia EN)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0TFB9H0282Q7MTM1KKTHNZY
+  cite: Pat E. Johnson, 'Karate Kid' Choreographer, Trainer and Referee, Dies at 84 (Hollywood Reporter)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0TT32BH85XYXW7NWNM2TG3Y
+  cite: Did Pat Morita Learn Martial Arts to Play Mr. Miyagi in The Karate Kid? (MovieWeb)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q298799
+tags:
+- karate-kid
+- goju-ryu
+- actor

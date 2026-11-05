@@ -1,0 +1,73 @@
+type: Person
+id: 01M6BQSYG62DDVKJEK49E83Y2K
+name:
+  en: Yoon Byung-in
+  ko: 윤병인
+aka:
+  en:
+    - Yun Pyŏng In
+    - Yun Byung In
+birthEvent:
+  birthDate: '1919'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Founders included Shudokan karate practitioner Yun Byung In (1919–?).
+      locator: '200'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Korean karate teacher, founder in 1946 of the YMCA Kwŏnbŏp Bu, later the Chang Moo Kwan, one of the
+    five original kwan of taekwondo. As a child in Manchuria he learned quanfa from a Mongolian instructor;
+    in Japan he studied Shurite karate under Tōyama Kanken at the Shūdōkan. He disappeared in 1951 during
+    the Korean War.
+notes: >-
+  The quanfa teacher is not named, so no teacher claim. Wikidata (Q3572556) gives 1920–1983; Green &
+  Svinth give 1919 and say he was living in North Korea as of 1995. Dates other than the G&S birth year
+  left out.
+hasTeacherAssertion:
+  - id: 01M6BQSYG6ZEWK7G6SHYK5TBME
+    teacher: 01M1KSJ12QF7MHXYFK8GNKJKFR
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9F
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One academic history names Tōyama; a second source names the school only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+            quotation: >-
+              had learned quanfa from a Mongolian instructor as a child in Manchuria and went later to Japan
+              and studied Shurite karate at the Shūdōkan under Tōyama.
+            locator: '53'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Founders included Shudokan karate practitioner Yun Byung In (1919–?).
+            locator: '200'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+    quotation: >-
+      After returning to Korea, Yun founded in 1946 his school, but disappeared in 1951 during the Korean War
+    locator: '53'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3572556
+tags:
+  - taekwondo
+  - karate
+  - kwan-founder

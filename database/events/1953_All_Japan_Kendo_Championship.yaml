@@ -1,0 +1,38 @@
+type: Event
+id: 01M37J0JPX0FETXMF7589EVYRA
+name:
+  en: First All Japan Kendo Championship (1953)
+  ja: 第1回全日本剣道選手権大会
+eventType: eventclass:tournament
+eventDate: '1953-11-08'
+location:
+  label: Nagoya
+  countryCode: eucountry:JPN
+  wikidata: wd:Q11751
+about:
+  - 01KYHNJKQDTEJ1A5MQ5JYPHDTB
+hasParticipation:
+  - id: 01M3YH7N5F90BQSNY7JHDTD0S6
+    participant: 01M37J0JPXCNWW17Q73ZA2TAPC
+    participationRole: eventrole:competitor
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Bennett's figure caption names him as the winner, with his prefecture and the date.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: Sakakibara Tadashi (middle) from Aichi Prefecture, winner of the first All Japan Kendo Championship title on November 8, 1953.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: First All Japan Kendo Championship, contested in Nagoya the year after the All Japan Kendo Federation was founded, and won by Sakakibara Tadashi of Aichi Prefecture.
+hasEvidence:
+  - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+    quotation: The first All Japan Kendo Championship was contested in Nagoya the following year
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - kendo
+  - ajkf

@@ -1,0 +1,47 @@
+type: Person
+id: 01M5JTMYPE2BCFZQCTX7XSHGMB
+name:
+  en: Peregrine Bertie, 13th Baron Willoughby de Eresby
+aka:
+  en:
+    - Lord Peregrine Willoughby
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+description:
+  en: >-
+    English nobleman and soldier, a student of the Italian rapier master Rocco Bonetti in London.
+hasTeacherAssertion:
+  - id: 01M5JTMYPESMM2T7EXFCZDV47J
+    teacher: 01M5JTMYPEZBXV9VNZGSHZNMTK
+    assertedStyle: 01M5JSGG509Z4J4P08MWKM16ZW
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JTMYPENHER1RCARFPQMHQD
+            quotation: >-
+              His students included notable figures such as Lord Peregrin Willoughby, Sir Walter Raleigh
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JTMYPENHER1RCARFPQMHQD
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q3459641
+tags:
+  - fencing
+  - italian-school
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/4/43/Peregrine_Bertie%2C_13th_Baron_Willoughby_de_Eresby%2C_oil_painting.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Peregrine_Bertie,_13th_Baron_Willoughby_de_Eresby,_oil_painting.jpg
+    cite: "Robert Peake the elder, Wikimedia Commons"
+    informationType: infotype:secondary

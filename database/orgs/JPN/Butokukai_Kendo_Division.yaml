@@ -1,0 +1,78 @@
+type: Organization
+id: 01M37BZMQ9GHRY2EAP1ARQX3RZ
+name:
+  en: Dai Nippon Butokukai Kendo Division
+orgType: orgclass:committee
+hasSite:
+  - location:
+      label: Kyoto
+      countryCode: eucountry:JPN
+      wikidata: wd:Q34600
+hasAffiliationAssertion:
+  - id: 01M3YH7N5F417ZTC1BNS9V58KK
+    relatedOrganization: 01KJJAWN29MA64W22606R3WD7Y
+    affiliationRelation: affrel:branch_of
+    validDuring:
+      endYear: 1946
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Bennett describes it as a standing division of the Butokukai with its own president, distinct from the Butokukai's own overall leadership; the 1946 end is the Butokukai's own dissolution.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: Kimura was the president of the Butokukai's Kendo Division when Japan lost the war.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M4R9845W0JNW26G633BN4JXM
+    officer: 01M3788RSR2PQ6HNEMVASVG2VC
+    officerTitle: President
+    officerPeriod:
+      startYear: 1942
+      endYear: 1945
+    notes: 1945 is inferred from Japan's surrender ("when Japan lost the war"), not stated as a year in the quotation itself.
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One authored history.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: eventually appointed president of the Kendo Division of the Dai-Nippon Butokukai in 1942 and vice president of the Dai-Nippon Kendōkai, which was formed in 1943
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: Kimura was the president of the Butokukai's Kendo Division when Japan lost the war.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M4R9845WWFVWDB3QC01VH54S
+    officer: 01KZ6XT5DSD1RN1NG4PJKJWXAH
+    officerTitle: Head
+    officerPeriod:
+      startYear: 1946
+      endYear: 1946
+    notes: Appointed in the Butokukai's final months, before the September 1946 decision to disband. The end year is the Butokukai's own dissolution, not stated in the quotation itself.
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One authored history.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: Nakayama Hakudō was appointed as head of the kendo division in early 1946
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: The Dai Nippon Butokukai's standing kendo division, with its own president. Kimura Tokutarō led it from 1942 until Japan's 1945 surrender, and Nakayama Hakudō briefly headed it in early 1946, months before the Butokukai's dissolution.
+hasEvidence:
+  - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+    quotation: Kimura was the president of the Butokukai's Kendo Division when Japan lost the war.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - kendo
+  - butokukai

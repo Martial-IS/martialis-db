@@ -1,0 +1,59 @@
+type: Person
+id: 01M6C5JZZG6NH7APBTE970T8VD
+name:
+  en: Bernie Lau
+aka:
+  en:
+    - Bernard M. Lau
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+description:
+  en: >-
+    American aikido teacher and Seattle police detective, from Hilo. He trained under Koichi Tohei
+    from 1955, started the first yudansha-led aikido club in Seattle in 1968, and later developed
+    aikido-based police defensive tactics.
+hasTeacherAssertion:
+  - id: 01M6C5JZZGDTVEMSR1Z1D9SESX
+    teacher: 01KZSRDXQW9QBDT9VR9P08RBYT
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Two articles, not independent of each other.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1955
+        hasEvidence:
+          - basedOnSource: 01M6C5JZZG2XXX0TYYXNBZM8GB
+            quotation: >-
+              In 1955, at the age of 14, Bernie Lau began training in aikido under Koichi Tohei.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6C5JZZG2XXX0TYYXNBZM8GB
+            quotation: >-
+              "Big Island Aiki Kai. Certificate of Rating in Aikido. Bernard M. Lau is Hereby Promoted to
+              the Rank of 3 Kyu for his Diligence and Advancement shown in Mastering the Skill in the
+              Japanese Art of Aikido. Issued June 25, 1958. Big Island Aiki Kai, Koichi Tohei, 8 Rank."
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6C5JZZGGKZVG5VVNGV0F0HD
+            quotation: >-
+              There were a couple European American youths, too, including Bernie Lau, who started an
+              aikido club in Seattle in 1968.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C5JZZG2XXX0TYYXNBZM8GB
+    quotation: >-
+      This made him the first yudansha to teach aikido in Seattle.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - aikido
+  - seattle

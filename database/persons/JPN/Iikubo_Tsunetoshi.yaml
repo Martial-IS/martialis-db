@@ -1,0 +1,54 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD65
+name:
+  ja-Latn: Iikubo Tsunetoshi
+  ja: 飯久保鍬吉恒年先生
+aka:
+  ja-Latn: Iikubo Kōnen
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1835'
+deathEvent:
+  deathDate: '1889'
+hasTeacherAssertion:
+- id: 01M3YH7N5GWGR1STYX77MZAW1T
+  teacher: 01KJJAWN29MA64W22606R3WD6G
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9P
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: JA Wikipedia's Kitō-ryū article lists Iikubo among Takenaka Tetsunosuke's students;
+      Wikipedia only
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KJJAWN29MA64W22606R3WDAN
+      quotation: 竹中鉄之助の門人には、飯久保恒年、信太歌之助（青柳熊吉）、安藤健二郎、秋野庸彦などがいた
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KJJAWN29MA64W22606R3WDAN
+  cite: 起倒流 - Wikipedia
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://doi.org/10.18002/rama.v9i2.1162
+  cite: De Crée, C. (2014). Nanatsu-no-kata, Endō-no-kata, and Jōge-no-kata ―A pedagogical and qualitative
+    biomechanical evaluation of Hirano Tokio's kuzushi (unbalancing) concept as part of skill acquisition
+    for throwing techniques in Kōdōkan jūdō. Revista de Artes Marciales Asiáticas, 9(2), 69.
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://books.google.pt/books/about/Judo_Memoirs_of_Jigoro_Kano.html?id=DT8rLOzndekC
+  cite: WATSON, Brian N. Judo memoirs of Jigoro Kano. Trafford Publishing, 2008.
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://www.cismeurope.org/history-judo/
+  cite: History Judo - CISM EUROPE
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct

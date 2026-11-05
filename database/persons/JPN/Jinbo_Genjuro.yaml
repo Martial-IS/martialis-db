@@ -1,0 +1,64 @@
+type: Person
+id: 01KY2WPK79YEDVEADTKZGXGZRT
+name:
+  ja-Latn: Jinbo Genjūrō
+  ja: 神保源十郎
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1829-12-18'
+  birthPlace:
+    label: Ikehata, Maebashi, Gunma Prefecture
+    countryCode: eucountry:JPN
+    wikidata: wd:Q201613
+  hasEvidence:
+  - basedOnSource: 01KY2WPK79Y05EGBTA8PYRN4FS
+    informationType: infotype:secondary
+    supports: true
+    quotation: 1829年12月18日（文政12年11月23日）に上野国の池端村に生まれる。
+    evidenceType: evidencetype:direct
+description:
+  en: Japanese jujutsuka of Tenjin Shinyo-ryu. Studied under Sakurai Kunzō and then Iso Masatari Mataemon,
+    founder of the school. Established his own dojo in 1849, gained fame after defeating Hashimoto Dōryūsai
+    in 1861. Had approximately 2000 students.
+hasTeacherAssertion:
+- id: 01M3YH7N5GVVB6AR3Z0RJP30XY
+  teacher: 01KY2WPK79SY50QWKSXWZ91NPF
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9Q
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Documented in Japanese Wikipedia article
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1843
+    hasEvidence:
+    - basedOnSource: 01KY2WPK79Y05EGBTA8PYRN4FS
+      informationType: infotype:secondary
+      supports: true
+      quotation: 1843年（天保14年）十五歳で青梨子村（現在の青梨子町）の桜井邦造源儀信から天神真楊流を数年学ぶ。
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GR1MW0QF2YRMF7QKP
+  teacher: 01KJJAWN28MWKKSN4J02MVY1TY
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9Q
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Documented in Japanese Wikipedia article
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01KY2WPK79Y05EGBTA8PYRN4FS
+      informationType: infotype:secondary
+      supports: true
+      quotation: 桜井邦造の師である天神真楊流の祖磯又右衛門に入門し五年間修業した
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KY2WPK79Y05EGBTA8PYRN4FS
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q119930254

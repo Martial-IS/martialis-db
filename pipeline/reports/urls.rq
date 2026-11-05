@@ -1,0 +1,8 @@
+# Every HTTP(S) URL the export references, as the input list for lychee.
+# Deliberately not "every IRI in data.ttl" - that would also try each
+# ontology, vocabulary and entity namespace IRI (~36k of them).
+PREFIX schema: <https://schema.org/>
+SELECT DISTINCT ?url WHERE {
+  { ?s schema:url ?url } UNION { ?s schema:contentUrl ?url }
+  FILTER(STRSTARTS(STR(?url), "http://") || STRSTARTS(STR(?url), "https://"))
+} ORDER BY ?url

@@ -1,0 +1,76 @@
+type: Place
+id: 006G01NTX69KM1Y9K5D9DFKTVG
+name:
+  en: Shudokan Judo Club
+  fr: Club de judo Shudokan
+aka:
+  fr: Shudokan
+placeType: placeclass:club
+hasSite:
+  - location:
+      label: Toulouse
+      countryCode: eucountry:FRA
+      wikidata: wd:Q7880
+hasAffiliationAssertion:
+  - id: 01M3YH7N5GJNHASXZAZKFK56RC
+    relatedOrganization: 01M325EAQG4P41V98G5PZWNJ4F
+    affiliationRelation: affrel:member_of
+    validDuring:
+      startYear: 1947
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Michel Brousse's history of judo in the south-west states that the club's affiliation to the Budokwai dates from 1947, when Pierre Landetcheberry directed it technically (the club was then still named Olympo-Judo-Club). It gives the start only, so the period is left open; a single source, hence probable.
+    hasEvidence:
+      - basedOnSource: 006G01NTX6FM1AF22NQ5YJXGB0
+        quotation: L'affiliation au Budokwai date de 1947 quand Pierre Landetcheberry assurait la direction technique de l'Olympo-Judo-Club.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M4R9845WWJ4ZBMPD0JN3S702
+    instructor: 01KZXH2NSQMBZTRPPYAKKCFR84
+    instructorCapacity: instrcap:technical_director
+    instructorStyle: 01KJJAWN29MA64W22606R3WD9B
+    instructorPeriod:
+      startYear: 1951
+      endYear: 1953
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The FFJ obituary and an independent regional history agree.
+    hasEvidence:
+      - basedOnSource: 006G01NTX6KVVJGZRYYMM8GAFV
+        quotation: C'est en 1951, au cours d'une campagne visant la promotion du Judo Kodokan en Europe, qu'Ichiro Abe s'établit à Toulouse en France. Il a 29 ans, il est conseiller technique au Shudokan de Robert Lasserre et il est 6ème dan !
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 006G01NTX6FM1AF22NQ5YJXGB0
+        quotation: Sur la base du mécénat, ils créent des bourses d'études et font venir de nombreux étudiants japonais. Parmi ceux-ci, en novembre 1951, arriva à Toulouse Abe Ichiro, le premier envoyé officiel du Kodokan en Europe. [...] A l'expiration de sa bourse, Abe quitta Toulouse pour Bruxelles
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  hasEvidence:
+    - basedOnSource: 006G01NTX6FM1AF22NQ5YJXGB0
+      quotation: L'affiliation au Budokwai date de 1947 quand Pierre Landetcheberry assurait la direction technique de l'Olympo-Judo-Club. [...] C'est au départ de Landetcheberry que Georges Lasserre assura la direction technique et renomma le club en Shudokan.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: A Toulouse judo club that became the cradle of the Kodokan school of French judo. It was founded as the Olympo-Judo-Club, affiliated to the Budokwai of London in 1947 while Pierre Landetcheberry directed it technically; when Landetcheberry left, Georges Lasserre took over the technical direction and renamed the club Shudokan. Georges and Robert Lasserre funded study bursaries that brought Japanese judoka to Toulouse, notably Ichiro Abe, the first official envoy of the Kodokan in Europe, who arrived in November 1951 and served as technical advisor until his departure for Brussels in 1953. The club and the French professors trained under Abe there - Pierre Roussel, Jacques Belaud, Luc Levannier, Guy Pelletier - formed the core of the Kodokan-tendance opposed to the Kawaishi method, which founded the Union Fédérale des Amateurs du Judo Kodokan in October 1954.
+  fr: Un club de judo toulousain devenu le berceau de l'école Kodokan du judo français. Fondé sous le nom d'Olympo-Judo-Club, il fut affilié au Budokwai de Londres en 1947 sous la direction technique de Pierre Landetcheberry ; au départ de celui-ci, Georges Lasserre prit la direction technique et rebaptisa le club Shudokan. Georges et Robert Lasserre créèrent des bourses d'études qui firent venir des judoka japonais à Toulouse, notamment Ichiro Abe, premier envoyé officiel du Kodokan en Europe, arrivé en novembre 1951 et conseiller technique du club jusqu'à son départ pour Bruxelles en 1953. Le club et les professeurs français formés sous Abe - Pierre Roussel, Jacques Belaud, Luc Levannier, Guy Pelletier - constituèrent le noyau de la tendance Kodokan opposée à la méthode Kawaishi, à l'origine de l'Union Fédérale des Amateurs du Judo Kodokan en octobre 1954.
+hasEvidence:
+  - basedOnSource: 006G01NTX6FM1AF22NQ5YJXGB0
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 006G01NTX6KVVJGZRYYMM8GAFV
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - france
+  - toulouse

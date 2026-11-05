@@ -1,0 +1,91 @@
+type: Person
+id: 01M5JSGG50MP45RVA48EAZZKRB
+name:
+  en: Christian IV of Denmark
+nationality:
+  - countryCode: eucountry:DNK
+    wikidata: wd:Q35
+birthEvent:
+  birthDate: '1577'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        The roster of his princely pupils included John Adolf (1575–1616, Lutheran Archbishop of Bremen,
+        1589–1596, and Duke of Holstein-Gottorp, 1590–1616) and Christian IV, King of Denmark (1577–1648)
+      locator: '252'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1648'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        The roster of his princely pupils included John Adolf (1575–1616, Lutheran Archbishop of Bremen,
+        1589–1596, and Duke of Holstein-Gottorp, 1590–1616) and Christian IV, King of Denmark (1577–1648)
+      locator: '252'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    King of Denmark, who employed Salvator Fabris as fencing master at his court
+    from 1601 to 1606 and funded the printing of his treatise.
+hasTeacherAssertion:
+  - id: 01M5JSGG50HJCMXAZY7SMNZRTQ
+    teacher: 01M5JSGG50F450X1DNSYHTR26M
+    assertedStyle: 01M5JSGG509Z4J4P08MWKM16ZW
+    role: teachrole:private
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1601
+          endYear: 1606
+        hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              The roster of his princely pupils included John Adolf (1575–1616, Lutheran Archbishop of
+              Bremen, 1589–1596, and Duke of Holstein-Gottorp, 1590–1616) and Christian IV, King of
+              Denmark (1577–1648)
+            locator: '252'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JSGG504P4VYRZ6KFW9P3MJ
+            quotation: >-
+              During his life he taught in various European countries, most notably in Denmark where he
+              was the fencing instructor of King Christian IV.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JSGG5064MNG2985B290TNW
+            quotation: >-
+              In 1601, Fabris was hired as chief rapier instructor to the court of Christianus Ⅳ, King of
+              Denmark and Duke Johan Frederik's cousin.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q153586
+tags:
+  - fencing
+  - italian-school
+  - denmark
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/1/1d/Christian_4_som_gammel.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Christian_4_som_gammel.jpg
+    cite: "Karel van Mander III, Wikimedia Commons"
+    informationType: infotype:secondary

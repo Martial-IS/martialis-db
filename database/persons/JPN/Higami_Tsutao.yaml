@@ -1,0 +1,89 @@
+type: Person
+id: 01M6C5JZZGF497JRQVEXBY4CAZ
+name:
+  en: Tsutao Higami
+aka:
+  en:
+    - Rubberman Higami
+    - Tetsuro Higami
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1896-11-23'
+  birthPlace:
+    label: Okayama Prefecture
+  hasEvidence:
+    - basedOnSource: 01M6C5JZZGFC3JVM9PPSCR85EX
+      quotation: Tsutao Higami was born in Okayama Prefecture on November 23, 1896.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1972-05'
+  deathPlace:
+    label: Honolulu
+    countryCode: eucountry:USA
+    wikidata: wd:Q18094
+  hasEvidence:
+    - basedOnSource: 01M6C5JZZGFC3JVM9PPSCR85EX
+      quotation: Higami died in Honolulu in May 1972.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Japanese judoka and professional wrestler, known as "Rubberman". He studied judo in Los Angeles
+    under Tokugoro Ito and Taro Miyake, wrestled across North America, and after World War II taught
+    judo to schoolboys in Honolulu.
+hasTeacherAssertion:
+  - id: 01M6C5JZZGQ687PT0FZNB9ZJEW
+    teacher: 01KJJAWN28MWKKSN4J02MVY1S7
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1917
+        hasEvidence:
+          - basedOnSource: 01M6C5JZZGFC3JVM9PPSCR85EX
+            quotation: >-
+              In 1917, he was living in Los Angeles, where his judo teachers included professional
+              wrestler Tokugoro Ito.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M6C5JZZGVVN3CHJWJNWBKDHM
+    teacher: 01M0A7YYEFMKPM42VNW79WTSWR
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C5JZZGFC3JVM9PPSCR85EX
+            quotation: During the early 1920s, while still living in Los Angeles, Higami also trained under Taro Miyake.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C5JZZGFC3JVM9PPSCR85EX
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6C5JZZGTY23SJ30100D1RMB
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+notes: >-
+  The Sakata article prints "Tetsuro ("Rubberman") Higami"; the article about Higami himself gives
+  Tsutao. Kept as an alternate name; which spelling is wrong is not known.
+tags:
+  - judo
+  - wrestling
+  - hawaii

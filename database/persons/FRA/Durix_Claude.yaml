@@ -1,0 +1,208 @@
+type: Person
+id: 01KZ6KZZG7DK3DDAYW3T05NZQ0
+name:
+  fr: Claude Durix
+nationality:
+  - countryCode: eucountry:FRA
+    wikidata: wd:Q142
+birthEvent:
+  birthDate: '1921-08-19'
+  birthPlace:
+    label: Villeneuve-l'Archevêque
+    countryCode: eucountry:FRA
+    wikidata: wd:Q752972
+  hasEvidence:
+    - basedOnSource: 01KZ7330AKX9TPKPX4G5S0H419
+      quotation: né le 19 août 1921 à Villeneuve-l'Archevêque (Yonne)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2012-06-23'
+  deathPlace:
+    label: Tétouan
+    countryCode: eucountry:MAR
+    wikidata: wd:Q185157
+  hasEvidence:
+    - basedOnSource: 01KZ7330AKX9TPKPX4G5S0H419
+      quotation: mort le 23 juin 2012 à Tétouan (Maroc)
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M3YH7N5GVJHM3Q8BZTTEFJDV
+    teacher: 01KZ6D9E8QNRKR39QAE2HQ9J9E
+    assertedStyle: 01KZ6XT5DS9BPQ109R3EJ8MKVG
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Durix himself, in Le Sabre et la Vie, states he was introduced to iaido by his sensei Kiyoshi Nakakura (9th dan, disciple of Nakayama Hakudo), who brought him to practice at the dojo of Morihiro Okada.
+    role: teachrole:student
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KZ7330AK37C9BFBPZ95ASM9E
+            quotation: Introduit par son Sensei, Nakakura Kiyoshi, 9e dan, disciple de Nakayama Hakudo Sensei, C. Durix est amené à pratiquer au Dojo de Morihiro Okada Sensei (disciple de Nakayama Hakudo Sensei également) qui enseignait alors à plusieurs français.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G2M7DHG91D2WM5JZ5
+    teacher: 01M1KR4J6EAW6HM6DHQC6MMW41
+    assertedStyle: 01KZ6XT5DS9BPQ109R3EJ8MKVG
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Le Sabre et la Vie records that Durix was brought to practice at the dojo of Morihiro Okada Sensei, a disciple of Nakayama Hakudo who taught several French practitioners; the nature and duration of the direct teaching relationship are not detailed.
+    role: teachrole:student
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KZ7330AK37C9BFBPZ95ASM9E
+            quotation: C. Durix est amené à pratiquer au Dojo de Morihiro Okada Sensei (disciple de Nakayama Hakudo Sensei également) qui enseignait alors à plusieurs français.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5G12N5VMN5W15Y330R
+    rankStyle: 01KJJAWN29MA64W22606R3WD9W
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 4
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: 4th dan in kendo, stated by both the French Wikipedia article and Le Sabre et la Vie; date of the grade not given.
+    hasEvidence:
+      - basedOnSource: 01KZ7330AKX9TPKPX4G5S0H419
+        quotation: 4e dan de kendo, 3e dan de judo, 3e dan d'iaidō, 2e dan d'aïkido
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZ7330AK37C9BFBPZ95ASM9E
+        quotation: il a commencé la pratique les arts martiaux en 1945, 4e dan de Kendo
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G7VQR2BYP501GQPV4
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 3
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: 3rd dan in judo, stated by the French Wikipedia article; date of the grade not given.
+    hasEvidence:
+      - basedOnSource: 01KZ7330AKX9TPKPX4G5S0H419
+        quotation: 4e dan de kendo, 3e dan de judo, 3e dan d'iaidō, 2e dan d'aïkido
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GJTHZ7Q6PP33C76X3
+    rankStyle: 01KZ6XT5DS9BPQ109R3EJ8MKVG
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 3
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: 3rd dan in iaido (Muso Shinden Ryu), stated by both the French Wikipedia article and Le Sabre et la Vie; date of the grade not given.
+    hasEvidence:
+      - basedOnSource: 01KZ7330AKX9TPKPX4G5S0H419
+        quotation: 4e dan de kendo, 3e dan de judo, 3e dan d'iaidō, 2e dan d'aïkido
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZ7330AK37C9BFBPZ95ASM9E
+        quotation: 3e dan de Iaido
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GC97R6C26GVP8EV8X
+    rankStyle: 01KJJAWN29MA64W22606R3WD9R
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 2
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: 2nd dan in aikido, stated by the French Wikipedia article; date of the grade not given.
+    hasEvidence:
+      - basedOnSource: 01KZ7330AKX9TPKPX4G5S0H419
+        quotation: 4e dan de kendo, 3e dan de judo, 3e dan d'iaidō, 2e dan d'aïkido
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M3YH7N5GY2JZKC24CF19383D
+    honorValue: Officier de la Légion d'honneur
+    honorType: honortype:other
+    dateConferred: '1980'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Officier de la Légion d'honneur awarded by decree of 3 April 1980, per the French Wikipedia article.
+    hasEvidence:
+      - basedOnSource: 01KZ7330AKX9TPKPX4G5S0H419
+        quotation: Officier de la Légion d'honneur (décret du 3 avril 1980)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GPEXTE22QA0SJPHW2
+    honorValue: Croix de guerre 1939-1945
+    honorType: honortype:other
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Croix de guerre 1939-1945 listed among Durix's distinctions in the French Wikipedia article; date not given.
+    hasEvidence:
+      - basedOnSource: 01KZ7330AKX9TPKPX4G5S0H419
+        quotation: Croix de guerre 1939-1945
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G690YQYXE7R932MTN
+    honorValue: Grand officier de l'ordre du Ouissam alaouite
+    honorType: honortype:other
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Grand officier of the Moroccan Order of Ouissam Alaouite listed among Durix's distinctions in the French Wikipedia article; date not given.
+    hasEvidence:
+      - basedOnSource: 01KZ7330AKX9TPKPX4G5S0H419
+        quotation: Grand officier de l'ordre du Ouissam alaouite (Maroc)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZ7330AKX9TPKPX4G5S0H419
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ7330AK37C9BFBPZ95ASM9E
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ6DKWJVPE75F5Y89HN5AYNS
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ6D9E8QSENEZ3VQSXK7KX1E
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: French ophthalmologist and writer (1921-2012), specialist of Japan, Zen Buddhism and calligraphy. He began the martial arts in 1945 and held twelve black belt grades (4th dan kendo, 3rd dan judo, 3rd dan iaido, 2nd dan aikido), competing in three kendo world championships (Tokyo 1970, Los Angeles 1973, London 1976). He was introduced to iaido by Kiyoshi Nakakura and practised at the dojo of Morihiro Okada. He was the kendo and iaido master of Jean-Marc Duclos in Morocco and accompanied Georges Stobbaerts on his trips to Japan. A 1956 first trip to Japan led him to Zen - friend of Sengoku Roshi of the Manpuku-ji temple, he spread Zen in Morocco and Europe and authored 'Le Sabre et la Vie' (1985).
+  pt: 'Oftalmologista e escritor francês (1921-2012), especialista do Japão, do budismo zen e da caligrafia. Iniciou as artes marciais em 1945 e detinha doze graus de cinto negro (4º dan de kendo, 3º dan de judo, 3º dan de iaido, 2º dan de aikido), tendo competido em três campeonatos mundiais de kendo (Tóquio 1970, Los Angeles 1973, Londres 1976). Foi introduzido ao iaido por Kiyoshi Nakakura e praticou no dojo de Morihiro Okada. Foi o mestre de Kendo e Iaido de Jean-Marc Duclos em Marrocos e acompanhou Georges Stobbaerts nas suas viagens ao Japão. Uma primeira viagem ao Japão em 1956 levou-o ao Zen: amigo de Sengoku Roshi do templo Manpuku-ji, difundiu o zen em Marrocos e na Europa e escreveu ''Le Sabre et la Vie'' (1985).'
+notes: Durix was born in Villeneuve-l'Archevêque and worked as an ophthalmologist in Casablanca for over thirty years (1950-1986), his adopted country. He began the martial arts in 1945. On his first trip to Japan in 1956 he discovered Zen Buddhism at the Manpuku-ji temple and became a friend of its superior Sengoku Roshi, who charged him with introducing an adapted Zen to the West; he founded zen dojos in Casablanca, Rabat and Marrakech. After Sengoku Roshi's death in 1971 he met Taisen Deshimaru in Paris, became a dendoshi and vice-president of the Association Zen Internationale, resigning in April 1981. A calligrapher and writer on Zen, he authored 'Le Sabre et la Vie' (1985) on iaido. He competed in three kendo world championships - Tokyo 1970, Los Angeles 1973 and London 1976.
+sameAs:
+  - wd:Q15457014
+  - viaf:79024530
+  - isni:0000000109185679
+tags:
+  - kendo
+  - iaido
+  - judo
+  - aikido
+  - muso-shinden-ryu
+  - zen
+  - morocco
+  - france

@@ -1,0 +1,63 @@
+type: Person
+id: 01M5HMHN7XB06JKNS11QZ0YNVS
+name:
+  pt: Paulo Filho
+aka:
+  pt: Paulão Filho
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Brazilian mixed martial artist, one of the most successful of the 2000s, and a representative of
+    Carlson Gracie's team; he trained at Carlson's gym from his teens.
+hasTeacherAssertion:
+  - id: 01M5HMHN7XH8ZN25XS2F92MHGG
+    teacher: 01KYQB8J2NN336ZJWGQW3YH95E
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Snowden and Shields state it; Drysdale only implies it.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: >-
+              Paulo Filho is one of the most successful MMA fighters of the 2000s and a known
+              representative of Carlson Gracie’s team.
+            locator: Interview with Paulo Filho (after chapter 24)
+            locatorLabel: section
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: Carlson and Paulão Filho when he was 16 years old.
+            locator: Interview with Paulo Filho (after chapter 24)
+            locatorLabel: section
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              A judo and Carlson Gracie Brazilian Jiu-jitsu black belt, Filho was a smothering, dominant grappler
+            locator: '114'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+    quotation: >-
+      Paulo Filho is one of the most successful MMA fighters of the 2000s and a known representative of
+      Carlson Gracie’s team.
+    locator: Interview with Paulo Filho (after chapter 24)
+    locatorLabel: section
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3106875
+tags:
+  - bjj
+  - mma

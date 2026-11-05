@@ -1,0 +1,56 @@
+type: Style
+id: 01M5MFZ126CFX87YEXCB4VM850
+name:
+  en: Shindo Jinen-ryu
+  ja-Latn: Shindō Jinen-ryū
+aka:
+  en:
+    - Shindo Jinen Ryu
+    - Ryobu-kai
+styleType: styleclass:modern
+foundedEvent:
+  founder:
+    - 01KJJAWN28MWKKSN4J02MVY1V6
+  hasEvidence:
+    - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+      quotation: >-
+        Choki Motobu was an instructor to Shoshin Nagamine, Hironori Otsuka, and Yasuhiro Konishi, the
+        founders of Matsubayashi Ryu, Wado Ryu, and Shindo Jinen Ryu (Ryobu Kai), respectively.
+      locator: '90'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Japanese karate style founded by Yasuhiro Konishi, also known by the name of its organisation,
+    Ryobu-kai.
+hasStyleRelationAssertion:
+  - id: 01M5MFZ1261NYQV468SWEM6GFJ
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9S
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+        quotation: >-
+          This includes the modern styles of Shorin Ryu, Shotokan, Shindo Jinen Ryu, Shito Ryu, Wado
+          Ryu, Ryuei Ryu, and Goju Ryu.
+        locator: '58'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+    locator: '90'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q6148433
+tags:
+  - karate

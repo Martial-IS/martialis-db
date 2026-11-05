@@ -1,0 +1,24 @@
+# Learning from a document rather than from a person
+# (martialis:DocumentTransmissionAssertion): the reader, the style and the
+# document, with the years of sustained study. This produces no lineage edge.
+PREFIX martialis: <https://w3id.org/martialis/ontology#>
+PREFIX schema: <https://schema.org/>
+
+SELECT ?person ?document
+       (SAMPLE(?pn) AS ?personName) (SAMPLE(?sn) AS ?styleName)
+       (SAMPLE(?dn) AS ?documentTitle) ?startYear ?endYear WHERE {
+  ?person ?link ?a .
+  ?a a martialis:DocumentTransmissionAssertion ;
+     martialis:assertedStyle ?style ;
+     martialis:transmissionDocument ?document .
+  ?person schema:name ?pn .
+  ?style schema:name ?sn .
+  ?document schema:name ?dn .
+  OPTIONAL {
+    ?a martialis:validDuring ?period .
+    OPTIONAL { ?period martialis:startYear ?startYear }
+    OPTIONAL { ?period martialis:endYear ?endYear }
+  }
+}
+GROUP BY ?person ?document ?style ?startYear ?endYear
+ORDER BY ?personName

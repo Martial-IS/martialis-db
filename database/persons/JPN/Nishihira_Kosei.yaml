@@ -1,0 +1,99 @@
+type: Person
+id: 01KZBZG01KD25PZHJTRZS25JVN
+name:
+  ja-Latn: Nishihira Kōsei
+  ja: 西平向盛
+aka:
+  en:
+  - Kosei Nishihira
+  - Nishihira Kosei
+  ja:
+  - にしひら こうせい
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1942-06-10'
+  birthPlace:
+    label: Yonabaru
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1351158
+  hasEvidence:
+  - basedOnSource: 01KZC8XAP87C5Q24BJ6S5QB58Y
+    quotation: Kosei Nishihira was born on the 10th of June 1942 in a small village close to Yonabaru,
+      south of Okinawa, in Japan.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2007-05-14'
+  deathPlace:
+    label: Nishihara
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1206796
+  hasEvidence:
+  - basedOnSource: 01KZC8XAP87C5Q24BJ6S5QB58Y
+    quotation: Nishihira Kosei Sensei continued training until May 14, 2007, when, at the age of 64, he
+      died.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Nishihira%20Sensei%20-%20Okinawa%202003.png
+  rights: mediarights:cc-by-sa-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Nishihira_Sensei_-_Okinawa_2003.png
+    cite: Wikimedia Commons via Wikidata
+    informationType: infotype:secondary
+description:
+  en: Okinawan martial arts master (1942-2007) of Shorin-ryu Matsumura Seito karate and kobudo, uchi-deshi
+    and heir of Hohan Soken; internationally recognized as the heir of Grand Master Soken's Matsumura
+    Seito lineage.
+notes: 'Nishihira studied the "orthodox" Shorin-ryu Matsumura Seito karate with Hohan Soken from age 15
+  as one of a very few carefully selected uchi-deshi, and remained close to Soken until his death, taking
+  care of him in his old age. He became a grand master recognized as the heir of Soken''s karate, but
+  kept a low profile, handing the style only to a few students: Giuseppe Meloni, Ricky Rose, Theodore
+  Lange, Steve Watson and Richard Boyden.'
+hasTeacherAssertion:
+- id: 01M3YH7N5GN6Z0NGDQQRPB00FE
+  teacher: 01KZBWQ0AJ1CS0CYD84258VKTE
+  assertedStyle: 01KZC8S2GE3X9V7N27WXMQEPQA
+  role: teachrole:uchi_deshi
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: EN Wikipedia states Nishihira studied Matsumura Seito with Hohan Soken from age 15 as an uchi-deshi and was recognised as his heir; the Hohan Soken article lists him among senior students; Wikipedia only
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1957
+      endYear: 1982
+    hasEvidence:
+    - basedOnSource: 01KZC8XAP87C5Q24BJ6S5QB58Y
+      quotation: From the age of fifteen, he studied the "orthodox" karate style known as Shōrinryū Matsumura
+        Seitō Karate with Master Hohan Sōken. The style Nishihira was taught was very difficult, and
+        only handed down to a very few, carefully selected "uchi-deshi" (internal students).
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZC8XAP8C0KB4ATDTWXGA6PY
+      quotation: His senior students included Seiki Arakaki, Mitsuo Inoue, Hideo Nakazato, Kohama, Kohatsu,
+        Yonashiro Masaya Kyan, Nishihira Kosei, Isao Toma, Yoshimatsu Akamine, Seijun Kina, Seizen Kinjo,
+        Yuichi Kuda, Fusei Kise, Takaya Yabiku, Roy Suenaka
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZC8XAP87C5Q24BJ6S5QB58Y
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZC8XAP8C0KB4ATDTWXGA6PY
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q276730
+tags:
+- karate
+- shorin-ryu
+- okinawan-kobudo

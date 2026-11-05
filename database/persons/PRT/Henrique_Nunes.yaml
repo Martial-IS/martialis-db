@@ -1,0 +1,128 @@
+type: Person
+id: 01KJJAWN29MA64W22606R3WD6N
+name:
+  pt: Henrique Nunes
+aka:
+  pt: Henrique Carinhas Martins Nunes
+nationality:
+- countryCode: eucountry:PRT
+  wikidata: wd:Q45
+birthEvent:
+  birthDate: '1948-03-28'
+  birthPlace:
+    label: Benguela
+    countryCode: eucountry:AGO
+    wikidata: wd:Q214248
+image:
+  contentUrl: https://archive.org/download/henrique_nunes/henrique_nunes.jpeg
+  imageAttribution:
+    basedOnSource: 01M3M0D4PBY7XCDVYXHY3J21H4
+    informationType: infotype:primary
+    evidenceType: evidencetype:direct
+description:
+  en: Portuguese judoka born in Angola, student of Kiyoshi Kobayashi from 1959, 8th dan holder, national
+    champion, and influential figure in Portuguese judo with extensive collection of judo materials.
+  pt: Judoca português nascido em Angola, aluno de Kiyoshi Kobayashi desde 1959, 8º dan, campeão nacional,
+    e figura influente no judo português com extensa coleção de materiais de judo.
+hasTeacherAssertion:
+- id: 01M3YH7N5G1H9W056NM7YX7K50
+  teacher: 01KJJAWN28MWKKSN4J02MVY1SR
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Well-documented student of Kiyoshi Kobayashi from 1959, mentioned in Judo Magazine
+      interview with specific quotation about Kobayashi being 'the person I most admire and miss immensely'
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD8E
+    interactionPeriod:
+      startYear: 1959
+    hasEvidence:
+    - uri: https://judomagazine.pt/2023/03/19/reportagem-no-santuario-com-henrique-nunes-1/
+      cite: No «santuário» com Henrique Nunes (Judo Magazine - Archived)
+      quotation: “Ali em frente é a área reservada ao meu Mestre, à pessoa que mais admiro e de quem tenho
+        imensas saudades” adiantou o nosso anfitrião sinalizando uma grande fotografia de Kiyoshi Kobayashi,
+        aquela que é marca global do japonês que desde 1958 referencia o judo nacional em todas as suas
+        dimensões, técnicas, culturais, profissionais e até institucionais. Ao lado uma fotografia datada
+        de 1966 com Henrique Nunes a receber de KK uma medalha de campeão nacional, uma das muitas, ao
+        ponto de ser difícil recordar-se de todas.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+      archiveUri: https://web.archive.org/web/20250123194617/https://judomagazine.pt/2023/03/19/reportagem-no-santuario-com-henrique-nunes-1/
+    - uri: https://www.youtube.com/watch?v=5RGPsWHXyuw
+      cite: Seis histórias à volta do Tatami _ Gala 60º Aniversário FPJ
+      locator: 6:15-6:36
+      locatorLabel: timestamp
+      quotation: 'o mestre Kobayashi em Portugal, em ''58 [...] foi o meu mestre.'
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GJKWG85XSY97AYMJW
+  teacher: 01KJJAWN29MA64W22606R3WD6P
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Student of Afonso Henriques Maia Loureiro from 1954, mentioned in YouTube interview
+      about having 'excellent teachers at the beginning' including Commander Afonso Henriques Maia Loureiro
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KJJAWN29MA64W22606R3WD8E
+    interactionPeriod:
+      startYear: 1954
+    hasEvidence:
+    - uri: https://www.youtube.com/watch?v=5RGPsWHXyuw
+      cite: Seis histórias à volta do Tatami _ Gala 60º Aniversário FPJ
+      locator: 5:19-5:25
+      locatorLabel: timestamp
+      quotation: 'Tive óptimos professores no princípio. Era o Comandante Afonso Henriques Maia Loureiro,
+        era o dr. Nuno Ribeiro'
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GCNES7966BRKGMWX9
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 8
+  conferredBy: 01KJJAWN29MA64W22606R3WD82
+  dateConferred: '2019-07-12'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: 8th dan rank awarded on July 12, 2019, documented in Federação Portuguesa de
+      Judo annual report listing promoted practitioners
+  hasEvidence:
+  - basedOnSource: 01M3M0D4PBPNC7V49M67QMSP6E
+    quotation: Henrique Nunes [...] 8º Dan
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- uri: https://judomagazine.pt/2023/03/19/reportagem-no-santuario-com-henrique-nunes-1/
+  cite: Reportagem no Santuário com Henrique Nunes (Judo Magazine, archived)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+  archiveUri: https://web.archive.org/web/20250123194617/https://judomagazine.pt/2023/03/19/reportagem-no-santuario-com-henrique-nunes-1/
+- uri: https://www.youtube.com/watch?v=5RGPsWHXyuw
+  cite: Video interview (YouTube, timestamp 6:21)
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- uri: https://judolandia.tripod.com/hnunes.htm
+  cite: Henrique Nunes (Judolandia, archived)
+  informationType: infotype:secondary
+  supports: true
+  archiveUri: https://web.archive.org/web/20251006174219/https://judolandia.tripod.com/hnunes.htm
+  evidenceType: evidencetype:direct
+notes: "Full name: Henrique Carinhas Martins Nunes. Born in Benguela, Angola (then Portuguese colony).\
+  \ \nStarted judo in 1954 with Afonso Henriques Maia Loureiro. Became student of Kiyoshi Kobayashi in\
+  \ 1959 when Kobayashi arrived in Portugal. \nNational champion multiple times (first championship medal\
+  \ in 1966 from Kobayashi). Known for extensive collection of judo materials (videos, books, magazines)\
+  \ referred to as his \"santuário do judo\" (judo sanctuary). \nDescribed Kiyoshi Kobayashi as \"the\
+  \ Nureyev of standing judo\" for his elegance and technical precision. \nHas expressed concern about\
+  \ modern judo teaching methods and commercialization. 8th dan awarded in 2019.\n"

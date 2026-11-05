@@ -1,0 +1,81 @@
+type: Person
+id: 01M5JTMYPEF12BQ52S2YBSKGZ9
+name:
+  en: Philip IV of Spain
+  es: Felipe IV
+nationality:
+  - countryCode: eucountry:ESP
+    wikidata: wd:Q29
+birthEvent:
+  birthDate: '1605'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Carranza was a gentleman, and his student Don Luis Pacheco Narvaez (1570–1640) was a nobleman,
+        personal arms instructor to the Spanish king Philip IV (1605–1665), and admiral-general in the
+        Spanish navy.
+      locator: '254'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1665'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: >-
+        Carranza was a gentleman, and his student Don Luis Pacheco Narvaez (1570–1640) was a nobleman,
+        personal arms instructor to the Spanish king Philip IV (1605–1665), and admiral-general in the
+        Spanish navy.
+      locator: '254'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    King of Spain, whose personal fencing master was Luis Pacheco de Narváez of the Destreza.
+hasTeacherAssertion:
+  - id: 01M5JTMYPE3Z11FKJRC8X1HZC6
+    teacher: 01M5JTMYPEH8VNQYW4F149PS1X
+    assertedStyle: 01M5JTMYPE4QB7TP8MFHXKNQS2
+    role: teachrole:private
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Carranza was a gentleman, and his student Don Luis Pacheco Narvaez (1570–1640) was a
+              nobleman, personal arms instructor to the Spanish king Philip IV (1605–1665), and
+              admiral-general in the Spanish navy.
+            locator: '254'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JTMYPEJM8WCEW0YADENAEK
+            quotation: >-
+              He served as fencing master to King Philip IV of Spain.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q691402
+tags:
+  - fencing
+  - destreza
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/b/ba/Philip_IV_of_Spain.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Philip_IV_of_Spain.jpg
+    cite: "Diego Velázquez, Wikimedia Commons"
+    informationType: infotype:secondary

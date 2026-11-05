@@ -1,0 +1,155 @@
+type: Person
+id: 01KYHT5WPXM8YSZH28CGZ9DCA6
+name:
+  en: Hwang Kee
+  ko: 황기
+aka:
+  en:
+  - Hwang Gi
+nationality:
+- countryCode: eucountry:KOR
+  wikidata: wd:Q884
+birthEvent:
+  birthDate: '1914-11-09'
+  birthPlace:
+    label: Gyeonggi Province
+    countryCode: eucountry:KOR
+    wikidata: wd:Q412
+  hasEvidence:
+  - basedOnSource: 01KYHT5WPXCQHGM7XFKVBGSEQY
+    quotation: >-
+      (Korean: 황기; Hanja: 黄琦; Hwang Gi; November 9, 1914 – July 14, 2002)
+    cite: Hwang Kee (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2002-07-14'
+  hasEvidence:
+  - basedOnSource: 01KYHT5WPXCQHGM7XFKVBGSEQY
+    quotation: >-
+      (Korean: 황기; Hanja: 黄琦; Hwang Gi; November 9, 1914 – July 14, 2002)
+    cite: Hwang Kee (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: >-
+    South Korean martial artist, founder of the Moo Duk Kwan, the only one of the five original kwan founders
+    who never trained in Japan. He said he learned a Chinese martial art from Yang Kook-jin in Manchuria
+    and taekkyon as a child; both claims are disputed. Lee Won-kuk claimed Hwang trained at his Chung Do
+    Kwan. By his own writings he learned karate from books. He called his art hwasu-do, from 1947 Tang
+    Soo Do, and from the late 1950s Soo Bahk Do. His system influenced American Tang Soo Do through his
+    student Shin Jae Chul.
+notes: >-
+  Green & Svinth (p. 199) say Hwang trained in Shotokan karate while working for the South Manchuria
+  Railways; Mönig (p. 53) says he never went to Japan and was mostly self-taught. The taekkyon claim is
+  disputed by the Korea T'aekkyŏn Association (Mönig p. 53); no teacher is named, so no claim. The karate
+  books are not named: Segarra guesses "More than likely this was Gichin Funakoshis [...] Karate Do Kyohan
+  or his earlier works"; Mönig's Figure 5.1 says "Books of Funakoshi" (table, no title). No document
+  transmission until a title is sourced.
+hasTeacherAssertion:
+- id: 01M3YH7N5G7W4X7P7V4FQEX5ZM
+  teacher: 01M1KR4J6EBW3XWCVSNVABFNS4
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:possible
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Hwang's own account, told by the Moo Duk Kwan side; many senior taekwondo instructors regard it as
+      fabricated.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1936
+      endYear: 1946
+    hasEvidence:
+    - basedOnSource: 01KYHT5WPXCQHGM7XFKVBGSEQY
+      cite: Hwang Kee (Wikipedia EN)
+      quotation: >-
+        he claimed to have learned the martial art of Kuk Sool under Chinese Master Yang Kuk Jin
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KYJ42SQPE9AT05GKA3G4K4M6
+      quotation: >-
+        Not giving up, Hwang Kee and his friend kept showing up daily until Master Yang finally accepted
+        them as students.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+      quotation: >-
+        He says that he had learned a Chinese martial art while he was in Manchuria as a young man, a claim
+        that many other senior taekwondo instructors regard as fabricated.
+      locator: '53'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: false
+      evidenceType: evidencetype:negative
+    - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+      quotation: >-
+        Yun Pyŏng In learned quanfa (kwŏnbŏp) as a child in Manchuria, but in Hwang’s case, the claim is
+        more likely a fabrication.
+      locator: '63'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: false
+      evidenceType: evidencetype:negative
+- id: 01M6BQSYG6PZAJA4T6A7JFSMQ0
+  teacher: 01M5CM3YFSZZQ2V5RFX27JCRDX
+  assertedStyle: 01KYFXCETR9R1BNFD5T82H1G8P
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:possible
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Lee's claim; Hwang never called Lee his teacher, and it may have been an exchange between peers.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+      quotation: >-
+        Furthermore, Yi Wŏn’ Guk claimed that Hwang studied some tangsu-do at his Ch’ŏng-Do Kwan
+      locator: '53'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KYJ42SQPE9AT05GKA3G4K4M6
+      quotation: >-
+        Hwang began training under Lee while simultaneously teaching. Whether it was an exchange between
+        contemporaries or a student teacher relationship no one really knows as Hwang never claimed Lee
+        as his teacher but Lee claimed Hwang was a student
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KYHT5WPXCQHGM7XFKVBGSEQY
+  cite: Hwang Kee (Wikipedia EN)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+  quotation: >-
+    It seems that Hwang received little, if any, formal martial art training at all, but was instead
+    mostly self-taught. According to his own writings, he started studying Okinawan karate out of books.
+  locator: '53'
+  locatorLabel: page
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+  quotation: >-
+    in 1947, he adopted the term “Tang Soo Do” (tangsu-do). During the late 1950s, he renamed his art
+    “Soo Bahk Do” (subak-do).
+  locator: '54'
+  locatorLabel: page
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q1587695
+tags:
+- tang-soo-do
+- moo-duk-kwan
+- soo-bahk-do
+- korean-martial-arts

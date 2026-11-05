@@ -1,0 +1,78 @@
+type: Style
+id: 01M6BHSAXW71NDAE1K8Q6W4F9S
+name:
+  ja-Latn: Yagyū Shinkage-ryū
+  ja: 柳生新陰流
+hasEvidence:
+- basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+  locator: 'Yagyu Shinkage-ryu Hyoho'
+  locatorLabel: section
+  quotation: 'Founder: Kamiizumi Ise-no-Kami Nobutsuna, 1508-1578;the Yagyu line was founded by Yagyu Sekishusai Munetoshi, 1527-1606'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M6BHSAXWT300MA17MW5Z0F1Y
+  quotation: '信綱に師事した柳生石舟斎宗厳は「無刀の位」を開悟して第二世を継いだ。'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+foundedEvent:
+  founder:
+    - 01M6BHSAXWJRA0RQCK222BZP9C
+  location:
+    countryCode: eucountry:JPN
+  hasEvidence:
+    - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+      locator: 'Yagyu Shinkage-ryu Hyoho'
+      locatorLabel: section
+      quotation: 'Founder: Kamiizumi Ise-no-Kami Nobutsuna, 1508-1578;the Yagyu line was founded by Yagyu Sekishusai Munetoshi, 1527-1606'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6BHSAXW6PNZ7V6HME8P8KN5
+      locator: 'Batto and Iaido'
+      locatorLabel: section
+      quotation: 'For example, in Shinkage-ryu (founded by Kamiizumi Ise-no-Kami) and Yagyu Shinkage-ryu (founded by Kamiizumi’s student Yagyu Munetoshi), there is either no batto, or it is done as a minor part of the overall kenjutsu training.'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+styleType: styleclass:traditional
+hasStyleRelationAssertion:
+  - id: 01M6BHSAXWMNY99SYWAMV9EJ16
+    relatedStyle: 01M6BHSAXWENNPX8DGGYB1ZDC2
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The Yagyu line of Shinkage-ryu; the Field Guide, Armstrong and its own page, which counts Kamiizumi as its founder and Sekishusai as second head.
+    hasEvidence:
+      - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+        locator: 'Yagyu Shinkage-ryu Hyoho'
+        locatorLabel: section
+        quotation: 'Founder: Kamiizumi Ise-no-Kami Nobutsuna, 1508-1578;the Yagyu line was founded by Yagyu Sekishusai Munetoshi, 1527-1606'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M6BHSAXWT300MA17MW5Z0F1Y
+        quotation: '信綱に師事した柳生石舟斎宗厳は「無刀の位」を開悟して第二世を継いだ。'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    The Yagyu line of Shinkage-ryu, from Yagyu Sekishusai Munetoshi, Kamiizumi's student. The Edo
+    line of his son Munenori served the Tokugawa shoguns; the Owari line passed through his grandson
+    Hyogonosuke Toshitoshi. Owari line heads (its own page): Kamiizumi Nobutsuna, Yagyu Munetoshi,
+    Yagyu Toshitoshi, Tokugawa Yoshinao, Yagyu Toshikane, Tokugawa Mitsutomo, Tokugawa Tsunanari,
+    Yagyu Toshinobu, Tokugawa Yoshimichi, Yagyu Toshitomo, Yagyu Toshiharu, Tokugawa Haruyuki, Yagyu
+    Toshiyuki, Yagyu Toshihisa, Tokugawa Naritomo, Yagyu Toshimasa, Yagyu Toshishige, Tokugawa
+    Yoshikatsu, Yagyu Toshikane, Yagyu Toshinaga, Yagyu Toshimichi, Yagyu Koichi Toshinobu (22nd).
+notes: >-
+  Readings of the Owari heads' names are this record's, from the kanji on the school's page
+  (柳生新陰流兵法剣術). The Field Guide's founding date ("Muromachi period, ca. 1658") is
+  self-contradictory and is not used. Present head per the Field Guide (1997) and the school's page:
+  22nd soke Yagyu Koichi.
+sameAs:
+  - wd:Q492116
+tags:
+  - koryu

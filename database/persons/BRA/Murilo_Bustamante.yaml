@@ -1,0 +1,63 @@
+type: Person
+id: 01M5H6E6RGRH22C35VGZBG23D7
+name:
+  pt: Murilo Bustamante
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Brazilian jiu-jitsu coral belt and mixed martial artist, a black belt under Carlson Gracie; IBJJF
+    world champion (1999), UFC champion (2002) and a founder of Brazilian Top Team.
+hasTeacherAssertion:
+  - id: 01M5H6E6RGFWYW8Z9Q97XS55K0
+    teacher: 01KYQB8J2NN336ZJWGQW3YH95E
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Two independent sources (Drysdale; Snowden and Shields).
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1977
+        hasEvidence:
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: >-
+              I began training in 1977 when I was 10-11 years old. My older brothers took me to train with
+              Carlson at the Figueiredo de Magalhães academy.
+            locator: Interview with Murilo Bustamante (after chapter 13)
+            locatorLabel: section
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: He is a black-belt under Carlson Gracie
+            locator: Interview with Murilo Bustamante (after chapter 13)
+            locatorLabel: section
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              The Brazilian Top Team founder and Carlson Gracie black belt was in more than his fair share of tight, back-and-forth battles
+            locator: '46'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+    quotation: >-
+      He began his vale-tudo career representing jiu-jitsu in the 1991 challenge against luta-livre at
+      the Grajaú, became an IBJJF World Champion in 1999, and the UFC title in 2002.
+    locator: Interview with Murilo Bustamante (after chapter 13)
+    locatorLabel: section
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q2703737
+tags:
+  - bjj
+  - mma

@@ -1,0 +1,85 @@
+type: Person
+id: 01M5JRHX02K4F9MSBBAJP97WJB
+name:
+  en: Hans Talhoffer
+aka:
+  en:
+    - Hans Dalhover
+    - Hans Talhofer
+nationality:
+  - countryCode: eucountry:DEU
+    wikidata: wd:Q183
+description:
+  en: >-
+    Fifteenth-century German fencing master of unknown lineage, connected to the Liechtenauer
+    tradition, an itinerant master-at-arms who trained men for judicial duels and wrote at least five
+    fencing manuals (1440s–1467), with sections on astrology and numerology. He may have been an early
+    member of the Marxbrüder.
+notes: >-
+  Dates differ: Green and Svinth ca. 1420 – ca. 1470s; Wiktenauer fl. 1433–1467; en Wikipedia c.
+  1410–1415 – after 1482. No life events recorded.
+hasDocumentTransmissionAssertion:
+  - id: 01M61V7JC2BBQJXMEETDDXA0QZ
+    transmissionDocument: 01M61V7JC2F277GR59FDE0DB56
+    assertedStyle: 01M5JRHX026EPJNQVEJDCKRNJP
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wiktenauer says his MS Chart.A.558 holds the earliest dated copy of the Record; one source.
+    hasEvidence:
+      - basedOnSource: 01M5JRHX02PCDN9JHSMYF7PD1T
+        quotation: >-
+          the earliest internally-dated version of the Record, recorded by Hans Talhoffer in the MS
+          Chart.A.558 (ca. 1448)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M61V7JC29AV20S9VKPHF69WQ
+    transmissionDocument: 01M61V7JC2RY76VB5MYSKD1C5B
+    assertedStyle: 01M5JRHX026EPJNQVEJDCKRNJP
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wiktenauer says he included the Gotha version of Ott's treatise in his manual; one source.
+    hasEvidence:
+      - basedOnSource: 01M5JRHX02054BRDDJXXY3745C
+        quotation: >-
+          he may have still been alive when Hans Talhoffer included the Gotha version in his fencing
+          manual in ca. 1448
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JRHX02KGPWARMFCJ30NGGC
+    quotation: >-
+      His martial lineage is unknown, but his writings make it clear that he had some connection to the
+      tradition of Johannes Liechtenauer, the grand master of the German school of fencing.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Astrology was particularly important to Hans Talhoffer (ca.1420–ca. 1470s). Talhoffer was an
+      itinerant master-at-arms and prolific author of fencing books.
+    locator: '355'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5JRHX02QPBKJQCK511K8ZKZ
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q77638
+tags:
+  - fencing
+  - kunst-des-fechtens
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/b/b8/Hans_Talhoffer.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Hans_Talhoffer.jpg
+    cite: "Stefan Schriber, Wikimedia Commons"
+    informationType: infotype:secondary

@@ -1,0 +1,50 @@
+type: RankingSystem
+# Template only: `make schema` substitutes a throwaway ULID for the null `id`
+# below. Every record under database/ carries a real ULID.
+id: null
+name:
+  en: Ranking System Name
+  ja: 段級制度名
+aka:
+  en: Alternative Name
+# Structural shape of the system's grades:
+# - numbered: an open-ended integer ladder (kyu descending, dan ascending);
+#   grades are recorded as rankType + rankOrdinal on each RankAssertion, never
+#   as minted concepts.
+# - enumerated: a fixed, named, ordered list of grades - skos:Concepts in this
+#   system's own gradeScheme (required for enumerated), referenced by each
+#   RankAssertion's rankGrade.
+rankSystemKind: numbered
+# Bounds for a numbered system's ladder, when it has them. Omit/null for the
+# unbounded default - do not hardcode a ceiling that belongs to one style's
+# specific federation rather than to the system itself.
+minOrdinal: null
+maxOrdinal: null
+# IRI of the skos:ConceptScheme enumerating this system's grades (required when
+# rankSystemKind is 'enumerated', null/omitted when 'numbered'), e.g.
+#   gradeScheme: https://w3id.org/martialis/vocab/rank-grade/menkyo
+gradeScheme: null
+# Another RankingSystem this one's grading concept derives from, when it is a
+# variant or adaptation of a more generic ancestor rather than an independent
+# invention. Only set on a sourced basis - do not infer lineage from surface
+# similarity alone.
+derivedFromSystem: null
+# Founding carries the EDTF date (see person.yaml's birthEvent comment for the
+# syntax) and its own evidence.
+foundedEvent:
+  startDate: '1883'
+  hasEvidence:
+    - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+      informationType: infotype:secondary
+      supports: true
+description:
+  en: |
+    Brief description of the ranking system: what institution administers it,
+    what its grades look like, how it relates to other systems...
+# Research notes: what is known, suspected, or still to be investigated -
+# addressed to a maintainer, not a reader.
+# notes: ...
+hasEvidence:
+  - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+    informationType: infotype:secondary
+    supports: true

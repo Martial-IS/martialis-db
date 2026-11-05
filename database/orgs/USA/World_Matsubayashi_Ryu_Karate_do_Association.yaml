@@ -1,0 +1,37 @@
+type: Organization
+id: 01M36JH62QD538PJ24VRBEANGY
+name:
+  en: World Matsubayashi-Ryu (Shorin-Ryu) Karate-do Association
+aka:
+  en: WMKA
+orgType: orgclass:federation
+hasSite:
+  - location:
+      countryCode: eucountry:USA
+hasOfficerRole:
+  - id: 01M4R9845W4AS31YR5Y4FVZH3R
+    officer: 01KZEGY96G5BEQ2PCXMT0ZSA9A
+    officerTitle: President
+    officerPeriod:
+      startYear: 1992
+    notes: The source says he took over the leadership without naming the office or a date. His father retired in 1991 and he formed the association in 1992.
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One magazine article.
+    hasEvidence:
+      - basedOnSource: 01KZGKX1Y10XAX7Y4V6Q4BYEBV
+        quotation: he lived for over 10 years in the US, where he taught Matsubayashi-ryu in the Ohio region before returning home to take over the leadership of the World Matsubayashi-Ryu (Shorin-Ryu) Karate-do Association.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZGKX1Y10XAX7Y4V6Q4BYEBV
+    quotation: he lived for over 10 years in the US, where he taught Matsubayashi-ryu in the Ohio region before returning home to take over the leadership of the World Matsubayashi-Ryu (Shorin-Ryu) Karate-do Association.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - karate
+  - shorin-ryu
+  - matsubayashi-ryu

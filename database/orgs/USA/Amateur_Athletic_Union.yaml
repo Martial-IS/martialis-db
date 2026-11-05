@@ -1,0 +1,63 @@
+type: Organization
+id: 01M1PBN7GAB2WFTWHXAB3FR8ZZ
+name:
+  en: Amateur Athletic Union
+aka:
+  en:
+    - AAU
+    - Amateur Athletic Union of the United States
+orgType: orgclass:association
+hasSite:
+  - location:
+      label: Lake Buena Vista
+      countryCode: eucountry:USA
+      wikidata: wd:Q1456816
+    address: Walt Disney World Preview Center, Walt Disney World Resort
+foundedEvent:
+  startDate: '1888-01-21'
+  hasEvidence:
+    - uri: https://en.wikipedia.org/wiki/Amateur_Athletic_Union
+      archiveUri: https://en.wikipedia.org/w/index.php?title=Amateur_Athletic_Union&oldid=1379879761
+      quotation: >-
+        Formation January 21, 1888
+      cite: English Wikipedia - Amateur Athletic Union
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M4R9845WXW6PRZEZRGVDFF6M
+    officer: 01M1PBN7GAW97H77EV97J2JKYD
+    officerTitle: Vice-President of the National Judo Committee
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: His own book; one side only.
+    hasEvidence:
+      - basedOnSource: 01M55WMH31B4G4C916J0KSRMB5
+        quotation: His many personal achievements in the Judo field include the vice-chairmanship of the National A. A. U. Judo Committee
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+website: https://www.aausports.org/
+description:
+  en: American amateur sports organization founded in 1888, dedicated to the promotion and development of amateur sports and physical fitness programs. The AAU has more than 900,000 members nationwide. It was founded at the New York Athletic Club by James E. Sullivan and William Buckingham Curtis with the goal of creating common standards in amateur sport. The AAU formerly served as the national Olympic sports governing body in the United States until the Amateur Sports Act of 1978 established independent national governing bodies. It moved its national headquarters to Lake Buena Vista, Florida in 1996.
+logo:
+  contentUrl: https://upload.wikimedia.org/wikipedia/en/4/4c/Amateur_Athletic_Union_logo.svg
+  imageAttribution:
+    uri: https://en.wikipedia.org/wiki/File:Amateur_Athletic_Union_logo.svg
+    cite: Wikimedia Commons - AAU logo
+    informationType: infotype:secondary
+hasEvidence:
+  - uri: https://en.wikipedia.org/wiki/Amateur_Athletic_Union
+    archiveUri: https://en.wikipedia.org/w/index.php?title=Amateur_Athletic_Union&oldid=1379879761
+    cite: English Wikipedia - Amateur Athletic Union
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q455573
+tags:
+  - multi-sport
+  - olympic
+  - amateur-sports
+  - usa

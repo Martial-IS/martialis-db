@@ -1,0 +1,113 @@
+type: Person
+id: 01M5JPY6FN6D0J6MGWMNWARJNR
+name:
+  en: Bob Fitzsimmons
+aka:
+  en:
+    - Robert James Fitzsimmons
+    - Ruby Robert
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+  - countryCode: eucountry:NZL
+    wikidata: wd:Q664
+birthEvent:
+  birthDate: '1863-05-26'
+  birthPlace:
+    label: Helston, Cornwall
+    countryCode: eucountry:GBR
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FN9P05WJFG6ZZPPK3K
+      quotation: >-
+        Robert James Fitzsimmons (26 May 1863 – 22 October 1917) was a Cornish-New Zealand professional
+        boxer who was the sport's first three-division world champion.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1917-10-22'
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FN9P05WJFG6ZZPPK3K
+      quotation: >-
+        Robert James Fitzsimmons (26 May 1863 – 22 October 1917) was a Cornish-New Zealand professional
+        boxer who was the sport's first three-division world champion.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Cornish-born New Zealand boxer, the first world champion in three weight classes; he won the world
+    heavyweight title from James J. Corbett in 1897. Jem Mace's school and tournaments in Timaru shaped
+    his start, and Larry Foley in Sydney trained him and guided his career.
+hasTeacherAssertion:
+  - id: 01M5JPY6FN5Q5HRT5634RDGA4G
+    teacher: 01M5JPY6FNJBK7WVKR797CX3WY
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasInteraction:
+      - interactionPlace: 01M5JPYGXJT7D93TZXATXBEQ5C
+        hasEvidence:
+          - basedOnSource: 01M5JPY6FNQFQ8KJC0YEQ1ZPSY
+            quotation: >-
+              He was known worldwide for the quality of his boxing training, and acted as a promoter as
+              well at times, helping to mold the career of his most gifted student Bob Fitzsimmons, who
+              would become a champion in three weight classes.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5JPY6FNZ56A65RK1ZRPYB0F
+    teacher: 01M5JPY6FNZ219F9GMWP2YDSQ3
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JPY6FN9P05WJFG6ZZPPK3K
+            quotation: >-
+              He developed a certain movement and caginess from one of the greatest bare-knuckle
+              fighters, Jem Mace.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JPY6FNC5TH6PMP2Y69X789
+            quotation: >-
+              With the help of his protégé, Australian champion Larry Foley, he schooled a generation of
+              mostly Australian boxers, including the Caribbean-born Peter Jackson, multiple-weight-class
+              champion, British-born Bob Fitzsimmons, and Young Griffo.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      and the best-sellers always featured champions such as “Gentleman Jim” Corbett (1866–1933), “Ruby
+      Bob” Fitzsimmons (1863–1917), and Jim Jeffries.
+    locator: '469'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5JPY6FN9P05WJFG6ZZPPK3K
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q472506
+tags:
+  - boxing
+  - new-zealand
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/3/30/Robert_Fitzsimmons.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Robert_Fitzsimmons.jpg
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary

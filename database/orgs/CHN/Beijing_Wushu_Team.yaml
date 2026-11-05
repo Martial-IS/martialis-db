@@ -1,0 +1,75 @@
+type: Organization
+id: 01M0QSZQA6QZ60DR0DHGNBRKGR
+name:
+  en: Beijing Wushu Team
+  zh: 北京武术队
+orgType: orgclass:other
+hasSite:
+  - location:
+      label: Beijing
+      countryCode: eucountry:CHN
+      wikidata: wd:Q956
+foundedEvent:
+  startDate: 1974-11
+  founder:
+    - 01M0NVYZ4HBB012MEVJHZWJXYP
+    - 01M0NVYZ4H18D1DFNE4ANSB7ES
+  hasEvidence:
+    - basedOnSource: 01M0QSZQA70B570Z9MN12BBE1Z
+      quotation: In 1974, the school was reformed as the Beijing Wushu Team in November 1974 by Wu Bin and Li
+        Junfeng.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M4R9845WEBNB51RY3S9WMQ1Y
+    officer: 01M0NVYZ4HBB012MEVJHZWJXYP
+    officerTitle: Head Coach
+    officerPeriod:
+      startYear: 1974
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia and an interview article agree.
+    hasEvidence:
+      - basedOnSource: 01M0QSZQA70B570Z9MN12BBE1Z
+        quotation: >-
+          In 1974, the school was reformed as the Beijing Wushu Team in November 1974 by Wu Bin and Li Junfeng.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+      - basedOnSource: 01M0QZEZPNJYRH9RP2QGVHVTQP
+        quotation: 就这样，日后创造无数传奇的北京武术队成立了，吴彬成为这支队伍的首任总教练。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M4R9845WGY4DGZ7B5GC4CGXK
+    officer: 01M0NVYZ4H18D1DFNE4ANSB7ES
+    officerTitle: Head Coach
+    officerPeriod:
+      startYear: 1974
+      endYear: 1988
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia only.
+    hasEvidence:
+      - basedOnSource: 01M0QSZQA70B570Z9MN12BBE1Z
+        quotation: 'In 1974, the school was reformed as the Beijing Wushu Team in November 1974 by Wu Bin and Li Junfeng.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M0QSZQA70B570Z9MN12BBE1Z
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q4881213
+tags:
+  - wushu
+  - beijing
+  - team
+  - china
+description:
+  en: Professional wushu team based in Beijing, founded in November 1974 by Wu Bin and Li Junfeng. Predecessor was the Beijing Wushu School (1959). Won the national team championship 11 times, including an unprecedented 10-year consecutive winning streak (1975-1985). Notable athletes include Jet Li (five consecutive national championships), Donnie Yen, Wu Jing, and Hao Zhihua. Based at the Shichahai Sports School. Still active as of 2025.

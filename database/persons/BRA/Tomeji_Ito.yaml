@@ -1,0 +1,34 @@
+type: Person
+id: 01M6C5JZZGR17ZKM6JVJVBDRHE
+name:
+  en: Tomeji Ito
+description:
+  en: >-
+    Brazilian karateka, the senior student of Mitsusuke Harada in São Paulo, who tried to keep
+    Harada's organisation together after Harada left Brazil in 1963.
+hasTeacherAssertion:
+  - id: 01M6C5JZZGDKMJ57J5A20XTYZ4
+    teacher: 01M6C5JZZG5YXV79WXGWDM87DF
+    assertedStyle: 01KYFZEGYN107JYC5K1539R8JM
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C5JZZGVV24N4ZFNV23BH26
+            quotation: >-
+              Unfortunately Harada's senior Brazilian student, Tomeji Ito, was not able to hold Harada's
+              organization together and Brazilian karate soon splintered.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C5JZZGVV24N4ZFNV23BH26
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+notes: Nationality not stated; the article calls him Harada's senior Brazilian student.
+tags:
+  - karate

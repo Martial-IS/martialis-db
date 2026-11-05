@@ -1,0 +1,115 @@
+type: Style
+id: 01KYHTJXCXHYSC519CB367XXZK
+name:
+  en: Taekwondo
+  ko: 태권도
+aka:
+  en:
+    - TKD
+    - Tae Kwon Do
+styleType: styleclass:modern
+description:
+  en: 'Taekwondo is a Korean martial art and combat sport involving primarily kicking techniques
+
+    and punching. It was developed during the 1940s and 1950s by Korean martial artists with
+
+    experience in karate and Chinese martial arts, emerging from the nine original kwans of
+
+    Tang Soo Do. It became an Olympic sport in 2000 and is governed by World Taekwondo (WT)
+
+    and the International Taekwon-Do Federation (ITF).
+
+'
+  ko: '태권도는 한국의 무술이자 격투 스포츠로, 주로 발차기 기술과 펀치를 사용한다.
+
+    1940~1950년대에 걸쳐 개발되었으며, 2000년부터 올림픽 정식 종목이 되었다.
+
+'
+hasEvidence:
+  - basedOnSource: 01KYHTJXCXEQ86GTYCQV36B0MG
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1955'
+  location:
+    countryCode: eucountry:KOR
+  hasEvidence:
+    - basedOnSource: 01KYHTJXCXEQ86GTYCQV36B0MG
+      quotation: >-
+        Taekwondo is originally a martial art which was developed during the 1940s and 1950s by Korean martial artists with experience in martial arts such as karate and Chinese martial arts.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+      quotation: >-
+        As a matter of fact, the term did not even exist until 1955, and had been only used by certain groups
+        until 1965.
+      locator: '63'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:indirect
+sameAs:
+  - wd:Q36389
+tags:
+  - korean-martial-arts
+  - olympic
+  - kicking
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5GM6R8Y90VGQQGQK2N
+    relatedStyle: 01KYFXCETR9R1BNFD5T82H1G8P
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Taekwondo emerged directly from the nine original kwans of Tang Soo Do when they united in the mid-1950s
+    hasEvidence:
+      - basedOnSource: 01KYHTJXCXEQ86GTYCQV36B0MG
+        quotation: >-
+          "Traditional Taekwondo" refers to the 1940s and 1950s martial arts by the nine original kwans. They used a number of different names such as Tang Soo Do (Chinese Hand Way)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M6BQSYG644SK7H96NENHGFYJ
+    relatedStyle: 01KYFZEGYN107JYC5K1539R8JM
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        One academic history traces the kwan to Shotokan; a second source calls their leaders Shotokan
+        stylists but does not draw the style line.
+    hasEvidence:
+      - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+        quotation: >-
+          The early Korean kwan represented merely new branches of the original Japanese karate ryū.
+        locator: '63'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+        quotation: >-
+          Yi, No Pyŏng Jik and Chŏn Sang Sŏp learned Shōtōkan karate directly from Funakoshi Gichin. It is
+          likely the others had also some contact with the Shōtōkan style, since it was the most popular.
+        locator: '62'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          two historically important Korean karate organizations (Chungdohwe and Songmookwan) were
+          established during 1944.
+        locator: '199'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/1/14/TAEKWONDO_PRACTICIONER_KORYO.jpg
+    rights: mediarights:cc-by-sa-4.0
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:TAEKWONDO_PRACTICIONER_KORYO.jpg
+      cite: "Lucky Ambago Purok Otso, Wikimedia Commons"

@@ -1,0 +1,48 @@
+type: Person
+id: 01KYMDKKCPQ8238MWJR2E17NAD
+name:
+  en: James Pedro Sr.
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthPlace:
+    label: Massachusetts
+    countryCode: eucountry:USA
+    wikidata: wd:Q771683
+image:
+  contentUrl: https://marketmusclescdn.nyc3.digitaloceanspaces.com/wp-content/uploads/sites/61/2022/10/18211429/Screen-Shot-2022-10-18-at-5.14.13-PM.png
+  imageAttribution:
+    uri: https://pedrosjudo.com/staff/jim-pedro-sr/
+    cite: "Pedro's Judo Center"
+    informationType: infotype:secondary
+description:
+  en: American judoka and 1976 US Olympic alternate. He began judo at age 19 under Edmund Mede. He trained and coached his son Jimmy Pedro Jr., who became an Olympic bronze medalist and World Champion.
+hasTeacherAssertion:
+  - id: 01M3YH7N5GGA2Y1K3M7W0NQR7T
+    teacher: 01KYMDKKCPYDWDG932E20FNA8R
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Black Belt Magazine (June 1978) states Jimmy Pedro (Sr.) began studying with Edmund Mede at age 19
+    hasInteraction:
+      - hasEvidence:
+          - uri: https://books.google.pt/books?id=udUDAAAAMBAJ&pg=PA49
+            cite: Black Belt Magazine (June 1978)
+            locator: '49'
+            locatorLabel: page
+            quotation: A latecomer to judo, Pedro was 19 when he began studying with national heavyweight champion and international gold medalist, Edmund Mede
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYMDKKCPXDW4BV3RPTW7G8HZ
+    cite: Jimmy Pedro (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - olympic-alternate

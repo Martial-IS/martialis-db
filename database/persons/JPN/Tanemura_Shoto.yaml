@@ -1,0 +1,85 @@
+type: Person
+id: 01M5HNGWYJQ1HTXQ5FQ5PZWC1E
+name:
+  ja-Latn: Tanemura Shōtō
+aka:
+  ja-Latn: Tanemura Tsunehisa
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+description:
+  en: >-
+    Japanese martial artist (born 1947), a student of Kimura Masaji, Sato Kinbei and Hatsumi Masaaki,
+    who founded the Genbukan in 1984 to propagate Takamatsu Toshitsugu's traditions.
+hasTeacherAssertion:
+  - id: 01M5HNGWYJPSYCVQYR1HMSE7RX
+    teacher: 01M5HNGWYJSJR9NEVJ7A5QXZM7
+    assertedStyle: 01M5H4EE3XTQ71T3X541Y6MZYJ
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              In 1984, Tanemura (Tsunehisa) Shoto (1947–), who was a student of and trained with Kimura,
+              Sato, and Hatsumi, established his Genbukan organization and began to propagate Takamatsu’s
+              traditions.
+            locator: '170'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5HNGWYJ52SP9FBQECPTE9WN
+    teacher: 01M5HNGWYJKNBH3DYT18G4CAPY
+    assertedStyle: 01M5H4EE3XTQ71T3X541Y6MZYJ
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              In 1984, Tanemura (Tsunehisa) Shoto (1947–), who was a student of and trained with Kimura,
+              Sato, and Hatsumi, established his Genbukan organization and began to propagate Takamatsu’s
+              traditions.
+            locator: '170'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5HNGWYJFV6JPCFNBG23Z42V
+    teacher: 01M5H4EE3XKYP8N2XDHWF8D97G
+    assertedStyle: 01M5H4EE3XTQ71T3X541Y6MZYJ
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              In 1984, Tanemura (Tsunehisa) Shoto (1947–), who was a student of and trained with Kimura,
+              Sato, and Hatsumi, established his Genbukan organization and began to propagate Takamatsu’s
+              traditions.
+            locator: '170'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: '170'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3482795
+tags:
+  - ninjutsu

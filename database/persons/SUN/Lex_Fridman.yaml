@@ -1,0 +1,174 @@
+type: Person
+id: 01KZRA7SNMKFET4JQ46G8PCZFA
+name:
+  en: Lex Fridman
+aka:
+  en:
+  - Alexei Fridman
+nationality:
+- countryCode: eucountry:SUN
+  wikidata: wd:Q15180
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+birthEvent:
+  birthDate: '1983-08-15'
+  birthPlace:
+    label: Buston
+    countryCode: eucountry:SUN
+    wikidata: wd:Q2997217
+  hasEvidence:
+  - basedOnSource: 01KZRA7SNM5AMNS6PV2NCJBQG4
+    quotation: Fridman was born in Chkalovsk, Tajik Soviet Socialist Republic, and grew up in Moscow.
+      [...] When he was about 11, soon after the collapse of the Soviet Union, Fridman's family moved from
+      Russia to the Chicago area.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://www.wikidata.org/wiki/Q76448707
+    quotation: >-
+      date of birth 15 August 1983
+    cite: Lex Fridman - Wikidata
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/5/50/Lex_Fridman_teaching_at_MIT_in_2018.png
+  rights: mediarights:cc0-1.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Lex_Fridman_teaching_at_MIT_in_2018.png
+    cite: "lexfridman, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: 'Soviet-born American computer scientist and podcaster, host of the Lex Fridman Podcast. Born in
+
+    the Tajik Soviet Socialist Republic in 1983, his family moved to the Chicago area shortly after
+
+    the collapse of the Soviet Union. Trained Brazilian jiu-jitsu at Balance Studios in Philadelphia
+
+    under the Migliarese brothers, Phil and Ricardo, who guided him from white belt to black belt
+
+    and awarded him the first stripe on his black belt in April 2023.
+
+    '
+hasTeacherAssertion:
+- id: 01M3YH7N5GW5NJ1F9G515CDHHY
+  teacher: 01KZRA7SNMKMH1HMMQEAS29X94
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Lex Fridman's own Instagram post, quoted by Jiu-Jitsu Times and Jits Magazine,
+      names Phil and Rick Migliarese as the instructors who guided him from white belt to black belt;
+      Wikipedia corroborates that Phil Migliarese awarded a black belt to Lex Fridman
+  hasInteraction:
+  - interactionPlace: 01KZRA7SNMVWK28RJGRX690B7A
+    hasEvidence:
+    - basedOnSource: 01KZRA7SNMDM53KK6TMKKP3NS6
+      quotation: I got a stripe on my jiu jitsu black belt today from Phil and Rick Migliarese who guided
+        me from white belt to black belt, as mentors and friends.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZRA7SNMQ0E1TR6KQ7Z3FVAF
+      quotation: Migliarese also awarded a black belt to research scientist and podcaster Lex Fridman.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M3YH7N5GKM4T70Q5HGVDQQZX
+  teacher: 01KZRA7SNMVZ4732D5Z1V2GDEE
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Lex Fridman's own Instagram post, quoted by Jiu-Jitsu Times and Jits Magazine,
+      names Phil and Rick Migliarese as the instructors who guided him from white belt to black belt;
+      Wikipedia corroborates that Ricardo Migliarese awarded a black belt to Lex Fridman
+  hasInteraction:
+  - interactionPlace: 01KZRA7SNMVWK28RJGRX690B7A
+    hasEvidence:
+    - basedOnSource: 01KZRA7SNMDM53KK6TMKKP3NS6
+      quotation: I got a stripe on my jiu jitsu black belt today from Phil and Rick Migliarese who guided
+        me from white belt to black belt, as mentors and friends.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZRA7SNM80PS491Y0NFBY8NX
+      quotation: Migliarese also awarded a black belt to research scientist and podcaster Lex Fridman.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M3YH7N5GDY7RD80QH3EHE42B
+  rankStyle: 01KJJAWN29MA64W22606R3WD9J
+  rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+  rankGrade: rankgrade:bjj_black
+  dateConferred: 2018-11
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Lex Fridman announced the promotion himself in a black belt speech video published
+      on his own YouTube channel on 11 November 2018, stating he received his BJJ black belt the previous
+      day from Phil and Ricardo Migliarese at Balance Studios after 9 years of training and competing
+  hasEvidence:
+  - basedOnSource: 01KZS3PSKK1T6WG2HDVGG0YE5N
+    quotation: I got my BJJ black belt yesterday from Phil Migliarese and Ricardo Migliarese at Balance
+      Studios after 9 years of hard training and competing.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5G301WTX67EY9P4VQY
+  rankStyle: 01KJJAWN29MA64W22606R3WD9J
+  rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+  rankOrdinal: 1
+  rankGrade: rankgrade:bjj_black
+  dateConferred: 2023-04
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Jiu-Jitsu Times and Jits Magazine both report that Lex Fridman was awarded the
+      first degree on his BJJ black belt by the Migliarese brothers in April 2023, announced via his own
+      Instagram post, roughly four and a half years after his black belt promotion in November 2018
+  hasEvidence:
+  - basedOnSource: 01KZRA7SNMDM53KK6TMKKP3NS6
+    quotation: Lex Fridman Awarded First Stripe on Black Belt by Philadelphia's Migliarese Brothers
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZRA7SNMMM7YBR8Q0QTVDCB5
+    quotation: Popular podcaster and veteran grappler Lex Fridman has just been awarded the first degree
+      on his BJJ black belt by both Rick and Phil Migliarese at Balance Studios in Philadelphia, Pennsylvania.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+- id: 01M3YH7N5GPJA4WVY58H9EZDT9
+  rankStyle: 01KJJAWN29MA64W22606R3WD9B
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan_unspecified
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      BJJ Eastern Europe describes Lex Fridman as a Brazilian Jiu-Jitsu and Judo black belt in a report
+      on a judo training session with Travis Stevens; the claim is not corroborated by a primary source
+      and the promotion date and granting instructor are unknown
+  hasEvidence:
+  - basedOnSource: 01KZS3PSKP0BMM7D77TKCXP7WT
+    quotation: In a detailed video featuring a judo session, Lex Fridman, a Brazilian Jiu-Jitsu and Judo
+      black belt and AI researcher, joins forces with Travis Stevens, a 2016 Olympic silver medalist in
+      judo.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01KZRA7SNM5AMNS6PV2NCJBQG4
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q76448707
+tags:
+- brazilian-jiu-jitsu
+- gracie-jiu-jitsu
+- podcaster

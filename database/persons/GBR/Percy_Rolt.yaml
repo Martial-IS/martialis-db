@@ -1,0 +1,41 @@
+type: Person
+id: 01M5JGQAC7KZ63B2PQQNHW46NM
+name:
+  en: Percy Rolt
+description:
+  en: >-
+    Member of the Bartitsu Club and student of Pierre Vigny in his walking-stick method, who passed it
+    on to H. G. Lang.
+notes: >-
+  Stub; no dates or nationality in the sources here. Named in en Wikipedia's Bartitsu article among the
+  club's members.
+hasTeacherAssertion:
+  - id: 01M5JGQAC7RJVF6N7MT7EYWBN5
+    teacher: 01M5JGQAC7CYFWR75P18PT4FD4
+    assertedStyle: 01M5JGQAC7V7W1GTRS53NMNXYY
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JGQAC7Y1X7WATDMAEV48N2
+            quotation: >-
+              which drew largely from the Vigny system via Lang's training with Vigny's student Percy
+              Rolt.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M0BCX1XW7EF50ANP0G8F9JX1
+    quotation: >-
+      Other members included expatriate French fencing master and journalist Anatole Paroissien and
+      messrs. Marshall, Collard, Marchant, Roger Noel, Percy Rolt
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - bartitsu
+  - stick-fighting

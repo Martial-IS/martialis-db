@@ -1,0 +1,3631 @@
+{
+  "$comment": "GENERATED FILE - DO NOT EDIT. Built by make model from model/martialis.yaml; regenerate with `make model && make model-install`.",
+  "$defs": {
+    "AffiliationAssertion": {
+      "additionalProperties": false,
+      "description": "A typed, sourced claim that the subject (a Place or Organization) is affiliated with, or descends from, the related Organization.",
+      "properties": {
+        "affiliationRelation": {
+          "$ref": "#/$defs/AffiliationRelation",
+          "description": "Relation kind: member_of, branch_of, recognised_by (ties) or derived_from, split_from, merged_from, replaces, renamed_from (organization genealogy)."
+        },
+        "atEvent": {
+          "description": "Optional link from an assertion or life event to the canonical Event record(s) it took place at. Multivalued.",
+          "items": {
+            "type": "string"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "hasConfidence": {
+          "$ref": "#/$defs/Confidence",
+          "description": "Links an Assertion to its Confidence assessment."
+        },
+        "hasEvidence": {
+          "description": "Links an entity (assertion, interaction, life event, or top-level entity) to its evidence records.",
+          "items": {
+            "$ref": "#/$defs/SourceAssertionRelation"
+          },
+          "type": "array"
+        },
+        "id": {
+          "description": "ULID of the record, or of a claim: every Assertion and Participation carries its own, the graded conclusions being exactly the nodes that have hasConfidence.",
+          "pattern": "^[0-9A-HJKMNP-TV-Z]{26}$",
+          "type": "string"
+        },
+        "notes": {
+          "description": "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "relatedOrganization": {
+          "description": "The organization the subject is affiliated with or descends from, as affiliationRelation says.",
+          "type": "string"
+        },
+        "validDuring": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/TimeInterval"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "The period during which an assertion held (used by DocumentTransmissionAssertion and AffiliationAssertion; teacher relationships carry periods on their interactions instead)."
+        }
+      },
+      "required": [
+        "affiliationRelation",
+        "hasConfidence",
+        "hasEvidence",
+        "relatedOrganization",
+        "id"
+      ],
+      "title": "AffiliationAssertion",
+      "type": "object"
+    },
+    "AffiliationRelation": {
+      "description": "Martialis Affiliation Relation Vocabulary",
+      "enum": [
+        "affrel:branch_of",
+        "affrel:derived_from",
+        "affrel:member_of",
+        "affrel:merged_from",
+        "affrel:recognised_by",
+        "affrel:renamed_from",
+        "affrel:replaces",
+        "affrel:split_from"
+      ],
+      "title": "AffiliationRelation",
+      "type": "string"
+    },
+    "Agent": {
+      "additionalProperties": false,
+      "description": "A person or an organization: the abstract superclass of Person and Organization.",
+      "title": "Agent",
+      "type": "object"
+    },
+    "Assertion": {
+      "additionalProperties": false,
+      "description": "A sourced claim nested in an entity record, typed by what it asserts: a teacher relationship, a rank, an honor, an affiliation, a style relation, a document transmission, a candidate identity, a historicity, a participation in an event, an instructor or officer role, or a membership. Every claim has its own ULID, so it keeps its identity when the claims around it are added, removed or reordered.",
+      "properties": {
+        "id": {
+          "description": "ULID of the record, or of a claim: every Assertion and Participation carries its own, the graded conclusions being exactly the nodes that have hasConfidence.",
+          "pattern": "^[0-9A-HJKMNP-TV-Z]{26}$",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id"
+      ],
+      "title": "Assertion",
+      "type": "object"
+    },
+    "Attribution": {
+      "additionalProperties": false,
+      "description": "Crediting a media item to a source; carries no supports semantics.",
+      "properties": {
+        "archiveUri": {
+          "format": "uri",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "basedOnSource": {
+          "description": "The Source backing this evidence record.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cite": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidenceType": {
+          "$ref": "#/$defs/EvidenceType",
+          "description": "How the cited information bears on the claim (Mills): direct, indirect or negative. Independent of martialis:supports, which gives the direction. Absent when not yet assessed."
+        },
+        "informationType": {
+          "$ref": "#/$defs/InformationType",
+          "description": "The informant's proximity to the specific fact cited (Mills): primary (first-hand), secondary (learned from others) or undetermined (the informant cannot be identified). Set per citation. Absent when not yet assessed."
+        },
+        "quotation": {
+          "description": "The passage of the source that states the claim, transcribed verbatim: the source's words, order, case and punctuation. Editorial interventions are square-bracketed, as in standard transcription: [...] for an omission inside the passage, [sic] after an error in the source, and a short clarifying insertion where the excerpt would be unclear without it; never a fact the source does not state.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "uri": {
+          "format": "uri",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "title": "Attribution",
+      "type": "object"
+    },
+    "BirthEvent": {
+      "additionalProperties": false,
+      "description": "A person's birth: its date, place and evidence.",
+      "properties": {
+        "birthDate": {
+          "description": "When the birth took place, in EDTF. Exported as the birth event's schema:startDate; the export also states a plain ISO date on the person as schema:birthDate.",
+          "pattern": "^(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|\\.\\.|unknown)/(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|\\.\\.|unknown)|\\[(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?(?:,(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?)+\\])$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "birthPlace": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/GeoRef"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Where the birth took place. Exported as the birth event's schema:location; the export also states it on the person as schema:birthPlace."
+        },
+        "dateCalendar": {
+          "$ref": "#/$defs/DateCalendar",
+          "description": "Calendar system a source's own date was expressed in: julian, japanese-nengo, japanese-lunisolar, other-lunisolar, or other."
+        },
+        "dateOriginal": {
+          "description": "Free-text date as given by the source, when it differs from the Gregorian-equivalent EDTF value in the paired date property. Paired with martialis:dateCalendar.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "hasEvidence": {
+          "description": "Links an entity (assertion, interaction, life event, or top-level entity) to its evidence records.",
+          "items": {
+            "$ref": "#/$defs/SourceAssertionRelation"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        }
+      },
+      "title": "BirthEvent",
+      "type": "object"
+    },
+    "Confidence": {
+      "additionalProperties": false,
+      "description": "A confidence assessment applied to an assertion.",
+      "properties": {
+        "assessedBy": {
+          "description": "The agent who performed the confidence assessment (https://martial.is/agent/).",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "confidenceLevel": {
+          "$ref": "#/$defs/ConfidenceLevel",
+          "description": "The curator's conclusion about the claim after weighing all its evidence: refuted, doubtful, possible, probable or confirmed, ordered by martialis:gradeOrdinal. A certainty scale only: contested evidence is carried by martialis:supports false, not by a level."
+        },
+        "confidenceRationale": {
+          "description": "Free-text justification for the confidence level: what the evidence does and does not establish.",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "confidenceLevel"
+      ],
+      "title": "Confidence",
+      "type": "object"
+    },
+    "ConfidenceLevel": {
+      "description": "Martialis Confidence Level Vocabulary",
+      "enum": [
+        "conflevel:confirmed",
+        "conflevel:doubtful",
+        "conflevel:possible",
+        "conflevel:probable",
+        "conflevel:refuted"
+      ],
+      "title": "ConfidenceLevel",
+      "type": "string"
+    },
+    "Contributor": {
+      "additionalProperties": false,
+      "description": "A person or body credited on a Source in a CSL contributor role, named in CSL name parts and optionally linked to a Person or Organization record.",
+      "properties": {
+        "contributorOrg": {
+          "description": "Links a corporate contributor (e.g. an editorial board credited as a body) to its own Organization entry, when it is in the database.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "contributorPerson": {
+          "description": "Links a contributor to their own Person entry, when one exists.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "contributorRole": {
+          "$ref": "#/$defs/ContributorRole",
+          "description": "CSL's 26-value contributor role vocabulary: author, editor, translator, interviewer, director, compiler, illustrator, and others."
+        },
+        "droppingParticle": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "family": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "given": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "literal": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "nonDroppingParticle": {
+          "description": "CSL name-variable non-dropping-particle: a name part retained when the name is alphabetized (e.g. 'de' in 'de Gaulle, Charles').",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "suffix": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "contributorRole"
+      ],
+      "title": "Contributor",
+      "type": "object"
+    },
+    "ContributorRole": {
+      "description": "CSL contributor role.",
+      "enum": [
+        "author",
+        "chair",
+        "collection-editor",
+        "compiler",
+        "composer",
+        "container-author",
+        "contributor",
+        "curator",
+        "director",
+        "editor",
+        "editorial-director",
+        "executive-producer",
+        "guest",
+        "host",
+        "illustrator",
+        "interviewer",
+        "narrator",
+        "organizer",
+        "original-author",
+        "performer",
+        "producer",
+        "recipient",
+        "reviewed-author",
+        "script-writer",
+        "series-creator",
+        "translator"
+      ],
+      "title": "ContributorRole",
+      "type": "string"
+    },
+    "Coordinates": {
+      "additionalProperties": false,
+      "description": "A WGS84 point. Latitude and longitude are both required, so a coordinate cannot be recorded half-formed.",
+      "properties": {
+        "latitude": {
+          "description": "WGS84 latitude in decimal degrees. Double, not decimal: JSON-LD serialises a fractional number in exponential form (e.g. \"3.57E1\"), which is an ill-formed xsd:decimal lexical but a valid xsd:double one.",
+          "maximum": 90,
+          "minimum": -90,
+          "type": "number"
+        },
+        "longitude": {
+          "description": "WGS84 longitude in decimal degrees.",
+          "maximum": 180,
+          "minimum": -180,
+          "type": "number"
+        }
+      },
+      "required": [
+        "latitude",
+        "longitude"
+      ],
+      "title": "Coordinates",
+      "type": "object"
+    },
+    "DateCalendar": {
+      "description": "Martialis Date Calendar Vocabulary",
+      "enum": [
+        "datecal:japanese_lunisolar",
+        "datecal:japanese_nengo",
+        "datecal:julian",
+        "datecal:other",
+        "datecal:other_lunisolar"
+      ],
+      "title": "DateCalendar",
+      "type": "string"
+    },
+    "DeathEvent": {
+      "additionalProperties": false,
+      "description": "A person's death: its date, place and evidence.",
+      "properties": {
+        "dateCalendar": {
+          "$ref": "#/$defs/DateCalendar",
+          "description": "Calendar system a source's own date was expressed in: julian, japanese-nengo, japanese-lunisolar, other-lunisolar, or other."
+        },
+        "dateOriginal": {
+          "description": "Free-text date as given by the source, when it differs from the Gregorian-equivalent EDTF value in the paired date property. Paired with martialis:dateCalendar.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "deathDate": {
+          "description": "When the death took place, in EDTF. Exported as the death event's schema:startDate; the export also states a plain ISO date on the person as schema:deathDate.",
+          "pattern": "^(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|\\.\\.|unknown)/(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|\\.\\.|unknown)|\\[(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?(?:,(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?)+\\])$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "deathPlace": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/GeoRef"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Where the death took place. Exported as the death event's schema:location; the export also states it on the person as schema:deathPlace."
+        },
+        "hasEvidence": {
+          "description": "Links an entity (assertion, interaction, life event, or top-level entity) to its evidence records.",
+          "items": {
+            "$ref": "#/$defs/SourceAssertionRelation"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        }
+      },
+      "title": "DeathEvent",
+      "type": "object"
+    },
+    "DissolutionEvent": {
+      "additionalProperties": false,
+      "description": "The end of a place, organization, style or ranking system: its date, place, manner, reason and evidence.",
+      "properties": {
+        "atEvent": {
+          "description": "Optional link from an assertion or life event to the canonical Event record(s) it took place at. Multivalued.",
+          "items": {
+            "type": "string"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "dateCalendar": {
+          "$ref": "#/$defs/DateCalendar",
+          "description": "Calendar system a source's own date was expressed in: julian, japanese-nengo, japanese-lunisolar, other-lunisolar, or other."
+        },
+        "dateOriginal": {
+          "description": "Free-text date as given by the source, when it differs from the Gregorian-equivalent EDTF value in the paired date property. Paired with martialis:dateCalendar.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "dissolutionManner": {
+          "$ref": "#/$defs/DissolutionManner",
+          "description": "Organization-only. How the organization ended: merged, split, superseded, suppressed, renamed, defunct, or unknown."
+        },
+        "dissolutionReason": {
+          "description": "Free-text detail of how and why the entity ended that no closed vocabulary carries: a decree number, an occupation order, the terms of a unification.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "endDate": {
+          "pattern": "^(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|\\.\\.|unknown)/(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|\\.\\.|unknown)|\\[(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?(?:,(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?)+\\])$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "eventPlace": {
+          "description": "The Place an Event, FoundingEvent or DissolutionEvent happened at. Narrower than schema:location, but mapped to it rather than a sub-property of it: on these classes schema:location holds only the GeoRef of the location slot.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "hasEvidence": {
+          "description": "Links an entity (assertion, interaction, life event, or top-level entity) to its evidence records.",
+          "items": {
+            "$ref": "#/$defs/SourceAssertionRelation"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "location": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/GeoRef"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "An embedded place reference (free-text label, country code, optional authority IRI and point), not a Place entity. Carried by Site (where a Place or Organization is) and by Event and the life events (where something happened); a Place or Organization has no location of its own. The specific Place an event happened at is martialis:eventPlace; keeping the two on separate predicates keeps a Place entity and a GeoRef apart."
+        }
+      },
+      "title": "DissolutionEvent",
+      "type": "object"
+    },
+    "DissolutionManner": {
+      "description": "Martialis Dissolution Manner Vocabulary",
+      "enum": [
+        "dissmanner:defunct",
+        "dissmanner:merged",
+        "dissmanner:renamed",
+        "dissmanner:split",
+        "dissmanner:superseded",
+        "dissmanner:suppressed",
+        "dissmanner:unknown"
+      ],
+      "title": "DissolutionManner",
+      "type": "string"
+    },
+    "DocumentTransmissionAssertion": {
+      "additionalProperties": false,
+      "description": "A claim that the subject (Person) learned from a document rather than a person (densho, manual, book, video), referenced via transmissionDocument.",
+      "properties": {
+        "assertedStyle": {
+          "description": "The style associated with a teacher-student assertion, denial, or document-transmission claim (assertedStyle).",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "atEvent": {
+          "description": "Optional link from an assertion or life event to the canonical Event record(s) it took place at. Multivalued.",
+          "items": {
+            "type": "string"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "hasConfidence": {
+          "$ref": "#/$defs/Confidence",
+          "description": "Links an Assertion to its Confidence assessment."
+        },
+        "hasEvidence": {
+          "description": "Links an entity (assertion, interaction, life event, or top-level entity) to its evidence records.",
+          "items": {
+            "$ref": "#/$defs/SourceAssertionRelation"
+          },
+          "type": "array"
+        },
+        "id": {
+          "description": "ULID of the record, or of a claim: every Assertion and Participation carries its own, the graded conclusions being exactly the nodes that have hasConfidence.",
+          "pattern": "^[0-9A-HJKMNP-TV-Z]{26}$",
+          "type": "string"
+        },
+        "notes": {
+          "description": "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "transmissionDocument": {
+          "description": "The document (densho, manual, book, video) through which the transmission occurred.",
+          "type": "string"
+        },
+        "validDuring": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/TimeInterval"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "The period during which an assertion held (used by DocumentTransmissionAssertion and AffiliationAssertion; teacher relationships carry periods on their interactions instead)."
+        }
+      },
+      "required": [
+        "transmissionDocument",
+        "hasConfidence",
+        "hasEvidence",
+        "id"
+      ],
+      "title": "DocumentTransmissionAssertion",
+      "type": "object"
+    },
+    "EditionOf": {
+      "additionalProperties": false,
+      "description": "The work a Source is an edition, translation, reprint or facsimile of, and the kind of relation.",
+      "properties": {
+        "editionOfSource": {
+          "description": "The work this edition/translation/reprint/facsimile is of. Aligned with dcterms:isVersionOf (\"a resource of which the described resource is a version, edition, or adaptation\").",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "editionRelationType": {
+          "$ref": "#/$defs/EditionRelation",
+          "description": "edition | translation | reprint | facsimile."
+        }
+      },
+      "title": "EditionOf",
+      "type": "object"
+    },
+    "EditionRelation": {
+      "description": "Martialis Edition Relation Vocabulary",
+      "enum": [
+        "editrel:edition",
+        "editrel:facsimile",
+        "editrel:reprint",
+        "editrel:translation"
+      ],
+      "title": "EditionRelation",
+      "type": "string"
+    },
+    "Event": {
+      "additionalProperties": false,
+      "description": "A dated happening in martial-arts history: a tournament, grading, seminar, course or ceremony. Claims point at it with martialis:atEvent.",
+      "properties": {
+        "about": {
+          "items": {
+            "type": "string"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "aka": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/LanguageMap"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Alternative names, as a language map."
+        },
+        "dateCalendar": {
+          "$ref": "#/$defs/DateCalendar",
+          "description": "Calendar system a source's own date was expressed in: julian, japanese-nengo, japanese-lunisolar, other-lunisolar, or other."
+        },
+        "dateOriginal": {
+          "description": "Free-text date as given by the source, when it differs from the Gregorian-equivalent EDTF value in the paired date property. Paired with martialis:dateCalendar.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "description": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/LanguageMap"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Reader-facing description, as a language map."
+        },
+        "eventDate": {
+          "pattern": "^(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|\\.\\.|unknown)/(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|\\.\\.|unknown)|\\[(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?(?:,(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?)+\\])$",
+          "type": "string"
+        },
+        "eventPlace": {
+          "description": "The Place an Event, FoundingEvent or DissolutionEvent happened at. Narrower than schema:location, but mapped to it rather than a sub-property of it: on these classes schema:location holds only the GeoRef of the location slot.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "eventType": {
+          "$ref": "#/$defs/EventClassification",
+          "description": "Type of event: founding, tournament, challenge, seminar, course, demonstration, grading, ceremony, recognition, exchange, or other."
+        },
+        "hasEvidence": {
+          "description": "Links an entity (assertion, interaction, life event, or top-level entity) to its evidence records.",
+          "items": {
+            "$ref": "#/$defs/SourceAssertionRelation"
+          },
+          "type": "array"
+        },
+        "hasParticipation": {
+          "description": "Links an event to a participation record (participant or participantOrganization: who took part; participationRole: their role).",
+          "items": {
+            "$ref": "#/$defs/Participation"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "id": {
+          "description": "ULID of the record, or of a claim: every Assertion and Participation carries its own, the graded conclusions being exactly the nodes that have hasConfidence.",
+          "pattern": "^[0-9A-HJKMNP-TV-Z]{26}$",
+          "type": "string"
+        },
+        "location": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/GeoRef"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "An embedded place reference (free-text label, country code, optional authority IRI and point), not a Place entity. Carried by Site (where a Place or Organization is) and by Event and the life events (where something happened); a Place or Organization has no location of its own. The specific Place an event happened at is martialis:eventPlace; keeping the two on separate predicates keeps a Place entity and a GeoRef apart."
+        },
+        "name": {
+          "$ref": "#/$defs/LanguageMap",
+          "description": "Primary name, as a language map."
+        },
+        "notes": {
+          "description": "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "organizer": {
+          "items": {
+            "type": "string"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "photos": {
+          "description": "A gallery of depictions; the generic sdo:image relation.",
+          "items": {
+            "$ref": "#/$defs/Photo"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "sameAs": {
+          "description": "The same entity in an external authority, as a CURIE naming the entity itself (not a web page about it): wd: (Wikidata), dbr: (DBpedia), viaf:, isni:, lcnaf: (Library of Congress names), ndlna: (National Diet Library), orcid:. Nothing else belongs here: a web page, a Wikipedia article or an official site is not an identity.",
+          "items": {
+            "pattern": "^(wd:Q[1-9][0-9]*|dbr:[^\\s]+|viaf:[1-9][0-9]*|isni:[0-9]{15}[0-9X]|lcnaf:n[a-z]?[0-9]+|ndlna:[0-9]+|orcid:[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{3}[0-9X])$",
+            "type": "string"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "superEvent": {
+          "description": "A larger Event this one is part of.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "tags": {
+          "items": {
+            "type": "string"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "type": {
+          "description": "Entity class, designating the node type.",
+          "enum": [
+            "Event"
+          ],
+          "type": "string"
+        },
+        "videos": {
+          "items": {
+            "$ref": "#/$defs/Video"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "website": {
+          "format": "uri",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "name",
+        "eventType",
+        "eventDate",
+        "hasEvidence"
+      ],
+      "title": "Event",
+      "type": "object"
+    },
+    "EventClassification": {
+      "description": "Martialis Event Classification Vocabulary",
+      "enum": [
+        "eventclass:ceremony",
+        "eventclass:challenge",
+        "eventclass:course",
+        "eventclass:demonstration",
+        "eventclass:exchange",
+        "eventclass:founding",
+        "eventclass:grading",
+        "eventclass:other",
+        "eventclass:recognition",
+        "eventclass:seminar",
+        "eventclass:tournament"
+      ],
+      "title": "EventClassification",
+      "type": "string"
+    },
+    "EventRole": {
+      "description": "Martialis Event Role Vocabulary",
+      "enum": [
+        "eventrole:competitor",
+        "eventrole:demonstrator",
+        "eventrole:guest",
+        "eventrole:instructor",
+        "eventrole:official",
+        "eventrole:organizer",
+        "eventrole:other",
+        "eventrole:signatory"
+      ],
+      "title": "EventRole",
+      "type": "string"
+    },
+    "EvidenceType": {
+      "description": "Martialis Evidence Type Vocabulary",
+      "enum": [
+        "evidencetype:direct",
+        "evidencetype:indirect",
+        "evidencetype:negative"
+      ],
+      "title": "EvidenceType",
+      "type": "string"
+    },
+    "FoundingEvent": {
+      "additionalProperties": false,
+      "description": "The founding of a place, organization, style or ranking system: its date, place, founders and evidence.",
+      "properties": {
+        "atEvent": {
+          "description": "Optional link from an assertion or life event to the canonical Event record(s) it took place at. Multivalued.",
+          "items": {
+            "type": "string"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "dateCalendar": {
+          "$ref": "#/$defs/DateCalendar",
+          "description": "Calendar system a source's own date was expressed in: julian, japanese-nengo, japanese-lunisolar, other-lunisolar, or other."
+        },
+        "dateOriginal": {
+          "description": "Free-text date as given by the source, when it differs from the Gregorian-equivalent EDTF value in the paired date property. Paired with martialis:dateCalendar.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "eventPlace": {
+          "description": "The Place an Event, FoundingEvent or DissolutionEvent happened at. Narrower than schema:location, but mapped to it rather than a sub-property of it: on these classes schema:location holds only the GeoRef of the location slot.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "founder": {
+          "description": "Person(s) who founded the style, organization, or place. Multi-valued to support co-founders.",
+          "items": {
+            "type": "string"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "hasEvidence": {
+          "description": "Links an entity (assertion, interaction, life event, or top-level entity) to its evidence records.",
+          "items": {
+            "$ref": "#/$defs/SourceAssertionRelation"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "location": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/GeoRef"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "An embedded place reference (free-text label, country code, optional authority IRI and point), not a Place entity. Carried by Site (where a Place or Organization is) and by Event and the life events (where something happened); a Place or Organization has no location of its own. The specific Place an event happened at is martialis:eventPlace; keeping the two on separate predicates keeps a Place entity and a GeoRef apart."
+        },
+        "startDate": {
+          "pattern": "^(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|\\.\\.|unknown)/(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|\\.\\.|unknown)|\\[(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?(?:,(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?)+\\])$",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "title": "FoundingEvent",
+      "type": "object"
+    },
+    "GeoRef": {
+      "additionalProperties": false,
+      "description": "A place reference: free-text label plus an authority IRI.",
+      "properties": {
+        "countryCode": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "geo": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Coordinates"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "An optional WGS84 point, for a reference precise enough to show on a map. The wikidata IRI stays authoritative for identity; coordinates are for display."
+        },
+        "label": {
+          "description": "A plain, unlocalised display name (a location, a link).",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "wikidata": {
+          "description": "The Wikidata item that IS this source, place reference or nationality, as a wd: CURIE. A source has one only when it is a work with its own item (a book, a periodical); a Wikipedia article has none, and the item of its subject is not its identity. An entity record lists its identity links, Wikidata among them, in sameAs.",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "title": "GeoRef",
+      "type": "object"
+    },
+    "Historicity": {
+      "description": "Martialis Historicity Vocabulary",
+      "enum": [
+        "hist:composite",
+        "hist:historical",
+        "hist:legendary",
+        "hist:title"
+      ],
+      "title": "Historicity",
+      "type": "string"
+    },
+    "HistoricityAssertion": {
+      "additionalProperties": false,
+      "description": "A sourced claim about whether the subject existed as one historical individual: historical, legendary, composite, or a title. Recorded only when a source questions it. It does not cap the confidence of other claims about the subject.",
+      "properties": {
+        "hasConfidence": {
+          "$ref": "#/$defs/Confidence",
+          "description": "Links an Assertion to its Confidence assessment."
+        },
+        "hasEvidence": {
+          "description": "Links an entity (assertion, interaction, life event, or top-level entity) to its evidence records.",
+          "items": {
+            "$ref": "#/$defs/SourceAssertionRelation"
+          },
+          "type": "array"
+        },
+        "historicity": {
+          "$ref": "#/$defs/Historicity",
+          "description": "What the subject is, as the evidence shows it: historical, legendary, composite or title."
+        },
+        "id": {
+          "description": "ULID of the record, or of a claim: every Assertion and Participation carries its own, the graded conclusions being exactly the nodes that have hasConfidence.",
+          "pattern": "^[0-9A-HJKMNP-TV-Z]{26}$",
+          "type": "string"
+        },
+        "notes": {
+          "description": "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "hasConfidence",
+        "hasEvidence",
+        "historicity",
+        "id"
+      ],
+      "title": "HistoricityAssertion",
+      "type": "object"
+    },
+    "HonorAssertion": {
+      "additionalProperties": false,
+      "description": "A non-style-specific title, certificate, or honor (e.g. Hanshi, Kyoshi). Subject is the honored Person; conferredBy is the granting Organization.",
+      "properties": {
+        "atEvent": {
+          "description": "Optional link from an assertion or life event to the canonical Event record(s) it took place at. Multivalued.",
+          "items": {
+            "type": "string"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "conferredBy": {
+          "description": "The organization that conferred the rank or honor.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "dateCalendar": {
+          "$ref": "#/$defs/DateCalendar",
+          "description": "Calendar system a source's own date was expressed in: julian, japanese-nengo, japanese-lunisolar, other-lunisolar, or other."
+        },
+        "dateConferred": {
+          "description": "When the rank or honor was conferred, in EDTF.",
+          "pattern": "^(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|\\.\\.|unknown)/(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|\\.\\.|unknown)|\\[(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?(?:,(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?)+\\])$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "dateOriginal": {
+          "description": "Free-text date as given by the source, when it differs from the Gregorian-equivalent EDTF value in the paired date property. Paired with martialis:dateCalendar.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "grantedBy": {
+          "description": "Person that granted the rank or honor. Granting organizations use conferredBy.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "hasConfidence": {
+          "$ref": "#/$defs/Confidence",
+          "description": "Links an Assertion to its Confidence assessment."
+        },
+        "hasEvidence": {
+          "description": "Links an entity (assertion, interaction, life event, or top-level entity) to its evidence records.",
+          "items": {
+            "$ref": "#/$defs/SourceAssertionRelation"
+          },
+          "type": "array"
+        },
+        "honorGrade": {
+          "$ref": "#/$defs/HonorGrade",
+          "description": "The specific grade within an ordered honorific scheme, when the honor is a rung on a ladder; currently shogo (renshi/kyoshi/hanshi). The rung only; the conferring body is the assertion's conferredBy."
+        },
+        "honorType": {
+          "$ref": "#/$defs/HonorType",
+          "description": "Category of honor: title, certificate, noble_rank, license, decoration (a state or military order or medal), or other."
+        },
+        "honorValue": {
+          "description": "The honor as conferred, for example \"Kyoshi\" or \"Hanshi\".",
+          "type": "string"
+        },
+        "id": {
+          "description": "ULID of the record, or of a claim: every Assertion and Participation carries its own, the graded conclusions being exactly the nodes that have hasConfidence.",
+          "pattern": "^[0-9A-HJKMNP-TV-Z]{26}$",
+          "type": "string"
+        },
+        "notes": {
+          "description": "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "honorValue",
+        "hasConfidence",
+        "hasEvidence",
+        "id"
+      ],
+      "title": "HonorAssertion",
+      "type": "object"
+    },
+    "HonorGrade": {
+      "description": "Shogo Honorific Grade Vocabulary",
+      "enum": [
+        "honorgrade:shogo_hanshi",
+        "honorgrade:shogo_kyoshi",
+        "honorgrade:shogo_renshi"
+      ],
+      "title": "HonorGrade",
+      "type": "string"
+    },
+    "HonorType": {
+      "description": "Martialis Honor Type Vocabulary",
+      "enum": [
+        "honortype:certificate",
+        "honortype:decoration",
+        "honortype:license",
+        "honortype:noble_rank",
+        "honortype:other",
+        "honortype:title"
+      ],
+      "title": "HonorType",
+      "type": "string"
+    },
+    "IdentityAssertion": {
+      "additionalProperties": false,
+      "description": "A sourced hypothesis that the subject and the identity candidate may be the same individual, for example under another name. Weaker than owl:sameAs.",
+      "properties": {
+        "hasConfidence": {
+          "$ref": "#/$defs/Confidence",
+          "description": "Links an Assertion to its Confidence assessment."
+        },
+        "hasEvidence": {
+          "description": "Links an entity (assertion, interaction, life event, or top-level entity) to its evidence records.",
+          "items": {
+            "$ref": "#/$defs/SourceAssertionRelation"
+          },
+          "type": "array"
+        },
+        "id": {
+          "description": "ULID of the record, or of a claim: every Assertion and Participation carries its own, the graded conclusions being exactly the nodes that have hasConfidence.",
+          "pattern": "^[0-9A-HJKMNP-TV-Z]{26}$",
+          "type": "string"
+        },
+        "identityCandidate": {
+          "description": "The Person record that may be the same individual as the subject.",
+          "type": "string"
+        },
+        "notes": {
+          "description": "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "hasConfidence",
+        "hasEvidence",
+        "identityCandidate",
+        "id"
+      ],
+      "title": "IdentityAssertion",
+      "type": "object"
+    },
+    "InformationType": {
+      "description": "Martialis Information Type Vocabulary",
+      "enum": [
+        "infotype:primary",
+        "infotype:secondary",
+        "infotype:undetermined"
+      ],
+      "title": "InformationType",
+      "type": "string"
+    },
+    "InstructorCapacity": {
+      "description": "Martialis Instructor Capacity Vocabulary",
+      "enum": [
+        "instrcap:guest",
+        "instrcap:head_instructor",
+        "instrcap:instructor",
+        "instrcap:technical_director"
+      ],
+      "title": "InstructorCapacity",
+      "type": "string"
+    },
+    "InstructorRole": {
+      "additionalProperties": false,
+      "description": "A time-bounded, sourced record that a Person served on the instructional staff of a Place. Not a teacher-student claim.",
+      "properties": {
+        "hasConfidence": {
+          "$ref": "#/$defs/Confidence",
+          "description": "Links an Assertion to its Confidence assessment."
+        },
+        "hasEvidence": {
+          "description": "Links an entity (assertion, interaction, life event, or top-level entity) to its evidence records.",
+          "items": {
+            "$ref": "#/$defs/SourceAssertionRelation"
+          },
+          "type": "array"
+        },
+        "id": {
+          "description": "ULID of the record, or of a claim: every Assertion and Participation carries its own, the graded conclusions being exactly the nodes that have hasConfidence.",
+          "pattern": "^[0-9A-HJKMNP-TV-Z]{26}$",
+          "type": "string"
+        },
+        "instructor": {
+          "description": "The person who taught at the venue. A venue-staff fact only; it asserts nothing about students.",
+          "type": "string"
+        },
+        "instructorCapacity": {
+          "$ref": "#/$defs/InstructorCapacity",
+          "description": "Capacity: head_instructor, instructor, technical_director, guest."
+        },
+        "instructorPeriod": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/TimeInterval"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "The period during which this person served on the venue's instructional staff."
+        },
+        "instructorStyle": {
+          "description": "Which programme at the venue this instructor role covers (e.g. an MMA class vs a separately-graded BJJ class).",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "description": "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "instructor",
+        "hasConfidence",
+        "hasEvidence",
+        "id"
+      ],
+      "title": "InstructorRole",
+      "type": "object"
+    },
+    "LanguageMap": {
+      "additionalProperties": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          }
+        ]
+      },
+      "type": "object"
+    },
+    "LifeEvent": {
+      "additionalProperties": false,
+      "description": "A dated event in the life of a person, place, organization, style or ranking system: a birth, death, founding or dissolution.",
+      "title": "LifeEvent",
+      "type": "object"
+    },
+    "MediaRights": {
+      "description": "Martialis Media Rights Vocabulary",
+      "enum": [
+        "mediarights:attribution",
+        "mediarights:cc-by-2.0",
+        "mediarights:cc-by-2.5",
+        "mediarights:cc-by-3.0",
+        "mediarights:cc-by-4.0",
+        "mediarights:cc-by-sa-2.0",
+        "mediarights:cc-by-sa-2.0-at",
+        "mediarights:cc-by-sa-2.5",
+        "mediarights:cc-by-sa-3.0",
+        "mediarights:cc-by-sa-3.0-de",
+        "mediarights:cc-by-sa-3.0-nl",
+        "mediarights:cc-by-sa-4.0",
+        "mediarights:cc0-1.0",
+        "mediarights:copyright_undetermined",
+        "mediarights:in_copyright",
+        "mediarights:no_known_copyright",
+        "mediarights:public_domain_mark"
+      ],
+      "title": "MediaRights",
+      "type": "string"
+    },
+    "Membership": {
+      "additionalProperties": false,
+      "description": "A sourced claim that a Person was a member of an Organization, with no office implied. An office is an OfficerRole; an organization's membership of another organization is an AffiliationAssertion.",
+      "properties": {
+        "hasConfidence": {
+          "$ref": "#/$defs/Confidence",
+          "description": "Links an Assertion to its Confidence assessment."
+        },
+        "hasEvidence": {
+          "description": "Links an entity (assertion, interaction, life event, or top-level entity) to its evidence records.",
+          "items": {
+            "$ref": "#/$defs/SourceAssertionRelation"
+          },
+          "type": "array"
+        },
+        "id": {
+          "description": "ULID of the record, or of a claim: every Assertion and Participation carries its own, the graded conclusions being exactly the nodes that have hasConfidence.",
+          "pattern": "^[0-9A-HJKMNP-TV-Z]{26}$",
+          "type": "string"
+        },
+        "member": {
+          "description": "The person who was a member.",
+          "type": "string"
+        },
+        "membershipPeriod": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/TimeInterval"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "The period of this membership, when the sources date it."
+        },
+        "notes": {
+          "description": "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "member",
+        "hasConfidence",
+        "hasEvidence",
+        "id"
+      ],
+      "title": "Membership",
+      "type": "object"
+    },
+    "NationalityEntry": {
+      "additionalProperties": false,
+      "description": "One nationality of a person: a country code, optionally with its Wikidata item.",
+      "properties": {
+        "countryCode": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "wikidata": {
+          "description": "The Wikidata item that IS this source, place reference or nationality, as a wd: CURIE. A source has one only when it is a work with its own item (a book, a periodical); a Wikipedia article has none, and the item of its subject is not its identity. An entity record lists its identity links, Wikidata among them, in sameAs.",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "title": "NationalityEntry",
+      "type": "object"
+    },
+    "OfficerRole": {
+      "additionalProperties": false,
+      "description": "A time-bounded, sourced record that a Person held an officer position in an Organization or at a Place. Distinct from HonorAssertion, which has no natural end.",
+      "properties": {
+        "hasConfidence": {
+          "$ref": "#/$defs/Confidence",
+          "description": "Links an Assertion to its Confidence assessment."
+        },
+        "hasEvidence": {
+          "description": "Links an entity (assertion, interaction, life event, or top-level entity) to its evidence records.",
+          "items": {
+            "$ref": "#/$defs/SourceAssertionRelation"
+          },
+          "type": "array"
+        },
+        "id": {
+          "description": "ULID of the record, or of a claim: every Assertion and Participation carries its own, the graded conclusions being exactly the nodes that have hasConfidence.",
+          "pattern": "^[0-9A-HJKMNP-TV-Z]{26}$",
+          "type": "string"
+        },
+        "notes": {
+          "description": "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "officer": {
+          "description": "The person who held the office.",
+          "type": "string"
+        },
+        "officerPeriod": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/TimeInterval"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "The tenure period of this officer record; a real end (expiry, resignation, succession) is what distinguishes it from a Honor."
+        },
+        "officerTitle": {
+          "description": "Office held, e.g. President, Vice-President, Teaching Coordinator, Secretary-General. Free text.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "officer",
+        "officerTitle",
+        "hasConfidence",
+        "hasEvidence",
+        "id"
+      ],
+      "title": "OfficerRole",
+      "type": "object"
+    },
+    "OrgClassification": {
+      "description": "Martialis Organization Classification Vocabulary",
+      "enum": [
+        "orgclass:association",
+        "orgclass:committee",
+        "orgclass:federation",
+        "orgclass:governing_body",
+        "orgclass:other",
+        "orgclass:school"
+      ],
+      "title": "OrgClassification",
+      "type": "string"
+    },
+    "Organization": {
+      "additionalProperties": false,
+      "description": "An association, federation, governing body or lineage organization: a body that acts, governs or confers. A school or training establishment is a Place, even when it employs staff and has a head.",
+      "properties": {
+        "aka": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/LanguageMap"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Alternative names, as a language map."
+        },
+        "description": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/LanguageMap"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Reader-facing description, as a language map."
+        },
+        "dissolvedEvent": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/DissolutionEvent"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Dissolution event, if applicable. Used by Style, Organization, and Place."
+        },
+        "foundedEvent": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/FoundingEvent"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Founding event with date, location, and sources. Used by Style, Organization, Place, and RankingSystem (YAML 'instituted')."
+        },
+        "hasAffiliationAssertion": {
+          "description": "Domain intentionally omitted: applies to both Place and Organization.",
+          "items": {
+            "$ref": "#/$defs/AffiliationAssertion"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "hasEvidence": {
+          "description": "Links an entity (assertion, interaction, life event, or top-level entity) to its evidence records.",
+          "items": {
+            "$ref": "#/$defs/SourceAssertionRelation"
+          },
+          "type": "array"
+        },
+        "hasMembership": {
+          "description": "Links an Organization to the records of its individual members.",
+          "items": {
+            "$ref": "#/$defs/Membership"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "hasOfficerRole": {
+          "description": "Links an Organization or Place to a record of someone who held office there. Domain intentionally omitted: an office can be held in an Organization or at a Place.",
+          "items": {
+            "$ref": "#/$defs/OfficerRole"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "hasSite": {
+          "description": "The sites this establishment or body occupied, one entry per site, dated when the sources date the moves. Required on Place, optional on Organization. The only home for where a Place or Organization is.",
+          "items": {
+            "$ref": "#/$defs/Site"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "id": {
+          "description": "ULID of the record, or of a claim: every Assertion and Participation carries its own, the graded conclusions being exactly the nodes that have hasConfidence.",
+          "pattern": "^[0-9A-HJKMNP-TV-Z]{26}$",
+          "type": "string"
+        },
+        "logo": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Photo"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "name": {
+          "$ref": "#/$defs/LanguageMap",
+          "description": "Primary name, as a language map."
+        },
+        "notes": {
+          "description": "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "orgType": {
+          "$ref": "#/$defs/OrgClassification",
+          "description": "Type: federation, governing_body, school, association, other. 'school' here is a teaching lineage, not an education institution."
+        },
+        "photos": {
+          "description": "A gallery of depictions; the generic sdo:image relation.",
+          "items": {
+            "$ref": "#/$defs/Photo"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "sameAs": {
+          "description": "The same entity in an external authority, as a CURIE naming the entity itself (not a web page about it): wd: (Wikidata), dbr: (DBpedia), viaf:, isni:, lcnaf: (Library of Congress names), ndlna: (National Diet Library), orcid:. Nothing else belongs here: a web page, a Wikipedia article or an official site is not an identity.",
+          "items": {
+            "pattern": "^(wd:Q[1-9][0-9]*|dbr:[^\\s]+|viaf:[1-9][0-9]*|isni:[0-9]{15}[0-9X]|lcnaf:n[a-z]?[0-9]+|ndlna:[0-9]+|orcid:[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{3}[0-9X])$",
+            "type": "string"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "tags": {
+          "items": {
+            "type": "string"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "type": {
+          "description": "Entity class, designating the node type.",
+          "enum": [
+            "Organization"
+          ],
+          "type": "string"
+        },
+        "videos": {
+          "items": {
+            "$ref": "#/$defs/Video"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "website": {
+          "format": "uri",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "name",
+        "orgType",
+        "hasEvidence"
+      ],
+      "title": "Organization",
+      "type": "object"
+    },
+    "Participation": {
+      "additionalProperties": false,
+      "description": "A participation record in an Event: the participating agent (a Person as participant, or an Organization as participantOrganization), their role, and the evidence.",
+      "properties": {
+        "hasConfidence": {
+          "$ref": "#/$defs/Confidence",
+          "description": "Links an Assertion to its Confidence assessment."
+        },
+        "hasEvidence": {
+          "description": "Links an entity (assertion, interaction, life event, or top-level entity) to its evidence records.",
+          "items": {
+            "$ref": "#/$defs/SourceAssertionRelation"
+          },
+          "type": "array"
+        },
+        "id": {
+          "description": "ULID of the record, or of a claim: every Assertion and Participation carries its own, the graded conclusions being exactly the nodes that have hasConfidence.",
+          "pattern": "^[0-9A-HJKMNP-TV-Z]{26}$",
+          "type": "string"
+        },
+        "notes": {
+          "description": "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "participant": {
+          "description": "The participating person.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "participantOrganization": {
+          "description": "The participating Organization of a Participation, when no person is named. A distinct predicate from participant, because the two value shapes (Person and Organization) cannot share one IRI.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "participationRole": {
+          "$ref": "#/$defs/EventRole",
+          "description": "The role an agent played in an Event: competitor, official, organizer, demonstrator, guest, instructor, signatory, or other. A student's attendance is a TeacherAssertion on the student's record, linked with martialis:atEvent."
+        },
+        "participationStyle": {
+          "description": "The style a participant specifically taught or practised at this event. Optional; omitted on single-style events.",
+          "items": {
+            "type": "string"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "participationRole",
+        "hasConfidence",
+        "hasEvidence",
+        "id"
+      ],
+      "title": "Participation",
+      "type": "object"
+    },
+    "PeerReview": {
+      "description": "Martialis Peer Review Status Vocabulary",
+      "enum": [
+        "peerreview:not_peer_reviewed",
+        "peerreview:peer_reviewed"
+      ],
+      "title": "PeerReview",
+      "type": "string"
+    },
+    "Person": {
+      "additionalProperties": false,
+      "description": "A person recorded in the database: the subject of lineage, rank and honor claims, or a party to them such as a teacher, an examiner or an author.",
+      "properties": {
+        "aka": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/LanguageMap"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Alternative names, as a language map."
+        },
+        "birthEvent": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/BirthEvent"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Links a Person to their birth LifeEvent, which carries the date, location, and sources."
+        },
+        "deathEvent": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/DeathEvent"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Links a Person to their death LifeEvent, which carries the date, location, and sources."
+        },
+        "description": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/LanguageMap"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Reader-facing description, as a language map."
+        },
+        "hasDocumentTransmissionAssertion": {
+          "description": "Links a Person to their DocumentTransmissionAssertions: claims of learning from a document rather than a person.",
+          "items": {
+            "$ref": "#/$defs/DocumentTransmissionAssertion"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "hasEvidence": {
+          "description": "Links an entity (assertion, interaction, life event, or top-level entity) to its evidence records.",
+          "items": {
+            "$ref": "#/$defs/SourceAssertionRelation"
+          },
+          "type": "array"
+        },
+        "hasHistoricityAssertion": {
+          "description": "Links a Person to their HistoricityAssertions: sourced, graded claims about whether the person existed as one historical individual. Competing readings are separate entries.",
+          "items": {
+            "$ref": "#/$defs/HistoricityAssertion"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "hasHonorAssertion": {
+          "description": "Links a Person to their HonorAssertions: non-style-specific titles or certificates (Hanshi, Kyoshi). Distinct from OfficerRole, which is a tenured office with a real end.",
+          "items": {
+            "$ref": "#/$defs/HonorAssertion"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "hasIdentityAssertion": {
+          "description": "Links a Person to their IdentityAssertions: sourced hypotheses that two Person records may be the same individual.",
+          "items": {
+            "$ref": "#/$defs/IdentityAssertion"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "hasRankAssertion": {
+          "description": "Links a Person to their RankAssertions: claims of holding a rank in a style.",
+          "items": {
+            "$ref": "#/$defs/RankAssertion"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "hasTeacherAssertion": {
+          "description": "Links a Person to their TeacherAssertions: claims of having studied under a teacher. The assertion names the teacher when a source identifies one; evidence attaches to the assertion's interactions.",
+          "items": {
+            "$ref": "#/$defs/TeacherAssertion"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "id": {
+          "description": "ULID of the record, or of a claim: every Assertion and Participation carries its own, the graded conclusions being exactly the nodes that have hasConfidence.",
+          "pattern": "^[0-9A-HJKMNP-TV-Z]{26}$",
+          "type": "string"
+        },
+        "image": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Photo"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "The single primary depiction of an entity. The multivalued photos gallery uses schema:image; a single-valued slot cannot share that IRI without its maxCount 1 shape firing on the gallery."
+        },
+        "name": {
+          "$ref": "#/$defs/LanguageMap",
+          "description": "Primary name, as a language map."
+        },
+        "nationality": {
+          "description": "Nationalities, each a country code and optional Wikidata Q-ID.",
+          "items": {
+            "$ref": "#/$defs/NationalityEntry"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "notes": {
+          "description": "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "photos": {
+          "description": "A gallery of depictions; the generic sdo:image relation.",
+          "items": {
+            "$ref": "#/$defs/Photo"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "sameAs": {
+          "description": "The same entity in an external authority, as a CURIE naming the entity itself (not a web page about it): wd: (Wikidata), dbr: (DBpedia), viaf:, isni:, lcnaf: (Library of Congress names), ndlna: (National Diet Library), orcid:. Nothing else belongs here: a web page, a Wikipedia article or an official site is not an identity.",
+          "items": {
+            "pattern": "^(wd:Q[1-9][0-9]*|dbr:[^\\s]+|viaf:[1-9][0-9]*|isni:[0-9]{15}[0-9X]|lcnaf:n[a-z]?[0-9]+|ndlna:[0-9]+|orcid:[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{3}[0-9X])$",
+            "type": "string"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "tags": {
+          "items": {
+            "type": "string"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "type": {
+          "description": "Entity class, designating the node type.",
+          "enum": [
+            "Person"
+          ],
+          "type": "string"
+        },
+        "videos": {
+          "items": {
+            "$ref": "#/$defs/Video"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "name",
+        "hasEvidence"
+      ],
+      "title": "Person",
+      "type": "object"
+    },
+    "Photo": {
+      "additionalProperties": false,
+      "description": "An image file depicting an entity: its URL, its attribution to a source and its rights status.",
+      "properties": {
+        "contentUrl": {
+          "format": "uri",
+          "type": "string"
+        },
+        "imageAttribution": {
+          "$ref": "#/$defs/Attribution",
+          "description": "Credits/attribution for an image or video, indicating its source. Distinct from hasEvidence: attribution carries no supports/contradicts semantics."
+        },
+        "rights": {
+          "$ref": "#/$defs/MediaRights",
+          "description": "Copyright or licence status of the media file itself, as one value on a single axis: a Creative Commons licence where one was granted, otherwise a rightsstatements.org statement. Absence means the status has not been evaluated. Distinct from imageAttribution, which credits the item to a source and makes no legal claim, and from informationType and evidenceType, which are epistemic."
+        }
+      },
+      "required": [
+        "contentUrl",
+        "imageAttribution"
+      ],
+      "title": "Photo",
+      "type": "object"
+    },
+    "Place": {
+      "additionalProperties": false,
+      "description": "A training establishment, where training happens: a dojo, club, academy or school programme. It always occupies at least one site, but its identity is the establishment's continuity, not its address, so a move is a new dated site, not a new record. Distinct from any Organization that governs it; its teaching staff are hasInstructorRole and its offices hasOfficerRole.",
+      "properties": {
+        "aka": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/LanguageMap"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Alternative names, as a language map."
+        },
+        "description": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/LanguageMap"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Reader-facing description, as a language map."
+        },
+        "dissolvedEvent": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/DissolutionEvent"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Dissolution event, if applicable. Used by Style, Organization, and Place."
+        },
+        "foundedEvent": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/FoundingEvent"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Founding event with date, location, and sources. Used by Style, Organization, Place, and RankingSystem (YAML 'instituted')."
+        },
+        "hasAffiliationAssertion": {
+          "description": "Domain intentionally omitted: applies to both Place and Organization.",
+          "items": {
+            "$ref": "#/$defs/AffiliationAssertion"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "hasEvidence": {
+          "description": "Links an entity (assertion, interaction, life event, or top-level entity) to its evidence records.",
+          "items": {
+            "$ref": "#/$defs/SourceAssertionRelation"
+          },
+          "type": "array"
+        },
+        "hasInstructorRole": {
+          "description": "Links a venue to a record of someone who taught there.",
+          "items": {
+            "$ref": "#/$defs/InstructorRole"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "hasOfficerRole": {
+          "description": "Links an Organization or Place to a record of someone who held office there. Domain intentionally omitted: an office can be held in an Organization or at a Place.",
+          "items": {
+            "$ref": "#/$defs/OfficerRole"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "hasSite": {
+          "description": "The sites this establishment or body occupied, one entry per site, dated when the sources date the moves. Required on Place, optional on Organization. The only home for where a Place or Organization is.",
+          "items": {
+            "$ref": "#/$defs/Site"
+          },
+          "type": "array"
+        },
+        "id": {
+          "description": "ULID of the record, or of a claim: every Assertion and Participation carries its own, the graded conclusions being exactly the nodes that have hasConfidence.",
+          "pattern": "^[0-9A-HJKMNP-TV-Z]{26}$",
+          "type": "string"
+        },
+        "logo": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Photo"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "name": {
+          "$ref": "#/$defs/LanguageMap",
+          "description": "Primary name, as a language map."
+        },
+        "notes": {
+          "description": "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "photos": {
+          "description": "A gallery of depictions; the generic sdo:image relation.",
+          "items": {
+            "$ref": "#/$defs/Photo"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "placeType": {
+          "$ref": "#/$defs/PlaceClassification",
+          "description": "Type: dojo, club, university, school, temple, gym, military, academy, team, other. 'school' here is an education institution."
+        },
+        "sameAs": {
+          "description": "The same entity in an external authority, as a CURIE naming the entity itself (not a web page about it): wd: (Wikidata), dbr: (DBpedia), viaf:, isni:, lcnaf: (Library of Congress names), ndlna: (National Diet Library), orcid:. Nothing else belongs here: a web page, a Wikipedia article or an official site is not an identity.",
+          "items": {
+            "pattern": "^(wd:Q[1-9][0-9]*|dbr:[^\\s]+|viaf:[1-9][0-9]*|isni:[0-9]{15}[0-9X]|lcnaf:n[a-z]?[0-9]+|ndlna:[0-9]+|orcid:[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{3}[0-9X])$",
+            "type": "string"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "tags": {
+          "items": {
+            "type": "string"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "type": {
+          "description": "Entity class, designating the node type.",
+          "enum": [
+            "Place"
+          ],
+          "type": "string"
+        },
+        "videos": {
+          "items": {
+            "$ref": "#/$defs/Video"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "website": {
+          "format": "uri",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "name",
+        "placeType",
+        "hasSite",
+        "hasEvidence"
+      ],
+      "title": "Place",
+      "type": "object"
+    },
+    "PlaceClassification": {
+      "description": "Martialis Place Classification Vocabulary",
+      "enum": [
+        "placeclass:academy",
+        "placeclass:club",
+        "placeclass:dojo",
+        "placeclass:gym",
+        "placeclass:military",
+        "placeclass:other",
+        "placeclass:school",
+        "placeclass:team",
+        "placeclass:temple",
+        "placeclass:university"
+      ],
+      "title": "PlaceClassification",
+      "type": "string"
+    },
+    "Publisher": {
+      "additionalProperties": false,
+      "description": "The publisher of a Source: its name, optionally linked to an Organization record.",
+      "properties": {
+        "publisherName": {
+          "type": "string"
+        },
+        "publisherOrg": {
+          "description": "Links a Source's publisher to its own Organization entry, when one exists.",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "publisherName"
+      ],
+      "title": "Publisher",
+      "type": "object"
+    },
+    "RankAssertion": {
+      "additionalProperties": false,
+      "description": "A claim that the subject (Person) holds a rank in a Style (rankStyle). The rank is a (rankSystem, rankType/rankOrdinal or rankGrade) tuple.",
+      "properties": {
+        "atEvent": {
+          "description": "Optional link from an assertion or life event to the canonical Event record(s) it took place at. Multivalued.",
+          "items": {
+            "type": "string"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "conferredBy": {
+          "description": "The organization that conferred the rank or honor.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "dateCalendar": {
+          "$ref": "#/$defs/DateCalendar",
+          "description": "Calendar system a source's own date was expressed in: julian, japanese-nengo, japanese-lunisolar, other-lunisolar, or other."
+        },
+        "dateConferred": {
+          "description": "When the rank or honor was conferred, in EDTF.",
+          "pattern": "^(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|\\.\\.|unknown)/(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|\\.\\.|unknown)|\\[(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?(?:,(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?)+\\])$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "dateOriginal": {
+          "description": "Free-text date as given by the source, when it differs from the Gregorian-equivalent EDTF value in the paired date property. Paired with martialis:dateCalendar.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "grantedBy": {
+          "description": "Person that granted the rank or honor. Granting organizations use conferredBy.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "hasConfidence": {
+          "$ref": "#/$defs/Confidence",
+          "description": "Links an Assertion to its Confidence assessment."
+        },
+        "hasEvidence": {
+          "description": "Links an entity (assertion, interaction, life event, or top-level entity) to its evidence records.",
+          "items": {
+            "$ref": "#/$defs/SourceAssertionRelation"
+          },
+          "type": "array"
+        },
+        "id": {
+          "description": "ULID of the record, or of a claim: every Assertion and Participation carries its own, the graded conclusions being exactly the nodes that have hasConfidence.",
+          "pattern": "^[0-9A-HJKMNP-TV-Z]{26}$",
+          "type": "string"
+        },
+        "notes": {
+          "description": "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "rankGrade": {
+          "$ref": "#/$defs/RankGrade",
+          "description": "The specific grade within an enumerated RankingSystem's scheme (e.g. Menkyo Kaiden). Mutually exclusive with martialis:rankOrdinal/rankType."
+        },
+        "rankOrdinal": {
+          "description": "The grade number within a numbered RankingSystem (e.g. 6 for 6th dan). Mutually exclusive with martialis:rankGrade.",
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "rankStyle": {
+          "description": "The style the rank is in.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "rankSystem": {
+          "description": "The RankingSystem a Style's practitioners are ranked in, or that a RankAssertion's rank belongs to. Absent on a Style means rank is unresearched.",
+          "type": "string"
+        },
+        "rankType": {
+          "$ref": "#/$defs/RankType",
+          "description": "Which half of a numbered ladder a grade is on: dan (ascending), kyu (descending), or dan_unspecified. Only meaningful for a 'numbered' system."
+        }
+      },
+      "required": [
+        "rankSystem",
+        "hasConfidence",
+        "hasEvidence",
+        "id"
+      ],
+      "title": "RankAssertion",
+      "type": "object"
+    },
+    "RankGrade": {
+      "description": "BJJ Belt Grade Vocabulary; Menkyo Grade Vocabulary; Unified Sports Classification System Grade Vocabulary",
+      "enum": [
+        "rankgrade:bjj_black",
+        "rankgrade:bjj_blue",
+        "rankgrade:bjj_brown",
+        "rankgrade:bjj_purple",
+        "rankgrade:bjj_red",
+        "rankgrade:bjj_red_black",
+        "rankgrade:bjj_red_white",
+        "rankgrade:bjj_white",
+        "rankgrade:menkyo_chuden",
+        "rankgrade:menkyo_gokui",
+        "rankgrade:menkyo_kaiden",
+        "rankgrade:menkyo_license",
+        "rankgrade:menkyo_okuden",
+        "rankgrade:menkyo_shoden",
+        "rankgrade:ussc_candidate_master",
+        "rankgrade:ussc_class_1",
+        "rankgrade:ussc_class_2",
+        "rankgrade:ussc_class_3",
+        "rankgrade:ussc_honoured_master",
+        "rankgrade:ussc_master",
+        "rankgrade:ussc_master_international"
+      ],
+      "title": "RankGrade",
+      "type": "string"
+    },
+    "RankSystemKind": {
+      "description": "How a ranking system enumerates its grades.",
+      "enum": [
+        "numbered",
+        "enumerated"
+      ],
+      "title": "RankSystemKind",
+      "type": "string"
+    },
+    "RankType": {
+      "description": "Martialis Rank Type Vocabulary",
+      "enum": [
+        "ranktype:dan",
+        "ranktype:dan_unspecified",
+        "ranktype:kyu"
+      ],
+      "title": "RankType",
+      "type": "string"
+    },
+    "RankingSystem": {
+      "additionalProperties": false,
+      "description": "A named, sourced grading system that a style's practitioners are ranked in, such as dan-kyu, menkyo or a state sports classification.",
+      "properties": {
+        "aka": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/LanguageMap"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Alternative names, as a language map."
+        },
+        "derivedFromSystem": {
+          "description": "This RankingSystem's grading concept derives from a more generic ancestor system. Distinct from martialis:variantOf (style-to-style).",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "description": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/LanguageMap"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Reader-facing description, as a language map."
+        },
+        "foundedEvent": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/FoundingEvent"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Founding event with date, location, and sources. Used by Style, Organization, Place, and RankingSystem (YAML 'instituted')."
+        },
+        "gradeScheme": {
+          "description": "The skos:ConceptScheme enumerating this system's grades (see ontology/vocabularies.ttl), required when martialis:rankingSystemKind is 'enumerated'.",
+          "format": "uri",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "hasEvidence": {
+          "description": "Links an entity (assertion, interaction, life event, or top-level entity) to its evidence records.",
+          "items": {
+            "$ref": "#/$defs/SourceAssertionRelation"
+          },
+          "type": "array"
+        },
+        "id": {
+          "description": "ULID of the record, or of a claim: every Assertion and Participation carries its own, the graded conclusions being exactly the nodes that have hasConfidence.",
+          "pattern": "^[0-9A-HJKMNP-TV-Z]{26}$",
+          "type": "string"
+        },
+        "maxOrdinal": {
+          "description": "Highest valid grade number (dan side), if this system bounds it. Absent for the unbounded default.",
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "minOrdinal": {
+          "description": "Lowest valid grade number (kyu side), if this system bounds it. Absent for the unbounded default.",
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "name": {
+          "$ref": "#/$defs/LanguageMap",
+          "description": "Primary name, as a language map."
+        },
+        "notes": {
+          "description": "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "rankSystemKind": {
+          "$ref": "#/$defs/RankSystemKind",
+          "description": "'numbered' (an open-ended integer ladder, recorded as rankType/rankOrdinal) or 'enumerated' (a fixed ordered list of grades, a skos:ConceptScheme)."
+        },
+        "type": {
+          "description": "Entity class, designating the node type.",
+          "enum": [
+            "RankingSystem"
+          ],
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "name",
+        "rankSystemKind",
+        "hasEvidence"
+      ],
+      "title": "RankingSystem",
+      "type": "object"
+    },
+    "Site": {
+      "additionalProperties": false,
+      "description": "A site a Place or Organization occupied: its locality (required), an optional street address and map point, an optional Place it sat within, and the period when the sources date it. The only home for where a Place or Organization is; the current locality is the site or sites with no end year. No period means the period is unsourced, not that the site covers the record's whole life.",
+      "properties": {
+        "address": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "hasEvidence": {
+          "description": "Links an entity (assertion, interaction, life event, or top-level entity) to its evidence records.",
+          "items": {
+            "$ref": "#/$defs/SourceAssertionRelation"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "location": {
+          "$ref": "#/$defs/GeoRef",
+          "description": "An embedded place reference (free-text label, country code, optional authority IRI and point), not a Place entity. Carried by Site (where a Place or Organization is) and by Event and the life events (where something happened); a Place or Organization has no location of its own. The specific Place an event happened at is martialis:eventPlace; keeping the two on separate predicates keeps a Place entity and a GeoRef apart."
+        },
+        "notes": {
+          "description": "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sitePeriod": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/TimeInterval"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "The period during which a site was occupied. Absent means the period is unsourced."
+        },
+        "withinPlace": {
+          "description": "The Place this site sat within (a dojo inside a hall, an HQ housed at a dojo), dated by the site's own period.",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "location"
+      ],
+      "title": "Site",
+      "type": "object"
+    },
+    "Source": {
+      "additionalProperties": false,
+      "description": "A bibliographic source cited as evidence: a book, article, web page, video, thesis, interview or archival document. Its bibliographic form is sourceType.",
+      "properties": {
+        "accessedDate": {
+          "description": "When the curator consulted this source (CSL 'accessed').",
+          "pattern": "^(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|\\.\\.|unknown)/(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|\\.\\.|unknown)|\\[(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?(?:,(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?)+\\])$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "archive": {
+          "description": "Archival repository holding this item (e.g. 'National Diet Library'). CSL 'archive'.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "archiveCollection": {
+          "description": "Collection within the archive that holds this item. CSL 'archive_collection'.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "archiveLocation": {
+          "description": "Location of this item within the archive (e.g. box and folder). CSL 'archive_location'.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "archiveOrgId": {
+          "description": "archive.org item identifier.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "archiveUrl": {
+          "format": "uri",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "archivedDate": {
+          "description": "Snapshot date of archiveUrl. Distinct from schema:archivedAt, which carries the archiveUrl IRI itself, not a date.",
+          "pattern": "^(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|\\.\\.|unknown)/(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|\\.\\.|unknown)|\\[(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?(?:,(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?)+\\])$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "callNumber": {
+          "description": "Shelfmark or call number within the archive. CSL 'call-number'.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "chapterNumber": {
+          "description": "Chapter number of this item within the containing work. CSL 'chapter-number'.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cinii": {
+          "description": "CiNii (Japanese academic literature database) identifier.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "description": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/LanguageMap"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Reader-facing description, as a language map."
+        },
+        "doi": {
+          "description": "Digital Object Identifier.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "edition": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "editionOf": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/EditionOf"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Links a Source to the node recording which work it is an edition, translation, reprint, or facsimile of."
+        },
+        "handle": {
+          "description": "Handle System persistent identifier.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "hasContributor": {
+          "description": "Links a Source to a contributor node (a CSL contributor role plus a CSL name-variable shape).",
+          "items": {
+            "$ref": "#/$defs/Contributor"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "id": {
+          "description": "ULID of the record, or of a claim: every Assertion and Participation carries its own, the graded conclusions being exactly the nodes that have hasConfidence.",
+          "pattern": "^[0-9A-HJKMNP-TV-Z]{26}$",
+          "type": "string"
+        },
+        "image": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Photo"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "The single primary depiction of an entity. The multivalued photos gallery uses schema:image; a single-valued slot cannot share that IRI without its maxCount 1 shape firing on the gallery."
+        },
+        "isbn": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "issn": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "issue": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "issuedCalendar": {
+          "$ref": "#/$defs/DateCalendar"
+        },
+        "issuedDate": {
+          "pattern": "^(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|\\.\\.|unknown)/(?:(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?|\\.\\.|unknown)|\\[(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?(?:,(?:-?[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?|[0-9]{3}X|[0-9]{2}XX)[?~%]?)+\\])$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "issuedOriginal": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "language": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "lineageTradition": {
+          "description": "True when the Source is a lineage or organisation recounting its own past (a school or federation history, a founding story, a genealogy chart, a densho), so it shares one origin with every other account from inside that lineage and cannot corroborate them. Not set on everything a body publishes: its record of its own act (a grade register, a same-day announcement, a current member list) is not tradition. Extends the Mills independence test; orthogonal to martialis:sourceClassification: an original densho is still lineage-internal.",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "nativeTitle": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ndl": {
+          "description": "National Diet Library (Japan) identifier.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "description": "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "oclc": {
+          "description": "WorldCat/OCLC control number.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "page": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "part": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "partOf": {
+          "description": "The larger Source this one is part of: an article's journal or website edition, a chapter's book.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "peerReview": {
+          "$ref": "#/$defs/PeerReview",
+          "description": "Whether this Source was peer-reviewed before publication. Inherited from its container through partOf (materialized at export time) unless stated on the item. Absent when not established."
+        },
+        "pmcid": {
+          "description": "PubMed Central identifier (CSL 'PMCID').",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "pmid": {
+          "description": "PubMed identifier (CSL 'PMID').",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "publisher": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Publisher"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "section": {
+          "description": "Section of the container in which this item appears (e.g. a newspaper section). CSL 'section'.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "selfPublished": {
+          "description": "Whether the publisher and the contributor(s) are the same party. Preferably derived from the linked entities rather than asserted.",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "sourceClassification": {
+          "$ref": "#/$defs/SourceClassification",
+          "description": "The Source's form relative to the record it carries (Mills): original, derivative or authored. Set once on the Source."
+        },
+        "sourceGenre": {
+          "$ref": "#/$defs/SourceGenre",
+          "description": "What the content is (biography, obituary, interview, promotional, ...), independent of sourceType's bibliographic form - a `webpage` can be any of these."
+        },
+        "sourceType": {
+          "$ref": "#/$defs/SourceType",
+          "description": "The bibliographic form: a CSL-JSON item type, plus the extension 'website' (exported as CSL 'periodical'). Required on every Source except a dated state, which inherits it."
+        },
+        "specializationOf": {
+          "description": "The resource this Source is one dated state of: a capture of a web page whose content changes, or a revised issue of a roster. The state inherits every field of that resource it does not state itself; evidence cites the state, never the resource.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "tags": {
+          "items": {
+            "type": "string"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "title": {
+          "description": "A plain, unlocalised title (a Source). Required on every Source except a dated state, which inherits it (enforced in SHACL).",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "type": {
+          "description": "Entity class, designating the node type.",
+          "enum": [
+            "Source"
+          ],
+          "type": "string"
+        },
+        "url": {
+          "format": "uri",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "volume": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "wikidata": {
+          "description": "The Wikidata item that IS this source, place reference or nationality, as a wd: CURIE. A source has one only when it is a work with its own item (a book, a periodical); a Wikipedia article has none, and the item of its subject is not its identity. An entity record lists its identity links, Wikidata among them, in sameAs.",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "type"
+      ],
+      "title": "Source",
+      "type": "object"
+    },
+    "SourceAssertionRelation": {
+      "additionalProperties": false,
+      "description": "One evidence record: a Source plus the curator's reading of it, which says whether the Source supports the claim and how.",
+      "properties": {
+        "archiveUri": {
+          "format": "uri",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "basedOnSource": {
+          "description": "The Source backing this evidence record.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cite": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidenceType": {
+          "$ref": "#/$defs/EvidenceType",
+          "description": "How the cited information bears on the claim (Mills): direct, indirect or negative. Independent of martialis:supports, which gives the direction. Absent when not yet assessed."
+        },
+        "informationType": {
+          "$ref": "#/$defs/InformationType",
+          "description": "The informant's proximity to the specific fact cited (Mills): primary (first-hand), secondary (learned from others) or undetermined (the informant cannot be identified). Set per citation. Absent when not yet assessed."
+        },
+        "locator": {
+          "description": "Where the cited claim sits within the work (YAML: locator) - page number, timestamp, section, etc. Paired with martialis:sourceLocatorLabel.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "locatorLabel": {
+          "$ref": "#/$defs/SourceLocatorLabel",
+          "description": "What kind of locator martialis:sourceLocation is: CSL's citation-locator vocabulary (page, volume, chapter, folio, section, timestamp, ...). Optional."
+        },
+        "quotation": {
+          "description": "The passage of the source that states the claim, transcribed verbatim: the source's words, order, case and punctuation. Editorial interventions are square-bracketed, as in standard transcription: [...] for an omission inside the passage, [sic] after an error in the source, and a short clarifying insertion where the excerpt would be unclear without it; never a fact the source does not state.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "supports": {
+          "description": "Whether the source supports or contradicts the assertion (true/false).",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "uri": {
+          "format": "uri",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "title": "SourceAssertionRelation",
+      "type": "object"
+    },
+    "SourceClassification": {
+      "description": "Martialis Source Classification Vocabulary",
+      "enum": [
+        "srcclass:authored",
+        "srcclass:derivative",
+        "srcclass:original"
+      ],
+      "title": "SourceClassification",
+      "type": "string"
+    },
+    "SourceGenre": {
+      "description": "Martialis Source Genre Vocabulary",
+      "enum": [
+        "srcgenre:biography",
+        "srcgenre:curriculum",
+        "srcgenre:densho",
+        "srcgenre:encyclopedia_entry",
+        "srcgenre:history",
+        "srcgenre:interview",
+        "srcgenre:kyohon",
+        "srcgenre:memoir",
+        "srcgenre:menjo",
+        "srcgenre:news",
+        "srcgenre:obituary",
+        "srcgenre:other",
+        "srcgenre:promotional",
+        "srcgenre:roster"
+      ],
+      "title": "SourceGenre",
+      "type": "string"
+    },
+    "SourceLocatorLabel": {
+      "description": "CSL citation-locator vocabulary.",
+      "enum": [
+        "act",
+        "appendix",
+        "article-locator",
+        "book",
+        "canon",
+        "chapter",
+        "column",
+        "elocation",
+        "equation",
+        "figure",
+        "folio",
+        "issue",
+        "line",
+        "note",
+        "opus",
+        "page",
+        "paragraph",
+        "part",
+        "rule",
+        "scene",
+        "section",
+        "sub-verbo",
+        "supplement",
+        "table",
+        "timestamp",
+        "title-locator",
+        "verse",
+        "version",
+        "volume"
+      ],
+      "title": "SourceLocatorLabel",
+      "type": "string"
+    },
+    "SourceType": {
+      "description": "CSL 1.0.2 item type of the source.",
+      "enum": [
+        "article",
+        "article-journal",
+        "article-magazine",
+        "article-newspaper",
+        "bill",
+        "book",
+        "broadcast",
+        "chapter",
+        "classic",
+        "collection",
+        "dataset",
+        "document",
+        "entry",
+        "entry-dictionary",
+        "entry-encyclopedia",
+        "event",
+        "figure",
+        "graphic",
+        "hearing",
+        "interview",
+        "legal_case",
+        "legislation",
+        "manuscript",
+        "map",
+        "motion_picture",
+        "musical_score",
+        "pamphlet",
+        "paper-conference",
+        "patent",
+        "performance",
+        "periodical",
+        "personal_communication",
+        "post",
+        "post-weblog",
+        "regulation",
+        "report",
+        "review",
+        "review-book",
+        "software",
+        "song",
+        "speech",
+        "standard",
+        "thesis",
+        "treaty",
+        "webpage",
+        "website"
+      ],
+      "title": "SourceType",
+      "type": "string"
+    },
+    "Style": {
+      "additionalProperties": false,
+      "description": "A martial art, style or school of practice: a named system such as Karate, Shotokan or Daito-ryu. Styles relate to each other through StyleRelationAssertion.",
+      "properties": {
+        "aka": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/LanguageMap"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Alternative names, as a language map."
+        },
+        "confersRank": {
+          "description": "false asserts that this style confers no ranking system of its own (e.g. MMA). Distinct from omitting martialis:rankSystem, which means unresearched.",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "description": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/LanguageMap"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Reader-facing description, as a language map."
+        },
+        "dissolvedEvent": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/DissolutionEvent"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Dissolution event, if applicable. Used by Style, Organization, and Place."
+        },
+        "foundedEvent": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/FoundingEvent"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Founding event with date, location, and sources. Used by Style, Organization, Place, and RankingSystem (YAML 'instituted')."
+        },
+        "hasEvidence": {
+          "description": "Links an entity (assertion, interaction, life event, or top-level entity) to its evidence records.",
+          "items": {
+            "$ref": "#/$defs/SourceAssertionRelation"
+          },
+          "type": "array"
+        },
+        "hasStyleRelationAssertion": {
+          "description": "Links a Style to its StyleRelationAssertions: typed, sourced relationships to other styles.",
+          "items": {
+            "$ref": "#/$defs/StyleRelationAssertion"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "id": {
+          "description": "ULID of the record, or of a claim: every Assertion and Participation carries its own, the graded conclusions being exactly the nodes that have hasConfidence.",
+          "pattern": "^[0-9A-HJKMNP-TV-Z]{26}$",
+          "type": "string"
+        },
+        "name": {
+          "$ref": "#/$defs/LanguageMap",
+          "description": "Primary name, as a language map."
+        },
+        "notes": {
+          "description": "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "photos": {
+          "description": "A gallery of depictions; the generic sdo:image relation.",
+          "items": {
+            "$ref": "#/$defs/Photo"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "rankSystem": {
+          "description": "The RankingSystem a Style's practitioners are ranked in, or that a RankAssertion's rank belongs to. Absent on a Style means rank is unresearched.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sameAs": {
+          "description": "The same entity in an external authority, as a CURIE naming the entity itself (not a web page about it): wd: (Wikidata), dbr: (DBpedia), viaf:, isni:, lcnaf: (Library of Congress names), ndlna: (National Diet Library), orcid:. Nothing else belongs here: a web page, a Wikipedia article or an official site is not an identity.",
+          "items": {
+            "pattern": "^(wd:Q[1-9][0-9]*|dbr:[^\\s]+|viaf:[1-9][0-9]*|isni:[0-9]{15}[0-9X]|lcnaf:n[a-z]?[0-9]+|ndlna:[0-9]+|orcid:[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{3}[0-9X])$",
+            "type": "string"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "styleForm": {
+          "description": "How a style is composed or practised, independent of origin period: hybrid and/or sport. Multi-valued. 'sport' means principally rule-governed competition.",
+          "items": {
+            "$ref": "#/$defs/StyleForm"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "styleType": {
+          "$ref": "#/$defs/StyleClassification",
+          "description": "Origin period, deliberately culture-neutral: traditional, modern, other. Culture-specific period terms belong in tags."
+        },
+        "tags": {
+          "items": {
+            "type": "string"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "type": {
+          "description": "Entity class, designating the node type.",
+          "enum": [
+            "Style"
+          ],
+          "type": "string"
+        },
+        "videos": {
+          "items": {
+            "$ref": "#/$defs/Video"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "name",
+        "styleType",
+        "hasEvidence"
+      ],
+      "title": "Style",
+      "type": "object"
+    },
+    "StyleClassification": {
+      "description": "Martialis Style Classification Vocabulary",
+      "enum": [
+        "styleclass:modern",
+        "styleclass:other",
+        "styleclass:traditional"
+      ],
+      "title": "StyleClassification",
+      "type": "string"
+    },
+    "StyleForm": {
+      "description": "Martialis Style Form Vocabulary",
+      "enum": [
+        "styleform:hybrid",
+        "styleform:sport"
+      ],
+      "title": "StyleForm",
+      "type": "string"
+    },
+    "StyleRelation": {
+      "description": "Martialis Style Relation Vocabulary",
+      "enum": [
+        "stylerel:derived_from",
+        "stylerel:influenced_by",
+        "stylerel:sibling_style_of",
+        "stylerel:split_from",
+        "stylerel:variant_of"
+      ],
+      "title": "StyleRelation",
+      "type": "string"
+    },
+    "StyleRelationAssertion": {
+      "additionalProperties": false,
+      "description": "A typed, sourced relationship between two styles: derived_from, split_from, influenced_by, sibling_style_of, or variant_of. sibling_style_of requires no shared parent.",
+      "properties": {
+        "hasConfidence": {
+          "$ref": "#/$defs/Confidence",
+          "description": "Links an Assertion to its Confidence assessment."
+        },
+        "hasEvidence": {
+          "description": "Links an entity (assertion, interaction, life event, or top-level entity) to its evidence records.",
+          "items": {
+            "$ref": "#/$defs/SourceAssertionRelation"
+          },
+          "type": "array"
+        },
+        "id": {
+          "description": "ULID of the record, or of a claim: every Assertion and Participation carries its own, the graded conclusions being exactly the nodes that have hasConfidence.",
+          "pattern": "^[0-9A-HJKMNP-TV-Z]{26}$",
+          "type": "string"
+        },
+        "notes": {
+          "description": "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "relatedStyle": {
+          "description": "The style the subject relates to, as styleRelationType says.",
+          "type": "string"
+        },
+        "styleRelationType": {
+          "$ref": "#/$defs/StyleRelation",
+          "description": "Relation kind: derived_from, split_from, influenced_by, sibling_style_of, variant_of. variant_of is materialized as martialis:variantOf/hasVariant."
+        }
+      },
+      "required": [
+        "styleRelationType",
+        "hasConfidence",
+        "hasEvidence",
+        "relatedStyle",
+        "id"
+      ],
+      "title": "StyleRelationAssertion",
+      "type": "object"
+    },
+    "TeacherAssertion": {
+      "additionalProperties": false,
+      "description": "A claim that a person taught the subject a style. The teacher is martialis:teacher. With no teacher, the claim states that a teacher existed whom no source names: every interaction then needs a Place or Event anchor and a dated period, and no wasTaughtBy/teaches edge is materialized. A claim assessed doubtful or refuted stays a TeacherAssertion and gives no edge either. Evidence attaches to the interactions.",
+      "properties": {
+        "assertedStyle": {
+          "description": "The style associated with a teacher-student assertion, denial, or document-transmission claim (assertedStyle).",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "hasConfidence": {
+          "$ref": "#/$defs/Confidence",
+          "description": "Links an Assertion to its Confidence assessment."
+        },
+        "hasEvidence": {
+          "description": "Links an entity (assertion, interaction, life event, or top-level entity) to its evidence records.",
+          "items": {
+            "$ref": "#/$defs/SourceAssertionRelation"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "hasInteraction": {
+          "description": "Links a TeacherAssertion to its TeacherInteraction records (where, when, evidence).",
+          "items": {
+            "$ref": "#/$defs/TeacherInteraction"
+          },
+          "type": "array"
+        },
+        "id": {
+          "description": "ULID of the record, or of a claim: every Assertion and Participation carries its own, the graded conclusions being exactly the nodes that have hasConfidence.",
+          "pattern": "^[0-9A-HJKMNP-TV-Z]{26}$",
+          "type": "string"
+        },
+        "notes": {
+          "description": "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "role": {
+          "$ref": "#/$defs/TeacherRole",
+          "description": "Type of student-teacher relationship: student, uchi_deshi, seminar, private, examination, coach. Event roles use martialis:participationRole."
+        },
+        "teacher": {
+          "description": "The teacher. Omit it when no source identifies the teacher; every interaction then needs a Place or Event anchor and a dated period.",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "hasConfidence",
+        "hasInteraction",
+        "id"
+      ],
+      "title": "TeacherAssertion",
+      "type": "object"
+    },
+    "TeacherInteraction": {
+      "additionalProperties": false,
+      "description": "A place/period/evidence record within a teacher-student relationship.",
+      "properties": {
+        "atEvent": {
+          "description": "Optional link from an assertion or life event to the canonical Event record(s) it took place at. Multivalued.",
+          "items": {
+            "type": "string"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "hasEvidence": {
+          "description": "Links an entity (assertion, interaction, life event, or top-level entity) to its evidence records.",
+          "items": {
+            "$ref": "#/$defs/SourceAssertionRelation"
+          },
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "interactionPeriod": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/TimeInterval"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "The period during which this teacher-student interaction took place."
+        },
+        "interactionPlace": {
+          "description": "The Place where a teacher-student interaction occurred. Materialized into the martialis:trainedAt convenience edge at export time, and into martialis:taughtAt when the teacher is identified.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "description": "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "title": "TeacherInteraction",
+      "type": "object"
+    },
+    "TeacherRole": {
+      "description": "Martialis Teacher Role Vocabulary",
+      "enum": [
+        "teachrole:coach",
+        "teachrole:examination",
+        "teachrole:private",
+        "teachrole:seminar",
+        "teachrole:student",
+        "teachrole:uchi_deshi"
+      ],
+      "title": "TeacherRole",
+      "type": "string"
+    },
+    "TimeInterval": {
+      "additionalProperties": false,
+      "description": "A time interval with optional start and end years.",
+      "properties": {
+        "endYear": {
+          "description": "The end of a TimeInterval; absent when the period is ongoing or unknown.",
+          "minimum": 1,
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "startYear": {
+          "description": "The start of a TimeInterval, as a bare integer year (xsd:integer rather than xsd:gYear).",
+          "minimum": 1,
+          "type": [
+            "integer",
+            "null"
+          ]
+        }
+      },
+      "title": "TimeInterval",
+      "type": "object"
+    },
+    "Video": {
+      "additionalProperties": false,
+      "description": "A video file about an entity: its URL, its attribution to a source and its rights status.",
+      "properties": {
+        "contentUrl": {
+          "format": "uri",
+          "type": "string"
+        },
+        "imageAttribution": {
+          "$ref": "#/$defs/Attribution",
+          "description": "Credits/attribution for an image or video, indicating its source. Distinct from hasEvidence: attribution carries no supports/contradicts semantics."
+        },
+        "rights": {
+          "$ref": "#/$defs/MediaRights",
+          "description": "Copyright or licence status of the media file itself, as one value on a single axis: a Creative Commons licence where one was granted, otherwise a rightsstatements.org statement. Absence means the status has not been evaluated. Distinct from imageAttribution, which credits the item to a source and makes no legal claim, and from informationType and evidenceType, which are epistemic."
+        }
+      },
+      "required": [
+        "contentUrl",
+        "imageAttribution"
+      ],
+      "title": "Video",
+      "type": "object"
+    }
+  },
+  "$id": "https://martial.is/schemas/org.schema.json",
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "additionalProperties": false,
+  "description": "An association, federation, governing body or lineage organization: a body that acts, governs or confers. A school or training establishment is a Place, even when it employs staff and has a head.",
+  "metamodel_version": "1.11.0",
+  "properties": {
+    "aka": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/LanguageMap"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Alternative names, as a language map."
+    },
+    "description": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/LanguageMap"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Reader-facing description, as a language map."
+    },
+    "dissolvedEvent": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/DissolutionEvent"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Dissolution event, if applicable. Used by Style, Organization, and Place."
+    },
+    "foundedEvent": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/FoundingEvent"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Founding event with date, location, and sources. Used by Style, Organization, Place, and RankingSystem (YAML 'instituted')."
+    },
+    "hasAffiliationAssertion": {
+      "description": "Domain intentionally omitted: applies to both Place and Organization.",
+      "items": {
+        "$ref": "#/$defs/AffiliationAssertion"
+      },
+      "type": [
+        "array",
+        "null"
+      ]
+    },
+    "hasEvidence": {
+      "description": "Links an entity (assertion, interaction, life event, or top-level entity) to its evidence records.",
+      "items": {
+        "$ref": "#/$defs/SourceAssertionRelation"
+      },
+      "type": "array"
+    },
+    "hasMembership": {
+      "description": "Links an Organization to the records of its individual members.",
+      "items": {
+        "$ref": "#/$defs/Membership"
+      },
+      "type": [
+        "array",
+        "null"
+      ]
+    },
+    "hasOfficerRole": {
+      "description": "Links an Organization or Place to a record of someone who held office there. Domain intentionally omitted: an office can be held in an Organization or at a Place.",
+      "items": {
+        "$ref": "#/$defs/OfficerRole"
+      },
+      "type": [
+        "array",
+        "null"
+      ]
+    },
+    "hasSite": {
+      "description": "The sites this establishment or body occupied, one entry per site, dated when the sources date the moves. Required on Place, optional on Organization. The only home for where a Place or Organization is.",
+      "items": {
+        "$ref": "#/$defs/Site"
+      },
+      "type": [
+        "array",
+        "null"
+      ]
+    },
+    "id": {
+      "description": "ULID of the record, or of a claim: every Assertion and Participation carries its own, the graded conclusions being exactly the nodes that have hasConfidence.",
+      "pattern": "^[0-9A-HJKMNP-TV-Z]{26}$",
+      "type": "string"
+    },
+    "logo": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Photo"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "name": {
+      "$ref": "#/$defs/LanguageMap",
+      "description": "Primary name, as a language map."
+    },
+    "notes": {
+      "description": "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "orgType": {
+      "$ref": "#/$defs/OrgClassification",
+      "description": "Type: federation, governing_body, school, association, other. 'school' here is a teaching lineage, not an education institution."
+    },
+    "photos": {
+      "description": "A gallery of depictions; the generic sdo:image relation.",
+      "items": {
+        "$ref": "#/$defs/Photo"
+      },
+      "type": [
+        "array",
+        "null"
+      ]
+    },
+    "sameAs": {
+      "description": "The same entity in an external authority, as a CURIE naming the entity itself (not a web page about it): wd: (Wikidata), dbr: (DBpedia), viaf:, isni:, lcnaf: (Library of Congress names), ndlna: (National Diet Library), orcid:. Nothing else belongs here: a web page, a Wikipedia article or an official site is not an identity.",
+      "items": {
+        "pattern": "^(wd:Q[1-9][0-9]*|dbr:[^\\s]+|viaf:[1-9][0-9]*|isni:[0-9]{15}[0-9X]|lcnaf:n[a-z]?[0-9]+|ndlna:[0-9]+|orcid:[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{3}[0-9X])$",
+        "type": "string"
+      },
+      "type": [
+        "array",
+        "null"
+      ]
+    },
+    "tags": {
+      "items": {
+        "type": "string"
+      },
+      "type": [
+        "array",
+        "null"
+      ]
+    },
+    "type": {
+      "description": "Entity class, designating the node type.",
+      "enum": [
+        "Organization"
+      ],
+      "type": "string"
+    },
+    "videos": {
+      "items": {
+        "$ref": "#/$defs/Video"
+      },
+      "type": [
+        "array",
+        "null"
+      ]
+    },
+    "website": {
+      "format": "uri",
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "type",
+    "name",
+    "orgType",
+    "hasEvidence"
+  ],
+  "title": "martialis",
+  "type": "object",
+  "version": "1.0.0"
+}

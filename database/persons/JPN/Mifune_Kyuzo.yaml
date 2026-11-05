@@ -1,0 +1,130 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1SD
+name:
+  ja-Latn: Mifune Kyūzō
+  ja: 三船 久蔵
+description:
+  en: Japanese judoka known as the 'God of Judo', one of only 15 judoka to be promoted to 10th dan. Student of Jigoro Kano and Yokoyama Sakujiro at the Kodokan. Famous for developing techniques like 'air throw' (kuki nage).
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1883-04-21'
+  birthPlace:
+    label: Iwate Prefecture
+    countryCode: eucountry:JPN
+    wikidata: wd:Q48326
+deathEvent:
+  deathDate: '1965-01-27'
+  deathPlace:
+    label: Tokyo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1490
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/6/61/Kyuzou_Mifune_%28restoration%29.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Kyuzou_Mifune_(restoration).jpg
+    cite: "published by ポプラ書房, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+  - id: 01M3YH7N5G59VDWH68E5P0A8A5
+    teacher: 01KJJAWN28MWKKSN4J02MVY1S1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Direct student of Jigoro Kano at the Kodokan, stated in JA and EN Wikipedia; Wikipedia only
+    role: teachrole:student
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+        interactionPeriod:
+          startYear: 1903
+          endYear: 1965
+        hasEvidence:
+          - uri: https://ja.wikipedia.org/wiki/%E4%B8%89%E8%88%B9%E4%B9%85%E8%94%B5
+            archiveUri: https://ja.wikipedia.org/w/index.php?title=%E4%B8%89%E8%88%B9%E4%B9%85%E8%94%B5&oldid=109498405
+            quotation: 1903年（明治36年）に上京して講道館に入門。
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+            cite: Japanese Wikipedia article on Mifune Kyūzō
+          - uri: https://en.wikipedia.org/wiki/Kyuzo_Mifune
+            archiveUri: https://en.wikipedia.org/w/index.php?title=Kyuzo_Mifune&oldid=1378325686
+            quotation: Coached by Kanō Jigorō
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+            cite: 'English Wikipedia: Kyuzo Mifune'
+  - id: 01M3YH7N5GA01SXHH9V9PWMNWX
+    teacher: 01KJJAWN29MA64W22606R3WD7H
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Independent sources state it.
+    role: teachrole:student
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+        interactionPeriod:
+          startYear: 1903
+        hasEvidence:
+          - uri: https://ja.wikipedia.org/wiki/%E4%B8%89%E8%88%B9%E4%B9%85%E8%94%B5
+            archiveUri: https://ja.wikipedia.org/w/index.php?title=%E4%B8%89%E8%88%B9%E4%B9%85%E8%94%B5&oldid=109498405
+            quotation: 講道館では横山作次郎に師事。
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+            cite: Japanese Wikipedia article on Mifune Kyūzō
+          - basedOnSource: 01M36DF1R5Y8PVQ6CTESF39ACY
+            quotation: >-
+              Impressed by Mifune’s ardor, Yokoyama accepted Mifune as his student at the Kodokan. Mifune trained relentlessly under Demon Yokoyama.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5G25CBH57ESGXFET3A
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 10
+    conferredBy: 01KJJAWN29MA64W22606R3WD7X
+    dateConferred: '1945'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Promoted to 10th dan in 1945, one of the highest-ranking judoka in history
+    hasEvidence:
+      - uri: https://ja.wikipedia.org/wiki/%E4%B8%89%E8%88%B9%E4%B9%85%E8%94%B5
+        archiveUri: https://ja.wikipedia.org/w/index.php?title=%E4%B8%89%E8%88%B9%E4%B9%85%E8%94%B5&oldid=109498405
+        quotation: 1945年（昭和20年）最高位の十段を授けられ名人の称を受ける。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+        cite: Japanese Wikipedia article on Mifune Kyūzō
+hasEvidence:
+  - basedOnSource: 01KZ9TQS3VGPBASF3Z1Q0AVHJF
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+    quotation: « Pour la technique c'est Mifune mais le démon du Kodokan c'est Sanpo Toku »
+  - basedOnSource: 01KZ9TQS3VNHWPHTJCAKYNERW6
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+    quotation: L'année suivante, j'ai passé mon 2° dan, et maître Kyuzo Mifune m'a choisi comme assistant.
+  - uri: https://ja.wikipedia.org/wiki/%E4%B8%89%E8%88%B9%E4%B9%85%E8%94%B5
+    archiveUri: https://ja.wikipedia.org/w/index.php?title=%E4%B8%89%E8%88%B9%E4%B9%85%E8%94%B5&oldid=109498405
+    cite: 'Japanese Wikipedia: 三船久蔵'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://en.wikipedia.org/wiki/Kyuzo_Mifune
+    archiveUri: https://en.wikipedia.org/w/index.php?title=Kyuzo_Mifune&oldid=1378325686
+    cite: 'English Wikipedia: Kyuzo Mifune'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q2453372
+  - dbr:Kyuzo_Mifune

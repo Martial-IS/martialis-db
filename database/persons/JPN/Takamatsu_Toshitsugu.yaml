@@ -1,0 +1,100 @@
+type: Person
+id: 01M5H4EE3XRVW4V7X8DV729BHS
+name:
+  ja-Latn: Takamatsu Toshitsugu
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1889'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: In modern times, Takamatsu Toshitsugu (1889–1972) was instrumental in perpetuating Ninpo traditions.
+      locator: '170'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1972'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: In modern times, Takamatsu Toshitsugu (1889–1972) was instrumental in perpetuating Ninpo traditions.
+      locator: '170'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Japanese martial artist who inherited several ninjutsu and jujutsu schools (Shinden Fudo, Gyokko,
+    Gikan, Koto and Togakure ryu among them) and passed them to a small group of disciples.
+hasTeacherAssertion:
+  - id: 01M5HNGWYJYNGTY7GZN16PBW5V
+    teacher: 01M5HNGWYJYQNZSJPQR45R65PK
+    assertedStyle: 01M5H4EE3XTQ71T3X541Y6MZYJ
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Takamatsu acquired his martial arts skills and knowledge from Toda Shinryuken Masamitsu,
+              Ishitani Matsutaro, and Mizuta Yoshitaro Tadafusa.
+            locator: '170'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5HNGWYJG6CYH2BA9VAE1Q7C
+    teacher: 01M5HNGWYJA45JP3G0HG6F5K73
+    assertedStyle: 01M5H4EE3XTQ71T3X541Y6MZYJ
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Takamatsu acquired his martial arts skills and knowledge from Toda Shinryuken Masamitsu,
+              Ishitani Matsutaro, and Mizuta Yoshitaro Tadafusa.
+            locator: '170'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5H4EE3XTQHWGZYQJFFR3NJX
+    teacher: 01M5H4EE3X5PV22JEDJ6JT6TFJ
+    assertedStyle: 01M5H4EE3XTQ71T3X541Y6MZYJ
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Takamatsu acquired his martial arts skills and knowledge from Toda Shinryuken Masamitsu,
+              Ishitani Matsutaro, and Mizuta Yoshitaro Tadafusa.
+            locator: '170'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: 170-171
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q1047673
+tags:
+  - ninjutsu

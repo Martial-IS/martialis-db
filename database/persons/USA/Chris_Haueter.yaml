@@ -1,0 +1,82 @@
+type: Person
+id: 01M6ENVCFA0920MJ0TPF9FK2ZB
+name:
+  en: Chris Haueter
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+birthEvent:
+  birthDate: '1964'
+  birthPlace:
+    label: California
+    countryCode: eucountry:USA
+    wikidata: wd:Q99
+  hasEvidence:
+  - basedOnSource: 01M6ENPY5WE2S5FZ1XNWH6VG1Z
+    quotation: >-
+      Christopher Bard Haueter was born in 1964 in California.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: >-
+    American BJJ coach; one of the "Dirty Dozen", the first non-Brazilian BJJ black belts.
+hasTeacherAssertion:
+- id: 01M6ENVCFAYVEMB4PWTPTHRDW6
+  teacher: 01KYG003XD811EK3DSJRJCQHSE
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      BJJEE and BJJ Heroes only, possibly not independent; no account from Rigan or Haueter
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M6ENPY5WXBS4JFJJPB5WNGP2
+      quotation: >-
+        He received his black belt from Rigan Machado in 1996
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M6ENPY5W3X80VTM4RM28S3FH
+      quotation: >-
+        Chris Haueter is a Brazilian jiu jitsu black belt under Rigan Machado
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M6ENVCFAPCDS0GR0JK99D3A6
+  rankStyle: 01KJJAWN29MA64W22606R3WD9J
+  rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+  rankGrade: rankgrade:bjj_black
+  grantedBy: 01KYG003XD811EK3DSJRJCQHSE
+  dateConferred: 1996-12
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      BJJEE and BJJ Heroes only; month from BJJ Heroes
+  hasEvidence:
+  - basedOnSource: 01M6ENPY5WXBS4JFJJPB5WNGP2
+    quotation: >-
+      He received his black belt from Rigan Machado in 1996
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6ENPY5W3X80VTM4RM28S3FH
+    quotation: >-
+      Chris Haueter is a Brazilian jiu jitsu black belt under Rigan Machado, a grade achieved on December 1996
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M6ENPY5WE2S5FZ1XNWH6VG1Z
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q5106822
+tags:
+- brazilian-jiu-jitsu
+- dirty-dozen

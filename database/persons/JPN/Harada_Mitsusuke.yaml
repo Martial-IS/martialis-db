@@ -1,0 +1,89 @@
+type: Person
+id: 01M6C5JZZG5YXV79WXGWDM87DF
+name:
+  en: Mitsusuke Harada
+  ja-Latn: Harada Mitsusuke
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1928'
+  birthPlace:
+    label: Manchuria
+  hasEvidence:
+    - basedOnSource: 01M6C5JZZGVV24N4ZFNV23BH26
+      quotation: Born in Manchuria in 1928, Harada was the son of a Japanese army officer.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/6/6b/WikiHarada.jpg
+  rights: mediarights:cc-by-sa-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:WikiHarada.jpg
+    cite: "KDS, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    Japanese Shotokai karate teacher. He trained at the Shotokan from 1943 and under Gichin Funakoshi
+    and Shigeru Egami at Waseda, taught in São Paulo from 1955 to 1963, and founded the Karate-Do
+    Shotokai in Britain in 1967.
+hasTeacherAssertion:
+  - id: 01M6C5JZZGD3RF83RKYH01J4C9
+    teacher: 01KJJAWN28MWKKSN4J02MVY1VB
+    assertedStyle: 01KYFZEGYN107JYC5K1539R8JM
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Two independent articles.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1949
+          endYear: 1952
+        hasEvidence:
+          - basedOnSource: 01M6C5JZZG2VHX21WNMMF82KTN
+            quotation: Whilst at Waseda from 1949-1952, Harada trained directly under Funakoshi.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+      - interactionPeriod:
+          startYear: 1943
+        hasEvidence:
+          - basedOnSource: 01M6C5JZZGVV24N4ZFNV23BH26
+            quotation: >-
+              In 1943, when he was fifteen, Harada met Yoshitaka "Gigo" Funakoshi, who was the son of
+              Gichin Funakoshi, and as a result started to train at Funakoshi's Shotokan Dojo.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M6C5JZZGSFM2DMCV7R334PBR
+    teacher: 01KJJAWN29MA64W22606R3WD7N
+    assertedStyle: 01KYFZEGYN107JYC5K1539R8JM
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source, written with Harada's assistance.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C5JZZG2VHX21WNMMF82KTN
+            quotation: >-
+              But, in 1971 Harada took a definite direction, returning to the more orthodox style he had
+              experienced in his University days, and especially the invaluable year and half under the
+              tutelage of Shigeru Egami.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C5JZZG2VHX21WNMMF82KTN
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M6C5JZZGVV24N4ZFNV23BH26
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - karate
+  - shotokai

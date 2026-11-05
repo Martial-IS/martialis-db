@@ -1,0 +1,63 @@
+type: Person
+id: 01M5JSGG50ZR6MVBY4SQ2Q0ETA
+name:
+  en: Filippo Vadi
+aka:
+  en:
+    - Philippo di Vadi
+    - Philippo di Vadi Pisano
+nationality:
+  - countryCode: eucountry:ITA
+    wikidata: wd:Q38
+description:
+  en: >-
+    Fifteenth-century fencing master from Pisa, perhaps the Philippo Vadi who served the d'Este of
+    Ferrara. His De Arte Gladiatoria Dimicandi, given to Guidobaldo da Montefeltro, Duke of Urbino, in
+    1482–1487, closely follows Fiore dei Liberi's work, with departures in names and method; it links
+    Fiore and the Bolognese school.
+notes: >-
+  Wiktenauer notes that Vadi need not have belonged to Fiore's tradition in person: the d'Este owned
+  copies of Fiore's treatise, which he could have studied. Recorded as learning from the book.
+hasDocumentTransmissionAssertion:
+  - id: 01M5JSGG50R73TNKB2JF3W3FK1
+    transmissionDocument: 01M5JSGG50X0VB9HTRZRKJBYVM
+    assertedStyle: 01M5JSGG50KYXNMCB38XCKHKMF
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state the influence; the means is inferred.
+    hasEvidence:
+      - basedOnSource: 01M5JSGG50YW3SMPPE26R9AP1E
+        quotation: >-
+          Vadi was clearly influenced by the teachings of Fiore de'i Liberi, as the illustrated portion of
+          his treatise closely resembles those of the earlier master.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JSGG502QVKBF968NYQ8NCM
+        quotation: >-
+          The illustrations and techniques in the treatise suggest that Vadi was influenced by the work
+          of Fiore dei Liberi, author of the Flos Duellatorum.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Vadi was a disciple of the dei Liberi “school,” but his work has departures in nomenclature and
+          methodology, and may either represent a subtradition of the dei Liberi heritage or be evidence of
+          the school’s evolution during the fifteenth century.
+        locator: '246'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5JSGG50YW3SMPPE26R9AP1E
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q4112700
+tags:
+  - fencing
+  - italian-school

@@ -1,0 +1,103 @@
+type: Place
+id: 01M377JZDNVBAMXT39ZSQRWNBW
+name:
+  ja-Latn: Kōbusho
+  ja: 講武所
+placeType: placeclass:military
+hasSite:
+  - location:
+      label: Edo
+      countryCode: eucountry:JPN
+      wikidata: wd:Q215646
+foundedEvent:
+  startDate: '1856'
+  hasEvidence:
+    - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+      quotation: >-
+        In 1856, prior to the restoration, the shogunate had attempted to strengthen its defensive
+        capabilities by establishing the Kōbusho [...], a military academy that was based on maintaining
+        traditional values of civil and martial arts (bun-bu).
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+dissolvedEvent:
+  endDate: '1866'
+  dissolutionManner: dissmanner:defunct
+  dissolutionReason: Closed a decade after its founding, as the shogunate turned to Western military training.
+  hasEvidence:
+    - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+      quotation: Its purpose was to instruct Tokugawa retainers, and although it was closed a decade later, in 1866, in its heyday it employed over five hundred instructors (mainly assistants) of kenjutsu, sojutsu, and kyujutsu.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M4R9845WRXWDFJCNT0B2YTZK
+    instructor: 01M31VKGQF6DEE20PS7GXE8GET
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1858
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One authored history.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: In March of that year, Ōtani recommended that his protégé be appointed as one of the assistant instructors at the Kōbusho. He became a head instructor in 1858.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M4R9845WP0V363SE047PQ7QQ
+    instructor: 01M31VKGQF6DEE20PS7GXE8GET
+    instructorCapacity: instrcap:instructor
+    instructorPeriod:
+      startYear: 1856
+      endYear: 1858
+    notes: The assistant-instructor appointment is dated to March 1856 by "that year", the year of the teaching licence in the preceding sentence.
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One authored history.
+    hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: In March of that year, Ōtani recommended that his protégé be appointed as one of the assistant instructors at the Kōbusho. He became a head instructor in 1858.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M6BEFR8FP6FGW901KPN0VTC5
+    instructor: 01KJJAWN28MWKKSN4J02MVY1TY
+    instructorCapacity: instrcap:instructor
+    instructorStyle: 01KJJAWN29MA64W22606R3WD9Q
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Stated by the Kubota line's account (Skoss) and Tenyokai International, one tradition. No date.
+    hasEvidence:
+      - basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+        locator: The Development of the Tenjin Shinyo-ryu
+        locatorLabel: section
+        quotation: Some time after that, he received an appointment as a jujutsu instructor to the Kobusho, the martial arts training school for the Tokugawa shogunate.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - uri: http://www.tenyokai.com/history.html
+        cite: TENYOKAI INTERNATIONAL - History of Tenjin Shinyo-ryu
+        quotation: Iso also instructed in Tenjin Shinyo-ryu as well as striking and resuscitation techniques at the Koubusho (the Tokugawa shogunate`s martial arts training centre).
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: Military academy of the Tokugawa shogunate in Edo, founded in 1856 to train shogunal retainers and closed in 1866. At its height it employed over five hundred instructors of kenjutsu, sōjutsu and kyūjutsu, more than two-thirds of them teaching sword or spear. It would grant a rank on merit to a fencer who defeated a ranked opponent from an established school, and barred masters not of warrior stock from its posts.
+notes: Ōtani Seiichirō Nobutomo is described elsewhere as its head; find a quotable statement and add the role.
+hasEvidence:
+  - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+    quotation: >-
+      In 1856, prior to the restoration, the shogunate had attempted to strengthen its defensive
+      capabilities by establishing the Kōbusho [...], a military academy that was based on maintaining
+      traditional values of civil and martial arts (bun-bu).
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - kenjutsu
+  - kobusho
+  - japan

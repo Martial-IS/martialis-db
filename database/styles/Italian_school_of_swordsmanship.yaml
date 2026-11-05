@@ -1,0 +1,57 @@
+type: Style
+id: 01M5JSGG509Z4J4P08MWKM16ZW
+name:
+  en: Italian school of swordsmanship
+  it: Scuola italiana di scherma
+aka:
+  en:
+    - Italian school of fencing
+styleType: styleclass:traditional
+hasStyleRelationAssertion:
+  - id: 01M5JSGG50VBMFSHWF17ZCZ5T1
+    relatedStyle: 01M5JRHX02FJ6XZ3X069NVX3SE
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasEvidence:
+      - basedOnSource: 01M5JSGG50DXMQCVHRJF15RCBK
+        quotation: >-
+          The term Italian school of swordsmanship is used to describe the Italian style of fencing and
+          edged-weapon combat from the time of the first extant Italian swordsmanship treatise (1409) to
+          the days of classical fencing (up to the modern day).
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JRHX02J3PJ28A8MK97A9AW
+        quotation: >-
+          The Italian school altered the historical European martial art of classical fencing, and the
+          French school later refined that system.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+description:
+  en: >-
+    The Italian tradition of the sword and other edged weapons, from Fiore dei Liberi's Fior di
+    Battaglia (1409) and Filippo Vadi through the Bolognese masters and the rapier masters Agrippa,
+    Capoferro, Giganti and Fabris to classical fencing. It favours certain guards, attention to time
+    (tempo) and the thrust.
+hasEvidence:
+  - basedOnSource: 01M5JSGG50DXMQCVHRJF15RCBK
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q6093449
+tags:
+  - fencing
+  - italian-school
+  - historical-european-martial-arts
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/e/ea/Pisani_Dossi_Ms._16r.jpg
+    rights: mediarights:public_domain_mark
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:Pisani_Dossi_Ms._16r.jpg
+      cite: "Fiore dei Liberi, Wikimedia Commons"
+      informationType: infotype:secondary

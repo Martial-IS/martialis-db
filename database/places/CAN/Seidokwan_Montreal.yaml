@@ -1,0 +1,84 @@
+type: Place
+id: 01M5H62JEMYH70NAS2MFAKDVVH
+name:
+  en: Seidokwan Academy of Judo
+aka:
+  en: Seidokwan
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Montreal
+      countryCode: eucountry:CAN
+      wikidata: wd:Q340
+foundedEvent:
+  startDate: '1952'
+  founder:
+    - 01M5H62JEM4MB48838YP9V8N8J
+    - 01M5H3WJ4F533TGBC8XTK393S7
+    - 01M5H62JEMF5XHERGKPH5AE128
+  hasEvidence:
+    - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+      quotation: >-
+        In Quebec for example, Harold Tokai, an ex-B.C. Judoka, started the Montreal YMCA Judo Club in
+        1946, and later, in 1952, with Kametaro Akiyama and Fred Okimura, established the Seidokwan
+        Academy of Judo. Sponsored by the Japanese community, it was the first permanent dojo in
+        Montreal.
+      locator: '43'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    The first permanent judo dojo in Montreal, founded in 1952 by Harold Tokai, Kametaro Akiyama and
+    Fred Okimura with the support of the Japanese community. Hiroshi Nakamura taught there on his
+    arrival in 1968.
+hasInstructorRole:
+  - id: 01M5H62JEM11SECEZ5HJ9YYEPQ
+    instructor: 01M5H5TCKZW50M5WFGCD2KCNR1
+    instructorCapacity: instrcap:instructor
+    instructorPeriod:
+      startYear: 1968
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+        quotation: >-
+          He started teaching immediately at the Seidokwan Dojo with Fred Okimura on a twice-a-week
+          basis.
+        locator: '131'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5H62JEMCTF4ANRXMXGGC00S
+    instructor: 01M5H62JEMF5XHERGKPH5AE128
+    instructorCapacity: instrcap:instructor
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+        quotation: >-
+          He started teaching immediately at the Seidokwan Dojo with Fred Okimura on a twice-a-week
+          basis.
+        locator: '131'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    quotation: >-
+      Kametaro Akiyama and Fred Okimura, established the Seidokwan Academy of Judo
+    locator: '43'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - canada

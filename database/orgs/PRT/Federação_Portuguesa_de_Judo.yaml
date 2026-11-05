@@ -1,0 +1,68 @@
+type: Organization
+id: 01KJJAWN29MA64W22606R3WD82
+name:
+  en: Portuguese Judo Federation
+  pt: Federação Portuguesa de Judo
+orgType: orgclass:federation
+hasSite:
+  - location:
+      label: Odivelas, Lisbon, Portugal
+      countryCode: eucountry:PRT
+      wikidata: wd:Q850837
+foundedEvent:
+  startDate: '1959'
+  hasEvidence:
+    - uri: https://www.wikidata.org/wiki/Q21051370
+      archiveUri: http://web.archive.org/web/20251211145112/https://www.wikidata.org/wiki/Q21051370
+      cite: Wikidata entry for Portuguese Judo Federation
+      quotation: >-
+        inception 1959
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+website: https://www.fpj.pt
+hasAffiliationAssertion:
+  - id: 01M3YH7N5FTEG7R4RD9YGAF44R
+    relatedOrganization: 01KJJAWN29MA64W22606R3WD83
+    affiliationRelation: affrel:member_of
+    validDuring:
+      startYear: 1959
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The FPJ's Wikidata entry lists the International Judo Federation among its memberships (P463), and the EJU statutes hold that national judo federations are members of both their continental union and the IJF
+    hasEvidence:
+      - basedOnSource: 01KZ45S0ST2FTM98AH1ZYFMG0R
+        quotation: The organisation of the administration of Judo is based on a pyramid system of regulations, with the IJF the world governing body, the EJU the European governing body, and national Judo associations the governing bodies at domestic level.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5F6N87P0GM01X6CKG5
+    relatedOrganization: 01KZ45S0STZS9WKJ0JC5PPD8KP
+    affiliationRelation: affrel:member_of
+    validDuring:
+      startYear: 1959
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The FPJ's Wikidata entry lists the European Judo Union among its memberships (P463), and the EJU Wikipedia article lists the Portuguese Judo Federation among its 51 member federations
+    hasEvidence:
+      - basedOnSource: 01KZ45S0ST2FTM98AH1ZYFMG0R
+        quotation: The European Judo Union comprises 51 national judo federations or associations recognized by their respective National Olympic Committees.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: National governing body for judo in Portugal, founded in 1959, member of International Judo Federation and European Judo Union.
+  pt: Federação nacional de judo em Portugal, fundada em 1959, membro da Federação Internacional de Judo e da União Europeia de Judo.
+hasEvidence:
+  - basedOnSource: 01M3M0D4PBENKSVAF96JJTY9KB
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q21051370
+tags:
+  - judo
+  - federation
+  - portugal

@@ -1,0 +1,51 @@
+type: Person
+id: 01M5JWHXPXNWHX0A88G48G665Q
+name:
+  en: Dares
+description:
+  en: >-
+    Young Trojan boxer of Virgil's Aeneid who refused to face Entellus's heavy gloves and lost the bout.
+hasHistoricityAssertion:
+  - id: 01M5JWHXPXHP78MHJB9EPKXVQK
+    historicity: hist:legendary
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        One source places him in fiction; the other implies it.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Either way, in his fictional Aeneid V. 404–484, written about 29–19 BCE, Virgil (Publius
+          Vergilius Maro, 70–19 BCE) references the brutal nature of the caestus.
+        locator: '237'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JWHXPX7E42GHMD75EYHH9M
+        quotation: >-
+          A boxing match between Entellus and an arrogant younger boxer, Dares, is described in the fifth
+          book of Virgil's Aeneid.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      Entellus’ opponent, a Trojan named Dares, refused to fight unless smaller, lighter gloves were used.
+    locator: '237'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - legend
+  - boxing
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/a/ae/Mosaic_boxers_Getty_Villa_71.AH.106.jpg
+  rights: mediarights:cc-by-sa-2.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Mosaic_boxers_Getty_Villa_71.AH.106.jpg
+    cite: "Marshall Astor, Wikimedia Commons"
+    informationType: infotype:secondary

@@ -1,0 +1,93 @@
+type: Person
+id: 01M0TT32BHF8214X79XW68K673
+name:
+  en: Ralph Macchio
+aka:
+  en:
+  - Ralph George Macchio Jr.
+nationality:
+- countryCode: eucountry:USA
+  wikidata: wd:Q30
+birthEvent:
+  birthDate: '1961-11-04'
+  birthPlace:
+    label: Huntington
+    countryCode: eucountry:USA
+    wikidata: wd:Q999123
+  hasEvidence:
+  - basedOnSource: 01M0TT32BHAWCNBHTEWN9SY1VY
+    quotation: >-
+      Ralph George Macchio Jr. (/ˈmɑːtʃioʊ/ MAH-chee-oh; Italian: [ˈmakkjo]; born November 4, 1961)
+    cite: Ralph Macchio (Wikipedia EN)
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: American actor best known as Daniel LaRusso in The Karate Kid (1984) and its sequels, and in Cobra
+    Kai (2018-2025). Apart from four jiu-jitsu lessons as a child, he had no martial arts experience before
+    The Karate Kid; before filming he was trained in Okinawan Goju-ryu karate by fight coordinator Pat
+    E. Johnson. He performed the majority of his own stunts in the films and, decades later, on Cobra
+    Kai.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/e/e7/Ralph_Macchio_GalaxyCon_Raleigh_July%2C_24%2C_2026_992.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Ralph_Macchio_GalaxyCon_Raleigh_July,_24,_2026_992.jpg
+    cite: "John Manard, Wikimedia Commons"
+    informationType: infotype:secondary
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M3YH7N5G517588GTSCW7JK5E
+  teacher: 01M0TFB9H0HC3R48RJTFV77PCN
+  assertedStyle: 01KZC8S2GEGBJJT9RKV5M0HJ3N
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      First-person account naming both teacher and style, corroborated by Johnson's own account of
+      training him intensively for the film.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1984
+      endYear: 1984
+    hasEvidence:
+    - basedOnSource: 01M0TT32BH0QE6JZXCCY9S5WQR
+      quotation: Apart from four jiu-jitsu lessons when I was 10, I had no martial arts experience. Before
+        filming, I was trained in Okinawan Gōjū-ryū karate by Pat E Johnson, who coordinated the fight
+        scenes and played the head referee in the tournament at the end of the film.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M0TFB9H0282Q7MTM1KKTHNZY
+      quotation: >-
+        For The Karate Kid (1984), Johnson told Sports Illustrated in 2018 that he trained actors Pat Morita and Ralph Macchio "separately, really hard.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+notes: Training period is pinned to the documented Karate Kid pre-production year (1984). His Cobra Kai-era
+  (2018+) stunt conditioning has no publicly named instructor and is therefore not a separate interaction.
+  No rank claims exist in any source consulted.
+hasEvidence:
+- basedOnSource: 01M0TT32BHAWCNBHTEWN9SY1VY
+  cite: Ralph Macchio (Wikipedia EN)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0TT32BH0QE6JZXCCY9S5WQR
+  cite: '''Everyone was doing the crane kick'': Ralph Macchio on making The Karate Kid (The Guardian)'
+  informationType: infotype:primary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M0TFB9H0282Q7MTM1KKTHNZY
+  cite: Pat E. Johnson, 'Karate Kid' Choreographer, Trainer and Referee, Dies at 84 (Hollywood Reporter)
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q73346
+tags:
+- karate-kid
+- cobra-kai
+- goju-ryu
+- actor

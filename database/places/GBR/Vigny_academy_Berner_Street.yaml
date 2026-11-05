@@ -1,0 +1,111 @@
+type: Place
+id: 01M5KQTRGXQKD8G670C6RXC533
+name:
+  en: Pierre Vigny's academy
+  fr: Salle d'armes de Pierre Vigny
+placeType: placeclass:academy
+hasSite:
+  - location:
+      label: London
+      countryCode: eucountry:GBR
+      wikidata: wd:Q84
+    address: 18 Berner Street, London
+    hasEvidence:
+      - basedOnSource: 01M5JGQAC7Y1X7WATDMAEV48N2
+        quotation: >-
+          In 1903, Vigny opened his own self-defence academy in London, based at #18 Berner Street.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JGQAC7GAJ1MYQRA61R6JFW
+        quotation: >-
+          En 1903, il ouvre sa propre salle d'armes au 18 Berner street à Londres.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1903'
+  founder:
+    - 01M5JGQAC7CYFWR75P18PT4FD4
+  hasEvidence:
+    - basedOnSource: 01M5JGQAC7Y1X7WATDMAEV48N2
+      quotation: >-
+        In 1903, Vigny opened his own self-defence academy in London, based at #18 Berner Street.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5JGQAC7GAJ1MYQRA61R6JFW
+      quotation: >-
+        En 1903, il ouvre sa propre salle d'armes au 18 Berner street à Londres.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M5KQTRGXY6MTHXMDYATMPDDH
+    instructor: 01M5JGQAC7CYFWR75P18PT4FD4
+    instructorCapacity: instrcap:head_instructor
+    instructorStyle: 01M5JGQAC7V7W1GTRS53NMNXYY
+    instructorPeriod:
+      startYear: 1903
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasEvidence:
+      - basedOnSource: 01M5JGQAC7Y1X7WATDMAEV48N2
+        quotation: >-
+          In 1903, Vigny opened his own self-defence academy in London, based at #18 Berner Street.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5KQTRGX6Z9B9TC57KCSXT4C
+    instructor: 01M5KQTRGXV8EFY8PJEB8RMFJY
+    instructorCapacity: instrcap:instructor
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasEvidence:
+      - basedOnSource: 01M5JGQAC7Y1X7WATDMAEV48N2
+        quotation: >-
+          In 1903, Vigny opened his own self-defence academy in London, based at #18 Berner Street.
+          During this period, he also married a young woman named Miss Sanderson, who became his assistant
+          instructor.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5KQTRGXJ1SZNSFC7SDQPKAP
+    instructor: 01M06FKBQ1AB6FKXQBFBFKKDRH
+    instructorCapacity: instrcap:instructor
+    instructorStyle: 01KJJAWN29MA64W22606R3WD9G
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasEvidence:
+      - basedOnSource: 01M06FKBQ15H1DASNM7NNCKZDJ
+        quotation: >-
+          After the Bartitsu Club closed down (circa 1902), Uyenishi continued his work as a professional
+          wrestler and also taught jiujitsu classes at the self defence academy that had been established
+          by his former Bartitsu Club colleague, Pierre Vigny.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Pierre Vigny's self-defence academy and salle d'armes at 18 Berner Street, London, opened in 1903 after
+    the Bartitsu Club closed. His wife, née Sanderson, was assistant instructor, and Sadakazu Uyenishi
+    taught jujutsu classes there.
+notes: >-
+  No source dates its closing; Vigny returned to Geneva in 1912.
+hasEvidence:
+  - basedOnSource: 01M5JGQAC7Y1X7WATDMAEV48N2
+    informationType: infotype:secondary
+    supports: true
+tags:
+  - bartitsu
+  - jujutsu
+  - united-kingdom

@@ -1,0 +1,82 @@
+type: Person
+id: 01M6C1R005N5DENXC3XBPF0B18
+name:
+  en: Renato Sobral
+aka:
+  en:
+    - Babalu
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+birthEvent:
+  birthDate: '1975-09-07'
+  hasEvidence:
+    - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+      quotation: 'Born: 9/7/75'
+      locator: '433'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Brazilian mixed martial artist and Brazilian jiu-jitsu black belt under Carlos Gracie Jr.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/9/9e/Renato_%22Babalu%22_Sobral.jpg
+  rights: mediarights:cc-by-2.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Renato_%22Babalu%22_Sobral.jpg
+    cite: "Mike Dunn, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+  - id: 01M6C1R005R7T44SPMAA14ADET
+    teacher: 01KYZ31HT367V25Z6764RZXNGZ
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              But despite his strong wrestling base, and submission skills befitting a Brazilian Jiu-jitsu black belt under Carlos Gracie Jr., Babalu was never able to break through to the major championship level.
+            locator: '434'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M6C1R0059R5TWW03236BH7AQ
+    rankStyle: 01KJJAWN29MA64W22606R3WD9J
+    rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+    rankGrade: rankgrade:bjj_black
+    grantedBy: 01KYZ31HT367V25Z6764RZXNGZ
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+        quotation: >-
+          But despite his strong wrestling base, and submission skills befitting a Brazilian Jiu-jitsu black belt under Carlos Gracie Jr., Babalu was never able to break through to the major championship level.
+        locator: '434'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+    quotation: >-
+      Or, years before, when he competed in Akira Maeda’s Rings promotion when it featured many of the best in the world
+    locator: '434'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q2482623
+tags:
+  - brazilian-jiu-jitsu
+  - mma

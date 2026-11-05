@@ -1,0 +1,260 @@
+type: Person
+id: 01KJJAWN28MWKKSN4J02MVY1S1
+name:
+  ja-Latn: Kanō Jigorō
+  ja: 嘉納 治五郎
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1860-10-28'
+  hasEvidence:
+    - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTAT
+      quotation: 10月28日 refers to October 28. In other words, by the Gregorian calendar, Kano was born on October 28, 1860.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+  birthPlace:
+    label: Kobe
+    countryCode: eucountry:JPN
+    wikidata: wd:Q48320
+deathEvent:
+  deathDate: '1938-05-04'
+  deathPlace:
+    label: Pacific Ocean
+    wikidata: wd:Q98
+description:
+  en: 'Jigoro Kano (嘉納 治五郎, 10 December 1860 – 4 May 1938) was a Japanese educator, athlete, and the founder of Judo. Along with Ju-Jutsu, Judo was one of the first Japanese martial arts to gain widespread international recognition, and the first to become an official Olympic sport. Pedagogical innovations attributed to Kanō include the use of black and white belts, and the introduction of dan ranking to show the relative ranking among members of a martial art style. Well-known mottoes attributed to Kanō include "good use of energy" (精力善用 seiryoku zen''yō) and "mutual welfare and benefit" (自他共栄 jita kyōei).
+
+'
+  ja: '嘉納 治五郎（かのう じごろう、万延元年10月28日〈1860年12月10日〉-昭 和13年〈1938年〉5月4日）は、日本の柔道家・教育者・貴族院議員。兵 庫県出身。別表記：加納治五郎。講道館柔道の創始者であり、柔 道・スポーツ・教育分野の発展や日本のオリンピック初参加に尽力する など、明治から昭和にかけて日本におけるスポーツの道を開いた。「柔 道の父」と呼ばれ、また、「日本の体育の父」とも称される
+
+'
+  pt: 'Jigoro Kano (em japonês: 嘉納治五郎, Kanō Jigorō) (Mikage, 28 de outubro de 1860 – 4 de maio de 1938) foi o fundador da arte marcial Judo.
+
+'
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/0/0c/Kano_Jigoro.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Kano_Jigoro.jpg
+    archiveUri: http://web.archive.org/web/20241126201233/https://commons.wikimedia.org/wiki/Category:Photographs_of_Kan%C5%8D_Jigor%C5%8D
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+  - id: 01M3YH7N5G9P2CDENNMVMTPP5S
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TK
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9Q
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Well-documented as Kano's first jujutsu teacher in Tenjin Shin'yō-ryū from 1877-1879; Wikipedia and Token Corporation's independently published Judo Channel biography both directly state Fukuda accepted Kano as a student after Yagi's referral
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD8T
+        interactionPeriod:
+          startYear: 1877
+          endYear: 1879
+        hasEvidence:
+          - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTAV
+            quotation: His search brought him to Yagi Teinosuke, who had been a student of Emon Isomata in the Tenjin Shin'yō-ryū school of jūjutsu. Yagi, in turn, referred Kanō to Fukuda Hachinosuke, a bonesetter who taught Tenjin Shin'yō-ryū in a 10-mat room adjacent to his practice.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M3JASBP74AW51PY2N9C7Q3TQ
+            quotation: Yagi finally relented and introduced Jigoro to another jujutsu practitioner named Hachinosuke Fukuda. Fukuda accepted him into his dojo, and Jigoro's jujutsu training then began.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+            locator: The Development of the Tenjin Shinyo-ryu
+            locatorLabel: section
+            quotation: This was the prevailing situation when the founder of Kodokan judo, Jigoro Kano, began to study Tenjin Shinyo-ryu jujutsu with Fukuda Hachinosuke in 1877.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G2PFHE1EDHCK9F80J
+    teacher: 01KJJAWN28MWKKSN4J02MVY1V9
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9Q
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Independent sources state it.
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD8A
+        interactionPeriod:
+          startYear: 1879
+          endYear: 1881
+        hasEvidence:
+          - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTAV
+            quotation: Kanō began studying with Iso, who had been a friend of Fukuda. Despite being 62 years old and standing only 5 feet (1.52 m) tall, Iso had gained a powerful build from jūjutsu training. He was known for excellence in kata, and was also a specialist in atemi, or the striking of vital areas. In Iso's method, one began with kata and then progressed to free fighting (randori). Due to Kanō's intense practice and his solid grounding in the jūjutsu taught by Fukuda, Kanō became an assistant instructor at Iso's school.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+            quotation: >-
+              Following the passing of his second Tenjin Shinyo jujutsu master, Masatomo Iso, he took up the study of Kito style jujutsu
+            locator: xvi
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+            quotation: >-
+              After much thought, I decided that it would be in my best interests to enroll at Masatomo
+              Iso’s dojo in an effort to improve myself further in jujutsu.
+            locator: '9'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6BEFR8FVX43FSESEHG9QKA2
+            locator: The Development of the Tenjin Shinyo-ryu
+            locatorLabel: section
+            quotation: Kano continued his training with the third-generation headmaster of the ryu, Iso Mataemon Masatomo, when Fukuda died two years later.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GJJ351D3CWCJSE209
+    teacher: 01KJJAWN29MA64W22606R3WD65
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9P
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Kano's own memoir states he took lessons in Kitō-ryū from Iikubo; a secondary account adds that Iikubo issued him a menkyo in October 1883; the menkyo itself is not cited
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD8F
+        interactionPeriod:
+          startYear: 1881
+        hasEvidence:
+          - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTAV
+            quotation: Kanō began training in Kitō-ryū with Iikubo Tsunetoshi (Kōnen). Iikubo was an expert in kata and throwing, and fond of randori. Kanō applied himself thoroughly to learning Kitō-ryū, believing Iikubo's throwing techniques in particular to be better than in the schools he had previously studied. Iikubo issued Kanō a formal jūjutsu rank and teaching credential, namely a certificate of menkyo in Kitō-ryū, dated October 1883.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+            quotation: was Tsunetoshi Iikubo and that he had taught for a time at the Kobusho. Shortly thereafter, I was introduced to Iikubo from whom I subsequently took lessons in Kito style jujutsu
+            locator: '11'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GHWKRQPXZSXYM3WQ4
+    teacher: 01KJJAWN28MWKKSN4J02MVY1VG
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9D
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Mentioned by Kano himself as having practiced Yagyū-ryū bōjutsu with Oshima, though Kano noted his practice 'had not reached the level of shugyō'
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1881
+        hasEvidence:
+          - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTAW
+            quotation: 'When I was young, I practiced Yagyū-ryū bōjutsu with a man named Oshima. As my practice of this discipline had not reached the level of shugyō (NOTE: dedicated, austere study), usually I do not mention it. However, since then I thought there was value in bōjutsu shugyō'
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GQ9JPG3W1BTN71327
+    rankStyle: 01KJJAWN29MA64W22606R3WD9P
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+    rankGrade: rankgrade:menkyo_kaiden
+    grantedBy: 01KJJAWN29MA64W22606R3WD65
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it. They differ on the date: October 1883, or shortly after
+        Kano first threw Iikubo, around 1885.
+    hasEvidence:
+      - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTAV
+        quotation: 'Kitō-ryū: Menkyo kaiden (total transmission license)'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+        quotation: >-
+          Shortly thereafter Iikubo presented me with a license certifying me as a master of Kito
+          jujutsu together with a jujutsu suit and the densho that a master confers on his student
+          following his gaining master proficiency.
+        locator: '37'
+        locatorLabel: page
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G5XHSAVBMC38T460P
+    rankStyle: 01KJJAWN29MA64W22606R3WD9Q
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+    rankGrade: rankgrade:menkyo_kaiden
+    grantedBy: 01KJJAWN28MWKKSN4J02MVY1V9
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Received instruction and likely certification in Tenjin Shin'yō-ryū from Iso Masatomo
+    hasEvidence:
+      - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTAV
+        quotation: 'Tenjin Shin''yō-ryū: Instructor (formal rank unclear)'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZ9TQS3VNHWPHTJCAKYNERW6
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+    quotation: Aussi, dès 1928, il a créé la Kobudo Kenkyukaï, section de recherche sur les arts martiaux traditionnels anciens. Cette section, dont je faisais partie, regroupait au départ une trentaine de membres, tous champions de judo. Deux fois par mois, sur la demande de Kano sensei, qui payait les cours, quatre professeurs du Tenshin Shoden Katori Shinto Ryu venaient spécialement de Narita à Tokyo pour nous enseigner leur art.
+  - basedOnSource: 01KZ9TQS3VGPBASF3Z1Q0AVHJF
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+    quotation: C'est Maître Jigoro Kano qui m'a choisi pour aller étudier l'Aïkijujutsu avec Maître Morihei Ueshiba, et le Shindo Muso ryu Ju jutsu auprès de Maître Koji Shimizu.
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTAX
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D
+    archiveUri: http://web.archive.org/web/20260717045741/https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D
+    cite: 'Kanō Jigorō: Wikipedia entry.'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://doi.org/10.18002/rama.v9i2.1162
+    cite: 'DE CRÉE, Carl. Nanatsunokata, Endonokata, and Jogenokata: a pedagogical and qualitative biomechanical evaluation of Hirano Tokio''s kuzushi (unbalancing) concept as part of skill acquisition for throwing techniques in Kodokan judo. Revista de Artes Marciales Asiáticas (RAMA), 2014, 9.2: 69-96.'
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTAT
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTAW
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q190141
+  - dbr:Kanō_Jigorō
+hasHonorAssertion:
+  - id: 01M3YH7N5GH062WBCWYWN0CTTR
+    honorValue: Shihan
+    honorType: honortype:title
+    conferredBy: 01KJJAWN29MA64W22606R3WD7X
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Founder of Kodokan judo, recognized as Shihan (master instructor) by virtue of creating the art
+    hasEvidence:
+      - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTAV
+        quotation: >-
+          Rank Kōdōkan jūdō: Shihan (founder)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct

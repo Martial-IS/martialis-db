@@ -1,0 +1,50 @@
+type: Person
+id: 01M61V7JC2H997FT5TBMVFQB9X
+name:
+  en: Albrecht III of Bavaria
+  de: Albrecht III. von Bayern
+nationality:
+  - countryCode: eucountry:DEU
+    wikidata: wd:Q183
+description:
+  en: >-
+    Duke of Bavaria-Munich (1438–1460), perhaps the Duke Albrecht whom Sigmund Ringeck served as
+    Schirmaister and taught to fence in his youth.
+hasTeacherAssertion:
+  - id: 01M61V7JC2R1GJK1VFPN1SAZPV
+    teacher: 01M5JRHX02SZ2FAC299N8BX7V4
+    assertedStyle: 01M5JRHX026EPJNQVEJDCKRNJP
+    role: teachrole:private
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wiktenauer calls him Ringeck's presumptive student; Ringeck names only a Duke Albrecht, and which
+        of four is meant is unclear.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5JRHX02PCDN9JHSMYF7PD1T
+            quotation: >-
+              Sigmund Ainring's presumptive student Albrecht III of Bavaria would have required a fencing
+              master as part of his education in the 1410s
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+          - basedOnSource: 01M5JRHX02J2XG6EA61AEX8AQJ
+            quotation: >-
+              Ain ringeck's patron would have been Albrecht Ⅲ, who carried the title from 1438 to 1460
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5JRHX02J2XG6EA61AEX8AQJ
+    quotation: >-
+      Ain ringeck's patron would have been Albrecht Ⅲ, who carried the title from 1438 to 1460
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q61796
+tags:
+  - hema
+  - fencing

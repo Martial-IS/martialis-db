@@ -1,0 +1,39 @@
+type: Person
+id: 01M6A2A5Z9VQMMQ7ETE4GGKCYP
+name:
+  pt: Mestre Itapoan
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Capoeira Regional mestre and writer, a student of Mestre Bimba.
+hasTeacherAssertion:
+  - id: 01M6A2A5Z8J7MDZ76KDC58CY0M
+    teacher: 01M5H4AFG2ZHJ3H82H0DPJQJ1V
+    assertedStyle: 01M6A2A5YR5THAAVA3A61JRZ1H
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              some of Bimba’s students such as Mestre Itapoan and Jair Moura started to insist more
+              on the paramount contribution of batuque
+            locator: '129'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+    locator: '129'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - capoeira

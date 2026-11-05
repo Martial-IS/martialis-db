@@ -1,0 +1,60 @@
+type: Person
+id: 01M5H4HK02ARQ5SH66WDKGK4WK
+name:
+  ja-Latn: Shiraishi Hanjirō Shigeaki
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1842'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: Shiraishi Hanjiro Shigeaki (1842–1927) was the only double-license holder to establish a dojo
+      locator: '149'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1927'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: Shiraishi Hanjiro Shigeaki (1842–1927) was the only double-license holder to establish a dojo
+      locator: '149'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Shindō Musō-ryū jōdō teacher in Fukuoka, holder of licences in both streams of the school, whose
+    students (Takayama Kiroku, Otofuji Ichizō, Shimizu Takaji) carried it into the 20th century.
+hasTeacherAssertion:
+  - id: 01M6C5MBP3AX2XYTZ196YC3EEN
+    teacher: 01M1KT3VZZ488GVQXP7QKGNW6B
+    assertedStyle: 01KZ9TQS3VCCTAXE15YF88B0T9
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M6C5JZZGXS61AQ2DNAVKFZJS
+            quotation: >-
+              Shiraishi was originally a student of Hirano Kichizo and Sada Teisuke of Haruyoshi.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      His influential students included Takayama Kiroku (ca. 1893–1938), Otofuji Ichizo (1899–1998),
+      and Shimizu Takaji (1896–1978).
+    locator: '149'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - jodo

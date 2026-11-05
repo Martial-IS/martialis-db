@@ -1,0 +1,245 @@
+type: Person
+id: 01KZEGBEJ0G9YQF7TGES852HAH
+name:
+  ja-Latn: Higa Yuchoku
+  ja: 比嘉裕忠
+aka:
+  en:
+    - Yuchoku Higa
+  ja:
+    - ひが ゆうちょく
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1910-02-04'
+  birthPlace:
+    label: Naha
+    countryCode: eucountry:JPN
+    wikidata: wd:Q181966
+  hasEvidence:
+    - basedOnSource: 01KZEK9QGV238ASWT02WDFS5AF
+      quotation: >-
+        Yuchoku Higa (1910–1994) was a Japanese Shorin-ryu karate master
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZGJHHWJVNW1QV7FY93T72ZQ
+      quotation: The Master Yuchoku Higa was born in Naha, Okinawa, February 4, 1910.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1994-11-06'
+  deathPlace:
+    label: Naha
+    countryCode: eucountry:JPN
+    wikidata: wd:Q181966
+  hasEvidence:
+    - basedOnSource: 01KZEK9QGV238ASWT02WDFS5AF
+      quotation: 1910–1994
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZGJHHWJVNW1QV7FY93T72ZQ
+      quotation: >-
+        Master Yuchoku died on November 6, 1994, in Naha
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/en/0/0a/Higa_Yuchoku_-_photo.jpg
+  imageAttribution:
+    uri: https://en.wikipedia.org/wiki/File:Higa_Yuchoku_-_photo.jpg
+    cite: "English Wikipedia"
+    informationType: infotype:secondary
+description:
+  en: Okinawan Shorin-ryu karate master (1910-1994), founder of the Kyudokan school, Hanshi 10th dan; studied under Jiro Shiroma, Jinnan Shinzato, Seiei Miyahira and Choshin Chibana; politician and Naha City Council member.
+notes: Higa began training under Jiro Shiroma in 1927 (Shuri-te, for six years according to the Shuriway biography, which also names Jinnan Shinzato of the Naha-te school - a disciple of Chojun Miyagi - and Seiei Miyahira as his teachers after Shiroma's death in 1933), and began studies under Choshin Chibana in 1948 (the Shuriway biography gives 1943 for meeting Chibana and says he became Chibana's main pupil, receiving the first Hanshi 9th dan conferred by Chibana in 1965). He received the rank of Hanshi 10th dan in 1976. He founded the Kyudokan dojo (1947 per Shuriway; 1954 per the Budo Japan interview with his nephew Higa Minoru - both dates kept here). He served as first vice-president of the Okinawa Shorin-ryu Karate-do Association (1961), president of the Okinawa Prefecture Karatedo Federation and the All Okinawa Karatedo Federation (of which he was third president), and was a politician who served as a Naha City Council member and chair of the Naha City Council on eight successive occasions. The Kata Step by Step article on Chibana states Higa adhered to the principle that "the teacher is more important than the style" and remained Chibana's disciple until his death. His student Minoru Higa is recorded on Wikidata (P802).
+hasTeacherAssertion:
+  - id: 01M3YH7N5GMN6C0PQF0J29X5JE
+    teacher: 01KZC7XZAWJNRVKWZ66A7CXENR
+    assertedStyle: 01KZDXQH2MARRZH56QT95D2964
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states Higa began studies under Choshin Chibana in 1948 and was awarded 9th dan by him in 1965; the Shuriway biography gives 1943 for meeting Chibana and says Higa became his main pupil; the Kata Step by Step article confirms Higa remained Chibana's disciple until his death
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1943
+          endYear: 1969
+        hasEvidence:
+          - basedOnSource: 01KZEK9QGV238ASWT02WDFS5AF
+            quotation: In 1948 he began studies under Chōshin Chibana and in 1965 was awarded 9th dan by Chibana.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZGJHHWJVNW1QV7FY93T72ZQ
+            quotation: In 1943 he met Master Choshin Chibana, a direct disciple of Master Anko Itosu, and in a short time became his main pupil.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KZGJHHWJV0Z067740W1Y7ZYA
+            quotation: Yuchoku Higa, a later student of Chibana's, deeply respected his teacher, adhering to the principle that "the teacher is more important than the style," and remained Chibana's disciple until his death.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G2HKVB9QVEYPRDKDV
+    teacher: 01M1KH7NTWJW8SAGMAFQ86YD4M
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9F
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Shuriway biography states Higa's first master was Jiro Shiroma, a Shuri-te specialist who trained him for six years with intense practice of kihon and kata.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1927
+          endYear: 1933
+        hasEvidence:
+          - basedOnSource: 01KZGJHHWJVNW1QV7FY93T72ZQ
+            quotation: His first master was the sensei Jiro Shiroma, who was a specialist in Shuri-te, and who trained him for 6 years utilizing intense practice of Kihon and Kata as his basis [...] On the death of the master Shiroma in 1933
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GAKEBS63Q1CASW5XF
+    teacher: 01M1KH7NTWWBVZYEG73GD7K5NG
+    assertedStyle: 01KZC8S2GEGBJJT9RKV5M0HJ3N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Shuriway biography states Higa became a pupil of Jinnan Shinzato (a disciple of Chojun Miyagi of the Naha-te school, from whom he learned Goju-ryu characteristics and the kata Seisan) after Shiroma's death in 1933.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1933
+        hasEvidence:
+          - basedOnSource: 01KZGJHHWJVNW1QV7FY93T72ZQ
+            quotation: he became a pupil of the masters Jinnan Shinzato and Seiei Miyahira. With the former, who was in his turn a disciple of master Chojun Miyagi and belonged to the Naha-te school, Y.Higa learnt the characteristics of the style which is nowadays known as Goju ryu, eventually incorporating the kata Seisan into the school he was later to set up.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GX0V71YSHPZ4G2KG1
+    teacher: 01M1KH7NTWJKSJD3F88QT2TNZ6
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Shuriway biography states Higa learnt punching techniques from Master Seiei Miyahira, an expert in them.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KZGJHHWJVNW1QV7FY93T72ZQ
+            quotation: Y. Higa learnt from Master Miyahira the punching techniques, in which S.Miyahira had become an expert.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GZ6X2P1FZY4WQXK7V
+    rankStyle: 01KZEK8ETSCQV74D9782KTJQKQ
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 10
+    dateConferred: '1976'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia and the Shuriway biography state Higa received the rank of Hanshi 10th dan in 1976
+    hasEvidence:
+      - basedOnSource: 01KZEK9QGV238ASWT02WDFS5AF
+        quotation: Yuchoku Higa (1910–1994) was a Japanese Shorin-ryu karate master who was awarded Hanshi (10th dan) in 1976.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZGJHHWJVNW1QV7FY93T72ZQ
+        quotation: In 1976 he received his Hanshi 10th Dan, the highest rank to which a master can aspire.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GQHRGREH9YSQTDXCF
+    rankStyle: 01KZDXQH2MARRZH56QT95D2964
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 9
+    grantedBy: 01KZC7XZAWJNRVKWZ66A7CXENR
+    dateConferred: '1965'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia and the Shuriway biography state Higa was the first person to receive a Hanshi 9th dan promotion from Chibana, in 1965
+    hasEvidence:
+      - basedOnSource: 01KZEK9QGV238ASWT02WDFS5AF
+        quotation: in 1965 was awarded 9th dan by Chibana.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZGJHHWJVNW1QV7FY93T72ZQ
+        quotation: in 1965, he was the first person to receive a Hanshi 9-Dan promotion from Choshin, Chibana.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M3YH7N5GPM89MGB52N15FHPJ
+    honorValue: Hanshi 10th Dan
+    honorType: honortype:title
+    honorGrade: honorgrade:shogo_hanshi
+    dateConferred: '1976'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia and the Shuriway biography state Higa received the rank of Hanshi 10th dan in 1976
+    hasEvidence:
+      - basedOnSource: 01KZEK9QGV238ASWT02WDFS5AF
+        quotation: Yuchoku Higa (1910–1994) was a Japanese Shorin-ryu karate master who was awarded Hanshi (10th dan) in 1976.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZGJHHWJVNW1QV7FY93T72ZQ
+        quotation: In 1976 he received his Hanshi 10th Dan, the highest rank to which a master can aspire.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GAKAPSQJDH7GEJ0GJ
+    honorValue: Hanshi 9th Dan
+    honorType: honortype:title
+    honorGrade: honorgrade:shogo_hanshi
+    grantedBy: 01KZC7XZAWJNRVKWZ66A7CXENR
+    dateConferred: '1965'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia and the Shuriway biography state Higa was the first person to receive a Hanshi 9th dan promotion from Chibana, in 1965
+    hasEvidence:
+      - basedOnSource: 01KZEK9QGV238ASWT02WDFS5AF
+        quotation: in 1965 was awarded 9th dan by Chibana.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZGJHHWJVNW1QV7FY93T72ZQ
+        quotation: in 1965, he was the first person to receive a Hanshi 9-Dan promotion from Choshin, Chibana.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZEK9QGV238ASWT02WDFS5AF
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZGJHHWJVNW1QV7FY93T72ZQ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZGJHHWJDZE5RVTT212FW2FY
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZGJHHWJV0Z067740W1Y7ZYA
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q15987228
+tags:
+  - karate
+  - shorin-ryu
+  - kyudokan

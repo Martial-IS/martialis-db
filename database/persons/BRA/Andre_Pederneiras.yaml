@@ -1,0 +1,68 @@
+type: Person
+id: 01M5H6JAFSCCPHYGCEHM8C7CKZ
+name:
+  pt: André Pederneiras
+aka:
+  pt: Dedé Pederneiras
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Brazilian jiu-jitsu coral belt and MMA coach, black belt under Carlson Gracie (1988); organised the
+    first Brazilian national jiu-jitsu championship (1993), co-founded Nova União with Wendel Alexander
+    and coached UFC fighters such as José Aldo.
+hasTeacherAssertion:
+  - id: 01M5H6JAFSY10TCHCFHPRCTJN0
+    teacher: 01KYQB8J2NN336ZJWGQW3YH95E
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: >-
+              André received his black-belt by the hands of Carlson Gracie in December 1988
+            locator: Interview with André Pederneiras (after chapter 13)
+            locatorLabel: section
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M5H6JAFS62XCKANF788SQ298
+    rankStyle: 01KJJAWN29MA64W22606R3WD9J
+    rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+    rankGrade: rankgrade:bjj_black
+    grantedBy: 01KYQB8J2NN336ZJWGQW3YH95E
+    dateConferred: '1988-12'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+        quotation: >-
+          André received his black-belt by the hands of Carlson Gracie in December 1988
+        locator: Interview with André Pederneiras (after chapter 13)
+        locatorLabel: section
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+    quotation: >-
+      He is also the co-founder of Nova União (alongside Wendel Alexander) but is perhaps best known for
+      being the coach of many UFC fighters.
+    locator: Interview with André Pederneiras (after chapter 13)
+    locatorLabel: section
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q111020351
+tags:
+  - bjj
+  - mma

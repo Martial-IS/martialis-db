@@ -1,0 +1,40 @@
+type: Event
+id: 01M36Q2Z6YN3FY5BB7EHHXEDXS
+name:
+  en: Shiba Yayoisha gekken tournament (1885)
+  ja: 芝弥生社の撃剣大会
+eventType: eventclass:tournament
+eventDate: '1885'
+location:
+  label: Shiba, Tokyo
+  countryCode: eucountry:JPN
+  wikidata: wd:Q1490
+about:
+- 01KYHNJKQDTEJ1A5MQ5JYPHDTB
+hasParticipation:
+- id: 01M3YH7N5F24BGWNZ0Q1CM65AS
+  participant: 01M2WGWA1YG2SSC4PASW0TXXQC
+  participationRole: eventrole:competitor
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Sugie's chronology places Takano at the tournament and records the imperial
+      viewing. It names no opponent and gives no result.
+  hasEvidence:
+  - basedOnSource: 01M0AZQ3TJ40Z0WJJD8T706CQB
+    quotation: 高野佐三郎。芝弥生社の撃剣大会において天覧を得る。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: Gekken (fencing) tournament held at the Shiba Yayoisha, at which Takano Sasaburō's bout received
+    an imperial viewing (tenran).
+hasEvidence:
+- basedOnSource: 01M0AZQ3TJ40Z0WJJD8T706CQB
+  quotation: 高野佐三郎。芝弥生社の撃剣大会において天覧を得る。
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- kenjutsu
+- japan

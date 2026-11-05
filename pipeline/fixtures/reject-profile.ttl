@@ -1,0 +1,8 @@
+### Negative control for the OWL 2 DL profile check in `make reasoner`: a
+### datatype property (martialis:quotation) used with an IRI value, which makes
+### OWLAPI read it as an object property too - a pun OWL 2 DL forbids. If the
+### profile check stops rejecting it, the step fails.
+
+@prefix martialis: <https://w3id.org/martialis/ontology#> .
+
+<https://martial.is/entity/control-evidence> martialis:quotation <https://example.org/not-a-literal> .

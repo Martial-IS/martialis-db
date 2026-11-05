@@ -1,0 +1,70 @@
+type: Person
+id: 01M5H4AFG2HW78GX30TX4CCST3
+name:
+  pt: Mestre João Grande
+aka:
+  pt: João Oliveira dos Santos
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+birthEvent:
+  birthDate: '1933'
+  hasEvidence:
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: These students include Mestres João Grande (born João Oliveira dos Santos 1933–)
+      locator: '40'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: Capoeira Angola master, student of Mestre Pastinha; still teaching in New York City in 2009.
+hasTeacherAssertion:
+  - id: 01M5H4ANTV5R58MG34WRR2QX11
+    teacher: 01M5H4AFG2ZRRQ0T4STJDTFRAR
+    assertedStyle: 01M5H4AFG2PQBX1QXTNW3CMHN5
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Two sources, not independent; Green & Svinth cites Assunção.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              most contemporary practitioners of capoeira Angola trace their lineage through Mestre
+              Pastinha’s students. These students include Mestres João Grande (born João Oliveira dos
+              Santos 1933–) who was still teaching in New York City in 2009
+            locator: '40'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M6A208ZNPSHKF5VJ6T8GGKH5
+            quotation: >-
+              Pastinha slowly built up a group of advanced students, many of whom later became
+              mestres and teachers in their own right: João Pequeno, João Grande, Boca Rica, Gildo
+              Alfinete, Bola Sete and others.
+            locator: '160'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    locator: '40'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q6298182
+tags:
+  - capoeira
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/d/d9/Ordem_do_M%C3%A9rito_Cultural_%28OMC%29_2015_%2822923787115%29.jpg
+  rights: mediarights:cc-by-2.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Ordem_do_M%C3%A9rito_Cultural_(OMC)_2015_(22923787115).jpg
+    cite: "Ministério da Cultura, Wikimedia Commons"
+    informationType: infotype:secondary

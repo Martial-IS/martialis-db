@@ -1,0 +1,92 @@
+type: Person
+id: 01M6EFJQBCFCB786ETNHJYVZQA
+name:
+  ja-Latn: Takizawa Kōzō
+  ja: 瀧澤光三
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1910-10-20'
+  birthPlace:
+    label: Atsugi, Kanagawa
+    countryCode: eucountry:JPN
+  hasEvidence:
+  - basedOnSource: 01M6EF6KKA5D6Q2JYWWB39JHQ9
+    quotation: Takizawa Kozo was born as the third son into a farming family on the 20th of October, Meiji 43 (1910), in Atsugi city, Kanagawa prefecture.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1987-07'
+  hasEvidence:
+  - basedOnSource: 01M6EF6KKA5D6Q2JYWWB39JHQ9
+    quotation: 'Showa 62 (1987) – awarded 9dan (May); he died of cancer at the age of 76 (July).'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: >-
+    Kendo teacher; live-in student of Takano Sasaburō at the Shudōgakuin from 1932, then Imperial
+    Guards and police kendo instructor, founder of the Shiseikan Takizawa dojo in Atsugi (1970), hanshi
+    9th dan.
+hasTeacherAssertion:
+- id: 01M6EFJQBDNAY33YQHX55FSXSQ
+  teacher: 01M2WGWA1YG2SSC4PASW0TXXQC
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9W
+  role: teachrole:uchi_deshi
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Single kenshi247 article, based on the dojo's own anniversary volumes.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1932
+      endYear: 1936
+    hasEvidence:
+    - basedOnSource: 01M6EF6KKA5D6Q2JYWWB39JHQ9
+      quotation: For 4 years he lived in the dojo (cleaning, washing, and cooking as well as practising) and studied kendo and itto-ryu under Takano Sasaburo.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M6EFJQBDSWF9RGXVJ8ZR0N1T
+  rankStyle: 01KJJAWN29MA64W22606R3WD9W
+  rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+  rankType: ranktype:dan
+  rankOrdinal: 9
+  dateConferred: 1987-05
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Single kenshi247 article.
+  hasEvidence:
+  - basedOnSource: 01M6EF6KKA5D6Q2JYWWB39JHQ9
+    quotation: In May 1987 Kozo sensei was awarded his 9dan at the Kyoto Taikai
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasHonorAssertion:
+- id: 01M6EFJQBDYPPF2MRKWS00BTMJ
+  honorValue: Hanshi
+  honorType: honortype:title
+  honorGrade: honorgrade:shogo_hanshi
+  conferredBy: 01M0R2X2ACBZDHS6JXQ7CTAMC8
+  dateConferred: '1969'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Single kenshi247 article.
+  hasEvidence:
+  - basedOnSource: 01M6EF6KKA5D6Q2JYWWB39JHQ9
+    quotation: Showa 44 (1969) – awarded hanshi
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasEvidence:
+- basedOnSource: 01M6EF6KKA5D6Q2JYWWB39JHQ9
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+tags:
+- kendo

@@ -1,0 +1,99 @@
+# Aliveness check for the hand-authored SHACL shapes.
+#
+# Loaded with the export and ONE hand-authored shapes file (both as --data), so
+# every shape it sees is hand-authored. The generated structural shapes
+# (ontology/martialis.shacl.ttl) are never inspected.
+#
+# A target-bearing shape whose focus set is empty in the export is dead: it
+# matches no node, so it can never report a violation. A property path on a
+# target-bearing shape is dead when no focus node carries it, unless the
+# property shape requires presence (sh:minCount or sh:qualifiedMinCount > 0):
+# there absence is itself a violation and the constraint still fires. A path
+# that occurs at least once is alive, whether or not it ever violates.
+#
+# One row per target-bearing shape, so the caller can count what was examined
+# and fail closed on an empty result:
+#   ?shape ?label ?focusCount ?deadPaths
+# focusCount = 0 is a dead shape; a non-empty ?deadPaths on a live shape is a
+# dead property path. Complex (non-IRI) paths are not assessed, and neither is
+# a path mentioned only inside an sh:sparql query, which cannot be derived.
+
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?shape ?label ?focusCount ?deadPaths
+WHERE {
+  {
+    ?shape sh:targetClass ?anyTarget
+  }
+  UNION
+  {
+    ?shape sh:targetSubjectsOf ?anyTarget
+  }
+  UNION
+  {
+    ?shape sh:targetObjectsOf ?anyTarget
+  }
+  UNION
+  {
+    ?shape sh:targetNode ?anyTarget
+  }
+
+  OPTIONAL { ?shape rdfs:label ?labelLit }
+
+  OPTIONAL {
+    SELECT ?shape (COUNT(DISTINCT ?focus) AS ?n)
+    WHERE {
+      {
+        ?shape sh:targetClass ?c .
+        ?focus a ?c .
+      }
+      UNION
+      {
+        ?shape sh:targetSubjectsOf ?p .
+        ?focus ?p ?o .
+      }
+      UNION
+      {
+        ?shape sh:targetObjectsOf ?p .
+        ?o ?p ?focus .
+      }
+      UNION
+      {
+        ?shape sh:targetNode ?focus .
+      }
+    }
+    GROUP BY ?shape
+  }
+
+  OPTIONAL {
+    SELECT ?shape (GROUP_CONCAT(DISTINCT ?deadPath; separator=", ") AS ?paths)
+    WHERE {
+      ?shape sh:property ?ps .
+      ?ps sh:path ?path .
+      FILTER(isIRI(?path))
+      FILTER NOT EXISTS { ?ps sh:minCount ?mc . FILTER(?mc > 0) }
+      FILTER NOT EXISTS { ?ps sh:qualifiedMinCount ?qmc . FILTER(?qmc > 0) }
+      FILTER EXISTS {
+        { ?shape sh:targetClass ?tc }
+        UNION { ?shape sh:targetSubjectsOf ?tp }
+        UNION { ?shape sh:targetObjectsOf ?to }
+        UNION { ?shape sh:targetNode ?tn }
+      }
+      FILTER NOT EXISTS {
+        { ?shape sh:targetClass ?c2 . ?focus2 a ?c2 }
+        UNION { ?shape sh:targetSubjectsOf ?p2 . ?focus2 ?p2 ?o2 }
+        UNION { ?shape sh:targetObjectsOf ?p2 . ?o2 ?p2 ?focus2 }
+        UNION { ?shape sh:targetNode ?focus2 }
+        ?focus2 ?path ?value2 .
+      }
+      BIND(STR(?path) AS ?deadPath)
+    }
+    GROUP BY ?shape
+  }
+
+  BIND(COALESCE(?n, 0) AS ?focusCount)
+  BIND(?paths AS ?deadPaths)
+  BIND(COALESCE(STR(?labelLit), "") AS ?label)
+}
+ORDER BY ?shape

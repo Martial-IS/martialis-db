@@ -1,0 +1,48 @@
+type: Organization
+id: 01M331J1AK559MQJ4MSG3EVDX1
+name:
+  en: United States Judo Association
+aka:
+  en:
+    - USJA
+orgType: orgclass:federation
+hasSite:
+  - location:
+      label: Merrick, New York
+      countryCode: eucountry:USA
+foundedEvent:
+  startDate: '1969-04-22'
+  hasEvidence:
+    - uri: https://www.usja.net/about/ourhistory
+      quotation: >-
+        they officially renamed the organization the USJA on the morning of April 22nd, 1969
+      cite: History of the USJA
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M3YH7N5FJ30QSHT72T78C56H
+    relatedOrganization: 01KYMEA0X5B2S975DFVQ4WEQSV
+    affiliationRelation: affrel:renamed_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The USJA's own history page states the Air Force Judo Association's Board of Governors officially renamed the organization the USJA on 22 April 1969.
+    hasEvidence:
+      - uri: https://www.usja.net/about/ourhistory
+        cite: History of the USJA
+        quotation: A year later, Jim Bregman joined the AFJA's Board of Governors at a meeting in Chicago where they officially renamed the organization the USJA on the morning of April 22nd, 1969.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - uri: https://www.usja.net/about/ourhistory
+    cite: History of the USJA
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q7890698
+tags:
+  - judo
+  - federation

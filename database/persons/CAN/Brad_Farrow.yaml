@@ -1,0 +1,53 @@
+type: Person
+id: 01M5HPEDHZE637BMGNBJE3Y3P6
+name:
+  en: Brad Farrow
+nationality:
+  - countryCode: eucountry:CAN
+    wikidata: wd:Q16
+description:
+  en: >-
+    Canadian judoka from Steveston, a pupil of Hiroshi Nakamura; named to the Olympic teams of 1976,
+    1980 and 1984.
+notes: >-
+  Leyshon (p. 70): his other sensei were Art Nishi and Ricky Yodogawa (no records yet).
+hasTeacherAssertion:
+  - id: 01M5HPEDHZX91FKX2YNAAYHEVF
+    teacher: 01M5H5TCKZW50M5WFGCD2KCNR1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Judo Canada's own history only.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              Sensei: Art Nishi, Ricky Yodogawa, Hiroshi Nakamura
+            locator: '70'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+            quotation: >-
+              And there were many others, Brad Farrow, Wayne Erdman, Rainer Fischer, to name a few. In
+              the early 1970s these athletes were also drawn to Nakamura’s dojo
+            locator: '132'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN7DVCGK42EP9G1XK9
+    locator: '70'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q4953921
+tags:
+  - judo
+  - canada

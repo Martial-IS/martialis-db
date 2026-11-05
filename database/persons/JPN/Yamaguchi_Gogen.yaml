@@ -1,0 +1,124 @@
+type: Person
+id: 01M5H4V349WJ4XZ2R5CTH9KP72
+name:
+  ja-Latn: Yamaguchi Gōgen
+  ja: 山口剛玄
+aka:
+  ja-Latn: Yamaguchi Yoshimi
+  en: The Cat
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1909-01-20'
+  hasEvidence:
+    - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+      quotation: Gogen Yamaguchi was born on January 20, 1909, on the island of Kyushu in southern Japan.
+      locator: '132'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Japanese karate teacher who spread Goju-ryu in Japan and abroad, founder of the International
+    Karate-do Goju Kai Association. He introduced free sparring (jiyu kumite) at the Ritsumeikan
+    University karate club in the 1930s. His claim to be Miyagi Chōjun's successor is disputed.
+notes: >-
+  Cramer gives his death as 1989 (p. 131) and 1988 (p. 135). Born Yoshimi; he says he took the name
+  Gōgen at Miyagi's wish (p. 133).
+hasTeacherAssertion:
+  - id: 01M5H4V349M34X1X0V6KVSKVVY
+    teacher: 01KZBRSRZ7DF87MMQPTAD4542E
+    assertedStyle: 01KZC8S2GEGBJJT9RKV5M0HJ3N
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        His own account. Miyagi's 1936 list of his students omits him, and Okinawan Goju teachers
+        dispute the relationship.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+            quotation: >-
+              Yamaguchi tells us that he was named as the successor to Miyagi, the founder of Goju Ryu.
+              Yamaguchi asserts that Miyagi told him, “Yamaguchi, you are well qualified to become the
+              successor of Goju School Karate.… I have nothing more to teach you.
+            locator: '135'
+            locatorLabel: page
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:indirect
+          - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+            quotation: >-
+              Finally, in 1936, Miyagi listed all of his students in both Okinawa and Japan, and
+              Yamaguchi’s name is conspicuously missing from that list.
+            locator: '136'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: false
+            evidenceType: evidencetype:negative
+hasHonorAssertion:
+  - id: 01M5HW2K8E3DR145A3DPY0EYFY
+    honorType: honortype:title
+    honorValue: Successor of Goju-ryu (claimed)
+    grantedBy: 01KZBRSRZ7DF87MMQPTAD4542E
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        His own account of private words only; senior Okinawan students dispute it, and Miyagi's 1936
+        list of his students omits him.
+    hasEvidence:
+      - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+        quotation: >-
+          Yamaguchi tells us that he was named as the successor to Miyagi, the founder of Goju Ryu.
+          Yamaguchi asserts that Miyagi told him, “Yamaguchi, you are well qualified to become the
+          successor of Goju School Karate.… I have nothing more to teach you.
+        locator: '135'
+        locatorLabel: page
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+        quotation: >-
+          Moreover, Graham Noble tells us that Yamaguchi’s claim that he was designated by Miyagi to be
+          his successor in Goju Ryu is disputed by many of Miyagi’s senior Okinawan students
+        locator: '135'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: false
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+        quotation: >-
+          Finally, in 1936, Miyagi listed all of his students in both Okinawa and Japan, and Yamaguchi’s
+          name is conspicuously missing from that list.
+        locator: '136'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: false
+        evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5G930MNMCTZWM3RM7X4VCPV
+    quotation: >-
+      Few people in the history of modern karate-do have commanded as much respect and generated as
+      much controversy as the enigmatic Gogen Yamaguchi, who was the founder of the International
+      Karate-do Goju Kai Association.
+    locator: '131'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q268880
+tags:
+  - karate
+  - goju-ryu
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/4/47/Gogen_and_Goshi.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Gogen_and_Goshi.jpg
+    cite: "東京書店, Wikimedia Commons"
+    informationType: infotype:secondary

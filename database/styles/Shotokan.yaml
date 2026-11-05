@@ -1,0 +1,58 @@
+type: Style
+id: 01KYFZEGYN107JYC5K1539R8JM
+name:
+  en: Shotokan
+  ja: 松濤館
+aka:
+  ja-Latn:
+    - Shōtōkan-ryū
+styleType: styleclass:modern
+description:
+  en: Shotokan is a school of karate developed by Gichin Funakoshi and popularized through the Japan Karate Association (JKA). It emphasizes deep stances, powerful linear techniques, and kata practice. It is one of the most widely practiced karate styles in the world.
+foundedEvent:
+  startDate: '1936'
+  hasEvidence:
+    - uri: https://en.wikipedia.org/wiki/Shotokan
+      quotation: >-
+        Shōtōkan was the name of the first official dojo built by Gichin Funakoshi, in 1936 at Mejiro
+      archiveUri: https://en.wikipedia.org/w/index.php?title=Shotokan&oldid=1379046564
+      cite: Shotokan - Wikipedia
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasStyleRelationAssertion:
+  - id: 01M3YH7N5GX39N41FJJSNT88AR
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9S
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Shotokan is a specific school of karate founded by Gichin Funakoshi
+    hasEvidence:
+      - uri: https://en.wikipedia.org/wiki/Shotokan
+        archiveUri: https://en.wikipedia.org/w/index.php?title=Shotokan&oldid=1379046564
+        cite: Shotokan - Wikipedia
+        quotation: Shōtōkan is a style of karate, developed from various martial arts by Gichin Funakoshi
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - uri: https://en.wikipedia.org/wiki/Shotokan
+    archiveUri: https://en.wikipedia.org/w/index.php?title=Shotokan&oldid=1379046564
+    cite: Shotokan - Wikipedia
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q41103
+tags:
+  - japanese-martial-arts
+  - karate
+  - shotokan
+  - gendai
+photos:
+  - contentUrl: https://upload.wikimedia.org/wikipedia/commons/4/44/Funakoshi_Gichin2.jpg
+    rights: mediarights:public_domain_mark
+    imageAttribution:
+      uri: https://commons.wikimedia.org/wiki/File:Funakoshi_Gichin2.jpg
+      cite: "Funakoshi Gichin, Wikimedia Commons"

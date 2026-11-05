@@ -1,0 +1,116 @@
+type: Person
+id: 01KYT5TK1S4FP3VWA02Z7MS4H1
+name:
+  en: Ari Anastasiadis
+  fr: Ari Anastasiadis
+aka:
+  en:
+    - Aristide Anastasiadis
+    - Arry Anastasiadis
+  fr:
+    - Aristide Anastasiadis
+    - Arry Anastasiadis
+nationality:
+  - countryCode: eucountry:CAN
+    wikidata: wd:Q16
+deathEvent:
+  deathDate: '2015'
+hasTeacherAssertion:
+  - id: 01M3YH7N5GGNNYBTJJX41W7R25
+    teacher: 01KYYP8SJVM8PW3R7X6Z9NWBQB
+    assertedStyle: 01KYFZEGYN107JYC5K1539R8JM
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Goran Glucina's first-person video description states that he and Ari Anastasiadis both trained
+        under Hirokazu Kanazawa; corroborated by the Karate Maskoutain hommage. The interaction period
+        is inferred from Anastasiadis's documented Tokyo/JKA stay in the late 1950s when Kanazawa was a
+        JKA instructor.
+    hasInteraction:
+      - interactionPlace: 01KYYYTTW3Y75SK72Z4J0N1DZN
+        interactionPeriod:
+          startYear: 1956
+          endYear: 1960
+        hasEvidence:
+          - basedOnSource: 01KYYP8SJVBNB6F6QFNFXEX1XG
+            quotation: >-
+              We all trained under the greatest Karate Master of modern times HIROKAZU KANAZAWA Soke who spread Karate -Do throughout the Western World.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+description:
+  en: 'Pioneer of Shotokan karate in Canada. Of Greek origin, born in Egypt, Anastasiadis trained at the Japan Karate Association (JKA) in Tokyo under Hirokazu Kanazawa, and was one of the very first foreigners to earn his black belt there in the late 1950s. He became the first person to teach karate in Canada, opening his first club in Montreal in 1957. He was the first non-Japanese to referee the All Japan Championship. By age 33 (1965) he held mastery in karate, judo, aikido, and bogotsu. He founded the first Canadian karate federation and collaborated with Hirokazu Kanazawa on instructional books and videos for the Shotokan Karate International Federation (SKIF). Among his early students was Gilles Dufour, who later became the successor of Roger Lesseau in Kyokushin.
+
+'
+  fr: 'Pionnier du karaté Shotokan au Canada. D''origine grecque, né en Égypte, Anastasiadis s''est formé à la Japan Karate Association (JKA) à Tokyo sous Hirokazu Kanazawa et fut l''un des tout premiers étrangers à obtenir sa ceinture noire là-bas à la fin des années 1950. Il est devenu la première personne à enseigner le karaté au Canada, ouvrant son premier club à Montréal en 1957. Il a été le premier non-Japonais à arbitrer le Championnat du Japon. À 33 ans (1965), il maîtrisait le karaté, le judo, l''aïkido et le bogotsu. Il a fondé la première fédération canadienne de karaté et a collaboré avec Hirokazu Kanazawa sur des livres et vidéos pédagogiques pour la Shotokan Karate International Federation (SKIF). Parmi ses premiers élèves figurait Gilles Dufour, qui est devenu plus tard le successeur de Roger Lesseau au Kyokushin.
+
+'
+image:
+  contentUrl: https://karatemaskoutain.com/wp-content/uploads/2024/09/Ari.jpg
+  imageAttribution:
+    uri: https://karatemaskoutain.com/hommage-a-sensei-ari-anastasiadis/
+    cite: "Club de Karaté Maskoutain"
+    informationType: infotype:secondary
+hasHonorAssertion:
+  - id: 01M3YH7N5G11KP5K00ZZSDM165
+    honorValue: Canadian Black Belt Hall of Fame inductee
+    honorType: honortype:title
+    dateConferred: '2010'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Listed on the Canadian Black Belt Hall of Fame inductees page for 2010
+    hasEvidence:
+      - uri: https://www.canadianblackbelthalloffame.com/inductees.html
+        cite: Canadian Black Belt Hall of Fame inductees list
+        quotation: 2010 - Ari Anastasiadis - Karate
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GAA9KKWKE6YPHJXV9
+    honorValue: Master
+    honorType: honortype:title
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: The hommage article states he trained at JKA in Japan and was a master in multiple arts, but specific dan grade is not listed
+    hasEvidence:
+      - basedOnSource: 01KYT5RQK6YDSWN4686J9PTPMF
+        quotation: Issu de la Japan Karate Association (JKA), Sensei Anastasiadis devient le premier à enseigner le karaté au Canada, ouvrant son premier club à Montréal en 1957.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KYYP8SJVBNB6F6QFNFXEX1XG
+        quotation: >-
+          Senior Sensei ARI ANASTASIADIS Sensei who was one of the very first foreigner"s [sic] to gain his black belt in the late 1950's in Tokyo Japan.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KYT5RQK6YDSWN4686J9PTPMF
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYYP8SJVBNB6F6QFNFXEX1XG
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://www.canadianblackbelthalloffame.com/inductees.html
+    cite: Canadian Black Belt Hall of Fame inductees
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://www.ryukarate.ca/personnalite/
+    cite: 'Ryu Karate - Personnalité: Maître Arry Anastasiadis'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - shotokan
+  - jka
+  - pioneer
+  - canada
+  - quebec
+  - instructor

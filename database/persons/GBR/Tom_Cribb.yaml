@@ -1,0 +1,75 @@
+type: Person
+id: 01M5JPY6FNF0SG23M0XHYNDVP4
+name:
+  en: Tom Cribb
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+birthEvent:
+  birthDate: '1781-07-08'
+  birthPlace:
+    label: Hanham
+    countryCode: eucountry:GBR
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FN1F4HJZA44FRW9JKD
+      quotation: >-
+        Tom Cribb (8 July 1781 – 11 May 1848) was an English bare-knuckle boxer of the 19th century.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1848-05-11'
+  hasEvidence:
+    - basedOnSource: 01M5JPY6FN1F4HJZA44FRW9JKD
+      quotation: >-
+        Tom Cribb (8 July 1781 – 11 May 1848) was an English bare-knuckle boxer of the 19th century.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    English prizefighter, champion of England after John Gully's retirement until 1822. He twice beat
+    Tom Molineaux (1810, 1811), took Tom Spring under his patronage, and handed the title to Spring when
+    he retired in 1822.
+hasHonorAssertion:
+  - id: 01M5JPY6FNTKTM2JF4AX1NTAWJ
+    honorValue: Champion of England
+    honorType: honortype:title
+    dateConferred: '[1807,1808]'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Independent sources state it; they differ on the year.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Upon Gully’s retirement from the ring in 1807, Tom Cribb (1781–1848) was declared champion.
+        locator: '230'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5JPY6FN1F4HJZA44FRW9JKD
+        quotation: >-
+          He was All England Champion from 1808 to 1822.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5JPY6FN1F4HJZA44FRW9JKD
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q583602
+tags:
+  - boxing
+  - prizefighting
+  - united-kingdom
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/a/a7/Tom_Cribb_etching.jpg
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Tom_Cribb_etching.jpg
+    cite: "J. Jackson, R.A., Wikimedia Commons"
+    informationType: infotype:secondary

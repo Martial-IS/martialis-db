@@ -1,0 +1,71 @@
+type: Person
+id: 01M6C1ZABVXYE9YZ8CDDFYN5X9
+name:
+  en: Keith Jardine
+aka:
+  en:
+    - The Dean of Mean
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+birthEvent:
+  birthDate: '1975-10-31'
+  hasEvidence:
+    - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+      quotation: 'Born: 10/31/75'
+      locator: '202'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    American mixed martial artist, a key member of Greg Jackson's team.
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/d/dd/Keith_Jardine_-_UFC_100_Fan_Expo_-_Mandalay_Bay_Casino%2C_Las_Vegas_%28crop%29.jpg
+  rights: mediarights:cc-by-2.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Keith_Jardine_-_UFC_100_Fan_Expo_-_Mandalay_Bay_Casino,_Las_Vegas_(crop).jpg
+    cite: "Mark Richardson; crop by Jdcollins13, Wikimedia Commons"
+    informationType: infotype:secondary
+hasTeacherAssertion:
+  - id: 01M6C1ZABVF9PDV0FD9GGBCVMM
+    teacher: 01M6C1ZABV6FHQ2EXVCNW3NV8P
+    assertedStyle: 01KYSS3B587WR241FHHW19X24T
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasInteraction:
+      - interactionPlace: 01M6C1ZABVAVTS3JGBS3HB64NB
+        hasEvidence:
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              A key member of Greg Jackson’s team, Jardine inserted himself into the UFC’s light heavyweight title picture with an upset win over Chuck Liddell
+            locator: '202'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+          - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+            quotation: >-
+              He led both Evans and Keith Jardine to wins over legendary light heavyweight Chuck Liddell.
+            locator: '197'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M6C13E8N9XJPMGPK31D6W0CX
+    quotation: >-
+      A key member of Greg Jackson’s team, Jardine inserted himself into the UFC’s light heavyweight title picture with an upset win over Chuck Liddell
+    locator: '202'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q2617121
+tags:
+  - mma

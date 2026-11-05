@@ -1,0 +1,172 @@
+type: Person
+id: 01M5KQTRGX5YEF3ZQ1VS18V32G
+name:
+  en: Alfred Hutton
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+birthEvent:
+  birthDate: '1839-03-10'
+  birthPlace:
+    label: Beverley, Yorkshire
+    countryCode: eucountry:GBR
+  hasEvidence:
+    - basedOnSource: 01M5KQTRGXK5ZZT59TZGWT364N
+      quotation: >-
+        Alfred Hutton FSA (10 March 1839 – 18 December 1910) was a British Army officer, antiquarian and
+        writer.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1910-12-18'
+  hasEvidence:
+    - basedOnSource: 01M5KQTRGXK5ZZT59TZGWT364N
+      quotation: >-
+        Alfred Hutton FSA (10 March 1839 – 18 December 1910) was a British Army officer, antiquarian and
+        writer.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    British Army officer and antiquarian who led the revival of historical fencing in England. He learned
+    fencing at the Angelo school in St James' Street, reconstructed the systems of George Silver and
+    Achille Marozzo, wrote Cold Steel (1889), and about 1899–1902 taught stage fencing at the Bartitsu Club,
+    where he learned jujutsu and the Vigny method from the other instructors.
+hasTeacherAssertion:
+  - id: 01M5KQTRGX0AZS5G10WQ2B3EJH
+    teacher: 01M5KQTRGXS59YP955PH16GF0J
+    assertedStyle: 01M5JRHX02FJ6XZ3X069NVX3SE
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1851
+        hasEvidence:
+          - basedOnSource: 01M5KQTRGXK5ZZT59TZGWT364N
+            quotation: >-
+              Hutton started to learn fencing at the age of twelve at the fencing school in St James'
+              Street from Henry Charles Angelo the Younger (1780–1852)
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5KQTRGXGQET5QVE7H7V349M
+    teacher: 01M5KQTRGXTA7NTTMX6BVG4JZ8
+    assertedStyle: 01M5JRHX02FJ6XZ3X069NVX3SE
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1865
+        hasEvidence:
+          - basedOnSource: 01M5KQTRGXK5ZZT59TZGWT364N
+            quotation: >-
+              After returning from India in 1865, Hutton had become the pupil and friend of William McTurk,
+              Henry Charles Angelo's successor at the school of arms in St James' Street.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5KQTRGXXGWSM8V9ZC13TFQ4
+    teacher: 01M5JGQAC7CYFWR75P18PT4FD4
+    assertedStyle: 01M5JGQAC7V7W1GTRS53NMNXYY
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source; it names the method, and Vigny taught it at the club.
+    hasInteraction:
+      - interactionPlace: 01M5JGQAC7XV79MRCH8733JRZ4
+        interactionPeriod:
+          startYear: 1899
+          endYear: 1902
+        hasEvidence:
+          - basedOnSource: 01M5KQTRGXK5ZZT59TZGWT364N
+            quotation: >-
+              Circa 1899–1902, Hutton taught stage fencing classes for actors via the Bartitsu Club, where
+              he also served on the board of directors and learned the basics of jujutsu and the Vigny
+              method of stick fighting from his fellow instructors.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5KQTRGX0CEC3WJ8QKK18ZCF
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9G
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Single source; it does not name the instructors.
+    hasInteraction:
+      - interactionPlace: 01M5JGQAC7XV79MRCH8733JRZ4
+        interactionPeriod:
+          startYear: 1899
+          endYear: 1902
+        hasEvidence:
+          - basedOnSource: 01M5KQTRGXK5ZZT59TZGWT364N
+            quotation: >-
+              Circa 1899–1902, Hutton taught stage fencing classes for actors via the Bartitsu Club, where
+              he also served on the board of directors and learned the basics of jujutsu and the Vigny
+              method of stick fighting from his fellow instructors.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasDocumentTransmissionAssertion:
+  - id: 01M5KQTRGXH9CV5Q5BDSB9N9ZP
+    transmissionDocument: 01M5JSGG50CGA2F3V41MQ5GPWH
+    assertedStyle: 01M5JSGG50SFSZ8CE3WR46RWC6
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia only.
+    hasEvidence:
+      - basedOnSource: 01M5KQTRGXK5ZZT59TZGWT364N
+        quotation: >-
+          Hutton's pioneering advocacy and practice of historical fencing included reconstructions of the
+          fencing systems of several historical masters including George Silver and Achille Marozzo.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5KQTRGXK5ZZT59TZGWT364N
+        quotation: >-
+          The treatise also offered self-defense techniques based on constable's truncheon and short
+          sword-bayonet, as well as exercise material from 16th century texts, including Marozzo.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      antiquarian fencers such as Alfred Hutton (1839–1910) and Egerton Castle (1858–1920) were carrying out
+      extensive research into archaic systems of combat.
+    locator: '612'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5KQTRGXK5ZZT59TZGWT364N
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q1087384
+tags:
+  - fencing
+  - bartitsu
+  - united-kingdom
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/3/3c/Alfred_Hutton.JPG
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Alfred_Hutton.JPG
+    cite: "B. Jankuloski, Wikimedia Commons"
+    informationType: infotype:secondary

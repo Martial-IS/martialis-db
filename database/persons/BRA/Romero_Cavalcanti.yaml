@@ -1,0 +1,226 @@
+type: Person
+id: 01KZR1M7T51S10DM56FKM4N7P2
+name:
+  en: Romero Cavalcanti
+  pt: Romero Cavalcanti
+aka:
+  pt:
+    - Jacaré
+  en:
+    - Jacare
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+birthEvent:
+  birthDate: '1952-10-17'
+  birthPlace:
+    label: Recife
+    countryCode: eucountry:BRA
+    wikidata: wd:Q48344
+  hasEvidence:
+    - basedOnSource: 01KZR1M7T3RKSXHER9PNADSYVM
+      quotation: Romero Cavalcanti was born on October 17, 1952, in Recife, Brazil and moved at a very early age to Rio de Janeiro.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://en.wikipedia.org/wiki/Romero_Cavalcanti
+      archiveUri: https://en.wikipedia.org/w/index.php?title=Romero_Cavalcanti&oldid=1331536696
+      cite: Romero Cavalcanti - Wikipedia
+      quotation: Romero Cavalcanti (born October 22, 1952) is a Brazilian Jiu-Jitsu master and the founder of Alliance Jiu Jitsu.
+      informationType: infotype:secondary
+      supports: false
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://bjjfanatics.com.br/cdn/shop/articles/romero_jacare_1024x1024.JPG
+  imageAttribution:
+    uri: https://bjjfanatics.com.br/blogs/news/romero-jacare
+    cite: "BJJ Fanatics Brasil"
+    informationType: infotype:secondary
+description:
+  en: 'Brazilian jiu-jitsu master and co-founder of the Alliance Jiu-Jitsu team. Trained under Rolls Gracie, who awarded him his
+
+    black belt in 1982, making Cavalcanti the last black belt Rolls promoted before his death that year. Founded the Jacare
+
+    Jiu-Jitsu Academy, from which emerged champions including Fabio Gurgel, Alexandre Paiva, the Vieira brothers and Rodrigo
+
+    "Comprido" Medeiros. Moved to the United States in 1995, first in Miami and later Atlanta. An 8th-degree red-and-white
+
+    coral belt, he mentored the Vieira brothers, whose Checkmat team traces its lineage through him.
+
+'
+hasTeacherAssertion:
+  - id: 01M3YH7N5G83XB5JM2F17S2HX5
+    teacher: 01KYZ31HT3D978KY5GPZAGKV5G
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: BJJ Heroes and Elite Sports, two independent sources, both directly state Cavalcanti received his black belt from Rolls Gracie in 1982, the last black belt Rolls ever awarded; BJJ Heroes also covers the 1974 restart of training with Rolls
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1974
+          endYear: 1982
+        hasEvidence:
+          - basedOnSource: 01KZR1M7T3RKSXHER9PNADSYVM
+            quotation: In 1982 Jacare Romero was awarded his Black Belt by the hands of Rolls Gracie, being the last Black Belt ever awarded by the legendary martial arts figure, the last of a very strict group of 5.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M3JDTXMSCM3SVV26N87MVSX1
+            quotation: Under the intense and expert guidance and training of Rolls Gracie, Romero Cavalcanti earned his Black Belt in 1982 from the legendary Rolls Gracie. Romero was also the last BJJ fighter awarded a Black Belt by Rolls Gracie.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GBEN055W7KRTGV94H
+    teacher: 01KYS8C0AF6DD44239NY1DZ286
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: BJJ Heroes and BJJ Fanatics both record that after Rolls Gracie's death Cavalcanti trained at Rickson Gracie's academy in Humaita for about three years before opening his own academy in 1985
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1982
+          endYear: 1985
+        hasEvidence:
+          - basedOnSource: 01KZR1M7T3RKSXHER9PNADSYVM
+            quotation: As Romero witnessed the terminus of his academy, he chose to start training with Rickson Gracie at his academy in the Humaita area of Rio de Janeiro.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - uri: https://bjjfanatics.com.br/blogs/news/romero-jacare
+            cite: Romero Jacare Celebra 67 Anos - BJJ Fanatics BR
+            quotation: então Romero viu a sua academia se desmembrar e decidiu mudar-se para academia de Rickson Gracie, por onde passou cerca 3 anos, antes de abrir a sua própria academia em 1985.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GHVZ6VK81VXF7CQBZ
+    teacher: 01KJJAWN28MWKKSN4J02MVY1S5
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wikipedia records Helio Gracie in Cavalcanti's instructor lineage, but the cited passage only
+        places Cavalcanti at the Gracie school in Copacabana where Helio taught - it doesn't state the
+        teacher relationship directly, only implies it
+    hasInteraction:
+      - hasEvidence:
+          - uri: https://en.wikipedia.org/wiki/Romero_Cavalcanti
+            archiveUri: https://en.wikipedia.org/w/index.php?title=Romero_Cavalcanti&oldid=1331536696
+            cite: Romero Cavalcanti - Wikipedia
+            quotation: By the age of 16, Romero regularly attended jiu jitsu classes at the famous Gracie School in Copacabana where he grew up, alongside Carlos Gracie, Jr., Crolin Gracie, Mario Claudio Tallarico, Fábio Santos, Mauricio Motta Gomes, the Machados, and Rickson Gracie.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasRankAssertion:
+  - id: 01M3YH7N5G16C6AV26EFCS3140
+    rankStyle: 01KJJAWN29MA64W22606R3WD9J
+    rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+    rankGrade: rankgrade:bjj_black
+    grantedBy: 01KYZ31HT3D978KY5GPZAGKV5G
+    dateConferred: '1982'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: BJJ Heroes and Elite Sports, two independent sources, both directly state Cavalcanti was the last black belt awarded by Rolls Gracie in 1982
+    hasEvidence:
+      - basedOnSource: 01KZR1M7T3RKSXHER9PNADSYVM
+        quotation: In 1982 Jacare Romero was awarded his Black Belt by the hands of Rolls Gracie, being the last Black Belt ever awarded by the legendary martial arts figure, the last of a very strict group of 5.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M3JDTXMSCM3SVV26N87MVSX1
+        quotation: Under the intense and expert guidance and training of Rolls Gracie, Romero Cavalcanti earned his Black Belt in 1982 from the legendary Rolls Gracie. Romero was also the last BJJ fighter awarded a Black Belt by Rolls Gracie.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G9YQV41NWZASFJ2QG
+    rankStyle: 01KJJAWN29MA64W22606R3WD9J
+    rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+    rankOrdinal: 8
+    rankGrade: rankgrade:bjj_red_white
+    conferredBy: 01KJJAWN29MA64W22606R3WD80
+    grantedBy: 01KYZ31HT367V25Z6764RZXNGZ
+    dateConferred: '2017-08-25'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Promoted on August 25, 2017 per Parity Martial Arts; Leandro Vieira's own Facebook post of
+        August 27, 2017 congratulates his master on receiving the belt. An Evolution MMA post states it
+        was awarded by Carlos Gracie Jr on behalf of the IBJJF
+    hasEvidence:
+      - basedOnSource: 01KZR1M7T5T5YEMHV3WAQJ6FBY
+        quotation: Congratulations to my master Romero Jacare Cavalcanti on receiving his new belt as a 8th degree black belt today. Forever grateful for introducing me and my brothers to BJJ and teaching us how to respect this martial art with honor and integrity.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - uri: https://www.paritymartialarts.co.uk/
+        cite: Parity Martial Arts - 8th Degree Coral Belt
+        quotation: On August 25th 2017 Master Mauricio Gomes, along with Masters Marcio Stambowsky, Romero 'Jacare' Cavalcanti and Sergio Penha, were promoted to 8th degree red and white belt.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M3M3T743BRVMRHPV09SC9Q19
+        quotation: Congratulations to Master Jacare for earning his 8th degree red and white belt in Brazilian Jiu-Jitsu from the IBJJF. It was awarded by Carlos Gracie Jr
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M3YH7N5GXJG89F0PY67EHSGC
+    honorValue: IBJJF Hall of Fame inductee
+    honorType: honortype:title
+    conferredBy: 01KJJAWN29MA64W22606R3WD80
+    dateConferred: '2016'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: IBJJF's own Hall of Fame page lists him as an inductee; Graciemag's report on the 2016 awards ceremony independently confirms the induction ("Masters Romero Cavalcanti and Carlos Gracie Jr, and Jiu-Jitsu legend Rolls Gracie were inducted to the Hall of Fame")
+    hasEvidence:
+      - basedOnSource: 01M3M3HDCSNBKD16QH20FM0488
+        quotation: >-
+          ROMERO CAVALCANTI
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - uri: https://www.graciemag.com/ibjjf-awards-ceremony-carlson-jacare-carlos-jr-rolls-inducted-to-hall-of-fame-other-awards/
+        cite: Graciemag - IBJJF Awards Ceremony
+        quotation: Masters Romero Cavalcanti and Carlos Gracie Jr, and Jiu-Jitsu legend Rolls Gracie were inducted to the Hall of Fame
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GCMDW1RP9B3TD441D
+    honorValue: On The Mat Instructor of the Year
+    honorType: honortype:other
+    dateConferred: '2009'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: BJJ Heroes explicitly records that Jacare was awarded the On The Mat Instructor of the Year award in 2009
+    hasEvidence:
+      - basedOnSource: 01KZR1M7T3RKSXHER9PNADSYVM
+        quotation: >-
+          Jacare was also awarded the "On The Mat" Instructor of the Year award in 2009.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01KZR1M7T3RKSXHER9PNADSYVM
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZR1M7T49C1DKVC1DWZH0M3G
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q7363163
+tags:
+  - brazilian-jiu-jitsu
+  - alliance
+  - gracie-lineage
+  - coach

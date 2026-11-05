@@ -1,0 +1,49 @@
+type: Place
+id: 01KYMWJH24VAYQ8H59YVKK5EFX
+name:
+  en: San Jose State University
+aka:
+  en:
+    - San Jose State College
+placeType: placeclass:university
+hasSite:
+  - location:
+      label: San Jose
+      countryCode: eucountry:USA
+      wikidata: wd:Q16553
+    address: 1 Washington Sq, San Jose, CA 95192
+hasInstructorRole:
+  - id: 01M4R9845WNSPXPCHNA91P8CJS
+    instructor: 01KYMDKKCPZRCC1AKKWAERY02W
+    instructorCapacity: instrcap:instructor
+    instructorPeriod:
+      startYear: 1938
+      endYear: 1941
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: One secondary web biography states he taught judo at SJSU 1938-1941.
+    hasEvidence:
+      - uri: https://www.usadojo.com/emilio-mel-bruno/
+        cite: Emilio Mel Bruno - USAdojo
+        quotation: From 1938-1941, Mel Bruno taught judo at San Jose State University
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1857'
+hasEvidence:
+  - uri: https://www.usadojo.com/emilio-mel-bruno/
+    cite: Emilio Mel Bruno - USAdojo
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - uri: https://en.wikipedia.org/wiki/San_Jose_State_University
+    cite: San Jose State University - Wikipedia EN
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - university
+  - california
+  - judo

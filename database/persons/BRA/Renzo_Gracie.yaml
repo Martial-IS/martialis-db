@@ -1,0 +1,154 @@
+type: Person
+id: 01KYSNKBSAAS27TBVHR0EBZ059
+name:
+  en: Renzo Gracie
+  pt: Renzo Gracie
+aka:
+  en:
+    - Renzo
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+birthEvent:
+  birthDate: '1967-03-11'
+  birthPlace:
+    label: Rio de Janeiro
+    countryCode: eucountry:BRA
+    wikidata: wd:Q8678
+  hasEvidence:
+    - uri: https://en.wikipedia.org/wiki/Renzo_Gracie
+      cite: Renzo Gracie - Wikipedia (EN)
+      quotation: Renzo Gracie (born March 11, 1967) is a Brazilian mixed martial artist and Brazilian jiu-jitsu practitioner.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M3YH7N5GNC36C5XR787G7S45
+    teacher: 01KYZ31HT3D978KY5GPZAGKV5G
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: PT Wikipedia states Renzo began jiu-jitsu under Rolls Gracie at the Copacabana academy; corroborated by BJJ Heroes
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KYZ31HT3VGMEEH0NT1C337JN
+            quotation: Renzo iniciou o jiu-jitsu com o lendário Rolls Gracie na academia de Copacabana
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KYZ31HT3ZCQ8P5A4B7BFAV0V
+            quotation: >-
+              to of his biggest influences were the legendary Rolls Gracie and Carlos Gracie Jr (the man who later awarded him his black belt)
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5G38XE4XPAJ3F5PTBW
+    teacher: 01KYZ31HT367V25Z6764RZXNGZ
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: PT Wikipedia states that after Rolls Gracie's death Renzo trained with Carlos Gracie Jr., who awarded him his black belt; Wikipedia only
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KYZ31HT3VGMEEH0NT1C337JN
+            quotation: com a morte de Rolls, Renzo passou a treinar com Carlos Gracie Jr, seu tio.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KYZ31HT36W55S8T7VH157AJ6
+            quotation: Mitsuyo Maeda → Carlos Gracie Sr. → Helio Gracie → Rolls Gracie → Carlos Gracie Jr. → Renzo Gracie
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/b/b5/RenzoCropped.jpg
+  rights: mediarights:cc-by-3.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:RenzoCropped.jpg
+    cite: "Chris Hutt, Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: 'Brazilian mixed martial artist and jiu-jitsu practitioner, member of the renowned Gracie family and 7th-degree coral belt in BJJ under Carlos Gracie Jr. He founded the Renzo Gracie Academy in Manhattan and trained fighters including Georges St-Pierre, Matt Serra, Chris Weidman, and John Danaher. A two-time ADCC world champion, he competed in the UFC, Pride, and other promotions.
+
+'
+hasRankAssertion:
+  - id: 01M3YH7N5GCVE6E15SA3E279DK
+    rankStyle: 01KJJAWN29MA64W22606R3WD9J
+    rankSystem: 01M11YJ1XMX79NAEPJ09NWKC1S
+    rankOrdinal: 7
+    rankGrade: rankgrade:bjj_red_black
+    grantedBy: 01KYS8C0AF6DD44239NY1DZ286
+    dateConferred: '2023-01-18'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia states Renzo was presented his coral belt by Rickson Gracie on 18 January 2023, under Carlos Gracie Jr. and Rickson Gracie; Wikipedia only
+    hasEvidence:
+      - basedOnSource: 01KYZ31HT36W55S8T7VH157AJ6
+        quotation: On January 18, 2023, Gracie was presented with his coral belt in Abu Dhabi by Rickson Gracie.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KYZ31HT3VGMEEH0NT1C337JN
+        quotation: Faixa coral 7º grau de Jiu-Jitsu brasileiro
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GMJFW8A6X2YV47VZB
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan_unspecified
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: PT Wikipedia lists Renzo as a black belt in Judo, but no promotion date is documented
+    hasEvidence:
+      - basedOnSource: 01KYZ31HT3VGMEEH0NT1C337JN
+        quotation: Faixa Preta em Judo
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M3YH7N5G040QWSP88XS0KHWA
+    honorValue: ADCC Hall of Fame inductee
+    honorType: honortype:title
+    dateConferred: '2022-02-21'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Wikipedia states Gracie was inducted into the ADCC Hall of Fame on February 21, 2022
+    hasEvidence:
+      - basedOnSource: 01KYZ31HT36W55S8T7VH157AJ6
+        quotation: Gracie was inducted into the ADCC Hall of Fame on February 21, 2022.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q2735261
+hasEvidence:
+  - basedOnSource: 01KYZ31HT36W55S8T7VH157AJ6
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYZ31HT3VGMEEH0NT1C337JN
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYZ31HT3V82VS28279AWFN3P
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KYZ31HT3ZCQ8P5A4B7BFAV0V
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - brazilian-jiu-jitsu
+  - gracie-family
+  - mma
+  - instructor
+  - new-york

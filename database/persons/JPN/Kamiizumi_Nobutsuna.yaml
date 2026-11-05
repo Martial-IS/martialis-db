@@ -1,0 +1,73 @@
+type: Person
+id: 01M6BHSAXW3N93ZE1E1CFMMED0
+name:
+  ja-Latn: Kamiizumi Ise-no-Kami Nobutsuna
+  ja: 上泉伊勢守信綱
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1508'
+  hasEvidence:
+  - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+    locator: 'Yagyu Shinkage-ryu Hyoho'
+    locatorLabel: section
+    quotation: 'Founder: Kamiizumi Ise-no-Kami Nobutsuna, 1508-1578;the Yagyu line was founded by Yagyu Sekishusai Munetoshi, 1527-1606'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1578'
+  hasEvidence:
+  - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+    locator: 'Yagyu Shinkage-ryu Hyoho'
+    locatorLabel: section
+    quotation: 'Founder: Kamiizumi Ise-no-Kami Nobutsuna, 1508-1578;the Yagyu line was founded by Yagyu Sekishusai Munetoshi, 1527-1606'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/8/8a/Kamiizumi-Isenokami-Hidetsuna-%28Kamiizumi-Nobutsuna%29.png
+  rights: mediarights:public_domain_mark
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Kamiizumi-Isenokami-Hidetsuna-(Kamiizumi-Nobutsuna).png
+    cite: "Wikimedia Commons"
+    informationType: infotype:secondary
+description:
+  en: >-
+    Founder of Shinkage-ryu, from Aisu Kage-ryu; teacher of Yagyu Sekishusai.
+hasEvidence:
+- basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+  locator: 'Yagyu Shinkage-ryu Hyoho'
+  locatorLabel: section
+  quotation: 'Founder: Kamiizumi Ise-no-Kami Nobutsuna, 1508-1578;the Yagyu line was founded by Yagyu Sekishusai Munetoshi, 1527-1606'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01M6BHSAXWT300MA17MW5Z0F1Y
+  quotation: '室町末期、上泉伊勢守信綱は愛洲陰流より「転」を工夫して新陰流を創始した。'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M6BHSAXWGBXJ015TK53TCDS5
+  teacher: 01M6BHSAXW4WV4V20YZDSGCSWV
+  assertedStyle: 01M6BHSAXWBBGKCA4Z0A3K2X74
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The Field Guide states it; one source.
+  hasInteraction:
+  - hasEvidence:
+      - basedOnSource: 01M6BEFR8F54EAE9EDZHFEC7EF
+        locator: 'Yagyu Shinkage-ryu Hyoho'
+        locatorLabel: section
+        quotation: 'Kamiizumi Ise-no-Kami, who had trained in both Kashima and Katori Shinto-ryu, created Shinkage-ryu based on Kage-ryu, which he learned from its founder Aisu Ikkosai.'
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+sameAs:
+- wd:Q1375744
+notes: >-
+  The Field Guide says he trained in both Kashima and Katori Shinto-ryu; no teacher is named. The Jikishinkage-ryu genealogy also counts him as its second generation (Japanese Wikipedia).

@@ -1,0 +1,59 @@
+type: Person
+id: 01M5JSGG509W79591M2G1MZ0Y3
+name:
+  en: Antonio Manciolino
+aka:
+  en:
+    - Antonio Francesco Manciolino
+nationality:
+  - countryCode: eucountry:ITA
+    wikidata: wd:Q38
+description:
+  en: >-
+    Sixteenth-century Bolognese fencing master, probably a student of Guido Antonio de Luca, whose Opera
+    Nova (about 1523, revised edition 1531) is one of the two main sources of the Bolognese school.
+hasTeacherAssertion:
+  - id: 01M5JSGG50ABMQTY8F3G952SJ2
+    teacher: 01M5JSGG506GVV0TBXMFE76A5C
+    assertedStyle: 01M5JSGG50SFSZ8CE3WR46RWC6
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        One source states it; others hedge.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              The increased knowledge is owed to de Luca’s students Antonio Manciolino and Achille
+              Marozzo, both of whom published works entitled Opera Nova (New Works) during the 1530s.
+            locator: '250'
+            locatorLabel: page
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M5JSGG50TR1YYVEQVG36889N
+            quotation: >-
+              he seems to have been Bolognese by birth and he may have been a student of Guido Antonio di
+              Luca
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+          - basedOnSource: 01M5JSGG50B70XV0APZD93AG5S
+            quotation: >-
+              No manuscript ascribed to Dardi himself survives, although his tradition became the
+              foundation for the work of Antonio Francesco Manciolino and Achille Marozzo, both possibly
+              students of famed Bolognese master Guido Antonio de Luca.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M5JSGG50TR1YYVEQVG36889N
+    informationType: infotype:secondary
+    supports: true
+sameAs:
+  - wd:Q3619801
+tags:
+  - fencing
+  - bolognese-school

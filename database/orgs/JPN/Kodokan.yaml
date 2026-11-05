@@ -1,0 +1,160 @@
+type: Organization
+id: 01KJJAWN29MA64W22606R3WD7X
+name:
+  ja-Latn: Kodokan
+  ja: 講道館
+hasSite:
+  - location:
+      label: Tokyo
+      countryCode: eucountry:JPN
+      wikidata: wd:Q1490
+foundedEvent:
+  startDate: '1882'
+  founder:
+    - 01KJJAWN28MWKKSN4J02MVY1S1
+  hasEvidence:
+    - uri: https://en.wikipedia.org/wiki/Kodokan
+      archiveUri: https://en.wikipedia.org/w/index.php?title=Kodokan_Judo_Institute&oldid=1350072322
+      quotation: >-
+        The kōdōkan was founded in 1882 by Kanō Jigorō, the founder of judo
+      cite: 'Wikipedia: Kodokan'
+      supports: true
+      informationType: infotype:secondary
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5M3FEBSFC6A2P346Z8T3PEJ
+      quotation: Founder and first director of Kodokan Jigoro Kano
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+website: https://kodokanjudoinstitute.org/
+description:
+  en: The judo headquarters and governing institution founded by Kano Jigoro in 1882.
+hasOfficerRole:
+  - id: 01M5G9535XGK7XWTMMT69V7DZ8
+    officer: 01KJJAWN28MWKKSN4J02MVY1S1
+    officerTitle: Head (館長, 1st)
+    officerPeriod:
+      startYear: 1882
+      endYear: 1938
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01M5M3FEBSFC6A2P346Z8T3PEJ
+        quotation: >-
+          Founder and first director of Kodokan Jigoro Kano [...] Term as head 1882 to 1938
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5M31KT2R920R2WCFWEG31ZR
+        quotation: >-
+          主とするところは「術」ではなくこの原理と目的により自己完成をめざす「道」であるとして、術から道へと名をあらため、その道を講ずるところという意味で名づけられたのが「講道館」という名でした。
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:indirect
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          In 1882, Kano established the Kodokan (“school for the study of the way”) in the storeroom of a
+          small Buddhist temple in Tokyo.
+        locator: '128'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          However, in May 1938, Kano died aboard a ship at sea while returning to Japan from a meeting
+          of the International Olympics Committee, and his nephew, Nango Jiro (1876–1951), succeeded
+          him as the second head of the Kodokan.
+        locator: '575'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M5G9535X9YD4YG32E0CJBHER
+    officer: 01M5G9535XR521QXR6KRPS6GB1
+    officerTitle: Head (館長, 2nd)
+    officerPeriod:
+      startYear: 1938
+      endYear: 1946
+    notes: Green & Svinth (p. 577) date his resignation to December 1945.
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Independent sources state it. Green & Svinth end it in 1945, the others in 1946.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          However, in May 1938, Kano died aboard a ship at sea while returning to Japan from a meeting
+          of the International Olympics Committee, and his nephew, Nango Jiro (1876–1951), succeeded
+          him as the second head of the Kodokan.
+        locator: '575'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: Beginning the postwar transition, Nango Jiro resigned from the Kodokan in December 1945.
+        locator: '577'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: false
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M4R6M024JC96AD44CS2WBJG9
+        quotation: 1946年11月、講道館2代目館長の南郷次郎が病気により辞職すると、第3代館長に就任（1980年まで）。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5M3FEBSFC6A2P346Z8T3PEJ
+        quotation: >-
+          The 2nd Kodokan director Jiro Nango [...] Term as head 1938 to 1946
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M4R9845WMDQET83YTAKEX8VD
+    officer: 01KZY2QD14ZXN3V8ACHVPGGMGH
+    officerTitle: Head (館長, 3rd)
+    officerPeriod:
+      startYear: 1946
+      endYear: 1980
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: Independent sources state it.
+    hasEvidence:
+      - basedOnSource: 01M4R6M024JC96AD44CS2WBJG9
+        quotation: 1946年11月、講道館2代目館長の南郷次郎が病気により辞職すると、第3代館長に就任（1980年まで）。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          Eleven months later, Kano Risei (1900–1986), son of Kano Jigoro, became the third Kodokan
+          president.
+        locator: '577'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M5M3FEBSFC6A2P346Z8T3PEJ
+        quotation: >-
+          The 3rd Kodokan director Risei Kano [...] Term as head 1946 to 1980
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - uri: https://en.wikipedia.org/wiki/Kodokan
+    archiveUri: https://en.wikipedia.org/w/index.php?title=Kodokan_Judo_Institute&oldid=1350072322
+    cite: 'Wikipedia: Kodokan'
+    supports: true
+    evidenceType: evidencetype:direct
+    informationType: infotype:secondary
+  - basedOnSource: 01M4R6M024JC96AD44CS2WBJG9
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - headquarters
+orgType: orgclass:school

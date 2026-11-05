@@ -1,0 +1,142 @@
+type: Person
+id: 01KZ0Y4CF4F7BSWN3P3T4QZC5G
+name:
+  en: Kōtarō Yoshida
+  ja: 吉田幸太郎
+  ja-Latn: Yoshida Kōtarō
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: 1883-10
+  birthPlace:
+    label: Miyama-mura, Tamura-gun, Fukushima Prefecture
+    countryCode: eucountry:JPN
+    wikidata: wd:Q990465
+  hasEvidence:
+  - basedOnSource: 01KZ0Y4CF434PFM78QJY11ZB4N
+    quotation: Kōtarō Yoshida (吉田 幸太郎, Yoshida Kōtarō; October 1883–1966) was a Japanese martial artist.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ0Y4CF4E8G6P316RJ6Z93VK
+    quotation: (b. October 1883-1966). B. Miyama-mura, Tamura-gun, Fukushima Prefecture.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1966'
+  deathPlace:
+    label: Hitachi
+    countryCode: eucountry:JPN
+    wikidata: wd:Q633922
+  hasEvidence:
+  - basedOnSource: 01KZ0Y4CF4E8G6P316RJ6Z93VK
+    quotation: Paralyzed in his later years, he moved to Hitachi, Ibaragi Prefecture where he died.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M3YH7N5G4M3J68YTQP1P5Q5W
+  teacher: 01KJJAWN28MWKKSN4J02MVY1TW
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9C
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Multiple sources confirm Yoshida began studying Daito-ryu under founder Takeda
+      Sokaku in Hokkaido in 1915 and received the kyoju dairi representative instructor title
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1915
+    hasEvidence:
+    - basedOnSource: 01KZ0Y4CF434PFM78QJY11ZB4N
+      quotation: >-
+        In 1915, Yoshida apprenticed himself to Takeda Sōkaku, head of the Daitō-ryū Aiki-jūjutsu school
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZ0Y4CF4E8G6P316RJ6Z93VK
+      quotation: He began his study of DAITO-RYU JUJUTSU under Sokaku TAKEDA in 1915.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZ0Y4CF4JETJV2B5VSVY8YHZ
+      quotation: >-
+        Yoshida started training in Daitō-ryū aikijūjutsu in the early 1910s under the founder Takeda Sōkaku in Hokkaidō, and eventually he was awarded the kyōju dairi (representative instructor) title by Takeda
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://idata.over-blog.com/3/72/97/37/yoshido-kotaro.jpg
+  imageAttribution:
+    uri: https://ashurakansetsuwazakingu.over-blog.com/article-kotaro-yoshida-mas-oyama-et-daito-ryu-120527004.html
+    cite: "Le blog de Ashura"
+    informationType: infotype:secondary
+description:
+  en: 'Japanese Daitō-ryū aikijūjutsu master and representative instructor (kyōju dairi) under founder
+    Takeda Sōkaku. He introduced Morihei Ueshiba, founder of aikidō, to Takeda in 1915. After World War
+    II he taught Daitō-ryū in Tokyo, training students including Masutatsu Oyama, Richard Kim, and Choi
+    Yong-sul.
+
+    '
+  ja: '大東流合気柔術の師範で、開祖・武田惣角のもとで教授代理を務めた。1915年に合気道創始者の植芝盛平を武田に紹介した。戦後は東京で大東流を指導し、大山倍達、リチャード・キム、崔龍述らを教えた。
+
+    '
+hasEvidence:
+- basedOnSource: 01KZ0Y4CF434PFM78QJY11ZB4N
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ0Y4CF4E8G6P316RJ6Z93VK
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ0Y4CF4JETJV2B5VSVY8YHZ
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ0Y4CF4PA60ZKMC9YG7ZNQQ
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ0Y4CF420S53HFM2NGHBN99
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KZ0Y4CF43AF5TB7QSEDYMYKS
+  quotation: >-
+    Yoshida Kotaro (1886-1966) fait partie de ces experts en arts martiaux dont le nom est peu familier
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+sameAs:
+- wd:Q2600927
+tags:
+- daito-ryu
+- aikijujutsu
+- japanese
+- teacher
+- budo
+hasHonorAssertion:
+- id: 01M3YH7N5G2SVECXD3Q33EQ89E
+  honorValue: Kyōju Dairi (representative instructor)
+  honorType: honortype:title
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: Aikido Journal and the Gottner 2025 article both confirm Yoshida received the
+      kyoju dairi representative instructor title from Takeda Sokaku
+  hasEvidence:
+  - basedOnSource: 01KZ0Y4CF4JETJV2B5VSVY8YHZ
+    quotation: >-
+      Yoshida started training in Daitō-ryū aikijūjutsu in the early 1910s under the founder Takeda Sōkaku in Hokkaidō, and eventually he was awarded the kyōju dairi (representative instructor) title by Takeda
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ0Y4CF4E8G6P316RJ6Z93VK
+    quotation: He later received the KYOJU DAIRI certification from Takeda and was one of those who accompanied
+      him as an assistant instructor.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct

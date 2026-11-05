@@ -1,0 +1,17 @@
+# Places with the country of their current site(s), as an ISO 3166-1 alpha-3
+# code. A Place's locality lives only on its sites; the current one is a site
+# with no sitePeriod end year (an undated site counts as current).
+PREFIX martialis: <https://w3id.org/martialis/ontology#>
+PREFIX schema: <https://schema.org/>
+
+SELECT DISTINCT ?placeName ?countryCode WHERE {
+  ?place a martialis:Place ;
+         schema:name ?placeName ;
+         martialis:hasSite ?site .
+  FILTER(langMatches(LANG(?placeName), "en"))
+  FILTER NOT EXISTS { ?site martialis:sitePeriod/martialis:endYear ?end }
+  ?site schema:location/schema:addressCountry ?country .
+  BIND(STRAFTER(STR(?country), "country/") AS ?countryCode)
+}
+ORDER BY ?countryCode ?placeName
+LIMIT 25

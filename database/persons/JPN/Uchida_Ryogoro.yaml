@@ -1,0 +1,142 @@
+type: Person
+id: 01M1BVV4WYR2KX4FZ6FP0Q7MMP
+name:
+  ja-Latn: Uchida Ryōgorō
+  ja: 内田良五郎
+aka:
+  ja-Latn: Hiraoka Ryogoro
+  ja: 平岡良五郎
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1837-05-13'
+  birthPlace:
+    label: Japan
+    countryCode: eucountry:JPN
+    wikidata: wd:Q17
+  hasEvidence:
+    - basedOnSource: 01M1BVV4WYSYBSPA6C9F1A3EST
+      quotation: >-
+        Uchida Ryōgorō Shigeyoshi [...] (1837 - October 22, 1921), was a Japanese jojutsu practitioner,
+        ranked menkyo in the Japanese martial art of Shintō Musō-ryū.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1921-10-22'
+  deathPlace:
+    label: Japan
+    countryCode: eucountry:JPN
+    wikidata: wd:Q17
+  hasEvidence:
+    - basedOnSource: 01M1BVV4WYSYBSPA6C9F1A3EST
+      quotation: >-
+        Uchida Ryōgorō Shigeyoshi [...] (1837 - October 22, 1921), was a Japanese jojutsu practitioner
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: 'Uchida Ryōgorō Shigeyoshi (1837-1921) was a Japanese jojutsu practitioner and holder of Menkyo Kaiden
+
+    in the Haruyoshi branch of Shintō Musō-ryū. Born Hiraoka Ryōgorō, he was adopted into the Uchida family
+
+    as a teenager. He founded Uchida-ryū Tanjōjutsu, a system of short staff (tanjō) techniques originally
+
+    called "Sutteki" (stick method). He was one of only two teachers Nakayama Hakudō studied under in
+
+    1912 at Shiba Park, Tokyo, where Hakudo learned Shintō Musō-ryū jōjutsu and valued the jo training
+
+    among his most valuable pursuits.
+
+'
+hasTeacherAssertion:
+  - id: 01M3YH7N5GA0V3KZ6VZY0PRTGY
+    teacher: 01M1KT3VZZ488GVQXP7QKGNW6B
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states Ryogoro learned Shinto Muso Ryu jo from Hirano Kichizo Yoshinobu of the Haruyoshi branch.
+    role: teachrole:student
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1856
+          endYear: 1877
+        hasEvidence:
+          - basedOnSource: 01M1BVV4WYSYBSPA6C9F1A3EST
+            quotation: Ryōgorō is said to have received the scroll of complete transmission from each of the mentioned ryu
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M3YH7N5GC23CZGH5A16ZAWMB
+    teacher: 01M1KSJ12Q0FND8ABS3VBMSM4Z
+    assertedStyle: 01KYHNJKQDTEJ1A5MQ5JYPHDTB
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states Ryogoro studied Ono-ha Itto Ryu swordsmanship from Ikuoka Heitaro.
+    role: teachrole:student
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1856
+          endYear: 1877
+        hasEvidence:
+          - basedOnSource: 01M1BVV4WYSYBSPA6C9F1A3EST
+            quotation: Among the arts he learned was Ono-ha Itto-ryu swordsmanship from Ikuoka Heitaro
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M3YH7N5GXTXNBAB87T5HBEDQ
+    rankStyle: 01KZ9TQS3VCCTAXE15YF88B0T9
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FJ
+    rankGrade: rankgrade:menkyo_kaiden
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states Ryogoro received Menkyo Kaiden in the Haruyoshi branch of Shinto Muso Ryu.
+    hasEvidence:
+      - basedOnSource: 01M1BVV4WYSYBSPA6C9F1A3EST
+        quotation: Ryōgorō is said to have received the scroll of complete transmission from each of the mentioned ryu
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M3YH7N5G10EZ2G91WVEDHKP8
+    honorValue: Founder of Uchida-ryū Tanjōjutsu
+    honorType: honortype:title
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: EN Wikipedia states Ryogoro created a set of tanjo kata originally called "Sutteki" or "stick method", later named Uchida Ryu Tanjojutsu in his honor.
+    hasEvidence:
+      - basedOnSource: 01M1BVV4WYSYBSPA6C9F1A3EST
+        quotation: >-
+          Ryōgorō created a set of tanjo kata based on the teachings of Shintō Musō-ryū and influenced
+          by the walking sticks gentleman of the era carried, which he called "Sutekki" (the Japanese
+          way to pronounce "stick"). After his death, the set of kata were named Uchida Ryu in his honor
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M1BVV4WYSYBSPA6C9F1A3EST
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ9TV15DYS5NBBRRXE67SWAD
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ6XT5DSE2WFVPWC8ET939CN
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q7876709
+tags:
+  - jodo
+  - jojutsu
+  - tanjojutsu
+  - shinto-muso-ryu
+  - koryu
+  - japan

@@ -1,0 +1,14 @@
+# BIBO terms the Martialis ontology uses (Source is a bibo:Document; volume,
+# issue and pages are slot IRIs; peerReview, callNumber, doi, pmid, oclc and handle specialize
+# BIBO properties). `make imports` extracts a STAR module of
+# ontology/imports/bibo.rdf for exactly these.
+http://purl.org/ontology/bibo/Document
+http://purl.org/ontology/bibo/status
+http://purl.org/ontology/bibo/locator
+http://purl.org/ontology/bibo/doi
+http://purl.org/ontology/bibo/volume
+http://purl.org/ontology/bibo/issue
+http://purl.org/ontology/bibo/pages
+http://purl.org/ontology/bibo/pmid
+http://purl.org/ontology/bibo/oclcnum
+http://purl.org/ontology/bibo/handle

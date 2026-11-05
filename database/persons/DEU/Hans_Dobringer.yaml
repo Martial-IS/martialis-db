@@ -1,0 +1,58 @@
+type: Person
+id: 01M5JRHX02FCWWJT6P6FNFH0TR
+name:
+  en: Hans Döbringer
+aka:
+  en:
+    - Hanko Döbringer
+    - Hans Pfaffen Döbringer
+nationality:
+  - countryCode: eucountry:DEU
+    wikidata: wd:Q183
+description:
+  en: >-
+    German fencing master and cleric ("Pfaffen", priest) of the fourteenth or fifteenth century, named in
+    the Pol Hausbuch (Hs. 3227a), the earliest text of the Liechtenauer tradition, once attributed to
+    him. He is not on Paulus Kal's list, and his relation to Liechtenauer is uncertain.
+notes: >-
+  Green and Svinth (pp. 218, 355) treat him as the author of the 1389 Hausbuch and as "in the
+  Liechtenauer tradition"; Wiktenauer files the manuscript as the Pol Hausbuch and leaves his relation
+  to Liechtenauer open.
+hasDocumentTransmissionAssertion:
+  - id: 01M61V7JC267K3GZEM5MJJ9QDF
+    transmissionDocument: 01M61V7JC2F277GR59FDE0DB56
+    assertedStyle: 01M5JRHX026EPJNQVEJDCKRNJP
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Wiktenauer credits him with an addendum to Liechtenauer's Record; one source.
+    hasEvidence:
+      - basedOnSource: 01M5JRHX021DGZJFJVXKVQHKRG
+        quotation: >-
+          he, along with Andres Juden, Jobs von der Nyssen, and Nicklass Preußen, is but one of four
+          masters credited with writing a brief addendum to Liechtenauer's Recital found therein
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    quotation: >-
+      The author was a fourteenth-century German priest named Hanko Döbringer. In this text, Döbringer,
+      who was in the Liechtenauer tradition, briefly recommended that staff and sword fencing be taught
+      together.
+    locator: '218'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M5JRHX021DGZJFJVXKVQHKRG
+    quotation: >-
+      Döbringer is not mentioned by Paulus Kal as being a member of the Fellowship of Liechtenauer, and
+      his exact relation to the grand master Johannes Liechtenauer is uncertain.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - fencing
+  - kunst-des-fechtens

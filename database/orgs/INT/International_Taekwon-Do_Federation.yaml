@@ -1,0 +1,80 @@
+type: Organization
+id: 01M6BQSYG6C2JJ8QRMGWME4327
+name:
+  en: International Taekwon-Do Federation
+  ko: 국제 태권도 연맹
+aka:
+  en:
+    - ITF
+    - International Taekwondo Federation
+orgType: orgclass:federation
+hasSite:
+  - location:
+      label: Toronto
+      countryCode: eucountry:CAN
+      wikidata: wd:Q172
+    sitePeriod:
+      startYear: 1972
+      endYear: 1985
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          in 1972, both Choi and his organization moved to Canada. In 1985, the international headquarters of
+          ITF moved from Toronto to Vienna, Austria
+        locator: '202'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - location:
+      label: Vienna
+      countryCode: eucountry:AUT
+      wikidata: wd:Q1741
+    sitePeriod:
+      startYear: 1985
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        quotation: >-
+          In 1985, the international headquarters of ITF moved from Toronto to Vienna, Austria, where it
+          remains to this day.
+        locator: '202'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1966'
+  founder:
+    - 01KYQM3M5CWFJJBA8W502KD2TP
+  hasEvidence:
+    - basedOnSource: 01M6BQSYG5G95JWRDX3V4BBGJ4
+      quotation: >-
+        In the case of Choi, he continued promoting his International Taekwondo Federation (established in
+        1966) from abroad
+      locator: '97'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    International taekwondo federation founded by Choi Hong-hi in 1966 after he lost his leadership roles in
+    the Korea Taekwondo Association. It moved with him to Canada in 1972 and its headquarters moved from
+    Toronto to Vienna in 1985. It governs ITF Taekwondo.
+hasEvidence:
+  - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+logo:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/4/44/ITF_Logo_New.png
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:ITF_Logo_New.png
+    cite: "Deasianclan, Wikimedia Commons"
+    informationType: infotype:secondary
+sameAs:
+  - wd:Q694472
+tags:
+  - taekwondo
+  - itf

@@ -1,0 +1,61 @@
+type: Style
+id: 01M69ZHPPFEJFVJX07AP5TBD08
+name:
+  en: Pin Sun Wing Chun
+  zh: 偏身咏春拳
+aka:
+  en:
+    - Gulao Wing Chun
+styleType: styleclass:traditional
+foundedEvent:
+  startDate: '1895~'
+  location:
+    label: Gulao, Heshan
+    countryCode: eucountry:CHN
+    wikidata: wd:Q10913097
+  founder:
+    - 01KYD74HFGEBZYJ17SBVPGNKZ7
+  hasEvidence:
+    - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+      quotation: >-
+        Still active and interested in the martial arts, the now aged master began to teach a small
+        group of local youth a modified version of this Wing Chun which focused on side-facing
+        positions. This brief period of instruction became the nucleus of the Pin Sun Wing Chun system
+        that is sometimes encountered today.
+      locator: '175'
+      locatorLabel: page
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Branch of Wing Chun that grew from the side-facing version Leung Jan taught to local youths in
+    Gulao, Heshan, after he retired there around 1895.
+hasStyleRelationAssertion:
+  - id: 01M69ZHPPHWASXSK4R5PCBH5PQ
+    relatedStyle: 01KYD5XMNMNXZZC2GQVFVRRSMG
+    styleRelationType: stylerel:variant_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: Single source.
+    hasEvidence:
+      - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+        quotation: >-
+          Still active and interested in the martial arts, the now aged master began to teach a small
+          group of local youth a modified version of this Wing Chun which focused on side-facing
+          positions.
+        locator: '175'
+        locatorLabel: page
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M69VJBQCHMMFMBTHKD733P9H
+    locator: '175, 230'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - wing-chun

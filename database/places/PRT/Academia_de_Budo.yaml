@@ -1,0 +1,130 @@
+type: Place
+id: 01KJJAWN29MA64W22606R3WD8G
+name:
+  pt: Academia de Budo
+placeType: placeclass:academy
+hasSite:
+  - location:
+      label: Lisbon
+      countryCode: eucountry:PRT
+      wikidata: wd:Q597
+    address: Rua Visconde de Seabra, Entrecampos, Lisboa
+foundedEvent:
+  startDate: '1958-02-23'
+  founder:
+    - 01KJJAWN29MA64W22606R3WD7A
+  hasEvidence:
+    - basedOnSource: 01KZ687R9NRXAZFXAREE5BY17G
+      quotation: Dojo fundado pelo Mestre António Hilmar Schalck Corrêa Pereira em 1958, situado na Rua Visconde de Seabra, em Entrecampos, Lisboa.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTCY
+      quotation: António LIMA retira dos estatutos respectivos a referência de que, em 23 de Fevereiro de 1958, Corrêa Pereira funda a Academia de Budo.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M3YH7N5GA0F4KZ8V9ES2AWZK
+    relatedOrganization: 01KZ687R9NNAW51ZDJJSC21QVY
+    affiliationRelation: affrel:branch_of
+    validDuring:
+      startYear: 1958
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The Academia de Budo was the historical honbu dojo of the União Portuguesa de Budo (UBU), the twin-entity case where the venue is how the organization occupied physical space; the Academia closed in the 1980s but the UBU continues
+    hasEvidence:
+      - basedOnSource: 01KZ687R9N75NVKR35NSKMA1B1
+        quotation: Esta passou a ser, quase todos os dias a partir dessa data e até ao seu encerramento na década de 80 [...] a minha segunda casa.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+        quotation: >-
+          A "Academia de Judo" foi o primeiro clube de artes marciais em Portugal. [...] Em 1958, este clube foi transferido para Entrecampos e passa a chamar-se "Academia de Budo".
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M4R9845W8BM4H74CVES1WXES
+    instructor: 01KZ6239B5VBK0S11VCGQZ4C9B
+    instructorCapacity: instrcap:instructor
+    instructorPeriod:
+      startYear: 1971
+      endYear: 1972
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: The FPA history and a student's first-hand interview agree that Honda taught at the Academia in 1971-1972.
+    hasEvidence:
+      - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+        quotation: >-
+          A partir de 1971 e até 1972, o Mestre Misao Honda (aluno de Hirokazu Kobayashi Shihan) vem a Portugal e leciona na Academia
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KJJAWN29MA64W22606R3WDA2
+        quotation: >-
+          eu só comecei a praticar em 1971, mais precisamente a 30 de Dezembro de 1971 [...] na Academia de Budo, com Misao Honda.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M4R9845WP63ZTM059BXD3B72
+    instructor: 01KJJAWN29MA64W22606R3WD7C
+    instructorCapacity: instrcap:instructor
+    instructorPeriod:
+      startYear: 1972
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: His own interview and an independent book agree that he took over the Academia classes.
+    hasEvidence:
+      - basedOnSource: 01KJJAWN29MA64W22606R3WDA2
+        quotation: quando o Honda se foi embora, como eu era o aluno mais graduado, e também porque era estudante de Educação Física, o Dr. Pires Martins insistiu para que eu ficasse a dar as aulas de Aikido.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZ687R9N75NVKR35NSKMA1B1
+        quotation: Entretanto, coube ao Mestre Leopoldo Ferreira a orientação desta secção na Academia.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+logo:
+  contentUrl: https://images.squarespace-cdn.com/content/v1/692b42049c98a067a3589737/24dbd1ee-5fb0-426e-aef0-eee5a701f3b9/Seal_V1.png
+  imageAttribution:
+    basedOnSource: 01M3M37BCNGFVTWCX3CERQFWTH
+    informationType: infotype:secondary
+description:
+  en: 'The Academia de Budo, founded on 23 February 1958 by Mestre António Hilmar Schalck Corrêa Pereira in Entrecampos, Lisbon, was the first martial arts club in Portugal and the historical honbu dojo of the União Portuguesa de Budo (UBU). It was the cradle of aikido in Portugal: Misao Honda taught there in 1971-72, after which Leopoldo Ferreira took over the aikido section, and it was where aikido was first introduced in 1965 at the request of its director, Dr. Pires Martins. The Academia closed in the 1980s.'
+  pt: 'A Academia de Budo, fundada a 23 de fevereiro de 1958 pelo Mestre António Hilmar Schalck Corrêa Pereira em Entrecampos, Lisboa, foi o primeiro clube de artes marciais em Portugal e o honbu dojo histórico da União Portuguesa de Budo (UBU). Foi o berço do Aikido em Portugal: Misao Honda aí ensinou em 1971-72, tendo depois Leopoldo Ferreira assumido a secção de Aikido, e foi onde o Aikido foi pela primeira vez introduzido em 1965 a pedido do seu diretor, o Dr. Pires Martins. A Academia encerrou na década de 80.'
+hasEvidence:
+  - basedOnSource: 01KZ687R9NRXAZFXAREE5BY17G
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTCY
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ4CF8P1KPZDKYK5VTQ8AV0P
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ687R9N75NVKR35NSKMA1B1
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KJJAWN29MA64W22606R3WDA2
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ1Y9KD1CMPVBD46D3S7KTFZ
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - aikido
+  - judo
+  - budo
+  - portugal

@@ -1,0 +1,98 @@
+type: Person
+id: 01M5H6E6RG3ZKKD0TYFBHECNJ6
+name:
+  pt: Arthur Virgílio Neto
+aka:
+  pt: Arthur Virgílio
+nationality:
+  - countryCode: eucountry:BRA
+    wikidata: wd:Q155
+description:
+  en: >-
+    Brazilian politician (mayor of Manaus, federal deputy and senator for Amazonas) and jiu-jitsu red
+    belt, one of Carlson Gracie's oldest students; he was in Carlson's corner with Rolls Gracie for
+    Carlson's last fight, against Waldemar Santana in 1970.
+hasTeacherAssertion:
+  - id: 01M5JE8TBW3SQS9HYTKQRP291X
+    teacher: 01KYZFG5QVZEAAZGT4947RHWEX
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: His own account only.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1962
+        hasEvidence:
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: By 1962, I was training with Reyson Gracie.
+            locator: Interview with Arthur Virgílio (after chapter 7)
+            locatorLabel: section
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5H6E6RGBDYEGAMK62PHX3H0
+    teacher: 01KYQB8J2NN336ZJWGQW3YH95E
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: His own account only.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1965
+        hasEvidence:
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: After, around 1965 or 1966 I began training with Carlson.
+            locator: Interview with Arthur Virgílio (after chapter 7)
+            locatorLabel: section
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M5H6E6RGQCWM1H5NV53AZM6H
+    teacher: 01KYZFG5QVSHJ51P4SB023SZS3
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9J
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: His own account only.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1959
+        hasEvidence:
+          - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+            quotation: >-
+              I began around 1959 with Haroldo Brito who taught judo but had also been a student of
+              Helio’s so he also taught jiu-jitsu, even though I didn’t know we were doing jiu-jitsu, they
+              just called it ne-waza then. I trained with Oswaldo Alves there who was a student of Brito.
+            locator: Interview with Arthur Virgílio (after chapter 7)
+            locatorLabel: section
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+notes: >-
+  Drysdale (interview): he also trained with Haroldo Brito from 1959 (no record yet).
+hasEvidence:
+  - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
+    quotation: >-
+      He was also in Carlson’s corner next to Rolls for the last fight of Carlson’s career against
+      Waldemar Santana in December 1970.
+    locator: Interview with Arthur Virgílio (after chapter 7)
+    locatorLabel: section
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q8205747
+tags:
+  - bjj
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/9/93/Congressos._Semin%C3%A1rios._Palestras_%2818715732468%29.jpg
+  rights: mediarights:cc-by-2.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Congressos._Semin%C3%A1rios._Palestras_(18715732468).jpg
+    cite: "Senado Federal, Wikimedia Commons"
+    informationType: infotype:secondary
