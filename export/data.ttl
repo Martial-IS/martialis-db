@@ -11208,8 +11208,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         rdf:type                martialis:Style;
         schema:alternateName    "Southern Chinese martial arts"@en;
         schema:alternateName    "Southern kung fu"@en;
+        schema:description      "Umbrella term for the martial arts of Southern China, marked by short-range strikes and distinctive arm work. Well-known styles include Hung Kuen, Choi Lei Fut, Wing Chun and Wuzuquan."@en;
         schema:description      "南拳是中國南方武術的總稱，特點是手法多變、步法穩固、短橋窄馬。\n著名流派包括洪拳、蔡李佛、詠春、五祖拳等。\n"@zh;
-        schema:description      "Nanquan refers to a classification of Chinese martial arts that originated in Southern China.\nThe southern styles are characterized by emphasis on short hitting and specific arm movements,\nwith prominent styles including Hung Kuen, Choi Lei Fut, Wing Chun, and Wuzuquan.\n"@en;
         schema:keywords         "kung-fu";
         schema:keywords         "southern";
         schema:keywords         "chinese-martial-arts";
@@ -24926,7 +24926,7 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         schema:birthPlace              <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6E/birthEvent/birthPlace>;
         schema:deathDate               "1985-12-01";
         schema:deathPlace              <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6E/deathEvent/deathPlace>;
-        schema:description             "Kenshiro Abbe was a prominent Japanese master of judo, aikido, and kendo. He introduced aikido to the United Kingdom in 1955, and founded the Kyushindo system.  Abbe was a graduate of the Budo Senmon Gakko, having studied judo and kendo there. Following an illustrious early career in the martial arts, he served in the Imperial Japanese Army before and during World War II. He then trained in aikido under its founder, Morihei Ueshiba, for a decade. Abbe held dan ranks in several martial arts, most notably 8th dan in judo, 6th dan in aikido, and 6th dan in kendo. After introducing aikido to the UK, he established several Japanese martial arts councils there during the late 1950s. He returned to Japan in 1964 and remained there for most of the remainder of his life."@en;
+        schema:description             "Japanese judo, kendo and aikido teacher who brought aikido to Britain in 1955 and created the Kyushindo system. Held 8th dan in judo and 6th dan in both aikido and kendo."@en;
         schema:name                    "Abbe Kenshirō"@ja-Latn;
         schema:name                    "阿部 謙四郎"@ja;
         schema:nationality             <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6E/nationality/0>;
@@ -26831,7 +26831,7 @@ void:classPartition  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9W>
         rdf:type                martialis:Style;
-        schema:description      "Kendo (剣道, Kendō, lit. 'sword way' or 'way of the sword') is a modern Japanese martial art,\ndescended from kenjutsu (traditional Japanese swordsmanship), that uses bamboo swords (shinai)\nand protective armor (bōgu). It originated from samurai swordsmanship exercises and was\nformalized as a modern budo in the early 20th century, with the All Japan Kendo Federation\nestablished after World War II.\n"@en;
+        schema:description      "Modern Japanese martial art (剣道, 'way of the sword') practised with bamboo swords (shinai) and protective armor (bōgu). It grew out of kenjutsu, the swordsmanship of the samurai, and took its modern budo form in the early 20th century. The All Japan Kendo Federation was established after World War II."@en;
         schema:image            <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9W/photos/0>;
         schema:keywords         "gendai";
         schema:name             "剣道"@ja;
@@ -33732,7 +33732,7 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         schema:birthDate               "1872";
         schema:birthPlace              <https://martial.is/entity/01M07J1EESSEPR2TSJWV1FWBG5/birthEvent/birthPlace>;
         schema:deathDate               "1971";
-        schema:description             "The first British female teacher of jujutsu and one of the first female martial arts instructors in the Western\nworld. Born Edith Margaret Williams in Bath, she trained as a physical culture instructor and met fellow instructor\nWilliam Garrud in 1892, marrying him the following year. Introduced to jujutsu in 1899, she studied under Yukio\nTani and Sadakazu Uyenishi at the Bartitsu School of Arms and continued under Uyenishi at his Golden Square Dojo;\nwhen Uyenishi returned to Japan in 1908 the Garruds took over the dojo, Edith teaching the women's and children's\nclasses. Around 1909 she opened her own dojo, the School of Ju-jutsu, at Argyll Place. A member of the Women's\nFreedom League from 1906 and head of its Women's Athletic Society from 1908, she became celebrated for the\nSuffragettes' Self-Defence Club she ran for WSPU members and, from 1913, for training the WSPU 'Bodyguard' of\naround thirty women who protected Emmeline Pankhurst. She taught and demonstrated in a signature red jujutsu\njacket, published widely on women's self-defence (including the 1910 essay \"The World We Live In\" in Votes for\nWomen), choreographed suffragette theatre, and continued teaching with William until their retirement in 1925.\n"@en;
+        schema:description             "Britain's first woman jujutsu teacher, and among the earliest women to instruct martial arts in the West. Born Edith Margaret Williams in Bath, she trained as a physical culture instructor and met fellow instructor William Garrud in 1892, marrying him the following year. Introduced to jujutsu in 1899, she studied under Yukio Tani and Sadakazu Uyenishi at the Bartitsu School of Arms and continued under Uyenishi at his Golden Square Dojo; when Uyenishi returned to Japan in 1908 the Garruds took over the dojo, Edith teaching the women's and children's classes. Around 1909 she opened her own dojo, the School of Ju-jutsu, at Argyll Place. A member of the Women's Freedom League from 1906 and head of its Women's Athletic Society from 1908, she became celebrated for the Suffragettes' Self-Defence Club she ran for WSPU members and, from 1913, for training the WSPU 'Bodyguard' of around thirty women who protected Emmeline Pankhurst. She taught and demonstrated in a signature red jujutsu jacket, published widely on women's self-defence (including the 1910 essay \"The World We Live In\" in Votes for Women), choreographed suffragette theatre, and continued teaching with William until their retirement in 1925."@en;
         schema:keywords                "physical-culture";
         schema:keywords                "united-kingdom";
         schema:keywords                "jujutsu";
@@ -35780,8 +35780,8 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
         schema:birthPlace              <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1S8/birthEvent/birthPlace>;
         schema:deathDate               "1988";
         schema:deathPlace              <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1S8/deathEvent/deathPlace>;
-        schema:description             "Takeo Yano (1909–1988), also known as Takeo Iano, was a Japanese judoka who helped in the establishment of Brazilian jiu-jitsu in Brazil. Known as \"The Eastern Demon\", he fought members of the Gracie family and is thought to have introduced the heel hook to Brazilian jiu-jitsu."@en;
-        schema:description             "Takeo Yano (1909 – Belo Horizonte, 1988) foi um judoca japonês que contribuiu para o estabelecimento do jiu-jitsu no Brasil. Conhecido como \"Demônio Oriental\", lutou contra membros da família Gracie e acredita-se que tenha introduzido a chave de calcanhar no jiu-jitsu brasileiro."@pt;
+        schema:description             "Judoca japonês com atividade no Brasil, onde lutou contra membros da família Gracie e teve papel nos primórdios do jiu-jitsu. Apelidado \"Demônio Oriental\", é-lhe atribuída a chave de calcanhar no jiu-jitsu brasileiro."@pt;
+        schema:description             "Japanese judoka active in Brazil, where he fought members of the Gracie family and took part in the early growth of jiu-jitsu. Nicknamed \"The Eastern Demon\"; the heel hook in Brazilian jiu-jitsu is attributed to him."@en;
         schema:name                    "Yano Takeo"@ja-Latn;
         schema:nationality             <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1S8/nationality/0>;
         schema:sameAs                  <http://www.wikidata.org/entity/Q23618849>;
@@ -37483,7 +37483,7 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
         schema:birthPlace              <https://martial.is/entity/01M0AAFQFZH1EVE7P1TVCPX4BE/birthEvent/birthPlace>;
         schema:deathDate               "1951-09-13";
         schema:deathPlace              <https://martial.is/entity/01M0AAFQFZH1EVE7P1TVCPX4BE/deathEvent/deathPlace>;
-        schema:description             "English entrepreneur specialising in self-defence training and physical therapy, remembered as one of the first\nEuropeans to both learn and teach Japanese martial arts and as a pioneer of the concept of hybrid martial arts.\nWhile working in Kobe, Japan (c. 1895-1898) he studied jujutsu in at least two styles, including Shinden Fudo-ryu\nin Kobe and Kodokan judo in Tokyo; the BJS paper also notes he had some training in judo and taught Shinden Fudo\nryu (Immovable Heart school) jujutsu techniques. Returning to England in 1898 he combined these arts with British\nboxing, French savate and Vigny stick fighting to form Bartitsu, and in 1900 established the Bartitsu School of\nArms and Physical Culture in London. He brought over talented young jujutsuka - notably Yukio Tani and Sadakazu\nUyenishi - to teach at his club, giving jujutsu its start in the U.K. Died in 1951.\n"@en;
+        schema:description             "English entrepreneur specialising in self-defence training and physical therapy, remembered as among the first Europeans to study Japanese martial arts and then teach them, and as an early advocate of combining martial arts. While working in Kobe, Japan (c. 1895-1898) he studied jujutsu in at least two styles, including Shinden Fudo-ryu in Kobe and Kodokan judo in Tokyo; the BJS paper also notes he had some training in judo and taught Shinden Fudo ryu (Immovable Heart school) jujutsu techniques. Returning to England in 1898 he combined these arts with British boxing, French savate and Vigny stick fighting to form Bartitsu, and in 1900 established the Bartitsu School of Arms and Physical Culture in London. He brought over talented young jujutsuka - notably Yukio Tani and Sadakazu Uyenishi - to teach at his club, giving jujutsu its start in the U.K. Died in 1951."@en;
         schema:keywords                "united-kingdom";
         schema:keywords                "bartitsu";
         schema:keywords                "jujutsu";
@@ -40328,7 +40328,7 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
         rdf:type                  martialis:Organization;
         schema:alternateName      "Amateur Athletic Union of the United States"@en;
         schema:alternateName      "AAU"@en;
-        schema:description        "American amateur sports organization founded in 1888, dedicated to the promotion and development of amateur sports and physical fitness programs. The AAU has more than 900,000 members nationwide. It was founded at the New York Athletic Club by James E. Sullivan and William Buckingham Curtis with the goal of creating common standards in amateur sport. The AAU formerly served as the national Olympic sports governing body in the United States until the Amateur Sports Act of 1978 established independent national governing bodies. It moved its national headquarters to Lake Buena Vista, Florida in 1996."@en;
+        schema:description        "American amateur sports organization founded in 1888, dedicated to the promotion and development of amateur sports and physical fitness programs. The AAU has more than 900,000 members nationwide. James E. Sullivan and William Buckingham Curtis set it up at the New York Athletic Club to give amateur sport shared standards. The AAU formerly served as the national Olympic sports governing body in the United States until the Amateur Sports Act of 1978 established independent national governing bodies. It moved its national headquarters to Lake Buena Vista, Florida in 1996."@en;
         schema:foundingDate       "1888-01-21";
         schema:keywords           "multi-sport";
         schema:keywords           "usa";
@@ -53122,8 +53122,8 @@ void:entities  rdf:type  owl:DatatypeProperty .
         rdf:type                martialis:Style;
         schema:alternateName    "Jiu-jitsu"@pt;
         schema:alternateName    "BJJ"@pt;
-        schema:description      "Brazilian jiu-jitsu, also abbreviated as BJJ, is a self-defence martial art and combat sport based on grappling, ground fighting, and submission holds. BJJ is primarily a ground-based fighting style and focuses on taking one's opponent down to the ground, gaining a dominant position, and using a number of techniques to force them into submission via joint locks, chokeholds, or compression locks. Brazilian jiu-jitsu was first developed around 1925 by Brazilian brothers Carlos, Oswaldo, Gastão Jr., and Hélio Gracie, after Carlos was taught a hybrid fighting style of traditional Jujutsu and Kodokan judo by a travelling Japanese judoka, Mitsuyo Maeda, in 1917. Later on the Gracie family developed their own self-defense system which they named Gracie Jiu-Jitsu. BJJ eventually came to be its own defined combat sport through the innovations, practices, and adaptation of Gracie jiu-jitsu and judo, and has become one of the essential martial arts for modern MMA.\n"@en;
-        schema:description      "Jiu-jítsu brasileiro é uma arte marcial e esporte de combate, desenvolvido pela família Gracie, no início do século XX, que se tornou a forma mais difundida e praticada do \"Jiu-jitsu\" (após o judô) no mundo, principalmente depois das primeiras edições dos torneios de Vale Tudo e artes marciais mistas (MMA), principalmente no UFC, nos idos da década de 1990 e no Pride FC durante o final da década de 1990 e começo da década de 2000. É uma arte marcial de luta agarrada, onde o objetivo é imobilizar o oponente no chão por meio de uma \"finalização\", colocando o oponente em uma torção de um membro do corpo (como por exemplo uma chave de braço ou chave de perna) ou estrangulamento (como o mata-leão ou triângulo), forçando o oponente a desistir. O jiu-jitsu brasileiro tem um apreço em focar na luta de solo onde a luta em pé tem papel secundário, ao contrário de outras marciais de luta agarrada.\n"@pt;
+        schema:description      "Arte marcial e desporto de combate de luta agarrada, centrados no solo, em que o objetivo é levar o adversário à desistência por chaves de articulação ou estrangulamentos. Desenvolvido pela família Gracie no Brasil, no início do século XX, ganhou projeção mundial com os torneios de vale tudo e de MMA dos anos 1990."@pt;
+        schema:description      "Grappling martial art and combat sport centred on ground fighting, where the aim is to force a submission through joint locks and chokes. Developed in Brazil by the Gracie family from about 1925, from the jujutsu and Kodokan judo that Mitsuyo Maeda taught Carlos Gracie in 1917, and later a core discipline of MMA."@en;
         schema:image            <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9J/photos/0>;
         schema:name             "Brazilian jiu-jitsu"@en;
         schema:name             "Jiu-jítsu brasileiro"@pt;
@@ -67839,7 +67839,7 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 
 <https://github.com/Martial-IS/martialis-db/blob/main/LICENSING.md>
         rdf:type    dcterms:RightsStatement;
-        rdfs:label  "The maker asserts the EU sui generis database right (Directive 96/9/EC Art. 7, transposed in Portugal by DL 122/2000) and licenses it under CC-BY-SA-4.0. Quotations from sources and linked media stay with their rightsholders. See LICENSING.md for the full notice."@en .
+        rdfs:label  "The maker asserts the EU sui generis database right (Directive 96/9/EC Art. 7, transposed in Portugal by DL 122/2000) and licenses it under CC-BY-SA-4.0. If you share content, credit Martialis and link to the URI of each record you use, for example: Kanō Jigorō, Martialis (https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1S1), CC BY-SA 4.0. The maker reserves the text and data mining right under Art. 4 of Directive (EU) 2019/790 over this data. Quotations from sources and linked media stay with their rightsholders. See LICENSING.md for the full notice."@en .
 
 <https://martial.is/entity/01KZVDNBGA54136HEJ1NB9AC1H/photos/0/imageAttribution>
         rdf:type         martialis:Attribution;
@@ -71395,7 +71395,7 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         rdf:type                martialis:Style;
         schema:alternateName    "Katori Shintō-ryū"@ja-Latn;
         schema:alternateName    "香取神道流"@ja;
-        schema:description      "Tenshin Shōden Katori Shintō-ryū (天真正伝香取神道流) is one of the oldest extant Japanese martial arts, and an exemplar of bujutsu. The Tenshin Shōden Katori Shintō-ryū was founded by Iizasa Ienao, born in 1387 in Iizasa village (modern Takomachi, Chiba Prefecture), who was living near Katori Shrine (Sawara City, Chiba Prefecture) at the time. The ryū gives 1447 as the year it was founded, but some scholars state that it was about 1480. The main emphasis of the school is kenjutsu (swordsmanship), but its curriculum also includes battōjutsu (sword drawing), ryōtōjutsu (dual-wielding), bōjutsu (staff), naginatajutsu (glaive), sōjutsu (spear), shurikenjutsu (dart throwing), and jūjutsu.\n"@en;
+        schema:description      "One of the oldest surviving Japanese martial arts (天真正伝香取神道流), founded by Iizasa Ienao, who was born in 1387 in Iizasa village and lived near Katori Shrine. The school dates its founding to 1447, though some scholars give about 1480. Kenjutsu is its core, with battōjutsu, ryōtōjutsu, bōjutsu, naginatajutsu, sōjutsu, shurikenjutsu and jūjutsu also taught."@en;
         schema:image            <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9T/photos/0>;
         schema:keywords         "koryu";
         schema:name             "Tenshin Shōden Katori Shintō-ryū"@ja-Latn;
@@ -74568,8 +74568,8 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZ6XT5DS0JHX51MN07878ERB>
         rdf:type                martialis:Style;
-        schema:description      "Iaidō (居合道) is a modern Japanese budo art that emphasizes being aware and capable of\nquickly drawing the sword and responding to sudden attacks. Iaido practice is performed\nprimarily solo in the form of kata, which involve executing techniques against one or\nmore imaginary opponents: drawing the sword from its scabbard (nukitsuke), cutting\n(kiritsuke/kirioroshi), shaking blood from the blade (chiburi) and returning the sword\nto the scabbard (noto). The term 'iaido' first appeared in 1932 and was popularized by\nNakayama Hakudo, emerging from the koryu drawing art iaijutsu. Iaido is an intrinsic\nform of Japanese modern budo, drawing on koryu forms such as Musō Jikiden Eishin-ryū,\nMugai-ryū, Shindō Munen-ryū, Suiō-ryū and Hōki-ryū.\n"@en;
-        schema:description      "O Iaidō (居合道) é uma arte moderna japonesa de budo que enfatiza estar atento e ser\ncapaz de desembainhar rapidamente a espada e responder a ataques súbitos. A prática do\niaido é feita principalmente a solo sob a forma de kata, que envolvem a execução de\ntécnicas contra um ou mais adversários imaginários: desembainhar a espada (nukitsuke),\ncortar (kiritsuke/kirioroshi), sacudir o sangue da lâmina (chiburi) e devolver a espada\nà bainha (noto). O termo 'iaido' apareceu pela primeira vez em 1932 e foi popularizado\npor Nakayama Hakudo, emergindo da arte koryu de desembainhar, o iaijutsu. O iaido é uma\nforma intrínseca do budo moderno japonês, baseando-se em formas koryu como Musō Jikiden\nEishin-ryū, Mugai-ryū, Shindō Munen-ryū, Suiō-ryū e Hōki-ryū.\n"@pt;
+        schema:description      "Modern Japanese budo of drawing the sword and responding at once to a sudden attack, trained mostly alone through kata against imagined opponents. A kata runs through the draw (nukitsuke), the cut (kiritsuke/kirioroshi), shaking off the blood (chiburi) and the return to the scabbard (noto). The word 'iaido' dates from 1932 and was popularised by Nakayama Hakudo; the art grew from koryu iaijutsu, including Musō Jikiden Eishin-ryū, Mugai-ryū, Shindō Munen-ryū, Suiō-ryū and Hōki-ryū."@en;
+        schema:description      "Budo japonês moderno de desembainhar a espada e responder de imediato a um ataque súbito, treinado sobretudo a solo, em kata contra adversários imaginários. Um kata percorre o saque (nukitsuke), o corte (kiritsuke/kirioroshi), o gesto de sacudir o sangue (chiburi) e o regresso à bainha (noto). A palavra 'iaido' data de 1932 e foi popularizada por Nakayama Hakudo; a arte nasceu do iaijutsu koryu, incluindo Musō Jikiden Eishin-ryū, Mugai-ryū, Shindō Munen-ryū, Suiō-ryū e Hōki-ryū."@pt;
         schema:image            <https://martial.is/entity/01KZ6XT5DS0JHX51MN07878ERB/photos/0>;
         schema:keywords         "iaido";
         schema:keywords         "japanese-martial-arts";
@@ -94164,7 +94164,7 @@ void:dataDump  rdf:type  owl:ObjectProperty .
 <https://martial.is/entity/01KYND67158B7TAT2KS5M3MK3K>
         rdf:type                martialis:Organization;
         schema:alternateName    "IMAF"@en;
-        schema:description      "The oldest continuously operating Japanese organization promoting international Budo. Founded in 1951 by a group of Japan's most prominent martial artists including Kyuzo Mifune, Shizuya Sato, Kazuo Ito, Nakayama Hakudo, Hironori Otsuka, and Morihei Ueshiba. Comprises divisions for Judo, Kendo, Karatedo, Aikido, Iaido, Nihon Jujutsu, and Kobudo."@en;
+        schema:description      "Japan's longest-running organization for the international promotion of Budo. Founded in 1951 by a group of Japan's most prominent martial artists including Kyuzo Mifune, Shizuya Sato, Kazuo Ito, Nakayama Hakudo, Hironori Otsuka, and Morihei Ueshiba. Comprises divisions for Judo, Kendo, Karatedo, Aikido, Iaido, Nihon Jujutsu, and Kobudo."@en;
         schema:foundingDate     "1951";
         schema:keywords         "federation";
         schema:keywords         "international";
@@ -99345,8 +99345,8 @@ dcat:Dataset  rdf:type  owl:Class .
         schema:birthPlace              <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TV/birthEvent/birthPlace>;
         schema:deathDate               "1969-04-26";
         schema:deathPlace              <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TV/deathEvent/deathPlace>;
-        schema:description             "Morihei Ueshiba (植芝 盛平, Ueshiba Morihei; December 14, 1883 – April 26, 1969) was a Japanese martial artist and founder of the martial art of aikido. He is often referred to as 'the founder' Kaiso (開祖) or Ōsensei (大先生/翁先生), 'Great Teacher'."@en;
-        schema:description             "植芝 盛平（うえしば もりへい、1883年〈明治16年〉12月14日 - 1969年〈昭和44年〉4月26日）は、日本の武道家。合気道の創始者。合気道界では「開祖」（かいそ）と敬称される。"@ja;
+        schema:description             "Japanese martial artist who founded aikido, known in the art as Kaiso (開祖, 'founder') and Ōsensei (大先生/翁先生, 'great teacher')."@en;
+        schema:description             "合気道を創始した日本の武道家。合気道界では「開祖」と呼ばれる。"@ja;
         schema:name                    "植芝 盛平"@ja;
         schema:name                    "Ueshiba Morihei"@ja-Latn;
         schema:nationality             <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TV/nationality/0>;
@@ -99521,7 +99521,7 @@ dcat:Dataset  rdf:type  owl:Class .
         schema:birthPlace              <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6D/birthEvent/birthPlace>;
         schema:deathDate               "2013-02-09";
         schema:deathPlace              <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6D/deathEvent/deathPlace>;
-        schema:description             "Keiko Fukuda (Japanese: 福田 敬子, Hepburn: Fukuda Keiko, April 12, 1913 – February 9, 2013) was a Japanese-American martial artist. She was the highest-ranked female judoka in history, holding the rank of 9th dan from the Kodokan (2006), and 10th dan from USA Judo (July 2011) and from the United States Judo Federation (USJF) (September 2011), and was the last surviving student of Kanō Jigorō, founder of judo. She was a renowned pioneer of women's judo, together with her senpai Masako Noritomi (1913–1982) being the first woman promoted to 6th dan (c. 1972). In 2006 the Kodokan promoted Fukuda to 9th dan. She is also the first and, so far, only woman to have been promoted to 10th dan in the art of judo."@en;
+        schema:description             "Japanese-American judoka and pioneer of women's judo; the last living student of Kanō Jigorō. Received 9th dan from the Kodokan in 2006 and 10th dan from USA Judo and the USJF in 2011, the highest rank held by any woman in judo."@en;
         schema:name                    "福田 敬子"@ja;
         schema:name                    "Fukuda Keiko"@ja-Latn;
         schema:nationality             <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6D/nationality/0>;
@@ -99843,8 +99843,8 @@ dcat:Dataset  rdf:type  owl:Class .
         schema:birthPlace              <https://martial.is/entity/01KJJAWN29MA64W22606R3WD7J/birthEvent/birthPlace>;
         schema:deathDate               "1985-05-26";
         schema:deathPlace              <https://martial.is/entity/01KJJAWN29MA64W22606R3WD7J/deathEvent/deathPlace>;
-        schema:description             "Tatsukuma Ushijima (牛島辰熊, March 10, 1904 – May 26, 1985) was a Japanese judoka and former All-Japan judo champion, who was also known as a teacher of Masahiko Kimura, a famous judoka. His nickname was 'The Demon Ushijima'."@en;
-        schema:description             "牛島 辰熊（うしじま たつくま、1904年（明治37年）3月10日 - 1985年（昭和60年）5月26日）は、日本の柔道家。段位は講道館柔道九段。大日本武徳会柔道教士。明治神宮大会3連覇、昭和天覧試合準優勝。その圧倒的な強さと気の荒さから「鬼の牛島」と称された。柔道史上最強を謳われる木村政彦の師匠として有名。"@ja;
+        schema:description             "Japanese judoka and All-Japan champion, nicknamed 'The Demon Ushijima', best known as the teacher of Masahiko Kimura."@en;
+        schema:description             "講道館柔道九段の柔道家。明治神宮大会で3連覇し、昭和天覧試合で準優勝した。気性の荒さから「鬼の牛島」の異名を持ち、木村政彦の師として知られる。"@ja;
         schema:name                    "Ushijima Tatsukuma"@ja-Latn;
         schema:name                    "牛島辰熊"@ja;
         schema:nationality             <https://martial.is/entity/01KJJAWN29MA64W22606R3WD7J/nationality/0>;
@@ -104079,7 +104079,7 @@ dcat:Dataset  rdf:type  owl:Class .
         rdf:type                martialis:Style;
         schema:alternateName    "TKD"@en;
         schema:alternateName    "Tae Kwon Do"@en;
-        schema:description      "Taekwondo is a Korean martial art and combat sport involving primarily kicking techniques\nand punching. It was developed during the 1940s and 1950s by Korean martial artists with\nexperience in karate and Chinese martial arts, emerging from the nine original kwans of\nTang Soo Do. It became an Olympic sport in 2000 and is governed by World Taekwondo (WT)\nand the International Taekwon-Do Federation (ITF).\n"@en;
+        schema:description      "Korean martial art and combat sport centred on kicks and punches. Developed in the 1940s and 1950s from the nine original kwans of Tang Soo Do, by Korean practitioners with a background in karate and Chinese martial arts. An Olympic sport since 2000, under World Taekwondo (WT) and the International Taekwon-Do Federation (ITF)."@en;
         schema:description      "태권도는 한국의 무술이자 격투 스포츠로, 주로 발차기 기술과 펀치를 사용한다.\n1940~1950년대에 걸쳐 개발되었으며, 2000년부터 올림픽 정식 종목이 되었다.\n"@ko;
         schema:image            <https://martial.is/entity/01KYHTJXCXHYSC519CB367XXZK/photos/0>;
         schema:keywords         "korean-martial-arts";
@@ -104220,7 +104220,7 @@ dcat:Dataset  rdf:type  owl:Class .
 <https://martial.is/entity/01KZ9TQS3VCJQV8BNQ6TR7M8W1>
         rdf:type                martialis:Style;
         schema:alternateName    "Gyokushin-ryū Jujutsu"@ja-Latn;
-        schema:description      "Gyokushin-ryū (玉心流) is a koryu jujutsu style known for its extensive arsenal of sutemiwaza (sacrifice throws), founded in the Edo period by Sasaki Goroemon (佐々木五郎衛門) and extinct after its last headmaster Sanjuro Oshima. The name means 'spherical spirit' - like a ball, one's spirit is free to roll in all directions. Minoru Mochizuki trained in it in Tokyo in the mid-1920s while at Sampo Toku's dojo, and drew from it the inspiration for the sutemi waza that later characterized his Yoseikan. Yoseikan budo partially descends from this style. Note: the Gyokushin-ryu kossōjutsu whose soke Hatsumi Masaaki claims, founded by Sasaki Sadaatsu of the Muromachi period, is a different school of the same name.\n"@en;
+        schema:description      "Gyokushin-ryū (玉心流) is a koryu jujutsu style noted for its wide range of sacrifice throws (sutemiwaza), founded in the Edo period by Sasaki Goroemon (佐々木五郎衛門) and extinct after its last headmaster Sanjuro Oshima. The name means 'spherical spirit' - like a ball, one's spirit is free to roll in all directions. Minoru Mochizuki trained in it in Tokyo in the mid-1920s while at Sampo Toku's dojo, and drew from it the inspiration for the sutemi waza that later characterized his Yoseikan. Yoseikan budo partially descends from this style. Note: the Gyokushin-ryu kossōjutsu whose soke Hatsumi Masaaki claims, founded by Sasaki Sadaatsu of the Muromachi period, is a different school of the same name."@en;
         schema:keywords         "sutemi";
         schema:keywords         "koryu";
         schema:keywords         "jujutsu";
@@ -108387,7 +108387,7 @@ dcat:version  rdf:type  owl:DatatypeProperty .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9Q>
         rdf:type                martialis:Style;
-        schema:description      "Tenjin Shinyo-ryu (天神真楊流, Tenjin Shin'yō-ryū), meaning \"Divine True Willow School\", can be classified as a traditional school (koryū) of jujutsu. It was founded by Iso Mataemon Ryūkansai Minamoto no Masatari (磯又右衛門柳関斎源正足) in the 1830s. Its syllabus comprises atemi-waza (striking techniques), nage-waza (throwing techniques), torae-waza (immobilization methods), and shime-waza (choking techniques). Once a very popular jujutsu system in Japan, among the famous students who studied the art were Kanō Jigorō, whose modern art of judo was greatly inspired by the Tenjin Shin'yō-ryū and Kitō-ryū.\n"@en;
+        schema:description      "Koryū jujutsu school (天神真楊流, 'Divine True Willow School') founded in the 1830s by Iso Mataemon Ryūkansai Minamoto no Masatari (磯又右衛門柳関斎源正足). Its curriculum covers strikes, throws, immobilisations and chokes. Kanō Jigorō trained in it, and with Kitō-ryū it was a major influence on judo."@en;
         schema:image            <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9Q/photos/0>;
         schema:keywords         "koryu";
         schema:name             "Tenjin Shin'yō-ryū"@ja-Latn;
@@ -121591,7 +121591,7 @@ dcat:version  rdf:type  owl:DatatypeProperty .
 <https://martial.is/entity/01KYQ4SCN9Q1R9X8CGDYHG7230>
         rdf:type                martialis:Style;
         schema:alternateName    "Yoshinkan"@en;
-        schema:description      "Yoshinkan Aikido (養神館合気道) is a style of aikido founded by Gozo Shioda in 1955. Often called the \"hard\" style of aikido, it emphasizes practical self-defense applications and is taught to the Tokyo Metropolitan Police. The Yoshinkan style is currently the second largest aikido organization worldwide."@en;
+        schema:description      "Yoshinkan Aikido (養神館合気道) is a style of aikido founded by Gozo Shioda in 1955. Often called the \"hard\" style of aikido, it emphasizes practical self-defense applications and is taught to the Tokyo Metropolitan Police. It is the world's second largest aikido organization."@en;
         schema:image            <https://martial.is/entity/01KYQ4SCN9Q1R9X8CGDYHG7230/photos/0>;
         schema:keywords         "aikido";
         schema:keywords         "japanese-martial-arts";
@@ -138816,7 +138816,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         schema:birthPlace              <https://martial.is/entity/01M0AAFQFXZ7G2JDEFZY8M5AKF/birthEvent/birthPlace>;
         schema:deathDate               "1942";
         schema:deathPlace              <https://martial.is/entity/01M0AAFQFXZ7G2JDEFZY8M5AKF/deathEvent/deathPlace>;
-        schema:description             "Japanese jujutsu practitioner, fourth head of the Fusen-ryu school founded by Motsugai Takeda. He became famous\nfor defeating multiple members of the Kodokan in challenge matches - most famously Takisaburo Tobari in 1891 -\nand came to be considered one of the greatest modern jujutsuka. Nicknamed \"Newaza Tanabe\" and \"Newaza no Tatsujin\"\nfor his mastery of ground techniques, he was also equally skilled in standing techniques. He was one of the twenty\nrepresenting masters chosen in 1895 to open the jujutsu division of the Dai Nippon Butoku Kai, where he taught until\nhis retirement in 1922. He declined to join the Kodokan; Kano incorporated his ground techniques into judo after\nseeing Kodokan experts struggle against him. He was the inspiration for the character Gennosuke Higaki in Tsuneo\nTomita's Sanshiro Sugata novel series. Died in Osaka, 1942.\n"@en;
+        schema:description             "Japanese jujutsu practitioner, fourth head of the Fusen-ryu school founded by Motsugai Takeda. His fame came from challenge-match wins over several Kodokan members - most famously Takisaburo Tobari in 1891 - and came to be considered one of the greatest modern jujutsuka. Nicknamed \"Newaza Tanabe\" and \"Newaza no Tatsujin\" for his mastery of ground techniques, he was also equally skilled in standing techniques. He was one of the twenty representing masters chosen in 1895 to open the jujutsu division of the Dai Nippon Butoku Kai, where he taught until his retirement in 1922. He declined to join the Kodokan; Kano incorporated his ground techniques into judo after seeing Kodokan experts struggle against him. He was the inspiration for the character Gennosuke Higaki in Tsuneo Tomita's Sanshiro Sugata novel series. Died in Osaka, 1942."@en;
         schema:keywords                "koryu";
         schema:keywords                "jujutsu";
         schema:keywords                "japan";
@@ -138862,7 +138862,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         rdf:type                martialis:Style;
         schema:alternateName    "Samozashchita bez oruzhiya"@ru-Latn;
         schema:alternateName    "самозащита без оружия"@ru;
-        schema:description      "Sambo (Russian: сaмбо, pronounced [ˈsambə]) is a martial art with Soviet origins, an internationally practised combat sport, and a recognized style of amateur wrestling included by UWW in the World Wrestling Championships along with Graeco-Roman wrestling and freestyle wrestling.  It originated in the Russian SFSR in the Soviet Union. The word sambo is an acronym of samozashchita bez oruzhiya (Russian: самозащита без оружия), which literally translates to 'self-defence without weapons'. SAMBO is a martial art and combat sport developed and used by the Soviet Red Army in the early 1920s to improve their hand-to-hand combat abilities. The sport is similar in many ways to judo and jiu jitsu but also incorporates different types of wrestling and various self-defence systems.  Soviet martial arts expert Vasili Oshchepkov is credited as one of the founding fathers of SAMBO.\n"@en;
+        schema:description      "Martial art and combat sport of Soviet origin, developed for Red Army hand-to-hand combat in the early 1920s. The name (Russian: самбо) abbreviates samozashchita bez oruzhiya, 'self-defence without weapons'. It draws on judo, jiu-jitsu and several wrestling styles, and UWW recognises it as a style of amateur wrestling. Vasili Oshchepkov is counted among its founders."@en;
         schema:image            <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9H/photos/0>;
         schema:name             "сaмбо"@ru;
         schema:name             "Sambo"@ru-Latn;
@@ -146502,9 +146502,9 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         schema:birthPlace              <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1S1/birthEvent/birthPlace>;
         schema:deathDate               "1938-05-04";
         schema:deathPlace              <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1S1/deathEvent/deathPlace>;
-        schema:description             "Jigoro Kano (嘉納 治五郎, 10 December 1860 – 4 May 1938) was a Japanese educator, athlete, and the founder of Judo. Along with Ju-Jutsu, Judo was one of the first Japanese martial arts to gain widespread international recognition, and the first to become an official Olympic sport. Pedagogical innovations attributed to Kanō include the use of black and white belts, and the introduction of dan ranking to show the relative ranking among members of a martial art style. Well-known mottoes attributed to Kanō include \"good use of energy\" (精力善用 seiryoku zen'yō) and \"mutual welfare and benefit\" (自他共栄 jita kyōei).\n"@en;
+        schema:description             "講道館柔道を創始した教育者で、貴族院議員も務めた。日本のオリンピック初参加を推進した人物で、「柔道の父」と呼ばれる。"@ja;
         schema:description             "Jigoro Kano (em japonês: 嘉納治五郎, Kanō Jigorō) (Mikage, 28 de outubro de 1860 – 4 de maio de 1938) foi o fundador da arte marcial Judo.\n"@pt;
-        schema:description             "嘉納 治五郎（かのう じごろう、万延元年10月28日〈1860年12月10日〉-昭 和13年〈1938年〉5月4日）は、日本の柔道家・教育者・貴族院議員。兵 庫県出身。別表記：加納治五郎。講道館柔道の創始者であり、柔 道・スポーツ・教育分野の発展や日本のオリンピック初参加に尽力する など、明治から昭和にかけて日本におけるスポーツの道を開いた。「柔 道の父」と呼ばれ、また、「日本の体育の父」とも称される\n"@ja;
+        schema:description             "Japanese educator who founded judo. Credited with introducing black and white belts and dan ranks, and with the mottoes seiryoku zen'yō (精力善用, 'good use of energy') and jita kyōei (自他共栄, 'mutual welfare and benefit')."@en;
         schema:name                    "嘉納 治五郎"@ja;
         schema:name                    "Kanō Jigorō"@ja-Latn;
         schema:nationality             <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1S1/nationality/0>;
@@ -152573,7 +152573,7 @@ dcat:Distribution  rdf:type  owl:Class .
         rdf:type               martialis:Style;
         schema:alternateName   "Thai Boxing"@en;
         schema:alternateName   "Art of Eight Limbs"@en;
-        schema:description     "Muay Thai, also known as Thai boxing, is a Thai martial art and full-contact combat sport that uses stand-up striking, sweeps, and various clinching techniques. Known as the 'Art of Eight Limbs' for its combined use of fists, elbows, knees, and shins. It became widespread internationally in the late 20th century and is governed by the International Federation of Muaythai Associations (IFMA), recognized by the International Olympic Committee."@en;
+        schema:description     "Thai full-contact martial art and combat sport, also called Thai boxing, known as the 'Art of Eight Limbs' for striking with fists, elbows, knees and shins, alongside sweeps and clinch work. It spread worldwide in the late 20th century. The International Federation of Muaythai Associations (IFMA), recognised by the International Olympic Committee, governs it."@en;
         schema:description     "มวยไทยเป็นศิลปะการต่อสู้และกีฬาการต่อสู้แบบเต็มรูปแบบของไทย ใช้การโจมตีแบบยืน การกวาด และการคลินช์ รู้จักกันในชื่อ 'ศิลปะแห่งแปดแขนขา' เนื่องจากใช้หมัด ศอก เข่า และแข้งร่วมกัน"@th;
         schema:image           <https://martial.is/entity/01KYEY02EJDAF10TC75D1V8DX0/photos/0>;
         schema:keywords        "combat-sport";
@@ -155518,7 +155518,7 @@ dcat:Distribution  rdf:type  owl:Class .
         rdf:type                martialis:Style;
         schema:alternateName    "Shaolin wushu"@en;
         schema:alternateName    "Shaolin kung fu"@en;
-        schema:description      "Shaolin kung fu is the largest and most famous style of kung fu. It was developed in the\nShaolin Temple in Henan, China during its 1500-year history. It combines Mahayana Buddhist,\nChan philosophy and martial arts. The name Shaolin is used as a brand for the external styles\nof kung fu, with many styles in southern and northern China using the name Shaolin.\n"@en;
+        schema:description      "Chinese martial art tradition developed at the Shaolin Temple in Henan over some 1,500 years, joining martial practice with Mahayana and Chan Buddhism. Many external styles in northern and southern China use the Shaolin name."@en;
         schema:description      "少林拳是中國最著名的武術流派，起源於河南嵩山少林寺，擁有1500多年的歷史。\n融合了大乘佛教、禪宗哲學和武術，是中國外家拳的代表。\n"@zh;
         schema:image            <https://martial.is/entity/01KYHRZE60P1GBRPFW8VZXG7GR/photos/0>;
         schema:keywords         "external";
@@ -163514,7 +163514,7 @@ dcterms:RightsStatement
         schema:birthPlace              <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6W/birthEvent/birthPlace>;
         schema:deathDate               "2002-05-13";
         schema:deathPlace              <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6W/deathEvent/deathPlace>;
-        schema:description             "Morihiro Saito (斉藤 守弘 Saitō Morihiro) was an Aikido master with many students around the world. Saito's practice of aikido spanned 56 years, from the age of 18, when he first met Aikido founder Morihei Ueshiba, until his death in 2002. He was a life-long uchi-deshi of Aikido's founder Ueshiba in Iwama.\n"@en;
+        schema:description             "Japanese aikido teacher with students around the world, for decades an uchi-deshi of Morihei Ueshiba in Iwama. Practised aikido for 56 years, until his death in 2002."@en;
         schema:name                    "斉藤 守弘"@ja;
         schema:name                    "Saitō Morihiro"@ja-Latn;
         schema:nationality             <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6W/nationality/0>;
@@ -168050,8 +168050,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9K>
         rdf:type                martialis:Style;
-        schema:description      "八卦掌為中國武術的著名拳種，源自清朝末年武師董海川，與太極拳和形意拳並稱三大內家拳。"@zh;
-        schema:description      "Baguazhang (Chinese: 八卦掌; pinyin: bā guà zhǎng; Wade–Giles: pa-kua chang) is one of the three main Chinese martial arts of the Wudang school, the other two being tai chi and xingyiquan. It is more broadly grouped as an internal practice (or neijia). Baguazhang literally means \"eight trigram palm\", referring to the bagua \"trigrams\" of the I Ching, one of the canons of Taoism.\n"@en;
+        schema:description      "Chinese internal martial art (neijia) whose name (八卦掌) means 'eight trigram palm', after the trigrams of the I Ching. Grouped with tai chi and xingyiquan as one of the three main arts of the Wudang school."@en;
+        schema:description      "中國內家拳之一，由清末武師董海川傳出，與太極拳、形意拳合稱三大內家拳。"@zh;
         schema:image            <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9K/photos/0>;
         schema:name             "八卦掌"@zh;
         schema:name             "Baguazhang"@en;
@@ -183954,7 +183954,7 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9R>
         rdf:type                martialis:Style;
-        schema:description      "Aikido (Shinjitai: 合気道, Kyūjitai: 合氣道,) is a modern Japanese martial art that is split into many different styles, including Iwama Ryu, Iwama Shin Shin Aiki Shuren Kai, Shodokan Aikido, Yoshinkan, Renshinkai, Aikikai and Ki Aikido. Aikido is now practiced in around 140 countries. It was originally developed by Morihei Ueshiba, as a synthesis of his martial studies, philosophy and religious beliefs. Ueshiba's goal was to create an art that practitioners could use to defend themselves while also protecting their attackers from injury.      \n"@en;
+        schema:description      "Modern Japanese martial art (合気道, 合氣道) created by Morihei Ueshiba from his martial training, philosophy and religious beliefs, with the aim of self-defence that also spares the attacker from injury. Now practised in about 140 countries, in many styles, among them Aikikai, Yoshinkan, Shodokan Aikido, Iwama Ryu, Iwama Shin Shin Aiki Shuren Kai, Renshinkai and Ki Aikido."@en;
         schema:image            <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9R/photos/0>;
         schema:keywords         "gendai";
         schema:name             "合気道"@ja;
@@ -186538,7 +186538,7 @@ dcterms:RightsStatement
 <https://martial.is/entity/01KZC19BDCWTW7WHTJG4S3A0D6>
         rdf:type                martialis:Style;
         schema:alternateName    "Itto-ryu"@en;
-        schema:description      "Ittō-ryū (一刀流, 'one-sword school') is the ancestor school of several koryu kenjutsu styles, including Ono-ha, Mizoguchi-ha, Nakanishi-ha, Kogen, Hokushin, Itto Shoden and even Mugai-ryu. It was developed by Itō Ittōsai Kagehisa. Recorded here as the kenjutsu school practiced by Miozo Mochizuki, the father of Minoru Mochizuki, per the Dragon Magazine interview.\n"@en;
+        schema:description      "Kenjutsu school (一刀流, 'one-sword school') developed by Itō Ittōsai Kagehisa, and the source of many later styles: Ono-ha, Mizoguchi-ha, Nakanishi-ha, Kogen, Hokushin, Itto Shoden and Mugai-ryu. Recorded here as the kenjutsu school practiced by Miozo Mochizuki, the father of Minoru Mochizuki, per the Dragon Magazine interview."@en;
         schema:keywords         "kenjutsu";
         schema:keywords         "work-needed";
         schema:keywords         "koryu";
@@ -198460,7 +198460,7 @@ dcterms:RightsStatement
         schema:birthPlace              <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SS/birthEvent/birthPlace>;
         schema:deathDate               "2022-08-09";
         schema:deathPlace              <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SS/deathEvent/deathPlace>;
-        schema:description             "Ivan Gene LeBell (October 9, 1932 – August 9, 2022) was an American judoka, stuntman, actor and professional wrestler. Nicknamed \"Judo Gene\" and \"The Godfather of Grappling\", he is credited with popularizing grappling in professional fighting circles, serving as a precursor to modern mixed martial arts. He worked on over 1,000 films and TV shows and authored 12 books."@en;
+        schema:description             "American judoka, professional wrestler, stuntman and actor, known as \"Judo Gene\" and \"The Godfather of Grappling\". Brought grappling to wider attention before the rise of modern MMA, worked on more than 1,000 films and TV shows, and wrote 12 books."@en;
         schema:name                    "Gene LeBell"@en;
         schema:nationality             <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SS/nationality/0>;
         schema:sameAs                  <http://www.wikidata.org/entity/Q5531312>;

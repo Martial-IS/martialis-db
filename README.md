@@ -2,13 +2,15 @@
 
 [![Validate database](https://github.com/Martial-IS/martialis-db/actions/workflows/validate.yml/badge.svg)](https://github.com/Martial-IS/martialis-db/actions/workflows/validate.yml)
 [![REUSE status](https://api.reuse.software/badge/github.com/Martial-IS/martialis-db)](https://api.reuse.software/info/github.com/Martial-IS/martialis-db)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23346621.svg)](https://doi.org/10.5281/zenodo.23346621)
+[![Software Heritage](https://archive.softwareheritage.org/badge/origin/https://github.com/Martial-IS/martialis-db/)](https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/Martial-IS/martialis-db)
 ![Ontology](https://img.shields.io/badge/ontology-1.0.0-informational)
 ![Code license](https://img.shields.io/badge/code-AGPL--3.0--or--later-blue)
 ![Data license](https://img.shields.io/badge/data-CC--BY--SA--4.0-lightgrey)
 ![Vocabulary license](https://img.shields.io/badge/vocabulary-CC0--1.0-lightgrey)
 
 Martialis is a curated database of martial arts lineages, or better yet, of _martial knowledge
-transission_: who learned what from whom, and how styles, organizations, and places relate to those
+transmission_: who learned what from whom, and how styles, organizations, and places relate to those
 transmission events.
 
 One fundamental aspect of Martialis is that every claim is a sourced, confidence-graded assertion,
@@ -56,7 +58,7 @@ important to briefly describe:
 - **Teacher and student.** The central claim is that a person taught the subject a style, documented
   by its interactions: a place, a period, a course, or seminar. The kind of relationship is recorded
   (student, uchi-deshi, coach, private lessons, seminar, examination, etc).
-- **Transmission from documents.** This models lqearning from study of a text or recording with no
+- **Transmission from documents.** This models learning from study of a text or recording with no
   living teacher behind it (a densho, a manual, a DVD).
 - **Rank is separate from teaching.** Learning from someone is different from receiving rank from
   someone: ranks, honors and titles are separate claims, tied to the style, the ranking system and
@@ -167,10 +169,15 @@ schemes, and entities link to Wikidata and other authority files.
 The records are `database/**` (YAML); `make rdf` converts them through a JSON-LD context into
 `export/data.ttl`, which carries its own `void:entities` and `void:triples` counts. The bibliography
 is `export/sources.csl.json`, and every term lives in the `https://w3id.org/martialis/ontology#`
-namespace. Cite a release with [CITATION.cff](CITATION.cff).
+namespace.
+
+Every release is deposited on Zenodo: the [database](https://doi.org/10.5281/zenodo.23346621) and
+the [ontology](https://doi.org/10.5281/zenodo.23951127). These links always resolve to the latest
+version. To cite Martialis, use the version DOI of the release you used, shown on its Zenodo page,
+because the data changes between releases. [CITATION.cff](CITATION.cff) has the citation metadata.
 
 Martialis publishes on a quarterly tagged-release cadence, not live sync: the working repository
-(and `martial.is` itself) is always ahead of the most recent tag, and a release is an immutable,
+(and `martial.is` itself) can be ahead of the most recent tag, and a release is an immutable,
 citable snapshot. The database and the ontology are released separately, each with its own version:
 a database release (tag `data-vX.Y.Z`) attaches `export/data.ttl`, and an ontology release (tag
 `ontology-vX.Y.Z`) attaches `ontology/martialis.ttl`, `ontology/vocabularies.ttl` and
@@ -183,7 +190,7 @@ looks like. The short version:
 
 1. Contributions are done through Discussions, by commenting on existing entries or new ones.
 2. Problems with the pipeline or model itself can be reported through Issues
-3. Push Requests are not used
+3. Pull requests are not used
 
 IMPORTANT: By submitting content for the database, in a Discussion or an issue, you dedicate it to
 the public domain under **CC0-1.0**.
@@ -200,6 +207,11 @@ The maker asserts the EU sui generis database right (Directive 96/9/EC Art. 7, t
 Portugal by DL 122/2000) and licenses it under CC-BY-SA-4.0. See
 [LICENSING.md](LICENSING.md#sui-generis-database-right) for the full notice, including how personal
 data of the living people the database records is handled.
+
+Attribution is a condition of the data licence: if you share database content, credit Martialis and
+link to each record you use. See [Attributing the database](LICENSING.md#attributing-the-database).
+The maker also reserves the text and data mining right under Art. 4 of Directive (EU) 2019/790 over
+the data. See [Text and data mining](LICENSING.md#text-and-data-mining).
 
 Maker of the database: Frederico Muñoz, Lisbon, Portugal. Martialis™ is an unregistered trademark of
 Frederico Muñoz.

@@ -33,6 +33,9 @@ What the licence means for the database contents:
   contents (Section 4(a)).
 - If you share all or a substantial part, the attribution conditions in Section
   3(a) apply (Section 4(c)).
+- Copyright also protects the database's own prose, such as descriptions and
+  confidence rationales. Section 3(a) applies when you share that prose, even
+  from one record.
 - If you include all or a substantial part in a database of your own in which
   you hold database rights, that database is Adapted Material, but its
   individual contents are not (Section 4(b)). If you share that database, the
@@ -76,6 +79,54 @@ venues.
 - **Erasure**: applies to the current database and every release from that
   point forward. It does not alter git history already published or prior
   releases already distributed.
+
+## Attributing the database
+
+Attribution is a condition of CC-BY-SA-4.0, not a courtesy. This section explains
+how the maker applies Section 3(a). It adds no term to the licence.
+
+If you share content from the database, keep what is supplied with it:
+
+- the credit: Martialis, the name the maker designates for attribution
+- the URI of each record you use: `https://martial.is/entity/<ULID>`
+- the licence: CC BY-SA 4.0, with a link to it
+- a statement that you changed the content, if you did
+
+The requested form is:
+
+> Kanō Jigorō, Martialis (https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1S1), CC BY-SA 4.0
+
+Show it with the content, on the same page or screen. Every record contains its
+URI, so software that displays a record can link to it: the maker considers this
+reasonably practicable. If you follow this section, the maker considers your
+attribution sufficient for the maker's own rights. A link to the home page alone,
+or one general credit, does not carry the URI of each record.
+
+Citing a release in academic work is a separate practice: use its version DOI.
+For content the maker owns, contact the maker for terms this licence does not give.
+
+## Text and data mining
+
+Art. 4 of [Directive (EU) 2019/790](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019L0790)
+gives a text and data mining exception, unless the rightsholder reserves the
+right. Where an exception applies, the CC-BY-SA-4.0 conditions do not (Section
+2(a)(2)).
+
+**The maker reserves its own Art. 4 right over the Database tier, in every copy:**
+martial.is, this repository, the Zenodo deposits, and any other copy. martial.is
+signals the reservation in machine-readable form, through the `tdm-reservation`
+HTTP header and `/.well-known/tdmrep.json`
+([W3C TDMRep](https://www.w3.org/community/reports/tdmrep/)).
+
+The reservation restricts nobody who complies with CC-BY-SA-4.0: attribute the
+source, share derivatives under the same terms, and mining is unaffected. It
+removes only the statutory route around those conditions.
+
+- **Research use is unaffected.** Art. 3 gives research organisations and cultural
+  heritage institutions an exception that a rightsholder cannot override.
+- **The Vocabulary tier is not reserved.** It is CC0-1.0.
+
+If you mine the Database tier outside the CC-BY-SA-4.0 terms, contact the maker.
 
 ## The five tiers
 
@@ -138,6 +189,13 @@ its citation stay. Removal applies to the current database and every release fro
 that point forward. It does not alter git history already published or prior
 releases already distributed.
 
+### Text from Wikipedia
+
+Some `description` text is copied, adapted or translated from Wikipedia, in
+several language editions, under CC BY-SA. It may have been edited. The record's
+evidence links the article, and its history page lists the authors. This text
+stays with those authors: the maker cannot license it on other terms.
+
 ## Attribution request (not a license term)
 
 The ontology and JSON-LD context are dedicated to the public domain under
@@ -160,8 +218,8 @@ copyright or database-right protection (for example a lineage chart or table
 pasted out of a book or paid database). Short quotations given as evidence are
 outside the dedication; see [Third-party quotations](#third-party-quotations).
 The database is published, on the way out, under **CC-BY-SA-4.0**; see
-[Attribution request](#attribution-request-not-a-license-term) above and the
-sui generis right asserted and licensed at the top of this document.
+[Attributing the database](#attributing-the-database) above and the sui generis
+right asserted and licensed at the top of this document.
 
 An inbound CC-BY-SA-4.0 grant would bind share-alike onto the maker's own
 database and remove the option to relicense it. The term usually has nothing
@@ -176,5 +234,6 @@ waive them.
 ## Provenance
 
 All database content, ontology, and code predating this document were written
-solely by the project lead (Frederico Muñoz), and the tiers above apply to it
-directly, with no relicensing of third-party contributions required.
+solely by the project lead (Frederico Muñoz), except the quotations, media and
+Wikipedia text described above. The tiers above apply to it directly, with no
+relicensing of third-party contributions required.
