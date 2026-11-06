@@ -25,8 +25,8 @@ example. I will do my best to translate, which given today's technology is simpl
 
 ## Licensing
 
-By submitting content for the database, in a Discussion or an issue, you dedicate it to the public
-domain under **CC0-1.0**, covering copyright and any sui generis database right you may hold, and you
+By submitting content for the database, in a Discussion, an issue, or the suggestion form on
+martial.is, you dedicate it to the public domain under **CC0-1.0**, covering copyright and any sui generis database right you may hold, and you
 represent that it is your own statement of fact with citations rather than material copied from a
 copyrighted or database-rights-protected work. Short quotations given as evidence are not part of
 that dedication: they stay with their rightsholders. The database itself stays CC-BY-SA-4.0. See

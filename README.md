@@ -192,8 +192,8 @@ looks like. The short version:
 2. Problems with the pipeline or model itself can be reported through Issues
 3. Pull requests are not used
 
-IMPORTANT: By submitting content for the database, in a Discussion or an issue, you dedicate it to
-the public domain under **CC0-1.0**.
+IMPORTANT: By submitting content for the database, in a Discussion, an issue, or the suggestion form
+on martial.is, you dedicate it to the public domain under **CC0-1.0**.
 
 ## Licence
 
@@ -201,17 +201,18 @@ Code (`pipeline/**`, the Makefile, `.github/**`) is AGPL-3.0-or-later, data (`da
 generated `export/**`) is CC-BY-SA-4.0, and the ontology, model and vocabulary (`ontology/**` except
 the vendored files under `ontology/imports/`, `model/**`, `schemas/**`) are CC0-1.0. The vendored
 upstream files keep their own licences. Quotations from sources and linked media stay with their
-rightsholders and are not covered by these licences. See [LICENSING.md](LICENSING.md).
+rightsholders and are not covered by these licences, and some description text comes from Wikipedia
+under CC BY-SA. See [LICENSING.md](LICENSING.md).
 
 The maker asserts the EU sui generis database right (Directive 96/9/EC Art. 7, transposed in
 Portugal by DL 122/2000) and licenses it under CC-BY-SA-4.0. See
 [LICENSING.md](LICENSING.md#sui-generis-database-right) for the full notice, including how personal
 data of the living people the database records is handled.
 
-Attribution is a condition of the data licence: if you share database content, credit Martialis and
-link to each record you use. See [Attributing the database](LICENSING.md#attributing-the-database).
-The maker also reserves the text and data mining right under Art. 4 of Directive (EU) 2019/790 over
-the data. See [Text and data mining](LICENSING.md#text-and-data-mining).
+Attribution is a condition of the data licence, and the requested credit links to each record you
+use. See [Attributing the database](LICENSING.md#attributing-the-database). The maker also reserves
+its own text and data mining right under Art. 4 of Directive (EU) 2019/790 over the data. See
+[Text and data mining](LICENSING.md#text-and-data-mining).
 
 Maker of the database: Frederico Muñoz, Lisbon, Portugal. Martialis™ is an unregistered trademark of
 Frederico Muñoz.

@@ -40,14 +40,14 @@ What the licence means for the database contents:
   you hold database rights, that database is Adapted Material, but its
   individual contents are not (Section 4(b)). If you share that database, the
   ShareAlike conditions in Section 3(b) apply.
-- A use the licence does not permit, and no exception covers, needs a separate
-  licence from the maker.
+- For content the maker owns, a use the licence does not permit, and no exception
+  covers, needs a separate licence from the maker.
 
 The database's ULID identifiers, confidence-assessment wording, and record
 ordering identify this database's own content.
 
 A notice only works if it reaches the person extracting the data, not just a
-visitor to this repository. That is why the short form travels with the data: it
+visitor to this repository. That is why a short notice travels with the data: it
 is the label of the `dcterms:rights` statement in `export/data.ttl`, and it is
 meant for the site footer and API response headers that serve the data outside
 this repo.
@@ -85,7 +85,13 @@ venues.
 Attribution is a condition of CC-BY-SA-4.0, not a courtesy. This section explains
 how the maker applies Section 3(a). It adds no term to the licence.
 
-If you share content from the database, keep what is supplied with it:
+The condition applies when you share all or a substantial part of the database,
+or its own prose. For a smaller reuse, such as a single fact, no licence condition
+applies, but the maker asks for the same credit.
+
+Section 3(a) lets you meet the condition in any reasonable manner based on the
+medium, means and context. This is the manner the maker requests. Keep with the
+content what is supplied with it:
 
 - the credit: Martialis, the name the maker designates for attribution
 - the URI of each record you use: `https://martial.is/entity/<ULID>`
@@ -96,11 +102,23 @@ The requested form is:
 
 > Kanō Jigorō, Martialis (https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1S1), CC BY-SA 4.0
 
-Show it with the content, on the same page or screen. Every record contains its
-URI, so software that displays a record can link to it: the maker considers this
-reasonably practicable. If you follow this section, the maker considers your
-attribution sufficient for the maker's own rights. A link to the home page alone,
-or one general credit, does not carry the URI of each record.
+Where the medium allows links, link the licence name to
+https://creativecommons.org/licenses/by-sa/4.0/. A longer credit can add the title
+and the maker, and still carries the URI:
+
+> Kanō Jigorō, Martialis: Martial Arts Lineage Database, Frederico Muñoz (ORCID
+> 0009-0000-9488-3542), https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1S1 - CC BY-SA 4.0
+
+Show the credit with the content, on the same page or screen. If you redistribute
+records as data, keep each record's URI in the data, with the licence notice.
+Every record carries its ULID, which gives its URI, so software that displays a
+record can link to it: the maker considers this reasonably practicable. If you
+follow this section, the maker considers your attribution sufficient for the
+maker's own rights. A link to the home page alone, or one general credit, does not
+carry the URI of each record.
+
+To refer to the database itself, without reusing its records, use
+https://martial.is in place of the record's URI.
 
 Citing a release in academic work is a separate practice: use its version DOI.
 For content the maker owns, contact the maker for terms this licence does not give.
@@ -108,8 +126,9 @@ For content the maker owns, contact the maker for terms this licence does not gi
 ## Text and data mining
 
 Art. 4 of [Directive (EU) 2019/790](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019L0790)
-gives a text and data mining exception, unless the rightsholder reserves the
-right. Where an exception applies, the CC-BY-SA-4.0 conditions do not (Section
+gives a text and data mining exception, unless the rightsholder expressly reserves
+the right in an appropriate manner, such as machine-readable means for content
+made publicly available online. Where an exception applies, the CC-BY-SA-4.0 conditions do not (Section
 2(a)(2)).
 
 **The maker reserves its own Art. 4 right over the Database tier, in every copy:**
@@ -126,7 +145,8 @@ removes only the statutory route around those conditions.
   heritage institutions an exception that a rightsholder cannot override.
 - **The Vocabulary tier is not reserved.** It is CC0-1.0.
 
-If you mine the Database tier outside the CC-BY-SA-4.0 terms, contact the maker.
+For content the maker owns, if you mine the Database tier outside the CC-BY-SA-4.0
+terms, contact the maker.
 
 ## The five tiers
 
@@ -194,7 +214,8 @@ releases already distributed.
 Some `description` text is copied, adapted or translated from Wikipedia, in
 several language editions, under CC BY-SA. It may have been edited. The record's
 evidence links the article, and its history page lists the authors. This text
-stays with those authors: the maker cannot license it on other terms.
+stays with those authors: the maker cannot license it on other terms. If you share
+this text, keep that link.
 
 ## Attribution request (not a license term)
 
@@ -206,9 +227,9 @@ nonetheless ask that reusers cite the source:
 
 ## Inbound licensing
 
-Contributions are suggestions made in Discussions or issues; see
-[CONTRIBUTING.md](CONTRIBUTING.md). Code and vocabulary changes are not
-accepted from outside the project.
+Contributions are suggestions made in Discussions, in issues, or through the
+suggestion form on martial.is; see [CONTRIBUTING.md](CONTRIBUTING.md). Code and
+vocabulary changes are not accepted from outside the project.
 
 For data (`database/**`), contributions are dedicated to the public domain
 under **CC0-1.0** on the way in, covering copyright and any sui generis
