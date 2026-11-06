@@ -37,11 +37,18 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.23346622
     description: The version DOI of release 1.0.0.
+  - type: doi
+    value: 10.5281/zenodo.23346621
+    description: The concept DOI, resolving to the latest version.
 references:
   - type: generic
     title: Martialis Investigative Ontology
     version: 1.0.0
     doi: 10.5281/zenodo.23951128
+    identifiers:
+      - type: doi
+        value: 10.5281/zenodo.23951127
+        description: The concept DOI, resolving to the latest version.
     url: "https://w3id.org/martialis/ontology"
     license: CC0-1.0
     authors:
