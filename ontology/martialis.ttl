@@ -2704,7 +2704,7 @@ martialis:rankingSystemKind rdf:type owl:DatatypeProperty ;
 
 ###  https://w3id.org/martialis/ontology#researchNote
 martialis:researchNote rdf:type owl:DatatypeProperty ;
-                       rdfs:comment "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes)."@en ;
+                       rdfs:comment "A research note recording what is known, suspected, or still to be investigated about a record. Kept out of the export (YAML: notes)."@en ;
                        rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
                        rdfs:label "Forschungsnotiz"@de ,
                                   "nota de investigación"@es ,

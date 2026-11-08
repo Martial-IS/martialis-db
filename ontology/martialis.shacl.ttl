@@ -185,7 +185,7 @@ martialis:TeacherInteractionShape
 
 <https://w3id.org/martialis/ontology#TeacherInteractionShape/researchNote>
         sh:datatype     xsd:string;
-        sh:description  "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).";
+        sh:description  "A research note recording what is known, suspected, or still to be investigated about a record. Kept out of the export (YAML: notes).";
         sh:maxCount     1;
         sh:nodeKind     sh:Literal;
         sh:order        3;
@@ -274,7 +274,7 @@ martialis:TeacherAssertionShape
 
 <https://w3id.org/martialis/ontology#TeacherAssertionShape/researchNote>
         sh:datatype     xsd:string;
-        sh:description  "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).";
+        sh:description  "A research note recording what is known, suspected, or still to be investigated about a record. Kept out of the export (YAML: notes).";
         sh:maxCount     1;
         sh:nodeKind     sh:Literal;
         sh:order        4;
@@ -372,7 +372,7 @@ martialis:StyleShape  rdf:type  sh:NodeShape;
 
 <https://w3id.org/martialis/ontology#StyleShape/researchNote>
         sh:datatype     xsd:string;
-        sh:description  "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).";
+        sh:description  "A research note recording what is known, suspected, or still to be investigated about a record. Kept out of the export (YAML: notes).";
         sh:maxCount     1;
         sh:nodeKind     sh:Literal;
         sh:order        12;
@@ -496,7 +496,7 @@ martialis:StyleRelationAssertionShape
 
 <https://w3id.org/martialis/ontology#StyleRelationAssertionShape/researchNote>
         sh:datatype     xsd:string;
-        sh:description  "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).";
+        sh:description  "A research note recording what is known, suspected, or still to be investigated about a record. Kept out of the export (YAML: notes).";
         sh:maxCount     1;
         sh:nodeKind     sh:Literal;
         sh:order        2;
@@ -859,7 +859,7 @@ martialis:SourceShape
 
 <https://w3id.org/martialis/ontology#SourceShape/researchNote>
         sh:datatype     xsd:string;
-        sh:description  "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).";
+        sh:description  "A research note recording what is known, suspected, or still to be investigated about a record. Kept out of the export (YAML: notes).";
         sh:maxCount     1;
         sh:nodeKind     sh:Literal;
         sh:order        45;
@@ -1423,7 +1423,7 @@ martialis:SiteShape  rdf:type  sh:NodeShape;
 
 <https://w3id.org/martialis/ontology#SiteShape/researchNote>
         sh:datatype     xsd:string;
-        sh:description  "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).";
+        sh:description  "A research note recording what is known, suspected, or still to be investigated about a record. Kept out of the export (YAML: notes).";
         sh:maxCount     1;
         sh:nodeKind     sh:Literal;
         sh:order        4;
@@ -1466,7 +1466,7 @@ martialis:RankingSystemShape
 
 <https://w3id.org/martialis/ontology#RankingSystemShape/researchNote>
         sh:datatype     xsd:string;
-        sh:description  "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).";
+        sh:description  "A research note recording what is known, suspected, or still to be investigated about a record. Kept out of the export (YAML: notes).";
         sh:maxCount     1;
         sh:nodeKind     sh:Literal;
         sh:order        11;
@@ -1565,7 +1565,7 @@ martialis:RankAssertionShape
 
 <https://w3id.org/martialis/ontology#RankAssertionShape/researchNote>
         sh:datatype     xsd:string;
-        sh:description  "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).";
+        sh:description  "A research note recording what is known, suspected, or still to be investigated about a record. Kept out of the export (YAML: notes).";
         sh:maxCount     1;
         sh:nodeKind     sh:Literal;
         sh:order        11;
@@ -1850,7 +1850,7 @@ martialis:PlaceShape  rdf:type  sh:NodeShape;
 
 <https://w3id.org/martialis/ontology#PlaceShape/researchNote>
         sh:datatype     xsd:string;
-        sh:description  "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).";
+        sh:description  "A research note recording what is known, suspected, or still to be investigated about a record. Kept out of the export (YAML: notes).";
         sh:maxCount     1;
         sh:nodeKind     sh:Literal;
         sh:order        16;
@@ -2122,7 +2122,7 @@ martialis:PersonShape
 
 <https://w3id.org/martialis/ontology#PersonShape/researchNote>
         sh:datatype     xsd:string;
-        sh:description  "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).";
+        sh:description  "A research note recording what is known, suspected, or still to be investigated about a record. Kept out of the export (YAML: notes).";
         sh:maxCount     1;
         sh:nodeKind     sh:Literal;
         sh:order        8;
@@ -2252,7 +2252,7 @@ martialis:ParticipationShape
 
 <https://w3id.org/martialis/ontology#ParticipationShape/researchNote>
         sh:datatype     xsd:string;
-        sh:description  "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).";
+        sh:description  "A research note recording what is known, suspected, or still to be investigated about a record. Kept out of the export (YAML: notes).";
         sh:maxCount     1;
         sh:nodeKind     sh:Literal;
         sh:order        3;
@@ -2371,7 +2371,7 @@ martialis:OrganizationShape
 
 <https://w3id.org/martialis/ontology#OrganizationShape/researchNote>
         sh:datatype     xsd:string;
-        sh:description  "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).";
+        sh:description  "A research note recording what is known, suspected, or still to be investigated about a record. Kept out of the export (YAML: notes).";
         sh:maxCount     1;
         sh:nodeKind     sh:Literal;
         sh:order        16;
@@ -2511,7 +2511,7 @@ martialis:OfficerRoleShape
 
 <https://w3id.org/martialis/ontology#OfficerRoleShape/researchNote>
         sh:datatype     xsd:string;
-        sh:description  "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).";
+        sh:description  "A research note recording what is known, suspected, or still to be investigated about a record. Kept out of the export (YAML: notes).";
         sh:maxCount     1;
         sh:nodeKind     sh:Literal;
         sh:order        4;
@@ -2599,7 +2599,7 @@ martialis:MembershipShape
 
 <https://w3id.org/martialis/ontology#MembershipShape/researchNote>
         sh:datatype     xsd:string;
-        sh:description  "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).";
+        sh:description  "A research note recording what is known, suspected, or still to be investigated about a record. Kept out of the export (YAML: notes).";
         sh:maxCount     1;
         sh:nodeKind     sh:Literal;
         sh:order        3;
@@ -2653,7 +2653,7 @@ martialis:InstructorRoleShape
 
 <https://w3id.org/martialis/ontology#InstructorRoleShape/researchNote>
         sh:datatype     xsd:string;
-        sh:description  "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).";
+        sh:description  "A research note recording what is known, suspected, or still to be investigated about a record. Kept out of the export (YAML: notes).";
         sh:maxCount     1;
         sh:nodeKind     sh:Literal;
         sh:order        5;
@@ -2738,7 +2738,7 @@ martialis:IdentityAssertionShape
 
 <https://w3id.org/martialis/ontology#IdentityAssertionShape/researchNote>
         sh:datatype     xsd:string;
-        sh:description  "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).";
+        sh:description  "A research note recording what is known, suspected, or still to be investigated about a record. Kept out of the export (YAML: notes).";
         sh:maxCount     1;
         sh:nodeKind     sh:Literal;
         sh:order        1;
@@ -2784,7 +2784,7 @@ martialis:HonorAssertionShape
 
 <https://w3id.org/martialis/ontology#HonorAssertionShape/researchNote>
         sh:datatype     xsd:string;
-        sh:description  "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).";
+        sh:description  "A research note recording what is known, suspected, or still to be investigated about a record. Kept out of the export (YAML: notes).";
         sh:maxCount     1;
         sh:nodeKind     sh:Literal;
         sh:order        10;
@@ -2947,7 +2947,7 @@ martialis:HistoricityAssertionShape
 
 <https://w3id.org/martialis/ontology#HistoricityAssertionShape/researchNote>
         sh:datatype     xsd:string;
-        sh:description  "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).";
+        sh:description  "A research note recording what is known, suspected, or still to be investigated about a record. Kept out of the export (YAML: notes).";
         sh:maxCount     1;
         sh:nodeKind     sh:Literal;
         sh:order        1;
@@ -3176,7 +3176,7 @@ martialis:EventShape  rdf:type  sh:NodeShape;
 
 <https://w3id.org/martialis/ontology#EventShape/researchNote>
         sh:datatype     xsd:string;
-        sh:description  "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).";
+        sh:description  "A research note recording what is known, suspected, or still to be investigated about a record. Kept out of the export (YAML: notes).";
         sh:maxCount     1;
         sh:nodeKind     sh:Literal;
         sh:order        17;
@@ -3415,7 +3415,7 @@ martialis:DocumentTransmissionAssertionShape
 
 <https://w3id.org/martialis/ontology#DocumentTransmissionAssertionShape/researchNote>
         sh:datatype     xsd:string;
-        sh:description  "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).";
+        sh:description  "A research note recording what is known, suspected, or still to be investigated about a record. Kept out of the export (YAML: notes).";
         sh:maxCount     1;
         sh:nodeKind     sh:Literal;
         sh:order        5;
@@ -4102,7 +4102,7 @@ martialis:AffiliationAssertionShape
 
 <https://w3id.org/martialis/ontology#AffiliationAssertionShape/researchNote>
         sh:datatype     xsd:string;
-        sh:description  "A curatorial note recording what is known, suspected, or still to be investigated about a record. Addressed to a maintainer, not a reader (YAML: notes).";
+        sh:description  "A research note recording what is known, suspected, or still to be investigated about a record. Kept out of the export (YAML: notes).";
         sh:maxCount     1;
         sh:nodeKind     sh:Literal;
         sh:order        4;

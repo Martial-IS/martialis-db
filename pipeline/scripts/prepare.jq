@@ -62,7 +62,6 @@ def nested($base):
   "@graph": [ .[]
               | if .id == null then error("record with no id: \(.name // .title)") else . end
               | del(.["@context"])
-              # `notes` are addressed to a maintainer: they stay in the YAML
-              # and never reach the export.
+              # `notes` stay in the YAML and never reach the export.
               | walk(if type == "object" then del(.notes) else . end)
               | nested(.id) ] }
