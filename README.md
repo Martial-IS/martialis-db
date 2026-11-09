@@ -3,6 +3,7 @@
 [![Validate database](https://github.com/Martial-IS/martialis-db/actions/workflows/validate.yml/badge.svg)](https://github.com/Martial-IS/martialis-db/actions/workflows/validate.yml)
 [![REUSE status](https://api.reuse.software/badge/github.com/Martial-IS/martialis-db)](https://api.reuse.software/info/github.com/Martial-IS/martialis-db)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23346621.svg)](https://doi.org/10.5281/zenodo.23346621)
+[![Better Stack Badge](https://incidents.betterstack.com/status-badges/v2/monitor/33mco.svg)](https://incidents.betterstack.com/?utm_source=status_badge)
 [![Software Heritage](https://archive.softwareheritage.org/badge/origin/https://github.com/Martial-IS/martialis-db/)](https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/Martial-IS/martialis-db)
 ![Ontology](https://img.shields.io/badge/ontology-1.0.0-informational)
 ![Code license](https://img.shields.io/badge/code-AGPL--3.0--or--later-blue)
