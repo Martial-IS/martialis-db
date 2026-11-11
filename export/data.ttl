@@ -3943,6 +3943,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6X/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
+        schema:archivedAt          <https://web.archive.org/web/20250504092537/https://aikidojournal.eu/docs/238/393_946_en.pdf>;
         schema:citation            "TAKEJI TOMITA: From studying with O-Sensei to the creation of Aïki Shin Myo Den (Aikido Journal)";
         schema:url                 <https://www.aikidojournal.eu/docs/238/393_946_en.pdf>;
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
@@ -4152,6 +4153,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         schema:keywords              "history";
         schema:logo                  <https://martial.is/entity/01KZ6654E3BY1BA2D4NWNVB3MM/logo>;
         schema:name                  "Clube Naval Setubalense"@pt;
+        schema:sameAs                <http://www.wikidata.org/entity/Q141313022>;
         schema:url                   <https://clubenavalsetubalense.pt/>;
         martialis:foundedEvent       <https://martial.is/entity/01KZ6654E3BY1BA2D4NWNVB3MM/foundedEvent>;
         martialis:hasEvidence        <https://martial.is/entity/01KZ6654E3BY1BA2D4NWNVB3MM/hasEvidence/0>;
@@ -4492,6 +4494,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         schema:name                    "Nishikubo Hiromichi"@ja-Latn;
         schema:name                    "西久保弘道"@ja;
         schema:nationality             <https://martial.is/entity/01M377JZDNZE0QK5A178X0B9YB/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q11627139>;
         martialis:birthEvent           <https://martial.is/entity/01M377JZDNZE0QK5A178X0B9YB/birthEvent>;
         martialis:deathEvent           <https://martial.is/entity/01M377JZDNZE0QK5A178X0B9YB/deathEvent>;
         martialis:hasEvidence          <https://martial.is/entity/01M377JZDNZE0QK5A178X0B9YB/hasEvidence/0>;
@@ -7848,6 +7851,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         schema:keywords        "japan";
         schema:name            "Shintō Munen-ryū"@ja-Latn;
         schema:name            "神道無念流"@ja;
+        schema:sameAs          <http://www.wikidata.org/entity/Q500792>;
         martialis:hasEvidence  <https://martial.is/entity/01M377JZDNRVE91N7YT8XAYH71/hasEvidence/0>;
         martialis:hasStyleRelationAssertion  <https://martial.is/entity/01M3YH7N5GSXKCPPJ3QFCFTHWN>;
         martialis:styleType    <https://w3id.org/martialis/vocab/style-classification/traditional>;
@@ -9193,7 +9197,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         void:classPartition   <https://martial.is/data.ttl#dataset/class/Event>;
         void:dataDump         <https://martial.is/data.ttl>;
         void:entities         2911;
-        void:triples          161474;
+        void:triples          161599;
         void:uriSpace         "https://martial.is/entity/";
         void:vocabulary       <http://purl.org/ontology/bibo/>;
         void:vocabulary       prov:;
@@ -9897,6 +9901,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         schema:name            "Yoshikawa Masami"@ja-Latn;
         schema:name            "吉川正実"@ja;
         schema:nationality     <https://martial.is/entity/01M0R2X2AC17096BKGZ28CK3GY/nationality/0>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q142097267>;
         martialis:hasEvidence  <https://martial.is/entity/01M0R2X2AC17096BKGZ28CK3GY/hasEvidence/0>;
         martialis:hasEvidence  <https://martial.is/entity/01M0R2X2AC17096BKGZ28CK3GY/hasEvidence/2>;
         martialis:hasEvidence  <https://martial.is/entity/01M0R2X2AC17096BKGZ28CK3GY/hasEvidence/1>;
@@ -10540,6 +10545,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         schema:description             "Karate teacher, a student of Itosu Ankō like Funakoshi Gichin. In 1924 he moved to Taiwan, where he worked in an elementary school and studied some Chinese quanfa. In 1930 he returned to Japan and opened his dōjō, the Shūdōkan, where he taught Itosu's karate and some quanfa under the name Shurite. Yoon Byung-in and Yoon Kwe-byung studied under him."@en;
         schema:name                    "Toyama Kanken"@ja-Latn;
         schema:nationality             <https://martial.is/entity/01M1KSJ12QF7MHXYFK8GNKJKFR/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q3772405>;
         martialis:hasEvidence          <https://martial.is/entity/01M1KSJ12QF7MHXYFK8GNKJKFR/hasEvidence/1>;
         martialis:hasEvidence          <https://martial.is/entity/01M1KSJ12QF7MHXYFK8GNKJKFR/hasEvidence/0>;
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M6BQSYG61NWCPXTAVDVZYEPB>;
@@ -10802,6 +10808,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         schema:keywords             "karate";
         schema:name                 "Henry Plée"@en;
         schema:nationality          <https://martial.is/entity/01KZC19BDCC7XJMQ37YPC8YGPT/nationality/0>;
+        schema:sameAs               <http://www.wikidata.org/entity/Q1335481>;
         martialis:birthEvent        <https://martial.is/entity/01KZC19BDCC7XJMQ37YPC8YGPT/birthEvent>;
         martialis:deathEvent        <https://martial.is/entity/01KZC19BDCC7XJMQ37YPC8YGPT/deathEvent>;
         martialis:hasEvidence       <https://martial.is/entity/01KZC19BDCC7XJMQ37YPC8YGPT/hasEvidence/1>;
@@ -13317,6 +13324,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         schema:keywords           "buddhism";
         schema:keywords           "zen";
         schema:name               "Association Zen Internationale"@fr;
+        schema:sameAs             <http://www.wikidata.org/entity/Q743365>;
         martialis:foundedEvent    <https://martial.is/entity/01M36K93Y5NMD7FM4YBE8G0TS0/foundedEvent>;
         martialis:hasEvidence     <https://martial.is/entity/01M36K93Y5NMD7FM4YBE8G0TS0/hasEvidence/0>;
         martialis:hasOfficerRole  <https://martial.is/entity/01M4R9845W8FMR1GGFJAY8R7FP>;
@@ -16102,6 +16110,7 @@ void:class  rdf:type  owl:ObjectProperty .
         schema:deathPlace              <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SY/deathEvent/deathPlace>;
         schema:name                    "Yves Klein"@fr;
         schema:nationality             <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SY/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q154335>;
         martialis:birthEvent           <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SY/birthEvent>;
         martialis:deathEvent           <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SY/deathEvent>;
         martialis:hasEvidence          <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SY/hasEvidence/0>;
@@ -16963,6 +16972,7 @@ void:class  rdf:type  owl:ObjectProperty .
         schema:name             "Mito Tōbukan"@ja-Latn;
         schema:name             "水戸東武館"@ja;
         schema:name             "Mito Tobukan"@en;
+        schema:sameAs           <http://www.wikidata.org/entity/Q11548624>;
         martialis:foundedEvent  <https://martial.is/entity/01M2Z6TY1P8PHZ6627T6GXFP6V/foundedEvent>;
         martialis:hasEvidence   <https://martial.is/entity/01M2Z6TY1P8PHZ6627T6GXFP6V/hasEvidence/2>;
         martialis:hasEvidence   <https://martial.is/entity/01M2Z6TY1P8PHZ6627T6GXFP6V/hasEvidence/1>;
@@ -17289,6 +17299,16 @@ void:class  rdf:type  owl:ObjectProperty .
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
         martialis:quotation        "a Korean martial art based on influences of Okinawan Karate, Taijiquan, and Shaolin Long Fist";
+        martialis:supports         true .
+
+<https://martial.is/entity/01M37JTCRF2ZY789P79BRFQ75B/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        schema:archivedAt          <https://ja.wikipedia.org/w/index.php?oldid=103427091>;
+        schema:citation            "山鹿素水 (Japanese Wikipedia)";
+        schema:url                 <https://ja.wikipedia.org/wiki/%E5%B1%B1%E9%B9%BF%E7%B4%A0%E6%B0%B4>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "山鹿 素水（やまが そすい、1796年（寛政8年） - 1857年8月21日（安政4年7月2日））は、江戸時代の兵学者。 [...] 通称は八郎左衛門、字は子修、名は高補。";
         martialis:supports         true .
 
 <https://martial.is/entity/01M3YH7N5G7ZRW7NM2CX13NNGQ/hasInteraction/0/interactionPeriod>
@@ -19013,6 +19033,7 @@ void:class  rdf:type  owl:ObjectProperty .
         schema:keywords        "quebec";
         schema:name            "Montreal"@en;
         schema:name            "Montréal"@fr;
+        schema:sameAs          <http://www.wikidata.org/entity/Q340>;
         martialis:hasEvidence  <https://martial.is/entity/01KYSNKBS40VV06ZTP8RZPR29E/hasEvidence/0>;
         martialis:hasSite      <https://martial.is/entity/01KYSNKBS40VV06ZTP8RZPR29E/hasSite/0>;
         martialis:placeType    <https://w3id.org/martialis/vocab/place-classification/other> .
@@ -21419,6 +21440,7 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         schema:name             "藤沼庄平"@ja;
         schema:name             "Fujinuma Shōhei"@ja-Latn;
         schema:nationality      <https://martial.is/entity/01M3788RSRSPEK54YD52RZ520J/nationality/0>;
+        schema:sameAs           <http://www.wikidata.org/entity/Q11624583>;
         martialis:birthEvent    <https://martial.is/entity/01M3788RSRSPEK54YD52RZ520J/birthEvent>;
         martialis:deathEvent    <https://martial.is/entity/01M3788RSRSPEK54YD52RZ520J/deathEvent>;
         martialis:hasEvidence   <https://martial.is/entity/01M3788RSRSPEK54YD52RZ520J/hasEvidence/0>;
@@ -22814,6 +22836,7 @@ void:classPartition  rdf:type  owl:ObjectProperty .
 <https://martial.is/entity/01M1KR4J6ER9CXD0VTCVCTDTRA>
         rdf:type               martialis:Person;
         schema:name            "John Osako"@en;
+        schema:sameAs          <http://www.wikidata.org/entity/Q23927373>;
         martialis:hasEvidence  <https://martial.is/entity/01M1KR4J6ER9CXD0VTCVCTDTRA/hasEvidence/0>;
         martialis:teaches      <https://martial.is/entity/01KZM7FWX5ED60G33KMWKDRWYT> .
 
@@ -26028,6 +26051,7 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         rdf:type               martialis:Place;
         schema:name            "State Central Order of Lenin Institute of Physical Culture"@en;
         schema:name            "Государственный центральный ордена Ленина институт физической культуры"@ru;
+        schema:sameAs          <http://www.wikidata.org/entity/Q4398072>;
         martialis:hasEvidence  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD93/hasEvidence/0>;
         martialis:hasSite      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD93/hasSite/0>;
         martialis:placeType    <https://w3id.org/martialis/vocab/place-classification/academy> .
@@ -26035,6 +26059,7 @@ void:classPartition  rdf:type  owl:ObjectProperty .
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD8R>
         rdf:type               martialis:Place;
         schema:name            "Sport Algés e Dafundo"@pt;
+        schema:sameAs          <http://www.wikidata.org/entity/Q370137>;
         martialis:hasEvidence  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD8R/hasEvidence/0>;
         martialis:hasSite      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD8R/hasSite/0>;
         martialis:placeType    <https://w3id.org/martialis/vocab/place-classification/club> .
@@ -26370,6 +26395,7 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         schema:name               "Meishinkan"@en;
         schema:name               "Meishinkan"@ja-Latn;
         schema:name               "明信館"@ja;
+        schema:sameAs             <http://www.wikidata.org/entity/Q11386380>;
         martialis:foundedEvent    <https://martial.is/entity/01M36P10SS5C0N1AG9TEHG3RHR/foundedEvent>;
         martialis:hasEvidence     <https://martial.is/entity/01M36P10SS5C0N1AG9TEHG3RHR/hasEvidence/2>;
         martialis:hasEvidence     <https://martial.is/entity/01M36P10SS5C0N1AG9TEHG3RHR/hasEvidence/1>;
@@ -30665,6 +30691,7 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         schema:name            "木村信英"@ja;
         schema:name            "Kimura Nobuhide"@ja-Latn;
         schema:nationality     <https://martial.is/entity/01M3788RSRM157A65AF4KFNFBH/nationality/0>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q17212279>;
         martialis:birthEvent   <https://martial.is/entity/01M3788RSRM157A65AF4KFNFBH/birthEvent>;
         martialis:deathEvent   <https://martial.is/entity/01M3788RSRM157A65AF4KFNFBH/deathEvent>;
         martialis:hasEvidence  <https://martial.is/entity/01M3788RSRM157A65AF4KFNFBH/hasEvidence/0> .
@@ -33570,6 +33597,7 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         schema:keywords         "japan";
         schema:name             "Ittō-shōden Mutō-ryū"@ja-Latn;
         schema:name             "一刀正伝無刀流"@ja;
+        schema:sameAs           <http://www.wikidata.org/entity/Q6095070>;
         martialis:foundedEvent  <https://martial.is/entity/01M377JZDN6DE97E7D3VXC8P5G/foundedEvent>;
         martialis:hasEvidence   <https://martial.is/entity/01M377JZDN6DE97E7D3VXC8P5G/hasEvidence/0>;
         martialis:hasStyleRelationAssertion  <https://martial.is/entity/01M3YH7N5GDCGQNCEHWMEFG2SM>;
@@ -35060,6 +35088,7 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         schema:keywords         "club";
         schema:keywords         "judo";
         schema:name             "Norsk Judo og Jiu-Jitsu Klubb"@no;
+        schema:sameAs           <http://www.wikidata.org/entity/Q11992331>;
         martialis:foundedEvent  <https://martial.is/entity/01M1PEBA9E6DYAJRX0R2QTY7DW/foundedEvent>;
         martialis:hasEvidence   <https://martial.is/entity/01M1PEBA9E6DYAJRX0R2QTY7DW/hasEvidence/0>;
         martialis:hasSite       <https://martial.is/entity/01M1PEBA9E6DYAJRX0R2QTY7DW/hasSite/0>;
@@ -36489,6 +36518,7 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6X/image/imageAttribution>
         rdf:type                   martialis:Attribution;
+        schema:archivedAt          <https://web.archive.org/web/20250504092537/https://aikidojournal.eu/docs/238/393_946_en.pdf>;
         schema:citation            "Aikido Journal";
         schema:url                 <https://www.aikidojournal.eu/docs/238/393_946_en.pdf>;
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
@@ -37361,6 +37391,7 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
         schema:keywords         "shizuoka";
         schema:name             "養正館"@ja;
         schema:name             "Yoseikan"@en;
+        schema:sameAs           <http://www.wikidata.org/entity/Q11666835>;
         martialis:foundedEvent  <https://martial.is/entity/01KZ9TQS3VJAGB2K76GHG8FWSX/foundedEvent>;
         martialis:hasEvidence   <https://martial.is/entity/01KZ9TQS3VJAGB2K76GHG8FWSX/hasEvidence/1>;
         martialis:hasEvidence   <https://martial.is/entity/01KZ9TQS3VJAGB2K76GHG8FWSX/hasEvidence/0>;
@@ -39419,6 +39450,7 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
         schema:deathPlace              <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SE/deathEvent/deathPlace>;
         schema:name                    "Alfred Rhode"@de;
         schema:nationality             <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SE/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q2645717>;
         martialis:birthEvent           <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SE/birthEvent>;
         martialis:deathEvent           <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SE/deathEvent>;
         martialis:hasEvidence          <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SE/hasEvidence/0>;
@@ -39780,6 +39812,7 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
         schema:keywords         "folk-wrestling";
         schema:name             "Fédération Internationale des Luttes Celtiques"@fr;
         schema:name             "International Federation of Celtic Wrestling"@en;
+        schema:sameAs           <http://www.wikidata.org/entity/Q130394183>;
         martialis:foundedEvent  <https://martial.is/entity/01M5JVVMHMBNN4KBXW5164ED5R/foundedEvent>;
         martialis:hasEvidence   <https://martial.is/entity/01M5JVVMHMBNN4KBXW5164ED5R/hasEvidence/0>;
         martialis:orgType       <https://w3id.org/martialis/vocab/org-classification/federation> .
@@ -43547,12 +43580,16 @@ void:Dataset  rdf:type  owl:Class .
 
 <https://martial.is/entity/01M37JTCRF2ZY789P79BRFQ75B>
         rdf:type                       martialis:Person;
+        schema:alternateName           "Yamaga Sosui"@ja-Latn;
+        schema:alternateName           "山鹿素水"@ja;
         schema:description             "Ittō-ryū swordsman of the Tsugaru domain who questioned Nakanishi Chūzō's use of protective equipment and the shinai, putting eleven articles on the matter to his master Ono Tadayoshi."@en;
         schema:keywords                "kenjutsu";
         schema:keywords                "itto-ryu";
         schema:keywords                "koryu";
         schema:name                    "Yamaga Hachirōzaemon"@ja-Latn;
         schema:nationality             <https://martial.is/entity/01M37JTCRF2ZY789P79BRFQ75B/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q23947025>;
+        martialis:hasEvidence          <https://martial.is/entity/01M37JTCRF2ZY789P79BRFQ75B/hasEvidence/1>;
         martialis:hasEvidence          <https://martial.is/entity/01M37JTCRF2ZY789P79BRFQ75B/hasEvidence/0>;
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M3YH7N5GD57WYWDCWNBM10XG>;
         martialis:wasTaughtBy          <https://martial.is/entity/01M37JTCRFAKK19NY4BJ489N8E> .
@@ -44274,6 +44311,7 @@ void:Dataset  rdf:type  owl:Class .
         schema:name                  "東京高等師範学校"@ja;
         schema:name                  "Tōkyō Kōtō Shihan Gakkō"@ja-Latn;
         schema:name                  "Tokyo Higher Normal School"@en;
+        schema:sameAs                <http://www.wikidata.org/entity/Q11525952>;
         martialis:hasEvidence        <https://martial.is/entity/01M3788RSRDWP4JKB5FKZZAQSC/hasEvidence/0>;
         martialis:hasEvidence        <https://martial.is/entity/01M3788RSRDWP4JKB5FKZZAQSC/hasEvidence/1>;
         martialis:hasInstructorRole  <https://martial.is/entity/01M4R9845WK93MEMYAB0873M6K>;
@@ -44565,6 +44603,7 @@ void:Dataset  rdf:type  owl:Class .
         schema:deathPlace       <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SC/deathEvent/deathPlace>;
         schema:name             "Erich Rahn"@de;
         schema:nationality      <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SC/nationality/0>;
+        schema:sameAs           <http://www.wikidata.org/entity/Q1353018>;
         martialis:birthEvent    <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SC/birthEvent>;
         martialis:deathEvent    <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SC/deathEvent>;
         martialis:hasEvidence   <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SC/hasEvidence/1>;
@@ -45203,6 +45242,7 @@ dcat:landingPage  rdf:type  owl:ObjectProperty .
         schema:keywords         "japan";
         schema:name             "Renpeikan"@ja-Latn;
         schema:name             "練兵館"@ja;
+        schema:sameAs           <http://www.wikidata.org/entity/Q11608018>;
         martialis:foundedEvent  <https://martial.is/entity/01M377JZDNGPW696VBPC7DC5YH/foundedEvent>;
         martialis:hasEvidence   <https://martial.is/entity/01M377JZDNGPW696VBPC7DC5YH/hasEvidence/0>;
         martialis:hasSite       <https://martial.is/entity/01M377JZDNGPW696VBPC7DC5YH/hasSite/0>;
@@ -45239,6 +45279,7 @@ dcat:landingPage  rdf:type  owl:ObjectProperty .
         schema:description     "Tenrikyo-affiliated university in Nara Prefecture whose judo team was one of Japan's strongest. Anton Geesink trained here for several months each year from 1956, working closely with the coach and national team trainer Yasuichi Matsumoto."@en;
         schema:name            "Tenri University"@en;
         schema:name            "天理大学"@ja;
+        schema:sameAs          <http://www.wikidata.org/entity/Q4387971>;
         martialis:hasEvidence  <https://martial.is/entity/01KZW2JNB8ENGY6RBKB481K47D/hasEvidence/0>;
         martialis:hasSite      <https://martial.is/entity/01KZW2JNB8ENGY6RBKB481K47D/hasSite/0>;
         martialis:placeType    <https://w3id.org/martialis/vocab/place-classification/university> .
@@ -47196,6 +47237,7 @@ dcat:landingPage  rdf:type  owl:ObjectProperty .
         schema:keywords                "kenjutsu";
         schema:name                    "Koteda Yasusada"@ja-Latn;
         schema:nationality             <https://martial.is/entity/01M6EFVT2T6BR957HZEDWDR27C/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q11603938>;
         martialis:hasEvidence          <https://martial.is/entity/01M6EFVT2T6BR957HZEDWDR27C/hasEvidence/0>;
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M6EFVT2VKNTF34C45JSXW3HD>;
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M6EFVT2VYCFEK91GMMGWSQMX>;
@@ -47828,6 +47870,7 @@ dcat:landingPage  rdf:type  owl:ObjectProperty .
         schema:name             "木村篤太郎"@ja;
         schema:name             "Kimura Tokutarō"@ja-Latn;
         schema:nationality      <https://martial.is/entity/01M3788RSR2PQ6HNEMVASVG2VC/nationality/0>;
+        schema:sameAs           <http://www.wikidata.org/entity/Q11519045>;
         martialis:birthEvent    <https://martial.is/entity/01M3788RSR2PQ6HNEMVASVG2VC/birthEvent>;
         martialis:deathEvent    <https://martial.is/entity/01M3788RSR2PQ6HNEMVASVG2VC/deathEvent>;
         martialis:hasEvidence   <https://martial.is/entity/01M3788RSR2PQ6HNEMVASVG2VC/hasEvidence/0>;
@@ -52818,6 +52861,7 @@ void:entities  rdf:type  owl:DatatypeProperty .
         schema:keywords                "kendo";
         schema:name                    "Yano Katsujirō"@ja-Latn;
         schema:nationality             <https://martial.is/entity/01M6EFVT2TDHXGDD2G5Y8M1K0F/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q11584351>;
         martialis:hasEvidence          <https://martial.is/entity/01M6EFVT2TDHXGDD2G5Y8M1K0F/hasEvidence/0>;
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M6EFVT2V20R1DE9PHM3EXJ13>;
         martialis:wasTaughtBy          <https://martial.is/entity/01M6EFVT2T1XK3H6D3NX8B1PNJ> .
@@ -53328,6 +53372,7 @@ void:entities  rdf:type  owl:DatatypeProperty .
         schema:keywords        "milorg";
         schema:name            "Ingebrigt Solum"@no;
         schema:nationality     <https://martial.is/entity/01M1PEBA9EG9XGEAJ136AF0D34/nationality/0>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q11977158>;
         martialis:birthEvent   <https://martial.is/entity/01M1PEBA9EG9XGEAJ136AF0D34/birthEvent>;
         martialis:deathEvent   <https://martial.is/entity/01M1PEBA9EG9XGEAJ136AF0D34/deathEvent>;
         martialis:hasEvidence  <https://martial.is/entity/01M1PEBA9EG9XGEAJ136AF0D34/hasEvidence/0>;
@@ -55512,6 +55557,7 @@ void:entities  rdf:type  owl:DatatypeProperty .
         schema:name             "Taikiken"@en;
         schema:name             "太気拳"@ja;
         schema:name             "Taikiken"@ja-Latn;
+        schema:sameAs           <http://www.wikidata.org/entity/Q3513981>;
         martialis:foundedEvent  <https://martial.is/entity/01M36K42AMDQY62VYJHY3247DJ/foundedEvent>;
         martialis:hasEvidence   <https://martial.is/entity/01M36K42AMDQY62VYJHY3247DJ/hasEvidence/0>;
         martialis:styleType     <https://w3id.org/martialis/vocab/style-classification/traditional> .
@@ -57203,6 +57249,7 @@ dcat:mediaType  rdf:type  owl:ObjectProperty .
         schema:name            "Asari Yoshiaki"@ja-Latn;
         schema:name            "浅利義明"@ja;
         schema:nationality     <https://martial.is/entity/01M377JZDNP0404995NSSJZVQQ/nationality/0>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q11557024>;
         martialis:birthEvent   <https://martial.is/entity/01M377JZDNP0404995NSSJZVQQ/birthEvent>;
         martialis:deathEvent   <https://martial.is/entity/01M377JZDNP0404995NSSJZVQQ/deathEvent>;
         martialis:hasEvidence  <https://martial.is/entity/01M377JZDNP0404995NSSJZVQQ/hasEvidence/0>;
@@ -59735,6 +59782,7 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         schema:name            "Momonoi Shunzō"@ja-Latn;
         schema:name            "桃井春蔵"@ja;
         schema:nationality     <https://martial.is/entity/01M377JZDNZ96VGFD0ZV9R53DR/nationality/0>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q11536954>;
         martialis:birthEvent   <https://martial.is/entity/01M377JZDNZ96VGFD0ZV9R53DR/birthEvent>;
         martialis:deathEvent   <https://martial.is/entity/01M377JZDNZ96VGFD0ZV9R53DR/deathEvent>;
         martialis:hasEvidence  <https://martial.is/entity/01M377JZDNZ96VGFD0ZV9R53DR/hasEvidence/0>;
@@ -62260,6 +62308,7 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         schema:name             "大山道場"@ja;
         schema:name             "Ōyama Dōjō"@ja-Latn;
         schema:name             "Oyama Dojo"@en;
+        schema:sameAs           <http://www.wikidata.org/entity/Q11434708>;
         martialis:foundedEvent  <https://martial.is/entity/01KYYYTTW3BX37M2ESX9PKY0FY/foundedEvent>;
         martialis:hasAffiliationAssertion  <https://martial.is/entity/01M3YH7N5GC4SCSYHTSWEJ9JNF>;
         martialis:hasEvidence   <https://martial.is/entity/01KYYYTTW3BX37M2ESX9PKY0FY/hasEvidence/1>;
@@ -69799,6 +69848,7 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         schema:keywords         "gouren";
         schema:name             "FALSAB"@en;
         schema:name             "Fédération des Amis de la Lutte et des Sports Athlétiques Bretons"@fr;
+        schema:sameAs           <http://www.wikidata.org/entity/Q3091590>;
         martialis:foundedEvent  <https://martial.is/entity/01M5JVVMHM5R4XBHV0H6S42BG0/foundedEvent>;
         martialis:hasEvidence   <https://martial.is/entity/01M5JVVMHM5R4XBHV0H6S42BG0/hasEvidence/0>;
         martialis:orgType       <https://w3id.org/martialis/vocab/org-classification/federation> .
@@ -70982,6 +71032,7 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         schema:name                    "Roger Lesourd"@fr;
         schema:name                    "Roger Lesourd"@en;
         schema:nationality             <https://martial.is/entity/01KYT6RAA65YJ55113MR00N060/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q108110864>;
         martialis:deathEvent           <https://martial.is/entity/01KYT6RAA65YJ55113MR00N060/deathEvent>;
         martialis:hasEvidence          <https://martial.is/entity/01KYT6RAA65YJ55113MR00N060/hasEvidence/0>;
         martialis:hasEvidence          <https://martial.is/entity/01KYT6RAA65YJ55113MR00N060/hasEvidence/1>;
@@ -71031,6 +71082,7 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M3YH7N5GMR9MS0RXMDNZZ3QZ/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
+        schema:archivedAt          <https://web.archive.org/web/20250504092537/https://aikidojournal.eu/docs/238/393_946_en.pdf>;
         schema:citation            "TAKEJI TOMITA: From studying with O-Sensei to the creation of Aïki Shin Myo Den (Aikido Journal)";
         schema:url                 <https://www.aikidojournal.eu/docs/238/393_946_en.pdf>;
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
@@ -72022,6 +72074,7 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         schema:name                    "Yoshihide Shinzato"@en;
         schema:name                    "Shinzato Yoshihide"@ja-Latn;
         schema:nationality             <https://martial.is/entity/01M6C5JZZGG24GDK3VCRAJRV8X/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q10394674>;
         martialis:birthEvent           <https://martial.is/entity/01M6C5JZZGG24GDK3VCRAJRV8X/birthEvent>;
         martialis:hasEvidence          <https://martial.is/entity/01M6C5JZZGG24GDK3VCRAJRV8X/hasEvidence/0>;
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M6C5JZZGE2K5Z11RBYWVPQFK>;
@@ -72131,6 +72184,7 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         rdf:type                       martialis:Person;
         schema:description             "American editor and publisher, founder of Koryu Books (1996) and editor of the Classical Warrior Traditions of Japan series; menkyo kaiden in Shinto Muso-ryu and okuden in Toda-ha Buko-ryu."@en;
         schema:name                    "Diane Skoss"@en;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q139430989>;
         martialis:hasEvidence          <https://martial.is/entity/01M6BP392S9ZP1S5XA8YYCP754/hasEvidence/1>;
         martialis:hasEvidence          <https://martial.is/entity/01M6BP392S9ZP1S5XA8YYCP754/hasEvidence/0>;
         martialis:hasRankAssertion     <https://martial.is/entity/01M6BP392S51E98CXRZVRR4YQV>;
@@ -72455,6 +72509,7 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         schema:name                    "Shimizu Takaji"@ja-Latn;
         schema:name                    "清水隆次"@ja;
         schema:nationality             <https://martial.is/entity/01KZ9TQS3VCE0D7V65S6JVC5JD/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q11896105>;
         martialis:birthEvent           <https://martial.is/entity/01KZ9TQS3VCE0D7V65S6JVC5JD/birthEvent>;
         martialis:deathEvent           <https://martial.is/entity/01KZ9TQS3VCE0D7V65S6JVC5JD/deathEvent>;
         martialis:hasEvidence          <https://martial.is/entity/01KZ9TQS3VCE0D7V65S6JVC5JD/hasEvidence/3>;
@@ -73098,6 +73153,7 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         schema:name             "戸田清源"@ja;
         schema:name             "Toda Seigen"@ja-Latn;
         schema:nationality      <https://martial.is/entity/01M6BP392SN7RXH68433PQFF7A/nationality/0>;
+        schema:sameAs           <http://www.wikidata.org/entity/Q1079758>;
         martialis:hasEvidence   <https://martial.is/entity/01M6BP392SN7RXH68433PQFF7A/hasEvidence/0>;
         martialis:primaryImage  <https://martial.is/entity/01M6BP392SN7RXH68433PQFF7A/image> .
 
@@ -74263,6 +74319,7 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         schema:name            "Komatsu-no-Miya Akihito"@ja-Latn;
         schema:name            "小松宮彰仁親王"@ja;
         schema:nationality     <https://martial.is/entity/01M37HHSSM1RK7WW2SNB28JZB7/nationality/0>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q712627>;
         martialis:hasEvidence  <https://martial.is/entity/01M37HHSSM1RK7WW2SNB28JZB7/hasEvidence/0> .
 
 <https://martial.is/entity/01M6C1FR4AVBJHXKZRTXM8HZA5/birthEvent>
@@ -76334,6 +76391,7 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         rdf:type               martialis:Place;
         schema:name            "Ленинградский дворец пионеров"@ru;
         schema:name            "Leningrad Palace of the Pioneers"@en;
+        schema:sameAs          <http://www.wikidata.org/entity/Q4407689>;
         martialis:hasEvidence  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD94/hasEvidence/0>;
         martialis:hasSite      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD94/hasSite/0>;
         martialis:placeType    <https://w3id.org/martialis/vocab/place-classification/other> .
@@ -79816,6 +79874,7 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         schema:keywords        "historical-european-martial-arts";
         schema:keywords        "fencing";
         schema:name            "European fencing"@en;
+        schema:sameAs          <http://www.wikidata.org/entity/Q12100>;
         martialis:hasEvidence  <https://martial.is/entity/01M5JRHX02FJ6XZ3X069NVX3SE/hasEvidence/1>;
         martialis:hasEvidence  <https://martial.is/entity/01M5JRHX02FJ6XZ3X069NVX3SE/hasEvidence/0>;
         martialis:hasVariant   <https://martial.is/entity/01M5JTMYPEMGBV9VR1FNNPYP8R>;
@@ -85439,6 +85498,7 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         schema:keywords              "university";
         schema:keywords              "judo";
         schema:name                  "San Jose State University"@en;
+        schema:sameAs                <http://www.wikidata.org/entity/Q498526>;
         martialis:foundedEvent       <https://martial.is/entity/01KYMWJH24VAYQ8H59YVKK5EFX/foundedEvent>;
         martialis:hasEvidence        <https://martial.is/entity/01KYMWJH24VAYQ8H59YVKK5EFX/hasEvidence/0>;
         martialis:hasEvidence        <https://martial.is/entity/01KYMWJH24VAYQ8H59YVKK5EFX/hasEvidence/1>;
@@ -86755,6 +86815,7 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         schema:keywords                "aikido";
         schema:name                    "Jaime Salazar Sampaio"@pt;
         schema:nationality             <https://martial.is/entity/01KZ6D9E8QBD5XH7ACTGYHSF2E/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q10304969>;
         martialis:hasEvidence          <https://martial.is/entity/01KZ6D9E8QBD5XH7ACTGYHSF2E/hasEvidence/0>;
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M3YH7N5G7KS9DJFEA6BBCE0Q>;
         martialis:wasTaughtBy          <https://martial.is/entity/01KJJAWN29MA64W22606R3WD7B> .
@@ -88157,6 +88218,7 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         schema:name            "関口 氏胤"@ja;
         schema:name            "Sekiguchi Ujitane"@ja-Latn;
         schema:nationality     <https://martial.is/entity/01M0BCX1Y5AW75KC9GPT5CPFCQ/nationality/0>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q11655641>;
         martialis:hasEvidence  <https://martial.is/entity/01M0BCX1Y5AW75KC9GPT5CPFCQ/hasEvidence/1>;
         martialis:hasEvidence  <https://martial.is/entity/01M0BCX1Y5AW75KC9GPT5CPFCQ/hasEvidence/0>;
         martialis:teaches      <https://martial.is/entity/01M0AZQ3TJAG1RBRXBQJCRRJX6> .
@@ -88400,6 +88462,7 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         schema:name                    "Mitsunari Kanai"@en;
         schema:name                    "Kanai Mitsunari"@ja-Latn;
         schema:nationality             <https://martial.is/entity/01M6C5JZZG407WH53XE7F3ZJ3C/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q6883305>;
         martialis:deathEvent           <https://martial.is/entity/01M6C5JZZG407WH53XE7F3ZJ3C/deathEvent>;
         martialis:hasEvidence          <https://martial.is/entity/01M6C5JZZG407WH53XE7F3ZJ3C/hasEvidence/0>;
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M6C5MBP3AB258RBEJW9DJ3TY>;
@@ -89186,6 +89249,7 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         schema:name            "Yushinkan"@en;
         schema:name            "有信館"@ja;
         schema:name            "Yūshinkan"@ja-Latn;
+        schema:sameAs          <http://www.wikidata.org/entity/Q11516275>;
         martialis:hasEvidence  <https://martial.is/entity/01KZ9TV15DAKTA2KEF6NFKDJD3/hasEvidence/0>;
         martialis:hasEvidence  <https://martial.is/entity/01KZ9TV15DAKTA2KEF6NFKDJD3/hasEvidence/2>;
         martialis:hasEvidence  <https://martial.is/entity/01KZ9TV15DAKTA2KEF6NFKDJD3/hasEvidence/1>;
@@ -90499,6 +90563,7 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         schema:keywords           "france";
         schema:keywords           "judo";
         schema:name               "Collège des ceintures noires"@fr;
+        schema:sameAs             <http://www.wikidata.org/entity/Q18214423>;
         martialis:foundedEvent    <https://martial.is/entity/01M39T3RX269W8NSPBZHDY3BW0/foundedEvent>;
         martialis:hasEvidence     <https://martial.is/entity/01M39T3RX269W8NSPBZHDY3BW0/hasEvidence/0>;
         martialis:hasOfficerRole  <https://martial.is/entity/01M4R9845WCER420J8GA8V0P32>;
@@ -91090,6 +91155,7 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         schema:keywords         "japan";
         schema:name             "士学館"@ja;
         schema:name             "Shigakkan"@ja-Latn;
+        schema:sameAs           <http://www.wikidata.org/entity/Q11429474>;
         martialis:foundedEvent  <https://martial.is/entity/01M377JZDNCYZTPPRZKCJVXG28/foundedEvent>;
         martialis:hasEvidence   <https://martial.is/entity/01M377JZDNCYZTPPRZKCJVXG28/hasEvidence/0>;
         martialis:hasSite       <https://martial.is/entity/01M377JZDNCYZTPPRZKCJVXG28/hasSite/0>;
@@ -91734,6 +91800,7 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         schema:keywords           "federation";
         schema:keywords           "kendo";
         schema:name               "International Kendo Federation"@en;
+        schema:sameAs             <http://www.wikidata.org/entity/Q220204>;
         martialis:foundedEvent    <https://martial.is/entity/01M3788RSR5543MSG25H1JPJ4Y/foundedEvent>;
         martialis:hasEvidence     <https://martial.is/entity/01M3788RSR5543MSG25H1JPJ4Y/hasEvidence/0>;
         martialis:hasOfficerRole  <https://martial.is/entity/01M4R9845WZKFHYPYCCBZEWF6Z>;
@@ -94224,6 +94291,7 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         schema:name               "Ving Tsun Athletic Association"@en;
         schema:name               "詠春體育會"@zh;
         schema:name               "詠春體育會"@yue;
+        schema:sameAs             <http://www.wikidata.org/entity/Q85884299>;
         martialis:foundedEvent    <https://martial.is/entity/01M69YRP0XPBMW04PV24ARCSVB/foundedEvent>;
         martialis:hasEvidence     <https://martial.is/entity/01M69YRP0XPBMW04PV24ARCSVB/hasEvidence/0>;
         martialis:hasOfficerRole  <https://martial.is/entity/01M69YRP0SSD06TME70YH67MBQ>;
@@ -98762,6 +98830,7 @@ dcat:Dataset  rdf:type  owl:Class .
         schema:name                    "Mochida Moriji"@ja-Latn;
         schema:name                    "持田盛二"@ja;
         schema:nationality             <https://martial.is/entity/01M37HHSSMJZMQ23G7DSWVKT9V/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q1326569>;
         martialis:birthEvent           <https://martial.is/entity/01M37HHSSMJZMQ23G7DSWVKT9V/birthEvent>;
         martialis:deathEvent           <https://martial.is/entity/01M37HHSSMJZMQ23G7DSWVKT9V/deathEvent>;
         martialis:hasEvidence          <https://martial.is/entity/01M37HHSSMJZMQ23G7DSWVKT9V/hasEvidence/1>;
@@ -103445,6 +103514,7 @@ dcat:Dataset  rdf:type  owl:Class .
         schema:name                    "Ozawa Aijirō"@ja-Latn;
         schema:name                    "小澤愛次郎"@ja;
         schema:nationality             <https://martial.is/entity/01M6EFVT2TG7EM8SF1FRS1DHYB/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q17224896>;
         martialis:birthEvent           <https://martial.is/entity/01M6EFVT2TG7EM8SF1FRS1DHYB/birthEvent>;
         martialis:hasEvidence          <https://martial.is/entity/01M6EFVT2TG7EM8SF1FRS1DHYB/hasEvidence/0>;
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M6EFVT2VD94BYQQ65CB48CEG>;
@@ -103531,6 +103601,7 @@ dcat:Dataset  rdf:type  owl:Class .
         schema:name             "武徳殿"@ja;
         schema:name             "Butokuden"@en;
         schema:name             "Butokuden"@ja-Latn;
+        schema:sameAs           <http://www.wikidata.org/entity/Q1017987>;
         martialis:foundedEvent  <https://martial.is/entity/01M37HHSSMEKVHRSH02YD0AVSP/foundedEvent>;
         martialis:hasAffiliationAssertion  <https://martial.is/entity/01M3YH7N5GG789PZXNQGGT7T80>;
         martialis:hasEvidence   <https://martial.is/entity/01M37HHSSMEKVHRSH02YD0AVSP/hasEvidence/0>;
@@ -106112,6 +106183,7 @@ dcat:Dataset  rdf:type  owl:Class .
         schema:keywords              "japan";
         schema:name                  "Kōbusho"@ja-Latn;
         schema:name                  "講武所"@ja;
+        schema:sameAs                <http://www.wikidata.org/entity/Q11632195>;
         martialis:dissolvedEvent     <https://martial.is/entity/01M377JZDNVBAMXT39ZSQRWNBW/dissolvedEvent>;
         martialis:foundedEvent       <https://martial.is/entity/01M377JZDNVBAMXT39ZSQRWNBW/foundedEvent>;
         martialis:hasEvidence        <https://martial.is/entity/01M377JZDNVBAMXT39ZSQRWNBW/hasEvidence/0>;
@@ -109141,6 +109213,7 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         schema:name            "Chiba Eijirō"@ja-Latn;
         schema:name            "Chiba Eijirō"@en;
         schema:nationality     <https://martial.is/entity/01M2Z6TY1PR5DSFPQFPGRY6BQX/nationality/0>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q11406094>;
         martialis:birthEvent   <https://martial.is/entity/01M2Z6TY1PR5DSFPQFPGRY6BQX/birthEvent>;
         martialis:deathEvent   <https://martial.is/entity/01M2Z6TY1PR5DSFPQFPGRY6BQX/deathEvent>;
         martialis:hasEvidence  <https://martial.is/entity/01M2Z6TY1PR5DSFPQFPGRY6BQX/hasEvidence/0>;
@@ -112096,6 +112169,7 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         schema:keywords              "mma";
         schema:keywords              "gym";
         schema:name                  "Lion’s Den"@en;
+        schema:sameAs                <http://www.wikidata.org/entity/Q6555318>;
         martialis:foundedEvent       <https://martial.is/entity/01M6C1FR4APSBZ84JBFRR4VHA4/foundedEvent>;
         martialis:hasEvidence        <https://martial.is/entity/01M6C1FR4APSBZ84JBFRR4VHA4/hasEvidence/1>;
         martialis:hasEvidence        <https://martial.is/entity/01M6C1FR4APSBZ84JBFRR4VHA4/hasEvidence/0>;
@@ -113870,6 +113944,7 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         schema:keywords        "japan";
         schema:name            "関口新心流"@ja;
         schema:name            "Sekiguchi Shinshin-ryū"@ja-Latn;
+        schema:sameAs          <http://www.wikidata.org/entity/Q4388218>;
         martialis:hasEvidence  <https://martial.is/entity/01M0BCX1XZQJC48W8V3Z71K07B/hasEvidence/0>;
         martialis:hasEvidence  <https://martial.is/entity/01M0BCX1XZQJC48W8V3Z71K07B/hasEvidence/1>;
         martialis:hasStyleRelationAssertion  <https://martial.is/entity/01M3YH7N5G0REQ9ZB50E3V4G0B>;
@@ -114626,6 +114701,7 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         schema:name             "國際松濤館空手道連盟"@ja;
         schema:name             "Kokusai Shōtōkan Karate-dō Renmei"@ja-Latn;
         schema:name             "Shotokan Karate-Do International Federation"@en;
+        schema:sameAs           <http://www.wikidata.org/entity/Q6151368>;
         schema:url              <https://www.skifworld.com/>;
         martialis:foundedEvent  <https://martial.is/entity/01KYYP8SJVQZKV315BK2M8597R/foundedEvent>;
         martialis:hasAffiliationAssertion  <https://martial.is/entity/01M3YH7N5FY9DFK8BZMZVDBW21>;
@@ -117929,6 +118005,7 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         schema:keywords         "hybrid";
         schema:keywords         "karate";
         schema:name             "PaSaRyu"@en;
+        schema:sameAs           <http://www.wikidata.org/entity/Q139902833>;
         martialis:foundedEvent  <https://martial.is/entity/01M6ERSPBWNHN6P1V1N4AASK6H/foundedEvent>;
         martialis:hasEvidence   <https://martial.is/entity/01M6ERSPBWNHN6P1V1N4AASK6H/hasEvidence/0>;
         martialis:hasStyleRelationAssertion  <https://martial.is/entity/01M6ERSPBWS8K3H6G90PXK66FY>;
@@ -120221,6 +120298,7 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         schema:name                    "Tatsuo Suzuki"@en;
         schema:name                    "Suzuki Tatsuo"@ja-Latn;
         schema:nationality             <https://martial.is/entity/01M6C5JZZGBHHYW8XPRCKSSGSW/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q529362>;
         martialis:hasEvidence          <https://martial.is/entity/01M6C5JZZGBHHYW8XPRCKSSGSW/hasEvidence/0>;
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M6C5MBP3CVP1DNT3JP5PN43R>;
         martialis:primaryImage         <https://martial.is/entity/01M6C5JZZGBHHYW8XPRCKSSGSW/image>;
@@ -121423,6 +121501,7 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         schema:name            "Funasaka Hiroshi"@ja-Latn;
         schema:name            "舩坂弘"@ja;
         schema:nationality     <https://martial.is/entity/01M0T8BCW0Y9SZAN5KXZ7C4ZYW/nationality/0>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q11613809>;
         martialis:hasEvidence  <https://martial.is/entity/01M0T8BCW0Y9SZAN5KXZ7C4ZYW/hasEvidence/0>;
         martialis:hasEvidence  <https://martial.is/entity/01M0T8BCW0Y9SZAN5KXZ7C4ZYW/hasEvidence/1> .
 
@@ -123630,6 +123709,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         schema:name             "Ruan Jiyun"@zh-Latn;
         schema:name             "Yuen Chai-wan"@en;
         schema:nationality      <https://martial.is/entity/01M69YCGCZF85RGK7FTYFVXKKW/nationality/0>;
+        schema:sameAs           <http://www.wikidata.org/entity/Q4315339>;
         martialis:hasEvidence   <https://martial.is/entity/01M69YCGCZF85RGK7FTYFVXKKW/hasEvidence/0>;
         martialis:primaryImage  <https://martial.is/entity/01M69YCGCZF85RGK7FTYFVXKKW/image>;
         martialis:teaches       <https://martial.is/entity/01M69YCGD04PY1727N652A12RZ> .
@@ -126518,6 +126598,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         schema:name             "氣の研究会"@ja;
         schema:name             "Ki no Kenkyūkai"@ja-Latn;
         schema:name             "Ki Society"@en;
+        schema:sameAs           <http://www.wikidata.org/entity/Q6403623>;
         schema:url              <https://ki-society.com/>;
         martialis:foundedEvent  <https://martial.is/entity/01KZVDNBGATXJFQGQCGW736RR6/foundedEvent>;
         martialis:hasAffiliationAssertion  <https://martial.is/entity/01M3YH7N5FC2H7KD6N6SKR45XH>;
@@ -129166,6 +129247,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         schema:name            "Kanemaki Jisai"@ja-Latn;
         schema:name            "鐘捲自斎"@ja;
         schema:nationality     <https://martial.is/entity/01M37JTCRFDVEE68RGVPFQQX9S/nationality/0>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q838146>;
         martialis:hasEvidence  <https://martial.is/entity/01M37JTCRFDVEE68RGVPFQQX9S/hasEvidence/0>;
         martialis:teaches      <https://martial.is/entity/01M37JTCRF4TXBGPW8AP4W1904> .
 
@@ -129723,6 +129805,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         schema:name                    "Saimura Gorō"@ja-Latn;
         schema:name                    "斎村五郎"@ja;
         schema:nationality             <https://martial.is/entity/01M37HHSSMHCCXC6HCC66ACNKW/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q2212259>;
         martialis:birthEvent           <https://martial.is/entity/01M37HHSSMHCCXC6HCC66ACNKW/birthEvent>;
         martialis:deathEvent           <https://martial.is/entity/01M37HHSSMHCCXC6HCC66ACNKW/deathEvent>;
         martialis:hasEvidence          <https://martial.is/entity/01M37HHSSMHCCXC6HCC66ACNKW/hasEvidence/0>;
@@ -129954,6 +130037,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         schema:keywords         "koryu";
         schema:name             "Yagyū Shingan-ryū"@ja-Latn;
         schema:name             "柳生心眼流"@ja;
+        schema:sameAs           <http://www.wikidata.org/entity/Q3041583>;
         schema:video            <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9D/videos/0>;
         martialis:foundedEvent  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9D/foundedEvent>;
         martialis:hasEvidence   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9D/hasEvidence/3>;
@@ -133435,6 +133519,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         schema:name                    "Ōtsuka Hironori"@ja-Latn;
         schema:name                    "大塚 博紀"@ja;
         schema:nationality             <https://martial.is/entity/01KZC19BDC541MVC7EEAMK7R0P/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q386415>;
         martialis:birthEvent           <https://martial.is/entity/01KZC19BDC541MVC7EEAMK7R0P/birthEvent>;
         martialis:deathEvent           <https://martial.is/entity/01KZC19BDC541MVC7EEAMK7R0P/deathEvent>;
         martialis:hasEvidence          <https://martial.is/entity/01KZC19BDC541MVC7EEAMK7R0P/hasEvidence/2>;
@@ -133570,7 +133655,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1S3/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         schema:citation            "Russian Wikipedia - Putin biography";
-        schema:url                 <https://ru.wikipedia.org/wiki/%D0%9F%D1%83%D1%82%D0%B8%D0%BD,_%D0%92%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%92%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87>;
+        schema:url                 <https://ru.wikipedia.org/wiki/%D0%9F%D1%83%D1%82%D0%B8%D0%BD,_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87>;
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
@@ -133747,6 +133832,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         schema:keywords         "grappling";
         schema:keywords         "no-gi";
         schema:name             "10th Planet Jiu-Jitsu"@en;
+        schema:sameAs           <http://www.wikidata.org/entity/Q4547134>;
         martialis:foundedEvent  <https://martial.is/entity/01KYQB8J2N20VJ665SPN1RF325/foundedEvent>;
         martialis:hasEvidence   <https://martial.is/entity/01KYQB8J2N20VJ665SPN1RF325/hasEvidence/1>;
         martialis:hasEvidence   <https://martial.is/entity/01KYQB8J2N20VJ665SPN1RF325/hasEvidence/0>;
@@ -136141,6 +136227,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         schema:name                  "Budō Senmon Gakkō"@ja-Latn;
         schema:name                  "武道専門学校"@ja;
         schema:name                  "Budo Senmon Gakko"@en;
+        schema:sameAs                <http://www.wikidata.org/entity/Q4985154>;
         martialis:dissolvedEvent     <https://martial.is/entity/01KJJAWN29MA64W22606R3WD99/dissolvedEvent>;
         martialis:foundedEvent       <https://martial.is/entity/01KJJAWN29MA64W22606R3WD99/foundedEvent>;
         martialis:hasAffiliationAssertion  <https://martial.is/entity/01M3YH7N5GQBFYBMVHB3YN46JH>;
@@ -142092,6 +142179,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         schema:keywords         "jodo";
         schema:keywords         "judo";
         schema:name             "Fugakukai International Association"@en;
+        schema:sameAs           <http://www.wikidata.org/entity/Q5507240>;
         martialis:foundedEvent  <https://martial.is/entity/01M331J1AKP3D28W593568P40P/foundedEvent>;
         martialis:hasEvidence   <https://martial.is/entity/01M331J1AKP3D28W593568P40P/hasEvidence/0>;
         martialis:hasSite       <https://martial.is/entity/01M331J1AKP3D28W593568P40P/hasSite/0>;
@@ -144403,6 +144491,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         schema:name                    "伊東一刀斎景久"@ja;
         schema:name                    "Itō Ittōsai Kagehisa"@ja-Latn;
         schema:nationality             <https://martial.is/entity/01M37JTCRF4TXBGPW8AP4W1904/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q3141550>;
         martialis:hasEvidence          <https://martial.is/entity/01M37JTCRF4TXBGPW8AP4W1904/hasEvidence/0>;
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M3YH7N5GJ3J9VM8WAMNG8NGJ>;
         martialis:primaryImage         <https://martial.is/entity/01M37JTCRF4TXBGPW8AP4W1904/image>;
@@ -152664,6 +152753,7 @@ dcat:Distribution  rdf:type  owl:Class .
         schema:name                    "Harada Mitsusuke"@ja-Latn;
         schema:name                    "Mitsusuke Harada"@en;
         schema:nationality             <https://martial.is/entity/01M6C5JZZG5YXV79WXGWDM87DF/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q3317210>;
         martialis:birthEvent           <https://martial.is/entity/01M6C5JZZG5YXV79WXGWDM87DF/birthEvent>;
         martialis:hasEvidence          <https://martial.is/entity/01M6C5JZZG5YXV79WXGWDM87DF/hasEvidence/0>;
         martialis:hasEvidence          <https://martial.is/entity/01M6C5JZZG5YXV79WXGWDM87DF/hasEvidence/1>;
@@ -152709,6 +152799,7 @@ dcat:Distribution  rdf:type  owl:Class .
         schema:keywords              "almada";
         schema:name                  "Sociedade Filarmónica União Artística Piedense"@en;
         schema:name                  "Sociedade Filarmónica União Artística Piedense"@pt;
+        schema:sameAs                <http://www.wikidata.org/entity/Q105758215>;
         schema:url                   <https://sfuap.pt/Inicio/>;
         martialis:foundedEvent       <https://martial.is/entity/01KZSFXNDD04FZNKXQ70QT129H/foundedEvent>;
         martialis:hasAffiliationAssertion  <https://martial.is/entity/01M3YH7N5GE8FSCVZP7EQ8BQNZ>;
@@ -153069,6 +153160,7 @@ dcat:Distribution  rdf:type  owl:Class .
         schema:deathPlace           <https://martial.is/entity/01KJJAWN29MA64W22606R3WD75/deathEvent/deathPlace>;
         schema:name                 "Gilbert Briskine"@fr;
         schema:nationality          <https://martial.is/entity/01KJJAWN29MA64W22606R3WD75/nationality/0>;
+        schema:sameAs               <http://www.wikidata.org/entity/Q20994479>;
         martialis:birthEvent        <https://martial.is/entity/01KJJAWN29MA64W22606R3WD75/birthEvent>;
         martialis:deathEvent        <https://martial.is/entity/01KJJAWN29MA64W22606R3WD75/deathEvent>;
         martialis:hasEvidence       <https://martial.is/entity/01KJJAWN29MA64W22606R3WD75/hasEvidence/0>;
@@ -154179,6 +154271,7 @@ dcat:Distribution  rdf:type  owl:Class .
         schema:keywords                "kendo";
         schema:name                    "Mihashi Kan'ichirō"@ja-Latn;
         schema:nationality             <https://martial.is/entity/01M6EFVT2TB0FSJW6X3C0NBVSK/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q11356035>;
         martialis:hasEvidence          <https://martial.is/entity/01M6EFVT2TB0FSJW6X3C0NBVSK/hasEvidence/0>;
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M6EFVT2V1Q8EED6M80SY1FE3>;
         martialis:primaryImage         <https://martial.is/entity/01M6EFVT2TB0FSJW6X3C0NBVSK/image>;
@@ -156065,6 +156158,7 @@ dcat:Distribution  rdf:type  owl:Class .
         schema:foundingDate       "1967";
         schema:keywords           "bjj";
         schema:name               "Federação de Jiu-Jitsu do Estado do Rio de Janeiro"@pt;
+        schema:sameAs             <http://www.wikidata.org/entity/Q6203357>;
         martialis:foundedEvent    <https://martial.is/entity/01M5HMKR974M77KE0WPHSZ8TJS/foundedEvent>;
         martialis:hasEvidence     <https://martial.is/entity/01M5HMKR974M77KE0WPHSZ8TJS/hasEvidence/0>;
         martialis:hasOfficerRole  <https://martial.is/entity/01M5HMKR97GXQ1R5GGXYM4GAAF>;
@@ -156876,6 +156970,7 @@ dcat:Distribution  rdf:type  owl:Class .
         schema:keywords           "tang-soo-do";
         schema:keywords           "moo-duk-kwan";
         schema:name               "World Tang Soo Do Association"@en;
+        schema:sameAs             <http://www.wikidata.org/entity/Q110555316>;
         martialis:foundedEvent    <https://martial.is/entity/01M36JNPJ2RXNA0E43YWWNZ37X/foundedEvent>;
         martialis:hasEvidence     <https://martial.is/entity/01M36JNPJ2RXNA0E43YWWNZ37X/hasEvidence/0>;
         martialis:hasOfficerRole  <https://martial.is/entity/01M4R9845W91ZS4WWTB132JSNZ>;
@@ -160933,6 +161028,7 @@ dcat:Distribution  rdf:type  owl:Class .
         schema:keywords         "japan";
         schema:name             "Genbukan"@ja-Latn;
         schema:name             "玄武館"@ja;
+        schema:sameAs           <http://www.wikidata.org/entity/Q11572297>;
         martialis:foundedEvent  <https://martial.is/entity/01M377JZDNHAZZ4GJ8YCB6B8WH/foundedEvent>;
         martialis:hasEvidence   <https://martial.is/entity/01M377JZDNHAZZ4GJ8YCB6B8WH/hasEvidence/0>;
         martialis:hasSite       <https://martial.is/entity/01M377JZDNHAZZ4GJ8YCB6B8WH/hasSite/0>;
@@ -161632,6 +161728,7 @@ dcterms:RightsStatement
         schema:keywords         "shooto";
         schema:name             "Super Tiger Gym"@en;
         schema:name             "スーパータイガージム"@ja;
+        schema:sameAs           <http://www.wikidata.org/entity/Q11313755>;
         martialis:foundedEvent  <https://martial.is/entity/01M5FEYQE72RPNG2BZEAQAFQMK/foundedEvent>;
         martialis:hasEvidence   <https://martial.is/entity/01M5FEYQE72RPNG2BZEAQAFQMK/hasEvidence/1>;
         martialis:hasEvidence   <https://martial.is/entity/01M5FEYQE72RPNG2BZEAQAFQMK/hasEvidence/0>;
@@ -163221,6 +163318,7 @@ dcterms:RightsStatement
         schema:name            "石井三郎"@ja;
         schema:name            "Ishii Saburō"@ja-Latn;
         schema:nationality     <https://martial.is/entity/01M37HHSSMKZ0CNVWJJGQP5WMF/nationality/0>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q87718868>;
         martialis:birthEvent   <https://martial.is/entity/01M37HHSSMKZ0CNVWJJGQP5WMF/birthEvent>;
         martialis:deathEvent   <https://martial.is/entity/01M37HHSSMKZ0CNVWJJGQP5WMF/deathEvent>;
         martialis:hasEvidence  <https://martial.is/entity/01M37HHSSMKZ0CNVWJJGQP5WMF/hasEvidence/0> .
@@ -167172,6 +167270,7 @@ dcterms:RightsStatement
         schema:name                    "Inoue Keitaro"@ja-Latn;
         schema:name                    "井上敬太郎"@ja;
         schema:nationality             <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1S2/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q111117467>;
         martialis:birthEvent           <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1S2/birthEvent>;
         martialis:deathEvent           <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1S2/deathEvent>;
         martialis:hasEvidence          <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1S2/hasEvidence/0>;
@@ -169085,6 +169184,7 @@ dcterms:RightsStatement
         schema:image           <https://martial.is/entity/01KJJAWN29MA64W22606R3WD8F/photos/0>;
         schema:name            "永昌寺"@ja;
         schema:name            "Eishōji"@ja-Latn;
+        schema:sameAs          <http://www.wikidata.org/entity/Q11550094>;
         martialis:hasEvidence  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD8F/hasEvidence/1>;
         martialis:hasEvidence  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD8F/hasEvidence/0>;
         martialis:hasSite      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD8F/hasSite/0>;
@@ -170036,6 +170136,7 @@ dcterms:RightsStatement
         schema:name                    "麥寶嬋"@zh;
         schema:nationality             <https://martial.is/entity/01M1F0B3712KTW5YTPYS6S24B0/nationality/1>;
         schema:nationality             <https://martial.is/entity/01M1F0B3712KTW5YTPYS6S24B0/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q1180710>;
         martialis:birthEvent           <https://martial.is/entity/01M1F0B3712KTW5YTPYS6S24B0/birthEvent>;
         martialis:hasEvidence          <https://martial.is/entity/01M1F0B3712KTW5YTPYS6S24B0/hasEvidence/1>;
         martialis:hasEvidence          <https://martial.is/entity/01M1F0B3712KTW5YTPYS6S24B0/hasEvidence/0>;
@@ -170156,6 +170257,7 @@ dcterms:RightsStatement
         schema:keywords                "jeet-kune-do";
         schema:name                    "Gary Dill"@en;
         schema:nationality             <https://martial.is/entity/01M5CTXKSP0ZBQRK73PTNNQGV9/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q5524979>;
         martialis:hasEvidence          <https://martial.is/entity/01M5CTXKSP0ZBQRK73PTNNQGV9/hasEvidence/0>;
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M5CTXKSPAN66SKD59ZT8C3QZ>;
         martialis:wasTaughtBy          <https://martial.is/entity/01KYDB2SWEEF9ECH5JCW95ZN6B> .
@@ -170989,6 +171091,7 @@ dcterms:RightsStatement
         rdf:type               martialis:Person;
         schema:name            "Saito Yakuro"@ja-Latn;
         schema:nationality     <https://martial.is/entity/01M1KSJ12QZY8PEM9BMYZSDRFZ/nationality/0>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q11500555>;
         martialis:hasEvidence  <https://martial.is/entity/01M1KSJ12QZY8PEM9BMYZSDRFZ/hasEvidence/0>;
         martialis:teaches      <https://martial.is/entity/01M1BVV4WY6PPJN89RGFSJNA23> .
 
@@ -173568,6 +173671,7 @@ dcterms:RightsStatement
         rdf:type               martialis:Place;
         schema:name            "INEF"@pt;
         schema:name            "National Institute of Physical Education"@en;
+        schema:sameAs          <http://www.wikidata.org/entity/Q10302599>;
         martialis:hasEvidence  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD8Q/hasEvidence/0>;
         martialis:hasSite      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD8Q/hasSite/0>;
         martialis:placeType    <https://w3id.org/martialis/vocab/place-classification/university> .
@@ -173666,6 +173770,7 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01M3YH7N5GP20F5RX06WWJWQCP/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
+        schema:archivedAt          <https://web.archive.org/web/20250504092537/https://aikidojournal.eu/docs/238/393_946_en.pdf>;
         schema:citation            "TAKEJI TOMITA: From studying with O-Sensei to the creation of Aïki Shin Myo Den (Aikido Journal)";
         schema:url                 <https://www.aikidojournal.eu/docs/238/393_946_en.pdf>;
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
@@ -176262,6 +176367,7 @@ dcterms:RightsStatement
         schema:name                    "Jacques Belaud"@fr;
         schema:name                    "Jacques Belaud"@en;
         schema:nationality             <https://martial.is/entity/006G01NTX6APF58MF5ASSADT3H/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q114787912>;
         martialis:hasEvidence          <https://martial.is/entity/006G01NTX6APF58MF5ASSADT3H/hasEvidence/0>;
         martialis:hasEvidence          <https://martial.is/entity/006G01NTX6APF58MF5ASSADT3H/hasEvidence/1>;
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M3YH7N5GH82MZ5RJWNBEVNGT>;
@@ -181292,6 +181398,7 @@ dcterms:RightsStatement
         schema:name                    "高野茂義"@ja;
         schema:name                    "Takano Shigeyoshi"@ja-Latn;
         schema:nationality             <https://martial.is/entity/01M6EFJQBCCJBCDZB7V0G036W4/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q11673146>;
         martialis:birthEvent           <https://martial.is/entity/01M6EFJQBCCJBCDZB7V0G036W4/birthEvent>;
         martialis:hasEvidence          <https://martial.is/entity/01M6EFJQBCCJBCDZB7V0G036W4/hasEvidence/0>;
         martialis:hasHonorAssertion    <https://martial.is/entity/01M6EFJQBDJBBZJGZJ4ZNEMJNV>;
@@ -182840,6 +182947,7 @@ dcterms:RightsStatement
         schema:keywords        "judo";
         schema:name            "Jean-Lucien Jazarin"@fr;
         schema:nationality     <https://martial.is/entity/01M39T3H2E0206MCVGGVGAYY3T/nationality/0>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q3167290>;
         martialis:hasEvidence  <https://martial.is/entity/01M39T3H2E0206MCVGGVGAYY3T/hasEvidence/0> .
 
 <https://martial.is/entity/01M64QW2FNKTJMG4YJ7NNWF4VW/image/imageAttribution>
@@ -183450,6 +183558,7 @@ dcterms:RightsStatement
         schema:keywords                "kendo";
         schema:name                    "Oasa Yūji"@ja-Latn;
         schema:nationality             <https://martial.is/entity/01M6EFVT2TXDM0PAQV1K3K7YAC/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q384701>;
         martialis:hasEvidence          <https://martial.is/entity/01M6EFVT2TXDM0PAQV1K3K7YAC/hasEvidence/0>;
         martialis:hasRankAssertion     <https://martial.is/entity/01M6EFVT2VQX04QXR6HSDN4MTP>;
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M6EFVT2VK6885CVX527R30J4>;
@@ -183496,6 +183605,7 @@ dcterms:RightsStatement
         schema:keywords              "judo";
         schema:name                  "Jean Andrivet"@fr;
         schema:nationality           <https://martial.is/entity/01M39T3H2EFYW4D8J01GFF3KN6/nationality/0>;
+        schema:sameAs                <http://www.wikidata.org/entity/Q17630917>;
         martialis:hasEvidence        <https://martial.is/entity/01M39T3H2EFYW4D8J01GFF3KN6/hasEvidence/0>;
         martialis:hasHonorAssertion  <https://martial.is/entity/01M3YH7N5G2AE2CJZ2AFEDBCS6> .
 
@@ -184212,6 +184322,7 @@ dcterms:RightsStatement
         schema:name                    "Kagawa Senjirō"@ja-Latn;
         schema:name                    "香川善治郎"@ja;
         schema:nationality             <https://martial.is/entity/01M377JZDNR434D3M1HPEZ26T7/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q11667278>;
         martialis:birthEvent           <https://martial.is/entity/01M377JZDNR434D3M1HPEZ26T7/birthEvent>;
         martialis:deathEvent           <https://martial.is/entity/01M377JZDNR434D3M1HPEZ26T7/deathEvent>;
         martialis:hasEvidence          <https://martial.is/entity/01M377JZDNR434D3M1HPEZ26T7/hasEvidence/0>;
@@ -185141,6 +185252,7 @@ dcterms:RightsStatement
         schema:name            "松井三蔵"@ja;
         schema:name            "Matsui Sanzo"@ja-Latn;
         schema:nationality     <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1VC/nationality/0>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q110774451>;
         martialis:birthEvent   <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1VC/birthEvent>;
         martialis:deathEvent   <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1VC/deathEvent>;
         martialis:hasEvidence  <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1VC/hasEvidence/0>;
@@ -186878,6 +186990,7 @@ dcterms:RightsStatement
         schema:keywords         "chinese-martial-arts";
         schema:name             "Dragon style"@en;
         schema:name             "龍形拳"@zh;
+        schema:sameAs           <http://www.wikidata.org/entity/Q261236>;
         martialis:foundedEvent  <https://martial.is/entity/01M69Z4SFQ98RGYTWC6VTHEQQE/foundedEvent>;
         martialis:hasEvidence   <https://martial.is/entity/01M69Z4SFQ98RGYTWC6VTHEQQE/hasEvidence/0>;
         martialis:styleType     <https://w3id.org/martialis/vocab/style-classification/traditional> .
@@ -187573,6 +187686,7 @@ dcterms:RightsStatement
         schema:name                    "ランス・ガトリング"@ja;
         schema:name                    "Lance Gatling"@en;
         schema:nationality             <https://martial.is/entity/01KYPR30B0C068BEA1FY08VTE0/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q51618618>;
         martialis:hasEvidence          <https://martial.is/entity/01KYPR30B0C068BEA1FY08VTE0/hasEvidence/3>;
         martialis:hasEvidence          <https://martial.is/entity/01KYPR30B0C068BEA1FY08VTE0/hasEvidence/2>;
         martialis:hasEvidence          <https://martial.is/entity/01KYPR30B0C068BEA1FY08VTE0/hasEvidence/1>;
@@ -187666,6 +187780,7 @@ dcterms:RightsStatement
         schema:keywords                "judo";
         schema:name                    "Ron Angus"@en;
         schema:nationality             <https://martial.is/entity/01M61T316BXQPNZEX6ET5PMFZ8/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q7363472>;
         martialis:hasEvidence          <https://martial.is/entity/01M61T316BXQPNZEX6ET5PMFZ8/hasEvidence/0>;
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M61T316BJXCRD0965YK6AXBK>;
         martialis:wasTaughtBy          <https://martial.is/entity/01M5H5N9SHC3GSHWJ1MJ2N4XFR> .
@@ -188336,6 +188451,7 @@ dcterms:RightsStatement
         schema:name            "辻真平"@ja;
         schema:name            "Tsuji Shinpei"@ja-Latn;
         schema:nationality     <https://martial.is/entity/01M3771VT4DX9ET5NP0B9XWZ3C/nationality/0>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q11638296>;
         martialis:hasEvidence  <https://martial.is/entity/01M3771VT4DX9ET5NP0B9XWZ3C/hasEvidence/0> .
 
 <https://martial.is/entity/01M6BFF6ZQQH7D4ZA6DVSHFTME/hasInteraction/0/hasEvidence/0>
@@ -189490,6 +189606,7 @@ dcterms:RightsStatement
         schema:name            "Ōnaga Kurō"@ja-Latn;
         schema:name            "大長九郎"@ja;
         schema:nationality     <https://martial.is/entity/01KZBXVRR5GKBJXCDYHNFXDXHH/nationality/0>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q109287731>;
         martialis:hasEvidence  <https://martial.is/entity/01KZBXVRR5GKBJXCDYHNFXDXHH/hasEvidence/2>;
         martialis:hasEvidence  <https://martial.is/entity/01KZBXVRR5GKBJXCDYHNFXDXHH/hasEvidence/1>;
         martialis:hasEvidence  <https://martial.is/entity/01KZBXVRR5GKBJXCDYHNFXDXHH/hasEvidence/0>;
@@ -193928,6 +194045,7 @@ dcterms:RightsStatement
         schema:name                    "Zhang Wenguang"@en;
         schema:name                    "张文广"@zh;
         schema:nationality             <https://martial.is/entity/01M0QCH9A4R6FMNQMVNZS6HNKK/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q104782450>;
         martialis:birthEvent           <https://martial.is/entity/01M0QCH9A4R6FMNQMVNZS6HNKK/birthEvent>;
         martialis:deathEvent           <https://martial.is/entity/01M0QCH9A4R6FMNQMVNZS6HNKK/deathEvent>;
         martialis:hasEvidence          <https://martial.is/entity/01M0QCH9A4R6FMNQMVNZS6HNKK/hasEvidence/1>;
@@ -196261,6 +196379,7 @@ dcterms:RightsStatement
         rdf:type               martialis:Person;
         schema:name            "Yamamoto Masanobu"@ja-Latn;
         schema:nationality     <https://martial.is/entity/01M1KH7NTWNZSRTDAB0VRM85K1/nationality/0>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q29410725>;
         martialis:hasEvidence  <https://martial.is/entity/01M1KH7NTWNZSRTDAB0VRM85K1/hasEvidence/0>;
         martialis:teaches      <https://martial.is/entity/01M0A2FCGSR8REC4KS6X3HF1H0> .
 
@@ -196389,6 +196508,7 @@ dcterms:RightsStatement
         schema:name            "Chiba Michisaburō"@ja-Latn;
         schema:name            "千葉 道三郎"@ja;
         schema:nationality     <https://martial.is/entity/01M2Z6TY1P7PDXGSJGZ333DJ0G/nationality/0>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q11406772>;
         martialis:hasEvidence  <https://martial.is/entity/01M2Z6TY1P7PDXGSJGZ333DJ0G/hasEvidence/1>;
         martialis:hasEvidence  <https://martial.is/entity/01M2Z6TY1P7PDXGSJGZ333DJ0G/hasEvidence/0>;
         martialis:teaches      <https://martial.is/entity/01M2Z6TY1PD3RHPKEB6543X6D1> .
@@ -200395,6 +200515,7 @@ dcterms:RightsStatement
         schema:name                    "Samura Kaichirō"@ja-Latn;
         schema:name                    "佐村 嘉一郎"@ja;
         schema:nationality             <https://martial.is/entity/01KZC19BDCSRJKR7FM173MVWKB/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q15304100>;
         martialis:birthEvent           <https://martial.is/entity/01KZC19BDCSRJKR7FM173MVWKB/birthEvent>;
         martialis:deathEvent           <https://martial.is/entity/01KZC19BDCSRJKR7FM173MVWKB/deathEvent>;
         martialis:hasEvidence          <https://martial.is/entity/01KZC19BDCSRJKR7FM173MVWKB/hasEvidence/0>;
@@ -200826,6 +200947,7 @@ dcterms:RightsStatement
         rdf:type               martialis:Person;
         schema:name            "Georges Mehdi"@en;
         schema:nationality     <https://martial.is/entity/01M1KSJ12QYNKK5V7N1TWK2YZH/nationality/0>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q17541255>;
         martialis:hasEvidence  <https://martial.is/entity/01M1KSJ12QYNKK5V7N1TWK2YZH/hasEvidence/0>;
         martialis:teaches      <https://martial.is/entity/01KYZ31HT3D978KY5GPZAGKV5G> .
 
@@ -202684,6 +202806,7 @@ dcterms:RightsStatement
         schema:keywords           "federation";
         schema:name               "Fédération Française d'Aïkido et de Budo"@fr;
         schema:name               "French Federation of Aikido and Budo"@en;
+        schema:sameAs             <http://www.wikidata.org/entity/Q3091777>;
         martialis:hasEvidence     <https://martial.is/entity/01KZ6QKPB7H6299TEHRE9ZQVBV/hasEvidence/0>;
         martialis:hasEvidence     <https://martial.is/entity/01KZ6QKPB7H6299TEHRE9ZQVBV/hasEvidence/1>;
         martialis:hasOfficerRole  <https://martial.is/entity/01M4R9845WC0EEHEXAB2CAPA78>;
@@ -202961,6 +203084,7 @@ dcterms:RightsStatement
 <https://martial.is/entity/01M1KJ1TY232ZE0KH6WA1XD04A>
         rdf:type               martialis:Person;
         schema:name            "Waino Ketonen"@en;
+        schema:sameAs          <http://www.wikidata.org/entity/Q140721913>;
         martialis:hasEvidence  <https://martial.is/entity/01M1KJ1TY232ZE0KH6WA1XD04A/hasEvidence/0>;
         martialis:teaches      <https://martial.is/entity/01KYEZC879D48ZHB2QX45XRS35> .
 
@@ -205577,6 +205701,7 @@ void:vocabulary  rdf:type  owl:ObjectProperty .
         schema:keywords                "kendo";
         schema:name                    "Gordon Warner"@en;
         schema:nationality             <https://martial.is/entity/01M6EFJQBCPXCQG69VBFDX4WS7/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q16886445>;
         martialis:hasEvidence          <https://martial.is/entity/01M6EFJQBCPXCQG69VBFDX4WS7/hasEvidence/0>;
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M6EFJQBDN9SVS8NVT08BVAW7>;
         martialis:primaryImage         <https://martial.is/entity/01M6EFJQBCPXCQG69VBFDX4WS7/image>;
@@ -208999,6 +209124,7 @@ dcterms:identifier  rdf:type  owl:AnnotationProperty .
         schema:keywords         "federation";
         schema:keywords         "judo";
         schema:name             "Norges Judoforbund"@no;
+        schema:sameAs           <http://www.wikidata.org/entity/Q11992048>;
         martialis:foundedEvent  <https://martial.is/entity/01M1PEBA9EMXF400MQ578JNGGN/foundedEvent>;
         martialis:hasEvidence   <https://martial.is/entity/01M1PEBA9EMXF400MQ578JNGGN/hasEvidence/0>;
         martialis:hasSite       <https://martial.is/entity/01M1PEBA9EMXF400MQ578JNGGN/hasSite/0>;
@@ -210130,6 +210256,7 @@ dcterms:identifier  rdf:type  owl:AnnotationProperty .
         schema:name                    "Itō Tokugorō"@ja-Latn;
         schema:name                    "伊藤 徳五郎"@ja;
         schema:nationality             <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1S7/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q112762557>;
         martialis:birthEvent           <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1S7/birthEvent>;
         martialis:deathEvent           <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1S7/deathEvent>;
         martialis:hasEvidence          <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1S7/hasEvidence/0>;
