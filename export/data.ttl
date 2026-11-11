@@ -3362,7 +3362,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         schema:name               "Dai Nippon Butoku Kai"@ja-Latn;
         schema:name               "大日本武徳会"@ja;
         schema:name               "Greater Japan Martial Virtue Society"@en;
-        schema:sameAs             <http://www.wikidata.org/entity/Q1158447>;
+        schema:sameAs             <http://www.wikidata.org/entity/Q1157631>;
         martialis:dissolvedEvent  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD7Y/dissolvedEvent>;
         martialis:foundedEvent    <https://martial.is/entity/01KJJAWN29MA64W22606R3WD7Y/foundedEvent>;
         martialis:hasEvidence     <https://martial.is/entity/01KJJAWN29MA64W22606R3WD7Y/hasEvidence/1>;
@@ -9193,7 +9193,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         void:classPartition   <https://martial.is/data.ttl#dataset/class/Event>;
         void:dataDump         <https://martial.is/data.ttl>;
         void:entities         2911;
-        void:triples          161460;
+        void:triples          161474;
         void:uriSpace         "https://martial.is/entity/";
         void:vocabulary       <http://purl.org/ontology/bibo/>;
         void:vocabulary       prov:;
@@ -10687,6 +10687,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Fernando Franco trained under Alfredo San Bartolomé at the Gimnasio Juventud and later at the Bushidokwai in Madrid, from 1948 until the dissolution of their partnership in late 1957. San Bartolomé was his primary judo instructor during the formative years of Spanish judo." .
+
+<https://martial.is/entity/01KJJAWN29MA64W22606R3WD6X/birthEvent/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        schema:citation            "Tomita Sensei - Takemusu Aiki Chel";
+        schema:url                 <https://takemusuaikichel.ru/en/tomita-sensei/>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Tomita Sensei was born in February 3, 1942, in Hamamatsu town, Shizuoka prefecture, Japan.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD7Q/birthEvent/birthPlace>
         rdf:type               martialis:GeoRef;
@@ -12360,7 +12369,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         schema:name            "早稲田大学"@ja;
         schema:name            "Waseda University"@en;
         schema:name            "Waseda Daigaku"@ja-Latn;
-        schema:sameAs          <http://www.wikidata.org/entity/Q189828>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q274486>;
         martialis:hasEvidence  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD97/hasEvidence/0>;
         martialis:hasSite      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD97/hasSite/0>;
         martialis:placeType    <https://w3id.org/martialis/vocab/place-classification/university> .
@@ -51024,7 +51033,7 @@ void:entities  rdf:type  owl:DatatypeProperty .
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD8Z>
         rdf:type               martialis:Place;
         schema:name            "Paysandu Sport Club"@pt;
-        schema:sameAs          <http://www.wikidata.org/entity/Q2073099>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q1508285>;
         martialis:hasEvidence  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD8Z/hasEvidence/0>;
         martialis:hasEvidence  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD8Z/hasEvidence/1>;
         martialis:hasSite      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD8Z/hasSite/0>;
@@ -54406,7 +54415,7 @@ void:entities  rdf:type  owl:DatatypeProperty .
         schema:name            "Keiō Gijuku Daigaku"@ja-Latn;
         schema:name            "慶應義塾大学"@ja;
         schema:name            "Keio University"@en;
-        schema:sameAs          <http://www.wikidata.org/entity/Q183452>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q815432>;
         martialis:hasEvidence  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD96/hasEvidence/0>;
         martialis:hasSite      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD96/hasSite/0>;
         martialis:placeType    <https://w3id.org/martialis/vocab/place-classification/university> .
@@ -55933,8 +55942,8 @@ void:entities  rdf:type  owl:DatatypeProperty .
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6X/birthEvent/birthPlace>
         rdf:type               martialis:GeoRef;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
-        schema:name            "Ibaraki";
-        schema:sameAs          <http://www.wikidata.org/entity/Q83273> .
+        schema:name            "Hamamatsu";
+        schema:sameAs          <http://www.wikidata.org/entity/Q185125> .
 
 <https://martial.is/entity/01M3YH7N5GW5NJ1F9G515CDHHY/hasInteraction/0/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -58416,9 +58425,11 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6X/birthEvent>
         rdf:type                martialis:BirthEvent;
         schema:location         <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6X/birthEvent/birthPlace>;
-        schema:startDate        "1928-03-31";
-        martialis:earliestYear  1928;
-        martialis:latestYear    1928 .
+        schema:startDate        "1942-02-03";
+        martialis:earliestYear  1942;
+        martialis:hasEvidence   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6X/birthEvent/hasEvidence/0>;
+        martialis:hasEvidence   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6X/birthEvent/hasEvidence/1>;
+        martialis:latestYear    1942 .
 
 <https://martial.is/entity/01M3YH7N5GNWPYDCJZ3J0YVMM9/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -69981,6 +69992,15 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/USA>;
         schema:sameAs          <http://www.wikidata.org/entity/Q30> .
 
+<https://martial.is/entity/01KJJAWN29MA64W22606R3WD6X/birthEvent/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        schema:citation            "Takeji Tomita (Aikido Journal Encyclopedia)";
+        schema:url                 <https://aikidojournal.com/2011/08/27/takeji-tomita/>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "(b. February 1942).";
+        martialis:supports         true .
+
 <https://martial.is/entity/01KZBSKM8JX1YBJ2T2V9BF2FEC>
         rdf:type                       martialis:Person;
         schema:alternateName           "ちねん てるお"@ja;
@@ -73869,8 +73889,8 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         schema:name             "截拳道"@yue;
         schema:name             "Jie Quan Dao"@zh-Latn;
         schema:name             "Jeet Kune Do"@en;
+        schema:sameAs           <http://www.wikidata.org/entity/Q188923>;
         schema:sameAs           <http://dbpedia.org/resource/Jeet_Kune_Do>;
-        schema:sameAs           <http://www.wikidata.org/entity/Q462409>;
         martialis:foundedEvent  <https://martial.is/entity/01KYD5XSZPND9XV5FHYG9V0ZV6/foundedEvent>;
         martialis:hasEvidence   <https://martial.is/entity/01KYD5XSZPND9XV5FHYG9V0ZV6/hasEvidence/2>;
         martialis:hasEvidence   <https://martial.is/entity/01KYD5XSZPND9XV5FHYG9V0ZV6/hasEvidence/1>;
@@ -88258,7 +88278,7 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         schema:keywords         "gendai";
         schema:name             "講道館柔道"@ja;
         schema:name             "Kōdōkan Jūdō"@ja-Latn;
-        schema:sameAs           <http://www.wikidata.org/entity/Q11817>;
+        schema:sameAs           <http://www.wikidata.org/entity/Q11420>;
         schema:video            <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B/videos/0>;
         martialis:foundedEvent  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B/foundedEvent>;
         martialis:hasEvidence   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B/hasEvidence/0>;
@@ -95206,7 +95226,6 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         schema:keywords        "legend";
         schema:keywords        "boxing";
         schema:name            "Eryx"@en;
-        schema:sameAs          <http://www.wikidata.org/entity/Q138829143>;
         martialis:hasEvidence  <https://martial.is/entity/01M5JWHXPX9MPDHE244C30HT26/hasEvidence/0>;
         martialis:hasHistoricityAssertion  <https://martial.is/entity/01M5JWHXPXA5A0549P3KE8PHXT>;
         martialis:teaches      <https://martial.is/entity/01M5JWHXPX8K0MVPHPAZWMD5ZD> .
@@ -113859,7 +113878,7 @@ dcat:version  rdf:type  owl:DatatypeProperty .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6X>
         rdf:type                       martialis:Person;
-        schema:birthDate               "1928-03-31";
+        schema:birthDate               "1942-02-03";
         schema:birthPlace              <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6X/birthEvent/birthPlace>;
         schema:deathDate               "2002-05-13";
         schema:deathPlace              <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6X/deathEvent/deathPlace>;
@@ -117117,7 +117136,6 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         schema:name               "水府流"@ja;
         schema:name               "Suifu-ryū"@ja-Latn;
         schema:name               "Suifu-ryū"@en;
-        schema:sameAs             <http://www.wikidata.org/entity/Q16281546>;
         martialis:dissolvedEvent  <https://martial.is/entity/01M2Z6TY1PAVSCX84EDH540ZNN/dissolvedEvent>;
         martialis:foundedEvent    <https://martial.is/entity/01M2Z6TY1PAVSCX84EDH540ZNN/foundedEvent>;
         martialis:hasEvidence     <https://martial.is/entity/01M2Z6TY1PAVSCX84EDH540ZNN/hasEvidence/0>;
@@ -137636,7 +137654,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         schema:name            "Meiji Shrine"@en;
         schema:name            "Meiji Jingū"@ja-Latn;
         schema:name            "明治神宮"@ja;
-        schema:sameAs          <http://www.wikidata.org/entity/Q1538012>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q287165>;
         martialis:hasEvidence  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD8C/hasEvidence/0>;
         martialis:hasSite      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD8C/hasSite/0>;
         martialis:placeType    <https://w3id.org/martialis/vocab/place-classification/temple> .
@@ -140885,7 +140903,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         schema:keywords         "shoot-wrestling";
         schema:name             "Catch Wrestling"@en;
         schema:name             "Kyatchi Resuringu"@ja-Latn;
-        schema:sameAs           <http://www.wikidata.org/entity/Q1736682>;
+        schema:sameAs           <http://www.wikidata.org/entity/Q2408025>;
         martialis:foundedEvent  <https://martial.is/entity/01KYEWRMWERM1HW12W53HE9G4A/foundedEvent>;
         martialis:hasEvidence   <https://martial.is/entity/01KYEWRMWERM1HW12W53HE9G4A/hasEvidence/0>;
         martialis:hasEvidence   <https://martial.is/entity/01KYEWRMWERM1HW12W53HE9G4A/hasEvidence/1>;
@@ -155617,7 +155635,7 @@ dcat:Distribution  rdf:type  owl:Class .
         schema:name             "Federação Internacional de Jiu-Jitsu Brasileiro"@pt;
         schema:name             "International Brazilian Jiu-Jitsu Federation"@en;
         schema:name             "IBJJF"@ja-Latn;
-        schema:sameAs           <http://www.wikidata.org/entity/Q6053660>;
+        schema:sameAs           <http://www.wikidata.org/entity/Q6048842>;
         schema:url              <https://ibjjf.com>;
         martialis:foundedEvent  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD80/foundedEvent>;
         martialis:hasEvidence   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD80/hasEvidence/0>;
@@ -168867,7 +168885,7 @@ dcterms:RightsStatement
         schema:keywords           "military";
         schema:keywords           "judo";
         schema:name               "Strategic Air Command"@en;
-        schema:sameAs             <http://www.wikidata.org/entity/Q646145>;
+        schema:sameAs             <http://www.wikidata.org/entity/Q937064>;
         martialis:dissolvedEvent  <https://martial.is/entity/01KYMEA0X553XQW87Y65T7P0V1/dissolvedEvent>;
         martialis:foundedEvent    <https://martial.is/entity/01KYMEA0X553XQW87Y65T7P0V1/foundedEvent>;
         martialis:hasEvidence     <https://martial.is/entity/01KYMEA0X553XQW87Y65T7P0V1/hasEvidence/0>;
@@ -181943,7 +181961,7 @@ dcterms:RightsStatement
         schema:keywords         "koryu";
         schema:name             "鞍馬流"@ja;
         schema:name             "Kurama-ryū"@ja-Latn;
-        schema:sameAs           <http://www.wikidata.org/entity/Q11663914>;
+        schema:sameAs           <http://www.wikidata.org/entity/Q11458624>;
         martialis:foundedEvent  <https://martial.is/entity/01M6BJ6H8F9AJ21DEBPS0XD3XA/foundedEvent>;
         martialis:hasEvidence   <https://martial.is/entity/01M6BJ6H8F9AJ21DEBPS0XD3XA/hasEvidence/1>;
         martialis:hasEvidence   <https://martial.is/entity/01M6BJ6H8F9AJ21DEBPS0XD3XA/hasEvidence/0>;
@@ -192286,7 +192304,7 @@ dcterms:RightsStatement
         schema:name            "Keishicho"@ja-Latn;
         schema:name            "Tokyo Metropolitan Police Department"@en;
         schema:name            "警視庁"@ja;
-        schema:sameAs          <http://www.wikidata.org/entity/Q1353989>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q1312559>;
         martialis:hasEvidence  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD98/hasEvidence/0>;
         martialis:hasSite      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD98/hasSite/0>;
         martialis:placeType    <https://w3id.org/martialis/vocab/place-classification/military> .
