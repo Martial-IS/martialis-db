@@ -1,0 +1,77 @@
+type: Style
+id: 01M76C6D5CBFKS8Q2344SMW651
+name:
+  ja-Latn: Shin'ei Taidō
+  ja: 親英体道
+aka:
+  en:
+    - Shinei Taido
+    - Shinwa Taido
+  ja-Latn: Shinwa Taidō
+  ja: 親和体道
+styleType: styleclass:modern
+foundedEvent:
+  startDate: '1956'
+  location:
+    countryCode: eucountry:JPN
+  founder:
+    - 01M764AMRBDMPEDAS51ZYX4X0R
+  hasEvidence:
+    - basedOnSource: 01M76C6D5C17JB7RSE9SD363NK
+      quotation: >-
+        It was called Aiki Budo until 1956. I introduced my art at the Yomiuri
+        Hall for the first time in 1956.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M764AMRBBC9Y4YZENFBC6G72
+      quotation: >-
+        In 1956, he gave a public demonstration at the Yomiuri Hall and starting
+        calling his art Shinwa Taido.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M76C6D5BYZRF7EQ6VBMKFXCR
+      quotation: 昭和21年（1946年）、大本の出口王仁三郎の命名で「親和体道」と改称し
+      informationType: infotype:secondary
+      supports: false
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Japanese martial art founded by Inoue Noriaki. He taught the prewar Aiki
+    Budō of his years with Ueshiba Morihei under that name until 1956, then as
+    Shinwa Taidō and later Shin'ei Taidō.
+hasStyleRelationAssertion:
+  - id: 01M76C6D5CVA215123SQR502GB
+    relatedStyle: 01KJJAWN29MA64W22606R3WD9R
+    styleRelationType: stylerel:derived_from
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Pranin (2004) and Inoue (interview part 3) state Inoue kept the prewar
+        Aiki Budō name until 1956 and then renamed his art; his line ran apart
+        from Ueshiba's after 1935. Inoue's side holds the prewar art was his
+        family's own, so the direction of the lineage is contested.
+    hasEvidence:
+      - basedOnSource: 01M764AMRBBC9Y4YZENFBC6G72
+        quotation: He called his art "Aiki Budo", preserving use of the prewar name of the art.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M76C6D5C17JB7RSE9SD363NK
+        quotation: It was called Aiki Budo until 1956.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:indirect
+sameAs:
+  - wd:Q4420497
+hasEvidence:
+  - basedOnSource: 01M76C6D5BYZRF7EQ6VBMKFXCR
+    quotation: 親英体道（しんえいたいどう）は、井上鑑昭により創始された日本の武道。「親和体道」という名称を用いている道場もある。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - gendai
+  - aikido

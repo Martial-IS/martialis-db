@@ -134,6 +134,32 @@ hasTeacherAssertion:
       informationType: infotype:primary
       supports: true
       evidenceType: evidencetype:direct
+- id: 01M769VFGC49V5BSZQKXC7T4S1
+  teacher: 01M764AMRBVPJKVZHRWAY213KC
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Pranin (2004) and the Aikido Journal encyclopedia state Ueshiba practised
+      judo under Takagi in Tanabe around 1911. Both are Aikido Journal; Pranin
+      notes Inoue said Ueshiba did not train consistently.
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M764AMRB1B0J2HZHSJW99MP4
+      quotation: judo under Kiyoichi TAKAGI c. 1911 in Tanabe
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M764AMRBBC9Y4YZENFBC6G72
+      quotation: >-
+        Morihei, the Inoue brothers along with other neighborhood youths spent
+        a year or two practicing judo in their free time until the departure of
+        Takagi from Tanabe.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
 hasRankAssertion:
 - id: 01M3YH7N5GE7XDF50D63T9X58R
   rankStyle: 01KJJAWN29MA64W22606R3WD9D
