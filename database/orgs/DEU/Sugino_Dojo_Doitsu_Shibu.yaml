@@ -1,0 +1,55 @@
+type: Organization
+id: 01M7DRBMCW8S69QZ829CJEHDVQ
+name:
+  en: Sugino Dojo Doitsu Shibu
+orgType: orgclass:school
+hasSite:
+  - location:
+      label: Leer
+      countryCode: eucountry:DEU
+      wikidata: wd:Q15984
+hasAffiliationAssertion:
+  - id: 01M7DRBMCWEHXQWFH5GAYZ8K3H
+    relatedOrganization: 01M7DRBMCWQC5VRSSGXX6BZAYC
+    affiliationRelation: affrel:branch_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The branch's own site and Kobukai Berlin say it is the German branch of
+        the Sugino Dojo; no statement from the Sugino Dojo, so probable.
+    hasEvidence:
+      - basedOnSource: 01M7DRBMCWXV8RFAVY7VGHXPV8
+        quotation: Da die von Leer/Ostfriesland ausgehende Verbreitung des Katori Shinto Ryu in Deutschland eine Organisationsform notwendig machte, haben wir uns als Sugino Dojo Doitsu Shibu organisiert und sind als solches eine direkte Zweigstelle des Sugino Dojos in Japan.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7DPSDB4PF7NNA5QZZTGSWP3
+        quotation: In Leer, together with his wife, Izumi Mikami-Rott, he founded a dōjō for Aikidō and Katori Shintō-ryū, the Aiki-Kobudo-Kai Leer e.V., which serves as the headquarters for the German branch of the Sugino Dōjō, the Sugino Dōjō Doitsu Shibu.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M7DRBMCWY7W37SW5NH9M66S3
+    officer: 01M7DPSDB42QAAVV5P2SV9Z8KJ
+    officerTitle: Shibu-chō
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The branch's own teachers page names him Shibu-Cho; no second source,
+        so probable.
+    hasEvidence:
+      - basedOnSource: 01M7DRBMCWYMT6B84CKCP1PZ5P
+        quotation: Ulf Rott Shibu-Cho Sugino Dojo Doitsu Shibu, 6. Dan Tenshin Shoden Katori Shinto Ryu
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: German branch of the Sugino Dojo, seated at the Aiki-Kobudo-Kai Leer.
+hasEvidence:
+  - basedOnSource: 01M7DRBMCWXV8RFAVY7VGHXPV8
+    quotation: Da die von Leer/Ostfriesland ausgehende Verbreitung des Katori Shinto Ryu in Deutschland eine Organisationsform notwendig machte, haben wir uns als Sugino Dojo Doitsu Shibu organisiert und sind als solches eine direkte Zweigstelle des Sugino Dojos in Japan.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct

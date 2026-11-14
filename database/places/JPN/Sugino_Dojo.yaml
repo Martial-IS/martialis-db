@@ -1,0 +1,76 @@
+type: Place
+id: 01M7DRBMCWKW5ZMRDMJ7WJZYN8
+name:
+  en: Sugino Dojo
+  ja-Latn: Yuishinkan Sugino Dōjō
+  ja: 唯心館 杉野道場
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: Kawasaki
+      countryCode: eucountry:JPN
+      wikidata: wd:Q164234
+hasAffiliationAssertion:
+  - id: 01M7DRBMCW7BBW7F86554P4NR5
+    relatedOrganization: 01M7DRBMCWQC5VRSSGXX6BZAYC
+    affiliationRelation: affrel:branch_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The dojo is the Sugino Dojo school's own facility; a structural fact,
+        no independent source expected.
+    hasEvidence:
+      - basedOnSource: 01M7DRBMCWEWC0WMVCFSQVC795
+        quotation: Sugino Dojo bietet den traditionellsten Stil des Katori Shinto Ryu mit dem Glauben an Yoshio Suginos Geist als Zweigstelle (Shibu) des Honbu Dojo in Katori.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '[1927,1928]'
+  founder:
+    - 01KJJAWN28MWKKSN4J02MVY1TZ
+  hasEvidence:
+    - basedOnSource: 01M7DPSDB4PF7NNA5QZZTGSWP3
+      quotation: The Sugino Dōjō was originally founded in 1927 as a Jūdō dōjō.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M7DRBMCWEWC0WMVCFSQVC795
+      quotation: Das Sugino Dojo in Kawasaki wurde 1928 von Yoshio Sugino, zunächst als Judo-Dojo, gegründet.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M7DRBMCWZCP0JZZ02HTAWTJG
+    officer: 01M7DMYF5PQYRR6VW6K9FDZ137
+    officerTitle: Kanchō (館長)
+    officerPeriod:
+      startYear: 1998
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        WEB Hiden gives 6 April 1998 and Town News 1998; two independent
+        publications.
+    hasEvidence:
+      - basedOnSource: 01M7DMYF5PWB8AC18SCBAP8294
+        quotation: 1998年4月6日、父・嘉男師範より唯心館・杉野道場館長を正式に受け継ぐ。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7DMYF5P17JD7RP2KFPFM8J1
+        quotation: 98年には父を継いで２代目館長に就任。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Dojo in Kawasaki founded by Sugino Yoshio, teaching Tenshin Shōden
+    Katori Shintō-ryū; headed by Sugino Yukihiro since 1998.
+hasEvidence:
+  - basedOnSource: 01M7DRBMCWEWC0WMVCFSQVC795
+    quotation: Sugino Dojo bietet den traditionellsten Stil des Katori Shinto Ryu mit dem Glauben an Yoshio Suginos Geist als Zweigstelle (Shibu) des Honbu Dojo in Katori.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct

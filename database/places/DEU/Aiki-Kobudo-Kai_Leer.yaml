@@ -1,0 +1,87 @@
+type: Place
+id: 01M7DRBMCWFTDDG50J8RQCPKSB
+name:
+  de: Aiki-Kobudo-Kai Leer e.V.
+aka:
+  de: Aiki-Dojo Leer
+placeType: placeclass:club
+hasSite:
+  - location:
+      label: Leer
+      countryCode: eucountry:DEU
+      wikidata: wd:Q15984
+    address: Großer Oldekamp 17, 26789 Leer
+    sitePeriod:
+      startYear: 2001
+    hasEvidence:
+      - basedOnSource: 01M7DRBMCW0TZCHFDHCXBENSDB
+        quotation: 14.01.2001 Umzug des Vereins in die neuen Räumlichkeiten am Großen Oldekamp 17. und Eröffnung des Dojo als “Schule für Aikido, Kobudo und ostasiatische Gesundheitslehre”
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M7DRBMCWMWWBM44F2DVWZ3H1
+    relatedOrganization: 01M7DRBMCW8S69QZ829CJEHDVQ
+    affiliationRelation: affrel:branch_of
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Kobukai Berlin says the club is the seat of the Doitsu Shibu; the
+        branch's own site places it in Leer. Affiliated pages only, so probable.
+    hasEvidence:
+      - basedOnSource: 01M7DPSDB4PF7NNA5QZZTGSWP3
+        quotation: In Leer, together with his wife, Izumi Mikami-Rott, he founded a dōjō for Aikidō and Katori Shintō-ryū, the Aiki-Kobudo-Kai Leer e.V., which serves as the headquarters for the German branch of the Sugino Dōjō, the Sugino Dōjō Doitsu Shibu.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1996-11-18'
+  founder:
+    - 01M7DPSDB42QAAVV5P2SV9Z8KJ
+    - 01M7DRBMCW4ZTA2FCA3HMF993X
+  hasEvidence:
+    - basedOnSource: 01M7DRBMCW0TZCHFDHCXBENSDB
+      quotation: 18.11.1996 Gründung des Aiki-Kobudo-Kai Leer e.V. aus der VHS Aikido-Gruppe heraus
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M7DPSDB4PF7NNA5QZZTGSWP3
+      quotation: In Leer, together with his wife, Izumi Mikami-Rott, he founded a dōjō for Aikidō and Katori Shintō-ryū, the Aiki-Kobudo-Kai Leer e.V., which serves as the headquarters for the German branch of the Sugino Dōjō, the Sugino Dōjō Doitsu Shibu.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M7DRBMCWR13W11HQHX1PAQ7R
+    instructor: 01M7DPSDB42QAAVV5P2SV9Z8KJ
+    instructorCapacity: instrcap:head_instructor
+    instructorPeriod:
+      startYear: 1996
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The club's own chronology has him take over the aikido course in August
+        1996 and start Katori Shintō-ryū in October 1996; club page only, so
+        probable.
+    hasEvidence:
+      - basedOnSource: 01M7DRBMCW0TZCHFDHCXBENSDB
+        quotation: August 1996 Übernahme des VHS-Aikido-Kurses durch Ulf Rott als Übungsleiter
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7DRBMCW0TZCHFDHCXBENSDB
+        quotation: Oktober 1996 Beginn mit dem Training von Katori Shinto Ryu in Leer
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:indirect
+description:
+  en: >-
+    Aikido and Katori Shintō-ryū club in Leer, founded in 1996; seat of the
+    Sugino Dojo Doitsu Shibu.
+hasEvidence:
+  - basedOnSource: 01M7DRBMCW0TZCHFDHCXBENSDB
+    quotation: Der Aiki-Kobudo-Kai Leer e.V. ist der älteste Aikido-Verein Ostfrieslands, und der erste Verein in Deutschland, in dem die japanische Schwert und Waffenkunst mit dem Namen Tenshin Shoden Katori Shinto Ryu betrieben wurde.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct

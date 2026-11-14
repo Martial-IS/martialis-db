@@ -1,0 +1,155 @@
+type: Person
+id: 01M7DPSDB42QAAVV5P2SV9Z8KJ
+name:
+  en: Ulf Rott
+nationality:
+  - countryCode: eucountry:DEU
+    wikidata: wd:Q183
+birthEvent:
+  birthDate: '1964-10-01'
+  hasEvidence:
+    - basedOnSource: 01M7DNNQJWQNGHXZ39X086KCYP
+      quotation: October 1, 1964
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Teacher of Tenshin Shōden Katori Shintō-ryū and aikido in Leer; head of
+    the German branch of the Sugino Dojo.
+hasEvidence:
+  - basedOnSource: 01M7DPSDB4PF7NNA5QZZTGSWP3
+    quotation: Katori Shintō-ryū was brought to Germany in 1996 by our teacher, Ulf Rott, following a multi-year stay in Japan.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M7DPSDB4GR6VMXZC6WC8S49J
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TZ
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9T
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Rott's own account (Budo Japan 2022) and his students' club page; no
+        record from the Sugino Dojo, so probable.
+    hasInteraction:
+      - interactionPlace: 01M7DRBMCWKW5ZMRDMJ7WJZYN8
+        interactionPeriod:
+          startYear: 1993
+        hasEvidence:
+          - basedOnSource: 01M7DPSDB4NEX1Q1GQDA5SAXRB
+            quotation: In 1993 I went to Japan to continue the practice of aikido at Aikikai Honbu Dojo. In late summer a Dutch friend asked me to visit the Dojo of Sugino Yoshio o-sensei in Kawasaki. [...] We both signed in and started practicing.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M7DPSDB4PF7NNA5QZZTGSWP3
+            quotation: In Japan, he began his training under Sugino Yoshio Ō-sensei and continues it to this day under Sugino Yukihiro Sensei.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M7DPSDB4JPXEX2VA9VBGCDHS
+    teacher: 01M7DMYF5PQYRR6VW6K9FDZ137
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9T
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Rott names Sugino Yukihiro as his Japan affiliation (Budo Japan 2022);
+        his students' club says he trains under him. No record from the Sugino
+        Dojo, so probable.
+    hasInteraction:
+      - interactionPlace: 01M7DRBMCWKW5ZMRDMJ7WJZYN8
+        hasEvidence:
+          - basedOnSource: 01M7DPSDB4NEX1Q1GQDA5SAXRB
+            quotation: 'Japan affiliation (instructor/organization): Yuishinkai Kawasaki, Sugino Yukihiro, Tenshin Shoden Katori Shinto-ryu Kawasaki Shibu, Aikikai-Honbu'
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M7DPSDB4PF7NNA5QZZTGSWP3
+            quotation: In Japan, he began his training under Sugino Yoshio Ō-sensei and continues it to this day under Sugino Yukihiro Sensei.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M7DPSDB4NBGNSEBS9CQPMWXZ
+    rankStyle: 01KJJAWN29MA64W22606R3WD9T
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 6
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Kobukai Berlin and TAKE give 6th dan; Budo Japan 2022 gives 5th dan,
+        consistent with a later grade. Both pages are his students' clubs, so
+        probable.
+    hasEvidence:
+      - basedOnSource: 01M7DPSDB4PF7NNA5QZZTGSWP3
+        quotation: He currently holds a 6th Dan in Katori Shintō-ryū.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7DRBMCWYMT6B84CKCP1PZ5P
+        quotation: Ulf Rott Shibu-Cho Sugino Dojo Doitsu Shibu, 6. Dan Tenshin Shoden Katori Shinto Ryu
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7DRBMCWD8W5Z9HGYRRR3Z6W
+        quotation: (7. Dan Aikido, Aikikai Shihan – 6. Dan Tenshin Shoden Katori Shinto Ryu)
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7DNNQJWQNGHXZ39X086KCYP
+        quotation: Sensei Ulf currently holds the rank of 6th dan in Katori Shintō-ryū and 6th dan in Aikidō (Aikikai Shihan).
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M7DPSDB43AJC63PRR0H65V38
+    rankStyle: 01KJJAWN29MA64W22606R3WD9R
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 6
+    conferredBy: 01KZ3KA57C6W6FMCWM668Y13X2
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Budo Japan 2022, Kobukai Berlin and TAKE give aikido 6th dan and
+        Aikikai shihan; no date and no Aikikai record, so possible.
+    hasEvidence:
+      - basedOnSource: 01M7DPSDB4NEX1Q1GQDA5SAXRB
+        quotation: Aikido 6 dan shihan
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7DPSDB4PF7NNA5QZZTGSWP3
+        quotation: Furthermore, holding a 6th Dan in Aikidō, he is also a leading instructor in the Aikido Federation Germany and was appointed Shihan by the Aikikai Japan.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7DNNQJWQNGHXZ39X086KCYP
+        quotation: Sensei Ulf currently holds the rank of 6th dan in Katori Shintō-ryū and 6th dan in Aikidō (Aikikai Shihan).
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M7DRBMCWC98RC4BRNZ3P995K
+    rankStyle: 01KJJAWN29MA64W22606R3WD9R
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 7
+    conferredBy: 01KZ3KA57C6W6FMCWM668Y13X2
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Only his own club's teachers page (2026) gives aikido 7th dan with
+        Aikikai shihan; no date and no Aikikai record, so possible.
+    hasEvidence:
+      - basedOnSource: 01M7DRBMCWD8W5Z9HGYRRR3Z6W
+        quotation: (7. Dan Aikido, Aikikai Shihan – 6. Dan Tenshin Shoden Katori Shinto Ryu)
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct

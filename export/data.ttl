@@ -495,6 +495,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/biography>;
         martialis:sourceType            "webpage" .
 
+<https://martial.is/entity/01M7DRBMCWFTDDG50J8RQCPKSB/hasSite/0/location>
+        rdf:type               martialis:GeoRef;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/DEU>;
+        schema:name            "Leer";
+        schema:sameAs          <http://www.wikidata.org/entity/Q15984> .
+
 <https://martial.is/entity/01M1CC980TYXQ77FNJFEVQ25D4/hasContributor/0>
         rdf:type                   martialis:Contributor;
         schema:name                "Grigoris Miliaresis";
@@ -5609,6 +5615,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "The IKO's own history only (lineage tradition); Wikipedia states it indirectly." .
 
+<https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137/birthEvent/hasEvidence/2>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DNNQJWQNGHXZ39X086KCYP>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "December 14, 1937";
+        martialis:supports         true .
+
 <https://martial.is/entity/01KYDB2SWEC7SJWY366NY1APN7/nationality/0>
         rdf:type               martialis:NationalityEntry;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/USA>;
@@ -6111,6 +6125,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:confirmed;
         martialis:confidenceRationale  "Two independent histories state it." .
+
+<https://martial.is/entity/01M7DPSDB4GR6VMXZC6WC8S49J>
+        rdf:type                  martialis:TeacherAssertion;
+        martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9T>;
+        martialis:hasConfidence   <https://martial.is/entity/01M7DPSDB4GR6VMXZC6WC8S49J/hasConfidence>;
+        martialis:hasInteraction  <https://martial.is/entity/01M7DPSDB4GR6VMXZC6WC8S49J/hasInteraction/0>;
+        martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
+        martialis:teacher         <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TZ> .
 
 <https://martial.is/entity/01M5HRXSSAHP35V9Z6VT5B5R61/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -7382,6 +7404,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01KZC4PN01Y3PH3HRWWJPAH82A> .
 
+<https://martial.is/entity/01M7DPSDB4GR6VMXZC6WC8S49J/hasInteraction/0/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DPSDB4NEX1Q1GQDA5SAXRB>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "In 1993 I went to Japan to continue the practice of aikido at Aikikai Honbu Dojo. In late summer a Dutch friend asked me to visit the Dojo of Sugino Yoshio o-sensei in Kawasaki. [...] We both signed in and started practicing.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01KZC19BDCC7XJMQ37YPC8YGPT/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KZBJ73N3NAN91P9EB0427C0V>;
@@ -8415,6 +8445,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:hasEvidence          <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TZ/hasEvidence/8>;
         martialis:hasHonorAssertion    <https://martial.is/entity/01M3YH7N5GSKHD857X85HT20HT>;
         martialis:hasHonorAssertion    <https://martial.is/entity/01M3YH7N5GV7KGMNE18516RC1M>;
+        martialis:hasRankAssertion     <https://martial.is/entity/01M7DRBMCW3225482PXXWC6S67>;
         martialis:hasRankAssertion     <https://martial.is/entity/01M3YH7N5GEJSPV1B7TJ28JVGF>;
         martialis:hasRankAssertion     <https://martial.is/entity/01M3YH7N5G702WN93CSXQ6GAQZ>;
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M3YH7N5G0GR1QN1GF2VM3P3M>;
@@ -8425,7 +8456,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M3YH7N5GMS083DZGJH0V1CSC>;
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M3YH7N5GZTZHAES9CTZ6S5QZ>;
         martialis:primaryImage         <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TZ/image>;
+        martialis:taughtAt             <https://martial.is/entity/01M7DRBMCWKW5ZMRDMJ7WJZYN8>;
         martialis:teaches              <https://martial.is/entity/01M6C5JZZGMGB4KWEY3722R5PD>;
+        martialis:teaches              <https://martial.is/entity/01M7DPSDB42QAAVV5P2SV9Z8KJ>;
+        martialis:teaches              <https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137>;
         martialis:trainedAt            <https://martial.is/entity/01KJJAWN29MA64W22606R3WD86>;
         martialis:trainedAt            <https://martial.is/entity/01KJJAWN29MA64W22606R3WD96>;
         martialis:wasTaughtBy          <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1V5>;
@@ -9204,8 +9238,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         void:classPartition   <https://martial.is/data.ttl#dataset/class/Organization>;
         void:classPartition   <https://martial.is/data.ttl#dataset/class/Event>;
         void:dataDump         <https://martial.is/data.ttl>;
-        void:entities         2923;
-        void:triples          162288;
+        void:entities         2948;
+        void:triples          163477;
         void:uriSpace         "https://martial.is/entity/";
         void:vocabulary       <http://purl.org/ontology/bibo/>;
         void:vocabulary       prov:;
@@ -9813,6 +9847,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         schema:contentUrl           <https://aikidotas.org.au/wp-content/uploads/2023/02/Tony-Smibert-Shihan-225x300.jpg>;
         martialis:imageAttribution  <https://martial.is/entity/01KZ3V4FBA537EFZ5MYMZCHQ6Y/image/imageAttribution> .
 
+<https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DMYF5PWB8AC18SCBAP8294>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "1998年4月6日、父・嘉男師範より唯心館・杉野道場館長を正式に受け継ぐ。";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3YH7N5GR46K8K73JZACJ7NX/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         schema:citation            "O JUDÔ NO RIO DE JANEIRO (Wanderley, 2001)";
@@ -10039,6 +10081,23 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://martial.is/entity/01KZDXQH2MZV48WR0RZ9GKTSN5/hasSite/0>
         rdf:type         martialis:Site;
         schema:location  <https://martial.is/entity/01KZDXQH2MZV48WR0RZ9GKTSN5/hasSite/0/location> .
+
+<https://martial.is/entity/01M7DRBMCW3225482PXXWC6S67>
+        rdf:type                 martialis:RankAssertion;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7DRBMCWHG9DN7E7FQJ4G5SD>;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7DRBMCWYMT6B84CKCP1PZ5P>;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7DNNQJWQNGHXZ39X086KCYP>;
+        martialis:conferredBy    <https://martial.is/entity/01KYND67158B7TAT2KS5M3MK3K>;
+        martialis:dateConferred  "[1981,1982]";
+        martialis:earliestYear   1981;
+        martialis:hasConfidence  <https://martial.is/entity/01M7DRBMCW3225482PXXWC6S67/hasConfidence>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7DRBMCW3225482PXXWC6S67/hasEvidence/0>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7DRBMCW3225482PXXWC6S67/hasEvidence/1>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7DRBMCW3225482PXXWC6S67/hasEvidence/2>;
+        martialis:latestYear     1982;
+        martialis:rankOrdinal    10;
+        martialis:rankSystem     <https://martial.is/entity/01M11K25NF0E7HG8HWVWM2P3FG>;
+        martialis:rankType       <https://w3id.org/martialis/vocab/rank-type/dan> .
 
 <https://martial.is/entity/01M5HN1CX5ASVCSWCXEF9TMME7>
         rdf:type                       martialis:Person;
@@ -10276,6 +10335,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
         martialis:quotation        "Carlos Machado is the eldest of the five famous Machado brothers and was just awarded with his red and white belt, commonly referred to as the coral belt, from all four of his siblings at the same time.";
+        martialis:supports         true .
+
+<https://martial.is/entity/01M7DMYF5PHY92E8PTRNTRARY1/hasInteraction/0/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DMYF5P17JD7RP2KFPFM8J1>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/indirect>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "嘉男氏の四男として生まれ、幼少時から門下生を教える父の姿を見続けてきた。見よう見まねで香取神道流をはじめると、父の弟子たちと戯れながら技を学び[...]";
         martialis:supports         true .
 
 <https://martial.is/entity/01M3YH7N5GSRWG0N3QE3GBKKAR/hasInteraction/0/hasEvidence/0>
@@ -11981,6 +12048,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
 
+<https://martial.is/entity/01M7DRBMCWR13W11HQHX1PAQ7R/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DRBMCW0TZCHFDHCXBENSDB>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "August 1996 Übernahme des VHS-Aikido-Kurses durch Ulf Rott als Übungsleiter";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M0R2X2ACQV39MDYRBGXZX3TY/hasEvidence/4>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M0R2X2ACJEBB34076SRYQ6NP>;
@@ -12024,6 +12099,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:informationType  infotype:secondary;
         martialis:quotation        "Masami Chinen was the last member of the Chinen family to teach the art. Upon the death of Masami Chinen, the Chinen family passed the title of Soke [...] to his student, Chogi Kishaba";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7DPSDB4PF7NNA5QZZTGSWP3/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Kobukai Berlin e.V." .
 
 <https://martial.is/entity/01M6C1ZABVAVTS3JGBS3HB64NB>
         rdf:type                     martialis:Place;
@@ -12764,6 +12843,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:peerReview            <https://w3id.org/martialis/vocab/peer-review/not_peer_reviewed>;
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceType            "entry-encyclopedia" .
+
+<https://martial.is/entity/01M7DP23B03DCSB2385MH4HNCV/hasEvidence/2>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DNNQJWQNGHXZ39X086KCYP>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "He holds 9th dan in Katori Shintō-ryū and 7th dan in aikidō Aikikai.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01KZ6KZZG7EF5YKPPBB4JBV7C2/dissolvedEvent/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -14843,6 +14930,13 @@ void:class  rdf:type  owl:ObjectProperty .
         rdf:type     martialis:Publisher;
         schema:name  "Aikido Journal" .
 
+<https://martial.is/entity/01M7DP23B03DCSB2385MH4HNCV/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:possible;
+        martialis:confidenceRationale  "WEB Hiden, FKSR and TAKE give aikido 7th dan; FKSR and TAKE name the Aikikai. No date and no Aikikai record, so possible." .
+
 <https://martial.is/entity/01KZKY9ZRHFRAABJE96Y1X44PN/dissolvedEvent/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         schema:archivedAt          <https://en.wikipedia.org/w/index.php?title=Armadillo_Aerospace&oldid=1365748887>;
@@ -15108,6 +15202,20 @@ void:class  rdf:type  owl:ObjectProperty .
         martialis:earliestYear  1887;
         martialis:hasEvidence   <https://martial.is/entity/01M07HCGJG0BSRWW7JTNKRH8Y5/birthEvent/hasEvidence/0>;
         martialis:latestYear    1887 .
+
+<https://martial.is/entity/01M7DRBMCW0TZCHFDHCXBENSDB>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://web.archive.org/web/20260717141550/https://www.aikido-ostfriesland.de/?page_id=16>;
+        schema:description              "History page of the Aiki-Kobudo-Kai Leer club, with a dated chronology from 1996."@en;
+        schema:inLanguage               "de";
+        schema:name                     "Dojo - AIKI-KOBUDO-KAI Leer e.V.";
+        schema:publisher                <https://martial.is/entity/01M7DRBMCW0TZCHFDHCXBENSDB/publisher>;
+        schema:url                      <https://www.aikido-ostfriesland.de/?page_id=16>;
+        martialis:accessed              "2026-11-14";
+        martialis:archiveDate           "2026-07-17";
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/history>;
+        martialis:sourceType            "webpage" .
 
 <https://martial.is/entity/01M3YH7N5G18NC3FY5234MR99E/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -16556,6 +16664,17 @@ void:class  rdf:type  owl:ObjectProperty .
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
 
+<https://martial.is/entity/01M7DRBMCW8S69QZ829CJEHDVQ>
+        rdf:type                  martialis:Organization;
+        schema:description        "German branch of the Sugino Dojo, seated at the Aiki-Kobudo-Kai Leer."@en;
+        schema:name               "Sugino Dojo Doitsu Shibu"@en;
+        martialis:hasAffiliationAssertion  <https://martial.is/entity/01M7DRBMCWEHXQWFH5GAYZ8K3H>;
+        martialis:hasEvidence     <https://martial.is/entity/01M7DRBMCW8S69QZ829CJEHDVQ/hasEvidence/0>;
+        martialis:hasOfficerRole  <https://martial.is/entity/01M7DRBMCWY7W37SW5NH9M66S3>;
+        martialis:hasSite         <https://martial.is/entity/01M7DRBMCW8S69QZ829CJEHDVQ/hasSite/0>;
+        martialis:orgType         <https://w3id.org/martialis/vocab/org-classification/school>;
+        martialis:parentOrg       <https://martial.is/entity/01M7DRBMCWQC5VRSSGXX6BZAYC> .
+
 <https://martial.is/entity/01KZXKNZTB7EAY3WWFESHEM8JM/nationality/0>
         rdf:type               martialis:NationalityEntry;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/BEL>;
@@ -17365,6 +17484,14 @@ void:class  rdf:type  owl:ObjectProperty .
         martialis:rankStyle      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9R>;
         martialis:rankSystem     <https://martial.is/entity/01M11K25NF0E7HG8HWVWM2P3FG>;
         martialis:rankType       <https://w3id.org/martialis/vocab/rank-type/dan> .
+
+<https://martial.is/entity/01M7DPSDB4JPXEX2VA9VBGCDHS/hasInteraction/0>
+        rdf:type                    martialis:TeacherInteraction;
+        prov:wasDerivedFrom         <https://martial.is/entity/01M7DPSDB4PF7NNA5QZZTGSWP3>;
+        prov:wasDerivedFrom         <https://martial.is/entity/01M7DPSDB4NEX1Q1GQDA5SAXRB>;
+        martialis:hasEvidence       <https://martial.is/entity/01M7DPSDB4JPXEX2VA9VBGCDHS/hasInteraction/0/hasEvidence/1>;
+        martialis:hasEvidence       <https://martial.is/entity/01M7DPSDB4JPXEX2VA9VBGCDHS/hasInteraction/0/hasEvidence/0>;
+        martialis:interactionPlace  <https://martial.is/entity/01M7DRBMCWKW5ZMRDMJ7WJZYN8> .
 
 <https://martial.is/entity/01M1KJ1TY26C6SAFAX7BRASZPK>
         rdf:type               martialis:Person;
@@ -18774,6 +18901,14 @@ void:class  rdf:type  owl:ObjectProperty .
         schema:startDate        "1977-04-01";
         martialis:earliestYear  1977;
         martialis:latestYear    1977 .
+
+<https://martial.is/entity/01M7DSJ2Y1XGEDT11A5ZCSA2VA/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DSJ2Y1PBZ6GCAD4ZAAEREY>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Reinhardt betreibt selbst Tenshin Shôden Katori Shintô ryû seit 2005 und ist Schüler von Sugino Yukihiro aus Kawasaki, Japan.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M5JCH27MR47ATF5NQF71F894/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -21675,6 +21810,12 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:quotation        "6月には日本空手協会道場に入門し、中山正敏（日本空手協会首席師範）のもと、7月から空手の稽古を始めた。三島は中山に、「私は文士として野垂れ死にはしたくない。少なくとも日本人として、行動を通して〈空〉とか〈無〉というものを把握していきたい」と語ったという。";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7DRBMCW8S69QZ829CJEHDVQ/hasSite/0/location>
+        rdf:type               martialis:GeoRef;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/DEU>;
+        schema:name            "Leer";
+        schema:sameAs          <http://www.wikidata.org/entity/Q15984> .
+
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SZ/deathEvent>
         rdf:type                martialis:DeathEvent;
         schema:location         <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SZ/deathEvent/deathPlace>;
@@ -22776,6 +22917,20 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Wikipedia states Kim was named Black Belt Magazine's Karate Sensei of the Year in 1967" .
 
+<https://martial.is/entity/01M7DRBMCWXV8RFAVY7VGHXPV8>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://web.archive.org/web/20251210183844/https://katorishintoryu.de/katori_wordpress/deutsches-dojo-sugino-dojo-doitsu-shibu/>;
+        schema:description              "Page of the German branch of the Sugino Dojo on its own organisation."@en;
+        schema:inLanguage               "de";
+        schema:name                     "Deutsches Dojo (Sugino Dojo Doitsu Shibu)";
+        schema:publisher                <https://martial.is/entity/01M7DRBMCWXV8RFAVY7VGHXPV8/publisher>;
+        schema:url                      <https://katorishintoryu.de/katori_wordpress/deutsches-dojo-sugino-dojo-doitsu-shibu/>;
+        martialis:accessed              "2026-11-14";
+        martialis:archiveDate           "2025-12-10";
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/history>;
+        martialis:sourceType            "webpage" .
+
 <https://martial.is/entity/01M3YH7N5GYC1909BMDY5AJPXA/hasConfidence>
         rdf:type                       martialis:Confidence;
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
@@ -23382,6 +23537,14 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         schema:startDate        "1877-08-14";
         martialis:earliestYear  1877;
         martialis:latestYear    1877 .
+
+<https://martial.is/entity/01M7DRBMCW8S69QZ829CJEHDVQ/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DRBMCWXV8RFAVY7VGHXPV8>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "Da die von Leer/Ostfriesland ausgehende Verbreitung des Katori Shinto Ryu in Deutschland eine Organisationsform notwendig machte, haben wir uns als Sugino Dojo Doitsu Shibu organisiert und sind als solches eine direkte Zweigstelle des Sugino Dojos in Japan.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1T4/hasEvidence/2>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -26535,6 +26698,14 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         rdf:type     martialis:Publisher;
         schema:name  "Black America Web" .
 
+<https://martial.is/entity/01M7DRBMCWZCP0JZZ02HTAWTJG/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DMYF5P17JD7RP2KFPFM8J1>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "98年には父を継いで２代目館長に就任。";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M5JSGG50F450X1DNSYHTR26M/image>
         rdf:type                    martialis:Photo;
         schema:contentUrl           <https://upload.wikimedia.org/wikipedia/commons/b/bb/FabrisPortrait.jpg>;
@@ -27169,6 +27340,11 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Officially awarded 9 dan by Kodokan in 1984 during the 100th anniversary celebration, well-documented in Wikipedia and other historical sources" .
 
+<https://martial.is/entity/01M7DPSDB42QAAVV5P2SV9Z8KJ/nationality/0>
+        rdf:type               martialis:NationalityEntry;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/DEU>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q183> .
+
 <https://martial.is/entity/01M6BGKGNVC87NFM4JVQ35Y90C/hasConfidence>
         rdf:type                       martialis:Confidence;
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
@@ -27217,6 +27393,21 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         rdf:type               martialis:TeacherInteraction;
         prov:wasDerivedFrom    <https://martial.is/entity/01M6C13E8N9XJPMGPK31D6W0CX>;
         martialis:hasEvidence  <https://martial.is/entity/01M6C1R00515BPXYTVFAA2VQAV/hasInteraction/0/hasEvidence/0> .
+
+<https://martial.is/entity/01M7DNGEY0236AMSFADV4HFT9N>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://web.archive.org/web/20260511094127/https://www.fksr.fr/sugino_yukihiro/>;
+        schema:description              "Biography of Sugino Yukihiro on the site of the French Katori Shinto Ryu federation."@en;
+        schema:inLanguage               "fr";
+        schema:name                     "Biographie de Maître Sugino Yukihiro";
+        schema:publisher                <https://martial.is/entity/01M7DNGEY0236AMSFADV4HFT9N/publisher>;
+        schema:url                      <https://www.fksr.fr/sugino_yukihiro/>;
+        martialis:accessed              "2026-11-14";
+        martialis:archiveDate           "2026-05-11";
+        martialis:hasContributor        <https://martial.is/entity/01M7DNGEY0236AMSFADV4HFT9N/hasContributor/0>;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/biography>;
+        martialis:sourceType            "webpage" .
 
 <https://martial.is/entity/01M5JSGG50V1JFGBGKXYA008D4/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -28142,6 +28333,14 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:hasInstructorRole  <https://martial.is/entity/01M4R9845WAXTWA3CQACRJ9EWZ>;
         martialis:hasSite            <https://martial.is/entity/01M00NPBTP54749WW3KHS1M0HY/hasSite/0>;
         martialis:placeType          <https://w3id.org/martialis/vocab/place-classification/club> .
+
+<https://martial.is/entity/01M7DPSDB4JPXEX2VA9VBGCDHS/hasInteraction/0/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DPSDB4PF7NNA5QZZTGSWP3>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "In Japan, he began his training under Sugino Yoshio Ō-sensei and continues it to this day under Sugino Yukihiro Sensei.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M3YH7N5GABV03ESQFYM8SAN2/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -29559,6 +29758,10 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "American Tang Soo Do incorporates Shito-ryu and Shotokan Karate techniques" .
+
+<https://martial.is/entity/01M7DNNQJWTPFMZSFZCB30GZ3S/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Sugino Yukihiro documentary (YouTube)" .
 
 <https://martial.is/entity/01M6C1FR4A9S3S3D7H3A4TA2T7/birthEvent>
         rdf:type                martialis:BirthEvent;
@@ -31368,6 +31571,14 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:confidenceLevel      conflevel:confirmed;
         martialis:confidenceRationale  "Nelson's own site; Sherdog and Kavanagh agree" .
 
+<https://martial.is/entity/01M7DP23B03DCSB2385MH4HNCV/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DMYF5PWB8AC18SCBAP8294>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "合氣道七段。";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3YH7N5GVPMH9ZS39K3KQS1K>
         rdf:type                 martialis:RankAssertion;
         martialis:dateConferred  "1968-08-14";
@@ -32554,6 +32765,13 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:hasEvidence  <https://martial.is/entity/01M5JTMYPED9VP1M3A171S07T8/hasInteraction/0/hasEvidence/1>;
         martialis:hasEvidence  <https://martial.is/entity/01M5JTMYPED9VP1M3A171S07T8/hasInteraction/0/hasEvidence/0> .
 
+<https://martial.is/entity/01M7DRBMCWKZH7E8SY9VYS9JJK/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:possible;
+        martialis:confidenceRationale  "Only her own club's teachers page, so possible." .
+
 <https://martial.is/entity/01M3YH7N5GCXNTTRB7S5HK9MFR/hasInteraction/0>
         rdf:type                     martialis:TeacherInteraction;
         prov:wasDerivedFrom          <https://martial.is/entity/01KYD5XMNMC3D3DST96C876VKM>;
@@ -32975,6 +33193,13 @@ void:classPartition  rdf:type  owl:ObjectProperty .
 <https://martial.is/entity/01M5HMKR97GXQ1R5GGXYM4GAAF/officerPeriod>
         rdf:type             martialis:TimeInterval;
         martialis:startYear  1967 .
+
+<https://martial.is/entity/01M7DRBMCWZCP0JZZ02HTAWTJG/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:confirmed;
+        martialis:confidenceRationale  "WEB Hiden gives 6 April 1998 and Town News 1998; two independent publications." .
 
 <https://martial.is/entity/01M5HVMXKZB5S591HQD47SQ64K/hasInteraction/0>
         rdf:type               martialis:TeacherInteraction;
@@ -34457,6 +34682,14 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:quotation        "Senior trainee Instructors from Shotokan Karate International Federation General Headquarters in Yotsuya, Tokyo, Japan";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7DP23B03DCSB2385MH4HNCV/hasEvidence/3>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DRBMCWYMT6B84CKCP1PZ5P>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Er erhielt von der International Federation of Nippon Budo den 9. Dan Kobudo und den 7. Dan Aikido durch den Aikikai.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3YH7N5G3X45HGGHQ5R72A0D/hasInteraction/0/interactionPeriod>
         rdf:type             martialis:TimeInterval;
         martialis:endYear    1987;
@@ -35484,6 +35717,10 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         schema:name            "Vienna";
         schema:sameAs          <http://www.wikidata.org/entity/Q1741> .
 
+<https://martial.is/entity/01M7DRBMCWHG9DN7E7FQJ4G5SD/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "唯心館 杉野道場" .
+
 <https://martial.is/entity/01KZXXSBBNFGVZNXMZYH26V3D7/hasEvidence/5>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KJJAWN29MA64W22606R3WDAD>;
@@ -35567,6 +35804,13 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:sourceLocation      "Interview with Kato Takashi";
         martialis:sourceLocatorLabel  "section";
         martialis:supports            true .
+
+<https://martial.is/entity/01M7DRBMCWEHXQWFH5GAYZ8K3H/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "The branch's own site and Kobukai Berlin say it is the German branch of the Sugino Dojo; no statement from the Sugino Dojo, so probable." .
 
 <https://martial.is/entity/01M3YH7N5GRHDPH9VBPD12MHBZ/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -35668,6 +35912,18 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
+
+<https://martial.is/entity/01M7DRBMCWFTDDG50J8RQCPKSB/foundedEvent>
+        rdf:type                martialis:FoundingEvent;
+        prov:wasDerivedFrom     <https://martial.is/entity/01M7DRBMCW0TZCHFDHCXBENSDB>;
+        prov:wasDerivedFrom     <https://martial.is/entity/01M7DPSDB4PF7NNA5QZZTGSWP3>;
+        schema:startDate        "1996-11-18";
+        martialis:earliestYear  1996;
+        martialis:founder       <https://martial.is/entity/01M7DRBMCW4ZTA2FCA3HMF993X>;
+        martialis:founder       <https://martial.is/entity/01M7DPSDB42QAAVV5P2SV9Z8KJ>;
+        martialis:hasEvidence   <https://martial.is/entity/01M7DRBMCWFTDDG50J8RQCPKSB/foundedEvent/hasEvidence/0>;
+        martialis:hasEvidence   <https://martial.is/entity/01M7DRBMCWFTDDG50J8RQCPKSB/foundedEvent/hasEvidence/1>;
+        martialis:latestYear    1996 .
 
 <https://martial.is/entity/01M3YH7N5GDYP18GADKRBN1ZJ7>
         rdf:type                 martialis:RankAssertion;
@@ -36125,6 +36381,14 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "One authored history." .
 
+<https://martial.is/entity/01M7DPSDB42QAAVV5P2SV9Z8KJ/birthEvent/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DNNQJWQNGHXZ39X086KCYP>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "October 1, 1964";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M4R6M024J3JE3QFRE8N6B18K/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Wikimedia Foundation" .
@@ -36204,6 +36468,13 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/history>;
         martialis:sourceType            "webpage" .
+
+<https://martial.is/entity/01M7DRBMCWR13W11HQHX1PAQ7R/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "The club's own chronology has him take over the aikido course in August 1996 and start Katori Shintō-ryū in October 1996; club page only, so probable." .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD65/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -38041,6 +38312,23 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "1952, December 10: Member of the International Judo Federation";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7DP23B03DCSB2385MH4HNCV>
+        rdf:type                 martialis:RankAssertion;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7DNGEY0236AMSFADV4HFT9N>;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7DRBMCWYMT6B84CKCP1PZ5P>;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7DNNQJWQNGHXZ39X086KCYP>;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7DMYF5PWB8AC18SCBAP8294>;
+        martialis:conferredBy    <https://martial.is/entity/01KZ3KA57C6W6FMCWM668Y13X2>;
+        martialis:hasConfidence  <https://martial.is/entity/01M7DP23B03DCSB2385MH4HNCV/hasConfidence>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7DP23B03DCSB2385MH4HNCV/hasEvidence/2>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7DP23B03DCSB2385MH4HNCV/hasEvidence/0>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7DP23B03DCSB2385MH4HNCV/hasEvidence/3>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7DP23B03DCSB2385MH4HNCV/hasEvidence/1>;
+        martialis:rankOrdinal    7;
+        martialis:rankStyle      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9R>;
+        martialis:rankSystem     <https://martial.is/entity/01M11K25NF0E7HG8HWVWM2P3FG>;
+        martialis:rankType       <https://w3id.org/martialis/vocab/rank-type/dan> .
 
 <https://martial.is/entity/01M5JSGG50JG4SFMEP1SZNZYA5/nationality/0>
         rdf:type               martialis:NationalityEntry;
@@ -40545,6 +40833,23 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "The Chichibu hall carries the Meishin name and is listed as part of the Takano Sasaburo historic site. Its place in the Meishinkan follows from that, not from a direct statement." .
 
+<https://martial.is/entity/01M7DSJ2Y1PBZ6GCAD4ZAAEREY>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://web.archive.org/web/20220819201403/https://hoploblog.wordpress.com/2012/04/04/sieben-fragen-an-michael-reinhardt/>;
+        schema:datePublished            "2012-04-04";
+        schema:description              "Written interview with Michael Reinhardt on his blog, his training in Japan and his teachers."@en;
+        schema:inLanguage               "de";
+        schema:name                     "Sieben Fragen an Michael Reinhardt";
+        schema:publisher                <https://martial.is/entity/01M7DSJ2Y1PBZ6GCAD4ZAAEREY/publisher>;
+        schema:url                      <https://hoploblog.wordpress.com/2012/04/04/sieben-fragen-an-michael-reinhardt/>;
+        martialis:accessed              "2026-11-14";
+        martialis:archiveDate           "2022-08-19";
+        martialis:earliestYear          2012;
+        martialis:latestYear            2012;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/interview>;
+        martialis:sourceType            "interview" .
+
 <https://martial.is/entity/01M3YH7N5GR0816Y53SP740VJ7/hasConfidence>
         rdf:type                       martialis:Confidence;
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
@@ -40675,6 +40980,10 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
         schema:contentUrl           <https://upload.wikimedia.org/wikipedia/commons/e/ec/Firas_Zahabi.png>;
         martialis:imageAttribution  <https://martial.is/entity/01KYSNKBS7T4VMBNKEXV23RB0D/image/imageAttribution>;
         martialis:mediaRights       <https://w3id.org/martialis/vocab/media-rights/cc-by-3.0> .
+
+<https://martial.is/entity/01M7DNGEY0236AMSFADV4HFT9N/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Fédération de Katori Shinto Ryu (FKSR)" .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SB/image/imageAttribution>
         rdf:type                 martialis:Attribution;
@@ -41560,6 +41869,12 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
 <https://martial.is/entity/01KZKYMMAG9ERZ5J85WS67BH9A/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Hiden (BAB Japan)" .
+
+<https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137/image>
+        rdf:type                    martialis:Photo;
+        schema:contentUrl           <https://www.fksr.fr/wp-content/uploads/2023/06/sugino-yukihiro-2009-monsuki.jpg>;
+        martialis:imageAttribution  <https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137/image/imageAttribution>;
+        martialis:mediaRights       <https://w3id.org/martialis/vocab/media-rights/in_copyright> .
 
 <https://martial.is/entity/01KYZFG5QVJD0573TSS37AH5ZK>
         rdf:type                       martialis:Person;
@@ -42511,6 +42826,14 @@ void:Dataset  rdf:type  owl:Class .
         martialis:quotation        "Due to Kanō's intense practice and his solid grounding in the jūjutsu taught by Fukuda, Kanō became an assistant instructor at Iso's school.";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7DPSDB43AJC63PRR0H65V38/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DPSDB4NEX1Q1GQDA5SAXRB>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "Aikido 6 dan shihan";
+        martialis:supports         true .
+
 <https://martial.is/entity/01KZ6XT5DS22VFPB2BDXBVJ2A0>
         rdf:type                        martialis:Source;
         schema:archivedAt               <https://en.wikipedia.org/w/index.php?title=Kiyoshi_Nakakura&oldid=1334922728>;
@@ -42751,6 +43074,14 @@ void:Dataset  rdf:type  owl:Class .
         martialis:trainedAt            <https://martial.is/entity/01KJJAWN29MA64W22606R3WD8E>;
         martialis:wasTaughtBy          <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SR>;
         martialis:wasTaughtBy          <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6P> .
+
+<https://martial.is/entity/01M7DNNQJWCRG9BKVEJ84N4T9P/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DMYF5PWB8AC18SCBAP8294>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "古武道範士九段・天真正伝香取神道流免許皆伝。";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M0QCH9A4R6FMNQMVNZS6HNKK/image/imageAttribution>
         rdf:type                   martialis:Attribution;
@@ -43457,6 +43788,14 @@ void:Dataset  rdf:type  owl:Class .
         martialis:quotation        "大正2年（1913年）、大日本武徳会から範士号を授与された。範士は60歳以上との決まりがあったが、門奈正（59歳）、内藤高治（52歳）、高野佐三郎（52歳）は特例での授与となった。";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7DPSDB4NBGNSEBS9CQPMWXZ/hasEvidence/2>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DRBMCWD8W5Z9HGYRRR3Z6W>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "(7. Dan Aikido, Aikikai Shihan – 6. Dan Tenshin Shoden Katori Shinto Ryu)";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3YH7N5GK262EQCV66RB8AN6/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KYYVEV2MEXM7XK17S83NWQS4>;
@@ -43615,6 +43954,21 @@ void:Dataset  rdf:type  owl:Class .
         martialis:hasEvidence          <https://martial.is/entity/01M3YH7N5F9GV5DYDX69NZYWKP/hasEvidence/0>;
         martialis:relatedOrganization  <https://martial.is/entity/01KZYBPHEFDQWJV578KM4WJHP7>;
         martialis:validDuring          <https://martial.is/entity/01M3YH7N5F9GV5DYDX69NZYWKP/validDuring> .
+
+<https://martial.is/entity/01M7DPSDB43AJC63PRR0H65V38>
+        rdf:type                 martialis:RankAssertion;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7DPSDB4PF7NNA5QZZTGSWP3>;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7DPSDB4NEX1Q1GQDA5SAXRB>;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7DNNQJWQNGHXZ39X086KCYP>;
+        martialis:conferredBy    <https://martial.is/entity/01KZ3KA57C6W6FMCWM668Y13X2>;
+        martialis:hasConfidence  <https://martial.is/entity/01M7DPSDB43AJC63PRR0H65V38/hasConfidence>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7DPSDB43AJC63PRR0H65V38/hasEvidence/0>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7DPSDB43AJC63PRR0H65V38/hasEvidence/2>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7DPSDB43AJC63PRR0H65V38/hasEvidence/1>;
+        martialis:rankOrdinal    6;
+        martialis:rankStyle      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9R>;
+        martialis:rankSystem     <https://martial.is/entity/01M11K25NF0E7HG8HWVWM2P3FG>;
+        martialis:rankType       <https://w3id.org/martialis/vocab/rank-type/dan> .
 
 <https://martial.is/entity/01M5HN921CGBRZQ6PAFWX4PWMK>
         rdf:type                  martialis:TeacherAssertion;
@@ -44334,6 +44688,14 @@ void:Dataset  rdf:type  owl:Class .
         martialis:quotation        "Katsuya Miyahira (宮平 勝哉, Miyahira Katsuya; 1918–2010) was an Okinawan martial artist who was the grand master of the Shorin-ryu Shido-kan style of Okinawan Karate [...] Miyahira created the Shido-kan branch of Kobayashi Shorin-ryu after the death of his teacher, Chōshin Chibana.";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7DNNQJWCRG9BKVEJ84N4T9P/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DNGEY0236AMSFADV4HFT9N>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Il a reçu en héritage le dojo de son père et sa charge, et a été nommé 9ème dan Hanshi de NIHON KOBUDO par la DAI NIPPON BUTOKUKAI.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3YH7N5G28S7QWHRSBHXG4F9/hasInteraction/0/hasEvidence/2>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KZ9TQS3VAWWWZRSQE53DB0DS>;
@@ -44384,6 +44746,18 @@ void:Dataset  rdf:type  owl:Class .
         rdf:type               martialis:NationalityEntry;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/CAN>;
         schema:sameAs          <http://www.wikidata.org/entity/Q16> .
+
+<https://martial.is/entity/01M7DRBMCW4ZTA2FCA3HMF993X>
+        rdf:type                       martialis:Person;
+        schema:description             "Teacher of Tenshin Shōden Katori Shintō-ryū at the Aiki-Kobudo-Kai Leer, which she co-founded with Ulf Rott."@en;
+        schema:name                    "Izumi Mikami-Rott"@en;
+        schema:nationality             <https://martial.is/entity/01M7DRBMCW4ZTA2FCA3HMF993X/nationality/0>;
+        martialis:hasEvidence          <https://martial.is/entity/01M7DRBMCW4ZTA2FCA3HMF993X/hasEvidence/1>;
+        martialis:hasEvidence          <https://martial.is/entity/01M7DRBMCW4ZTA2FCA3HMF993X/hasEvidence/0>;
+        martialis:hasRankAssertion     <https://martial.is/entity/01M7DRBMCWKZH7E8SY9VYS9JJK>;
+        martialis:hasRankAssertion     <https://martial.is/entity/01M7DRBMCWAP2XGHHD1911B4DD>;
+        martialis:hasTeacherAssertion  <https://martial.is/entity/01M7DRBMCWPABCDT98MKB5R16F>;
+        martialis:trainedAt            <https://martial.is/entity/01M7DRBMCWKW5ZMRDMJ7WJZYN8> .
 
 <https://martial.is/entity/01M3YH7N5GMAS7YZ90G3RD2TXR/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -46665,6 +47039,14 @@ dcat:landingPage  rdf:type  owl:ObjectProperty .
         martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/biography>;
         martialis:sourceType            "article" .
 
+<https://martial.is/entity/01M7DPSDB42QAAVV5P2SV9Z8KJ/birthEvent>
+        rdf:type                martialis:BirthEvent;
+        prov:wasDerivedFrom     <https://martial.is/entity/01M7DNNQJWQNGHXZ39X086KCYP>;
+        schema:startDate        "1964-10-01";
+        martialis:earliestYear  1964;
+        martialis:hasEvidence   <https://martial.is/entity/01M7DPSDB42QAAVV5P2SV9Z8KJ/birthEvent/hasEvidence/0>;
+        martialis:latestYear    1964 .
+
 <https://martial.is/entity/01M3YH7N5GDNF0TH2GMCTGZT9M/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M3JB095VY9W0ZX6X14MDHDKH>;
@@ -46729,6 +47111,11 @@ dcat:landingPage  rdf:type  owl:ObjectProperty .
         martialis:sourceLocation      "369";
         martialis:sourceLocatorLabel  "page";
         martialis:supports            false .
+
+<https://martial.is/entity/01M7DSJ2Y1XGEDT11A5ZCSA2VA/image/imageAttribution>
+        rdf:type                   martialis:Attribution;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DSJ2Y12FM440R0K96HMB9T>;
+        martialis:informationType  infotype:secondary .
 
 <https://martial.is/entity/01KZW2JNB8J3NP7H88X0NKCXK5/deathEvent/deathPlace>
         rdf:type               martialis:GeoRef;
@@ -47320,6 +47707,11 @@ dcat:landingPage  rdf:type  owl:ObjectProperty .
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01M5HNGWYJKNBH3DYT18G4CAPY> .
 
+<https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137/image/imageAttribution>
+        rdf:type                   martialis:Attribution;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DNGEY0236AMSFADV4HFT9N>;
+        martialis:informationType  infotype:secondary .
+
 <https://martial.is/entity/01KZGKX1Y1KNMV50KNC32AD871/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "World Matsubayashi-ryu Karate-do Association (matsubayashi-ryu.com)" .
@@ -47465,6 +47857,10 @@ dcat:landingPage  rdf:type  owl:ObjectProperty .
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
+
+<https://martial.is/entity/01M7DRBMCWXV8RFAVY7VGHXPV8/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Sugino Dojo Doitsu Shibu" .
 
 <https://martial.is/entity/01M5H6JAFS62XCKANF788SQ298/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -50629,6 +51025,14 @@ void:triples  rdf:type  owl:DatatypeProperty .
         martialis:wasTaughtBy          <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TH>;
         martialis:wasTaughtBy          <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TP> .
 
+<https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137/hasEvidence/3>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DNGEY0236AMSFADV4HFT9N>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Il a obtenu l’accord du SOKE de Katori Shintō ryū, M. IIZASA Yasusada, pour perpétuer le style d’enseignement de son père, enseigné sans discontinuité depuis plus de 60 ans.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3YH7N5GG86YZTNG1P914G9Z/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KZC8XAP84R46V20056YWKJ1F>;
@@ -51299,6 +51703,25 @@ void:entities  rdf:type  owl:DatatypeProperty .
 <https://martial.is/entity/01M5JPY6FNWFEV6TVW8N3FT1GE/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Wikimedia Foundation" .
+
+<https://martial.is/entity/01M7DMYF5PNNPGSSJZRX6T6F74>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://web.archive.org/web/20240712205123/https://ejmas.com/tin/2006tin/tinart_Reid_0406.html>;
+        schema:datePublished            "2006-04";
+        schema:description              "Corey Reid's account of training at the Sugino Dojo in Kawasaki from 1993, first published without credit in The Iaido Newsletter in 1998."@en;
+        schema:inLanguage               "en";
+        schema:name                     "Sugino Dojo: Studying Katori Shinto Ryu in Japan";
+        schema:publisher                <https://martial.is/entity/01M7DMYF5PNNPGSSJZRX6T6F74/publisher>;
+        schema:url                      <https://ejmas.com/tin/2006tin/tinart_Reid_0406.html>;
+        martialis:accessed              "2026-11-14";
+        martialis:archiveDate           "2024-07-12";
+        martialis:earliestYear          2006;
+        martialis:hasContributor        <https://martial.is/entity/01M7DMYF5PNNPGSSJZRX6T6F74/hasContributor/0>;
+        martialis:latestYear            2006;
+        martialis:partOf                <https://martial.is/entity/01M6C5JZZG7NYYF192J9P91MYW>;
+        martialis:peerReview            <https://w3id.org/martialis/vocab/peer-review/not_peer_reviewed>;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceType            "article-journal" .
 
 <https://martial.is/entity/01M3YH7N5GSGSEB74WH0RXXZV4>
         rdf:type                 martialis:RankAssertion;
@@ -53065,6 +53488,14 @@ void:entities  rdf:type  owl:DatatypeProperty .
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Single source." .
 
+<https://martial.is/entity/01M7DRBMCWEHXQWFH5GAYZ8K3H/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DPSDB4PF7NNA5QZZTGSWP3>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "In Leer, together with his wife, Izumi Mikami-Rott, he founded a dōjō for Aikidō and Katori Shintō-ryū, the Aiki-Kobudo-Kai Leer e.V., which serves as the headquarters for the German branch of the Sugino Dōjō, the Sugino Dōjō Doitsu Shibu.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M4R9845WPVV6CY14FYE246T2/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M3M3T743KNJ71CN2ZMC6Y3V0>;
@@ -53636,6 +54067,18 @@ void:entities  rdf:type  owl:DatatypeProperty .
         rdf:type                    martialis:Photo;
         schema:contentUrl           <https://www.aikishurendojo.org/imagens/tristan_sensei.jpg>;
         martialis:imageAttribution  <https://martial.is/entity/01KZ1Y9KD1XVWDH5MWHBPWC25B/image/imageAttribution> .
+
+<https://martial.is/entity/01M7DRBMCWFTDDG50J8RQCPKSB>
+        rdf:type                     martialis:Place;
+        schema:alternateName         "Aiki-Dojo Leer"@de;
+        schema:description           "Aikido and Katori Shintō-ryū club in Leer, founded in 1996; seat of the Sugino Dojo Doitsu Shibu."@en;
+        schema:name                  "Aiki-Kobudo-Kai Leer e.V."@de;
+        martialis:foundedEvent       <https://martial.is/entity/01M7DRBMCWFTDDG50J8RQCPKSB/foundedEvent>;
+        martialis:hasAffiliationAssertion  <https://martial.is/entity/01M7DRBMCWMWWBM44F2DVWZ3H1>;
+        martialis:hasEvidence        <https://martial.is/entity/01M7DRBMCWFTDDG50J8RQCPKSB/hasEvidence/0>;
+        martialis:hasInstructorRole  <https://martial.is/entity/01M7DRBMCWR13W11HQHX1PAQ7R>;
+        martialis:hasSite            <https://martial.is/entity/01M7DRBMCWFTDDG50J8RQCPKSB/hasSite/0>;
+        martialis:placeType          <https://w3id.org/martialis/vocab/place-classification/club> .
 
 <https://martial.is/entity/01M6EHHZQ63G0SAPZJY6B84KSE/hasInteraction/0/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -54555,6 +54998,10 @@ void:entities  rdf:type  owl:DatatypeProperty .
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary .
 
+<https://martial.is/entity/01M7DPSDB4GR6VMXZC6WC8S49J/hasInteraction/0/interactionPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:startYear  1993 .
+
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD96>
         rdf:type               martialis:Place;
         schema:name            "Keiō Gijuku Daigaku"@ja-Latn;
@@ -55133,6 +55580,13 @@ void:entities  rdf:type  owl:DatatypeProperty .
         schema:url                 <https://commons.wikimedia.org/wiki/File:Herakles_Farnese_MAN_Napoli_Inv6001_n01.jpg>;
         martialis:informationType  infotype:secondary .
 
+<https://martial.is/entity/01M7DPSDB43AJC63PRR0H65V38/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:possible;
+        martialis:confidenceRationale  "Budo Japan 2022, Kobukai Berlin and TAKE give aikido 6th dan and Aikikai shihan; no date and no Aikikai record, so possible." .
+
 <https://martial.is/entity/01M36Q2Z6YN3FY5BB7EHHXEDXS>
         rdf:type                    martialis:Event;
         schema:about                <https://martial.is/entity/01KYHNJKQDTEJ1A5MQ5JYPHDTB>;
@@ -55148,6 +55602,14 @@ void:entities  rdf:type  owl:DatatypeProperty .
         martialis:hasEvidence       <https://martial.is/entity/01M36Q2Z6YN3FY5BB7EHHXEDXS/hasEvidence/0>;
         martialis:hasParticipation  <https://martial.is/entity/01M3YH7N5F24BGWNZ0Q1CM65AS>;
         martialis:latestYear        1885 .
+
+<https://martial.is/entity/01M7DRBMCWR13W11HQHX1PAQ7R/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DRBMCW0TZCHFDHCXBENSDB>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/indirect>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "Oktober 1996 Beginn mit dem Training von Katori Shinto Ryu in Leer";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M0SP452BKR35VRZPBV25KRV5/publisher>
         rdf:type     martialis:Publisher;
@@ -55549,6 +56011,16 @@ void:entities  rdf:type  owl:DatatypeProperty .
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:confirmed;
         martialis:confidenceRationale  "Independent sources state it." .
+
+<https://martial.is/entity/01M7DRBMCWKZH7E8SY9VYS9JJK>
+        rdf:type                 martialis:RankAssertion;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7DRBMCWD8W5Z9HGYRRR3Z6W>;
+        martialis:hasConfidence  <https://martial.is/entity/01M7DRBMCWKZH7E8SY9VYS9JJK/hasConfidence>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7DRBMCWKZH7E8SY9VYS9JJK/hasEvidence/0>;
+        martialis:rankOrdinal    5;
+        martialis:rankStyle      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9T>;
+        martialis:rankSystem     <https://martial.is/entity/01M11K25NF0E7HG8HWVWM2P3FG>;
+        martialis:rankType       <https://w3id.org/martialis/vocab/rank-type/dan> .
 
 <https://martial.is/entity/01KZ6KZZG7V91ESSAZJ145TN4E/hasSite/0>
         rdf:type         martialis:Site;
@@ -56488,6 +56960,11 @@ dcat:mediaType  rdf:type  owl:ObjectProperty .
         rdf:type               martialis:NationalityEntry;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/USA>;
         schema:sameAs          <http://www.wikidata.org/entity/Q30> .
+
+<https://martial.is/entity/01M7DSJ2Y1XGEDT11A5ZCSA2VA/nationality/0>
+        rdf:type               martialis:NationalityEntry;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/DEU>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q183> .
 
 <https://martial.is/entity/01KYSNKBS9J3KZDNJ437DJSRGG/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -57597,6 +58074,20 @@ dcat:mediaType  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "四世（五世？）　滝野貞高（滝野専右衛門、滝野遊軒）。滝野の代に起倒流の全盛期を迎える。";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7DPSDB4PF7NNA5QZZTGSWP3>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://web.archive.org/web/20260809072527/https://katori-berlin.de/en/the-sugino-dojo/>;
+        schema:description              "Page of a Berlin Katori Shintō-ryū club of the Sugino line on the Sugino Dojo, its heads and its German branch under Ulf Rott."@en;
+        schema:inLanguage               "en";
+        schema:name                     "The Sugino Dōjō";
+        schema:publisher                <https://martial.is/entity/01M7DPSDB4PF7NNA5QZZTGSWP3/publisher>;
+        schema:url                      <https://katori-berlin.de/en/the-sugino-dojo/>;
+        martialis:accessed              "2026-11-14";
+        martialis:archiveDate           "2026-08-09";
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/history>;
+        martialis:sourceType            "webpage" .
 
 <https://martial.is/entity/01M64QW2FN93T116BQEG7DSJZ3/image>
         rdf:type                    martialis:Photo;
@@ -58787,6 +59278,11 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:primaryImage          <https://martial.is/entity/01M64QW2FNG1A5063Z5D7Y8B1D/image>;
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceType            "website" .
+
+<https://martial.is/entity/01M7DSJ2Y12FM440R0K96HMB9T/hasContributor/0>
+        rdf:type                   martialis:Contributor;
+        schema:name                "Grigoris Miliaresis";
+        martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5H64D94XQ38Q6APERWANDZB/hasInteraction/0>
         rdf:type               martialis:TeacherInteraction;
@@ -60874,6 +61370,26 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:quotation        "Felix De Smedt (16 August 1923, Schelle, Belgium – 2 August 2012, Mechelen, Belgium)";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7DSJ2Y12FM440R0K96HMB9T>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://web.archive.org/web/20260515011739/https://budojapan.com/aiki-jujutsu/20230620btp/>;
+        schema:datePublished            "2023";
+        schema:description              "Summary of a panel on budo tourism with three non-Japanese budoka living in Japan: Lance Gatling, Sandro Furzi and Michael Reinhardt."@en;
+        schema:inLanguage               "en";
+        schema:name                     "Budo tourism: what do the budoka think? A conversation between Lance Gatling, Sandro Furzi and Michael Reinhardt";
+        schema:publisher                <https://martial.is/entity/01M7DSJ2Y12FM440R0K96HMB9T/publisher>;
+        schema:url                      <https://budojapan.com/aiki-jujutsu/20230620btp/>;
+        martialis:accessed              "2026-11-14";
+        martialis:archiveDate           "2026-05-15";
+        martialis:earliestYear          2023;
+        martialis:hasContributor        <https://martial.is/entity/01M7DSJ2Y12FM440R0K96HMB9T/hasContributor/0>;
+        martialis:latestYear            2023;
+        martialis:partOf                <https://martial.is/entity/01M0DCY9PE1SCD7NJPVEJ737PA>;
+        martialis:peerReview            <https://w3id.org/martialis/vocab/peer-review/not_peer_reviewed>;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/interview>;
+        martialis:sourceType            "article-magazine" .
+
 <https://martial.is/entity/01M3YH7N5GQ9JPG3W1BTN71327/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KXTSQXW6P83R31HCRY2PRTAV>;
@@ -61561,6 +62077,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:sourceLocation      "128-167";
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
+
+<https://martial.is/entity/01M7DRBMCWFTDDG50J8RQCPKSB/foundedEvent/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DRBMCW0TZCHFDHCXBENSDB>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "18.11.1996 Gründung des Aiki-Kobudo-Kai Leer e.V. aus der VHS Aikido-Gruppe heraus";
+        martialis:supports         true .
 
 <https://martial.is/entity/01KXTSQXW6P83R31HCRY2PRTBJ>
         rdf:type                        martialis:Source;
@@ -62664,6 +63188,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "JA Wikipedia records Tani as 2nd dan (二段) of Handa Yataro's Daito-ryu jujutsu." .
 
+<https://martial.is/entity/01M7DRBMCWZCP0JZZ02HTAWTJG/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DMYF5PWB8AC18SCBAP8294>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "1998年4月6日、父・嘉男師範より唯心館・杉野道場館長を正式に受け継ぐ。";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M5JRHX02ACK2THSZ3WRA274V>
         rdf:type                     martialis:StyleRelationAssertion;
         prov:wasDerivedFrom          <https://martial.is/entity/01M5G930MN1VM84DEZNGEZP48E>;
@@ -63167,6 +63699,12 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:primary;
         martialis:quotation        "Mr. Georges Stobbaerts, Aikido Hanshi, Representative of Portugal";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7DRBMCWKW5ZMRDMJ7WJZYN8/hasSite/0/location>
+        rdf:type               martialis:GeoRef;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
+        schema:name            "Kawasaki";
+        schema:sameAs          <http://www.wikidata.org/entity/Q164234> .
 
 <https://martial.is/entity/01M3YH7N5G8QSMMW2SEQ057TAC/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -64291,6 +64829,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:instructorPeriod    <https://martial.is/entity/01M6A2JTJP94YR0NFD12BD81PV/instructorPeriod>;
         martialis:instructorStyle     <https://martial.is/entity/01M6A2JTHSG7FHK01NCS2SN3FD> .
 
+<https://martial.is/entity/01M7DRBMCWC98RC4BRNZ3P995K/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DRBMCWD8W5Z9HGYRRR3Z6W>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "(7. Dan Aikido, Aikikai Shihan – 6. Dan Tenshin Shoden Katori Shinto Ryu)";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M69YRP0Z8E43Y2P0FGMR1CC4/foundedEvent/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
         martialis:basedOnSource       <https://martial.is/entity/01M69VJBQCHMMFMBTHKD733P9H>;
@@ -64449,6 +64995,10 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:primary;
         martialis:supports         true .
+
+<https://martial.is/entity/01M7DRBMCW0TZCHFDHCXBENSDB/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Aiki-Kobudo-Kai Leer e.V." .
 
 <https://martial.is/entity/01M3YH7N5G0F31GR11JAPJWGNR/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -64760,6 +65310,21 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         schema:familyName          "Stevens";
         schema:givenName           "John";
         martialis:contributorRole  "author" .
+
+<https://martial.is/entity/01M7DRBMCWHG9DN7E7FQJ4G5SD>
+        rdf:type                        martialis:Source;
+        schema:alternateName            "指導者 Teachers | 唯心館 杉野道場 (Sugino Dojo)";
+        schema:archivedAt               <https://web.archive.org/web/20250717194100/https://suginodojo.localinfo.jp/pages/928276/sugino>;
+        schema:description              "Sugino Dojo page on its founder Sugino Yoshio, with a dated chronology."@en;
+        schema:inLanguage               "ja";
+        schema:name                     "指導者 Teachers | 唯心館 杉野道場 (Sugino Dojo)";
+        schema:publisher                <https://martial.is/entity/01M7DRBMCWHG9DN7E7FQJ4G5SD/publisher>;
+        schema:url                      <https://suginodojo.localinfo.jp/pages/928276/sugino>;
+        martialis:accessed              "2026-11-14";
+        martialis:archiveDate           "2025-07-17";
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/biography>;
+        martialis:sourceType            "webpage" .
 
 <https://martial.is/entity/01KZW2JNB8NH2ZZDYW1RNPGE52/birthEvent/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -67064,6 +67629,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
 
+<https://martial.is/entity/01M7DSJ2Y158AZDNKTTKZ970ZX/hasInteraction/0/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DSJ2Y1PBZ6GCAD4ZAAEREY>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "Mein Lehrer hier in Japan in der Shintô ryû ist Sugino Yukihiro-sensei, Sohn von Sugino Yoshio-sensei, einem der berühmtesten Lehrer für Kampfkunst des letzten Jahrhunderts.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01KZBXACW0REMTPYNSM6B5QQAQ/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KZC8XAP8GPNNGN78EYQNYZF9>;
@@ -67133,6 +67706,11 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "Foi aluno do Prof Gérard Obélianne entre 1971 e 1973.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7DSJ2Y1499EK1HCPQWKD729/hasContributor/0>
+        rdf:type                   martialis:Contributor;
+        schema:name                "Reinhardt, Michael";
+        martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M6BGKGNV7K6N3D9B4NBTVK91/hasInteraction/0/hasEvidence/1>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -68218,6 +68796,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
 
+<https://martial.is/entity/01M7DSJ2Y1XGEDT11A5ZCSA2VA/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DSJ2Y12FM440R0K96HMB9T>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Michael Reinhardt from Germany";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M6BFF6ZQX0D5J1DB52CSD392/foundedEvent/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         schema:archivedAt          <https://en.wikipedia.org/w/index.php?title=Tenjin_Shin%27y%C5%8D-ry%C5%AB&oldid=813778759>;
@@ -68660,6 +69246,13 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "高野佐三郎，祖父の明信社を明信館と改める。以後千葉，群馬，神奈川，茨城，東京に分館を設立。";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7DPSDB4JPXEX2VA9VBGCDHS/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "Rott names Sugino Yukihiro as his Japan affiliation (Budo Japan 2022); his students' club says he trains under him. No record from the Sugino Dojo, so probable." .
 
 <https://martial.is/entity/01M37JTCRFDVEE68RGVPFQQX9S/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -71731,6 +72324,10 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Judo Canada's own history only." .
 
+<https://martial.is/entity/01M7DRBMCWZCP0JZZ02HTAWTJG/officerPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:startYear  1998 .
+
 <https://martial.is/entity/01M64QW2FNC26YZGN3XR3ZVPV6>
         rdf:type                        martialis:Source;
         schema:description              "Memorial website for Saito Morihiro (1928-2002), 9th dan aikido shihan, with informal photos and memories shared by his students and friends."@en;
@@ -72353,6 +72950,10 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 <https://martial.is/entity/01M3YH7N5G36VYXBQ0ER9Z4VZQ/hasInteraction/0>
         rdf:type               martialis:TeacherInteraction;
         martialis:hasEvidence  <https://martial.is/entity/01M3YH7N5G36VYXBQ0ER9Z4VZQ/hasInteraction/0/hasEvidence/0> .
+
+<https://martial.is/entity/01M7DRBMCWQC5VRSSGXX6BZAYC/hasSite/0>
+        rdf:type         martialis:Site;
+        schema:location  <https://martial.is/entity/01M7DRBMCWQC5VRSSGXX6BZAYC/hasSite/0/location> .
 
 <https://martial.is/entity/01M3YH7N5GRZMZ6KWAQHSXAS82/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -75109,6 +75710,11 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:wasTaughtBy          <https://martial.is/entity/01KZBXACW0REMTPYNSM6B5QQAQ>;
         martialis:wasTaughtBy          <https://martial.is/entity/01KZBSVN57GV3AM5RWE4CB1WT8>;
         martialis:wasTaughtBy          <https://martial.is/entity/01KZBXJZ7V5PG3GYDPT46AD1PM> .
+
+<https://martial.is/entity/01M7DNGEY0236AMSFADV4HFT9N/hasContributor/0>
+        rdf:type                   martialis:Contributor;
+        schema:name                "Fédération de Katori Shinto Ryu";
+        martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KZ6KZZG7DK3DDAYW3T05NZQ0>
         rdf:type                       martialis:Person;
@@ -78355,6 +78961,13 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         schema:contentUrl           <https://www.tkd-seattle.com/wp-content/uploads/2016/07/SIDEKICK-gallery-test-black-best.jpg>;
         martialis:imageAttribution  <https://martial.is/entity/01KYQB8J2N6ZQ8B1QY5K24QY9P/image/imageAttribution> .
 
+<https://martial.is/entity/01M7DPSDB4GR6VMXZC6WC8S49J/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "Rott's own account (Budo Japan 2022) and his students' club page; no record from the Sugino Dojo, so probable." .
+
 <https://martial.is/entity/01M6BJ6H8FX3W9BJ85350SZ1AX/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
         martialis:basedOnSource       <https://martial.is/entity/01M6BEFR8F54EAE9EDZHFEC7EF>;
@@ -79186,6 +79799,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         schema:startDate        "1864";
         martialis:earliestYear  1864;
         martialis:latestYear    1864 .
+
+<https://martial.is/entity/01M7DRBMCW7BBW7F86554P4NR5>
+        rdf:type                       martialis:AffiliationAssertion;
+        prov:wasDerivedFrom            <https://martial.is/entity/01M7DRBMCWEWC0WMVCFSQVC795>;
+        martialis:affiliationRelation  affrel:branch_of;
+        martialis:hasConfidence        <https://martial.is/entity/01M7DRBMCW7BBW7F86554P4NR5/hasConfidence>;
+        martialis:hasEvidence          <https://martial.is/entity/01M7DRBMCW7BBW7F86554P4NR5/hasEvidence/0>;
+        martialis:relatedOrganization  <https://martial.is/entity/01M7DRBMCWQC5VRSSGXX6BZAYC> .
 
 <https://martial.is/entity/01M4P52N9JADR8T9VAZFQZJT9D/publisher>
         rdf:type     martialis:Publisher;
@@ -80223,6 +80844,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:sourceLocatorLabel  "title-locator";
         martialis:supports            true .
 
+<https://martial.is/entity/01M7DRBMCW4ZTA2FCA3HMF993X/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DPSDB4PF7NNA5QZZTGSWP3>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "In Leer, together with his wife, Izumi Mikami-Rott, he founded a dōjō for Aikidō and Katori Shintō-ryū, the Aiki-Kobudo-Kai Leer e.V., which serves as the headquarters for the German branch of the Sugino Dōjō, the Sugino Dōjō Doitsu Shibu.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3YH7N5GYM56Y7M7V1HPC5SN/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KYZ31HT308QY9B28V9ESZFF9>;
@@ -81101,6 +81730,13 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         schema:familyName          "Keeley";
         schema:givenName           "Liam";
         martialis:contributorRole  "author" .
+
+<https://martial.is/entity/01M7DNNQJWCRG9BKVEJ84N4T9P/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "WEB Hiden, FKSR and TAKE give 9th dan in kobudo. FKSR names the Dai Nippon Butokukai and TAKE the International Nippon Budō Federation, so no body is given. None is the conferring body's record, so probable." .
 
 <https://martial.is/entity/01M6A2A5ZHP1XP88PEMKM314HC/hasInteraction/0/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -83804,6 +84440,16 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
+
+<https://martial.is/entity/01M7DSJ2Y158AZDNKTTKZ970ZX/hasInteraction/0/hasEvidence/1>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M7DNNQJWTPFMZSFZCB30GZ3S>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:primary;
+        martialis:quotation           "I'm a student now for 19 years of Katori Shintō-ryū and 12 of them here in Japan and what always amazes me about Sugino sensei's sense for detail";
+        martialis:sourceLocation      "13:21-13:32";
+        martialis:sourceLocatorLabel  "timestamp";
+        martialis:supports            true .
 
 <https://martial.is/entity/01M6EJDB0RWXYWTZBKWJAAAPBC>
         rdf:type                  martialis:TeacherAssertion;
@@ -87212,6 +87858,14 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         martialis:sourceLocatorLabel  "section";
         martialis:supports            true .
 
+<https://martial.is/entity/01M7DPSDB4NBGNSEBS9CQPMWXZ/hasEvidence/3>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DNNQJWQNGHXZ39X086KCYP>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Sensei Ulf currently holds the rank of 6th dan in Katori Shintō-ryū and 6th dan in Aikidō (Aikikai Shihan).";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3YH7N5G6T1BCJY61SANDAFZ/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KZRA7SNMQ0E1TR6KQ7Z3FVAF>;
@@ -87713,6 +88367,14 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         martialis:sourceLocation      "62";
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
+
+<https://martial.is/entity/01M7DPSDB42QAAVV5P2SV9Z8KJ/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DPSDB4PF7NNA5QZZTGSWP3>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Katori Shintō-ryū was brought to Germany in 1996 by our teacher, Ulf Rott, following a multi-year stay in Japan.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M3YH7N5GT9V9PB9J5WZA3W1E/hasInteraction/0/hasEvidence/2>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -88598,6 +89260,26 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         martialis:primaryImage          <https://martial.is/entity/01M64QW2FN6C59MWSZ6M2WA7FZ/image>;
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceType            "periodical" .
+
+<https://martial.is/entity/01M7DPSDB4NEX1Q1GQDA5SAXRB>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://web.archive.org/web/20260809134047/https://budojapan.com/aiki-jujutsu/20220714kdr/>;
+        schema:datePublished            "2022";
+        schema:description              "Budo Japan interview with Ulf Rott on the German branch of the Sugino Dojo in Leer."@en;
+        schema:inLanguage               "en";
+        schema:name                     "[Monthly column] Worldwide Koryu Dojo Report Vol.22 Tenshin Shoden Katori Shinto-ryu in Germany";
+        schema:publisher                <https://martial.is/entity/01M7DPSDB4NEX1Q1GQDA5SAXRB/publisher>;
+        schema:url                      <https://budojapan.com/aiki-jujutsu/20220714kdr/>;
+        martialis:accessed              "2026-11-14";
+        martialis:archiveDate           "2026-08-09";
+        martialis:earliestYear          2022;
+        martialis:hasContributor        <https://martial.is/entity/01M7DPSDB4NEX1Q1GQDA5SAXRB/hasContributor/0>;
+        martialis:latestYear            2022;
+        martialis:partOf                <https://martial.is/entity/01M0DCY9PE1SCD7NJPVEJ737PA>;
+        martialis:peerReview            <https://w3id.org/martialis/vocab/peer-review/not_peer_reviewed>;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/interview>;
+        martialis:sourceType            "article-magazine" .
 
 <https://martial.is/entity/01M34V4V4D2PZFGV8X1Q5JEFQZ>
         rdf:type                        martialis:Source;
@@ -92933,6 +93615,22 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
         schema:sameAs          <http://www.wikidata.org/entity/Q17> .
 
+<https://martial.is/entity/01M7DPSDB4NBGNSEBS9CQPMWXZ>
+        rdf:type                 martialis:RankAssertion;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7DPSDB4PF7NNA5QZZTGSWP3>;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7DRBMCWYMT6B84CKCP1PZ5P>;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7DRBMCWD8W5Z9HGYRRR3Z6W>;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7DNNQJWQNGHXZ39X086KCYP>;
+        martialis:hasConfidence  <https://martial.is/entity/01M7DPSDB4NBGNSEBS9CQPMWXZ/hasConfidence>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7DPSDB4NBGNSEBS9CQPMWXZ/hasEvidence/2>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7DPSDB4NBGNSEBS9CQPMWXZ/hasEvidence/3>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7DPSDB4NBGNSEBS9CQPMWXZ/hasEvidence/0>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7DPSDB4NBGNSEBS9CQPMWXZ/hasEvidence/1>;
+        martialis:rankOrdinal    6;
+        martialis:rankStyle      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9T>;
+        martialis:rankSystem     <https://martial.is/entity/01M11K25NF0E7HG8HWVWM2P3FG>;
+        martialis:rankType       <https://w3id.org/martialis/vocab/rank-type/dan> .
+
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TJ/nationality/0>
         rdf:type               martialis:NationalityEntry;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/BRA>;
@@ -93778,6 +94476,14 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         martialis:latestYear            1999;
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceType            "book" .
+
+<https://martial.is/entity/01M7DRBMCWMWWBM44F2DVWZ3H1/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DPSDB4PF7NNA5QZZTGSWP3>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "In Leer, together with his wife, Izumi Mikami-Rott, he founded a dōjō for Aikidō and Katori Shintō-ryū, the Aiki-Kobudo-Kai Leer e.V., which serves as the headquarters for the German branch of the Sugino Dōjō, the Sugino Dōjō Doitsu Shibu.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M6BHSAXWNC0J7ZZ2BJ11NV43/birthEvent>
         rdf:type                martialis:BirthEvent;
@@ -95045,6 +95751,10 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         martialis:confidenceLevel      conflevel:confirmed;
         martialis:confidenceRationale  "His own 1936 interview in A Tarde, quoted by Silva and Corrêa, names Bentinho as his master; Barbosa (2009) and English Wikipedia say the same." .
 
+<https://martial.is/entity/01M7DRBMCWEWC0WMVCFSQVC795/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Sugino Dojo Doitsu Shibu" .
+
 <https://martial.is/entity/01KYJEGSZ65B6S3VDF94T845V8/birthEvent/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
         schema:citation            "Quem é Joaquim Valente, pai do terceiro filho de Gisele Bündchen (O Povo, 2024-10-28)";
@@ -95329,6 +96039,10 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "In 1993 he was inducted into the North American Sport Karate Association (NASKA) Hall of Fame.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7DPSDB4NEX1Q1GQDA5SAXRB/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Budo Japan (BAB Japan)" .
 
 <https://martial.is/entity/01M3YH7N5GSGSEB74WH0RXXZV4/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -96016,6 +96730,15 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         martialis:quotation        "At the age of 18, he was trained by Leung Yee-tai in Southern Shaolin skills.";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7DPSDB4GR6VMXZC6WC8S49J/hasInteraction/0>
+        rdf:type                     martialis:TeacherInteraction;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M7DPSDB4PF7NNA5QZZTGSWP3>;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M7DPSDB4NEX1Q1GQDA5SAXRB>;
+        martialis:hasEvidence        <https://martial.is/entity/01M7DPSDB4GR6VMXZC6WC8S49J/hasInteraction/0/hasEvidence/0>;
+        martialis:hasEvidence        <https://martial.is/entity/01M7DPSDB4GR6VMXZC6WC8S49J/hasInteraction/0/hasEvidence/1>;
+        martialis:interactionPeriod  <https://martial.is/entity/01M7DPSDB4GR6VMXZC6WC8S49J/hasInteraction/0/interactionPeriod>;
+        martialis:interactionPlace   <https://martial.is/entity/01M7DRBMCWKW5ZMRDMJ7WJZYN8> .
+
 <https://martial.is/entity/01KZC19BDCXQE2201W4SR0S746/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Wadōryū Karatedō Renmei" .
@@ -96336,6 +97059,11 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         martialis:rankStyle      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9W>;
         martialis:rankSystem     <https://martial.is/entity/01M11K25NF0E7HG8HWVWM2P3FG>;
         martialis:rankType       <https://w3id.org/martialis/vocab/rank-type/dan> .
+
+<https://martial.is/entity/01M7DPSDB4NEX1Q1GQDA5SAXRB/hasContributor/0>
+        rdf:type                   martialis:Contributor;
+        schema:name                "Grigoris Miliaresis";
+        martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M37HHSSMHCCXC6HCC66ACNKW/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -96767,7 +97495,7 @@ void:dataDump  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/data.ttl#dataset/class/Person>
         void:class     martialis:Person;
-        void:entities  1027 .
+        void:entities  1031 .
 
 <https://martial.is/entity/01M5HMRGB7WN9HHYCGJYQZPTAB/hasEvidence/1>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -97079,6 +97807,20 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Wikipedia infobox states Kanazawa held 2nd dan in Judo from his school years" .
+
+<https://martial.is/entity/01M7DRBMCWYMT6B84CKCP1PZ5P>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://web.archive.org/web/20261022213359/https://katorishintoryu.de/katori_wordpress/senseis/>;
+        schema:description              "Teachers page of the German branch of the Sugino Dojo: Sugino Yoshio, Sugino Yukihiro and Ulf Rott."@en;
+        schema:inLanguage               "de";
+        schema:name                     "Lehrer – Sensei";
+        schema:publisher                <https://martial.is/entity/01M7DRBMCWYMT6B84CKCP1PZ5P/publisher>;
+        schema:url                      <https://katorishintoryu.de/katori_wordpress/senseis/>;
+        martialis:accessed              "2026-11-14";
+        martialis:archiveDate           "2026-10-22";
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/biography>;
+        martialis:sourceType            "webpage" .
 
 <https://martial.is/entity/01M3YH7N5GY2PVY1R9BVXGSYX4/hasInteraction/0/interactionPeriod>
         rdf:type             martialis:TimeInterval;
@@ -99976,6 +100718,10 @@ dcat:Dataset  rdf:type  owl:Class .
         martialis:imageAttribution  <https://martial.is/entity/01M5JTMYPE1DNWMXMXKNQTR3V3/image/imageAttribution>;
         martialis:mediaRights       <https://w3id.org/martialis/vocab/media-rights/public_domain_mark> .
 
+<https://martial.is/entity/01M7DRBMCWD8W5Z9HGYRRR3Z6W/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Aiki-Kobudo-Kai Leer e.V." .
+
 <https://martial.is/entity/01M2411V8RK9B1T8H0RV0YN7BJ>
         rdf:type                        martialis:Source;
         schema:archivedAt               <https://ja.wikipedia.org/w/index.php?title=%E5%BC%93%E9%81%93&oldid=111292551>;
@@ -101016,6 +101762,28 @@ dcat:Dataset  rdf:type  owl:Class .
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/biography>;
         martialis:sourceType            "entry-encyclopedia" .
+
+<https://martial.is/entity/01M7DNNQJWCRG9BKVEJ84N4T9P/hasEvidence/2>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DNNQJWQNGHXZ39X086KCYP>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "He was awarded the 9th dan kobudō by the International Nippon Budō Federation.";
+        martialis:supports         true .
+
+<https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137/birthEvent>
+        rdf:type                martialis:BirthEvent;
+        prov:hadPrimarySource   <https://martial.is/entity/01M7DNNQJWTPFMZSFZCB30GZ3S>;
+        prov:wasDerivedFrom     <https://martial.is/entity/01M7DNNQJWTPFMZSFZCB30GZ3S>;
+        prov:wasDerivedFrom     <https://martial.is/entity/01M7DNNQJWQNGHXZ39X086KCYP>;
+        prov:wasDerivedFrom     <https://martial.is/entity/01M7DMYF5PWB8AC18SCBAP8294>;
+        schema:location         <https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137/birthEvent/birthPlace>;
+        schema:startDate        "1937-12-14";
+        martialis:earliestYear  1937;
+        martialis:hasEvidence   <https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137/birthEvent/hasEvidence/2>;
+        martialis:hasEvidence   <https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137/birthEvent/hasEvidence/0>;
+        martialis:hasEvidence   <https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137/birthEvent/hasEvidence/1>;
+        martialis:latestYear    1937 .
 
 <https://martial.is/entity/01M5HPEDHZX91FKX2YNAAYHEVF>
         rdf:type                  martialis:TraditionOnlyAssertion;
@@ -102193,6 +102961,19 @@ dcat:Dataset  rdf:type  owl:Class .
         martialis:primaryImage         <https://martial.is/entity/01KYQM3M5CWFJJBA8W502KD2TP/image>;
         martialis:teaches              <https://martial.is/entity/01KYQM3M5CSDPXRB08KJB3GDP2>;
         martialis:teaches              <https://martial.is/entity/01KYQB8J2N6ZQ8B1QY5K24QY9P> .
+
+<https://martial.is/entity/01M7DRBMCWKW5ZMRDMJ7WJZYN8>
+        rdf:type                  martialis:Place;
+        schema:description        "Dojo in Kawasaki founded by Sugino Yoshio, teaching Tenshin Shōden Katori Shintō-ryū; headed by Sugino Yukihiro since 1998."@en;
+        schema:name               "Yuishinkan Sugino Dōjō"@ja-Latn;
+        schema:name               "唯心館 杉野道場"@ja;
+        schema:name               "Sugino Dojo"@en;
+        martialis:foundedEvent    <https://martial.is/entity/01M7DRBMCWKW5ZMRDMJ7WJZYN8/foundedEvent>;
+        martialis:hasAffiliationAssertion  <https://martial.is/entity/01M7DRBMCW7BBW7F86554P4NR5>;
+        martialis:hasEvidence     <https://martial.is/entity/01M7DRBMCWKW5ZMRDMJ7WJZYN8/hasEvidence/0>;
+        martialis:hasOfficerRole  <https://martial.is/entity/01M7DRBMCWZCP0JZZ02HTAWTJG>;
+        martialis:hasSite         <https://martial.is/entity/01M7DRBMCWKW5ZMRDMJ7WJZYN8/hasSite/0>;
+        martialis:placeType       <https://w3id.org/martialis/vocab/place-classification/dojo> .
 
 <https://martial.is/entity/01M0R2X2AC5JNBDW40VFS3JW52/foundedEvent>
         rdf:type                martialis:FoundingEvent;
@@ -105857,6 +106638,14 @@ dcat:Dataset  rdf:type  owl:Class .
         martialis:quotation        "At the young age he practiced Wing Chun under his father and grand-teacher Wong Wah-bo (黃華寶).";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7DRBMCW7BBW7F86554P4NR5/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DRBMCWEWC0WMVCFSQVC795>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Sugino Dojo bietet den traditionellsten Stil des Katori Shinto Ryu mit dem Glauben an Yoshio Suginos Geist als Zweigstelle (Shibu) des Honbu Dojo in Katori.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M61V7JC2BBQJXMEETDDXA0QZ/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M5JRHX02PCDN9JHSMYF7PD1T>;
@@ -107501,6 +108290,14 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:wasTaughtBy          <https://martial.is/entity/01M5KQTRGXN1CG8GCKHABYWR5C>;
         martialis:wasTaughtBy          <https://martial.is/entity/01M5JPY6FNG2MRE0K9T5SBKT6K> .
 
+<https://martial.is/entity/01M7DSK4WJEK1W9HVB92JRXW07>
+        rdf:type                  martialis:TeacherAssertion;
+        martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9T>;
+        martialis:hasConfidence   <https://martial.is/entity/01M7DSK4WJEK1W9HVB92JRXW07/hasConfidence>;
+        martialis:hasInteraction  <https://martial.is/entity/01M7DSK4WJEK1W9HVB92JRXW07/hasInteraction/0>;
+        martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
+        martialis:teacher         <https://martial.is/entity/01M7DPSDB42QAAVV5P2SV9Z8KJ> .
+
 <https://martial.is/entity/01M5H483CZQRGVM3XRA6DXT9TY>
         rdf:type                       martialis:Person;
         schema:description             "Imi Lichtenfeld's first civilian krav maga student; co-founded the Krav Maga Federation in 1993."@en;
@@ -109010,6 +109807,13 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:confirmed;
         martialis:confidenceRationale  "Wiktenauer and English Wikipedia both make him the author of a gloss of Liechtenauer's Record." .
+
+<https://martial.is/entity/01M7DRBMCWY7W37SW5NH9M66S3/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "The branch's own teachers page names him Shibu-Cho; no second source, so probable." .
 
 <https://martial.is/entity/01M61VT2BRMAJ2VCMGYBNK72YM/hasInteraction/0>
         rdf:type               martialis:TeacherInteraction;
@@ -114481,6 +115285,14 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:trainedAt            <https://martial.is/entity/01KJJAWN29MA64W22606R3WD8G>;
         martialis:wasTaughtBy          <https://martial.is/entity/01KJJAWN29MA64W22606R3WD7A> .
 
+<https://martial.is/entity/01M7DRBMCWKW5ZMRDMJ7WJZYN8/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DRBMCWEWC0WMVCFSQVC795>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Sugino Dojo bietet den traditionellsten Stil des Katori Shinto Ryu mit dem Glauben an Yoshio Suginos Geist als Zweigstelle (Shibu) des Honbu Dojo in Katori.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01KYDB2SWBBPQW5ZGCQ05BA848/hasContributor/0>
         rdf:type                   martialis:Contributor;
         schema:name                "Wikipedia contributors";
@@ -116903,7 +117715,7 @@ dcat:version  rdf:type  owl:DatatypeProperty .
 
 <https://martial.is/data.ttl#dataset/class/Place>
         void:class     martialis:Place;
-        void:entities  139 .
+        void:entities  141 .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1VC/birthEvent/birthPlace>
         rdf:type               martialis:GeoRef;
@@ -117317,6 +118129,15 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
 
+<https://martial.is/entity/01M7DSJ2Y158AZDNKTTKZ970ZX/hasInteraction/0>
+        rdf:type                    martialis:TeacherInteraction;
+        prov:hadPrimarySource       <https://martial.is/entity/01M7DNNQJWTPFMZSFZCB30GZ3S>;
+        prov:wasDerivedFrom         <https://martial.is/entity/01M7DSJ2Y1PBZ6GCAD4ZAAEREY>;
+        prov:wasDerivedFrom         <https://martial.is/entity/01M7DNNQJWTPFMZSFZCB30GZ3S>;
+        martialis:hasEvidence       <https://martial.is/entity/01M7DSJ2Y158AZDNKTTKZ970ZX/hasInteraction/0/hasEvidence/0>;
+        martialis:hasEvidence       <https://martial.is/entity/01M7DSJ2Y158AZDNKTTKZ970ZX/hasInteraction/0/hasEvidence/1>;
+        martialis:interactionPlace  <https://martial.is/entity/01M7DRBMCWKW5ZMRDMJ7WJZYN8> .
+
 <https://martial.is/entity/01M3YH7N5GD2870M50KSK8V8HJ/hasConfidence>
         rdf:type                       martialis:Confidence;
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
@@ -117437,6 +118258,14 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         rdf:type               martialis:TeacherInteraction;
         prov:wasDerivedFrom    <https://martial.is/entity/01KZM7FWX5NZ9PJDYNDTZPN1P9>;
         martialis:hasEvidence  <https://martial.is/entity/01M3YH7N5GK4DAM8T3JAZN02DM/hasInteraction/0/hasEvidence/0> .
+
+<https://martial.is/entity/01M7DPHADGSNPSKV0H0SFC20YC/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DMYF5PWB8AC18SCBAP8294>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "古武道範士九段・天真正伝香取神道流免許皆伝。";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M2411V8RP1A9854ERZ2NQ80P>
         rdf:type                martialis:Style;
@@ -117944,6 +118773,14 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         rdf:type     martialis:Publisher;
         schema:name  "E-Judo Forum" .
 
+<https://martial.is/entity/01M7DRBMCWFTDDG50J8RQCPKSB/hasSite/0/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DRBMCW0TZCHFDHCXBENSDB>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "14.01.2001 Umzug des Vereins in die neuen Räumlichkeiten am Großen Oldekamp 17. und Eröffnung des Dojo als “Schule für Aikido, Kobudo und ostasiatische Gesundheitslehre”";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M5H6E6RGYX6WSG0ZDVN12A8T/hasInteraction/0>
         rdf:type               martialis:TeacherInteraction;
         prov:wasDerivedFrom    <https://martial.is/entity/01M5G930MNABWTVH5Y4WR93H2B>;
@@ -118211,6 +119048,14 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
         martialis:quotation        "On Cribb's public retirement at the Fives Court on 15th May 1822 he handed over the championship title to Spring.";
+        martialis:supports         true .
+
+<https://martial.is/entity/01M7DRBMCWFTDDG50J8RQCPKSB/foundedEvent/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DPSDB4PF7NNA5QZZTGSWP3>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "In Leer, together with his wife, Izumi Mikami-Rott, he founded a dōjō for Aikidō and Katori Shintō-ryū, the Aiki-Kobudo-Kai Leer e.V., which serves as the headquarters for the German branch of the Sugino Dōjō, the Sugino Dōjō Doitsu Shibu.";
         martialis:supports         true .
 
 <https://martial.is/entity/01M3YH7N5GE29EK1F3RS3ZJ8P3/hasConfidence>
@@ -118567,6 +119412,13 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:hasEvidence        <https://martial.is/entity/01M3YH7N5G6T1BCJY61SANDAFZ/hasInteraction/0/hasEvidence/1>;
         martialis:hasEvidence        <https://martial.is/entity/01M3YH7N5G6T1BCJY61SANDAFZ/hasInteraction/0/hasEvidence/0>;
         martialis:interactionPeriod  <https://martial.is/entity/01M3YH7N5G6T1BCJY61SANDAFZ/hasInteraction/0/interactionPeriod> .
+
+<https://martial.is/entity/01M7DRBMCWPABCDT98MKB5R16F>
+        rdf:type                  martialis:TeacherAssertion;
+        martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9T>;
+        martialis:hasConfidence   <https://martial.is/entity/01M7DRBMCWPABCDT98MKB5R16F/hasConfidence>;
+        martialis:hasInteraction  <https://martial.is/entity/01M7DRBMCWPABCDT98MKB5R16F/hasInteraction/0>;
+        martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student> .
 
 <https://martial.is/entity/01M3YH7N5G77194FY9HEMTKQYH>
         rdf:type                 martialis:RankAssertion;
@@ -118983,6 +119835,24 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:sourceLocation      "21";
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
+
+<https://martial.is/entity/01M7DMYF5P17JD7RP2KFPFM8J1>
+        rdf:type                        martialis:Source;
+        schema:alternateName            "日本のほか、世界11カ国で「天真正伝香取神道流」を教える 杉野至寛（ゆきひろ）さん 幸区中幸町在住 74歳";
+        schema:archivedAt               <https://web.archive.org/web/20161012050913/http://www.townnews.co.jp:80/0206/2012/09/21/158372.html>;
+        schema:datePublished            "2012-09-21";
+        schema:description              "Profile of Sugino Yukihiro in the 人物風土記 column of the Kawasaki and Saiwai edition of the local paper Town News."@en;
+        schema:inLanguage               "ja";
+        schema:name                     "日本のほか、世界11カ国で「天真正伝香取神道流」を教える 杉野至寛（ゆきひろ）さん 幸区中幸町在住 74歳";
+        schema:publisher                <https://martial.is/entity/01M7DMYF5P17JD7RP2KFPFM8J1/publisher>;
+        schema:url                      <https://www.townnews.co.jp/0206/2012/09/21/158372.html>;
+        martialis:accessed              "2026-11-14";
+        martialis:archiveDate           "2016-10-12";
+        martialis:earliestYear          2012;
+        martialis:latestYear            2012;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/biography>;
+        martialis:sourceType            "article-newspaper" .
 
 <https://martial.is/entity/01KYS8C0AFDCCVD9SFTADQ7ST2/publisher>
         rdf:type     martialis:Publisher;
@@ -119877,6 +120747,10 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:quotation        "date of death 25 February 2011";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7DRBMCWR13W11HQHX1PAQ7R/instructorPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:startYear  1996 .
+
 <https://martial.is/entity/01KZDXQH2MMXGFESB2HNKRKFJ9>
         rdf:type                     martialis:Place;
         schema:alternateName         "Matsubayashi-Ryu Kodokan Karate and Ancient Martial Arts Studies"@en;
@@ -119989,6 +120863,10 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:peerReview            <https://w3id.org/martialis/vocab/peer-review/not_peer_reviewed>;
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceType            "article" .
+
+<https://martial.is/entity/01M7DSJ2Y1499EK1HCPQWKD729/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Life for a Sword (blog)" .
 
 <https://martial.is/entity/01M5JRHX02G2KWHX61AFRF2ZVM>
         rdf:type                 martialis:Organization;
@@ -122459,6 +123337,14 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
 
+<https://martial.is/entity/01M7DP23B03DCSB2385MH4HNCV/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DNGEY0236AMSFADV4HFT9N>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Me SUGINO est également 7ème dan, shihan en Aikido Aikikai.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M5H3WJ4F9R45AWHKXJ34XPYE>
         rdf:type                martialis:Place;
         schema:alternateName    "Vancouver Tai Iku Dojo"@en;
@@ -124680,6 +125566,14 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "EN Wikipedia states Suenaka held nidan in kendo, awarded by Shuji Mikami in 1958" .
 
+<https://martial.is/entity/01M7DMYF5PHY92E8PTRNTRARY1>
+        rdf:type                  martialis:TeacherAssertion;
+        martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9T>;
+        martialis:hasConfidence   <https://martial.is/entity/01M7DMYF5PHY92E8PTRNTRARY1/hasConfidence>;
+        martialis:hasInteraction  <https://martial.is/entity/01M7DMYF5PHY92E8PTRNTRARY1/hasInteraction/0>;
+        martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
+        martialis:teacher         <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TZ> .
+
 <https://martial.is/entity/01KZXH2NSQMBZTRPPYAKKCFR84/deathEvent/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
         schema:archivedAt          <https://ja.wikipedia.org/w/index.php?title=%E5%AE%89%E9%83%A8%E4%B8%80%E9%83%8E&oldid=110833953>;
@@ -126190,6 +127084,10 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:rankStyle      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9H>;
         martialis:rankSystem     <https://martial.is/entity/01M11K25NGDGV9YVBGCW2GNNK4> .
 
+<https://martial.is/entity/01M7DRBMCWPABCDT98MKB5R16F/hasInteraction/0/interactionPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:startYear  1994 .
+
 <https://martial.is/entity/01KYMDKKCPXRY92G0TVA86F03N/birthEvent>
         rdf:type                martialis:BirthEvent;
         prov:wasDerivedFrom     <https://martial.is/entity/01KYMDKKCPXDW4BV3RPTW7G8HZ>;
@@ -126826,6 +127724,10 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01KYQB8J2NN336ZJWGQW3YH95E> .
 
+<https://martial.is/entity/01M7DSJ2Y12FM440R0K96HMB9T/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Budo Japan (BAB Japan)" .
+
 <https://martial.is/entity/01KZC8S2GE3X9V7N27WXMQEPQA>
         rdf:type                martialis:Style;
         schema:alternateName    "Shorin Ryu"@en;
@@ -127153,7 +128055,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/data.ttl#dataset/class/Source>
         void:class     martialis:Source;
-        void:entities  1461 .
+        void:entities  1478 .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SC/nationality/0>
         rdf:type               martialis:NationalityEntry;
@@ -128646,6 +129548,13 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
 
+<https://martial.is/entity/01M7DRBMCWPABCDT98MKB5R16F/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "Rott's first-hand account (Budo Japan 2022); he started in late 1993, so about 1994." .
+
 <https://martial.is/entity/01M5H4ANTV5R58MG34WRR2QX11/hasInteraction/0/hasEvidence/1>
         rdf:type                      martialis:SourceAssertionRelation;
         martialis:basedOnSource       <https://martial.is/entity/01M6A208ZNPSHKF5VJ6T8GGKH5>;
@@ -128731,6 +129640,14 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Mentioned as a student of Iso Masatari Mataemon in the Japanese Wikipedia article for Genjuro Jinbo" .
 
+<https://martial.is/entity/01M7DRBMCW3225482PXXWC6S67/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DRBMCWHG9DN7E7FQJ4G5SD>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "昭和57年 国際武道院より古武道十段を授与";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3YH7N5GMRZWC71YH81KS3W1>
         rdf:type                 martialis:RankAssertion;
         prov:wasDerivedFrom      <https://martial.is/entity/01KJJAWN29MA64W22606R3WDA1>;
@@ -128769,6 +129686,20 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:peerReview            <https://w3id.org/martialis/vocab/peer-review/not_peer_reviewed>;
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceType            "entry-encyclopedia" .
+
+<https://martial.is/entity/01M7DRBMCWEWC0WMVCFSQVC795>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://web.archive.org/web/20250906220747/https://katorishintoryu.de/katori_wordpress/sugino-dojo/>;
+        schema:description              "Page of the German branch of the Sugino Dojo on the Sugino Dojo in Kawasaki."@en;
+        schema:inLanguage               "de";
+        schema:name                     "Sugino Dojo/Kawasaki";
+        schema:publisher                <https://martial.is/entity/01M7DRBMCWEWC0WMVCFSQVC795/publisher>;
+        schema:url                      <https://katorishintoryu.de/katori_wordpress/sugino-dojo/>;
+        martialis:accessed              "2026-11-14";
+        martialis:archiveDate           "2025-09-06";
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/history>;
+        martialis:sourceType            "webpage" .
 
 <https://martial.is/entity/01M3YH7N5GJBFS51K969P38JAJ/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -132294,6 +133225,13 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:sourceLocatorLabel  "section";
         martialis:supports            true .
 
+<https://martial.is/entity/01M7DRBMCWPABCDT98MKB5R16F/hasInteraction/0>
+        rdf:type                     martialis:TeacherInteraction;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M7DPSDB4NEX1Q1GQDA5SAXRB>;
+        martialis:hasEvidence        <https://martial.is/entity/01M7DRBMCWPABCDT98MKB5R16F/hasInteraction/0/hasEvidence/0>;
+        martialis:interactionPeriod  <https://martial.is/entity/01M7DRBMCWPABCDT98MKB5R16F/hasInteraction/0/interactionPeriod>;
+        martialis:interactionPlace   <https://martial.is/entity/01M7DRBMCWKW5ZMRDMJ7WJZYN8> .
+
 <https://martial.is/entity/01KZXKNZTBWC805TKNRG223H1A/birthEvent>
         rdf:type                martialis:BirthEvent;
         prov:wasDerivedFrom     <https://martial.is/entity/01KZXM4SW4798PJ5VSR1WS52ZY>;
@@ -132680,6 +133618,14 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         rdf:type                martialis:Publisher;
         schema:name             "International Nihon Jujutsu Association";
         martialis:publisherOrg  <https://martial.is/entity/01KYND6715C390ARTWR9ZY72HY> .
+
+<https://martial.is/entity/01M7DRBMCWAP2XGHHD1911B4DD/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DRBMCWD8W5Z9HGYRRR3Z6W>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "Izumi Mikami-Rott (2. Dan Aikido, 5. Dan Katori Shinto Ryu)";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M6C5JZZGPRTNBXJXK598KJ1F/hasInteraction/0>
         rdf:type                     martialis:TeacherInteraction;
@@ -133125,6 +134071,14 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:hasInteraction  <https://martial.is/entity/01M3YH7N5GN7Z75C9K2GCKX7SS/hasInteraction/0>;
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01M1KR4J6E5R20M29HMNCC8REJ> .
+
+<https://martial.is/entity/01M7DSJ2Y158AZDNKTTKZ970ZX>
+        rdf:type                  martialis:TeacherAssertion;
+        martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9T>;
+        martialis:hasConfidence   <https://martial.is/entity/01M7DSJ2Y158AZDNKTTKZ970ZX/hasConfidence>;
+        martialis:hasInteraction  <https://martial.is/entity/01M7DSJ2Y158AZDNKTTKZ970ZX/hasInteraction/0>;
+        martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
+        martialis:teacher         <https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137> .
 
 <https://martial.is/entity/01M4R9845WYYJ538XD3ZADN141/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -135818,6 +136772,14 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:basedOnSource    <https://martial.is/entity/01M3KPWDBRD2VMHSKN50ZT7KRK>;
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
+        martialis:supports         true .
+
+<https://martial.is/entity/01M7DRBMCWPABCDT98MKB5R16F/hasInteraction/0/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DPSDB4NEX1Q1GQDA5SAXRB>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "after a year, my former girlfriend who eventually became my wife, Izumi, accompanied me to Kawasaki and became a member.";
         martialis:supports         true .
 
 <https://martial.is/entity/01M3YH7N5GQM4S7QNQAYRTDX16/hasInteraction/0/hasEvidence/0>
@@ -139921,6 +140883,10 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:quotation        "Le récit de Jean Gailhat s'en tient à la réalité lorsqu'il conclut le déroulement de la journée du 6 décembre: « De Herdt est nommé 4e dan. Il est 11 heures du soir. » Car il s'agit bien du 4e dan mais du 4e dan seulement. Le grade est remis par Risei Kano, président du Kodokan et de la fédération japonaise de judo.";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7DRBMCWKW5ZMRDMJ7WJZYN8/hasSite/0>
+        rdf:type         martialis:Site;
+        schema:location  <https://martial.is/entity/01M7DRBMCWKW5ZMRDMJ7WJZYN8/hasSite/0/location> .
+
 <https://martial.is/entity/01M6C1ZABVJQHSFM6YXS0S2GWF>
         rdf:type                       martialis:Person;
         schema:alternateName           "Nightmare"@en;
@@ -139981,6 +140947,14 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:hasEvidence   <https://martial.is/entity/01M5HMYWG7Y61ZJWHMZTCKZKYY/hasEvidence/0>;
         martialis:hasStyleRelationAssertion  <https://martial.is/entity/01M5HMYWG7594Q30A1E15625MV>;
         martialis:styleType     <https://w3id.org/martialis/vocab/style-classification/modern> .
+
+<https://martial.is/entity/01M7DRBMCWFTDDG50J8RQCPKSB/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DRBMCW0TZCHFDHCXBENSDB>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "Der Aiki-Kobudo-Kai Leer e.V. ist der älteste Aikido-Verein Ostfrieslands, und der erste Verein in Deutschland, in dem die japanische Schwert und Waffenkunst mit dem Namen Tenshin Shoden Katori Shinto Ryu betrieben wurde.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01KYJEGSZ67JG00T14K90N24WR/nationality/0>
         rdf:type               martialis:NationalityEntry;
@@ -140451,6 +141425,13 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:primaryImage          <https://martial.is/entity/01M64QW2FN6PG9PRA7YFFTKEZG/image>;
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceType            "website" .
+
+<https://martial.is/entity/01M7DRBMCW7BBW7F86554P4NR5/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "The dojo is the Sugino Dojo school's own facility; a structural fact, no independent source expected." .
 
 <https://martial.is/entity/01KYF2M2VA0JKJCSVHZA3ZSPYA/deathEvent/deathPlace>
         rdf:type               martialis:GeoRef;
@@ -141448,6 +142429,13 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         rdf:type               martialis:NationalityEntry;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/BRA>;
         schema:sameAs          <http://www.wikidata.org/entity/Q155> .
+
+<https://martial.is/entity/01M7DPSDB4NBGNSEBS9CQPMWXZ/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "Kobukai Berlin and TAKE give 6th dan; Budo Japan 2022 gives 5th dan, consistent with a later grade. Both pages are his students' clubs, so probable." .
 
 <https://martial.is/entity/01M1F08EAK9YR9K2REHQWYAC6B/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -143436,6 +144424,11 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
 
+<https://martial.is/entity/01M7DSK4WJEK1W9HVB92JRXW07/hasInteraction/0>
+        rdf:type               martialis:TeacherInteraction;
+        prov:wasDerivedFrom    <https://martial.is/entity/01M7DSJ2Y1499EK1HCPQWKD729>;
+        martialis:hasEvidence  <https://martial.is/entity/01M7DSK4WJEK1W9HVB92JRXW07/hasInteraction/0/hasEvidence/0> .
+
 <https://martial.is/entity/01M3YH7N5GMSD6629461ETATY1>
         rdf:type                 martialis:RankAssertion;
         prov:wasDerivedFrom      <https://martial.is/entity/01M0SXT206FYX45K8P5Z2P3ZWW>;
@@ -143838,6 +144831,14 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:doubtful;
         martialis:confidenceRationale  "Wikipedia reports Choi's claim, but Funakoshi's own attendance and promotion records, checked by scholars, show no occurrence of Choi" .
+
+<https://martial.is/entity/01M7DRBMCWKW5ZMRDMJ7WJZYN8/foundedEvent/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DPSDB4PF7NNA5QZZTGSWP3>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "The Sugino Dōjō was originally founded in 1927 as a Jūdō dōjō.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01KZKWYWG3Z0Q0Y5GVPB6HQ4BP/publisher>
         rdf:type     martialis:Publisher;
@@ -144349,6 +145350,12 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:hasInteraction  <https://martial.is/entity/01M5HPEDHZ97VBASBJQNB18NKG/hasInteraction/0>;
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01M5H5TCKZW50M5WFGCD2KCNR1> .
+
+<https://martial.is/entity/01M7DSJ2Y1XGEDT11A5ZCSA2VA/image>
+        rdf:type                    martialis:Photo;
+        schema:contentUrl           <https://budojapan.com/wp/wp-content/uploads/BTP2306_IMGP4213-300x300.jpg>;
+        martialis:imageAttribution  <https://martial.is/entity/01M7DSJ2Y1XGEDT11A5ZCSA2VA/image/imageAttribution>;
+        martialis:mediaRights       <https://w3id.org/martialis/vocab/media-rights/in_copyright> .
 
 <https://martial.is/entity/01M39T3H2E0206MCVGGVGAYY3T/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -145142,6 +146149,14 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         rdf:type               martialis:NationalityEntry;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
         schema:sameAs          <http://www.wikidata.org/entity/Q17> .
+
+<https://martial.is/entity/01M7DRBMCW3225482PXXWC6S67/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DNNQJWQNGHXZ39X086KCYP>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "In 1981, he was awarded the 10th dan kobudō by the International Nippon Budō Federation.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M3YH7N5FV20Y4HBMFYPSBZK5/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -146179,6 +147194,10 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         schema:address   "Rua Visconde de Seabra, Entrecampos, Lisboa";
         schema:location  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD8G/hasSite/0/location> .
 
+<https://martial.is/entity/01M7DSJ2Y1PBZ6GCAD4ZAAEREY/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "HOPLOblog" .
+
 <https://martial.is/entity/01M6ACM2JZKCA46KZCX99Y2QC7/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Wikimedia Foundation" .
@@ -146690,6 +147709,17 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         schema:citation            "Chente moreno, Wikimedia Commons";
         schema:url                 <https://commons.wikimedia.org/wiki/File:Gozo_Shioda.jpg>;
         martialis:informationType  infotype:secondary .
+
+<https://martial.is/entity/01M7DRBMCWKW5ZMRDMJ7WJZYN8/foundedEvent>
+        rdf:type                martialis:FoundingEvent;
+        prov:wasDerivedFrom     <https://martial.is/entity/01M7DPSDB4PF7NNA5QZZTGSWP3>;
+        prov:wasDerivedFrom     <https://martial.is/entity/01M7DRBMCWEWC0WMVCFSQVC795>;
+        schema:startDate        "[1927,1928]";
+        martialis:earliestYear  1927;
+        martialis:founder       <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TZ>;
+        martialis:hasEvidence   <https://martial.is/entity/01M7DRBMCWKW5ZMRDMJ7WJZYN8/foundedEvent/hasEvidence/0>;
+        martialis:hasEvidence   <https://martial.is/entity/01M7DRBMCWKW5ZMRDMJ7WJZYN8/foundedEvent/hasEvidence/1>;
+        martialis:latestYear    1928 .
 
 <https://martial.is/entity/01KZSRDXQWKC9HR8T7M5HDGDFJ/hasEvidence/3>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -148107,6 +149137,14 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "First non-Japanese practitioner to enter Tenshin Shoden Katori Shinto-ryu in 1967 under Risuke Otake, achieving instructor grade, as documented in Aiki-Kohai article" .
 
+<https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137/birthEvent/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DMYF5PWB8AC18SCBAP8294>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "1937年、杉野嘉男師範の三男として神奈川県川崎市に生まれる。";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3YH7N5GTN8XVY1WZBYP51J0/hasInteraction/0>
         rdf:type                     martialis:TeacherInteraction;
         prov:wasDerivedFrom          <https://martial.is/entity/01M2WGNYAW6K10EEMQDG8VYGVG>;
@@ -148248,6 +149286,20 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
+
+<https://martial.is/entity/01M7DRBMCWD8W5Z9HGYRRR3Z6W>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://web.archive.org/web/20260717150745/https://www.aikido-ostfriesland.de/?page_id=14>;
+        schema:description              "Teachers page of the Aiki-Kobudo-Kai Leer club, with their grades."@en;
+        schema:inLanguage               "de";
+        schema:name                     "Lehrende - AIKI-KOBUDO-KAI Leer e.V.";
+        schema:publisher                <https://martial.is/entity/01M7DRBMCWD8W5Z9HGYRRR3Z6W/publisher>;
+        schema:url                      <https://www.aikido-ostfriesland.de/?page_id=14>;
+        martialis:accessed              "2026-11-14";
+        martialis:archiveDate           "2026-07-17";
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/roster>;
+        martialis:sourceType            "webpage" .
 
 <https://martial.is/entity/01M6C5JZZG5YXV79WXGWDM87DF/birthEvent/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -149791,6 +150843,21 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:styleType    <https://w3id.org/martialis/vocab/style-classification/modern>;
         martialis:variantOf    <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9S> .
 
+<https://martial.is/entity/01M7DNNQJWTPFMZSFZCB30GZ3S>
+        rdf:type                        martialis:Source;
+        schema:datePublished            "2025-01-24";
+        schema:description              "Documentary on Sugino Yukihiro and the Sugino Dojo in Kawasaki, with interviews with him, his sons and his students, in English subtitles."@en;
+        schema:inLanguage               "en";
+        schema:name                     "Sugino Yukihiro | Tenshin Shōden Katori Shintō-ryū | documentary 4K";
+        schema:publisher                <https://martial.is/entity/01M7DNNQJWTPFMZSFZCB30GZ3S/publisher>;
+        schema:url                      <https://www.youtube.com/watch?v=-Ga0I9iV3Kk>;
+        martialis:accessed              "2026-11-14";
+        martialis:earliestYear          2025;
+        martialis:latestYear            2025;
+        martialis:sourceClassification  srcclass:original;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/biography>;
+        martialis:sourceType            "motion_picture" .
+
 <https://martial.is/entity/01M1KR4J6EAW6HM6DHQC6MMW41/nationality/0>
         rdf:type               martialis:NationalityEntry;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
@@ -149951,6 +151018,14 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 <https://martial.is/entity/01KYZ0172JK3PFAA85AG2V5V6B/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Kingsway Jiu-Jitsu" .
+
+<https://martial.is/entity/01M7DRBMCW4ZTA2FCA3HMF993X/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DPSDB4NEX1Q1GQDA5SAXRB>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "Since then, except some exchange students, my wife Izumi is the only Japanese person in Leer.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01KZC8XAP81GFT3F84FJM67QM2/publisher>
         rdf:type     martialis:Publisher;
@@ -150335,6 +151410,17 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "at age 11 he began training with Ryuko Aragaki who was a Tomari-te expert.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7DRBMCWZCP0JZZ02HTAWTJG>
+        rdf:type                 martialis:OfficerRole;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7DMYF5P17JD7RP2KFPFM8J1>;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7DMYF5PWB8AC18SCBAP8294>;
+        martialis:hasConfidence  <https://martial.is/entity/01M7DRBMCWZCP0JZZ02HTAWTJG/hasConfidence>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7DRBMCWZCP0JZZ02HTAWTJG/hasEvidence/1>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7DRBMCWZCP0JZZ02HTAWTJG/hasEvidence/0>;
+        martialis:officer        <https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137>;
+        martialis:officerPeriod  <https://martial.is/entity/01M7DRBMCWZCP0JZZ02HTAWTJG/officerPeriod>;
+        martialis:officerTitle   "Kanchō (館長)" .
 
 <https://martial.is/entity/01M5JPY6FN6D0J6MGWMNWARJNR/image>
         rdf:type                    martialis:Photo;
@@ -151904,6 +152990,14 @@ dcat:Distribution  rdf:type  owl:Class .
         schema:familyName          "Leyshon";
         schema:givenName           "Glynn A.";
         martialis:contributorRole  "author" .
+
+<https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DMYF5P17JD7RP2KFPFM8J1>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "98年には父を継いで２代目館長に就任。";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M4R9845W09ERXK0K0JTSS2RS/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -154213,6 +155307,14 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:hasEvidence  <https://martial.is/entity/01M6BEFR8FS5QZD7458F5ZGS80/hasEvidence/0>;
         martialis:hasEvidence  <https://martial.is/entity/01M6BEFR8FS5QZD7458F5ZGS80/hasEvidence/1> .
 
+<https://martial.is/entity/01M7DPSDB4JPXEX2VA9VBGCDHS>
+        rdf:type                  martialis:TeacherAssertion;
+        martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9T>;
+        martialis:hasConfidence   <https://martial.is/entity/01M7DPSDB4JPXEX2VA9VBGCDHS/hasConfidence>;
+        martialis:hasInteraction  <https://martial.is/entity/01M7DPSDB4JPXEX2VA9VBGCDHS/hasInteraction/0>;
+        martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
+        martialis:teacher         <https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137> .
+
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD68/birthEvent>
         rdf:type                martialis:BirthEvent;
         schema:location         <https://martial.is/entity/01KJJAWN29MA64W22606R3WD68/birthEvent/birthPlace>;
@@ -154902,6 +156004,13 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Duclos states in his Surya interview that he studied judo with both Stobbaerts and Stobbaerts' student Hassan Iddedir; the photo caption identifies Iddedir as Duclos' master." .
+
+<https://martial.is/entity/01M7DRBMCWC98RC4BRNZ3P995K/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:possible;
+        martialis:confidenceRationale  "Only his own club's teachers page (2026) gives aikido 7th dan with Aikikai shihan; no date and no Aikikai record, so possible." .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6M/hasEvidence/2>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -156665,6 +157774,14 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:confirmed;
         martialis:confidenceRationale  "Vaz states in his 2003 interview that he began aikido in 1977 under Katsumi Motomura at the Ginásio Clube do Sul in Almada, corroborated by the Aikido Marcial Dôjo Clube biography" .
+
+<https://martial.is/entity/01M7DPSDB43AJC63PRR0H65V38/hasEvidence/2>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DNNQJWQNGHXZ39X086KCYP>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Sensei Ulf currently holds the rank of 6th dan in Katori Shintō-ryū and 6th dan in Aikidō (Aikikai Shihan).";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M6BFF6ZQSCT0ZFV369XYGWG5/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -159081,6 +160198,14 @@ dcat:Distribution  rdf:type  owl:Class .
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/CAN>;
         schema:sameAs          <http://www.wikidata.org/entity/Q16> .
 
+<https://martial.is/entity/01M7DPSDB4NBGNSEBS9CQPMWXZ/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DPSDB4PF7NNA5QZZTGSWP3>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "He currently holds a 6th Dan in Katori Shintō-ryū.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M6ERSPBW7CYENTD6N2NXJQWT>
         rdf:type                  martialis:TeacherAssertion;
         martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9S>;
@@ -160617,6 +161742,16 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/news>;
         martialis:sourceType            "article" .
 
+<https://martial.is/entity/01M7DRBMCWAP2XGHHD1911B4DD>
+        rdf:type                 martialis:RankAssertion;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7DRBMCWD8W5Z9HGYRRR3Z6W>;
+        martialis:hasConfidence  <https://martial.is/entity/01M7DRBMCWAP2XGHHD1911B4DD/hasConfidence>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7DRBMCWAP2XGHHD1911B4DD/hasEvidence/0>;
+        martialis:rankOrdinal    2;
+        martialis:rankStyle      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9R>;
+        martialis:rankSystem     <https://martial.is/entity/01M11K25NF0E7HG8HWVWM2P3FG>;
+        martialis:rankType       <https://w3id.org/martialis/vocab/rank-type/dan> .
+
 <https://martial.is/entity/01M3YH7N5GW1G6H5DXTB23K141/hasInteraction/0>
         rdf:type                     martialis:TeacherInteraction;
         prov:wasDerivedFrom          <https://martial.is/entity/01KZRA7SNMWQBSXQKEN10PXPDT>;
@@ -161330,6 +162465,10 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:hasEvidence   <https://martial.is/entity/01M5H6E6RGYYTBADV357HGF5SV/birthEvent/hasEvidence/0>;
         martialis:latestYear    1951 .
 
+<https://martial.is/entity/01M7DMYF5P17JD7RP2KFPFM8J1/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "タウンニュース 川崎区・幸区版" .
+
 <https://martial.is/entity/01M3YH7N5GE7XDF50D63T9X58R/hasConfidence>
         rdf:type                       martialis:Confidence;
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
@@ -161591,6 +162730,19 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:confirmed;
         martialis:confidenceRationale  "The FFJDA's own 2016 announcement records the ligue's creation, and the ligue's site is an ffjudo.com subsite" .
+
+<https://martial.is/entity/01M7DMYF5PHY92E8PTRNTRARY1/hasInteraction/0>
+        rdf:type                    martialis:TeacherInteraction;
+        prov:wasDerivedFrom         <https://martial.is/entity/01M7DMYF5P17JD7RP2KFPFM8J1>;
+        martialis:hasEvidence       <https://martial.is/entity/01M7DMYF5PHY92E8PTRNTRARY1/hasInteraction/0/hasEvidence/0>;
+        martialis:interactionPlace  <https://martial.is/entity/01M7DRBMCWKW5ZMRDMJ7WJZYN8> .
+
+<https://martial.is/entity/01M7DRBMCWAP2XGHHD1911B4DD/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:possible;
+        martialis:confidenceRationale  "Only her own club's teachers page, so possible." .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD7A/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -162393,6 +163545,14 @@ dcterms:RightsStatement
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Three kenshi247 articles by one author; not independent of each other." .
 
+<https://martial.is/entity/01M7DPSDB4NBGNSEBS9CQPMWXZ/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DRBMCWYMT6B84CKCP1PZ5P>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "Ulf Rott Shibu-Cho Sugino Dojo Doitsu Shibu, 6. Dan Tenshin Shoden Katori Shinto Ryu";
+        martialis:supports         true .
+
 <https://martial.is/entity/01KXTSQXW6P83R31HCRY2PRTCH/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Wikimedia Foundation" .
@@ -162742,6 +163902,16 @@ dcterms:RightsStatement
         martialis:informationType  infotype:secondary;
         martialis:quotation        "Esme Beringer (5 September 1875 – 31 March 1972) was an English actress who was noted for her fencing skills.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7DRBMCWEHXQWFH5GAYZ8K3H>
+        rdf:type                       martialis:AffiliationAssertion;
+        prov:wasDerivedFrom            <https://martial.is/entity/01M7DRBMCWXV8RFAVY7VGHXPV8>;
+        prov:wasDerivedFrom            <https://martial.is/entity/01M7DPSDB4PF7NNA5QZZTGSWP3>;
+        martialis:affiliationRelation  affrel:branch_of;
+        martialis:hasConfidence        <https://martial.is/entity/01M7DRBMCWEHXQWFH5GAYZ8K3H/hasConfidence>;
+        martialis:hasEvidence          <https://martial.is/entity/01M7DRBMCWEHXQWFH5GAYZ8K3H/hasEvidence/1>;
+        martialis:hasEvidence          <https://martial.is/entity/01M7DRBMCWEHXQWFH5GAYZ8K3H/hasEvidence/0>;
+        martialis:relatedOrganization  <https://martial.is/entity/01M7DRBMCWQC5VRSSGXX6BZAYC> .
 
 <https://martial.is/entity/01M3YH7N5FNJJZPHPJZVA96CAA/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -163419,6 +164589,17 @@ dcterms:RightsStatement
         martialis:primaryImage         <https://martial.is/entity/01M5JSGG50BAEW6R5TXHQY17G9/image>;
         martialis:wasTaughtBy          <https://martial.is/entity/01M5JSGG506GVV0TBXMFE76A5C> .
 
+<https://martial.is/entity/01M7DPHADGSNPSKV0H0SFC20YC>
+        rdf:type                 martialis:HonorAssertion;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7DNGEY0236AMSFADV4HFT9N>;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7DMYF5PWB8AC18SCBAP8294>;
+        martialis:hasConfidence  <https://martial.is/entity/01M7DPHADGSNPSKV0H0SFC20YC/hasConfidence>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7DPHADGSNPSKV0H0SFC20YC/hasEvidence/0>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7DPHADGSNPSKV0H0SFC20YC/hasEvidence/1>;
+        martialis:honorGrade     <https://w3id.org/martialis/vocab/honor-grade/shogo_hanshi>;
+        martialis:honorType      <https://w3id.org/martialis/vocab/honor-type/title>;
+        martialis:honorValue     "Hanshi" .
+
 <https://martial.is/entity/01KYJDMKWDWBJBK07YVKCAQKMW/hasContributor/4>
         rdf:type                   martialis:Contributor;
         schema:name                "Cynarski, Wojciech J.";
@@ -163760,6 +164941,11 @@ dcterms:RightsStatement
         martialis:informationType  infotype:secondary;
         martialis:quotation        "began practice of aikido in the late 1960s or early 1970's at the Orange County Aikikai in California under Harry ISHISAKA";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7DRBMCW4ZTA2FCA3HMF993X/nationality/0>
+        rdf:type               martialis:NationalityEntry;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q17> .
 
 <https://martial.is/entity/01M6EF6KKAT03B1XNQZJ147MMK/hasContributor/0>
         rdf:type                   martialis:Contributor;
@@ -164202,6 +165388,13 @@ dcterms:RightsStatement
         martialis:primaryImage         <https://martial.is/entity/01M5JPY6FN315HECFACEE0SY04/image>;
         martialis:trainedAt            <https://martial.is/entity/01M5JPYGXJT7D93TZXATXBEQ5C>;
         martialis:wasTaughtBy          <https://martial.is/entity/01M5JPY6FNJBK7WVKR797CX3WY> .
+
+<https://martial.is/entity/01M7DRBMCWMWWBM44F2DVWZ3H1/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "Kobukai Berlin says the club is the seat of the Doitsu Shibu; the branch's own site places it in Leer. Affiliated pages only, so probable." .
 
 <https://martial.is/entity/01M3YH7N5GGZX29T1NMT8BP98A>
         rdf:type                  martialis:TeacherAssertion;
@@ -165490,6 +166683,16 @@ dcterms:RightsStatement
         rdf:type     martialis:Publisher;
         schema:name  "Wikimedia Foundation" .
 
+<https://martial.is/entity/01M7DRBMCWR13W11HQHX1PAQ7R>
+        rdf:type                      martialis:InstructorRole;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M7DRBMCW0TZCHFDHCXBENSDB>;
+        martialis:hasConfidence       <https://martial.is/entity/01M7DRBMCWR13W11HQHX1PAQ7R/hasConfidence>;
+        martialis:hasEvidence         <https://martial.is/entity/01M7DRBMCWR13W11HQHX1PAQ7R/hasEvidence/0>;
+        martialis:hasEvidence         <https://martial.is/entity/01M7DRBMCWR13W11HQHX1PAQ7R/hasEvidence/1>;
+        martialis:instructor          <https://martial.is/entity/01M7DPSDB42QAAVV5P2SV9Z8KJ>;
+        martialis:instructorCapacity  <https://w3id.org/martialis/vocab/instructor-capacity/head_instructor>;
+        martialis:instructorPeriod    <https://martial.is/entity/01M7DRBMCWR13W11HQHX1PAQ7R/instructorPeriod> .
+
 <https://martial.is/entity/01KZW2JNB8Z5A1QSZR05381WSR/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M58MM5M6XZ8BWKWYZ8S89XTZ>;
@@ -166068,6 +167271,11 @@ dcterms:RightsStatement
         martialis:accessed              "2026-09-23";
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceType            "webpage" .
+
+<https://martial.is/entity/01KJJAWN29MA64W22606R3WDA0/hasContributor/0>
+        rdf:type                   martialis:Contributor;
+        schema:name                "Reinhardt, Michael";
+        martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KZMEB6EEFVGF48RPTV56HECV/nationality/0>
         rdf:type               martialis:NationalityEntry;
@@ -170111,6 +171319,10 @@ dcterms:RightsStatement
         martialis:confidenceLevel      conflevel:confirmed;
         martialis:confidenceRationale  "Promoted to 1st dan on 17 August 1938, seventeen days after entering the Kodokan on 29 July 1938, as recorded on the Kodokan Palace of the 10th dan page. The Kodokan is the awarding body, so its own direct register of its own grant is the primary record and needs no independent corroboration." .
 
+<https://martial.is/entity/01M7DRBMCWYMT6B84CKCP1PZ5P/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Sugino Dojo Doitsu Shibu" .
+
 <https://martial.is/entity/01M3YH7N5GMHZB14MX5W1K411E/hasEvidence/2>
         rdf:type                   martialis:SourceAssertionRelation;
         schema:archivedAt          <http://web.archive.org/web/20251218135453/https://en.wikipedia.org/wiki/Vasili_Oshchepkov>;
@@ -170841,6 +172053,14 @@ dcterms:RightsStatement
         martialis:sourceLocation      "193";
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
+
+<https://martial.is/entity/01M7DPSDB4GR6VMXZC6WC8S49J/hasInteraction/0/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DPSDB4PF7NNA5QZZTGSWP3>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "In Japan, he began his training under Sugino Yoshio Ō-sensei and continues it to this day under Sugino Yukihiro Sensei.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M5H4EE3XTQ71T3X541Y6MZYJ>
         rdf:type               martialis:Style;
@@ -172188,6 +173408,7 @@ dcterms:RightsStatement
         martialis:accessed              "../2026-02-28";
         martialis:archiveDate           "2026-10-18";
         martialis:earliestYear          2013;
+        martialis:hasContributor        <https://martial.is/entity/01KJJAWN29MA64W22606R3WDA0/hasContributor/0>;
         martialis:latestYear            2013;
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/history>;
@@ -172445,7 +173666,7 @@ dcterms:RightsStatement
 
 <https://martial.is/data.ttl#dataset/class/Organization>
         void:class     martialis:Organization;
-        void:entities  108 .
+        void:entities  110 .
 
 <https://martial.is/entity/01M0TFF0X8V9B107JVWEGQZC7D/publisher>
         rdf:type     martialis:Publisher;
@@ -174019,6 +175240,23 @@ dcterms:RightsStatement
         martialis:hasEvidence        <https://martial.is/entity/01KJJAWN29MA64W22606R3WD7Y/dissolvedEvent/hasEvidence/0>;
         martialis:latestYear         1946 .
 
+<https://martial.is/entity/01M7DSJ2Y1499EK1HCPQWKD729>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://web.archive.org/web/20130528122841/http://lifeforasword.wordpress.com:80/2010/12/05/es-ist-geschafft/>;
+        schema:datePublished            "2010-12-05";
+        schema:description              "Blog post announcing the German edition of the Tenshin Shoden Katori Shinto Ryu Budo Kyohan by Ulf Rott and Izumi Mikami-Rott."@en;
+        schema:inLanguage               "de";
+        schema:name                     "Es ist geschafft…";
+        schema:publisher                <https://martial.is/entity/01M7DSJ2Y1499EK1HCPQWKD729/publisher>;
+        schema:url                      <https://lifeforasword.wordpress.com/2010/12/05/es-ist-geschafft/>;
+        martialis:accessed              "2026-11-14";
+        martialis:archiveDate           "2013-05-28";
+        martialis:earliestYear          2010;
+        martialis:hasContributor        <https://martial.is/entity/01M7DSJ2Y1499EK1HCPQWKD729/hasContributor/0>;
+        martialis:latestYear            2010;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceType            "article" .
+
 <https://martial.is/entity/01M6BHSAXW3N93ZE1E1CFMMED0/deathEvent>
         rdf:type                martialis:DeathEvent;
         prov:wasDerivedFrom     <https://martial.is/entity/01M6BEFR8F54EAE9EDZHFEC7EF>;
@@ -175523,6 +176761,10 @@ dcterms:RightsStatement
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Single source." .
 
+<https://martial.is/entity/01M7DRBMCW8S69QZ829CJEHDVQ/hasSite/0>
+        rdf:type         martialis:Site;
+        schema:location  <https://martial.is/entity/01M7DRBMCW8S69QZ829CJEHDVQ/hasSite/0/location> .
+
 <https://martial.is/entity/01M11YJ1XMX79NAEPJ09NWKC1S>
         rdf:type                     martialis:RankingSystem;
         schema:description           "The Brazilian Jiu-Jitsu ranking system, standardised by the IBJJF: eight named belts (white, blue, purple, brown, black, red-and-black, red-and-white, red), not a numbered dan/kyu ladder - belt colour is the rank itself, not insignia on top of one. Belt is the system's primary axis; each belt up to black further divides into numbered degrees (stripes); black belt divides into six degrees, after which the 7th/8th/9th degrees are marked by the red-and-black, red-and-white, and red belts respectively (10th degree red reserved for the art's founders)."@en;
@@ -176191,6 +177433,19 @@ dcterms:RightsStatement
         martialis:hasInteraction  <https://martial.is/entity/01M5H3WJ4FN5BSKHZNNWSTB2Y1/hasInteraction/0>;
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SD> .
+
+<https://martial.is/entity/01M7DNNQJWCRG9BKVEJ84N4T9P>
+        rdf:type                 martialis:RankAssertion;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7DNGEY0236AMSFADV4HFT9N>;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7DNNQJWQNGHXZ39X086KCYP>;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7DMYF5PWB8AC18SCBAP8294>;
+        martialis:hasConfidence  <https://martial.is/entity/01M7DNNQJWCRG9BKVEJ84N4T9P/hasConfidence>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7DNNQJWCRG9BKVEJ84N4T9P/hasEvidence/0>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7DNNQJWCRG9BKVEJ84N4T9P/hasEvidence/1>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7DNNQJWCRG9BKVEJ84N4T9P/hasEvidence/2>;
+        martialis:rankOrdinal    9;
+        martialis:rankSystem     <https://martial.is/entity/01M11K25NF0E7HG8HWVWM2P3FG>;
+        martialis:rankType       <https://w3id.org/martialis/vocab/rank-type/dan> .
 
 <https://martial.is/entity/01M3YH7N5G1G839960VG3CRPK6/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -178490,6 +179745,11 @@ dcterms:RightsStatement
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
         schema:sameAs          <http://www.wikidata.org/entity/Q17> .
 
+<https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137/nationality/0>
+        rdf:type               martialis:NationalityEntry;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q17> .
+
 <https://martial.is/entity/01M3YH7N5G3CF9XNPQ540EVZ6E/hasInteraction/0>
         rdf:type                     martialis:TeacherInteraction;
         prov:wasDerivedFrom          <https://martial.is/entity/01KYQM3M5CZKB7DYTDDT3JXQRP>;
@@ -180102,6 +181362,14 @@ dcterms:RightsStatement
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceType            "entry-encyclopedia" .
 
+<https://martial.is/entity/01M7DPHADGSNPSKV0H0SFC20YC/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DNGEY0236AMSFADV4HFT9N>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Il a reçu en héritage le dojo de son père et sa charge, et a été nommé 9ème dan Hanshi de NIHON KOBUDO par la DAI NIPPON BUTOKUKAI.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M5H668X76B3HAWFYQZBGVJ1W>
         rdf:type                     martialis:StyleRelationAssertion;
         prov:wasDerivedFrom          <https://martial.is/entity/01KYHF558AX2APCXHRG550QP3C>;
@@ -180276,6 +181544,20 @@ dcterms:RightsStatement
 <https://martial.is/entity/01KZXXSB6VWQ467ARN5179K098/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Revista de Artes Marciales Asiáticas" .
+
+<https://martial.is/entity/01M7DNNQJWQNGHXZ39X086KCYP>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://web.archive.org/web/20261114194155/https://katorishintoryu.pl/en/our-champions/>;
+        schema:description              "Masters page of a Kraków Katori Shintō-ryū school of the Sugino line: Sugino Yukihiro, Ulf Rott, Sugino Yoshio, Hatakeyama Goro."@en;
+        schema:inLanguage               "en";
+        schema:name                     "Our champions - TAKE Japanese Fencing School";
+        schema:publisher                <https://martial.is/entity/01M7DNNQJWQNGHXZ39X086KCYP/publisher>;
+        schema:url                      <https://katorishintoryu.pl/en/our-champions/>;
+        martialis:accessed              "2026-11-14";
+        martialis:archiveDate           "2026-11-14";
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/biography>;
+        martialis:sourceType            "webpage" .
 
 <https://martial.is/entity/01M5JPY6FNEBNSJN5X4GTQ06V5/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -180575,6 +181857,13 @@ dcterms:RightsStatement
         martialis:earliestYear  1849;
         martialis:hasEvidence   <https://martial.is/entity/01M37HHSSM41F8Y73PPQS399Z5/birthEvent/hasEvidence/0>;
         martialis:latestYear    1849 .
+
+<https://martial.is/entity/01M7DRBMCW3225482PXXWC6S67/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "The Sugino Dojo's own page names 国際武道院 and Shōwa 57 (1982); TAKE and the Doitsu Shibu site give 1981 under the name International (Federation of) Nippon Budo. Dojo and branch pages only, so probable." .
 
 <https://martial.is/entity/01M61V7JC2R1GJK1VFPN1SAZPV/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -181222,11 +182511,20 @@ dcterms:RightsStatement
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01M61VT2BR7X8Y4X87XJS97Y0Z> .
 
+<https://martial.is/entity/01M7DRBMCWFTDDG50J8RQCPKSB/hasSite/0/sitePeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:startYear  2001 .
+
 <https://martial.is/entity/01M6C5JZZGF497JRQVEXBY4CAZ/deathEvent/deathPlace>
         rdf:type               martialis:GeoRef;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/USA>;
         schema:name            "Honolulu";
         schema:sameAs          <http://www.wikidata.org/entity/Q18094> .
+
+<https://martial.is/entity/01M7DMYF5PNNPGSSJZRX6T6F74/hasContributor/0>
+        rdf:type                   martialis:Contributor;
+        schema:name                "Reid, Corey";
+        martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M6C18DS7Q44DM2M7YFK1MJQT/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -183212,6 +184510,16 @@ dcterms:RightsStatement
         martialis:informationType  infotype:primary;
         martialis:supports         true .
 
+<https://martial.is/entity/01M7DRBMCWQC5VRSSGXX6BZAYC>
+        rdf:type               martialis:Organization;
+        schema:description     "The teaching organisation of the Sugino Dojo in Kawasaki, with branches abroad."@en;
+        schema:name            "Yuishinkan Sugino Dōjō"@ja-Latn;
+        schema:name            "唯心館 杉野道場"@ja;
+        schema:name            "Sugino Dojo"@en;
+        martialis:hasEvidence  <https://martial.is/entity/01M7DRBMCWQC5VRSSGXX6BZAYC/hasEvidence/0>;
+        martialis:hasSite      <https://martial.is/entity/01M7DRBMCWQC5VRSSGXX6BZAYC/hasSite/0>;
+        martialis:orgType      <https://w3id.org/martialis/vocab/org-classification/school> .
+
 <https://martial.is/entity/01M69YCGCMWM48B31AKTK503SP/nationality/0>
         rdf:type               martialis:NationalityEntry;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/CHN>;
@@ -183842,6 +185150,12 @@ dcterms:RightsStatement
         martialis:hasInteraction  <https://martial.is/entity/01M41JZ0GP83KQM0CJSSVH1N51/hasInteraction/0>;
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SD> .
+
+<https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137/birthEvent/birthPlace>
+        rdf:type               martialis:GeoRef;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
+        schema:name            "Kawasaki";
+        schema:sameAs          <http://www.wikidata.org/entity/Q164234> .
 
 <https://martial.is/entity/01M6C1ZABV6FHQ2EXVCNW3NV8P/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -186217,6 +187531,14 @@ dcterms:RightsStatement
         rdf:type     martialis:Publisher;
         schema:name  "Okinawa Dento Karatedo Shinkokai (tourism.odks.jp)" .
 
+<https://martial.is/entity/01M7DPSDB43AJC63PRR0H65V38/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DPSDB4PF7NNA5QZZTGSWP3>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Furthermore, holding a 6th Dan in Aikidō, he is also a leading instructor in the Aikido Federation Germany and was appointed Shihan by the Aikikai Japan.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01KZM8EFMVHGQA389F4WB4335V>
         rdf:type                       martialis:Person;
         schema:alternateName           "A. Kolychkine"@en;
@@ -188062,6 +189384,13 @@ dcterms:RightsStatement
         rdf:type     martialis:Publisher;
         schema:name  "Wikimedia Foundation" .
 
+<https://martial.is/entity/01M7DPHADGSNPSKV0H0SFC20YC/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "WEB Hiden and FKSR give the kobudo hanshi title with the 9th dan. FKSR names the Dai Nippon Butokukai, TAKE names another body for the dan, so no body is given. Neither is the conferring body's record, so probable." .
+
 <https://martial.is/entity/01M3YH7N5GXB6G62DRFJSV78G9/hasConfidence>
         rdf:type                       martialis:Confidence;
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
@@ -188455,6 +189784,14 @@ dcterms:RightsStatement
         martialis:honorValue     "Kendo Dendō";
         martialis:latestYear     2003 .
 
+<https://martial.is/entity/01M7DRBMCWEHXQWFH5GAYZ8K3H/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DRBMCWXV8RFAVY7VGHXPV8>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "Da die von Leer/Ostfriesland ausgehende Verbreitung des Katori Shinto Ryu in Deutschland eine Organisationsform notwendig machte, haben wir uns als Sugino Dojo Doitsu Shibu organisiert und sind als solches eine direkte Zweigstelle des Sugino Dojos in Japan.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01KYD74HFFTNR5VFZJREX97E88/image/imageAttribution>
         rdf:type                   martialis:Attribution;
         schema:citation            "Dragon Wing Chun";
@@ -188732,6 +190069,14 @@ dcterms:RightsStatement
         martialis:sourceLocation      "96";
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
+
+<https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137/hasEvidence/2>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DMYF5PNNPGSSJZRX6T6F74>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "Most of the training these days is handled by the son of Yoshino Sugino, Yukihiro.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M3YH7N5GQJNDSK3Y1GQGVMA8/hasInteraction/0/hasEvidence/2>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -190716,6 +192061,16 @@ dcterms:RightsStatement
         martialis:rankStyle      <https://martial.is/entity/01KZ6XT5DS9BPQ109R3EJ8MKVG>;
         martialis:rankSystem     <https://martial.is/entity/01M11K25NF0E7HG8HWVWM2P3FG>;
         martialis:rankType       <https://w3id.org/martialis/vocab/rank-type/dan> .
+
+<https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137/birthEvent/hasEvidence/1>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M7DNNQJWTPFMZSFZCB30GZ3S>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:primary;
+        martialis:quotation           "I was born on the 14th of December 1937.";
+        martialis:sourceLocation      "3:10-3:16";
+        martialis:sourceLocatorLabel  "timestamp";
+        martialis:supports            true .
 
 <https://martial.is/entity/01KYMWJH24VAYQ8H59YVKK5EFX/hasSite/0>
         rdf:type         martialis:Site;
@@ -193739,6 +195094,14 @@ dcterms:RightsStatement
         martialis:hasEvidence  <https://martial.is/entity/01M41JZ0GP83KQM0CJSSVH1N51/hasInteraction/0/hasEvidence/0>;
         martialis:hasEvidence  <https://martial.is/entity/01M41JZ0GP83KQM0CJSSVH1N51/hasInteraction/0/hasEvidence/1> .
 
+<https://martial.is/entity/01M7DRBMCWQC5VRSSGXX6BZAYC/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DPSDB4PF7NNA5QZZTGSWP3>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "The Sugino Dōjō boasts branches and training locations in many different countries across the globe.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M6BEFR8FN79RMC1B1TB3FK2P/hasConfidence>
         rdf:type                       martialis:Confidence;
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
@@ -193824,6 +195187,14 @@ dcterms:RightsStatement
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
         martialis:quotation        "Hawaii Karate Kodanshakai  Established 1984";
+        martialis:supports         true .
+
+<https://martial.is/entity/01M7DRBMCWKW5ZMRDMJ7WJZYN8/foundedEvent/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DRBMCWEWC0WMVCFSQVC795>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Das Sugino Dojo in Kawasaki wurde 1928 von Yoshio Sugino, zunächst als Judo-Dojo, gegründet.";
         martialis:supports         true .
 
 <https://martial.is/entity/01KXTSQXW6P83R31HCRY2PRTDB/publisher>
@@ -195431,6 +196802,10 @@ dcterms:RightsStatement
         rdf:type     martialis:Publisher;
         schema:name  "Wikimedia Foundation" .
 
+<https://martial.is/entity/01M7DMYF5PWB8AC18SCBAP8294/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Hiden (BAB Japan)" .
+
 <https://martial.is/entity/01M3YH7N5GF1Y6M61B525KDY1R>
         rdf:type                 martialis:HonorAssertion;
         prov:wasDerivedFrom      <https://martial.is/entity/01KZC8XAP8WHXBQM71S344TXVZ>;
@@ -196933,6 +198308,14 @@ dcterms:RightsStatement
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/PRT>;
         schema:sameAs          <http://www.wikidata.org/entity/Q45> .
 
+<https://martial.is/entity/01M7DPSDB4JPXEX2VA9VBGCDHS/hasInteraction/0/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DPSDB4NEX1Q1GQDA5SAXRB>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "Japan affiliation (instructor/organization): Yuishinkai Kawasaki, Sugino Yukihiro, Tenshin Shoden Katori Shinto-ryu Kawasaki Shibu, Aikikai-Honbu";
+        martialis:supports         true .
+
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9N>
         rdf:type                martialis:Style;
         schema:alternateName    "Prizefighting"@en;
@@ -197588,6 +198971,14 @@ dcterms:RightsStatement
         rdf:type             martialis:TimeInterval;
         martialis:endYear    1975;
         martialis:startYear  1952 .
+
+<https://martial.is/entity/01M7DRBMCWMWWBM44F2DVWZ3H1>
+        rdf:type                       martialis:AffiliationAssertion;
+        prov:wasDerivedFrom            <https://martial.is/entity/01M7DPSDB4PF7NNA5QZZTGSWP3>;
+        martialis:affiliationRelation  affrel:branch_of;
+        martialis:hasConfidence        <https://martial.is/entity/01M7DRBMCWMWWBM44F2DVWZ3H1/hasConfidence>;
+        martialis:hasEvidence          <https://martial.is/entity/01M7DRBMCWMWWBM44F2DVWZ3H1/hasEvidence/0>;
+        martialis:relatedOrganization  <https://martial.is/entity/01M7DRBMCW8S69QZ829CJEHDVQ> .
 
 <https://martial.is/entity/01M5JSGG50F450X1DNSYHTR26M/birthEvent/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -198415,6 +199806,10 @@ dcterms:RightsStatement
         martialis:primaryImage  <https://martial.is/entity/01M5JVVMHMR3S1YCGFGXFZ7E44/image>;
         martialis:teaches       <https://martial.is/entity/01M5JVVMHM1HCY148KJQ2VP9H6> .
 
+<https://martial.is/entity/01M7DNNQJWQNGHXZ39X086KCYP/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "TAKE Association (Kraków)" .
+
 <https://martial.is/entity/01M3YH7N5G12CD3MJPV0MDA153>
         rdf:type                 martialis:HonorAssertion;
         prov:wasDerivedFrom      <https://martial.is/entity/01KZ6XT5DSZJCMCB9KC9BY5T24>;
@@ -198810,6 +200205,14 @@ dcterms:RightsStatement
 <https://martial.is/entity/01M3YH7N5G5ZFKTNMPDASJYETG/hasInteraction/0/interactionPeriod>
         rdf:type             martialis:TimeInterval;
         martialis:startYear  1908 .
+
+<https://martial.is/entity/01M7DSK4WJEK1W9HVB92JRXW07/hasInteraction/0/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DSJ2Y1499EK1HCPQWKD729>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "nach vielen Jahren der Arbeit hat mein Lehrer Ulf Rott, zusammen mit seiner Frau Izumi Mikami-Rott, das obige Buch veröffentlicht.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M6A30S47M9MMZ8M5D16CK855/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -199215,6 +200618,24 @@ dcterms:RightsStatement
 <https://martial.is/entity/01M6ERRV5G24HFJ2G76G98N6G3/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "USA Wrestling" .
+
+<https://martial.is/entity/01M7DPSDB42QAAVV5P2SV9Z8KJ>
+        rdf:type                       martialis:Person;
+        schema:birthDate               "1964-10-01";
+        schema:description             "Teacher of Tenshin Shōden Katori Shintō-ryū and aikido in Leer; head of the German branch of the Sugino Dojo."@en;
+        schema:name                    "Ulf Rott"@en;
+        schema:nationality             <https://martial.is/entity/01M7DPSDB42QAAVV5P2SV9Z8KJ/nationality/0>;
+        martialis:birthEvent           <https://martial.is/entity/01M7DPSDB42QAAVV5P2SV9Z8KJ/birthEvent>;
+        martialis:hasEvidence          <https://martial.is/entity/01M7DPSDB42QAAVV5P2SV9Z8KJ/hasEvidence/0>;
+        martialis:hasRankAssertion     <https://martial.is/entity/01M7DPSDB43AJC63PRR0H65V38>;
+        martialis:hasRankAssertion     <https://martial.is/entity/01M7DPSDB4NBGNSEBS9CQPMWXZ>;
+        martialis:hasRankAssertion     <https://martial.is/entity/01M7DRBMCWC98RC4BRNZ3P995K>;
+        martialis:hasTeacherAssertion  <https://martial.is/entity/01M7DPSDB4GR6VMXZC6WC8S49J>;
+        martialis:hasTeacherAssertion  <https://martial.is/entity/01M7DPSDB4JPXEX2VA9VBGCDHS>;
+        martialis:teaches              <https://martial.is/entity/01M7DSJ2Y1XGEDT11A5ZCSA2VA>;
+        martialis:trainedAt            <https://martial.is/entity/01M7DRBMCWKW5ZMRDMJ7WJZYN8>;
+        martialis:wasTaughtBy          <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TZ>;
+        martialis:wasTaughtBy          <https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137> .
 
 <https://martial.is/entity/01M5HNE76PYBE5HSGF2XCJ38C0>
         rdf:type                       martialis:Person;
@@ -200465,6 +201886,14 @@ dcterms:RightsStatement
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Single kenshi247 article." .
 
+<https://martial.is/entity/01M7DRBMCW3225482PXXWC6S67/hasEvidence/2>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DRBMCWYMT6B84CKCP1PZ5P>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "1981 erhielt er von der International Federation of Nippon Budo den 10. Dan Kobudo.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M6ENPY5WGKAHF0AC63HCW4ZM>
         rdf:type                        martialis:Source;
         schema:archivedAt               <https://web.archive.org/web/20260216031028/https://www.bjjee.com/articles/black-belt-explains-what-receiving-his-fifth-degree-means-to-him/>;
@@ -200994,6 +202423,22 @@ dcterms:RightsStatement
         martialis:hasInteraction  <https://martial.is/entity/01M3YH7N5GQ69DN1QNWGJ9XQYM/hasInteraction/0>;
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01KJJAWN29MA64W22606R3WD72> .
+
+<https://martial.is/entity/01M7DMYF5PWB8AC18SCBAP8294>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://web.archive.org/web/20260810051959/https://webhiden.jp/master/sugino_yukihiro/>;
+        schema:description              "Master profile of Sugino Yukihiro on the WEB Hiden (BAB Japan) site."@en;
+        schema:inLanguage               "ja";
+        schema:name                     "杉野至寛 Sugino Yukihiro - WEB秘伝 (達人・名人・秘伝の師範たち)";
+        schema:publisher                <https://martial.is/entity/01M7DMYF5PWB8AC18SCBAP8294/publisher>;
+        schema:url                      <https://webhiden.jp/master/sugino_yukihiro/>;
+        martialis:accessed              "2026-11-14";
+        martialis:archiveDate           "2026-08-10";
+        martialis:partOf                <https://martial.is/entity/01M0DCY9PEW4SQKHVV17CW6DW9>;
+        martialis:peerReview            <https://w3id.org/martialis/vocab/peer-review/not_peer_reviewed>;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/biography>;
+        martialis:sourceType            "article-magazine" .
 
 <https://martial.is/entity/01KYHTJXCXHYSC519CB367XXZK/foundedEvent>
         rdf:type                martialis:FoundingEvent;
@@ -202015,6 +203460,14 @@ dcterms:RightsStatement
         martialis:hasEvidence        <https://martial.is/entity/01M3YH7N5GQ635N0GHA1JSZNZT/hasInteraction/0/hasEvidence/0>;
         martialis:interactionPeriod  <https://martial.is/entity/01M3YH7N5GQ635N0GHA1JSZNZT/hasInteraction/0/interactionPeriod> .
 
+<https://martial.is/entity/01M7DRBMCWKZH7E8SY9VYS9JJK/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DRBMCWD8W5Z9HGYRRR3Z6W>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "Izumi Mikami-Rott (2. Dan Aikido, 5. Dan Katori Shinto Ryu)";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M06K0RMZNWJ90EEQ7CXBFHGS/hasEvidence/6>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M0AJNJHSV6RHCNNKNM0Y1EHT>;
@@ -202260,6 +203713,13 @@ dcterms:RightsStatement
         martialis:hasInteraction  <https://martial.is/entity/01M3YH7N5F1B6R710TB8JRBB47/hasInteraction/0>;
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TJ> .
+
+<https://martial.is/entity/01M7DMYF5PHY92E8PTRNTRARY1/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "Town News 2012 says he learned the art as a child among his father's students while his father taught; no source names Yoshio as his teacher outright, so probable, not confirmed." .
 
 <https://martial.is/entity/01M0QPYAH0VN3S9TKPDRAKDZQJ/hasContributor/0>
         rdf:type                   martialis:Contributor;
@@ -203522,6 +204982,14 @@ dcterms:RightsStatement
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
 
+<https://martial.is/entity/01M7DRBMCWY7W37SW5NH9M66S3/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7DRBMCWYMT6B84CKCP1PZ5P>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "Ulf Rott Shibu-Cho Sugino Dojo Doitsu Shibu, 6. Dan Tenshin Shoden Katori Shinto Ryu";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3YH7N5GY4SN4W09TF3T7AMY/hasConfidence>
         rdf:type                       martialis:Confidence;
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
@@ -204221,6 +205689,20 @@ dcterms:RightsStatement
         martialis:hasInteraction  <https://martial.is/entity/01M3YH7N5FYJJKSFFX5ZC9FAPC/hasInteraction/0>;
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/uchi_deshi>;
         martialis:teacher         <https://martial.is/entity/01KZ6D9E8QNRKR39QAE2HQ9J9E> .
+
+<https://martial.is/entity/01M7DSJ2Y1XGEDT11A5ZCSA2VA>
+        rdf:type                       martialis:Person;
+        schema:description             "Practitioner of Tenshin Shōden Katori Shintō-ryū at the Sugino Dojo and author of the blog Life for a Sword."@en;
+        schema:name                    "Michael Reinhardt"@en;
+        schema:nationality             <https://martial.is/entity/01M7DSJ2Y1XGEDT11A5ZCSA2VA/nationality/0>;
+        martialis:hasEvidence          <https://martial.is/entity/01M7DSJ2Y1XGEDT11A5ZCSA2VA/hasEvidence/0>;
+        martialis:hasEvidence          <https://martial.is/entity/01M7DSJ2Y1XGEDT11A5ZCSA2VA/hasEvidence/1>;
+        martialis:hasTeacherAssertion  <https://martial.is/entity/01M7DSK4WJEK1W9HVB92JRXW07>;
+        martialis:hasTeacherAssertion  <https://martial.is/entity/01M7DSJ2Y158AZDNKTTKZ970ZX>;
+        martialis:primaryImage         <https://martial.is/entity/01M7DSJ2Y1XGEDT11A5ZCSA2VA/image>;
+        martialis:trainedAt            <https://martial.is/entity/01M7DRBMCWKW5ZMRDMJ7WJZYN8>;
+        martialis:wasTaughtBy          <https://martial.is/entity/01M7DPSDB42QAAVV5P2SV9Z8KJ>;
+        martialis:wasTaughtBy          <https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137> .
 
 <https://martial.is/entity/01M5JG4Y25D6RS15RPSXHTDTAS/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -205010,6 +206492,13 @@ void:vocabulary  rdf:type  owl:ObjectProperty .
         martialis:quotation        "'Kang Rhee, Karate Instructor of Elvis Presley, 8th Degree Black Belt PaSaRyu Karate, September 16th 1974, Memphis Tennessee, U.S.A'";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7DSJ2Y158AZDNKTTKZ970ZX/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:confirmed;
+        martialis:confidenceRationale  "Reinhardt names Sugino Yukihiro as his teacher (HOPLOblog 2012); the Sugino Dojo's own documentary (2025) presents him as one of its students." .
+
 <https://martial.is/entity/01M0AZQ3TJ9K5V2Z20K5370P1A/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Wikimedia Foundation" .
@@ -205255,6 +206744,17 @@ void:vocabulary  rdf:type  owl:ObjectProperty .
         schema:contentUrl           <https://upload.wikimedia.org/wikipedia/commons/8/82/Gozo_Shioda.jpg>;
         martialis:imageAttribution  <https://martial.is/entity/01KYQ4SCN933DE1RDHARY7VGHX/image/imageAttribution>;
         martialis:mediaRights       <https://w3id.org/martialis/vocab/media-rights/cc-by-sa-4.0> .
+
+<https://martial.is/entity/01M7DRBMCWC98RC4BRNZ3P995K>
+        rdf:type                 martialis:RankAssertion;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7DRBMCWD8W5Z9HGYRRR3Z6W>;
+        martialis:conferredBy    <https://martial.is/entity/01KZ3KA57C6W6FMCWM668Y13X2>;
+        martialis:hasConfidence  <https://martial.is/entity/01M7DRBMCWC98RC4BRNZ3P995K/hasConfidence>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7DRBMCWC98RC4BRNZ3P995K/hasEvidence/0>;
+        martialis:rankOrdinal    7;
+        martialis:rankStyle      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9R>;
+        martialis:rankSystem     <https://martial.is/entity/01M11K25NF0E7HG8HWVWM2P3FG>;
+        martialis:rankType       <https://w3id.org/martialis/vocab/rank-type/dan> .
 
 <https://martial.is/entity/01M00J0E66YN5HQ7DQTZ0YY4CB>
         rdf:type                        martialis:Source;
@@ -205597,6 +207097,10 @@ void:vocabulary  rdf:type  owl:ObjectProperty .
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:confirmed;
         martialis:confidenceRationale  "Exact date in the chronology, matching Bolling's resume (August 1968); also stated narratively in the same article and echoed by English Wikipedia's 'very skilled (5th Dan)'." .
+
+<https://martial.is/entity/01M7DMYF5PNNPGSSJZRX6T6F74/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "The Iaido Journal" .
 
 <https://martial.is/entity/01M3YH7N5G0REQ9ZB50E3V4G0B/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -207566,6 +209070,12 @@ void:uriSpace  rdf:type  owl:DatatypeProperty .
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
 
+<https://martial.is/entity/01M7DRBMCWQC5VRSSGXX6BZAYC/hasSite/0/location>
+        rdf:type               martialis:GeoRef;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
+        schema:name            "Kawasaki";
+        schema:sameAs          <http://www.wikidata.org/entity/Q164234> .
+
 <https://martial.is/entity/01M6EF6KKA5CRKSV2YHVTM8KTS/hasContributor/0>
         rdf:type                   martialis:Contributor;
         schema:name                "Jeff Karinja";
@@ -208201,6 +209711,14 @@ dcterms:identifier  rdf:type  owl:AnnotationProperty .
         martialis:quotation        "He trained in Tenjin Shin'yō-ryū jujutsu under Keitaro Inoue in the Yushima Tenjin dojo";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7DRBMCWY7W37SW5NH9M66S3>
+        rdf:type                 martialis:OfficerRole;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7DRBMCWYMT6B84CKCP1PZ5P>;
+        martialis:hasConfidence  <https://martial.is/entity/01M7DRBMCWY7W37SW5NH9M66S3/hasConfidence>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7DRBMCWY7W37SW5NH9M66S3/hasEvidence/0>;
+        martialis:officer        <https://martial.is/entity/01M7DPSDB42QAAVV5P2SV9Z8KJ>;
+        martialis:officerTitle   "Shibu-chō" .
+
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6J/hasEvidence/2>
         rdf:type                   martialis:SourceAssertionRelation;
         schema:citation            "Entrevista Fernando Costa Matos: Um Velejador, Navegador de Judogi (Judo Magazine, archived)";
@@ -208589,6 +210107,13 @@ dcterms:identifier  rdf:type  owl:AnnotationProperty .
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Wikipedia and multiple MMA outlets report Velasquez earned a brown belt in Guerrilla Jiu-Jitsu under Dave Camarillo while training at AKA; single secondary source" .
+
+<https://martial.is/entity/01M7DSK4WJEK1W9HVB92JRXW07/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "Reinhardt calls Ulf Rott his teacher on his own blog (2010); no second source, so probable." .
 
 <https://martial.is/entity/01M6BQSYG6THHQB5HMBW87F6FE/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -210262,6 +211787,14 @@ dcterms:identifier  rdf:type  owl:AnnotationProperty .
         martialis:quotation        "Lee Won Kuk a direct student of Funakoshi";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7DRBMCWFTDDG50J8RQCPKSB/hasSite/0>
+        rdf:type               martialis:Site;
+        prov:wasDerivedFrom    <https://martial.is/entity/01M7DRBMCW0TZCHFDHCXBENSDB>;
+        schema:address         "Großer Oldekamp 17, 26789 Leer";
+        schema:location        <https://martial.is/entity/01M7DRBMCWFTDDG50J8RQCPKSB/hasSite/0/location>;
+        martialis:hasEvidence  <https://martial.is/entity/01M7DRBMCWFTDDG50J8RQCPKSB/hasSite/0/hasEvidence/0>;
+        martialis:sitePeriod   <https://martial.is/entity/01M7DRBMCWFTDDG50J8RQCPKSB/hasSite/0/sitePeriod> .
+
 <https://martial.is/entity/01M3YH7N5G7PG1ZR0620VZE8YJ>
         rdf:type                  martialis:TeacherAssertion;
         martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B>;
@@ -210891,6 +212424,30 @@ dcterms:identifier  rdf:type  owl:AnnotationProperty .
         martialis:earliestYear  1797;
         martialis:hasEvidence   <https://martial.is/entity/01M5JPY6FNTBJ2XWNW9MGK9VR5/deathEvent/hasEvidence/0>;
         martialis:latestYear    1797 .
+
+<https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137>
+        rdf:type                       martialis:Person;
+        schema:birthDate               "1937-12-14";
+        schema:birthPlace              <https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137/birthEvent/birthPlace>;
+        schema:description             "Second head of the Yuishinkan Sugino Dojo in Kawasaki, teacher of Tenshin Shōden Katori Shintō-ryū."@en;
+        schema:name                    "Sugino Yukihiro"@ja-Latn;
+        schema:name                    "杉野至寛"@ja;
+        schema:nationality             <https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137/nationality/0>;
+        martialis:birthEvent           <https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137/birthEvent>;
+        martialis:hasEvidence          <https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137/hasEvidence/0>;
+        martialis:hasEvidence          <https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137/hasEvidence/3>;
+        martialis:hasEvidence          <https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137/hasEvidence/1>;
+        martialis:hasEvidence          <https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137/hasEvidence/2>;
+        martialis:hasHonorAssertion    <https://martial.is/entity/01M7DPHADGSNPSKV0H0SFC20YC>;
+        martialis:hasRankAssertion     <https://martial.is/entity/01M7DP23B03DCSB2385MH4HNCV>;
+        martialis:hasRankAssertion     <https://martial.is/entity/01M7DNNQJWCRG9BKVEJ84N4T9P>;
+        martialis:hasTeacherAssertion  <https://martial.is/entity/01M7DMYF5PHY92E8PTRNTRARY1>;
+        martialis:primaryImage         <https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137/image>;
+        martialis:taughtAt             <https://martial.is/entity/01M7DRBMCWKW5ZMRDMJ7WJZYN8>;
+        martialis:teaches              <https://martial.is/entity/01M7DPSDB42QAAVV5P2SV9Z8KJ>;
+        martialis:teaches              <https://martial.is/entity/01M7DSJ2Y1XGEDT11A5ZCSA2VA>;
+        martialis:trainedAt            <https://martial.is/entity/01M7DRBMCWKW5ZMRDMJ7WJZYN8>;
+        martialis:wasTaughtBy          <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TZ> .
 
 <https://martial.is/entity/01M3YH7N5GK6NEEHSX5BCNRDX9>
         rdf:type                  martialis:TeacherAssertion;

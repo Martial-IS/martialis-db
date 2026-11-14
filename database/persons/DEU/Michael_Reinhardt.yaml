@@ -1,0 +1,70 @@
+type: Person
+id: 01M7DSJ2Y1XGEDT11A5ZCSA2VA
+name:
+  en: Michael Reinhardt
+nationality:
+  - countryCode: eucountry:DEU
+    wikidata: wd:Q183
+image:
+  contentUrl: https://budojapan.com/wp/wp-content/uploads/BTP2306_IMGP4213-300x300.jpg
+  rights: mediarights:in_copyright
+  imageAttribution:
+    basedOnSource: 01M7DSJ2Y12FM440R0K96HMB9T
+    informationType: infotype:secondary
+description:
+  en: >-
+    Practitioner of Tenshin Shōden Katori Shintō-ryū at the Sugino Dojo and an investigator on TSKSR.
+hasEvidence:
+  - basedOnSource: 01M7DSJ2Y1PBZ6GCAD4ZAAEREY
+    quotation: Reinhardt betreibt selbst Tenshin Shôden Katori Shintô ryû seit 2005 und ist Schüler von Sugino Yukihiro aus Kawasaki, Japan.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M7DSJ2Y12FM440R0K96HMB9T
+    quotation: Michael Reinhardt from Germany
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M7DSJ2Y158AZDNKTTKZ970ZX
+    teacher: 01M7DMYF5PQYRR6VW6K9FDZ137
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9T
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Reinhardt names Sugino Yukihiro as his teacher (HOPLOblog 2012); the
+        Sugino Dojo's own documentary (2025) presents him as one of its students.
+    hasInteraction:
+      - interactionPlace: 01M7DRBMCWKW5ZMRDMJ7WJZYN8
+        hasEvidence:
+          - basedOnSource: 01M7DSJ2Y1PBZ6GCAD4ZAAEREY
+            quotation: Mein Lehrer hier in Japan in der Shintô ryû ist Sugino Yukihiro-sensei, Sohn von Sugino Yoshio-sensei, einem der berühmtesten Lehrer für Kampfkunst des letzten Jahrhunderts.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M7DNNQJWTPFMZSFZCB30GZ3S
+            locator: '13:21-13:32'
+            locatorLabel: timestamp
+            quotation: I'm a student now for 19 years of Katori Shintō-ryū and 12 of them here in Japan and what always amazes me about Sugino sensei's sense for detail
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M7DSK4WJEK1W9HVB92JRXW07
+    teacher: 01M7DPSDB42QAAVV5P2SV9Z8KJ
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9T
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Reinhardt calls Ulf Rott his teacher on his own blog (2010); no second
+        source, so probable.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M7DSJ2Y1499EK1HCPQWKD729
+            quotation: nach vielen Jahren der Arbeit hat mein Lehrer Ulf Rott, zusammen mit seiner Frau Izumi Mikami-Rott, das obige Buch veröffentlicht.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
