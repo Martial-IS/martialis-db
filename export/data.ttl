@@ -4219,9 +4219,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:confidenceRationale  "His own club's page; one side only." .
 
 <https://martial.is/entity/01KZSPHPJ7QDX4B0HE2HSVEZ4Z/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Dave Camarillo";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Dave Camarillo";
+        martialis:contributorPerson  <https://martial.is/entity/01KZQ5XKW310NKTT34P8D4WQAS>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M5CSC4Z2HSC5PJ2YEBC0DZX5/hasContributor/0>
         rdf:type                   martialis:Contributor;
@@ -4537,9 +4538,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         schema:sameAs          <http://www.wikidata.org/entity/Q155> .
 
 <https://martial.is/entity/01KY52HE47G1MEN0VTV65KS7CK/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Koizumi, Gunji";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Koizumi, Gunji";
+        martialis:contributorPerson  <https://martial.is/entity/01KY52HE48XM1KHDGKBV98YRQ2>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M5JPY6FN6D0J6MGWMNWARJNR/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -6035,9 +6037,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:latestYear     1738 .
 
 <https://martial.is/entity/01KZXH2NSQ1XN16GMNTTE4BYSS/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Bluming, Jon";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Bluming, Jon";
+        martialis:contributorPerson  <https://martial.is/entity/01M015RNEV8D2DR0J67PC1091F>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M69YZDB53HKQQB9G3MCDH8DY>
         rdf:type                  martialis:TeacherAssertion;
@@ -6066,9 +6069,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         schema:sameAs          <http://www.wikidata.org/entity/Q17> .
 
 <https://martial.is/entity/01M3M3T743KNJ71CN2ZMC6Y3V0/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Joe Rogan";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Joe Rogan";
+        martialis:contributorPerson  <https://martial.is/entity/01KYQB8J2NBYW60FB1QW1CZZ88>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M3YH7N5GCGFGD3WCSTJGSFNH/hasInteraction/0>
         rdf:type                     martialis:TeacherInteraction;
@@ -6361,9 +6365,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:supports         true .
 
 <https://martial.is/entity/01KZS3PSKK1T6WG2HDVGG0YE5N/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Lex Fridman";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Lex Fridman";
+        martialis:contributorPerson  <https://martial.is/entity/01KZRA7SNMKFET4JQ46G8PCZFA>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M5KQTRGXSBQFFZB9TF683JD2/deathEvent>
         rdf:type                martialis:DeathEvent;
@@ -9239,7 +9244,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         void:classPartition   <https://martial.is/data.ttl#dataset/class/Event>;
         void:dataDump         <https://martial.is/data.ttl>;
         void:entities         2948;
-        void:triples          163477;
+        void:triples          163545;
         void:uriSpace         "https://martial.is/entity/";
         void:vocabulary       <http://purl.org/ontology/bibo/>;
         void:vocabulary       prov:;
@@ -15590,9 +15595,10 @@ void:class  rdf:type  owl:ObjectProperty .
         martialis:latestYear    1953 .
 
 <https://martial.is/entity/01KZBJ73N3F4Y4BQM7KH0VK1VH/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Mochizuki, Hiroo";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Mochizuki, Hiroo";
+        martialis:contributorPerson  <https://martial.is/entity/01KZBJ73N3JHCD166DR1QCC919>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M0DCY9PE06MWSKCK1ABQG4DB/image/imageAttribution>
         rdf:type                   martialis:Attribution;
@@ -24510,9 +24516,10 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:teacher         <https://martial.is/entity/01KZ6XT5DSD1RN1NG4PJKJWXAH> .
 
 <https://martial.is/entity/01M0A2FCGSAVG29MH0H9GBK9SK/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Watts, Emily Diana";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Watts, Emily Diana";
+        martialis:contributorPerson  <https://martial.is/entity/01M0A2FCGS8SSMPCGQ4BBNYH4M>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M5JPY6FN99N65M7A5XV64SSV/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -25678,9 +25685,10 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:supports         true .
 
 <https://martial.is/entity/01M0CXZHZN8KGE9DWJF1Z507RG/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Moshe Feldenkrais";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Moshe Feldenkrais";
+        martialis:contributorPerson  <https://martial.is/entity/01M00NPBTP9PQDZS2N22G1AYG9>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01KZ1SNKM3P658JK55THPT92RP/publisher>
         rdf:type     martialis:Publisher;
@@ -29618,9 +29626,10 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M0A7YYEFNNVJ1W07NHA7XJHG/hasContributor/3>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Gatling, Lance";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Gatling, Lance";
+        martialis:contributorPerson  <https://martial.is/entity/01KYPR30B0C068BEA1FY08VTE0>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M3YH7N5G517588GTSCW7JK5E>
         rdf:type                  martialis:TeacherAssertion;
@@ -30303,9 +30312,10 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:supports         true .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WDA2/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Pedro Escudeiro";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Pedro Escudeiro";
+        martialis:contributorPerson  <https://martial.is/entity/01KZ42N27YCESZF00RVZKQWPP2>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M5JPY6FN49J1XJAF7QWV26G9/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -35628,9 +35638,10 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:startYear  1983 .
 
 <https://martial.is/entity/01M3M3T743FWPG8S2T6VR91M69/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Gilles Dufour";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Gilles Dufour";
+        martialis:contributorPerson  <https://martial.is/entity/01KYSPMS1DCZRWP3YDMN8TPA1N>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M6BGKGNV6YC0D1KHRFVPS24B/deathEvent>
         rdf:type                martialis:DeathEvent;
@@ -39801,9 +39812,10 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
         martialis:wasTaughtBy          <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SC> .
 
 <https://martial.is/entity/01KZXXSB6VWQ467ARN5179K098/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Carl De Crée";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Carl De Crée";
+        martialis:contributorPerson  <https://martial.is/entity/01KZXXSBBNFGVZNXMZYH26V3D7>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01KZC8XAP84R46V20056YWKJ1F/publisher>
         rdf:type     martialis:Publisher;
@@ -43098,10 +43110,11 @@ void:Dataset  rdf:type  owl:Class .
         martialis:supports         true .
 
 <https://martial.is/entity/01M4R6M024E43B914VBJPG1SE4/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:familyName          "Gatling";
-        schema:givenName           "Lance";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:familyName            "Gatling";
+        schema:givenName             "Lance";
+        martialis:contributorPerson  <https://martial.is/entity/01KYPR30B0C068BEA1FY08VTE0>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M6BFF6ZQEKZWXGA21KNXHWDF/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -48659,9 +48672,10 @@ dcat:landingPage  rdf:type  owl:ObjectProperty .
         schema:sameAs          <http://www.wikidata.org/entity/Q17> .
 
 <https://martial.is/entity/01KXTSQXW6P83R31HCRY2PRTD1/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Pedro Escudeiro";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Pedro Escudeiro";
+        martialis:contributorPerson  <https://martial.is/entity/01KZ42N27YCESZF00RVZKQWPP2>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M3YH7N5GSAF3BSPSYZ7HVVMG/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -51571,9 +51585,10 @@ void:entities  rdf:type  owl:DatatypeProperty .
         martialis:supports         true .
 
 <https://martial.is/entity/01M0CXZHZN3421V49R9G0K033V/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Carl de Crée";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Carl de Crée";
+        martialis:contributorPerson  <https://martial.is/entity/01KZXXSBBNFGVZNXMZYH26V3D7>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M6BQSYG6M9MZT8K9QHZ96Q6J/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -52756,9 +52771,10 @@ void:entities  rdf:type  owl:DatatypeProperty .
         martialis:supports            true .
 
 <https://martial.is/entity/01KZHA25918DZ350CSV9KNBNT2/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Nagamine, Shoshin";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Nagamine, Shoshin";
+        martialis:contributorPerson  <https://martial.is/entity/01KZBXACW0REMTPYNSM6B5QQAQ>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01KZSRDXQWMW7159NW1MGS7XJ5/image>
         rdf:type                    martialis:Photo;
@@ -53990,9 +54006,10 @@ void:entities  rdf:type  owl:DatatypeProperty .
         martialis:informationType  infotype:secondary .
 
 <https://martial.is/entity/01M355209N018CY9HSZ1YH4MF4/hasContributor/1>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Inosanto, Dan";
-        martialis:contributorRole  "guest" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Inosanto, Dan";
+        martialis:contributorPerson  <https://martial.is/entity/01KYDB2SWCW3RDJH3GEA666XXB>;
+        martialis:contributorRole    "guest" .
 
 <https://martial.is/entity/01M69Z4SFBE6M2KZ0XGD0RWT4M/image/imageAttribution>
         rdf:type                   martialis:Attribution;
@@ -67147,9 +67164,10 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:rankType       <https://w3id.org/martialis/vocab/rank-type/dan> .
 
 <https://martial.is/entity/01M01BRGEJQ7ST3P2KZ3EHW0KK/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Bluming, Jon";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Bluming, Jon";
+        martialis:contributorPerson  <https://martial.is/entity/01M015RNEV8D2DR0J67PC1091F>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M3YH7N5F5JSP7MFJYN7M5E29>
         rdf:type                  martialis:TeacherAssertion;
@@ -67708,9 +67726,10 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:supports         true .
 
 <https://martial.is/entity/01M7DSJ2Y1499EK1HCPQWKD729/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Reinhardt, Michael";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Reinhardt, Michael";
+        martialis:contributorPerson  <https://martial.is/entity/01M7DSJ2Y1XGEDT11A5ZCSA2VA>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M6BGKGNV7K6N3D9B4NBTVK91/hasInteraction/0/hasEvidence/1>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -70412,9 +70431,10 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:supports            true .
 
 <https://martial.is/entity/01KZBXVRR5VXCHY0JZKT35B2DW/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Nakayama, Hiromichi (中山博道, 述)";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Nakayama, Hiromichi (中山博道, 述)";
+        martialis:contributorPerson  <https://martial.is/entity/01KZ6XT5DSD1RN1NG4PJKJWXAH>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M3YH7N5GJFZ0FS442230GD9D>
         rdf:type                 martialis:RankAssertion;
@@ -73078,9 +73098,10 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:hasEvidence  <https://martial.is/entity/01M3YH7N5G7V9VGJ19H5JX86RA/hasInteraction/0/hasEvidence/0> .
 
 <https://martial.is/entity/01KY4XTGWDFZB108B7ZN44GSDS/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Koizumi, Gunji";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Koizumi, Gunji";
+        martialis:contributorPerson  <https://martial.is/entity/01KY52HE48XM1KHDGKBV98YRQ2>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01KYQM3M5CZKB7DYTDDT3JXQRP/hasContributor/0>
         rdf:type                   martialis:Contributor;
@@ -74309,9 +74330,10 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:confidenceRationale  "Documented in Wikipedia and USJF Hall of Fame page" .
 
 <https://martial.is/entity/01KZ6DKWJVPE75F5Y89HN5AYNS/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Pedro Escudeiro";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Pedro Escudeiro";
+        martialis:contributorPerson  <https://martial.is/entity/01KZ42N27YCESZF00RVZKQWPP2>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M69YKDGDJ1FYS23HDAVSWJWT>
         rdf:type                       martialis:Person;
@@ -77698,9 +77720,10 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:latestYear    2001 .
 
 <https://martial.is/entity/01KZ4CF8P1KPZDKYK5VTQ8AV0P/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Jean-Marc Duclos";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Jean-Marc Duclos";
+        martialis:contributorPerson  <https://martial.is/entity/01KZ6D9E8Q0V5Y8Y88RMM4W7G6>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M39T9T5P3CMKQQZ0EQX9Z9Q1>
         rdf:type                     martialis:Place;
@@ -80368,9 +80391,10 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:interactionPeriod  <https://martial.is/entity/01M3YH7N5GP4DYBMMVMZYJRJJR/hasInteraction/0/interactionPeriod> .
 
 <https://martial.is/entity/01M5CD497XT6VM0GT33AQT35JF/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Rickson Gracie";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Rickson Gracie";
+        martialis:contributorPerson  <https://martial.is/entity/01KYS8C0AF6DD44239NY1DZ286>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M3YH7N5G66TP653V2P4RDBWM/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -81726,10 +81750,11 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:sourceType            "motion_picture" .
 
 <https://martial.is/entity/01M6BGKGNVNKEBSQTX26JY51AB/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:familyName          "Keeley";
-        schema:givenName           "Liam";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:familyName            "Keeley";
+        schema:givenName             "Liam";
+        martialis:contributorPerson  <https://martial.is/entity/01M6BGKGNVCNYD32VCDCM2YRVD>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M7DNNQJWCRG9BKVEJ84N4T9P/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -83979,9 +84004,10 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:confidenceRationale  "Single source; it calls the art Kenpo karate, with strong Chinese influence." .
 
 <https://martial.is/entity/01KYSNKBRY7A5R1KTG801VBP5G/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "St-Pierre, Georges";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "St-Pierre, Georges";
+        martialis:contributorPerson  <https://martial.is/entity/01KYSNKBS5KSZZQJRZNJ3YXS9Y>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M07HCGJGXD0E7F4NBAK647YY/publisher>
         rdf:type     martialis:Publisher;
@@ -84078,9 +84104,10 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         schema:name  "Université Bordeaux 3 - Michel de Montaigne (doctoral thesis in geography)" .
 
 <https://martial.is/entity/01M55KQ4EAVMP83AZANWYBGX0Q/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Kiyoshi Kobayashi";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Kiyoshi Kobayashi";
+        martialis:contributorPerson  <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SR>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M5JSGG50H6EY849HTDKW26TH>
         rdf:type               martialis:Person;
@@ -87895,9 +87922,10 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         martialis:supports            true .
 
 <https://martial.is/entity/01KXTSQXW6P83R31HCRY2PRTAW/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Lance Gatling";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Lance Gatling";
+        martialis:contributorPerson  <https://martial.is/entity/01KYPR30B0C068BEA1FY08VTE0>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M3YH7N5GKSYWGN3SMK1JMZ85/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -88615,9 +88643,10 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         schema:name  "Wikimedia Foundation" .
 
 <https://martial.is/entity/01M3M3T743GCC4K39RW5JZDYGN/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Mark Zuckerberg";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Mark Zuckerberg";
+        martialis:contributorPerson  <https://martial.is/entity/01KZQ5XKW3QGJSCHCJKAH6SPZG>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01KZBW5DXR1HTW0VBQZDRQXC0A/birthEvent>
         rdf:type                martialis:BirthEvent;
@@ -101810,9 +101839,10 @@ dcat:Dataset  rdf:type  owl:Class .
         martialis:rankType       <https://w3id.org/martialis/vocab/rank-type/dan> .
 
 <https://martial.is/entity/01M0A7YYEFVW10TY6Q3N4R61QW/hasContributor/1>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Miyake, Taro";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Miyake, Taro";
+        martialis:contributorPerson  <https://martial.is/entity/01M0A7YYEFMKPM42VNW79WTSWR>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M6BFF6ZQJMDPYETNZHHSHXCG>
         rdf:type               martialis:Person;
@@ -104262,9 +104292,10 @@ dcat:Dataset  rdf:type  owl:Class .
         martialis:supports         true .
 
 <https://martial.is/entity/01KZR1M7T5T5YEMHV3WAQJ6FBY/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Leandro Vieira";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Leandro Vieira";
+        martialis:contributorPerson  <https://martial.is/entity/01KZQ7BS7KE7CA2V6JEWMWZ7SW>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M5JTMYPEQQQQ6TJM9ZSTJCW2/hasInteraction/0>
         rdf:type               martialis:TeacherInteraction;
@@ -105568,9 +105599,10 @@ dcat:Dataset  rdf:type  owl:Class .
         martialis:officerTitle   "President" .
 
 <https://martial.is/entity/01KYQ4SCN9Q5HSKHJKS6X7P4FE/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "De Crée, Carl";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "De Crée, Carl";
+        martialis:contributorPerson  <https://martial.is/entity/01KZXXSBBNFGVZNXMZYH26V3D7>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M3YH7N5GS7CCESK5BBEEVGDA>
         rdf:type                 martialis:RankAssertion;
@@ -107589,9 +107621,10 @@ dcat:Dataset  rdf:type  owl:Class .
         martialis:confidenceRationale  "Independent sources state it." .
 
 <https://martial.is/entity/01M06FKBQ1H497Z327YG4X66MH/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Uyenishi, S.K. (Raku)";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Uyenishi, S.K. (Raku)";
+        martialis:contributorPerson  <https://martial.is/entity/01M06FKBQ1AB6FKXQBFBFKKDRH>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M5JRHX02ZXW7G2KN91RV4391/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -108804,9 +108837,10 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:wasTaughtBy          <https://martial.is/entity/01M1F0B3712KTW5YTPYS6S24B0> .
 
 <https://martial.is/entity/01KZ7CTR70FNC2VJR5YY4K2MYR/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Shoshin Nagamine";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Shoshin Nagamine";
+        martialis:contributorPerson  <https://martial.is/entity/01KZBXACW0REMTPYNSM6B5QQAQ>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M3YH7N5GJ157WR8CRKH3A08T>
         rdf:type                       martialis:AffiliationAssertion;
@@ -108986,9 +109020,10 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:supports         true .
 
 <https://martial.is/entity/01M76BK5Y7ZPYB8W835SEA3Y9Z/hasContributor/1>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Inoue, Noriaki";
-        martialis:contributorRole  "guest" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Inoue, Noriaki";
+        martialis:contributorPerson  <https://martial.is/entity/01M764AMRBDMPEDAS51ZYX4X0R>;
+        martialis:contributorRole    "guest" .
 
 <https://martial.is/entity/01KZBZG01KD25PZHJTRZS25JVN/nationality/0>
         rdf:type               martialis:NationalityEntry;
@@ -110870,9 +110905,10 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:supports         true .
 
 <https://martial.is/entity/01M0A7YYEFVW10TY6Q3N4R61QW/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Tani, Yukio";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Tani, Yukio";
+        martialis:contributorPerson  <https://martial.is/entity/01M06K0RMZNWJ90EEQ7CXBFHGS>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SF/deathEvent/deathPlace>
         rdf:type               martialis:GeoRef;
@@ -114265,9 +114301,10 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:supports         true .
 
 <https://martial.is/entity/01KXTSQXW6P83R31HCRY2PRTDD/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Nuno Delgado";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Nuno Delgado";
+        martialis:contributorPerson  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6M>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M3YH7N5GPVX10W7HS24D444K/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -119995,9 +120032,10 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:supports         true .
 
 <https://martial.is/entity/01KZ687R9N75NVKR35NSKMA1B1/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "José Araújo";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "José Araújo";
+        martialis:contributorPerson  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD77>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M36JXD2E50VXFTX7JKKZ6E3Z/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -124122,9 +124160,10 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:confidenceRationale  "Wikipedia only." .
 
 <https://martial.is/entity/01KXTSQXW6P83R31HCRY2PRTBX/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Lance Gatling";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Lance Gatling";
+        martialis:contributorPerson  <https://martial.is/entity/01KYPR30B0C068BEA1FY08VTE0>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M3YH7N5GMW13F57KKY85X6XC/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -126833,9 +126872,10 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:contributorRole  "contributor" .
 
 <https://martial.is/entity/01KZXXSB5YVGTAXZEKCN171590/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Carl De Crée";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Carl De Crée";
+        martialis:contributorPerson  <https://martial.is/entity/01KZXXSBBNFGVZNXMZYH26V3D7>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01KZBXVRR5TS3KVTB7NHE47YRA>
         rdf:type                        martialis:Source;
@@ -126951,9 +126991,10 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:supports         true .
 
 <https://martial.is/entity/01M34T0D16MWY3ZQD5MWRBNTX0/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Gueifão, Alexandre";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Gueifão, Alexandre";
+        martialis:contributorPerson  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6R>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M5HN1CX5JMT6SRQ6H7VFJ45Q/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -130259,9 +130300,10 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:supports            true .
 
 <https://martial.is/entity/01M764AMRBKABA3TY9FMWVX1A2/hasContributor/1>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Inoue, Noriaki";
-        martialis:contributorRole  "guest" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Inoue, Noriaki";
+        martialis:contributorPerson  <https://martial.is/entity/01M764AMRBDMPEDAS51ZYX4X0R>;
+        martialis:contributorRole    "guest" .
 
 <https://martial.is/entity/01M5HP0ECDAEDB3ATSR2THGFB7/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -131363,9 +131405,10 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         schema:name  "Wikimedia Foundation" .
 
 <https://martial.is/entity/01KZF1F5JRRK8YSMSS4RK2CKWF/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Iha, Seikichi";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Iha, Seikichi";
+        martialis:contributorPerson  <https://martial.is/entity/01KZEERF0MFVCAD71XEHSP8VSH>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M69YKDGDJ1FYS23HDAVSWJWT/image>
         rdf:type                    martialis:Photo;
@@ -131900,9 +131943,10 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:confidenceRationale  "Received menkyo kaiden (免許皆伝) in Muso Shinden Eishin-ryu batto-jutsu from Hosokawa Yoshimasa in 1923, documented in the Japanese Wikipedia article and in the kenshi247 chronology (1919-1923)." .
 
 <https://martial.is/entity/01KZSE91D8VBEQBXASNC8BZKPG/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Pedro Escudeiro";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Pedro Escudeiro";
+        martialis:contributorPerson  <https://martial.is/entity/01KZ42N27YCESZF00RVZKQWPP2>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M3YH7N5G7VJJAXYWDE67XES9/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -132809,9 +132853,10 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:informationType  infotype:secondary .
 
 <https://martial.is/entity/01KZ42N27YT1A0KBWK09WJ3FSG/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Pedro Escudeiro";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Pedro Escudeiro";
+        martialis:contributorPerson  <https://martial.is/entity/01KZ42N27YCESZF00RVZKQWPP2>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M5HP2J2C0N427YJYXK138AZ9/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -133325,9 +133370,10 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:supports            true .
 
 <https://martial.is/entity/01M4N551FQ11S1AJBBW2JR69V1/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Lance Gatling";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Lance Gatling";
+        martialis:contributorPerson  <https://martial.is/entity/01KYPR30B0C068BEA1FY08VTE0>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01KXTSQXW6P83R31HCRY2PRTBX>
         rdf:type  martialis:Source .
@@ -137174,9 +137220,10 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:mediaRights       <https://w3id.org/martialis/vocab/media-rights/public_domain_mark> .
 
 <https://martial.is/entity/01M55KQ4EAVMP83AZANWYBGX0Q/hasContributor/1>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Harold E. Sharp";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Harold E. Sharp";
+        martialis:contributorPerson  <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TS>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M6ENPY5WC71E287Z9Y4NRK67/publisher>
         rdf:type     martialis:Publisher;
@@ -137547,9 +137594,10 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:confidenceRationale  "The IJF awarded the 10th dan in October 1997 at its Paris congress; recognised by the IJF but not by the Kodokan. Wikipedia (NL + EN) and the IJF Hall of Fame confirm." .
 
 <https://martial.is/entity/01KZ6D9E8QSENEZ3VQSXK7KX1E/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Pedro Escudeiro";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Pedro Escudeiro";
+        martialis:contributorPerson  <https://martial.is/entity/01KZ42N27YCESZF00RVZKQWPP2>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M3YH7N5GBA6QA8FG4MARAY6M/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -140976,9 +141024,10 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:latestYear    1978 .
 
 <https://martial.is/entity/01KZBXVRR5VXCHY0JZKT35B2DW/hasContributor/2>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Nakayama, Zendo (中山善道)";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Nakayama, Zendo (中山善道)";
+        martialis:contributorPerson  <https://martial.is/entity/01M1CDQWCMTSX6NC3103AEMP59>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M5JCH27M493X0NRQJRRG5QN0/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -144384,9 +144433,10 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:interactionPeriod  <https://martial.is/entity/01M3YH7N5G489WA0KEMXRY2G86/hasInteraction/0/interactionPeriod> .
 
 <https://martial.is/entity/01KZ1TRSW015S0MVF6GMY8QFGR/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Rorion Gracie";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Rorion Gracie";
+        martialis:contributorPerson  <https://martial.is/entity/01KZ1TRSW0VJJTMCJ7NK8WWRF0>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M5JVVMHMW81FR9VFKPTQY91D/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -147459,10 +147509,11 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:sourceType            "article" .
 
 <https://martial.is/entity/01M1PBN7GARVQWHE1HS9J39FQ6/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:familyName          "Bruno";
-        schema:givenName           "Emilio";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:familyName            "Bruno";
+        schema:givenName             "Emilio";
+        martialis:contributorPerson  <https://martial.is/entity/01KYMDKKCPZRCC1AKKWAERY02W>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M5HPABJXD30XJ6YTS7AFVTVR/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -149181,9 +149232,10 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         schema:sameAs          <http://www.wikidata.org/entity/Q84> .
 
 <https://martial.is/entity/01KZ49W5BPNVJQKW0Y47XPE37Y/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Pedro Escudeiro";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Pedro Escudeiro";
+        martialis:contributorPerson  <https://martial.is/entity/01KZ42N27YCESZF00RVZKQWPP2>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M5JWHXPXDDX4Y9F9KQPHNZC2>
         rdf:type                  martialis:TeacherAssertion;
@@ -151764,9 +151816,10 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:supports            true .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WDAE/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Carl De Crée";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Carl De Crée";
+        martialis:contributorPerson  <https://martial.is/entity/01KZXXSBBNFGVZNXMZYH26V3D7>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M3YH7N5GEXNS0W92ZR2NCEAC/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -154244,9 +154297,10 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:confidenceRationale  "INJA's own biography of its founder states Sato instructed taihojutsu 'under' Hosokawa Kusuo at the SAC program; no independent corroboration of this specific relationship was found" .
 
 <https://martial.is/entity/01M06K0RMZDCSBS7XAVM73B5B6/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Garrud, William Herbert";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Garrud, William Herbert";
+        martialis:contributorPerson  <https://martial.is/entity/01M06K0RMZQGVPYVTGDGGGQX17>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01KXTSQXW6P83R31HCRY2PRTDK>
         rdf:type                        martialis:Source;
@@ -156101,9 +156155,10 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:styleRelationType  stylerel:variant_of .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WDAP/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Pedro Escudeiro";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Pedro Escudeiro";
+        martialis:contributorPerson  <https://martial.is/entity/01KZ42N27YCESZF00RVZKQWPP2>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M2Z6TY1PA6YAVJDRS9H9BF2F>
         rdf:type                     martialis:Person;
@@ -156765,9 +156820,10 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:confidenceRationale  "Single source." .
 
 <https://martial.is/entity/01KZ6DKWJV4WC4F92HFJHA16EY/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Pedro Escudeiro";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Pedro Escudeiro";
+        martialis:contributorPerson  <https://martial.is/entity/01KZ42N27YCESZF00RVZKQWPP2>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01KZQ5XKW31J9J520BFK4XZT2H/hasContributor/0>
         rdf:type                   martialis:Contributor;
@@ -164399,9 +164455,10 @@ dcterms:RightsStatement
         martialis:confidenceRationale  "MAAC interview states Salvitti holds a 5th degree black belt in Shotokan Karate under Sensei Lou Hopkins of East Coast Karate. No period dates documented." .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9Z/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Karl Geis";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Karl Geis";
+        martialis:contributorPerson  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD68>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M69Z4SFQ98RGYTWC6VTHEQQE/foundedEvent/hasEvidence/1>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -164724,9 +164781,10 @@ dcterms:RightsStatement
         martialis:interactionPeriod  <https://martial.is/entity/01M3YH7N5GPGKT5R499THBX2PK/hasInteraction/0/interactionPeriod> .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WDAD/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Carl De Crée";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Carl De Crée";
+        martialis:contributorPerson  <https://martial.is/entity/01KZXXSBBNFGVZNXMZYH26V3D7>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M4R9845WQJGDSVH0F4S1HBBH/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -165300,9 +165358,10 @@ dcterms:RightsStatement
         martialis:imageAttribution  <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SH/image/imageAttribution> .
 
 <https://martial.is/entity/01KZ3QDN0YQAQNA4PNP06P3Y9Z/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Barry Knight";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Barry Knight";
+        martialis:contributorPerson  <https://martial.is/entity/01KZ3QDN0YC8DBGT0X2NPH1CS6>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M5G3Z7FXSS7ZJ9JRCJ64MBB7>
         rdf:type                        martialis:Source;
@@ -167273,9 +167332,10 @@ dcterms:RightsStatement
         martialis:sourceType            "webpage" .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WDA0/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Reinhardt, Michael";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Reinhardt, Michael";
+        martialis:contributorPerson  <https://martial.is/entity/01M7DSJ2Y1XGEDT11A5ZCSA2VA>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01KZMEB6EEFVGF48RPTV56HECV/nationality/0>
         rdf:type               martialis:NationalityEntry;
@@ -169431,9 +169491,10 @@ dcterms:RightsStatement
         schema:sameAs          <http://www.wikidata.org/entity/Q17> .
 
 <https://martial.is/entity/01M5CC2P17NFR88EHNQ5R6C3BQ/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Jean Jacques Machado";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Jean Jacques Machado";
+        martialis:contributorPerson  <https://martial.is/entity/01KYG003XDQ8P2KEBEWHV84NHX>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M3YH7N5GXQHWJ5X8K3PX1Z4K>
         rdf:type                     martialis:StyleRelationAssertion;
@@ -171738,9 +171799,10 @@ dcterms:RightsStatement
         martialis:supports         true .
 
 <https://martial.is/entity/01KZ7330AK37C9BFBPZ95ASM9E/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Claude Durix";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Claude Durix";
+        martialis:contributorPerson  <https://martial.is/entity/01KZ6KZZG7DK3DDAYW3T05NZQ0>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01KYQB8J2NN336ZJWGQW3YH95E/birthEvent/birthPlace>
         rdf:type               martialis:GeoRef;
@@ -184335,9 +184397,10 @@ dcterms:RightsStatement
         martialis:supports         true .
 
 <https://martial.is/entity/01M0A7YYEFD28J6QHY95BJ2DW7/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Miyake, Taro";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Miyake, Taro";
+        martialis:contributorPerson  <https://martial.is/entity/01M0A7YYEFMKPM42VNW79WTSWR>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M61T316BS5H10ADA7F5GVTDT/publisher>
         rdf:type     martialis:Publisher;
@@ -184716,9 +184779,10 @@ dcterms:RightsStatement
         martialis:wasTaughtBy          <https://martial.is/entity/01M6ERSPBWVDQC826X444MJRYJ> .
 
 <https://martial.is/entity/01M764AMRBG8SN8CCXVWRYZGB6/hasContributor/1>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Inoue, Noriaki";
-        martialis:contributorRole  "guest" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Inoue, Noriaki";
+        martialis:contributorPerson  <https://martial.is/entity/01M764AMRBDMPEDAS51ZYX4X0R>;
+        martialis:contributorRole    "guest" .
 
 <https://martial.is/entity/01M5H6E6RGQ3JN1TET3JGMDJ4E/hasInteraction/0/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -189181,9 +189245,10 @@ dcterms:RightsStatement
         martialis:interactionPeriod  <https://martial.is/entity/01M3YH7N5GG741B8HESXB0S5JM/hasInteraction/0/interactionPeriod> .
 
 <https://martial.is/entity/01KZ1Y9KD1HZ8JVXY2RF432EEB/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Pedro Escudeiro";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Pedro Escudeiro";
+        martialis:contributorPerson  <https://martial.is/entity/01KZ42N27YCESZF00RVZKQWPP2>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M64QW2FNG2HD9SPRXD6ZSYT9/publisher>
         rdf:type     martialis:Publisher;
@@ -203936,9 +204001,10 @@ dcterms:RightsStatement
         martialis:confidenceRationale  "The Kodokan 1st dan diploma reproduced in UBU's photo archive, signed by Risei Kano, is dated 3 May 1958 (昭和三十三年五月三日, «le 3 mai 1958»); Figueiredo's thesis calls him the first black belt registered at the Kodokan." .
 
 <https://martial.is/entity/01M76C6D5C17JB7RSE9SD363NK/hasContributor/1>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Inoue, Noriaki";
-        martialis:contributorRole  "guest" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Inoue, Noriaki";
+        martialis:contributorPerson  <https://martial.is/entity/01M764AMRBDMPEDAS51ZYX4X0R>;
+        martialis:contributorRole    "guest" .
 
 <https://martial.is/entity/01M5KQTRGXN1CG8GCKHABYWR5C/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -205692,7 +205758,7 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01M7DSJ2Y1XGEDT11A5ZCSA2VA>
         rdf:type                       martialis:Person;
-        schema:description             "Practitioner of Tenshin Shōden Katori Shintō-ryū at the Sugino Dojo and author of the blog Life for a Sword."@en;
+        schema:description             "Practitioner of Tenshin Shōden Katori Shintō-ryū at the Sugino Dojo and an investigator on TSKSR."@en;
         schema:name                    "Michael Reinhardt"@en;
         schema:nationality             <https://martial.is/entity/01M7DSJ2Y1XGEDT11A5ZCSA2VA/nationality/0>;
         martialis:hasEvidence          <https://martial.is/entity/01M7DSJ2Y1XGEDT11A5ZCSA2VA/hasEvidence/0>;
@@ -208873,9 +208939,10 @@ void:uriSpace  rdf:type  owl:DatatypeProperty .
         schema:sameAs          <http://www.wikidata.org/entity/Q17> .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WDA9/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Costa Branco";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Costa Branco";
+        martialis:contributorPerson  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6K>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M3YH7N5GCVT5E47RPZBEP6DT/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -209015,9 +209082,10 @@ void:uriSpace  rdf:type  owl:DatatypeProperty .
         martialis:latestYear    2024 .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WDAB/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:name                "Rudolf Hermanny";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:name                  "Rudolf Hermanny";
+        martialis:contributorPerson  <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1T1>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M3YH7N5GDRFE2HT3CN86TGNV/hasInteraction/0/interactionPeriod>
         rdf:type             martialis:TimeInterval;
