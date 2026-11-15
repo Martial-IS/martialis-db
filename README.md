@@ -186,12 +186,13 @@ a database release (tag `data-vX.Y.Z`) attaches `export/data.ttl`, and an ontolo
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for how to submit a correction and what a good contribution
-looks like. The short version:
+See [CONTRIBUTING.md](CONTRIBUTING.md) for what is in scope, how to submit a correction and what a
+good contribution looks like. The short version:
 
 1. Contributions are done through Discussions, by commenting on existing entries or new ones.
-2. Problems with the pipeline or model itself can be reported through Issues
-3. Pull requests are not used
+2. Problems with the pipeline or model itself, and requests about your own personal data, can be
+   reported through Issues.
+3. Pull requests are not used.
 
 IMPORTANT: By submitting content for the database, in a Discussion, an issue, or the suggestion form
 on martial.is, you dedicate it to the public domain under **CC0-1.0**.
