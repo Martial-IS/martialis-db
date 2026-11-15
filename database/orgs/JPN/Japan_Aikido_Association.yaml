@@ -1,0 +1,65 @@
+type: Organization
+id: 01M7G9JYQJZW7AM1AEKT9Z82VX
+name:
+  en: Japan Aikido Association
+  ja-Latn: Nippon Aikidō Kyōkai
+  ja: 日本合気道協会
+aka:
+  en: JAA
+orgType: orgclass:association
+foundedEvent:
+  startDate: '1974'
+  founder:
+    - 01KJJAWN28MWKKSN4J02MVY1TT
+  hasEvidence:
+    - basedOnSource: 01M7G9JYQJR04AJH0ZYWB8NXKD
+      quotation: >-
+        本協会は1974年に合気道競技の普及を目的として設立された組織です。[...]
+        さて本協会の創設者富木謙治(1900~1979)は柔道と合気道を学び[...]
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M7G9JYQJMJBT2S7BDNXTAW04
+    officer: 01M7G99YYCJ2SM3MPGACP6806B
+    officerTitle: Chief Director
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Kogure calls himself chief director in a 2004 interview; the Aikido
+        Journal encyclopedia (Chief Executive Officer) and Geis's résumé
+        (President) agree on the role but not the title.
+    hasEvidence:
+      - basedOnSource: 01M7G96SP92Y20MZFVXYS8VBDS
+        quotation: I am the chief director and Mr. Futami is the senior manager.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7G96SP9NH7YVF1EPW8G6K5J
+        quotation: Presently Chief Executive Officer of the JAPAN AIKIDO ASSOCIATION
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Tomiki aikido association founded by Tomiki Kenji in 1974.
+notes: >-
+  Kogure (2004) places the Hombu Dojo in Osaka; the profile page calls it a
+  Tokyo-certified NPO (since 2005). Seat left out until settled. Wikidata
+  Q932893 is the style (Shōdōkan Aikidō), not this body.
+logo:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/1/14/Logo_shodokan.gif
+  rights: mediarights:attribution
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:Logo_shodokan.gif
+    cite: Shodokan logo - Wikimedia Commons
+    informationType: infotype:secondary
+hasEvidence:
+  - basedOnSource: 01M7G9JYQJR04AJH0ZYWB8NXKD
+    quotation: 特定非営利活動法人　日本合気道協会
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - aikido

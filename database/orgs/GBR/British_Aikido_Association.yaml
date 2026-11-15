@@ -1,0 +1,71 @@
+type: Organization
+id: 01M7G9JYQJP35J7QEPDYC4HQ9N
+name:
+  en: British Aikido Association
+aka:
+  en: BAA
+orgType: orgclass:association
+foundedEvent:
+  startDate: '1966'
+  hasEvidence:
+    - basedOnSource: 01M7G96SP9ARN07G643CE5783F
+      quotation: This resulted in the founding of the British Aikido Association in that same year [...]
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M7G9JYQJTKYR7YB5BWKK29BK
+    officer: 01M7G99YYCJ2SM3MPGACP6806B
+    officerTitle: Technical Adviser
+    officerPeriod:
+      startYear: 1966
+      endYear: 1969
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The BAA's own history names him Technical Adviser at the founding and
+        dates his return to Japan to 1969; Kogure (2004) confirms his part in
+        the founding but not the title.
+    hasEvidence:
+      - basedOnSource: 01M7G96SP9ARN07G643CE5783F
+        quotation: >-
+          Sensei Yamada urged the various clubs now under the tuition of Sensei
+          Kogure to formalise their existence by forming an organisation for
+          all the Tomiki Aikido clubs in the UK with Sensei Kogure as their
+          Technical Adviser.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7G96SP9ARN07G643CE5783F
+        quotation: >-
+          Sensei Kogure awarded a number of dan gradings reflecting the
+          development of the Association and remained the lead figure in
+          Tomiki Aikido until his return to Japan 1969.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTBB
+        quotation: I happened to be staying in England then and this is how we established the BAA [British Aikido Association].
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    British association of Tomiki aikido clubs, founded in 1966.
+hasEvidence:
+  - basedOnSource: 01M7G96SP9ARN07G643CE5783F
+    quotation: '1966: British Aikido Association founded'
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+website: https://britishaikidoassociation.co.uk/
+logo:
+  contentUrl: https://britishaikidoassociation.co.uk/wp-content/uploads/2024/11/baa_logo_150x150.webp
+  rights: mediarights:in_copyright
+  imageAttribution:
+    uri: https://britishaikidoassociation.co.uk/
+    cite: British Aikido Association website
+    informationType: infotype:primary
+tags:
+  - aikido

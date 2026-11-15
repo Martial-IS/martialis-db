@@ -6028,6 +6028,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:officerPeriod  <https://martial.is/entity/01M4R9845WZZ66KQRWVTY1ZK4Z/officerPeriod>;
         martialis:officerTitle   "President (会長, 1st)" .
 
+<https://martial.is/entity/01M7G99YYCJ2SM3MPGACP6806B/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7G96SP9ARN07G643CE5783F>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Sensei Yamada urged the various clubs now under the tuition of Sensei Kogure to formalise their existence by forming an organisation for all the Tomiki Aikido clubs in the UK with Sensei Kogure as their Technical Adviser.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3YH7N5GD0VVCYF7XDSE4TPD/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         schema:citation            "Antonio Inoki (Wikipedia EN)";
@@ -6171,6 +6179,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         rdf:type             martialis:TimeInterval;
         martialis:endYear    1902;
         martialis:startYear  1900 .
+
+<https://martial.is/entity/01M7G9JYQJP35J7QEPDYC4HQ9N/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7G96SP9ARN07G643CE5783F>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "1966: British Aikido Association founded";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M5JCH27MVTCPKTCY2PP6HJFX/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -6978,6 +6994,17 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://martial.is/entity/01M3YH7N5GQ635N0GHA1JSZNZT/hasInteraction/0/interactionPeriod>
         rdf:type             martialis:TimeInterval;
         martialis:startYear  1927 .
+
+<https://martial.is/entity/01M7G9JYQJMJBT2S7BDNXTAW04>
+        rdf:type                 martialis:OfficerRole;
+        prov:hadPrimarySource    <https://martial.is/entity/01M7G96SP92Y20MZFVXYS8VBDS>;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7G96SP9NH7YVF1EPW8G6K5J>;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7G96SP92Y20MZFVXYS8VBDS>;
+        martialis:hasConfidence  <https://martial.is/entity/01M7G9JYQJMJBT2S7BDNXTAW04/hasConfidence>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7G9JYQJMJBT2S7BDNXTAW04/hasEvidence/0>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7G9JYQJMJBT2S7BDNXTAW04/hasEvidence/1>;
+        martialis:officer        <https://martial.is/entity/01M7G99YYCJ2SM3MPGACP6806B>;
+        martialis:officerTitle   "Chief Director" .
 
 <https://martial.is/entity/01M5JSGG50CAJF46E3TYFYGG33/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -9261,8 +9288,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         void:classPartition   <https://martial.is/data.ttl#dataset/class/Organization>;
         void:classPartition   <https://martial.is/data.ttl#dataset/class/Event>;
         void:dataDump         <https://martial.is/data.ttl>;
-        void:entities         2949;
-        void:triples          163981;
+        void:entities         2958;
+        void:triples          164412;
         void:uriSpace         "https://martial.is/entity/";
         void:vocabulary       <http://purl.org/ontology/bibo/>;
         void:vocabulary       prov:;
@@ -9580,6 +9607,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01KZ6XT5DSD1RN1NG4PJKJWXAH> .
 
+<https://martial.is/entity/01M7G99YYC35AG314NBG27CW87/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "The Aikido Journal encyclopedia gives the grade, the Japan Aikido Association and the year; Aikido Journal (2004) and Geis's résumé confirm the grade only." .
+
 <https://martial.is/entity/01M5HPEDHZG6ZKJ2BP8P752V17/hasInteraction/0/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
         martialis:basedOnSource       <https://martial.is/entity/01M5G930MN7DVCGK42EP9G1XK9>;
@@ -9661,6 +9695,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         rdf:type             martialis:TimeInterval;
         martialis:endYear    1925;
         martialis:startYear  1908 .
+
+<https://martial.is/entity/01M7G9JYQJXHS0DM772Z5PMZH3>
+        rdf:type                  martialis:TeacherAssertion;
+        martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9R>;
+        martialis:hasConfidence   <https://martial.is/entity/01M7G9JYQJXHS0DM772Z5PMZH3/hasConfidence>;
+        martialis:hasInteraction  <https://martial.is/entity/01M7G9JYQJXHS0DM772Z5PMZH3/hasInteraction/0>;
+        martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
+        martialis:teacher         <https://martial.is/entity/01M7G99YYCJ2SM3MPGACP6806B> .
 
 <https://martial.is/entity/01M55AF57KBF194D4DNCZCGTZ4/hasContributor/0>
         rdf:type                   martialis:Contributor;
@@ -20721,6 +20763,13 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:hasEvidence  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD66/hasEvidence/1>;
         martialis:teaches      <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TV> .
 
+<https://martial.is/entity/01M7G9JYQJXHS0DM772Z5PMZH3/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:confirmed;
+        martialis:confidenceRationale  "Geis's own résumé states Kogure taught in his Houston dojo from 1970 to 1975; Witt, his student, states Geis studied with Kogure intensively and received dan rank from him." .
+
 <https://martial.is/entity/01M19K1VNMRK7QWDQ7PQ5VN5XX/hasEvidence/4>
         rdf:type                   martialis:SourceAssertionRelation;
         schema:citation            "Joseph R. Svinth, \"Professor Yamashita Goes to Washington\", Journal of Combative Sport, Oct 2000";
@@ -26188,6 +26237,10 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:confidenceLevel      conflevel:confirmed;
         martialis:confidenceRationale  "Iaido is the modern budo born from the koryu drawing art iaijutsu; the term emerged from iaijutsu in the general shift from -jutsu to -do suffixes, mirroring how Kendo derives from Kenjutsu. Practitioners of iaido are not counted as iaijutsu practitioners." .
 
+<https://martial.is/entity/01M7G96SP92Y20MZFVXYS8VBDS/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Aikido Journal" .
+
 <https://martial.is/entity/01M0NVYZ4HBB012MEVJHZWJXYP/nationality/0>
         rdf:type               martialis:NationalityEntry;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/CHN>;
@@ -29198,6 +29251,13 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:peerReview            <https://w3id.org/martialis/vocab/peer-review/not_peer_reviewed>;
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceType            "webpage" .
+
+<https://martial.is/entity/01M7G9JYQJMJBT2S7BDNXTAW04/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "Kogure calls himself chief director in a 2004 interview; the Aikido Journal encyclopedia (Chief Executive Officer) and Geis's résumé (President) agree on the role but not the title." .
 
 <https://martial.is/entity/01M3YH7N5GCQFN6BP032J9WHW2/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -37757,6 +37817,29 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
         martialis:imageAttribution  <https://martial.is/entity/01M37JTCRF4TXBGPW8AP4W1904/image/imageAttribution>;
         martialis:mediaRights       <https://w3id.org/martialis/vocab/media-rights/public_domain_mark> .
 
+<https://martial.is/entity/01M7G99YYCJ2SM3MPGACP6806B>
+        rdf:type                       martialis:Person;
+        schema:alternateName           "Hiroaki Kogure"@en;
+        schema:alternateName           "Riki Kogure"@en;
+        schema:alternateName           "小暮りき"@ja;
+        schema:birthDate               "1936";
+        schema:birthPlace              <https://martial.is/entity/01M7G99YYCJ2SM3MPGACP6806B/birthEvent/birthPlace>;
+        schema:deathDate               "2023-02-11";
+        schema:description             "Tomiki aikido teacher, technical adviser at the founding of the British Aikido Association in 1966 and later chief director of the Japan Aikido Association."@en;
+        schema:keywords                "aikido";
+        schema:name                    "Kogure Hiroaki"@ja-Latn;
+        schema:nationality             <https://martial.is/entity/01M7G99YYCJ2SM3MPGACP6806B/nationality/0>;
+        martialis:birthEvent           <https://martial.is/entity/01M7G99YYCJ2SM3MPGACP6806B/birthEvent>;
+        martialis:deathEvent           <https://martial.is/entity/01M7G99YYCJ2SM3MPGACP6806B/deathEvent>;
+        martialis:hasEvidence          <https://martial.is/entity/01M7G99YYCJ2SM3MPGACP6806B/hasEvidence/1>;
+        martialis:hasEvidence          <https://martial.is/entity/01M7G99YYCJ2SM3MPGACP6806B/hasEvidence/0>;
+        martialis:hasRankAssertion     <https://martial.is/entity/01M7G99YYC35AG314NBG27CW87>;
+        martialis:hasTeacherAssertion  <https://martial.is/entity/01M7G99YYCH4DVQTJEGHT9S04P>;
+        martialis:hasTeacherAssertion  <https://martial.is/entity/01M7G99YYCYG3DRQW54H9WNP9E>;
+        martialis:teaches              <https://martial.is/entity/01KJJAWN29MA64W22606R3WD68>;
+        martialis:trainedAt            <https://martial.is/entity/01KJJAWN29MA64W22606R3WD97>;
+        martialis:wasTaughtBy          <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TT> .
+
 <https://martial.is/entity/01M5H4KQ09SFQW8QVFX4H0VPSE/birthEvent/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
         martialis:basedOnSource       <https://martial.is/entity/01M5G930MN1VM84DEZNGEZP48E>;
@@ -41099,6 +41182,14 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Skoss calls it a classical jujutsu tradition; one account." .
 
+<https://martial.is/entity/01M7G9JYQJTKYR7YB5BWKK29BK/hasEvidence/2>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01KXTSQXW6P83R31HCRY2PRTBB>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "I happened to be staying in England then and this is how we established the BAA [British Aikido Association].";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3S762568EDNCDQW9BWW5TZ3>
         rdf:type                        martialis:Source;
         schema:archivedAt               <https://web.archive.org/web/20260805221749/https://fpaikido.pt/>;
@@ -42193,6 +42284,14 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
         schema:contentUrl           <https://upload.wikimedia.org/wikipedia/commons/8/84/Kravmaga.jpg>;
         martialis:imageAttribution  <https://martial.is/entity/01M5H483CZK87194M0J1ZNG9F8/photos/0/imageAttribution>;
         martialis:mediaRights       <https://w3id.org/martialis/vocab/media-rights/public_domain_mark> .
+
+<https://martial.is/entity/01M7G99YYCJ2SM3MPGACP6806B/deathEvent>
+        rdf:type                martialis:DeathEvent;
+        prov:wasDerivedFrom     <https://martial.is/entity/01M7G96SP97HDYJWXDRBY6BC8H>;
+        schema:startDate        "2023-02-11";
+        martialis:earliestYear  2023;
+        martialis:hasEvidence   <https://martial.is/entity/01M7G99YYCJ2SM3MPGACP6806B/deathEvent/hasEvidence/0>;
+        martialis:latestYear    2023 .
 
 <https://martial.is/entity/01M5WKDYSRM3BHFFXPK2TCJQEQ/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -44702,6 +44801,13 @@ void:Dataset  rdf:type  owl:Class .
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/FRA>;
         schema:sameAs          <http://www.wikidata.org/entity/Q142> .
 
+<https://martial.is/entity/01M7G99YYCYG3DRQW54H9WNP9E/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:confirmed;
+        martialis:confidenceRationale  "Aikido Journal (2004) states he studied under Tomiki at Waseda in the 1950s, and Kogure dates his entry to about 1954; the British Aikido Association history independently calls him a student of Tomiki." .
+
 <https://martial.is/entity/01M4R7G9S0A1HXYMRH8P15MY07/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M2WGNYAW6K10EEMQDG8VYGVG>;
@@ -45815,6 +45921,14 @@ dcat:landingPage  rdf:type  owl:ObjectProperty .
         martialis:hasEvidence        <https://martial.is/entity/01M3YH7N5GE29EK1F3RS3ZJ8P3/hasEvidence/0>;
         martialis:relatedStyle       <https://martial.is/entity/01KYJ39BQPQ7JTTDQ3B36PZQQN>;
         martialis:styleRelationType  stylerel:derived_from .
+
+<https://martial.is/entity/01M7G99YYCYG3DRQW54H9WNP9E/hasInteraction/0/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7G96SP92Y20MZFVXYS8VBDS>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Hiroaki Kogure Sensei studied under Kenji Tomiki Sensei at Waseda University in the 1950’s.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M5B0HQVSZM6BADD0ZM6ZBVJ0>
         rdf:type                        martialis:Source;
@@ -48998,6 +49112,11 @@ dcat:landingPage  rdf:type  owl:ObjectProperty .
         martialis:quotation        "mort à Saint-Germain-en-Laye le 31 mai 1944";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7G99YYCYG3DRQW54H9WNP9E/hasInteraction/0/interactionPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:endYear    1958;
+        martialis:startYear  1954 .
+
 <https://martial.is/entity/01KZQ7BS7KS7RKQD973RBZP44P>
         rdf:type                        martialis:Source;
         schema:archivedAt               <https://en.wikipedia.org/w/index.php?title=Javier_Mendez_%28mixed_martial_arts_trainer%29&oldid=1380881965>;
@@ -50107,6 +50226,10 @@ void:triples  rdf:type  owl:DatatypeProperty .
         rdf:type             martialis:TimeInterval;
         martialis:endYear    1877;
         martialis:startYear  1856 .
+
+<https://martial.is/entity/01M7G96SP9NH7YVF1EPW8G6K5J/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Aikido Journal" .
 
 <https://martial.is/entity/01M69VM75SRDBBWEY30NS5ZTH2/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -58173,6 +58296,16 @@ dcat:mediaType  rdf:type  owl:ObjectProperty .
         martialis:endYear    1947;
         martialis:startYear  1946 .
 
+<https://martial.is/entity/01M7G96SP9ARN07G643CE5783F/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "British Aikido Association" .
+
+<https://martial.is/entity/01M7G99YYCJ2SM3MPGACP6806B/birthEvent/birthPlace>
+        rdf:type               martialis:GeoRef;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
+        schema:name            "Zushi, Kanagawa";
+        schema:sameAs          <http://www.wikidata.org/entity/Q230843> .
+
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD7H/deathEvent>
         rdf:type                martialis:DeathEvent;
         schema:location         <https://martial.is/entity/01KJJAWN29MA64W22606R3WD7H/deathEvent/deathPlace>;
@@ -61222,6 +61355,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceType            "webpage" .
 
+<https://martial.is/entity/01M7G9JYQJZW7AM1AEKT9Z82VX/foundedEvent/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7G9JYQJR04AJH0ZYWB8NXKD>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "本協会は1974年に合気道競技の普及を目的として設立された組織です。[...] さて本協会の創設者富木謙治(1900~1979)は柔道と合気道を学び[...]";
+        martialis:supports         true .
+
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SC/hasEvidence/2>
         rdf:type                      martialis:SourceAssertionRelation;
         martialis:basedOnSource       <https://martial.is/entity/01M36JTZZM9SE0B8DK654EYHG5>;
@@ -61681,6 +61822,10 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:primary;
         martialis:supports         true .
 
+<https://martial.is/entity/01M7G9JYQJR04AJH0ZYWB8NXKD/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "日本合気道協会" .
+
 <https://martial.is/entity/01M3YH7N5G34EEMV8VQ6HFY6A2/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M0SP452BFX8WR48355Y9X1FM>;
@@ -61841,6 +61986,11 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Directly quoted in a primary source as having \"tornado no dojo principal da escola\" (\"become the main dojo of the school\") - explicitly the honbu (headquarters) dojo of APASD, the twin-entity case, not a separately-governed member." .
+
+<https://martial.is/entity/01M7G9JYQJXHS0DM772Z5PMZH3/hasInteraction/0/interactionPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:endYear    1975;
+        martialis:startYear  1970 .
 
 <https://martial.is/entity/01M3YH7N5GHM02EG25SD7ZCB2X/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -62012,6 +62162,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:basedOnSource    <https://martial.is/entity/01M00NPBTPEC1QP41G4FSVJWK7>;
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
+        martialis:supports         true .
+
+<https://martial.is/entity/01M7G99YYCYG3DRQW54H9WNP9E/hasInteraction/0/hasEvidence/2>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7G96SP9ARN07G643CE5783F>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "He was a student of Master Tomiki [...]";
         martialis:supports         true .
 
 <https://martial.is/entity/01KZC7XZAWJNRVKWZ66A7CXENR/hasEvidence/0>
@@ -68557,6 +68715,23 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:quotation        "武術教員養成所（のち武道専門学校に改称）の剣道主任教授を務め、後の剣道十段・持田盛二、斎村五郎などを育てた。";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7G96SP9NH7YVF1EPW8G6K5J>
+        rdf:type                        martialis:Source;
+        schema:datePublished            "2011-08-27";
+        schema:description              "Aikido Journal encyclopedia entry on Riki (Hiroaki) Kogure."@en;
+        schema:inLanguage               "en";
+        schema:name                     "Riki Kogure - Aikido Journal Encyclopedia";
+        schema:publisher                <https://martial.is/entity/01M7G96SP9NH7YVF1EPW8G6K5J/publisher>;
+        schema:url                      <https://aikidojournal.com/2011/08/27/riki-kogure/>;
+        martialis:accessed              "2026-11-15";
+        martialis:earliestYear          2011;
+        martialis:latestYear            2011;
+        martialis:partOf                <https://martial.is/entity/01M0DCY9PEBEDEE8144FKDXF5F>;
+        martialis:peerReview            <https://w3id.org/martialis/vocab/peer-review/not_peer_reviewed>;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/biography>;
+        martialis:sourceType            "entry-encyclopedia" .
+
 <https://martial.is/entity/01KYMWJH24H4HBJ1RYE2GZ0KNT/foundedEvent>
         rdf:type                martialis:FoundingEvent;
         schema:startDate        "1957";
@@ -69407,6 +69582,19 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "He studied under Kanemaki Jisai and mastered the Chūjō tradition of sword and spear usage.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7G9JYQJP35J7QEPDYC4HQ9N>
+        rdf:type                  martialis:Organization;
+        schema:alternateName      "BAA"@en;
+        schema:description        "British association of Tomiki aikido clubs, founded in 1966."@en;
+        schema:foundingDate       "1966";
+        schema:keywords           "aikido";
+        schema:name               "British Aikido Association"@en;
+        schema:url                <https://britishaikidoassociation.co.uk/>;
+        martialis:foundedEvent    <https://martial.is/entity/01M7G9JYQJP35J7QEPDYC4HQ9N/foundedEvent>;
+        martialis:hasEvidence     <https://martial.is/entity/01M7G9JYQJP35J7QEPDYC4HQ9N/hasEvidence/0>;
+        martialis:hasOfficerRole  <https://martial.is/entity/01M7G9JYQJTKYR7YB5BWKK29BK>;
+        martialis:orgType         <https://w3id.org/martialis/vocab/org-classification/association> .
 
 <https://martial.is/entity/01M3YH7N5G3G45PC0C7NHXHJE3/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -74703,6 +74891,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Karate 7th dan reported by UppercutMMA, a secondary source; the granting organization and date are not documented" .
 
+<https://martial.is/entity/01M7G99YYCH4DVQTJEGHT9S04P/hasInteraction/0/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7G96SP9NH7YVF1EPW8G6K5J>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Practiced judo and aikido in university days. Taught by Kenji TOMIKI.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M6EFJQBCCJBCDZB7V0G036W4/image>
         rdf:type                    martialis:Photo;
         schema:contentUrl           <https://upload.wikimedia.org/wikipedia/commons/1/17/%E9%AB%98%E9%87%8E%E8%8C%82%E7%BE%A9.png>;
@@ -76436,6 +76632,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         schema:citation            "A Clark, Wikimedia Commons";
         schema:url                 <https://commons.wikimedia.org/wiki/File:Owen_Swift_The_Wonder_-_A_Clark.jpg>;
         martialis:informationType  infotype:secondary .
+
+<https://martial.is/entity/01M7G99YYCJ2SM3MPGACP6806B/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7G96SP9NH7YVF1EPW8G6K5J>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Lived abroad for a total of 13 years in England, the U. S. , and the Middle and Near East, where he taught aikido to various groups.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01KZYBPHEFDQWJV578KM4WJHP7/hasSite/0/location>
         rdf:type               martialis:GeoRef;
@@ -79214,6 +79418,20 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:confidenceLevel      conflevel:confirmed;
         martialis:confidenceRationale  "Kendo Wikipedia states it is descended from kenjutsu; the AJKF history traces its evolution from pre-Meiji sword arts" .
 
+<https://martial.is/entity/01M7G96SP9NQCBQCZMWATV30X0>
+        rdf:type                        martialis:Source;
+        schema:datePublished            "2020-09-09";
+        schema:description              "David Witt, a student of Karl Geis, on Geis's judo and aikido career and the Fugakukai International Association."@en;
+        schema:inLanguage               "en";
+        schema:name                     "Interview with David Witt: Judo, Aikido, and Karl Geis";
+        schema:publisher                <https://martial.is/entity/01M7G96SP9NQCBQCZMWATV30X0/publisher>;
+        schema:url                      <https://maytt.home.blog/2020/09/09/interview-with-david-witt-judo-aikido-and-karl-geis/>;
+        martialis:accessed              "2026-11-15";
+        martialis:earliestYear          2020;
+        martialis:latestYear            2020;
+        martialis:sourceClassification  srcclass:original;
+        martialis:sourceType            "interview" .
+
 <https://martial.is/entity/01M3YH7N5FVMDF9JE6CZXP15Q7/hasInteraction/0/hasEvidence/2>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KZ1SNKM3P658JK55THPT92RP>;
@@ -80452,6 +80670,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
         martialis:quotation        "In reality, Danzig only authored the final section of that book, a gloss of Johannes Liechtenauer's Recital on dueling with the short sword.";
+        martialis:supports         true .
+
+<https://martial.is/entity/01M7G99YYC35AG314NBG27CW87/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7G96SP9NH7YVF1EPW8G6K5J>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "8th dan Tomiki Aikido-JAA, 1988.";
         martialis:supports         true .
 
 <https://martial.is/entity/01KZBWQ0AJ1CS0CYD84258VKTE/image/imageAttribution>
@@ -85512,6 +85738,22 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/biography>;
         martialis:sourceType            "webpage" .
+
+<https://martial.is/entity/01M7G99YYC35AG314NBG27CW87>
+        rdf:type                 martialis:RankAssertion;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7G96SP9NH7YVF1EPW8G6K5J>;
+        prov:wasDerivedFrom      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9Z>;
+        martialis:conferredBy    <https://martial.is/entity/01M7G9JYQJZW7AM1AEKT9Z82VX>;
+        martialis:dateConferred  "1988";
+        martialis:earliestYear   1988;
+        martialis:hasConfidence  <https://martial.is/entity/01M7G99YYC35AG314NBG27CW87/hasConfidence>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7G99YYC35AG314NBG27CW87/hasEvidence/0>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7G99YYC35AG314NBG27CW87/hasEvidence/1>;
+        martialis:latestYear     1988;
+        martialis:rankOrdinal    8;
+        martialis:rankStyle      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9R>;
+        martialis:rankSystem     <https://martial.is/entity/01M11K25NF0E7HG8HWVWM2P3FG>;
+        martialis:rankType       <https://w3id.org/martialis/vocab/rank-type/dan> .
 
 <https://martial.is/entity/01M5H5TCKZ7EPD16DK5JN0JBTT/image/imageAttribution>
         rdf:type                   martialis:Attribution;
@@ -93647,6 +93889,12 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/news>;
         martialis:sourceType            "article" .
 
+<https://martial.is/entity/01M7G96SP97HDYJWXDRBY6BC8H/hasContributor/0>
+        rdf:type                   martialis:Contributor;
+        schema:familyName          "Wolput";
+        schema:givenName           "Eddy";
+        martialis:contributorRole  "author" .
+
 <https://martial.is/entity/01M6EFJQBCFCB786ETNHJYVZQA/deathEvent>
         rdf:type                martialis:DeathEvent;
         prov:wasDerivedFrom     <https://martial.is/entity/01M6EF6KKA5D6Q2JYWWB39JHQ9>;
@@ -97717,7 +97965,7 @@ void:dataDump  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/data.ttl#dataset/class/Person>
         void:class     martialis:Person;
-        void:entities  1031 .
+        void:entities  1032 .
 
 <https://martial.is/entity/01M5HMRGB7WN9HHYCGJYQZPTAB/hasEvidence/1>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -98409,6 +98657,16 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "門奈 正（もんな ただし、安政2年4月（1855年） - 昭和4年（1929年）9月22日）は、日本の剣道家。流派は水府流、北辰一刀流。称号は大日本武徳会剣道範士。";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7G99YYCH4DVQTJEGHT9S04P/hasInteraction/0>
+        rdf:type                     martialis:TeacherInteraction;
+        prov:hadPrimarySource        <https://martial.is/entity/01M7G96SP92Y20MZFVXYS8VBDS>;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M7G96SP9NH7YVF1EPW8G6K5J>;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M7G96SP92Y20MZFVXYS8VBDS>;
+        martialis:hasEvidence        <https://martial.is/entity/01M7G99YYCH4DVQTJEGHT9S04P/hasInteraction/0/hasEvidence/1>;
+        martialis:hasEvidence        <https://martial.is/entity/01M7G99YYCH4DVQTJEGHT9S04P/hasInteraction/0/hasEvidence/0>;
+        martialis:interactionPeriod  <https://martial.is/entity/01M7G99YYCH4DVQTJEGHT9S04P/hasInteraction/0/interactionPeriod>;
+        martialis:interactionPlace   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD97> .
 
 <https://martial.is/entity/01M37HHSSM1K28E1JXBN73YTJ4/nationality/0>
         rdf:type               martialis:NationalityEntry;
@@ -99539,6 +99797,14 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
         schema:name            "Iwama";
         schema:sameAs          <http://www.wikidata.org/entity/Q1011725> .
+
+<https://martial.is/entity/01M7G99YYCH4DVQTJEGHT9S04P>
+        rdf:type                  martialis:TeacherAssertion;
+        martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B>;
+        martialis:hasConfidence   <https://martial.is/entity/01M7G99YYCH4DVQTJEGHT9S04P/hasConfidence>;
+        martialis:hasInteraction  <https://martial.is/entity/01M7G99YYCH4DVQTJEGHT9S04P/hasInteraction/0>;
+        martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
+        martialis:teacher         <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TT> .
 
 <https://martial.is/entity/01M3YH7N5GYWRP5GQX63FXSYP2/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -103035,6 +103301,14 @@ dcat:Dataset  rdf:type  owl:Class .
         martialis:founder      <https://martial.is/entity/01M61T316B2V4HPXR1DTBP1D9E>;
         martialis:hasEvidence  <https://martial.is/entity/01M61T316BBXSAAMTERKVVD7YA/foundedEvent/hasEvidence/0> .
 
+<https://martial.is/entity/01M7G9JYQJXHS0DM772Z5PMZH3/hasInteraction/0/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7G96SP9NQCBQCZMWATV30X0>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Mr. Geis was profoundly appreciative of Mr. Kogure Sensei and studied with him intensively, learning the entirety of Mr. Tomiki Sensei’s aikido system. Mr. Geis received dan rank from Mr. Kogure Sensei as he progressed [...]";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M5JRHX02GF4HXDK6E53714X1/hasSite/0>
         rdf:type         martialis:Site;
         schema:location  <https://martial.is/entity/01M5JRHX02GF4HXDK6E53714X1/hasSite/0/location> .
@@ -105143,6 +105417,22 @@ dcat:Dataset  rdf:type  owl:Class .
         martialis:oclc                  "1357512";
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceType            "book" .
+
+<https://martial.is/entity/01M7G96SP97HDYJWXDRBY6BC8H>
+        rdf:type                        martialis:Source;
+        schema:datePublished            "2023-02-14";
+        schema:description              "Eddy Wolput relays a message from Fumiaki Shishida that Hiroaki Kogure died on 11 February 2023."@en;
+        schema:inLanguage               "en";
+        schema:name                     "Eddy Wolput Facebook post on the death of Hiroaki Kogure";
+        schema:publisher                <https://martial.is/entity/01M7G96SP97HDYJWXDRBY6BC8H/publisher>;
+        schema:url                      <https://www.facebook.com/eddy.wolput/posts/i-just-received-a-message-from-fumiaki-shishidahiroaki-kogure-passed-away-on-feb/10160338390814709/>;
+        martialis:accessed              "2026-11-15";
+        martialis:earliestYear          2023;
+        martialis:hasContributor        <https://martial.is/entity/01M7G96SP97HDYJWXDRBY6BC8H/hasContributor/0>;
+        martialis:latestYear            2023;
+        martialis:sourceClassification  srcclass:original;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/obituary>;
+        martialis:sourceType            "personal_communication" .
 
 <https://martial.is/entity/01M3YH7N5FE3Z3HQFYE6QJT88J/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -111247,6 +111537,14 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
 
+<https://martial.is/entity/01M7G99YYCYG3DRQW54H9WNP9E/hasInteraction/0/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7G96SP92Y20MZFVXYS8VBDS>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "About 1954, when I entered Waseda University, judo practice was held from 3:00 to 5:00 in the afternoon and only members who wanted to receive aikido training from 8:00 to 10 o’clock in the morning. [...] I joined the Judo Club and practiced aikido in the morning and judo in the afternoon.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3YH7N5GSNMTWTG36Y2QYF2X/hasInteraction/0>
         rdf:type                     martialis:TeacherInteraction;
         martialis:hasEvidence        <https://martial.is/entity/01M3YH7N5GSNMTWTG36Y2QYF2X/hasInteraction/0/hasEvidence/0>;
@@ -116465,6 +116763,14 @@ dcat:version  rdf:type  owl:DatatypeProperty .
 <https://martial.is/entity/01M6ENPY5WTP94JNET8JZT7KCR/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Wikimedia Foundation" .
+
+<https://martial.is/entity/01M7G9JYQJMJBT2S7BDNXTAW04/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7G96SP92Y20MZFVXYS8VBDS>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "I am the chief director and Mr. Futami is the senior manager.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M5JSGG50MP45RVA48EAZZKRB/birthEvent/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -124576,6 +124882,14 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         rdf:type     martialis:Publisher;
         schema:name  "Wikimedia Foundation" .
 
+<https://martial.is/entity/01M7G99YYCH4DVQTJEGHT9S04P/hasInteraction/0/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7G96SP92Y20MZFVXYS8VBDS>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "Since Tomiki Sensei taught both judo and aikido, aikido practice was held in the judo dojo when judo practice was not in session. [...] I joined the Judo Club and practiced aikido in the morning and judo in the afternoon.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3YH7N5GTF1FWENEYN382909/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         schema:citation            "Shin Jae-chul (Wikipedia EN)";
@@ -127753,6 +128067,14 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/BRA>;
         schema:sameAs          <http://www.wikidata.org/entity/Q155> .
 
+<https://martial.is/entity/01M7G9JYQJTKYR7YB5BWKK29BK/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7G96SP9ARN07G643CE5783F>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "Sensei Yamada urged the various clubs now under the tuition of Sensei Kogure to formalise their existence by forming an organisation for all the Tomiki Aikido clubs in the UK with Sensei Kogure as their Technical Adviser.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3YH7N5G7WDZM1CZ5MDDQ0DP/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KZ7CTR70NYWE9R756R7NHFBE>;
@@ -128352,7 +128674,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/data.ttl#dataset/class/Source>
         void:class     martialis:Source;
-        void:entities  1479 .
+        void:entities  1485 .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SC/nationality/0>
         rdf:type               martialis:NationalityEntry;
@@ -130871,6 +131193,14 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:basedOnSource    <https://martial.is/entity/01M06FKBQ1CNG96GF3Q7N5CGT6>;
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
+        martialis:supports         true .
+
+<https://martial.is/entity/01M7G99YYC35AG314NBG27CW87/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9Z>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Riki Kogure Sensei 8th Dan Aikido, current President of the Japan Aikido Association";
         martialis:supports         true .
 
 <https://martial.is/entity/01M0NTD84XXGRTGAA8DETVW1K2>
@@ -133849,10 +134179,12 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:hasRankAssertion     <https://martial.is/entity/01M3YH7N5GPHCS5HFWPPKFNN4V>;
         martialis:hasRankAssertion     <https://martial.is/entity/01M3YH7N5G363GX3TQPDH7KETQ>;
         martialis:hasRankAssertion     <https://martial.is/entity/01M3YH7N5G4RFEFGMBTZQ8H8HW>;
+        martialis:hasTeacherAssertion  <https://martial.is/entity/01M7G9JYQJXHS0DM772Z5PMZH3>;
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M3YH7N5GYWRP5GQX63FXSYP2>;
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M3YH7N5G9N4XKKJD7HHK01Y0>;
         martialis:trainedAt            <https://martial.is/entity/01KJJAWN29MA64W22606R3WD84>;
         martialis:wasTaughtBy          <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SR>;
+        martialis:wasTaughtBy          <https://martial.is/entity/01M7G99YYCJ2SM3MPGACP6806B>;
         martialis:wasTaughtBy          <https://martial.is/entity/01KJJAWN29MA64W22606R3WD69> .
 
 <https://martial.is/entity/01M3016DNJE2M8WA3XYMQSHN9R/hasContributor/0>
@@ -142459,6 +142791,22 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
 
+<https://martial.is/entity/01M7G96SP9ARN07G643CE5783F>
+        rdf:type                        martialis:Source;
+        schema:datePublished            "2023-11-09";
+        schema:description              "The British Aikido Association's account of Tomiki aikido in the UK and of its own founding in 1966."@en;
+        schema:inLanguage               "en";
+        schema:name                     "History of the BAA";
+        schema:publisher                <https://martial.is/entity/01M7G96SP9ARN07G643CE5783F/publisher>;
+        schema:url                      <https://britishaikidoassociation.co.uk/history-of-the-baa/>;
+        martialis:accessed              "2026-11-15";
+        martialis:earliestYear          2023;
+        martialis:latestYear            2023;
+        martialis:lineageTradition      true;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/history>;
+        martialis:sourceType            "webpage" .
+
 <https://martial.is/entity/01M040GCQ9MDQZ501YE7W1R8W8/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M040GCQ93GVPWXCF73X6Y0BF>;
@@ -149471,6 +149819,19 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:hasEvidence   <https://martial.is/entity/01M6BGKGNV4GHPM6CFYCTJG9ED/deathEvent/hasEvidence/0>;
         martialis:latestYear    2004 .
 
+<https://martial.is/entity/01M7G9JYQJR04AJH0ZYWB8NXKD>
+        rdf:type                        martialis:Source;
+        schema:description              "The Japan Aikido Association's profile page, with its founding year and founder."@en;
+        schema:inLanguage               "ja";
+        schema:name                     "日本合気道協会について";
+        schema:publisher                <https://martial.is/entity/01M7G9JYQJR04AJH0ZYWB8NXKD/publisher>;
+        schema:url                      <https://aikido-kyokai.com/info/profile/>;
+        martialis:accessed              "2026-11-15";
+        martialis:lineageTradition      true;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/history>;
+        martialis:sourceType            "webpage" .
+
 <https://martial.is/entity/01M3YH7N5GC23CZGH5A16ZAWMB>
         rdf:type                  martialis:TeacherAssertion;
         martialis:assertedStyle   <https://martial.is/entity/01KYHNJKQDTEJ1A5MQ5JYPHDTB>;
@@ -152359,6 +152720,10 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:quotation        "Joaquim Valente nasceu em 1989.";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7G96SP97HDYJWXDRBY6BC8H/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Facebook" .
+
 <https://martial.is/entity/01M5JSGG50EKZ1SNDB9VGZPSD3/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Wiktenauer" .
@@ -152984,6 +153349,14 @@ dcat:Distribution  rdf:type  owl:Class .
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
         schema:name            "Yamaguchi Prefecture";
         schema:sameAs          <http://www.wikidata.org/entity/Q127264> .
+
+<https://martial.is/entity/01M7G99YYCYG3DRQW54H9WNP9E>
+        rdf:type                  martialis:TeacherAssertion;
+        martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9R>;
+        martialis:hasConfidence   <https://martial.is/entity/01M7G99YYCYG3DRQW54H9WNP9E/hasConfidence>;
+        martialis:hasInteraction  <https://martial.is/entity/01M7G99YYCYG3DRQW54H9WNP9E/hasInteraction/0>;
+        martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
+        martialis:teacher         <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TT> .
 
 <https://martial.is/entity/01M3YH7N5G95QF7005VE436HM6>
         rdf:type                  martialis:TeacherAssertion;
@@ -164610,6 +164983,14 @@ dcterms:RightsStatement
         martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/history>;
         martialis:sourceType            "webpage" .
 
+<https://martial.is/entity/01M7G9JYQJTKYR7YB5BWKK29BK/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7G96SP9ARN07G643CE5783F>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "Sensei Kogure awarded a number of dan gradings reflecting the development of the Association and remained the lead figure in Tomiki Aikido until his return to Japan 1969.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M36Q4QHTCSZZY71GSX4EVCWZ/hasSite/0/location>
         rdf:type               martialis:GeoRef;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
@@ -169333,6 +169714,13 @@ dcterms:RightsStatement
         martialis:participant        <https://martial.is/entity/01KJJAWN29MA64W22606R3WD7Q>;
         martialis:participationRole  <https://w3id.org/martialis/vocab/event-role/competitor> .
 
+<https://martial.is/entity/01M7G99YYCH4DVQTJEGHT9S04P/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "Kogure says Tomiki taught both judo and aikido in the Waseda judo club he joined, and the Aikido Journal encyclopedia says he practised both under Tomiki; neither states that Tomiki taught him judo in person." .
+
 <https://martial.is/entity/01KZDXQH2MARRZH56QT95D2964/foundedEvent/location>
         rdf:type               martialis:GeoRef;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN> .
@@ -170551,6 +170939,14 @@ dcterms:RightsStatement
         martialis:informationType  infotype:secondary;
         martialis:quotation        "以降、花城長茂、屋部憲通および喜屋武朝徳のもと首里で手 (沖縄武術)を修行し、その後宮城長順に出会い、剛柔流に専念する。";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7G9JYQJP35J7QEPDYC4HQ9N/foundedEvent>
+        rdf:type                martialis:FoundingEvent;
+        prov:wasDerivedFrom     <https://martial.is/entity/01M7G96SP9ARN07G643CE5783F>;
+        schema:startDate        "1966";
+        martialis:earliestYear  1966;
+        martialis:hasEvidence   <https://martial.is/entity/01M7G9JYQJP35J7QEPDYC4HQ9N/foundedEvent/hasEvidence/0>;
+        martialis:latestYear    1966 .
 
 <https://martial.is/entity/01M6BEFR8FBQHCV73J6XC3WGWW/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -174118,7 +174514,7 @@ dcterms:RightsStatement
 
 <https://martial.is/data.ttl#dataset/class/Organization>
         void:class     martialis:Organization;
-        void:entities  110 .
+        void:entities  112 .
 
 <https://martial.is/entity/01M0TFF0X8V9B107JVWEGQZC7D/publisher>
         rdf:type     martialis:Publisher;
@@ -175027,6 +175423,14 @@ dcterms:RightsStatement
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/biography>;
         martialis:sourceType            "entry-encyclopedia" .
+
+<https://martial.is/entity/01M7G9JYQJZW7AM1AEKT9Z82VX/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7G9JYQJR04AJH0ZYWB8NXKD>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "特定非営利活動法人　日本合気道協会";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M5JWHXPXY8T9CE5DD1R9SG6S/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -180221,6 +180625,15 @@ dcterms:RightsStatement
         martialis:quotation        "En parallèle, j'ai commencé à étudier également le Iaido et le Kendo avec Maître Hakudo Nakayama.";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7G99YYCJ2SM3MPGACP6806B/birthEvent>
+        rdf:type                martialis:BirthEvent;
+        prov:wasDerivedFrom     <https://martial.is/entity/01M7G96SP9NH7YVF1EPW8G6K5J>;
+        schema:location         <https://martial.is/entity/01M7G99YYCJ2SM3MPGACP6806B/birthEvent/birthPlace>;
+        schema:startDate        "1936";
+        martialis:earliestYear  1936;
+        martialis:hasEvidence   <https://martial.is/entity/01M7G99YYCJ2SM3MPGACP6806B/birthEvent/hasEvidence/0>;
+        martialis:latestYear    1936 .
+
 <https://martial.is/entity/01M4R9845W72THCAZZHWQFFY7C/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M4R8589M5N6MSFYZCRVW1BGF>;
@@ -181874,6 +182287,14 @@ dcterms:RightsStatement
         schema:familyName          "Watson";
         schema:givenName           "Brian N.";
         martialis:contributorRole  "author" .
+
+<https://martial.is/entity/01M7G99YYCJ2SM3MPGACP6806B/deathEvent/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7G96SP97HDYJWXDRBY6BC8H>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "I just received a message from Fumiaki Shishida Hiroaki Kogure passed away on February 11.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M6ERSPBWNHN6P1V1N4AASK6H/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -184578,6 +184999,14 @@ dcterms:RightsStatement
         martialis:hasEvidence   <https://martial.is/entity/01M3788RSRM157A65AF4KFNFBH/birthEvent/hasEvidence/0>;
         martialis:latestYear    1855 .
 
+<https://martial.is/entity/01M7G9JYQJMJBT2S7BDNXTAW04/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7G96SP9NH7YVF1EPW8G6K5J>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Presently Chief Executive Officer of the JAPAN AIKIDO ASSOCIATION";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3YH7N5GYM56Y7M7V1HPC5SN/hasInteraction/0>
         rdf:type               martialis:TeacherInteraction;
         prov:wasDerivedFrom    <https://martial.is/entity/01KYZ31HT308QY9B28V9ESZFF9>;
@@ -185947,6 +186376,14 @@ dcterms:RightsStatement
         martialis:basedOnSource    <https://martial.is/entity/01KZRA7SNM1XG0FCWW7QEEPTDC>;
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
+        martialis:supports         true .
+
+<https://martial.is/entity/01M7G9JYQJXHS0DM772Z5PMZH3/hasInteraction/0/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9Z>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "We were also fortunate to have Riki Kogure Sensei 8th Dan Aikido, current President of the Japan Aikido Association, teaching in my Houston Dojo on most Friday nights from 1970 to 1975.";
         martialis:supports         true .
 
 <https://martial.is/entity/01M3YH7N5FVDWP7KNW0HJG9NZX/hasEvidence/1>
@@ -190403,6 +190840,12 @@ dcterms:RightsStatement
         martialis:informationType  infotype:primary;
         martialis:supports         true .
 
+<https://martial.is/entity/01M7G96SP92Y20MZFVXYS8VBDS/hasContributor/0>
+        rdf:type                   martialis:Contributor;
+        schema:familyName          "Gold";
+        schema:givenName           "Josh";
+        martialis:contributorRole  "author" .
+
 <https://martial.is/entity/01M5JGQAC76074SKD1E1YAEVYR/birthEvent>
         rdf:type                martialis:BirthEvent;
         prov:wasDerivedFrom     <https://martial.is/entity/01M5JGQAC70J4S7D09CDXF0V2E>;
@@ -191916,6 +192359,14 @@ dcterms:RightsStatement
         schema:name                "ONE Championship";
         martialis:contributorRole  "author" .
 
+<https://martial.is/entity/01M7G99YYCJ2SM3MPGACP6806B/birthEvent/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7G96SP9NH7YVF1EPW8G6K5J>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "(b. 1936). Also Hiroaki. B. Zushi City, Kanagawa Prefecture.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1S7/birthEvent>
         rdf:type                martialis:BirthEvent;
         schema:location         <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1S7/birthEvent/birthPlace>;
@@ -192358,6 +192809,23 @@ dcterms:RightsStatement
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SA> .
 
+<https://martial.is/entity/01M7G96SP92Y20MZFVXYS8VBDS>
+        rdf:type                        martialis:Source;
+        schema:datePublished            "2004";
+        schema:description              "Kogure describes his training under Tomiki at Waseda University and the organisation of the Japan Aikido Association."@en;
+        schema:inLanguage               "en";
+        schema:name                     "Interview with Hiroaki Kogure Sensei: Part One";
+        schema:publisher                <https://martial.is/entity/01M7G96SP92Y20MZFVXYS8VBDS/publisher>;
+        schema:url                      <https://aikidojournal.com/2004/05/06/interview-with-hiroaki-kogure-sensei-part-one/>;
+        martialis:accessed              "2026-11-15";
+        martialis:earliestYear          2004;
+        martialis:hasContributor        <https://martial.is/entity/01M7G96SP92Y20MZFVXYS8VBDS/hasContributor/0>;
+        martialis:latestYear            2004;
+        martialis:partOf                <https://martial.is/entity/01M0DCY9PEBEDEE8144FKDXF5F>;
+        martialis:peerReview            <https://w3id.org/martialis/vocab/peer-review/not_peer_reviewed>;
+        martialis:sourceClassification  srcclass:original;
+        martialis:sourceType            "interview" .
+
 <https://martial.is/entity/01M3YH7N5G9PZP7KK8Y7MFBJ30/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KZ6XT5DS6QYJPRSC7XB6G5WR>;
@@ -192626,6 +193094,17 @@ dcterms:RightsStatement
         martialis:hasEvidence   <https://martial.is/entity/01KYND6715CCR0GCA9FDDPVFNX/foundedEvent/hasEvidence/0>;
         martialis:hasEvidence   <https://martial.is/entity/01KYND6715CCR0GCA9FDDPVFNX/foundedEvent/hasEvidence/1>;
         martialis:latestYear    1957 .
+
+<https://martial.is/entity/01M7G99YYCYG3DRQW54H9WNP9E/hasInteraction/0>
+        rdf:type                     martialis:TeacherInteraction;
+        prov:hadPrimarySource        <https://martial.is/entity/01M7G96SP92Y20MZFVXYS8VBDS>;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M7G96SP9ARN07G643CE5783F>;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M7G96SP92Y20MZFVXYS8VBDS>;
+        martialis:hasEvidence        <https://martial.is/entity/01M7G99YYCYG3DRQW54H9WNP9E/hasInteraction/0/hasEvidence/0>;
+        martialis:hasEvidence        <https://martial.is/entity/01M7G99YYCYG3DRQW54H9WNP9E/hasInteraction/0/hasEvidence/2>;
+        martialis:hasEvidence        <https://martial.is/entity/01M7G99YYCYG3DRQW54H9WNP9E/hasInteraction/0/hasEvidence/1>;
+        martialis:interactionPeriod  <https://martial.is/entity/01M7G99YYCYG3DRQW54H9WNP9E/hasInteraction/0/interactionPeriod>;
+        martialis:interactionPlace   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD97> .
 
 <https://martial.is/entity/01KZC7XZAR5RWRTRZP0T6R1YG4/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -193121,6 +193600,11 @@ dcterms:RightsStatement
         martialis:hasEvidence          <https://martial.is/entity/01M6C1FR4AZ3C0TZNM905JPEJX/hasEvidence/0>;
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M6C1G6F217VV6B20VMDG6DQT>;
         martialis:wasTaughtBy          <https://martial.is/entity/01M6C18DS7MFJMMJ2GXSZJ19SX> .
+
+<https://martial.is/entity/01M7G9JYQJTKYR7YB5BWKK29BK/officerPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:endYear    1969;
+        martialis:startYear  1966 .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6M/hasEvidence/3>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -194023,6 +194507,20 @@ dcterms:RightsStatement
         martialis:informationType  infotype:primary;
         martialis:quotation        "a atribuição da Graduação de 5º Dan Aikikai ao nosso Director Técnico, Prof. Agostinho Vaz, no Kagami Biraki realizado hoje, dia 10 de Janeiro de 2016 no Hombu Dojo - Japão.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7G9JYQJZW7AM1AEKT9Z82VX>
+        rdf:type                  martialis:Organization;
+        schema:alternateName      "JAA"@en;
+        schema:description        "Tomiki aikido association founded by Tomiki Kenji in 1974."@en;
+        schema:foundingDate       "1974";
+        schema:keywords           "aikido";
+        schema:name               "Nippon Aikidō Kyōkai"@ja-Latn;
+        schema:name               "Japan Aikido Association"@en;
+        schema:name               "日本合気道協会"@ja;
+        martialis:foundedEvent    <https://martial.is/entity/01M7G9JYQJZW7AM1AEKT9Z82VX/foundedEvent>;
+        martialis:hasEvidence     <https://martial.is/entity/01M7G9JYQJZW7AM1AEKT9Z82VX/hasEvidence/0>;
+        martialis:hasOfficerRole  <https://martial.is/entity/01M7G9JYQJMJBT2S7BDNXTAW04>;
+        martialis:orgType         <https://w3id.org/martialis/vocab/org-classification/association> .
 
 <https://martial.is/entity/01M5JRHX02FFT40NKCGC502PR5/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -195503,6 +196001,13 @@ dcterms:RightsStatement
         rdf:type               martialis:NationalityEntry;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/KOR>;
         schema:sameAs          <http://www.wikidata.org/entity/Q884> .
+
+<https://martial.is/entity/01M7G9JYQJTKYR7YB5BWKK29BK/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "The BAA's own history names him Technical Adviser at the founding and dates his return to Japan to 1969; Kogure (2004) confirms his part in the founding but not the title." .
 
 <https://martial.is/entity/01KYMDKKCPZRCC1AKKWAERY02W/image/imageAttribution>
         rdf:type                   martialis:Attribution;
@@ -197970,6 +198475,19 @@ dcterms:RightsStatement
         schema:name            "Oakland";
         schema:sameAs          <http://www.wikidata.org/entity/Q17042> .
 
+<https://martial.is/entity/01M7G9JYQJTKYR7YB5BWKK29BK>
+        rdf:type                 martialis:OfficerRole;
+        prov:hadPrimarySource    <https://martial.is/entity/01KXTSQXW6P83R31HCRY2PRTBB>;
+        prov:wasDerivedFrom      <https://martial.is/entity/01KXTSQXW6P83R31HCRY2PRTBB>;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7G96SP9ARN07G643CE5783F>;
+        martialis:hasConfidence  <https://martial.is/entity/01M7G9JYQJTKYR7YB5BWKK29BK/hasConfidence>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7G9JYQJTKYR7YB5BWKK29BK/hasEvidence/2>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7G9JYQJTKYR7YB5BWKK29BK/hasEvidence/0>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7G9JYQJTKYR7YB5BWKK29BK/hasEvidence/1>;
+        martialis:officer        <https://martial.is/entity/01M7G99YYCJ2SM3MPGACP6806B>;
+        martialis:officerPeriod  <https://martial.is/entity/01M7G9JYQJTKYR7YB5BWKK29BK/officerPeriod>;
+        martialis:officerTitle   "Technical Adviser" .
+
 <https://martial.is/entity/01M3YH7N5GQEEN4ZXWHFR06X9T>
         rdf:type                     martialis:StyleRelationAssertion;
         prov:wasDerivedFrom          <https://martial.is/entity/01M2411V8RSSKGHVY1N4N3Q5PV>;
@@ -199976,6 +200494,14 @@ dcterms:RightsStatement
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceType            "webpage" .
 
+<https://martial.is/entity/01M7G9JYQJXHS0DM772Z5PMZH3/hasInteraction/0>
+        rdf:type                     martialis:TeacherInteraction;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M7G96SP9NQCBQCZMWATV30X0>;
+        prov:wasDerivedFrom          <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9Z>;
+        martialis:hasEvidence        <https://martial.is/entity/01M7G9JYQJXHS0DM772Z5PMZH3/hasInteraction/0/hasEvidence/1>;
+        martialis:hasEvidence        <https://martial.is/entity/01M7G9JYQJXHS0DM772Z5PMZH3/hasInteraction/0/hasEvidence/0>;
+        martialis:interactionPeriod  <https://martial.is/entity/01M7G9JYQJXHS0DM772Z5PMZH3/hasInteraction/0/interactionPeriod> .
+
 <https://martial.is/entity/01M015RCSFK72AEZPP3EQZ136Q/deathEvent/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M015RCSFJZDQ4SXAPCBZPBP9>;
@@ -201477,6 +202003,15 @@ dcterms:RightsStatement
         martialis:informationType  infotype:secondary;
         martialis:quotation        "Kano received his training directly from Araki-do 7th Soke, Ohshima Masateru.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7G9JYQJZW7AM1AEKT9Z82VX/foundedEvent>
+        rdf:type                martialis:FoundingEvent;
+        prov:wasDerivedFrom     <https://martial.is/entity/01M7G9JYQJR04AJH0ZYWB8NXKD>;
+        schema:startDate        "1974";
+        martialis:earliestYear  1974;
+        martialis:founder       <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TT>;
+        martialis:hasEvidence   <https://martial.is/entity/01M7G9JYQJZW7AM1AEKT9Z82VX/foundedEvent/hasEvidence/0>;
+        martialis:latestYear    1974 .
 
 <https://martial.is/entity/01M6ENVCFAA39W99EGWKS2R191/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -205736,6 +206271,14 @@ dcterms:RightsStatement
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
 
+<https://martial.is/entity/01M7G9JYQJP35J7QEPDYC4HQ9N/foundedEvent/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7G96SP9ARN07G643CE5783F>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "This resulted in the founding of the British Aikido Association in that same year [...]";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M07HCGJGDPR24S4J0JWFFH68/hasContributor/2>
         rdf:type                   martialis:Contributor;
         schema:familyName          "Spenn";
@@ -208212,6 +208755,10 @@ void:vocabulary  rdf:type  owl:ObjectProperty .
         martialis:quotation        "Chiba Shūsaku's Genbukan was an anticlimax. Repeated requests made to Shūsaku's son Eijirō (1833-62) were turned down with all manner of \"excuses.\"";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7G96SP9NQCBQCZMWATV30X0/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Martial Arts of Yesterday, Today and Tomorrow" .
+
 <https://martial.is/entity/01M3YH7N5GEJ1Q1P51HWSXBNM5/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M2Z6TY1PPMR10TVJJZZ6B5TP>;
@@ -208676,6 +209223,11 @@ void:vocabulary  rdf:type  owl:ObjectProperty .
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/BRA>;
         schema:name            "Laranjeiras, Rio de Janeiro";
         schema:sameAs          <http://www.wikidata.org/entity/Q8678> .
+
+<https://martial.is/entity/01M7G99YYCH4DVQTJEGHT9S04P/hasInteraction/0/interactionPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:endYear    1958;
+        martialis:startYear  1954 .
 
 <https://martial.is/entity/01M5JG4Y25X3MQSDWVDW1VF3C8/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -210025,6 +210577,11 @@ dcterms:identifier  rdf:type  owl:AnnotationProperty .
         rdf:type               martialis:GeoRef;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/FRA>;
         schema:name            "Moulins, Allier" .
+
+<https://martial.is/entity/01M7G99YYCJ2SM3MPGACP6806B/nationality/0>
+        rdf:type               martialis:NationalityEntry;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q17> .
 
 <https://martial.is/entity/01M3M3T743GCC4K39RW5JZDYGN/publisher>
         rdf:type     martialis:Publisher;
@@ -212686,7 +213243,9 @@ dcterms:identifier  rdf:type  owl:AnnotationProperty .
         martialis:hasRankAssertion     <https://martial.is/entity/01M3YH7N5GHM02EG25SD7ZCB2X>;
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M3YH7N5GMJBQFD72A4NS5JYV>;
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M3YH7N5GGZX29T1NMT8BP98A>;
+        martialis:taughtAt             <https://martial.is/entity/01KJJAWN29MA64W22606R3WD97>;
         martialis:taughtAt             <https://martial.is/entity/01KJJAWN29MA64W22606R3WD84>;
+        martialis:teaches              <https://martial.is/entity/01M7G99YYCJ2SM3MPGACP6806B>;
         martialis:teaches              <https://martial.is/entity/01KJJAWN29MA64W22606R3WD69>;
         martialis:teaches              <https://martial.is/entity/01KYND6715JYA1K07KHXH3FNG6>;
         martialis:trainedAt            <https://martial.is/entity/01KJJAWN29MA64W22606R3WD84>;

@@ -1,0 +1,162 @@
+type: Person
+id: 01M7G99YYCJ2SM3MPGACP6806B
+name:
+  ja-Latn: Kogure Hiroaki
+aka:
+  en:
+    - Riki Kogure
+    - Hiroaki Kogure
+  ja: 小暮りき
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1936'
+  birthPlace:
+    label: Zushi, Kanagawa
+    countryCode: eucountry:JPN
+    wikidata: wd:Q230843
+  hasEvidence:
+    - basedOnSource: 01M7G96SP9NH7YVF1EPW8G6K5J
+      quotation: (b. 1936). Also Hiroaki. B. Zushi City, Kanagawa Prefecture.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2023-02-11'
+  hasEvidence:
+    - basedOnSource: 01M7G96SP97HDYJWXDRBY6BC8H
+      quotation: >-
+        I just received a message from Fumiaki Shishida
+        Hiroaki Kogure passed away on February 11.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M7G99YYCYG3DRQW54H9WNP9E
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TT
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Aikido Journal (2004) states he studied under Tomiki at Waseda in
+        the 1950s, and Kogure dates his entry to about 1954; the British
+        Aikido Association history independently calls him a student of
+        Tomiki.
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD97
+        interactionPeriod:
+          startYear: 1954
+          endYear: 1958
+        hasEvidence:
+          - basedOnSource: 01M7G96SP92Y20MZFVXYS8VBDS
+            quotation: Hiroaki Kogure Sensei studied under Kenji Tomiki Sensei at Waseda University in the 1950’s.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M7G96SP92Y20MZFVXYS8VBDS
+            quotation: >-
+              About 1954, when I entered Waseda University, judo practice was
+              held from 3:00 to 5:00 in the afternoon and only members who
+              wanted to receive aikido training from 8:00 to 10 o’clock in the
+              morning. [...] I joined the Judo Club and practiced aikido in the
+              morning and judo in the afternoon.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M7G96SP9ARN07G643CE5783F
+            quotation: He was a student of Master Tomiki [...]
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M7G99YYCH4DVQTJEGHT9S04P
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TT
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Kogure says Tomiki taught both judo and aikido in the Waseda judo
+        club he joined, and the Aikido Journal encyclopedia says he
+        practised both under Tomiki.
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD97
+        interactionPeriod:
+          startYear: 1954
+          endYear: 1958
+        hasEvidence:
+          - basedOnSource: 01M7G96SP92Y20MZFVXYS8VBDS
+            quotation: >-
+              Since Tomiki Sensei taught both judo and aikido, aikido practice
+              was held in the judo dojo when judo practice was not in session.
+              [...] I joined the Judo Club and practiced aikido in the morning
+              and judo in the afternoon.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M7G96SP9NH7YVF1EPW8G6K5J
+            quotation: Practiced judo and aikido in university days. Taught by Kenji TOMIKI.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M7G99YYC35AG314NBG27CW87
+    rankStyle: 01KJJAWN29MA64W22606R3WD9R
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 8
+    conferredBy: 01M7G9JYQJZW7AM1AEKT9Z82VX
+    dateConferred: '1988'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The Aikido Journal encyclopedia gives the grade, the Japan Aikido
+        Association and the year; Aikido Journal (2004) and Geis's résumé
+        confirm the grade only.
+    hasEvidence:
+      - basedOnSource: 01M7G96SP9NH7YVF1EPW8G6K5J
+        quotation: 8th dan Tomiki Aikido-JAA, 1988.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KJJAWN29MA64W22606R3WD9Z
+        quotation: Riki Kogure Sensei 8th Dan Aikido, current President of the Japan Aikido Association
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M7G96SP9NH7YVF1EPW8G6K5J
+    quotation: >-
+      Lived abroad for a total of 13 years in England, the U. S. , and the
+      Middle and Near East, where he taught aikido to various groups.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M7G96SP9ARN07G643CE5783F
+    quotation: >-
+      Sensei Yamada urged the various clubs now under the tuition of Sensei
+      Kogure to formalise their existence by forming an organisation for all
+      the Tomiki Aikido clubs in the UK with Sensei Kogure as their Technical
+      Adviser.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: >-
+    Tomiki aikido teacher, technical adviser at the founding of the British
+    Aikido Association in 1966 and later chief director of the Japan Aikido
+    Association.
+notes: >-
+  Kanji for Hiroaki not found; 小暮りき is the only native form seen.
+  Author of Kuroobi Shosha Sekai o Iku (encyclopedia; no publisher or year).
+  Lead: the Aikido Journal US history entry says he trained Tony Sereda in
+  Chicago. Pending: BAA and JAA org records (technical adviser, chief
+  director/CEO, rank conferredBy). Aiki News 82 PDF link is 404.
+  The death notice relays Shishida via Eddy Wolput; the year is from the
+  post date.
+tags:
+  - aikido
