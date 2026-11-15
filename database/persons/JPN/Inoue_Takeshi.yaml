@@ -1,0 +1,143 @@
+type: Person
+id: 01M7GB0SCSZ99YVGEW6VP03XKN
+name:
+  ja-Latn: Inoue Takeshi
+  ja: 井上武
+aka:
+  en: Takeshi Inoue
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1946-01-05'
+  hasEvidence:
+    - basedOnSource: 01M7GB0SCS3QF6JMTR92WBQV2V
+      quotation: (b. 5 January 1946).
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasTeacherAssertion:
+  - id: 01M7GB0SCSNMHR73VHS384B2CC
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TT
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The Aikido Journal encyclopedia dates his start under Tomiki to
+        1958, and the BAA history + Geis's organisation page independently
+        call him a student of Tomiki.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1958
+        hasEvidence:
+          - basedOnSource: 01M7GB0SCS3QF6JMTR92WBQV2V
+            quotation: Began aikido at the age of 12 in 1958, under Kenji TOMIKI and Hideo OHBA.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M7GB0SCSQD0YS9SES8HZ04J9
+            quotation: Takeshi Inoue Shihan, a student of Ms. Miyake Shihan and Mr. Tomiki Shihan [...]
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD97
+        interactionPeriod:
+          startYear: 1963
+          endYear: 1967
+        hasEvidence:
+          - basedOnSource: 01M7GB0SCS3QF6JMTR92WBQV2V
+            quotation: special member of the WASEDA UNIVERSITY AIKIDO CLUB from 1963 (at age 17) to 1967.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M7G96SP9ARN07G643CE5783F
+            quotation: >-
+              [...] Mr. Tsunamitsu Naito 4th dan and Mr. Takeshi Inoue 5th dan
+              both direct students of Master Tomiki at Waseda University.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M7GB0SCSAQ63YJ2MAZA359GF
+    teacher: 01KJJAWN29MA64W22606R3WD69
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Only Geis's organisation page calls him a student of Miyake; no
+        second source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M7GB0SCSQD0YS9SES8HZ04J9
+            quotation: Takeshi Inoue Shihan, a student of Ms. Miyake Shihan and Mr. Tomiki Shihan [...]
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M7GB0SCSZF4DC0N0ZWFY7N4H
+    rankStyle: 01KJJAWN29MA64W22606R3WD9R
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 6
+    conferredBy: 01M7G9JYQJZW7AM1AEKT9Z82VX
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The Aikido Journal encyclopedia gives the grade and the Japan Aikido
+        Association, marked as authenticated; no date or second source.
+    hasEvidence:
+      - basedOnSource: 01M7GB0SCS3QF6JMTR92WBQV2V
+        quotation: 6th dan Tomiki Aikido-JAA [rank authenticated]
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M7GB0SCSQ9P4RH2E2KPEPJ4R
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 3
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The Aikido Journal encyclopedia gives the grade only, with no body or
+        date.
+    hasEvidence:
+      - basedOnSource: 01M7GB0SCS3QF6JMTR92WBQV2V
+        quotation: 3rd dan judo.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M7GB0SCS3QF6JMTR92WBQV2V
+    quotation: >-
+      Graduate of Keio University, and special member of the WASEDA
+      UNIVERSITY AIKIDO CLUB from 1963 (at age 17) to 1967. Went to England
+      in 1968 for three years [...]
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M7G96SP9ARN07G643CE5783F
+    quotation: >-
+      Sensei Inoue taught various Koryu Kata extending the scope of training
+      as well as setting the common standard for all to aspire to in their
+      training and remained in the UK until 1972.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+description:
+  en: >-
+    Tomiki aikido teacher, an instructor of the British Aikido Association
+    from 1968 and a co-founder of the Fugakukai International Association
+    in 1982.
+notes: >-
+  Hideo Oba (Ohba), his other teacher in the encyclopedia, has no record
+  yet. Author of Aikido: Kata no Subete (encyclopedia; no publisher or
+  year). England stay: three years from 1968 (encyclopedia) against until
+  1972 (BAA). Not the wrestler Takeshi Rikio, born Inoue Takeshi.
+tags:
+  - aikido

@@ -85,6 +85,26 @@ hasTeacherAssertion:
       informationType: infotype:secondary
       supports: true
       evidenceType: evidencetype:direct
+- id: 01M7GB0SCSC11GDVXK8WC1HQ43
+  teacher: 01M7GB0SCSZ99YVGEW6VP03XKN
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Geis's own organisation page names Inoue among his teachers and
+      advisors; no second source.
+  role: teachrole:student
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M7GB0SCSQD0YS9SES8HZ04J9
+      quotation: >-
+        [...] utilizing Mr. Tomiki Shihan, Ms. Tsunako Miyake Shihan, Mr.
+        Takeshi Inoue Shihan, and Mr. Riki Kogure Shihan as teachers and
+        advisors [...]
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
 hasRankAssertion:
 - id: 01M3YH7N5G363GX3TQPDH7KETQ
   rankStyle: 01KJJAWN29MA64W22606R3WD9B
