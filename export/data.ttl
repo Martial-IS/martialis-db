@@ -997,7 +997,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://martial.is/entity/01KZF1F5JRWBBFKXGEZQNTJYJ7/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Giordano, Emanuel";
+        schema:familyName          "Giordano";
+        schema:givenName           "Emanuel";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KYZ3NPBHWRRGG5PTCBBAANQP/hasContributor/0>
@@ -2450,7 +2451,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://martial.is/entity/01M5AT1XCZD4BEWPJZKBQSSSDQ/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Judkins, Benjamin";
+        schema:familyName          "Judkins";
+        schema:givenName           "Benjamin";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5GQ8YMTN7TBW2Y9J6Y/hasInteraction/1>
@@ -4226,7 +4228,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://martial.is/entity/01M5CSC4Z2HSC5PJ2YEBC0DZX5/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Cunningham, Don";
+        schema:familyName          "Cunningham";
+        schema:givenName           "Don";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1V3/birthEvent/birthPlace>
@@ -4254,7 +4257,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://martial.is/entity/01KZ9TQS3VGPBASF3Z1Q0AVHJF/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Garnier Sinclair, Eric";
+        schema:familyName          "Garnier Sinclair";
+        schema:givenName           "Eric";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KZEXPW6CSP87S44GVEJBCZHA/hasContributor/0>
@@ -4539,7 +4543,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://martial.is/entity/01KY52HE47G1MEN0VTV65KS7CK/hasContributor/0>
         rdf:type                     martialis:Contributor;
-        schema:name                  "Koizumi, Gunji";
+        schema:familyName            "Koizumi";
+        schema:givenName             "Gunji";
         martialis:contributorPerson  <https://martial.is/entity/01KY52HE48XM1KHDGKBV98YRQ2>;
         martialis:contributorRole    "author" .
 
@@ -5288,7 +5293,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://martial.is/entity/01M2XV9GXHJCJXFBTEFT5ATY7M/hasContributor/1>
         rdf:type                   martialis:Contributor;
-        schema:name                "Paz, Rosélia Ylka André de Almeida de França";
+        schema:familyName          "Paz";
+        schema:givenName           "Rosélia Ylka André de Almeida de França";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KZDXQH2MZV48WR0RZ9GKTSN5/foundedEvent>
@@ -6038,7 +6044,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://martial.is/entity/01KZXH2NSQ1XN16GMNTTE4BYSS/hasContributor/0>
         rdf:type                     martialis:Contributor;
-        schema:name                  "Bluming, Jon";
+        schema:familyName            "Bluming";
+        schema:givenName             "Jon";
         martialis:contributorPerson  <https://martial.is/entity/01M015RNEV8D2DR0J67PC1091F>;
         martialis:contributorRole    "author" .
 
@@ -9244,7 +9251,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         void:classPartition   <https://martial.is/data.ttl#dataset/class/Event>;
         void:dataDump         <https://martial.is/data.ttl>;
         void:entities         2948;
-        void:triples          163545;
+        void:triples          163720;
         void:uriSpace         "https://martial.is/entity/";
         void:vocabulary       <http://purl.org/ontology/bibo/>;
         void:vocabulary       prov:;
@@ -9470,7 +9477,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://martial.is/entity/01KYD5XMNMC3D3DST96C876VKM/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Maeda, Daryl Joji";
+        schema:familyName          "Maeda";
+        schema:givenName           "Daryl Joji";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KZBVW8NFCS8PS3RR0PDQ1936/image>
@@ -9933,7 +9941,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://martial.is/entity/01M6C5JZZG2XXX0TYYXNBZM8GB/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Svinth, Joseph R.";
+        schema:familyName          "Svinth";
+        schema:givenName           "Joseph R.";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M6BHSAXWNC0J7ZZ2BJ11NV43/hasEvidence/1>
@@ -11395,7 +11404,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://martial.is/entity/01KYQB8J2NDQG5EH6JYDGB3WCX/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Hedegaard, Erik";
+        schema:familyName          "Hedegaard";
+        schema:givenName           "Erik";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5JPYGXJY8J4HBMF1ZD4PY2H/hasEvidence/1>
@@ -11801,7 +11811,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://martial.is/entity/01M016NFYMF0JCEB30S9WTZ523/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Mann, WR";
+        schema:familyName          "Mann";
+        schema:givenName           "WR";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5GEDQZFWK9R011TTXQ/hasInteraction/0/hasEvidence/1>
@@ -15144,7 +15155,8 @@ void:class  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M764AMRBG8SN8CCXVWRYZGB6/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Pranin, Stanley";
+        schema:familyName          "Pranin";
+        schema:givenName           "Stanley";
         martialis:contributorRole  "interviewer" .
 
 <https://martial.is/entity/01M6C5JZZG6NH7APBTE970T8VD>
@@ -15596,7 +15608,8 @@ void:class  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZBJ73N3F4Y4BQM7KH0VK1VH/hasContributor/0>
         rdf:type                     martialis:Contributor;
-        schema:name                  "Mochizuki, Hiroo";
+        schema:familyName            "Mochizuki";
+        schema:givenName             "Hiroo";
         martialis:contributorPerson  <https://martial.is/entity/01KZBJ73N3JHCD166DR1QCC919>;
         martialis:contributorRole    "author" .
 
@@ -17854,7 +17867,8 @@ void:class  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZET6VQDZWGVFM1MCBW2ZMNA/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Advincula, A. J.";
+        schema:familyName          "Advincula";
+        schema:givenName           "A. J.";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KYG003XDP4BK49QTQ176GGVT>
@@ -18539,7 +18553,8 @@ void:class  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M07HCGJGXD0E7F4NBAK647YY/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Wolf, Tony";
+        schema:familyName          "Wolf";
+        schema:givenName           "Tony";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5GC25X9F7BE22G2MS8/hasConfidence>
@@ -18722,7 +18737,8 @@ void:class  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZ0Y4CF4E8G6P316RJ6Z93VK/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Gold, Josh";
+        schema:familyName          "Gold";
+        schema:givenName           "Josh";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TX/hasEvidence/1>
@@ -20396,7 +20412,8 @@ void:classPartition  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M06HNX8TX6HGRE945CNA86M9/hasContributor/1>
         rdf:type                   martialis:Contributor;
-        schema:name                "Rosa, Vítor Alberto";
+        schema:familyName          "Rosa";
+        schema:givenName           "Vítor Alberto";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5JRHX02E59P6XQDD4BZHFN5/hasConfidence>
@@ -23593,7 +23610,8 @@ void:classPartition  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M764AMRBBC9Y4YZENFBC6G72/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Pranin, Stanley";
+        schema:familyName          "Pranin";
+        schema:givenName           "Stanley";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5JG4Y25TKZ9ESTG89MCD7WJ/hasEvidence/0>
@@ -23736,7 +23754,8 @@ void:classPartition  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KYJ42SQPE9AT05GKA3G4K4M6/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Segarra, Dan";
+        schema:familyName          "Segarra";
+        schema:givenName           "Dan";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5H4ANTVSQT4841CK379K2YQ>
@@ -24517,7 +24536,8 @@ void:classPartition  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M0A2FCGSAVG29MH0H9GBK9SK/hasContributor/0>
         rdf:type                     martialis:Contributor;
-        schema:name                  "Watts, Emily Diana";
+        schema:familyName            "Watts";
+        schema:givenName             "Emily Diana";
         martialis:contributorPerson  <https://martial.is/entity/01M0A2FCGS8SSMPCGQ4BBNYH4M>;
         martialis:contributorRole    "author" .
 
@@ -24965,7 +24985,8 @@ void:classPartition  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZGN2SVGQ5EY83829XAB3B48/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Cottreau, Travis";
+        schema:familyName          "Cottreau";
+        schema:givenName           "Travis";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3M0D4PB6MX34WBF73H4PB8G>
@@ -28008,7 +28029,8 @@ void:classPartition  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZ1BZ2EHCP1CXHBY5V09EARN/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Svinth, Joseph R.";
+        schema:familyName          "Svinth";
+        schema:givenName           "Joseph R.";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M39T3H2E4MNJHADY7N8JSYXK/deathEvent/hasEvidence/0>
@@ -28258,7 +28280,8 @@ void:classPartition  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZDSC7FJA4BP8GHD09XYW68Q/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Haff, William H.";
+        schema:familyName          "Haff";
+        schema:givenName           "William H.";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M6EHHZQ6PA40JPGRDMFZCH5V/hasConfidence>
@@ -29627,7 +29650,8 @@ void:classPartition  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M0A7YYEFNNVJ1W07NHA7XJHG/hasContributor/3>
         rdf:type                     martialis:Contributor;
-        schema:name                  "Gatling, Lance";
+        schema:familyName            "Gatling";
+        schema:givenName             "Lance";
         martialis:contributorPerson  <https://martial.is/entity/01KYPR30B0C068BEA1FY08VTE0>;
         martialis:contributorRole    "author" .
 
@@ -31140,7 +31164,8 @@ void:classPartition  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KYZFG5QVKMHWYD7GV9QF40AZ/hasContributor/1>
         rdf:type                   martialis:Contributor;
-        schema:name                "Dimitrov, Simone";
+        schema:familyName          "Dimitrov";
+        schema:givenName           "Simone";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5H60670DBYSQA1XKH1QAC3D/hasInteraction/0/hasEvidence/0>
@@ -31366,7 +31391,8 @@ void:classPartition  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZH6AA1PBR5EVSWHMWSA39QT/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Pereira, Leonardo";
+        schema:familyName          "Pereira";
+        schema:givenName           "Leonardo";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5KV9GA7YSFZKFMXH5ZSDJCX/hasInteraction/0>
@@ -33149,7 +33175,8 @@ void:classPartition  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M6C5JZZGGKZVG5VVNGV0F0HD/hasContributor/1>
         rdf:type                   martialis:Contributor;
-        schema:name                "Svinth, Joseph R.";
+        schema:familyName          "Svinth";
+        schema:givenName           "Joseph R.";
         martialis:contributorRole  "editor" .
 
 <https://martial.is/entity/01KYQM3M5CSDPXRB08KJB3GDP2/birthEvent/birthPlace>
@@ -33834,7 +33861,8 @@ void:classPartition  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZH5KBKXBXT04JW7BSZWXW1R/hasContributor/2>
         rdf:type                   martialis:Contributor;
-        schema:name                "Chagas, Bruno";
+        schema:familyName          "Chagas";
+        schema:givenName           "Bruno";
         martialis:contributorRole  "editor" .
 
 <https://martial.is/entity/01M0TFB9H02FHWQX4XQ9AW8KQ6/hasContributor/0>
@@ -34963,7 +34991,8 @@ void:classPartition  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZH9CVME1HC9XQTPH42B96FP/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Alexander, George W.";
+        schema:familyName          "Alexander";
+        schema:givenName           "George W.";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3287E2ATMVCEVXM1K1Y2860/hasContributor/0>
@@ -37430,7 +37459,8 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KYSKCFDYXBS3QDY4H9DKQXCD/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Wu, Fei";
+        schema:familyName          "Wu";
+        schema:givenName           "Fei";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M6ERSPBWYXEVP0GSKX6NXABT/nationality/0>
@@ -37659,7 +37689,8 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KYJDMKWDWBJBK07YVKCAQKMW/hasContributor/2>
         rdf:type                   martialis:Contributor;
-        schema:name                "Vences de Brito, Antonio";
+        schema:familyName          "Vences de Brito";
+        schema:givenName           "Antonio";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KZKN9Y3XMXRGGGH0VVZ3HQ11/nationality/0>
@@ -38038,7 +38069,8 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M06HNX8TX6HGRE945CNA86M9/hasContributor/2>
         rdf:type                   martialis:Contributor;
-        schema:name                "Pérez Gutiérrez, Mikel";
+        schema:familyName          "Pérez Gutiérrez";
+        schema:givenName           "Mikel";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3287E2ARJZVFEXS3FJFMHRQ/hasEvidence/0>
@@ -38652,7 +38684,8 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZGP69MF02HJ235SMP1CJVR5/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Gillan, Mike";
+        schema:familyName          "Gillan";
+        schema:givenName           "Mike";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5JG4Y2535KRAE4MN4E44YQD/birthEvent>
@@ -38754,7 +38787,8 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M6C5JZZGVV24N4ZFNV23BH26/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Alcantara, Ubaldo";
+        schema:familyName          "Alcantara";
+        schema:givenName           "Ubaldo";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5GY2PVY1R9BVXGSYX4/hasInteraction/0>
@@ -41315,7 +41349,8 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZET6VQDMWTV3BJCH177PA42/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Haff, William H.";
+        schema:familyName          "Haff";
+        schema:givenName           "William H.";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5GTGT9023FTMXH14S2/hasEvidence/1>
@@ -42364,7 +42399,8 @@ void:Dataset  rdf:type  owl:Class .
 
 <https://martial.is/entity/01M0AJNJHSV6RHCNNKNM0Y1EHP/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Hoare, Syd";
+        schema:familyName          "Hoare";
+        schema:givenName           "Syd";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5G83SKVRT6DPTG8DV9>
@@ -42777,7 +42813,8 @@ void:Dataset  rdf:type  owl:Class .
 
 <https://martial.is/entity/01KZGKX1Y10XAX7Y4V6Q4BYEBV/hasContributor/1>
         rdf:type                   martialis:Contributor;
-        schema:name                "Cummings, Reece";
+        schema:familyName          "Cummings";
+        schema:givenName           "Reece";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M00NPBTP18V8842XM1DP7K4Z/deathEvent>
@@ -45241,7 +45278,8 @@ dcat:landingPage  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZDSC7FJ68A9EVKHZA1ZDWZH/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Tran, Dong";
+        schema:familyName          "Tran";
+        schema:givenName           "Dong";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M6C1G6F217VV6B20VMDG6DQT/hasConfidence>
@@ -47202,7 +47240,8 @@ dcat:landingPage  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M6C5JZZGXS61AQ2DNAVKFZJS/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Taylor, Kim";
+        schema:familyName          "Taylor";
+        schema:givenName           "Kim";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5H40EZX2DF1P0GSAF1NGG7Z/birthEvent>
@@ -48573,7 +48612,8 @@ dcat:landingPage  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZKS3XCJ5V6B3XBAYVC4NM4V/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Caile, Christopher";
+        schema:familyName          "Caile";
+        schema:givenName           "Christopher";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5GJJJ8F9FSMYZQTXGT/hasConfidence>
@@ -48978,7 +49018,8 @@ dcat:landingPage  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZ9TQS3VAWWWZRSQE53DB0DS/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Kruyning, Edgar";
+        schema:familyName          "Kruyning";
+        schema:givenName           "Edgar";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M6C1R0059R5TWW03236BH7AQ>
@@ -51252,7 +51293,8 @@ void:entities  rdf:type  owl:DatatypeProperty .
 
 <https://martial.is/entity/01KZKWYWG3THWY668CPXZAYG68/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Estrada, Ernest";
+        schema:familyName          "Estrada";
+        schema:givenName           "Ernest";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M0QZ9H4W5FQD8EGQG7V4HYJP/nationality/1>
@@ -52715,7 +52757,8 @@ void:entities  rdf:type  owl:DatatypeProperty .
 
 <https://martial.is/entity/01M01BRGE9KCSA1FP7BSYYDSRZ/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Mann, WR";
+        schema:familyName          "Mann";
+        schema:givenName           "WR";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5JG4Y25CG26BBFN1ES5MK8D/deathEvent/deathPlace>
@@ -52772,7 +52815,8 @@ void:entities  rdf:type  owl:DatatypeProperty .
 
 <https://martial.is/entity/01KZHA25918DZ350CSV9KNBNT2/hasContributor/0>
         rdf:type                     martialis:Contributor;
-        schema:name                  "Nagamine, Shoshin";
+        schema:familyName            "Nagamine";
+        schema:givenName             "Shoshin";
         martialis:contributorPerson  <https://martial.is/entity/01KZBXACW0REMTPYNSM6B5QQAQ>;
         martialis:contributorRole    "author" .
 
@@ -53071,7 +53115,8 @@ void:entities  rdf:type  owl:DatatypeProperty .
 
 <https://martial.is/entity/01M76BK5Y7ZPYB8W835SEA3Y9Z/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Pranin, Stanley";
+        schema:familyName          "Pranin";
+        schema:givenName           "Stanley";
         martialis:contributorRole  "interviewer" .
 
 <https://martial.is/entity/01M3YH7N5G83SKVRT6DPTG8DV9/hasConfidence>
@@ -54007,7 +54052,8 @@ void:entities  rdf:type  owl:DatatypeProperty .
 
 <https://martial.is/entity/01M355209N018CY9HSZ1YH4MF4/hasContributor/1>
         rdf:type                     martialis:Contributor;
-        schema:name                  "Inosanto, Dan";
+        schema:familyName            "Inosanto";
+        schema:givenName             "Dan";
         martialis:contributorPerson  <https://martial.is/entity/01KYDB2SWCW3RDJH3GEA666XXB>;
         martialis:contributorRole    "guest" .
 
@@ -57946,7 +57992,8 @@ dcat:mediaType  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZGMHT4PJAW67C6ZBVV6GP7J/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Gaudion, Geoffrey E.";
+        schema:familyName          "Gaudion";
+        schema:givenName           "Geoffrey E.";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M0E9KP2B4WB7PVYXKQ0ECTMF/hasEvidence/0>
@@ -58239,7 +58286,8 @@ dcat:mediaType  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZGNJXBN618X1AMAS7KRNV8Q/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Mardon, Daniel";
+        schema:familyName          "Mardon";
+        schema:givenName           "Daniel";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KYD5XMNMNXZZC2GQVFVRRSMG/photos/0/imageAttribution>
@@ -62441,7 +62489,8 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M00NPBTPWWBSJZRMYXBESJ97/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Martin, Grégory";
+        schema:familyName          "Martin";
+        schema:givenName           "Grégory";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M4R9845WQFHPNSAWNTXQPP5Q/hasEvidence/0>
@@ -62641,7 +62690,8 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZH9CVME98TN7Z21Q83X7MRC/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Estrada, Ernie";
+        schema:familyName          "Estrada";
+        schema:givenName           "Ernie";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SY/nationality/0>
@@ -63447,7 +63497,8 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KYSNKBS1JGV5BBCN1GEXZTHV/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Genois Gagnon, Jean-Michel";
+        schema:familyName          "Genois Gagnon";
+        schema:givenName           "Jean-Michel";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KZRA7SNMKMH1HMMQEAS29X94/birthEvent>
@@ -66747,7 +66798,8 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M764AMRBKABA3TY9FMWVX1A2/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Pranin, Stanley";
+        schema:familyName          "Pranin";
+        schema:givenName           "Stanley";
         martialis:contributorRole  "interviewer" .
 
 <https://martial.is/entity/01M5JGQAC7XV79MRCH8733JRZ4/foundedEvent/hasEvidence/0>
@@ -67165,7 +67217,8 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M01BRGEJQ7ST3P2KZ3EHW0KK/hasContributor/0>
         rdf:type                     martialis:Contributor;
-        schema:name                  "Bluming, Jon";
+        schema:familyName            "Bluming";
+        schema:givenName             "Jon";
         martialis:contributorPerson  <https://martial.is/entity/01M015RNEV8D2DR0J67PC1091F>;
         martialis:contributorRole    "author" .
 
@@ -67727,7 +67780,8 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M7DSJ2Y1499EK1HCPQWKD729/hasContributor/0>
         rdf:type                     martialis:Contributor;
-        schema:name                  "Reinhardt, Michael";
+        schema:familyName            "Reinhardt";
+        schema:givenName             "Michael";
         martialis:contributorPerson  <https://martial.is/entity/01M7DSJ2Y1XGEDT11A5ZCSA2VA>;
         martialis:contributorRole    "author" .
 
@@ -68553,7 +68607,8 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KYYP8SJVBNB6F6QFNFXEX1XG/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Glucina, Goran";
+        schema:familyName          "Glucina";
+        schema:givenName           "Goran";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5GRBVS2BSR3ZC198E2/hasInteraction/0/interactionPeriod>
@@ -69482,7 +69537,8 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M1AGGVACF4GPPF54GDK2MD19/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Svinth, Joseph R.";
+        schema:familyName          "Svinth";
+        schema:givenName           "Joseph R.";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5GFBHTE9EX2WYMZANH/hasInteraction/0/hasEvidence/0>
@@ -69604,7 +69660,8 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M0AJNJHSV6RHCNNKNM0Y1EHT/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Wolf, Tony";
+        schema:familyName          "Wolf";
+        schema:givenName           "Tony";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5G90K1102PWJEW6F5T/hasInteraction/0/hasEvidence/0>
@@ -69632,7 +69689,8 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZ19PZ655B4H0JHY5W803NNR/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Tanzadeh, A.";
+        schema:familyName          "Tanzadeh";
+        schema:givenName           "A.";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TA/nationality/0>
@@ -70962,7 +71020,8 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZGJHHWJDZE5RVTT212FW2FY/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Mardon, Daniel";
+        schema:familyName          "Mardon";
+        schema:givenName           "Daniel";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KZGP69MFN8VH0Y3ZSPBJT6C8/publisher>
@@ -72950,7 +73009,8 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZEXPW6CN7D6FV1PSDJDKCWC/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Swift, Joe";
+        schema:familyName          "Swift";
+        schema:givenName           "Joe";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD7N/deathEvent/deathPlace>
@@ -73099,7 +73159,8 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KY4XTGWDFZB108B7ZN44GSDS/hasContributor/0>
         rdf:type                     martialis:Contributor;
-        schema:name                  "Koizumi, Gunji";
+        schema:familyName            "Koizumi";
+        schema:givenName             "Gunji";
         martialis:contributorPerson  <https://martial.is/entity/01KY52HE48XM1KHDGKBV98YRQ2>;
         martialis:contributorRole    "author" .
 
@@ -75227,7 +75288,8 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KYFWK7746Q9SGZF59MGWST7M/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Carnes, Tony";
+        schema:familyName          "Carnes";
+        schema:givenName           "Tony";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KZEFJ55DYXZHDHV1WXX6MGAX/deathEvent>
@@ -75445,7 +75507,8 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZ1SNKM3BK2XJGBBD3ZZFKVN/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "de Souza, Diogo";
+        schema:familyName          "de Souza";
+        schema:givenName           "Diogo";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5G7S3SD6BH0AMCMV1Q/hasConfidence>
@@ -76245,7 +76308,8 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZKTQXG6D22V0D9A6R5KZXEA/hasContributor/1>
         rdf:type                   martialis:Contributor;
-        schema:name                "Keenan, Bryson";
+        schema:familyName          "Keenan";
+        schema:givenName           "Bryson";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M6BGZPMBYBFW5Z5B1CM5RR0D/hasEvidence/1>
@@ -78678,7 +78742,8 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZH5KBKXH1SZ0CCDVKPM2M31/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Lipinski, Leo";
+        schema:familyName          "Lipinski";
+        schema:givenName           "Leo";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1S6/deathEvent>
@@ -78703,7 +78768,8 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M00414V96M7XZTQJZRZM76S1/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Hoshino, Utsuru";
+        schema:familyName          "Hoshino";
+        schema:givenName           "Utsuru";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5G2ZHDTHQPRSPEF6DM0QDNF/hasConfidence>
@@ -79336,7 +79402,8 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M6C5JZZG2VHX21WNMMF82KTN/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "de' Claire, Jonathan";
+        schema:familyName          "de' Claire";
+        schema:givenName           "Jonathan";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD76/nationality/0>
@@ -79798,7 +79865,8 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZ1TRSW0BZ1JN7JE5PN826PR/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Silva, Gustavo";
+        schema:familyName          "Silva";
+        schema:givenName           "Gustavo";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M0AAFQFZH1EVE7P1TVCPX4BE/hasEvidence/0>
@@ -82218,7 +82286,8 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M6C5JZZGVV24N4ZFNV23BH26/hasContributor/1>
         rdf:type                   martialis:Contributor;
-        schema:name                "Rodrigues, Antonio";
+        schema:familyName          "Rodrigues";
+        schema:givenName           "Antonio";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5GS8FH16D7QVTBG5WX>
@@ -84005,7 +84074,8 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KYSNKBRY7A5R1KTG801VBP5G/hasContributor/0>
         rdf:type                     martialis:Contributor;
-        schema:name                  "St-Pierre, Georges";
+        schema:familyName            "St-Pierre";
+        schema:givenName             "Georges";
         martialis:contributorPerson  <https://martial.is/entity/01KYSNKBS5KSZZQJRZNJ3YXS9Y>;
         martialis:contributorRole    "author" .
 
@@ -87979,7 +88049,8 @@ void:dataDump  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M07HCGJGXD0E7F4NBAK647YY/hasContributor/1>
         rdf:type                   martialis:Contributor;
-        schema:name                "Wolf, Karen";
+        schema:familyName          "Wolf";
+        schema:givenName           "Karen";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5JSGG50423XV4WT85WN3PTG/birthEvent/hasEvidence/0>
@@ -88931,7 +89002,8 @@ void:dataDump  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M040GCQ9N9ZZJAT8Y3WFEDGN/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Corcoran, John";
+        schema:familyName          "Corcoran";
+        schema:givenName           "John";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M0AAFQFHHBXJE31T30Q1WQVM>
@@ -89775,7 +89847,8 @@ void:dataDump  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M6C5JZZGGKZVG5VVNGV0F0HD/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Narimatsu, Curtis";
+        schema:familyName          "Narimatsu";
+        schema:givenName           "Curtis";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5MFZ126633G0X2S0ZREQN2J>
@@ -92609,7 +92682,8 @@ void:dataDump  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M07HCGJGDPR24S4J0JWFFH68/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Callan, Mike";
+        schema:familyName          "Callan";
+        schema:givenName           "Mike";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5GGNNYBTJJX41W7R25/hasInteraction/0/hasEvidence/0>
@@ -93015,7 +93089,8 @@ void:dataDump  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KYSNKBS0977TFFA8VG62AWGJ/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Palmquist, Chris";
+        schema:familyName          "Palmquist";
+        schema:givenName           "Chris";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M6ENVCFA3YJCVEJ05SBX9JG2/hasInteraction/0/hasEvidence/3>
@@ -93404,7 +93479,8 @@ void:dataDump  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZGJHHWJDZE5RVTT212FW2FY/hasContributor/1>
         rdf:type                   martialis:Contributor;
-        schema:name                "Takahashi, Yuko";
+        schema:familyName          "Takahashi";
+        schema:givenName           "Yuko";
         martialis:contributorRole  "editor" .
 
 <https://martial.is/entity/01KYPR30B0C068BEA1FY08VTE0/nationality/0>
@@ -96376,7 +96452,8 @@ void:dataDump  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZGKX1Y10XAX7Y4V6Q4BYEBV/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Granger, Kimberley";
+        schema:familyName          "Granger";
+        schema:givenName           "Kimberley";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5GBYWSM81NBAAC6B6Z>
@@ -96852,7 +96929,8 @@ void:dataDump  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KYZFG5QVKMHWYD7GV9QF40AZ/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Medeiros, José Gomes de";
+        schema:familyName          "Medeiros";
+        schema:givenName           "José Gomes de";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KYD5XMNMNAG3CPC17GKACPW0/deathEvent/hasEvidence/0>
@@ -97237,7 +97315,8 @@ void:dataDump  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M355209N018CY9HSZ1YH4MF4/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Gold, Josh";
+        schema:familyName          "Gold";
+        schema:givenName           "Josh";
         martialis:contributorRole  "interviewer" .
 
 <https://martial.is/entity/01M5JWHXPX7E42GHMD75EYHH9M>
@@ -98706,7 +98785,8 @@ void:dataDump  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZH5KBKXBXT04JW7BSZWXW1R/hasContributor/1>
         rdf:type                   martialis:Contributor;
-        schema:name                "Moyer, Kent";
+        schema:familyName          "Moyer";
+        schema:givenName           "Kent";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5G7Q7564KFQBNY3ZYZ/hasConfidence>
@@ -98906,7 +98986,8 @@ void:dataDump  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KY575NGMBN7J1Q264Y2HTZ17/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Keegan, Simon";
+        schema:familyName          "Keegan";
+        schema:givenName           "Simon";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5JEC1RVSSGEJNRBSCDJTTY7/hasInteraction/0>
@@ -101840,7 +101921,8 @@ dcat:Dataset  rdf:type  owl:Class .
 
 <https://martial.is/entity/01M0A7YYEFVW10TY6Q3N4R61QW/hasContributor/1>
         rdf:type                     martialis:Contributor;
-        schema:name                  "Miyake, Taro";
+        schema:familyName            "Miyake";
+        schema:givenName             "Taro";
         martialis:contributorPerson  <https://martial.is/entity/01M0A7YYEFMKPM42VNW79WTSWR>;
         martialis:contributorRole    "author" .
 
@@ -102082,7 +102164,8 @@ dcat:Dataset  rdf:type  owl:Class .
 
 <https://martial.is/entity/01M6C5JZZGEDZ1Y9BPX0MNM79D/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Tong, Douglas";
+        schema:familyName          "Tong";
+        schema:givenName           "Douglas";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M61PWHY3B4AWZAMYX44W1ZF0>
@@ -102808,7 +102891,8 @@ dcat:Dataset  rdf:type  owl:Class .
 
 <https://martial.is/entity/01KYQB8J2NB5KG4M7GYD1K1T1B/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Ryan, Sean";
+        schema:familyName          "Ryan";
+        schema:givenName           "Sean";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M6C1R005PPBJJK8PRKM1GQ5P/hasConfidence>
@@ -104187,7 +104271,8 @@ dcat:Dataset  rdf:type  owl:Class .
 
 <https://martial.is/entity/01KZF0ZCDK9DCPTX28B2Y50DZZ/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Hutchcroft, John";
+        schema:familyName          "Hutchcroft";
+        schema:givenName           "John";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5HMYWG7Y61ZJWHMZTCKZKYY/hasEvidence/0>
@@ -105600,7 +105685,8 @@ dcat:Dataset  rdf:type  owl:Class .
 
 <https://martial.is/entity/01KYQ4SCN9Q5HSKHJKS6X7P4FE/hasContributor/0>
         rdf:type                     martialis:Contributor;
-        schema:name                  "De Crée, Carl";
+        schema:familyName            "De Crée";
+        schema:givenName             "Carl";
         martialis:contributorPerson  <https://martial.is/entity/01KZXXSBBNFGVZNXMZYH26V3D7>;
         martialis:contributorRole    "author" .
 
@@ -105992,7 +106078,8 @@ dcat:Dataset  rdf:type  owl:Class .
 
 <https://martial.is/entity/01M0A7YYEFNNVJ1W07NHA7XJHG/hasContributor/2>
         rdf:type                   martialis:Contributor;
-        schema:name                "Callan, Mike";
+        schema:familyName          "Callan";
+        schema:givenName           "Mike";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5GKFBTP5MJ0VF4RNJV/hasInteraction/0>
@@ -106375,7 +106462,8 @@ dcat:Dataset  rdf:type  owl:Class .
 
 <https://martial.is/entity/01M5B1JK77RNH0V9HN6YSJ5V4Q/hasContributor/1>
         rdf:type                   martialis:Contributor;
-        schema:name                "Rubio, Kátia";
+        schema:familyName          "Rubio";
+        schema:givenName           "Kátia";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5FWJVE563VV05ZFMYQ/hasConfidence>
@@ -109021,7 +109109,8 @@ dcat:version  rdf:type  owl:DatatypeProperty .
 
 <https://martial.is/entity/01M76BK5Y7ZPYB8W835SEA3Y9Z/hasContributor/1>
         rdf:type                     martialis:Contributor;
-        schema:name                  "Inoue, Noriaki";
+        schema:familyName            "Inoue";
+        schema:givenName             "Noriaki";
         martialis:contributorPerson  <https://martial.is/entity/01M764AMRBDMPEDAS51ZYX4X0R>;
         martialis:contributorRole    "guest" .
 
@@ -109873,7 +109962,8 @@ dcat:version  rdf:type  owl:DatatypeProperty .
 
 <https://martial.is/entity/01KZ0ZT8VB1WFP3JCHDG7TVHTJ/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Toth, Robert";
+        schema:familyName          "Toth";
+        schema:givenName           "Robert";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M0QZ9H4W5FQD8EGQG7V4HYJQ/hasEvidence/0>
@@ -110906,7 +110996,8 @@ dcat:version  rdf:type  owl:DatatypeProperty .
 
 <https://martial.is/entity/01M0A7YYEFVW10TY6Q3N4R61QW/hasContributor/0>
         rdf:type                     martialis:Contributor;
-        schema:name                  "Tani, Yukio";
+        schema:familyName            "Tani";
+        schema:givenName             "Yukio";
         martialis:contributorPerson  <https://martial.is/entity/01M06K0RMZNWJ90EEQ7CXBFHGS>;
         martialis:contributorRole    "author" .
 
@@ -111030,7 +111121,8 @@ dcat:version  rdf:type  owl:DatatypeProperty .
 
 <https://martial.is/entity/01KYN1GSEKP0GSA778N71559KV/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Muller-Junior, Ivo L.";
+        schema:familyName          "Muller-Junior";
+        schema:givenName           "Ivo L.";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KZ6XT5DSFQG9TRGDK9AQFZCW/photos/0/imageAttribution>
@@ -112581,7 +112673,8 @@ dcat:version  rdf:type  owl:DatatypeProperty .
 
 <https://martial.is/entity/01KZF1F5JRWBBFKXGEZQNTJYJ7/hasContributor/1>
         rdf:type                   martialis:Contributor;
-        schema:name                "Vignola, Manuel";
+        schema:familyName          "Vignola";
+        schema:givenName           "Manuel";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M4R7G9S0FH5R4XVBPBNPA7JV>
@@ -112711,7 +112804,8 @@ dcat:version  rdf:type  owl:DatatypeProperty .
 
 <https://martial.is/entity/01KZGNJXBN618X1AMAS7KRNV8Q/hasContributor/1>
         rdf:type                   martialis:Contributor;
-        schema:name                "Takahashi, Yuko";
+        schema:familyName          "Takahashi";
+        schema:givenName           "Yuko";
         martialis:contributorRole  "editor" .
 
 <https://martial.is/entity/01M5G930MNABWTVH5Y4WR93H2B/hasContributor/0>
@@ -113054,7 +113148,8 @@ dcat:version  rdf:type  owl:DatatypeProperty .
 
 <https://martial.is/entity/01KYQNMFB4GTGQW74FXTYZY74T/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Jeffries, Andy";
+        schema:familyName          "Jeffries";
+        schema:givenName           "Andy";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M0TFF0X8V9B107JVWEGQZC7D>
@@ -114131,7 +114226,8 @@ dcat:version  rdf:type  owl:DatatypeProperty .
 
 <https://martial.is/entity/01KYJDMKWDWBJBK07YVKCAQKMW/hasContributor/3>
         rdf:type                   martialis:Contributor;
-        schema:name                "Korobeynikov, Georgiy";
+        schema:familyName          "Korobeynikov";
+        schema:givenName           "Georgiy";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KZ9TV15DAKTA2KEF6NFKDJD3/hasSite/0>
@@ -114799,7 +114895,8 @@ dcat:version  rdf:type  owl:DatatypeProperty .
 
 <https://martial.is/entity/01M6C5JZZG7H6GKWRW49CVXWKE/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Noble, Graham";
+        schema:familyName          "Noble";
+        schema:givenName           "Graham";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M64QW2FNSFWYHS12Q8VAKZKK/publisher>
@@ -118442,7 +118539,8 @@ dcat:version  rdf:type  owl:DatatypeProperty .
 
 <https://martial.is/entity/01M00NPBTPEC1QP41G4FSVJWK7/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Grognet, Jean-Marc";
+        schema:familyName          "Grognet";
+        schema:givenName           "Jean-Marc";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M6ENPY5WK1XCC3WV1QHVN44Z/publisher>
@@ -122215,7 +122313,8 @@ dcat:version  rdf:type  owl:DatatypeProperty .
 
 <https://martial.is/entity/01M2XV9GXHJCJXFBTEFT5ATY7M/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Paz, Edvan Vieira de França";
+        schema:familyName          "Paz";
+        schema:givenName           "Edvan Vieira de França";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WDAD>
@@ -124534,7 +124633,8 @@ dcat:version  rdf:type  owl:DatatypeProperty .
 
 <https://martial.is/entity/01KYJDMKWDWBJBK07YVKCAQKMW/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Podrigalo, Leonid";
+        schema:familyName          "Podrigalo";
+        schema:givenName           "Leonid";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5H3PSF457SXMCD5MVRJGV8A/birthEvent>
@@ -125136,7 +125236,8 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01KZGHWBBT0MWNJ2E9X3Z3JA3Z/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Jahana, Seijin";
+        schema:familyName          "Jahana";
+        schema:givenName           "Seijin";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M69YCGCZF85RGK7FTYFVXKKW>
@@ -126992,7 +127093,8 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01M34T0D16MWY3ZQD5MWRBNTX0/hasContributor/0>
         rdf:type                     martialis:Contributor;
-        schema:name                  "Gueifão, Alexandre";
+        schema:familyName            "Gueifão";
+        schema:givenName             "Alexandre";
         martialis:contributorPerson  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6R>;
         martialis:contributorRole    "author" .
 
@@ -127298,7 +127400,8 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01KZE1G0S8W0KM9MVTE2T2FCSE/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Tran, Dong";
+        schema:familyName          "Tran";
+        schema:givenName           "Dong";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SN/deathEvent/deathPlace>
@@ -127424,7 +127527,8 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01M6C5JZZGQQ6E0DWVC9RYWV8S/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Svinth, Joseph R.";
+        schema:familyName          "Svinth";
+        schema:givenName           "Joseph R.";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5GZ4J3KQNSF5AMF47J/hasInteraction/0/interactionPeriod>
@@ -127438,7 +127542,8 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01KYD5XMNM30T1JM1B8VZ0ZTD9/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Jennings, George";
+        schema:familyName          "Jennings";
+        schema:givenName           "George";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5HPEDHZV1P57H9C4281KBTY/hasInteraction/0>
@@ -130159,7 +130264,8 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01KZ9TQS3VNHWPHTJCAKYNERW6/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Bénoliel, P.";
+        schema:familyName          "Bénoliel";
+        schema:givenName           "P.";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5H43V0TQ5QQR5V65B8D6N9F/hasEvidence/0>
@@ -130301,7 +130407,8 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01M764AMRBKABA3TY9FMWVX1A2/hasContributor/1>
         rdf:type                     martialis:Contributor;
-        schema:name                  "Inoue, Noriaki";
+        schema:familyName            "Inoue";
+        schema:givenName             "Noriaki";
         martialis:contributorPerson  <https://martial.is/entity/01M764AMRBDMPEDAS51ZYX4X0R>;
         martialis:contributorRole    "guest" .
 
@@ -130449,7 +130556,8 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01M08HGZGHR6SZDSZ1QB731B7V/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Noble, Graham";
+        schema:familyName          "Noble";
+        schema:givenName           "Graham";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KZW2JNB8KPAZ0XJ7J66FYMYX/birthEvent/birthPlace>
@@ -131296,7 +131404,8 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01KZF4BJ5E12C1517S2ZMXP8YV/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Fernandez de la Reguera, Roberto";
+        schema:familyName          "Fernandez de la Reguera";
+        schema:givenName           "Roberto";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M37HHSSMHCCXC6HCC66ACNKW>
@@ -131406,7 +131515,8 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01KZF1F5JRRK8YSMSS4RK2CKWF/hasContributor/0>
         rdf:type                     martialis:Contributor;
-        schema:name                  "Iha, Seikichi";
+        schema:familyName            "Iha";
+        schema:givenName             "Seikichi";
         martialis:contributorPerson  <https://martial.is/entity/01KZEERF0MFVCAD71XEHSP8VSH>;
         martialis:contributorRole    "author" .
 
@@ -132064,7 +132174,8 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01M00NPBTPWM75HT58KZQPEYCC/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "McPartland, Terence";
+        schema:familyName          "McPartland";
+        schema:givenName           "Terence";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5JE8TBW3SQS9HYTKQRP291X/hasInteraction/0/hasEvidence/0>
@@ -132270,7 +132381,8 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01M5CD497X4PZQ1HXFVAHQS2SQ/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Maguire, Peter";
+        schema:familyName          "Maguire";
+        schema:givenName           "Peter";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3S8ACAF4AYWPZ1RN7DDFB3Y/publisher>
@@ -132913,7 +133025,8 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01KZHA2591RH73019S4FQ5AWAH/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Goodin, Charles C.";
+        schema:familyName          "Goodin";
+        schema:givenName           "Charles C.";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5G93Q3J3H5ZAJTBKGQ/hasInteraction/0/hasEvidence/0>
@@ -139568,7 +139681,8 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01M6C5JZZGTY23SJ30100D1RMB/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Svinth, Joseph R.";
+        schema:familyName          "Svinth";
+        schema:givenName           "Joseph R.";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9C/foundedEvent>
@@ -140792,7 +140906,8 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01KZH55CZVPF2CADEWKWE5HJ8J/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Motobu, Naoki";
+        schema:familyName          "Motobu";
+        schema:givenName           "Naoki";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5GWA1NN4M8C6ZX3XHW/hasInteraction/0>
@@ -141362,7 +141477,8 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01KYSKCFDX86FB1K5VWGVKQT50/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Enos, Caroline";
+        schema:familyName          "Enos";
+        schema:givenName           "Caroline";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SA/nationality/0>
@@ -142169,7 +142285,8 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01M07HCGJGDPR24S4J0JWFFH68/hasContributor/1>
         rdf:type                   martialis:Contributor;
-        schema:name                "Heffernan, Conor";
+        schema:familyName          "Heffernan";
+        schema:givenName           "Conor";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M6C5JZZG3SZWHA8GMYYP6N5Y>
@@ -143727,7 +143844,8 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01M6C5JZZGT1FVRDVFN56QYT0P/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Noble, Graham";
+        schema:familyName          "Noble";
+        schema:givenName           "Graham";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M69YCGDGJYGQQDMRDEBSSW84/hasInteraction/0>
@@ -145315,7 +145433,8 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01KZXH2NSQ19J367PZE6QM7E63/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Visser, Willem";
+        schema:familyName          "Visser";
+        schema:givenName           "Willem";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5JTMYPE8JAPH10QDNTZA6E9/hasEvidence/0>
@@ -147539,7 +147658,8 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01KZH5KBKXBXT04JW7BSZWXW1R/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Musil, Jaromír";
+        schema:familyName          "Musil";
+        schema:givenName           "Jaromír";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5H668X77R6TZ9MXJQG6DFGD>
@@ -148068,7 +148188,8 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01M1AGGVAC8S6490XE9X3G5Q2C/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Gold, Josh";
+        schema:familyName          "Gold";
+        schema:givenName           "Josh";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5GJHXDW8VF6CHGJ82Y/hasInteraction/0/hasEvidence/1>
@@ -149654,7 +149775,8 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01M5B1JK77RNH0V9HN6YSJ5V4Q/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Nunes, Alexandre Velly";
+        schema:familyName          "Nunes";
+        schema:givenName           "Alexandre Velly";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5H5WE2WR7DK6VCTJHHFYY4G/hasEvidence/0>
@@ -150374,7 +150496,8 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01KZKQ9NBFQX25DZP03H2N491V/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Loukopoulos, Katherine";
+        schema:familyName          "Loukopoulos";
+        schema:givenName           "Katherine";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M64QW2FNNCP9R6G7GBXR9BCC/image/imageAttribution>
@@ -150625,7 +150748,8 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01M6C5JZZG3712KYTG9XNZ3HQM/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Sidney, James";
+        schema:familyName          "Sidney";
+        schema:givenName           "James";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5GDMSP91WTMRN8S73J/hasInteraction/0/hasEvidence/1>
@@ -150702,7 +150826,8 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01KZ1SNKM34TWPGGNHH4PFDETZ/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Williams, Jackson";
+        schema:familyName          "Williams";
+        schema:givenName           "Jackson";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KZQ7BS7KJ444KWAH72XGN2NT/hasEvidence/1>
@@ -152513,7 +152638,8 @@ dcat:Distribution  rdf:type  owl:Class .
 
 <https://martial.is/entity/01M016NFYMSB1G7407F355T5CB/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Smith, Robert W.";
+        schema:familyName          "Smith";
+        schema:givenName           "Robert W.";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1S1/birthEvent/hasEvidence/0>
@@ -154298,7 +154424,8 @@ dcat:Distribution  rdf:type  owl:Class .
 
 <https://martial.is/entity/01M06K0RMZDCSBS7XAVM73B5B6/hasContributor/0>
         rdf:type                     martialis:Contributor;
-        schema:name                  "Garrud, William Herbert";
+        schema:familyName            "Garrud";
+        schema:givenName             "William Herbert";
         martialis:contributorPerson  <https://martial.is/entity/01M06K0RMZQGVPYVTGDGGGQX17>;
         martialis:contributorRole    "author" .
 
@@ -155129,7 +155256,8 @@ dcat:Distribution  rdf:type  owl:Class .
 
 <https://martial.is/entity/01M040GCQ9V8C08G66KAT55V0V/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Warrener, Don";
+        schema:familyName          "Warrener";
+        schema:givenName           "Don";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KYF39J6HSNDTTW9532CVQX6T/hasEvidence/1>
@@ -155550,7 +155678,8 @@ dcat:Distribution  rdf:type  owl:Class .
 
 <https://martial.is/entity/01M0A7YYEFNNVJ1W07NHA7XJHG/hasContributor/1>
         rdf:type                   martialis:Contributor;
-        schema:name                "Bradić, Slaviša";
+        schema:familyName          "Bradić";
+        schema:givenName           "Slaviša";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5GZ98T2Z2GKNV4PERJ/hasInteraction/0/interactionPeriod>
@@ -155791,7 +155920,8 @@ dcat:Distribution  rdf:type  owl:Class .
 
 <https://martial.is/entity/01M2WGNYAW6K10EEMQDG8VYGVG/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Bennett, Alexander C.";
+        schema:familyName          "Bennett";
+        schema:givenName           "Alexander C.";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M6BGKGNV4Q4ZQ20E1N303M38/publisher>
@@ -157449,7 +157579,8 @@ dcat:Distribution  rdf:type  owl:Class .
 
 <https://martial.is/entity/01KZ0Y4CF4PA60ZKMC9YG7ZNQQ/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Trudel, Marc";
+        schema:familyName          "Trudel";
+        schema:givenName           "Marc";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5H4V349M34X1X0V6KVSKVVY/hasInteraction/0>
@@ -161736,7 +161867,8 @@ dcat:Distribution  rdf:type  owl:Class .
 
 <https://martial.is/entity/01KYSNKBRY7A5R1KTG801VBP5G/hasContributor/1>
         rdf:type                   martialis:Contributor;
-        schema:name                "Kingsley, Justin";
+        schema:familyName          "Kingsley";
+        schema:givenName           "Justin";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5GH7N0Z90V2WG0FXRN/hasEvidence/0>
@@ -161993,7 +162125,8 @@ dcat:Distribution  rdf:type  owl:Class .
 
 <https://martial.is/entity/01M040GCQ9T51ZJEM2K713JQ51/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Colasanti, Rob";
+        schema:familyName          "Colasanti";
+        schema:givenName           "Rob";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M61REWPVPP01J60NC95SXX13>
@@ -164659,7 +164792,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01KYJDMKWDWBJBK07YVKCAQKMW/hasContributor/4>
         rdf:type                   martialis:Contributor;
-        schema:name                "Cynarski, Wojciech J.";
+        schema:familyName          "Cynarski";
+        schema:givenName           "Wojciech J.";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5GD8V751H7KY77B618>
@@ -165231,7 +165365,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01KZBJ73N3F4Y4BQM7KH0VK1VH/hasContributor/1>
         rdf:type                   martialis:Contributor;
-        schema:name                "Mochizuki, Éliane";
+        schema:familyName          "Mochizuki";
+        schema:givenName           "Éliane";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5GNHGQWF12F49PQXF2/hasEvidence/0>
@@ -166082,7 +166217,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01M0A7YYEFNNVJ1W07NHA7XJHG/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Brough, David";
+        schema:familyName          "Brough";
+        schema:givenName           "David";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M6EF8Y2KVQSTH0FRX6VQ8112/hasEvidence/0>
@@ -167333,7 +167469,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WDA0/hasContributor/0>
         rdf:type                     martialis:Contributor;
-        schema:name                  "Reinhardt, Michael";
+        schema:familyName            "Reinhardt";
+        schema:givenName             "Michael";
         martialis:contributorPerson  <https://martial.is/entity/01M7DSJ2Y1XGEDT11A5ZCSA2VA>;
         martialis:contributorRole    "author" .
 
@@ -167526,7 +167663,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01M06FKBQ1RSXBWQ0TJCFRB1DX/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Rosa, Vítor";
+        schema:familyName          "Rosa";
+        schema:givenName           "Vítor";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M6A2JTJ2Y27MCTV3G9JDH1NY/hasEvidence/0>
@@ -168920,7 +169058,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01M016NFYMMS7TPPKEWK72GRT2/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "de Brock, Peter";
+        schema:familyName          "de Brock";
+        schema:givenName           "Peter";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5FQXM1834M27WNBW3G>
@@ -173997,7 +174136,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01KYN1GSEKP0GSA778N71559KV/hasContributor/1>
         rdf:type                   martialis:Contributor;
-        schema:name                "Capraro, Andre M.";
+        schema:familyName          "Capraro";
+        schema:givenName           "Andre M.";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5HN449VY9PG3G56Q8XWXPWP/nationality/0>
@@ -174496,7 +174636,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01M040GCQ9QVGJJP6VB3B9G5DJ/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Desaint, Benoit";
+        schema:familyName          "Desaint";
+        schema:givenName           "Benoit";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5GS5TPNA4QKDSR0CN0/hasEvidence/0>
@@ -174762,7 +174903,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01M0A7YYEFNNVJ1W07NHA7XJHG/hasContributor/4>
         rdf:type                   martialis:Contributor;
-        schema:name                "Jones, Llyr";
+        schema:familyName          "Jones";
+        schema:givenName           "Llyr";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5GVAERDSEWR4G64V5D/hasInteraction/0/hasEvidence/1>
@@ -178510,7 +178652,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01KYMDKKCPJKRP5KJ6ES81JY90/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Beish, Jeff";
+        schema:familyName          "Beish";
+        schema:givenName           "Jeff";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5JRHX02ZKJP1DRGR2Q2ZFFD>
@@ -178773,7 +178916,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01M764AMRB4TX3N3P0RNGHN0HB/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Pranin, Stanley";
+        schema:familyName          "Pranin";
+        schema:givenName           "Stanley";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M41JZ0GP45E5H9NF20N81P4A/image/imageAttribution>
@@ -180533,7 +180677,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01KZ0ZT8VBXARS9SW5QQ62SRP9/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Caile, Christopher";
+        schema:familyName          "Caile";
+        schema:givenName           "Christopher";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M31VKGQFQJZTNTNB0MR8RX56/hasEvidence/1>
@@ -181450,7 +181595,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01KZKTQXG6D22V0D9A6R5KZXEA/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Stone, Ben";
+        schema:familyName          "Stone";
+        schema:givenName           "Ben";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5JPY6FN3D2WC32AXDCWK8RD>
@@ -181648,7 +181794,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01M6C5JZZGFC3JVM9PPSCR85EX/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Svinth, Joseph R.";
+        schema:familyName          "Svinth";
+        schema:givenName           "Joseph R.";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3M3T743B01NXEHG1NSBN9NR/publisher>
@@ -182585,7 +182732,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01M7DMYF5PNNPGSSJZRX6T6F74/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Reid, Corey";
+        schema:familyName          "Reid";
+        schema:givenName           "Corey";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M6C18DS7Q44DM2M7YFK1MJQT/hasConfidence>
@@ -183066,7 +183214,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01M06HNX8TX6HGRE945CNA86M9/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Gutiérrez García, Carlos";
+        schema:familyName          "Gutiérrez García";
+        schema:givenName           "Carlos";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M6BGZPMBE2K12P8MYK05SA8J/nationality/0>
@@ -184398,7 +184547,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01M0A7YYEFD28J6QHY95BJ2DW7/hasContributor/0>
         rdf:type                     martialis:Contributor;
-        schema:name                  "Miyake, Taro";
+        schema:familyName            "Miyake";
+        schema:givenName             "Taro";
         martialis:contributorPerson  <https://martial.is/entity/01M0A7YYEFMKPM42VNW79WTSWR>;
         martialis:contributorRole    "author" .
 
@@ -184780,7 +184930,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01M764AMRBG8SN8CCXVWRYZGB6/hasContributor/1>
         rdf:type                     martialis:Contributor;
-        schema:name                  "Inoue, Noriaki";
+        schema:familyName            "Inoue";
+        schema:givenName             "Noriaki";
         martialis:contributorPerson  <https://martial.is/entity/01M764AMRBDMPEDAS51ZYX4X0R>;
         martialis:contributorRole    "guest" .
 
@@ -186690,7 +186841,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01KZF0ZCDK22K38WTXS3634KAH/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Estrada, Ernest";
+        schema:familyName          "Estrada";
+        schema:givenName           "Ernest";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5JRHX02N39W76AX52KVVXVT>
@@ -186883,7 +187035,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01KYJDMKWDWBJBK07YVKCAQKMW/hasContributor/1>
         rdf:type                   martialis:Contributor;
-        schema:name                "Bielec, Grzegorz";
+        schema:familyName          "Bielec";
+        schema:givenName           "Grzegorz";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M6BGKGNVXW0EAFPX7Q18G13G>
@@ -187641,7 +187794,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01KZ0Y4CF4JETJV2B5VSVY8YHZ/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Gottner, Richárd Gábor";
+        schema:familyName          "Gottner";
+        schema:givenName           "Richárd Gábor";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1S5/nationality/0>
@@ -188231,7 +188385,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01KYZ5625KXD72JW0SXPPC68BN/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Aguinaga, Armando";
+        schema:familyName          "Aguinaga";
+        schema:givenName           "Armando";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5H67WXGWSD50MSH0N8H40X8/hasEvidence/0>
@@ -190971,7 +191126,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01M1AGGVACC5KQR3ESXTZ0Q7EQ/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Svinth, Joseph R.";
+        schema:familyName          "Svinth";
+        schema:givenName           "Joseph R.";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5FKJ5JXPPAVYTY05R5/hasConfidence>
@@ -191318,7 +191474,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01M34JZ4B35GG3BPMHTZYX11XP/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Beish, Jeff";
+        schema:familyName          "Beish";
+        schema:givenName           "Jeff";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5HPEDHZX91FKX2YNAAYHEVF/hasInteraction/0/hasEvidence/1>
@@ -192988,7 +193145,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01M06FKBQ1CNG96GF3Q7N5CGT6/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Brough, David";
+        schema:familyName          "Brough";
+        schema:givenName           "David";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5CJ39K8Y7Z8AKWYKXVSPD0T/hasEvidence/0>
@@ -194755,7 +194913,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01M01BRGEBCYBZJWTPVFCWMEZ0/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Ruhe, Bert";
+        schema:familyName          "Ruhe";
+        schema:givenName           "Bert";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5KV9GA7ZGZJJKXJ1CQCSR8G>
@@ -195866,7 +196025,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01KZ1SNKM3P658JK55THPT92RP/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Lindsey, Alex";
+        schema:familyName          "Lindsey";
+        schema:givenName           "Alex";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M0SP452B7ZMKEX4FETRY6M9Q/logo>
@@ -197157,7 +197317,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01KYT5RQK6YDSWN4686J9PTPMF/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Ferro, Ricardo";
+        schema:familyName          "Ferro";
+        schema:givenName           "Ricardo";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KZ45S0STSVVFR5DYGJ23NQF6>
@@ -198241,7 +198402,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01KY52HE4628AVQ4ZKY5J65PD4/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Callan, Mike";
+        schema:familyName          "Callan";
+        schema:givenName           "Mike";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M6ERSPBWSXX4KDVSWKZBWDZT/hasInteraction/0/hasEvidence/1>
@@ -199166,7 +199328,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01M6C7M2TA3ACYBPNPNFBZ2DGH/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Svinth, Joseph R.";
+        schema:familyName          "Svinth";
+        schema:givenName           "Joseph R.";
         martialis:contributorRole  "editor" .
 
 <https://martial.is/entity/01M2Z6TY1PA6YAVJDRS9H9BF2F/hasEvidence/0>
@@ -200387,7 +200550,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01M0B5RHF3RHGWF3VZVRGFMJTP/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Jewell, J. St. A.";
+        schema:familyName          "Jewell";
+        schema:givenName           "J. St. A.";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M63YQ39HAAJV1XF76PSZP3QB/hasInteraction/0/hasEvidence/1>
@@ -201355,7 +201519,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01KZGNJXBNDQ293MDCS5VX95VJ/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Gillan, Mike";
+        schema:familyName          "Gillan";
+        schema:givenName           "Mike";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M6ENPY5W22E726R7YXZ7E24Y/publisher>
@@ -204002,7 +204167,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01M76C6D5C17JB7RSE9SD363NK/hasContributor/1>
         rdf:type                     martialis:Contributor;
-        schema:name                  "Inoue, Noriaki";
+        schema:familyName            "Inoue";
+        schema:givenName             "Noriaki";
         martialis:contributorPerson  <https://martial.is/entity/01M764AMRBDMPEDAS51ZYX4X0R>;
         martialis:contributorRole    "guest" .
 
@@ -204035,7 +204201,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01KZGHWBBT4X64RAEV23YM5AGA/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Motobu, Naoki";
+        schema:familyName          "Motobu";
+        schema:givenName           "Naoki";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M1KR4J6E4JP79JVVG7AQVZF8/hasEvidence/1>
@@ -204647,7 +204814,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01KZ1BZ2EHRAGE49ZRF7TZED1M/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Steinbrecher, Olaf";
+        schema:familyName          "Steinbrecher";
+        schema:givenName           "Olaf";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD8W/foundedEvent>
@@ -205282,7 +205450,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01M07HCGJGDPR24S4J0JWFFH68/hasContributor/2>
         rdf:type                   martialis:Contributor;
-        schema:name                "Spenn, Amanda";
+        schema:familyName          "Spenn";
+        schema:givenName           "Amanda";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KZEE6QMBPPVNW3NNP81JYV3C/birthEvent>
@@ -205566,7 +205735,8 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01M5G2ZHDTYWJQBG589HNEFYWA/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Jacobs, Mark";
+        schema:familyName          "Jacobs";
+        schema:givenName           "Mark";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KZEDXRH5D5APZJW9C5TF5EGW/birthEvent/hasEvidence/1>
@@ -207990,7 +208160,8 @@ void:vocabulary  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KZW2JNB8KPB2JXPMNGCC7021/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Stouwdam, Henk";
+        schema:familyName          "Stouwdam";
+        schema:givenName           "Henk";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5CD497XDE062BHWC0FFKKZD/hasInteraction/0/hasEvidence/2>
@@ -208716,7 +208887,8 @@ void:vocabulary  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01KYSPMS1CH3PQNRT91Q7A62VP/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Sarthou, Gabrielle";
+        schema:familyName          "Sarthou";
+        schema:givenName           "Gabrielle";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KYDB2SWEC7SJWY366NY1APN7/hasEvidence/1>
@@ -211220,7 +211392,8 @@ dcterms:identifier  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01M6BQSYG5G95JWRDX3V4BBGJ4/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Mönig, Udo";
+        schema:familyName          "Mönig";
+        schema:givenName           "Udo";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M5JRHX021DGZJFJVXKVQHKRG/publisher>
@@ -213085,7 +213258,8 @@ dcterms:identifier  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01M00NPBTPK4B6WA568VV9RAP4/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Hoshino, Utsuru";
+        schema:familyName          "Hoshino";
+        schema:givenName           "Utsuru";
         martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01KZSRDXQWKC9HR8T7M5HDGDFJ/foundedEvent>
@@ -213369,7 +213543,8 @@ dcterms:identifier  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01M76C6D5C17JB7RSE9SD363NK/hasContributor/0>
         rdf:type                   martialis:Contributor;
-        schema:name                "Pranin, Stanley";
+        schema:familyName          "Pranin";
+        schema:givenName           "Stanley";
         martialis:contributorRole  "interviewer" .
 
 <https://martial.is/entity/01M5JVVMHM1QXNQ7CWGZ83N672>
