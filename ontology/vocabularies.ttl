@@ -90,7 +90,7 @@ affrel:recognised_by a skos:Concept ;
     skos:topConceptOf <https://w3id.org/martialis/vocab/affiliation-relation> ;
     skos:inScheme <https://w3id.org/martialis/vocab/affiliation-relation> ;
     skos:notation "recognised_by" ;
-    skos:prefLabel "Recognised by"@en , "Reconhecido por"@pt , "Reconocido por"@es , "Reconnu par"@fr , "Anerkannt von"@de , "Hlýtur viðurkenningu frá"@is , "公認"@ja , "认可"@zh ;
+    skos:prefLabel "Recognised by"@en , "Reconhecido por"@pt , "Reconocido por"@es , "Reconnu par"@fr , "Anerkannt von"@de , "Hlýtur viðurkenningu frá"@is , "公認"@ja , "获认可于"@zh ;
     martialis:inverseLabel "Recognises"@en , "Reconhece"@pt , "Reconoce"@es , "Reconnaît"@fr , "Erkennt an"@de , "Viðurkennir"@is , "承認"@ja , "认可"@zh ;
     skos:hiddenLabel "Recognized by"@en ;
     skos:definition "The other organization is a technical or grading authority over this entity, distinct from membership."@en ;
@@ -212,7 +212,7 @@ stylerel:variant_of a skos:Concept ;
     skos:topConceptOf <https://w3id.org/martialis/vocab/style-relation> ;
     skos:inScheme <https://w3id.org/martialis/vocab/style-relation> ;
     skos:notation "variant_of" ;
-    skos:prefLabel "Variant of"@en , "Variante de"@pt , "Variante de"@es , "Variante de"@fr , "Variante von"@de , "Afbrigði af"@is , "亜流"@ja , "属于"@zh ;
+    skos:prefLabel "Variant of"@en , "Variante de"@pt , "Variante de"@es , "Variante de"@fr , "Variante von"@de , "Afbrigði af"@is , "支流"@ja , "支派"@zh ;
     skos:definition "A named school or variant within the same broader style."@en ;
     skos:scopeNote "Practitioners of the child count as practitioners of the parent too; this relation rolls up transitively at export as martialis:variantOf/martialis:hasVariant."@en ;
     skos:example "Shotokan variant_of Karate."@en ;
@@ -236,7 +236,7 @@ teachrole:student a skos:Concept ;
     skos:topConceptOf <https://w3id.org/martialis/vocab/teacher-role> ;
     skos:inScheme <https://w3id.org/martialis/vocab/teacher-role> ;
     skos:notation "student" ;
-    skos:prefLabel "Student"@en , "Estudante"@pt , "Alumno"@es , "Élève"@fr , "Schüler"@de , "Nemandi"@is , "弟子"@ja , "弟子"@zh ;
+    skos:prefLabel "Student"@en , "Aluno"@pt , "Alumno"@es , "Élève"@fr , "Schüler"@de , "Nemandi"@is , "弟子"@ja , "弟子"@zh ;
     skos:definition "An ordinary personal-transmission student relationship."@en ;
     rdfs:seeAlso <https://w3id.org/martialis/ontology#role> .
 
@@ -257,7 +257,7 @@ teachrole:seminar a skos:Concept ;
     skos:topConceptOf <https://w3id.org/martialis/vocab/teacher-role> ;
     skos:inScheme <https://w3id.org/martialis/vocab/teacher-role> ;
     skos:notation "seminar" ;
-    skos:prefLabel "Seminar"@en , "Seminário"@pt , "Seminario"@es , "Stage"@fr , "Seminar"@de , "Námskeið"@is , "セミナー"@ja , "讲习会"@zh ;
+    skos:prefLabel "Seminar"@en , "Seminário"@pt , "Seminario"@es , "Stage"@fr , "Seminar"@de , "Vinnustofa"@is , "セミナー"@ja , "讲习会"@zh ;
     skos:definition "Training limited to seminar-format contact with the teacher."@en ;
     skos:scopeNote "Short of an ongoing personal relationship."@en ;
     rdfs:seeAlso <https://w3id.org/martialis/ontology#role> .
@@ -353,7 +353,7 @@ placeclass:gym a skos:Concept ;
     skos:topConceptOf <https://w3id.org/martialis/vocab/place-classification> ;
     skos:inScheme <https://w3id.org/martialis/vocab/place-classification> ;
     skos:notation "gym" ;
-    skos:prefLabel "Gym"@en , "Ginásio"@pt , "Gimnasio"@es , "Salle de sport"@fr , "Fitnessstudio"@de , "Æfingasalur"@is , "ジム"@ja , "健身房"@zh ;
+    skos:prefLabel "Gym"@en , "Ginásio"@pt , "Gimnasio"@es , "Salle de sport"@fr , "Trainingshalle"@de , "Æfingasalur"@is , "ジム"@ja , "健身房"@zh ;
     skos:definition "A general fitness or combat-sports facility where martial arts are one activity among several."@en ;
     rdfs:seeAlso <https://w3id.org/martialis/ontology#placeType> .
 
@@ -361,7 +361,7 @@ placeclass:military a skos:Concept ;
     skos:topConceptOf <https://w3id.org/martialis/vocab/place-classification> ;
     skos:inScheme <https://w3id.org/martialis/vocab/place-classification> ;
     skos:notation "military" ;
-    skos:prefLabel "Military"@en , "Militar"@pt , "Instalación militar"@es , "Site militaire"@fr , "Militär"@de , "Herstöð"@is , "軍事施設"@ja , "军事机构"@zh ;
+    skos:prefLabel "Military"@en , "Instalação militar"@pt , "Instalación militar"@es , "Site militaire"@fr , "Militäreinrichtung"@de , "Herstöð"@is , "軍事施設"@ja , "军事机构"@zh ;
     skos:definition "A military base, academy, or unit facility."@en ;
     rdfs:seeAlso <https://w3id.org/martialis/ontology#placeType> .
 
@@ -408,7 +408,7 @@ orgclass:federation a skos:Concept ;
     skos:topConceptOf <https://w3id.org/martialis/vocab/org-classification> ;
     skos:inScheme <https://w3id.org/martialis/vocab/org-classification> ;
     skos:notation "federation" ;
-    skos:prefLabel "Federation"@en , "Federação"@pt , "Federación"@es , "Fédération"@fr , "Verband"@de , "Samband"@is , "連盟"@ja , "联盟"@zh ;
+    skos:prefLabel "Federation"@en , "Federação"@pt , "Federación"@es , "Fédération"@fr , "Verband"@de , "Samband"@is , "連盟"@ja , "联合会"@zh ;
     skos:definition "A body federating member clubs or national bodies."@en ;
     rdfs:seeAlso <https://w3id.org/martialis/ontology#orgType> .
 
@@ -416,7 +416,7 @@ orgclass:governing_body a skos:Concept ;
     skos:topConceptOf <https://w3id.org/martialis/vocab/org-classification> ;
     skos:inScheme <https://w3id.org/martialis/vocab/org-classification> ;
     skos:notation "governing_body" ;
-    skos:prefLabel "Governing body"@en , "Entidade reguladora"@pt , "Organismo rector"@es , "Instance dirigeante"@fr , "Dachverband"@de , "Yfirstjórn"@is , "統括団体"@ja , "管理机构"@zh ;
+    skos:prefLabel "Governing body"@en , "Órgão dirigente"@pt , "Organismo rector"@es , "Instance dirigeante"@fr , "Dachverband"@de , "Yfirstjórn"@is , "統括団体"@ja , "管理机构"@zh ;
     skos:definition "A rule-setting or recognition authority."@en ;
     rdfs:seeAlso <https://w3id.org/martialis/ontology#orgType> .
 
@@ -435,7 +435,7 @@ orgclass:school a skos:Concept ;
     skos:topConceptOf <https://w3id.org/martialis/vocab/org-classification> ;
     skos:inScheme <https://w3id.org/martialis/vocab/org-classification> ;
     skos:notation "school" ;
-    skos:prefLabel "School (ryuha)"@en , "Escola"@pt , "Escuela (ryuha)"@es , "École (ryuha)"@fr , "Schule"@de , "Skóli (ryuha)"@is , "流派"@ja , "流派"@zh ;
+    skos:prefLabel "School (ryuha)"@en , "Escola (ryuha)"@pt , "Escuela (ryuha)"@es , "École (ryuha)"@fr , "Schule (Ryūha)"@de , "Skóli (ryuha)"@is , "流派"@ja , "门派"@zh ;
     skos:definition "A martial arts school or ryuha - a named teaching lineage and its institutional continuation."@en ;
     skos:scopeNote "Not a building and not an education institution: Place.classification has a separate 'school' value meaning a secondary or high school."@en ;
     rdfs:seeAlso <https://w3id.org/martialis/ontology#orgType> .
@@ -608,7 +608,7 @@ instrcap:head_instructor a skos:Concept ;
     skos:topConceptOf <https://w3id.org/martialis/vocab/instructor-capacity> ;
     skos:inScheme <https://w3id.org/martialis/vocab/instructor-capacity> ;
     skos:notation "head_instructor" ;
-    skos:prefLabel "Head instructor"@en , "Instrutor-chefe"@pt , "Instructor jefe"@es , "Enseignant principal"@fr , "Hauptausbilder"@de , "Aðalkennari"@is , "主任指導員"@ja , "总教练"@zh ;
+    skos:prefLabel "Head instructor"@en , "Instrutor-chefe"@pt , "Instructor jefe"@es , "Enseignant principal"@fr , "Leitende Lehrkraft"@de , "Aðalkennari"@is , "主任指導員"@ja , "总教练"@zh ;
     skos:altLabel "Chief instructor"@en ;
     skos:definition "The venue's chief instructor."@en ;
     rdfs:seeAlso <https://w3id.org/martialis/ontology#instructorCapacity> .
@@ -617,7 +617,7 @@ instrcap:instructor a skos:Concept ;
     skos:topConceptOf <https://w3id.org/martialis/vocab/instructor-capacity> ;
     skos:inScheme <https://w3id.org/martialis/vocab/instructor-capacity> ;
     skos:notation "instructor" ;
-    skos:prefLabel "Instructor"@en , "Instrutor"@pt , "Instructor"@es , "Enseignant"@fr , "Ausbilder"@de , "Leiðbeinandi"@is , "指導員"@ja , "指导员"@zh ;
+    skos:prefLabel "Instructor"@en , "Instrutor"@pt , "Instructor"@es , "Enseignant"@fr , "Lehrkraft"@de , "Leiðbeinandi"@is , "指導員"@ja , "指导员"@zh ;
     skos:definition "Regular teaching staff."@en ;
     rdfs:seeAlso <https://w3id.org/martialis/ontology#instructorCapacity> .
 
@@ -883,7 +883,7 @@ eventclass:seminar a skos:Concept ;
     skos:topConceptOf <https://w3id.org/martialis/vocab/event-classification> ;
     skos:inScheme <https://w3id.org/martialis/vocab/event-classification> ;
     skos:notation "seminar" ;
-    skos:prefLabel "Seminar"@en , "Seminário"@pt , "Seminario"@es , "Stage"@fr , "Seminar"@de , "Námskeið"@is , "講習会"@ja , "讲习会"@zh ;
+    skos:prefLabel "Seminar"@en , "Seminário"@pt , "Seminario"@es , "Stage"@fr , "Seminar"@de , "Vinnustofa"@is , "講習会"@ja , "讲习会"@zh ;
     skos:altLabel "Workshop"@en , "Oficina"@pt ;
     skos:definition "A short instructional gathering, usually led by a visiting or guest instructor."@en ;
     rdfs:seeAlso <https://w3id.org/martialis/ontology#eventType> .
@@ -892,7 +892,7 @@ eventclass:course a skos:Concept ;
     skos:topConceptOf <https://w3id.org/martialis/vocab/event-classification> ;
     skos:inScheme <https://w3id.org/martialis/vocab/event-classification> ;
     skos:notation "course" ;
-    skos:prefLabel "Course"@en , "Curso"@pt , "Curso"@es , "Formation"@fr , "Kurs"@de , "Námsbraut"@is , "課程"@ja , "课程"@zh ;
+    skos:prefLabel "Course"@en , "Curso"@pt , "Curso"@es , "Formation"@fr , "Kurs"@de , "Námskeið"@is , "課程"@ja , "课程"@zh ;
     skos:definition "A structured instructional programme spanning multiple sessions (a term course, an intensive training course)."@en ;
     rdfs:seeAlso <https://w3id.org/martialis/ontology#eventType> .
 
@@ -908,7 +908,7 @@ eventclass:grading a skos:Concept ;
     skos:topConceptOf <https://w3id.org/martialis/vocab/event-classification> ;
     skos:inScheme <https://w3id.org/martialis/vocab/event-classification> ;
     skos:notation "grading" ;
-    skos:prefLabel "Grading"@en , "Exame de graduação"@pt , "Examen de graduación"@es , "Passage de grade"@fr , "Gürtelprüfung"@de , "Gráðupróf"@is , "昇段審査"@ja , "晋级考核"@zh ;
+    skos:prefLabel "Grading"@en , "Exame de graduação"@pt , "Examen de graduación"@es , "Passage de grade"@fr , "Graduierungsprüfung"@de , "Gráðupróf"@is , "昇段審査"@ja , "晋级考核"@zh ;
     skos:altLabel "Promotion"@en , "Promoção"@pt ;
     skos:definition "A rank examination or promotion event."@en ;
     rdfs:seeAlso <https://w3id.org/martialis/ontology#eventType> .
@@ -973,8 +973,8 @@ eventrole:official a skos:Concept ;
     skos:topConceptOf <https://w3id.org/martialis/vocab/event-role> ;
     skos:inScheme <https://w3id.org/martialis/vocab/event-role> ;
     skos:notation "official" ;
-    skos:prefLabel "Official"@en , "Oficial"@pt , "Árbitro"@es , "Arbitre"@fr , "Kampfrichter"@de , "Dómari"@is , "審判"@ja , "裁判"@zh ;
-    skos:altLabel "Referee"@en , "Judge"@en , "Árbitro"@pt , "Juiz"@pt ;
+    skos:prefLabel "Official"@en , "Árbitro"@pt , "Árbitro"@es , "Arbitre"@fr , "Kampfrichter"@de , "Dómari"@is , "審判"@ja , "裁判"@zh ;
+    skos:altLabel "Referee"@en , "Judge"@en , "Juiz"@pt ;
     skos:definition "A person officiating the event: a referee, judge, or similar adjudicating role."@en ;
     rdfs:seeAlso <https://w3id.org/martialis/ontology#participationRole> .
 
@@ -1006,7 +1006,7 @@ eventrole:instructor a skos:Concept ;
     skos:topConceptOf <https://w3id.org/martialis/vocab/event-role> ;
     skos:inScheme <https://w3id.org/martialis/vocab/event-role> ;
     skos:notation "instructor" ;
-    skos:prefLabel "Instructor"@en , "Instrutor"@pt , "Instructor"@es , "Enseignant"@fr , "Lehrer"@de , "Leiðbeinandi"@is , "指導者"@ja , "教练"@zh ;
+    skos:prefLabel "Instructor"@en , "Instrutor"@pt , "Instructor"@es , "Enseignant"@fr , "Lehrkraft"@de , "Leiðbeinandi"@is , "指導者"@ja , "指导员"@zh ;
     skos:definition "A person teaching at the event: the instructor of a course or seminar."@en ;
     rdfs:seeAlso <https://w3id.org/martialis/ontology#participationRole> .
 
@@ -1442,7 +1442,7 @@ ranktype:dan_unspecified a skos:Concept ;
     skos:topConceptOf <https://w3id.org/martialis/vocab/rank-type> ;
     skos:inScheme <https://w3id.org/martialis/vocab/rank-type> ;
     skos:notation "dan_unspecified" ;
-    skos:prefLabel "Black Belt"@en , "Faixa preta"@pt , "Cinturón negro"@es , "Ceinture noire"@fr , "Danträger"@de , "Svart belti"@is , "有段者"@ja , "有段者"@zh ;
+    skos:prefLabel "Black Belt"@en , "Cinto negro"@pt , "Cinturón negro"@es , "Ceinture noire"@fr , "Danträger"@de , "Svart belti"@is , "有段者"@ja , "有段者"@zh ;
     skos:altLabel "Yudansha"@en , "Yūdansha"@en ;
     skos:definition "Holds a dan-level grade in a numbered RankingSystem, but the source does not state which specific degree."@en ;
     skos:scopeNote "A distinct, verified idiom in every project locale, not a formula composed from 'dan' plus a missing number: Japanese 有段者 (yūdansha), Chinese 有段者 (yǒuduànzhě), German Danträger, Portuguese faixa preta, English 'black belt'. rankOrdinal stays absent whenever this value is used."@en ;
@@ -1671,7 +1671,7 @@ rankgrade:ussc_master a skos:Concept ;
 rankgrade:ussc_master_international a skos:Concept ;
     skos:inScheme <https://w3id.org/martialis/vocab/rank-grade/unified-sports-classification> ;
     skos:notation "ussc_master_international" ; martialis:gradeOrdinal 6 ;
-    skos:prefLabel "Master of Sport, International Class"@en , "Mestre do Desporto Internacional"@pt , "Maestro del Deporte de clase internacional"@es , "Maître des sports de classe internationale"@fr , "Meister des Sports, internationale Klasse"@de , "Meistari í íþróttum, alþjóðaflokkur"@is , "国際級スポーツマスター"@ja , "国际级运动健将"@zh ;
+    skos:prefLabel "Master of Sport, International Class"@en , "Mestre do Desporto de Classe Internacional"@pt , "Maestro del Deporte de clase internacional"@es , "Maître des sports de classe internationale"@fr , "Meister des Sports, internationale Klasse"@de , "Meistari í íþróttum, alþjóðaflokkur"@is , "国際級スポーツマスター"@ja , "国际级运动健将"@zh ;
     skos:altLabel "International Master of Sport"@en ;
     skos:definition "The tier above Master of Sport, for international-level results."@en .
 
@@ -1739,7 +1739,7 @@ mediarights:public_domain_mark a skos:Concept ;
     skos:topConceptOf <https://w3id.org/martialis/vocab/media-rights> ;
     skos:inScheme <https://w3id.org/martialis/vocab/media-rights> ;
     skos:notation "public_domain_mark" ;
-    skos:prefLabel "Public Domain"@en , "Domínio Público"@pt , "Dominio público"@es , "Domaine public"@fr , "Gemeinfrei"@de , "Almenningseign"@is , "パブリックドメイン"@ja , "公有领域"@zh ;
+    skos:prefLabel "Public Domain"@en , "Domínio público"@pt , "Dominio público"@es , "Domaine public"@fr , "Gemeinfrei"@de , "Almenningseign"@is , "パブリックドメイン"@ja , "公有领域"@zh ;
     skos:altLabel "Public Domain Mark"@en , "Marca de Domínio Público"@pt , "Marca de Dominio Público"@es , "Marque du domaine public"@fr , "Public-Domain-Markierung"@de , "Merki um almenning"@is , "パブリックドメインマーク"@ja , "公共领域标志"@zh ;
     skos:definition "The work is identified as being free of known copyright restrictions."@en ;
     skos:scopeNote "A labelling mark, not a licence: it asserts no rights were found, not that any were waived."@en ;
@@ -1874,7 +1874,7 @@ mediarights:attribution a skos:Concept ;
     skos:topConceptOf <https://w3id.org/martialis/vocab/media-rights> ;
     skos:inScheme <https://w3id.org/martialis/vocab/media-rights> ;
     skos:notation "attribution" ;
-    skos:prefLabel "Attribution"@en , "Atribuição"@pt , "Atribución"@es , "Attribution"@fr , "Namensnennung"@de , "Tilvísun"@is , "帰属表示"@ja , "署名"@zh ;
+    skos:prefLabel "Attribution"@en , "Atribuição"@pt , "Atribución"@es , "Attribution"@fr , "Namensnennung"@de , "Höfundargeting"@is , "クレジット表示"@ja , "署名"@zh ;
     skos:definition "Reuse for any purpose is permitted, provided the copyright holder is credited."@en ;
     skos:scopeNote "A free licence that is not a Creative Commons licence, as Wikimedia Commons' Attribution template states it."@en ;
     rdfs:seeAlso <https://commons.wikimedia.org/wiki/Template:Attribution> , <https://w3id.org/martialis/ontology#mediaRights> .
@@ -1883,7 +1883,7 @@ mediarights:in_copyright a skos:Concept ;
     skos:topConceptOf <https://w3id.org/martialis/vocab/media-rights> ;
     skos:inScheme <https://w3id.org/martialis/vocab/media-rights> ;
     skos:notation "in_copyright" ;
-    skos:prefLabel "In Copyright"@en , "Sob Direitos de Autor"@pt , "Protegido por derechos de autor"@es , "Protégé par le droit d’auteur"@fr , "Urheberrechtlich geschützt"@de , "Höfundarréttarvarið"@is , "著作権あり"@ja , "有版权"@zh ;
+    skos:prefLabel "In Copyright"@en , "Protegido por direitos de autor"@pt , "Protegido por derechos de autor"@es , "Protégé par le droit d’auteur"@fr , "Urheberrechtlich geschützt"@de , "Höfundarréttarvarið"@is , "著作権あり"@ja , "有版权"@zh ;
     skos:definition "The work is (or is presumed to be) protected by copyright, with no licence granted to reuse it."@en ;
     skos:exactMatch <http://rightsstatements.org/vocab/InC/1.0/> ;
     rdfs:seeAlso <https://w3id.org/martialis/ontology#mediaRights> .
@@ -1892,7 +1892,7 @@ mediarights:no_known_copyright a skos:Concept ;
     skos:topConceptOf <https://w3id.org/martialis/vocab/media-rights> ;
     skos:inScheme <https://w3id.org/martialis/vocab/media-rights> ;
     skos:notation "no_known_copyright" ;
-    skos:prefLabel "No Known Copyright"@en , "Sem Direitos de Autor Conhecidos"@pt , "Sin derechos de autor conocidos"@es , "Aucun droit d’auteur connu"@fr , "Keine bekannten Urheberrechte"@de , "Enginn þekktur höfundarréttur"@is , "既知の著作権なし"@ja , "无已知版权"@zh ;
+    skos:prefLabel "No Known Copyright"@en , "Sem direitos de autor conhecidos"@pt , "Sin derechos de autor conocidos"@es , "Aucun droit d’auteur connu"@fr , "Keine bekannten Urheberrechte"@de , "Enginn þekktur höfundarréttur"@is , "既知の著作権なし"@ja , "无已知版权"@zh ;
     skos:definition "A reasonable investigation found no evidence of copyright restrictions, short of a formal public-domain determination."@en ;
     skos:exactMatch <http://rightsstatements.org/vocab/NKC/1.0/> ;
     rdfs:seeAlso <https://w3id.org/martialis/ontology#mediaRights> .
@@ -1901,7 +1901,7 @@ mediarights:copyright_undetermined a skos:Concept ;
     skos:topConceptOf <https://w3id.org/martialis/vocab/media-rights> ;
     skos:inScheme <https://w3id.org/martialis/vocab/media-rights> ;
     skos:notation "copyright_undetermined" ;
-    skos:prefLabel "Copyright Undetermined"@en , "Direitos de Autor Indeterminados"@pt , "Derechos de autor indeterminados"@es , "Droits d’auteur indéterminés"@fr , "Urheberrecht ungeklärt"@de , "Höfundarréttur óljós"@is , "著作権不明"@ja , "版权未定"@zh ;
+    skos:prefLabel "Copyright Undetermined"@en , "Direitos de autor por determinar"@pt , "Derechos de autor indeterminados"@es , "Droits d’auteur indéterminés"@fr , "Urheberrecht ungeklärt"@de , "Höfundarréttur óljós"@is , "著作権不明"@ja , "版权未定"@zh ;
     skos:definition "The copyright status was investigated and could not be established."@en ;
     skos:scopeNote "Distinct from the absence of a value: this records that the question was asked and stayed unresolved, not merely unasked."@en ;
     skos:exactMatch <http://rightsstatements.org/vocab/UND/1.0/> ;
