@@ -75,7 +75,9 @@ venues.
   special category of data (GDPR Art. 9).
 - **Rights**: rectification (Art. 16) and objection (Art. 21). Request via
   the [issue tracker](https://github.com/Martial-IS/martialis-db/issues) or
-  by email to the maker. Requests are honoured without argument.
+  by email to sup@martial.is, the address in the
+  [privacy policy](https://martial.is/privacy). Requests are honoured
+  without argument.
 - **Erasure**: applies to the current database and every release from that
   point forward. It does not alter git history already published or prior
   releases already distributed.
@@ -121,7 +123,8 @@ To refer to the database itself, without reusing its records, use
 https://martial.is in place of the record's URI.
 
 Citing a release in academic work is a separate practice: use its version DOI.
-For content the maker owns, contact the maker for terms this licence does not give.
+For content the maker owns, contact the maker at martialis@martial.is for terms this licence does
+not give.
 
 ## Text and data mining
 
@@ -146,7 +149,7 @@ removes only the statutory route around those conditions.
 - **The Vocabulary tier is not reserved.** It is CC0-1.0.
 
 For content the maker owns, if you mine the Database tier outside the CC-BY-SA-4.0
-terms, contact the maker.
+terms, contact the maker at martialis@martial.is.
 
 ## The five tiers
 
@@ -204,7 +207,7 @@ from the export without affecting anything else.
 
 A rightsholder who objects to a quotation can say so through the
 [issue tracker](https://github.com/Martial-IS/martialis-db/issues) or by email
-to the maker. Each request is assessed. If a quotation is removed, the claim and
+to martialis@martial.is. Each request is assessed. If a quotation is removed, the claim and
 its citation stay. Removal applies to the current database and every release from
 that point forward. It does not alter git history already published or prior
 releases already distributed.

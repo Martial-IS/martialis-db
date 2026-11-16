@@ -67,8 +67,8 @@ of their name. These are discretionary and handled case by case.
 
 Both are separate from your rights over personal data (rectification, objection, erasure), which
 are described in the [privacy policy](https://martial.is/privacy#database). Open an Issue for such a
-request: it keeps the request and its answer public, like the database. If you prefer, email the
-address given in the privacy policy instead.
+request: it keeps the request and its answer public, like the database. If you prefer, email
+sup@martial.is, the address given in the privacy policy, instead.
 
 
 ## How to contribute
@@ -98,7 +98,7 @@ that dedication: they stay with their rightsholders. The database itself stays C
 [LICENSING.md](LICENSING.md#inbound-licensing).
 
 For a substantial donation (a whole researched lineage, scans, photographs), contact the maintainer
-to arrange a short individual agreement.
+at martialis@martial.is to arrange a short individual agreement.
 
 Disagreements are settled through the debate in Discussions; when consensus fails, the project lead
 decides and states the reasoning.
