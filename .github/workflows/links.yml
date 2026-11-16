@@ -1,0 +1,55 @@
+name: Check links
+
+# Dead-link monitoring, in its own workflow so its result never colours the
+# validate badge. Slow and network-dependent, so it runs weekly (or on demand)
+# and never on a push: a dead external URL must not block a data change, but
+# it must not go unnoticed either. A failing run is the signal;
+# link-report.json is the detail.
+on:
+  schedule:
+    - cron: '17 6 * * 1'
+  workflow_dispatch:
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v7
+
+    # links depends on rdf, so Jena runs here too; the runner's default JDK
+    # (17) is older than Jena needs.
+    - name: Set up Java
+      uses: actions/setup-java@v6
+      with:
+        distribution: temurin
+        java-version: '21'
+
+    # Tool versions are pinned in the Makefile, so its hash is the cache key:
+    # a version bump refreshes the cache, and a hit skips the downloads.
+    - name: Cache tools
+      id: tools
+      uses: actions/cache@v6
+      with:
+        path: tools
+        key: martialis-tools-${{ hashFiles('Makefile') }}
+
+    - name: Install tools
+      if: steps.tools.outputs.cache-hit != 'true'
+      run: make tools
+
+    # make links fails loudly if the query returns no URLs, if lychee is
+    # missing, or if lychee finds dead links - it will not report an empty
+    # check as a clean one.
+    - name: Check external links
+      run: make links
+
+    - name: Upload link report
+      if: always()
+      uses: actions/upload-artifact@v7
+      with:
+        name: link-report
+        path: export/link-report.json
+        if-no-files-found: ignore

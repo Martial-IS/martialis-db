@@ -859,7 +859,11 @@ links: rdf
 	@# categories still swamp the real 404s, `--accept '200..=299,403,429'` makes
 	@# the exit status mean "dead links only", at the cost of those two
 	@# categories no longer appearing in the report.
+	@# Wikimedia throttles generic clients: without a descriptive user agent and
+	@# per-host pacing, every upload.wikimedia.org URL comes back 429.
 	@$(LYCHEE) export/urls.txt --suggest --no-progress --max-retries 3 --retry-wait-time 2 \
+	  --user-agent 'martialis-db-linkcheck (+https://martial.is)' \
+	  --host-concurrency 2 --host-request-interval 1s \
 	  --format json --output export/link-report.json
 
 ## Delete the generated report files under export/.
