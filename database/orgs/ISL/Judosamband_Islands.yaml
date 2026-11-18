@@ -1,0 +1,147 @@
+type: Organization
+id: 01M7PYA3HB1Q04SZ8MHZRA8X4C
+name:
+  is: Júdósamband Íslands
+aka:
+  en:
+    - Judo Federation of Iceland
+    - National Judo Federation of Iceland
+  is:
+    - JSÍ
+    - Judosamband Íslands
+orgType: orgclass:federation
+hasSite:
+  - location:
+      label: Reykjavík
+      countryCode: eucountry:ISL
+      wikidata: wd:Q1764
+    address: Engjavegi 6, 104 Reykjavík
+foundedEvent:
+  startDate: '1973-01-28'
+  hasEvidence:
+    - basedOnSource: 01M7Q9A0QMC2TQSZ65AHH2WA4A
+      locator: '34'
+      locatorLabel: page
+      quotation: >-
+        Fyrsta stjórn Júdósambands var kosin á stofnþingi sambandsins sem fór
+        fram þann 28. janúar 1973
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M7PYA3HB383NCABD11VFK0Y8
+      quotation: Sérsamband júdóíþróttarinnar á Íslandi. Stofnað 1973.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M7PYA3HB2NZPC5C1Z4AV2JF0
+    relatedOrganization: 01KJJAWN29MA64W22606R3WD83
+    affiliationRelation: affrel:member_of
+    validDuring:
+      startYear: 1973
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Listed on the IJF's own member-federation pages. Búason (2012, p. 40)
+        has JSÍ a member of both the European and the international body in
+        its first year, 1973.
+    hasEvidence:
+      - basedOnSource: 01M7PYA3HB6FP90E5JGD0Y874V
+        quotation: Judo Federation of Iceland A member of European Judo Union
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7Q9A0QMC2TQSZ65AHH2WA4A
+        locator: '40'
+        locatorLabel: page
+        quotation: >-
+          Þar sem JSÍ var á þessum tíma orðið aðili að tveimur alþjóðlegum
+          júdósamböndum, hinu evrópska og því alþjóðlega, voru gráðanir JSÍ
+          samþykktar á alþjóðavettvangi.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M7PYA3HBR24PR9T0TWSYA9V6
+    relatedOrganization: 01KZ45S0STZS9WKJ0JC5PPD8KP
+    affiliationRelation: affrel:member_of
+    validDuring:
+      startYear: 1973
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The EJU's own member-federation page and the IJF member page both
+        state it. Búason (2012, p. 40) has JSÍ a member of both the European
+        and the international body in its first year, 1973.
+    hasEvidence:
+      - basedOnSource: 01M7Q9A0QMC2TQSZ65AHH2WA4A
+        locator: '40'
+        locatorLabel: page
+        quotation: >-
+          Þar sem JSÍ var á þessum tíma orðið aðili að tveimur alþjóðlegum
+          júdósamböndum, hinu evrópska og því alþjóðlega, voru gráðanir JSÍ
+          samþykktar á alþjóðavettvangi.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7PYA3HBR192GHEWZM7210QY
+        quotation: National Judo Federation of Iceland — EJU Member Federation
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7PYA3HB6FP90E5JGD0Y874V
+        quotation: Judo Federation of Iceland A member of European Judo Union
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M7Q9PPT7477AJQNX0WHDXVQ2
+    officer: 01M7Q9PPT7XYF6KGR9DG4EHB8Q
+    officerTitle: Vice-chairman
+    officerPeriod:
+      startYear: 1973
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Búason (2012, p. 34) names him vice-chairman (varaformaður) of the
+        first board, elected at the founding congress, from JSÍ's own
+        records. Single secondary source; end of term not given.
+    hasEvidence:
+      - basedOnSource: 01M7Q9A0QMC2TQSZ65AHH2WA4A
+        locator: '34'
+        locatorLabel: page
+        quotation: >-
+          Fyrsta stjórnin leit svona út: Eysteinn Þorvaldsson var kosinn
+          formaður, Sigurður H. Jóhannsson varaformaður
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+website: https://jsi.is/
+logo:
+  contentUrl: https://jsi.is/wp-content/themes/jsi-theme/assets/img/jsi-logo.png
+  imageAttribution:
+    uri: https://jsi.is/
+    cite: Júdósamband Íslands
+description:
+  en: >-
+    National judo federation of Iceland, founded in 1973, a member of the
+    International Judo Federation and the European Judo Union.
+notes: >-
+  The IJF page names Gisli Egilson as president and Bjarni Fridriksson as
+  technical director; the EJU page lists the board. Búason (2012, p. 34)
+  names the first board: Eysteinn Þorvaldsson chairman, Sigurður H.
+  Jóhannsson vice-chairman.
+hasEvidence:
+  - basedOnSource: 01M7PYA3HB6FP90E5JGD0Y874V
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M7PYA3HB383NCABD11VFK0Y8
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - federation

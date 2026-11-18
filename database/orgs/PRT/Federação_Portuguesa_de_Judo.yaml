@@ -26,29 +26,78 @@ hasAffiliationAssertion:
     relatedOrganization: 01KJJAWN29MA64W22606R3WD83
     affiliationRelation: affrel:member_of
     validDuring:
-      startYear: 1959
+      startYear: 1961
     hasConfidence:
-      confidenceLevel: conflevel:probable
+      confidenceLevel: conflevel:confirmed
       assessedBy: agent:FSM
-      confidenceRationale: The FPJ's Wikidata entry lists the International Judo Federation among its memberships (P463), and the EJU statutes hold that national judo federations are members of both their continental union and the IJF
+      confidenceRationale: >-
+        The IJF's own member page and the FPJ's presentation state the
+        membership. No source dates the admission: 1961 is the year of EJU
+        membership, and the FPJ manual has the federation at the IJF Congress
+        in Paris in December 1961.
     hasEvidence:
-      - basedOnSource: 01KZ45S0ST2FTM98AH1ZYFMG0R
-        quotation: The organisation of the administration of Judo is based on a pyramid system of regulations, with the IJF the world governing body, the EJU the European governing body, and national Judo associations the governing bodies at domestic level.
-        informationType: infotype:secondary
+      - basedOnSource: 01M7Q68J4QZP3BFNWXZHTB3TWZ
+        quotation: Portuguese Judo Federation A member of European Judo Union
+        informationType: infotype:primary
         supports: true
         evidenceType: evidencetype:direct
+      - basedOnSource: 01M7Q68J4Q5V31XWZV7JPEJ3RK
+        quotation: >-
+          Filiada na União Europeia de Judo e na Federação Internacional de
+          Judo, goza de elevado prestígio nacional e internacional.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KJJAWN29MA64W22606R3WDAJ
+        locator: '10'
+        locatorLabel: page
+        quotation: >-
+          Nesse mesmo ano, em maio, Portugal participa pela primeira vez nos
+          Campeonatos da Europa e, em dezembro, nos primeiros Campeonatos do
+          Mundo e no Congresso da Federação Internacional de Judo, em Paris,
+          representada por Edmundo Pires e Carlos Madueno Saraiva.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
   - id: 01M3YH7N5F6N87P0GM01X6CKG5
     relatedOrganization: 01KZ45S0STZS9WKJ0JC5PPD8KP
     affiliationRelation: affrel:member_of
     validDuring:
-      startYear: 1959
+      startYear: 1961
     hasConfidence:
-      confidenceLevel: conflevel:probable
+      confidenceLevel: conflevel:confirmed
       assessedBy: agent:FSM
-      confidenceRationale: The FPJ's Wikidata entry lists the European Judo Union among its memberships (P463), and the EJU Wikipedia article lists the Portuguese Judo Federation among its 51 member federations
+      confidenceRationale: >-
+        The EJU's own member page, the IJF member page and the FPJ's
+        presentation state the membership. The FPJ manual and the judolandia
+        history both date full membership to 1961, after the application was
+        accepted at an EJU Congress (Amsterdam, 1960, per judolandia).
     hasEvidence:
-      - basedOnSource: 01KZ45S0ST2FTM98AH1ZYFMG0R
-        quotation: The European Judo Union comprises 51 national judo federations or associations recognized by their respective National Olympic Committees.
+      - basedOnSource: 01M7Q68J4Q5P2SZKJK9W02V5YV
+        quotation: National Judo Federation of Portugal — EJU Member Federation
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7Q68J4QZP3BFNWXZHTB3TWZ
+        quotation: Portuguese Judo Federation A member of European Judo Union
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KJJAWN29MA64W22606R3WDAJ
+        locator: '10'
+        locatorLabel: page
+        quotation: >-
+          Assim no Congresso da União Europeia, o pedido de filiação da
+          Federação Portuguesa de Judo é aceite, tornando-se membro efetivo em
+          1961.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KJJAWN29MA64W22606R3WDA9
+        quotation: >-
+          Assim, no Congresso da União Europeia de Amesterdão (1960), o pedido
+          de filiação da F.P.J. é aceite, tornando-se membro efectivo da U.E.J.
+          em 1961.
         informationType: infotype:secondary
         supports: true
         evidenceType: evidencetype:direct

@@ -51,6 +51,31 @@ hasAffiliationAssertion:
         informationType: infotype:secondary
         supports: true
         evidenceType: evidencetype:direct
+  - id: 01M7Q2SSTBABWH5Y7SN7V3CN85
+    relatedOrganization: 01M7Q2SSTB6XWX5ZP41RRKRGY0
+    affiliationRelation: affrel:member_of
+    validDuring:
+      startYear: 1956
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The IJF's own member page names the Judo Union of Asia as the AJJF's
+        continental union. The JUA's history names Japan among its seven
+        founding members in 1956; the AJJF was then Japan's federation.
+    hasEvidence:
+      - basedOnSource: 01M7Q2SSTB200C717ZW6ECTSWF
+        quotation: All Japan Judo Federation A member of Judo Union of Asia
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7Q2SSTBH26EBFH3C8NT0ZRD
+        quotation: >-
+          Chinese Taipei, Cambodia, Indonesia, Japan, Korea, Philippines and
+          Thailand were the Founding Members of JUA.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:indirect
 hasOfficerRole:
   - id: 01M4R9845WZZ66KQRWVTY1ZK4Z
     officer: 01KZY2QD14ZXN3V8ACHVPGGMGH

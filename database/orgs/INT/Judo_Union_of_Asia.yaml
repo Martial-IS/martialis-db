@@ -1,0 +1,112 @@
+type: Organization
+id: 01M7Q2SSTB6XWX5ZP41RRKRGY0
+name:
+  en: Judo Union of Asia
+aka:
+  en: JUA
+orgType: orgclass:federation
+hasSite:
+  - location:
+      label: Kuwait
+      countryCode: eucountry:KWT
+    hasEvidence:
+      - basedOnSource: 01M7Q2SSTB9CG7CBCYVACKM9AV
+        quotation: JUA has headquarters in Kuwait and consists of 39 member federations.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1956'
+  location:
+    label: Tokyo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1490
+  hasEvidence:
+    - basedOnSource: 01M7Q2SSTBH26EBFH3C8NT0ZRD
+      quotation: >-
+        Judo Union of Asia came into existence in the year 1956 with 7
+        National Judo Federations as its members.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M7Q2SSTB9CG7CBCYVACKM9AV
+      quotation: >-
+        JUA was formed in 1956 in Tokyo (Japan), with Chinese Taipei, Cambodia,
+        Indonesia, Japan, South Korea, Philippines and Thailand being the
+        founder members.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M7Q2SSTBYSDARZ2ZZCCEBM1M
+    relatedOrganization: 01KJJAWN29MA64W22606R3WD83
+    affiliationRelation: affrel:branch_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The IJF's own members section lists it among its five continental
+        unions, with its member federations. No date of recognition given.
+    hasEvidence:
+      - basedOnSource: 01M7Q46ZRYYTTR8HC1FRZEVXFG
+        quotation: Africa - AJU Asia - JUA Europe - EJU Oceania - OJU Panamerica - PJC
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M7Q2SSTBWYK759SVCMY2XH5A
+    officer: 01KZY2QD14ZXN3V8ACHVPGGMGH
+    officerTitle: President
+    officerPeriod:
+      startYear: 1956
+      endYear: 1980
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The JUA's own history names Risei Kano as first president and dates
+        his resignation to 1980; English Wikipedia gives the same years.
+    hasEvidence:
+      - basedOnSource: 01M7Q2SSTBH26EBFH3C8NT0ZRD
+        quotation: >-
+          The first President of JUA was Mr. Risei Kano, son of Prof. Jigoro
+          Kano, the father of modern Judo. [...] The year 1980 brought a
+          significant change in the management of JUA, as Mr. Risei Kano
+          resigned from JUA Presidency
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7Q2SSTB9CG7CBCYVACKM9AV
+        quotation: Risei Kano served as President of the JUA from 1956 to 1980.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+website: https://onlinejua.org/
+logo:
+  contentUrl: https://onlinejua.org/wp-content/uploads/2025/04/s7.jpg
+  imageAttribution:
+    uri: https://onlinejua.org/
+    cite: Judo Union of Asia
+description:
+  en: >-
+    Continental judo union of Asia, a constituent union of the International
+    Judo Federation, formed in Tokyo in 1956 by seven national federations,
+    with its headquarters in Kuwait.
+notes: >-
+  Wikidata gives an inception of 1904 for this item, which contradicts both
+  sources. Yukimitsu Kano was president 1980-1995 per the JUA history; he
+  has no Person record.
+hasEvidence:
+  - basedOnSource: 01M7Q2SSTBH26EBFH3C8NT0ZRD
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M7Q2SSTB9CG7CBCYVACKM9AV
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3810998
+tags:
+  - judo
+  - federation

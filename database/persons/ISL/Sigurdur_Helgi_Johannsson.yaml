@@ -1,0 +1,105 @@
+type: Person
+id: 01M7Q9PPT7XYF6KGR9DG4EHB8Q
+name:
+  is: Sigurður Helgi Jóhannsson
+aka:
+  is: Sigurður H. Jóhannsson
+nationality:
+  - countryCode: eucountry:ISL
+    wikidata: wd:Q189
+description:
+  en: >-
+    Pioneer of judo in Iceland. He proposed that the Ármann boxing section
+    take up judo after the 1956 boxing ban, taught there from 1958,
+    co-founded Judokwai (later Judofélag Reykjavíkur) in 1965, and was the
+    first vice-chairman of the Judo Federation of Iceland in 1973.
+notes: >-
+  Búason (2012) interviewed him in October and November 2012. He studied
+  for a month at the Kringelbach Institut in Copenhagen in 1958 (p. 7); no
+  Place record and no teacher named. Charles Palmer, IJF president, granted
+  the 1967 2nd dan together with Ichiro Abe; Palmer has no Person record.
+hasTeacherAssertion:
+  - id: 01M7Q9PPT7NYGXQV587BAM8Z2K
+    teacher: 01M7Q9PPT711RX9RE4W7E5TJJT
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Búason (2012, pp. 7-8) states that Ármann engaged Sawamura to train
+        Sigurður and that Sigurður learned under him until 1960, from the
+        Ármann magazine and Sigurður's own interview. Single secondary source.
+    hasInteraction:
+      - interactionPlace: 01M7NXN3MGT530KM1JHS4HZS16
+        interactionPeriod:
+          startYear: 1958
+          endYear: 1960
+        hasEvidence:
+          - basedOnSource: 01M7Q9A0QMC2TQSZ65AHH2WA4A
+            locator: '7'
+            locatorLabel: page
+            quotation: >-
+              Sömdu þeir þá við hann um að hann myndi dveljast á Íslandi í
+              nokkurn tíma og þjálfa Sigurð og aðra meðlimi Júdódeildar
+              Ármanns, með það að markmiði að Sigurður myndi svo taka við
+              þjálfuninni.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M7Q9A0QMC2TQSZ65AHH2WA4A
+            locator: '8'
+            locatorLabel: page
+            quotation: >-
+              Sawamura hætti sem þjálfarið hjá Júdódeild Ármanns um vorið 1960.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M7Q9A0QMC2TQSZ65AHH2WA4A
+            locator: '8'
+            locatorLabel: page
+            quotation: >-
+              Þá tók Sigurður alfarið við af honum, en hann hafði vafalaust lært
+              mikið undir stjórn Sawamura.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M7Q9PPT7VYZBVCSF6F1N1GHN
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 2
+    grantedBy: 01KZXH2NSQMBZTRPPYAKKCFR84
+    dateConferred: '1967'
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Búason (2012, p. 19) gives the 2nd dan at a grading in Scotland in
+        1967, from IJF president C. Palmer and Ichiro Abe, Kodokan
+        representative in Europe. Single secondary source, citing a 1967
+        newspaper notice by the club.
+    hasEvidence:
+      - basedOnSource: 01M7Q9A0QMC2TQSZ65AHH2WA4A
+        locator: '19'
+        locatorLabel: page
+        quotation: >-
+          Árið 1967 ferðuðust sex íslenskir júdómenn úr Júdófélagi Reykjavíkur,
+          [...] til Skotlands þar sem fimm þeirra fóru meðal annars í
+          gráðupróf. Sigurður H. Jóhannsson hlaut við það 2. dan-gráðu frá
+          forseta Alþjóðajúdósambandsins, C. Palmer og Ichiro Abe, fulltrúa
+          Kodokan í Evrópu.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M7Q9A0QMC2TQSZ65AHH2WA4A
+    locator: 6-34
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - founder

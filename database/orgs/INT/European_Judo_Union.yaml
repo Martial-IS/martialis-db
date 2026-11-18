@@ -24,16 +24,16 @@ hasAffiliationAssertion:
   - id: 01M3YH7N5FM01XYCCW6253JRQR
     relatedOrganization: 01KJJAWN29MA64W22606R3WD83
     affiliationRelation: affrel:branch_of
-    validDuring:
-      startYear: 1948
     hasConfidence:
-      confidenceLevel: conflevel:probable
+      confidenceLevel: conflevel:confirmed
       assessedBy: agent:FSM
-      confidenceRationale: The European Judo Union is recognised by the International Judo Federation as one of its five continental unions; EJU statutes hold that national judo federations are members of both their continental union and the IJF
+      confidenceRationale: >-
+        The IJF's own members section lists it among its five continental
+        unions, with its member federations. No date of recognition given.
     hasEvidence:
-      - basedOnSource: 01KZ45S0ST2FTM98AH1ZYFMG0R
-        quotation: The European Judo Federation consists of 51 national Judo federations/associations, and is itself recognised by the International Judo Federation as one of five continental unions.
-        informationType: infotype:secondary
+      - basedOnSource: 01M7Q4K7XB5EW7GCFP867B5W1B
+        quotation: Africa - AJU Asia - JUA Europe - EJU Oceania - OJU Panamerica - PJC
+        informationType: infotype:primary
         supports: true
         evidenceType: evidencetype:direct
 hasOfficerRole:

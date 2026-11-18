@@ -1,0 +1,63 @@
+type: Organization
+id: 01M7Q2SSTBXY1P4QJHCEMSZ0R7
+name:
+  en: Pan American Judo Confederation
+  es: Confederación Panamericana de Judo
+aka:
+  en:
+    - Panamerican Judo Confederation
+    - PJC
+  es: CPJ
+orgType: orgclass:federation
+foundedEvent:
+  startDate: '2009'
+  hasEvidence:
+    - basedOnSource: 01M7Q2SSTBYTZ4ZET1CBNMXDJF
+      quotation: >-
+        The PJC replaced the Pan American Judo Union (PJU) when it was founded
+        in 2009, a decision which has been contested by the remaining members
+        of the PJU.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M7Q2SSTBMAK2DBR4R5X4FJBE
+    relatedOrganization: 01KJJAWN29MA64W22606R3WD83
+    affiliationRelation: affrel:branch_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The IJF's own members section lists it among its five continental
+        unions, with its member federations. No date of recognition given.
+    hasEvidence:
+      - basedOnSource: 01M7Q46ZRYH42R7XWM8Y40Q4G7
+        quotation: Africa - AJU Asia - JUA Europe - EJU Oceania - OJU Panamerica - PJC
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+website: https://www.panamjudo.org/
+logo:
+  contentUrl: https://api.clupik.com/clubs/27327/images/navbar.png
+  imageAttribution:
+    uri: https://www.panamjudo.org/
+    cite: Confederación Panamericana de Judo
+description:
+  en: >-
+    Continental judo union of the Americas, recognised by the International
+    Judo Federation. Founded in 2009 to replace the Pan American Judo Union,
+    a replacement the remaining members of that union contested.
+notes: >-
+  The PJC's own federations page (https://www.panamjudo.org/es/content/page/42666)
+  shows its members as images only, with no text to quote. The Pan American
+  Judo Union (PJU) has no record.
+hasEvidence:
+  - basedOnSource: 01M7Q2SSTBYTZ4ZET1CBNMXDJF
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3893020
+tags:
+  - judo
+  - federation

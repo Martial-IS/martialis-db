@@ -1,0 +1,65 @@
+type: Place
+id: 01M7Q9PPT79XVEZN7M9VVJE8GG
+name:
+  is: Judofélag Reykjavíkur
+aka:
+  is:
+    - Judokwai
+    - JR
+  en: Reykjavík Judo Club
+placeType: placeclass:club
+hasSite:
+  - location:
+      label: Reykjavík
+      countryCode: eucountry:ISL
+      wikidata: wd:Q1764
+    address: Ármúli 17a, 108 Reykjavík
+foundedEvent:
+  startDate: '1965'
+  founder:
+    - 01M7Q9PPT7XYF6KGR9DG4EHB8Q
+  hasEvidence:
+    - basedOnSource: 01M7Q9A0QMC2TQSZ65AHH2WA4A
+      locator: '17'
+      locatorLabel: page
+      quotation: >-
+        Þann 23. nóvember árið 1965 dró heldur betur til tíðinda [...] Var
+        ætlunin að tilkynna fjölmiðlum um nýstofnað júdófélag: Judokwai. Þeir
+        sem stóðu fyrir þessu félagi voru menn sem höfðu áður verið
+        aðalmennirnir á bak við júdódeild Ármanns. Í stjórn þessa nýja félags
+        störfuðu þrír menn. Formaður þess var Ragnar Jónsson og honum til
+        aðstoðar voru þeir Reimar Stefánsson og Sigurður H. Jóhannsson.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M7Q9PPT7FK8TRA8C1Z9MCZEG
+    relatedOrganization: 01M7PYA3HB1Q04SZ8MHZRA8X4C
+    affiliationRelation: affrel:member_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The federation's own "Komdu í Judo" page lists the club among
+        Iceland's judo clubs.
+    hasEvidence:
+      - basedOnSource: 01M7Q2SSTBDTW6T2DFH4SHKY04
+        quotation: Judofélag Reykjavíkur, Ármúli 17a, 108 Reykjavík
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+website: https://judo.is/
+description:
+  en: >-
+    Judo club in Reykjavík, founded in 1965 as Judokwai by members who left
+    the Ármann judo section, and renamed Judofélag Reykjavíkur to meet the
+    rules of the National Olympic and Sports Association of Iceland.
+hasEvidence:
+  - basedOnSource: 01M7Q9A0QMC2TQSZ65AHH2WA4A
+    locator: 17-19
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo

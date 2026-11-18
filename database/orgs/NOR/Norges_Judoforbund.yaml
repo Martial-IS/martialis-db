@@ -19,6 +19,42 @@ foundedEvent:
       informationType: infotype:secondary
       supports: true
       evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M7PYA3HB9JD3TYD375CVR4GV
+    relatedOrganization: 01KJJAWN29MA64W22606R3WD83
+    affiliationRelation: affrel:member_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Listed on the IJF's own member-federation pages. No year of
+        admission given.
+    hasEvidence:
+      - basedOnSource: 01M7PYA3HB0ZZV843ZGXVHV9NP
+        quotation: Norwegian Judo Federation A member of European Judo Union
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M7PYA3HB93H2EN62529FKV6Z
+    relatedOrganization: 01KZ45S0STZS9WKJ0JC5PPD8KP
+    affiliationRelation: affrel:member_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The EJU's own member-federation page and the IJF member page both
+        state it. No year of admission given.
+    hasEvidence:
+      - basedOnSource: 01M7PYA3HBMPSZ085QTBR619F1
+        quotation: National Judo Federation of Norway — EJU Member Federation
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7PYA3HB0ZZV843ZGXVHV9NP
+        quotation: Norwegian Judo Federation A member of European Judo Union
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
 description:
   'no': Det nasjonale judoforbundet i Norge, stiftet 28. juni 1967 under et treningsleir. Henrik Lundh var blant initiativtakerne men takket nei til å bli forbundets første president. Vervet gikk til Torkel Sauer. Lundh satt aldri i forbundsstyret. Forbundet ble senere medlem av European Judo Union og International Judo Federation.
 sameAs:

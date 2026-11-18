@@ -1,0 +1,52 @@
+type: Person
+id: 01M7Q9PPT711RX9RE4W7E5TJJT
+name:
+  en: Matzoka Sawamura
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+description:
+  en: >-
+    Japanese judoka and ship's mate who stayed in Iceland from 1958 and was
+    the first qualified judo instructor of the Ármann club in Reykjavík, until
+    1960.
+notes: >-
+  Búason (2012) is the only source so far. "Matzoka" is the thesis's
+  spelling, probably from Icelandic newspapers; the Japanese given name is
+  not known. Búason (pp. 7, 10) says he had taught judo in Helsinki, including
+  the Helsinki police, married an Icelandic woman, and later taught the
+  Suðurnes police (Morgunblaðið, 23 April 1960, p. 15). Leads: Icelandic
+  newspapers on timarit.is from 1958-1960, the Ármann club magazine of 1959
+  (Þorkell Magnússon, "Hnefaleikar – Judo"), and Finnish judo histories of
+  the 1950s.
+hasRankAssertion:
+  - id: 01M7Q9PPT7GXXS3TPXBXNK3CDT
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 5
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Búason (2012, p. 7) gives 5th dan in judo, from a 1960 newspaper and
+        the Ármann magazine. Single secondary source; no grantor or date.
+    hasEvidence:
+      - basedOnSource: 01M7Q9A0QMC2TQSZ65AHH2WA4A
+        locator: '7'
+        locatorLabel: page
+        quotation: >-
+          Sawamura þessi var ekki venjulegur stýrimaður heldur bar hann 1. dan í
+          ju-jitsu og hvorki meira né minna en 5. dan í júdo.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M7Q9A0QMC2TQSZ65AHH2WA4A
+    locator: 7-8
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo

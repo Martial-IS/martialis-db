@@ -24,6 +24,42 @@ foundedEvent:
       informationType: infotype:secondary
       supports: true
       evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M7PYA3HBZQBDAAEDJJCQRY1B
+    relatedOrganization: 01KJJAWN29MA64W22606R3WD83
+    affiliationRelation: affrel:member_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Listed on the IJF's own member-federation pages. No year of
+        admission given.
+    hasEvidence:
+      - basedOnSource: 01M7PYA3HBNR19WHH0AHNJB5EW
+        quotation: Royal Spanish Judo Federation A member of European Judo Union
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M7PYA3HBX6D8K2SJWZZ3B5KE
+    relatedOrganization: 01KZ45S0STZS9WKJ0JC5PPD8KP
+    affiliationRelation: affrel:member_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The EJU's own member-federation page and the IJF member page both
+        state it. No year of admission given.
+    hasEvidence:
+      - basedOnSource: 01M7PYA3HB3017XX8HNSSKCDS3
+        quotation: National Judo Federation of Spain — EJU Member Federation
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7PYA3HBNR19WHH0AHNJB5EW
+        quotation: Royal Spanish Judo Federation A member of European Judo Union
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
 website: https://www.rfejudo.com/
 description:
   en: The national governing body of judo in Spain, constituted in 1965 (under the leadership of Rafael Urculo), succeeding the judo department previously created within the Federación Española de Lucha. It later became the Real Federación Española de Judo y Deportes Asociados. The rfejudo account dates the constitution to 1965 with Rafael Urculo at its head, while the Sueños de Olimpia blog describes Agustín Aznar as its 'primer presidente'.

@@ -1,0 +1,185 @@
+type: Place
+id: 01M7NXN3MGT530KM1JHS4HZS16
+name:
+  is: Judodeild Ármanns
+aka:
+  en: Ármann Judo Club
+  is: JDÁ
+  ja: アルマン柔道クラブ
+placeType: placeclass:club
+hasSite:
+  - location:
+      label: Reykjavík
+      countryCode: eucountry:ISL
+      wikidata: wd:Q1764
+    address: Engjavegur 7, 104 Reykjavík
+foundedEvent:
+  startDate: '1957'
+  hasEvidence:
+    - basedOnSource: 01M7NXN3MGG3X8YJQV12BH36JR
+      quotation: Judodeild Ármanns (JDÁ) var stofnuð árið 1957 og er elsta judodeild landsins.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M7Q9A0QMC2TQSZ65AHH2WA4A
+      locator: '6'
+      locatorLabel: page
+      quotation: >-
+        Hann byrjaði að kenna Ármenningum ju-jitsu veturinn 1956-1957 ásamt
+        því að leggja grunn að því sem seinna myndu verða júdóæfingar.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:indirect
+hasAffiliationAssertion:
+  - id: 01M7PYA3HBTXG90Y53Q9S1BWQP
+    relatedOrganization: 01M7PYA3HB1Q04SZ8MHZRA8X4C
+    affiliationRelation: affrel:member_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The federation's own pages list the club among Iceland's judo clubs:
+        its "Komdu í Judo" club list and its links page. The JSÍ dan list
+        also records Ármann members' grades.
+    hasEvidence:
+      - basedOnSource: 01M7Q2SSTBDTW6T2DFH4SHKY04
+        quotation: Judodeild Ármanns, Engjavegi 7, 104 Reykjavík
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7PYA3HB383NCABD11VFK0Y8
+        quotation: Judoklúbbar Judodeild Ármanns
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7NT0A8VQM7RQQ4Y9JP6F75D
+        quotation: Yoshihiko Iura Ármann 2013 19 12 8. dan
+        informationType: infotype:undetermined
+        supports: true
+        evidenceType: evidencetype:indirect
+hasInstructorRole:
+  - id: 01M7Q9PPT7598GETQBHG7GWCGV
+    instructor: 01M7Q9PPT7XYF6KGR9DG4EHB8Q
+    instructorCapacity: instrcap:instructor
+    instructorPeriod:
+      startYear: 1958
+      endYear: 1965
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Búason (2012, pp. 7-8) has Sigurður teaching at Ármann from autumn
+        1958 and in sole charge from 1960; he left to co-found Judokwai in
+        1965 (p. 17). Single secondary source.
+    hasEvidence:
+      - basedOnSource: 01M7Q9A0QMC2TQSZ65AHH2WA4A
+        locator: '7'
+        locatorLabel: page
+        quotation: >-
+          Svo virðist sem Sawamura hafi þjálfað Sigurð fram á haustið 1958 því
+          þá tekur Sigurður að þjálfa hjá Ármanni og gerir það fram í febrúar
+          1959.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7Q9A0QMC2TQSZ65AHH2WA4A
+        locator: '17'
+        locatorLabel: page
+        quotation: >-
+          Þeir sem stóðu fyrir þessu félagi voru menn sem höfðu áður verið
+          aðalmennirnir á bak við júdódeild Ármanns.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+  - id: 01M7Q9PPT7X84C5FNG0HT4TD8G
+    instructor: 01KJJAWN28MWKKSN4J02MVY1SR
+    instructorCapacity: instrcap:guest
+    instructorPeriod:
+      startYear: 1967
+      endYear: 1967
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Búason (2012, pp. 20, 22) has Kiyoshi Kobayashi, 7th dan, of the
+        Kodokan and known for spreading judo in Portugal, teach at Ármann
+        for a few days, citing Tíminn of 13 December 1967. Single secondary
+        source.
+    hasEvidence:
+      - basedOnSource: 01M7Q9A0QMC2TQSZ65AHH2WA4A
+        locator: '20'
+        locatorLabel: page
+        quotation: >-
+          Skömmu eftir að Ármenningar voru búnir að koma sér fyrir í þessu nýja
+          húsnæði sínu kom á vegum félagsins japanskur júdómeistari, Kiyoshi
+          Kobayashi.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7Q9A0QMC2TQSZ65AHH2WA4A
+        locator: '22'
+        locatorLabel: page
+        quotation: >-
+          en hann hafði áður komið til Íslands, þá á vegum júdódeildar Ármanns
+          þar sem hann kenndi í nokkra daga.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7Q9A0QMC2TQSZ65AHH2WA4A
+        locator: '53'
+        locatorLabel: page
+        quotation: >-
+          ,,Frægur júdó-kappi dvelst hér á vegum Ármenninga“, Tíminn 13.
+          desember 1967, bls. 13.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+  - id: 01M7NXN3MGD6JHVBRTS6SF79EK
+    instructor: 01M7NT0A8VNXR9PV8J9FQ58B51
+    instructorCapacity: instrcap:head_instructor
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The club's coaches page lists Iura as head coach (yfirþjálfari); the
+        AJJF interview (2020) says he has taught at Ármann since settling in
+        Iceland. No start year in either.
+    hasEvidence:
+      - basedOnSource: 01M7NXN3MGBYK54FHV643Z15KA
+        quotation: Yoshihiko Iura, yfirþjálfari
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7NT0A8VX6GKE67SMB8B4MZT
+        archiveUri: https://web.archive.org/web/20250126153607/https://www.judo.or.jp/news/364/
+        locator: '3'
+        locatorLabel: page
+        quotation: 金沢大学教員を経て、アイスランドに移住し、現在までアルマン柔道クラブで指導。
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7QB35J57T0E6A1XNXMPHT0T
+        quotation: >-
+          Mr. Yoshihiko Iura, a Judo trainer who holds 8th dan belt, has been
+          coaching in Judodeild Ármanns and contributing to Icelandic judo
+          society for many years.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+website: https://ippon.is/
+logo:
+  contentUrl: https://armenningar.is/wp-content/uploads/2026/04/Armann-logo-a-dokkan-grunn.png
+  imageAttribution:
+    uri: https://armenningar.is/
+    cite: Glímufélagið Ármann
+description:
+  en: >-
+    Judo section of the Ármann sports club in Reykjavík, founded in 1957 and
+    the oldest judo club in Iceland.
+hasEvidence:
+  - basedOnSource: 01M7NXN3MGG3X8YJQV12BH36JR
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo

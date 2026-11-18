@@ -1,0 +1,93 @@
+type: Organization
+id: 01M7Q2SSTBKZ9C6JAGYK3M9T58
+name:
+  en: British Judo Association
+aka:
+  en:
+    - BJA
+    - British Judo
+orgType: orgclass:federation
+hasSite:
+  - location:
+      label: Walsall
+      countryCode: eucountry:GBR
+      wikidata: wd:Q504530
+    address: Walsall Campus, University of Wolverhampton, Gorway Road, Walsall, West Midlands WS1 3BD
+    hasEvidence:
+      - basedOnSource: 01M7Q2SSTB7M906Y745XK5WH1C
+        quotation: Address Walsall Campus University of Wolverhampton Gorway Road Walsall West Midlands WS1 3BD
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+foundedEvent:
+  startDate: '1948-07-24'
+  hasEvidence:
+    - basedOnSource: 01M7Q2SSTB9MCB0TPR084WSQCV
+      quotation: >-
+        On 24 July 1948 the BJA held its first Management Committee Meeting at
+        the Imperial College Union, at which time the BJA was established as
+        the national body representing judo in the United Kingdom.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasAffiliationAssertion:
+  - id: 01M7Q2SSTB0H0E2BN1YBGQA8Q5
+    relatedOrganization: 01KJJAWN29MA64W22606R3WD83
+    affiliationRelation: affrel:member_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Listed on the IJF's own member-federation pages. No year of
+        admission given.
+    hasEvidence:
+      - basedOnSource: 01M7Q2SSTBY7RAEWRQNNYA720K
+        quotation: British Judo Association A member of European Judo Union
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M7Q2SSTBRECHTKDXAPVWX9HP
+    relatedOrganization: 01KZ45S0STZS9WKJ0JC5PPD8KP
+    affiliationRelation: affrel:member_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The EJU's own member-federation page and the IJF member page both
+        state it. No year of admission given.
+    hasEvidence:
+      - basedOnSource: 01M7Q2SSTB7M906Y745XK5WH1C
+        quotation: National Judo Federation of Great Britain — EJU Member Federation
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7Q2SSTBY7RAEWRQNNYA720K
+        quotation: British Judo Association A member of European Judo Union
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+website: https://www.britishjudo.org.uk/
+logo:
+  contentUrl: https://upload.wikimedia.org/wikipedia/commons/9/9e/BJA_Logo_Horizontal_Colour.jpg
+  rights: mediarights:cc-by-sa-4.0
+  imageAttribution:
+    uri: https://commons.wikimedia.org/wiki/File:BJA_Logo_Horizontal_Colour.jpg
+    cite: British Judo, CC BY-SA 4.0, via Wikimedia Commons
+description:
+  en: >-
+    Governing body of judo in the United Kingdom, established in July 1948, a
+    member of the International Judo Federation and the European Judo Union.
+hasEvidence:
+  - basedOnSource: 01M7Q2SSTB9MCB0TPR084WSQCV
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M7Q2SSTBY7RAEWRQNNYA720K
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q3741324
+tags:
+  - judo
+  - federation

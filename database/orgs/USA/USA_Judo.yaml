@@ -15,6 +15,37 @@ logo:
   imageAttribution:
     uri: https://www.usajudo.com/
     cite: USA Judo
+hasAffiliationAssertion:
+  - id: 01M7PYA3HBT47K96JYK2YPPKX3
+    relatedOrganization: 01KJJAWN29MA64W22606R3WD83
+    affiliationRelation: affrel:member_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Listed on the IJF's own member-federation pages. No year of
+        admission given.
+    hasEvidence:
+      - basedOnSource: 01M7PYA3HB4E75G0MJ9R6RX4MX
+        quotation: USA Judo A member of Panamerican Judo Confederation
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M7Q2SSTB3A8HE7DJHKF0BJQ7
+    relatedOrganization: 01M7Q2SSTBXY1P4QJHCEMSZ0R7
+    affiliationRelation: affrel:member_of
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The IJF's own member page names the Panamerican Judo Confederation
+        as its continental union. No year given.
+    hasEvidence:
+      - basedOnSource: 01M7PYA3HB4E75G0MJ9R6RX4MX
+        quotation: USA Judo A member of Panamerican Judo Confederation
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
 website: https://www.usajudo.com/
 description:
   en: National governing body for judo in the United States, with its national office at the U.S. Olympic Training Center in Colorado Springs.

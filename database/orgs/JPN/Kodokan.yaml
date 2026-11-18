@@ -143,6 +143,29 @@ hasOfficerRole:
         informationType: infotype:secondary
         supports: true
         evidenceType: evidencetype:direct
+  - id: 01M7QBSXNA42JWJ3JCB5RGPZFE
+    officer: 01M7QBSXNA40PSZ3WXTJ6NBJXG
+    officerTitle: Head of the Library and Documentation Department (図書資料部長)
+    officerPeriod:
+      endYear: 2020
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The Kodokan's own death notice gives the post, held until his death
+        in April 2020; the 2009 Kanoya profile has him in it by 2009. Start
+        year not given.
+    hasEvidence:
+      - basedOnSource: 01M7QBSXNAX81AN9HYZ2P2FF26
+        quotation: 香川大学助教授を経て現在、講道館図書資料部長
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7QBSXNA676CTPDY8WQ75EAB
+        quotation: 香川大学助教授を経て現在、財団法人講道館図書資料部長。
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
 hasEvidence:
   - uri: https://en.wikipedia.org/wiki/Kodokan
     archiveUri: https://en.wikipedia.org/w/index.php?title=Kodokan_Judo_Institute&oldid=1350072322
