@@ -2173,6 +2173,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:hasEvidence   <https://martial.is/entity/01M2Z6TY1PA6YAVJDRS9H9BF2F/birthEvent/hasEvidence/0>;
         martialis:latestYear    1794 .
 
+<https://martial.is/entity/01M7W1N6CX54E7M6H0ZRQP86PY/hasContributor/0>
+        rdf:type                   martialis:Contributor;
+        schema:familyName          "Tate";
+        schema:givenName           "Dizz";
+        martialis:contributorRole  "author" .
+
 <https://martial.is/entity/01M040GCQ9MDQZ501YE7W1R8W8/hasEvidence/2>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M040GCQ9T51ZJEM2K713JQ51>;
@@ -2628,6 +2634,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         schema:startDate        "1920";
         martialis:earliestYear  1920;
         martialis:latestYear    1920 .
+
+<https://martial.is/entity/01M7TEQ5WTWYM2C2PMQA7GDNGF/hasEvidence/2>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TEQ5WT9EBK6K06SEAG4BQF>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/indirect>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "On returning to the UK in 1961";
+        martialis:supports         true .
 
 <https://martial.is/entity/01KZC7XZATTJF9DFMT9QX0JSGY/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -5193,6 +5207,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceType            "entry-encyclopedia" .
 
+<https://martial.is/entity/01M7TEQ5WT7AYWWF1MGZB35CN5/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TEQ5WT9EBK6K06SEAG4BQF>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3YH7N5GFJZABDVWAKVFGPM1/hasConfidence>
         rdf:type                       martialis:Confidence;
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
@@ -5989,6 +6010,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:sourceLocation      "61";
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
+
+<https://martial.is/entity/01M7TEQ5WT2J2Y8W468QY70YJJ/hasInteraction/0/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TEQ5WT9EBK6K06SEAG4BQF>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "On returning to the UK in 1961";
+        martialis:supports         true .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SC/image>
         rdf:type                    martialis:Photo;
@@ -7390,6 +7419,25 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01KZBWQ0AJ1CS0CYD84258VKTE> .
 
+<https://martial.is/entity/01M7W1N6CX54E7M6H0ZRQP86PY>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://web.archive.org/web/20261120083608/https://www.port-magazine.com/film/the-judoka-george-kerr/>;
+        schema:datePublished            "2016-06-27";
+        schema:description              "PORT Magazine presentation of the short film In Their Time: George Kerr, with comments by the filmmaker George Daniell on Kerr's journey from Edinburgh to Tokyo in 1957."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "judo";
+        schema:name                     "The Judoka: George Kerr";
+        schema:publisher                <https://martial.is/entity/01M7W1N6CX54E7M6H0ZRQP86PY/publisher>;
+        schema:url                      <https://www.port-magazine.com/film/the-judoka-george-kerr/>;
+        martialis:accessed              "2026-11-20";
+        martialis:archiveDate           "2026-11-20";
+        martialis:earliestYear          2016;
+        martialis:hasContributor        <https://martial.is/entity/01M7W1N6CX54E7M6H0ZRQP86PY/hasContributor/0>;
+        martialis:latestYear            2016;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/news>;
+        martialis:sourceType            "webpage" .
+
 <https://martial.is/entity/01M5HN1CX5JMT6SRQ6H7VFJ45Q/birthEvent>
         rdf:type                martialis:BirthEvent;
         prov:wasDerivedFrom     <https://martial.is/entity/01M69VJBQCHMMFMBTHKD733P9H>;
@@ -7768,6 +7816,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
 
+<https://martial.is/entity/01M7TEQ5WT2J2Y8W468QY70YJJ/hasInteraction/1/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TEQ5WT6ZDTHJF0P3ENYWRQ>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "The Kodokan, judo’s spiritual home, necessitated him shaving his head.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3YH7N5G9FJWNJ71X9WSVNEK/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M0AZQ3TJ40Z0WJJD8T706CQB>;
@@ -7976,6 +8032,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         rdf:type         martialis:Attribution;
         schema:citation  "blue hippo films, YouTube";
         schema:url       <https://www.youtube.com/watch?v=0E_mVfFfsPU> .
+
+<https://martial.is/entity/01M7TEQ5WT7AYWWF1MGZB35CN5/dissolvedEvent/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TEQ5WT9EBK6K06SEAG4BQF>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "He closed the club in 2003";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M0DCY9PER168WR772HSNM27Q/image/imageAttribution>
         rdf:type                   martialis:Attribution;
@@ -9530,8 +9594,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         void:classPartition   <https://martial.is/data.ttl#dataset/class/Organization>;
         void:classPartition   <https://martial.is/data.ttl#dataset/class/Event>;
         void:dataDump         <https://martial.is/data.ttl>;
-        void:entities         3031;
-        void:triples          168521;
+        void:entities         3040;
+        void:triples          169067;
         void:uriSpace         "https://martial.is/entity/";
         void:vocabulary       <http://purl.org/ontology/bibo/>;
         void:vocabulary       prov:;
@@ -10002,6 +10066,21 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/BRA>;
         schema:name            "São Paulo";
         schema:sameAs          <http://www.wikidata.org/entity/Q174> .
+
+<https://martial.is/entity/01M7TEQ5WT9EBK6K06SEAG4BQF>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://web.archive.org/web/20260614063846/https://www.edinburgh.uk.emb-japan.go.jp/George%20Kerr.htm>;
+        schema:description              "Consulate-General of Japan in Edinburgh notice of the Order of the Rising Sun, Gold Rays with Rosette, conferred on George Kerr, with a biography: judo from age 8, training in Japan at Nihon University after 1957, The Edinburgh Club, and his BJA posts."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "judo";
+        schema:name                     "George Kerr";
+        schema:publisher                <https://martial.is/entity/01M7TEQ5WT9EBK6K06SEAG4BQF/publisher>;
+        schema:url                      <https://www.edinburgh.uk.emb-japan.go.jp/George%20Kerr.htm>;
+        martialis:accessed              "2026-11-19";
+        martialis:archiveDate           "2026-06-14";
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/biography>;
+        martialis:sourceType            "webpage" .
 
 <https://martial.is/entity/01M3YH7N5GZCSF0272RCR5AYRY/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -11046,6 +11125,16 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://martial.is/entity/01M4R9845WCER420J8GA8V0P32/officerPeriod>
         rdf:type             martialis:TimeInterval;
         martialis:startYear  1947 .
+
+<https://martial.is/entity/01M7TEQ5WTYCD3PKY3KB4R8EQ4/hasEvidence/0>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M7Q9A0QMC2TQSZ65AHH2WA4A>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:secondary;
+        martialis:quotation           "í febrúar 1968 komu til Íslands tveir breskir júdómenn á vegum JR. Annar var Alex Fraser, sem hafði áður komið til Íslands, og hinn var George Kerr, þáverandi Bretlandsmeistari í millivigt.";
+        martialis:sourceLocation      "20";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
 
 <https://martial.is/entity/01M3YH7N5G8DNY2QGNBYGE9NSQ/hasInteraction/0>
         rdf:type                     martialis:TeacherInteraction;
@@ -13131,6 +13220,21 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:quotation        "The next phase of Mendoza's career was defined by a series of bouts with his former mentor and second Richard Humphries between 1787 and 1790.";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7TEQ5WT61XB0BJEP66025D4>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://web.archive.org/web/20261119174525/https://sshf.sportscotland.org.uk/inductees/george-kerr-cbe/>;
+        schema:description              "Scottish Sports Hall of Fame inductee page for George Kerr: black belt at 15 in Edinburgh, four years at Nihon University and the Kodokan, European medals from 1957, coaching of Peter Seisenbacher, and 10th dan in 2010."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "judo";
+        schema:name                     "George Kerr CBE";
+        schema:publisher                <https://martial.is/entity/01M7TEQ5WT61XB0BJEP66025D4/publisher>;
+        schema:url                      <https://sshf.sportscotland.org.uk/inductees/george-kerr-cbe/>;
+        martialis:accessed              "2026-11-19";
+        martialis:archiveDate           "2026-11-19";
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/biography>;
+        martialis:sourceType            "webpage" .
+
 <https://martial.is/entity/01M6BGZPMB9HXA4YD36CVR10SR/hasContributor/1>
         rdf:type                     martialis:Contributor;
         schema:familyName            "Sawada";
@@ -13236,6 +13340,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:peerReview            <https://w3id.org/martialis/vocab/peer-review/not_peer_reviewed>;
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceType            "entry-encyclopedia" .
+
+<https://martial.is/entity/01M7TEQ5WTK8N75ZPMJJ5PWRCX/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:confirmed;
+        martialis:confidenceRationale  "JudoScotland and Kerr's own account in the In Their Time film: a scholarship to train at the Budokwai under Leggett, before Japan. Not dated." .
 
 <https://martial.is/entity/01M7DP23B03DCSB2385MH4HNCV/hasEvidence/2>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -17270,6 +17381,13 @@ void:class  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:primary;
         martialis:quotation        "Chamo-me Manuel Galrinho, tenho 43 anos e sou 5º dan de Aikido. [...] Ten-Chi Internacional e Federação Portuguesa de Aikido e Disciplinas Associadas.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7TEQ5WTQXV1CV41RYJRV43E/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:confirmed;
+        martialis:confidenceRationale  "The Consulate-General page and Kerr's own account in The Scotsman article. Founded in the 1960s, no source gives the year. The end year is the club's closure." .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD67/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -24124,6 +24242,11 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:quotation        "Kishaba's senior student in Okinawa was Katsuhiko Shinzato who currently heads the Kishaba Juku.";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7TEQ5WT2J2Y8W468QY70YJJ/hasInteraction/0/interactionPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:endYear    1961;
+        martialis:startYear  1957 .
+
 <https://martial.is/entity/01M5MG468EXFS0Q42SS49WXGSJ/hasInteraction/0/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
         martialis:basedOnSource       <https://martial.is/entity/01M5G930MN1VM84DEZNGEZP48E>;
@@ -27692,6 +27815,10 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:sourceLocatorLabel  "section";
         martialis:supports            true .
 
+<https://martial.is/entity/01M7W1N6CXVVNKGADP5T19HEGN/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Vimeo (Richie Georgie)" .
+
 <https://martial.is/entity/01M3YH7N5GQS1FGRRSJXBHXQFJ>
         rdf:type                 martialis:HonorAssertion;
         prov:wasDerivedFrom      <https://martial.is/entity/01M2WGNYAW6K10EEMQDG8VYGVG>;
@@ -27962,6 +28089,12 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:confirmed;
         martialis:confidenceRationale  "The 1905 interview records that Miyake was admitted to the fifth degree in jujutsu at age 22, rarely attained before 35; JA Wikipedia records Miyake as 5th dan (五段) of Handa Yataro's Daito-ryu jujutsu, which is the same school." .
+
+<https://martial.is/entity/01M7W1N6CXVVNKGADP5T19HEGN/hasContributor/1>
+        rdf:type                   martialis:Contributor;
+        schema:familyName          "Round-Turner";
+        schema:givenName           "Rich";
+        martialis:contributorRole  "contributor" .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9T/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -31705,6 +31838,10 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:endYear    1942;
         martialis:startYear  1937 .
 
+<https://martial.is/entity/01M7TEQ5WTSCWPC874X3RKSQ12/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "JudoScotland" .
+
 <https://martial.is/entity/01M6EHHZQ6BV6MV77ZCN5XM95Q>
         rdf:type                        martialis:Source;
         schema:alternateName            "Наставник Абдулманапа. Большое интервью с тренером отца Хабиба";
@@ -32142,6 +32279,7 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:hasInstructorRole  <https://martial.is/entity/01M4R9845W5DP6VA07YQPZVGB5>;
         martialis:hasInstructorRole  <https://martial.is/entity/01M7T5671E7RA9ZCCEADX2F95V>;
         martialis:hasInstructorRole  <https://martial.is/entity/01M5H3D2EC51RX6AEGD9TA95WF>;
+        martialis:hasInstructorRole  <https://martial.is/entity/01M7TEQ5WTQ0EFG97KMT5MSF10>;
         martialis:hasSite            <https://martial.is/entity/01KY52HE49EXT0704VAEYG0W59/hasSite/0>;
         martialis:placeType          <https://w3id.org/martialis/vocab/place-classification/dojo> .
 
@@ -34380,6 +34518,14 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         rdf:type     martialis:Publisher;
         schema:name  "Baidu" .
 
+<https://martial.is/entity/01M7TEQ5WTQ0EFG97KMT5MSF10/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TEQ5WTSCWPC874X3RKSQ12>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/indirect>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "After controversially being banned from competing in the trials for the 1964 Olympic games in Tokyo for being deemed a professional, George decided to return home to his native Edinburgh";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3YH7N5G6Q0E8ZGQ44FV70YN>
         rdf:type                  martialis:TeacherAssertion;
         martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9G>;
@@ -36579,6 +36725,13 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
         martialis:quotation        "関口新心流の他に、山名新九郎から天神真楊流、竹中勇から澁川流を学んだ。";
+        martialis:supports         true .
+
+<https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J/hasEvidence/3>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TEQ5WT61XB0BJEP66025D4>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
         martialis:supports         true .
 
 <https://martial.is/entity/01M6BHSAXWCYFZCWJ3C7Y0DGM0/birthEvent/hasEvidence/0>
@@ -41040,6 +41193,13 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:primary;
         martialis:supports         true .
+
+<https://martial.is/entity/01M7TEQ5WT2J2Y8W468QY70YJJ/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "Training in Tokyo with no teacher named, Nihon University in the Consulate-General page, the Hall of Fame and JudoScotland, the Kodokan in the Hall of Fame and The Scotsman. The period is the Consulate-General one. PORT Magazine also dates the journey to 1957." .
 
 <https://martial.is/entity/01M5JPY6FNZ56A65RK1ZRPYB0F/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -47546,6 +47706,13 @@ dcat:landingPage  rdf:type  owl:ObjectProperty .
         martialis:rankSystem     <https://martial.is/entity/01M11K25NF0E7HG8HWVWM2P3FG>;
         martialis:rankType       <https://w3id.org/martialis/vocab/rank-type/dan> .
 
+<https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7W1N6CX54E7M6H0ZRQP86PY>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:supports         true .
+
 <https://martial.is/entity/01KZEK9QGV7TMPG4BZG7V66X13>
         rdf:type                        martialis:Source;
         schema:archivedAt               <https://en.wikipedia.org/w/index.php?title=K%C5%8Dri_Hisataka&oldid=1380844777>;
@@ -49566,6 +49733,13 @@ dcat:landingPage  rdf:type  owl:ObjectProperty .
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/CHN>;
         schema:name            "Heshan";
         schema:sameAs          <http://www.wikidata.org/entity/Q1359423> .
+
+<https://martial.is/entity/01M7TEQ5WTQ0EFG97KMT5MSF10/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "JudoScotland only. The start year is his return from Japan (Consulate-General); the end year is suggested by his exclusion from the 1964 Olympic trials, after which he went back to Edinburgh." .
 
 <https://martial.is/entity/01M3YH7N5GA4CW2S0TQXPZT51C/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -52927,6 +53101,12 @@ void:entities  rdf:type  owl:DatatypeProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "昭和４２年、沖縄空手道連盟が結成されるとともに副会長に推され、同連盟より範士十段の称号を授与。";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7TEQ5WT7AYWWF1MGZB35CN5/hasSite/0/location>
+        rdf:type               martialis:GeoRef;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/GBR>;
+        schema:name            "Edinburgh";
+        schema:sameAs          <http://www.wikidata.org/entity/Q23436> .
 
 <https://martial.is/entity/01M6ENVCFA0920MJ0TPF9FK2ZB/birthEvent/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -57407,6 +57587,12 @@ void:entities  rdf:type  owl:DatatypeProperty .
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceType            "webpage" .
 
+<https://martial.is/entity/01M7W1N6CXVVNKGADP5T19HEGN/hasContributor/2>
+        rdf:type                   martialis:Contributor;
+        schema:familyName          "Daniell";
+        schema:givenName           "George";
+        martialis:contributorRole  "contributor" .
+
 <https://martial.is/entity/01M3YH7N5GDY7RD80QH3EHE42B/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KZS3PSKK1T6WG2HDVGG0YE5N>;
@@ -57735,6 +57921,12 @@ void:entities  rdf:type  owl:DatatypeProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "y más tarde le fue concedido el 5° dan por la Federación Española de Judo.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7TEQ5WT6ZDTHJF0P3ENYWRQ/hasContributor/0>
+        rdf:type                   martialis:Contributor;
+        schema:familyName          "Smith";
+        schema:givenName           "Aidan";
+        martialis:contributorRole  "author" .
 
 <https://martial.is/entity/01M3YH7N5G5ZFKTNMPDASJYETG>
         rdf:type                  martialis:TeacherAssertion;
@@ -60241,6 +60433,15 @@ dcat:mediaType  rdf:type  owl:ObjectProperty .
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:primary;
         martialis:supports         true .
+
+<https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J/birthEvent>
+        rdf:type                martialis:BirthEvent;
+        prov:wasDerivedFrom     <https://martial.is/entity/01M7TEQ5WT9EBK6K06SEAG4BQF>;
+        schema:startDate        "1937-08-24";
+        martialis:earliestYear  1937;
+        martialis:hasEvidence   <https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J/birthEvent/hasEvidence/1>;
+        martialis:hasEvidence   <https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J/birthEvent/hasEvidence/0>;
+        martialis:latestYear    1937 .
 
 <https://martial.is/entity/01M3YH7N5GSAF3BSPSYZ7HVVMG/hasInteraction/0>
         rdf:type                     martialis:TeacherInteraction;
@@ -65335,6 +65536,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         schema:url                 <https://en.wikipedia.org/wiki/File:Amateur_Athletic_Union_logo.svg>;
         martialis:informationType  infotype:secondary .
 
+<https://martial.is/entity/01M7TEQ5WT7AYWWF1MGZB35CN5/foundedEvent/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TEQ5WT6ZDTHJF0P3ENYWRQ>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "He founded the Edinburgh Club and began teaching generations of kids respectful combat in their jammies.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M6BJ6H8F1NQV7365F33CG362/foundedEvent/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M6BJ6H8FZ1S4PNXF8NN6S837>;
@@ -66182,6 +66391,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/biography>;
         martialis:sourceType            "entry-encyclopedia" .
+
+<https://martial.is/entity/01M7TEQ5WT2J2Y8W468QY70YJJ/hasInteraction/1/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TEQ5WT61XB0BJEP66025D4>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "At 18, he went to Japan to study at Nihon University and the Kodokan Institute, spending four years training in the Far East.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6N/nationality/0>
         rdf:type               martialis:NationalityEntry;
@@ -71633,6 +71850,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/BRA>;
         schema:sameAs          <http://www.wikidata.org/entity/Q155> .
 
+<https://martial.is/entity/01M7TEQ5WT2J2Y8W468QY70YJJ/hasInteraction/0/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TEQ5WT9EBK6K06SEAG4BQF>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Following this amazing success, he undertook judo training in Japan for four years while studying at Nihon University.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M6BGZPMBBTGQ6TYMJF5MGFTJ/foundedEvent/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M6BGZPMB016Z305BQW68W7F3>;
@@ -71869,6 +72094,13 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         rdf:type               martialis:NationalityEntry;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/CAN>;
         schema:sameAs          <http://www.wikidata.org/entity/Q16> .
+
+<https://martial.is/entity/01M7TEQ5WTYXDYD4SS5J428ZQN/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:confirmed;
+        martialis:confidenceRationale  "The IJF's own Hall of Fame entry, the awarding body's record. An IJF grade." .
 
 <https://martial.is/entity/01M3YH7N5G6Q0E8ZGQ44FV70YN/hasInteraction/0/interactionPeriod>
         rdf:type             martialis:TimeInterval;
@@ -73811,6 +74043,30 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
 
+<https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J>
+        rdf:type                       martialis:Person;
+        schema:birthDate               "1937-08-24";
+        schema:description             "Scottish judoka and coach, IJF 10th dan. European champion in 1957 after training at the Budokwai and in Japan, he founded The Edinburgh Club, coached Peter Seisenbacher to two Olympic titles and was chairman and president of the British Judo Association."@en;
+        schema:keywords                "judo";
+        schema:name                    "George Kerr"@en;
+        schema:nationality             <https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J/nationality/0>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q956918>;
+        martialis:birthEvent           <https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J/birthEvent>;
+        martialis:hasEvidence          <https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J/hasEvidence/3>;
+        martialis:hasEvidence          <https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J/hasEvidence/1>;
+        martialis:hasEvidence          <https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J/hasEvidence/4>;
+        martialis:hasEvidence          <https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J/hasEvidence/6>;
+        martialis:hasEvidence          <https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J/hasEvidence/5>;
+        martialis:hasEvidence          <https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J/hasEvidence/0>;
+        martialis:hasEvidence          <https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J/hasEvidence/2>;
+        martialis:hasRankAssertion     <https://martial.is/entity/01M7TEQ5WTYXDYD4SS5J428ZQN>;
+        martialis:hasTeacherAssertion  <https://martial.is/entity/01M7TEQ5WT2J2Y8W468QY70YJJ>;
+        martialis:hasTeacherAssertion  <https://martial.is/entity/01M7TEQ5WTK8N75ZPMJJ5PWRCX>;
+        martialis:trainedAt            <https://martial.is/entity/01KY52HE49EXT0704VAEYG0W59>;
+        martialis:trainedAt            <https://martial.is/entity/01M7TD2BTK7XX3498CKV19KC4M>;
+        martialis:trainedAt            <https://martial.is/entity/01KJJAWN29MA64W22606R3WD84>;
+        martialis:wasTaughtBy          <https://martial.is/entity/01M0CXZHZN5A1FFADBND5Z9K70> .
+
 <https://martial.is/entity/01M3YH7N5GXJG89F0PY67EHSGC/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M3M3HDCSNBKD16QH20FM0488>;
@@ -75329,6 +75585,10 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:hasInteraction  <https://martial.is/entity/01M6C1R005WXKZEDS3SRMJJS30/hasInteraction/0>;
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01KZQ5XKW34RHMNCH3AB1ZR596> .
+
+<https://martial.is/entity/01M7TEQ5WT9EBK6K06SEAG4BQF/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Consulate-General of Japan in Edinburgh" .
 
 <https://martial.is/entity/01M3YH7N5GWAD3XS88KTEWY82N>
         rdf:type                  martialis:TeacherAssertion;
@@ -78646,6 +78906,10 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         prov:wasDerivedFrom          <https://martial.is/entity/01KZSHP507WYD1FWY3XH49X8Q0>;
         martialis:hasEvidence        <https://martial.is/entity/01M3YH7N5G6PMSY8TG7HWVAKH6/hasInteraction/0/hasEvidence/0>;
         martialis:interactionPeriod  <https://martial.is/entity/01M3YH7N5G6PMSY8TG7HWVAKH6/hasInteraction/0/interactionPeriod> .
+
+<https://martial.is/entity/01M7TEQ5WT6ZDTHJF0P3ENYWRQ/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "The Scotsman" .
 
 <https://martial.is/entity/01M2411V8RK9B1T8H0RV0YN7BJ/publisher>
         rdf:type     martialis:Publisher;
@@ -87100,6 +87364,15 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Wikipedia states Gracie was inducted into the ADCC Hall of Fame on February 21, 2022" .
 
+<https://martial.is/entity/01M7TEQ5WT7AYWWF1MGZB35CN5/dissolvedEvent>
+        rdf:type                     martialis:DissolutionEvent;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M7TEQ5WT9EBK6K06SEAG4BQF>;
+        schema:endDate               "2003";
+        martialis:dissolutionManner  <https://w3id.org/martialis/vocab/dissolution-manner/defunct>;
+        martialis:earliestYear       2003;
+        martialis:hasEvidence        <https://martial.is/entity/01M7TEQ5WT7AYWWF1MGZB35CN5/dissolvedEvent/hasEvidence/0>;
+        martialis:latestYear         2003 .
+
 <https://martial.is/entity/01M3YH7N5GTR8V2QZS69VWFS0D/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KZQ5XKW3CK2XPAGK0Q4GTDSA>;
@@ -88484,6 +88757,13 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "This is the operating dojo and headquarters of the ADAS, the twin-entity case where the venue is how the organization occupies physical space. This is a structural fact about the org's own premises, so no independent source is expected; kept above the tradition-only ceiling deliberately." .
+
+<https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J/hasEvidence/4>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TEQ5WTSCWPC874X3RKSQ12>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:supports         true .
 
 <https://martial.is/entity/01M6C5JZZGTY23SJ30100D1RMB/publisher>
         rdf:type     martialis:Publisher;
@@ -93589,6 +93869,14 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
 
+<https://martial.is/entity/01M7TEQ5WTK8N75ZPMJJ5PWRCX/hasInteraction/0/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TEQ5WTSCWPC874X3RKSQ12>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "George won a scholarship to train at the Budokwai Judo Club London, under the tuition of Master of Judo Mr T.P. Leggett who orchestrated a lifechanging opportunity for George to live and train in Japan.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3YH7N5G0WGRSXDE63YCN3JC/hasConfidence>
         rdf:type                       martialis:Confidence;
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
@@ -94730,6 +95018,23 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/UKR>;
         schema:sameAs          <http://www.wikidata.org/entity/Q212> .
 
+<https://martial.is/entity/01M7TEQ5WT7XR05YQ4G3D55S9M>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://web.archive.org/web/20261119174631/https://ijf.org/page/history-and-culture/1/george-kerr>;
+        schema:description              "International Judo Federation Hall of Fame entry for George Kerr: IJF 10th dan in 2010, BJA president from 2001, CBE and Order of the Rising Sun."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "judo";
+        schema:name                     "George Kerr (IJF Hall of Fame)";
+        schema:publisher                <https://martial.is/entity/01M7TEQ5WT7XR05YQ4G3D55S9M/publisher>;
+        schema:url                      <https://ijf.org/page/history-and-culture/1/george-kerr>;
+        martialis:accessed              "2026-11-19";
+        martialis:archiveDate           "2026-11-19";
+        martialis:partOf                <https://martial.is/entity/01M64QW2FN6PG9PRA7YFFTKEZG>;
+        martialis:peerReview            <https://w3id.org/martialis/vocab/peer-review/not_peer_reviewed>;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/biography>;
+        martialis:sourceType            "webpage" .
+
 <https://martial.is/entity/01M5HP49HKA8FRXZFEPRKFZ80P/hasInteraction/0>
         rdf:type               martialis:TeacherInteraction;
         prov:wasDerivedFrom    <https://martial.is/entity/01M5G930MN7DVCGK42EP9G1XK9>;
@@ -95591,6 +95896,11 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         schema:name            "Scott Air Force Base, Illinois";
         schema:sameAs          <http://www.wikidata.org/entity/Q576617> .
 
+<https://martial.is/entity/01M7TEQ5WTYCD3PKY3KB4R8EQ4/instructorPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:endYear    1968;
+        martialis:startYear  1968 .
+
 <https://martial.is/entity/01M5FJCW4HWXDDF4MJ0EEM0FDV/deathEvent/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M5FJCW4H8D1M1DV5E4H6BJH8>;
@@ -96272,6 +96582,10 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         schema:citation            "Mehran Eisazadeh, Wikimedia Commons";
         schema:url                 <https://commons.wikimedia.org/wiki/File:Choi_Hong_Hi_1970.jpg>;
         martialis:informationType  infotype:secondary .
+
+<https://martial.is/entity/01M7TEQ5WT61XB0BJEP66025D4/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Scottish Sports Hall of Fame" .
 
 <https://martial.is/entity/01M3YH7N5FJH92540DJX6XH329>
         rdf:type                  martialis:TeacherAssertion;
@@ -100286,7 +100600,7 @@ void:dataDump  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/data.ttl#dataset/class/Person>
         void:class     martialis:Person;
-        void:entities  1041 .
+        void:entities  1042 .
 
 <https://martial.is/entity/01M5HMRGB7WN9HHYCGJYQZPTAB/hasEvidence/1>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -103679,6 +103993,11 @@ dcat:Dataset  rdf:type  owl:Class .
         martialis:sourceLocation      "481";
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
+
+<https://martial.is/entity/01M7TEQ5WTQ0EFG97KMT5MSF10/instructorPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:endYear    1964;
+        martialis:startYear  1961 .
 
 <https://martial.is/entity/01M61T316B2V4HPXR1DTBP1D9E/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -111719,6 +112038,14 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:relatedOrganization  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD83>;
         martialis:validDuring          <https://martial.is/entity/01M5H5N9SHB3D96PFTTYHPCBJT/validDuring> .
 
+<https://martial.is/entity/01M7TEQ5WTQXV1CV41RYJRV43E/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TEQ5WT9EBK6K06SEAG4BQF>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "In the 1960’s, Mr Kerr established a successful judo and fitness club called “The Edinburgh Club”";
+        martialis:supports         true .
+
 <https://martial.is/entity/01KZGGMSWV6E8DRWHM6FSQFRQ9/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "O.B.I. Karate School (Virginia Beach)" .
@@ -114405,6 +114732,14 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:hasInstructorRole  <https://martial.is/entity/01M4R9845WDYC37KKMKKPYPEN4>;
         martialis:hasSite            <https://martial.is/entity/01KYMEA0X5BZ7HGQP7N96B7XB3/hasSite/0>;
         martialis:placeType          <https://w3id.org/martialis/vocab/place-classification/school> .
+
+<https://martial.is/entity/01M7TEQ5WTWYM2C2PMQA7GDNGF/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TEQ5WTSCWPC874X3RKSQ12>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Returning from Japan to the UK, George was sought after for his new knowledge and skills and settled in as head coach of the Renshuden and Budokwai in London.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M6C1ZABVJQHSFM6YXS0S2GWF/birthEvent>
         rdf:type                martialis:BirthEvent;
@@ -117215,6 +117550,15 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:sourceLocation      "190";
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
+
+<https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J/birthEvent/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        schema:citation            "George Kerr (judoka) - English Wikipedia";
+        schema:url                 <https://en.wikipedia.org/wiki/George_Kerr_(judoka)>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "George Kerr, CBE (born 24 August 1937) is a Scottish judoka.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M3YH7N5GR6462V5M1AE0M5CS/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -121161,7 +121505,7 @@ dcat:version  rdf:type  owl:DatatypeProperty .
 
 <https://martial.is/data.ttl#dataset/class/Place>
         void:class     martialis:Place;
-        void:entities  146 .
+        void:entities  147 .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1VC/birthEvent/birthPlace>
         rdf:type               martialis:GeoRef;
@@ -121313,6 +121657,14 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:accessed              "2026-09-23";
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceType            "webpage" .
+
+<https://martial.is/entity/01M7TEQ5WT7AYWWF1MGZB35CN5/foundedEvent/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TEQ5WT9EBK6K06SEAG4BQF>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "In the 1960’s, Mr Kerr established a successful judo and fitness club called “The Edinburgh Club”, which had an exchange programme with Tokai University in Japan.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M4R9845W7E3Q6HG9RGPSCA0A>
         rdf:type                 martialis:OfficerRole;
@@ -122677,6 +123029,13 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:hasConfidence         <https://martial.is/entity/01M5WKDYSR8BQJNCABA3XV8C15/hasConfidence>;
         martialis:hasEvidence           <https://martial.is/entity/01M5WKDYSR8BQJNCABA3XV8C15/hasEvidence/0>;
         martialis:transmissionDocument  <https://martial.is/entity/01M5WKDYSREXKFP6PWP1W6NPDR> .
+
+<https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J/hasEvidence/6>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TEQ5WT6ZDTHJF0P3ENYWRQ>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:supports         true .
 
 <https://martial.is/entity/01M6C18DS7XNBF9C5P9AQXZH6K/birthEvent/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -129516,6 +129875,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:hasEvidence        <https://martial.is/entity/01M7T8V5TQ8MCT71YAA0RQJG4C/hasEvidence/1>;
         martialis:hasInstructorRole  <https://martial.is/entity/01M7T8V5TQTJ2M7NMX0HQPBATS>;
         martialis:hasInstructorRole  <https://martial.is/entity/01M7T8V5TQXK4DYPJATBBNHTKP>;
+        martialis:hasInstructorRole  <https://martial.is/entity/01M7TEQ5WTWYM2C2PMQA7GDNGF>;
         martialis:hasSite            <https://martial.is/entity/01M7T8V5TQ8MCT71YAA0RQJG4C/hasSite/0>;
         martialis:placeType          <https://w3id.org/martialis/vocab/place-classification/dojo> .
 
@@ -130145,6 +130505,14 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         schema:name             "European Judo Union";
         martialis:publisherOrg  <https://martial.is/entity/01KZ45S0STZS9WKJ0JC5PPD8KP> .
 
+<https://martial.is/entity/01M7TEQ5WT2J2Y8W468QY70YJJ>
+        rdf:type                  martialis:TeacherAssertion;
+        martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B>;
+        martialis:hasConfidence   <https://martial.is/entity/01M7TEQ5WT2J2Y8W468QY70YJJ/hasConfidence>;
+        martialis:hasInteraction  <https://martial.is/entity/01M7TEQ5WT2J2Y8W468QY70YJJ/hasInteraction/0>;
+        martialis:hasInteraction  <https://martial.is/entity/01M7TEQ5WT2J2Y8W468QY70YJJ/hasInteraction/1>;
+        martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student> .
+
 <https://martial.is/entity/01KZKY9ZRHF2DG8JJ07FRBGR97/birthEvent/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KZKY9ZRHMPQTAFYD99WDVY1Q>;
@@ -130321,6 +130689,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M3YH7N5GXZBEDAHMKY71DH7T>;
         martialis:taughtAt             <https://martial.is/entity/01KY52HE49EXT0704VAEYG0W59>;
         martialis:teaches              <https://martial.is/entity/01M7TD2BTKJJ2GGAE0P4YD180N>;
+        martialis:teaches              <https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J>;
         martialis:teaches              <https://martial.is/entity/01M00NPBTP9PQDZS2N22G1AYG9>;
         martialis:trainedAt            <https://martial.is/entity/01KY52HE49EXT0704VAEYG0W59>;
         martialis:wasTaughtBy          <https://martial.is/entity/01KY52HE48XM1KHDGKBV98YRQ2>;
@@ -130900,6 +131269,16 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
+
+<https://martial.is/entity/01M7TEQ5WTK8N75ZPMJJ5PWRCX/hasInteraction/0/hasEvidence/1>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M7W1N6CXVVNKGADP5T19HEGN>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:primary;
+        martialis:quotation           "So I went down to the Budokwai. So, I'd get there about 6 o'clock in the morning [...] meet Trevor, my mentor";
+        martialis:sourceLocation      "0:17";
+        martialis:sourceLocatorLabel  "timestamp";
+        martialis:supports            true .
 
 <https://martial.is/entity/01M3YH7N5GHKDTZM9PAC0E0RZ1/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -131804,7 +132183,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/data.ttl#dataset/class/Source>
         void:class     martialis:Source;
-        void:entities  1538 .
+        void:entities  1545 .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SC/nationality/0>
         rdf:type               martialis:NationalityEntry;
@@ -135162,6 +135541,19 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
 
+<https://martial.is/entity/01M7TEQ5WTWYM2C2PMQA7GDNGF>
+        rdf:type                      martialis:InstructorRole;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M7TEQ5WT9EBK6K06SEAG4BQF>;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M7TEQ5WTSCWPC874X3RKSQ12>;
+        martialis:hasConfidence       <https://martial.is/entity/01M7TEQ5WTWYM2C2PMQA7GDNGF/hasConfidence>;
+        martialis:hasEvidence         <https://martial.is/entity/01M7TEQ5WTWYM2C2PMQA7GDNGF/hasEvidence/2>;
+        martialis:hasEvidence         <https://martial.is/entity/01M7TEQ5WTWYM2C2PMQA7GDNGF/hasEvidence/0>;
+        martialis:hasEvidence         <https://martial.is/entity/01M7TEQ5WTWYM2C2PMQA7GDNGF/hasEvidence/1>;
+        martialis:instructor          <https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J>;
+        martialis:instructorCapacity  <https://w3id.org/martialis/vocab/instructor-capacity/head_instructor>;
+        martialis:instructorPeriod    <https://martial.is/entity/01M7TEQ5WTWYM2C2PMQA7GDNGF/instructorPeriod>;
+        martialis:instructorStyle     <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B> .
+
 <https://martial.is/entity/01M3YH7N5FECYVSAX2JTDP7VSB/validDuring>
         rdf:type             martialis:TimeInterval;
         martialis:endYear    1912;
@@ -136416,6 +136808,18 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:quotation        "After studying the Tenjin Shinyo ryu style under Keitaro Inoue of Yushima Tenjin, Mr. Sakujiro Yokoyama entered Kodokan in April of 1886.";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7TEQ5WTQXV1CV41RYJRV43E>
+        rdf:type                      martialis:InstructorRole;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M7TEQ5WT9EBK6K06SEAG4BQF>;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M7TEQ5WT6ZDTHJF0P3ENYWRQ>;
+        martialis:hasConfidence       <https://martial.is/entity/01M7TEQ5WTQXV1CV41RYJRV43E/hasConfidence>;
+        martialis:hasEvidence         <https://martial.is/entity/01M7TEQ5WTQXV1CV41RYJRV43E/hasEvidence/0>;
+        martialis:hasEvidence         <https://martial.is/entity/01M7TEQ5WTQXV1CV41RYJRV43E/hasEvidence/1>;
+        martialis:instructor          <https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J>;
+        martialis:instructorCapacity  <https://w3id.org/martialis/vocab/instructor-capacity/head_instructor>;
+        martialis:instructorPeriod    <https://martial.is/entity/01M7TEQ5WTQXV1CV41RYJRV43E/instructorPeriod>;
+        martialis:instructorStyle     <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B> .
+
 <https://martial.is/entity/01KZ14WPRSHCHK4EJKNSP7S0CM/foundedEvent>
         rdf:type               martialis:FoundingEvent;
         prov:wasDerivedFrom    <https://martial.is/entity/01KZ14VST7480QQ2RE29TWBMT0>;
@@ -136610,6 +137014,16 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "And Seiichi Iju learned Gojushiho from Shinpan Gusukuma.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7TEQ5WTYCD3PKY3KB4R8EQ4>
+        rdf:type                      martialis:InstructorRole;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M7Q9A0QMC2TQSZ65AHH2WA4A>;
+        martialis:hasConfidence       <https://martial.is/entity/01M7TEQ5WTYCD3PKY3KB4R8EQ4/hasConfidence>;
+        martialis:hasEvidence         <https://martial.is/entity/01M7TEQ5WTYCD3PKY3KB4R8EQ4/hasEvidence/0>;
+        martialis:instructor          <https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J>;
+        martialis:instructorCapacity  <https://w3id.org/martialis/vocab/instructor-capacity/guest>;
+        martialis:instructorPeriod    <https://martial.is/entity/01M7TEQ5WTYCD3PKY3KB4R8EQ4/instructorPeriod>;
+        martialis:instructorStyle     <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B> .
 
 <https://martial.is/entity/01M5JPY6FN4P37W7D677STBWFZ>
         rdf:type                       martialis:Person;
@@ -140162,6 +140576,13 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:quotation        "he was contracted to train the brothers David and Buppellin vom Stain";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J/hasEvidence/5>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TEQ5WT7XR05YQ4G3D55S9M>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:supports         true .
+
 <https://martial.is/entity/01M6BQSYG60Q99QSTRPT96HQ9Q/foundedEvent>
         rdf:type                martialis:FoundingEvent;
         prov:wasDerivedFrom     <https://martial.is/entity/01M6BQSYG5G95JWRDX3V4BBGJ4>;
@@ -142483,6 +142904,14 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         rdf:type                    martialis:Photo;
         schema:contentUrl           <https://archive.org/download/vasili/vasili.jpg>;
         martialis:imageAttribution  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD7S/image/imageAttribution> .
+
+<https://martial.is/entity/01M7TEQ5WTYXDYD4SS5J428ZQN/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TEQ5WT61XB0BJEP66025D4>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "He was made 10th Dan in 2010 in recognition of his services to judo";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M6BQSYG60V0EXN023NGJQX90/foundedEvent/hasEvidence/1>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -145603,6 +146032,18 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:hasEvidence  <https://martial.is/entity/01M6BGZPMBNCDHD59AWDZTGF8E/hasInteraction/0/hasEvidence/1>;
         martialis:hasEvidence  <https://martial.is/entity/01M6BGZPMBNCDHD59AWDZTGF8E/hasInteraction/0/hasEvidence/0> .
 
+<https://martial.is/entity/01M7TEQ5WT7AYWWF1MGZB35CN5>
+        rdf:type                     martialis:Place;
+        schema:description           "Judo and fitness club in Edinburgh, founded by George Kerr in the 1960s and closed in 2003. It ran an exchange programme with Tokai University."@en;
+        schema:keywords              "judo";
+        schema:name                  "The Edinburgh Club"@en;
+        martialis:dissolvedEvent     <https://martial.is/entity/01M7TEQ5WT7AYWWF1MGZB35CN5/dissolvedEvent>;
+        martialis:foundedEvent       <https://martial.is/entity/01M7TEQ5WT7AYWWF1MGZB35CN5/foundedEvent>;
+        martialis:hasEvidence        <https://martial.is/entity/01M7TEQ5WT7AYWWF1MGZB35CN5/hasEvidence/0>;
+        martialis:hasInstructorRole  <https://martial.is/entity/01M7TEQ5WTQXV1CV41RYJRV43E>;
+        martialis:hasSite            <https://martial.is/entity/01M7TEQ5WT7AYWWF1MGZB35CN5/hasSite/0>;
+        martialis:placeType          <https://w3id.org/martialis/vocab/place-classification/club> .
+
 <https://martial.is/entity/01M3YH7N5G8E4HZS2WD5629JBW/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KZF0ZCDK1HJQFC8AMNBAMXHC>;
@@ -147450,6 +147891,13 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:earliestYear  2004;
         martialis:hasEvidence   <https://martial.is/entity/01M6C5JZZG407WH53XE7F3ZJ3C/deathEvent/hasEvidence/0>;
         martialis:latestYear    2004 .
+
+<https://martial.is/entity/01M7TEQ5WTWYM2C2PMQA7GDNGF/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "JudoScotland only. The start year is his return from Japan (Consulate-General); the end year is suggested by his exclusion from the 1964 Olympic trials, after which he went back to Edinburgh." .
 
 <https://martial.is/entity/01M3YH7N5GHQFRCZBF7ZAH8GP3/hasInteraction/0>
         rdf:type                     martialis:TeacherInteraction;
@@ -156308,6 +156756,11 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:hasEvidence   <https://martial.is/entity/01M5H3RJVTNJN00FNZZSNF8W9D/deathEvent/hasEvidence/0>;
         martialis:latestYear    1815 .
 
+<https://martial.is/entity/01M7TEQ5WTWYM2C2PMQA7GDNGF/instructorPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:endYear    1964;
+        martialis:startYear  1961 .
+
 <https://martial.is/entity/01M6C5JZZG1JG9BY4FW4KTYPR8/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M6C5JZZG2XXX0TYYXNBZM8GB>;
@@ -156481,6 +156934,14 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:basedOnSource    <https://martial.is/entity/01M6EF6KKAPHH4FA4HHSNRH76T>;
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
+        martialis:supports         true .
+
+<https://martial.is/entity/01M7TEQ5WTQXV1CV41RYJRV43E/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TEQ5WT6ZDTHJF0P3ENYWRQ>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "He founded the Edinburgh Club and began teaching generations of kids respectful combat in their jammies.";
         martialis:supports         true .
 
 <https://martial.is/entity/01M5FJCW4HY8JESPF1C61C7XBH/deathEvent>
@@ -156841,6 +157302,7 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:hasAffiliationAssertion  <https://martial.is/entity/01M7Q9PPT7FK8TRA8C1Z9MCZEG>;
         martialis:hasEvidence        <https://martial.is/entity/01M7Q9PPT79XVEZN7M9VVJE8GG/hasEvidence/0>;
         martialis:hasInstructorRole  <https://martial.is/entity/01M7TD2BTKATY08105239F7QBD>;
+        martialis:hasInstructorRole  <https://martial.is/entity/01M7TEQ5WTYCD3PKY3KB4R8EQ4>;
         martialis:hasInstructorRole  <https://martial.is/entity/01M7T5671EY78E2V8381TPXQD9>;
         martialis:hasInstructorRole  <https://martial.is/entity/01M7RBC9G5VWBBK6AEEJV39SCY>;
         martialis:hasSite            <https://martial.is/entity/01M7Q9PPT79XVEZN7M9VVJE8GG/hasSite/0>;
@@ -157484,6 +157946,18 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "Yoshida started training in Daitō-ryū aikijūjutsu in the early 1910s under the founder Takeda Sōkaku in Hokkaidō, and eventually he was awarded the kyōju dairi (representative instructor) title by Takeda";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7TEQ5WT2J2Y8W468QY70YJJ/hasInteraction/0>
+        rdf:type                     martialis:TeacherInteraction;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M7W1N6CX54E7M6H0ZRQP86PY>;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M7TEQ5WT9EBK6K06SEAG4BQF>;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M7TEQ5WTSCWPC874X3RKSQ12>;
+        martialis:hasEvidence        <https://martial.is/entity/01M7TEQ5WT2J2Y8W468QY70YJJ/hasInteraction/0/hasEvidence/1>;
+        martialis:hasEvidence        <https://martial.is/entity/01M7TEQ5WT2J2Y8W468QY70YJJ/hasInteraction/0/hasEvidence/0>;
+        martialis:hasEvidence        <https://martial.is/entity/01M7TEQ5WT2J2Y8W468QY70YJJ/hasInteraction/0/hasEvidence/3>;
+        martialis:hasEvidence        <https://martial.is/entity/01M7TEQ5WT2J2Y8W468QY70YJJ/hasInteraction/0/hasEvidence/2>;
+        martialis:interactionPeriod  <https://martial.is/entity/01M7TEQ5WT2J2Y8W468QY70YJJ/hasInteraction/0/interactionPeriod>;
+        martialis:interactionPlace   <https://martial.is/entity/01M7TD2BTK7XX3498CKV19KC4M> .
 
 <https://martial.is/entity/01M5H40EZXW3Y37B0XKFRNJ0H5/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -159643,6 +160117,25 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
 
+<https://martial.is/entity/01M7TEQ5WT6ZDTHJF0P3ENYWRQ>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://web.archive.org/web/20251228063312/https://www.scotsman.com/sport/interview-george-kerr-scotlands-mr-judo-1557513>;
+        schema:datePublished            "2013-10-19";
+        schema:description              "Aidan Smith's interview with George Kerr: his Japan scholarship and film work in the late 1950s, training at the Kodokan and the Budokwai, Charles Palmer as his mentor, his exclusion from the 1964 Olympics, and The Edinburgh Club."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "judo";
+        schema:name                     "Interview: George Kerr, Scotland’s Mr Judo";
+        schema:publisher                <https://martial.is/entity/01M7TEQ5WT6ZDTHJF0P3ENYWRQ/publisher>;
+        schema:url                      <https://www.scotsman.com/sport/interview-george-kerr-scotlands-mr-judo-1557513>;
+        martialis:accessed              "2026-11-19";
+        martialis:archiveDate           "2025-12-28";
+        martialis:earliestYear          2013;
+        martialis:hasContributor        <https://martial.is/entity/01M7TEQ5WT6ZDTHJF0P3ENYWRQ/hasContributor/0>;
+        martialis:latestYear            2013;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/interview>;
+        martialis:sourceType            "article-newspaper" .
+
 <https://martial.is/entity/01M0TVMGJVP7A46XX9P8WFSBTZ>
         rdf:type                        martialis:Source;
         schema:alternateName            "李霞（中国武术明星、武术运动员）";
@@ -160262,6 +160755,14 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "While studying at the Tokyo Metropolitan Police Academy in 1936, he received instruction under the renowned kumite (sparring) expert, Motobu Choki";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7TEQ5WTK8N75ZPMJJ5PWRCX>
+        rdf:type                  martialis:TeacherAssertion;
+        martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B>;
+        martialis:hasConfidence   <https://martial.is/entity/01M7TEQ5WTK8N75ZPMJJ5PWRCX/hasConfidence>;
+        martialis:hasInteraction  <https://martial.is/entity/01M7TEQ5WTK8N75ZPMJJ5PWRCX/hasInteraction/0>;
+        martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
+        martialis:teacher         <https://martial.is/entity/01M0CXZHZN5A1FFADBND5Z9K70> .
 
 <https://martial.is/entity/01M3YH7N5GX2JS7V6X3F6Y4MW4/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -165522,6 +166023,10 @@ dcat:Distribution  rdf:type  owl:Class .
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/BRA>;
         schema:sameAs          <http://www.wikidata.org/entity/Q155> .
 
+<https://martial.is/entity/01M7W1N6CX54E7M6H0ZRQP86PY/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "PORT Magazine" .
+
 <https://martial.is/entity/01M5JPY6FNFPJXHCN54E3ZSTNA>
         rdf:type                        martialis:Source;
         schema:alternateName            "Owen Swift";
@@ -166485,6 +166990,11 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:sourceLocation      "The Development of the Tenjin Shinyo-ryu";
         martialis:sourceLocatorLabel  "section";
         martialis:supports            false .
+
+<https://martial.is/entity/01M7TEQ5WT2J2Y8W468QY70YJJ/hasInteraction/1/interactionPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:endYear    1961;
+        martialis:startYear  1957 .
 
 <https://martial.is/entity/01KZ9TQS3VCCTAXE15YF88B0T9/foundedEvent>
         rdf:type                martialis:FoundingEvent;
@@ -168028,6 +168538,15 @@ dcterms:RightsStatement
         martialis:quotation        "Date de création 18/06/2016";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7TEQ5WT2J2Y8W468QY70YJJ/hasInteraction/1>
+        rdf:type                     martialis:TeacherInteraction;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M7TEQ5WT61XB0BJEP66025D4>;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M7TEQ5WT6ZDTHJF0P3ENYWRQ>;
+        martialis:hasEvidence        <https://martial.is/entity/01M7TEQ5WT2J2Y8W468QY70YJJ/hasInteraction/1/hasEvidence/1>;
+        martialis:hasEvidence        <https://martial.is/entity/01M7TEQ5WT2J2Y8W468QY70YJJ/hasInteraction/1/hasEvidence/0>;
+        martialis:interactionPeriod  <https://martial.is/entity/01M7TEQ5WT2J2Y8W468QY70YJJ/hasInteraction/1/interactionPeriod>;
+        martialis:interactionPlace   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD84> .
+
 <https://martial.is/entity/01M5JG4Y25H3040ABEHRCYZW4M/hasSite/0/location>
         rdf:type               martialis:GeoRef;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/FRA>;
@@ -169186,6 +169705,11 @@ dcterms:RightsStatement
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "MAAC interview states Salvitti holds a 5th degree black belt in Shotokan Karate under Sensei Lou Hopkins of East Coast Karate. No period dates documented." .
 
+<https://martial.is/entity/01M7TEQ5WT7XR05YQ4G3D55S9M/publisher>
+        rdf:type                martialis:Publisher;
+        schema:name             "International Judo Federation";
+        martialis:publisherOrg  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD83> .
+
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9Z/hasContributor/0>
         rdf:type                     martialis:Contributor;
         schema:familyName            "Geis";
@@ -169890,6 +170414,10 @@ dcterms:RightsStatement
 <https://martial.is/entity/01KZ49W5BP1A85CEYZ64WHZ1DC/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Clube Atlético de Alvalade" .
+
+<https://martial.is/entity/01M7TEQ5WT7AYWWF1MGZB35CN5/hasSite/0>
+        rdf:type         martialis:Site;
+        schema:location  <https://martial.is/entity/01M7TEQ5WT7AYWWF1MGZB35CN5/hasSite/0/location> .
 
 <https://martial.is/entity/01M3YH7N5GTKAJF7S4D4D531MS/hasInteraction/0>
         rdf:type               martialis:TeacherInteraction;
@@ -173883,6 +174411,13 @@ dcterms:RightsStatement
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Kogure says Tomiki taught both judo and aikido in the Waseda judo club he joined, and the Aikido Journal encyclopedia says he practised both under Tomiki." .
 
+<https://martial.is/entity/01M7W1N6CXVVNKGADP5T19HEGN/hasContributor/0>
+        rdf:type                     martialis:Contributor;
+        schema:familyName            "Kerr";
+        schema:givenName             "George";
+        martialis:contributorPerson  <https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J>;
+        martialis:contributorRole    "guest" .
+
 <https://martial.is/entity/01KZDXQH2MARRZH56QT95D2964/foundedEvent/location>
         rdf:type               martialis:GeoRef;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN> .
@@ -176769,6 +177304,10 @@ dcterms:RightsStatement
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01M1KR4J6EKM16CE6MBNMCKT9Q> .
 
+<https://martial.is/entity/01M7TEQ5WTQXV1CV41RYJRV43E/instructorPeriod>
+        rdf:type           martialis:TimeInterval;
+        martialis:endYear  2003 .
+
 <https://martial.is/entity/01KYJCSK3HM7WV1EJPH94Q18T2/deathEvent/deathPlace>
         rdf:type               martialis:GeoRef;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
@@ -177424,6 +177963,14 @@ dcterms:RightsStatement
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Kano's own account only." .
+
+<https://martial.is/entity/01M7TEQ5WTWYM2C2PMQA7GDNGF/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TEQ5WTSCWPC874X3RKSQ12>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/indirect>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "After controversially being banned from competing in the trials for the 1964 Olympic games in Tokyo for being deemed a professional, George decided to return home to his native Edinburgh";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M3YH7N5GRZP341PYE34ZQTPC/hasInteraction/0/hasEvidence/1>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -178165,6 +178712,11 @@ dcterms:RightsStatement
 <https://martial.is/entity/01M3YH7N5GGA2Y1K3M7W0NQR7T/hasInteraction/0>
         rdf:type               martialis:TeacherInteraction;
         martialis:hasEvidence  <https://martial.is/entity/01M3YH7N5GGA2Y1K3M7W0NQR7T/hasInteraction/0/hasEvidence/0> .
+
+<https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J/nationality/0>
+        rdf:type               martialis:NationalityEntry;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/GBR>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q145> .
 
 <https://martial.is/entity/01M5JGQAC75SVZN59T0JNYAEVS/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -186138,6 +186690,14 @@ dcterms:RightsStatement
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
 
+<https://martial.is/entity/01M7TEQ5WTQ0EFG97KMT5MSF10/hasEvidence/2>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TEQ5WT9EBK6K06SEAG4BQF>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/indirect>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "On returning to the UK in 1961";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M5H5WE2WSSFAGPFXA2Z8GR8Q>
         rdf:type                  martialis:TraditionOnlyAssertion;
         rdf:type                  martialis:TeacherAssertion;
@@ -187431,6 +187991,22 @@ dcterms:RightsStatement
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
         schema:name            "Yokkaichi";
         schema:sameAs          <http://www.wikidata.org/entity/Q26410> .
+
+<https://martial.is/entity/01M7TEQ5WTYXDYD4SS5J428ZQN>
+        rdf:type                 martialis:RankAssertion;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7TEQ5WT61XB0BJEP66025D4>;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7TEQ5WT7XR05YQ4G3D55S9M>;
+        martialis:conferredBy    <https://martial.is/entity/01KJJAWN29MA64W22606R3WD83>;
+        martialis:dateConferred  "2010";
+        martialis:earliestYear   2010;
+        martialis:hasConfidence  <https://martial.is/entity/01M7TEQ5WTYXDYD4SS5J428ZQN/hasConfidence>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7TEQ5WTYXDYD4SS5J428ZQN/hasEvidence/1>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7TEQ5WTYXDYD4SS5J428ZQN/hasEvidence/0>;
+        martialis:latestYear     2010;
+        martialis:rankOrdinal    10;
+        martialis:rankStyle      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B>;
+        martialis:rankSystem     <https://martial.is/entity/01M11K25NF0E7HG8HWVWM2P3FG>;
+        martialis:rankType       <https://w3id.org/martialis/vocab/rank-type/dan> .
 
 <https://martial.is/entity/01M0TT32BHEP6PVQB8YQEXMXFP/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -189406,6 +189982,14 @@ dcterms:RightsStatement
         martialis:quotation        "Presidente do Conselho Técnico de Aikido da FPADA de 1994 até Março de 1998";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J/birthEvent/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TEQ5WT9EBK6K06SEAG4BQF>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Mr George Kerr was born in 1937.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3YH7N5GJVYE0PMHZTZZ9F10>
         rdf:type                  martialis:TeacherAssertion;
         martialis:assertedStyle   <https://martial.is/entity/01KYHF558ACS4T9K0BR6YWXABY>;
@@ -191178,6 +191762,14 @@ dcterms:RightsStatement
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
 
+<https://martial.is/entity/01M7TEQ5WT2J2Y8W468QY70YJJ/hasInteraction/0/hasEvidence/3>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TEQ5WTSCWPC874X3RKSQ12>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "George attended Nihon University, known as Nichidai University where he studied Judo for four years and 3 months.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M36K42AM05YPNNB1QKPQ8SB5/birthEvent/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M36K42AMV18YA3ZE2TRNQVHF>;
@@ -191888,6 +192480,24 @@ dcterms:RightsStatement
         martialis:informationType  infotype:primary;
         martialis:quotation        "合気道泉州武育会泉佐野末広道場";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7TEQ5WTSCWPC874X3RKSQ12>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://web.archive.org/web/20261119174600/https://www.judoscotland.com/dr-george-kerr-10th-dan-president-emeritus/>;
+        schema:datePublished            "2023-10-01";
+        schema:description              "JudoScotland announcement of George Kerr as President Emeritus, with a career summary: Budokwai scholarship under T. P. Leggett, Nihon University, head coach of the Renshuden and the Budokwai, and The Edinburgh Club."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "judo";
+        schema:name                     "Dr George Kerr 10th Dan, President Emeritus";
+        schema:publisher                <https://martial.is/entity/01M7TEQ5WTSCWPC874X3RKSQ12/publisher>;
+        schema:url                      <https://www.judoscotland.com/dr-george-kerr-10th-dan-president-emeritus/>;
+        martialis:accessed              "2026-11-19";
+        martialis:archiveDate           "2026-11-19";
+        martialis:earliestYear          2023;
+        martialis:latestYear            2023;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/news>;
+        martialis:sourceType            "webpage" .
 
 <https://martial.is/entity/01M6C1R00544AGT9R4VEHP95E0/hasInteraction/0/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -207242,6 +207852,28 @@ dcterms:RightsStatement
         martialis:hasEvidence   <https://martial.is/entity/01KZ6XT5DS9BPQ109R3EJ8MKVG/foundedEvent/hasEvidence/1>;
         martialis:latestYear    1933 .
 
+<https://martial.is/entity/01M7W1N6CXVVNKGADP5T19HEGN>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://web.archive.org/web/20261120083709/https://vimeo.com/170805554>;
+        schema:datePublished            "2016";
+        schema:description              "Short documentary in the In Their Time series by Richie Georgie (Rich Round-Turner and George Daniell): George Kerr, in his Edinburgh dojo, recounts his training at the Budokwai under Trevor Leggett and his years in Japan."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "video";
+        schema:keywords                 "judo";
+        schema:name                     "In Their Time: George Kerr";
+        schema:publisher                <https://martial.is/entity/01M7W1N6CXVVNKGADP5T19HEGN/publisher>;
+        schema:url                      <https://vimeo.com/170805554>;
+        martialis:accessed              "2026-11-20";
+        martialis:archiveDate           "2026-11-20";
+        martialis:earliestYear          2016;
+        martialis:hasContributor        <https://martial.is/entity/01M7W1N6CXVVNKGADP5T19HEGN/hasContributor/1>;
+        martialis:hasContributor        <https://martial.is/entity/01M7W1N6CXVVNKGADP5T19HEGN/hasContributor/2>;
+        martialis:hasContributor        <https://martial.is/entity/01M7W1N6CXVVNKGADP5T19HEGN/hasContributor/0>;
+        martialis:latestYear            2016;
+        martialis:sourceClassification  srcclass:original;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/interview>;
+        martialis:sourceType            "motion_picture" .
+
 <https://martial.is/entity/01M3YH7N5G6RJ5924G6CW64TM5/hasInteraction/0/hasEvidence/2>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KYPR7TQ39JG7RR54RKVMKNNG>;
@@ -207963,6 +208595,14 @@ dcterms:RightsStatement
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:primary;
         martialis:quotation        "If I remember correctly we practiced for one week.";
+        martialis:supports         true .
+
+<https://martial.is/entity/01M7TEQ5WTQ0EFG97KMT5MSF10/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TEQ5WTSCWPC874X3RKSQ12>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Returning from Japan to the UK, George was sought after for his new knowledge and skills and settled in as head coach of the Renshuden and Budokwai in London.";
         martialis:supports         true .
 
 <https://martial.is/entity/01KZEFJ55DYXZHDHV1WXX6MGAX/hasEvidence/0>
@@ -210032,6 +210672,13 @@ dcterms:RightsStatement
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
         martialis:quotation        "Growing up, he learned Karate from his father. He also received lessons from Entasu Isaenta and Toguichi Seitoku.";
+        martialis:supports         true .
+
+<https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7W1N6CXVVNKGADP5T19HEGN>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
         martialis:supports         true .
 
 <https://martial.is/entity/01M6C1R005N5DENXC3XBPF0B18/nationality/0>
@@ -213627,6 +214274,14 @@ void:vocabulary  rdf:type  owl:ObjectProperty .
         martialis:quotation        "Among his students were Yoki Uema (1920 - 2011, founder of Shorin-Ryu Shubukan), Seiichi Iju (who was the first teacher of Shuguro Nakazato, the founder of Shorin-Ryu Shorinkan, and who taught the latter the kata Gojushiho), Seitoku Ishikawa (1925 - 2013) and Seikichi Iha (born in 1932).";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7TEQ5WTYXDYD4SS5J428ZQN/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TEQ5WT7XR05YQ4G3D55S9M>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "Kerr was awarded his 10th Dan (Jūdan) by the IJF for international services to judo in 2010";
+        martialis:supports         true .
+
 <https://martial.is/entity/01KYFWK774DM2KYRNHMWE2H0FY/birthEvent>
         rdf:type                martialis:BirthEvent;
         prov:wasDerivedFrom     <https://martial.is/entity/01M4R5BSERR6DK3W0YZJYQH3G5>;
@@ -214994,6 +215649,13 @@ void:uriSpace  rdf:type  owl:DatatypeProperty .
         martialis:styleType     <https://w3id.org/martialis/vocab/style-classification/traditional>;
         martialis:variantOf     <https://martial.is/entity/01M5JRHX02FJ6XZ3X069NVX3SE> .
 
+<https://martial.is/entity/01M7TEQ5WTYCD3PKY3KB4R8EQ4/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:possible;
+        martialis:confidenceRationale  "Búason (2012, p. 20) has Kerr and Alex Fraser come to Iceland on behalf of Judofélag Reykjavíkur in February 1968. Single secondary source." .
+
 <https://martial.is/entity/01KYMSJAD9QGRF97NBVP2KP9S2/deathEvent/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         schema:citation            "Roy Moore (wrestler) - Wikipedia EN";
@@ -215527,6 +216189,19 @@ dcterms:identifier  rdf:type  owl:AnnotationProperty .
         schema:name            "Jun'an";
         schema:sameAs          <http://www.wikidata.org/entity/Q6311390> .
 
+<https://martial.is/entity/01M7TEQ5WTQ0EFG97KMT5MSF10>
+        rdf:type                      martialis:InstructorRole;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M7TEQ5WT9EBK6K06SEAG4BQF>;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M7TEQ5WTSCWPC874X3RKSQ12>;
+        martialis:hasConfidence       <https://martial.is/entity/01M7TEQ5WTQ0EFG97KMT5MSF10/hasConfidence>;
+        martialis:hasEvidence         <https://martial.is/entity/01M7TEQ5WTQ0EFG97KMT5MSF10/hasEvidence/1>;
+        martialis:hasEvidence         <https://martial.is/entity/01M7TEQ5WTQ0EFG97KMT5MSF10/hasEvidence/2>;
+        martialis:hasEvidence         <https://martial.is/entity/01M7TEQ5WTQ0EFG97KMT5MSF10/hasEvidence/0>;
+        martialis:instructor          <https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J>;
+        martialis:instructorCapacity  <https://w3id.org/martialis/vocab/instructor-capacity/head_instructor>;
+        martialis:instructorPeriod    <https://martial.is/entity/01M7TEQ5WTQ0EFG97KMT5MSF10/instructorPeriod>;
+        martialis:instructorStyle     <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B> .
+
 <https://martial.is/entity/01M4R9845WFEYWMMYBCTA3AYT3/hasConfidence>
         rdf:type                       martialis:Confidence;
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
@@ -215785,6 +216460,14 @@ dcterms:identifier  rdf:type  owl:AnnotationProperty .
         martialis:hasInteraction  <https://martial.is/entity/01M3YH7N5GXGXKBEDR9EZM5Y4M/hasInteraction/0>;
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01KJJAWN29MA64W22606R3WD7D> .
+
+<https://martial.is/entity/01M7TEQ5WT2J2Y8W468QY70YJJ/hasInteraction/0/hasEvidence/2>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7W1N6CX54E7M6H0ZRQP86PY>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/indirect>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "recounts travelling from Edinburgh to Tokyo in 1957 to attend the ultimate training academy";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M5JPY6FN8BK8XJFG8XTCXVJY/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -216066,6 +216749,15 @@ dcterms:identifier  rdf:type  owl:AnnotationProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "Aluno do Mestre Mitsugi Saotome desde 22 Agosto de 2000.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7TEQ5WTK8N75ZPMJJ5PWRCX/hasInteraction/0>
+        rdf:type                    martialis:TeacherInteraction;
+        prov:hadPrimarySource       <https://martial.is/entity/01M7W1N6CXVVNKGADP5T19HEGN>;
+        prov:wasDerivedFrom         <https://martial.is/entity/01M7TEQ5WTSCWPC874X3RKSQ12>;
+        prov:wasDerivedFrom         <https://martial.is/entity/01M7W1N6CXVVNKGADP5T19HEGN>;
+        martialis:hasEvidence       <https://martial.is/entity/01M7TEQ5WTK8N75ZPMJJ5PWRCX/hasInteraction/0/hasEvidence/0>;
+        martialis:hasEvidence       <https://martial.is/entity/01M7TEQ5WTK8N75ZPMJJ5PWRCX/hasInteraction/0/hasEvidence/1>;
+        martialis:interactionPlace  <https://martial.is/entity/01KY52HE49EXT0704VAEYG0W59> .
 
 <https://martial.is/entity/01M3YH7N5GCMBV573AHQXPJ97E/hasInteraction/0/interactionPeriod>
         rdf:type             martialis:TimeInterval;
@@ -218769,6 +219461,13 @@ dcterms:identifier  rdf:type  owl:AnnotationProperty .
         rdf:type             martialis:TimeInterval;
         martialis:startYear  2012 .
 
+<https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J/hasEvidence/2>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TEQ5WT9EBK6K06SEAG4BQF>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:supports         true .
+
 <https://martial.is/entity/01M5H51WJ0AKNN3Q8785YRS8QE/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
         martialis:basedOnSource       <https://martial.is/entity/01M5G930MN1VM84DEZNGEZP48E>;
@@ -219267,6 +219966,17 @@ dcterms:identifier  rdf:type  owl:AnnotationProperty .
         martialis:sourceLocation      "Interview with Royler Gracie (after chapter 13)";
         martialis:sourceLocatorLabel  "section";
         martialis:supports            true .
+
+<https://martial.is/entity/01M7TEQ5WT7AYWWF1MGZB35CN5/foundedEvent>
+        rdf:type                martialis:FoundingEvent;
+        prov:wasDerivedFrom     <https://martial.is/entity/01M7TEQ5WT9EBK6K06SEAG4BQF>;
+        prov:wasDerivedFrom     <https://martial.is/entity/01M7TEQ5WT6ZDTHJF0P3ENYWRQ>;
+        schema:startDate        "196X";
+        martialis:earliestYear  1960;
+        martialis:founder       <https://martial.is/entity/01M7TEQ5WTJJGJJG7SJ0W3WT6J>;
+        martialis:hasEvidence   <https://martial.is/entity/01M7TEQ5WT7AYWWF1MGZB35CN5/foundedEvent/hasEvidence/1>;
+        martialis:hasEvidence   <https://martial.is/entity/01M7TEQ5WT7AYWWF1MGZB35CN5/foundedEvent/hasEvidence/0>;
+        martialis:latestYear    1969 .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6M>
         rdf:type                       martialis:Person;

@@ -1,0 +1,79 @@
+type: Place
+id: 01M7TEQ5WT7AYWWF1MGZB35CN5
+name:
+  en: The Edinburgh Club
+placeType: placeclass:club
+hasSite:
+  - location:
+      label: Edinburgh
+      countryCode: eucountry:GBR
+      wikidata: wd:Q23436
+foundedEvent:
+  startDate: '196X'
+  founder:
+    - 01M7TEQ5WTJJGJJG7SJ0W3WT6J
+  hasEvidence:
+    - basedOnSource: 01M7TEQ5WT9EBK6K06SEAG4BQF
+      quotation: >-
+        In the 1960’s, Mr Kerr established a successful judo and fitness club called “The Edinburgh Club”, which had an exchange programme with Tokai University in Japan.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M7TEQ5WT6ZDTHJF0P3ENYWRQ
+      quotation: >-
+        He founded the Edinburgh Club and began teaching generations of kids respectful combat in their jammies.
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+dissolvedEvent:
+  endDate: '2003'
+  dissolutionManner: dissmanner:defunct
+  hasEvidence:
+    - basedOnSource: 01M7TEQ5WT9EBK6K06SEAG4BQF
+      quotation: >-
+        He closed the club in 2003
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M7TEQ5WTQXV1CV41RYJRV43E
+    instructor: 01M7TEQ5WTJJGJJG7SJ0W3WT6J
+    instructorCapacity: instrcap:head_instructor
+    instructorStyle: 01KJJAWN29MA64W22606R3WD9B
+    instructorPeriod:
+      endYear: 2003
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The Consulate-General page and Kerr's own account in The Scotsman article.
+        Founded in the 1960s, no source gives the year. The end year is the
+        club's closure.
+    hasEvidence:
+      - basedOnSource: 01M7TEQ5WT9EBK6K06SEAG4BQF
+        quotation: >-
+          In the 1960’s, Mr Kerr established a successful judo and fitness club called “The Edinburgh Club”
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7TEQ5WT6ZDTHJF0P3ENYWRQ
+        quotation: >-
+          He founded the Edinburgh Club and began teaching generations of kids respectful combat in their jammies.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Judo and fitness club in Edinburgh, founded by George Kerr in the 1960s
+    and closed in 2003. It ran an exchange programme with Tokai University.
+notes: >-
+  In 2013 Kerr had taught judo in Edinburgh "for two years shy of half a
+  century" (The Scotsman), which points to about 1965. A 2024 Edinburgh
+  Reporter article marks the club's 60th year; not read (403).
+hasEvidence:
+  - basedOnSource: 01M7TEQ5WT9EBK6K06SEAG4BQF
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo

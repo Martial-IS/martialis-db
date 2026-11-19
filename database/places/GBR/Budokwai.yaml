@@ -196,6 +196,42 @@ hasInstructorRole:
         informationType: infotype:secondary
         supports: true
         evidenceType: evidencetype:direct
+  - id: 01M7TEQ5WTQ0EFG97KMT5MSF10
+    instructor: 01M7TEQ5WTJJGJJG7SJ0W3WT6J
+    instructorCapacity: instrcap:head_instructor
+    instructorStyle: 01KJJAWN29MA64W22606R3WD9B
+    instructorPeriod:
+      startYear: 1961
+      endYear: 1964
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        JudoScotland only. The start year is his return from Japan
+        (Consulate-General); the end year is suggested by his exclusion from the 1964
+        Olympic trials, after which he went back to Edinburgh.
+    hasEvidence:
+      - basedOnSource: 01M7TEQ5WTSCWPC874X3RKSQ12
+        quotation: >-
+          Returning from Japan to the UK, George was sought after for his new
+          knowledge and skills and settled in as head coach of the Renshuden
+          and Budokwai in London.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7TEQ5WTSCWPC874X3RKSQ12
+        quotation: >-
+          After controversially being banned from competing in the trials for
+          the 1964 Olympic games in Tokyo for being deemed a professional,
+          George decided to return home to his native Edinburgh
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+      - basedOnSource: 01M7TEQ5WT9EBK6K06SEAG4BQF
+        quotation: On returning to the UK in 1961
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
 foundedEvent:
   startDate: '1918-01-26'
   founder:

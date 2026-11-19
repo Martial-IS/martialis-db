@@ -1,0 +1,189 @@
+type: Person
+id: 01M7TEQ5WTJJGJJG7SJ0W3WT6J
+name:
+  en: George Kerr
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+birthEvent:
+  birthDate: '1937-08-24'
+  hasEvidence:
+    - basedOnSource: 01M7TEQ5WT9EBK6K06SEAG4BQF
+      quotation: >-
+        Mr George Kerr was born in 1937.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - uri: https://en.wikipedia.org/wiki/George_Kerr_(judoka)
+      cite: George Kerr (judoka) - English Wikipedia
+      quotation: George Kerr, CBE (born 24 August 1937) is a Scottish judoka.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Scottish judoka and coach, IJF 10th dan. European champion in 1957 after
+    training at the Budokwai and in Japan, he founded The Edinburgh Club,
+    coached Peter Seisenbacher to two Olympic titles and was chairman and
+    president of the British Judo Association.
+notes: >-
+  Dates in Japan differ: the Consulate-General has him go after the 1957
+  European title, for four years, back in 1961, and PORT Magazine has him
+  travel to Tokyo in 1957; "At 18" (Scottish Sports Hall of Fame) and the
+  voyage past Suez during the crisis (The Scotsman) point to 1956.
+  JudoScotland gives four years and three months.
+  First dan at 15 (Hall of Fame) or 16 (Consulate-General); no rank claim.
+  The Scotsman names Charles Palmer, then at the Budokwai, as his mentor
+  after his return from Japan; Palmer has no Person record. The full birth
+  date is from Wikipedia and Wikidata only. The 10th dan is an IJF grade,
+  not a Kōdōkan one. Autobiography: My Journey to the 10th Dan.
+hasTeacherAssertion:
+  - id: 01M7TEQ5WTK8N75ZPMJJ5PWRCX
+    teacher: 01M0CXZHZN5A1FFADBND5Z9K70
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        JudoScotland and Kerr's own account in the In Their Time film: a
+        scholarship to train at the Budokwai under Leggett, before Japan.
+        Not dated.
+    hasInteraction:
+      - interactionPlace: 01KY52HE49EXT0704VAEYG0W59
+        hasEvidence:
+          - basedOnSource: 01M7TEQ5WTSCWPC874X3RKSQ12
+            quotation: >-
+              George won a scholarship to train at the Budokwai Judo Club London, under the tuition of Master of Judo Mr T.P. Leggett who orchestrated a lifechanging opportunity for George to live and train in Japan.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M7W1N6CXVVNKGADP5T19HEGN
+            locator: '0:17'
+            locatorLabel: timestamp
+            quotation: >-
+              So I went down to the Budokwai. So, I'd get there about 6
+              o'clock in the morning [...] meet Trevor, my mentor
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M7TEQ5WT2J2Y8W468QY70YJJ
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Training in Tokyo with no teacher named, Nihon University in the
+        Consulate-General page, the Hall of Fame and JudoScotland, the
+        Kodokan in the Hall of Fame and The Scotsman. The period is the
+        Consulate-General one. PORT Magazine also dates the journey to
+        1957.
+    hasInteraction:
+      - interactionPlace: 01M7TD2BTK7XX3498CKV19KC4M
+        interactionPeriod:
+          startYear: 1957
+          endYear: 1961
+        hasEvidence:
+          - basedOnSource: 01M7TEQ5WT9EBK6K06SEAG4BQF
+            quotation: >-
+              Following this amazing success, he undertook judo training in Japan for four years while studying at Nihon University.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M7TEQ5WT9EBK6K06SEAG4BQF
+            quotation: >-
+              On returning to the UK in 1961
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M7W1N6CX54E7M6H0ZRQP86PY
+            quotation: >-
+              recounts travelling from Edinburgh to Tokyo in 1957 to attend the
+              ultimate training academy
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+          - basedOnSource: 01M7TEQ5WTSCWPC874X3RKSQ12
+            quotation: >-
+              George attended Nihon University, known as Nichidai University where he studied Judo for four years and 3 months.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD84
+        interactionPeriod:
+          startYear: 1957
+          endYear: 1961
+        hasEvidence:
+          - basedOnSource: 01M7TEQ5WT61XB0BJEP66025D4
+            quotation: >-
+              At 18, he went to Japan to study at Nihon University and the Kodokan Institute, spending four years training in the Far East.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M7TEQ5WT6ZDTHJF0P3ENYWRQ
+            quotation: >-
+              The Kodokan, judo’s spiritual home, necessitated him shaving his head.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M7TEQ5WTYXDYD4SS5J428ZQN
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 10
+    conferredBy: 01KJJAWN29MA64W22606R3WD83
+    dateConferred: '2010'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The IJF's own Hall of Fame entry, the awarding body's record. An IJF
+        grade.
+    hasEvidence:
+      - basedOnSource: 01M7TEQ5WT7XR05YQ4G3D55S9M
+        quotation: >-
+          Kerr was awarded his 10th Dan (Jūdan) by the IJF for international services to judo in 2010
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7TEQ5WT61XB0BJEP66025D4
+        quotation: >-
+          He was made 10th Dan in 2010 in recognition of his services to judo
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M7W1N6CXVVNKGADP5T19HEGN
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M7W1N6CX54E7M6H0ZRQP86PY
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M7TEQ5WT9EBK6K06SEAG4BQF
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M7TEQ5WT61XB0BJEP66025D4
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M7TEQ5WTSCWPC874X3RKSQ12
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M7TEQ5WT7XR05YQ4G3D55S9M
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M7TEQ5WT6ZDTHJF0P3ENYWRQ
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q956918
+tags:
+  - judo
