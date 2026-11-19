@@ -1,0 +1,97 @@
+type: Person
+id: 01M7T8V5TQ39ZGAV0YH6HMN0QE
+name:
+  en: Saburo Matsushita
+  ja-Latn: Matsushita Saburō
+  ja: 松下 三郎
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1935'
+  birthPlace:
+    label: Kagoshima Prefecture
+    countryCode: eucountry:JPN
+    wikidata: wd:Q15701
+  hasEvidence:
+    - basedOnSource: 01M7T8V5TQFD7CR3H00TP3GP0J
+      quotation: Matsushita Sensei was born in 1935 in Kagoshima Prefecture.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZXXSB6VWQ467ARN5179K098
+      locator: 130, note 1
+      locatorLabel: page
+      quotation: the late Matsushita Saburō 松下三郎 (1935-2020) Kōdōkan 9th dan
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2020-04-19'
+  hasEvidence:
+    - basedOnSource: 01M7T8V5TQFD7CR3H00TP3GP0J
+      quotation: >-
+        Matsushita Saburo, a member of the board of directors of the Kodokan
+        institute and ninth dan in Kodokan Judo, passed away on April 19,
+        2020 of pneumonia caused by the novel coronavirus.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Japanese judoka, Kōdōkan 9th dan. Twice winner of the All Japan
+    Students' championship, he taught at the Budokwai and the Renshuden in
+    London from 1958 to 1961, later became a professor at Nihon University
+    and directed the Kōdōkan's Education and Instruction Department.
+notes: >-
+  The BJC tribute to Watanabe has him leave the Renshuden in 1961 after
+  four years in the UK; De Crée (2024, p. 130, note 1) has him demonstrate
+  at the Budokwai Annual Display in 1962. The IJF says only "the early
+  60's". The 1955 students' title (Watson's Facebook post) has no Event
+  record.
+hasRankAssertion:
+  - id: 01M7T8V5TQVWVR1AN25G609CHT
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 9
+    conferredBy: 01KJJAWN29MA64W22606R3WD7X
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The IJF notice and De Crée (2024) both give Kōdōkan 9th dan. No date.
+    hasEvidence:
+      - basedOnSource: 01M7T8V5TQFD7CR3H00TP3GP0J
+        quotation: ninth dan in Kodokan Judo
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01KZXXSB6VWQ467ARN5179K098
+        locator: 130, note 1
+        locatorLabel: page
+        quotation: the late Matsushita Saburō 松下三郎 (1935-2020) Kōdōkan 9th dan
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M7T8V5TQFD7CR3H00TP3GP0J
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZXXSB6VWQ467ARN5179K098
+    locator: '130'
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M7T8V5TQJZ6YB9F942XD9THV
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M7T6KGEBZ2R8Q6Q7GP7WDQ1K
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo

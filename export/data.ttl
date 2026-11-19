@@ -2709,6 +2709,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:endYear    1932;
         martialis:startYear  1932 .
 
+<https://martial.is/entity/01M7T8V5TQTJ2M7NMX0HQPBATS/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:confirmed;
+        martialis:confidenceRationale  "Watson's Facebook post and his BJC tribute to Watanabe. The start year is the dojo's founding; the end year is the tribute's." .
+
 <https://martial.is/entity/01M6C5JZZGF497JRQVEXBY4CAZ/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M6C5JZZGFC3JVM9PPSCR85EX>;
@@ -5255,6 +5262,26 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         schema:name             "International Judo Federation";
         martialis:publisherOrg  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD83> .
 
+<https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W>
+        rdf:type                    martialis:Person;
+        schema:birthDate            "1936-01-29";
+        schema:birthPlace           <https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W/birthEvent/birthPlace>;
+        schema:deathDate            "2019-09-25";
+        schema:description          "Japanese judoka and coach. Captain of the Chuo University team, he coached at the Renshuden and the Budokwai in London from 1962 to 1967 and was GB national coach for three years."@en;
+        schema:keywords             "judo";
+        schema:name                 "渡辺 喜三郎"@ja;
+        schema:name                 "Kisaburo Watanabe"@en;
+        schema:name                 "Watanabe Kisaburō"@ja-Latn;
+        schema:nationality          <https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W/nationality/0>;
+        martialis:birthEvent        <https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W/birthEvent>;
+        martialis:deathEvent        <https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W/deathEvent>;
+        martialis:hasEvidence       <https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W/hasEvidence/3>;
+        martialis:hasEvidence       <https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W/hasEvidence/2>;
+        martialis:hasEvidence       <https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W/hasEvidence/0>;
+        martialis:hasEvidence       <https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W/hasEvidence/1>;
+        martialis:hasEvidence       <https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W/hasEvidence/4>;
+        martialis:hasRankAssertion  <https://martial.is/entity/01M7T7ZS7VMN7K3T0RAWND01D6> .
+
 <https://martial.is/entity/01M6C1ZABVF9PDV0FD9GGBCVMM/hasInteraction/0>
         rdf:type                    martialis:TeacherInteraction;
         prov:wasDerivedFrom         <https://martial.is/entity/01M6C13E8N9XJPMGPK31D6W0CX>;
@@ -6988,6 +7015,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Single source." .
+
+<https://martial.is/entity/01M7T8V5TQAN9EQJM77WWQ3PV1/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T6KGEBZ2R8Q6Q7GP7WDQ1K>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/indirect>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Earlier, in 1961 Saburo Matsushita left the Renshuden after a four-year stint in the UK and returned to Japan.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M3YH7N5GQTC6G0SDMMRMNC7D/hasInteraction/0/interactionPeriod>
         rdf:type             martialis:TimeInterval;
@@ -9482,8 +9517,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         void:classPartition   <https://martial.is/data.ttl#dataset/class/Organization>;
         void:classPartition   <https://martial.is/data.ttl#dataset/class/Event>;
         void:dataDump         <https://martial.is/data.ttl>;
-        void:entities         3014;
-        void:triples          167233;
+        void:entities         3025;
+        void:triples          167956;
         void:uriSpace         "https://martial.is/entity/";
         void:vocabulary       <http://purl.org/ontology/bibo/>;
         void:vocabulary       prov:;
@@ -10483,6 +10518,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/biography>;
         martialis:sourceType            "webpage" .
+
+<https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W/hasEvidence/3>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T5671EVY07Q736BHPBADNW>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:supports         true .
 
 <https://martial.is/entity/01M3YH7N5GYX6XGZXJBHQJPG04>
         rdf:type                 martialis:HonorAssertion;
@@ -14513,6 +14555,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         schema:name                "Wikipedia contributors";
         martialis:contributorRole  "contributor" .
 
+<https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE/deathEvent/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T8V5TQFD7CR3H00TP3GP0J>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Matsushita Saburo, a member of the board of directors of the Kodokan institute and ninth dan in Kodokan Judo, passed away on April 19, 2020 of pneumonia caused by the novel coronavirus.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3YH7N5GC4HZC8R7FXPWG78R/hasConfidence>
         rdf:type                       martialis:Confidence;
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
@@ -15437,6 +15487,11 @@ void:class  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "Il est le fils de Joseph Charlemont à qui il succédera à la tête de son club jusqu’à sa mort en 1944.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE/nationality/0>
+        rdf:type               martialis:NationalityEntry;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q17> .
 
 <https://martial.is/entity/01M6EF8Y2K75CZ4YM7B6XZH57R/hasInteraction/0/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -16385,6 +16440,15 @@ void:class  rdf:type  owl:ObjectProperty .
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
 
+<https://martial.is/entity/01M7T8V5TQ8MCT71YAA0RQJG4C/foundedEvent>
+        rdf:type                martialis:FoundingEvent;
+        prov:wasDerivedFrom     <https://martial.is/entity/01M0Q8AS711PKHZ2D7B12J5XX7>;
+        schema:startDate        "1959";
+        martialis:earliestYear  1959;
+        martialis:founder       <https://martial.is/entity/01M0CXZHZN5A1FFADBND5Z9K70>;
+        martialis:hasEvidence   <https://martial.is/entity/01M7T8V5TQ8MCT71YAA0RQJG4C/foundedEvent/hasEvidence/0>;
+        martialis:latestYear    1959 .
+
 <https://martial.is/entity/01M5KQTRGXJZ53YPWZ595ZNB9E/hasContributor/0>
         rdf:type                     martialis:Contributor;
         schema:familyName            "Charlemont";
@@ -16909,6 +16973,15 @@ void:class  rdf:type  owl:ObjectProperty .
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/USA>;
         schema:name            "San Francisco";
         schema:sameAs          <http://www.wikidata.org/entity/Q62> .
+
+<https://martial.is/entity/01M7T7ZS7VJPG6D7TSF1SM53RG/hasEvidence/0>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01KZXXSB6VWQ467ARN5179K098>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:secondary;
+        martialis:sourceLocation      "130, note 1";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
 
 <https://martial.is/entity/01M5JSGG50EKZ1SNDB9VGZPSD3>
         rdf:type                        martialis:Source;
@@ -17791,6 +17864,17 @@ void:class  rdf:type  owl:ObjectProperty .
         rdf:type             martialis:TimeInterval;
         martialis:endYear    1890;
         martialis:startYear  1882 .
+
+<https://martial.is/entity/01M7T7ZS7VMN7K3T0RAWND01D6>
+        rdf:type                 martialis:RankAssertion;
+        prov:wasDerivedFrom      <https://martial.is/entity/01KZXXSB6VWQ467ARN5179K098>;
+        martialis:conferredBy    <https://martial.is/entity/01KJJAWN29MA64W22606R3WD7X>;
+        martialis:hasConfidence  <https://martial.is/entity/01M7T7ZS7VMN7K3T0RAWND01D6/hasConfidence>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7T7ZS7VMN7K3T0RAWND01D6/hasEvidence/0>;
+        martialis:rankOrdinal    7;
+        martialis:rankStyle      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B>;
+        martialis:rankSystem     <https://martial.is/entity/01M11K25NF0E7HG8HWVWM2P3FG>;
+        martialis:rankType       <https://w3id.org/martialis/vocab/rank-type/dan> .
 
 <https://martial.is/entity/01M5HP2J2C36FJKC29CMYJ7MY7>
         rdf:type                  martialis:TeacherAssertion;
@@ -19253,6 +19337,14 @@ void:class  rdf:type  owl:ObjectProperty .
         schema:startDate        "1947-04-19";
         martialis:earliestYear  1947;
         martialis:latestYear    1947 .
+
+<https://martial.is/entity/01M7T8V5TQXK4DYPJATBBNHTKP/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T6KGEBZ2R8Q6Q7GP7WDQ1K>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Watanabe stayed in Britain from 1962 to 1967. He taught principally at Leggett's Renshuden Judo Academy and at the Budokwai.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M3YH7N5GKQP3BFSH7YJAF0GD/hasInteraction/0/hasEvidence/2>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -22604,6 +22696,27 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:quotation        "1954年10月 8 日に「講道館派」の柔道家が 結集して講道館アマチュア連盟Union Fédérale Fran aise d Amateurs du Judo Kodokan（以 下、UAK）を発足させた。";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7T8V5TQJZ6YB9F942XD9THV>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://web.archive.org/web/20261119162431/https://www.facebook.com/groups/usadojo/posts/2870946369668721/>;
+        schema:datePublished            "2020-04-20";
+        schema:description              "Brian Watson's Facebook post on the death of Saburo Matsushita: his teaching at the Renshuden and the Budokwai, a 1961 summer course, and a photograph of the 1957 All Japan Students' Open-Weight Judo Championship podium."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "judo";
+        schema:name                     "Brian Watson on Saburo Matsushita (USAdojo.com, Facebook)";
+        schema:publisher                <https://martial.is/entity/01M7T8V5TQJZ6YB9F942XD9THV/publisher>;
+        schema:url                      <https://www.facebook.com/groups/usadojo/posts/2870946369668721/>;
+        martialis:accessed              "2026-11-19";
+        martialis:archiveDate           "2026-11-19";
+        martialis:earliestYear          2020;
+        martialis:hasContributor        <https://martial.is/entity/01M7T8V5TQJZ6YB9F942XD9THV/hasContributor/0>;
+        martialis:latestYear            2020;
+        martialis:partOf                <https://martial.is/entity/01M0DCY9PEY2P170DEM54SBV42>;
+        martialis:peerReview            <https://w3id.org/martialis/vocab/peer-review/not_peer_reviewed>;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/obituary>;
+        martialis:sourceType            "webpage" .
+
 <https://martial.is/entity/01M6ENPY5WE2S5FZ1XNWH6VG1Z/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Wikimedia Foundation" .
@@ -22840,6 +22953,13 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/FRA>;
         schema:name            "Paris";
         schema:sameAs          <http://www.wikidata.org/entity/Q90> .
+
+<https://martial.is/entity/01M7T7ZS7VK3YJM1B2BGCWFKSF/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "De Crée (2024, p. 130, note 1) has Watanabe and Matsushita Saburō demonstrate gonosen-no-kata at the display. Single secondary source." .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1V6/image>
         rdf:type                    martialis:Photo;
@@ -25109,6 +25229,11 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         schema:contentUrl           <https://upload.wikimedia.org/wikipedia/commons/7/74/Houjou.jpg>;
         martialis:imageAttribution  <https://martial.is/entity/01M31VKGQFQJZTNTNB0MR8RX56/photos/0/imageAttribution>;
         martialis:mediaRights       <https://w3id.org/martialis/vocab/media-rights/cc-by-sa-2.5> .
+
+<https://martial.is/entity/01M7T8V5TQXK4DYPJATBBNHTKP/instructorPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:endYear    1967;
+        martialis:startYear  1962 .
 
 <https://martial.is/entity/01M55AF57KBF194D4DNCZCGTZ4>
         rdf:type                        martialis:Source;
@@ -31936,7 +32061,9 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:hasEvidence        <https://martial.is/entity/01KY52HE49EXT0704VAEYG0W59/hasEvidence/0>;
         martialis:hasEvidence        <https://martial.is/entity/01KY52HE49EXT0704VAEYG0W59/hasEvidence/1>;
         martialis:hasEvidence        <https://martial.is/entity/01KY52HE49EXT0704VAEYG0W59/hasEvidence/2>;
+        martialis:hasInstructorRole  <https://martial.is/entity/01M7T8V5TQAN9EQJM77WWQ3PV1>;
         martialis:hasInstructorRole  <https://martial.is/entity/01M4R9845W5DP6VA07YQPZVGB5>;
+        martialis:hasInstructorRole  <https://martial.is/entity/01M7T5671E7RA9ZCCEADX2F95V>;
         martialis:hasInstructorRole  <https://martial.is/entity/01M5H3D2EC51RX6AEGD9TA95WF>;
         martialis:hasSite            <https://martial.is/entity/01KY52HE49EXT0704VAEYG0W59/hasSite/0>;
         martialis:placeType          <https://w3id.org/martialis/vocab/place-classification/dojo> .
@@ -31977,6 +32104,11 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:hasInteraction  <https://martial.is/entity/01M3YH7N5GASHZA88TQDEYBKTY/hasInteraction/0>;
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01KZBWQ0AJ1CS0CYD84258VKTE> .
+
+<https://martial.is/entity/01M7T5671EY78E2V8381TPXQD9/instructorPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:endYear    1966;
+        martialis:startYear  1966 .
 
 <https://martial.is/entity/01M6C1FR4AVBJHXKZRTXM8HZA5>
         rdf:type                       martialis:Person;
@@ -33058,6 +33190,16 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         schema:citation            "Zvonsully, Wikimedia Commons";
         schema:url                 <https://commons.wikimedia.org/wiki/File:Wadoryu_flag.svg>;
         martialis:informationType  infotype:secondary .
+
+<https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE/birthEvent/hasEvidence/1>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01KZXXSB6VWQ467ARN5179K098>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:secondary;
+        martialis:quotation           "the late Matsushita Saburō 松下三郎 (1935-2020) Kōdōkan 9th dan";
+        martialis:sourceLocation      "130, note 1";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
 
 <https://martial.is/entity/01KZW2JNB8BQJ607PTE6XAJ44A/nationality/0>
         rdf:type               martialis:NationalityEntry;
@@ -37177,6 +37319,14 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
         rdf:type     martialis:Publisher;
         schema:name  "Wikimedia Foundation" .
 
+<https://martial.is/entity/01M7T8V5TQ8MCT71YAA0RQJG4C/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M0Q8AS711PKHZ2D7B12J5XX7>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "[The Budokwai and the Renshuden] lived in a weird symbiosis, sharing top Japanese teachers.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M6EHHZQ6S45EWQVEE6CPBA5C/hasConfidence>
         rdf:type                       martialis:Confidence;
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
@@ -37498,6 +37648,16 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
         martialis:hasEvidence        <https://martial.is/entity/01M3YH7N5GV61CQNVC9ADRKC1G/hasInteraction/0/hasEvidence/0>;
         martialis:hasEvidence        <https://martial.is/entity/01M3YH7N5GV61CQNVC9ADRKC1G/hasInteraction/0/hasEvidence/1>;
         martialis:interactionPeriod  <https://martial.is/entity/01M3YH7N5GV61CQNVC9ADRKC1G/hasInteraction/0/interactionPeriod> .
+
+<https://martial.is/entity/01M7T5671EY78E2V8381TPXQD9/hasEvidence/1>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M7Q9A0QMC2TQSZ65AHH2WA4A>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:secondary;
+        martialis:quotation           "Hinn 26. febrúar lenti svo á Íslandi þjálfari breska landsliðsins í júdó, Kisaburo Watanabe [...] Watanabe staldraði þó stutt við";
+        martialis:sourceLocation      "19";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
 
 <https://martial.is/entity/01M3YH7N5FX1VBYWBPQWCHZ6K6/hasInteraction/0/interactionPeriod>
         rdf:type             martialis:TimeInterval;
@@ -38181,6 +38341,13 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
         martialis:earliestYear  1995;
         martialis:hasEvidence   <https://martial.is/entity/01KZEFA2088C137TY8NABKN9MM/deathEvent/hasEvidence/0>;
         martialis:latestYear    1995 .
+
+<https://martial.is/entity/01M7T8V5TQJACSRCQBJCE9BW41/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "Watson's own account: Matsushita was his first judo teacher, and he attended one of Matsushita's summer courses in 1961. One-sided self-report." .
 
 <https://martial.is/entity/01KZSHP5051T42K9VSVQ3ZXTVJ/nationality/0>
         rdf:type               martialis:NationalityEntry;
@@ -40987,6 +41154,13 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Single source." .
+
+<https://martial.is/entity/01M7T7ZS7VMN7K3T0RAWND01D6/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "De Crée (2024, p. 130, note 1) gives him as Kōdōkan 7th dan. No date. Single secondary source." .
 
 <https://martial.is/entity/01M5H3PSF4AQKMM38JPWXKJPB1/hasInteraction/0/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -44238,6 +44412,17 @@ void:Dataset  rdf:type  owl:Class .
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceType            "entry-encyclopedia" .
 
+<https://martial.is/entity/01M7T8V5TQJBYXA4G7EZNHSKQF>
+        rdf:type                       martialis:Person;
+        schema:description             "British judoka and author living in Japan, translator and compiler of Judo Memoirs of Jigoro Kano."@en;
+        schema:keywords                "judo";
+        schema:name                    "Brian N. Watson"@en;
+        schema:nationality             <https://martial.is/entity/01M7T8V5TQJBYXA4G7EZNHSKQF/nationality/0>;
+        martialis:hasEvidence          <https://martial.is/entity/01M7T8V5TQJBYXA4G7EZNHSKQF/hasEvidence/1>;
+        martialis:hasEvidence          <https://martial.is/entity/01M7T8V5TQJBYXA4G7EZNHSKQF/hasEvidence/0>;
+        martialis:hasTeacherAssertion  <https://martial.is/entity/01M7T8V5TQJACSRCQBJCE9BW41>;
+        martialis:wasTaughtBy          <https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE> .
+
 <https://martial.is/entity/01KYYP8SJVQZKV315BK2M8597R/foundedEvent>
         rdf:type                martialis:FoundingEvent;
         prov:wasDerivedFrom     <https://martial.is/entity/01KYYP8SJV9P78NQ704VH2EN8R>;
@@ -45240,6 +45425,14 @@ void:Dataset  rdf:type  owl:Class .
         schema:contentUrl           <https://upload.wikimedia.org/wikipedia/commons/d/d2/Mitsuhashi_Kanichiro.jpg>;
         martialis:imageAttribution  <https://martial.is/entity/01M6EFVT2TB0FSJW6X3C0NBVSK/image/imageAttribution>;
         martialis:mediaRights       <https://w3id.org/martialis/vocab/media-rights/public_domain_mark> .
+
+<https://martial.is/entity/01M7T8V5TQJACSRCQBJCE9BW41/hasInteraction/0/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T8V5TQJZ6YB9F942XD9THV>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "He was my first judo teacher. I, a yellow belt in those days, well remember attending one of his popular summer courses in 1961.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M5JRHX02ZCAMMT67XS5Y2BS8/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -54942,6 +55135,13 @@ void:entities  rdf:type  owl:DatatypeProperty .
         martialis:interactionPeriod  <https://martial.is/entity/01M3YH7N5GKJ6J8K6N71KV9PG5/hasInteraction/0/interactionPeriod>;
         martialis:interactionPlace   <https://martial.is/entity/01KZW2JNB8DM1V6FDVBXVVXH7C> .
 
+<https://martial.is/entity/01M7T8V5TQJZ6YB9F942XD9THV/hasContributor/0>
+        rdf:type                     martialis:Contributor;
+        schema:familyName            "Watson";
+        schema:givenName             "Brian N.";
+        martialis:contributorPerson  <https://martial.is/entity/01M7T8V5TQJBYXA4G7EZNHSKQF>;
+        martialis:contributorRole    "author" .
+
 <https://martial.is/entity/01M3YH7N5GJYK72Z8E5SJ68GW7/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M0QZ9H4W5FQD8EGQG7V4HYJS>;
@@ -55927,6 +56127,10 @@ void:entities  rdf:type  owl:DatatypeProperty .
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01M6BGKGNVGJAR5SR2XVBFHR1K> .
 
+<https://martial.is/entity/01M7T6KGEBZ2R8Q6Q7GP7WDQ1K/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "The British Judo Council" .
+
 <https://martial.is/entity/01M764AMRBG8SN8CCXVWRYZGB6/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Aikido Journal" .
@@ -56491,6 +56695,11 @@ void:entities  rdf:type  owl:DatatypeProperty .
         martialis:rankSystem    <https://martial.is/entity/01M11K25NF0E7HG8HWVWM2P3FJ>;
         martialis:styleType     <https://w3id.org/martialis/vocab/style-classification/traditional>;
         martialis:variantOf     <https://martial.is/entity/01KYHNJKQDTEJ1A5MQ5JYPHDTB> .
+
+<https://martial.is/entity/01M7T5671EVY07Q736BHPBADNW/publisher>
+        rdf:type                martialis:Publisher;
+        schema:name             "The Budokwai";
+        martialis:publisherOrg  <https://martial.is/entity/01M325EAQG4P41V98G5PZWNJ4F> .
 
 <https://martial.is/entity/01KYYYTTW3Y75SK72Z4J0N1DZN/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -57575,6 +57784,13 @@ void:entities  rdf:type  owl:DatatypeProperty .
         prov:wasDerivedFrom    <https://martial.is/entity/01M5G930MNMCTZWM3RM7X4VCPV>;
         martialis:hasEvidence  <https://martial.is/entity/01M5HVMXM0F275XWJBDQT0X8WH/hasInteraction/0/hasEvidence/0>;
         martialis:hasEvidence  <https://martial.is/entity/01M5HVMXM0F275XWJBDQT0X8WH/hasInteraction/0/hasEvidence/1> .
+
+<https://martial.is/entity/01M7T8V5TQVWVR1AN25G609CHT/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:confirmed;
+        martialis:confidenceRationale  "The IJF notice and De Crée (2024) both give Kōdōkan 9th dan. No date." .
 
 <https://martial.is/entity/01M3YH7N5GMS083DZGJH0V1CSC/hasInteraction/0/interactionPeriod>
         rdf:type             martialis:TimeInterval;
@@ -59525,6 +59741,14 @@ dcat:mediaType  rdf:type  owl:ObjectProperty .
         martialis:hasEvidence        <https://martial.is/entity/01M3YH7N5GXN6QF4V9FF7B6SMY/hasInteraction/0/hasEvidence/0>;
         martialis:interactionPeriod  <https://martial.is/entity/01M3YH7N5GXN6QF4V9FF7B6SMY/hasInteraction/0/interactionPeriod> .
 
+<https://martial.is/entity/01M7T8V5TQJACSRCQBJCE9BW41>
+        rdf:type                  martialis:TeacherAssertion;
+        martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B>;
+        martialis:hasConfidence   <https://martial.is/entity/01M7T8V5TQJACSRCQBJCE9BW41/hasConfidence>;
+        martialis:hasInteraction  <https://martial.is/entity/01M7T8V5TQJACSRCQBJCE9BW41/hasInteraction/0>;
+        martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
+        martialis:teacher         <https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE> .
+
 <https://martial.is/entity/01M5CNY5CSC3NGWZ6M117F0042/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Niigata University Library" .
@@ -60371,6 +60595,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:sourceLocation      "N°9, ranks sidebar, p. 61";
         martialis:sourceLocatorLabel  "title-locator";
         martialis:supports            true .
+
+<https://martial.is/entity/01M7T7ZS7VK3YJM1B2BGCWFKSF>
+        rdf:type                     martialis:Participation;
+        prov:wasDerivedFrom          <https://martial.is/entity/01KZXXSB6VWQ467ARN5179K098>;
+        martialis:hasConfidence      <https://martial.is/entity/01M7T7ZS7VK3YJM1B2BGCWFKSF/hasConfidence>;
+        martialis:hasEvidence        <https://martial.is/entity/01M7T7ZS7VK3YJM1B2BGCWFKSF/hasEvidence/0>;
+        martialis:participant        <https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W>;
+        martialis:participationRole  <https://w3id.org/martialis/vocab/event-role/demonstrator> .
 
 <https://martial.is/entity/01M6BHSAXWBBGKCA4Z0A3K2X74/foundedEvent/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -64634,6 +64866,16 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         schema:name            "Lisbon";
         schema:sameAs          <http://www.wikidata.org/entity/Q597> .
 
+<https://martial.is/entity/01M7T7ZS7VK3YJM1B2BGCWFKSF/hasEvidence/0>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01KZXXSB6VWQ467ARN5179K098>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:secondary;
+        martialis:quotation           "the late Watanabe Kisaburō 渡辺喜三郎 (1936-2019), Kōdōkan 7th dan, actually publicly demonstrated gonosen-no-kata at the occasion of the Budōkwai Annual Display 1962 in London";
+        martialis:sourceLocation      "130, note 1";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
+
 <https://martial.is/entity/01M7G9JYQJP35J7QEPDYC4HQ9N/logo>
         rdf:type                    martialis:Photo;
         schema:contentUrl           <https://britishaikidoassociation.co.uk/wp-content/uploads/2024/11/baa_logo_150x150.webp>;
@@ -67271,6 +67513,20 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
         schema:sameAs          <http://www.wikidata.org/entity/Q17> .
 
+<https://martial.is/entity/01M7T8V5TQAN9EQJM77WWQ3PV1>
+        rdf:type                      martialis:InstructorRole;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M7T8V5TQJZ6YB9F942XD9THV>;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M7T6KGEBZ2R8Q6Q7GP7WDQ1K>;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M7T8V5TQFD7CR3H00TP3GP0J>;
+        martialis:hasConfidence       <https://martial.is/entity/01M7T8V5TQAN9EQJM77WWQ3PV1/hasConfidence>;
+        martialis:hasEvidence         <https://martial.is/entity/01M7T8V5TQAN9EQJM77WWQ3PV1/hasEvidence/1>;
+        martialis:hasEvidence         <https://martial.is/entity/01M7T8V5TQAN9EQJM77WWQ3PV1/hasEvidence/2>;
+        martialis:hasEvidence         <https://martial.is/entity/01M7T8V5TQAN9EQJM77WWQ3PV1/hasEvidence/0>;
+        martialis:instructor          <https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE>;
+        martialis:instructorCapacity  <https://w3id.org/martialis/vocab/instructor-capacity/instructor>;
+        martialis:instructorPeriod    <https://martial.is/entity/01M7T8V5TQAN9EQJM77WWQ3PV1/instructorPeriod>;
+        martialis:instructorStyle     <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B> .
+
 <https://martial.is/entity/01M3YH7N5G5J56YP58YRPN9186/hasInteraction/0/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KYZFG5QVZQ022FB8M70P2ZNR>;
@@ -67728,6 +67984,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:sourceClassification  srcclass:original;
         martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/other>;
         martialis:sourceType            "webpage" .
+
+<https://martial.is/entity/01M7T5671E7RA9ZCCEADX2F95V/hasEvidence/2>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T6KGEBZ2R8Q6Q7GP7WDQ1K>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Watanabe stayed in Britain from 1962 to 1967. He taught principally at Leggett's Renshuden Judo Academy and at the Budokwai.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M5KQTRGXJ1SZNSFC7SDQPKAP/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -68400,6 +68664,13 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 <https://martial.is/entity/01M3M3T743G46J49N1G8WFZFRE/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Bryn Mawr Judo Club (Facebook group post)" .
+
+<https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W/hasEvidence/2>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T5671E3FKFRZK0WGY5DXJW>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:supports         true .
 
 <https://martial.is/entity/01M5H4SVQGWZ4028GSHR1EJT7X/nationality/0>
         rdf:type               martialis:NationalityEntry;
@@ -70626,6 +70897,13 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:hasEvidence  <https://martial.is/entity/01M1KR4J6E27KZJFB5TFRZSCFG/hasEvidence/0>;
         martialis:teaches      <https://martial.is/entity/01KZM7FWX5ED60G33KMWKDRWYT> .
 
+<https://martial.is/entity/01M7T8V5TQ4ZTM4JGRR1MFS447/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "Watson's photograph caption only." .
+
 <https://martial.is/entity/01KXTSQXW6P83R31HCRY2PRTC6>
         rdf:type                        martialis:Source;
         schema:archivedAt               <https://en.wikipedia.org/w/index.php?title=Tatsukuma_Ushijima&oldid=1365536786>;
@@ -70713,6 +70991,18 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:rankSystem     <https://martial.is/entity/01M11K25NF0E7HG8HWVWM2P3FG>;
         martialis:rankType       <https://w3id.org/martialis/vocab/rank-type/dan> .
 
+<https://martial.is/entity/01M7T8V5TQTJ2M7NMX0HQPBATS>
+        rdf:type                      martialis:InstructorRole;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M7T8V5TQJZ6YB9F942XD9THV>;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M7T6KGEBZ2R8Q6Q7GP7WDQ1K>;
+        martialis:hasConfidence       <https://martial.is/entity/01M7T8V5TQTJ2M7NMX0HQPBATS/hasConfidence>;
+        martialis:hasEvidence         <https://martial.is/entity/01M7T8V5TQTJ2M7NMX0HQPBATS/hasEvidence/1>;
+        martialis:hasEvidence         <https://martial.is/entity/01M7T8V5TQTJ2M7NMX0HQPBATS/hasEvidence/0>;
+        martialis:instructor          <https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE>;
+        martialis:instructorCapacity  <https://w3id.org/martialis/vocab/instructor-capacity/instructor>;
+        martialis:instructorPeriod    <https://martial.is/entity/01M7T8V5TQTJ2M7NMX0HQPBATS/instructorPeriod>;
+        martialis:instructorStyle     <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B> .
+
 <https://martial.is/entity/01M5JG4Y25Y1C4EYB4PN32FTHD/hasInteraction/0/hasEvidence/3>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M5JG4Y25K7AEMWBE9BXZ7M1P>;
@@ -70789,6 +71079,13 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:earliestYear  2016;
         martialis:hasEvidence   <https://martial.is/entity/01KZEFT5DBRM584NTXP777QFDA/deathEvent/hasEvidence/0>;
         martialis:latestYear    2016 .
+
+<https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T8V5TQFD7CR3H00TP3GP0J>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:supports         true .
 
 <https://martial.is/entity/01M5KV9GA716ERSX72PG7TXWRD/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -75132,6 +75429,13 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         schema:contentUrl           <https://pt.wikipedia.org/static/images/icons/wikipedia.png>;
         martialis:imageAttribution  <https://martial.is/entity/01M0DAPE2T2QVQJ3NJVSSA4F8N/image/imageAttribution> .
 
+<https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE/hasEvidence/3>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T6KGEBZ2R8Q6Q7GP7WDQ1K>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:supports         true .
+
 <https://martial.is/entity/01M5H483CZSCN7R0FXFE104WQZ/hasInteraction/0>
         rdf:type               martialis:TeacherInteraction;
         prov:wasDerivedFrom    <https://martial.is/entity/01M5G930MN1VM84DEZNGEZP48E>;
@@ -75158,6 +75462,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         rdf:type         martialis:Attribution;
         schema:citation  "Simon BJJ";
         schema:url       <https://simonbjj.com/donato-pires> .
+
+<https://martial.is/entity/01M7T8V5TQ4ZTM4JGRR1MFS447>
+        rdf:type                     martialis:Participation;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M7T8V5TQJZ6YB9F942XD9THV>;
+        martialis:hasConfidence      <https://martial.is/entity/01M7T8V5TQ4ZTM4JGRR1MFS447/hasConfidence>;
+        martialis:hasEvidence        <https://martial.is/entity/01M7T8V5TQ4ZTM4JGRR1MFS447/hasEvidence/0>;
+        martialis:participant        <https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W>;
+        martialis:participationRole  <https://w3id.org/martialis/vocab/event-role/competitor> .
 
 <https://martial.is/entity/01M5JWEV42SS59E8FJKM080KCN/hasInteraction/0>
         rdf:type               martialis:TeacherInteraction;
@@ -75766,6 +76078,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Single source." .
+
+<https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W/deathEvent/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T6KGEBZ2R8Q6Q7GP7WDQ1K>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Mr. Watanabe passed away on September 25th.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01KYSNKBS7T4VMBNKEXV23RB0D/birthEvent/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -76539,6 +76859,12 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:primary;
         martialis:quotation        "The majority of throwing, grappling, and wrestling techniques in Shooto are incorporated from English Catch-As-Catch-Can Wrestling, Russian Sambo, and Japanese Judo.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7T8V5TQ5JCG6JH605EGGC6R/location>
+        rdf:type               martialis:GeoRef;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
+        schema:name            "Japan";
+        schema:sameAs          <http://www.wikidata.org/entity/Q17> .
 
 <https://martial.is/entity/01M3YH7N5G7PG1ZR0620VZE8YJ/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -80413,6 +80739,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:hasEvidence  <https://martial.is/entity/01KZ6XT5DSFQG9TRGDK9AQFZCW/foundedEvent/hasEvidence/1>;
         martialis:hasEvidence  <https://martial.is/entity/01KZ6XT5DSFQG9TRGDK9AQFZCW/foundedEvent/hasEvidence/0> .
 
+<https://martial.is/entity/01M7T8V5TQ39Y7H6WMVTAE18AD>
+        rdf:type                     martialis:Participation;
+        prov:wasDerivedFrom          <https://martial.is/entity/01KZXXSB6VWQ467ARN5179K098>;
+        martialis:hasConfidence      <https://martial.is/entity/01M7T8V5TQ39Y7H6WMVTAE18AD/hasConfidence>;
+        martialis:hasEvidence        <https://martial.is/entity/01M7T8V5TQ39Y7H6WMVTAE18AD/hasEvidence/0>;
+        martialis:participant        <https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE>;
+        martialis:participationRole  <https://w3id.org/martialis/vocab/event-role/demonstrator> .
+
 <https://martial.is/entity/01M69YCGD6YEGTTQ2MEQBJ5BH2/birthEvent>
         rdf:type                martialis:BirthEvent;
         prov:wasDerivedFrom     <https://martial.is/entity/01M69VJBQCHMMFMBTHKD733P9H>;
@@ -82394,6 +82728,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         rdf:type     martialis:Publisher;
         schema:name  "Sour Milk (petermaguire.substack.com)" .
 
+<https://martial.is/entity/01M7T8V5TQNE6HJ466DA880GZ7/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T8V5TQJZ6YB9F942XD9THV>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "1957 All Japan Students' Open-Weight Judo Championship: L to R winner Saburo Matsushita, 2nd Akio Kaminaga, 3rd Kisaburo Watanabe & Tokuyama.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3S8DRZ3VZF9Z4SZKTGBC7GW/publisher>
         rdf:type                martialis:Publisher;
         schema:name             "All Japan Kendo Federation";
@@ -82440,6 +82782,11 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/obituary>;
         martialis:sourceType            "article" .
+
+<https://martial.is/entity/01M7T8V5TQJBYXA4G7EZNHSKQF/nationality/0>
+        rdf:type               martialis:NationalityEntry;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/GBR>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q145> .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WDA0/publisher>
         rdf:type     martialis:Publisher;
@@ -84269,6 +84616,12 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:hasEvidence   <https://martial.is/entity/01M5JPY6FN4P37W7D677STBWFZ/birthEvent/hasEvidence/0>;
         martialis:latestYear    1784 .
 
+<https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W/birthEvent/birthPlace>
+        rdf:type               martialis:GeoRef;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
+        schema:name            "Niigata Prefecture";
+        schema:sameAs          <http://www.wikidata.org/entity/Q132705> .
+
 <https://martial.is/entity/01M6EFJQBD331ER4SHGW4Q10NC/hasConfidence>
         rdf:type                       martialis:Confidence;
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
@@ -85156,6 +85509,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         rdf:type             martialis:TimeInterval;
         martialis:endYear    1939;
         martialis:startYear  1936 .
+
+<https://martial.is/entity/01M7T8V5TQ8MCT71YAA0RQJG4C/foundedEvent/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M0Q8AS711PKHZ2D7B12J5XX7>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "[The Renshuden] was started in 1959 by Trevor Leggett, who saw the need for a dojo that would focus exclusively on people who were training for competition judo, which was then becoming increasingly important.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M0TT32BHEP6PVQB8YQEXMXFP/deathEvent>
         rdf:type                martialis:DeathEvent;
@@ -88214,6 +88575,10 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         martialis:sourceLocation      "636";
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
+
+<https://martial.is/entity/01M7T8V5TQJZ6YB9F942XD9THV/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "USAdojo.com (Facebook group)" .
 
 <https://martial.is/entity/01M6ENVCFAF6RJTZJGP52XPWB0/hasInteraction/0>
         rdf:type                     martialis:TeacherInteraction;
@@ -95244,6 +95609,16 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
         schema:sameAs          <http://www.wikidata.org/entity/Q17> .
 
+<https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W/deathEvent>
+        rdf:type                martialis:DeathEvent;
+        prov:wasDerivedFrom     <https://martial.is/entity/01KZXXSB6VWQ467ARN5179K098>;
+        prov:wasDerivedFrom     <https://martial.is/entity/01M7T6KGEBZ2R8Q6Q7GP7WDQ1K>;
+        schema:startDate        "2019-09-25";
+        martialis:earliestYear  2019;
+        martialis:hasEvidence   <https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W/deathEvent/hasEvidence/0>;
+        martialis:hasEvidence   <https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W/deathEvent/hasEvidence/1>;
+        martialis:latestYear    2019 .
+
 <https://martial.is/entity/01M3YH7N5GBWQQMXMHAWPS65DR/hasInteraction/0/interactionPeriod>
         rdf:type             martialis:TimeInterval;
         martialis:endYear    1888;
@@ -98857,6 +99232,25 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         martialis:rankSystem     <https://martial.is/entity/01M11K25NF0E7HG8HWVWM2P3FG>;
         martialis:rankType       <https://w3id.org/martialis/vocab/rank-type/dan> .
 
+<https://martial.is/entity/01M7T6KGEBZ2R8Q6Q7GP7WDQ1K>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://web.archive.org/web/20240716110502/https://britishjudocouncil.org/kisaburo-watanabe.php>;
+        schema:datePublished            "2019-09-26";
+        schema:description              "Brian N. Watson's tribute to Kisaburo Watanabe on the British Judo Council website: birth in Niigata Prefecture, Chuo University, invitation to the UK in 1962 on George Whyman's recommendation to Trevor Leggett, teaching at the Renshuden and the Budokwai until spring 1967, and later career at the Nippon Budokan."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "judo";
+        schema:name                     "Tribute to Kisaburo Watanabe (1936-2019)";
+        schema:publisher                <https://martial.is/entity/01M7T6KGEBZ2R8Q6Q7GP7WDQ1K/publisher>;
+        schema:url                      <https://britishjudocouncil.org/news-details/tribute-to-kisaburo-watanabe-1936-2019-from-brian-n-watson>;
+        martialis:accessed              "2026-11-19";
+        martialis:archiveDate           "2024-07-16";
+        martialis:earliestYear          2019;
+        martialis:hasContributor        <https://martial.is/entity/01M7T6KGEBZ2R8Q6Q7GP7WDQ1K/hasContributor/0>;
+        martialis:latestYear            2019;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/obituary>;
+        martialis:sourceType            "webpage" .
+
 <https://martial.is/entity/01M5HP0ECDWXAZK0N2FRMEWMX9>
         rdf:type                       martialis:Person;
         schema:description             "Japanese naval officer (1868–1904) and judo student of Kanō Jigorō; as a senior student at the Naval Academy he helped propose its judo department. A hero of the Russo-Japanese War."@en;
@@ -99608,7 +100002,7 @@ void:dataDump  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/data.ttl#dataset/class/Person>
         void:class     martialis:Person;
-        void:entities  1037 .
+        void:entities  1040 .
 
 <https://martial.is/entity/01M5HMRGB7WN9HHYCGJYQZPTAB/hasEvidence/1>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -100949,10 +101343,34 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         martialis:hasParticipation  <https://martial.is/entity/01M3YH7N5F1HT3AF1FQW716B03>;
         martialis:latestYear        1966 .
 
+<https://martial.is/entity/01M7T7ZS7VJPG6D7TSF1SM53RG>
+        rdf:type                    martialis:Event;
+        schema:about                <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B>;
+        schema:description          "The Budokwai's annual judo display of 1962 in London, at which Watanabe Kisaburō and Matsushita Saburō demonstrated gonosen-no-kata."@en;
+        schema:keywords             "kata";
+        schema:keywords             "judo";
+        schema:location             <https://martial.is/entity/01M7T7ZS7VJPG6D7TSF1SM53RG/location>;
+        schema:name                 "Budokwai Annual Display 1962"@en;
+        schema:organizer            <https://martial.is/entity/01M325EAQG4P41V98G5PZWNJ4F>;
+        schema:startDate            "1962";
+        martialis:earliestYear      1962;
+        martialis:eventPlace        <https://martial.is/entity/01KY52HE49EXT0704VAEYG0W59>;
+        martialis:eventType         <https://w3id.org/martialis/vocab/event-classification/demonstration>;
+        martialis:hasEvidence       <https://martial.is/entity/01M7T7ZS7VJPG6D7TSF1SM53RG/hasEvidence/0>;
+        martialis:hasParticipation  <https://martial.is/entity/01M7T7ZS7VK3YJM1B2BGCWFKSF>;
+        martialis:hasParticipation  <https://martial.is/entity/01M7T8V5TQ39Y7H6WMVTAE18AD>;
+        martialis:latestYear        1962 .
+
 <https://martial.is/entity/01KZR1M7T51S10DM56FKM4N7P2/image>
         rdf:type                    martialis:Photo;
         schema:contentUrl           <https://bjjfanatics.com.br/cdn/shop/articles/romero_jacare_1024x1024.JPG>;
         martialis:imageAttribution  <https://martial.is/entity/01KZR1M7T51S10DM56FKM4N7P2/image/imageAttribution> .
+
+<https://martial.is/entity/01M7T8V5TQJACSRCQBJCE9BW41/hasInteraction/0>
+        rdf:type                     martialis:TeacherInteraction;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M7T8V5TQJZ6YB9F942XD9THV>;
+        martialis:hasEvidence        <https://martial.is/entity/01M7T8V5TQJACSRCQBJCE9BW41/hasInteraction/0/hasEvidence/0>;
+        martialis:interactionPeriod  <https://martial.is/entity/01M7T8V5TQJACSRCQBJCE9BW41/hasInteraction/0/interactionPeriod> .
 
 <https://martial.is/entity/01KZM7FWX5ED60G33KMWKDRWYT/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -102532,6 +102950,14 @@ dcat:Dataset  rdf:type  owl:Class .
         martialis:relatedStyle       <https://martial.is/entity/01KYHRZE605BS2BGB5TX1XEWPR>;
         martialis:styleRelationType  stylerel:variant_of .
 
+<https://martial.is/entity/01M7T8V5TQTJ2M7NMX0HQPBATS/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T6KGEBZ2R8Q6Q7GP7WDQ1K>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Earlier, in 1961 Saburo Matsushita left the Renshuden after a four-year stint in the UK and returned to Japan.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M6C1G6F217VV6B20VMDG6DQT/hasInteraction/0/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
         martialis:basedOnSource       <https://martial.is/entity/01M6C13E8N9XJPMGPK31D6W0CX>;
@@ -104060,6 +104486,14 @@ dcat:Dataset  rdf:type  owl:Class .
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
 
+<https://martial.is/entity/01M7T8V5TQ5JCG6JH605EGGC6R/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T8V5TQJZ6YB9F942XD9THV>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Matsushita was the first student to win this event twice.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3YH7N5GMN0RM4PT3J0R5GFQ/hasConfidence>
         rdf:type                       martialis:Confidence;
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
@@ -104538,6 +104972,12 @@ dcat:Dataset  rdf:type  owl:Class .
         martialis:informationType  infotype:primary;
         martialis:quotation        "\"She's like a daughter to me at this point,\" said Pedro.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7T8V5TQ8MCT71YAA0RQJG4C/hasSite/0/location>
+        rdf:type               martialis:GeoRef;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/GBR>;
+        schema:name            "London";
+        schema:sameAs          <http://www.wikidata.org/entity/Q84> .
 
 <https://martial.is/entity/01KYFY7JK9GNVNEZMBN1YGX4Y6>
         rdf:type                        martialis:Source;
@@ -105022,6 +105462,11 @@ dcat:Dataset  rdf:type  owl:Class .
         martialis:hasInteraction  <https://martial.is/entity/01M69YKDH36V46S46NGGDAJR9A/hasInteraction/0>;
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01KYD5XMNM4DH8KAWBC1TE9BDJ> .
+
+<https://martial.is/entity/01M7T8V5TQTJ2M7NMX0HQPBATS/instructorPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:endYear    1961;
+        martialis:startYear  1959 .
 
 <https://martial.is/entity/01M69YZDAYSZ72F4EN4Y0155WA/foundedEvent/hasEvidence/1>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -107423,6 +107868,16 @@ dcat:Dataset  rdf:type  owl:Class .
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Awarded hanshi (範士) rank by Dai Nippon Butoku Kai in 1908, documented in Japanese Wikipedia with specific year" .
+
+<https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W/deathEvent/hasEvidence/1>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01KZXXSB6VWQ467ARN5179K098>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:secondary;
+        martialis:quotation           "the late Watanabe Kisaburō 渡辺喜三郎 (1936-2019)";
+        martialis:sourceLocation      "130, note 1";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
 
 <https://martial.is/entity/01M0DAPE2TB8846N0W81QG14J7/hasContributor/0>
         rdf:type                   martialis:Contributor;
@@ -111814,6 +112269,14 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceType            "book" .
 
+<https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE/birthEvent/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T8V5TQFD7CR3H00TP3GP0J>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Matsushita Sensei was born in 1935 in Kagoshima Prefecture.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M19SYYS34TS7JRFEG6GW3VFW/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         schema:citation            "Joseph R. Svinth, \"Professor Yamashita Goes to Washington\", Journal of Combative Sport, Oct 2000";
@@ -112575,6 +113038,14 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         rdf:type     martialis:Publisher;
         schema:name  "Bushido-Kwai Mechelen" .
 
+<https://martial.is/entity/01M7T5671E7RA9ZCCEADX2F95V/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T5671E3FKFRZK0WGY5DXJW>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "He arrived in Britain in 1962 to coach at The Budokwai and the Renshuden in London.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M5JVVMHMBZXJ6S76XTFS5RRP/hasEvidence/1>
         rdf:type                      martialis:SourceAssertionRelation;
         martialis:basedOnSource       <https://martial.is/entity/01M5G930MN1VM84DEZNGEZP48E>;
@@ -112776,6 +113247,13 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:hasEvidence        <https://martial.is/entity/01M3YH7N5GQS1TEQTMEEPM35JV/hasInteraction/0/hasEvidence/0>;
         martialis:hasEvidence        <https://martial.is/entity/01M3YH7N5GQS1TEQTMEEPM35JV/hasInteraction/0/hasEvidence/1>;
         martialis:interactionPeriod  <https://martial.is/entity/01M3YH7N5GQS1TEQTMEEPM35JV/hasInteraction/0/interactionPeriod> .
+
+<https://martial.is/entity/01M7T8V5TQNE6HJ466DA880GZ7/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "Watson's photograph caption only." .
 
 <https://martial.is/entity/01KZSRDXQWKC9HR8T7M5HDGDFJ/hasEvidence/2>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -113143,6 +113621,13 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "Gracie was inducted into the ADCC Hall of Fame on February 21, 2022.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7T5671EY78E2V8381TPXQD9/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:possible;
+        martialis:confidenceRationale  "Búason (2012, pp. 18-19) has the GB national coach land in Iceland on 26 February, after the club's early-1966 call for beginners ahead of a foreign coach, and stay a short time. The year is from that context. Single secondary source." .
 
 <https://martial.is/entity/01M3YH7N5GV19KMJYGYNQHPA3R/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -116878,6 +117363,13 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:quotation        "Years later, he earned his black belt under Rorion himself.";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7T8V5TQ39Y7H6WMVTAE18AD/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "De Crée (2024, p. 130, note 1) has Matsushita and Watanabe demonstrate gonosen-no-kata at the display. Single secondary source." .
+
 <https://martial.is/entity/01KYSNKBS29Z1VFPW04W6HKA6T/hasSite/0/location>
         rdf:type               martialis:GeoRef;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
@@ -117952,6 +118444,12 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
+
+<https://martial.is/entity/01M7T7ZS7VJPG6D7TSF1SM53RG/location>
+        rdf:type               martialis:GeoRef;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/GBR>;
+        schema:name            "London";
+        schema:sameAs          <http://www.wikidata.org/entity/Q84> .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD78/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -119524,6 +120022,19 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         rdf:type     martialis:Publisher;
         schema:name  "VICE" .
 
+<https://martial.is/entity/01M7T8V5TQVWVR1AN25G609CHT>
+        rdf:type                 martialis:RankAssertion;
+        prov:wasDerivedFrom      <https://martial.is/entity/01KZXXSB6VWQ467ARN5179K098>;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M7T8V5TQFD7CR3H00TP3GP0J>;
+        martialis:conferredBy    <https://martial.is/entity/01KJJAWN29MA64W22606R3WD7X>;
+        martialis:hasConfidence  <https://martial.is/entity/01M7T8V5TQVWVR1AN25G609CHT/hasConfidence>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7T8V5TQVWVR1AN25G609CHT/hasEvidence/1>;
+        martialis:hasEvidence    <https://martial.is/entity/01M7T8V5TQVWVR1AN25G609CHT/hasEvidence/0>;
+        martialis:rankOrdinal    9;
+        martialis:rankStyle      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B>;
+        martialis:rankSystem     <https://martial.is/entity/01M11K25NF0E7HG8HWVWM2P3FG>;
+        martialis:rankType       <https://w3id.org/martialis/vocab/rank-type/dan> .
+
 <https://martial.is/entity/01M5JTMYPE3NTXD3NZHMGYBEXP/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Wikimedia Foundation" .
@@ -120287,7 +120798,7 @@ dcat:version  rdf:type  owl:DatatypeProperty .
 
 <https://martial.is/data.ttl#dataset/class/Place>
         void:class     martialis:Place;
-        void:entities  144 .
+        void:entities  145 .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1VC/birthEvent/birthPlace>
         rdf:type               martialis:GeoRef;
@@ -122099,6 +122610,13 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         schema:address         "Heian Shrine precinct, Kyoto";
         schema:location        <https://martial.is/entity/01M37HHSSMEKVHRSH02YD0AVSP/hasSite/0/location>;
         martialis:hasEvidence  <https://martial.is/entity/01M37HHSSMEKVHRSH02YD0AVSP/hasSite/0/hasEvidence/0> .
+
+<https://martial.is/entity/01M7T6KGEBZ2R8Q6Q7GP7WDQ1K/hasContributor/0>
+        rdf:type                     martialis:Contributor;
+        schema:familyName            "Watson";
+        schema:givenName             "Brian N.";
+        martialis:contributorPerson  <https://martial.is/entity/01M7T8V5TQJBYXA4G7EZNHSKQF>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M69YKDH6A5TGQQFKMMSTDEYT>
         rdf:type                  martialis:TeacherAssertion;
@@ -128542,6 +129060,21 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/biography>;
         martialis:sourceType            "entry-encyclopedia" .
 
+<https://martial.is/entity/01M7T5671EVY07Q736BHPBADNW>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://web.archive.org/web/20261119162325/https://budokwai.co.uk/history>;
+        schema:description              "The Budokwai's own history of the club since 1918: founders, judo and karate instructors, and members in national and Olympic teams."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "judo";
+        schema:name                     "Our History";
+        schema:publisher                <https://martial.is/entity/01M7T5671EVY07Q736BHPBADNW/publisher>;
+        schema:url                      <https://budokwai.co.uk/history>;
+        martialis:accessed              "2026-11-19";
+        martialis:archiveDate           "2026-11-19";
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/history>;
+        martialis:sourceType            "webpage" .
+
 <https://martial.is/entity/01M6EF8Y2K75CZ4YM7B6XZH57R/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M6EF6KKAN79Q0KQFRGZ1FY5A>;
@@ -128569,6 +129102,20 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:hasInteraction  <https://martial.is/entity/01M5H3RJVTN5VVNNG5VRPFKW27/hasInteraction/0>;
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01M5H3RJVTXPWN0H33G2RJ6G4A> .
+
+<https://martial.is/entity/01M7T8V5TQ8MCT71YAA0RQJG4C>
+        rdf:type                     martialis:Place;
+        schema:alternateName         "Renshuden Judo Academy"@en;
+        schema:description           "Competition judo dojo in London, founded by Trevor Leggett in 1959. It shared Japanese instructors with the Budokwai."@en;
+        schema:keywords              "judo";
+        schema:name                  "Renshuden"@en;
+        martialis:foundedEvent       <https://martial.is/entity/01M7T8V5TQ8MCT71YAA0RQJG4C/foundedEvent>;
+        martialis:hasEvidence        <https://martial.is/entity/01M7T8V5TQ8MCT71YAA0RQJG4C/hasEvidence/0>;
+        martialis:hasEvidence        <https://martial.is/entity/01M7T8V5TQ8MCT71YAA0RQJG4C/hasEvidence/1>;
+        martialis:hasInstructorRole  <https://martial.is/entity/01M7T8V5TQTJ2M7NMX0HQPBATS>;
+        martialis:hasInstructorRole  <https://martial.is/entity/01M7T8V5TQXK4DYPJATBBNHTKP>;
+        martialis:hasSite            <https://martial.is/entity/01M7T8V5TQ8MCT71YAA0RQJG4C/hasSite/0>;
+        martialis:placeType          <https://w3id.org/martialis/vocab/place-classification/dojo> .
 
 <https://martial.is/entity/01M3YH7N5GZ0K8268C2SC90BQ4/hasEvidence/2>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -129322,6 +129869,15 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Wiktenauer counts his three manuscripts among the copies of Huntsfeld's treatises; one source." .
+
+<https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W/hasEvidence/0>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01KZXXSB6VWQ467ARN5179K098>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:secondary;
+        martialis:sourceLocation      "130";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
 
 <https://martial.is/entity/01M06FKBQ1AB6FKXQBFBFKKDRH/birthEvent/hasEvidence/3>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -130844,7 +131400,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/data.ttl#dataset/class/Source>
         void:class     martialis:Source;
-        void:entities  1529 .
+        void:entities  1534 .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SC/nationality/0>
         rdf:type               martialis:NationalityEntry;
@@ -133921,6 +134477,18 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:quotation        "\"Traditional Taekwondo\" refers to the 1940s and 1950s martial arts by the nine original kwans. They used a number of different names such as Tang Soo Do (Chinese Hand Way)";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7T8V5TQXK4DYPJATBBNHTKP>
+        rdf:type                      martialis:InstructorRole;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M7T6KGEBZ2R8Q6Q7GP7WDQ1K>;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M7T5671E3FKFRZK0WGY5DXJW>;
+        martialis:hasConfidence       <https://martial.is/entity/01M7T8V5TQXK4DYPJATBBNHTKP/hasConfidence>;
+        martialis:hasEvidence         <https://martial.is/entity/01M7T8V5TQXK4DYPJATBBNHTKP/hasEvidence/0>;
+        martialis:hasEvidence         <https://martial.is/entity/01M7T8V5TQXK4DYPJATBBNHTKP/hasEvidence/1>;
+        martialis:instructor          <https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W>;
+        martialis:instructorCapacity  <https://w3id.org/martialis/vocab/instructor-capacity/instructor>;
+        martialis:instructorPeriod    <https://martial.is/entity/01M7T8V5TQXK4DYPJATBBNHTKP/instructorPeriod>;
+        martialis:instructorStyle     <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B> .
+
 <https://martial.is/entity/01M3YH7N5FCC6W712D6DS6Z4AF/hasInteraction/0>
         rdf:type               martialis:TeacherInteraction;
         prov:wasDerivedFrom    <https://martial.is/entity/01M040GCQ93GVPWXCF73X6Y0BF>;
@@ -134702,6 +135270,21 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         schema:startDate        "1991-10-09";
         martialis:earliestYear  1991;
         martialis:latestYear    1991 .
+
+<https://martial.is/entity/01M7T8V5TQ5JCG6JH605EGGC6R>
+        rdf:type                    martialis:Event;
+        schema:about                <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B>;
+        schema:description          "The 1957 open-weight judo championship for Japanese university students, won by Matsushita Saburō, his second title."@en;
+        schema:keywords             "judo";
+        schema:location             <https://martial.is/entity/01M7T8V5TQ5JCG6JH605EGGC6R/location>;
+        schema:name                 "1957 All Japan Students' Open-Weight Judo Championship"@en;
+        schema:startDate            "1957";
+        martialis:earliestYear      1957;
+        martialis:eventType         <https://w3id.org/martialis/vocab/event-classification/tournament>;
+        martialis:hasEvidence       <https://martial.is/entity/01M7T8V5TQ5JCG6JH605EGGC6R/hasEvidence/0>;
+        martialis:hasParticipation  <https://martial.is/entity/01M7T8V5TQ4ZTM4JGRR1MFS447>;
+        martialis:hasParticipation  <https://martial.is/entity/01M7T8V5TQNE6HJ466DA880GZ7>;
+        martialis:latestYear        1957 .
 
 <https://martial.is/entity/01M6BGKGNV4GHPM6CFYCTJG9ED/birthEvent>
         rdf:type                martialis:BirthEvent;
@@ -139793,6 +140376,13 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01M1KR4J6EYBHT5Q2S31H8CYVK> .
 
+<https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T6KGEBZ2R8Q6Q7GP7WDQ1K>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:supports         true .
+
 <https://martial.is/entity/01KZQ7BS7KE7CA2V6JEWMWZ7SW/nationality/0>
         rdf:type               martialis:NationalityEntry;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/BRA>;
@@ -143275,6 +143865,12 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceType            "webpage" .
 
+<https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE/birthEvent/birthPlace>
+        rdf:type               martialis:GeoRef;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
+        schema:name            "Kagoshima Prefecture";
+        schema:sameAs          <http://www.wikidata.org/entity/Q15701> .
+
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1VF/birthEvent>
         rdf:type                martialis:BirthEvent;
         schema:location         <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1VF/birthEvent/birthPlace>;
@@ -143822,6 +144418,16 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:hasInteraction  <https://martial.is/entity/01M5JG4Y25FZVQMJX4Y9ZER2FM/hasInteraction/0>;
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01M5JG4Y259ZBY4V9XPJQ111DJ> .
+
+<https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W/birthEvent/hasEvidence/1>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01KZXXSB6VWQ467ARN5179K098>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:secondary;
+        martialis:quotation           "the late Watanabe Kisaburō 渡辺喜三郎 (1936-2019)";
+        martialis:sourceLocation      "130, note 1";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
 
 <https://martial.is/entity/01M5JVVMHM3CV7VFPHQAVMP504/hasEvidence/1>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -150480,6 +151086,14 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:honorValue     "Hanshi";
         martialis:latestYear     1927 .
 
+<https://martial.is/entity/01M7T8V5TQTJ2M7NMX0HQPBATS/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T8V5TQJZ6YB9F942XD9THV>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "Saburo Matsushita (1935-2020) who taught at the Renshuden and the Budokwai in the late 1950s and early 1960s";
+        martialis:supports         true .
+
 <https://martial.is/entity/01KZEDXRH5D5APZJW9C5TF5EGW/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KZEK9QGVYNFDG0PK8BFQ82N2>;
@@ -152041,6 +152655,16 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         rdf:type     martialis:Publisher;
         schema:name  "Wikimedia Foundation" .
 
+<https://martial.is/entity/01M7T8V5TQVWVR1AN25G609CHT/hasEvidence/1>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01KZXXSB6VWQ467ARN5179K098>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:secondary;
+        martialis:quotation           "the late Matsushita Saburō 松下三郎 (1935-2020) Kōdōkan 9th dan";
+        martialis:sourceLocation      "130, note 1";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
+
 <https://martial.is/entity/01M6BP392SK3S8XZCG4C6H2WM6/foundedEvent/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M6BP392S02P2Y6EYF8R5MZFE>;
@@ -152644,6 +153268,14 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:primary;
         martialis:quotation        "I had to resort to a diet, while practicing Karate at the backyard of neighbor friend, Mr. Chojin Kuba. It was in 1926 and I was 17 years of age.";
+        martialis:supports         true .
+
+<https://martial.is/entity/01M7T8V5TQAN9EQJM77WWQ3PV1/hasEvidence/2>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T8V5TQFD7CR3H00TP3GP0J>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/indirect>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "In the early 60's, Matsushita Sensei taught Judo in Great Britain.";
         martialis:supports         true .
 
 <https://martial.is/entity/01M5JVVMHM1HCY148KJQ2VP9H6/hasEvidence/1>
@@ -153938,6 +154570,11 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:quotation        "In 1470, Paulus Kal described him as the wrestling master to the princes of Austria, and included him in the membership of the Fellowship of Liechtenauer.";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7T8V5TQJACSRCQBJCE9BW41/hasInteraction/0/interactionPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:endYear    1961;
+        martialis:startYear  1961 .
+
 <https://martial.is/entity/01M5JPY6FNG2MRE0K9T5SBKT6K/birthEvent/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M5JPY6FN89A5A0153DP35GAT>;
@@ -154241,6 +154878,11 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "His own book; one side only." .
 
+<https://martial.is/entity/01M7T8V5TQAN9EQJM77WWQ3PV1/instructorPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:endYear    1961;
+        martialis:startYear  1958 .
+
 <https://martial.is/entity/01M3YH7N5G8E4HZS2WD5629JBW/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KZF0ZCDK9DCPTX28B2Y50DZZ>;
@@ -154536,6 +155178,17 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
+
+<https://martial.is/entity/01M7T5671EY78E2V8381TPXQD9>
+        rdf:type                      martialis:InstructorRole;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M7Q9A0QMC2TQSZ65AHH2WA4A>;
+        martialis:hasConfidence       <https://martial.is/entity/01M7T5671EY78E2V8381TPXQD9/hasConfidence>;
+        martialis:hasEvidence         <https://martial.is/entity/01M7T5671EY78E2V8381TPXQD9/hasEvidence/1>;
+        martialis:hasEvidence         <https://martial.is/entity/01M7T5671EY78E2V8381TPXQD9/hasEvidence/0>;
+        martialis:instructor          <https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W>;
+        martialis:instructorCapacity  <https://w3id.org/martialis/vocab/instructor-capacity/guest>;
+        martialis:instructorPeriod    <https://martial.is/entity/01M7T5671EY78E2V8381TPXQD9/instructorPeriod>;
+        martialis:instructorStyle     <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B> .
 
 <https://martial.is/entity/01M7GB0SCSZ99YVGEW6VP03XKN>
         rdf:type                       martialis:Person;
@@ -155669,6 +156322,7 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:foundedEvent       <https://martial.is/entity/01M7Q9PPT79XVEZN7M9VVJE8GG/foundedEvent>;
         martialis:hasAffiliationAssertion  <https://martial.is/entity/01M7Q9PPT7FK8TRA8C1Z9MCZEG>;
         martialis:hasEvidence        <https://martial.is/entity/01M7Q9PPT79XVEZN7M9VVJE8GG/hasEvidence/0>;
+        martialis:hasInstructorRole  <https://martial.is/entity/01M7T5671EY78E2V8381TPXQD9>;
         martialis:hasInstructorRole  <https://martial.is/entity/01M7RBC9G5VWBBK6AEEJV39SCY>;
         martialis:hasSite            <https://martial.is/entity/01M7Q9PPT79XVEZN7M9VVJE8GG/hasSite/0>;
         martialis:placeType          <https://w3id.org/martialis/vocab/place-classification/club> .
@@ -156891,6 +157545,17 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
+
+<https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W/birthEvent>
+        rdf:type                martialis:BirthEvent;
+        prov:wasDerivedFrom     <https://martial.is/entity/01KZXXSB6VWQ467ARN5179K098>;
+        prov:wasDerivedFrom     <https://martial.is/entity/01M7T6KGEBZ2R8Q6Q7GP7WDQ1K>;
+        schema:location         <https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W/birthEvent/birthPlace>;
+        schema:startDate        "1936-01-29";
+        martialis:earliestYear  1936;
+        martialis:hasEvidence   <https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W/birthEvent/hasEvidence/1>;
+        martialis:hasEvidence   <https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W/birthEvent/hasEvidence/0>;
+        martialis:latestYear    1936 .
 
 <https://martial.is/entity/01KZEV34458YYGR8SHKDQ683BX/publisher>
         rdf:type     martialis:Publisher;
@@ -159370,6 +160035,14 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
         martialis:quotation        "Inoki was amongst the group of professional wrestlers who were tutored in the art of hooking and shooting by the professional wrestler Karl Gotch.";
+        martialis:supports         true .
+
+<https://martial.is/entity/01M7T8V5TQAN9EQJM77WWQ3PV1/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T8V5TQJZ6YB9F942XD9THV>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "Saburo Matsushita (1935-2020) who taught at the Renshuden and the Budokwai in the late 1950s and early 1960s";
         martialis:supports         true .
 
 <https://martial.is/entity/01M6C1FR4A9S3S3D7H3A4TA2T7/hasEvidence/0>
@@ -163608,6 +164281,15 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:quotation        "In September 2008, St-Pierre earned his black belt in Brazilian jiu-jitsu under Bruno Fernandes.";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE/hasEvidence/1>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01KZXXSB6VWQ467ARN5179K098>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:secondary;
+        martialis:sourceLocation      "130";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
+
 <https://martial.is/entity/01M3YH7N5GV4YSBGP1YXNWQ1HC>
         rdf:type                 martialis:RankAssertion;
         prov:wasDerivedFrom      <https://martial.is/entity/01KZSRDXQW6CWJJ3JJQW3H48VK>;
@@ -164349,6 +165031,11 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:teaches              <https://martial.is/entity/01M39T3H2E9BXZ6TA5Q0GM87YA>;
         martialis:wasTaughtBy          <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1T3> .
 
+<https://martial.is/entity/01M7T5671E7RA9ZCCEADX2F95V/instructorPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:endYear    1966;
+        martialis:startYear  1962 .
+
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SC/image/imageAttribution>
         rdf:type                   martialis:Attribution;
         schema:citation            "Bundesarchiv, Bild 102-12574, Wikimedia Commons";
@@ -164697,6 +165384,15 @@ dcat:Distribution  rdf:type  owl:Class .
 <https://martial.is/entity/01M5H6E6RGBDYEGAMK62PHX3H0/hasInteraction/0/interactionPeriod>
         rdf:type             martialis:TimeInterval;
         martialis:startYear  1965 .
+
+<https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W/hasEvidence/4>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M7Q9A0QMC2TQSZ65AHH2WA4A>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:secondary;
+        martialis:sourceLocation      "19";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
 
 <https://martial.is/entity/01M6ENVCFAAA7SC69G7RPNDNDC/hasInteraction/0/hasEvidence/3>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -167123,6 +167819,11 @@ dcterms:RightsStatement
         martialis:quotation        "Graciela Casillas (born 1957) is an American former boxer and kickboxer who competed in the bantamweight division.";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W/nationality/0>
+        rdf:type               martialis:NationalityEntry;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q17> .
+
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1S6/image>
         rdf:type                    martialis:Photo;
         schema:contentUrl           <https://archive.org/download/geo-omori/geo-omori.jpg>;
@@ -168008,6 +168709,14 @@ dcterms:RightsStatement
         martialis:quotation        "明治18年（1885年）より、元玄武館塾頭で茨城県警察本署撃剣師範の下江秀太郎が東武館で剣術を指南し、門奈は下江の教えを受けた。";
         martialis:supports         true .
 
+<https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE/deathEvent>
+        rdf:type                martialis:DeathEvent;
+        prov:wasDerivedFrom     <https://martial.is/entity/01M7T8V5TQFD7CR3H00TP3GP0J>;
+        schema:startDate        "2020-04-19";
+        martialis:earliestYear  2020;
+        martialis:hasEvidence   <https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE/deathEvent/hasEvidence/0>;
+        martialis:latestYear    2020 .
+
 <https://martial.is/entity/01M3YH7N5G702WN93CSXQ6GAQZ>
         rdf:type                 martialis:RankAssertion;
         prov:wasDerivedFrom      <https://martial.is/entity/01KJJAWN29MA64W22606R3WDAM>;
@@ -168111,6 +168820,16 @@ dcterms:RightsStatement
         schema:contentUrl           <https://upload.wikimedia.org/wikipedia/commons/5/58/Esme_Beringer_Saviolo.jpg>;
         martialis:imageAttribution  <https://martial.is/entity/01M5KQTRGXSBQFFZB9TF683JD2/image/imageAttribution>;
         martialis:mediaRights       <https://w3id.org/martialis/vocab/media-rights/public_domain_mark> .
+
+<https://martial.is/entity/01M7T7ZS7VMN7K3T0RAWND01D6/hasEvidence/0>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01KZXXSB6VWQ467ARN5179K098>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:secondary;
+        martialis:quotation           "the late Watanabe Kisaburō 渡辺喜三郎 (1936-2019), Kōdōkan 7th dan";
+        martialis:sourceLocation      "130, note 1";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
 
 <https://martial.is/entity/01M3YH7N5GE19MRQTR1SRFQE7G>
         rdf:type                  martialis:TeacherAssertion;
@@ -170045,6 +170764,13 @@ dcterms:RightsStatement
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
 
+<https://martial.is/entity/01M7T8V5TQJBYXA4G7EZNHSKQF/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9Y>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:supports         true .
+
 <https://martial.is/entity/01M69ZB9CNDRC7CJ7H8QSANN1A/hasInteraction/0/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
         martialis:basedOnSource       <https://martial.is/entity/01M69VJBQCHMMFMBTHKD733P9H>;
@@ -170878,6 +171604,14 @@ dcterms:RightsStatement
         rdf:type               martialis:NationalityEntry;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/BRA>;
         schema:sameAs          <http://www.wikidata.org/entity/Q155> .
+
+<https://martial.is/entity/01M7T5671E7RA9ZCCEADX2F95V/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T5671EVY07Q736BHPBADNW>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "After Kisaburo Watanabe had left the club in 1966, there was a gap until Katsuhiko Kashiwazaki, the 1981 world featherweight champion, arrived in 1982";
+        martialis:supports         true .
 
 <https://martial.is/entity/01KZM7ZVM6FBM6RXHGYX3DVE54>
         rdf:type                        martialis:Source;
@@ -172703,6 +173437,26 @@ dcterms:RightsStatement
         martialis:informationType  infotype:secondary;
         martialis:quotation        "全日本剣道連盟剣道殿堂顕彰";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE>
+        rdf:type                    martialis:Person;
+        schema:birthDate            "1935";
+        schema:birthPlace           <https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE/birthEvent/birthPlace>;
+        schema:deathDate            "2020-04-19";
+        schema:description          "Japanese judoka, Kōdōkan 9th dan. Twice winner of the All Japan Students' championship, he taught at the Budokwai and the Renshuden in London from 1958 to 1961, later became a professor at Nihon University and directed the Kōdōkan's Education and Instruction Department."@en;
+        schema:keywords             "judo";
+        schema:name                 "松下 三郎"@ja;
+        schema:name                 "Saburo Matsushita"@en;
+        schema:name                 "Matsushita Saburō"@ja-Latn;
+        schema:nationality          <https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE/nationality/0>;
+        martialis:birthEvent        <https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE/birthEvent>;
+        martialis:deathEvent        <https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE/deathEvent>;
+        martialis:hasEvidence       <https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE/hasEvidence/0>;
+        martialis:hasEvidence       <https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE/hasEvidence/3>;
+        martialis:hasEvidence       <https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE/hasEvidence/1>;
+        martialis:hasEvidence       <https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE/hasEvidence/2>;
+        martialis:hasRankAssertion  <https://martial.is/entity/01M7T8V5TQVWVR1AN25G609CHT>;
+        martialis:teaches           <https://martial.is/entity/01M7T8V5TQJBYXA4G7EZNHSKQF> .
 
 <https://martial.is/entity/01M5HN921C7XN6G4ZJ2GNV28B9>
         rdf:type               martialis:Person;
@@ -175227,6 +175981,17 @@ dcterms:RightsStatement
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01M5JVVMHMZKH74W0F34ZV1J44> .
 
+<https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE/birthEvent>
+        rdf:type                martialis:BirthEvent;
+        prov:wasDerivedFrom     <https://martial.is/entity/01KZXXSB6VWQ467ARN5179K098>;
+        prov:wasDerivedFrom     <https://martial.is/entity/01M7T8V5TQFD7CR3H00TP3GP0J>;
+        schema:location         <https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE/birthEvent/birthPlace>;
+        schema:startDate        "1935";
+        martialis:earliestYear  1935;
+        martialis:hasEvidence   <https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE/birthEvent/hasEvidence/1>;
+        martialis:hasEvidence   <https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE/birthEvent/hasEvidence/0>;
+        martialis:latestYear    1935 .
+
 <https://martial.is/entity/01M3YH7N5G3VN6MC1RQ58NDQTS/hasConfidence>
         rdf:type                       martialis:Confidence;
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
@@ -177125,6 +177890,16 @@ dcterms:RightsStatement
         schema:url                 <https://ecwpress.com/products/mma-encyclopedia>;
         martialis:informationType  infotype:secondary .
 
+<https://martial.is/entity/01M7T8V5TQ39Y7H6WMVTAE18AD/hasEvidence/0>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01KZXXSB6VWQ467ARN5179K098>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:secondary;
+        martialis:quotation           "he [Matsushita] himself together with the late Watanabe Kisaburō 渡辺喜三郎 (1936-2019), Kōdōkan 7th dan, actually publicly demonstrated gonosen-no-kata at the occasion of the Budōkwai Annual Display 1962 in London";
+        martialis:sourceLocation      "130, note 1";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
+
 <https://martial.is/entity/01KYFXCETRD92QSRTMDFPK7VTG/deathEvent>
         rdf:type                martialis:DeathEvent;
         prov:wasDerivedFrom     <https://martial.is/entity/01KYFXCETRKAX8WWSFMSCHZ94J>;
@@ -178335,6 +179110,13 @@ dcterms:RightsStatement
         martialis:wasTaughtBy          <https://martial.is/entity/01KJJAWN29MA64W22606R3WD7H>;
         martialis:wasTaughtBy          <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1S1> .
 
+<https://martial.is/entity/01M7T8V5TQXK4DYPJATBBNHTKP/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:confirmed;
+        martialis:confidenceRationale  "The BJC tribute and the BJA obituary. The end year is his return to Japan in 1967." .
+
 <https://martial.is/entity/01M6A2JTJA8EMTG13HZQAX3J3K>
         rdf:type                  martialis:TeacherAssertion;
         martialis:assertedStyle   <https://martial.is/entity/01M6A2JTHSG7FHK01NCS2SN3FD>;
@@ -178592,6 +179374,14 @@ dcterms:RightsStatement
         rdf:type               martialis:NationalityEntry;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
         schema:sameAs          <http://www.wikidata.org/entity/Q17> .
+
+<https://martial.is/entity/01M7T8V5TQXK4DYPJATBBNHTKP/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T5671E3FKFRZK0WGY5DXJW>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "He arrived in Britain in 1962 to coach at The Budokwai and the Renshuden in London.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M5JG4Y25WTCHNZFG1BPFS9MV/hasInteraction/1>
         rdf:type                    martialis:TeacherInteraction;
@@ -180029,6 +180819,11 @@ dcterms:RightsStatement
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/MAR>;
         schema:sameAs          <http://www.wikidata.org/entity/Q1028> .
 
+<https://martial.is/entity/01M7T8V5TQFD7CR3H00TP3GP0J/publisher>
+        rdf:type                martialis:Publisher;
+        schema:name             "International Judo Federation";
+        martialis:publisherOrg  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD83> .
+
 <https://martial.is/entity/01KZS6T2W94S29MD8ZYJV614G4>
         rdf:type                        martialis:Source;
         schema:archivedAt               <https://web.archive.org/web/20261018102319/https://www.bellevuereporter.com/2011/02/28/travis-stevens-takes-gold-at-judo-grand-prix-bellevue-native-upends-olympic-champ-on-path-to-gold-medal/>;
@@ -180445,6 +181240,14 @@ dcterms:RightsStatement
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
 
+<https://martial.is/entity/01M7T8V5TQ4ZTM4JGRR1MFS447/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T8V5TQJZ6YB9F942XD9THV>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "1957 All Japan Students' Open-Weight Judo Championship: L to R winner Saburo Matsushita, 2nd Akio Kaminaga, 3rd Kisaburo Watanabe & Tokuyama.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1V5/deathEvent>
         rdf:type         martialis:DeathEvent;
         schema:location  <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1V5/deathEvent/deathPlace> .
@@ -180727,6 +181530,13 @@ dcterms:RightsStatement
         martialis:sourceLocation      "260";
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
+
+<https://martial.is/entity/01M7T8V5TQ8MCT71YAA0RQJG4C/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T6KGEBZ2R8Q6Q7GP7WDQ1K>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:supports         true .
 
 <https://martial.is/entity/01M3YH7N5GZ1J35SKQVXF56B7S/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -181034,6 +181844,26 @@ dcterms:RightsStatement
         martialis:informationType  infotype:secondary;
         martialis:quotation        "On December 18, 1810, having been trained by Bill Richmond, Molineaux fought Tom Cribb at Shenington Hollow in Oxfordshire for the English title.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M7T8V5TQFD7CR3H00TP3GP0J>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://web.archive.org/web/20261119162400/https://ijf.org/news/matsushita-saburo-passed-away>;
+        schema:datePublished            "2020-04-20";
+        schema:description              "International Judo Federation notice of the death of Matsushita Saburō, Kōdōkan 9th dan and board member: birth in Kagoshima Prefecture, Nihon University, teaching in Great Britain in the early 1960s, and later posts at the All Japan Judo Federation and the Kōdōkan."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "judo";
+        schema:name                     "Matsushita Saburo Passed Away";
+        schema:publisher                <https://martial.is/entity/01M7T8V5TQFD7CR3H00TP3GP0J/publisher>;
+        schema:url                      <https://ijf.org/news/matsushita-saburo-passed-away>;
+        martialis:accessed              "2026-11-19";
+        martialis:archiveDate           "2026-11-19";
+        martialis:earliestYear          2020;
+        martialis:latestYear            2020;
+        martialis:partOf                <https://martial.is/entity/01M64QW2FN6PG9PRA7YFFTKEZG>;
+        martialis:peerReview            <https://w3id.org/martialis/vocab/peer-review/not_peer_reviewed>;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/obituary>;
+        martialis:sourceType            "webpage" .
 
 <https://martial.is/entity/01M5JSGG509W79591M2G1MZ0Y3/nationality/0>
         rdf:type               martialis:NationalityEntry;
@@ -182077,6 +182907,20 @@ dcterms:RightsStatement
         martialis:hasInteraction  <https://martial.is/entity/01M3YH7N5GW8311YB468QJ4T9R/hasInteraction/0>;
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01KJJAWN29MA64W22606R3WD6A> .
+
+<https://martial.is/entity/01M7T5671E7RA9ZCCEADX2F95V>
+        rdf:type                      martialis:InstructorRole;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M7T6KGEBZ2R8Q6Q7GP7WDQ1K>;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M7T5671EVY07Q736BHPBADNW>;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M7T5671E3FKFRZK0WGY5DXJW>;
+        martialis:hasConfidence       <https://martial.is/entity/01M7T5671E7RA9ZCCEADX2F95V/hasConfidence>;
+        martialis:hasEvidence         <https://martial.is/entity/01M7T5671E7RA9ZCCEADX2F95V/hasEvidence/2>;
+        martialis:hasEvidence         <https://martial.is/entity/01M7T5671E7RA9ZCCEADX2F95V/hasEvidence/0>;
+        martialis:hasEvidence         <https://martial.is/entity/01M7T5671E7RA9ZCCEADX2F95V/hasEvidence/1>;
+        martialis:instructor          <https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W>;
+        martialis:instructorCapacity  <https://w3id.org/martialis/vocab/instructor-capacity/instructor>;
+        martialis:instructorPeriod    <https://martial.is/entity/01M7T5671E7RA9ZCCEADX2F95V/instructorPeriod>;
+        martialis:instructorStyle     <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B> .
 
 <https://martial.is/entity/01M5HMHN7XG9WA0DDFYE8WG8YB/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -185324,10 +186168,11 @@ dcterms:RightsStatement
         martialis:sourceType            "entry-encyclopedia" .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9Y/hasContributor/0>
-        rdf:type                   martialis:Contributor;
-        schema:familyName          "Watson";
-        schema:givenName           "Brian N.";
-        martialis:contributorRole  "author" .
+        rdf:type                     martialis:Contributor;
+        schema:familyName            "Watson";
+        schema:givenName             "Brian N.";
+        martialis:contributorPerson  <https://martial.is/entity/01M7T8V5TQJBYXA4G7EZNHSKQF>;
+        martialis:contributorRole    "author" .
 
 <https://martial.is/entity/01M7G99YYCJ2SM3MPGACP6806B/deathEvent/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -186275,6 +187120,10 @@ dcterms:RightsStatement
         martialis:peerReview            <https://w3id.org/martialis/vocab/peer-review/not_peer_reviewed>;
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceType            "entry-encyclopedia" .
+
+<https://martial.is/entity/01M7T8V5TQ8MCT71YAA0RQJG4C/hasSite/0>
+        rdf:type         martialis:Site;
+        schema:location  <https://martial.is/entity/01M7T8V5TQ8MCT71YAA0RQJG4C/hasSite/0/location> .
 
 <https://martial.is/entity/01M3YH7N5GK262EQCV66RB8AN6/hasInteraction/0>
         rdf:type                     martialis:TeacherInteraction;
@@ -191690,6 +192539,13 @@ dcterms:RightsStatement
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01KYDB2SWCW3RDJH3GEA666XXB> .
 
+<https://martial.is/entity/01M7T5671E7RA9ZCCEADX2F95V/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:confirmed;
+        martialis:confidenceRationale  "The Budokwai's own history page, the BJA obituary and the BJC tribute. The end year is the club's; the other two have him in Britain until 1967." .
+
 <https://martial.is/entity/01M4R9845WED3AD3NJ8DTE6XC2/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M2WGNYAW6K10EEMQDG8VYGVG>;
@@ -194860,6 +195716,14 @@ dcterms:RightsStatement
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:primary;
         martialis:quotation        "During my studies in Japan I received significant personal instruction from the following Kodokan teachers: Miyake, Tsunako Sensei, 7th Dan";
+        martialis:supports         true .
+
+<https://martial.is/entity/01M7T5671EC9MVB63CS9TBGN2W/birthEvent/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T6KGEBZ2R8Q6Q7GP7WDQ1K>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Born in Niigata Prefecture on 29 January 1936";
         martialis:supports         true .
 
 <https://martial.is/entity/01M3YH7N5GABZXPD1W2SRT3NC5/hasConfidence>
@@ -198128,6 +198992,16 @@ dcterms:RightsStatement
         martialis:confidenceLevel      conflevel:confirmed;
         martialis:confidenceRationale  "The federation's own handbook lists him." .
 
+<https://martial.is/entity/01M7T5671EY78E2V8381TPXQD9/hasEvidence/0>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M7Q9A0QMC2TQSZ65AHH2WA4A>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/indirect>;
+        martialis:informationType     infotype:secondary;
+        martialis:quotation           "Judokwai auglýsti byrjendanámskeið í byrjun árs 1966 og hvatti fólk til að mæta því von væri á komu þjálfara erlendis frá til Íslands";
+        martialis:sourceLocation      "18";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
+
 <https://martial.is/entity/01M6ERSPBW67HZR2V8W0YRC3S3/nationality/0>
         rdf:type               martialis:NationalityEntry;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/USA>;
@@ -198539,6 +199413,13 @@ dcterms:RightsStatement
         martialis:sourceLocation      "Kurama-ryu Kenjutsu";
         martialis:sourceLocatorLabel  "section";
         martialis:supports            true .
+
+<https://martial.is/entity/01M7T8V5TQAN9EQJM77WWQ3PV1/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "Watson's Facebook post places him at the Budokwai in the late 1950s and early 1960s. The years are from the BJC tribute: four years in the UK, leaving in 1961. De Crée (2024) has him at the club's 1962 display." .
 
 <https://martial.is/entity/01KZ9TQS3VAWWWZRSQE53DB0DS>
         rdf:type                        martialis:Source;
@@ -201444,6 +202325,11 @@ dcterms:RightsStatement
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
 
+<https://martial.is/entity/01M7T5671E3FKFRZK0WGY5DXJW/publisher>
+        rdf:type                martialis:Publisher;
+        schema:name             "British Judo Association";
+        martialis:publisherOrg  <https://martial.is/entity/01M7Q2SSTBKZ9C6JAGYK3M9T58> .
+
 <https://martial.is/entity/01M3YH7N5F1B6R710TB8JRBB47/hasInteraction/0/interactionPeriod>
         rdf:type             martialis:TimeInterval;
         martialis:startYear  1920 .
@@ -202872,6 +203758,14 @@ dcterms:RightsStatement
         schema:sameAs          <http://www.wikidata.org/entity/Q29410725>;
         martialis:hasEvidence  <https://martial.is/entity/01M1KH7NTWNZSRTDAB0VRM85K1/hasEvidence/0>;
         martialis:teaches      <https://martial.is/entity/01M0A2FCGSR8REC4KS6X3HF1H0> .
+
+<https://martial.is/entity/01M7T8V5TQNE6HJ466DA880GZ7>
+        rdf:type                     martialis:Participation;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M7T8V5TQJZ6YB9F942XD9THV>;
+        martialis:hasConfidence      <https://martial.is/entity/01M7T8V5TQNE6HJ466DA880GZ7/hasConfidence>;
+        martialis:hasEvidence        <https://martial.is/entity/01M7T8V5TQNE6HJ466DA880GZ7/hasEvidence/0>;
+        martialis:participant        <https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE>;
+        martialis:participationRole  <https://w3id.org/martialis/vocab/event-role/competitor> .
 
 <https://martial.is/entity/01M7Q9PPT7FK8TRA8C1Z9MCZEG/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -205739,6 +206633,14 @@ dcterms:RightsStatement
 <https://martial.is/entity/01M6ETAT0TZDF2XHB3Y2KAYEF4/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "JSTOR Daily" .
+
+<https://martial.is/entity/01M7T8V5TQJBYXA4G7EZNHSKQF/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T5671E3FKFRZK0WGY5DXJW>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Brian Watson, a leading British judoka in the 1960s, who lives in Japan";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M3YH7N5GSNMTWTG36Y2QYF2X/hasInteraction/0/interactionPeriod>
         rdf:type             martialis:TimeInterval;
@@ -209209,6 +210111,14 @@ dcterms:RightsStatement
         schema:address   "Engjavegi 6, 104 Reykjavík";
         schema:location  <https://martial.is/entity/01M7PYA3HB1Q04SZ8MHZRA8X4C/hasSite/0/location> .
 
+<https://martial.is/entity/01M7T8V5TQVWVR1AN25G609CHT/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T8V5TQFD7CR3H00TP3GP0J>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "ninth dan in Kodokan Judo";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M5KV9GA7GRJR8CM6PNGB1V6Q/hasInteraction/0>
         rdf:type               martialis:TeacherInteraction;
         prov:wasDerivedFrom    <https://martial.is/entity/01M5KQTRGXJZ53YPWZ595ZNB9E>;
@@ -209690,7 +210600,7 @@ dcterms:RightsStatement
 
 <https://martial.is/data.ttl#dataset/class/Event>
         void:class     martialis:Event;
-        void:entities  21 .
+        void:entities  23 .
 
 <https://martial.is/entity/01M6BQSYG62DDVKJEK49E83Y2K/birthEvent/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -213873,6 +214783,13 @@ void:uriSpace  rdf:type  owl:DatatypeProperty .
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/ITA>;
         schema:name            "Padua" .
 
+<https://martial.is/entity/01M7T8V5TQ39ZGAV0YH6HMN0QE/hasEvidence/2>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T8V5TQJZ6YB9F942XD9THV>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3YH7N5GAKEBS63Q1CASW5XF/hasInteraction/0>
         rdf:type                     martialis:TeacherInteraction;
         prov:wasDerivedFrom          <https://martial.is/entity/01KZGJHHWJVNW1QV7FY93T72ZQ>;
@@ -215761,6 +216678,24 @@ dcterms:identifier  rdf:type  owl:AnnotationProperty .
         rdf:type                   martialis:Contributor;
         schema:name                "BJJEE";
         martialis:contributorRole  "author" .
+
+<https://martial.is/entity/01M7T5671E3FKFRZK0WGY5DXJW>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://web.archive.org/web/20251116150115/https://www.britishjudo.org.uk/obituary-kisaburo-watanabe/>;
+        schema:datePublished            "2019-09-30";
+        schema:description              "British Judo Association obituary of Kisaburo Watanabe: Chuo University captain, coach at the Budokwai and the Renshuden in London from 1962 at Trevor Leggett's invitation, GB national coach for three years, back in Japan at the Budokan from 1967."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "judo";
+        schema:name                     "Obituary: Kisaburo Watanabe";
+        schema:publisher                <https://martial.is/entity/01M7T5671E3FKFRZK0WGY5DXJW/publisher>;
+        schema:url                      <https://www.britishjudo.org.uk/obituary-kisaburo-watanabe/>;
+        martialis:accessed              "2026-11-19";
+        martialis:archiveDate           "2025-11-16";
+        martialis:earliestYear          2019;
+        martialis:latestYear            2019;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/obituary>;
+        martialis:sourceType            "webpage" .
 
 <https://martial.is/entity/01M3YH7N5G28S7QWHRSBHXG4F9/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;

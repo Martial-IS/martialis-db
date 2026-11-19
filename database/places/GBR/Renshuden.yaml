@@ -1,0 +1,100 @@
+type: Place
+id: 01M7T8V5TQ8MCT71YAA0RQJG4C
+name:
+  en: Renshuden
+aka:
+  en:
+    - Renshuden Judo Academy
+placeType: placeclass:dojo
+hasSite:
+  - location:
+      label: London
+      countryCode: eucountry:GBR
+      wikidata: wd:Q84
+foundedEvent:
+  startDate: '1959'
+  founder:
+    - 01M0CXZHZN5A1FFADBND5Z9K70
+  hasEvidence:
+    - basedOnSource: 01M0Q8AS711PKHZ2D7B12J5XX7
+      quotation: >-
+        [The Renshuden] was started in 1959 by Trevor Leggett, who saw the
+        need for a dojo that would focus exclusively on people who were
+        training for competition judo, which was then becoming increasingly
+        important.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M7T8V5TQTJ2M7NMX0HQPBATS
+    instructor: 01M7T8V5TQ39ZGAV0YH6HMN0QE
+    instructorCapacity: instrcap:instructor
+    instructorStyle: 01KJJAWN29MA64W22606R3WD9B
+    instructorPeriod:
+      startYear: 1959
+      endYear: 1961
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Watson's Facebook post and his BJC tribute to Watanabe. The start
+        year is the dojo's founding; the end year is the tribute's.
+    hasEvidence:
+      - basedOnSource: 01M7T8V5TQJZ6YB9F942XD9THV
+        quotation: >-
+          Saburo Matsushita (1935-2020) who taught at the Renshuden and the
+          Budokwai in the late 1950s and early 1960s
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7T6KGEBZ2R8Q6Q7GP7WDQ1K
+        quotation: >-
+          Earlier, in 1961 Saburo Matsushita left the Renshuden after a
+          four-year stint in the UK and returned to Japan.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M7T8V5TQXK4DYPJATBBNHTKP
+    instructor: 01M7T5671EC9MVB63CS9TBGN2W
+    instructorCapacity: instrcap:instructor
+    instructorStyle: 01KJJAWN29MA64W22606R3WD9B
+    instructorPeriod:
+      startYear: 1962
+      endYear: 1967
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The BJC tribute and the BJA obituary. The end year is his return to
+        Japan in 1967.
+    hasEvidence:
+      - basedOnSource: 01M7T6KGEBZ2R8Q6Q7GP7WDQ1K
+        quotation: >-
+          Watanabe stayed in Britain from 1962 to 1967. He taught principally
+          at Leggett's Renshuden Judo Academy and at the Budokwai.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M7T5671E3FKFRZK0WGY5DXJW
+        quotation: He arrived in Britain in 1962 to coach at The Budokwai and the Renshuden in London.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Competition judo dojo in London, founded by Trevor Leggett in 1959. It
+    shared Japanese instructors with the Budokwai.
+hasEvidence:
+  - basedOnSource: 01M0Q8AS711PKHZ2D7B12J5XX7
+    quotation: >-
+      [The Budokwai and the Renshuden] lived in a weird symbiosis, sharing top
+      Japanese teachers.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M7T6KGEBZ2R8Q6Q7GP7WDQ1K
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo

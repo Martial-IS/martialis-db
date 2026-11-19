@@ -1,0 +1,72 @@
+type: Event
+id: 01M7T7ZS7VJPG6D7TSF1SM53RG
+name:
+  en: Budokwai Annual Display 1962
+eventType: eventclass:demonstration
+eventDate: '1962'
+eventPlace: 01KY52HE49EXT0704VAEYG0W59
+location:
+  label: London
+  countryCode: eucountry:GBR
+  wikidata: wd:Q84
+organizer:
+  - 01M325EAQG4P41V98G5PZWNJ4F
+about:
+  - 01KJJAWN29MA64W22606R3WD9B
+hasParticipation:
+  - id: 01M7T7ZS7VK3YJM1B2BGCWFKSF
+    participant: 01M7T5671EC9MVB63CS9TBGN2W
+    participationRole: eventrole:demonstrator
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        De Crée (2024, p. 130, note 1) has Watanabe and Matsushita Saburō
+        demonstrate gonosen-no-kata at the display. Single secondary source.
+    hasEvidence:
+      - basedOnSource: 01KZXXSB6VWQ467ARN5179K098
+        locator: 130, note 1
+        locatorLabel: page
+        quotation: >-
+          the late Watanabe Kisaburō 渡辺喜三郎 (1936-2019), Kōdōkan 7th dan, actually publicly demonstrated gonosen-no-kata at the occasion of the Budōkwai Annual Display 1962 in London
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M7T8V5TQ39Y7H6WMVTAE18AD
+    participant: 01M7T8V5TQ39ZGAV0YH6HMN0QE
+    participationRole: eventrole:demonstrator
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        De Crée (2024, p. 130, note 1) has Matsushita and Watanabe
+        demonstrate gonosen-no-kata at the display. Single secondary source.
+    hasEvidence:
+      - basedOnSource: 01KZXXSB6VWQ467ARN5179K098
+        locator: 130, note 1
+        locatorLabel: page
+        quotation: >-
+          he [Matsushita] himself together with the late Watanabe Kisaburō
+          渡辺喜三郎 (1936-2019), Kōdōkan 7th dan, actually publicly demonstrated
+          gonosen-no-kata at the occasion of the Budōkwai Annual Display 1962
+          in London
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    The Budokwai's annual judo display of 1962 in London, at which Watanabe
+    Kisaburō and Matsushita Saburō demonstrated gonosen-no-kata.
+notes: >-
+  De Crée cites Savage & Jones (2020), "Gonosen-no-Kata - A
+  personal perspective", The Kano Society, for the display.
+hasEvidence:
+  - basedOnSource: 01KZXXSB6VWQ467ARN5179K098
+    locator: 130, note 1
+    locatorLabel: page
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
+  - kata

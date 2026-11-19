@@ -1,0 +1,48 @@
+type: Person
+id: 01M7T8V5TQJBYXA4G7EZNHSKQF
+name:
+  en: Brian N. Watson
+nationality:
+  - countryCode: eucountry:GBR
+    wikidata: wd:Q145
+description:
+  en: >-
+    British judoka and author living in Japan, translator and compiler of
+    Judo Memoirs of Jigoro Kano.
+hasTeacherAssertion:
+  - id: 01M7T8V5TQJACSRCQBJCE9BW41
+    teacher: 01M7T8V5TQ39ZGAV0YH6HMN0QE
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Watson's own account: Matsushita was his first judo teacher, and he
+        attended one of Matsushita's summer courses in 1961. One-sided
+        self-report.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1961
+          endYear: 1961
+        hasEvidence:
+          - basedOnSource: 01M7T8V5TQJZ6YB9F942XD9THV
+            quotation: >-
+              He was my first judo teacher. I, a yellow belt in those days,
+              well remember attending one of his popular summer courses in
+              1961.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M7T5671E3FKFRZK0WGY5DXJW
+    quotation: Brian Watson, a leading British judoka in the 1960s, who lives in Japan
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
