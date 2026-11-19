@@ -9483,7 +9483,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         void:classPartition   <https://martial.is/data.ttl#dataset/class/Event>;
         void:dataDump         <https://martial.is/data.ttl>;
         void:entities         3014;
-        void:triples          167205;
+        void:triples          167233;
         void:uriSpace         "https://martial.is/entity/";
         void:vocabulary       <http://purl.org/ontology/bibo/>;
         void:vocabulary       prov:;
@@ -14755,6 +14755,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://martial.is/entity/01M4R9845WRXWDFJCNT0B2YTZK/instructorPeriod>
         rdf:type             martialis:TimeInterval;
+        martialis:endYear    1866;
         martialis:startYear  1858 .
 
 <https://martial.is/entity/01M3YH7N5G2045DN67V6D136W9/hasConfidence>
@@ -28328,7 +28329,9 @@ void:classPartition  rdf:type  owl:ObjectProperty .
 <https://martial.is/entity/01M5MG190FAKXVS98S4M63S77T>
         rdf:type                      martialis:InstructorRole;
         prov:wasDerivedFrom           <https://martial.is/entity/01M5G930MNABWTVH5Y4WR93H2B>;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M5B0WSEX55P11C4KJ4A9R0KR>;
         martialis:hasConfidence       <https://martial.is/entity/01M5MG190FAKXVS98S4M63S77T/hasConfidence>;
+        martialis:hasEvidence         <https://martial.is/entity/01M5MG190FAKXVS98S4M63S77T/hasEvidence/1>;
         martialis:hasEvidence         <https://martial.is/entity/01M5MG190FAKXVS98S4M63S77T/hasEvidence/0>;
         martialis:instructor          <https://martial.is/entity/01KYQB8J2NN336ZJWGQW3YH95E>;
         martialis:instructorCapacity  <https://w3id.org/martialis/vocab/instructor-capacity/head_instructor>;
@@ -38880,6 +38883,7 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M4R9845WVCDYPR7C909JKK01/instructorPeriod>
         rdf:type             martialis:TimeInterval;
+        martialis:endYear    2026;
         martialis:startYear  2013 .
 
 <https://martial.is/entity/01M7PYA3HB1Q04SZ8MHZRA8X4C/logo/imageAttribution>
@@ -58545,6 +58549,7 @@ dcat:mediaType  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M4R9845W6K67P09GDD8MEVPV/instructorPeriod>
         rdf:type             martialis:TimeInterval;
+        martialis:endYear    2003;
         martialis:startYear  1989 .
 
 <https://martial.is/entity/01M5HN449VW39WBAGK5C2TGNHS/nationality/0>
@@ -59183,7 +59188,7 @@ dcat:mediaType  rdf:type  owl:ObjectProperty .
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
-        martialis:confidenceRationale  "One secondary source (Wikipedia) states he opened and teaches at FUJI Gym from 2013." .
+        martialis:confidenceRationale  "One secondary source (Wikipedia) states he opened and teaches at FUJI Gym from 2013. The end year is the last attested: the 2026 revision." .
 
 <https://martial.is/entity/01M6C5JZZGF497JRQVEXBY4CAZ/birthEvent/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -65648,6 +65653,7 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M4R9845W68YR2TGVJG8N617P/instructorPeriod>
         rdf:type             martialis:TimeInterval;
+        martialis:endYear    2017;
         martialis:startYear  1977 .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TP/hasEvidence/3>
@@ -66794,6 +66800,16 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         schema:familyName          "Gold";
         schema:givenName           "Josh";
         martialis:contributorRole  "author" .
+
+<https://martial.is/entity/01M5MG190FAKXVS98S4M63S77T/hasEvidence/1>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M5G930MNABWTVH5Y4WR93H2B>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:secondary;
+        martialis:quotation           "Eventually, Carlson and Rolls would end up being business partners in the now legendary Figueiredo de Magalhães Academy. They maintained this partnership by alternating the days in which they taught their own group of separate (but sort of mixed) students.";
+        martialis:sourceLocation      "Introduction";
+        martialis:sourceLocatorLabel  "section";
+        martialis:supports            true .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD7V/hasEvidence/3>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -73751,6 +73767,7 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/entity/01M4R9845W2TDE7SWV02RT3WAY/instructorPeriod>
         rdf:type             martialis:TimeInterval;
+        martialis:endYear    2026;
         martialis:startYear  1992 .
 
 <https://martial.is/entity/01M0R2X2ACWQA13VPJ97035R2C>
@@ -81246,7 +81263,7 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
-        martialis:confidenceRationale  "One secondary source (Wikipedia) states he founded and heads the academy since 1996." .
+        martialis:confidenceRationale  "One secondary source (Wikipedia) states he founded and heads the academy since 1996. The end year is the last attested: the 2026 revision." .
 
 <https://martial.is/entity/01M3YH7N5GNEDMHM1EXDGZSHNM>
         rdf:type                 martialis:HonorAssertion;
@@ -95104,7 +95121,7 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:confirmed;
-        martialis:confidenceRationale  "His own association's page and Wikipedia state it; no record from the Academy." .
+        martialis:confidenceRationale  "His own association's page and Wikipedia state it; no record from the Academy. The end year is the last attested: his association's page as read in 2026." .
 
 <https://martial.is/entity/01M6BP392SM5S54WH70K4K6Y5R>
         rdf:type                 martialis:RankAssertion;
@@ -98936,7 +98953,7 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
-        martialis:confidenceRationale  "The FPA lineage history alone states he has led ADAS since its founding in 1998." .
+        martialis:confidenceRationale  "The FPA lineage history alone states he has led ADAS since its founding in 1998. The end year is the last attested: the page as read in 2026." .
 
 <https://martial.is/entity/01M5JVVMHMHTEC6BVTPJNEEJWW/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -105358,6 +105375,7 @@ dcat:Dataset  rdf:type  owl:Class .
 
 <https://martial.is/entity/01M4R9845WR2RKKYZ2YYNC495N/instructorPeriod>
         rdf:type             martialis:TimeInterval;
+        martialis:endYear    2026;
         martialis:startYear  2011 .
 
 <https://martial.is/entity/01M3YH7N5GK6KX4CSFVS6GZHN8/hasInteraction/0/hasEvidence/1>
@@ -106077,7 +106095,7 @@ dcat:Dataset  rdf:type  owl:Class .
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
-        martialis:confidenceRationale  "Single source." .
+        martialis:confidenceRationale  "Single source. The end year is his move to Los Angeles in 1996; no source states when he left the academy." .
 
 <https://martial.is/entity/01M6ENPY5WEKF5MA40AX99YY8E/hasContributor/0>
         rdf:type                   martialis:Contributor;
@@ -106739,6 +106757,7 @@ dcat:Dataset  rdf:type  owl:Class .
 
 <https://martial.is/entity/01M4R9845WTDDN9V73K12YA17X/instructorPeriod>
         rdf:type             martialis:TimeInterval;
+        martialis:endYear    2026;
         martialis:startYear  1996 .
 
 <https://martial.is/entity/01M06FKBQ1AB6FKXQBFBFKKDRH/nationality/0>
@@ -106968,7 +106987,7 @@ dcat:Dataset  rdf:type  owl:Class .
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:confirmed;
-        martialis:confidenceRationale  "The CNK history and an independent article agree." .
+        martialis:confidenceRationale  "The CNK history and an independent article agree. The end year is the last attested: the 2023 article has him still at the head of the club." .
 
 <https://martial.is/entity/01M3YH7N5GFRHR8RPHAHQ7814D/hasInteraction/0>
         rdf:type                     martialis:TeacherInteraction;
@@ -112403,14 +112422,12 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:confidenceRationale  "Documented as the 18th Soke of Tenshinsho-den Katori Shinto-ryu in multiple historical sources, with specific mention in the school's official history" .
 
 <https://martial.is/entity/01M5MG190FAKXVS98S4M63S77T/hasEvidence/0>
-        rdf:type                      martialis:SourceAssertionRelation;
-        martialis:basedOnSource       <https://martial.is/entity/01M5G930MNABWTVH5Y4WR93H2B>;
-        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
-        martialis:informationType     infotype:secondary;
-        martialis:quotation           "Eventually, Carlson and Rolls would end up being business partners in the now legendary Figueiredo de Magalhães Academy. They maintained this partnership by alternating the days in which they taught their own group of separate (but sort of mixed) students.";
-        martialis:sourceLocation      "Introduction";
-        martialis:sourceLocatorLabel  "section";
-        martialis:supports            true .
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M5B0WSEX55P11C4KJ4A9R0KR>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/indirect>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Carlson decides to move to the North American territory, and in 1996 he settles in Los Angeles together with one of his prodigal student Vitor Belfort.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M6ENVCFAD7ZEYKHR5KV7W7X8/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -131494,7 +131511,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
-        martialis:confidenceRationale  "One authored history." .
+        martialis:confidenceRationale  "One authored history. The end year is the school's closure in 1866." .
 
 <https://martial.is/entity/01M3YH7N5G301WTX67EY9P4VQY/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -134311,6 +134328,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01M4R9845WJ4QEMRKPNAN1RSRQ/instructorPeriod>
         rdf:type             martialis:TimeInterval;
+        martialis:endYear    2026;
         martialis:startYear  1998 .
 
 <https://martial.is/entity/01M7Q68J4QZP3BFNWXZHTB3TWZ/publisher>
@@ -134923,6 +134941,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/entity/01M5FJ0DYNQSX9TFAZ12KTX936/instructorPeriod>
         rdf:type             martialis:TimeInterval;
+        martialis:endYear    2026;
         martialis:startYear  1991 .
 
 <https://martial.is/entity/01M3YH7N5GJ35WAHJ6NYDMRG6W/hasInteraction/0/interactionPeriod>
@@ -138297,6 +138316,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         rdf:type                      martialis:InstructorRole;
         prov:wasDerivedFrom           <https://martial.is/entity/01M2WGNYAW6K10EEMQDG8VYGVG>;
         martialis:hasConfidence       <https://martial.is/entity/01M4R9845WRXWDFJCNT0B2YTZK/hasConfidence>;
+        martialis:hasEvidence         <https://martial.is/entity/01M4R9845WRXWDFJCNT0B2YTZK/hasEvidence/1>;
         martialis:hasEvidence         <https://martial.is/entity/01M4R9845WRXWDFJCNT0B2YTZK/hasEvidence/0>;
         martialis:instructor          <https://martial.is/entity/01M31VKGQF6DEE20PS7GXE8GET>;
         martialis:instructorCapacity  <https://w3id.org/martialis/vocab/instructor-capacity/head_instructor>;
@@ -143186,6 +143206,14 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
         schema:name            "Ōmuta";
         schema:sameAs          <http://www.wikidata.org/entity/Q385623> .
+
+<https://martial.is/entity/01M4R9845WRXWDFJCNT0B2YTZK/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M2WGNYAW6K10EEMQDG8VYGVG>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "In March of that year, Ōtani recommended that his protégé be appointed as one of the assistant instructors at the Kōbusho. He became a head instructor in 1858.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M5KQTRGX6CFC6CFRWF9T9KZJ/hasInteraction/0>
         rdf:type               martialis:TeacherInteraction;
@@ -148433,7 +148461,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
-        martialis:confidenceRationale  "The club's own page states he has taught there since 1977; one side only." .
+        martialis:confidenceRationale  "The club's own page states he has taught there since 1977; one side only. The end year is the last attested: the page's 2017 date." .
 
 <https://martial.is/entity/01KZ0ZT8VBE0SPQ15SKE2H7Q29/publisher>
         rdf:type     martialis:Publisher;
@@ -153900,7 +153928,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
-        martialis:confidenceRationale  "His own interview and his school's dojo list state it; both come from his side." .
+        martialis:confidenceRationale  "His own interview and his school's dojo list state it; both come from his side. The end year is the last attested: the 2003 dojo list." .
 
 <https://martial.is/entity/01M5JRHX02KP74SYR2DAZ42VXS/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -156634,6 +156662,7 @@ dcat:Distribution  rdf:type  owl:Class .
 
 <https://martial.is/entity/01M4R9845WFR1WG0FVRFKDSTYH/instructorPeriod>
         rdf:type             martialis:TimeInterval;
+        martialis:endYear    2017;
         martialis:startYear  1978 .
 
 <https://martial.is/entity/01M3YH7N5GHEYGHWJH0E5PHCN6>
@@ -157499,6 +157528,7 @@ dcat:Distribution  rdf:type  owl:Class .
 
 <https://martial.is/entity/01M4R9845WW2KY6VRQKH5SK297/instructorPeriod>
         rdf:type             martialis:TimeInterval;
+        martialis:endYear    2023;
         martialis:startYear  1962 .
 
 <https://martial.is/entity/01KYF4MPCW701CSJGGG3W9R12P>
@@ -163958,7 +163988,7 @@ dcat:Distribution  rdf:type  owl:Class .
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
-        martialis:confidenceRationale  "One secondary source (Wikipedia) states he is head coach and owner since 2008." .
+        martialis:confidenceRationale  "One secondary source (Wikipedia) states he is head coach and owner since 2008. The end year is the last attested: the 2026 revision." .
 
 <https://martial.is/entity/01M5KQTRGX2JGG5SW23JDHAMR8>
         rdf:type                        martialis:Source;
@@ -180222,6 +180252,7 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01M4R9845WXV2JMWEG16CM8NKH/instructorPeriod>
         rdf:type             martialis:TimeInterval;
+        martialis:endYear    2026;
         martialis:startYear  2008 .
 
 <https://martial.is/entity/01M3YH7N5GS2FW7E4AE5YWMK2J/hasConfidence>
@@ -183509,7 +183540,7 @@ dcterms:RightsStatement
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
-        martialis:confidenceRationale  "The dojo's own instructor page; one side only." .
+        martialis:confidenceRationale  "The dojo's own instructor page; one side only. The end year is the last attested: the page's 2017 date." .
 
 <https://martial.is/entity/01M3YH7N5G2Z0EEA3B8BJYWB7H/hasInteraction/0/interactionPeriod>
         rdf:type             martialis:TimeInterval;
@@ -198979,6 +199010,7 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01M5MG190FAKXVS98S4M63S77T/instructorPeriod>
         rdf:type             martialis:TimeInterval;
+        martialis:endYear    1996;
         martialis:startYear  1972 .
 
 <https://martial.is/entity/01KZ6XT5DS9BPQ109R3EJ8MKVG/foundedEvent/hasEvidence/1>
@@ -199797,7 +199829,7 @@ dcterms:RightsStatement
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
-        martialis:confidenceRationale  "The club's page and his own author page; both from his side." .
+        martialis:confidenceRationale  "The club's page and his own author page; both from his side. The end year is the last attested: both pages as read in 2026." .
 
 <https://martial.is/entity/01M3YH7N5GTN8XVY1WZBYP51J0/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -208236,9 +208268,9 @@ dcterms:RightsStatement
 <https://martial.is/entity/01M4R9845WRXWDFJCNT0B2YTZK/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M2WGNYAW6K10EEMQDG8VYGVG>;
-        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/indirect>;
         martialis:informationType  infotype:secondary;
-        martialis:quotation        "In March of that year, Ōtani recommended that his protégé be appointed as one of the assistant instructors at the Kōbusho. He became a head instructor in 1858.";
+        martialis:quotation        "Its purpose was to instruct Tokugawa retainers, and although it was closed a decade later, in 1866, in its heyday it employed over five hundred instructors (mainly assistants) of kenjutsu, sojutsu, and kyujutsu.";
         martialis:supports         true .
 
 <https://martial.is/entity/01M6EF6KKAN79Q0KQFRGZ1FY5A>
@@ -217896,7 +217928,7 @@ dcterms:identifier  rdf:type  owl:AnnotationProperty .
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:confirmed;
-        martialis:confidenceRationale  "His own interview and three independent pages (the club, ACPA, FPA) agree that he teaches at SFUAP." .
+        martialis:confidenceRationale  "His own interview and three independent pages (the club, ACPA, FPA) agree that he teaches at SFUAP. The end year is the last attested: the club's timetable as read in 2026." .
 
 <https://martial.is/entity/01M3YH7N5GAHTD87YY72GCJF1R/hasConfidence>
         rdf:type                       martialis:Confidence;

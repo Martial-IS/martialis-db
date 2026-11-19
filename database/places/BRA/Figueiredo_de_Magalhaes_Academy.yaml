@@ -35,11 +35,20 @@ hasInstructorRole:
     instructorCapacity: instrcap:head_instructor
     instructorPeriod:
       startYear: 1972
+      endYear: 1996
     hasConfidence:
       confidenceLevel: conflevel:probable
       assessedBy: agent:FSM
-      confidenceRationale: Single source.
+      confidenceRationale: >-
+        Single source. The end year is his move to Los Angeles in 1996; no
+        source states when he left the academy.
     hasEvidence:
+      - basedOnSource: 01M5B0WSEX55P11C4KJ4A9R0KR
+        quotation: >-
+          Carlson decides to move to the North American territory, and in 1996 he settles in Los Angeles together with one of his prodigal student Vitor Belfort.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
       - basedOnSource: 01M5G930MNABWTVH5Y4WR93H2B
         quotation: >-
           Eventually, Carlson and Rolls would end up being business partners in the now legendary

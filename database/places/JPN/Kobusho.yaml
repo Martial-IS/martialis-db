@@ -36,11 +36,18 @@ hasInstructorRole:
     instructorCapacity: instrcap:head_instructor
     instructorPeriod:
       startYear: 1858
+      endYear: 1866
     hasConfidence:
       confidenceLevel: conflevel:probable
       assessedBy: agent:FSM
-      confidenceRationale: One authored history.
+      confidenceRationale: >-
+        One authored history. The end year is the school's closure in 1866.
     hasEvidence:
+      - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
+        quotation: Its purpose was to instruct Tokugawa retainers, and although it was closed a decade later, in 1866, in its heyday it employed over five hundred instructors (mainly assistants) of kenjutsu, sojutsu, and kyujutsu.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
       - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
         quotation: In March of that year, Ōtani recommended that his protégé be appointed as one of the assistant instructors at the Kōbusho. He became a head instructor in 1858.
         informationType: infotype:secondary
