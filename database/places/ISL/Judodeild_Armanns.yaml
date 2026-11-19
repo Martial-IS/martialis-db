@@ -61,6 +61,7 @@ hasInstructorRole:
   - id: 01M7Q9PPT7598GETQBHG7GWCGV
     instructor: 01M7Q9PPT7XYF6KGR9DG4EHB8Q
     instructorCapacity: instrcap:instructor
+    instructorStyle: 01KJJAWN29MA64W22606R3WD9B
     instructorPeriod:
       startYear: 1958
       endYear: 1965
@@ -94,6 +95,7 @@ hasInstructorRole:
   - id: 01M7Q9PPT7X84C5FNG0HT4TD8G
     instructor: 01KJJAWN28MWKKSN4J02MVY1SR
     instructorCapacity: instrcap:guest
+    instructorStyle: 01KJJAWN29MA64W22606R3WD9B
     instructorPeriod:
       startYear: 1967
       endYear: 1967
@@ -137,14 +139,27 @@ hasInstructorRole:
   - id: 01M7NXN3MGD6JHVBRTS6SF79EK
     instructor: 01M7NT0A8VNXR9PV8J9FQ58B51
     instructorCapacity: instrcap:head_instructor
+    instructorStyle: 01KJJAWN29MA64W22606R3WD9B
+    instructorPeriod:
+      startYear: 1999
+      endYear: 2026
     hasConfidence:
       confidenceLevel: conflevel:confirmed
       assessedBy: agent:FSM
       confidenceRationale: >-
         The club's coaches page lists Iura as head coach (yfirþjálfari); the
         AJJF interview (2020) says he has taught at Ármann since settling in
-        Iceland. No start year in either.
+        Iceland. The start year is the latest one the embassy's "over 25
+        years" (November 2024) allows. The end year is the last attested:
+        the coaches page as read in November 2026.
     hasEvidence:
+      - basedOnSource: 01M7QB35J56NMZRC4DBF50K1EM
+        quotation: >-
+          He has also been teaching judo at the leading judo club in Iceland
+          for over 25 years
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
       - basedOnSource: 01M7NXN3MGBYK54FHV643Z15KA
         quotation: Yoshihiko Iura, yfirþjálfari
         informationType: infotype:primary

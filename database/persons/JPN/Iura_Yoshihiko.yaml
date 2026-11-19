@@ -28,14 +28,13 @@ notes: >-
   THere's quite a bit of information scattered, but nothing
   conclusive... adding the breadcrumbs here.
   AJJF interview (p. 1): started judo at 10 at 大道塾 宇佐美道場,
-  Kawaguchi, and studied at 東京教育大学 (Tokyo Higher Normal School
-  record), in its last cohort (so about 1973-1977); no instructors
-  named, so no teacher claim. Ármann podcast ep. 1
+  Kawaguchi, and studied at 東京教育大学, in its last cohort (so about 1973-1977); no instructors
+  named, so an unidentified-teacher entry. Ármann podcast ep. 1
   (https://open.spotify.com/episode/4IqlNMqw1a6ZafeXffPgOO) describes
   the first club as "very small judo club, 28 tatamis" with an unnamed
   "old 8th dan" teacher. Judo club adviser (柔道部の顧問) 中村良三
-  recommended him for Iceland, where he replaced his senior (先輩) 村
-  田直樹; in the podcast he is "my teacher at the university". Neither
+  recommended him for Iceland, where he replaced his senior (先輩)
+  村田直樹; in the podcast he is "my teacher at the university". Neither
   source says he taught Iura judo, and little is known of him, so no
   record or teacher claim. KAKEN lists a 中村良三 as a Tsukuba
   professor (2004-05) researching judo weight loss; probably him,
@@ -43,12 +42,44 @@ notes: >-
   1967). Podcast ep. 5
   (https://open.spotify.com/episode/0WmIlgFeNLndm5pZ8HlfZc): Nobuyuki
   Sato (probably 佐藤宣践) was a close friend of this university
-  teacher. The profile gives出身：埼玉県 (origin, not birthplace). The
+  teacher. The profile gives 出身：埼玉県 (origin, not birthplace). The
   embassy flyer (2020) names Sveinbjörn Jun Iura, Icelandic judo
   champion, as his son. The BJA (2024) gives the decoration as for
   developing judo outside Japan; the embassy gives service to the
   embassy (日本国在外公館業務功労). Ármann podcast "Interview with
-  sensei Mr. Yoshihiko Iura"
+  sensei Mr. Yoshihiko Iura" (Spotify): episodes other than 1 and 5 not
+  yet checked.
+hasTeacherAssertion:
+  - id: 01M7R68KKST9CRVRNR7DA9FTTV
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        In the AJJF interview (2020, p. 1) he says he was in the last
+        東京教育大学 cohort, the year before the change to Tsukuba, and was in
+        its judo club; no instructors named. Own account only. The period
+        assumes the last intake in 1973 (Tsukuba's first in 1974) and a
+        four-year course.
+    hasInteraction:
+      - interactionPlace: 01M7SP7A80C885XSN2X0GGT088
+        interactionPeriod:
+          startYear: 1973
+          endYear: 1977
+        hasEvidence:
+          - basedOnSource: 01M7NT0A8VX6GKE67SMB8B4MZT
+            quotation: >-
+              私の学年が東京教育大学としての最後の学年で、私の次の年から筑波大学になるのですが
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M7NT0A8VX6GKE67SMB8B4MZT
+            quotation: >-
+              それで当時、柔道部の顧問だった中村良三先生に薦めていただいて行くことになりました。
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
 hasRankAssertion:
   - id: 01M7NT0A8VDDBDXKSRB6SKV7P2
     rankStyle: 01KJJAWN29MA64W22606R3WD9B

@@ -14,6 +14,7 @@ hasInstructorRole:
   - id: 01M5H3ESYG0MEVX1XJPG7H88F2
     instructor: 01M5H3ESYG2FNYVYCDVRWHQZDB
     instructorCapacity: instrcap:instructor
+    instructorStyle: 01KJJAWN29MA64W22606R3WD9B
     instructorPeriod:
       startYear: 1894
     notes: Kano dates the invitation "around 1894". Judo was first taught in a spare classroom, later in the gymnasium Kano named Ushokan.
@@ -93,7 +94,20 @@ hasOfficerRole:
         supports: true
         evidenceType: evidencetype:direct
 description:
-  en: Teacher-training college in Tokyo, now the University of Tsukuba, and the rival of the Butokukai's Bujutsu Vocational College in producing specialist martial arts instructors. Kanō Jigorō became its president in 1893 and founded its gekiken club in 1896; judo, kendo and calisthenics became regular subjects in 1906, and from 1913 its three martial arts courses granted a nationally recognised teaching licence. The dan and kyū system was first used in kendo here, under Takano Sasaburō in 1908.
+  en: Teacher-training college in Tokyo, absorbed into Tokyo University of Education in 1949 and closed in 1952, and the rival of the Butokukai's Bujutsu Vocational College in producing specialist martial arts instructors. Kanō Jigorō became its president in 1893 and founded its gekiken club in 1896; judo, kendo and calisthenics became regular subjects in 1906, and from 1913 its three martial arts courses granted a nationally recognised teaching licence. The dan and kyū system was first used in kendo here, under Takano Sasaburō in 1908.
+dissolvedEvent:
+  endDate: '1952'
+  dissolutionManner: dissmanner:merged
+  dissolutionReason: >-
+    Absorbed into Tokyo University of Education on its founding in 1949 and
+    closed in 1952.
+  hasEvidence:
+    - basedOnSource: 01M7SP7A80YW25M1A4VBN4XM53
+      quotation: >-
+        1949年（昭和24年）5月、新制東京教育大学の発足とともに高師は同校に包括され、1952年（昭和27年）名実ともに廃止となった。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
 hasEvidence:
   - basedOnSource: 01M2WGNYAW6K10EEMQDG8VYGVG
     quotation: The highly influential educator and martial artist Kanō Jigorō became the school's president in 1893

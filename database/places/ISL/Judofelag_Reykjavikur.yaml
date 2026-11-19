@@ -48,6 +48,34 @@ hasAffiliationAssertion:
         informationType: infotype:primary
         supports: true
         evidenceType: evidencetype:direct
+hasInstructorRole:
+  - id: 01M7RBC9G5VWBBK6AEEJV39SCY
+    instructor: 01KZXH2NSQMBZTRPPYAKKCFR84
+    instructorCapacity: instrcap:guest
+    instructorStyle: 01KJJAWN29MA64W22606R3WD9B
+    instructorPeriod:
+      startYear: 1968
+      endYear: 1968
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Búason (2012, pp. 21-22) has Ichiro Abe, 7th dan, come to Iceland on
+        behalf of Judofélag Reykjavíkur in July 1968 with Syd Hoare, but says
+        only that Hoare was to coach, and that Abe's arrival date is not known.
+        Single secondary source.
+    hasEvidence:
+      - basedOnSource: 01M7Q9A0QMC2TQSZ65AHH2WA4A
+        locator: 21-22
+        locatorLabel: page
+        quotation: >-
+          Í júlí 1968 áttu tveir merkir júdómenn að koma til Íslands. Annar
+          þeirra var einn af fulltrúum japanska júdósambandsins í Evrópu, Ichiro
+          Abe, en hann var með 7. dan. Hinn var Syd Hoare, 4. dan, og mikill
+          keppnismaður. Þeir komu til Íslands á vegum Júdófélags Reykjavíkur.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
 website: https://judo.is/
 description:
   en: >-

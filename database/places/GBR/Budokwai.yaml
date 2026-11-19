@@ -30,6 +30,7 @@ hasInstructorRole:
     instructorCapacity: instrcap:head_instructor
     instructorPeriod:
       startYear: 1918
+      endYear: 1950
     hasConfidence:
       confidenceLevel: conflevel:confirmed
       assessedBy: agent:FSM
@@ -37,6 +38,11 @@ hasInstructorRole:
     hasEvidence:
       - basedOnSource: 01M06K0RMZV3APZVDQBBYVCKEQ
         quotation: In 1918, Tani became the first professional teacher at the London Budokwai, created by his countryman Gunji Koizumi initially teaching jiujitsu.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M06K0RMZV3APZVDQBBYVCKEQ
+        quotation: Tani suffered a stroke in 1937, but continued to teach from the sidelines of the Budokwai mats until his death in London on 24 January 1950, aged 69.
         informationType: infotype:secondary
         supports: true
         evidenceType: evidencetype:direct
@@ -58,14 +64,23 @@ hasInstructorRole:
   - id: 01M5H3D2EC51RX6AEGD9TA95WF
     instructor: 01KY52HE48XM1KHDGKBV98YRQ2
     instructorCapacity: instrcap:instructor
+    instructorStyle: 01KJJAWN29MA64W22606R3WD9B
     instructorPeriod:
       startYear: 1928
-    notes: Kano's visit of 1928 is the date of the account, not the start of the role.
+      endYear: 1965
+    notes: >-
+      Kano's visit of 1928 is the date of the account, not the start of the
+      role. The end year is Koizumi's death.
     hasConfidence:
       confidenceLevel: conflevel:probable
       assessedBy: agent:FSM
       confidenceRationale: Kano's own account only.
     hasEvidence:
+      - basedOnSource: 01KY52HE43YW6GXDPGPTRD08ZB
+        quotation: On 15 April 1965, Koizumi apparently died by suicide.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
       - basedOnSource: 01KJJAWN29MA64W22606R3WD9Y
         quotation: >-
           After leaving Italy, I journeyed to England to meet again Gunji Koizumi and Yukio Tani, both

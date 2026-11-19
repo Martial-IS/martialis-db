@@ -60,14 +60,41 @@ description:
     books on judo and Kanō Jigorō. He taught judo in more than ten countries,
     including two years in Iceland, where Iura Yoshihiko succeeded him.
 notes: >-
-  Studied at 東京教育大学 体育学部武道学科 (Tokyo Higher Normal School record),
-  graduating in 1973, then its master's course; no instructors named, so no
-  teacher claim. Also an associate professor at Kagawa University, and
+  Studied at 東京教育大学 体育学部武道学科, graduating in 1973, then its master's course; no instructors named, so an
+  unidentified-teacher entry. Also an associate professor at Kagawa University, and
   president (理事長, 2008) then vice-president of the Japanese Academy of Budo
   (日本武道学会), which has no record. The Iceland years and club are not given;
   the AJJF interview with Iura places them just before Iura's first stay.
   Wikidata gives 14 April 2020 as the date of death, against the Kodokan's 9
   April.
+hasTeacherAssertion:
+  - id: 01M7R68KKS8D7JWMS3H3WXTKY5
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The Kodokan obituary and the Kanoya profile both give his 1973
+        graduation from the 東京教育大学 budo department; neither names judo
+        as his course or names his instructors, so probable. The start year
+        assumes a four-year course.
+    hasInteraction:
+      - interactionPlace: 01M7SP7A80C885XSN2X0GGT088
+        interactionPeriod:
+          startYear: 1969
+          endYear: 1973
+        hasEvidence:
+          - basedOnSource: 01M7QBSXNAX81AN9HYZ2P2FF26
+            quotation: 1973年　東京教育大学体育学部武道学科卒業
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M7QBSXNA676CTPDY8WQ75EAB
+            quotation: 1973年東京教育大学体育学部武道学科卒業。
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
 hasRankAssertion:
   - id: 01M7QBSXNASH7GN3KGXTBH1CQ1
     rankStyle: 01KJJAWN29MA64W22606R3WD9B

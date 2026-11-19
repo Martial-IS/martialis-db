@@ -1,0 +1,57 @@
+type: Place
+id: 01M7SP7A80C885XSN2X0GGT088
+name:
+  en: Tokyo University of Education
+  ja-Latn: Tōkyō Kyōiku Daigaku
+  ja: 東京教育大学
+placeType: placeclass:university
+hasSite:
+  - location:
+      label: Tokyo
+      countryCode: eucountry:JPN
+      wikidata: wd:Q1490
+foundedEvent:
+  startDate: '1949'
+  hasEvidence:
+    - basedOnSource: 01M7SP7A80B750D20QBDHAW4W9
+      quotation: 1949年に設置され、1978年に廃止された。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M7SP7A80YW25M1A4VBN4XM53
+      quotation: >-
+        1949年（昭和24年）5月、新制東京教育大学の発足とともに高師は同校に包括され、1952年（昭和27年）名実ともに廃止となった。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+dissolvedEvent:
+  endDate: '1978-03-31'
+  dissolutionManner: dissmanner:superseded
+  dissolutionReason: >-
+    Closed in 1978 and became the parent of the University of Tsukuba.
+  hasEvidence:
+    - basedOnSource: 01M7SP7A80B750D20QBDHAW4W9
+      quotation: 1978年に閉学し、筑波大学（茨城県つくば市に所在）の母体となった。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M7SP7A80B750D20QBDHAW4W9
+      quotation: 1978年（昭和53年） 3月31日 - 閉学。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    National university in Tokyo (1949-1978), formed in 1949 from Tokyo Higher
+    Normal School, Tokyo Bunrika Daigaku and other colleges. It closed in 1978
+    and became the parent of the University of Tsukuba.
+hasEvidence:
+  - basedOnSource: 01M7SP7A80B750D20QBDHAW4W9
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q11524880
+tags:
+  - judo
+  - education

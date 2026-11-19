@@ -19,6 +19,30 @@ notes: >-
   Place record and no teacher named. Charles Palmer, IJF president, granted
   the 1967 2nd dan together with Ichiro Abe; Palmer has no Person record.
 hasTeacherAssertion:
+  - id: 01M7R68KKSZG7Q7HJCJZKBWJ0J
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Búason (2012, p. 11) places him at the Budokwai in the summer of 1961
+        and does not name his instructors. Single secondary source.
+    hasInteraction:
+      - interactionPlace: 01KY52HE49EXT0704VAEYG0W59
+        interactionPeriod:
+          startYear: 1961
+          endYear: 1961
+        hasEvidence:
+          - basedOnSource: 01M7Q9A0QMC2TQSZ65AHH2WA4A
+            locator: '11'
+            locatorLabel: page
+            quotation: >-
+              varð England fyrir valinu sumarið 1961. Þar æfði hann í einum
+              fremsta júdóskóla Evrópu, The Budokwai í London.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
   - id: 01M7Q9PPT7NYGXQV587BAM8Z2K
     teacher: 01M7Q9PPT711RX9RE4W7E5TJJT
     assertedStyle: 01KJJAWN29MA64W22606R3WD9B
