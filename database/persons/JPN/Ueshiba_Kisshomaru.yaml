@@ -1,0 +1,146 @@
+type: Person
+id: 01M82HJ8PF6FTB97PZG7PJV09T
+name:
+  ja-Latn: Ueshiba Kisshōmaru
+  ja: 植芝 吉祥丸
+aka:
+  en: Kisshomaru Ueshiba
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1921-06-27'
+  birthPlace:
+    label: Ayabe
+    countryCode: eucountry:JPN
+    wikidata: wd:Q694370
+  hasEvidence:
+    - basedOnSource: 01M82HJ8PFR717S2T09DS5PNHK
+      quotation: He was born on 27 June 1921, in the city of Ayabe, Kyoto Prefecture, Japan.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1999-01-04'
+  deathPlace:
+    label: Tokyo
+    countryCode: eucountry:JPN
+    wikidata: wd:Q1490
+  hasEvidence:
+    - basedOnSource: 01M82HJ8PFR717S2T09DS5PNHK
+      quotation: Ueshiba died around 5:30 PM on 4 January 1999, in a Tokyo hospital.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://upload.wikimedia.org/wikipedia/en/5/56/Kisshomaru_Ueshiba.jpg
+  imageAttribution:
+    uri: https://en.wikipedia.org/wiki/File:Kisshomaru_Ueshiba.jpg
+    cite: "English Wikipedia"
+    informationType: infotype:secondary
+description:
+  en: >-
+    Japanese aikido teacher, son of Morihei Ueshiba and second Dōshu of
+    aikido from 1969 to 1999.
+hasTeacherAssertion:
+  - id: 01M82HJ8PF47KYB1PV0AXTEM9J
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TV
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Green and Svinth (2010, p. 134) and the Aikido Journal encyclopedia
+        independently state that he trained under his father from his school
+        years, c. 1937; Moriteru Ueshiba's preface to The Art of Aikido says
+        the same.
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD86
+        interactionPeriod:
+          startYear: 1937
+        hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            locator: '134'
+            locatorLabel: page
+            quotation: >-
+              Ueshiba eventually settled on his son Kisshomaru as his heir.
+              Ueshiba Kisshomaru (1921–1999) began to practice actively while
+              he was still at school
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M82HJ8PF7H998CV16CVQ8TDS
+            quotation: >-
+              Kisshomaru began serious training as a teenager c. 1937 and
+              appears taking UKEMI for his father in the 1938 technical book
+              BUDO.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M82HJ8PFR717S2T09DS5PNHK
+            quotation: Ueshiba began training under his father around 1937.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M82HJ8PF0SYFESSN8PHPJ1K9
+            locator: 14-15
+            locatorLabel: page
+            quotation: >-
+              Born into the household of a martial arts genius, Kisshomaru
+              naturally absorbed many teachings from his father as he was
+              growing up.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M82HJ8PF8ACSJZKN4NH2ZWXN
+    assertedStyle: 01M6BGZPMBBTGQ6TYMJF5MGFTJ
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        His own account (Aikido Journal interview, 2003) of about a year of
+        Kashima Shintō-ryū at the Kobukan; the Aikido Journal encyclopedia
+        dates the visiting teachers from 1937. A self-report, so probable.
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD86
+        interactionPeriod:
+          startYear: 1937
+        hasEvidence:
+          - basedOnSource: 01M82HJ8PFFMSWHTJ5BHEA9FB3
+            quotation: >-
+              Two practitioners of the Kashima Shinto-ryu sword school named
+              Iida and Aoki used to come to our dojo on their way back from
+              teaching at the Kodokan Judo headquarters. I studied with them.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M764AMRB1B0J2HZHSJW99MP4
+            quotation: >-
+              three senior teachers of this school who taught for two or three
+              years beginning in 1937 on his invitation at the KOBUKAN DOJO in
+              Tokyo
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+notes: >-
+  Kashima Shintō-ryū teachers named only as Iida and Aoki (2003 interview);
+  no Person records, as nothing else connects them. The handover of the
+  Kobukan is 1941 in his own book (p. 82), 1942 in Green and Svinth, the
+  Aikido Journal encyclopedia and Wikipedia.
+hasEvidence:
+  - basedOnSource: 01M82HJ8PFR717S2T09DS5PNHK
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M82HJ8PF7H998CV16CVQ8TDS
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q434613
+  - viaf:9915982
+tags:
+  - aikido
+  - aikikai

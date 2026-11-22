@@ -12,6 +12,47 @@ hasSite:
       label: Tokyo
       countryCode: eucountry:JPN
       wikidata: wd:Q1490
+hasOfficerRole:
+  - id: 01M82HJ8PF35WDYAPJ5ZNRETYG
+    officer: 01M82HJ8PF6FTB97PZG7PJV09T
+    officerTitle: Director
+    officerPeriod:
+      startYear: 1942
+      endYear: 1945
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Green and Svinth (2010, p. 134) and the Aikido Journal encyclopedia
+        independently give 1942 and his running of the dojo until the 1945
+        fire-bombing. His own book (p. 82) gives 1941.
+    hasEvidence:
+      - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+        locator: '134'
+        locatorLabel: page
+        quotation: >-
+          Thus, in 1942, Ueshiba turned over the administration of the Kobukan
+          Dojo to his son Kisshomaru
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M82HJ8PF7H998CV16CVQ8TDS
+        quotation: >-
+          He became the director of the KOBUKAN DOJO while still a university
+          student in 1942 after his father’s retirement to IWAMA.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M82HJ8PF0SYFESSN8PHPJ1K9
+        locator: '82'
+        locatorLabel: page
+        quotation: >-
+          My father Morihei suddenly entrusted me with the administrative side
+          of the Aikido organization in 1941 when I was still only a high
+          school student.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
 hasEvidence:
   - basedOnSource: 01M3S8MWJEABJQY2S4GBY61JNJ
     quotation: In 1931, in present-day Wakamatsu-cho Shinjuku-ku, the current Aikido Hombu Dojo was built as the "Ueshiba Dojo (Kobukan)," a specialized Aikido dojo. It was renamed the "Aikido Hombu Dojo" later.

@@ -1,0 +1,231 @@
+type: Person
+id: 01M82KCXFRK2NJAABTATDQEY7R
+name:
+  en: Robert Nadeau
+aka:
+  en: Bob Nadeau
+nationality:
+  - countryCode: eucountry:USA
+    wikidata: wd:Q30
+description:
+  en: >-
+    American aikido teacher, a student at the Aikikai Hombu Dojo in Tokyo
+    and later a leading aikido teacher in Northern California.
+notes: >-
+  Birth year unsettled: Wikipedia gives 1937 with a citation-needed tag,
+  Wikidata 1937-03-10 without a source, and the 2002 Aikido Journal
+  introduction says he was 22 when he sailed for Japan in 1962. First aikido
+  teacher Robert Tann and judo teacher Yasutoshi "Moon" Watanabe have no
+  records. Students named by Wikipedia (George Leonard, Richard
+  Strozzi-Heckler, Dan Millman) and colleagues Frank Doran and Bill Witt are
+  not in the database a the time of writing.
+hasTeacherAssertion:
+  - id: 01M82KCXFRF7439GXY128NNC35
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TV
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Aikido Journal (2025) calls him a personal student of the founder and
+        Wikipedia reports Stone and Meyer (1995) saying the same; his own 2002
+        account names O-Sensei among the Hombu teachers. Both interviews are
+        from one publisher and no record from Ueshiba's side is in hand, so
+        probable.
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD86
+        interactionPeriod:
+          startYear: 1962
+          endYear: 1964
+        hasEvidence:
+          - basedOnSource: 01M82KCXFRES2BWCJSEYM3MEHG
+            quotation: >-
+              Robert Nadeau was a personal student of the founder of Aikido,
+              Morihei Ueshiba
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M82KCXFRV6MD4N0QX3AJY0AW
+            quotation: >-
+              Aikido in America (1995) presents Nadeau as one of Morihei
+              Ueshiba's personal American students.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M82KCXFRV6MD4N0QX3AJY0AW
+            quotation: He trained at the Aikikai Hombu Dojo in Tokyo from 1962 to 1964
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M82KCXFRXCH7YSVR8K1AMC4S
+            quotation: >-
+              It was 1962 when I got there. The main teachers were Kisaburo
+              Osawa, Wakasensei (Kisshomaru Ueshiba), Koichi Tohei, Sadateru
+              Arikawa and Seigo Yamaguchi. [...] And O-Sensei, of course.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M82KCXFR560HSHN1TAX0GHT5
+    teacher: 01KZSRDXQW9QBDT9VR9P08RBYT
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:private
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        His own account (Aikido Journal, 2002) of long private lessons with
+        Tohei and of attending all his classes. Wikipedia repeats it from the
+        same interview.
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD86
+        interactionPeriod:
+          startYear: 1962
+          endYear: 1964
+        hasEvidence:
+          - basedOnSource: 01M82KCXFRXCH7YSVR8K1AMC4S
+            quotation: >-
+              Also, Koichi Tohei was a very good teacher. I took private
+              lessons from him for a long time.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M82KCXFRXCH7YSVR8K1AMC4S
+            quotation: I attended all of his classes in Japan
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M82KCXFR9WPG2VQSVMMAW9RG
+    teacher: 01M82HJ8PF6FTB97PZG7PJV09T
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        His own account (Aikido Journal, 2002) names Kisshomaru Ueshiba among
+        the main Hombu teachers in 1962 and says he went to every teacher's
+        class.
+    hasInteraction:
+      - interactionPlace: 01KJJAWN29MA64W22606R3WD86
+        interactionPeriod:
+          startYear: 1962
+          endYear: 1964
+        hasEvidence:
+          - basedOnSource: 01M82KCXFRXCH7YSVR8K1AMC4S
+            quotation: >-
+              The main teachers were Kisaburo Osawa, Wakasensei (Kisshomaru
+              Ueshiba), Koichi Tohei, Sadateru Arikawa and Seigo Yamaguchi.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M82KCXFRXCH7YSVR8K1AMC4S
+            quotation: Oh, I went to everybody’s class.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M82MGZ9HZ17RT446Q42QPH1D
+    teacher: 01KJJAWN28MWKKSN4J02MVY1SN
+    assertedStyle: 01KYJ80JXEH8J0AWW86F1ATQEZ
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        His own account (Aikido Journal, 2002) of informal sessions with Wang
+        Shu-Chin, whom he calls a t'ai ch'i teacher, with Draeger's group in
+        Tokyo; Wikipedia repeats it from the same interview.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1962
+          endYear: 1964
+        hasEvidence:
+          - basedOnSource: 01M82KCXFRXCH7YSVR8K1AMC4S
+            quotation: >-
+              I did spend some time with Donn Draeger and a group of Western
+              martial artists including Terry Dobson, and a famous t’ai ch’i
+              teacher named Wang Shu-Chin.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M82KCXFRXCH7YSVR8K1AMC4S
+            quotation: >-
+              We used to meet at his house and invite this Chinese master who
+              was a monk and was really skilled. He taught t’ai chi, pakua, and
+              Hsing-I.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M82KCXFRV6MD4N0QX3AJY0AW
+            quotation: and with the Chinese internal arts teacher Wang Shu-jin
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M82KCXFRMP2MVNZRXTPKND84
+    rankStyle: 01KJJAWN29MA64W22606R3WD9R
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 8
+    conferredBy: 01KZ3KA57C6W6FMCWM668Y13X2
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Aikido Journal (2025) and Wikipedia state the 8th dan; no date and no
+        Aikikai record in hand.
+    hasEvidence:
+      - basedOnSource: 01M82KCXFRES2BWCJSEYM3MEHG
+        quotation: >-
+          He holds the rank of 8th dan and was certified as shihan (master
+          teacher) by Aikido World Headquarters (Hombu Dojo).
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M82KCXFRV6MD4N0QX3AJY0AW
+        quotation: >-
+          is an American aikido teacher who holds the rank of 8th dan and the
+          title shihan (master teacher)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasHonorAssertion:
+  - id: 01M82KCXFRD4QY54WMB3KSF837
+    honorValue: Shihan
+    honorType: honortype:title
+    conferredBy: 01KZ3KA57C6W6FMCWM668Y13X2
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Aikido Journal (2025) says Hombu Dojo certified him as shihan;
+        Wikipedia gives the title. No date and no Aikikai record in hand.
+    hasEvidence:
+      - basedOnSource: 01M82KCXFRES2BWCJSEYM3MEHG
+        quotation: >-
+          He holds the rank of 8th dan and was certified as shihan (master
+          teacher) by Aikido World Headquarters (Hombu Dojo).
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M82KCXFRV6MD4N0QX3AJY0AW
+        quotation: >-
+          is an American aikido teacher who holds the rank of 8th dan and the
+          title shihan (master teacher)
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M82KCXFRV6MD4N0QX3AJY0AW
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M82KCXFRXCH7YSVR8K1AMC4S
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+  - wd:Q7347940
+tags:
+  - aikido
+  - aikikai

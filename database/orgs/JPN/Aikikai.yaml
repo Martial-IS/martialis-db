@@ -26,6 +26,40 @@ foundedEvent:
       informationType: infotype:secondary
       supports: true
       evidenceType: evidencetype:direct
+hasOfficerRole:
+  - id: 01M82HJ8PF38Z2Y1C6XJG3GR2P
+    officer: 01M82HJ8PF6FTB97PZG7PJV09T
+    officerTitle: Dōshu
+    officerPeriod:
+      startYear: 1969
+      endYear: 1999
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The Aikido Journal encyclopedia and his own book's back flap give the
+        succession in 1969; Wikipedia gives the same with his 1999 death.
+    hasEvidence:
+      - basedOnSource: 01M82HJ8PF7H998CV16CVQ8TDS
+        quotation: >-
+          Upon his father’s death in 1969, Kisshomaru inherited the title of
+          Doshu.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M82HJ8PF0SYFESSN8PHPJ1K9
+        locator: back flap
+        locatorLabel: section
+        quotation: >-
+          His formal appointment as successor to his father occurred in 1969.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M82HJ8PFR717S2T09DS5PNHK
+        quotation: After his father's death in 1969, he became the 2nd Dōshu.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
 website: http://www.aikikai.or.jp
 logo:
   contentUrl: https://upload.wikimedia.org/wikipedia/en/b/b2/AIKIKAI-logo-07CBA50695-seeklogo_com.gif
