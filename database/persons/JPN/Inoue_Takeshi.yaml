@@ -59,6 +59,25 @@ hasTeacherAssertion:
             informationType: infotype:secondary
             supports: true
             evidenceType: evidencetype:direct
+  - id: 01M84FERQJ1KY6F5BXNFD7HD1T
+    teacher: 01M84FERQJFTWDJ3G4KFZR04B1
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Only the Aikido Journal encyclopedia names Ōba as his teacher, from
+        1958; no second source.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1958
+        hasEvidence:
+          - basedOnSource: 01M7GB0SCS3QF6JMTR92WBQV2V
+            quotation: Began aikido at the age of 12 in 1958, under Kenji TOMIKI and Hideo OHBA.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
   - id: 01M7GB0SCSAQ63YJ2MAZA359GF
     teacher: 01KJJAWN29MA64W22606R3WD69
     assertedStyle: 01KJJAWN29MA64W22606R3WD9R
@@ -135,8 +154,7 @@ description:
     from 1968 and a co-founder of the Fugakukai International Association
     in 1982.
 notes: >-
-  Hideo Oba (Ohba), his other teacher in the encyclopedia, has no record
-  yet. Author of Aikido: Kata no Subete (encyclopedia; no publisher or
+  Author of Aikido: Kata no Subete (encyclopedia; no publisher or
   year). England stay: three years from 1968 (encyclopedia) against until
   1972 (BAA). Not the wrestler Takeshi Rikio, born Inoue Takeshi.
 tags:

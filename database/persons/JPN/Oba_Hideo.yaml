@@ -1,0 +1,132 @@
+type: Person
+id: 01M84FERQJFTWDJ3G4KFZR04B1
+name:
+  ja-Latn: Ōba Hideo
+  ja: 大庭英雄
+aka:
+  en:
+    - Hideo Ohba
+    - Hideo Oba
+    - Tozawa Hideo
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+birthEvent:
+  birthDate: '1911-04-27'
+  birthPlace:
+    label: Nakakawamura, Senhoku District, Akita Prefecture
+    countryCode: eucountry:JPN
+    wikidata: wd:Q81863
+  hasEvidence:
+    - basedOnSource: 01M84FERQJABSARGTBXEP6WH97
+      quotation: >-
+        Hideo Tozawa was born on April 27, 1911 at 55 Kawahara Azawakamiko
+        Nakakawamura, Senhoku-gun, Akita Prefecture.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+      quotation: Ohba Hideo, 1911–1986
+      locator: '641'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1986-02-02'
+  hasEvidence:
+    - basedOnSource: 01M84FERQJJEDT09KSPEBGM1QD
+      quotation: April 27, 1910 – February 2, 1986
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    Judo and Tomiki aikido teacher, Tomiki Kenji's closest collaborator and
+    head of the Japan Aikido Association after Tomiki's death.
+hasTeacherAssertion:
+  - id: 01M84FERQJM0SH4V13094D7P67
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TT
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Shishida (2003) dates his study under Tomiki from 1931; Kogure (2004)
+        and the BAA history independently name him one of Tomiki's top
+        students.
+    hasInteraction:
+      - interactionPeriod:
+          startYear: 1931
+        hasEvidence:
+          - basedOnSource: 01M84FERQJABSARGTBXEP6WH97
+            quotation: >-
+              In that same year, Kenji Tomiki, who was to become Hideo’s sensei
+              for the rest of his life, took a job teaching public affairs at
+              Kakunodate Middle School, and from that time Hideo enjoyed
+              learning from him and was greatly influenced by him.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTBB
+            quotation: Tomiki Sensei had three top students. they were Hideo Oba, Senta Yamada, and Tsunako Miyake Sensei.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M7G96SP9ARN07G643CE5783F
+            quotation: >-
+              [...] was considered to one of Professor Tomiki’s most talented
+              students alongside Hideo Oba and Tsunako Miyake.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M84FERQJDQ3BTWSFD7K077C5
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TV
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Green and Svinth (2010) call him a student of Ueshiba; Shishida (2003)
+        gives only a 1942 grade from the Ueshiba dojo, which does not state
+        teaching. One direct source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M5G930MN1VM84DEZNGEZP48E
+            quotation: >-
+              Ueshiba (and his students Tomiki Kenji, 1900–1979, and Ohba
+              Hideo, 1911–1986) teach
+            locator: '641'
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M84FERQJABSARGTBXEP6WH97
+            quotation: >-
+              However, in 1942, when he was awarded a fifth dan in Tenshin-ryu
+              Aikido (from the Ueshiba Dojo in Shinjuku), he began to teach
+              aikido as well.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasEvidence:
+  - basedOnSource: 01M84FERQJABSARGTBXEP6WH97
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M84FERQJJEDT09KSPEBGM1QD
+    quotation: >-
+      was a Japanese aikido and judo teacher and the Second Director of Japan
+      Aikido Association after the death of Kenji Tomiki.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+notes: >-
+  Birth year: 1911 in Shishida (2003) and Green and Svinth, 1910 in
+  Wikipedia. Took his wife's family name Ōba in 1936. Shishida's Part II
+  (not yet a Source) covers the later years.
+sameAs:
+  - wd:Q5752603
+tags:
+  - aikido
+  - judo

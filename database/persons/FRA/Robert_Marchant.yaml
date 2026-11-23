@@ -11,13 +11,52 @@ description:
     in France); other sources identify him as English. He trained according to Kawaishi's system and was
     the central figure in early Norwegian judo grading, though he was reportedly in conflict with Kodokan
     and Abe.
+hasTeacherAssertion:
+- id: 01M84FERQJMN7S2KD7V51JGGK7
+  teacher: 01KJJAWN28MWKKSN4J02MVY1T3
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Solmoe (2024) says he studied under Kawaishi in Paris; no second
+      source.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M1PEBA9ECCE2DVAQ973P3CV4
+      quotation: >-
+        Robert Marchant, French judo-instructor, who had studied under
+        Kawaishi Mikinosuke and Awazu Shōzō in Paris, proved particularly
+        influential on Norwegian judo in the 1950s.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M84FERQJEKKA4ZC5SNKDSG8M
+  teacher: 01M39T3H2E4MNJHADY7N8JSYXK
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Solmoe (2024) says he studied under Awazu in Paris; no second source.
+  hasInteraction:
+  - hasEvidence:
+    - basedOnSource: 01M1PEBA9ECCE2DVAQ973P3CV4
+      quotation: >-
+        Robert Marchant, French judo-instructor, who had studied under
+        Kawaishi Mikinosuke and Awazu Shōzō in Paris, proved particularly
+        influential on Norwegian judo in the 1950s.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
 hasEvidence:
 - basedOnSource: 01M1PEBA9EG75YDPQWBDMQWWSV
   informationType: infotype:secondary
   supports: true
   evidenceType: evidencetype:direct
-notes: Also spelled "Marchand" in some sources. He had been in France training under Kawaishi Mikinosuke
-  and Awazu Shozo and was working to establish judo clubs across Europe. His first visit to Oslo in 1954
+notes: Also spelled "Marchand" in some sources. He was working to establish judo clubs across Europe. His first visit to Oslo in 1954
   was planned with Jean Gailhat, general secretary of the French Judo Federation.
 tags:
 - judo

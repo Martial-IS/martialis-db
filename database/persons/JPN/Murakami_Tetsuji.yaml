@@ -54,6 +54,53 @@ hasTeacherAssertion:
       informationType: infotype:secondary
       supports: true
       evidenceType: evidencetype:direct
+- id: 01M84GEM14K8F4GNKXRE45H6HC
+  teacher: 01KJJAWN28MWKKSN4J02MVY1TX
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Donkor (2020) and Bel and de Araujo (2021) both state it; both are
+      popular histories that cite no source.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KZ9TQS3VJAGB2K76GHG8FWSX
+    hasEvidence:
+    - basedOnSource: 01M84GEM14RBWYB1BGTD7R12GZ
+      quotation: >-
+        In the early 1950s Murakami started learning Aikido at the Yoseikan
+        under the leadership of Minoru Mochizuki
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M84GEM14MPDT7NJ0YPRJPWT9
+      quotation: >-
+        Il apprend également l'Aïkido et le Iaïdo, au dojo Yoseikan, sous la
+        houlette de Minoru MOCHIZUKI
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M84GEM14HZS49CK42J3120NS
+  teacher: 01KJJAWN28MWKKSN4J02MVY1TX
+  assertedStyle: 01KZ6XT5DS0JHX51MN07878ERB
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Only Bel and de Araujo (2021) name iaido under Mochizuki; Donkor (2020)
+      names aikido only.
+  role: teachrole:student
+  hasInteraction:
+  - interactionPlace: 01KZ9TQS3VJAGB2K76GHG8FWSX
+    hasEvidence:
+    - basedOnSource: 01M84GEM14MPDT7NJ0YPRJPWT9
+      quotation: >-
+        Il apprend également l'Aïkido et le Iaïdo, au dojo Yoseikan, sous la
+        houlette de Minoru MOCHIZUKI
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
 hasRankAssertion:
 - id: 01M3YH7N5GNX2FC4S81CY15TY8
   rankStyle: 01KJJAWN29MA64W22606R3WD9S
@@ -70,8 +117,7 @@ hasRankAssertion:
   - uri: https://en.wikipedia.org/wiki/Tetsuji_Murakami
     archiveUri: http://web.archive.org/web/20251114061031/https://en.wikipedia.org/wiki/Tetsuji_Murakami
     cite: Tetsuji Murakami - Wikipedia
-    quotation: 'Tetsuji Murakami (Japanese: 村上 哲次; March 31, 1927 – 24 January 1987) was an early Japanese
-      karate representative to Europe. Rank: 10th dan Shotokan Karate'
+    quotation: Rank 10th dan Shotokan Karate
     informationType: infotype:secondary
     supports: true
     evidenceType: evidencetype:direct
@@ -87,6 +133,13 @@ hasEvidence:
   informationType: infotype:secondary
   supports: true
   evidenceType: evidencetype:direct
+notes: >-
+  Karate teacher, no record: the Shotokai Encyclopedia gives Masaji Yamako,
+  a student of Funakoshi, and calls "Yamaguchi" a mistransliteration;
+  Donkor (2020) gives Masaji Yamaguchi, a student of Mabuni; Bel and de
+  Araujo (2021) give Masaji Yamaguchi, a student of Funakoshi. Arrival in
+  France: Paris, 3 November 1957 (Donkor) against Marseille, February 1958
+  (Bel and de Araujo). de Claire (2002) calls him "a Yoseikan 3rd dan".
 sameAs:
 - wd:Q3519204
 - dbr:Tetsuji_Murakami

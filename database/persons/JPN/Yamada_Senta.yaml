@@ -1,0 +1,120 @@
+type: Person
+id: 01M84FERQJE3FK1R6Z7Y2C5A4N
+name:
+  ja-Latn: Yamada Senta
+aka:
+  en: Senta Yamada
+nationality:
+  - countryCode: eucountry:JPN
+    wikidata: wd:Q17
+description:
+  en: >-
+    Judo and Tomiki aikido teacher who taught Tomiki aikido in the United
+    Kingdom from the late 1950s to 1965.
+hasTeacherAssertion:
+  - id: 01M84FERQJFYPC1YFACNZSCVH3
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TT
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Kogure (2004) and the BAA history independently name him one of
+        Tomiki's top students; the BAA history says Tomiki taught him in
+        person.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTBB
+            quotation: Tomiki Sensei had three top students. they were Hideo Oba, Senta Yamada, and Tsunako Miyake Sensei.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M7G96SP9ARN07G643CE5783F
+            quotation: >-
+              Senta Yamada had been taught aikido personally by both Morihei
+              Ueshiba and Kenji Tomiki and was considered to one of Professor
+              Tomiki’s most talented students alongside Hideo Oba and Tsunako
+              Miyake.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M84FERQJ1ZJS23YWAM3JTN1X
+    teacher: 01KJJAWN28MWKKSN4J02MVY1TV
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9R
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Only the BAA history says Ueshiba taught him in person; no second
+        source.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M7G96SP9ARN07G643CE5783F
+            quotation: >-
+              Senta Yamada had been taught aikido personally by both Morihei
+              Ueshiba and Kenji Tomiki
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M84FERQJW4J2N250QTG9SH9X
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 6
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The BAA history gives the grade, with no date or conferring body; no
+        second source.
+    hasEvidence:
+      - basedOnSource: 01M7G96SP9ARN07G643CE5783F
+        quotation: >-
+          Tomiki Aikido began to be taught in the UK in the late 1950s under
+          the tuition of Sensei Senta Yamada who was 6th dan Judo and 6th dan
+          Tomiki Aikido.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M84FERQJH72JVDMVKZSRQAJ9
+    rankStyle: 01KJJAWN29MA64W22606R3WD9R
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 6
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The BAA history gives the grade, with no date or conferring body; no
+        second source.
+    hasEvidence:
+      - basedOnSource: 01M7G96SP9ARN07G643CE5783F
+        quotation: >-
+          Tomiki Aikido began to be taught in the UK in the late 1950s under
+          the tuition of Sensei Senta Yamada who was 6th dan Judo and 6th dan
+          Tomiki Aikido.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M7G96SP9ARN07G643CE5783F
+    quotation: >-
+      In 1965 Sensei Yamada returned to Japan leaving about ten Tomiki Aikido
+      clubs to be run by his students.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KXTSQXW6P83R31HCRY2PRTBB
+    quotation: Yamada Sensei went to England and taught judo and aikido there.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+notes: >-
+  No kanji, dates or Wikidata item found. The BAA history says the British
+  Judo Association engaged him to teach judo.
+tags:
+  - aikido
+  - judo

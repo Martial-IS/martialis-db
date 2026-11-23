@@ -1,0 +1,111 @@
+type: Person
+id: 01M84FERQJ3YZ5G7M606V3XAE1
+name:
+  en: Henri Birnbaum
+aka:
+  en: Henri Birnbaum Okonowski
+nationality:
+  - countryCode: eucountry:FRA
+    wikidata: wd:Q142
+birthEvent:
+  birthDate: '1921'
+  hasEvidence:
+    - basedOnSource: 01M84FERQJCF80P4TP1BDC6W1Z
+      quotation: Varsovia, 6 de enero de 1921
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '2004-12-08'
+  deathPlace:
+    label: Barcelona
+    countryCode: eucountry:ESP
+    wikidata: wd:Q1492
+  hasEvidence:
+    - basedOnSource: 01M84FERQJCF80P4TP1BDC6W1Z
+      quotation: Barcelona, 8 de diciembre de 2004
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+description:
+  en: >-
+    French judoka, one of Kawaishi Mikinosuke's first black belts in Paris,
+    who founded a judo academy in Barcelona in 1950, later the Judo Club
+    Barcelona.
+hasTeacherAssertion:
+  - id: 01M84FERQJBJ58CPH821MA1GWE
+    teacher: 01KJJAWN28MWKKSN4J02MVY1T3
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The RFEJYDA article and ES Wikipedia call him a direct pupil of
+        Kawaishi in the same words. Martin (2011) lists him among the first
+        black belts of Kawaishi's club, which does not directly state teaching.
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M0E9KP2BX2WXX8VRCNZPD7XJ
+            quotation: >-
+              Henri Birnbaum, técnico de alto rango, alumno directo del japonés
+              Mikonosuke Kawaishi, fundador del Judo Europeo
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M84FERQJCF80P4TP1BDC6W1Z
+            quotation: >-
+              Alumno directo del maestro Mikonosuke Kawaishi y fiel seguidor de
+              su método
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+          - basedOnSource: 01M00NPBTPWWBSJZRMYXBESJ97
+            quotation: >-
+              Kawaishi crée le Club Franco-Japonais [...] Les premières
+              ceintures noires sont Maurice Cottreau, Jean De Herdt, Paul
+              [...] Henri Birnbaum
+            locator: '73'
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+hasRankAssertion:
+  - id: 01M84FERQJES5TKR3EAXK7KDZ9
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 8
+    hasConfidence:
+      confidenceLevel: conflevel:possible
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Only ES Wikipedia gives the grade, with no date, body or
+        footnote; until more is found, staying at possible.
+    hasEvidence:
+      - basedOnSource: 01M84FERQJCF80P4TP1BDC6W1Z
+        quotation: Birnbaum alcanzó el nivel de 8º Dan.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M0E9KP2BWQZBWQQJQW55D6EP
+    quotation: >-
+      el francés Henri Birnbaum fundó la Academia de Judo y Ju-jutsu de España
+      que con el tiempo se transformó en el Judo Club Barcelona.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M84FERQJCF80P4TP1BDC6W1Z
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+notes: >-
+  Birth: Spanish Wikipedia gives Warsaw, 6 January 1921; Wikidata gives
+  Berlin, 6 December 1921. Year only, place left out until a source settles
+  it. Spanish Wikipedia cites Planells (2009 thesis, pp. 182–203) and Calvet,
+  Huyendo del Holocausto (2014).
+sameAs:
+  - wd:Q5894397
+tags:
+  - judo
+  - spain
