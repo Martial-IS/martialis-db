@@ -1,0 +1,97 @@
+type: Person
+id: 01M84286VD0QZFYS9GS9SM41AS
+name:
+  ja-Latn: Takeda Tokimune
+  ja: 武田 時宗
+aka:
+  en:
+  - Tokimune Takeda
+description:
+  en: Japanese martial artist, son and successor of Takeda Sōkaku as head of Daitō-ryū
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1916'
+  birthPlace:
+    label: Shimoyubetsu, Hokkaido
+    countryCode: eucountry:JPN
+  hasEvidence:
+  - basedOnSource: 01M84286VDB5Y6C4KKFGN89W17
+    quotation: Sokaku's successor, Takeda Tokimune, was born in Shimoyubetsu in Hokkaido in 1916.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1993-12-02'
+  hasEvidence:
+  - basedOnSource: 01M84286VDB5Y6C4KKFGN89W17
+    quotation: From 1989, Tokimune's health began to deteriorate and he spent most of his last years hospitalized until his death on 2 December 1993.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M8431JN1B0V54Z7Z5WW3QGSM
+    quotation: 武田 時宗（たけだ ときむね、1916年 - 1993年12月2日）は、日本の柔術家、大東流合気武道宗家。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+- wd:Q11546189
+hasEvidence:
+- basedOnSource: 01KZ0Y4CF4JETJV2B5VSVY8YHZ
+  quotation: Takeda Tokimune 武田時宗 (1916–1993) was the third son of Takeda Sōkaku [...]
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+- basedOnSource: 01KXTSQXW6P83R31HCRY2PRTDT
+  quotation: '[...] Takeda Sokaku and his son and successor Takeda Tokimune.'
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M84286VD4DHCKADM74FBM94F
+  teacher: 01KJJAWN28MWKKSN4J02MVY1TW
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9C
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Gottner 2025 and the Shinbukan Dojo biography state independently that
+      Sōkaku trained Tokimune from about 1925 as his successor.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1925
+      endYear: 1943
+    hasEvidence:
+    - basedOnSource: 01KZ0Y4CF4JETJV2B5VSVY8YHZ
+      quotation: '[...] started training with his father as a child in 1925, in order to be his designated successor.'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M84286VDB5Y6C4KKFGN89W17
+      quotation: Around 1925, Sokaku began grooming Tokimune to be his successor, training him strictly in both swordsmanship and Daito-ryu.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M8431JN1B0V54Z7Z5WW3QGSM
+      quotation: 時宗は武田惣角（たけだそうかく）の三男で、父に柔術を学ぶ。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasHonorAssertion:
+- id: 01M84BC71NNY8HJ8J31GMCWP0S
+  honorValue: Kyōju dairi
+  honorType: honortype:license
+  honorStyle: 01KJJAWN29MA64W22606R3WD9C
+  grantedBy: 01KJJAWN28MWKKSN4J02MVY1TW
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: The Shinbukan Dojo biography only; it gives no date.
+  hasEvidence:
+  - basedOnSource: 01M84286VDB5Y6C4KKFGN89W17
+    quotation: In time, Tokimune began accompanying his father as his Representative Instructor (kyoju dairi) [...]
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct

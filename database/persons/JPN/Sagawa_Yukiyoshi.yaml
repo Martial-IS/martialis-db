@@ -1,0 +1,110 @@
+type: Person
+id: 01M8431JN1WKDP7WM4GDKCVHTP
+name:
+  ja-Latn: Sagawa Yukiyoshi
+  ja: 佐川 幸義
+aka:
+  en:
+  - Yukiyoshi Sagawa
+description:
+  en: Japanese martial artist, student of Takeda Sōkaku and founder of the Sagawa line of Daitō-ryū
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1902-07-03'
+  birthPlace:
+    label: Yūbetsu, Monbetsu District, Hokkaido
+    countryCode: eucountry:JPN
+  hasEvidence:
+  - basedOnSource: 01M8431JN1X64YH91TW0T381K1
+    quotation: 1902年（明治35年）7月3日、北海道紋別郡湧別にて、雑貨商を営む佐川子之吉（ねのきち）の長男として生まれる
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ0Y4CF4JETJV2B5VSVY8YHZ
+    quotation: Sagawa Yukiyoshi (1902–1998) was regarded as one of the most skilled students of Takeda Sōkaku.
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1998-03-24'
+  hasEvidence:
+  - basedOnSource: 01M8431JN1X64YH91TW0T381K1
+    quotation: '[...] 佐川幸義は翌日1998年3月24日に逝去した。'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+- wd:Q11383158
+notes: >-
+  Japanese Wikipedia 大東流合気柔術 gives him a menkyo kaiden in May 1938.
+  Gottner 2025 and Kondō Katsuyuki say Sōkaku gave menkyo kaiden only to Hisa
+  Takuma and Tonedate Masao. Not recorded.
+hasEvidence:
+- basedOnSource: 01KZ0Y4CF4JETJV2B5VSVY8YHZ
+  quotation: Sagawa opened a small dōjō in Tōkyō and organised the Daitō-ryū curriculum into 10 different levels (gen 元) with about 200 techniques each.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M8431JN12SNDPMETANZ0QCMY
+  teacher: 01KJJAWN28MWKKSN4J02MVY1TW
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9C
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Gottner 2025 names Sagawa among Takeda's Hokkaidō students of the 1910s;
+      Japanese Wikipedia dates his formal entry to 1914. Not confirmed because
+      Wikipedia may draw on the same Sagawa-line sources.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1914
+      endYear: 1943
+    hasEvidence:
+    - basedOnSource: 01M8431JN1X64YH91TW0T381K1
+      quotation: 1914年（大正3年）12歳、幸義、惣角に正式に入門。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01KZ0Y4CF4JETJV2B5VSVY8YHZ
+      quotation: The majority of his most influential students were taught here in the 1910s, including Sagawa Yukiyoshi 佐川幸義 [...]
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M84BK1C3TRV5XWZEW7708H74
+  rankStyle: 01KJJAWN29MA64W22606R3WD9C
+  rankSystem: 01M84B6YBSEYN7QP2KJH1H0SHB
+  rankGrade: rankgrade:daitoryu_seito_soden
+  grantedBy: 01KJJAWN28MWKKSN4J02MVY1TW
+  dateConferred: '1939'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Japanese Wikipedia only; no second source in hand.
+  hasEvidence:
+  - basedOnSource: 01M8431JN1X64YH91TW0T381K1
+    quotation: 1939年（昭和14年）37歳、秋、惣角より大東流最高の伝位・正統総伝を印可された。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasHonorAssertion:
+- id: 01M84BC71NEQ17SYZSAYC5AR37
+  honorValue: Kyōju dairi
+  honorType: honortype:license
+  honorStyle: 01KJJAWN29MA64W22606R3WD9C
+  grantedBy: 01KJJAWN28MWKKSN4J02MVY1TW
+  dateConferred: '1932'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: Japanese Wikipedia only; no second source in hand.
+  hasEvidence:
+  - basedOnSource: 01M8431JN1X64YH91TW0T381K1
+    quotation: 1932年（昭和7年）30歳、惣角より教授代理を許される。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct

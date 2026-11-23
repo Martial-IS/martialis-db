@@ -1,0 +1,173 @@
+type: Person
+id: 01M842EAEMFMYHHPCEPWA2NB6D
+name:
+  ja-Latn: Hisa Takuma
+  ja: 久 琢磨
+aka:
+  en:
+  - Takuma Hisa
+description:
+  en: Japanese Daitō-ryū teacher and former sumō wrestler, student of Ueshiba Morihei and Takeda Sōkaku at the Asahi Shinbun in Ōsaka
+nationality:
+- countryCode: eucountry:JPN
+  wikidata: wd:Q17
+birthEvent:
+  birthDate: '1895-11-03'
+  birthPlace:
+    label: Sakihama, Aki District, Kōchi Prefecture
+    countryCode: eucountry:JPN
+  hasEvidence:
+  - basedOnSource: 01M8431JN1FA1P40186XZZ946C
+    quotation: 久 琢磨（ひさ たくま、1895年11月3日 - 1980年10月31日）[...]
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M8431JN1FA1P40186XZZ946C
+    quotation: 1895年、高知県安芸郡佐喜浜村（現・室戸市）出身。
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01KZ0Y4CF4JETJV2B5VSVY8YHZ
+    quotation: Hisa Takuma (1895–1980), after receiving menkyo kaiden in Daitō-ryū, kept teaching the art in the Kansai 関西 area [...]
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+deathEvent:
+  deathDate: '1980-10-31'
+  hasEvidence:
+  - basedOnSource: 01M8431JN1FA1P40186XZZ946C
+    quotation: 久 琢磨（ひさ たくま、1895年11月3日 - 1980年10月31日）[...]
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M8431JN1HHH330P5ZBQ92528
+    quotation: Takuma Hisa (久 琢磨 Hisa Takuma, c.1895 – October 31, 1980) [...]
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+sameAs:
+- wd:Q7678558
+hasEvidence:
+- basedOnSource: 01KZ0Y4CF4JETJV2B5VSVY8YHZ
+  quotation: Hisa Takuma (1895–1980), after receiving menkyo kaiden in Daitō-ryū, kept teaching the art in the Kansai 関西 area, but in his last years he moved to Tōkyō.
+  informationType: infotype:secondary
+  supports: true
+  evidenceType: evidencetype:direct
+hasTeacherAssertion:
+- id: 01M842EAEMHWN66SC53YYYMN8Y
+  teacher: 01KJJAWN28MWKKSN4J02MVY1TV
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9C
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Gottner 2025 and Erard 2019 state independently that Hisa learned from
+      Ueshiba at the Asahi Shinbun in Ōsaka from 1933.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1933
+      endYear: 1936
+    hasEvidence:
+    - basedOnSource: 01KZ0Y4CF4JETJV2B5VSVY8YHZ
+      quotation: In 1933, Ueshiba started to teach a group at the Asahi Shinbun 朝日新聞 newspaper headquarters in Ōsaka, led by former sumō wrestler Hisa Takuma 久琢磨, who was the director of General Affairs at the time.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M55JW66WQ4TFVS60NVJF6MPC
+      quotation: '[...] Hisa Takuma, who learned Daito-ryu Aiki-jujutsu from Ueshiba at the Osaka Asahi Newspaper in the early thirties.'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M8431JN1FA1P40186XZZ946C
+      quotation: 大阪朝日新聞社勤務時にほか数名と共に右翼対策として、植芝盛平および後に武田惣角より大東流合気柔術を学び免許皆伝を授けられる。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M8431JN1HHH330P5ZBQ92528
+      quotation: '[...] was introduced to Ueshiba, becoming one of his early prewar students.'
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+- id: 01M842EAEMR85CVA0FKFCYVZH1
+  teacher: 01KJJAWN28MWKKSN4J02MVY1TW
+  assertedStyle: 01KJJAWN29MA64W22606R3WD9C
+  role: teachrole:student
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Gottner 2025 states that Takeda took over the Asahi group from Ueshiba in
+      1936 and taught it until 1939; Erard 2019 and the Shinbukan Dojo
+      biography state Hisa's menkyo kaiden from Takeda.
+  hasInteraction:
+  - interactionPeriod:
+      startYear: 1936
+      endYear: 1939
+    hasEvidence:
+    - basedOnSource: 01KZ0Y4CF4JETJV2B5VSVY8YHZ
+      quotation: In 1936, Takeda appeared at the Asahi headquarters and took over the teaching of the group from Ueshiba.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M55JW66WQ4TFVS60NVJF6MPC
+      quotation: As a holder of a Daito-ryu Aiki-jujutsu menkyo kaiden (certificate of full transmission) from Takeda Sokaku, Hisa was in fact only entitled to award Daito-ryu ranks, not Aikido.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M8431JN1FA1P40186XZZ946C
+      quotation: 大阪朝日新聞社勤務時にほか数名と共に右翼対策として、植芝盛平および後に武田惣角より大東流合気柔術を学び免許皆伝を授けられる。
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+    - basedOnSource: 01M8431JN1HHH330P5ZBQ92528
+      quotation: Later (in 1936) he studied directly under Takeda when the latter came teaching at the Asahi News dojo.
+      informationType: infotype:secondary
+      supports: true
+      evidenceType: evidencetype:direct
+hasRankAssertion:
+- id: 01M842EAEMPXVD4RNSKXQJ3ES7
+  rankStyle: 01KJJAWN29MA64W22606R3WD9C
+  rankSystem: 01M84B6YBSEYN7QP2KJH1H0SHB
+  rankGrade: rankgrade:daitoryu_menkyo_kaiden
+  grantedBy: 01KJJAWN28MWKKSN4J02MVY1TW
+  dateConferred: '1939'
+  hasConfidence:
+    confidenceLevel: conflevel:confirmed
+    assessedBy: agent:FSM
+    confidenceRationale: >-
+      Gottner 2025 and the Shinbukan Dojo biography both date the menkyo kaiden
+      from Takeda to 1939 in Ōsaka; Erard 2019 also states it.
+  hasEvidence:
+  - basedOnSource: 01KZ0Y4CF4JETJV2B5VSVY8YHZ
+    quotation: Takeda taught at the Asahi headquarters until 1939, when he gave the license of full transmission (menkyo kaiden) to Hisa Takuma [...]
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M84286VDB5Y6C4KKFGN89W17
+    quotation: '[...] in 1939 he became the Director of General Affairs (somucho) under Sokaku. Tokimune accompanied his father to Osaka that same year to award the menkyo kaiden certificates to Hisa Takuma and Tonedate Masao.'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M8431JN1HHH330P5ZBQ92528
+    quotation: '[...] was awarded the Menkyo kaiden rank in 1939, directly from Takeda.'
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+hasHonorAssertion:
+- id: 01M84BC71NW5E6DS7YXXNYKADV
+  honorValue: Kyōju dairi
+  honorType: honortype:license
+  honorStyle: 01KJJAWN29MA64W22606R3WD9C
+  grantedBy: 01KJJAWN28MWKKSN4J02MVY1TW
+  dateConferred: '1937'
+  hasConfidence:
+    confidenceLevel: conflevel:probable
+    assessedBy: agent:FSM
+    confidenceRationale: English Wikipedia only; it dates the licence one year after his 1936 start under Takeda.
+  hasEvidence:
+  - basedOnSource: 01M8431JN1HHH330P5ZBQ92528
+    quotation: Later (in 1936) he studied directly under Takeda when the latter came teaching at the Asahi News dojo. [...] He received the Kyoju Dairi (teaching certification) a year later [...]
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
