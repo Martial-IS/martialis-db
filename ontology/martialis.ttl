@@ -1131,6 +1131,21 @@ martialis:honorGrade rdf:type owl:ObjectProperty ;
                      martialis:conceptScheme honorgrade:shogo .
 
 
+###  https://w3id.org/martialis/ontology#honorStyle
+martialis:honorStyle rdf:type owl:ObjectProperty ;
+                     rdfs:domain martialis:HonorAssertion ;
+                     rdfs:comment "The style the honor belongs to, such as a teaching licence issued in one school. Absent for an honor that is not style-specific."@en ;
+                     rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
+                     rdfs:label "Stil der Auszeichnung"@de ,
+                                "estilo da honra"@pt ,
+                                "estilo de la distinción"@es ,
+                                "honor style"@en ,
+                                "style de la distinction"@fr ,
+                                "stíll viðurkenningar"@is ,
+                                "称号の流派"@ja ,
+                                "荣誉流派"@zh .
+
+
 ###  https://w3id.org/martialis/ontology#honorType
 martialis:honorType rdf:type owl:ObjectProperty ;
                     rdfs:domain martialis:HonorAssertion ;
@@ -1631,6 +1646,7 @@ martialis:rankGrade rdf:type owl:ObjectProperty ;
                                "段級位"@ja ,
                                "段级位"@zh ;
                     martialis:conceptScheme rankgrade:bjj ,
+                                            rankgrade:daito-ryu ,
                                             rankgrade:menkyo ,
                                             rankgrade:unified-sports-classification .
 
@@ -3776,6 +3792,10 @@ martialis:HonorAssertion rdf:type owl:Class ;
                                            owl:allValuesFrom skos:Concept
                                          ] ,
                                          [ rdf:type owl:Restriction ;
+                                           owl:onProperty martialis:honorStyle ;
+                                           owl:allValuesFrom martialis:Style
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
                                            owl:onProperty martialis:honorType ;
                                            owl:allValuesFrom skos:Concept
                                          ] ,
@@ -3801,6 +3821,10 @@ martialis:HonorAssertion rdf:type owl:Class ;
                                          ] ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty martialis:honorGrade ;
+                                           owl:maxCardinality "1"^^xsd:nonNegativeInteger
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty martialis:honorStyle ;
                                            owl:maxCardinality "1"^^xsd:nonNegativeInteger
                                          ] ,
                                          [ rdf:type owl:Restriction ;
@@ -3839,7 +3863,7 @@ martialis:HonorAssertion rdf:type owl:Class ;
                                            owl:onProperty martialis:researchNote ;
                                            owl:maxCardinality "1"^^xsd:nonNegativeInteger
                                          ] ;
-                         rdfs:comment "A non-style-specific title, certificate, or honor (e.g. Hanshi, Kyoshi). Subject is the honored Person; conferredBy is the granting Organization."@en ;
+                         rdfs:comment "A title, certificate, licence or honor held outside a style's rank ladder (e.g. Hanshi, Kyoshi, a teaching licence). Subject is the honored Person; conferredBy is the granting Organization; honorStyle is the style, when the honor belongs to one."@en ;
                          rdfs:isDefinedBy <https://w3id.org/martialis/ontology> ;
                          rdfs:label "Auszeichnungsaussage"@de ,
                                     "aserción de distinción"@es ,

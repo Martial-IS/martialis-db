@@ -824,6 +824,17 @@ martialis:honorGrade rdfs:label "Auszeichnungsstufe"@de,
     rdfs:domain martialis:HonorAssertion ;
     rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
 
+martialis:honorStyle rdfs:label "Stil der Auszeichnung"@de,
+        "honor style"@en,
+        "estilo de la distinción"@es,
+        "style de la distinction"@fr,
+        "stíll viðurkenningar"@is,
+        "称号の流派"@ja,
+        "estilo da honra"@pt,
+        "荣誉流派"@zh ;
+    rdfs:domain martialis:HonorAssertion ;
+    rdfs:isDefinedBy <https://w3id.org/martialis/ontology> .
+
 martialis:honorType rdfs:label "Auszeichnungsart"@de,
         "honor type"@en,
         "tipo de distinción"@es,

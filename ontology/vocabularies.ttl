@@ -1507,6 +1507,76 @@ rankgrade:menkyo_gokui a skos:Concept ;
     skos:definition "Gokui (極意, 'ultimate secrets'): transmission of a school's innermost teachings."@en ;
     skos:scopeNote "Roughly kaiden-adjacent in seniority (hence the tied gradeOrdinal), kept as a distinct concept because the sourced term names 'gokui', not 'menkyo'."@en .
 
+# ---- rank-grade: daito-ryu ----
+# Grade scheme for the Daito-ryu Scroll Licences RankingSystem entity.
+<https://w3id.org/martialis/vocab/rank-grade/daito-ryu> a skos:ConceptScheme ;
+    dcterms:title "Daito-ryu Scroll Licence Vocabulary"@en ;
+    dcterms:description "The Daito-ryu transmission-scroll ladder: Hiden mokuroku, Aiki no jutsu, Hiden ogi, Goshin'yo no te, Kaishaku soden, Menkyo kaiden, and Seito soden. A concept is the scroll's rung, whichever line issued it."@en ;
+    skos:scopeNote "A teaching licence (kyoju dairi) is not a grade in this scheme: record it as a HonorAssertion with honorType license and honorStyle. Post-war dan grades belong to the Dan-Kyu system, with no equivalence to a scroll."@en ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:creator <https://orcid.org/0009-0000-9488-3542> ;
+    dcterms:publisher <https://orcid.org/0009-0000-9488-3542> ;
+    dcterms:rightsHolder <https://orcid.org/0009-0000-9488-3542> ;
+    owl:versionInfo "1.0.0" ;
+    vann:preferredNamespacePrefix "rankgrade" ;
+    vann:preferredNamespaceUri <https://w3id.org/martialis/vocab/rank-grade/> ;
+    skos:hasTopConcept rankgrade:daitoryu_hiden_mokuroku , rankgrade:daitoryu_aiki_no_jutsu ,
+                        rankgrade:daitoryu_hiden_ogi , rankgrade:daitoryu_goshinyo_no_te ,
+                        rankgrade:daitoryu_kaishaku_soden , rankgrade:daitoryu_menkyo_kaiden ,
+                        rankgrade:daitoryu_seito_soden .
+
+rankgrade:daitoryu_hiden_mokuroku a skos:Concept ;
+    skos:inScheme <https://w3id.org/martialis/vocab/rank-grade/daito-ryu> ;
+    skos:notation "daitoryu_hiden_mokuroku" ; martialis:gradeOrdinal 1 ;
+    skos:prefLabel "Hiden Mokuroku"@en , "Hiden Mokuroku"@pt , "Hiden Mokuroku"@es , "Hiden Mokuroku"@fr , "Hiden Mokuroku"@de , "Hiden Mokuroku"@is , "秘伝目録"@ja , "秘传目录"@zh ;
+    skos:altLabel "Shoden Mokuroku"@en , "Daito-ryu Jujutsu Hiden Mokuroku"@en ;
+    skos:definition "Hiden mokuroku (秘伝目録, 'catalogue of secret transmission'): the first Daito-ryu transmission scroll, of 118 articles (kajo)."@en ;
+    skos:scopeNote "Takeda Tokimune gave the same name to his standardised set of 118 techniques, whose content differs from Takeda Sokaku's scroll. Both are this rung."@en .
+
+rankgrade:daitoryu_aiki_no_jutsu a skos:Concept ;
+    skos:inScheme <https://w3id.org/martialis/vocab/rank-grade/daito-ryu> ;
+    skos:notation "daitoryu_aiki_no_jutsu" ; martialis:gradeOrdinal 2 ;
+    skos:prefLabel "Aiki no Jutsu"@en , "Aiki no Jutsu"@pt , "Aiki no Jutsu"@es , "Aiki no Jutsu"@fr , "Aiki no Jutsu"@de , "Aiki no Jutsu"@is , "合気之術"@ja , "合气之术"@zh ;
+    skos:definition "Aiki no jutsu (合気之術, 'art of aiki'): the second Daito-ryu transmission scroll, of 53 articles."@en .
+
+rankgrade:daitoryu_hiden_ogi a skos:Concept ;
+    skos:inScheme <https://w3id.org/martialis/vocab/rank-grade/daito-ryu> ;
+    skos:notation "daitoryu_hiden_ogi" ; martialis:gradeOrdinal 3 ;
+    skos:prefLabel "Hiden Ogi"@en , "Hiden Ogi"@pt , "Hiden Ogi"@es , "Hiden Ogi"@fr , "Hiden Ogi"@de , "Hiden Ogi"@is , "秘伝奥儀"@ja , "秘传奥义"@zh ;
+    skos:altLabel "Hiden Ōgi"@en , "Hiden Ogi no Koto"@en , "Hiden Okugi no Koto"@en , "秘伝奥儀之事"@ja ;
+    skos:definition "Hiden ogi (秘伝奥儀, 'secret innermost teachings'): the third Daito-ryu transmission scroll, of 36 articles."@en .
+
+rankgrade:daitoryu_goshinyo_no_te a skos:Concept ;
+    skos:inScheme <https://w3id.org/martialis/vocab/rank-grade/daito-ryu> ;
+    skos:notation "daitoryu_goshinyo_no_te" ; martialis:gradeOrdinal 4 ;
+    skos:prefLabel "Goshinyo no Te"@en , "Goshinyo no Te"@pt , "Goshinyo no Te"@es , "Goshinyo no Te"@fr , "Goshinyo no Te"@de , "Goshinyo no Te"@is , "御信用之手"@ja , "御信用之手"@zh ;
+    skos:altLabel "Goshin'yō no Te"@en , "Hiden Goshinyo no Te"@en ;
+    skos:definition "Goshin'yo no te (御信用之手): the fourth Daito-ryu transmission scroll, of 84 articles."@en .
+
+rankgrade:daitoryu_kaishaku_soden a skos:Concept ;
+    skos:inScheme <https://w3id.org/martialis/vocab/rank-grade/daito-ryu> ;
+    skos:notation "daitoryu_kaishaku_soden" ; martialis:gradeOrdinal 5 ;
+    skos:prefLabel "Kaishaku Soden"@en , "Kaishaku Soden"@pt , "Kaishaku Soden"@es , "Kaishaku Soden"@fr , "Kaishaku Soden"@de , "Kaishaku Soden"@is , "解釈総伝"@ja , "解释总传"@zh ;
+    skos:altLabel "Kaishaku Sōden"@en , "Kaishaku Soden no Koto"@en , "解釈総伝之事"@ja ;
+    skos:definition "Kaishaku soden (解釈総伝, 'complete transmission of interpretation'): the fifth Daito-ryu transmission scroll, of 477 articles, one rung below menkyo kaiden."@en .
+
+rankgrade:daitoryu_menkyo_kaiden a skos:Concept ;
+    skos:inScheme <https://w3id.org/martialis/vocab/rank-grade/daito-ryu> ;
+    skos:notation "daitoryu_menkyo_kaiden" ; martialis:gradeOrdinal 6 ;
+    skos:prefLabel "Menkyo Kaiden"@en , "Menkyo Kaiden"@pt , "Menkyo Kaiden"@es , "Menkyo Kaiden"@fr , "Menkyo Kaiden"@de , "Menkyo Kaiden"@is , "免許皆伝"@ja , "免许皆传"@zh ;
+    skos:altLabel "Kaiden no Koto"@en , "皆伝之事"@ja ;
+    skos:definition "Menkyo kaiden (免許皆伝, 'licence of total transmission'): the Daito-ryu licence of full transmission, of 88 articles, above kaishaku soden."@en ;
+    skos:scopeNote "The Daito-ryu rung of the generic koryu menkyo kaiden. A separate concept because it sits at a different position on this ladder."@en ;
+    skos:broadMatch rankgrade:menkyo_kaiden .
+
+rankgrade:daitoryu_seito_soden a skos:Concept ;
+    skos:inScheme <https://w3id.org/martialis/vocab/rank-grade/daito-ryu> ;
+    skos:notation "daitoryu_seito_soden" ; martialis:gradeOrdinal 7 ;
+    skos:prefLabel "Seito Soden"@en , "Seito Soden"@pt , "Seito Soden"@es , "Seito Soden"@fr , "Seito Soden"@de , "Seito Soden"@is , "正統総伝"@ja , "正统总传"@zh ;
+    skos:altLabel "Seitō Sōden"@en ;
+    skos:definition "Seito soden (正統総伝, 'legitimate complete transmission'): a Daito-ryu licence ranked above menkyo kaiden."@en ;
+    skos:scopeNote "Not on the Daitokan certificate ladder, which ends at menkyo kaiden."@en .
+
 # ---- honor-grade: shogo ----
 # Honorific teaching-title scheme for HonorAssertion.honorGrade.
 <https://w3id.org/martialis/vocab/honor-grade/shogo> a skos:ConceptScheme ;

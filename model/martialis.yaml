@@ -642,13 +642,21 @@ classes:
   HonorAssertion:
     class_uri: martialis:HonorAssertion
     description: >-
-      A non-style-specific title, certificate, or honor (e.g. Hanshi, Kyoshi). Subject is the
-      honored Person; conferredBy is the granting Organization.
+      A title, certificate, licence or honor held outside a style's rank ladder (e.g. Hanshi,
+      Kyoshi, a teaching licence). Subject is the honored Person; conferredBy is the granting
+      Organization; honorStyle is the style, when the honor belongs to one.
     is_a: Assertion
     slots: [honorValue, honorType, honorGrade, conferredBy, grantedBy, atEvent, dateConferred, dateOriginal, dateCalendar, hasConfidence, notes, hasEvidence]
     slot_usage:
       hasEvidence:
         required: true
+    attributes:
+      honorStyle:
+        slot_uri: martialis:honorStyle
+        range: Style
+        description: >-
+          The style the honor belongs to, such as a teaching licence issued in one school.
+          Absent for an honor that is not style-specific.
 
   DocumentTransmissionAssertion:
     class_uri: martialis:DocumentTransmissionAssertion

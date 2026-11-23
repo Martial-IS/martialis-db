@@ -1011,7 +1011,7 @@
     },
     "HonorAssertion": {
       "additionalProperties": false,
-      "description": "A non-style-specific title, certificate, or honor (e.g. Hanshi, Kyoshi). Subject is the honored Person; conferredBy is the granting Organization.",
+      "description": "A title, certificate, licence or honor held outside a style's rank ladder (e.g. Hanshi, Kyoshi, a teaching licence). Subject is the honored Person; conferredBy is the granting Organization; honorStyle is the style, when the honor belongs to one.",
       "properties": {
         "atEvent": {
           "description": "Optional link from an assertion or life event to the canonical Event record(s) it took place at. Multivalued.",
@@ -1070,6 +1070,13 @@
         "honorGrade": {
           "$ref": "#/$defs/HonorGrade",
           "description": "The specific grade within an ordered honorific scheme, when the honor is a rung on a ladder; currently shogo (renshi/kyoshi/hanshi). The rung only; the conferring body is the assertion's conferredBy."
+        },
+        "honorStyle": {
+          "description": "The style the honor belongs to, such as a teaching licence issued in one school. Absent for an honor that is not style-specific.",
+          "type": [
+            "string",
+            "null"
+          ]
         },
         "honorType": {
           "$ref": "#/$defs/HonorType",
@@ -2265,7 +2272,7 @@
       "type": "object"
     },
     "RankGrade": {
-      "description": "BJJ Belt Grade Vocabulary; Menkyo Grade Vocabulary; Unified Sports Classification System Grade Vocabulary",
+      "description": "BJJ Belt Grade Vocabulary; Daito-ryu Scroll Licence Vocabulary; Menkyo Grade Vocabulary; Unified Sports Classification System Grade Vocabulary",
       "enum": [
         "rankgrade:bjj_black",
         "rankgrade:bjj_blue",
@@ -2275,6 +2282,13 @@
         "rankgrade:bjj_red_black",
         "rankgrade:bjj_red_white",
         "rankgrade:bjj_white",
+        "rankgrade:daitoryu_aiki_no_jutsu",
+        "rankgrade:daitoryu_goshinyo_no_te",
+        "rankgrade:daitoryu_hiden_mokuroku",
+        "rankgrade:daitoryu_hiden_ogi",
+        "rankgrade:daitoryu_kaishaku_soden",
+        "rankgrade:daitoryu_menkyo_kaiden",
+        "rankgrade:daitoryu_seito_soden",
         "rankgrade:menkyo_chuden",
         "rankgrade:menkyo_gokui",
         "rankgrade:menkyo_kaiden",

@@ -1627,11 +1627,11 @@ martialis:RankAssertionShape
         rdf:rest   <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/1> .
 
 <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/9>
-        rdf:first  rankgrade:menkyo_gokui;
+        rdf:first  rankgrade:daitoryu_goshinyo_no_te;
         rdf:rest   <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/10> .
 
 <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/8>
-        rdf:first  rankgrade:menkyo_chuden;
+        rdf:first  rankgrade:daitoryu_aiki_no_jutsu;
         rdf:rest   <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/9> .
 
 <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/7>
@@ -1658,52 +1658,80 @@ martialis:RankAssertionShape
         rdf:first  rankgrade:bjj_brown;
         rdf:rest   <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/3> .
 
-<https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/20>
+<https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/27>
         rdf:first  rankgrade:ussc_master_international;
         rdf:rest   () .
+
+<https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/26>
+        rdf:first  rankgrade:ussc_master;
+        rdf:rest   <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/27> .
+
+<https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/25>
+        rdf:first  rankgrade:ussc_honoured_master;
+        rdf:rest   <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/26> .
+
+<https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/24>
+        rdf:first  rankgrade:ussc_class_3;
+        rdf:rest   <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/25> .
+
+<https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/23>
+        rdf:first  rankgrade:ussc_class_2;
+        rdf:rest   <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/24> .
+
+<https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/22>
+        rdf:first  rankgrade:ussc_class_1;
+        rdf:rest   <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/23> .
+
+<https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/21>
+        rdf:first  rankgrade:ussc_candidate_master;
+        rdf:rest   <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/22> .
+
+<https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/20>
+        rdf:first  rankgrade:menkyo_shoden;
+        rdf:rest   <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/21> .
 
 <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/1>
         rdf:first  rankgrade:bjj_blue;
         rdf:rest   <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/2> .
 
 <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/19>
-        rdf:first  rankgrade:ussc_master;
+        rdf:first  rankgrade:menkyo_okuden;
         rdf:rest   <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/20> .
 
 <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/18>
-        rdf:first  rankgrade:ussc_honoured_master;
+        rdf:first  rankgrade:menkyo_license;
         rdf:rest   <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/19> .
 
 <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/17>
-        rdf:first  rankgrade:ussc_class_3;
+        rdf:first  rankgrade:menkyo_kaiden;
         rdf:rest   <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/18> .
 
 <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/16>
-        rdf:first  rankgrade:ussc_class_2;
+        rdf:first  rankgrade:menkyo_gokui;
         rdf:rest   <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/17> .
 
 <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/15>
-        rdf:first  rankgrade:ussc_class_1;
+        rdf:first  rankgrade:menkyo_chuden;
         rdf:rest   <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/16> .
 
 <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/14>
-        rdf:first  rankgrade:ussc_candidate_master;
+        rdf:first  rankgrade:daitoryu_seito_soden;
         rdf:rest   <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/15> .
 
 <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/13>
-        rdf:first  rankgrade:menkyo_shoden;
+        rdf:first  rankgrade:daitoryu_menkyo_kaiden;
         rdf:rest   <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/14> .
 
 <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/12>
-        rdf:first  rankgrade:menkyo_okuden;
+        rdf:first  rankgrade:daitoryu_kaishaku_soden;
         rdf:rest   <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/13> .
 
 <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/11>
-        rdf:first  rankgrade:menkyo_license;
+        rdf:first  rankgrade:daitoryu_hiden_ogi;
         rdf:rest   <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/12> .
 
 <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/10>
-        rdf:first  rankgrade:menkyo_kaiden;
+        rdf:first  rankgrade:daitoryu_hiden_mokuroku;
         rdf:rest   <https://w3id.org/martialis/ontology#RankAssertionShape/rankGrade/in/11> .
 
 <https://w3id.org/martialis/ontology#RankAssertionShape/ignoredProperties>
@@ -2776,10 +2804,10 @@ martialis:IdentityAssertionShape
 
 martialis:HonorAssertionShape
         rdf:type              sh:NodeShape;
-        rdfs:comment          "A non-style-specific title, certificate, or honor (e.g. Hanshi, Kyoshi). Subject is the honored Person; conferredBy is the granting Organization.";
+        rdfs:comment          "A title, certificate, licence or honor held outside a style's rank ladder (e.g. Hanshi, Kyoshi, a teaching licence). Subject is the honored Person; conferredBy is the granting Organization; honorStyle is the style, when the honor belongs to one.";
         sh:closed             false;
         sh:ignoredProperties  <https://w3id.org/martialis/ontology#HonorAssertionShape/ignoredProperties>;
-        sh:property           <https://w3id.org/martialis/ontology#HonorAssertionShape/atEvent> , <https://w3id.org/martialis/ontology#HonorAssertionShape/conferredBy> , <https://w3id.org/martialis/ontology#HonorAssertionShape/dateCalendar> , <https://w3id.org/martialis/ontology#HonorAssertionShape/dateConferred> , <https://w3id.org/martialis/ontology#HonorAssertionShape/dateOriginal> , <https://w3id.org/martialis/ontology#HonorAssertionShape/grantedBy> , <https://w3id.org/martialis/ontology#HonorAssertionShape/hasConfidence> , <https://w3id.org/martialis/ontology#HonorAssertionShape/hasEvidence> , <https://w3id.org/martialis/ontology#HonorAssertionShape/honorGrade> , <https://w3id.org/martialis/ontology#HonorAssertionShape/honorType> , <https://w3id.org/martialis/ontology#HonorAssertionShape/honorValue> , <https://w3id.org/martialis/ontology#HonorAssertionShape/researchNote>;
+        sh:property           <https://w3id.org/martialis/ontology#HonorAssertionShape/researchNote> , <https://w3id.org/martialis/ontology#HonorAssertionShape/atEvent> , <https://w3id.org/martialis/ontology#HonorAssertionShape/conferredBy> , <https://w3id.org/martialis/ontology#HonorAssertionShape/dateCalendar> , <https://w3id.org/martialis/ontology#HonorAssertionShape/dateConferred> , <https://w3id.org/martialis/ontology#HonorAssertionShape/dateOriginal> , <https://w3id.org/martialis/ontology#HonorAssertionShape/grantedBy> , <https://w3id.org/martialis/ontology#HonorAssertionShape/hasConfidence> , <https://w3id.org/martialis/ontology#HonorAssertionShape/hasEvidence> , <https://w3id.org/martialis/ontology#HonorAssertionShape/honorGrade> , <https://w3id.org/martialis/ontology#HonorAssertionShape/honorStyle> , <https://w3id.org/martialis/ontology#HonorAssertionShape/honorType> , <https://w3id.org/martialis/ontology#HonorAssertionShape/honorValue>;
         sh:targetClass        martialis:HonorAssertion .
 
 <https://w3id.org/martialis/ontology#HonorAssertionShape/researchNote>
@@ -2833,6 +2861,14 @@ martialis:HonorAssertionShape
 <https://w3id.org/martialis/ontology#HonorAssertionShape/honorType/in/1>
         rdf:first  honortype:decoration;
         rdf:rest   <https://w3id.org/martialis/ontology#HonorAssertionShape/honorType/in/2> .
+
+<https://w3id.org/martialis/ontology#HonorAssertionShape/honorStyle>
+        sh:class        martialis:Style;
+        sh:description  "The style the honor belongs to, such as a teaching licence issued in one school. Absent for an honor that is not style-specific.";
+        sh:maxCount     1;
+        sh:nodeKind     sh:IRI;
+        sh:order        12;
+        sh:path         martialis:honorStyle .
 
 <https://w3id.org/martialis/ontology#HonorAssertionShape/honorGrade>
         sh:description  "The specific grade within an ordered honorific scheme, when the honor is a rung on a ladder; currently shogo (renshi/kyoshi/hanshi). The rung only; the conferring body is the assertion's conferredBy.";

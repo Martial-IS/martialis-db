@@ -318,7 +318,7 @@ enums:
         meaning: placeclass:university
   RankGrade:
     enum_uri: https://w3id.org/martialis/vocab/rank-grade/
-    description: BJJ Belt Grade Vocabulary; Menkyo Grade Vocabulary; Unified Sports Classification System Grade Vocabulary
+    description: BJJ Belt Grade Vocabulary; Daito-ryu Scroll Licence Vocabulary; Menkyo Grade Vocabulary; Unified Sports Classification System Grade Vocabulary
     permissible_values:
       rankgrade:bjj_black:
         meaning: rankgrade:bjj_black
@@ -336,6 +336,20 @@ enums:
         meaning: rankgrade:bjj_red_white
       rankgrade:bjj_white:
         meaning: rankgrade:bjj_white
+      rankgrade:daitoryu_aiki_no_jutsu:
+        meaning: rankgrade:daitoryu_aiki_no_jutsu
+      rankgrade:daitoryu_goshinyo_no_te:
+        meaning: rankgrade:daitoryu_goshinyo_no_te
+      rankgrade:daitoryu_hiden_mokuroku:
+        meaning: rankgrade:daitoryu_hiden_mokuroku
+      rankgrade:daitoryu_hiden_ogi:
+        meaning: rankgrade:daitoryu_hiden_ogi
+      rankgrade:daitoryu_kaishaku_soden:
+        meaning: rankgrade:daitoryu_kaishaku_soden
+      rankgrade:daitoryu_menkyo_kaiden:
+        meaning: rankgrade:daitoryu_menkyo_kaiden
+      rankgrade:daitoryu_seito_soden:
+        meaning: rankgrade:daitoryu_seito_soden
       rankgrade:menkyo_chuden:
         meaning: rankgrade:menkyo_chuden
       rankgrade:menkyo_gokui:
