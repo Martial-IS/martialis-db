@@ -1,0 +1,132 @@
+type: Person
+id: 01M8EYTMF3J9W8V3KVEHNZH4HV
+name:
+  en: Philippe Morotti
+nationality:
+  - countryCode: eucountry:SWE
+    wikidata: wd:Q34
+birthEvent:
+  birthPlace:
+    label: Stockholm
+    countryCode: eucountry:SWE
+    wikidata: wd:Q1754
+  hasEvidence:
+    - basedOnSource: 01M8EYTMF3DS7EJ39WANDC5BYA
+      quotation: I was born is [sic] Stockholm, Sweden
+      informationType: infotype:primary
+      supports: true
+      evidenceType: evidencetype:direct
+image:
+  contentUrl: https://files.gymdesk.com/2814/instructor8572-large.jpg
+  rights: mediarights:in_copyright
+  imageAttribution:
+    uri: https://hollywoodjudo.com/instructors/bio/id/8572
+    cite: Hollywood Judo Dojo
+    informationType: infotype:primary
+description:
+  en: >-
+    Swedish judoka, on the Swedish national team from 1976 to 1986,
+    and head instructor of Hollywood Judo Dojo in Los Angeles since
+    2010.
+hasTeacherAssertion:
+  - id: 01M8EYTMF3TND7RMH5F0138NWZ
+    teacher: 01M8EYTMF3Q6TWVPQHMMFFWYN6
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Morotti names Michlewicz as his first teacher (Shoutout LA, 2024).
+    hasInteraction:
+      - hasEvidence:
+          - basedOnSource: 01M8EYTMF3DS7EJ39WANDC5BYA
+            quotation: >-
+              I began practicing judo at the age of 12. My first teacher was
+              Jozef Michlewicz, a Polish judo Champion and an immigrant to
+              Sweden.
+            informationType: infotype:primary
+            supports: true
+            evidenceType: evidencetype:direct
+  - id: 01M8EYTMF3VJ0BK3F7A4FTXB0J
+    teacher: 01M8CRJFWS10SYJFMZ8PHX9RAH
+    assertedStyle: 01KJJAWN29MA64W22606R3WD9B
+    role: teachrole:student
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The L’Esprit du Judo interview places Morotti at the Racing
+        Club de France "période Neil Adams" (2025). The English
+        translation hosted by his dojo reads "trained under Neil
+        Adams", which is assumed to reflect his intended meaning. Both
+        original and translation added as separate sources.
+    hasInteraction:
+      - interactionPlace: 01M8EYTMF3K5BWFMTNRJSG51CQ
+        interactionPeriod:
+          endYear: 1989
+        hasEvidence:
+          - basedOnSource: 01M8EZQ0B77BNTVTWEN40Q04BW
+            locator: '82'
+            locatorLabel: page
+            quotation: >-
+              cet ancien international suédois, passé par le Racing
+              Club de France période Neil Adams, arrive à Los Angeles
+              à vingt-neuf ans, en 1989
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:indirect
+          - basedOnSource: 01M8EYTMF3H9PAYDVDS1F0XM4A
+            locator: '1'
+            locatorLabel: page
+            quotation: He trained under Neil Adams at the famed Racing Club de France.
+            informationType: infotype:secondary
+            supports: true
+            evidenceType: evidencetype:direct
+hasRankAssertion:
+  - id: 01M8F098TGFRXS8TJ6EDS99TN9
+    rankStyle: 01KJJAWN29MA64W22606R3WD9B
+    rankSystem: 01M11K25NF0E7HG8HWVWM2P3FG
+    rankType: ranktype:dan
+    rankOrdinal: 6
+    conferredBy: 01M331J1AK559MQJ4MSG3EVDX1
+    dateConferred: '2023-01'
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The USJA lists Morotti, Hollywood Judo, among its January 2023 dan
+        promotions as rokudan (USJA news, 2023). Conferrer's own list, so
+        confirmed.
+    hasEvidence:
+      - basedOnSource: 01M8F098TGJ3B9JQ4HD14VFPC5
+        quotation: Philippe Morotti Rokudan Hollywood Judo
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+hasEvidence:
+  - basedOnSource: 01M8EYTMF3DS7EJ39WANDC5BYA
+    quotation: >-
+      I trained 4-6 hours per day and I ended up being selected to the Swedish
+      National Team 1976-1986.
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+  - basedOnSource: 01M8EZQ0B77BNTVTWEN40Q04BW
+    locator: '82'
+    locatorLabel: page
+    quotation: >-
+      En 2010, Philippe devient le premier professeur non-Japonais du
+      Hollywood Judo Dojo
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+notes: >-
+  JudoInside gives birth date 6 May 1960 (not checked).
+  Hollywood Judo Dojo not yet a Place: add it with the Kikuchi, Emi, Freeman
+  succession and Morotti's head-instructor role (dojo history page conflicts
+  on dates). Hosts of the Tatami Talk podcast, Juan Rodriguez and Anthony
+  Lau, instruct at the dojo.
+tags:
+  - judo
+  - coach

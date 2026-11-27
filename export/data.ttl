@@ -8589,6 +8589,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceType            "article" .
 
+<https://martial.is/entity/01M8EYTMF3M5T0M4B9PW22XH92/instructorPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:endYear    1989;
+        martialis:startYear  1984 .
+
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD92/hasSite/0/location>
         rdf:type               martialis:GeoRef;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/BRA>;
@@ -9464,6 +9469,16 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/DEU>;
         schema:sameAs          <http://www.wikidata.org/entity/Q183> .
 
+<https://martial.is/entity/01M8EYTMF3VJ0BK3F7A4FTXB0J/hasInteraction/0/hasEvidence/1>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8EYTMF3H9PAYDVDS1F0XM4A>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:secondary;
+        martialis:quotation           "He trained under Neil Adams at the famed Racing Club de France.";
+        martialis:sourceLocation      "1";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
+
 <https://martial.is/entity/01M3YH7N5G5XHSAVBMC38T460P/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KXTSQXW6P83R31HCRY2PRTAV>;
@@ -9776,8 +9791,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         void:classPartition   <https://martial.is/data.ttl#dataset/class/Organization>;
         void:classPartition   <https://martial.is/data.ttl#dataset/class/Event>;
         void:dataDump         <https://martial.is/data.ttl>;
-        void:entities         3096;
-        void:triples          172293;
+        void:entities         3103;
+        void:triples          172577;
         void:uriSpace         "https://martial.is/entity/";
         void:vocabulary       <http://purl.org/ontology/bibo/>;
         void:vocabulary       prov:;
@@ -16575,6 +16590,16 @@ void:class  rdf:type  owl:ObjectProperty .
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
 
+<https://martial.is/entity/01M8EYTMF3J9W8V3KVEHNZH4HV/hasEvidence/1>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8EZQ0B77BNTVTWEN40Q04BW>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:secondary;
+        martialis:quotation           "En 2010, Philippe devient le premier professeur non-Japonais du Hollywood Judo Dojo";
+        martialis:sourceLocation      "82";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
+
 <https://martial.is/entity/01M0NVYZ4H18D1DFNE4ANSB7ES>
         rdf:type                       martialis:Person;
         schema:birthDate               "1938-10-13";
@@ -20004,6 +20029,10 @@ void:class  rdf:type  owl:ObjectProperty .
         martialis:hasEvidence   <https://martial.is/entity/01M842EAEMFMYHHPCEPWA2NB6D/deathEvent/hasEvidence/0>;
         martialis:hasEvidence   <https://martial.is/entity/01M842EAEMFMYHHPCEPWA2NB6D/deathEvent/hasEvidence/1>;
         martialis:latestYear    1980 .
+
+<https://martial.is/entity/01M8EZQ0B77BNTVTWEN40Q04BW/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "L’Esprit du Judo" .
 
 <https://martial.is/entity/01M5JVVMHMBNN4KBXW5164ED5R/foundedEvent>
         rdf:type                martialis:FoundingEvent;
@@ -29164,6 +29193,11 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/RUS>;
         schema:sameAs          <http://www.wikidata.org/entity/Q159> .
 
+<https://martial.is/entity/01M8EYTMF3TND7RMH5F0138NWZ/hasInteraction/0>
+        rdf:type               martialis:TeacherInteraction;
+        prov:wasDerivedFrom    <https://martial.is/entity/01M8EYTMF3DS7EJ39WANDC5BYA>;
+        martialis:hasEvidence  <https://martial.is/entity/01M8EYTMF3TND7RMH5F0138NWZ/hasInteraction/0/hasEvidence/0> .
+
 <https://martial.is/entity/01M5MG190FAKXVS98S4M63S77T>
         rdf:type                      martialis:InstructorRole;
         prov:wasDerivedFrom           <https://martial.is/entity/01M5G930MNABWTVH5Y4WR93H2B>;
@@ -33131,6 +33165,10 @@ void:classPartition  rdf:type  owl:ObjectProperty .
 <https://martial.is/entity/01KZ9TQS3VGPBASF3Z1Q0AVHJF/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Dragon Magazine (no. 9, pp. 60-66; no. 11, pp. 68-74)" .
+
+<https://martial.is/entity/01M8EYTMF3VJ0BK3F7A4FTXB0J/hasInteraction/0/interactionPeriod>
+        rdf:type           martialis:TimeInterval;
+        martialis:endYear  1989 .
 
 <https://martial.is/entity/01M5AT1XCZD4BEWPJZKBQSSSDQ/publisher>
         rdf:type     martialis:Publisher;
@@ -37164,6 +37202,13 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:sourceLocation      "170";
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
+
+<https://martial.is/entity/01M8EYTMF3M5T0M4B9PW22XH92/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "A profile of Philippe Morotti places him at the club \"période Neil Adams\" (L’Esprit du Judo, 2025). Period is a guess: Adams had no coaching role in September 1983 (Judo), and Morotti moved to the USA in 1989. Hratch Demirdjian also says Adams coached him at the club (LinkedIn, not read). Probable." .
 
 <https://martial.is/entity/01KYFZEGYNKYFCPETS9G1N9KBW/image/imageAttribution>
         rdf:type                   martialis:Attribution;
@@ -47852,6 +47897,14 @@ dcat:landingPage  rdf:type  owl:ObjectProperty .
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Single source." .
 
+<https://martial.is/entity/01M8EYTMF3TND7RMH5F0138NWZ>
+        rdf:type                  martialis:TeacherAssertion;
+        martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B>;
+        martialis:hasConfidence   <https://martial.is/entity/01M8EYTMF3TND7RMH5F0138NWZ/hasConfidence>;
+        martialis:hasInteraction  <https://martial.is/entity/01M8EYTMF3TND7RMH5F0138NWZ/hasInteraction/0>;
+        martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
+        martialis:teacher         <https://martial.is/entity/01M8EYTMF3Q6TWVPQHMMFFWYN6> .
+
 <https://martial.is/entity/01KYQB8J2N5752Q7E1JM7PNQPG/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         schema:archivedAt          <https://en.wikipedia.org/w/index.php?title=Vitor_Belfort&oldid=1380861230>;
@@ -48053,6 +48106,21 @@ dcat:landingPage  rdf:type  owl:ObjectProperty .
 <https://martial.is/entity/01KZ9TQS3VAWWWZRSQE53DB0DS/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Lulu.com" .
+
+<https://martial.is/entity/01M8F098TGFRXS8TJ6EDS99TN9>
+        rdf:type                 martialis:RankAssertion;
+        prov:hadPrimarySource    <https://martial.is/entity/01M8F098TGJ3B9JQ4HD14VFPC5>;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M8F098TGJ3B9JQ4HD14VFPC5>;
+        martialis:conferredBy    <https://martial.is/entity/01M331J1AK559MQJ4MSG3EVDX1>;
+        martialis:dateConferred  "2023-01";
+        martialis:earliestYear   2023;
+        martialis:hasConfidence  <https://martial.is/entity/01M8F098TGFRXS8TJ6EDS99TN9/hasConfidence>;
+        martialis:hasEvidence    <https://martial.is/entity/01M8F098TGFRXS8TJ6EDS99TN9/hasEvidence/0>;
+        martialis:latestYear     2023;
+        martialis:rankOrdinal    6;
+        martialis:rankStyle      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B>;
+        martialis:rankSystem     <https://martial.is/entity/01M11K25NF0E7HG8HWVWM2P3FG>;
+        martialis:rankType       <https://w3id.org/martialis/vocab/rank-type/dan> .
 
 <https://martial.is/entity/01M5KQTRGXS59YP955PH16GF0J/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -49301,6 +49369,16 @@ dcat:landingPage  rdf:type  owl:ObjectProperty .
         martialis:rankStyle      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9R>;
         martialis:rankSystem     <https://martial.is/entity/01M11K25NF0E7HG8HWVWM2P3FG>;
         martialis:rankType       <https://w3id.org/martialis/vocab/rank-type/dan> .
+
+<https://martial.is/entity/01M8EYTMF3Q6TWVPQHMMFFWYN6>
+        rdf:type               martialis:Person;
+        schema:alternateName   "Jozef Michlewicz"@en;
+        schema:description     "Polish judo champion who settled in Sweden; first judo teacher of Philippe Morotti."@en;
+        schema:keywords        "judo";
+        schema:name            "Józef Michlewicz"@en;
+        schema:nationality     <https://martial.is/entity/01M8EYTMF3Q6TWVPQHMMFFWYN6/nationality/0>;
+        martialis:hasEvidence  <https://martial.is/entity/01M8EYTMF3Q6TWVPQHMMFFWYN6/hasEvidence/0>;
+        martialis:teaches      <https://martial.is/entity/01M8EYTMF3J9W8V3KVEHNZH4HV> .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SD/image/imageAttribution>
         rdf:type                   martialis:Attribution;
@@ -54780,6 +54858,16 @@ void:entities  rdf:type  owl:DatatypeProperty .
         martialis:quotation        "who bestowed upon him a seventh-degree black belt in March of 1973 and his eighth in September of 1974.";
         martialis:supports         true .
 
+<https://martial.is/entity/01M8EYTMF3VJ0BK3F7A4FTXB0J/hasInteraction/0/hasEvidence/0>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8EZQ0B77BNTVTWEN40Q04BW>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/indirect>;
+        martialis:informationType     infotype:secondary;
+        martialis:quotation           "cet ancien international suédois, passé par le Racing Club de France période Neil Adams, arrive à Los Angeles à vingt-neuf ans, en 1989";
+        martialis:sourceLocation      "82";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
+
 <https://martial.is/entity/01M3YH7N5G9D1P7F3BZQ32ND96/hasConfidence>
         rdf:type                       martialis:Confidence;
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
@@ -55816,6 +55904,13 @@ void:entities  rdf:type  owl:DatatypeProperty .
         rdf:type               martialis:NationalityEntry;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/USA>;
         schema:sameAs          <http://www.wikidata.org/entity/Q30> .
+
+<https://martial.is/entity/01M8EYTMF3VJ0BK3F7A4FTXB0J/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "The L’Esprit du Judo interview places Morotti at the Racing Club de France \"période Neil Adams\" (2025). The English translation hosted by his dojo reads \"trained under Neil Adams\", which is assumed to reflect his intended meaning. Both original and translation added as separate sources." .
 
 <https://martial.is/entity/01M3YH7N5GB98XKYBCTSPCQE66/hasInteraction/0>
         rdf:type                     martialis:TeacherInteraction;
@@ -57279,6 +57374,10 @@ void:entities  rdf:type  owl:DatatypeProperty .
         martialis:quotation        "Paulus Kal, the presumptive author of the list, includes the following as members of the fellowship: [...] hartman von nurñberg";
         martialis:supports         true .
 
+<https://martial.is/entity/01M8F098TGJ3B9JQ4HD14VFPC5/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "United States Judo Association" .
+
 <https://martial.is/entity/01KZRA7SNMQ0E1TR6KQ7Z3FVAF/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Wikimedia Foundation" .
@@ -58677,6 +58776,10 @@ void:entities  rdf:type  owl:DatatypeProperty .
         martialis:selfPublished         false;
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceType            "website" .
+
+<https://martial.is/entity/01M8EYTMF3K5BWFMTNRJSG51CQ/hasSite/0>
+        rdf:type         martialis:Site;
+        schema:location  <https://martial.is/entity/01M8EYTMF3K5BWFMTNRJSG51CQ/hasSite/0/location> .
 
 <https://martial.is/entity/01M3YH7N5G7QNDP3ZSHE1JCDQ7/hasInteraction/0>
         rdf:type                     martialis:TeacherInteraction;
@@ -66150,6 +66253,16 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "The Asahi Graph (1958, in translation) names him among the first four 10th dans." .
 
+<https://martial.is/entity/01M8EYTMF3M5T0M4B9PW22XH92/hasEvidence/0>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8EZQ0B77BNTVTWEN40Q04BW>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/indirect>;
+        martialis:informationType     infotype:secondary;
+        martialis:quotation           "passé par le Racing Club de France période Neil Adams";
+        martialis:sourceLocation      "82";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
+
 <https://martial.is/entity/01KZC8XAP8AY7DMXPP8ABGFZP8>
         rdf:type                        martialis:Source;
         schema:archivedAt               <https://en.wikipedia.org/w/index.php?title=Chogi_Kishaba&oldid=1368401744>;
@@ -69290,6 +69403,12 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
 
+<https://martial.is/entity/01M8EZQ0B77BNTVTWEN40Q04BW/hasContributor/0>
+        rdf:type                   martialis:Contributor;
+        schema:familyName          "Diao";
+        schema:givenName           "Anthony";
+        martialis:contributorRole  "author" .
+
 <https://martial.is/entity/01M5JPY6FNA9MDXPS6WGQQ4FTC/birthEvent/birthPlace>
         rdf:type               martialis:GeoRef;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/GBR>;
@@ -69662,6 +69781,25 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "Feldenkrais was a co-founding member of the Jiu Jitsu Club de France, located at the Rue Beaubourg 82 in Paris, and one of the oldest jūdō clubs in Europe, which is still in existence today.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M8EZQ0B77BNTVTWEN40Q04BW>
+        rdf:type                        martialis:Source;
+        <http://purl.org/ontology/bibo/issue>  "116";
+        <http://purl.org/ontology/bibo/pages>  "82";
+        schema:datePublished            "2025-07";
+        schema:description              "Profile of Philippe Morotti in the \"Judo et moi\" section of L’Esprit du Judo, July/August 2025, on his judo career and his work as judo choreographer for the film Tatami."@en;
+        schema:inLanguage               "fr";
+        schema:keywords                 "magazine";
+        schema:keywords                 "judo";
+        schema:name                     "Le film d’une vie";
+        schema:publisher                <https://martial.is/entity/01M8EZQ0B77BNTVTWEN40Q04BW/publisher>;
+        martialis:earliestYear          2025;
+        martialis:hasContributor        <https://martial.is/entity/01M8EZQ0B77BNTVTWEN40Q04BW/hasContributor/0>;
+        martialis:hasContributor        <https://martial.is/entity/01M8EZQ0B77BNTVTWEN40Q04BW/hasContributor/1>;
+        martialis:latestYear            2025;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/interview>;
+        martialis:sourceType            "article" .
 
 <https://martial.is/entity/01M69YKDGSC9A8AC8R4V1YGS3T>
         rdf:type                       martialis:Person;
@@ -72459,6 +72597,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:wasTaughtBy          <https://martial.is/entity/01M764AMRBVPJKVZHRWAY213KC>;
         martialis:wasTaughtBy          <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TW>;
         martialis:wasTaughtBy          <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TV> .
+
+<https://martial.is/entity/01M8F098TGFRXS8TJ6EDS99TN9/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M8F098TGJ3B9JQ4HD14VFPC5>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "Philippe Morotti Rokudan Hollywood Judo";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M3YH7N5GKJ6J8K6N71KV9PG5/hasInteraction/0/hasEvidence/2>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -78696,6 +78842,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Bennett lists Asayama Ichiden-ryu among the ten contributing schools; one source." .
 
+<https://martial.is/entity/01M8EYTMF3VJ0BK3F7A4FTXB0J>
+        rdf:type                  martialis:TeacherAssertion;
+        martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B>;
+        martialis:hasConfidence   <https://martial.is/entity/01M8EYTMF3VJ0BK3F7A4FTXB0J/hasConfidence>;
+        martialis:hasInteraction  <https://martial.is/entity/01M8EYTMF3VJ0BK3F7A4FTXB0J/hasInteraction/0>;
+        martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
+        martialis:teacher         <https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH> .
+
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TB/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         schema:citation            "Olympedia: Sumiyuki Kotani";
@@ -78748,6 +78902,22 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "9th degree black belt in Tang Soo Do";
         martialis:supports         true .
+
+<https://martial.is/entity/01M8EYTMF3H9PAYDVDS1F0XM4A>
+        rdf:type                        martialis:Source;
+        schema:datePublished            "2025-07";
+        schema:description              "English translation of Anthony Diao's L’Esprit du Judo profile of Philippe Morotti, hosted by Hollywood Judo Dojo, with scans of the original page and cover."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "judo";
+        schema:name                     "Tatami";
+        schema:url                      <https://drive.google.com/file/d/1M2I5qzuPK7FsvivTUzD7fuYLbAeXE5V0/view?usp=sharing>;
+        martialis:accessed              "2026-11-27";
+        martialis:earliestYear          2025;
+        martialis:editionOf             <https://martial.is/entity/01M8EYTMF3H9PAYDVDS1F0XM4A/editionOf>;
+        martialis:latestYear            2025;
+        martialis:sourceClassification  srcclass:derivative;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/interview>;
+        martialis:sourceType            "article" .
 
 <https://martial.is/entity/01KZ49W5BP7B8VF2EYWCR2QZBZ>
         rdf:type                        martialis:Source;
@@ -82664,6 +82834,11 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         schema:familyName          "宮崎";
         schema:givenName           "淳";
         martialis:contributorRole  "author" .
+
+<https://martial.is/entity/01M8EYTMF3J9W8V3KVEHNZH4HV/nationality/0>
+        rdf:type               martialis:NationalityEntry;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/SWE>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q34> .
 
 <https://martial.is/entity/01M4R9845WYYFV6VD9K4D3K7H9/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -86925,6 +87100,23 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "He [Mifune] asked if I would like him to be my teacher while I stayed in Japan.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M8EYTMF3DS7EJ39WANDC5BYA>
+        rdf:type                        martialis:Source;
+        schema:datePublished            "2024-06-24";
+        schema:description              "Written interview with Philippe Morotti on his judo career in Sweden and his work at Hollywood Judo Dojo."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "judo";
+        schema:name                     "Meet Philippe Morotti | Head Instructor Hollywood Judo Dojo";
+        schema:publisher                <https://martial.is/entity/01M8EYTMF3DS7EJ39WANDC5BYA/publisher>;
+        schema:url                      <https://shoutoutla.com/meet-philippe-morotti-head-instructor-hollywood-judo-dojo/>;
+        martialis:accessed              "2026-11-27";
+        martialis:earliestYear          2024;
+        martialis:hasContributor        <https://martial.is/entity/01M8EYTMF3DS7EJ39WANDC5BYA/hasContributor/0>;
+        martialis:latestYear            2024;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/interview>;
+        martialis:sourceType            "interview" .
 
 <https://martial.is/entity/01KZC8S2GEGBJJT9RKV5M0HJ3N/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -101748,6 +101940,10 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         martialis:endYear    2002;
         martialis:startYear  1969 .
 
+<https://martial.is/entity/01M8EYTMF3DS7EJ39WANDC5BYA/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Shoutout LA" .
+
 <https://martial.is/entity/01M3YH7N5GAX1WF3NFVSDAE9CM>
         rdf:type                  martialis:TeacherAssertion;
         martialis:hasConfidence   <https://martial.is/entity/01M3YH7N5GAX1WF3NFVSDAE9CM/hasConfidence>;
@@ -102404,7 +102600,7 @@ void:dataDump  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/data.ttl#dataset/class/Person>
         void:class     martialis:Person;
-        void:entities  1056 .
+        void:entities  1058 .
 
 <https://martial.is/entity/01M5HMRGB7WN9HHYCGJYQZPTAB/hasEvidence/1>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -112474,6 +112670,16 @@ dcat:Dataset  rdf:type  owl:Class .
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceType            "entry-encyclopedia" .
 
+<https://martial.is/entity/01M8EYTMF3K5BWFMTNRJSG51CQ/hasEvidence/0>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8EZQ0B77BNTVTWEN40Q04BW>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:secondary;
+        martialis:quotation           "passé par le Racing Club de France période Neil Adams";
+        martialis:sourceLocation      "82";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
+
 <https://martial.is/entity/01KZH5KBKXM8P5YHC1HDFFH6GC/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Bushido Karate Club Ireland (bushidokarate.ie)" .
@@ -114734,6 +114940,13 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         schema:citation            "Wikimedia Commons";
         schema:url                 <https://commons.wikimedia.org/wiki/File:Hanashiro_Chomo.jpg>;
         martialis:informationType  infotype:secondary .
+
+<https://martial.is/entity/01M8EZQ0B77BNTVTWEN40Q04BW/hasContributor/1>
+        rdf:type                     martialis:Contributor;
+        schema:familyName            "Morotti";
+        schema:givenName             "Philippe";
+        martialis:contributorPerson  <https://martial.is/entity/01M8EYTMF3J9W8V3KVEHNZH4HV>;
+        martialis:contributorRole    "guest" .
 
 <https://martial.is/entity/01M6A2JTJ5T30HXFQWCGJFMDQC/nationality/0>
         rdf:type               martialis:NationalityEntry;
@@ -123866,7 +124079,7 @@ dcat:version  rdf:type  owl:DatatypeProperty .
 
 <https://martial.is/data.ttl#dataset/class/Place>
         void:class     martialis:Place;
-        void:entities  148 .
+        void:entities  149 .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1VC/birthEvent/birthPlace>
         rdf:type               martialis:GeoRef;
@@ -134606,6 +134819,14 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:rankSystem     <https://martial.is/entity/01M11K25NF0E7HG8HWVWM2P3FG>;
         martialis:rankType       <https://w3id.org/martialis/vocab/rank-type/dan_unspecified> .
 
+<https://martial.is/entity/01M8EYTMF3J9W8V3KVEHNZH4HV/birthEvent/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M8EYTMF3DS7EJ39WANDC5BYA>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "I was born is [sic] Stockholm, Sweden";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M5H64D94XQ38Q6APERWANDZB/hasConfidence>
         rdf:type                       martialis:Confidence;
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
@@ -134757,7 +134978,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/data.ttl#dataset/class/Source>
         void:class     martialis:Source;
-        void:entities  1585 .
+        void:entities  1589 .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SC/nationality/0>
         rdf:type               martialis:NationalityEntry;
@@ -141263,6 +141484,15 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:hasEvidence  <https://martial.is/entity/01KYYYTTW3BX37M2ESX9PKY0FY/hasSite/2/hasEvidence/0>;
         martialis:sitePeriod   <https://martial.is/entity/01KYYYTTW3BX37M2ESX9PKY0FY/hasSite/2/sitePeriod> .
 
+<https://martial.is/entity/01M8EYTMF3VJ0BK3F7A4FTXB0J/hasInteraction/0>
+        rdf:type                     martialis:TeacherInteraction;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M8EZQ0B77BNTVTWEN40Q04BW>;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M8EYTMF3H9PAYDVDS1F0XM4A>;
+        martialis:hasEvidence        <https://martial.is/entity/01M8EYTMF3VJ0BK3F7A4FTXB0J/hasInteraction/0/hasEvidence/1>;
+        martialis:hasEvidence        <https://martial.is/entity/01M8EYTMF3VJ0BK3F7A4FTXB0J/hasInteraction/0/hasEvidence/0>;
+        martialis:interactionPeriod  <https://martial.is/entity/01M8EYTMF3VJ0BK3F7A4FTXB0J/hasInteraction/0/interactionPeriod>;
+        martialis:interactionPlace   <https://martial.is/entity/01M8EYTMF3K5BWFMTNRJSG51CQ> .
+
 <https://martial.is/entity/01M0DKSTDEKTAC8C1REB4CKNSP/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Archives of Budo" .
@@ -141275,6 +141505,12 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 <https://martial.is/entity/01KYDKY8XQTNBXM7TK2079K2NZ/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Wikimedia Foundation" .
+
+<https://martial.is/entity/01M8EYTMF3J9W8V3KVEHNZH4HV/image>
+        rdf:type                    martialis:Photo;
+        schema:contentUrl           <https://files.gymdesk.com/2814/instructor8572-large.jpg>;
+        martialis:imageAttribution  <https://martial.is/entity/01M8EYTMF3J9W8V3KVEHNZH4HV/image/imageAttribution>;
+        martialis:mediaRights       <https://w3id.org/martialis/vocab/media-rights/in_copyright> .
 
 <https://martial.is/entity/01M6BP392SQ23FCMAT62NP6NBM>
         rdf:type                  martialis:TeacherAssertion;
@@ -141513,6 +141749,14 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:earliestYear  1997;
         martialis:hasEvidence   <https://martial.is/entity/01KZM8EFMVHGQA389F4WB4335V/deathEvent/hasEvidence/0>;
         martialis:latestYear    1997 .
+
+<https://martial.is/entity/01M8EYTMF3TND7RMH5F0138NWZ/hasInteraction/0/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M8EYTMF3DS7EJ39WANDC5BYA>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "I began practicing judo at the age of 12. My first teacher was Jozef Michlewicz, a Polish judo Champion and an immigrant to Sweden.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M3YH7N5GRN9S6QK0TPCT8BC5/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -155081,6 +155325,11 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Tokashiki Iken's research identifies Ryū Ryū Ko with Xie Zongxiang (謝宗祥/謝崇祥) of Changle, Fujian; however the identification is disputed by the Fuzhou Wushu Association and by Konjokrad's research pointing to Liu Long Gong, so this is a hypothesis, not a settled identity" .
 
+<https://martial.is/entity/01M8EYTMF3H9PAYDVDS1F0XM4A/editionOf>
+        rdf:type                       martialis:EditionOf;
+        martialis:editionOfSource      <https://martial.is/entity/01M8EZQ0B77BNTVTWEN40Q04BW>;
+        martialis:editionRelationType  <https://w3id.org/martialis/vocab/edition-relation/translation> .
+
 <https://martial.is/entity/01M3YH7N5GKF1PA5Z4EQF8ZKPT/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KZSRDXQW6CWJJ3JJQW3H48VK>;
@@ -157980,6 +158229,25 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         rdf:type     martialis:Publisher;
         schema:name  "kenshi 24/7" .
 
+<https://martial.is/entity/01M8EYTMF3J9W8V3KVEHNZH4HV>
+        rdf:type                       martialis:Person;
+        schema:birthPlace              <https://martial.is/entity/01M8EYTMF3J9W8V3KVEHNZH4HV/birthEvent/birthPlace>;
+        schema:description             "Swedish judoka, on the Swedish national team from 1976 to 1986, and head instructor of Hollywood Judo Dojo in Los Angeles since 2010."@en;
+        schema:keywords                "coach";
+        schema:keywords                "judo";
+        schema:name                    "Philippe Morotti"@en;
+        schema:nationality             <https://martial.is/entity/01M8EYTMF3J9W8V3KVEHNZH4HV/nationality/0>;
+        martialis:birthEvent           <https://martial.is/entity/01M8EYTMF3J9W8V3KVEHNZH4HV/birthEvent>;
+        martialis:hasEvidence          <https://martial.is/entity/01M8EYTMF3J9W8V3KVEHNZH4HV/hasEvidence/1>;
+        martialis:hasEvidence          <https://martial.is/entity/01M8EYTMF3J9W8V3KVEHNZH4HV/hasEvidence/0>;
+        martialis:hasRankAssertion     <https://martial.is/entity/01M8F098TGFRXS8TJ6EDS99TN9>;
+        martialis:hasTeacherAssertion  <https://martial.is/entity/01M8EYTMF3TND7RMH5F0138NWZ>;
+        martialis:hasTeacherAssertion  <https://martial.is/entity/01M8EYTMF3VJ0BK3F7A4FTXB0J>;
+        martialis:primaryImage         <https://martial.is/entity/01M8EYTMF3J9W8V3KVEHNZH4HV/image>;
+        martialis:trainedAt            <https://martial.is/entity/01M8EYTMF3K5BWFMTNRJSG51CQ>;
+        martialis:wasTaughtBy          <https://martial.is/entity/01M8EYTMF3Q6TWVPQHMMFFWYN6>;
+        martialis:wasTaughtBy          <https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH> .
+
 <https://martial.is/entity/01M3YH7N5GY2858BC9F4D0BHGN/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M0R2X2ACRA40SK61QWSERG02>;
@@ -158862,6 +159130,17 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         rdf:type             martialis:TimeInterval;
         martialis:endYear    1961;
         martialis:startYear  1959 .
+
+<https://martial.is/entity/01M8EYTMF3K5BWFMTNRJSG51CQ>
+        rdf:type                     martialis:Place;
+        schema:description           "Multi-sport club in Paris, founded in 1882, with a judo section."@en;
+        schema:keywords              "judo";
+        schema:name                  "Racing Club de France"@en;
+        schema:sameAs                <http://www.wikidata.org/entity/Q462315>;
+        martialis:hasEvidence        <https://martial.is/entity/01M8EYTMF3K5BWFMTNRJSG51CQ/hasEvidence/0>;
+        martialis:hasInstructorRole  <https://martial.is/entity/01M8EYTMF3M5T0M4B9PW22XH92>;
+        martialis:hasSite            <https://martial.is/entity/01M8EYTMF3K5BWFMTNRJSG51CQ/hasSite/0>;
+        martialis:placeType          <https://w3id.org/martialis/vocab/place-classification/club> .
 
 <https://martial.is/entity/01M6BFF6ZQYAV0AD38S8H976NG/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -163099,7 +163378,9 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M8CRJFWSHNAK2AWZ6HSRBDBX>;
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M8EWHQFPBFES1254PD4XFFEQ>;
         martialis:primaryImage         <https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH/image>;
+        martialis:taughtAt             <https://martial.is/entity/01M8EYTMF3K5BWFMTNRJSG51CQ>;
         martialis:teaches              <https://martial.is/entity/01KYMDKKCPXRY92G0TVA86F03N>;
+        martialis:teaches              <https://martial.is/entity/01M8EYTMF3J9W8V3KVEHNZH4HV>;
         martialis:trainedAt            <https://martial.is/entity/01KY52HE49EXT0704VAEYG0W59>;
         martialis:trainedAt            <https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N>;
         martialis:wasTaughtBy          <https://martial.is/entity/01M8CRJFWS66QSZ6YD63XXYQYJ>;
@@ -174214,6 +174495,14 @@ dcterms:RightsStatement
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
         schema:sameAs          <http://www.wikidata.org/entity/Q17> .
 
+<https://martial.is/entity/01M8EYTMF3J9W8V3KVEHNZH4HV/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M8EYTMF3DS7EJ39WANDC5BYA>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "I trained 4-6 hours per day and I ended up being selected to the Swedish National Team 1976-1986.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3YH7N5G9WBRT9Q59YSFP4H6>
         rdf:type                     martialis:StyleRelationAssertion;
         prov:wasDerivedFrom          <https://martial.is/entity/01KYFPRMG33NHZZT0V83NSMNSY>;
@@ -176478,6 +176767,12 @@ dcterms:RightsStatement
         schema:startDate        "1957-04-26";
         martialis:earliestYear  1957;
         martialis:latestYear    1957 .
+
+<https://martial.is/entity/01M8EYTMF3J9W8V3KVEHNZH4HV/birthEvent>
+        rdf:type               martialis:BirthEvent;
+        prov:wasDerivedFrom    <https://martial.is/entity/01M8EYTMF3DS7EJ39WANDC5BYA>;
+        schema:location        <https://martial.is/entity/01M8EYTMF3J9W8V3KVEHNZH4HV/birthEvent/birthPlace>;
+        martialis:hasEvidence  <https://martial.is/entity/01M8EYTMF3J9W8V3KVEHNZH4HV/birthEvent/hasEvidence/0> .
 
 <https://martial.is/entity/01KYD74HFGEBZYJ17SBVPGNKZ7/deathEvent/hasEvidence/1>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -179598,6 +179893,14 @@ dcterms:RightsStatement
         martialis:hasStyleRelationAssertion  <https://martial.is/entity/01M3YH7N5GX39N41FJJSNT88AR>;
         martialis:styleType     <https://w3id.org/martialis/vocab/style-classification/modern>;
         martialis:variantOf     <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9S> .
+
+<https://martial.is/entity/01M8EYTMF3Q6TWVPQHMMFFWYN6/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M8EYTMF3DS7EJ39WANDC5BYA>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "My first teacher was Jozef Michlewicz, a Polish judo Champion and an immigrant to Sweden.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M3YH7N5GWGY4RC6SBP1B5NFH>
         rdf:type                 martialis:HonorAssertion;
@@ -190082,6 +190385,12 @@ dcterms:RightsStatement
         martialis:rankSystem     <https://martial.is/entity/01M11K25NF0E7HG8HWVWM2P3FG>;
         martialis:rankType       <https://w3id.org/martialis/vocab/rank-type/dan> .
 
+<https://martial.is/entity/01M8EYTMF3K5BWFMTNRJSG51CQ/hasSite/0/location>
+        rdf:type               martialis:GeoRef;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/FRA>;
+        schema:name            "Paris";
+        schema:sameAs          <http://www.wikidata.org/entity/Q90> .
+
 <https://martial.is/entity/01M6ETAT0TYKE1KNAXE49A10W8/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Elvis Australia" .
@@ -190271,6 +190580,12 @@ dcterms:RightsStatement
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Judo Canada's own history only." .
+
+<https://martial.is/entity/01M8EYTMF3J9W8V3KVEHNZH4HV/image/imageAttribution>
+        rdf:type                   martialis:Attribution;
+        schema:citation            "Hollywood Judo Dojo";
+        schema:url                 <https://hollywoodjudo.com/instructors/bio/id/8572>;
+        martialis:informationType  infotype:primary .
 
 <https://martial.is/entity/01M6C18DS77X06QCBFQWKWX86G/hasInteraction/0/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -194583,6 +194898,11 @@ dcterms:RightsStatement
         martialis:sourceLocatorLabel  "section";
         martialis:supports            true .
 
+<https://martial.is/entity/01M8EYTMF3Q6TWVPQHMMFFWYN6/nationality/0>
+        rdf:type               martialis:NationalityEntry;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/POL>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q36> .
+
 <https://martial.is/entity/01M3YH7N5GH8JYMTHX7S0APJDY>
         rdf:type                  martialis:TeacherAssertion;
         martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B>;
@@ -198542,6 +198862,13 @@ dcterms:RightsStatement
         martialis:hasEvidence        <https://martial.is/entity/01M3YH7N5GM3Y2RSWAN7NN7Q8Y/hasInteraction/0/hasEvidence/2>;
         martialis:interactionPeriod  <https://martial.is/entity/01M3YH7N5GM3Y2RSWAN7NN7Q8Y/hasInteraction/0/interactionPeriod>;
         martialis:interactionPlace   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD84> .
+
+<https://martial.is/entity/01M8EYTMF3TND7RMH5F0138NWZ/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "Morotti names Michlewicz as his first teacher (Shoutout LA, 2024)." .
 
 <https://martial.is/entity/01M3YH7N5GR2D7PACB9R8DXSWV>
         rdf:type                  martialis:TeacherAssertion;
@@ -208571,6 +208898,22 @@ dcterms:RightsStatement
         martialis:endYear    1902;
         martialis:startYear  1899 .
 
+<https://martial.is/entity/01M8F098TGJ3B9JQ4HD14VFPC5>
+        rdf:type                        martialis:Source;
+        schema:datePublished            "2023-02-06";
+        schema:description              "USJA news post listing the dan promotions approved in December 2022 and January 2023."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "judo";
+        schema:name                     "December 2022 & January 2023 Promotion Board & CRE Committee News";
+        schema:publisher                <https://martial.is/entity/01M8F098TGJ3B9JQ4HD14VFPC5/publisher>;
+        schema:url                      <https://news.usja.net/december-2022-january-2023-promotion-board-cre-committee-news/>;
+        martialis:accessed              "2026-11-27";
+        martialis:earliestYear          2023;
+        martialis:latestYear            2023;
+        martialis:sourceClassification  srcclass:original;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/roster>;
+        martialis:sourceType            "webpage" .
+
 <https://martial.is/entity/01KY52HE4628AVQ4ZKY5J65PD4/hasContributor/0>
         rdf:type                   martialis:Contributor;
         schema:familyName          "Callan";
@@ -211511,6 +211854,13 @@ dcterms:RightsStatement
 <https://martial.is/entity/01M3YH7N5GKRVZCBX3RZ8MWVHW/validDuring>
         rdf:type             martialis:TimeInterval;
         martialis:startYear  1989 .
+
+<https://martial.is/entity/01M8EYTMF3DS7EJ39WANDC5BYA/hasContributor/0>
+        rdf:type                     martialis:Contributor;
+        schema:familyName            "Morotti";
+        schema:givenName             "Philippe";
+        martialis:contributorPerson  <https://martial.is/entity/01M8EYTMF3J9W8V3KVEHNZH4HV>;
+        martialis:contributorRole    "guest" .
 
 <https://martial.is/entity/01M61REWPVHBPNPP179Y45GJWX/deathEvent/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -215511,6 +215861,12 @@ dcterms:RightsStatement
         schema:familyName          "Farkas";
         schema:givenName           "Emil";
         martialis:contributorRole  "author" .
+
+<https://martial.is/entity/01M8EYTMF3J9W8V3KVEHNZH4HV/birthEvent/birthPlace>
+        rdf:type               martialis:GeoRef;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/SWE>;
+        schema:name            "Stockholm";
+        schema:sameAs          <http://www.wikidata.org/entity/Q1754> .
 
 <https://martial.is/entity/01M5CCAS69X3466MW90TE1X95K/publisher>
         rdf:type                martialis:Publisher;
@@ -220301,6 +220657,15 @@ dcterms:identifier  rdf:type  owl:AnnotationProperty .
         martialis:quotation        "Began training in Shinto Muso-ryu jo under menkyo kaiden Phil Relnick in 1991; she is now menkyo kaiden and also holds Zen Nihon Kendo Renmei jodo 3rd dan, and Jodo Federation of the U.S. 2nd dan.";
         martialis:supports         true .
 
+<https://martial.is/entity/01M8EYTMF3M5T0M4B9PW22XH92>
+        rdf:type                      martialis:InstructorRole;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M8EZQ0B77BNTVTWEN40Q04BW>;
+        martialis:hasConfidence       <https://martial.is/entity/01M8EYTMF3M5T0M4B9PW22XH92/hasConfidence>;
+        martialis:hasEvidence         <https://martial.is/entity/01M8EYTMF3M5T0M4B9PW22XH92/hasEvidence/0>;
+        martialis:instructor          <https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH>;
+        martialis:instructorCapacity  <https://w3id.org/martialis/vocab/instructor-capacity/instructor>;
+        martialis:instructorPeriod    <https://martial.is/entity/01M8EYTMF3M5T0M4B9PW22XH92/instructorPeriod> .
+
 <https://martial.is/entity/01KYJ80JXEQSD15B58MJM76PM3/birthEvent/birthPlace>
         rdf:type               martialis:GeoRef;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/CHN>;
@@ -221424,6 +221789,13 @@ dcterms:identifier  rdf:type  owl:AnnotationProperty .
         rdf:type                    martialis:Photo;
         schema:contentUrl           <https://onlinejua.org/wp-content/uploads/2025/04/s7.jpg>;
         martialis:imageAttribution  <https://martial.is/entity/01M7Q2SSTB6XWX5ZP41RRKRGY0/logo/imageAttribution> .
+
+<https://martial.is/entity/01M8F098TGFRXS8TJ6EDS99TN9/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:confirmed;
+        martialis:confidenceRationale  "The USJA lists Morotti, Hollywood Judo, among its January 2023 dan promotions as rokudan (USJA news, 2023). Conferrer's own list, so confirmed." .
 
 <https://martial.is/entity/01KYS8C0AFDCCVD9SFTADQ7ST2/hasContributor/0>
         rdf:type                   martialis:Contributor;

@@ -1,0 +1,53 @@
+type: Place
+id: 01M8EYTMF3K5BWFMTNRJSG51CQ
+name:
+  en: Racing Club de France
+placeType: placeclass:club
+hasSite:
+  - location:
+      label: Paris
+      countryCode: eucountry:FRA
+      wikidata: wd:Q90
+hasInstructorRole:
+  - id: 01M8EYTMF3M5T0M4B9PW22XH92
+    instructor: 01M8CRJFWS10SYJFMZ8PHX9RAH
+    instructorCapacity: instrcap:instructor
+    instructorPeriod:
+      startYear: 1984
+      endYear: 1989
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        A profile of Philippe Morotti places him at the club "période
+        Neil Adams" (L’Esprit du Judo, 2025). Period is an informed
+        guess: Adams had no coaching role in September 1983 (Judo),
+        and Morotti moved to the USA in 1989. 
+        Probable.
+    hasEvidence:
+      - basedOnSource: 01M8EZQ0B77BNTVTWEN40Q04BW
+        locator: '82'
+        locatorLabel: page
+        quotation: >-
+          passé par le Racing Club de France période Neil Adams
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+sameAs:
+  - wd:Q462315
+description:
+  en: >-
+    Multi-sport club in Paris, founded in 1882, with a judo section.
+notes: >-
+  Judo section's premises and founding date not checked.
+hasEvidence:
+  - basedOnSource: 01M8EZQ0B77BNTVTWEN40Q04BW
+    locator: '82'
+    locatorLabel: page
+    quotation: >-
+      passé par le Racing Club de France période Neil Adams
+    informationType: infotype:secondary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo
