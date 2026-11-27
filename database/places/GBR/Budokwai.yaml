@@ -173,8 +173,27 @@ hasInstructorRole:
       confidenceRationale: >-
         The Legacy site gives the 1968 start; the BJA and Guardian obituaries
         confirm the role. No source dates its end, when he left for the
-        London Judo Society.
+        London Judo Society. Judo (December 1977, September 1983) still has
+        him teaching there.
     hasEvidence:
+      - basedOnSource: 01M8EWHQFPK1A0MC7AQG0XH5QJ
+        locator: '6'
+        locatorLabel: page
+        quotation: >-
+          The Club's judo teaching panel now consists of Charles Palmer 7th
+          Dan, Syd Hoare 5th Dan
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:indirect
+      - basedOnSource: 01M8EW1KJAAAX63FVBN1AH4FR2
+        locator: '20'
+        locatorLabel: page
+        quotation: >-
+          Being assisted by Katsuhiko Kashiwazaki, Tony Sweeney and Sid Hoare
+          at the Budokwai.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
       - basedOnSource: 01M7TD2BTKD126JAB143XK9KFV
         quotation: >-
           He retired from active competition in 1968 and was appointed Chief
@@ -229,6 +248,100 @@ hasInstructorRole:
         evidenceType: evidencetype:indirect
       - basedOnSource: 01M7TEQ5WT9EBK6K06SEAG4BQF
         quotation: On returning to the UK in 1961
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:indirect
+  - id: 01M8EXRFW7D766ADC6Y0W3W745
+    instructor: 01M7TD2BTKJJ2GGAE0P4YD180N
+    instructorCapacity: instrcap:instructor
+    instructorStyle: 01KJJAWN29MA64W22606R3WD9B
+    instructorPeriod:
+      startYear: 1965
+      endYear: 1968
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The Budokwai's own Judo Bulletin (April 1965) counts him among the
+        Budokwai instructors. Club's own account, so confirmed. The start
+        year is this issue; the end year is his appointment as chief
+        instructor in 1968.
+    hasEvidence:
+      - basedOnSource: 01M8EWHQFPSN4JESVMEJD0X8NK
+        locator: '14'
+        locatorLabel: page
+        quotation: Sydney Hoare, Tony Sweeney and other Budokwai Instructors.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M8EWHQFP3FD2N78ZCYJBRWTG
+    instructor: 01M8EW1KJA7MMBCSQ85PMBQRJT
+    instructorCapacity: instrcap:instructor
+    instructorStyle: 01KJJAWN29MA64W22606R3WD9B
+    instructorPeriod:
+      startYear: 1965
+    hasConfidence:
+      confidenceLevel: conflevel:confirmed
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The Budokwai's own Judo Bulletin (April 1965) counts him among the
+        Budokwai instructors, and the club's report in Judo (December 1977)
+        lists him on its teaching panel. Club's own account, so confirmed.
+        The start year is the earliest of these; no source dates an end.
+    hasEvidence:
+      - basedOnSource: 01M8EWHQFPSN4JESVMEJD0X8NK
+        locator: '14'
+        locatorLabel: page
+        quotation: Sydney Hoare, Tony Sweeney and other Budokwai Instructors.
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M8EWHQFPK1A0MC7AQG0XH5QJ
+        locator: '6'
+        locatorLabel: page
+        quotation: >-
+          The Club's judo teaching panel now consists of Charles Palmer 7th
+          Dan, Syd Hoare 5th Dan, Tony Sweeney 5th Dan
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - id: 01M8EWHQFPYZEE6FPQC34H59FY
+    instructor: 01M8EW1KJA7EPH8MQPR48WE5QF
+    instructorCapacity: instrcap:instructor
+    instructorStyle: 01KJJAWN29MA64W22606R3WD9B
+    instructorPeriod:
+      startYear: 1982
+      endYear: 1984
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        The Budokwai's history page has him arrive in 1982, and Judo
+        (September 1983) has him assisting Neil Adams there. Japanese
+        Wikipedia gives a year of study in Britain from 1983 and teaching at
+        the International Budo University from 1984, which gives the end
+        year. The sources differ on the start, so probable.
+    hasEvidence:
+      - basedOnSource: 01M7T5671EVY07Q736BHPBADNW
+        quotation: >-
+          After Kisaburo Watanabe had left the club in 1966, there was a gap
+          until Katsuhiko Kashiwazaki, the 1981 world featherweight champion,
+          arrived in 1982
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M8EW1KJAAAX63FVBN1AH4FR2
+        locator: '20'
+        locatorLabel: page
+        quotation: >-
+          Being assisted by Katsuhiko Kashiwazaki, Tony Sweeney and Sid Hoare
+          at the Budokwai.
+        informationType: infotype:secondary
+        supports: true
+        evidenceType: evidencetype:direct
+      - basedOnSource: 01M8EWHQFPE9YTHSKT0YM93JG9
+        quotation: >-
+          その後1年間、文部省派遣によるイギリス留学を経験し、1984年からは国際武道大学で後進の指導に当たる
         informationType: infotype:secondary
         supports: true
         evidenceType: evidencetype:indirect

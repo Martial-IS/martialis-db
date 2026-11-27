@@ -1,0 +1,91 @@
+type: Place
+id: 01M8CRT1PWDR4X7C5MYAJZFE0N
+name:
+  en: Coventry Judo Club
+placeType: placeclass:club
+hasSite:
+  - location:
+      label: Coventry
+      countryCode: eucountry:GBR
+      wikidata: wd:Q6225
+    address: Hereward College Sports Centre, Bramston Crescent, Coventry, CV4 9SW
+    sitePeriod:
+      endYear: 2021
+    notes: >-
+      Last shown on the club's training-times page in October 2021; the
+      homepage announces the move by January 2022.
+    hasEvidence:
+      - basedOnSource: 01M8ERRT3252WC253H9GCX1CD2
+        quotation: >-
+          Hereward College Sports Centre Bramston Crescent Coventry CV4 9SW
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+  - location:
+      label: Ryton-on-Dunsmore
+      countryCode: eucountry:GBR
+      geo:
+        latitude: 52.358417
+        longitude: -1.43789
+    address: Sports Connexion, Leamington Road, Ryton On Dunsmore, Coventry, CV8 3FL
+    sitePeriod:
+      startYear: 2021
+    notes: >-
+      Move between October 2021 (Hereward College still listed) and January
+      2022 (homepage announces the move).
+    hasEvidence:
+      - basedOnSource: 01M8ERRT32506B8ZJG9HY31HYH
+        quotation: >-
+          We have moved, our new home is: Sports Connexion, Leamington Road,
+          Ryton On Dunsmore, Coventry, CV8 3FL
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+website: https://coventryjudo.com/
+logo:
+  contentUrl: https://coventryjudo.com/assets/logo.png
+  imageAttribution:
+    uri: https://coventryjudo.com/
+    cite: Coventry Judo Club
+hasInstructorRole:
+  - id: 01M8CRT1PWD9VN3P24GBDWRG1C
+    instructor: 01M8CRJFWS66QSZ6YD63XXYQYJ
+    instructorCapacity: instrcap:head_instructor
+    hasConfidence:
+      confidenceLevel: conflevel:probable
+      assessedBy: agent:FSM
+      confidenceRationale: >-
+        Neil Adams says his father was in charge of the Coventry club, with
+        Cyril present (Neil Adams MBE - The Podcast, episode 5, 2019). No
+        dates and no club record, so probable.
+    hasEvidence:
+      - basedOnSource: 01M8CRJFWSXWRWZ7MMEARCAVMR
+        locator: '22:00'
+        locatorLabel: timestamp
+        quotation: >-
+          Dad was in charge of the Midland area, not only Coventry Club but the
+          Midland area team
+        informationType: infotype:primary
+        supports: true
+        evidenceType: evidencetype:direct
+description:
+  en: >-
+    Judo club in Coventry, England, where (amongst others) Neil Adams
+    trained from childhood, as well as Chelsie Giles.
+notes: >-
+  Founding date and premises unknown. Coventry Telegraph, "Coventry judo club
+  hails three" (paywalled), names patron Neil Adams (joined 1966), chairman
+  Adrian Holt and treasurer Bruce Newcombe (both joined 1964). The Coventry
+  Observer (2014) places the club at Hereward College Sports Centre.
+hasEvidence:
+  - basedOnSource: 01M8CRJFWSFTV4FRR5PSZW8XQ8
+    locator: '3:28'
+    locatorLabel: timestamp
+    quotation: >-
+      and it was just a year doing it at this little club and then I moved from
+      there to Coventry Judo club which was my home then for many years
+    informationType: infotype:primary
+    supports: true
+    evidenceType: evidencetype:direct
+tags:
+  - judo

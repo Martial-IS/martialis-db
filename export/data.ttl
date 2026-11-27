@@ -186,6 +186,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/CHN>;
         schema:sameAs          <http://www.wikidata.org/entity/Q148> .
 
+<https://martial.is/entity/01M8EP810RMTKNSEANWFQDCQXD/hasContributor/0>
+        rdf:type                   martialis:Contributor;
+        schema:familyName          "Pickering";
+        schema:givenName           "Mark";
+        martialis:contributorRole  "author" .
+
 <https://martial.is/entity/01M6BQSYG6M9MZT8K9QHZ96Q6J/hasSite/0>
         rdf:type         martialis:Site;
         schema:location  <https://martial.is/entity/01M6BQSYG6M9MZT8K9QHZ96Q6J/hasSite/0/location> .
@@ -5292,6 +5298,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
 
+<https://martial.is/entity/01M7TD2BTK7V8N9B4R6BRXXB9C/hasEvidence/3>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TD2BTK4FKFAC10N1X7Z7E9>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "After retiring from competition he became the manager and chief instructor at the Budokwai.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3YH7N5GFJZABDVWAKVFGPM1/hasConfidence>
         rdf:type                       martialis:Confidence;
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
@@ -5485,6 +5499,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:confirmed;
         martialis:confidenceRationale  "The EJU's own member-federation page and the IJF member page both state it. No year of admission given." .
+
+<https://martial.is/entity/01M8EP810RMTKNSEANWFQDCQXD/publisher>
+        rdf:type                martialis:Publisher;
+        schema:name             "International Judo Federation";
+        martialis:publisherOrg  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD83> .
 
 <https://martial.is/entity/01KZ4CF8P1QAG58XJWH4S8AZMK/foundedEvent>
         rdf:type                martialis:FoundingEvent;
@@ -5843,6 +5862,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:quotation        "Ohba Hideo, 1911–1986";
         martialis:sourceLocation   "641";
         martialis:supports         true .
+
+<https://martial.is/entity/01M8CRJFWSPCWQKKPP39PY6YBX/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "YouTube (Lex Fridman)" .
 
 <https://martial.is/entity/01M0TVMGJVP7A46XX9P8WFSBTY/hasContributor/0>
         rdf:type                   martialis:Contributor;
@@ -6444,6 +6467,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:confidenceLevel      conflevel:confirmed;
         martialis:confidenceRationale  "Two independent histories state it." .
 
+<https://martial.is/entity/01M8CRJFWSFTV4FRR5PSZW8XQ8/hasContributor/0>
+        rdf:type                     martialis:Contributor;
+        schema:familyName            "Adams";
+        schema:givenName             "Neil";
+        martialis:contributorPerson  <https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH>;
+        martialis:contributorRole    "guest" .
+
 <https://martial.is/entity/01M7DPSDB4GR6VMXZC6WC8S49J>
         rdf:type                  martialis:TeacherAssertion;
         martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9T>;
@@ -6604,6 +6634,23 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:sourceLocation      "192";
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
+
+<https://martial.is/entity/01M8EWHQFPE9YTHSKT0YM93JG9>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://ja.wikipedia.org/w/index.php?title=%E6%9F%8F%E5%B4%8E%E5%85%8B%E5%BD%A6&oldid=107163582>;
+        schema:description              "Japanese Wikipedia article on Kashiwazaki Katsuhiko, 1981 world champion: career, a year of study in Britain, and teaching at the International Budo University from 1984."@en;
+        schema:inLanguage               "ja";
+        schema:keywords                 "wikipedia-ja";
+        schema:keywords                 "judo";
+        schema:name                     "柏崎克彦";
+        schema:publisher                <https://martial.is/entity/01M8EWHQFPE9YTHSKT0YM93JG9/publisher>;
+        schema:url                      <https://ja.wikipedia.org/wiki/%E6%9F%8F%E5%B4%8E%E5%85%8B%E5%BD%A6>;
+        martialis:accessed              "2026-11-27";
+        martialis:archiveDate           "2025-11-09";
+        martialis:partOf                <https://martial.is/entity/01M0DAPE2TRR4PSK6ZDQSAJ09G>;
+        martialis:peerReview            <https://w3id.org/martialis/vocab/peer-review/not_peer_reviewed>;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceType            "entry-encyclopedia" .
 
 <https://martial.is/entity/01KZXQZVTSHG6TM5KZVM2R1AE0/publisher>
         rdf:type     martialis:Publisher;
@@ -9040,6 +9087,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         schema:name            "Stockton, California";
         schema:sameAs          <http://www.wikidata.org/entity/Q49240> .
 
+<https://martial.is/entity/01M8CRJFWSXWRWZ7MMEARCAVMR/hasContributor/3>
+        rdf:type                   martialis:Contributor;
+        schema:familyName          "Adams";
+        schema:givenName           "Ashley";
+        martialis:contributorRole  "guest" .
+
 <https://martial.is/entity/01M3YH7N5GCKQKWHPJGBYMA41N/hasConfidence>
         rdf:type                       martialis:Confidence;
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
@@ -9173,6 +9226,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Own account only; two kata, at Funakoshi's request." .
 
+<https://martial.is/entity/01M8CRJFWSHNAK2AWZ6HSRBDBX/hasInteraction/0>
+        rdf:type                     martialis:TeacherInteraction;
+        prov:hadPrimarySource        <https://martial.is/entity/01M8CRJFWSFTV4FRR5PSZW8XQ8>;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M8CRJFWSFTV4FRR5PSZW8XQ8>;
+        martialis:hasEvidence        <https://martial.is/entity/01M8CRJFWSHNAK2AWZ6HSRBDBX/hasInteraction/0/hasEvidence/1>;
+        martialis:hasEvidence        <https://martial.is/entity/01M8CRJFWSHNAK2AWZ6HSRBDBX/hasInteraction/0/hasEvidence/0>;
+        martialis:interactionPeriod  <https://martial.is/entity/01M8CRJFWSHNAK2AWZ6HSRBDBX/hasInteraction/0/interactionPeriod> .
+
 <https://martial.is/entity/01KZ7CTR70NYWE9R756R7NHFBE/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Shotokai Encyclopedia & Japanese Martial Arts" .
@@ -9226,6 +9287,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://martial.is/entity/01KZ4SHV06375TDMNGKXZ2XTTM/hasSite/0>
         rdf:type         martialis:Site;
         schema:location  <https://martial.is/entity/01KZ4SHV06375TDMNGKXZ2XTTM/hasSite/0/location> .
+
+<https://martial.is/entity/01M8EW1KJA9802AQ1T6VYRKN7G/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Judo Ltd" .
 
 <https://martial.is/entity/01M5KQTRGXEGGXPNKW6XTWVCJ0/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -9711,8 +9776,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         void:classPartition   <https://martial.is/data.ttl#dataset/class/Organization>;
         void:classPartition   <https://martial.is/data.ttl#dataset/class/Event>;
         void:dataDump         <https://martial.is/data.ttl>;
-        void:entities         3068;
-        void:triples          171072;
+        void:entities         3096;
+        void:triples          172293;
         void:uriSpace         "https://martial.is/entity/";
         void:vocabulary       <http://purl.org/ontology/bibo/>;
         void:vocabulary       prov:;
@@ -10036,6 +10101,25 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "The Aikido Journal encyclopedia gives the grade, the Japan Aikido Association and the year; Aikido Journal (2004) and Geis's résumé confirm the grade only." .
+
+<https://martial.is/entity/01M8EP810RMTKNSEANWFQDCQXD>
+        rdf:type                        martialis:Source;
+        schema:datePublished            "2019-02-10";
+        schema:description              "IJF news report that Neil Adams received his 9th dan from IJF President Marius Vizer at the AccorHotels Arena, Paris."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "judo";
+        schema:name                     "Neil Adams Awarded 9th Dan";
+        schema:publisher                <https://martial.is/entity/01M8EP810RMTKNSEANWFQDCQXD/publisher>;
+        schema:url                      <https://ijf.org/news/neil-adams-awarded-9th-dan>;
+        martialis:accessed              "2026-11-27";
+        martialis:earliestYear          2019;
+        martialis:hasContributor        <https://martial.is/entity/01M8EP810RMTKNSEANWFQDCQXD/hasContributor/0>;
+        martialis:latestYear            2019;
+        martialis:partOf                <https://martial.is/entity/01M64QW2FN6PG9PRA7YFFTKEZG>;
+        martialis:peerReview            <https://w3id.org/martialis/vocab/peer-review/not_peer_reviewed>;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/news>;
+        martialis:sourceType            "article" .
 
 <https://martial.is/entity/01M5HPEDHZG6ZKJ2BP8P752V17/hasInteraction/0/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -11734,6 +11818,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         rdf:type     martialis:Publisher;
         schema:name  "Wikimedia Foundation" .
 
+<https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N/logo/imageAttribution>
+        rdf:type         martialis:Attribution;
+        schema:citation  "Coventry Judo Club";
+        schema:url       <https://coventryjudo.com/> .
+
 <https://martial.is/entity/01M3YH7N5GZ6X2P1FZY4WQXK7V>
         rdf:type                 martialis:RankAssertion;
         prov:wasDerivedFrom      <https://martial.is/entity/01KZEK9QGV238ASWT02WDFS5AF>;
@@ -12445,6 +12534,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://martial.is/entity/01KYYVEV2M5BKEG0J9SBGDXY3S/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Wikimedia Foundation" .
+
+<https://martial.is/entity/01M8CRJFWSXWRWZ7MMEARCAVMR/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Stuart Williams Podcasts (Spreaker)" .
 
 <https://martial.is/entity/01M31VKGQF6DEE20PS7GXE8GET/deathEvent/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -14515,6 +14608,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
         schema:name            "Japan" .
 
+<https://martial.is/entity/01M8CRJFWSXWRWZ7MMEARCAVMR/hasContributor/2>
+        rdf:type                     martialis:Contributor;
+        schema:familyName            "Adams";
+        schema:givenName             "Cyril";
+        martialis:contributorPerson  <https://martial.is/entity/01M8CRJFWS66QSZ6YD63XXYQYJ>;
+        martialis:contributorRole    "guest" .
+
 <https://martial.is/entity/01M0AAFQFVW0M9K10ERYBCKH8H/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M0AAFQFND6CHJRV86M77JVWD>;
@@ -15376,6 +15476,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         martialis:informationType  infotype:secondary;
         martialis:quotation        "1978 Iaido Hanshi";
         martialis:supports         true .
+
+<https://martial.is/entity/01M8CRJFWSVKAZVRPQ5GTM52CB/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:confirmed;
+        martialis:confidenceRationale  "Adams explicitly calls his father Cyril his first coach up to age 16 and says Cyril was in charge of the Coventry club, in a conversation with Cyril that both take part in (Neil Adams MBE - The Podcast, episode 5, 2019). Confirmed (both say it)." .
 
 <https://martial.is/entity/01M5JSGG50YNQ9S1PV7P6EWNAE/publisher>
         rdf:type     martialis:Publisher;
@@ -16526,6 +16633,14 @@ void:class  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "Born [...] Bolton, England, United Kingdom";
         martialis:supports         true .
+
+<https://martial.is/entity/01M8CRJFWSVKAZVRPQ5GTM52CB>
+        rdf:type                  martialis:TeacherAssertion;
+        martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B>;
+        martialis:hasConfidence   <https://martial.is/entity/01M8CRJFWSVKAZVRPQ5GTM52CB/hasConfidence>;
+        martialis:hasInteraction  <https://martial.is/entity/01M8CRJFWSVKAZVRPQ5GTM52CB/hasInteraction/0>;
+        martialis:role            <https://w3id.org/martialis/vocab/teacher-role/coach>;
+        martialis:teacher         <https://martial.is/entity/01M8CRJFWS66QSZ6YD63XXYQYJ> .
 
 <https://martial.is/entity/01M3YH7N5GQ8YMTN7TBW2Y9J6Y/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -18279,6 +18394,10 @@ void:class  rdf:type  owl:ObjectProperty .
         martialis:wasTaughtBy          <https://martial.is/entity/01M0BCX1Y3RBG7X8VRJDME7PZZ>;
         martialis:wasTaughtBy          <https://martial.is/entity/01M0BCX1Y7TXFGSE8BHXPP07BZ> .
 
+<https://martial.is/entity/01M8CRJFWSF873DB6WP3VQ8R9R/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Wikimedia Foundation" .
+
 <https://martial.is/entity/01M3YH7N5GRYX99T44XHPFZV47/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KYHTJXCX78N87QTDNQ0B7TE8>;
@@ -18412,6 +18531,22 @@ void:class  rdf:type  owl:ObjectProperty .
         martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/biography>;
         martialis:sourceType            "entry-encyclopedia" .
 
+<https://martial.is/entity/01M8ETAC2MW2A1C8TYS5RPRYCS>
+        rdf:type                        martialis:Source;
+        <http://purl.org/ontology/bibo/issue>  "11";
+        schema:datePublished            "1981-06";
+        schema:description              "Issue 11 of the British magazine Judo, with a special report on the British Open, including a photograph of Cyril Adams on page 6."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "magazine";
+        schema:keywords                 "judo";
+        schema:name                     "Judo, No. 11, June 1981";
+        schema:publisher                <https://martial.is/entity/01M8ETAC2MW2A1C8TYS5RPRYCS/publisher>;
+        martialis:earliestYear          1981;
+        martialis:latestYear            1981;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/news>;
+        martialis:sourceType            "article" .
+
 <https://martial.is/entity/01M6BFF6ZQX1BX3F99NQD6J449>
         rdf:type                  martialis:TraditionOnlyAssertion;
         rdf:type                  martialis:TeacherAssertion;
@@ -18503,6 +18638,10 @@ void:class  rdf:type  owl:ObjectProperty .
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/biography>;
         martialis:sourceType            "webpage" .
+
+<https://martial.is/entity/01M8CRJFWS067MG1ME54J7ZA5T/hasInteraction/0/interactionPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:startYear  1974 .
 
 <https://martial.is/entity/01M3YH7N5G6ENDN5JAGJDHTC2X/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -19687,6 +19826,27 @@ void:class  rdf:type  owl:ObjectProperty .
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:primary;
         martialis:supports         true .
+
+<https://martial.is/entity/01M8CRJFWSXWRWZ7MMEARCAVMR>
+        rdf:type                        martialis:Source;
+        schema:datePublished            "2019-01-01";
+        schema:description              "Episode 5 of Neil Adams MBE - The Podcast: Neil Adams with his father Cyril and his son Ashley, recorded before Christmas 2018."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "podcast";
+        schema:keywords                 "judo";
+        schema:name                     "The Cyril, Ashley and Neil One.";
+        schema:publisher                <https://martial.is/entity/01M8CRJFWSXWRWZ7MMEARCAVMR/publisher>;
+        schema:url                      <https://www.spreaker.com/episode/the-cyril-ashley-and-neil-one--16600649>;
+        martialis:accessed              "2026-11-26";
+        martialis:earliestYear          2019;
+        martialis:hasContributor        <https://martial.is/entity/01M8CRJFWSXWRWZ7MMEARCAVMR/hasContributor/3>;
+        martialis:hasContributor        <https://martial.is/entity/01M8CRJFWSXWRWZ7MMEARCAVMR/hasContributor/2>;
+        martialis:hasContributor        <https://martial.is/entity/01M8CRJFWSXWRWZ7MMEARCAVMR/hasContributor/1>;
+        martialis:hasContributor        <https://martial.is/entity/01M8CRJFWSXWRWZ7MMEARCAVMR/hasContributor/0>;
+        martialis:latestYear            2019;
+        martialis:sourceClassification  srcclass:original;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/interview>;
+        martialis:sourceType            "broadcast" .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1VD/deathEvent>
         rdf:type                martialis:DeathEvent;
@@ -21507,6 +21667,16 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:basedOnSource    <https://martial.is/entity/01M7TD2BTKD126JAB143XK9KFV>;
         martialis:informationType  infotype:secondary .
 
+<https://martial.is/entity/01M8CRJFWS067MG1ME54J7ZA5T/hasInteraction/0>
+        rdf:type                     martialis:TeacherInteraction;
+        prov:hadPrimarySource        <https://martial.is/entity/01M8CRJFWSQVNQG7Z1DBJ8Y905>;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M8EW1KJA9802AQ1T6VYRKN7G>;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M8CRJFWSQVNQG7Z1DBJ8Y905>;
+        martialis:hasEvidence        <https://martial.is/entity/01M8CRJFWS067MG1ME54J7ZA5T/hasInteraction/0/hasEvidence/0>;
+        martialis:hasEvidence        <https://martial.is/entity/01M8CRJFWS067MG1ME54J7ZA5T/hasInteraction/0/hasEvidence/1>;
+        martialis:interactionPeriod  <https://martial.is/entity/01M8CRJFWS067MG1ME54J7ZA5T/hasInteraction/0/interactionPeriod>;
+        martialis:interactionPlace   <https://martial.is/entity/01KY52HE49EXT0704VAEYG0W59> .
+
 <https://martial.is/entity/01M3YH7N5GHKY3C0ZVA3R6W9QB/hasInteraction/0/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M0TVMGJVP7A46XX9P8WFSBV1>;
@@ -23313,6 +23483,10 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:imageAttribution  <https://martial.is/entity/01M5JSGG50X0VB9HTRZRKJBYVM/image/imageAttribution>;
         martialis:mediaRights       <https://w3id.org/martialis/vocab/media-rights/public_domain_mark> .
 
+<https://martial.is/entity/01M8CRJFWSQVNQG7Z1DBJ8Y905/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "YouTube (American Judo)" .
+
 <https://martial.is/entity/01M3YH7N5G2FAH47KHN1XXN538>
         rdf:type                 martialis:RankAssertion;
         prov:wasDerivedFrom      <https://martial.is/entity/01KZM518KZFC3R1B9VVFS90HBF>;
@@ -23878,6 +24052,13 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:rankStyle      <https://martial.is/entity/01M2Z6TY1PAVSCX84EDH540ZNN>;
         martialis:rankSystem     <https://martial.is/entity/01M11K25NF0E7HG8HWVWM2P3FJ> .
 
+<https://martial.is/entity/01M8EW1KJAV75HDCSGAY88C9QB/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "Adams's profile in Judo, September 1983, says he has no coach as such and is assisted by Kashiwazaki, Sweeney and Hoare at the Budokwai. Adams's side only, so probable." .
+
 <https://martial.is/entity/01M6EF8Y2KBW5P717GWGYW7S5Q/hasInteraction/0>
         rdf:type                     martialis:TeacherInteraction;
         prov:wasDerivedFrom          <https://martial.is/entity/01M6EF6KKAK59JDZD4NRTBMSWQ>;
@@ -23894,6 +24075,14 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         schema:citation            "Jesse S. Jones of Jesse S Jones Photography, Wikimedia Commons";
         schema:url                 <https://commons.wikimedia.org/wiki/File:William_Cheung_2011.jpg>;
         martialis:informationType  infotype:secondary .
+
+<https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH/birthEvent/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M8CRJFWSF873DB6WP3VQ8R9R>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "(27 September 1958) is an English judoka";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M5JCH27M2TX46ENW7P9VMJ3H/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -26076,6 +26265,13 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         schema:contentUrl           <https://www.youtube.com/watch?v=cynkiERCHNY>;
         martialis:imageAttribution  <https://martial.is/entity/01KZ1Y9KD17BV1V0Y0PFC8S70G/videos/0/imageAttribution> .
 
+<https://martial.is/entity/01M8CRJFWSHNAK2AWZ6HSRBDBX/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "Adams names Farkas as the man who introduced him to judo at a club in Bilton, Rugby, for about a year from age seven (Raspberry Ape Podcast, 2023). The Ju Jitsu Rugby page confirms that a Master John Farkas taught in Rugby (no additional information, alas). His account, so probable is right.        " .
+
 <https://martial.is/entity/01KZGN2SVGQ5EY83829XAB3B48/hasContributor/0>
         rdf:type                   martialis:Contributor;
         schema:familyName          "Cottreau";
@@ -26776,6 +26972,12 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "To broaden his knowledge of Karate, Ōtsuka also studied with other prominent masters such as Kenwa Mabuni of Shitō-ryū and Motobu Chōki.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M8CRJFWSPCWQKKPP39PY6YBX/hasContributor/0>
+        rdf:type                   martialis:Contributor;
+        schema:familyName          "Fridman";
+        schema:givenName           "Lex";
+        martialis:contributorRole  "host" .
 
 <https://martial.is/entity/01M5HVMA1BAZ4QZH42YT0V8HTR>
         rdf:type                  martialis:TeacherAssertion;
@@ -28256,6 +28458,14 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:quotation        "Higami died in Honolulu in May 1972.";
         martialis:supports         true .
 
+<https://martial.is/entity/01M8CRJFWSSGAMFZNTV6YKP8D7/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M8CRJFWSH7G1973G6XM355TS>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Malcolm's Mother trained in Ju Jitsu with Master John Farkas, here in Rugby many years ago.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01KYSNKBS5KSZZQJRZNJ3YXS9Y/hasEvidence/3>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KYSNKBRY7A5R1KTG801VBP5G>;
@@ -29480,6 +29690,11 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Single source" .
+
+<https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH/nationality/0>
+        rdf:type               martialis:NationalityEntry;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/GBR>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q145> .
 
 <https://martial.is/entity/01M5JPY6FN12XN53MHGVXKM5JE>
         rdf:type               martialis:Person;
@@ -31011,6 +31226,16 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:hasInteraction  <https://martial.is/entity/01M5JSGG50RQFF2F4FH7BAGM7G/hasInteraction/0>;
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01M5JSGG50BY7NFE13HKVSR7DW> .
+
+<https://martial.is/entity/01M8EXRFW7D766ADC6Y0W3W745/hasEvidence/0>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8EWHQFPSN4JESVMEJD0X8NK>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:primary;
+        martialis:quotation           "Sydney Hoare, Tony Sweeney and other Budokwai Instructors.";
+        martialis:sourceLocation      "14";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
 
 <https://martial.is/entity/01M3YH7N5G9WBRT9Q59YSFP4H6/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -32590,7 +32815,10 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:hasEvidence        <https://martial.is/entity/01KY52HE49EXT0704VAEYG0W59/hasEvidence/0>;
         martialis:hasEvidence        <https://martial.is/entity/01KY52HE49EXT0704VAEYG0W59/hasEvidence/1>;
         martialis:hasEvidence        <https://martial.is/entity/01KY52HE49EXT0704VAEYG0W59/hasEvidence/2>;
+        martialis:hasInstructorRole  <https://martial.is/entity/01M8EWHQFP3FD2N78ZCYJBRWTG>;
+        martialis:hasInstructorRole  <https://martial.is/entity/01M8EWHQFPYZEE6FPQC34H59FY>;
         martialis:hasInstructorRole  <https://martial.is/entity/01M7T8V5TQAN9EQJM77WWQ3PV1>;
+        martialis:hasInstructorRole  <https://martial.is/entity/01M8EXRFW7D766ADC6Y0W3W745>;
         martialis:hasInstructorRole  <https://martial.is/entity/01M7TD2BTK7V8N9B4R6BRXXB9C>;
         martialis:hasInstructorRole  <https://martial.is/entity/01M4R9845W5DP6VA07YQPZVGB5>;
         martialis:hasInstructorRole  <https://martial.is/entity/01M7T5671E7RA9ZCCEADX2F95V>;
@@ -33201,6 +33429,16 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:endYear    1912;
         martialis:startYear  1911 .
 
+<https://martial.is/entity/01M8EW1KJAV75HDCSGAY88C9QB/hasInteraction/0/hasEvidence/0>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8EW1KJAAAX63FVBN1AH4FR2>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:secondary;
+        martialis:quotation           "Coach: None specifically now. Being assisted by Katsuhiko Kashiwazaki, Tony Sweeney and Sid Hoare at the Budokwai.";
+        martialis:sourceLocation      "20";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
+
 <https://martial.is/entity/01M3287E2AN480GTECG1036HHA/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Wikimedia Foundation" .
@@ -33469,6 +33707,13 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         prov:wasDerivedFrom          <https://martial.is/entity/01KZEK9QGV7HGNB3JK3TKK57B6>;
         martialis:hasEvidence        <https://martial.is/entity/01M3YH7N5GX29TBNMYPC1TS5KY/hasInteraction/0/hasEvidence/0>;
         martialis:interactionPeriod  <https://martial.is/entity/01M3YH7N5GX29TBNMYPC1TS5KY/hasInteraction/0/interactionPeriod> .
+
+<https://martial.is/entity/01M8CRJFWSRWV28Y5S06WS5W5W/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:confirmed;
+        martialis:confidenceRationale  "Pedro says he trained at Adams's club in Coventry from about age 16 and that Adams taught him juji gatame (Lex Fridman Podcast 236, 2021). Adams confirms Pedro came to his club (Legends of Judo, 2024). Both parties, so confirmed. Start year from Pedro's age: 16 in one source, 17 or 18 in the other." .
 
 <https://martial.is/entity/01M5HMYWG7CNDTBQNBPKEZTXPY/birthEvent>
         rdf:type                martialis:BirthEvent;
@@ -33977,6 +34222,16 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:hasInteraction  <https://martial.is/entity/01M3YH7N5G55YFME9ETMVBRS8A/hasInteraction/0>;
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1T1> .
+
+<https://martial.is/entity/01M8EWHQFP3FD2N78ZCYJBRWTG/hasEvidence/1>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8EWHQFPK1A0MC7AQG0XH5QJ>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:primary;
+        martialis:quotation           "The Club's judo teaching panel now consists of Charles Palmer 7th Dan, Syd Hoare 5th Dan, Tony Sweeney 5th Dan";
+        martialis:sourceLocation      "6";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
 
 <https://martial.is/entity/01M5CTXKSP9QV9NZWEQ9AE7VMX/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -35393,6 +35648,11 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         schema:name            "Rio de Janeiro";
         schema:sameAs          <http://www.wikidata.org/entity/Q8678> .
 
+<https://martial.is/entity/01M8CRJFWS66QSZ6YD63XXYQYJ/nationality/0>
+        rdf:type               martialis:NationalityEntry;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/GBR>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q145> .
+
 <https://martial.is/entity/01M3YH7N5G0861A7566ZK9VSTD>
         rdf:type                  martialis:TeacherAssertion;
         martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9R>;
@@ -36231,6 +36491,21 @@ void:classPartition  rdf:type  owl:ObjectProperty .
         martialis:hasInteraction  <https://martial.is/entity/01M3YH7N5GTJCBAXFWQ354EVT3/hasInteraction/0>;
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01KYMDKKCPQ8238MWJR2E17NAD> .
+
+<https://martial.is/entity/01M8EW1KJANXJS5BZZJ8SZ8R8E>
+        rdf:type                        martialis:Source;
+        schema:datePublished            "1976-11";
+        schema:description              "Issue of the British magazine Judo, with Appendix Seventeen of the BJA National Dan Grade Register on page 23."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "magazine";
+        schema:keywords                 "judo";
+        schema:name                     "Judo, November 1976";
+        schema:publisher                <https://martial.is/entity/01M8EW1KJANXJS5BZZJ8SZ8R8E/publisher>;
+        martialis:earliestYear          1976;
+        martialis:latestYear            1976;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/news>;
+        martialis:sourceType            "article" .
 
 <https://martial.is/entity/01M3YH7N5GPJ1AMBJ6H2F1M9HG/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -38478,6 +38753,29 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "Rank 9th deg. BJJ red belt";
         martialis:supports         true .
+
+<https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N/hasSite/1/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M8ERRT32506B8ZJG9HY31HYH>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "We have moved, our new home is: Sports Connexion, Leamington Road, Ryton On Dunsmore, Coventry, CV8 3FL";
+        martialis:supports         true .
+
+<https://martial.is/entity/01M8ERRT32506B8ZJG9HY31HYH>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://web.archive.org/web/20220118102925/https://www.coventryjudo.com/>;
+        schema:description              "Homepage of the Coventry Judo Club, announcing its move to Sports Connexion, Ryton-on-Dunsmore."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "judo";
+        schema:name                     "Coventry Judo Club";
+        schema:publisher                <https://martial.is/entity/01M8ERRT32506B8ZJG9HY31HYH/publisher>;
+        schema:url                      <https://www.coventryjudo.com/>;
+        martialis:accessed              "2026-11-27";
+        martialis:archiveDate           "2022-01-18";
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/promotional>;
+        martialis:sourceType            "webpage" .
 
 <https://martial.is/entity/01M69YKDH9B3P3MZBTAB5YPM6F/hasInteraction/1>
         rdf:type                     martialis:TeacherInteraction;
@@ -41418,6 +41716,14 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
         martialis:rankSystem     <https://martial.is/entity/01M11K25NF0E7HG8HWVWM2P3FG>;
         martialis:rankType       <https://w3id.org/martialis/vocab/rank-type/dan_unspecified> .
 
+<https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N/hasSite/0/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M8ERRT3252WC253H9GCX1CD2>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "Hereward College Sports Centre Bramston Crescent Coventry CV4 9SW";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M2Z6TY1P25CQ9YJJM432S4DN>
         rdf:type                        martialis:Source;
         schema:alternateName            "門奈正";
@@ -41819,6 +42125,14 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "De Crée (2024, p. 130, note 1) gives him as Kōdōkan 7th dan. No date. Single secondary source." .
+
+<https://martial.is/entity/01M8EW1KJAHW7Q8AGHYPS3N6JB>
+        rdf:type                  martialis:TeacherAssertion;
+        martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B>;
+        martialis:hasConfidence   <https://martial.is/entity/01M8EW1KJAHW7Q8AGHYPS3N6JB/hasConfidence>;
+        martialis:hasInteraction  <https://martial.is/entity/01M8EW1KJAHW7Q8AGHYPS3N6JB/hasInteraction/0>;
+        martialis:role            <https://w3id.org/martialis/vocab/teacher-role/coach>;
+        martialis:teacher         <https://martial.is/entity/01M8EW1KJA7EPH8MQPR48WE5QF> .
 
 <https://martial.is/entity/01M5H3PSF4AQKMM38JPWXKJPB1/hasInteraction/0/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -43066,6 +43380,14 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Single kenshi247 article." .
 
+<https://martial.is/entity/01M8CRJFWSQ2J1D1TTT7MZXSAP/hasEvidence/1>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M8EP810RMTKNSEANWFQDCQXD>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "Neil ADAMS [...] was awarded his 9th Dan in the AccorHotels Arena from the IJF President Mr. Marius L. VIZER";
+        martialis:supports         true .
+
 <https://martial.is/entity/01KZ3W7W01C1ADJXE2TW4EBXT5/hasEvidence/4>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KZ3QDN0Y5ZTXZM44QHMYMRCD>;
@@ -43581,6 +43903,14 @@ dcat:downloadURL  rdf:type  owl:ObjectProperty .
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/history>;
         martialis:sourceType            "webpage" .
+
+<https://martial.is/entity/01M7TD2BTK7V8N9B4R6BRXXB9C/hasEvidence/4>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TD2BTKGP6SQFTYEE8D849N>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "On retiring from competition he was appointed chief instructor at the Budokwai";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M4R9845WMXFNH72N6S2HM2TY>
         rdf:type                      martialis:InstructorRole;
@@ -48125,6 +48455,10 @@ dcat:landingPage  rdf:type  owl:ObjectProperty .
         prov:wasDerivedFrom    <https://martial.is/entity/01KZXH2NSQ19J367PZE6QM7E63>;
         martialis:hasEvidence  <https://martial.is/entity/01M3YH7N5GJVJ5CR9VMY5FBM9G/hasInteraction/0/hasEvidence/0> .
 
+<https://martial.is/entity/01M8EW1KJAJH9N9KBSNHNKDZYN/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Judo Ltd" .
+
 <https://martial.is/entity/01M6BHSAXWNC0J7ZZ2BJ11NV43/image/imageAttribution>
         rdf:type                   martialis:Attribution;
         schema:citation            "Utagawa Kuniyoshi (歌川国芳), Wikimedia Commons";
@@ -48913,6 +49247,16 @@ dcat:landingPage  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "Another student of Chinen's, Chōgi Kishaba and his student Toshihiro Ōshiro also privately practised Yamani Ryu katas.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M8CRJFWSRWV28Y5S06WS5W5W/hasInteraction/0/hasEvidence/1>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8CRJFWSPCWQKKPP39PY6YBX>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:primary;
+        martialis:quotation           "I said I want to go learn from Neil and I ended up going to to England probably eight to ten times in my career";
+        martialis:sourceLocation      "45:15-45:40";
+        martialis:sourceLocatorLabel  "timestamp";
+        martialis:supports            true .
 
 <https://martial.is/entity/01M5JRHX024QXCGWZYKC82GA3W/hasEvidence/3>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -49707,6 +50051,14 @@ dcat:landingPage  rdf:type  owl:ObjectProperty .
         martialis:hasInteraction  <https://martial.is/entity/01M5HNGWYJ52SP9FBQECPTE9WN/hasInteraction/0>;
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01M5HNGWYJKNBH3DYT18G4CAPY> .
+
+<https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N/hasSite/1>
+        rdf:type               martialis:Site;
+        prov:wasDerivedFrom    <https://martial.is/entity/01M8ERRT32506B8ZJG9HY31HYH>;
+        schema:address         "Sports Connexion, Leamington Road, Ryton On Dunsmore, Coventry, CV8 3FL";
+        schema:location        <https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N/hasSite/1/location>;
+        martialis:hasEvidence  <https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N/hasSite/1/hasEvidence/0>;
+        martialis:sitePeriod   <https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N/hasSite/1/sitePeriod> .
 
 <https://martial.is/entity/01M7DMYF5PQYRR6VW6K9FDZ137/image/imageAttribution>
         rdf:type                   martialis:Attribution;
@@ -50572,6 +50924,13 @@ dcat:landingPage  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "Paulus Kal, the presumptive author of the list, includes the following as members of the fellowship: [...] martein hunczfeld";
         martialis:supports         true .
+
+<https://martial.is/entity/01M8CRJFWSQVNQG7Z1DBJ8Y905/hasContributor/1>
+        rdf:type                     martialis:Contributor;
+        schema:familyName            "Pedro";
+        schema:givenName             "Jimmy";
+        martialis:contributorPerson  <https://martial.is/entity/01KYMDKKCPXRY92G0TVA86F03N>;
+        martialis:contributorRole    "guest" .
 
 <https://martial.is/entity/01M06K0RMZNWJ90EEQ7CXBFHGS/hasEvidence/3>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -54162,6 +54521,14 @@ void:entities  rdf:type  owl:DatatypeProperty .
         martialis:honorType      <https://w3id.org/martialis/vocab/honor-type/title>;
         martialis:honorValue     "Shihan" .
 
+<https://martial.is/entity/01M8EWHQFPYZEE6FPQC34H59FY/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T5671EVY07Q736BHPBADNW>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "After Kisaburo Watanabe had left the club in 1966, there was a gap until Katsuhiko Kashiwazaki, the 1981 world featherweight champion, arrived in 1982";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M3YH7N5GH2Y7S0KDASN0D35H/hasInteraction/0>
         rdf:type                     martialis:TeacherInteraction;
         prov:wasDerivedFrom          <https://martial.is/entity/01M07HCGJGDPR24S4J0JWFFH68>;
@@ -54685,6 +55052,16 @@ void:entities  rdf:type  owl:DatatypeProperty .
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
 
+<https://martial.is/entity/01M8EWHQFPBFES1254PD4XFFEQ/hasInteraction/0/hasEvidence/0>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8EWHQFPRYQ4Q6SA5VYBEFFV>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:secondary;
+        martialis:quotation           "Your coach/player relationship with Neil Adams prior to the Moscow Olympic Games was well-known.";
+        martialis:sourceLocation      "26";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
+
 <https://martial.is/entity/01M1CS5WX2B8APS1RCZXCW76QJ/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M1CK3ZEX3JC5J8B3FS1RPGNS>;
@@ -55002,10 +55379,12 @@ void:entities  rdf:type  owl:DatatypeProperty .
         martialis:hasEvidence          <https://martial.is/entity/01KYMDKKCPXRY92G0TVA86F03N/hasEvidence/0>;
         martialis:hasRankAssertion     <https://martial.is/entity/01M3YH7N5GNGCEVDC44QMGD2Z4>;
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M3YH7N5GTJCBAXFWQ354EVT3>;
+        martialis:hasTeacherAssertion  <https://martial.is/entity/01M8CRJFWSRWV28Y5S06WS5W5W>;
         martialis:primaryImage         <https://martial.is/entity/01KYMDKKCPXRY92G0TVA86F03N/image>;
         martialis:taughtAt             <https://martial.is/entity/01KYMWJH24RA16DVC53FEMWR9F>;
         martialis:teaches              <https://martial.is/entity/01KZS3PSKRNV533S2F4ABNVBDV>;
         martialis:teaches              <https://martial.is/entity/01M6ERSPBWYXEVP0GSKX6NXABT>;
+        martialis:wasTaughtBy          <https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH>;
         martialis:wasTaughtBy          <https://martial.is/entity/01KYMDKKCPQ8238MWJR2E17NAD> .
 
 <https://martial.is/entity/01M4R9845WFEYWMMYBCTA3AYT3/officerPeriod>
@@ -55020,6 +55399,11 @@ void:entities  rdf:type  owl:DatatypeProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "Naitō taught kendo to the Japanese Police force, and was also the first teacher at the Budo Senmon Gakko.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M8EWHQFPY8K2A0ZEW4KXJSJ0/publisher>
+        rdf:type                martialis:Publisher;
+        schema:name             "International Judo Federation";
+        martialis:publisherOrg  <https://martial.is/entity/01KJJAWN29MA64W22606R3WD83> .
 
 <https://martial.is/entity/01M6BFF6ZQKBFDYWHSV1G06AHA/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -57810,6 +58194,10 @@ void:entities  rdf:type  owl:DatatypeProperty .
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1S1> .
 
+<https://martial.is/entity/01M8EWHQFPRYQ4Q6SA5VYBEFFV/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Judo Ltd" .
+
 <https://martial.is/entity/01KZQ7BS7KEK0VTFM54EWE64TQ/image/imageAttribution>
         rdf:type                   martialis:Attribution;
         schema:citation            "East718, Wikimedia Commons";
@@ -57988,6 +58376,12 @@ void:entities  rdf:type  owl:DatatypeProperty .
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
         schema:name            "Fukuoka";
         schema:sameAs          <http://www.wikidata.org/entity/Q26600> .
+
+<https://martial.is/entity/01M8CRJFWS66QSZ6YD63XXYQYJ/image>
+        rdf:type                    martialis:Photo;
+        schema:contentUrl           <https://ia601903.us.archive.org/29/items/cyril-adams/Cyril_Adams.png>;
+        martialis:imageAttribution  <https://martial.is/entity/01M8CRJFWS66QSZ6YD63XXYQYJ/image/imageAttribution>;
+        martialis:mediaRights       <https://w3id.org/martialis/vocab/media-rights/in_copyright> .
 
 <https://martial.is/entity/01M5JPY6FN9P05WJFG6ZZPPK3K/publisher>
         rdf:type     martialis:Publisher;
@@ -59763,6 +60157,13 @@ dcat:mediaType  rdf:type  owl:ObjectProperty .
         martialis:hasEvidence   <https://martial.is/entity/01KYJ80JXEQSD15B58MJM76PM3/birthEvent/hasEvidence/0>;
         martialis:latestYear    1901 .
 
+<https://martial.is/entity/01M8CRJFWSXWRWZ7MMEARCAVMR/hasContributor/1>
+        rdf:type                     martialis:Contributor;
+        schema:familyName            "Adams";
+        schema:givenName             "Neil";
+        martialis:contributorPerson  <https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH>;
+        martialis:contributorRole    "guest" .
+
 <https://martial.is/entity/01KYYVEV2M4CY1WBJ3MW2WK4FE/hasContributor/0>
         rdf:type                   martialis:Contributor;
         schema:name                "Wikipedia contributors";
@@ -60773,6 +61174,16 @@ dcat:mediaType  rdf:type  owl:ObjectProperty .
         rdf:type               martialis:GeoRef;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/SUN> .
 
+<https://martial.is/entity/01M8EWHQFPBFES1254PD4XFFEQ/hasInteraction/0/hasEvidence/1>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8EWHQFPRYQ4Q6SA5VYBEFFV>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/indirect>;
+        martialis:informationType     infotype:primary;
+        martialis:quotation           "I would have liked to be with Neil Adams for another four years";
+        martialis:sourceLocation      "26";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
+
 <https://martial.is/entity/01M5JVVMHM8HYNCVCXWWDNTBY5/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M5JVVMHM6EJYM8B56BC4MDCV>;
@@ -61733,6 +62144,13 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 <https://martial.is/entity/01M82HJ8PFR717S2T09DS5PNHK/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Wikimedia Foundation" .
+
+<https://martial.is/entity/01M8CRJFWS067MG1ME54J7ZA5T>
+        rdf:type                  martialis:TeacherAssertion;
+        martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B>;
+        martialis:hasConfidence   <https://martial.is/entity/01M8CRJFWS067MG1ME54J7ZA5T/hasConfidence>;
+        martialis:hasInteraction  <https://martial.is/entity/01M8CRJFWS067MG1ME54J7ZA5T/hasInteraction/0>;
+        martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student> .
 
 <https://martial.is/entity/01M64QW2FNR3YJKH19455N7NG2>
         rdf:type                        martialis:Source;
@@ -63002,6 +63420,10 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "Over the course of his life, Yen embarked on a quest to explore and acquire expertise in various other forms of martial arts disciplines; he obtained black and purple belts in Judo and Brazilian Jiu-Jitsu, respectively, and went on to study Wrestling, Muay Thai, and Boxing under various instructors.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N/hasSite/1/sitePeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:startYear  2021 .
 
 <https://martial.is/entity/01M69YCGDM4DDZ6QEGNJAHMECQ/hasInteraction/0>
         rdf:type               martialis:TeacherInteraction;
@@ -65295,6 +65717,10 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:primaryImage         <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SB/image>;
         martialis:wasTaughtBy          <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TN> .
 
+<https://martial.is/entity/01M8ERRT3252WC253H9GCX1CD2/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Coventry Judo Club" .
+
 <https://martial.is/entity/01M7Q2SSTBKZ9C6JAGYK3M9T58/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M7Q2SSTB9MCB0TPR084WSQCV>;
@@ -65652,6 +66078,18 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Portuguese Judo Federation manual lists him as 4th dan" .
+
+<https://martial.is/entity/01M8EWHQFP3FD2N78ZCYJBRWTG>
+        rdf:type                      martialis:InstructorRole;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M8EWHQFPK1A0MC7AQG0XH5QJ>;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M8EWHQFPSN4JESVMEJD0X8NK>;
+        martialis:hasConfidence       <https://martial.is/entity/01M8EWHQFP3FD2N78ZCYJBRWTG/hasConfidence>;
+        martialis:hasEvidence         <https://martial.is/entity/01M8EWHQFP3FD2N78ZCYJBRWTG/hasEvidence/1>;
+        martialis:hasEvidence         <https://martial.is/entity/01M8EWHQFP3FD2N78ZCYJBRWTG/hasEvidence/0>;
+        martialis:instructor          <https://martial.is/entity/01M8EW1KJA7MMBCSQ85PMBQRJT>;
+        martialis:instructorCapacity  <https://w3id.org/martialis/vocab/instructor-capacity/instructor>;
+        martialis:instructorPeriod    <https://martial.is/entity/01M8EWHQFP3FD2N78ZCYJBRWTG/instructorPeriod>;
+        martialis:instructorStyle     <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B> .
 
 <https://martial.is/entity/01M5B1B0PQJ9SMHFMQMD6VEDPS>
         rdf:type                        martialis:Source;
@@ -66235,6 +66673,21 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:quotation        "明治15年（1882年）、元水戸藩矢倉奉行で弘道館剣術指南役であった小澤寅吉の道場東武館に入門。寅吉に北辰一刀流剣術を、寅吉の長男一郎に新田宮流抜刀術を学び、いずれも免許皆伝を受ける。";
         martialis:supports         true .
 
+<https://martial.is/entity/01M8EWHQFPK1A0MC7AQG0XH5QJ>
+        rdf:type                        martialis:Source;
+        schema:datePublished            "1977-12";
+        schema:description              "Issue of the British magazine Judo, with Budokwai club news listing its teaching panel on page 6."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "magazine";
+        schema:keywords                 "judo";
+        schema:name                     "Judo, December 1977";
+        schema:publisher                <https://martial.is/entity/01M8EWHQFPK1A0MC7AQG0XH5QJ/publisher>;
+        martialis:earliestYear          1977;
+        martialis:latestYear            1977;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/news>;
+        martialis:sourceType            "article" .
+
 <https://martial.is/entity/01M3YH7N5GRW985K7E4Y6H7EZD/hasConfidence>
         rdf:type                       martialis:Confidence;
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
@@ -66553,6 +67006,20 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:confirmed;
         martialis:confidenceRationale  "Five sources document Higaonna's study under Ryu Ryu Ko (Lulukou) in Fuzhou; the period differs across sources (EN wiki 1867-1881, Selah 1869-1881, CAO 1874-1877)" .
+
+<https://martial.is/entity/01M8EWHQFPYZEE6FPQC34H59FY>
+        rdf:type                      martialis:InstructorRole;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M8EWHQFPE9YTHSKT0YM93JG9>;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M7T5671EVY07Q736BHPBADNW>;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M8EW1KJAAAX63FVBN1AH4FR2>;
+        martialis:hasConfidence       <https://martial.is/entity/01M8EWHQFPYZEE6FPQC34H59FY/hasConfidence>;
+        martialis:hasEvidence         <https://martial.is/entity/01M8EWHQFPYZEE6FPQC34H59FY/hasEvidence/0>;
+        martialis:hasEvidence         <https://martial.is/entity/01M8EWHQFPYZEE6FPQC34H59FY/hasEvidence/2>;
+        martialis:hasEvidence         <https://martial.is/entity/01M8EWHQFPYZEE6FPQC34H59FY/hasEvidence/1>;
+        martialis:instructor          <https://martial.is/entity/01M8EW1KJA7EPH8MQPR48WE5QF>;
+        martialis:instructorCapacity  <https://w3id.org/martialis/vocab/instructor-capacity/instructor>;
+        martialis:instructorPeriod    <https://martial.is/entity/01M8EWHQFPYZEE6FPQC34H59FY/instructorPeriod>;
+        martialis:instructorStyle     <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B> .
 
 <https://martial.is/entity/01M5JGQAC76ZWGQZAJ1VRVXY7K>
         rdf:type                      martialis:InstructorRole;
@@ -67953,6 +68420,10 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
 
+<https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N/hasSite/0/sitePeriod>
+        rdf:type           martialis:TimeInterval;
+        martialis:endYear  2021 .
+
 <https://martial.is/entity/01M5KQTRGXGQET5QVE7H7V349M/hasConfidence>
         rdf:type                       martialis:Confidence;
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
@@ -68465,6 +68936,20 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/BRA>;
         schema:name            "Salvador, Bahia";
         schema:sameAs          <http://www.wikidata.org/entity/Q36947> .
+
+<https://martial.is/entity/01M8EW1KJA9G5FKMJQX0V6Z8ZN>
+        rdf:type                 martialis:RankAssertion;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M8EW1KJANXJS5BZZJ8SZ8R8E>;
+        martialis:conferredBy    <https://martial.is/entity/01M7Q2SSTBKZ9C6JAGYK3M9T58>;
+        martialis:dateConferred  "1976-07-18";
+        martialis:earliestYear   1976;
+        martialis:hasConfidence  <https://martial.is/entity/01M8EW1KJA9G5FKMJQX0V6Z8ZN/hasConfidence>;
+        martialis:hasEvidence    <https://martial.is/entity/01M8EW1KJA9G5FKMJQX0V6Z8ZN/hasEvidence/0>;
+        martialis:latestYear     1976;
+        martialis:rankOrdinal    2;
+        martialis:rankStyle      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B>;
+        martialis:rankSystem     <https://martial.is/entity/01M11K25NF0E7HG8HWVWM2P3FG>;
+        martialis:rankType       <https://w3id.org/martialis/vocab/rank-type/dan> .
 
 <https://martial.is/entity/01M3YH7N5FB39QE3110ZPJNEYD/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -69590,6 +70075,18 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
 
+<https://martial.is/entity/01M8CRJFWS66QSZ6YD63XXYQYJ>
+        rdf:type                martialis:Person;
+        schema:description      "Judo coach at the Coventry Judo Club and for the Midland Area team of British Judo; father and first coach of Neil Adams."@en;
+        schema:keywords         "coach";
+        schema:keywords         "judo";
+        schema:name             "Cyril Adams"@en;
+        schema:nationality      <https://martial.is/entity/01M8CRJFWS66QSZ6YD63XXYQYJ/nationality/0>;
+        martialis:hasEvidence   <https://martial.is/entity/01M8CRJFWS66QSZ6YD63XXYQYJ/hasEvidence/0>;
+        martialis:primaryImage  <https://martial.is/entity/01M8CRJFWS66QSZ6YD63XXYQYJ/image>;
+        martialis:taughtAt      <https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N>;
+        martialis:teaches       <https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH> .
+
 <https://martial.is/entity/01M64QW2FN698A0CD0AZXBJDRB/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Associação Portuguesa Aikishurendojo" .
@@ -70006,6 +70503,11 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 <https://martial.is/entity/01KZ6239B5Q0H0AGKTCG1D06K9/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "ADAS (Associação Desportiva de Aikido de Setúbal)" .
+
+<https://martial.is/entity/01M8CRJFWSVKAZVRPQ5GTM52CB/hasInteraction/0/interactionPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:endYear    1975;
+        martialis:startYear  1966 .
 
 <https://martial.is/entity/01M3YH7N5G1MMF8YWGSN7F91JK>
         rdf:type                  martialis:TeacherAssertion;
@@ -70989,6 +71491,12 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
+
+<https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N/hasSite/0/location>
+        rdf:type               martialis:GeoRef;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/GBR>;
+        schema:name            "Coventry";
+        schema:sameAs          <http://www.wikidata.org/entity/Q6225> .
 
 <https://martial.is/entity/01M6C5JZZGFC3JVM9PPSCR85EX/publisher>
         rdf:type     martialis:Publisher;
@@ -74229,6 +74737,8 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M7TD2BTK1JT658J7ERZZ6918>;
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M7TD2BTKX56STMGKBM0TGHWF>;
         martialis:primaryImage         <https://martial.is/entity/01M7TD2BTKJJ2GGAE0P4YD180N/image>;
+        martialis:taughtAt             <https://martial.is/entity/01KY52HE49EXT0704VAEYG0W59>;
+        martialis:teaches              <https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH>;
         martialis:trainedAt            <https://martial.is/entity/01KY52HE49EXT0704VAEYG0W59>;
         martialis:trainedAt            <https://martial.is/entity/01M7TD2BTK7XX3498CKV19KC4M>;
         martialis:trainedAt            <https://martial.is/entity/01KJJAWN29MA64W22606R3WD84>;
@@ -75643,6 +76153,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         rdf:type     martialis:Publisher;
         schema:name  "Jogo do Pau Português (wiki)" .
 
+<https://martial.is/entity/01M8EW1KJAV75HDCSGAY88C9QB>
+        rdf:type                  martialis:TeacherAssertion;
+        martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B>;
+        martialis:hasConfidence   <https://martial.is/entity/01M8EW1KJAV75HDCSGAY88C9QB/hasConfidence>;
+        martialis:hasInteraction  <https://martial.is/entity/01M8EW1KJAV75HDCSGAY88C9QB/hasInteraction/0>;
+        martialis:role            <https://w3id.org/martialis/vocab/teacher-role/coach>;
+        martialis:teacher         <https://martial.is/entity/01M7TD2BTKJJ2GGAE0P4YD180N> .
+
 <https://martial.is/entity/01M6EHHZQ66YRJN9N72XTHZDWG>
         rdf:type                        martialis:Source;
         schema:archivedAt               <https://en.wikipedia.org/w/index.php?title=Khabib_Nurmagomedov&oldid=1380869710>;
@@ -75711,6 +76229,16 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "His own words, as a student reports them; the Wikipedia infobox lists it, unsourced." .
 
+<https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N/hasEvidence/0>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8CRJFWSFTV4FRR5PSZW8XQ8>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:primary;
+        martialis:quotation           "and it was just a year doing it at this little club and then I moved from there to Coventry Judo club which was my home then for many years";
+        martialis:sourceLocation      "3:28";
+        martialis:sourceLocatorLabel  "timestamp";
+        martialis:supports            true .
+
 <https://martial.is/entity/01M3YH7N5GD5RABSYBSFY6QERR/hasConfidence>
         rdf:type                       martialis:Confidence;
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
@@ -75746,6 +76274,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:earliestYear  1935;
         martialis:hasEvidence   <https://martial.is/entity/01KYDPMZ5G4826TB15FPPVJBA1/birthEvent/hasEvidence/0>;
         martialis:latestYear    1935 .
+
+<https://martial.is/entity/01M8EW1KJAZX8NW7ENEGFVXGSD>
+        rdf:type                  martialis:TeacherAssertion;
+        martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B>;
+        martialis:hasConfidence   <https://martial.is/entity/01M8EW1KJAZX8NW7ENEGFVXGSD/hasConfidence>;
+        martialis:hasInteraction  <https://martial.is/entity/01M8EW1KJAZX8NW7ENEGFVXGSD/hasInteraction/0>;
+        martialis:role            <https://w3id.org/martialis/vocab/teacher-role/coach>;
+        martialis:teacher         <https://martial.is/entity/01M8EW1KJA7MMBCSQ85PMBQRJT> .
 
 <https://martial.is/entity/01KZSHP504G96HB5TMYKGR8648/birthEvent/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -76342,6 +76878,10 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01KZQ5XKW34RHMNCH3AB1ZR596> .
 
+<https://martial.is/entity/01M8EWHQFP3FD2N78ZCYJBRWTG/instructorPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:startYear  1965 .
+
 <https://martial.is/entity/01M7TEQ5WT9EBK6K06SEAG4BQF/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Consulate-General of Japan in Edinburgh" .
@@ -76554,6 +77094,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
 <https://martial.is/entity/01M3YH7N5GSRWG0N3QE3GBKKAR/hasInteraction/0/interactionPeriod>
         rdf:type             martialis:TimeInterval;
         martialis:startYear  1965 .
+
+<https://martial.is/entity/01M8CRJFWSRWV28Y5S06WS5W5W>
+        rdf:type                  martialis:TeacherAssertion;
+        martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B>;
+        martialis:hasConfidence   <https://martial.is/entity/01M8CRJFWSRWV28Y5S06WS5W5W/hasConfidence>;
+        martialis:hasInteraction  <https://martial.is/entity/01M8CRJFWSRWV28Y5S06WS5W5W/hasInteraction/0>;
+        martialis:role            <https://w3id.org/martialis/vocab/teacher-role/coach>;
+        martialis:teacher         <https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH> .
 
 <https://martial.is/entity/01M5H62JEMJM86DX9HGHJPQHX4/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -78869,6 +79417,10 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
 
+<https://martial.is/entity/01M8EWHQFPSN4JESVMEJD0X8NK/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "The Budokwai" .
+
 <https://martial.is/entity/01M69YKDH11XM81HTQE6RA5PAE/hasInteraction/0>
         rdf:type               martialis:TeacherInteraction;
         prov:wasDerivedFrom    <https://martial.is/entity/01M69VJBQCHMMFMBTHKD733P9H>;
@@ -80098,6 +80650,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
 
+<https://martial.is/entity/01M8EW1KJA7EPH8MQPR48WE5QF/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M7T5671EVY07Q736BHPBADNW>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "After Kisaburo Watanabe had left the club in 1966, there was a gap until Katsuhiko Kashiwazaki, the 1981 world featherweight champion, arrived in 1982";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M4R9845WW37B4W7C2VB4X617/hasConfidence>
         rdf:type                       martialis:Confidence;
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
@@ -80472,6 +81032,15 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "Agostinho Vaz 6º Dan, 5º Dan (Aikikai) Shidoin";
         martialis:supports         true .
+
+<https://martial.is/entity/01M8CRJFWSSGAMFZNTV6YKP8D7/hasEvidence/1>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8CRJFWSFTV4FRR5PSZW8XQ8>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:primary;
+        martialis:sourceLocation      "2:45";
+        martialis:sourceLocatorLabel  "timestamp";
+        martialis:supports            true .
 
 <https://martial.is/entity/01KZXXSBCDJ8389BAV356M17G3/foundedEvent/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -81241,6 +81810,13 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Single source." .
 
+<https://martial.is/entity/01M8EW1KJA9G5FKMJQX0V6Z8ZN/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:confirmed;
+        martialis:confidenceRationale  "The BJA National Dan Grade Register, printed in Judo, November 1976, lists \"Adams, A. N.\", Coventry, among men promoted to 2nd dan, on 18/7/76. Conferrer's own register, so confirmed." .
+
 <https://martial.is/entity/01M3YH7N5GK17ZZXFCT2BR675R>
         rdf:type                 martialis:RankAssertion;
         prov:wasDerivedFrom      <https://martial.is/entity/01M0A2FCGS0RA55TNYKFSGPXWY>;
@@ -81275,6 +81851,19 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "In 1972, the President of Kokusai Budō Renmei, a member of the Japanese royal family, awarded Ōtsuka the title of Meijin.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M8EW1KJA6D42VA5HE5JE78M5>
+        rdf:type                        martialis:Source;
+        schema:description              "British Judo Association page listing the members of its British Judo Council, with their grades and roles."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "judo";
+        schema:name                     "British Judo Council";
+        schema:publisher                <https://martial.is/entity/01M8EW1KJA6D42VA5HE5JE78M5/publisher>;
+        schema:url                      <https://www.britishjudo.org.uk/what-we-do/governance-and-structure/british-judo-council/>;
+        martialis:accessed              "2026-11-27";
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/promotional>;
+        martialis:sourceType            "webpage" .
 
 <https://martial.is/entity/01M3YH7N5GNK4XN859N2D097V1>
         rdf:type                 martialis:HonorAssertion;
@@ -84197,6 +84786,25 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceType            "entry-encyclopedia" .
 
+<https://martial.is/entity/01M8CRJFWSFTV4FRR5PSZW8XQ8>
+        rdf:type                        martialis:Source;
+        schema:datePublished            "2023-03-21";
+        schema:description              "Long-form interview with Neil Adams on his start in judo in Rugby and Coventry, his competitive career and his training in Japan."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "video";
+        schema:keywords                 "podcast";
+        schema:keywords                 "judo";
+        schema:name                     "The Raspberry Ape Podcast - Neil Adams";
+        schema:publisher                <https://martial.is/entity/01M8CRJFWSFTV4FRR5PSZW8XQ8/publisher>;
+        schema:url                      <https://www.youtube.com/watch?v=fN7RTtJX8d0>;
+        martialis:accessed              "2026-11-26";
+        martialis:earliestYear          2023;
+        martialis:hasContributor        <https://martial.is/entity/01M8CRJFWSFTV4FRR5PSZW8XQ8/hasContributor/0>;
+        martialis:latestYear            2023;
+        martialis:sourceClassification  srcclass:original;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/interview>;
+        martialis:sourceType            "broadcast" .
+
 <https://martial.is/entity/01M7SP7A80B750D20QBDHAW4W9/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Wikimedia Foundation" .
@@ -84249,6 +84857,14 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         schema:startDate        "1963-04-26";
         martialis:earliestYear  1963;
         martialis:latestYear    1963 .
+
+<https://martial.is/entity/01M8EWHQFPSPX0X81QY91VZK3Q/birthEvent>
+        rdf:type                martialis:BirthEvent;
+        prov:wasDerivedFrom     <https://martial.is/entity/01M8EWHQFPY8K2A0ZEW4KXJSJ0>;
+        schema:startDate        "1939";
+        martialis:earliestYear  1939;
+        martialis:hasEvidence   <https://martial.is/entity/01M8EWHQFPSPX0X81QY91VZK3Q/birthEvent/hasEvidence/0>;
+        martialis:latestYear    1939 .
 
 <https://martial.is/entity/01M3YH7N5GNGN3DTBTX9QCWGHK>
         rdf:type                 martialis:HonorAssertion;
@@ -87294,6 +87910,10 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "The BAA history gives the grade, with no date or conferring body; no second source." .
 
+<https://martial.is/entity/01M8EW1KJANXJS5BZZJ8SZ8R8E/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Judo Ltd" .
+
 <https://martial.is/entity/01M5H5G595NG1AANGM41FNW0K8/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
         martialis:basedOnSource       <https://martial.is/entity/01M5G930MN7DVCGK42EP9G1XK9>;
@@ -88587,6 +89207,19 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
 
+<https://martial.is/entity/01M8CRJFWSH7G1973G6XM355TS>
+        rdf:type                        martialis:Source;
+        schema:description              "Instructors page of the Ju Jitsu Rugby club, with the training background of its founder Malcolm Bale."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "jujutsu";
+        schema:name                     "Instructors";
+        schema:publisher                <https://martial.is/entity/01M8CRJFWSH7G1973G6XM355TS/publisher>;
+        schema:url                      <https://www.ju-jitsu-rugby.com/instructors>;
+        martialis:accessed              "2026-11-26";
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/promotional>;
+        martialis:sourceType            "webpage" .
+
 <https://martial.is/entity/01KYG003XD811EK3DSJRJCQHSE/image>
         rdf:type                    martialis:Photo;
         schema:contentUrl           <https://www.riganbjj.com/uploads/8/0/1/3/8013051/1372821830.png>;
@@ -89430,6 +90063,10 @@ dcat:distribution  rdf:type  owl:ObjectProperty .
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Martin names him directly as Nocquet's student, ceinture bleue at the time." .
+
+<https://martial.is/entity/01M8EWHQFPE9YTHSKT0YM93JG9/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Wikimedia Foundation" .
 
 <https://martial.is/entity/01KZC8XAP85VEJ4KZG8H81DH86>
         rdf:type                        martialis:Source;
@@ -90366,7 +91003,7 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:confirmed;
-        martialis:confidenceRationale  "The Legacy site gives the 1968 start; the BJA and Guardian obituaries confirm the role. No source dates its end, when he left for the London Judo Society." .
+        martialis:confidenceRationale  "The Legacy site gives the 1968 start; the BJA and Guardian obituaries confirm the role. No source dates its end, when he left for the London Judo Society. Judo (December 1977, September 1983) still has him teaching there." .
 
 <https://martial.is/entity/01M6BFF6ZQRPZAPEACCS653K67/foundedEvent/location>
         rdf:type               martialis:GeoRef;
@@ -91298,6 +91935,10 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         martialis:hasEvidence        <https://martial.is/entity/01M3YH7N5G2PH9AHG4ZHKCYV4A/hasInteraction/0/hasEvidence/1>;
         martialis:hasEvidence        <https://martial.is/entity/01M3YH7N5G2PH9AHG4ZHKCYV4A/hasInteraction/0/hasEvidence/0>;
         martialis:interactionPeriod  <https://martial.is/entity/01M3YH7N5G2PH9AHG4ZHKCYV4A/hasInteraction/0/interactionPeriod> .
+
+<https://martial.is/entity/01M8ERRT32506B8ZJG9HY31HYH/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Coventry Judo Club" .
 
 <https://martial.is/entity/01M5JRHX027CQNTSRW0ZHGWCQ0>
         rdf:type                 martialis:Membership;
@@ -92307,6 +92948,10 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         rdf:type                   martialis:Contributor;
         schema:name                "On The Mat";
         martialis:contributorRole  "author" .
+
+<https://martial.is/entity/01M8ETAC2MW2A1C8TYS5RPRYCS/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Judo Ltd" .
 
 <https://martial.is/entity/01M5JPY6FN3640DF3MYZYSMA2Q/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -94495,6 +95140,16 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         martialis:quotation        "Ubirajara (Bira) Guimarães Almeida (born 1943), known as Mestre Acordeon, is a native of Salvador, Bahia, Brazil";
         martialis:supports         true .
 
+<https://martial.is/entity/01M8CRJFWSRWV28Y5S06WS5W5W/hasInteraction/0/hasEvidence/2>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8CRJFWSQVNQG7Z1DBJ8Y905>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:primary;
+        martialis:quotation           "when he came to my club I I just was so grateful he was there";
+        martialis:sourceLocation      "8:31";
+        martialis:sourceLocatorLabel  "timestamp";
+        martialis:supports            true .
+
 <https://martial.is/entity/01M3016DNJBGCRA3QFCA4GMZA7>
         rdf:type                        martialis:Source;
         schema:archivedAt               <http://web.archive.org/web/20260519191954/https://kenshi247.net/blog/2020/06/17/finding-naito/>;
@@ -94633,6 +95288,13 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         martialis:sourceLocation      "185";
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
+
+<https://martial.is/entity/01M8EWHQFPYZEE6FPQC34H59FY/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "The Budokwai's history page has him arrive in 1982, and Judo (September 1983) has him assisting Neil Adams there. Japanese Wikipedia gives a year of study in Britain from 1983 and teaching at the International Budo University from 1984, which gives the end year. The sources differ on the start, so probable." .
 
 <https://martial.is/entity/01M0DCY9PE1SCD7NJPVEJ737PA>
         rdf:type                        martialis:Source;
@@ -95693,6 +96355,16 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/USA>;
         schema:name            "Spokane";
         schema:sameAs          <http://www.wikidata.org/entity/Q187805> .
+
+<https://martial.is/entity/01M8CRJFWSHNAK2AWZ6HSRBDBX/hasInteraction/0/hasEvidence/1>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8CRJFWSFTV4FRR5PSZW8XQ8>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:primary;
+        martialis:quotation           "and it was just a year doing it at this little club and then I moved from there to Coventry Judo club which was my home then for many years";
+        martialis:sourceLocation      "3:28";
+        martialis:sourceLocatorLabel  "timestamp";
+        martialis:supports            true .
 
 <https://martial.is/entity/01M3YH7N5GCBR4RWFNM00SE66B/hasInteraction/0/interactionPeriod>
         rdf:type             martialis:TimeInterval;
@@ -97296,6 +97968,10 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "Na época, recebemos também os ensinamento de outro francês, Gilbert Briskine, 4º Dan de Judo e mestre de Karaté-Do 空手道, Disciplina a quem a divulgação em Portugal muito deve.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M8CRJFWSH7G1973G6XM355TS/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Ju Jitsu Rugby" .
 
 <https://martial.is/entity/01M5HNE76PGFXKGC6ZGWTVARK1>
         rdf:type                       martialis:Person;
@@ -100288,6 +100964,13 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         schema:url                 <https://commons.wikimedia.org/wiki/File:Charles_Lecour.jpg>;
         martialis:informationType  infotype:secondary .
 
+<https://martial.is/entity/01M8EW1KJAHW7Q8AGHYPS3N6JB/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "Adams's profile in Judo, September 1983, says he has no coach as such and is assisted by Kashiwazaki, Sweeney and Hoare at the Budokwai. Adams's side only, so probable." .
+
 <https://martial.is/entity/01M3YH7N5G8PNB3AW78CWKGQX7/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M3724KNHJ9643ADZBMDE9JGE>;
@@ -101552,6 +102235,11 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
 
+<https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N/logo>
+        rdf:type                    martialis:Photo;
+        schema:contentUrl           <https://coventryjudo.com/assets/logo.png>;
+        martialis:imageAttribution  <https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N/logo/imageAttribution> .
+
 <https://martial.is/entity/01M64QW2FNDGJFJW116PDQSQ5W/image/imageAttribution>
         rdf:type                   martialis:Attribution;
         schema:citation            "Clube Atlético de Alvalade logo";
@@ -101623,6 +102311,11 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         martialis:sourceLocation      "255";
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
+
+<https://martial.is/entity/01M8EW1KJA7MMBCSQ85PMBQRJT/nationality/0>
+        rdf:type               martialis:NationalityEntry;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/GBR>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q145> .
 
 <https://martial.is/entity/01M4R9845WAXTWA3CQACRJ9EWZ/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -101711,7 +102404,7 @@ void:dataDump  rdf:type  owl:ObjectProperty .
 
 <https://martial.is/data.ttl#dataset/class/Person>
         void:class     martialis:Person;
-        void:entities  1050 .
+        void:entities  1056 .
 
 <https://martial.is/entity/01M5HMRGB7WN9HHYCGJYQZPTAB/hasEvidence/1>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -101774,6 +102467,16 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
+
+<https://martial.is/entity/01M8EW1KJAZX8NW7ENEGFVXGSD/hasInteraction/0/hasEvidence/0>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8EW1KJAAAX63FVBN1AH4FR2>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:secondary;
+        martialis:quotation           "Coach: None specifically now. Being assisted by Katsuhiko Kashiwazaki, Tony Sweeney and Sid Hoare at the Budokwai.";
+        martialis:sourceLocation      "20";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
 
 <https://martial.is/entity/01M3YH7N5GFZQQYKF20G0C1B59/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -102070,6 +102773,12 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         schema:citation            "Tokaria, Wikimedia Commons";
         schema:url                 <https://commons.wikimedia.org/wiki/File:Choi_Yong-sool_portrait_888.jpg>;
         martialis:informationType  infotype:secondary .
+
+<https://martial.is/entity/01M8CRJFWSQVNQG7Z1DBJ8Y905/hasContributor/2>
+        rdf:type                   martialis:Contributor;
+        schema:familyName          "Cohen";
+        schema:givenName           "Steve";
+        martialis:contributorRole  "guest" .
 
 <https://martial.is/entity/01M4R9845W1DP7YXH4EYN3AFVC/officerPeriod>
         rdf:type             martialis:TimeInterval;
@@ -103144,6 +103853,20 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         rdf:type     martialis:Publisher;
         schema:name  "Taira Kenkyukai France (tairafrance.fr)" .
 
+<https://martial.is/entity/01M8EWHQFPSPX0X81QY91VZK3Q>
+        rdf:type               martialis:Person;
+        schema:birthDate       "1939";
+        schema:deathDate       "2019";
+        schema:description     "British judoka and coach, international athelete during the 1960s and 1970s, manager of the British judo team in the years up to the 1980 Moscow Olympics and later of the Swedish Judo team. "@en;
+        schema:keywords        "coach";
+        schema:keywords        "judo";
+        schema:name            "Tony Macconnell"@en;
+        schema:nationality     <https://martial.is/entity/01M8EWHQFPSPX0X81QY91VZK3Q/nationality/0>;
+        martialis:birthEvent   <https://martial.is/entity/01M8EWHQFPSPX0X81QY91VZK3Q/birthEvent>;
+        martialis:deathEvent   <https://martial.is/entity/01M8EWHQFPSPX0X81QY91VZK3Q/deathEvent>;
+        martialis:hasEvidence  <https://martial.is/entity/01M8EWHQFPSPX0X81QY91VZK3Q/hasEvidence/0>;
+        martialis:teaches      <https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH> .
+
 <https://martial.is/entity/01M3YH7N5GHAGCQGPVRMKX89C9/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KZSGMFGY27RT1GM4A7FS7JYY>;
@@ -103365,6 +104088,22 @@ void:dataDump  rdf:type  owl:ObjectProperty .
         rdf:type         martialis:Attribution;
         schema:citation  "Daniel Cei Jiu jitsu, YouTube";
         schema:url       <https://www.youtube.com/watch?v=rZQkydT-SyM> .
+
+<https://martial.is/entity/01M8EW1KJA7EPH8MQPR48WE5QF>
+        rdf:type               martialis:Person;
+        schema:alternateName   "Katsuhiko Kashiwazaki"@en;
+        schema:description     "Japanese judoka, 1981 world champion, who taught at the Budokwai in London from 1982."@en;
+        schema:keywords        "world-champion";
+        schema:keywords        "judo";
+        schema:name            "Kashiwazaki Katsuhiko"@ja-Latn;
+        schema:name            "柏崎 克彦"@ja;
+        schema:nationality     <https://martial.is/entity/01M8EW1KJA7EPH8MQPR48WE5QF/nationality/0>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q6378075>;
+        schema:sameAs          <http://viaf.org/viaf/110949443>;
+        martialis:hasEvidence  <https://martial.is/entity/01M8EW1KJA7EPH8MQPR48WE5QF/hasEvidence/0>;
+        martialis:hasEvidence  <https://martial.is/entity/01M8EW1KJA7EPH8MQPR48WE5QF/hasEvidence/1>;
+        martialis:taughtAt     <https://martial.is/entity/01KY52HE49EXT0704VAEYG0W59>;
+        martialis:teaches      <https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH> .
 
 <https://martial.is/entity/01M5JPY6FN99N65M7A5XV64SSV/image/imageAttribution>
         rdf:type                   martialis:Attribution;
@@ -104109,6 +104848,26 @@ dcat:Dataset  rdf:type  owl:Class .
         martialis:imageAttribution  <https://martial.is/entity/01M5KV9GA7NBXAWP0BY15DZPPQ/image/imageAttribution>;
         martialis:mediaRights       <https://w3id.org/martialis/vocab/media-rights/in_copyright> .
 
+<https://martial.is/entity/01M8CRJFWSPCWQKKPP39PY6YBX>
+        rdf:type                        martialis:Source;
+        schema:datePublished            "2021-10-31";
+        schema:description              "Interview with Jimmy Pedro on his judo career, his training under his father and with Neil Adams in Coventry, and his coaching."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "video";
+        schema:keywords                 "podcast";
+        schema:keywords                 "judo";
+        schema:name                     "Jimmy Pedro: Judo and the Forging of Champions | Lex Fridman Podcast #236";
+        schema:publisher                <https://martial.is/entity/01M8CRJFWSPCWQKKPP39PY6YBX/publisher>;
+        schema:url                      <https://www.youtube.com/watch?v=uy1fX2vOAEE>;
+        martialis:accessed              "2026-11-26";
+        martialis:earliestYear          2021;
+        martialis:hasContributor        <https://martial.is/entity/01M8CRJFWSPCWQKKPP39PY6YBX/hasContributor/0>;
+        martialis:hasContributor        <https://martial.is/entity/01M8CRJFWSPCWQKKPP39PY6YBX/hasContributor/1>;
+        martialis:latestYear            2021;
+        martialis:sourceClassification  srcclass:original;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/interview>;
+        martialis:sourceType            "broadcast" .
+
 <https://martial.is/entity/01M3YH7N5GXX551942MR7Z5M3D/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KZEK9QGVYNFDG0PK8BFQ82N2>;
@@ -104178,6 +104937,14 @@ dcat:Dataset  rdf:type  owl:Class .
         martialis:basedOnSource    <https://martial.is/entity/01M3M0PM99V00X653G1HE60M0K>;
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
+        martialis:supports         true .
+
+<https://martial.is/entity/01M8EW1KJA7MMBCSQ85PMBQRJT/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M8EW1KJA6D42VA5HE5JE78M5>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Tony Sweeney 9th Dan";
         martialis:supports         true .
 
 <https://martial.is/entity/01M3YH7N5GJK5533ZW8P784NDY/hasInteraction/0>
@@ -104863,6 +105630,20 @@ dcat:Dataset  rdf:type  owl:Class .
 <https://martial.is/entity/01M5CNY5CSRV9ECRAB44SAXDXB/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Wikimedia Foundation" .
+
+<https://martial.is/entity/01M8EW1KJA76FEF860QZ0CSMAT>
+        rdf:type                 martialis:RankAssertion;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M8EW1KJAJH9N9KBSNHNKDZYN>;
+        martialis:conferredBy    <https://martial.is/entity/01M7Q2SSTBKZ9C6JAGYK3M9T58>;
+        martialis:dateConferred  "1975-03-02";
+        martialis:earliestYear   1975;
+        martialis:hasConfidence  <https://martial.is/entity/01M8EW1KJA76FEF860QZ0CSMAT/hasConfidence>;
+        martialis:hasEvidence    <https://martial.is/entity/01M8EW1KJA76FEF860QZ0CSMAT/hasEvidence/0>;
+        martialis:latestYear     1975;
+        martialis:rankOrdinal    1;
+        martialis:rankStyle      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B>;
+        martialis:rankSystem     <https://martial.is/entity/01M11K25NF0E7HG8HWVWM2P3FG>;
+        martialis:rankType       <https://w3id.org/martialis/vocab/rank-type/dan> .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD77/birthEvent/birthPlace>
         rdf:type               martialis:GeoRef;
@@ -107001,6 +107782,13 @@ dcat:Dataset  rdf:type  owl:Class .
         martialis:quotation        "cette année-là, 1982, il m'a annoncé qu'il ne revenait plus en France, et il m'a dit « il faut suivre maintenant l'enseignement de maître Tamura ». [...] c'est à la suite de cela que j'ai suivi l'enseignement de maître Tamura.";
         martialis:supports         true .
 
+<https://martial.is/entity/01M8EWHQFP3FD2N78ZCYJBRWTG/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:confirmed;
+        martialis:confidenceRationale  "The Budokwai's own Judo Bulletin (April 1965) counts him among the Budokwai instructors, and the club's report in Judo (December 1977) lists him on its teaching panel. Club's own account, so confirmed. The start year is the earliest of these; no source dates an end." .
+
 <https://martial.is/entity/01KYD5XMNMNAG3CPC17GKACPW0>
         rdf:type                       martialis:Person;
         schema:alternateName           "Lee Jun-fan"@en;
@@ -107165,6 +107953,16 @@ dcat:Dataset  rdf:type  owl:Class .
         schema:contentUrl           <https://upload.wikimedia.org/wikipedia/commons/5/5b/Bas_Rutten_Strikeforce_weign_in%2C_better_resolution%2C_25_December_2009.jpg>;
         martialis:imageAttribution  <https://martial.is/entity/01M6C18DS7A4JT7XM8JM2ZVVDC/image/imageAttribution>;
         martialis:mediaRights       <https://w3id.org/martialis/vocab/media-rights/cc-by-2.0> .
+
+<https://martial.is/entity/01M8CRJFWSVKAZVRPQ5GTM52CB/hasInteraction/0/hasEvidence/2>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8EW1KJAAAX63FVBN1AH4FR2>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/indirect>;
+        martialis:informationType     infotype:secondary;
+        martialis:quotation           "Biggest influence on judo career: Father.";
+        martialis:sourceLocation      "20";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
 
 <https://martial.is/entity/01M3YH7N5GQANZ77240Q29PHKY/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -108608,6 +109406,13 @@ dcat:Dataset  rdf:type  owl:Class .
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Norris trained under Tsutomu Ohshima in Shotokan Karate; documented in American Tang Soo Do article and Ohshima's biography" .
 
+<https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M8CRJFWSF873DB6WP3VQ8R9R>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:supports         true .
+
 <https://martial.is/entity/01M1CDQWCMTSX6NC3103AEMP59/birthEvent>
         rdf:type                martialis:BirthEvent;
         prov:wasDerivedFrom     <https://martial.is/entity/01M1CC980TYXQ77FNJFEVQ25D5>;
@@ -108890,6 +109695,22 @@ dcat:Dataset  rdf:type  owl:Class .
         martialis:informationType  infotype:primary;
         martialis:quotation        " O meu nome é Leopoldo António Serra Ferreira, tenho 48 anos e sou cinto negro de Aikido da União Portuguesa de Budo. [...] Na União Portuguesa de Budo não temos graduações. A graduação mais elevada é o cinto negro, a partir daí acabaram-se os exames. Não existe 2º, 3º dan., etc.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M8EWHQFPSN4JESVMEJD0X8NK>
+        rdf:type                        martialis:Source;
+        <http://purl.org/ontology/bibo/issue>  "81";
+        schema:datePublished            "1965-04";
+        schema:description              "Issue of the Budokwai's Judo Bulletin, with its technical panel and instructors on page 1 and a report on Matsushita Saburo's visit on page 14."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "magazine";
+        schema:keywords                 "judo";
+        schema:name                     "Judo Bulletin, No. 81, April 1965";
+        schema:publisher                <https://martial.is/entity/01M8EWHQFPSN4JESVMEJD0X8NK/publisher>;
+        martialis:earliestYear          1965;
+        martialis:latestYear            1965;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/news>;
+        martialis:sourceType            "article" .
 
 <https://martial.is/entity/01M6BQSYG64R6KRTR3A6TP1VRD/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -109573,6 +110394,15 @@ dcat:Dataset  rdf:type  owl:Class .
         schema:citation            "The Bartitsu Society";
         schema:url                 <https://bartitsusociety.com/miss-phoebe-roberts-champion-lady-ju-jitsu-wrestler-of-the-world/>;
         martialis:informationType  infotype:secondary .
+
+<https://martial.is/entity/01M8CRJFWSQ2J1D1TTT7MZXSAP/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M8EP810RMTKNSEANWFQDCQXD>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "Date: 05.11.2018";
+        martialis:sourceLocation   "photograph of the certificate";
+        martialis:supports         true .
 
 <https://martial.is/entity/01M3JDG5G3K0MJNGZSQHHY1J50/publisher>
         rdf:type     martialis:Publisher;
@@ -110634,12 +111464,14 @@ dcat:Dataset  rdf:type  owl:Class .
         martialis:supports         true .
 
 <https://martial.is/entity/01M7TD2BTK7V8N9B4R6BRXXB9C/hasEvidence/0>
-        rdf:type                   martialis:SourceAssertionRelation;
-        martialis:basedOnSource    <https://martial.is/entity/01M7TD2BTKD126JAB143XK9KFV>;
-        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
-        martialis:informationType  infotype:secondary;
-        martialis:quotation        "He retired from active competition in 1968 and was appointed Chief Instructor of the Budokwai.";
-        martialis:supports         true .
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8EWHQFPK1A0MC7AQG0XH5QJ>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/indirect>;
+        martialis:informationType     infotype:primary;
+        martialis:quotation           "The Club's judo teaching panel now consists of Charles Palmer 7th Dan, Syd Hoare 5th Dan";
+        martialis:sourceLocation      "6";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
 
 <https://martial.is/entity/01M0A7YYEFNNVJ1W07NHA7XJHG/hasContributor/2>
         rdf:type                   martialis:Contributor;
@@ -112513,6 +113345,13 @@ dcat:Dataset  rdf:type  owl:Class .
         martialis:informationType  infotype:primary;
         martialis:supports         true .
 
+<https://martial.is/entity/01M8EW1KJA76FEF860QZ0CSMAT/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:confirmed;
+        martialis:confidenceRationale  "The BJA National Dan Grade Register, printed in Judo, June 1975, lists \"Adams, A. N.\", Coventry, promoted 2/3/75. The initials and the club match Adrian Neil Adams. Conferrer's own register, so confirmed." .
+
 <https://martial.is/entity/01KXTSQXW5H2G5FMTP0RTYT0X9>
         rdf:type                        martialis:Source;
         schema:archivedAt               <https://web.archive.org/web/20241104004016/https://tenchi.pt/georges-stobbaerts/>;
@@ -114342,6 +115181,10 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:quotation        "Another Gusukuma student, Seiichi Iju, handed down a longer version instead. This version is similar, and corresponds in enbusen and other typical details, to that transmitted by Chozo Nakama, and is now practiced in the Shorinkan Shorin-ryu school under the name of Iju Gojushiho.";
         martialis:supports         true .
 
+<https://martial.is/entity/01M8EW1KJAGDJWANKCGWGNGB2T/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Judo Ltd" .
+
 <https://martial.is/entity/01M3YH7N5GFF93JTX7GBJ17FK2>
         rdf:type                  martialis:TeacherAssertion;
         martialis:assertedStyle   <https://martial.is/entity/01M0QCH9A4Y8JQ2F9C0BJGH543>;
@@ -114925,6 +115768,19 @@ dcat:version  rdf:type  owl:DatatypeProperty .
 <https://martial.is/entity/01M3YH7N5GKFBTP5MJ0VF4RNJV/hasInteraction/0/interactionPeriod>
         rdf:type             martialis:TimeInterval;
         martialis:startYear  1967 .
+
+<https://martial.is/entity/01M8CRJFWSVKAZVRPQ5GTM52CB/hasInteraction/0>
+        rdf:type                     martialis:TeacherInteraction;
+        prov:hadPrimarySource        <https://martial.is/entity/01M8CRJFWSXWRWZ7MMEARCAVMR>;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M8CRJFWSXWRWZ7MMEARCAVMR>;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M8EW1KJAGDJWANKCGWGNGB2T>;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M8EW1KJAAAX63FVBN1AH4FR2>;
+        martialis:hasEvidence        <https://martial.is/entity/01M8CRJFWSVKAZVRPQ5GTM52CB/hasInteraction/0/hasEvidence/2>;
+        martialis:hasEvidence        <https://martial.is/entity/01M8CRJFWSVKAZVRPQ5GTM52CB/hasInteraction/0/hasEvidence/1>;
+        martialis:hasEvidence        <https://martial.is/entity/01M8CRJFWSVKAZVRPQ5GTM52CB/hasInteraction/0/hasEvidence/0>;
+        martialis:hasEvidence        <https://martial.is/entity/01M8CRJFWSVKAZVRPQ5GTM52CB/hasInteraction/0/hasEvidence/3>;
+        martialis:interactionPeriod  <https://martial.is/entity/01M8CRJFWSVKAZVRPQ5GTM52CB/hasInteraction/0/interactionPeriod>;
+        martialis:interactionPlace   <https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N> .
 
 <https://martial.is/entity/01M3YH7N5G1NS5NAJW9WPEC9QC>
         rdf:type                  martialis:TeacherAssertion;
@@ -117432,6 +118288,13 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceType            "entry-encyclopedia" .
 
+<https://martial.is/entity/01M8EW1KJAV75HDCSGAY88C9QB/hasInteraction/0>
+        rdf:type                     martialis:TeacherInteraction;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M8EW1KJAAAX63FVBN1AH4FR2>;
+        martialis:hasEvidence        <https://martial.is/entity/01M8EW1KJAV75HDCSGAY88C9QB/hasInteraction/0/hasEvidence/0>;
+        martialis:interactionPeriod  <https://martial.is/entity/01M8EW1KJAV75HDCSGAY88C9QB/hasInteraction/0/interactionPeriod>;
+        martialis:interactionPlace   <https://martial.is/entity/01KY52HE49EXT0704VAEYG0W59> .
+
 <https://martial.is/entity/01M3YH7N5FWJGREF8QS9JC2MZ8/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KZXXSB6VWQ467ARN5179K098>;
@@ -117536,6 +118399,14 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "English Wikipedia names Kazuo Ito among the teachers Bluming trained under at the Kodokan, but the claim is not corroborated by any primary source reviewed (official biography, Realfighting interview, EJMAS first-person accounts all omit him). Rated uncertain." .
+
+<https://martial.is/entity/01M8EWHQFPBFES1254PD4XFFEQ/hasInteraction/0/hasEvidence/2>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M8EWHQFPY8K2A0ZEW4KXJSJ0>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:primary;
+        martialis:quotation        "IJF Hall of Famer Neil Adams paid tribute to his long-time team manager: “Tony was one of the most influential people in my competitive career.";
+        martialis:supports         true .
 
 <https://martial.is/entity/01KYFYZCMHDH93FTPT3DXYNCXJ/image>
         rdf:type                    martialis:Photo;
@@ -117837,6 +118708,12 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:sourceLocation      "219";
         martialis:sourceLocatorLabel  "page";
         martialis:supports            false .
+
+<https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH/image>
+        rdf:type                    martialis:Photo;
+        schema:contentUrl           <https://images.ctfassets.net/v8zaoys2pgzt/6us1UVIx7upBLdNBAeEZMw/6ed7d4bca7fad39285abbcfb6ffb0c48/Neil_Adams_-_hero.jpg>;
+        martialis:imageAttribution  <https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH/image/imageAttribution>;
+        martialis:mediaRights       <https://w3id.org/martialis/vocab/media-rights/in_copyright> .
 
 <https://martial.is/entity/01M5JSGG50423XV4WT85WN3PTG/image>
         rdf:type                    martialis:Photo;
@@ -119300,6 +120177,12 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:quotation        "10th Dan";
         martialis:supports         true .
 
+<https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH/birthEvent/birthPlace>
+        rdf:type               martialis:GeoRef;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/GBR>;
+        schema:name            "Rugby, Warwickshire";
+        schema:sameAs          <http://www.wikidata.org/entity/Q623765> .
+
 <https://martial.is/entity/01KXTSQXW6P83R31HCRY2PRTDD/hasContributor/0>
         rdf:type                     martialis:Contributor;
         schema:familyName            "Delgado";
@@ -119400,6 +120283,11 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:sourceLocation      "150";
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
+
+<https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N/hasSite/1/location/geo>
+        rdf:type          martialis:Coordinates;
+        schema:latitude   5.2358417E1;
+        schema:longitude  -1.43789E0 .
 
 <https://martial.is/entity/01M64QW2FNNK7QDSABA187EH2H>
         rdf:type                        martialis:Source;
@@ -120185,6 +121073,16 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:primary;
         martialis:supports         true .
+
+<https://martial.is/entity/01M8EWHQFP3FD2N78ZCYJBRWTG/hasEvidence/0>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8EWHQFPSN4JESVMEJD0X8NK>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:primary;
+        martialis:quotation           "Sydney Hoare, Tony Sweeney and other Budokwai Instructors.";
+        martialis:sourceLocation      "14";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
 
 <https://martial.is/entity/01M3YH7N5G6BEK1CQBCCWQTEH5>
         rdf:type                     martialis:StyleRelationAssertion;
@@ -122002,6 +122900,16 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/CHN>;
         schema:sameAs          <http://www.wikidata.org/entity/Q148> .
 
+<https://martial.is/entity/01M8CRJFWS067MG1ME54J7ZA5T/hasInteraction/0/hasEvidence/0>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8CRJFWSQVNQG7Z1DBJ8Y905>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:primary;
+        martialis:quotation           "I was 16 when I first set foot into the Budokwai";
+        martialis:sourceLocation      "0:58";
+        martialis:sourceLocatorLabel  "timestamp";
+        martialis:supports            true .
+
 <https://martial.is/entity/01KZC4PMZY6NN95HWZME349WF2/birthEvent/birthPlace>
         rdf:type               martialis:GeoRef;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
@@ -122398,6 +123306,13 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:sourceLocation      "29";
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
+
+<https://martial.is/entity/01M8CRJFWSQ2J1D1TTT7MZXSAP/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:confirmed;
+        martialis:confidenceRationale  "The IJF, the conferring body, reports that its President gave Adams his 9th dan; the certificate in the article's photograph is dated 05.11.2018 (IJF news, 2019). There's a video of it as well. Confirmed." .
 
 <https://martial.is/entity/01M3YH7N5GQANZ77240Q29PHKY/hasInteraction/0/interactionPeriod>
         rdf:type             martialis:TimeInterval;
@@ -122951,7 +123866,7 @@ dcat:version  rdf:type  owl:DatatypeProperty .
 
 <https://martial.is/data.ttl#dataset/class/Place>
         void:class     martialis:Place;
-        void:entities  147 .
+        void:entities  148 .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1VC/birthEvent/birthPlace>
         rdf:type               martialis:GeoRef;
@@ -124934,6 +125849,21 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         schema:name            "Chicopee";
         schema:sameAs          <http://www.wikidata.org/entity/Q1650454> .
 
+<https://martial.is/entity/01M8EW1KJA9802AQ1T6VYRKN7G>
+        rdf:type                        martialis:Source;
+        schema:datePublished            "1976-05";
+        schema:description              "Issue of the British magazine Judo, with Budokwai club news on page 22."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "magazine";
+        schema:keywords                 "judo";
+        schema:name                     "Judo, May-June 1976";
+        schema:publisher                <https://martial.is/entity/01M8EW1KJA9802AQ1T6VYRKN7G/publisher>;
+        martialis:earliestYear          1976;
+        martialis:latestYear            1976;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/news>;
+        martialis:sourceType            "article" .
+
 <https://martial.is/entity/01M5JRHX026FW35J3WE6JKATTK/hasConfidence>
         rdf:type                       martialis:Confidence;
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
@@ -125187,6 +126117,13 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:hasEvidence   <https://martial.is/entity/01M84FERQJFTWDJ3G4KFZR04B1/birthEvent/hasEvidence/0>;
         martialis:latestYear    1911 .
 
+<https://martial.is/entity/01M8CRJFWS66QSZ6YD63XXYQYJ/image/imageAttribution>
+        rdf:type                   martialis:Attribution;
+        schema:citation            "Judo, No. 11, June 1981, p. 6; photo David Finch";
+        martialis:basedOnSource    <https://martial.is/entity/01M8ETAC2MW2A1C8TYS5RPRYCS>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Bottom left: Cyril Adams, Neil's father." .
+
 <https://martial.is/entity/01M5HP49HKKVGECJ8YFKRJH8XF/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
         martialis:basedOnSource       <https://martial.is/entity/01M5G930MN7DVCGK42EP9G1XK9>;
@@ -125291,6 +126228,16 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         rdf:type             martialis:TimeInterval;
         martialis:endYear    1965;
         martialis:startYear  1928 .
+
+<https://martial.is/entity/01M8EW1KJA7EPH8MQPR48WE5QF/hasEvidence/1>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8EW1KJAAAX63FVBN1AH4FR2>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:secondary;
+        martialis:quotation           "Being assisted by Katsuhiko Kashiwazaki, Tony Sweeney and Sid Hoare at the Budokwai.";
+        martialis:sourceLocation      "20";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
 
 <https://martial.is/entity/01KZC19BDCSRJKR7FM173MVWKB/birthEvent>
         rdf:type                martialis:BirthEvent;
@@ -125574,6 +126521,16 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "Miyake started his training under the famous Fusen-ryu jujutsu master Mataemon Tanabe, as well as Osaka master Yataro Handa, head of the 2000+ member Seibukan which had a very close connection to Tanabe's ground fighting newaza.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M8CRJFWSRWV28Y5S06WS5W5W/hasInteraction/0/hasEvidence/3>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8CRJFWSQVNQG7Z1DBJ8Y905>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:primary;
+        martialis:quotation           "in training at Neil's club I I was there from I was a young age, maybe 17, 18 my first time training with Neil at his club";
+        martialis:sourceLocation      "9:04";
+        martialis:sourceLocatorLabel  "timestamp";
+        martialis:supports            true .
 
 <https://martial.is/entity/01M3YH7N5G9P2CDENNMVMTPP5S/hasInteraction/0/hasEvidence/2>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -127003,6 +127960,16 @@ dcat:version  rdf:type  owl:DatatypeProperty .
 <https://martial.is/entity/01M3016DNJ6TBJ9KY1XE8YQRZ0/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "kenshi247.net" .
+
+<https://martial.is/entity/01M8EXRFW7D766ADC6Y0W3W745>
+        rdf:type                      martialis:InstructorRole;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M8EWHQFPSN4JESVMEJD0X8NK>;
+        martialis:hasConfidence       <https://martial.is/entity/01M8EXRFW7D766ADC6Y0W3W745/hasConfidence>;
+        martialis:hasEvidence         <https://martial.is/entity/01M8EXRFW7D766ADC6Y0W3W745/hasEvidence/0>;
+        martialis:instructor          <https://martial.is/entity/01M7TD2BTKJJ2GGAE0P4YD180N>;
+        martialis:instructorCapacity  <https://w3id.org/martialis/vocab/instructor-capacity/instructor>;
+        martialis:instructorPeriod    <https://martial.is/entity/01M8EXRFW7D766ADC6Y0W3W745/instructorPeriod>;
+        martialis:instructorStyle     <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B> .
 
 <https://martial.is/entity/01M39T3RX2VXZXDS338SWW1RMJ/hasSite/0>
         rdf:type               martialis:Site;
@@ -129071,7 +130038,7 @@ dcat:version  rdf:type  owl:DatatypeProperty .
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:possible;
-        martialis:confidenceRationale  "Only ES Wikipedia gives the grade, with no date, body or footnote; until more is found, staying at possible." .
+        martialis:confidenceRationale  "Only ES Wikipedia gives the grade, with no date, body or footnote." .
 
 <https://martial.is/entity/01M3YH7N5G98KGA43ANMBKYGF5>
         rdf:type                  martialis:TeacherAssertion;
@@ -131487,6 +132454,12 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
 
+<https://martial.is/entity/01M8CRJFWSXWRWZ7MMEARCAVMR/hasContributor/0>
+        rdf:type                   martialis:Contributor;
+        schema:familyName          "Williams";
+        schema:givenName           "Stuart";
+        martialis:contributorRole  "host" .
+
 <https://martial.is/entity/01M3YH7N5G4NXTJ4EW6AEV7J55/hasConfidence>
         rdf:type                       martialis:Confidence;
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
@@ -131870,6 +132843,11 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         schema:contentUrl           <https://upload.wikimedia.org/wikipedia/commons/3/3c/Alfred_Hutton.JPG>;
         martialis:imageAttribution  <https://martial.is/entity/01M5KQTRGX5YEF3ZQ1VS18V32G/image/imageAttribution>;
         martialis:mediaRights       <https://w3id.org/martialis/vocab/media-rights/public_domain_mark> .
+
+<https://martial.is/entity/01M8EW1KJAV75HDCSGAY88C9QB/hasInteraction/0/interactionPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:endYear    1983;
+        martialis:startYear  1983 .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1T8/deathEvent/deathPlace>
         rdf:type               martialis:GeoRef;
@@ -133563,6 +134541,13 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:interactionPeriod  <https://martial.is/entity/01M3YH7N5GCNNPWTF9F28CVK0A/hasInteraction/0/interactionPeriod>;
         martialis:interactionPlace   <https://martial.is/entity/01KZQ7BS7KGB9FYCTZPS6Z5T05> .
 
+<https://martial.is/entity/01M8CRT1PWD9VN3P24GBDWRG1C/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "Neil Adams says his father was in charge of the Coventry club, with Cyril present (Neil Adams MBE - The Podcast, episode 5, 2019). No dates and no club record, so probable." .
+
 <https://martial.is/entity/01M5FEYQE7WBWZWSZN9MW2BHZT/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M5CJ39K8S3T7533CRAAHA7HD>;
@@ -133601,6 +134586,16 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         rdf:type               martialis:NationalityEntry;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
         schema:sameAs          <http://www.wikidata.org/entity/Q17> .
+
+<https://martial.is/entity/01M8CRJFWSHNAK2AWZ6HSRBDBX/hasInteraction/0/hasEvidence/0>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8CRJFWSFTV4FRR5PSZW8XQ8>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:primary;
+        martialis:quotation           "so we went to a little club, Bilton, which is just on the outskirts of Rugby [...] there was a guy there called Johnnie Farkas, he was like this Jiu Jitsu, Judo, he was a Judo guru at the time in Rugby and he was going to introduce us to Judo";
+        martialis:sourceLocation      "2:45";
+        martialis:sourceLocatorLabel  "timestamp";
+        martialis:supports            true .
 
 <https://martial.is/entity/01M3YH7N5GPJA4WVY58H9EZDT9>
         rdf:type                 martialis:RankAssertion;
@@ -133762,7 +134757,7 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 
 <https://martial.is/data.ttl#dataset/class/Source>
         void:class     martialis:Source;
-        void:entities  1564 .
+        void:entities  1585 .
 
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1SC/nationality/0>
         rdf:type               martialis:NationalityEntry;
@@ -134254,6 +135249,13 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "In 2000, he was recognized as a holder of Okinawa Prefecture's intangible cultural asset \"Okinawa Karate and Kobujutsu,\"";
         martialis:supports         true .
+
+<https://martial.is/entity/01M8EWHQFPBFES1254PD4XFFEQ/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:confirmed;
+        martialis:confidenceRationale  "Macconnell, asked about his coach/player relationship with Adams before the 1980 Olympics, says he would have liked another four years with him (Judo, May 1981). Adams calls him his long-time team manager and one of the most influential people in his competitive career (IJF, 2019). Both parties, so confirmed." .
 
 <https://martial.is/entity/01KZSHP507WYD1FWY3XH49X8Q0>
         rdf:type                        martialis:Source;
@@ -136959,6 +137961,15 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:sourceLocatorLabel  "section";
         martialis:supports            true .
 
+<https://martial.is/entity/01M8CRT1PWD9VN3P24GBDWRG1C>
+        rdf:type                      martialis:InstructorRole;
+        prov:hadPrimarySource         <https://martial.is/entity/01M8CRJFWSXWRWZ7MMEARCAVMR>;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M8CRJFWSXWRWZ7MMEARCAVMR>;
+        martialis:hasConfidence       <https://martial.is/entity/01M8CRT1PWD9VN3P24GBDWRG1C/hasConfidence>;
+        martialis:hasEvidence         <https://martial.is/entity/01M8CRT1PWD9VN3P24GBDWRG1C/hasEvidence/0>;
+        martialis:instructor          <https://martial.is/entity/01M8CRJFWS66QSZ6YD63XXYQYJ>;
+        martialis:instructorCapacity  <https://w3id.org/martialis/vocab/instructor-capacity/head_instructor> .
+
 <https://martial.is/entity/01M7TD2BTK50MJ6PTAFKVNVA03/hasConfidence>
         rdf:type                       martialis:Confidence;
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
@@ -137792,6 +138803,11 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:quotation        "Already a 2nd dan Kyokushin karate black belt at age 12";
         martialis:supports         true .
 
+<https://martial.is/entity/01M8EW1KJAZX8NW7ENEGFVXGSD/hasInteraction/0/interactionPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:endYear    1983;
+        martialis:startYear  1983 .
+
 <https://martial.is/entity/01KZC19BDCWTW7WHTJG4S3A0D6/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KZC19BDCZPC8M3JY6QDNAVQ0>;
@@ -138006,6 +139022,12 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 <https://martial.is/entity/01M3YH7N5GJ35WAHJ6NYDMRG6W/hasInteraction/0/interactionPeriod>
         rdf:type             martialis:TimeInterval;
         martialis:startYear  2003 .
+
+<https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N/hasSite/1/location>
+        rdf:type               martialis:GeoRef;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/GBR>;
+        schema:geo             <https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N/hasSite/1/location/geo>;
+        schema:name            "Ryton-on-Dunsmore" .
 
 <https://martial.is/entity/01M6EHHZQ6F607YSKAMN369E69>
         rdf:type                        martialis:Source;
@@ -143642,6 +144664,14 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:sourceLocatorLabel  "folio";
         martialis:supports            true .
 
+<https://martial.is/entity/01M8EWHQFPYZEE6FPQC34H59FY/hasEvidence/2>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M8EWHQFPE9YTHSKT0YM93JG9>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/indirect>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "その後1年間、文部省派遣によるイギリス留学を経験し、1984年からは国際武道大学で後進の指導に当たる";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M84FERQJBJ58CPH821MA1GWE/hasInteraction/0/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M84FERQJCF80P4TP1BDC6W1Z>;
@@ -145626,6 +146656,13 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:relatedStyle       <https://martial.is/entity/01KYHTJXCXHYSC519CB367XXZK>;
         martialis:styleRelationType  stylerel:influenced_by .
 
+<https://martial.is/entity/01M8EW1KJAZX8NW7ENEGFVXGSD/hasInteraction/0>
+        rdf:type                     martialis:TeacherInteraction;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M8EW1KJAAAX63FVBN1AH4FR2>;
+        martialis:hasEvidence        <https://martial.is/entity/01M8EW1KJAZX8NW7ENEGFVXGSD/hasInteraction/0/hasEvidence/0>;
+        martialis:interactionPeriod  <https://martial.is/entity/01M8EW1KJAZX8NW7ENEGFVXGSD/hasInteraction/0/interactionPeriod>;
+        martialis:interactionPlace   <https://martial.is/entity/01KY52HE49EXT0704VAEYG0W59> .
+
 <https://martial.is/entity/01M0QCH9A4WS06N81F15MDGTY1/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M0SJFKG9JR0W7SWQBQ2PC0QN>;
@@ -145735,6 +146772,14 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         schema:familyName          "Svinth";
         schema:givenName           "Joseph R.";
         martialis:contributorRole  "author" .
+
+<https://martial.is/entity/01M8EWHQFPSPX0X81QY91VZK3Q/birthEvent/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M8EWHQFPY8K2A0ZEW4KXJSJ0>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Tony Macconnell (GBR) 1939 - 2019";
+        martialis:supports         true .
 
 <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9C/foundedEvent>
         rdf:type                martialis:FoundingEvent;
@@ -146258,6 +147303,10 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         rdf:type                   martialis:Attribution;
         martialis:basedOnSource    <https://martial.is/entity/01M764AMRB4TX3N3P0RNGHN0HB>;
         martialis:informationType  infotype:secondary .
+
+<https://martial.is/entity/01M8CRJFWSRWV28Y5S06WS5W5W/hasInteraction/0/interactionPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:startYear  1987 .
 
 <https://martial.is/entity/01M3YH7N5GG789PZXNQGGT7T80/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -147829,6 +148878,15 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:hasEvidence   <https://martial.is/entity/01M6EFJQBCFCB786ETNHJYVZQA/birthEvent/hasEvidence/0>;
         martialis:latestYear    1910 .
 
+<https://martial.is/entity/01M8EWHQFPBFES1254PD4XFFEQ/hasInteraction/0>
+        rdf:type                     martialis:TeacherInteraction;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M8EWHQFPY8K2A0ZEW4KXJSJ0>;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M8EWHQFPRYQ4Q6SA5VYBEFFV>;
+        martialis:hasEvidence        <https://martial.is/entity/01M8EWHQFPBFES1254PD4XFFEQ/hasInteraction/0/hasEvidence/0>;
+        martialis:hasEvidence        <https://martial.is/entity/01M8EWHQFPBFES1254PD4XFFEQ/hasInteraction/0/hasEvidence/1>;
+        martialis:hasEvidence        <https://martial.is/entity/01M8EWHQFPBFES1254PD4XFFEQ/hasInteraction/0/hasEvidence/2>;
+        martialis:interactionPeriod  <https://martial.is/entity/01M8EWHQFPBFES1254PD4XFFEQ/hasInteraction/0/interactionPeriod> .
+
 <https://martial.is/entity/01M3YH7N5G133MGNPDEHYGAZCX/hasInteraction/0/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
         schema:citation            "The Last Swordsman: The Yoshio Sugino Story, Part 2 - Aikido Journal";
@@ -148156,6 +149214,16 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "In 1903, Sadakazu Uyenishi established a jujutsu dojo on Golden Square, Piccadilly Circus. For four years, following its establishment, Uyenishi was busy performing jujutsu demonstrations, taking on challengers, and teaching jujutsu.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M8CRJFWS067MG1ME54J7ZA5T/hasInteraction/0/hasEvidence/1>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8EW1KJA9802AQ1T6VYRKN7G>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:secondary;
+        martialis:quotation           "Neil Adams was recently presented with a special trophy in appreciation of his past achievements and his loyalty to the club during the 1975/76 period.";
+        martialis:sourceLocation      "22";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
 
 <https://martial.is/entity/01M5JVVMHMR3S1YCGFGXFZ7E44/image>
         rdf:type                    martialis:Photo;
@@ -148876,12 +149944,14 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         schema:name            "Kakeda, Fukushima" .
 
 <https://martial.is/entity/01M7TD2BTK7V8N9B4R6BRXXB9C/hasEvidence/1>
-        rdf:type                   martialis:SourceAssertionRelation;
-        martialis:basedOnSource    <https://martial.is/entity/01M7TD2BTK4FKFAC10N1X7Z7E9>;
-        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
-        martialis:informationType  infotype:secondary;
-        martialis:quotation        "After retiring from competition he became the manager and chief instructor at the Budokwai.";
-        martialis:supports         true .
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8EW1KJAAAX63FVBN1AH4FR2>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/indirect>;
+        martialis:informationType     infotype:secondary;
+        martialis:quotation           "Being assisted by Katsuhiko Kashiwazaki, Tony Sweeney and Sid Hoare at the Budokwai.";
+        martialis:sourceLocation      "20";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
 
 <https://martial.is/entity/01M69YCGDV8YSCZGDNEADGJNNG>
         rdf:type                  martialis:TeacherAssertion;
@@ -151339,6 +152409,16 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/USA>;
         schema:sameAs          <http://www.wikidata.org/entity/Q30> .
 
+<https://martial.is/entity/01M8CRJFWS66QSZ6YD63XXYQYJ/hasEvidence/0>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8CRJFWSXWRWZ7MMEARCAVMR>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:primary;
+        martialis:quotation           "Dad was in charge of the Midland area, not only Coventry Club but the Midland area team";
+        martialis:sourceLocation      "22:00";
+        martialis:sourceLocatorLabel  "timestamp";
+        martialis:supports            true .
+
 <https://martial.is/entity/01M5JWHXPX7PD7RQ240KHEB3W6/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M5JWHXPX0BKNND8KCA3R6J9V>;
@@ -151742,9 +152822,13 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
 <https://martial.is/entity/01M7TD2BTK7V8N9B4R6BRXXB9C>
         rdf:type                      martialis:InstructorRole;
         prov:wasDerivedFrom           <https://martial.is/entity/01M7TD2BTK4FKFAC10N1X7Z7E9>;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M8EWHQFPK1A0MC7AQG0XH5QJ>;
         prov:wasDerivedFrom           <https://martial.is/entity/01M7TD2BTKGP6SQFTYEE8D849N>;
         prov:wasDerivedFrom           <https://martial.is/entity/01M7TD2BTKD126JAB143XK9KFV>;
+        prov:wasDerivedFrom           <https://martial.is/entity/01M8EW1KJAAAX63FVBN1AH4FR2>;
         martialis:hasConfidence       <https://martial.is/entity/01M7TD2BTK7V8N9B4R6BRXXB9C/hasConfidence>;
+        martialis:hasEvidence         <https://martial.is/entity/01M7TD2BTK7V8N9B4R6BRXXB9C/hasEvidence/3>;
+        martialis:hasEvidence         <https://martial.is/entity/01M7TD2BTK7V8N9B4R6BRXXB9C/hasEvidence/4>;
         martialis:hasEvidence         <https://martial.is/entity/01M7TD2BTK7V8N9B4R6BRXXB9C/hasEvidence/0>;
         martialis:hasEvidence         <https://martial.is/entity/01M7TD2BTK7V8N9B4R6BRXXB9C/hasEvidence/1>;
         martialis:hasEvidence         <https://martial.is/entity/01M7TD2BTK7V8N9B4R6BRXXB9C/hasEvidence/2>;
@@ -153278,6 +154362,13 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         rdf:type     martialis:Publisher;
         schema:name  "Embassy of Japan in Iceland" .
 
+<https://martial.is/entity/01M8EXRFW7D766ADC6Y0W3W745/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:confirmed;
+        martialis:confidenceRationale  "The Budokwai's own Judo Bulletin (April 1965) counts him among the Budokwai instructors. Club's own account, so confirmed. The start year is this issue; the end year is his appointment as chief instructor in 1968." .
+
 <https://martial.is/entity/01M5KQTRGXSBQFFZB9TF683JD2/deathEvent/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M5KQTRGX2JGG5SW23JDHAMR8>;
@@ -153947,6 +155038,10 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:hasTeacherAssertion  <https://martial.is/entity/01M5H4CVGCC0ME1YWNQR0PYA15>;
         martialis:primaryImage         <https://martial.is/entity/01M5H4CVGCR7QSBCRZK9FMHMP6/image>;
         martialis:wasTaughtBy          <https://martial.is/entity/01M5H4CVGC01V1K2WHEGQ18JDN> .
+
+<https://martial.is/entity/01M8EWHQFPBFES1254PD4XFFEQ/hasInteraction/0/interactionPeriod>
+        rdf:type           martialis:TimeInterval;
+        martialis:endYear  1980 .
 
 <https://martial.is/entity/01KZH9CVME1HC9XQTPH42B96FP>
         rdf:type                        martialis:Source;
@@ -156140,6 +157235,25 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
 
+<https://martial.is/entity/01M8EWHQFPY8K2A0ZEW4KXJSJ0>
+        rdf:type                        martialis:Source;
+        schema:datePublished            "2019-07-09";
+        schema:description              "IJF obituary of Kim Akker and Tony Macconnell, with a tribute from Neil Adams to Macconnell as his long-time team manager."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "judo";
+        schema:name                     "Judo mourns the passing of Kim Akker and Tony Macconnell";
+        schema:publisher                <https://martial.is/entity/01M8EWHQFPY8K2A0ZEW4KXJSJ0/publisher>;
+        schema:url                      <https://ijf.org/news/judo-mourns-the-passing-of-kim-akker-and-tony-macconnell>;
+        martialis:accessed              "2026-11-27";
+        martialis:earliestYear          2019;
+        martialis:hasContributor        <https://martial.is/entity/01M8EWHQFPY8K2A0ZEW4KXJSJ0/hasContributor/0>;
+        martialis:latestYear            2019;
+        martialis:partOf                <https://martial.is/entity/01M64QW2FN6PG9PRA7YFFTKEZG>;
+        martialis:peerReview            <https://w3id.org/martialis/vocab/peer-review/not_peer_reviewed>;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/obituary>;
+        martialis:sourceType            "article" .
+
 <https://martial.is/entity/01M6ENVCFA3YJCVEJ05SBX9JG2/hasInteraction/0/hasEvidence/2>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M6ENPY5WZJV6YTQA6F17T186>;
@@ -156774,6 +157888,11 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Appointed a Member of the Order of Australia (AM) in the Queen's Birthday Honours of June 2016 for service to aikido and to the visual arts, per the Wikipedia article" .
 
+<https://martial.is/entity/01M8EXRFW7D766ADC6Y0W3W745/instructorPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:endYear    1968;
+        martialis:startYear  1965 .
+
 <https://martial.is/entity/01M3YH7N5G1G839960VG3CRPK6/hasInteraction/0>
         rdf:type               martialis:TeacherInteraction;
         prov:wasDerivedFrom    <https://martial.is/entity/01KZKQ9NBFQX25DZP03H2N491V>;
@@ -156974,6 +158093,14 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:sourceLocation      "453";
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
+
+<https://martial.is/entity/01M8CRJFWSHNAK2AWZ6HSRBDBX>
+        rdf:type                  martialis:TeacherAssertion;
+        martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B>;
+        martialis:hasConfidence   <https://martial.is/entity/01M8CRJFWSHNAK2AWZ6HSRBDBX/hasConfidence>;
+        martialis:hasInteraction  <https://martial.is/entity/01M8CRJFWSHNAK2AWZ6HSRBDBX/hasInteraction/0>;
+        martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
+        martialis:teacher         <https://martial.is/entity/01M8CRJFWSSGAMFZNTV6YKP8D7> .
 
 <https://martial.is/entity/01M3YH7N5GKGPY5556AY5X69TJ>
         rdf:type                 martialis:HonorAssertion;
@@ -157300,6 +158427,21 @@ dcterms:rightsHolder  rdf:type  owl:AnnotationProperty .
         martialis:informationType  infotype:primary;
         martialis:quotation        "Aussi, dès 1928, il a créé la Kobudo Kenkyukaï, section de recherche sur les arts martiaux traditionnels anciens. Cette section, dont je faisais partie, regroupait au départ une trentaine de membres, tous champions de judo. Deux fois par mois, sur la demande de Kano sensei, qui payait les cours, quatre professeurs du Tenshin Shoden Katori Shinto Ryu venaient spécialement de Narita à Tokyo pour nous enseigner leur art.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M8CRJFWSQ2J1D1TTT7MZXSAP>
+        rdf:type                 martialis:RankAssertion;
+        prov:wasDerivedFrom      <https://martial.is/entity/01M8EP810RMTKNSEANWFQDCQXD>;
+        martialis:conferredBy    <https://martial.is/entity/01KJJAWN29MA64W22606R3WD83>;
+        martialis:dateConferred  "2018-11-05";
+        martialis:earliestYear   2018;
+        martialis:hasConfidence  <https://martial.is/entity/01M8CRJFWSQ2J1D1TTT7MZXSAP/hasConfidence>;
+        martialis:hasEvidence    <https://martial.is/entity/01M8CRJFWSQ2J1D1TTT7MZXSAP/hasEvidence/1>;
+        martialis:hasEvidence    <https://martial.is/entity/01M8CRJFWSQ2J1D1TTT7MZXSAP/hasEvidence/0>;
+        martialis:latestYear     2018;
+        martialis:rankOrdinal    9;
+        martialis:rankStyle      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B>;
+        martialis:rankSystem     <https://martial.is/entity/01M11K25NF0E7HG8HWVWM2P3FG>;
+        martialis:rankType       <https://w3id.org/martialis/vocab/rank-type/dan> .
 
 <https://martial.is/entity/01M4R9845W6K67P09GDD8MEVPV/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -159661,6 +160803,16 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Miles says Gully took him under his care and training; one source." .
 
+<https://martial.is/entity/01M8CRJFWSVKAZVRPQ5GTM52CB/hasInteraction/0/hasEvidence/1>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8CRJFWSXWRWZ7MMEARCAVMR>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:primary;
+        martialis:quotation           "Dad was in charge of the Midland area, not only Coventry Club but the Midland area team";
+        martialis:sourceLocation      "22:00";
+        martialis:sourceLocatorLabel  "timestamp";
+        martialis:supports            true .
+
 <https://martial.is/entity/01M7NXN3MGD6JHVBRTS6SF79EK/hasEvidence/1>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M7NXN3MGBYK54FHV643Z15KA>;
@@ -161920,6 +163072,43 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:sourceClassification  srcclass:authored;
         martialis:sourceType            "webpage" .
 
+<https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH>
+        rdf:type                       martialis:Person;
+        schema:alternateName           "Adrian Neil Adams"@en;
+        schema:birthDate               "1958-09-27";
+        schema:birthPlace              <https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH/birthEvent/birthPlace>;
+        schema:description             "Neil Adams is an English judoka, world champion in 1981 and Olympic silver medallist in 1980 and 1984, representing Great Britain, Neil is widely regarded as Britain's most successful male judoka ever. Later a coach at the national level, he is also well-known as the IJF's television commentator and, more generally, as \"the voice of Judo\". Neil started his Judo career in his hometown, Rugby, going to Coventry soon after where, under the guidance of his father, where he obtained his first national successes, before going to the Budokwai at 16 years old to further advance his Judo and a path that would lead him to international success. Neil's tai otoshi and newaza are particularly well known.        "@en;
+        schema:keywords                "world-champion";
+        schema:keywords                "olympian";
+        schema:keywords                "coach";
+        schema:keywords                "judo";
+        schema:name                    "Neil Adams"@en;
+        schema:nationality             <https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH/nationality/0>;
+        schema:sameAs                  <http://viaf.org/viaf/87981784>;
+        schema:sameAs                  <http://www.wikidata.org/entity/Q972888>;
+        martialis:birthEvent           <https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH/birthEvent>;
+        martialis:hasEvidence          <https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH/hasEvidence/0>;
+        martialis:hasRankAssertion     <https://martial.is/entity/01M8EW1KJA9G5FKMJQX0V6Z8ZN>;
+        martialis:hasRankAssertion     <https://martial.is/entity/01M8EW1KJA76FEF860QZ0CSMAT>;
+        martialis:hasRankAssertion     <https://martial.is/entity/01M8CRJFWSQ2J1D1TTT7MZXSAP>;
+        martialis:hasTeacherAssertion  <https://martial.is/entity/01M8CRJFWSVKAZVRPQ5GTM52CB>;
+        martialis:hasTeacherAssertion  <https://martial.is/entity/01M8EW1KJAHW7Q8AGHYPS3N6JB>;
+        martialis:hasTeacherAssertion  <https://martial.is/entity/01M8CRJFWS067MG1ME54J7ZA5T>;
+        martialis:hasTeacherAssertion  <https://martial.is/entity/01M8EW1KJAV75HDCSGAY88C9QB>;
+        martialis:hasTeacherAssertion  <https://martial.is/entity/01M8EW1KJAZX8NW7ENEGFVXGSD>;
+        martialis:hasTeacherAssertion  <https://martial.is/entity/01M8CRJFWSHNAK2AWZ6HSRBDBX>;
+        martialis:hasTeacherAssertion  <https://martial.is/entity/01M8EWHQFPBFES1254PD4XFFEQ>;
+        martialis:primaryImage         <https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH/image>;
+        martialis:teaches              <https://martial.is/entity/01KYMDKKCPXRY92G0TVA86F03N>;
+        martialis:trainedAt            <https://martial.is/entity/01KY52HE49EXT0704VAEYG0W59>;
+        martialis:trainedAt            <https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N>;
+        martialis:wasTaughtBy          <https://martial.is/entity/01M8CRJFWS66QSZ6YD63XXYQYJ>;
+        martialis:wasTaughtBy          <https://martial.is/entity/01M7TD2BTKJJ2GGAE0P4YD180N>;
+        martialis:wasTaughtBy          <https://martial.is/entity/01M8EWHQFPSPX0X81QY91VZK3Q>;
+        martialis:wasTaughtBy          <https://martial.is/entity/01M8EW1KJA7EPH8MQPR48WE5QF>;
+        martialis:wasTaughtBy          <https://martial.is/entity/01M8EW1KJA7MMBCSQ85PMBQRJT>;
+        martialis:wasTaughtBy          <https://martial.is/entity/01M8CRJFWSSGAMFZNTV6YKP8D7> .
+
 <https://martial.is/entity/01KYMTYN1RAJ0Z9MCM40TE2RVG/image>
         rdf:type                    martialis:Photo;
         schema:contentUrl           <https://upload.wikimedia.org/wikipedia/en/8/85/Manjiro_%22Matty%22_Matsuda.jpeg>;
@@ -162046,6 +163235,10 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:hasInteraction  <https://martial.is/entity/01M5HPEDHZ9KMHV5DXVC7V1J4E/hasInteraction/0>;
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01M5H5TCKZW50M5WFGCD2KCNR1> .
+
+<https://martial.is/entity/01M8EW1KJAAAX63FVBN1AH4FR2/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Judo Ltd" .
 
 <https://martial.is/entity/01M3YH7N5GVR3F5DAGQ5RMS432/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -163746,6 +164939,19 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:informationType  infotype:secondary;
         martialis:quotation        "Tanabe died in 1942 in Osaka.";
         martialis:supports         true .
+
+<https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N>
+        rdf:type                     martialis:Place;
+        schema:description           "Judo club in Coventry, England, where (amongst others) Neil Adams trained from childhood, as well as Chelsie Giles."@en;
+        schema:keywords              "judo";
+        schema:logo                  <https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N/logo>;
+        schema:name                  "Coventry Judo Club"@en;
+        schema:url                   <https://coventryjudo.com/>;
+        martialis:hasEvidence        <https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N/hasEvidence/0>;
+        martialis:hasInstructorRole  <https://martial.is/entity/01M8CRT1PWD9VN3P24GBDWRG1C>;
+        martialis:hasSite            <https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N/hasSite/1>;
+        martialis:hasSite            <https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N/hasSite/0>;
+        martialis:placeType          <https://w3id.org/martialis/vocab/place-classification/club> .
 
 <https://martial.is/entity/01M5JVVMHM3CQNAKVH0VG9YB12/deathEvent/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -165786,6 +166992,11 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
 
+<https://martial.is/entity/01M8CRJFWSHNAK2AWZ6HSRBDBX/hasInteraction/0/interactionPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:endYear    1966;
+        martialis:startYear  1965 .
+
 <https://martial.is/entity/01M5JVVMHMZKH74W0F34ZV1J44/birthEvent>
         rdf:type                martialis:BirthEvent;
         prov:wasDerivedFrom     <https://martial.is/entity/01M5G930MN1VM84DEZNGEZP48E>;
@@ -165985,6 +167196,16 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:wasTaughtBy          <https://martial.is/entity/01KYSNKBS7T4VMBNKEXV23RB0D>;
         martialis:wasTaughtBy          <https://martial.is/entity/01KYSNKBS9J3KZDNJ437DJSRGG>;
         martialis:wasTaughtBy          <https://martial.is/entity/01M6C1ZABV6FHQ2EXVCNW3NV8P> .
+
+<https://martial.is/entity/01M8CRT1PWD9VN3P24GBDWRG1C/hasEvidence/0>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8CRJFWSXWRWZ7MMEARCAVMR>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:primary;
+        martialis:quotation           "Dad was in charge of the Midland area, not only Coventry Club but the Midland area team";
+        martialis:sourceLocation      "22:00";
+        martialis:sourceLocatorLabel  "timestamp";
+        martialis:supports            true .
 
 <https://martial.is/entity/01M3YH7N5GE9PBZEWXYTHXFPBC/hasInteraction/0>
         rdf:type               martialis:TeacherInteraction;
@@ -167692,6 +168913,15 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:quotation        "On 7 May 2002, Ansei Ueshiro died in Oceanside, New York, following a stroke. He was aged 69 [...] He was buried in Locust Valley, New York.";
         martialis:supports         true .
 
+<https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH/birthEvent>
+        rdf:type                martialis:BirthEvent;
+        prov:wasDerivedFrom     <https://martial.is/entity/01M8CRJFWSF873DB6WP3VQ8R9R>;
+        schema:location         <https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH/birthEvent/birthPlace>;
+        schema:startDate        "1958-09-27";
+        martialis:earliestYear  1958;
+        martialis:hasEvidence   <https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH/birthEvent/hasEvidence/0>;
+        martialis:latestYear    1958 .
+
 <https://martial.is/entity/01M3YH7N5GK3NVSEH6SHNM5869/hasInteraction/0>
         rdf:type                     martialis:TeacherInteraction;
         prov:wasDerivedFrom          <https://martial.is/entity/01KYSNKBRXZBXTADEA0ET726M4>;
@@ -168931,6 +170161,16 @@ dcat:Distribution  rdf:type  owl:Class .
         schema:givenName           "Horst";
         martialis:contributorRole  "author" .
 
+<https://martial.is/entity/01M8EW1KJAHW7Q8AGHYPS3N6JB/hasInteraction/0/hasEvidence/0>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8EW1KJAAAX63FVBN1AH4FR2>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:secondary;
+        martialis:quotation           "Coach: None specifically now. Being assisted by Katsuhiko Kashiwazaki, Tony Sweeney and Sid Hoare at the Budokwai.";
+        martialis:sourceLocation      "20";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
+
 <https://martial.is/entity/01M3YH7N5FTEG7R4RD9YGAF44R>
         rdf:type                       martialis:AffiliationAssertion;
         prov:hadPrimarySource          <https://martial.is/entity/01M7Q68J4QZP3BFNWXZHTB3TWZ>;
@@ -169020,6 +170260,16 @@ dcat:Distribution  rdf:type  owl:Class .
         martialis:informationType  infotype:primary;
         martialis:quotation        "主とするところは「術」ではなくこの原理と目的により自己完成をめざす「道」であるとして、術から道へと名をあらため、その道を講ずるところという意味で名づけられたのが「講道館」という名でした。";
         martialis:supports         true .
+
+<https://martial.is/entity/01M8EW1KJA7MMBCSQ85PMBQRJT/hasEvidence/1>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8EW1KJAAAX63FVBN1AH4FR2>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:secondary;
+        martialis:quotation           "Being assisted by Katsuhiko Kashiwazaki, Tony Sweeney and Sid Hoare at the Budokwai.";
+        martialis:sourceLocation      "20";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
 
 <https://martial.is/entity/01KYFPRMG73S8Q8M1YKQ3S5EQF/hasEvidence/3>
         rdf:type                   martialis:SourceAssertionRelation;
@@ -171720,6 +172970,11 @@ dcterms:RightsStatement
         schema:name            "Tokyo";
         schema:sameAs          <http://www.wikidata.org/entity/Q1490> .
 
+<https://martial.is/entity/01M8EWHQFPYZEE6FPQC34H59FY/instructorPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:endYear    1984;
+        martialis:startYear  1982 .
+
 <https://martial.is/entity/01M3YH7N5G2SPR9Y5D95NW297Z/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M2Z6TY1P25CQ9YJJM432S4DN>;
@@ -172687,6 +173942,14 @@ dcterms:RightsStatement
         martialis:interactionPeriod  <https://martial.is/entity/01M6EFJQBD331ER4SHGW4Q10NC/hasInteraction/0/interactionPeriod>;
         martialis:interactionPlace   <https://martial.is/entity/01KZ9TV15DAKTA2KEF6NFKDJD3> .
 
+<https://martial.is/entity/01M8EWHQFPSPX0X81QY91VZK3Q/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M8EWHQFPY8K2A0ZEW4KXJSJ0>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Tony Macconnell, 79, who passed away on Sunday, was a famed member of British Judo and was a key part of the management team when Britain were enjoying their glory years in the sport.";
+        martialis:supports         true .
+
 <https://martial.is/entity/01M5JPY6FN315HECFACEE0SY04>
         rdf:type                       martialis:Person;
         schema:alternateName           "The Sydney Cornstalk"@en;
@@ -173245,6 +174508,13 @@ dcterms:RightsStatement
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
+
+<https://martial.is/entity/01M8EW1KJAHW7Q8AGHYPS3N6JB/hasInteraction/0>
+        rdf:type                     martialis:TeacherInteraction;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M8EW1KJAAAX63FVBN1AH4FR2>;
+        martialis:hasEvidence        <https://martial.is/entity/01M8EW1KJAHW7Q8AGHYPS3N6JB/hasInteraction/0/hasEvidence/0>;
+        martialis:interactionPeriod  <https://martial.is/entity/01M8EW1KJAHW7Q8AGHYPS3N6JB/hasInteraction/0/interactionPeriod>;
+        martialis:interactionPlace   <https://martial.is/entity/01KY52HE49EXT0704VAEYG0W59> .
 
 <https://martial.is/entity/01M3YH7N5GTRJFD549MHMSPC7Q>
         rdf:type                 martialis:RankAssertion;
@@ -175422,10 +176692,10 @@ dcterms:RightsStatement
 
 <https://martial.is/entity/01M7TD2BTK7V8N9B4R6BRXXB9C/hasEvidence/2>
         rdf:type                   martialis:SourceAssertionRelation;
-        martialis:basedOnSource    <https://martial.is/entity/01M7TD2BTKGP6SQFTYEE8D849N>;
+        martialis:basedOnSource    <https://martial.is/entity/01M7TD2BTKD126JAB143XK9KFV>;
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
-        martialis:quotation        "On retiring from competition he was appointed chief instructor at the Budokwai";
+        martialis:quotation        "He retired from active competition in 1968 and was appointed Chief Instructor of the Budokwai.";
         martialis:supports         true .
 
 <https://martial.is/entity/01M5JWHXPXZBTWCEHK91FTG196>
@@ -175746,6 +177016,16 @@ dcterms:RightsStatement
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:confirmed;
         martialis:confidenceRationale  "Fusen-ryu jujutsu master Mataemon Tanabe named in the 1905 interview, EN Wikipedia and the BJS paper; his dojo's newaza expertise is well documented." .
+
+<https://martial.is/entity/01M8EWHQFPYZEE6FPQC34H59FY/hasEvidence/1>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8EW1KJAAAX63FVBN1AH4FR2>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:secondary;
+        martialis:quotation           "Being assisted by Katsuhiko Kashiwazaki, Tony Sweeney and Sid Hoare at the Budokwai.";
+        martialis:sourceLocation      "20";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
 
 <https://martial.is/entity/01M3S74B28GW5QMRHSJ15JADVH>
         rdf:type                        martialis:Source;
@@ -177379,6 +178659,21 @@ dcterms:RightsStatement
         martialis:rankStyle      <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9C>;
         martialis:rankSystem     <https://martial.is/entity/01M84B6YBSEYN7QP2KJH1H0SHB> .
 
+<https://martial.is/entity/01M8EW1KJAGDJWANKCGWGNGB2T>
+        rdf:type                        martialis:Source;
+        schema:datePublished            "1977-09";
+        schema:description              "Issue of the British magazine Judo, with a report on the Great Britain v Sweden match on page 32."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "magazine";
+        schema:keywords                 "judo";
+        schema:name                     "Judo, September 1977";
+        schema:publisher                <https://martial.is/entity/01M8EW1KJAGDJWANKCGWGNGB2T/publisher>;
+        martialis:earliestYear          1977;
+        martialis:latestYear            1977;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/news>;
+        martialis:sourceType            "article" .
+
 <https://martial.is/entity/01M6BQSYG6M9MZT8K9QHZ96Q6J/foundedEvent/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
         martialis:basedOnSource       <https://martial.is/entity/01M6BQSYG5G95JWRDX3V4BBGJ4>;
@@ -178207,6 +179502,14 @@ dcterms:RightsStatement
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
         martialis:quotation        "Gichin Funakoshi, Gigō Funakoshi, Isao Obata, Takeshi Shimoda";
+        martialis:supports         true .
+
+<https://martial.is/entity/01M8EWHQFPSPX0X81QY91VZK3Q/deathEvent/hasEvidence/0>
+        rdf:type                   martialis:SourceAssertionRelation;
+        martialis:basedOnSource    <https://martial.is/entity/01M8EWHQFPY8K2A0ZEW4KXJSJ0>;
+        martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType  infotype:secondary;
+        martialis:quotation        "Tony Macconnell (GBR) 1939 - 2019";
         martialis:supports         true .
 
 <https://martial.is/entity/01M5CD497XT2ANQK40ZE39W3Q7/hasEvidence/0>
@@ -179831,6 +181134,14 @@ dcterms:RightsStatement
         martialis:sourceLocatorLabel  "section";
         martialis:supports            true .
 
+<https://martial.is/entity/01M8EWHQFPBFES1254PD4XFFEQ>
+        rdf:type                  martialis:TeacherAssertion;
+        martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9B>;
+        martialis:hasConfidence   <https://martial.is/entity/01M8EWHQFPBFES1254PD4XFFEQ/hasConfidence>;
+        martialis:hasInteraction  <https://martial.is/entity/01M8EWHQFPBFES1254PD4XFFEQ/hasInteraction/0>;
+        martialis:role            <https://w3id.org/martialis/vocab/teacher-role/coach>;
+        martialis:teacher         <https://martial.is/entity/01M8EWHQFPSPX0X81QY91VZK3Q> .
+
 <https://martial.is/entity/01M5CTXKSP0ZBQRK73PTNNQGV9>
         rdf:type                       martialis:Person;
         schema:description             "American jeet kune do teacher in Bartlesville, Oklahoma, and founder of the Jeet Kune Do Association; a student of James Yimm Lee in Oakland after his military service in Vietnam."@en;
@@ -180591,6 +181902,21 @@ dcterms:RightsStatement
         martialis:imageAttribution  <https://martial.is/entity/01M5JWHXPXVN2GWPT338C6HCAW/photos/0/imageAttribution>;
         martialis:mediaRights       <https://w3id.org/martialis/vocab/media-rights/cc-by-2.5> .
 
+<https://martial.is/entity/01M8EW1KJAJH9N9KBSNHNKDZYN>
+        rdf:type                        martialis:Source;
+        schema:datePublished            "1975-06";
+        schema:description              "Issue of the British magazine Judo, with Appendix Eight of the BJA National Dan Grade Register on page 20."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "magazine";
+        schema:keywords                 "judo";
+        schema:name                     "Judo, June 1975";
+        schema:publisher                <https://martial.is/entity/01M8EW1KJAJH9N9KBSNHNKDZYN/publisher>;
+        martialis:earliestYear          1975;
+        martialis:latestYear            1975;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/news>;
+        martialis:sourceType            "article" .
+
 <https://martial.is/entity/01M7NT0A8VNXR9PV8J9FQ58B51/nationality/0>
         rdf:type               martialis:NationalityEntry;
         schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
@@ -181056,6 +182382,16 @@ dcterms:RightsStatement
         martialis:quotation           "He was fortunate enough to have had some excellent teachers, including Yamashita Yoshiaki Sensei and Kudo Ichizo Sensei for judo, and Oshima Jikita Sensei for bayonet fighting.";
         martialis:sourceLocation      "Introduction";
         martialis:sourceLocatorLabel  "section";
+        martialis:supports            true .
+
+<https://martial.is/entity/01M8EW1KJA76FEF860QZ0CSMAT/hasEvidence/0>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8EW1KJAJH9N9KBSNHNKDZYN>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:primary;
+        martialis:quotation           "Adams, A. N. Coventry M 2/3/75";
+        martialis:sourceLocation      "20";
+        martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
 
 <https://martial.is/entity/01M1KSJ12QWGJ1HDWJ98CQ5WMQ/nationality/0>
@@ -182591,6 +183927,17 @@ dcterms:RightsStatement
         martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/other>;
         martialis:sourceType            "webpage" .
 
+<https://martial.is/entity/01M8EW1KJA7MMBCSQ85PMBQRJT>
+        rdf:type               martialis:Person;
+        schema:description     "British judo teacher at the Budokwai, 9th dan, and Vice-President of the British Judo Council."@en;
+        schema:keywords        "judo";
+        schema:name            "Tony Sweeney"@en;
+        schema:nationality     <https://martial.is/entity/01M8EW1KJA7MMBCSQ85PMBQRJT/nationality/0>;
+        martialis:hasEvidence  <https://martial.is/entity/01M8EW1KJA7MMBCSQ85PMBQRJT/hasEvidence/0>;
+        martialis:hasEvidence  <https://martial.is/entity/01M8EW1KJA7MMBCSQ85PMBQRJT/hasEvidence/1>;
+        martialis:taughtAt     <https://martial.is/entity/01KY52HE49EXT0704VAEYG0W59>;
+        martialis:teaches      <https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH> .
+
 <https://martial.is/entity/01M3YH7N5GFBB7GGR7VE1Z7HVW/hasInteraction/0>
         rdf:type                     martialis:TeacherInteraction;
         prov:wasDerivedFrom          <https://martial.is/entity/01KYZFG5QVKMHWYD7GV9QF40AZ>;
@@ -182735,6 +184082,13 @@ dcterms:RightsStatement
         schema:citation            "The White House, Wikimedia Commons";
         schema:url                 <https://commons.wikimedia.org/wiki/File:President_Donald_Trump_congratulates_Kayla_Harrison_after_her_victory_during_UFC_316_(54577590491)_(cropped).jpg>;
         martialis:informationType  infotype:secondary .
+
+<https://martial.is/entity/01M8CRJFWSPCWQKKPP39PY6YBX/hasContributor/1>
+        rdf:type                     martialis:Contributor;
+        schema:familyName            "Pedro";
+        schema:givenName             "Jimmy";
+        martialis:contributorPerson  <https://martial.is/entity/01KYMDKKCPXRY92G0TVA86F03N>;
+        martialis:contributorRole    "guest" .
 
 <https://martial.is/entity/01M69YCGD3RGPKKEDQC6TXQS37/hasEvidence/0>
         rdf:type                      martialis:SourceAssertionRelation;
@@ -183365,6 +184719,16 @@ dcterms:RightsStatement
         martialis:quotation           "Tradition says that boxing was introduced to the program of the Olympic Games in 688 BCE. Onomastos of Smyrna was the Olympic champion that year. We are further told that Onomastos was the first person to formulate rules for boxing";
         martialis:sourceLocation      "235";
         martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
+
+<https://martial.is/entity/01M8CRJFWSVKAZVRPQ5GTM52CB/hasInteraction/0/hasEvidence/0>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8CRJFWSXWRWZ7MMEARCAVMR>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:primary;
+        martialis:quotation           "My dad was my first coach, you know what I mean, right up I was 16, and there are still many things that I use that came from him";
+        martialis:sourceLocation      "21:43";
+        martialis:sourceLocatorLabel  "timestamp";
         martialis:supports            true .
 
 <https://martial.is/entity/01M3YH7N5GJCZJFD2RBNBEXN1Z/hasEvidence/0>
@@ -184248,6 +185612,22 @@ dcterms:RightsStatement
 <https://martial.is/entity/01KZR1M7T49C1DKVC1DWZH0M3G/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Lake Effect Martial Arts" .
+
+<https://martial.is/entity/01M8EWHQFPRYQ4Q6SA5VYBEFFV>
+        rdf:type                        martialis:Source;
+        <http://purl.org/ontology/bibo/issue>  "10";
+        schema:datePublished            "1981-05";
+        schema:description              "Issue of the British magazine Judo, with an interview with Tony Macconnell on leaving the British team management, on page 26."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "magazine";
+        schema:keywords                 "judo";
+        schema:name                     "Judo, No. 10, May 1981";
+        schema:publisher                <https://martial.is/entity/01M8EWHQFPRYQ4Q6SA5VYBEFFV/publisher>;
+        martialis:earliestYear          1981;
+        martialis:latestYear            1981;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/interview>;
+        martialis:sourceType            "article" .
 
 <https://martial.is/entity/01KZ6654E3BY1BA2D4NWNVB3MM/logo/imageAttribution>
         rdf:type                   martialis:Attribution;
@@ -185288,6 +186668,16 @@ dcterms:RightsStatement
         martialis:quotation        "高野佐三郎。芝弥生社の撃剣大会において天覧を得る。";
         martialis:supports         true .
 
+<https://martial.is/entity/01M8EW1KJA9G5FKMJQX0V6Z8ZN/hasEvidence/0>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8EW1KJANXJS5BZZJ8SZ8R8E>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:primary;
+        martialis:quotation           "Adams, A. N. Coventry L 18/7/76";
+        martialis:sourceLocation      "23";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
+
 <https://martial.is/entity/01KYFZEGYNYWWK97CXKCACKHNS/deathEvent>
         rdf:type                martialis:DeathEvent;
         prov:wasDerivedFrom     <https://martial.is/entity/01KYFZEGYN3DCBTT7EMAFREYBE>;
@@ -186156,6 +187546,22 @@ dcterms:RightsStatement
         martialis:hasEvidence        <https://martial.is/entity/01M3YH7N5GV6XDANZ07F0KAB6Q/hasInteraction/0/hasEvidence/0>;
         martialis:interactionPeriod  <https://martial.is/entity/01M3YH7N5GV6XDANZ07F0KAB6Q/hasInteraction/0/interactionPeriod>;
         martialis:interactionPlace   <https://martial.is/entity/01M06FKBQ1K6KP86BRFQR0JB7G> .
+
+<https://martial.is/entity/01M8EW1KJAAAX63FVBN1AH4FR2>
+        rdf:type                        martialis:Source;
+        <http://purl.org/ontology/bibo/issue>  "39";
+        schema:datePublished            "1983-09";
+        schema:description              "Issue of the British magazine Judo, with the first part of Frank Smith's An A to Z of British Judo Men on page 20."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "magazine";
+        schema:keywords                 "judo";
+        schema:name                     "Judo, No. 39, September 1983";
+        schema:publisher                <https://martial.is/entity/01M8EW1KJAAAX63FVBN1AH4FR2/publisher>;
+        martialis:earliestYear          1983;
+        martialis:latestYear            1983;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/news>;
+        martialis:sourceType            "article" .
 
 <https://martial.is/entity/01M6BGKGNVYQBMRSCRE7FQEFM2/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -189699,6 +191105,18 @@ dcterms:RightsStatement
         martialis:quotation        "1981年（昭和56年）、郷里東串良町に清の銅像が建立される。";
         martialis:supports         true .
 
+<https://martial.is/entity/01M8CRJFWSRWV28Y5S06WS5W5W/hasInteraction/0>
+        rdf:type                     martialis:TeacherInteraction;
+        prov:hadPrimarySource        <https://martial.is/entity/01M8CRJFWSPCWQKKPP39PY6YBX>;
+        prov:hadPrimarySource        <https://martial.is/entity/01M8CRJFWSQVNQG7Z1DBJ8Y905>;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M8CRJFWSPCWQKKPP39PY6YBX>;
+        prov:wasDerivedFrom          <https://martial.is/entity/01M8CRJFWSQVNQG7Z1DBJ8Y905>;
+        martialis:hasEvidence        <https://martial.is/entity/01M8CRJFWSRWV28Y5S06WS5W5W/hasInteraction/0/hasEvidence/1>;
+        martialis:hasEvidence        <https://martial.is/entity/01M8CRJFWSRWV28Y5S06WS5W5W/hasInteraction/0/hasEvidence/2>;
+        martialis:hasEvidence        <https://martial.is/entity/01M8CRJFWSRWV28Y5S06WS5W5W/hasInteraction/0/hasEvidence/3>;
+        martialis:hasEvidence        <https://martial.is/entity/01M8CRJFWSRWV28Y5S06WS5W5W/hasInteraction/0/hasEvidence/0>;
+        martialis:interactionPeriod  <https://martial.is/entity/01M8CRJFWSRWV28Y5S06WS5W5W/hasInteraction/0/interactionPeriod> .
+
 <https://martial.is/entity/01M325EAQG4P41V98G5PZWNJ4F/foundedEvent/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01KY52HE43YW6GXDPGPTRD08ZB>;
@@ -193141,6 +194559,11 @@ dcterms:RightsStatement
         martialis:informationType  infotype:secondary;
         martialis:quotation        "by 1903 he had established his own dojo, the School of Japanese Self Defence, at 31 Golden Square, Piccadilly Circus";
         martialis:supports         true .
+
+<https://martial.is/entity/01M8EW1KJA7EPH8MQPR48WE5QF/nationality/0>
+        rdf:type               martialis:NationalityEntry;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/JPN>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q17> .
 
 <https://martial.is/entity/01M6EFJQBDAZNPEM3T4JSZBVPX>
         rdf:type                  martialis:TeacherAssertion;
@@ -198146,6 +199569,16 @@ dcterms:RightsStatement
         rdf:type     martialis:Publisher;
         schema:name  "Tip. da Emp. do Diário do Porto" .
 
+<https://martial.is/entity/01M8CRJFWSRWV28Y5S06WS5W5W/hasInteraction/0/hasEvidence/0>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8CRJFWSPCWQKKPP39PY6YBX>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/direct>;
+        martialis:informationType     infotype:primary;
+        martialis:quotation           "he's a mentor like I said I lived and trained at the Neil Adams club in Coventry England since I was like 16 years old [...] he's the one who originally taught me how to do juji gatame";
+        martialis:sourceLocation      "46:22-46:36";
+        martialis:sourceLocatorLabel  "timestamp";
+        martialis:supports            true .
+
 <https://martial.is/entity/01M1KT3VZZ488GVQXP7QKGNW6B/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M1BVV4WYSYBSPA6C9F1A3EST>;
@@ -199285,6 +200718,16 @@ dcterms:RightsStatement
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "Kobayashi Shorin-ryu is the school of Shorin-ryu developed by Chibana Choshin from Anko Itosu's karate; its practitioners are Shorin-ryu practitioners and roll up into Shorin-ryu" .
 
+<https://martial.is/entity/01M8CRJFWSVKAZVRPQ5GTM52CB/hasInteraction/0/hasEvidence/3>
+        rdf:type                      martialis:SourceAssertionRelation;
+        martialis:basedOnSource       <https://martial.is/entity/01M8EW1KJAGDJWANKCGWGNGB2T>;
+        martialis:evidenceType        <https://w3id.org/martialis/vocab/evidence-type/indirect>;
+        martialis:informationType     infotype:secondary;
+        martialis:quotation           "although Neil has been training now in London for nearly three years — Coventry Judo Club was where he started and developed up to Dan grade.";
+        martialis:sourceLocation      "32";
+        martialis:sourceLocatorLabel  "page";
+        martialis:supports            true .
+
 <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TA/birthEvent>
         rdf:type         martialis:BirthEvent;
         schema:location  <https://martial.is/entity/01KJJAWN28MWKKSN4J02MVY1TA/birthEvent/birthPlace> .
@@ -199758,6 +201201,26 @@ dcterms:RightsStatement
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
 
+<https://martial.is/entity/01M8CRJFWSQVNQG7Z1DBJ8Y905>
+        rdf:type                        martialis:Source;
+        schema:datePublished            "2024-10-30";
+        schema:description              "Panel conversation with Neil Adams, Jimmy Pedro and Steve Cohen on their careers, Pedro's training at Adams's club in Coventry, and groundwork."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "video";
+        schema:keywords                 "judo";
+        schema:name                     "Legends of Judo: Neil Adams, Jimmy Pedro & Steve Cohen Share Stories and the Future of Judo";
+        schema:publisher                <https://martial.is/entity/01M8CRJFWSQVNQG7Z1DBJ8Y905/publisher>;
+        schema:url                      <https://www.youtube.com/watch?v=SvyvUdXUB0M>;
+        martialis:accessed              "2026-11-26";
+        martialis:earliestYear          2024;
+        martialis:hasContributor        <https://martial.is/entity/01M8CRJFWSQVNQG7Z1DBJ8Y905/hasContributor/1>;
+        martialis:hasContributor        <https://martial.is/entity/01M8CRJFWSQVNQG7Z1DBJ8Y905/hasContributor/2>;
+        martialis:hasContributor        <https://martial.is/entity/01M8CRJFWSQVNQG7Z1DBJ8Y905/hasContributor/0>;
+        martialis:latestYear            2024;
+        martialis:sourceClassification  srcclass:original;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/interview>;
+        martialis:sourceType            "broadcast" .
+
 <https://martial.is/entity/01M3S8MWJE1009TNCFTF81D7T4/publisher>
         rdf:type                martialis:Publisher;
         schema:name             "Associação Cultural Portuguesa de Aikido";
@@ -199921,6 +201384,12 @@ dcterms:RightsStatement
         martialis:hasEvidence        <https://martial.is/entity/01M84FERQJM0SH4V13094D7P67/hasInteraction/0/hasEvidence/1>;
         martialis:hasEvidence        <https://martial.is/entity/01M84FERQJM0SH4V13094D7P67/hasInteraction/0/hasEvidence/2>;
         martialis:interactionPeriod  <https://martial.is/entity/01M84FERQJM0SH4V13094D7P67/hasInteraction/0/interactionPeriod> .
+
+<https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH/image/imageAttribution>
+        rdf:type                   martialis:Attribution;
+        schema:citation            "Team GB";
+        schema:url                 <https://www.teamgb.com/athlete/neil-adams/731cJ8aFBMneSgaEoLFFSk>;
+        martialis:informationType  infotype:secondary .
 
 <https://martial.is/entity/01KZDXQH2MHE1V4HD4ZMQSHBM9>
         rdf:type                martialis:Organization;
@@ -204855,6 +206324,14 @@ dcterms:RightsStatement
         martialis:earliestYear  1958;
         martialis:latestYear    1958 .
 
+<https://martial.is/entity/01M8EWHQFPSPX0X81QY91VZK3Q/deathEvent>
+        rdf:type                martialis:DeathEvent;
+        prov:wasDerivedFrom     <https://martial.is/entity/01M8EWHQFPY8K2A0ZEW4KXJSJ0>;
+        schema:startDate        "2019";
+        martialis:earliestYear  2019;
+        martialis:hasEvidence   <https://martial.is/entity/01M8EWHQFPSPX0X81QY91VZK3Q/deathEvent/hasEvidence/0>;
+        martialis:latestYear    2019 .
+
 <https://martial.is/entity/01M3YH7N5G040CS66M1XRTSE1C>
         rdf:type                  martialis:TeacherAssertion;
         martialis:assertedStyle   <https://martial.is/entity/01KJJAWN29MA64W22606R3WD9J>;
@@ -207430,6 +208907,13 @@ dcterms:RightsStatement
         martialis:hasEvidence        <https://martial.is/entity/01M3YH7N5GX1KGA203H51WJDT8/hasInteraction/0/hasEvidence/0>;
         martialis:interactionPeriod  <https://martial.is/entity/01M3YH7N5GX1KGA203H51WJDT8/hasInteraction/0/interactionPeriod> .
 
+<https://martial.is/entity/01M8CRJFWSQVNQG7Z1DBJ8Y905/hasContributor/0>
+        rdf:type                     martialis:Contributor;
+        schema:familyName            "Adams";
+        schema:givenName             "Neil";
+        martialis:contributorPerson  <https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH>;
+        martialis:contributorRole    "guest" .
+
 <https://martial.is/entity/01M3YH7N5GZZ03RTV2FG50Q4DS/hasInteraction/0/interactionPeriod>
         rdf:type             martialis:TimeInterval;
         martialis:startYear  1913 .
@@ -208199,6 +209683,11 @@ dcterms:RightsStatement
         martialis:confidenceLevel      conflevel:possible;
         martialis:confidenceRationale  "Single source; only a photo caption places him in the group." .
 
+<https://martial.is/entity/01M8EW1KJAHW7Q8AGHYPS3N6JB/hasInteraction/0/interactionPeriod>
+        rdf:type             martialis:TimeInterval;
+        martialis:endYear    1983;
+        martialis:startYear  1983 .
+
 <https://martial.is/entity/01M3YH7N5GSG1E2A6ZFWYHQE56>
         rdf:type                 martialis:RankAssertion;
         prov:hadPrimarySource    <https://martial.is/entity/01M3M0D4PBPNC7V49M67QMSP6E>;
@@ -208697,6 +210186,10 @@ dcterms:RightsStatement
         schema:name            "Smolensk";
         schema:sameAs          <http://www.wikidata.org/entity/Q2337> .
 
+<https://martial.is/entity/01M8EWHQFPK1A0MC7AQG0XH5QJ/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "Judo Ltd" .
+
 <https://martial.is/entity/01M5JSGG502TFD8ARX3WDFWZ44/hasInteraction/0/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         martialis:basedOnSource    <https://martial.is/entity/01M5JSGG5081ZEGH8JTM4FRCAV>;
@@ -208821,6 +210314,21 @@ dcterms:RightsStatement
         martialis:assessedBy           <https://martial.is/agent/FSM>;
         martialis:confidenceLevel      conflevel:probable;
         martialis:confidenceRationale  "JA Wikipedia's own honors listing directly records the decoration and date" .
+
+<https://martial.is/entity/01M8ERRT3252WC253H9GCX1CD2>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://web.archive.org/web/20211018081811/https://www.coventryjudo.com/training-times/>;
+        schema:description              "Training times page of the Coventry Judo Club, with the dojo address at Hereward College Sports Centre."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "judo";
+        schema:name                     "Training Times";
+        schema:publisher                <https://martial.is/entity/01M8ERRT3252WC253H9GCX1CD2/publisher>;
+        schema:url                      <https://www.coventryjudo.com/training-times/>;
+        martialis:accessed              "2026-11-27";
+        martialis:archiveDate           "2021-10-18";
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceGenre           <https://w3id.org/martialis/vocab/source-genre/promotional>;
+        martialis:sourceType            "webpage" .
 
 <https://martial.is/entity/01M6A2JTHW1SEYHG9JVK41V6QM/hasSite/1/location>
         rdf:type               martialis:GeoRef;
@@ -209157,6 +210665,17 @@ dcterms:RightsStatement
         martialis:quotation        "In 1719, Figg opened an amphitheatre and fighting school in London adjoining the City of Oxford tavern in Oxford Road, Marylebone, where he taught bare-knuckle boxing, fencing, quarterstaff, and cudgel combat.";
         martialis:supports         true .
 
+<https://martial.is/entity/01M8CRJFWSSGAMFZNTV6YKP8D7>
+        rdf:type               martialis:Person;
+        schema:alternateName   "Johnnie Farkas"@en;
+        schema:description     "Ju-jitsu and judo teacher in Rugby, England, who introduced Neil Adams to judo."@en;
+        schema:keywords        "jujutsu";
+        schema:keywords        "judo";
+        schema:name            "John Farkas"@en;
+        martialis:hasEvidence  <https://martial.is/entity/01M8CRJFWSSGAMFZNTV6YKP8D7/hasEvidence/0>;
+        martialis:hasEvidence  <https://martial.is/entity/01M8CRJFWSSGAMFZNTV6YKP8D7/hasEvidence/1>;
+        martialis:teaches      <https://martial.is/entity/01M8CRJFWS10SYJFMZ8PHX9RAH> .
+
 <https://martial.is/entity/01M3YH7N5GZ8BRV27M9FYP2AP8/hasConfidence>
         rdf:type                       martialis:Confidence;
         prov:wasAttributedTo           <https://martial.is/agent/FSM>;
@@ -209435,6 +210954,11 @@ dcterms:RightsStatement
 <https://martial.is/entity/01M06FKBQ15H1DASNM7NNCKZDJ/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Wikimedia Foundation" .
+
+<https://martial.is/entity/01M8EWHQFPSPX0X81QY91VZK3Q/nationality/0>
+        rdf:type               martialis:NationalityEntry;
+        schema:addressCountry  <http://publications.europa.eu/resource/authority/country/GBR>;
+        schema:sameAs          <http://www.wikidata.org/entity/Q145> .
 
 <https://martial.is/entity/01KYD74HFC6N14D0VP5KGRRDAP>
         rdf:type                        martialis:Source;
@@ -210976,6 +212500,10 @@ dcterms:RightsStatement
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
 
+<https://martial.is/entity/01M8CRJFWSFTV4FRR5PSZW8XQ8/publisher>
+        rdf:type     martialis:Publisher;
+        schema:name  "YouTube (Raspberry Ape)" .
+
 <https://martial.is/entity/01M3YH7N5G822SXNEB5KYCHXA6/hasEvidence/2>
         rdf:type                   martialis:SourceAssertionRelation;
         schema:citation            "Interview with Minoru Mochizuki: Part 1, Aikido Journal, November 2002";
@@ -211741,6 +213269,13 @@ dcterms:RightsStatement
         martialis:teaches              <https://martial.is/entity/01M6A35T5EAVFWNWXV9GXJHMY4>;
         martialis:wasTaughtBy          <https://martial.is/entity/01M6A2JTJ16N3ES5BKGQSP1X1S> .
 
+<https://martial.is/entity/01M8CRJFWS067MG1ME54J7ZA5T/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "Adams says he first trained at the Budokwai at 16, which is 1974 or 1975 (Legends of Judo, 2024). He names senior judoka there but no teacher." .
+
 <https://martial.is/entity/01KXTSQXW6P83R31HCRY2PRTE5/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Wikimedia Foundation" .
@@ -212159,6 +213694,11 @@ dcterms:RightsStatement
         martialis:hasInteraction  <https://martial.is/entity/01M5HN921CCVRYV49MQHEJGFPH/hasInteraction/0>;
         martialis:role            <https://w3id.org/martialis/vocab/teacher-role/student>;
         martialis:teacher         <https://martial.is/entity/01M5HN921CNMBYQ69CPC1JKVVM> .
+
+<https://martial.is/entity/01M8EW1KJA6D42VA5HE5JE78M5/publisher>
+        rdf:type                martialis:Publisher;
+        schema:name             "British Judo Association";
+        martialis:publisherOrg  <https://martial.is/entity/01M7Q2SSTBKZ9C6JAGYK3M9T58> .
 
 <https://martial.is/entity/01M4R9845W91ZS4WWTB132JSNZ>
         rdf:type                 martialis:OfficerRole;
@@ -212905,6 +214445,12 @@ dcterms:RightsStatement
         prov:wasDerivedFrom    <https://martial.is/entity/01M6C13E8N9XJPMGPK31D6W0CX>;
         martialis:hasEvidence  <https://martial.is/entity/01M6C1R0057Z8FPA388J0FY8ZT/hasInteraction/0/hasEvidence/0> .
 
+<https://martial.is/entity/01M8EWHQFPY8K2A0ZEW4KXJSJ0/hasContributor/0>
+        rdf:type                   martialis:Contributor;
+        schema:familyName          "Pickering";
+        schema:givenName           "Mark";
+        martialis:contributorRole  "author" .
+
 <https://martial.is/entity/01M5JRHX02J2XG6EA61AEX8AQJ/publisher>
         rdf:type     martialis:Publisher;
         schema:name  "Wiktenauer" .
@@ -213569,6 +215115,22 @@ dcterms:RightsStatement
         martialis:evidenceType     <https://w3id.org/martialis/vocab/evidence-type/direct>;
         martialis:informationType  infotype:secondary;
         martialis:supports         true .
+
+<https://martial.is/entity/01M8CRJFWSF873DB6WP3VQ8R9R>
+        rdf:type                        martialis:Source;
+        schema:archivedAt               <https://en.wikipedia.org/w/index.php?title=Neil_Adams_(judoka)&oldid=1381241469>;
+        schema:description              "English Wikipedia article on Neil Adams."@en;
+        schema:inLanguage               "en";
+        schema:keywords                 "secondary-source";
+        schema:name                     "Neil Adams (judoka)";
+        schema:publisher                <https://martial.is/entity/01M8CRJFWSF873DB6WP3VQ8R9R/publisher>;
+        schema:url                      <https://en.wikipedia.org/wiki/Neil_Adams_(judoka)>;
+        martialis:accessed              "2026-11-26";
+        martialis:archiveDate           "2026-11-26";
+        martialis:partOf                <https://martial.is/entity/01M0DAPE2TQH2MRBECJBV2VK35>;
+        martialis:peerReview            <https://w3id.org/martialis/vocab/peer-review/not_peer_reviewed>;
+        martialis:sourceClassification  srcclass:authored;
+        martialis:sourceType            "entry-encyclopedia" .
 
 <https://martial.is/entity/01M5JCH27MR47ATF5NQF71F894/hasConfidence>
         rdf:type                       martialis:Confidence;
@@ -219997,6 +221559,13 @@ dcterms:identifier  rdf:type  owl:AnnotationProperty .
         martialis:sourceLocatorLabel  "page";
         martialis:supports            true .
 
+<https://martial.is/entity/01M8EW1KJAZX8NW7ENEGFVXGSD/hasConfidence>
+        rdf:type                       martialis:Confidence;
+        prov:wasAttributedTo           <https://martial.is/agent/FSM>;
+        martialis:assessedBy           <https://martial.is/agent/FSM>;
+        martialis:confidenceLevel      conflevel:probable;
+        martialis:confidenceRationale  "Adams's profile in Judo, September 1983, says he has no coach as such and is assisted by Kashiwazaki, Sweeney and Hoare at the Budokwai. Adams's side only, so probable." .
+
 <https://martial.is/entity/01M3YH7N5GWEJVJ84CVRZ9DKHT/hasEvidence/0>
         rdf:type                   martialis:SourceAssertionRelation;
         schema:citation            "Judo Channel";
@@ -222246,6 +223815,14 @@ dcterms:identifier  rdf:type  owl:AnnotationProperty .
         schema:address         "Oxford Road (now Oxford Street), Marylebone, adjoining the City of Oxford tavern";
         schema:location        <https://martial.is/entity/01M5JPY6FNBK5K3PX490ASR0W3/hasSite/0/location>;
         martialis:hasEvidence  <https://martial.is/entity/01M5JPY6FNBK5K3PX490ASR0W3/hasSite/0/hasEvidence/0> .
+
+<https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N/hasSite/0>
+        rdf:type               martialis:Site;
+        prov:wasDerivedFrom    <https://martial.is/entity/01M8ERRT3252WC253H9GCX1CD2>;
+        schema:address         "Hereward College Sports Centre, Bramston Crescent, Coventry, CV4 9SW";
+        schema:location        <https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N/hasSite/0/location>;
+        martialis:hasEvidence  <https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N/hasSite/0/hasEvidence/0>;
+        martialis:sitePeriod   <https://martial.is/entity/01M8CRT1PWDR4X7C5MYAJZFE0N/hasSite/0/sitePeriod> .
 
 <https://martial.is/entity/01M3YH7N5G00H2VNKQFVY7PPEP/hasConfidence>
         rdf:type                       martialis:Confidence;
